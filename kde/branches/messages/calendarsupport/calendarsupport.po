@@ -1,0 +1,7913 @@
+# translation of korganizer.po to
+# Copyright (C) 2004, 2006 Free Software Foundation, Inc.
+#
+# Mashrab Kuvatov <kmashrab@uni-bremen.de>, 2004, 2006.
+# Abdurahmonov Nurali <mavnur@gmail.com>, 2006.
+msgid ""
+msgstr ""
+"Project-Id-Version: korganizer\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2022-05-07 02:11+0000\n"
+"PO-Revision-Date: 2006-12-17 13:34+0000\n"
+"Last-Translator: Mashrab Kuvatov <kmashrab@uni-bremen.de>\n"
+"Language-Team: Uzbek <floss-uz-l10n@googlegroups.com>\n"
+"Language: uz\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: KBabel 1.11.4\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: archivedialog.cpp:42
+#, fuzzy, kde-format
+msgctxt "@title:window"
+msgid "Archive/Delete Past Events and To-dos"
+msgstr "Hodisani &oʻchirish"
+
+#: archivedialog.cpp:50
+#, fuzzy, kde-format
+#| msgid "&Archive"
+msgctxt "@action:button"
+msgid "&Archive"
+msgstr "&Arxivlash"
+
+#: archivedialog.cpp:62
+#, kde-kuit-format
+msgctxt "@info:whatsthis"
+msgid ""
+"Archiving saves old items into the given file and then deletes them in the "
+"current calendar. If the archive file already exists they will be added. "
+"(<link url=\"#\">How to restore</link>)"
+msgstr ""
+
+#: archivedialog.cpp:67
+#, kde-format
+msgctxt "@info:whatsthis"
+msgid ""
+"In order to add an archive to your calendar, use the Merge Calendar "
+"function. You can view an archive by opening it like you would any other "
+"calendar. It is not saved in a special format, but as vCalendar."
+msgstr ""
+
+#: archivedialog.cpp:82
+#, kde-format
+msgctxt "@option:radio"
+msgid "Archive now items older than:"
+msgstr ""
+
+#: archivedialog.cpp:83
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Enable one time archiving or purging of older items"
+msgstr ""
+
+#: archivedialog.cpp:85
+#, kde-format
+msgctxt "@info:whatsthis"
+msgid ""
+"If you check this box, events and to-dos older than the specified age will "
+"be archived or purged. The items will be archived unless the \"Delete only\" "
+"option is enabled; else the items will be purged and not saved."
+msgstr ""
+
+#: archivedialog.cpp:93
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Set the one time archiving cut-off date"
+msgstr ""
+
+#: archivedialog.cpp:95
+#, kde-format
+msgctxt "@info:whatsthis"
+msgid ""
+"The date before which items should be archived. All older events and to-dos "
+"will be saved and deleted, the newer (and events exactly on that date) will "
+"be kept."
+msgstr ""
+
+#: archivedialog.cpp:107
+#, kde-format
+msgctxt "@option:radio"
+msgid "Automaticall&y archive items older than:"
+msgstr ""
+
+#: archivedialog.cpp:108
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Enable automatic archiving or purging of older items"
+msgstr ""
+
+#: archivedialog.cpp:110
+#, kde-format
+msgctxt "@info:whatsthis"
+msgid ""
+"If this feature is enabled, the application will regularly check if events "
+"and to-dos have to be archived; this means you will not need to use this "
+"dialog box again, except to change the settings."
+msgstr ""
+
+#: archivedialog.cpp:123
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Set the archival age in days, weeks or months"
+msgstr ""
+
+#: archivedialog.cpp:125
+#, kde-format
+msgctxt "@info:whatsthis"
+msgid ""
+"The age of the events and to-dos to archive. All older items will be saved "
+"and deleted, the newer will be kept."
+msgstr ""
+
+#: archivedialog.cpp:130
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Set the units for the automatic archive age"
+msgstr ""
+
+#: archivedialog.cpp:131
+#, kde-format
+msgctxt "@info:whatsthis"
+msgid "Select the time units (days, weeks or months) for automatic archiving."
+msgstr ""
+
+#: archivedialog.cpp:133
+#, fuzzy, kde-format
+#| msgid "Day(s)"
+msgctxt "@item:inlistbox expires in daily units"
+msgid "Day(s)"
+msgstr "Kun"
+
+#: archivedialog.cpp:134
+#, fuzzy, kde-format
+#| msgid "Week(s)"
+msgctxt "@item:inlistbox expiration in weekly units"
+msgid "Week(s)"
+msgstr "Hafta"
+
+#: archivedialog.cpp:135
+#, fuzzy, kde-format
+#| msgid "Month(s)"
+msgctxt "@item:inlistbox expiration in monthly units"
+msgid "Month(s)"
+msgstr "Oy"
+
+#: archivedialog.cpp:140
+#, fuzzy, kde-format
+#| msgid "Archive &file:"
+msgctxt "@label"
+msgid "Archive &file:"
+msgstr "Ar&xiv fayli:"
+
+#: archivedialog.cpp:144
+#, fuzzy, kde-format
+#| msgid "*.ics|iCalendar Files"
+msgctxt "@label filter for KUrlRequester"
+msgid "*.ics|iCalendar Files"
+msgstr "*.ics|iCalendar fayllar"
+
+#: archivedialog.cpp:145
+#, fuzzy, kde-format
+msgctxt "@info:tooltip"
+msgid "Set the location of the archive"
+msgstr "Faqat tanlanganni koʻrsatish"
+
+#: archivedialog.cpp:147
+#, kde-format
+msgctxt "@info:whatsthis"
+msgid ""
+"The path of the archive file. The events and to-dos will be appended to the "
+"specified file, so any events that are already in the file will not be "
+"modified or deleted. You can later load or merge the file like any other "
+"calendar. It is not saved in a special format, it uses the iCalendar format."
+msgstr ""
+
+#: archivedialog.cpp:156
+#, kde-format
+msgctxt "@title:group"
+msgid "Type of Items to Archive"
+msgstr ""
+
+#: archivedialog.cpp:158
+#, kde-format
+msgctxt "@info:whatsthis"
+msgid ""
+"Here you can select which items should be archived. Events are archived if "
+"they ended before the date given above; to-dos are archived if they were "
+"finished before the date."
+msgstr ""
+
+#: archivedialog.cpp:166
+#, fuzzy, kde-format
+#| msgid "Archive events"
+msgctxt "@option:check"
+msgid "Archive &Events"
+msgstr "Hodisalarni arxivlash"
+
+#: archivedialog.cpp:167
+#, fuzzy, kde-format
+#| msgid "Archive events"
+msgctxt "@option:check"
+msgid "Archive or purge events"
+msgstr "Hodisalarni arxivlash"
+
+#: archivedialog.cpp:168
+#, kde-format
+msgctxt "@info:whatsthis"
+msgid ""
+"Select this option to archive events if they ended before the date given "
+"above."
+msgstr ""
+
+#: archivedialog.cpp:171
+#, fuzzy, kde-format
+#| msgid "Hide co&mpleted to-dos"
+msgctxt "@option:check"
+msgid "Archive Completed &To-dos"
+msgstr "Ba&jarilgan vazifalarni bekitish"
+
+#: archivedialog.cpp:172
+#, fuzzy, kde-format
+#| msgid "Hide co&mpleted to-dos"
+msgctxt "@option:check"
+msgid "Archive or purge completed to-dos"
+msgstr "Ba&jarilgan vazifalarni bekitish"
+
+#: archivedialog.cpp:174
+#, kde-format
+msgctxt "@info:whatsthis"
+msgid ""
+"Select this option to archive to-dos if they were completed before the date "
+"given above."
+msgstr ""
+
+#: archivedialog.cpp:178
+#, kde-format
+msgctxt "@option:check"
+msgid "&Delete only, do not save"
+msgstr ""
+
+#: archivedialog.cpp:179
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Purge the old items without saving them"
+msgstr ""
+
+#: archivedialog.cpp:181
+#, kde-format
+msgctxt "@info:whatsthis"
+msgid ""
+"Select this option to delete old events and to-dos without saving them. It "
+"is not possible to recover the events later."
+msgstr ""
+
+#: archivedialog.cpp:242
+#, kde-format
+msgctxt "@info"
+msgid "The archive file name is not valid."
+msgstr ""
+
+#: attachmenthandler.cpp:94
+#, kde-format
+msgid "No attachment named \"%1\" found in the incidence."
+msgstr ""
+
+#: attachmenthandler.cpp:105
+#, kde-format
+msgid ""
+"The attachment \"%1\" is a web link that is inaccessible from this computer. "
+msgstr ""
+
+#: attachmenthandler.cpp:121
+#, kde-format
+msgid ""
+"The calendar invitation stored in this email message is broken in some way. "
+"Unable to continue."
+msgstr ""
+
+#: attachmenthandler.cpp:178 attachmenthandler.cpp:232
+#, kde-format
+msgid "Unable to create a temporary file for the attachment."
+msgstr ""
+
+#: attachmenthandler.cpp:211
+#, fuzzy, kde-format
+#| msgid "Attach&ments"
+msgid "Save Attachment"
+msgstr "&Ilovalar"
+
+#: calendarutils.cpp:234
+#, kde-format
+msgctxt "@info"
+msgid "Unable to purge to-dos with uncompleted children."
+msgstr ""
+
+#: calendarutils.cpp:235
+#, fuzzy, kde-format
+#| msgid "Delete To-do"
+msgctxt "@title:window"
+msgid "Delete To-do"
+msgstr "Vazifani oʻchirish"
+
+#: categoryconfig.cpp:20
+#, fuzzy, kde-format
+#| msgid "Appointment"
+msgctxt "incidence category: appointment"
+msgid "Appointment"
+msgstr "Uchrashuv"
+
+#: categoryconfig.cpp:20
+#, kde-format
+msgctxt "incidence category"
+msgid "Business"
+msgstr ""
+
+#: categoryconfig.cpp:20
+#, fuzzy, kde-format
+#| msgid "Meeting"
+msgctxt "incidence category"
+msgid "Meeting"
+msgstr "Uchrashuv"
+
+#: categoryconfig.cpp:21
+#, fuzzy, kde-format
+#| msgid "Phone Call"
+msgctxt "incidence category: phone call"
+msgid "Phone Call"
+msgstr "Qoʻngʻiroq qilish"
+
+#: categoryconfig.cpp:21
+#, fuzzy, kde-format
+#| msgid "Education"
+msgctxt "incidence category"
+msgid "Education"
+msgstr "Taʼlim"
+
+#: categoryconfig.cpp:27
+#, fuzzy, kde-format
+#| msgid "Holiday"
+msgctxt ""
+"incidence category: official or unofficial observance of religious/national/"
+"cultural/other significance, often accompanied by celebrations or festivities"
+msgid "Holiday"
+msgstr "Dam olish"
+
+#: categoryconfig.cpp:32
+#, fuzzy, kde-format
+#| msgid "Education"
+msgctxt ""
+"incidence category: a lengthy time away from work or school, a trip abroad, "
+"or simply a pleasure trip away from home"
+msgid "Vacation"
+msgstr "Taʼlim"
+
+#: categoryconfig.cpp:37
+#, kde-format
+msgctxt ""
+"incidence category: examples: anniversary of historical or personal event; "
+"big date; remembrance, etc"
+msgid "Special Occasion"
+msgstr ""
+
+#: categoryconfig.cpp:38
+#, fuzzy, kde-format
+#| msgid "Personal"
+msgctxt "incidence category"
+msgid "Personal"
+msgstr "Shaxsiy"
+
+#: categoryconfig.cpp:43
+#, fuzzy, kde-format
+#| msgid "Travel"
+msgctxt ""
+"incidence category: typically associated with leaving home for business, and "
+"not pleasure"
+msgid "Travel"
+msgstr "Sayohat"
+
+#: categoryconfig.cpp:44
+#, kde-format
+msgctxt "incidence category"
+msgid "Miscellaneous"
+msgstr ""
+
+#: categoryconfig.cpp:44
+#, fuzzy, kde-format
+#| msgid "Birthday"
+msgctxt "incidence category"
+msgid "Birthday"
+msgstr "Tugʻilgan kun"
+
+#: cellitem.cpp:38
+#, kde-kuit-format
+msgid "<placeholder>undefined</placeholder>"
+msgstr ""
+
+#: eventarchiver.cpp:125
+#, kde-format
+msgid "There are no items before %1"
+msgstr "%1'dan oldin hech narsa yoʻq"
+
+#: eventarchiver.cpp:153
+#, kde-format
+msgid ""
+"Delete all items before %1 without saving?\n"
+"The following items will be deleted:"
+msgstr ""
+
+#: eventarchiver.cpp:157
+#, kde-format
+msgid "Delete Old Items"
+msgstr "Eski narsalarni olib tashlash"
+
+#: eventarchiver.cpp:267
+#, kde-format
+msgctxt "save failure cause unknown"
+msgid "Reason unknown"
+msgstr ""
+
+#: eventarchiver.cpp:269
+#, fuzzy, kde-format
+#| msgid "Cannot write archive file %1."
+msgid "Cannot write archive file %1. %2"
+msgstr "%1 arxiv faylini yozib boʻlmadi."
+
+#: eventarchiver.cpp:280
+#, fuzzy, kde-format
+#| msgid "Cannot write archive file %1."
+msgid "Cannot write archive. %1"
+msgstr "%1 arxiv faylini yozib boʻlmadi."
+
+#: eventarchiver.cpp:289
+#, fuzzy, kde-format
+#| msgid "Archive events"
+msgid "Archiving events"
+msgstr "Hodisalarni arxivlash"
+
+#: freebusymodel/freebusycalendar.cpp:110
+#, fuzzy, kde-format
+#| msgid "Free"
+msgid "Free"
+msgstr "Boʻsh"
+
+#: freebusymodel/freebusycalendar.cpp:113
+#, fuzzy, kde-format
+#| msgid "Busy"
+msgid "Busy"
+msgstr "Band"
+
+#: freebusymodel/freebusycalendar.cpp:116
+#, kde-format
+msgid "Unavailable"
+msgstr ""
+
+#: freebusymodel/freebusycalendar.cpp:119
+#, kde-format
+msgid "Tentative"
+msgstr ""
+
+#: freebusymodel/freebusycalendar.cpp:122
+#, fuzzy, kde-format
+#| msgid "Unknown"
+msgid "Unknown"
+msgstr "Nomaʼlum"
+
+#: freebusymodel/freebusyitemmodel.cpp:211
+#, fuzzy, kde-format
+#| msgid "Atte&ndees"
+msgid "Attendee"
+msgstr "&Qatnashuvchilar"
+
+#: freebusymodel/freeperiodmodel.cpp:124
+#, fuzzy, kde-format
+#| msgctxt "short_weekday date (e.g. Mon 13)"
+#| msgid "%1 %2"
+msgctxt "@label Day of the week name, example: Monday,"
+msgid "%1,"
+msgstr "%1 %2"
+
+#: freebusymodel/freeperiodmodel.cpp:141
+#, fuzzy, kde-format
+msgctxt ""
+"@label A time period duration. It is preceded/followed (based on the "
+"orientation) by the name of the week, see the message above. example: 12 "
+"June, 8:00am to 9:30am"
+msgid "%1 %2, %3 to %4"
+msgstr "%1 %2"
+
+#: freebusymodel/freeperiodmodel.cpp:162
+#, fuzzy, kde-format
+msgctxt ""
+"@label A time period duration. KLocale is used to format the components. "
+"example: Monday, 12 June, 8:00am to 9:30am"
+msgid "%1, %2 %3, %4 to %5"
+msgstr "%1 %2"
+
+#: freebusymodel/freeperiodmodel.cpp:176
+#, fuzzy, kde-format
+#| msgid "Working Hours"
+msgctxt "@info:tooltip"
+msgid "Free Period"
+msgstr "Ish vaqti"
+
+#: freebusymodel/freeperiodmodel.cpp:178
+#, fuzzy, kde-format
+#| msgid "&Start:"
+msgctxt "@info:tooltip period start time"
+msgid "Start:"
+msgstr "&Boshi:"
+
+#: freebusymodel/freeperiodmodel.cpp:181
+#, fuzzy, kde-format
+#| msgid "&End:"
+msgctxt "@info:tooltip period end time"
+msgid "End:"
+msgstr "&Oxiri:"
+
+#: freebusymodel/freeperiodmodel.cpp:184
+#, fuzzy, kde-format
+#| msgid "Duration: "
+msgctxt "@info:tooltip period duration"
+msgid "Duration:"
+msgstr "Davom etishi: "
+
+#. i18n: ectx: label, entry (EmailControlCenter), group (Personal Settings)
+#: kcalprefs.kcfg:15
+#, kde-format
+msgid "Use email settings from System Settings"
+msgstr ""
+
+#. i18n: ectx: whatsthis, entry (EmailControlCenter), group (Personal Settings)
+#: kcalprefs.kcfg:16
+#, kde-format
+msgid ""
+"Check this box to use the KDE-wide e-mail settings, which are defined using "
+"the System Settings \"About Me\" Module. Uncheck this box to be able to "
+"specify your full name and e-mail."
+msgstr ""
+
+#. i18n: ectx: label, entry (StartTime), group (Default Datetimes)
+#: kcalprefs.kcfg:24
+#, kde-format
+msgid "Default appointment time"
+msgstr "Andoza uchrashuv vaqti"
+
+#. i18n: ectx: whatsthis, entry (StartTime), group (Default Datetimes)
+#: kcalprefs.kcfg:25
+#, kde-format
+msgid ""
+"Enter the default time for events here. The default is used if you do not "
+"supply a start time."
+msgstr ""
+
+#. i18n: ectx: label, entry (DefaultDuration), group (Default Datetimes)
+#: kcalprefs.kcfg:30
+#, kde-format
+msgid "Default duration of new appointment (HH:MM)"
+msgstr "Yangi uchrashuvning andoza davom etish vaqti (SS:DD)"
+
+#. i18n: ectx: whatsthis, entry (DefaultDuration), group (Default Datetimes)
+#: kcalprefs.kcfg:31
+#, kde-format
+msgid ""
+"Enter default duration for events here. The default is used if you do not "
+"supply an end time."
+msgstr ""
+
+#. i18n: ectx: label, entry (defaultAudioFileReminders), group (Default Datetimes)
+#: kcalprefs.kcfg:36
+#, fuzzy, kde-format
+#| msgid "Default reminder time:"
+msgid "Enable a default sound file for audio reminders"
+msgstr "Andoza esga solish vaqti:"
+
+#. i18n: ectx: whatsthis, entry (defaultAudioFileReminders), group (Default Datetimes)
+#: kcalprefs.kcfg:37
+#, kde-format
+msgid ""
+"Check this box if you want to enable the specified file to be used as the "
+"default sound file for new reminders. You can always specify another file in "
+"the Reminder configuration accessible from the Event or To-do editors."
+msgstr ""
+
+#. i18n: ectx: label, entry (audioFilePath), group (Default Datetimes)
+#: kcalprefs.kcfg:42
+#, fuzzy, kde-format
+#| msgid "Default Calendar"
+msgid "Default audio file"
+msgstr "Andoza kalendar"
+
+#. i18n: ectx: whatsthis, entry (audioFilePath), group (Default Datetimes)
+#: kcalprefs.kcfg:43
+#, kde-format
+msgid ""
+"Set a file to be used as the default sound file for new reminders. You can "
+"always specify another file in the Reminder configuration accessible from "
+"the Event or To-do editors."
+msgstr ""
+
+#. i18n: ectx: label, entry (defaultEventReminders), group (Default Datetimes)
+#: kcalprefs.kcfg:47
+#, fuzzy, kde-format
+#| msgid "Edit Reminders"
+msgid "Enable reminders for new Events"
+msgstr "Esga solishni tahrirlash"
+
+#. i18n: ectx: whatsthis, entry (defaultEventReminders), group (Default Datetimes)
+#: kcalprefs.kcfg:48
+#, kde-format
+msgid ""
+"Check this box if you want to enable reminders for all newly created Events. "
+"You can always turn-off the reminders in the Event editor dialog."
+msgstr ""
+
+#. i18n: ectx: tooltip, entry (defaultEventReminders), group (Default Datetimes)
+#: kcalprefs.kcfg:49
+#, fuzzy, kde-format
+#| msgid "Edit Reminders"
+msgid "By default, enable reminders for new events"
+msgstr "Esga solishni tahrirlash"
+
+#. i18n: ectx: label, entry (defaultTodoReminders), group (Default Datetimes)
+#: kcalprefs.kcfg:54
+#, fuzzy, kde-format
+#| msgid "Edit Reminders"
+msgid "Enable reminders for new To-dos"
+msgstr "Esga solishni tahrirlash"
+
+#. i18n: ectx: whatsthis, entry (defaultTodoReminders), group (Default Datetimes)
+#: kcalprefs.kcfg:55
+#, kde-format
+msgid ""
+"Check this box if you want to enable reminders for all newly created To-dos. "
+"You can always turn-off the reminders in the To-do editor dialog."
+msgstr ""
+
+#. i18n: ectx: tooltip, entry (defaultTodoReminders), group (Default Datetimes)
+#: kcalprefs.kcfg:56
+#, fuzzy, kde-format
+#| msgid "Edit Reminders"
+msgid "By default, enable reminders for new to-dos"
+msgstr "Esga solishni tahrirlash"
+
+#. i18n: ectx: label, entry (ReminderTime), group (Default Datetimes)
+#: kcalprefs.kcfg:62
+#, fuzzy, kde-format
+#| msgid "Default reminder time:"
+msgid "Default reminder time"
+msgstr "Andoza esga solish vaqti:"
+
+#. i18n: ectx: whatsthis, entry (ReminderTime), group (Default Datetimes)
+#: kcalprefs.kcfg:63
+#, kde-format
+msgid ""
+"Enter the default reminder time for all newly created items. The time unit "
+"is specified in the adjacent combobox."
+msgstr ""
+
+#. i18n: ectx: tooltip, entry (ReminderTime), group (Default Datetimes)
+#: kcalprefs.kcfg:64
+#, fuzzy, kde-format
+#| msgid "Default reminder time:"
+msgid "Default time for reminders"
+msgstr "Andoza esga solish vaqti:"
+
+#. i18n: ectx: whatsthis, entry (ReminderTimeUnits), group (Default Datetimes)
+#: kcalprefs.kcfg:69
+#, kde-format
+msgid ""
+"Enter the default reminder time units for all newly created items. The time "
+"is specified in the adjacent spinbox."
+msgstr ""
+
+#. i18n: ectx: tooltip, entry (ReminderTimeUnits), group (Default Datetimes)
+#: kcalprefs.kcfg:70
+#, fuzzy, kde-format
+#| msgid "Default reminder time:"
+msgid "Default time unit for reminders"
+msgstr "Andoza esga solish vaqti:"
+
+#. i18n: ectx: label, entry (DayBegins), group (Time &amp; Date)
+#: kcalprefs.kcfg:78
+#, kde-format
+msgid "Day begins at"
+msgstr ""
+
+#. i18n: ectx: whatsthis, entry (DayBegins), group (Time &amp; Date)
+#: kcalprefs.kcfg:79
+#, kde-format
+msgid ""
+"Enter the start time for events here. This time should be the earliest time "
+"that you use for events."
+msgstr ""
+
+#. i18n: ectx: label, entry, group (Time &amp; Date)
+#: kcalprefs.kcfg:84
+#, kde-format
+msgid "Exclude holidays"
+msgstr ""
+
+#. i18n: ectx: whatsthis, entry, group (Time &amp; Date)
+#: kcalprefs.kcfg:85
+#, kde-format
+msgid ""
+"Check this box to prevent KOrganizer from marking the working hours on "
+"holidays."
+msgstr ""
+
+#. i18n: ectx: label, entry (Holidays), group (Time &amp; Date)
+#: kcalprefs.kcfg:90
+#, kde-format
+msgid "Use holiday regions:"
+msgstr ""
+
+#. i18n: ectx: whatsthis, entry (Holidays), group (Time &amp; Date)
+#: kcalprefs.kcfg:91
+#, kde-format
+msgid ""
+"Select which regions you want to use the holidays here. Defined holidays are "
+"shown as non-working days in the date navigator, the agenda view, etc."
+msgstr ""
+
+#. i18n: ectx: label, entry, group (Group Scheduling)
+#: kcalprefs.kcfg:98
+#, kde-format
+msgid "Use Groupware communication"
+msgstr ""
+
+#. i18n: ectx: whatsthis, entry, group (Group Scheduling)
+#: kcalprefs.kcfg:99
+#, kde-format
+msgid ""
+"Check this box to enable automatic generation of mails when creating, "
+"updating or deleting events (or to-dos) involving other attendees. You "
+"should check this box if you want to use the groupware functionality (e.g. "
+"Configuring Kontact as a KDE Kolab client)."
+msgstr ""
+
+#. i18n: ectx: label, entry (SendPolicy), group (Group Scheduling)
+#: kcalprefs.kcfg:104
+#, kde-format
+msgid "Default policy for invitations to other users:"
+msgstr ""
+
+#. i18n: ectx: label, entry (SendPolicy), group (Group Scheduling)
+#: kcalprefs.kcfg:107
+#, kde-format
+msgid "Send mails without asking."
+msgstr ""
+
+#. i18n: ectx: label, entry (SendPolicy), group (Group Scheduling)
+#: kcalprefs.kcfg:110
+#, kde-format
+msgid "Ask for every individual attendee what to do."
+msgstr ""
+
+#. i18n: ectx: label, entry (SendPolicy), group (Group Scheduling)
+#: kcalprefs.kcfg:113
+#, kde-format
+msgid ""
+"Do not send invitation emails at all (this can break group scheduling for "
+"iTip compliant clients)."
+msgstr ""
+
+#. i18n: ectx: label, entry (ShowTimeZoneSelectorInIncidenceEditor), group (Hidden Options)
+#: kcalprefs.kcfg:126
+#, kde-format
+msgid "Show timezone selectors in the event and todo editor dialog."
+msgstr ""
+
+#. i18n: ectx: label, entry, group (Archive Dialog)
+#: kcalprefs.kcfg:134
+#, fuzzy, kde-format
+#| msgid "Archive events"
+msgid "Regularly archive events"
+msgstr "Hodisalarni arxivlash"
+
+#. i18n: ectx: label, entry, group (Archive Dialog)
+#: kcalprefs.kcfg:139
+#, kde-format
+msgid ""
+"If auto-archiving is enabled, events older than this amount will be "
+"archived. The unit of this value is specified in another field."
+msgstr ""
+
+#. i18n: ectx: label, entry (ExpiryUnit), group (Archive Dialog)
+#: kcalprefs.kcfg:144
+#, kde-format
+msgid "The unit in which the expiry time is expressed."
+msgstr ""
+
+#. i18n: ectx: label, entry (ExpiryUnit), group (Archive Dialog)
+#: kcalprefs.kcfg:147
+#, kde-format
+msgid "In days"
+msgstr "Kunlarda"
+
+#. i18n: ectx: label, entry (ExpiryUnit), group (Archive Dialog)
+#: kcalprefs.kcfg:150
+#, kde-format
+msgid "In weeks"
+msgstr "Haftalarda"
+
+#. i18n: ectx: label, entry (ExpiryUnit), group (Archive Dialog)
+#: kcalprefs.kcfg:153
+#, kde-format
+msgid "In months"
+msgstr "Oylarda"
+
+#. i18n: ectx: label, entry, group (Archive Dialog)
+#: kcalprefs.kcfg:160
+#, kde-format
+msgid "URL of the file where old events should be archived"
+msgstr ""
+
+#. i18n: ectx: label, entry, group (Archive Dialog)
+#: kcalprefs.kcfg:164
+#, kde-format
+msgid "Archive events"
+msgstr "Hodisalarni arxivlash"
+
+#. i18n: ectx: label, entry, group (Archive Dialog)
+#: kcalprefs.kcfg:169
+#, kde-format
+msgid "Archive to-dos"
+msgstr "Vazifalarni arxivlash"
+
+#. i18n: ectx: label, entry, group (Archive Dialog)
+#: kcalprefs.kcfg:174
+#, kde-format
+msgid "What to do when archiving"
+msgstr ""
+
+#. i18n: ectx: label, entry, group (Archive Dialog)
+#: kcalprefs.kcfg:177
+#, fuzzy, kde-format
+#| msgid "&Delete Event"
+msgid "Delete old events"
+msgstr "Hodisani &oʻchirish"
+
+#. i18n: ectx: label, entry, group (Archive Dialog)
+#: kcalprefs.kcfg:180
+#, kde-format
+msgid "Archive old events to a separate file"
+msgstr ""
+
+#. i18n: ectx: label, entry (UserName), group (Internal Settings)
+#: kcalprefs.kcfg:194
+#, kde-format
+msgid "Full &name"
+msgstr "Toʻliq &ismi"
+
+#. i18n: ectx: whatsthis, entry (UserName), group (Internal Settings)
+#: kcalprefs.kcfg:195
+#, kde-format
+msgid ""
+"Enter your full name here. This name will be displayed as \"Organizer\" in "
+"to-dos and events you create."
+msgstr ""
+
+#: kcalprefs.kcfg:196
+#, kde-format
+msgid "Anonymous"
+msgstr ""
+
+#. i18n: ectx: label, entry (UserEmail), group (Internal Settings)
+#: kcalprefs.kcfg:200
+#, kde-format
+msgid "E&mail address"
+msgstr "Elektron p&ochta"
+
+#. i18n: ectx: whatsthis, entry (UserEmail), group (Internal Settings)
+#: kcalprefs.kcfg:201
+#, kde-format
+msgid ""
+"Enter here your e-mail address. This e-mail address will be used to identify "
+"the owner of the calendar, and displayed in events and to-dos you create."
+msgstr ""
+
+#: kcalprefs.kcfg:202
+#, kde-format
+msgid "nobody@nowhere"
+msgstr ""
+
+#. i18n: ectx: label, entry, group (Colors)
+#: kcalprefs.kcfg:220
+#, kde-format
+msgid "\"No tag\" color (for \"Only tag\" drawing schemes)"
+msgstr ""
+
+#. i18n: ectx: whatsthis, entry, group (Colors)
+#: kcalprefs.kcfg:221
+#, kde-format
+msgid ""
+"Select a color to use for the \"no tag\" or \"unset tag\" situation, when an "
+"item does not have any tags.  This color is used when drawing items in the "
+"agenda or month views using the \"Only tag\" scheme."
+msgstr ""
+
+#. i18n: ectx: tooltip, entry, group (Colors)
+#: kcalprefs.kcfg:222
+#, kde-format
+msgid "Use this color when drawing items without any tags"
+msgstr ""
+
+#: kdatepickerpopup.cpp:89
+#, fuzzy, kde-format
+#| msgid "day"
+msgctxt "@option today"
+msgid "&Today"
+msgstr "kun"
+
+#: kdatepickerpopup.cpp:92
+#, kde-format
+msgctxt "@option tomorrow"
+msgid "To&morrow"
+msgstr ""
+
+#: kdatepickerpopup.cpp:95
+#, fuzzy, kde-format
+#| msgid "&Next Week"
+msgctxt "@option next week"
+msgid "Next &Week"
+msgstr "Keyingi &hafta"
+
+#: kdatepickerpopup.cpp:98
+#, fuzzy, kde-format
+#| msgid "Next month"
+msgctxt "@option next month"
+msgid "Next M&onth"
+msgstr "Kelasi oy"
+
+#: kdatepickerpopup.cpp:108
+#, fuzzy, kde-format
+#| msgid "&Date:"
+msgctxt "@option do not specify a date"
+msgid "No Date"
+msgstr "Sa&na:"
+
+#: noteeditdialog.cpp:33
+#, fuzzy, kde-format
+#| msgid "Click to add a new to-do"
+msgctxt "@title:window"
+msgid "Create Note"
+msgstr "Yangi vazifa qoʻshish uchun bosing"
+
+#: noteeditdialog.cpp:42
+#, fuzzy, kde-format
+msgctxt "@action:button"
+msgid "Cancel"
+msgstr "Oʻz&gartirish"
+
+#: noteeditdialog.cpp:48
+#, fuzzy, kde-format
+#| msgid "Travel"
+msgctxt "@action:button"
+msgid "Save"
+msgstr "Sayohat"
+
+#: noteeditdialog.cpp:70
+#, fuzzy, kde-format
+#| msgid "Sets the Title of this event or to-do."
+msgctxt "@info"
+msgid "Calendar where the new note will be stored."
+msgstr "Ushbu hodisa yoki vazifa sarlavhasini moslash."
+
+#: noteeditdialog.cpp:72
+#, fuzzy, kde-format
+#| msgid "Sets the Title of this event or to-do."
+msgctxt "@info:tooltip"
+msgid "Calendar where the new note will be stored."
+msgstr "Ushbu hodisa yoki vazifa sarlavhasini moslash."
+
+#: noteeditdialog.cpp:85
+#, fuzzy, kde-format
+#| msgid "&Title:"
+msgctxt "@label specify the title for this note"
+msgid "Title:"
+msgstr "Sa&rlavha:"
+
+#: noteeditdialog.cpp:90
+#, kde-format
+msgctxt "@label specify the text for this note"
+msgid "Text:"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: printing/calprintdayconfig_base.ui:17
+#, kde-format
+msgid ""
+"<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css"
+"\">\n"
+"p, li { white-space: pre-wrap; }\n"
+"</style></head><body style=\" font-family:'Sans Serif'; font-size:9pt; font-"
+"weight:400; font-style:normal;\">\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+"right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-"
+"weight:600;\">Print day options:</span></p></body></html>"
+msgstr ""
+
+#. i18n: ectx: property (title), widget (QGroupBox, mDateRangeGroup)
+#: printing/calprintdayconfig_base.ui:24
+#: printing/calprintjournalconfig_base.ui:24
+#: printing/calprintmonthconfig_base.ui:24
+#: printing/calprintweekconfig_base.ui:24
+#, kde-format
+msgid "Date && Time Range"
+msgstr "Sana va vaqt oraligʻi"
+
+#. i18n: ectx: property (toolTip), widget (QLabel, mFromDateLabel)
+#. i18n: ectx: property (toolTip), widget (KDateComboBox, mFromDate)
+#: printing/calprintdayconfig_base.ui:30 printing/calprintdayconfig_base.ui:49
+#: printing/calprintjournalconfig_base.ui:71
+#: printing/calprintjournalconfig_base.ui:90
+#: printing/calprinttodoconfig_base.ui:105
+#: printing/calprinttodoconfig_base.ui:127
+#: printing/calprintweekconfig_base.ui:30
+#: printing/calprintweekconfig_base.ui:49
+#, fuzzy, kde-format
+#| msgid "Sets the Title of this event or to-do."
+msgid "Starting date for the print"
+msgstr "Ushbu hodisa yoki vazifa sarlavhasini moslash."
+
+#. i18n: ectx: property (whatsThis), widget (QLabel, mFromDateLabel)
+#. i18n: ectx: property (whatsThis), widget (KDateComboBox, mFromDate)
+#: printing/calprintdayconfig_base.ui:33 printing/calprintdayconfig_base.ui:52
+#: printing/calprintjournalconfig_base.ui:74
+#: printing/calprintjournalconfig_base.ui:93
+#: printing/calprinttodoconfig_base.ui:108
+#: printing/calprinttodoconfig_base.ui:130
+#: printing/calprintweekconfig_base.ui:33
+#: printing/calprintweekconfig_base.ui:52
+#, kde-format
+msgid ""
+"If you want to print more days at once, you can define a range of dates with "
+"this option and the <i>End date</i> option. This option is used to define "
+"the start date."
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, mFromDateLabel)
+#: printing/calprintdayconfig_base.ui:36
+#: printing/calprintjournalconfig_base.ui:77
+#: printing/calprinttodoconfig_base.ui:111
+#: printing/calprintweekconfig_base.ui:36
+#, kde-format
+msgid "&Start date:"
+msgstr "&Boshlash kuni:"
+
+#. i18n: ectx: property (text), item, widget (KDateComboBox, mFromDate)
+#. i18n: ectx: property (text), item, widget (KDateComboBox, mToDate)
+#: printing/calprintdayconfig_base.ui:56 printing/calprintdayconfig_base.ui:136
+#: printing/calprinttodoconfig_base.ui:134
+#: printing/calprinttodoconfig_base.ui:171
+#: printing/calprintweekconfig_base.ui:56
+#: printing/calprintweekconfig_base.ui:136
+#, kde-format
+msgid "2009-01-19"
+msgstr ""
+
+#. i18n: ectx: property (toolTip), widget (QLabel, mFromTimeLabel)
+#. i18n: ectx: property (toolTip), widget (QTimeEdit, mFromTime)
+#: printing/calprintdayconfig_base.ui:64 printing/calprintdayconfig_base.ui:80
+#: printing/calprintweekconfig_base.ui:64
+#: printing/calprintweekconfig_base.ui:80
+#, fuzzy, kde-format
+#| msgid "Sets the Title of this event or to-do."
+msgid "Starting time for the print"
+msgstr "Ushbu hodisa yoki vazifa sarlavhasini moslash."
+
+#. i18n: ectx: property (whatsThis), widget (QLabel, mFromTimeLabel)
+#. i18n: ectx: property (whatsThis), widget (QTimeEdit, mFromTime)
+#: printing/calprintdayconfig_base.ui:67 printing/calprintdayconfig_base.ui:83
+#: printing/calprintweekconfig_base.ui:67
+#: printing/calprintweekconfig_base.ui:83
+#, kde-format
+msgid ""
+"It is possible to print only those events which are inside a given time "
+"range. With this time selection box you can define the start of this time "
+"range. The end time should be defined with the <i>End time</i> option. Note "
+"you can automatically modify these settings if you check <i>Extend time "
+"range to include all events</i>."
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, mFromTimeLabel)
+#: printing/calprintdayconfig_base.ui:70 printing/calprintweekconfig_base.ui:70
+#, kde-format
+msgid "Start &time:"
+msgstr "Boshlash &vaqti:"
+
+#. i18n: ectx: property (displayFormat), widget (QTimeEdit, mFromTime)
+#. i18n: ectx: property (displayFormat), widget (QTimeEdit, mToTime)
+#: printing/calprintdayconfig_base.ui:86 printing/calprintdayconfig_base.ui:166
+#: printing/calprintweekconfig_base.ui:86
+#: printing/calprintweekconfig_base.ui:166
+#, kde-format
+msgid "hh:mm"
+msgstr ""
+
+#. i18n: ectx: property (toolTip), widget (QLabel, mToDateLabel)
+#. i18n: ectx: property (toolTip), widget (KDateComboBox, mToDate)
+#: printing/calprintdayconfig_base.ui:110
+#: printing/calprintdayconfig_base.ui:129
+#: printing/calprintjournalconfig_base.ui:100
+#: printing/calprintjournalconfig_base.ui:119
+#: printing/calprinttodoconfig_base.ui:142
+#: printing/calprinttodoconfig_base.ui:164
+#: printing/calprintweekconfig_base.ui:110
+#: printing/calprintweekconfig_base.ui:129
+#, fuzzy, kde-format
+#| msgid "Sets the Title of this event or to-do."
+msgid "Ending date for the print"
+msgstr "Ushbu hodisa yoki vazifa sarlavhasini moslash."
+
+#. i18n: ectx: property (whatsThis), widget (QLabel, mToDateLabel)
+#. i18n: ectx: property (whatsThis), widget (KDateComboBox, mToDate)
+#: printing/calprintdayconfig_base.ui:113
+#: printing/calprintdayconfig_base.ui:132
+#: printing/calprintjournalconfig_base.ui:103
+#: printing/calprintjournalconfig_base.ui:122
+#: printing/calprinttodoconfig_base.ui:145
+#: printing/calprinttodoconfig_base.ui:167
+#: printing/calprintweekconfig_base.ui:113
+#: printing/calprintweekconfig_base.ui:132
+#, kde-format
+msgid ""
+"If you want to print more days at once, you can define a range of dates with "
+"this option and the <i>Start date</i> option. This option is used to define "
+"the end date."
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, mToDateLabel)
+#: printing/calprintdayconfig_base.ui:116
+#: printing/calprintjournalconfig_base.ui:106
+#: printing/calprinttodoconfig_base.ui:148
+#: printing/calprintweekconfig_base.ui:116
+#, kde-format
+msgid "&End date:"
+msgstr "&Tugash kuni:"
+
+#. i18n: ectx: property (toolTip), widget (QLabel, mToTimeLabel)
+#. i18n: ectx: property (toolTip), widget (QTimeEdit, mToTime)
+#: printing/calprintdayconfig_base.ui:144
+#: printing/calprintdayconfig_base.ui:160
+#: printing/calprintweekconfig_base.ui:144
+#: printing/calprintweekconfig_base.ui:160
+#, fuzzy, kde-format
+#| msgid "Sets the Title of this event or to-do."
+msgid "Ending time for the print"
+msgstr "Ushbu hodisa yoki vazifa sarlavhasini moslash."
+
+#. i18n: ectx: property (whatsThis), widget (QLabel, mToTimeLabel)
+#. i18n: ectx: property (whatsThis), widget (QTimeEdit, mToTime)
+#: printing/calprintdayconfig_base.ui:147
+#: printing/calprintdayconfig_base.ui:163
+#: printing/calprintweekconfig_base.ui:147
+#: printing/calprintweekconfig_base.ui:163
+#, kde-format
+msgid ""
+"It is possible to print only those events which are inside a given time "
+"range. With this time selection box you can define the end of this time "
+"range. The start time should be defined with the <i>Start time</i> option. "
+"Note you can automatically modify these settings if you check <i>Extend time "
+"range to include all events</i>."
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, mToTimeLabel)
+#: printing/calprintdayconfig_base.ui:150
+#: printing/calprintweekconfig_base.ui:150
+#, kde-format
+msgid "End ti&me:"
+msgstr "Tu&gash vaqti:"
+
+#. i18n: ectx: property (toolTip), widget (QCheckBox, mIncludeAllEvents)
+#: printing/calprintdayconfig_base.ui:190
+#: printing/calprintweekconfig_base.ui:190
+#, kde-format
+msgid ""
+"Check this option to automatically determine the required time range, so all "
+"events will be shown."
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QCheckBox, mIncludeAllEvents)
+#: printing/calprintdayconfig_base.ui:193
+#: printing/calprintweekconfig_base.ui:193
+#, kde-format
+msgid "E&xtend time range to include all events"
+msgstr ""
+
+#. i18n: ectx: property (title), widget (QGroupBox, mPrintType)
+#: printing/calprintdayconfig_base.ui:203
+#: printing/calprintweekconfig_base.ui:203
+#, fuzzy, kde-format
+msgid "Print Layout"
+msgstr "Oldingi oy"
+
+#. i18n: ectx: property (toolTip), widget (QRadioButton, mPrintTypeFilofax)
+#: printing/calprintdayconfig_base.ui:209
+#: printing/calprintweekconfig_base.ui:209
+#, kde-format
+msgid ""
+"The Filofax format prints the information for the days selected without a "
+"timeline."
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QRadioButton, mPrintTypeFilofax)
+#: printing/calprintdayconfig_base.ui:212
+#, kde-format
+msgid "Print date &range as Filofax format, all on one page"
+msgstr ""
+
+#. i18n: ectx: property (toolTip), widget (QRadioButton, mPrintTypeTimetable)
+#: printing/calprintdayconfig_base.ui:219
+#: printing/calprintweekconfig_base.ui:219
+#, kde-format
+msgid "The timetable print view has the times to the left of the page."
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QRadioButton, mPrintTypeTimetable)
+#: printing/calprintdayconfig_base.ui:222
+#, kde-format
+msgid "Print as timeta&ble view, one page per day"
+msgstr ""
+
+#. i18n: ectx: property (toolTip), widget (QRadioButton, mPrintTypeSingleTimetable)
+#: printing/calprintdayconfig_base.ui:229
+#, kde-format
+msgid ""
+"The timetable print view has the times to the left of the page. All days are "
+"printed as columns in one big timetable."
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QRadioButton, mPrintTypeSingleTimetable)
+#: printing/calprintdayconfig_base.ui:232
+#, kde-format
+msgid "Print as timetable view, all da&ys on a single page"
+msgstr ""
+
+#. i18n: ectx: property (title), widget (QGroupBox, mSecurity)
+#: printing/calprintdayconfig_base.ui:242
+#: printing/calprintjournalconfig_base.ui:144
+#: printing/calprintmonthconfig_base.ui:118
+#: printing/calprinttodoconfig_base.ui:194
+#: printing/calprintweekconfig_base.ui:242
+#: printing/calprintyearconfig_base.ui:70
+#, kde-format
+msgid "Security Exclusions"
+msgstr ""
+
+#. i18n: ectx: property (toolTip), widget (QCheckBox, mExcludeConfidential)
+#: printing/calprintdayconfig_base.ui:248
+#: printing/calprintjournalconfig_base.ui:150
+#: printing/calprintmonthconfig_base.ui:124
+#: printing/calprinttodoconfig_base.ui:200
+#: printing/calprintweekconfig_base.ui:248
+#: printing/calprintyearconfig_base.ui:76
+#, kde-format
+msgid ""
+"Check this option to exclude items that have their Access level set to "
+"&#8220;Confidential&#8221;"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QCheckBox, mExcludeConfidential)
+#: printing/calprintdayconfig_base.ui:251
+#: printing/calprintjournalconfig_base.ui:153
+#: printing/calprintmonthconfig_base.ui:127
+#: printing/calprinttodoconfig_base.ui:203
+#: printing/calprintweekconfig_base.ui:251
+#: printing/calprintyearconfig_base.ui:79
+#, kde-format
+msgid "Exclude c&onfidential"
+msgstr ""
+
+#. i18n: ectx: property (toolTip), widget (QCheckBox, mExcludePrivate)
+#: printing/calprintdayconfig_base.ui:258
+#: printing/calprintjournalconfig_base.ui:160
+#: printing/calprintmonthconfig_base.ui:134
+#: printing/calprinttodoconfig_base.ui:210
+#: printing/calprintweekconfig_base.ui:258
+#: printing/calprintyearconfig_base.ui:86
+#, kde-format
+msgid ""
+"Check this option to exclude items that have their Access level set to "
+"&#8220;Private&#8221;"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QCheckBox, mExcludePrivate)
+#: printing/calprintdayconfig_base.ui:261
+#: printing/calprintjournalconfig_base.ui:163
+#: printing/calprintmonthconfig_base.ui:137
+#: printing/calprinttodoconfig_base.ui:213
+#: printing/calprintweekconfig_base.ui:261
+#: printing/calprintyearconfig_base.ui:89
+#, kde-format
+msgid "Exclude pri&vate"
+msgstr ""
+
+#. i18n: ectx: property (title), widget (QGroupBox, mIncludeInfoGroup)
+#. i18n: ectx: property (title), widget (QGroupBox, includeInfoBox)
+#: printing/calprintdayconfig_base.ui:271
+#: printing/calprintincidenceconfig_base.ui:24
+#: printing/calprintmonthconfig_base.ui:147
+#: printing/calprinttodoconfig_base.ui:223
+#: printing/calprintweekconfig_base.ui:271
+#, fuzzy, kde-format
+#| msgid "Server Information"
+msgid "Include Information"
+msgstr "Server haqida maʼlumot"
+
+#. i18n: ectx: property (toolTip), widget (QCheckBox, mIncludeDescription)
+#. i18n: ectx: property (toolTip), widget (QCheckBox, mDescription)
+#: printing/calprintdayconfig_base.ui:277
+#: printing/calprintmonthconfig_base.ui:153
+#: printing/calprinttodoconfig_base.ui:232
+#: printing/calprintweekconfig_base.ui:277
+#, fuzzy, kde-format
+#| msgid "&Description"
+msgid "Print item descriptions"
+msgstr "&Taʼrifi"
+
+#. i18n: ectx: property (whatsThis), widget (QCheckBox, mIncludeDescription)
+#. i18n: ectx: property (whatsThis), widget (QCheckBox, mDescription)
+#: printing/calprintdayconfig_base.ui:280
+#: printing/calprintmonthconfig_base.ui:156
+#: printing/calprinttodoconfig_base.ui:235
+#: printing/calprintweekconfig_base.ui:280
+#, fuzzy, kde-format
+msgid "Check this option if you want to see the item descriptions printed."
+msgstr "Faqat tanlanganni koʻrsatish"
+
+#. i18n: ectx: property (text), widget (QCheckBox, mIncludeDescription)
+#. i18n: ectx: property (text), widget (QCheckBox, mDescription)
+#: printing/calprintdayconfig_base.ui:283
+#: printing/calprintmonthconfig_base.ui:159
+#: printing/calprinttodoconfig_base.ui:238
+#: printing/calprintweekconfig_base.ui:283
+#, fuzzy, kde-format
+#| msgid "&Description"
+msgid "&Descriptions"
+msgstr "&Taʼrifi"
+
+#. i18n: ectx: property (toolTip), widget (QCheckBox, mIncludeCategories)
+#. i18n: ectx: property (toolTip), widget (QCheckBox, mCategories)
+#: printing/calprintdayconfig_base.ui:290
+#: printing/calprintmonthconfig_base.ui:166
+#: printing/calprinttodoconfig_base.ui:245
+#: printing/calprintweekconfig_base.ui:290
+#, fuzzy, kde-format
+#| msgid "Print to-&dos"
+msgid "Print item tags"
+msgstr "Vazifalarni &bosib chiqarish"
+
+#. i18n: ectx: property (whatsThis), widget (QCheckBox, mIncludeCategories)
+#. i18n: ectx: property (whatsThis), widget (QCheckBox, mCategories)
+#: printing/calprintdayconfig_base.ui:293
+#: printing/calprintmonthconfig_base.ui:169
+#: printing/calprinttodoconfig_base.ui:248
+#: printing/calprintweekconfig_base.ui:293
+#, fuzzy, kde-format
+msgid "Check this option if you want to see the item tags printed."
+msgstr "Faqat tanlanganni koʻrsatish"
+
+#. i18n: ectx: property (text), widget (QCheckBox, mIncludeCategories)
+#. i18n: ectx: property (text), widget (QCheckBox, mCategories)
+#: printing/calprintdayconfig_base.ui:296
+#: printing/calprintmonthconfig_base.ui:172
+#: printing/calprinttodoconfig_base.ui:251
+#: printing/calprintweekconfig_base.ui:296
+#, kde-format
+msgid "Ta&gs"
+msgstr ""
+
+#. i18n: ectx: property (toolTip), widget (QCheckBox, mIncludeTodos)
+#: printing/calprintdayconfig_base.ui:306
+#: printing/calprintmonthconfig_base.ui:182
+#: printing/calprintweekconfig_base.ui:306
+#, kde-format
+msgid "Print to-dos due within the specified date range"
+msgstr ""
+
+#. i18n: ectx: property (whatsThis), widget (QCheckBox, mIncludeTodos)
+#: printing/calprintdayconfig_base.ui:309
+#: printing/calprintmonthconfig_base.ui:185
+#: printing/calprintweekconfig_base.ui:309
+#, kde-format
+msgid ""
+"You should check this option if you want to print to-dos which are due on "
+"one of the dates which are in the supplied date range."
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QCheckBox, mIncludeTodos)
+#: printing/calprintdayconfig_base.ui:312
+#: printing/calprintmonthconfig_base.ui:188
+#: printing/calprintweekconfig_base.ui:312
+#, kde-format
+msgid "Include to-&dos that are due on the printed day(s)"
+msgstr ""
+
+#. i18n: ectx: property (toolTip), widget (QCheckBox, mExcludeTime)
+#: printing/calprintdayconfig_base.ui:319
+#: printing/calprintweekconfig_base.ui:319
+#, kde-format
+msgid "Check this option to exclude the time in description box"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QCheckBox, mExcludeTime)
+#: printing/calprintdayconfig_base.ui:322
+#: printing/calprintweekconfig_base.ui:322
+#, kde-format
+msgid "Exclude t&ime from timetable detail display items"
+msgstr ""
+
+#. i18n: ectx: property (title), widget (QGroupBox, mGeneralGroup)
+#: printing/calprintdayconfig_base.ui:332
+#: printing/calprintincidenceconfig_base.ui:88
+#: printing/calprintjournalconfig_base.ui:173
+#: printing/calprintmonthconfig_base.ui:224
+#: printing/calprinttodoconfig_base.ui:391
+#: printing/calprintweekconfig_base.ui:332
+#, fuzzy, kde-format
+#| msgid "General"
+msgctxt "@title general print settings"
+msgid "General"
+msgstr "Umumiy"
+
+#. i18n: ectx: property (toolTip), widget (QCheckBox, mSingleLineLimit)
+#: printing/calprintdayconfig_base.ui:338
+#: printing/calprintmonthconfig_base.ui:243
+#: printing/calprintweekconfig_base.ui:338
+#, fuzzy, kde-format
+#| msgid "Print to-&dos"
+msgid "Print items on one line"
+msgstr "Vazifalarni &bosib chiqarish"
+
+#. i18n: ectx: property (whatsThis), widget (QCheckBox, mSingleLineLimit)
+#: printing/calprintdayconfig_base.ui:341
+#: printing/calprintmonthconfig_base.ui:246
+#: printing/calprintweekconfig_base.ui:341
+#, kde-format
+msgid ""
+"Check this option to limit events to a single line, truncating as necessary "
+"to save space."
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QCheckBox, mSingleLineLimit)
+#: printing/calprintdayconfig_base.ui:344
+#: printing/calprintmonthconfig_base.ui:249
+#: printing/calprintweekconfig_base.ui:344
+#, kde-format
+msgid "Limit events in each day to a &single line"
+msgstr ""
+
+#. i18n: ectx: property (toolTip), widget (QCheckBox, mShowNoteLines)
+#: printing/calprintdayconfig_base.ui:351
+#: printing/calprintincidenceconfig_base.ui:94
+#: printing/calprintmonthconfig_base.ui:256
+#: printing/calprintweekconfig_base.ui:351
+#, fuzzy, kde-format
+msgid "Check this option to draw note lines in empty areas."
+msgstr "Faqat tanlanganni koʻrsatish"
+
+#. i18n: ectx: property (text), widget (QCheckBox, mShowNoteLines)
+#: printing/calprintdayconfig_base.ui:354
+#: printing/calprintweekconfig_base.ui:354
+#, fuzzy, kde-format
+#| msgid "Other Options"
+msgid "Show note &lines in Filofax layout"
+msgstr "Boshqa parametrlar"
+
+#. i18n: ectx: property (toolTip), widget (QCheckBox, mColors)
+#: printing/calprintdayconfig_base.ui:361
+#: printing/calprintincidenceconfig_base.ui:107
+#: printing/calprintmonthconfig_base.ui:266
+#: printing/calprintweekconfig_base.ui:361
+#, fuzzy, kde-format
+msgid "Print in color"
+msgstr "Bosib chiqarish uslubi"
+
+#. i18n: ectx: property (whatsThis), widget (QCheckBox, mColors)
+#: printing/calprintdayconfig_base.ui:364
+#: printing/calprintincidenceconfig_base.ui:110
+#: printing/calprintmonthconfig_base.ui:269
+#: printing/calprintweekconfig_base.ui:364
+#, kde-format
+msgid ""
+"If you want to use colors to distinguish certain tags in the printed output, "
+"check this option."
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QCheckBox, mColors)
+#: printing/calprintdayconfig_base.ui:367
+#: printing/calprintincidenceconfig_base.ui:113
+#: printing/calprintmonthconfig_base.ui:272
+#: printing/calprintweekconfig_base.ui:367
+#, kde-format
+msgid "&Use colors"
+msgstr "&Ranglardan foydalanish"
+
+#. i18n: ectx: property (toolTip), widget (QCheckBox, mPrintFooter)
+#: printing/calprintdayconfig_base.ui:374
+#: printing/calprintincidenceconfig_base.ui:120
+#: printing/calprintjournalconfig_base.ui:179
+#: printing/calprintmonthconfig_base.ui:279
+#: printing/calprinttodoconfig_base.ui:417
+#: printing/calprintweekconfig_base.ui:374
+#: printing/calprintyearconfig_base.ui:178
+#, kde-format
+msgid "Print a datetime footer on each page"
+msgstr ""
+
+#. i18n: ectx: property (whatsThis), widget (QCheckBox, mPrintFooter)
+#: printing/calprintdayconfig_base.ui:377
+#: printing/calprintincidenceconfig_base.ui:123
+#: printing/calprintjournalconfig_base.ui:182
+#: printing/calprintmonthconfig_base.ui:282
+#: printing/calprinttodoconfig_base.ui:420
+#: printing/calprintweekconfig_base.ui:377
+#: printing/calprintyearconfig_base.ui:181
+#, kde-format
+msgid ""
+"Check this box if you want to print a small footer on each page that "
+"contains the date of the print."
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QCheckBox, mPrintFooter)
+#: printing/calprintdayconfig_base.ui:380
+#: printing/calprintincidenceconfig_base.ui:126
+#: printing/calprintjournalconfig_base.ui:185
+#: printing/calprintmonthconfig_base.ui:285
+#: printing/calprinttodoconfig_base.ui:423
+#: printing/calprintweekconfig_base.ui:380
+#: printing/calprintyearconfig_base.ui:184
+#, fuzzy, kde-format
+msgid "Print &Footer"
+msgstr "Bosib chiqarish uslubi"
+
+#: printing/calprintdefaultplugins.cpp:119
+#: printing/calprintdefaultplugins.cpp:148
+#: printing/calprintdefaultplugins.cpp:167
+#, fuzzy, kde-format
+msgid "Start date: "
+msgstr "Boshlash kuni:"
+
+#: printing/calprintdefaultplugins.cpp:122
+#: printing/calprintdefaultplugins.cpp:151
+#, fuzzy, kde-format
+msgid "No start date"
+msgstr "Boshlash kuni:"
+
+#: printing/calprintdefaultplugins.cpp:127
+#, fuzzy, kde-format
+msgid "End date: "
+msgstr "Tugash kuni:"
+
+#: printing/calprintdefaultplugins.cpp:130
+#, kde-format
+msgid "Duration: "
+msgstr "Davom etishi: "
+
+#: printing/calprintdefaultplugins.cpp:133
+#, fuzzy, kde-format
+msgid "1 hour "
+msgid_plural "%1 hours "
+msgstr[0] "1 soat"
+
+#: printing/calprintdefaultplugins.cpp:136
+#, fuzzy, kde-format
+msgid "1 minute "
+msgid_plural "%1 minutes "
+msgstr[0] "1 daqiqa"
+
+#: printing/calprintdefaultplugins.cpp:139
+#, fuzzy, kde-format
+msgid "No end date"
+msgstr "Tugash kuni:"
+
+#: printing/calprintdefaultplugins.cpp:156
+#, fuzzy, kde-format
+msgid "Due date: "
+msgstr "Sana va vaqt"
+
+#: printing/calprintdefaultplugins.cpp:159
+#, fuzzy, kde-format
+msgid "No due date"
+msgstr "Sana va vaqt"
+
+#: printing/calprintdefaultplugins.cpp:284
+#, fuzzy, kde-format
+#| msgid "Accept"
+msgctxt "except for listed dates"
+msgid " except"
+msgstr "Qabul qilish"
+
+#: printing/calprintdefaultplugins.cpp:291
+#, fuzzy, kde-format
+msgid "Repeats: "
+msgstr "Qaytarish"
+
+#: printing/calprintdefaultplugins.cpp:299
+#, fuzzy, kde-format
+msgid "No reminders"
+msgstr "Esga solish"
+
+#: printing/calprintdefaultplugins.cpp:302
+#, fuzzy, kde-format
+msgid "Reminder: "
+msgid_plural "%1 reminders: "
+msgstr[0] "1 daqiqa"
+
+#: printing/calprintdefaultplugins.cpp:316
+#, fuzzy, kde-format
+msgctxt "N days/hours/minutes before/after the start/end"
+msgid "%1 before the start"
+msgstr "Ishga tushirilmasin"
+
+#: printing/calprintdefaultplugins.cpp:319
+#, fuzzy, kde-format
+msgctxt "N days/hours/minutes before/after the start/end"
+msgid "%1 after the start"
+msgstr "Ishga tushirilmasin"
+
+#: printing/calprintdefaultplugins.cpp:324
+#, fuzzy, kde-format
+msgctxt "N days/hours/minutes before/after the start/end"
+msgid "%1 before the end"
+msgstr "Ishga tushirilmasin"
+
+#: printing/calprintdefaultplugins.cpp:327
+#, fuzzy, kde-format
+msgctxt "N days/hours/minutes before/after the start/end"
+msgid "%1 after the end"
+msgstr "Ishga tushirilmasin"
+
+#: printing/calprintdefaultplugins.cpp:336
+#, fuzzy, kde-format
+msgid "1 day"
+msgid_plural "%1 days"
+msgstr[0] "1 kun"
+
+#: printing/calprintdefaultplugins.cpp:339
+#, fuzzy, kde-format
+msgid "1 hour"
+msgid_plural "%1 hours"
+msgstr[0] "1 soat"
+
+#: printing/calprintdefaultplugins.cpp:342
+#, fuzzy, kde-format
+msgid "1 minute"
+msgid_plural "%1 minutes"
+msgstr[0] "1 daqiqa"
+
+#: printing/calprintdefaultplugins.cpp:346
+#: printing/calprintdefaultplugins.cpp:620
+#, fuzzy, kde-format
+#| msgid ", "
+msgctxt "Spacer for the joined list of categories/tags"
+msgid ", "
+msgstr ", "
+
+#: printing/calprintdefaultplugins.cpp:351
+#, fuzzy, kde-format
+msgid "Organizer: "
+msgstr "Tashkil etuvchi: %1"
+
+#: printing/calprintdefaultplugins.cpp:364
+#, fuzzy, kde-format
+msgid "Location: "
+msgstr "&Manzil:"
+
+#: printing/calprintdefaultplugins.cpp:426
+#, fuzzy, kde-format
+msgid "Description:"
+msgstr "&Taʼrifi"
+
+#: printing/calprintdefaultplugins.cpp:444
+#, kde-format
+msgid "Notes:"
+msgstr ""
+
+#: printing/calprintdefaultplugins.cpp:456
+#, fuzzy, kde-format
+#| msgid "No filter"
+msgid "No Subitems"
+msgstr "Filter yoʻq"
+
+#: printing/calprintdefaultplugins.cpp:459
+#, fuzzy, kde-format
+#| msgid "No filter"
+msgid "1 Subitem:"
+msgid_plural "%1 Subitems:"
+msgstr[0] "Filter yoʻq"
+
+#: printing/calprintdefaultplugins.cpp:476
+#, fuzzy, kde-format
+#| msgid "(None)"
+msgctxt "no status"
+msgid "none"
+msgstr "(Yoʻq)"
+
+#: printing/calprintdefaultplugins.cpp:478
+#, fuzzy, kde-format
+#| msgid "Unknown"
+msgctxt "unknown status"
+msgid "unknown"
+msgstr "Nomaʼlum"
+
+#: printing/calprintdefaultplugins.cpp:485
+#, fuzzy, kde-format
+msgctxt "subitem start date"
+msgid "Start Date: %1\n"
+msgstr "Boshlash kuni:"
+
+#: printing/calprintdefaultplugins.cpp:488
+#, fuzzy, kde-format
+#| msgid "Start Time"
+msgctxt "subitem start time"
+msgid "Start Time: %1\n"
+msgstr "Boshlash vaqti"
+
+#: printing/calprintdefaultplugins.cpp:494
+#, fuzzy, kde-format
+msgctxt "subitem due date"
+msgid "Due Date: %1\n"
+msgstr "Sana va vaqt"
+
+#: printing/calprintdefaultplugins.cpp:500
+#, fuzzy, kde-format
+msgctxt "subitem due time"
+msgid "Due Time: %1\n"
+msgstr "Vaqt zonasi:"
+
+#: printing/calprintdefaultplugins.cpp:504
+#, fuzzy, kde-format
+#| msgctxt "short_weekday date (e.g. Mon 13)"
+#| msgid "%1 %2"
+msgctxt "subitem counter"
+msgid "%1: "
+msgstr "%1 %2"
+
+#: printing/calprintdefaultplugins.cpp:511
+#, fuzzy, kde-format
+msgctxt "subitem Status: statusString"
+msgid "Status: %1\n"
+msgstr "Boshi: %1"
+
+#: printing/calprintdefaultplugins.cpp:513
+#, fuzzy, kde-format
+#| msgid "&Priority:"
+msgctxt "subitem Priority: N"
+msgid "Priority: %1\n"
+msgstr "&Muhimlik darajasi:"
+
+#: printing/calprintdefaultplugins.cpp:514
+#, fuzzy, kde-format
+msgctxt "subitem Secrecy: secrecyString"
+msgid "Secrecy: %1\n"
+msgstr "Boshi: %1"
+
+#: printing/calprintdefaultplugins.cpp:532
+#, fuzzy, kde-format
+#| msgid "Attach&ments"
+msgid "No Attachments"
+msgstr "&Ilovalar"
+
+#: printing/calprintdefaultplugins.cpp:535
+#, fuzzy, kde-format
+msgid "1 Attachment:"
+msgid_plural "%1 Attachments:"
+msgstr[0] "&Ilovalar"
+
+#: printing/calprintdefaultplugins.cpp:541
+#, kde-format
+msgctxt "Spacer for list of attachments"
+msgid "  "
+msgstr ""
+
+#: printing/calprintdefaultplugins.cpp:558
+#, fuzzy, kde-format
+msgid "No Attendees"
+msgstr "&Qatnashuvchilar"
+
+#: printing/calprintdefaultplugins.cpp:560
+#, fuzzy, kde-format
+msgid "1 Attendee:"
+msgid_plural "%1 Attendees:"
+msgstr[0] "1 daqiqa"
+
+#: printing/calprintdefaultplugins.cpp:572
+#, fuzzy, kde-format
+#| msgctxt "short_weekday date (e.g. Mon 13)"
+#| msgid "%1 %2"
+msgctxt ""
+"Formatting of an attendee: 'Name (Role): Status', e.g. 'Reinhold Kainhofer "
+"<reinhold@kainhofer.com> (Participant): Awaiting Response'"
+msgid "%1 (%2): %3"
+msgstr "%1 %2"
+
+#: printing/calprintdefaultplugins.cpp:590
+#, fuzzy, kde-format
+msgid "Status: %1"
+msgstr "Boshi: %1"
+
+#: printing/calprintdefaultplugins.cpp:594
+#, fuzzy, kde-format
+msgid "Secrecy: %1"
+msgstr "Boshi: %1"
+
+#: printing/calprintdefaultplugins.cpp:600
+#, kde-format
+msgid "Show as: Busy"
+msgstr ""
+
+#: printing/calprintdefaultplugins.cpp:602
+#, kde-format
+msgid "Show as: Free"
+msgstr ""
+
+#: printing/calprintdefaultplugins.cpp:608
+#, kde-format
+msgid "This task is overdue!"
+msgstr ""
+
+#: printing/calprintdefaultplugins.cpp:614
+#, fuzzy, kde-format
+msgid "Settings: "
+msgstr "Uchrashuv"
+
+#: printing/calprintdefaultplugins.cpp:619
+#, kde-format
+msgid "Tags: "
+msgstr ""
+
+#: printing/calprintdefaultplugins.cpp:718 printing/calprintpluginbase.cpp:922
+#: printing/calprintpluginbase.cpp:1062 printing/calprintpluginbase.cpp:1119
+#, fuzzy, kde-format
+#| msgctxt "short_weekday date (e.g. Mon 13)"
+#| msgid "%1 %2"
+msgctxt "summary, location"
+msgid "%1, %2"
+msgstr "%1 %2"
+
+#: printing/calprintdefaultplugins.cpp:721 printing/calprintpluginbase.cpp:941
+#: printing/calprintpluginbase.cpp:1065
+#, fuzzy, kde-format
+#| msgctxt "short_weekday date (e.g. Mon 13)"
+#| msgid "%1 %2"
+msgctxt "summary, categories"
+msgid "%1, %2"
+msgstr "%1 %2"
+
+#: printing/calprintdefaultplugins.cpp:781
+#, fuzzy, kde-format
+#| msgid "All Day"
+msgctxt "label for timetable all-day boxes"
+msgid "All day"
+msgstr "Kun boʻyi"
+
+#: printing/calprintdefaultplugins.cpp:1006
+#: printing/calprintdefaultplugins.cpp:1241 printing/yearprint.cpp:140
+#, kde-format
+msgctxt "date from-to"
+msgid "%1–%2"
+msgstr ""
+
+#: printing/calprintdefaultplugins.cpp:1263
+#, kde-format
+msgctxt "date from - to (week number)"
+msgid "%1–%2 (Week %3)"
+msgstr ""
+
+#: printing/calprintdefaultplugins.cpp:1265
+#, kde-format
+msgctxt "date from - to\\n(week number)"
+msgid ""
+"%1–%2\n"
+"(Week %3)"
+msgstr ""
+
+#: printing/calprintdefaultplugins.cpp:1449
+#, fuzzy, kde-format
+#| msgctxt "short_weekday date (e.g. Mon 13)"
+#| msgid "%1 %2"
+msgctxt "monthname year"
+msgid "%1 %2"
+msgstr "%1 %2"
+
+#: printing/calprintdefaultplugins.cpp:1562
+#, fuzzy, kde-format
+#| msgid "&Title:"
+msgctxt "@option sort by title"
+msgid "Title"
+msgstr "Sa&rlavha:"
+
+#: printing/calprintdefaultplugins.cpp:1563
+#, fuzzy, kde-format
+#| msgid "Start Date"
+msgctxt "@option sort by start date/time"
+msgid "Start Date"
+msgstr "Boshlash kuni"
+
+#: printing/calprintdefaultplugins.cpp:1564
+#, fuzzy, kde-format
+msgctxt "@option sort by due date/time"
+msgid "Due Date"
+msgstr "Sana va vaqt"
+
+#: printing/calprintdefaultplugins.cpp:1565
+#, fuzzy, kde-format
+#| msgid "Priority"
+msgctxt "@option sort by priority"
+msgid "Priority"
+msgstr "Muhimlik darajasi"
+
+#: printing/calprintdefaultplugins.cpp:1566
+#, fuzzy, kde-format
+msgctxt "@option sort by percent completed"
+msgid "Percent Complete"
+msgstr "Bajarilgan"
+
+#: printing/calprintdefaultplugins.cpp:1567
+#, kde-format
+msgctxt "@option sort by tags"
+msgid "Tags"
+msgstr ""
+
+#: printing/calprintdefaultplugins.cpp:1573
+#, fuzzy, kde-format
+#| msgid "Ascending"
+msgctxt "@option sort in increasing order"
+msgid "Ascending"
+msgstr "Koʻpayish boʻyicha"
+
+#: printing/calprintdefaultplugins.cpp:1574
+#, fuzzy, kde-format
+#| msgid "Descending"
+msgctxt "@option sort in descreasing order"
+msgid "Descending"
+msgstr "Kamayish boʻyicha"
+
+#: printing/calprintdefaultplugins.cpp:1587
+#, kde-format
+msgid "To-do list"
+msgstr "Vazifalar roʻyxati"
+
+#: printing/calprintdefaultplugins.cpp:1639
+#: printing/calprintpluginbase.cpp:1719
+#, fuzzy, kde-format
+#| msgctxt "short_weekday date (e.g. Mon 13)"
+#| msgid "%1 %2"
+msgid "%1%"
+msgstr "%1 %2"
+
+#: printing/calprintdefaultplugins.cpp:1650
+#, kde-format
+msgid "Priority"
+msgstr "Muhimlik darajasi"
+
+#: printing/calprintdefaultplugins.cpp:1660
+#, fuzzy, kde-format
+#| msgid "&Date:"
+msgctxt "@label to-do due date"
+msgid "Due"
+msgstr "Sa&na:"
+
+#: printing/calprintdefaultplugins.cpp:1670
+#, fuzzy, kde-format
+#| msgid "Start"
+msgctxt "@label to-do start date"
+msgid "Start"
+msgstr "Ishga tushirish"
+
+#: printing/calprintdefaultplugins.cpp:1680
+#, fuzzy, kde-format
+#| msgid "Complete"
+msgctxt "@label to-do percentage complete"
+msgid "Complete"
+msgstr "Bajarilgan"
+
+#: printing/calprintdefaultplugins.cpp:1690
+#, kde-format
+msgctxt "@label to-do categories"
+msgid "Tags"
+msgstr ""
+
+#: printing/calprintdefaultplugins.h:36
+#, kde-format
+msgid "Print &incidence"
+msgstr ""
+
+#: printing/calprintdefaultplugins.h:41
+#, kde-format
+msgid "Prints an incidence on one page"
+msgstr ""
+
+#: printing/calprintdefaultplugins.h:146
+#, fuzzy, kde-format
+msgid "Print da&y"
+msgstr "Bosib chiqarish uslubi"
+
+#: printing/calprintdefaultplugins.h:151
+#, kde-format
+msgid "Prints all events of a single day on one page"
+msgstr ""
+
+#: printing/calprintdefaultplugins.h:201
+#, fuzzy, kde-format
+msgid "Print &week"
+msgstr "Bosib chiqarish uslubi"
+
+#: printing/calprintdefaultplugins.h:206
+#, kde-format
+msgid "Prints all events of one week on one page"
+msgstr ""
+
+#: printing/calprintdefaultplugins.h:263
+#, kde-format
+msgid "Print mont&h"
+msgstr "&Oyni bosib chiqarish"
+
+#: printing/calprintdefaultplugins.h:268
+#, kde-format
+msgid "Prints all events of one month on one page"
+msgstr ""
+
+#: printing/calprintdefaultplugins.h:318
+#, kde-format
+msgid "Print to-&dos"
+msgstr "Vazifalarni &bosib chiqarish"
+
+#: printing/calprintdefaultplugins.h:323
+#, fuzzy, kde-format
+msgid "Prints all to-dos in a (tree-like) list"
+msgstr "Faqat tanlanganni koʻrsatish"
+
+#: printing/calprinter.cpp:115
+#, kde-format
+msgctxt "@info"
+msgid "Unable to print, an invalid print style was specified."
+msgstr ""
+
+#: printing/calprinter.cpp:115
+#, fuzzy, kde-format
+msgctxt "@title:window"
+msgid "Printing error"
+msgstr "Bosib chiqarish uslubi"
+
+#: printing/calprinter.cpp:157
+#, fuzzy, kde-format
+msgctxt "@title:window"
+msgid "Print"
+msgstr "Bosib chiqarish uslubi"
+
+#: printing/calprinter.cpp:176
+#, fuzzy, kde-format
+#| msgid "Print Style"
+msgctxt "@title:group"
+msgid "Print Style"
+msgstr "Bosib chiqarish uslubi"
+
+#: printing/calprinter.cpp:188
+#, fuzzy, kde-format
+#| msgid "Start &time:"
+msgctxt "@label"
+msgid "Page &orientation:"
+msgstr "Boshlash &vaqti:"
+
+#: printing/calprinter.cpp:193
+#, fuzzy, kde-format
+#| msgid "Start &time:"
+msgctxt "@info:tooltip"
+msgid "Set the print orientation"
+msgstr "Boshlash &vaqti:"
+
+#: printing/calprinter.cpp:195
+#, kde-format
+msgctxt "@info:whatsthis"
+msgid ""
+"Choose if you want your output to be printed in \"portrait\" or \"landscape"
+"\". You can also default to the orientation best suited to the selected "
+"style or to your printer's default setting."
+msgstr ""
+
+#: printing/calprinter.cpp:198
+#, kde-format
+msgctxt "@item:inlistbox"
+msgid "Use Default Orientation of Selected Style"
+msgstr ""
+
+#: printing/calprinter.cpp:199
+#, kde-format
+msgctxt "@item:inlistbox"
+msgid "Use Printer Default"
+msgstr ""
+
+#: printing/calprinter.cpp:200
+#, fuzzy, kde-format
+msgctxt "@item:inlistbox"
+msgid "Portrait"
+msgstr "Muhimlik darajasi"
+
+#: printing/calprinter.cpp:201
+#, kde-format
+msgctxt "@item:inlistbox"
+msgid "Landscape"
+msgstr ""
+
+#: printing/calprinter.cpp:223
+#, fuzzy, kde-format
+#| msgid "Select Cate&gories..."
+msgctxt "@info:tooltip"
+msgid "Select the type of print"
+msgstr "Turkumlarni &tanlash"
+
+#: printing/calprinter.cpp:225
+#, kde-format
+msgctxt "@info:whatsthis"
+msgid ""
+"Select one of the following types of prints you want to make. You may want "
+"to print an individual item, or all the items for a specific time range "
+"(like a day, week or month), or you may want to print your to-do list."
+msgstr ""
+
+#: printing/calprinter.cpp:253
+#, fuzzy, kde-format
+#| msgid "&Preview"
+msgctxt "@action:button"
+msgid "&Preview"
+msgstr "Koʻrib &chiqish"
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: printing/calprintincidenceconfig_base.ui:17
+#, kde-format
+msgid ""
+"<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css"
+"\">\n"
+"p, li { white-space: pre-wrap; }\n"
+"</style></head><body style=\" font-family:'Sans Serif'; font-size:9pt; font-"
+"weight:400; font-style:normal;\">\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+"right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-"
+"weight:600;\">Print incidence options:</span></p></body></html>"
+msgstr ""
+
+#. i18n: ectx: property (toolTip), widget (QCheckBox, mShowDetails)
+#: printing/calprintincidenceconfig_base.ui:33
+#, fuzzy, kde-format
+#| msgid "&Description"
+msgid "Print incidence details"
+msgstr "&Taʼrifi"
+
+#. i18n: ectx: property (whatsThis), widget (QCheckBox, mShowDetails)
+#: printing/calprintincidenceconfig_base.ui:36
+#, kde-format
+msgid ""
+"Check this box if you want to print more details for the incidence, "
+"including the visibility and secrecy properties."
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QCheckBox, mShowDetails)
+#: printing/calprintincidenceconfig_base.ui:39
+#, kde-format
+msgid "Detai&ls (visiblility, secrecy, etc.)"
+msgstr ""
+
+#. i18n: ectx: property (toolTip), widget (QCheckBox, mShowAttendees)
+#: printing/calprintincidenceconfig_base.ui:46
+#, fuzzy, kde-format
+msgid "Print the attendees"
+msgstr "1 daqiqa"
+
+#. i18n: ectx: property (whatsThis), widget (QCheckBox, mShowAttendees)
+#: printing/calprintincidenceconfig_base.ui:49
+#, fuzzy, kde-format
+msgid ""
+"Check this box if you want the attendees list included on the print-out."
+msgstr "Faqat tanlanganni koʻrsatish"
+
+#. i18n: ectx: property (text), widget (QCheckBox, mShowAttendees)
+#: printing/calprintincidenceconfig_base.ui:52
+#, fuzzy, kde-format
+msgid "&Attendees"
+msgstr "&Qatnashuvchilar"
+
+#. i18n: ectx: property (toolTip), widget (QCheckBox, mShowSubitemsNotes)
+#: printing/calprintincidenceconfig_base.ui:59
+#, fuzzy, kde-format
+#| msgid "Print to-&dos"
+msgid "Print the notes"
+msgstr "Vazifalarni &bosib chiqarish"
+
+#. i18n: ectx: property (whatsThis), widget (QCheckBox, mShowSubitemsNotes)
+#: printing/calprintincidenceconfig_base.ui:62
+#, fuzzy, kde-format
+msgid ""
+"Check this box if you want the incidence notes included on the print-out."
+msgstr "Faqat tanlanganni koʻrsatish"
+
+#. i18n: ectx: property (text), widget (QCheckBox, mShowSubitemsNotes)
+#: printing/calprintincidenceconfig_base.ui:65
+#, fuzzy, kde-format
+#| msgid "No filter"
+msgid "&Notes, subitems"
+msgstr "Filter yoʻq"
+
+#. i18n: ectx: property (toolTip), widget (QCheckBox, mShowAttachments)
+#: printing/calprintincidenceconfig_base.ui:72
+#, fuzzy, kde-format
+msgid "Print the attachments"
+msgstr "Ilovani qoʻshish"
+
+#. i18n: ectx: property (whatsThis), widget (QCheckBox, mShowAttachments)
+#: printing/calprintincidenceconfig_base.ui:75
+#, kde-format
+msgid ""
+"Check this box if you want the attachment information included on the print-"
+"out. The attachments themselves are not printed."
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QCheckBox, mShowAttachments)
+#: printing/calprintincidenceconfig_base.ui:78
+#, kde-format
+msgid "Attach&ments"
+msgstr "&Ilovalar"
+
+#. i18n: ectx: property (whatsThis), widget (QCheckBox, mShowNoteLines)
+#: printing/calprintincidenceconfig_base.ui:97
+#, kde-format
+msgid ""
+"Check this box if you want to draw note lines in the empty area of the "
+"print. This is useful if you want to hand-write notes on this print-out."
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QCheckBox, mShowNoteLines)
+#: printing/calprintincidenceconfig_base.ui:100
+#: printing/calprintmonthconfig_base.ui:259
+#, fuzzy, kde-format
+#| msgid "Other Options"
+msgid "Show note &lines"
+msgstr "Boshqa parametrlar"
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: printing/calprintjournalconfig_base.ui:17
+#, kde-format
+msgid ""
+"<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css"
+"\">\n"
+"p, li { white-space: pre-wrap; }\n"
+"</style></head><body style=\" font-family:'Sans Serif'; font-size:9pt; font-"
+"weight:400; font-style:normal;\">\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+"right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-"
+"weight:600;\">Print journal options:</span></p></body></html>"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QRadioButton, mAllJournals)
+#: printing/calprintjournalconfig_base.ui:30
+#, fuzzy, kde-format
+#| msgid "Edit this journal entry"
+msgid "&All journal entries"
+msgstr "Ushbu kundalik yozuvini tahrirlash"
+
+#. i18n: ectx: property (text), widget (QRadioButton, mRangeJournals)
+#: printing/calprintjournalconfig_base.ui:43
+#, fuzzy, kde-format
+#| msgid "Date && Time Range"
+msgid "Date &range:"
+msgstr "Sana va vaqt oraligʻi"
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: printing/calprintmonthconfig_base.ui:17
+#, kde-format
+msgid ""
+"<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css"
+"\">\n"
+"p, li { white-space: pre-wrap; }\n"
+"</style></head><body style=\" font-family:'Sans Serif'; font-size:9pt; font-"
+"weight:400; font-style:normal;\">\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+"right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-"
+"weight:600;\">Print month options:</span></p></body></html>"
+msgstr ""
+
+#. i18n: ectx: property (whatsThis), widget (QLabel, mFromDateLabel)
+#. i18n: ectx: property (whatsThis), widget (QComboBox, mFromMonth)
+#: printing/calprintmonthconfig_base.ui:30
+#: printing/calprintmonthconfig_base.ui:46
+#, kde-format
+msgid ""
+"When you want to print more months at once, you can define a month range. "
+"This option defines the first month to be printed. Use the option <i>End "
+"month</i> to define the last month in this range."
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, mFromDateLabel)
+#: printing/calprintmonthconfig_base.ui:33
+#, fuzzy, kde-format
+#| msgid "&Start month:"
+msgid "Sta&rt month:"
+msgstr "&Boshlash oyi:"
+
+#. i18n: ectx: property (toolTip), widget (QComboBox, mFromMonth)
+#: printing/calprintmonthconfig_base.ui:43
+#, fuzzy, kde-format
+#| msgid "Sets the Title of this event or to-do."
+msgid "Starting month for printing"
+msgstr "Ushbu hodisa yoki vazifa sarlavhasini moslash."
+
+#. i18n: ectx: property (toolTip), widget (QSpinBox, mFromYear)
+#: printing/calprintmonthconfig_base.ui:53
+#, fuzzy, kde-format
+#| msgid "Sets the Title of this event or to-do."
+msgid "Starting year for printing"
+msgstr "Ushbu hodisa yoki vazifa sarlavhasini moslash."
+
+#. i18n: ectx: property (whatsThis), widget (QSpinBox, mFromYear)
+#: printing/calprintmonthconfig_base.ui:56
+#, kde-format
+msgid ""
+"When you want to print more years at once, you can define a year range. This "
+"option defines the first year to be printed. Use the option <i>End year</i> "
+"to define the last year in this range."
+msgstr ""
+
+#. i18n: ectx: property (whatsThis), widget (QLabel, mToDateLabel)
+#. i18n: ectx: property (whatsThis), widget (QComboBox, mToMonth)
+#: printing/calprintmonthconfig_base.ui:69
+#: printing/calprintmonthconfig_base.ui:85
+#, kde-format
+msgid ""
+"When you want to print more months at once, you can define a month range. "
+"This option defines the last month to be printed. Use the option <i>Start "
+"month</i> to define the first month in this range."
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, mToDateLabel)
+#: printing/calprintmonthconfig_base.ui:72
+#, kde-format
+msgid "&End month:"
+msgstr "Tugash &oyi:"
+
+#. i18n: ectx: property (toolTip), widget (QComboBox, mToMonth)
+#: printing/calprintmonthconfig_base.ui:82
+#, fuzzy, kde-format
+#| msgid "Sets the Title of this event or to-do."
+msgid "Ending month for the print"
+msgstr "Ushbu hodisa yoki vazifa sarlavhasini moslash."
+
+#. i18n: ectx: property (toolTip), widget (QSpinBox, mToYear)
+#: printing/calprintmonthconfig_base.ui:92
+#, fuzzy, kde-format
+#| msgid "Sets the Title of this event or to-do."
+msgid "Ending year for the print"
+msgstr "Ushbu hodisa yoki vazifa sarlavhasini moslash."
+
+#. i18n: ectx: property (whatsThis), widget (QSpinBox, mToYear)
+#: printing/calprintmonthconfig_base.ui:95
+#, kde-format
+msgid ""
+"When you want to print more years at once, you can define a year range. This "
+"option defines the last year to be printed. Use the option <i>Start year</i> "
+"to define the first year in this range."
+msgstr ""
+
+#. i18n: ectx: property (toolTip), widget (QCheckBox, mRecurDaily)
+#: printing/calprintmonthconfig_base.ui:195
+#, kde-format
+msgid "Print daily recurring items"
+msgstr ""
+
+#. i18n: ectx: property (whatsThis), widget (QCheckBox, mRecurDaily)
+#: printing/calprintmonthconfig_base.ui:198
+#, kde-format
+msgid ""
+"With this option it is possible to leave out the daily recurring to-dos and "
+"events in the print. They take a lot of space and make the month view "
+"needlessly complicated."
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QCheckBox, mRecurDaily)
+#: printing/calprintmonthconfig_base.ui:201
+#, fuzzy, kde-format
+#| msgid "Hide &recurring events and to-dos"
+msgid "Include daily re&curring to-dos and events"
+msgstr "Qay&tariladigan hodisa va vazifalarni bekitish"
+
+#. i18n: ectx: property (toolTip), widget (QCheckBox, mRecurWeekly)
+#: printing/calprintmonthconfig_base.ui:208
+#, fuzzy, kde-format
+#| msgid "Hide &recurring events and to-dos"
+msgid "Print weekly recurring items"
+msgstr "Qay&tariladigan hodisa va vazifalarni bekitish"
+
+#. i18n: ectx: property (whatsThis), widget (QCheckBox, mRecurWeekly)
+#: printing/calprintmonthconfig_base.ui:211
+#, kde-format
+msgid ""
+"Similar to \"Print daily recurring to-dos and events\". Weekly to-dos and "
+"events will be omitted when making a print of the selected month."
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QCheckBox, mRecurWeekly)
+#: printing/calprintmonthconfig_base.ui:214
+#, fuzzy, kde-format
+#| msgid "Hide &recurring events and to-dos"
+msgid "Include weekl&y recurring to-dos and events"
+msgstr "Qay&tariladigan hodisa va vazifalarni bekitish"
+
+#. i18n: ectx: property (toolTip), widget (QCheckBox, mWeekNumbers)
+#: printing/calprintmonthconfig_base.ui:230
+#, fuzzy, kde-format
+#| msgid "Print to-&dos"
+msgid "Print week numbers"
+msgstr "Vazifalarni &bosib chiqarish"
+
+#. i18n: ectx: property (whatsThis), widget (QCheckBox, mWeekNumbers)
+#: printing/calprintmonthconfig_base.ui:233
+#, kde-format
+msgid "Enable this to print week numbers at the left of each row."
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QCheckBox, mWeekNumbers)
+#: printing/calprintmonthconfig_base.ui:236
+#, fuzzy, kde-format
+#| msgid "Print to-&dos"
+msgid "Print week &numbers"
+msgstr "Vazifalarni &bosib chiqarish"
+
+#: printing/calprintpluginbase.cpp:141
+#, kde-format
+msgid "This printing style does not have any configuration options."
+msgstr ""
+
+#: printing/calprintpluginbase.cpp:302
+#, fuzzy, kde-format
+msgctxt "@item:intext delimiter for joining holiday names"
+msgid ","
+msgstr ", "
+
+#: printing/calprintpluginbase.cpp:314
+#, kde-format
+msgid "Holiday"
+msgstr "Dam olish"
+
+#: printing/calprintpluginbase.cpp:616
+#, fuzzy, kde-format
+#| msgid "Undo (%1)"
+msgctxt "print date: formatted-datetime"
+msgid "printed: %1"
+msgstr "Bekor qilish (%1)"
+
+#: printing/calprintpluginbase.cpp:927
+#, fuzzy, kde-format
+msgctxt "starttime - endtime summary"
+msgid "%1-%2 %3"
+msgstr "%1 %2"
+
+#: printing/calprintpluginbase.cpp:933
+#, fuzzy, kde-format
+msgctxt "starttime - endtime summary, location"
+msgid "%1-%2 %3, %4"
+msgstr "%1 %2"
+
+#: printing/calprintpluginbase.cpp:1000
+#, fuzzy, kde-format
+msgctxt "weekday, shortmonthname daynumber"
+msgid "%1, %2 %3"
+msgstr "%1 %2"
+
+#: printing/calprintpluginbase.cpp:1126
+#, fuzzy, kde-format
+msgctxt "to-do summary (Due: datetime)"
+msgid "%1 (Due: %2)"
+msgstr "Tugash kuni: %1"
+
+#: printing/calprintpluginbase.cpp:1131
+#, fuzzy, kde-format
+msgctxt "to-do summary (Due: date)"
+msgid "%1 (Due: %2)"
+msgstr "Tugash kuni: %1"
+
+#: printing/calprintpluginbase.cpp:1138
+#, kde-format
+msgid "To-do: %1"
+msgstr "Vazifa: %1"
+
+#: printing/calprintpluginbase.cpp:1882
+#, fuzzy, kde-format
+msgctxt "Date range: Month dayStart - dayEnd"
+msgid "%1 %2–%3"
+msgstr "%1 %2"
+
+#: printing/calprintpluginbase.cpp:1888
+#, fuzzy, kde-format
+msgctxt "Date range: monthStart dayStart - monthEnd dayEnd"
+msgid "%1 %2–%3 %4"
+msgstr "%1 %2"
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: printing/calprinttodoconfig_base.ui:17
+#, kde-format
+msgid ""
+"<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css"
+"\">\n"
+"p, li { white-space: pre-wrap; }\n"
+"</style></head><body style=\" font-family:'Sans Serif'; font-size:9pt; font-"
+"weight:400; font-style:normal;\">\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+"right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-"
+"weight:600;\">Print to-dos options:</span></p></body></html>"
+msgstr ""
+
+#. i18n: ectx: property (toolTip), widget (QLabel, mTitleLabel)
+#. i18n: ectx: property (toolTip), widget (QLineEdit, mTitle)
+#: printing/calprinttodoconfig_base.ui:26
+#: printing/calprinttodoconfig_base.ui:42
+#, fuzzy, kde-format
+msgid "Name for this to-do list"
+msgstr "Ishga tushirilmasin"
+
+#. i18n: ectx: property (whatsThis), widget (QLabel, mTitleLabel)
+#. i18n: ectx: property (whatsThis), widget (QLineEdit, mTitle)
+#: printing/calprinttodoconfig_base.ui:29
+#: printing/calprinttodoconfig_base.ui:45
+#, kde-format
+msgid ""
+"Enter a name for this to-do list that will be put at the top of the print-out"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, mTitleLabel)
+#: printing/calprinttodoconfig_base.ui:32
+#, kde-format
+msgid "&Title:"
+msgstr "Sa&rlavha:"
+
+#. i18n: ectx: property (text), widget (QLineEdit, mTitle)
+#: printing/calprinttodoconfig_base.ui:48
+#, kde-format
+msgid "To-do List"
+msgstr "Vazifalar roʻyxati"
+
+#. i18n: ectx: property (title), widget (QGroupBox, mPrintType)
+#: printing/calprinttodoconfig_base.ui:57
+#, kde-format
+msgid "To-dos to Print"
+msgstr "Bosib chiqarish uchun vazifalar"
+
+#. i18n: ectx: property (text), widget (QRadioButton, mPrintAll)
+#: printing/calprinttodoconfig_base.ui:63
+#, fuzzy, kde-format
+#| msgid "Print to-&dos"
+msgid "Print &all to-dos"
+msgstr "Vazifalarni &bosib chiqarish"
+
+#. i18n: ectx: property (text), widget (QRadioButton, mPrintUnfinished)
+#: printing/calprinttodoconfig_base.ui:73
+#, fuzzy, kde-format
+#| msgid "Print to-&dos"
+msgid "Print &uncompleted to-dos only"
+msgstr "Vazifalarni &bosib chiqarish"
+
+#. i18n: ectx: property (text), widget (QRadioButton, mPrintDueRange)
+#: printing/calprinttodoconfig_base.ui:80
+#, fuzzy, kde-format
+msgid "Print only to-dos due in the &range:"
+msgstr "Faqat tanlanganni koʻrsatish"
+
+#. i18n: ectx: property (toolTip), widget (QCheckBox, mPriority)
+#: printing/calprinttodoconfig_base.ui:258
+#, fuzzy, kde-format
+#| msgid "&Description"
+msgid "Print item priorities"
+msgstr "&Taʼrifi"
+
+#. i18n: ectx: property (whatsThis), widget (QCheckBox, mPriority)
+#: printing/calprinttodoconfig_base.ui:261
+#, fuzzy, kde-format
+msgid "Check this option if you want to see the item priorities printed."
+msgstr "Faqat tanlanganni koʻrsatish"
+
+#. i18n: ectx: property (text), widget (QCheckBox, mPriority)
+#: printing/calprinttodoconfig_base.ui:264
+#, kde-format
+msgid "&Priority"
+msgstr "&Muhimlik darajasi"
+
+#. i18n: ectx: property (toolTip), widget (QCheckBox, mStartDate)
+#: printing/calprinttodoconfig_base.ui:274
+#, fuzzy, kde-format
+msgid "Print item start dates"
+msgstr "Boshlash kuni:"
+
+#. i18n: ectx: property (whatsThis), widget (QCheckBox, mStartDate)
+#: printing/calprinttodoconfig_base.ui:277
+#, fuzzy, kde-format
+msgid ""
+"Check this option if you want to see the item start dates (when work can "
+"begin) printed."
+msgstr "Faqat tanlanganni koʻrsatish"
+
+#. i18n: ectx: property (text), widget (QCheckBox, mStartDate)
+#: printing/calprinttodoconfig_base.ui:280
+#, fuzzy, kde-format
+#| msgid "&Start date:"
+msgid "&Start date"
+msgstr "&Boshlash kuni:"
+
+#. i18n: ectx: property (toolTip), widget (QCheckBox, mDueDate)
+#: printing/calprinttodoconfig_base.ui:287
+#, fuzzy, kde-format
+#| msgid "&Description"
+msgid "Print item due dates"
+msgstr "&Taʼrifi"
+
+#. i18n: ectx: property (whatsThis), widget (QCheckBox, mDueDate)
+#: printing/calprinttodoconfig_base.ui:290
+#, fuzzy, kde-format
+msgid "Check this option if you want to see the item due dates printed."
+msgstr "Faqat tanlanganni koʻrsatish"
+
+#. i18n: ectx: property (text), widget (QCheckBox, mDueDate)
+#: printing/calprinttodoconfig_base.ui:293
+#, fuzzy, kde-format
+msgid "Du&e date"
+msgstr "Sana va vaqt"
+
+#. i18n: ectx: property (toolTip), widget (QCheckBox, mPercentComplete)
+#: printing/calprinttodoconfig_base.ui:303
+#, fuzzy, kde-format
+#| msgid "&Description"
+msgid "Print item completion percentage"
+msgstr "&Taʼrifi"
+
+#. i18n: ectx: property (whatsThis), widget (QCheckBox, mPercentComplete)
+#: printing/calprinttodoconfig_base.ui:306
+#, fuzzy, kde-format
+msgid ""
+"Check this option if you want to see the item completion percentage printed "
+"as a number and bar graph."
+msgstr "Faqat tanlanganni koʻrsatish"
+
+#. i18n: ectx: property (text), widget (QCheckBox, mPercentComplete)
+#: printing/calprinttodoconfig_base.ui:309
+#, fuzzy, kde-format
+msgid "Percentage co&mpleted"
+msgstr "Bajarilgan"
+
+#. i18n: ectx: property (title), widget (QGroupBox, sortingOptionsBox)
+#: printing/calprinttodoconfig_base.ui:328
+#, fuzzy, kde-format
+#| msgid "Other Options"
+msgid "Sorting Options"
+msgstr "Boshqa parametrlar"
+
+#. i18n: ectx: property (text), widget (QLabel, sortFieldLabel)
+#: printing/calprinttodoconfig_base.ui:339
+#, kde-format
+msgid "Sort field:"
+msgstr "Saralash maydoni:"
+
+#. i18n: ectx: property (text), widget (QLabel, sortDirectionLabel)
+#: printing/calprinttodoconfig_base.ui:366
+#, kde-format
+msgid "Sort direction:"
+msgstr "Saralash yoʻnalishi:"
+
+#. i18n: ectx: property (text), widget (QCheckBox, mConnectSubTodos)
+#: printing/calprinttodoconfig_base.ui:397
+#, kde-format
+msgid "Co&nnect sub-to-dos with its parent"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QCheckBox, mStrikeOutCompleted)
+#: printing/calprinttodoconfig_base.ui:407
+#, fuzzy, kde-format
+msgid "Stri&ke out completed to-do summaries"
+msgstr "%1 da ba&jarilgan"
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: printing/calprintweekconfig_base.ui:17
+#, kde-format
+msgid ""
+"<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css"
+"\">\n"
+"p, li { white-space: pre-wrap; }\n"
+"</style></head><body style=\" font-family:'Sans Serif'; font-size:9pt; font-"
+"weight:400; font-style:normal;\">\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+"right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-"
+"weight:600;\">Print week options:</span></p></body></html>"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QRadioButton, mPrintTypeFilofax)
+#: printing/calprintweekconfig_base.ui:212
+#, kde-format
+msgid "Print date &range as Filofax format, one week per page"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QRadioButton, mPrintTypeTimetable)
+#: printing/calprintweekconfig_base.ui:222
+#, fuzzy, kde-format
+msgid "Print as timeta&ble view, one week per page"
+msgstr "Faqat tanlanganni koʻrsatish"
+
+#. i18n: ectx: property (toolTip), widget (QRadioButton, mPrintTypeSplitWeek)
+#: printing/calprintweekconfig_base.ui:229
+#, kde-format
+msgid ""
+"The split week view has the times to the left of the page, with two pages "
+"per week."
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QRadioButton, mPrintTypeSplitWeek)
+#: printing/calprintweekconfig_base.ui:232
+#, fuzzy, kde-format
+msgid "Print as split wee&k view"
+msgstr "Faqat tanlanganni koʻrsatish"
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: printing/calprintyearconfig_base.ui:14
+#, kde-format
+msgid ""
+"<html><head/><body><p><span style=\" font-size:9pt; font-weight:600;\">Print "
+"year options:</span></p></body></html>"
+msgstr ""
+
+#. i18n: ectx: property (title), widget (QGroupBox, mDateRangeGroup)
+#: printing/calprintyearconfig_base.ui:21
+#, fuzzy, kde-format
+#| msgid "Date && Time Range"
+msgid "Date Range"
+msgstr "Sana va vaqt oraligʻi"
+
+#. i18n: ectx: property (text), widget (QLabel, mYearLabel)
+#: printing/calprintyearconfig_base.ui:32
+#, fuzzy, kde-format
+#| msgid "&Yearly"
+msgid "&Year:"
+msgstr "Har &yil"
+
+#. i18n: ectx: property (title), widget (QGroupBox, mGeneralGroup)
+#: printing/calprintyearconfig_base.ui:99
+#, fuzzy, kde-format
+#| msgid "General"
+msgid "General"
+msgstr "Umumiy"
+
+#. i18n: ectx: property (text), widget (QLabel, mPagesLabel)
+#: printing/calprintyearconfig_base.ui:105
+#, kde-format
+msgid "Num&ber of pages:"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, mSubDaysLabel)
+#: printing/calprintyearconfig_base.ui:121
+#, fuzzy, kde-format
+#| msgid "Other Options"
+msgid "Show &sub-day events as:"
+msgstr "Boshqa parametrlar"
+
+#. i18n: ectx: property (text), item, widget (QComboBox, mSubDays)
+#. i18n: ectx: property (text), item, widget (QComboBox, mHolidays)
+#: printing/calprintyearconfig_base.ui:138
+#: printing/calprintyearconfig_base.ui:165
+#, kde-format
+msgid "Text"
+msgstr ""
+
+#. i18n: ectx: property (text), item, widget (QComboBox, mSubDays)
+#. i18n: ectx: property (text), item, widget (QComboBox, mHolidays)
+#: printing/calprintyearconfig_base.ui:143
+#: printing/calprintyearconfig_base.ui:170
+#, fuzzy, kde-format
+msgid "Time Boxes"
+msgstr "Vaqt zonasi:"
+
+#. i18n: ectx: property (text), widget (QLabel, mHolidaysLabel)
+#: printing/calprintyearconfig_base.ui:151
+#, fuzzy, kde-format
+#| msgid "Other Options"
+msgid "Show &holidays as:"
+msgstr "Boshqa parametrlar"
+
+#: printing/journalprint.cpp:104
+#, fuzzy, kde-format
+msgctxt "Description - date"
+msgid "%1 - %2"
+msgstr "%1 %2"
+
+#: printing/journalprint.cpp:126
+#, kde-format
+msgid "Person: %1"
+msgstr "Kishi: %1"
+
+#: printing/journalprint.cpp:156
+#, fuzzy, kde-format
+#| msgid "Edit this journal entry"
+msgid "Journal entries"
+msgstr "Ushbu kundalik yozuvini tahrirlash"
+
+#: printing/journalprint.h:32
+#, fuzzy, kde-format
+msgid "Print &journal"
+msgstr "Kundalikni bosib chiqarish"
+
+#: printing/journalprint.h:37
+#, kde-format
+msgid "Prints all journals for a given date range"
+msgstr ""
+
+#: printing/yearprint.h:31
+#, fuzzy, kde-format
+msgid "Print &year"
+msgstr "Bosib chiqarish uslubi"
+
+#: printing/yearprint.h:36
+#, kde-format
+msgid "Prints a calendar for an entire year"
+msgstr ""
+
+#: utils.cpp:382
+#, fuzzy, kde-format
+#| msgid "New Calendar"
+msgctxt "@title:window"
+msgid "Select Calendar"
+msgstr "Yangi kalendar"
+
+#: utils.cpp:383
+#, fuzzy, kde-format
+#| msgid "Sets the Title of this event or to-do."
+msgid "Select the calendar where this item will be stored."
+msgstr "Ushbu hodisa yoki vazifa sarlavhasini moslash."
+
+#: utils.cpp:502 utils.cpp:520 utils.cpp:568
+#, kde-format
+msgid "Calendar"
+msgstr "Kalendar"
+
+#: utils.cpp:508 utils.cpp:520 utils.cpp:570
+#, kde-format
+msgid "Tasks"
+msgstr ""
+
+#: utils.cpp:513 utils.cpp:520 utils.cpp:572
+#, fuzzy, kde-format
+#| msgid "New &Journal..."
+msgid "Journal"
+msgstr "Yangi &kundalik"
+
+#: utils.cpp:518 utils.cpp:520 utils.cpp:574
+#, kde-format
+msgid "Notes"
+msgstr ""
+
+#: utils.cpp:533
+#, kde-format
+msgctxt "%1 is folder contents"
+msgid "My Kolab %1"
+msgstr ""
+
+#: utils.cpp:536
+#, kde-format
+msgctxt "%1 is folder name, %2 is folder contents"
+msgid "Shared Kolab %1 %2"
+msgstr ""
+
+#: utils.cpp:539
+#, kde-format
+msgctxt "%1 is folder owner name, %2 is folder contents"
+msgid "%1's Kolab %2"
+msgstr ""
+
+#: utils.cpp:541
+#, kde-format
+msgctxt "%1 is folder owner name, %2 is folder name, %3 is folder contents"
+msgid "%1's %2 Kolab %3"
+msgstr ""
+
+#: utils.cpp:545
+#, kde-format
+msgctxt "%1 is folder contents"
+msgid "Kolab %1"
+msgstr ""
+
+#: utils.cpp:552
+#, kde-format
+msgctxt "%1 is the folder name"
+msgid "%1 in %2"
+msgstr ""
+
+#: utils.cpp:585
+#, kde-format
+msgctxt "%1 is folder owner name, %2 is folder contents"
+msgid "%1's Google %2"
+msgstr ""
+
+#: utils.cpp:587
+#, kde-format
+msgctxt "%1 is folder owner name, %2 is folder name"
+msgid "%1's %2"
+msgstr ""
+
+#: utils.cpp:590
+#, kde-format
+msgctxt "%1 is folder contents"
+msgid "Google %1"
+msgstr ""
+
+#: utils.cpp:598
+#, kde-format
+msgid "My %1"
+msgstr ""
+
+#: utils.cpp:602
+#, fuzzy, kde-format
+#| msgid "Unknown"
+msgctxt "unknown resource"
+msgid "Unknown"
+msgstr "Nomaʼlum"
+
+#: utils.cpp:622
+#, fuzzy, kde-format
+#| msgid "Use as &Default Calendar"
+msgctxt "this is the default calendar"
+msgid "%1 (Default Calendar)"
+msgstr "Andoza &kalendar sifatida foydalanish"
+
+#: utils.cpp:633
+#, kde-format
+msgctxt "a virtual folder type"
+msgid "Virtual"
+msgstr ""
+
+#: utils.cpp:635
+#, fuzzy, kde-format
+#| msgid "Calendar"
+msgid "Folder type:"
+msgstr "Kalendar"
+
+#: utils.cpp:645
+#, fuzzy, kde-format
+#| msgid "(None)"
+msgctxt "collection has no mimetypes to show the user"
+msgid "none"
+msgstr "(Yoʻq)"
+
+#: utils.cpp:648
+#, fuzzy, kde-format
+#| msgid "Calendar"
+msgid "Content type:"
+msgstr "Kalendar"
+
+#: utils.cpp:655
+#, kde-format
+msgid "Rights:"
+msgstr ""
+
+#: utils.cpp:658
+#, fuzzy, kde-format
+#| msgid "read-only"
+msgctxt "the calendar is read-only"
+msgid "read-only"
+msgstr "faqat oʻqishga"
+
+#: utils.cpp:660
+#, fuzzy, kde-format
+#| msgid "Overwrite"
+msgctxt "the calendar is read and write"
+msgid "read+write"
+msgstr "Almashtirish"
+
+#: utils.cpp:668
+#, kde-format
+msgctxt "blocking all reminders for this calendar"
+msgid "all"
+msgstr ""
+
+#: utils.cpp:671
+#, fuzzy, kde-format
+#| msgid "Audio"
+msgctxt "blocking audio reminders for this calendar"
+msgid "audio"
+msgstr "Audio"
+
+#: utils.cpp:673
+#, fuzzy, kde-format
+#| msgid "&Daily"
+msgctxt "blocking display pop-up dialog reminders for this calendar"
+msgid "display"
+msgstr "Har &kun"
+
+#: utils.cpp:675
+#, fuzzy, kde-format
+#| msgid "Email"
+msgctxt "blocking email reminders for this calendar"
+msgid "email"
+msgstr "Elektron pochta"
+
+#: utils.cpp:677
+#, fuzzy, kde-format
+#| msgid "Proceed"
+msgctxt "blocking run a command reminders for this calendar"
+msgid "procedure"
+msgstr "Davom etish"
+
+#: utils.cpp:679
+#, kde-format
+msgctxt "blocking unknown type reminders for this calendar"
+msgid "other"
+msgstr ""
+
+#: utils.cpp:683
+#, fuzzy, kde-format
+#| msgid "(None)"
+msgctxt "not blocking any reminder types for this calendar"
+msgid "none"
+msgstr "(Yoʻq)"
+
+#: utils.cpp:686
+#, fuzzy, kde-format
+#| msgid "Edit Reminders"
+msgid "Blocked Reminders:"
+msgstr "Esga solishni tahrirlash"
+
+#: utils.cpp:751
+#, fuzzy, kde-format
+#| msgctxt "short_weekday date (e.g. Mon 13)"
+#| msgid "%1 %2"
+msgctxt "search pattern for holidayname"
+msgid "^%1"
+msgstr "%1 %2"
+
+#: utils.cpp:753
+#, fuzzy, kde-format
+#| msgctxt "short_weekday date (e.g. Mon 13)"
+#| msgid "%1 %2"
+msgid "%1 (%2)"
+msgstr "%1 %2"
+
+#: utils.cpp:758
+#, kde-format
+msgctxt "replace pattern for holidayname (countrycode)"
+msgid "^%1 \\(.*\\)"
+msgstr ""
+
+#~ msgid "&Events"
+#~ msgstr "&Hodisalar"
+
+#~ msgid "&To-dos"
+#~ msgstr "&Vazifalar"
+
+#, fuzzy
+#~| msgid "Print to-&dos"
+#~ msgid "Print Item list"
+#~ msgstr "Vazifalarni &bosib chiqarish"
+
+#, fuzzy
+#~ msgid "Prints a list of events and to-dos"
+#~ msgstr "Hodisani &oʻchirish"
+
+#, fuzzy
+#~ msgid "Print What's Next"
+#~ msgstr "Navbatda &nima"
+
+#, fuzzy
+#~ msgctxt "date from-to"
+#~ msgid "%1 - %2"
+#~ msgstr "%1 %2"
+
+#, fuzzy
+#~ msgctxt ""
+#~ "date from-\n"
+#~ "to"
+#~ msgid ""
+#~ "%1 -\n"
+#~ "%2"
+#~ msgstr "%1 %2"
+
+#, fuzzy
+#~ msgctxt "date from - to"
+#~ msgid "%1 - %2"
+#~ msgstr "%1 %2"
+
+#, fuzzy
+#~ msgctxt ""
+#~ "date from -\n"
+#~ "to"
+#~ msgid ""
+#~ "%1 -\n"
+#~ "%2"
+#~ msgstr "%1 %2"
+
+#, fuzzy
+#~ msgid ""
+#~ "Check this option if you want to have to-dos on the print, placed by "
+#~ "their due date."
+#~ msgstr "Faqat tanlanganni koʻrsatish"
+
+#, fuzzy
+#~ msgid "Check this option to show note lines."
+#~ msgstr "Faqat tanlanganni koʻrsatish"
+
+#~ msgid "&Description"
+#~ msgstr "&Taʼrifi"
+
+#, fuzzy
+#~| msgid "Events"
+#~ msgid "Today's Events"
+#~ msgstr "Hodisalar"
+
+#, fuzzy
+#~| msgid "&Description"
+#~ msgid "Include &descriptions"
+#~ msgstr "&Taʼrifi"
+
+#, fuzzy
+#~| msgid "&Title:"
+#~ msgctxt "@label to-do summary"
+#~ msgid "Title"
+#~ msgstr "Sa&rlavha:"
+
+#, fuzzy
+#~ msgid "Categories: "
+#~ msgstr "Turkumlar"
+
+#, fuzzy
+#~| msgid "Summary"
+#~ msgctxt "@title:column, calendar event summary"
+#~ msgid "Summary"
+#~ msgstr "Hisobot"
+
+#, fuzzy
+#~| msgid "Enter the reminder time here."
+#~ msgctxt "@title:column, calendar event start date and time"
+#~ msgid "Start date and time"
+#~ msgstr "Esga solish vaqtini shu yerga kiriting."
+
+#, fuzzy
+#~ msgctxt "@title:column, calendar event end date and time"
+#~ msgid "End date and time"
+#~ msgstr "Tugash kuni:"
+
+#, fuzzy
+#~| msgid "Type"
+#~ msgctxt "@title:column, calendar event type"
+#~ msgid "Type"
+#~ msgstr "Turi"
+
+#, fuzzy
+#~| msgid "Unknown"
+#~ msgctxt "unknown calendar type"
+#~ msgid "unknown"
+#~ msgstr "Nomaʼlum"
+
+#~ msgid "No item selected."
+#~ msgstr "Hech narsa tanlanmagan."
+
+#, fuzzy
+#~| msgid "Attach&ments"
+#~ msgid "Save Attachments To"
+#~ msgstr "&Ilovalar"
+
+#, fuzzy
+#~| msgid "Attach&ments"
+#~ msgctxt "filename for an unnamed attachment"
+#~ msgid "attachment.1"
+#~ msgstr "&Ilovalar"
+
+#, fuzzy
+#~| msgid ""
+#~| "A template with that name already exists, do you want to overwrite it?."
+#~ msgid "%1 already exists. Do you want to overwrite it?"
+#~ msgstr ""
+#~ "Bunday nomli namuna allaqachon mavjud. Uni almashtirishni istaysizmi?"
+
+#, fuzzy
+#~| msgid "General"
+#~ msgctxt "@title:tab General settings for a folder."
+#~ msgid "General"
+#~ msgstr "Umumiy"
+
+#, fuzzy
+#~| msgid "Name:"
+#~ msgctxt "@label:textbox Name of the folder."
+#~ msgid "&Name:"
+#~ msgstr "Nomi:"
+
+#, fuzzy
+#~ msgctxt "@info:tooltip"
+#~ msgid "Set the folder name"
+#~ msgstr "Tugash kuni:"
+
+#, fuzzy
+#~ msgctxt "@option:check"
+#~ msgid "Block reminders locally"
+#~ msgstr "Esga solish"
+
+#, fuzzy
+#~| msgid "Activates a reminder for this event or to-do."
+#~ msgctxt "@info:tooltip"
+#~ msgid "Ignore reminders from this calendar"
+#~ msgstr "Ushbu hodisa yoki vazifa uchun esga solishni qoʻllash."
+
+#, fuzzy
+#~| msgid "Calendar"
+#~ msgctxt "@option:check"
+#~ msgid "&Use custom icon:"
+#~ msgstr "Kalendar"
+
+#, fuzzy
+#~| msgid "Calendar"
+#~ msgctxt "@info:tooltip"
+#~ msgid "Set a custom icon"
+#~ msgstr "Kalendar"
+
+#, fuzzy
+#~ msgctxt "@info:whatsthis"
+#~ msgid "Check this box if you want to set a custom icon for this folder."
+#~ msgstr "Faqat tanlanganni koʻrsatish"
+
+#, fuzzy
+#~| msgid "Add as new calendar"
+#~ msgctxt "%1 is the folder name"
+#~ msgid "%1 CalDav Calendar"
+#~ msgstr "Yangi kalendar sifatida qoʻshish"
+
+#, fuzzy
+#~| msgid "Other Options"
+#~ msgid "Yearly Print Options"
+#~ msgstr "Boshqa parametrlar"
+
+#, fuzzy
+#~ msgid "Print &year:"
+#~ msgstr "Bosib chiqarish uslubi"
+
+#, fuzzy
+#~ msgid "Display Options"
+#~ msgstr "Esga solish"
+
+#~ msgctxt "NAME OF TRANSLATORS"
+#~ msgid "Your names"
+#~ msgstr "Mashrab Quvatov, Nurali Abdurahmonov"
+
+#~ msgctxt "EMAIL OF TRANSLATORS"
+#~ msgid "Your emails"
+#~ msgstr "kmashrab@uni-bremen.de, mavnur@gmail.com"
+
+#~ msgid "KOrganizer"
+#~ msgstr "KOrganizer"
+
+#, fuzzy
+#~| msgid "A Personal Organizer for KDE"
+#~ msgid "A Personal Organizer"
+#~ msgstr "KDE uchun shaxsiy organayzer"
+
+#~ msgid "Maintainer"
+#~ msgstr "Taʼminlovchi"
+
+#, fuzzy
+#~| msgid "Current Maintainer"
+#~ msgid "Former Maintainer"
+#~ msgstr "Joriy taʼminlovchi"
+
+#~ msgid "Original Author"
+#~ msgstr "Birinchi muallif"
+
+#, fuzzy
+#~| msgid "In weeks"
+#~ msgid "Ian Dawes"
+#~ msgstr "Haftalarda"
+
+#, fuzzy
+#~ msgid "Tim Jansen"
+#~ msgstr "Vaqt zonasi:"
+
+#, fuzzy
+#~| msgid "Maintainer"
+#~ msgid "Martin Koller"
+#~ msgstr "Taʼminlovchi"
+
+#, fuzzy
+#~| msgid "&Use colors"
+#~ msgid "Uwe Koloska"
+#~ msgstr "&Ranglardan foydalanish"
+
+#, fuzzy
+#~ msgid "Don Sanders"
+#~ msgstr "Esga solish"
+
+#, fuzzy
+#~| msgid "Add..."
+#~ msgid "A&dd..."
+#~ msgstr "Qoʻshish"
+
+#, fuzzy
+#~| msgid "&Edit..."
+#~ msgid "&Modify..."
+#~ msgstr "&Tahrirlash"
+
+#, fuzzy
+#~ msgid "R&emove"
+#~ msgstr "Tutgan oʻrin"
+
+#~ msgid "Import &Calendar..."
+#~ msgstr "Kalendarni &import qilish..."
+
+#, fuzzy
+#~ msgid "Merge the contents of another iCalendar"
+#~ msgstr "Ilovani qoʻshish"
+
+#, fuzzy
+#~| msgid "Import &Calendar..."
+#~ msgid "Export as &iCalendar..."
+#~ msgstr "Kalendarni &import qilish..."
+
+#, fuzzy
+#~| msgid "Import &Calendar..."
+#~ msgid "Export as &vCalendar..."
+#~ msgstr "Kalendarni &import qilish..."
+
+#, fuzzy
+#~ msgid "&Delete"
+#~ msgstr "%1'ni oʻchirish"
+
+#~ msgid "What's &Next"
+#~ msgstr "Navbatda &nima"
+
+#~ msgid "&Month"
+#~ msgstr "&Oy"
+
+#, fuzzy
+#~ msgid "&Agenda"
+#~ msgstr "Hodisani koʻruvchi"
+
+#, fuzzy
+#~| msgid "&Events"
+#~ msgid "&Event List"
+#~ msgstr "&Hodisalar"
+
+#~ msgid "&To-do List"
+#~ msgstr "Vazifalar &roʻyxati"
+
+#, fuzzy
+#~ msgid "Time&line"
+#~ msgstr "Vaqt zonasi:"
+
+#, fuzzy
+#~ msgid "Time&spent"
+#~ msgstr "Vaqt zonasi:"
+
+#~ msgid "&Refresh"
+#~ msgstr "&Yangilash"
+
+#~ msgid "F&ilter"
+#~ msgstr "&Filter"
+
+#, fuzzy
+#~| msgid "day"
+#~ msgctxt "@action Jump to today"
+#~ msgid "To &Today"
+#~ msgstr "kun"
+
+#, fuzzy
+#~| msgid "Go to &Today"
+#~ msgid "Scroll to Today"
+#~ msgstr "&Bugunga oʻtish"
+
+#, fuzzy
+#~| msgid "Go &Backward"
+#~ msgctxt "scroll backward"
+#~ msgid "&Backward"
+#~ msgstr "&Orqaga oʻtish"
+
+#, fuzzy
+#~| msgid "Go &Backward"
+#~ msgctxt "scroll backward"
+#~ msgid "Back"
+#~ msgstr "&Orqaga oʻtish"
+
+#, fuzzy
+#~| msgid "Go &Backward"
+#~ msgid "Scroll Backward"
+#~ msgstr "&Orqaga oʻtish"
+
+#, fuzzy
+#~| msgid "Go &Forward"
+#~ msgctxt "scroll forward"
+#~ msgid "&Forward"
+#~ msgstr "Oldin&ga oʻtish"
+
+#, fuzzy
+#~| msgid "Go &Forward"
+#~ msgctxt "scoll forward"
+#~ msgid "Forward"
+#~ msgstr "Oldin&ga oʻtish"
+
+#, fuzzy
+#~| msgid "Go &Forward"
+#~ msgid "Scroll Forward"
+#~ msgstr "Oldin&ga oʻtish"
+
+#~ msgid "&Day"
+#~ msgstr "&Kun"
+
+#, fuzzy
+#~ msgid "&Next Day"
+#~ msgid_plural "&Next %1 Days"
+#~ msgstr[0] "&Keyingi kun"
+
+#~ msgid "W&ork Week"
+#~ msgstr "Ish &hafta"
+
+#~ msgid "&Week"
+#~ msgstr "Ha&fta"
+
+#~ msgid "New E&vent..."
+#~ msgstr "Yangi &hodisa"
+
+#~ msgid "New &To-do..."
+#~ msgstr "Yangi &vazifa..."
+
+#, fuzzy
+#~| msgid "Click to add a new to-do"
+#~ msgid "Create a new To-do"
+#~ msgstr "Yangi vazifa qoʻshish uchun bosing"
+
+#~ msgid "New Su&b-to-do..."
+#~ msgstr "Yangi tub &vazifa..."
+
+#~ msgid "New &Journal..."
+#~ msgstr "Yangi &kundalik"
+
+#, fuzzy
+#~| msgid "&Configure..."
+#~ msgid "Configure View..."
+#~ msgstr "&Moslash..."
+
+#, fuzzy
+#~| msgid "&Configure..."
+#~ msgid "Configure"
+#~ msgstr "&Moslash..."
+
+#, fuzzy
+#~| msgid "Configure &Date && Time..."
+#~ msgid "Configure the view"
+#~ msgstr "Sana va vaqtni &moslash"
+
+#~ msgid "&Show"
+#~ msgstr "&Koʻrsatish"
+
+#~ msgid "&Edit..."
+#~ msgstr "&Tahrirlash"
+
+#~ msgid "Re&quest Update"
+#~ msgstr "Yangilashni soʻ&rash"
+
+#, fuzzy
+#~| msgid "&iCalendar..."
+#~ msgid "&Send as iCalendar..."
+#~ msgstr "&iCalendar..."
+
+#, fuzzy
+#~| msgid "&Addressbook"
+#~ msgid "&Address Book"
+#~ msgstr "&Manzillar daftari"
+
+#~ msgid "Show To-do View"
+#~ msgstr "Vazifalar koʻrinishini koʻrsatish"
+
+#, fuzzy
+#~| msgid "New Calendar"
+#~ msgid "Show Calendar Manager"
+#~ msgstr "Yangi kalendar"
+
+#~ msgid "Configure &Date && Time..."
+#~ msgstr "Sana va vaqtni &moslash"
+
+#~ msgid "Manage View &Filters..."
+#~ msgstr "&Koʻrinish filterlarini boshqarish"
+
+#~ msgid "Manage C&ategories..."
+#~ msgstr "Turku&mlarni boshqarish..."
+
+#, fuzzy
+#~| msgid "&Configure Calendar..."
+#~ msgid "&Configure KOrganizer..."
+#~ msgstr "Kalendar &moslamasi..."
+
+#, fuzzy
+#~| msgid "Could not load calendar '%1'."
+#~ msgid "Could not add a calendar. Error: %1"
+#~ msgstr "'%1' kalendarini yuklab boʻlmadi."
+
+#, fuzzy
+#~| msgid "New Calendar"
+#~ msgid "Select path for HTML calendar export"
+#~ msgstr "Yangi kalendar"
+
+#~ msgid ""
+#~ "The calendar has been modified.\n"
+#~ "Do you want to save it?"
+#~ msgstr ""
+#~ "Kalendarga oʻzgarish kiritildi.\n"
+#~ "Uni saqlashni istaysizmi?"
+
+#, fuzzy
+#~| msgid "*.vcs *.ics|Calendar Files"
+#~ msgid "*.ics *.vcs|Calendar Files"
+#~ msgstr "*.vcs *.ics|Kalendar fayllar"
+
+#, fuzzy
+#~| msgid "Could not load calendar '%1'."
+#~ msgid "Could not load calendar %1."
+#~ msgstr "'%1' kalendarini yuklab boʻlmadi."
+
+#~ msgid "&Show Event"
+#~ msgstr "Hodisani &koʻrsatish"
+
+#~ msgid "&Edit Event..."
+#~ msgstr "Hodisani &tahrirlash"
+
+#~ msgid "&Show To-do"
+#~ msgstr "Vazifani &koʻrsatish"
+
+#~ msgid "&Edit To-do..."
+#~ msgstr "Vazifani &tahrirlash..."
+
+#~ msgid "&Delete To-do"
+#~ msgstr "Vazifani &olib tashlash"
+
+#, fuzzy
+#~ msgid "Attach &inline"
+#~ msgstr "Ilovani qoʻshish"
+
+#, fuzzy
+#~| msgid "Undo (%1)"
+#~ msgid "Undo: %1"
+#~ msgstr "Bekor qilish (%1)"
+
+#, fuzzy
+#~ msgid "Undo"
+#~ msgstr "Bekor qilish (%1)"
+
+#, fuzzy
+#~| msgid "Redo (%1)"
+#~ msgid "Redo: %1"
+#~ msgstr "Qaytarish (%1)"
+
+#, fuzzy
+#~ msgid "Redo"
+#~ msgstr "Qaytarish (%1)"
+
+#, fuzzy
+#~| msgid "Import Calendar"
+#~ msgctxt "@title:window"
+#~ msgid "Import Calendar"
+#~ msgstr "Kalendarni import qilish"
+
+#~ msgid "Add as new calendar"
+#~ msgstr "Yangi kalendar sifatida qoʻshish"
+
+#, fuzzy
+#~| msgid "Edit Calendar Filters"
+#~ msgctxt "@title:window"
+#~ msgid "Properties of Calendar Folder %1"
+#~ msgstr "Kalendar filterlarini tahrirlash"
+
+#~ msgid "&Disable Color"
+#~ msgstr "&Ranglardan foydalanilmasin"
+
+#, fuzzy
+#~| msgid "Add as new calendar"
+#~ msgid "Add Calendar"
+#~ msgstr "Yangi kalendar sifatida qoʻshish"
+
+#, fuzzy
+#~| msgid "Could not load calendar '%1'."
+#~ msgid "Do you really want to delete calendar %1?"
+#~ msgstr "'%1' kalendarini yuklab boʻlmadi."
+
+#, fuzzy
+#~| msgid "Default Calendar"
+#~ msgid "Delete Calendar"
+#~ msgstr "Andoza kalendar"
+
+#~ msgid "Keep Times"
+#~ msgstr "Vaqtni qoldirish"
+
+#~ msgid "Move Times"
+#~ msgstr "Vaqtni koʻchirish"
+
+#, fuzzy
+#~ msgid "Todo completed: %1 (%2)"
+#~ msgstr "Vazifa bajarildi: %1 (%2)"
+
+#, fuzzy
+#~| msgid "Delete Old Items"
+#~ msgctxt "@title:window"
+#~ msgid "Delete Item?"
+#~ msgstr "Eski narsalarni olib tashlash"
+
+#, fuzzy
+#~| msgid "&Toggle Reminder"
+#~ msgid "Toggle Reminder"
+#~ msgstr "&Esga solishni oʻchirish/yoqish"
+
+#, fuzzy
+#~| msgid "Hide co&mpleted to-dos"
+#~ msgid "Toggle To-do Completed"
+#~ msgstr "Ba&jarilgan vazifalarni bekitish"
+
+#, fuzzy
+#~| msgid "Copying Failed"
+#~ msgctxt "@title:window"
+#~ msgid "Copying Succeeded"
+#~ msgstr "Nusxa olish muvaffaqiyatsiz tugadi"
+
+#, fuzzy
+#~ msgctxt "@info"
+#~ msgid "Unable to copy the item \"%1\" to %2."
+#~ msgstr "'%1' namunani topib boʻlmadi."
+
+#, fuzzy
+#~| msgid "Copying Failed"
+#~ msgctxt "@title:window"
+#~ msgid "Copying Failed"
+#~ msgstr "Nusxa olish muvaffaqiyatsiz tugadi"
+
+#, fuzzy
+#~| msgid "Moving Failed"
+#~ msgctxt "@title:window"
+#~ msgid "Moving Failed"
+#~ msgstr "Koʻchirish muvaffaqiyatsiz tugadi"
+
+#, fuzzy
+#~| msgid "Moving Failed"
+#~ msgctxt "@title:window"
+#~ msgid "Moving Succeeded"
+#~ msgstr "Koʻchirish muvaffaqiyatsiz tugadi"
+
+#, fuzzy
+#~| msgid "*.vcs|vCalendars"
+#~ msgid "*.ics|iCalendars"
+#~ msgstr "*.vcs|vCalendar fayllar"
+
+#, fuzzy
+#~| msgid "Cannot write archive file %1."
+#~ msgctxt "@info"
+#~ msgid "Cannot write iCalendar file %1. %2"
+#~ msgstr "%1 arxiv faylini yozib boʻlmadi."
+
+#~ msgid "*.vcs|vCalendars"
+#~ msgstr "*.vcs|vCalendar fayllar"
+
+#, fuzzy
+#~| msgid "Cannot write archive file %1."
+#~ msgctxt "@info"
+#~ msgid "Cannot write vCalendar file %1. %2"
+#~ msgstr "%1 arxiv faylini yozib boʻlmadi."
+
+#~ msgid "&Previous Day"
+#~ msgstr "O&ldingi kun"
+
+#~ msgid "&Previous Week"
+#~ msgstr "Old&ingi hafta"
+
+#~ msgid "No filter"
+#~ msgstr "Filter yoʻq"
+
+#~ msgid "Delete Only This"
+#~ msgstr "Faqat shuni oʻchirish"
+
+#, fuzzy
+#~ msgid "Delete All"
+#~ msgstr "Ham&masini oʻchirish"
+
+#, fuzzy
+#~| msgid "Delete To-do"
+#~ msgid "Delete parent to-do"
+#~ msgstr "Vazifani oʻchirish"
+
+#, fuzzy
+#~| msgid "Deleting sub-to-dos"
+#~ msgid "Delete parent to-do and sub-to-dos"
+#~ msgstr "Tub vazifalar oʻchirilmoqda"
+
+#, fuzzy
+#~| msgid "Delete &Future"
+#~ msgid "Also Delete &Future"
+#~ msgstr "&Kelajakdagini oʻchirish"
+
+#~ msgid "Delete C&urrent"
+#~ msgstr "&Joriyni oʻchirish"
+
+#~ msgid "Delete &All"
+#~ msgstr "Ham&masini oʻchirish"
+
+#, fuzzy
+#~ msgid "There are no completed to-dos to purge."
+#~ msgstr "%1 da ba&jarilgan"
+
+#~ msgid "Copying Failed"
+#~ msgstr "Nusxa olish muvaffaqiyatsiz tugadi"
+
+#, fuzzy
+#~ msgid "Unable to move the item to  %1."
+#~ msgstr "'%1' namunani topib boʻlmadi."
+
+#~ msgid "Moving Failed"
+#~ msgstr "Koʻchirish muvaffaqiyatsiz tugadi"
+
+#, fuzzy
+#~| msgid "Hide co&mpleted to-dos"
+#~ msgid "0 completed to-dos were purged."
+#~ msgstr "Ba&jarilgan vazifalarni bekitish"
+
+#, fuzzy
+#~| msgid "Hide co&mpleted to-dos"
+#~ msgid "%1 completed to-do was purged."
+#~ msgid_plural "%1 completed to-dos were purged."
+#~ msgstr[0] "Ba&jarilgan vazifalarni bekitish"
+
+#, fuzzy
+#~| msgid "General"
+#~ msgctxt "general settings for html export"
+#~ msgid "General"
+#~ msgstr "Umumiy"
+
+#~ msgid "To-dos"
+#~ msgstr "Vazifalar"
+
+#~ msgid "Events"
+#~ msgstr "Hodisalar"
+
+#, fuzzy
+#~ msgid "Search"
+#~ msgstr "&Boshi:"
+
+#~ msgid "&New"
+#~ msgstr "&Yangi"
+
+#~ msgid "Filter Details"
+#~ msgstr "Filter tafsilotlari"
+
+#, fuzzy
+#~| msgid "Name:"
+#~ msgctxt "filter name"
+#~ msgid "Name:"
+#~ msgstr "Nomi:"
+
+#~ msgid "Hide &recurring events and to-dos"
+#~ msgstr "Qay&tariladigan hodisa va vazifalarni bekitish"
+
+#~ msgid "Hide &inactive to-dos"
+#~ msgstr "Aktiv &boʻlmagan vazifalarni bekitish"
+
+#~ msgid "Categories"
+#~ msgstr "Turkumlar"
+
+#~ msgid "Show only selected"
+#~ msgstr "Faqat tanlanganni koʻrsatish"
+
+#~ msgid "Change..."
+#~ msgstr "Oʻzgartirish..."
+
+#, fuzzy
+#~| msgid "Edit Calendar Filters"
+#~ msgctxt "@title::window"
+#~ msgid "Edit Calendar Filters"
+#~ msgstr "Kalendar filterlarini tahrirlash"
+
+#, fuzzy
+#~| msgid "Sets the Title of this event or to-do."
+#~ msgctxt "@info:whatsthis"
+#~ msgid "Press this button to remove the currently active filter."
+#~ msgstr "Ushbu hodisa yoki vazifa sarlavhasini moslash."
+
+#, fuzzy
+#~| msgid "New Filter %1"
+#~ msgctxt "@label default filter name"
+#~ msgid "New Filter %1"
+#~ msgstr "Yangi filter %1"
+
+#, fuzzy
+#~| msgid "Delete Old Items"
+#~ msgctxt "@title:window"
+#~ msgid "Delete Filter?"
+#~ msgstr "Eski narsalarni olib tashlash"
+
+#, fuzzy
+#~ msgid "Unable to write the output file."
+#~ msgstr "'%1' namunani topib boʻlmadi."
+
+#, fuzzy
+#~ msgid "Unable to upload the export file."
+#~ msgstr "'%1' namunani topib boʻlmadi."
+
+#, fuzzy
+#~| msgid "Status"
+#~ msgctxt "@title:window"
+#~ msgid "Export Status"
+#~ msgstr "Holati"
+
+#, fuzzy
+#~| msgid "Automatic"
+#~ msgctxt "@info:status"
+#~ msgid "Automatic Export: %1"
+#~ msgstr "Avtomatik"
+
+#, fuzzy
+#~| msgid "Start Time"
+#~ msgctxt "@title:column event start time"
+#~ msgid "Start Time"
+#~ msgstr "Boshlash vaqti"
+
+#, fuzzy
+#~| msgid "End Time"
+#~ msgctxt "@title:column event end time"
+#~ msgid "End Time"
+#~ msgstr "Tugash vaqti"
+
+#, fuzzy
+#~| msgid "Events"
+#~ msgctxt "@title:column event description"
+#~ msgid "Event"
+#~ msgstr "Hodisalar"
+
+#, fuzzy
+#~ msgctxt "@title:column event locatin"
+#~ msgid "Location"
+#~ msgstr "&Manzil:"
+
+#, fuzzy
+#~| msgid "Categories"
+#~ msgctxt "@title:column event categories"
+#~ msgid "Categories"
+#~ msgstr "Turkumlar"
+
+#, fuzzy
+#~ msgctxt "@title:column event attendees"
+#~ msgid "Attendees"
+#~ msgstr "&Qatnashuvchilar"
+
+#, fuzzy
+#~| msgid "To-do:"
+#~ msgctxt "@title:column"
+#~ msgid "To-do"
+#~ msgstr "Vazifa:"
+
+#, fuzzy
+#~| msgid "Priority"
+#~ msgctxt "@title:column to-do priority"
+#~ msgid "Priority"
+#~ msgstr "Muhimlik darajasi"
+
+#, fuzzy
+#~| msgid "Complete"
+#~ msgctxt "@title:column to-do percent completed"
+#~ msgid "Completed"
+#~ msgstr "Bajarilgan"
+
+#, fuzzy
+#~ msgctxt "@title:column to-do due date"
+#~ msgid "Due Date"
+#~ msgstr "Sana va vaqt"
+
+#, fuzzy
+#~ msgctxt "@title:column to-do location"
+#~ msgid "Location"
+#~ msgstr "&Manzil:"
+
+#, fuzzy
+#~| msgid "Categories"
+#~ msgctxt "@title:column to-do categories"
+#~ msgid "Categories"
+#~ msgstr "Turkumlar"
+
+#, fuzzy
+#~ msgctxt "@title:column to-do attendees"
+#~ msgid "Attendees"
+#~ msgstr "&Qatnashuvchilar"
+
+#, fuzzy
+#~| msgid "To-dos:"
+#~ msgctxt "@title:column sub-to-dos of the parent to-do"
+#~ msgid "Sub-To-dos of: "
+#~ msgstr "Vazifalar:"
+
+#, fuzzy
+#~| msgid "To-dos"
+#~ msgctxt "@title:column sub-to-dos of the parent to-do"
+#~ msgid "Sub-To-dos"
+#~ msgstr "Vazifalar"
+
+#, fuzzy
+#~| msgid "Edit %1"
+#~ msgctxt "@info/plain page credit name only"
+#~ msgid "with %1"
+#~ msgstr "%1'ni tahrirlash"
+
+#, fuzzy
+#~| msgctxt "short_weekday date (e.g. Mon 13)"
+#~| msgid "%1 %2"
+#~ msgctxt "@info/plain holiday by date and name"
+#~ msgid "%1, %2"
+#~ msgstr "%1 %2"
+
+#, fuzzy
+#~| msgid "Please enter a name for the new template:"
+#~ msgid "Full name of the calendar owner"
+#~ msgstr "Iltimos yangi namunaning nomini kiriting:"
+
+#, fuzzy
+#~| msgid "Please enter a name for the new template:"
+#~ msgid "The full name of the calendar owner for the export"
+#~ msgstr "Iltimos yangi namunaning nomini kiriting:"
+
+#, fuzzy
+#~| msgid "Please enter a name for the new template:"
+#~ msgid "The email address of the calendar owner for the export"
+#~ msgstr "Iltimos yangi namunaning nomini kiriting:"
+
+#, fuzzy
+#~ msgid "Creator application of the calendar"
+#~ msgstr "'%1' namunani topib boʻlmadi."
+
+#, fuzzy
+#~ msgid "Enter a creator application of the calendar, for example KOrganizer."
+#~ msgstr "'%1' namunani topib boʻlmadi."
+
+#, fuzzy
+#~| msgid "Server URL:"
+#~ msgid "Creator URL"
+#~ msgstr "&Serverning manzili:"
+
+#, fuzzy
+#~| msgid "&Title:"
+#~ msgid "Page Title"
+#~ msgstr "Sa&rlavha:"
+
+#, fuzzy
+#~| msgid "Default reminder time:"
+#~ msgid "The title of the exported page"
+#~ msgstr "Andoza esga solish vaqti:"
+
+#, fuzzy
+#~ msgid "Date start"
+#~ msgstr "Ishga tushirilmasin"
+
+#, fuzzy
+#~| msgid "Date && Time"
+#~ msgid "Date end"
+#~ msgstr "Sana va vaqt"
+
+#, fuzzy
+#~| msgid "To-do list"
+#~ msgid "Export events as a list"
+#~ msgstr "Vazifalar roʻyxati"
+
+#, fuzzy
+#~ msgid "Export in month view"
+#~ msgstr "Faqat tanlanganni koʻrsatish"
+
+#, fuzzy
+#~ msgid "Export events in a month view"
+#~ msgstr "Faqat tanlanganni koʻrsatish"
+
+#, fuzzy
+#~ msgid "Title of the calendar"
+#~ msgstr "'%1' namunani topib boʻlmadi."
+
+#, fuzzy
+#~ msgid "Title for the event calendar"
+#~ msgstr "'%1' namunani topib boʻlmadi."
+
+#, fuzzy
+#~| msgid "Please enter a name for the new template:"
+#~ msgid "Enter a string to use for the title of the event calendar."
+#~ msgstr "Iltimos yangi namunaning nomini kiriting:"
+
+#, fuzzy
+#~| msgid "&Description"
+#~ msgid "Include the event locations"
+#~ msgstr "&Taʼrifi"
+
+#, fuzzy
+#~| msgid "Select Cate&gories..."
+#~ msgid "Include the event categories"
+#~ msgstr "Turkumlarni &tanlash"
+
+#, fuzzy
+#~ msgid "Include the event attendees"
+#~ msgstr "Ishga tushirilmasin"
+
+#, fuzzy
+#~| msgid "To-do list"
+#~ msgid "Export to-do list"
+#~ msgstr "Vazifalar roʻyxati"
+
+#, fuzzy
+#~| msgid "To-do list"
+#~ msgid "Export the to-do list"
+#~ msgstr "Vazifalar roʻyxati"
+
+#, fuzzy
+#~ msgid "Title of the to-do list"
+#~ msgstr "Ishga tushirilmasin"
+
+#, fuzzy
+#~ msgid "Title for the to-do list"
+#~ msgstr "Ishga tushirilmasin"
+
+#, fuzzy
+#~ msgid "Include the to-do locations"
+#~ msgstr "Ishga tushirilmasin"
+
+#, fuzzy
+#~| msgid "Select Cate&gories..."
+#~ msgid "Include the to-do categories"
+#~ msgstr "Turkumlarni &tanlash"
+
+#, fuzzy
+#~ msgid "Include the to-do attendees"
+#~ msgstr "1 daqiqa"
+
+#, fuzzy
+#~| msgid "New &Journal..."
+#~ msgid "Export journals"
+#~ msgstr "Yangi &kundalik"
+
+#, fuzzy
+#~| msgid "Sets the title of this journal."
+#~ msgid "Title of the journal list"
+#~ msgstr "Ushbu kundalikning nomini koʻrsatish."
+
+#, fuzzy
+#~| msgid "New &Journal..."
+#~ msgid "Journals"
+#~ msgstr "Yangi &kundalik"
+
+#, fuzzy
+#~| msgid "Sets the title of this journal."
+#~ msgid "Title for the journal list"
+#~ msgstr "Ushbu kundalikning nomini koʻrsatish."
+
+#, fuzzy
+#~| msgid "To-do list"
+#~ msgid "Export free/busy list"
+#~ msgstr "Vazifalar roʻyxati"
+
+#, fuzzy
+#~| msgid "Business"
+#~ msgid "Busy times"
+#~ msgstr "Ish"
+
+#, fuzzy
+#~| msgid "Sets the title of this journal."
+#~ msgid "Title for the free/busy list"
+#~ msgstr "Ushbu kundalikning nomini koʻrsatish."
+
+#, fuzzy
+#~| msgid "Select a month"
+#~ msgid "Selection"
+#~ msgstr "Oyni tanlash"
+
+#, fuzzy
+#~| msgid "Date && Time"
+#~ msgid "Date & Time"
+#~ msgstr "Sana va vaqt"
+
+#, fuzzy
+#~| msgid "Could not load calendar '%1'."
+#~ msgid "<qt>Do you really want to delete '<b>%1</b>'?</qt>"
+#~ msgstr "'%1' kalendarini yuklab boʻlmadi."
+
+#, fuzzy
+#~| msgid "*.ics|iCalendar Files"
+#~ msgid "*.ui|Designer Files"
+#~ msgstr "*.ics|iCalendar fayllar"
+
+#, fuzzy
+#~| msgid "Import Calendar"
+#~ msgid "Import Page"
+#~ msgstr "Kalendarni import qilish"
+
+#, fuzzy
+#~ msgid "Delete Page"
+#~ msgstr "%1'ni oʻchirish"
+
+#, fuzzy
+#~| msgid "Import &Calendar..."
+#~ msgid "Import Page..."
+#~ msgstr "Kalendarni &import qilish..."
+
+#, fuzzy
+#~ msgid "Type:"
+#~ msgstr "Turi"
+
+#, fuzzy
+#~| msgid "Username:"
+#~ msgid "Classname:"
+#~ msgstr "Foydalanuvchi:"
+
+#, fuzzy
+#~| msgid "To-do:"
+#~ msgid "To-do"
+#~ msgstr "Vazifa:"
+
+#, fuzzy
+#~| msgid "Resources"
+#~ msgid "Recurring"
+#~ msgstr "Manbalar"
+
+#, fuzzy
+#~| msgid "read-only"
+#~ msgid "Read Only"
+#~ msgstr "faqat oʻqishga"
+
+#, fuzzy
+#~| msgid "Ascending"
+#~ msgid "Attending"
+#~ msgstr "Koʻpayish boʻyicha"
+
+#, fuzzy
+#~| msgid "KOrganizer"
+#~ msgid "Organizer"
+#~ msgstr "KOrganizer"
+
+#, fuzzy
+#~ msgctxt "delimiter for joining holiday names"
+#~ msgid ","
+#~ msgstr ", "
+
+#, fuzzy
+#~ msgid "&Move"
+#~ msgstr "&Koʻchirish"
+
+#, fuzzy
+#~ msgid "&Copy"
+#~ msgstr "&Nusxa olish"
+
+#~ msgid "&Add"
+#~ msgstr "&Qoʻshish"
+
+#, fuzzy
+#~ msgid "&Print..."
+#~ msgstr "&Tahrirlash"
+
+#, fuzzy
+#~ msgid "Print Previe&w..."
+#~ msgstr "&Tahrirlash"
+
+#, fuzzy
+#~ msgctxt "copy this event"
+#~ msgid "&Copy"
+#~ msgstr "&Nusxa olish"
+
+#, fuzzy
+#~| msgid "&Date:"
+#~ msgid "&Paste"
+#~ msgstr "Sa&na:"
+
+#, fuzzy
+#~ msgctxt "delete this incidence"
+#~ msgid "&Delete"
+#~ msgstr "%1'ni oʻchirish"
+
+#~ msgid "&Toggle Reminder"
+#~ msgstr "&Esga solishni oʻchirish/yoqish"
+
+#, fuzzy
+#~| msgid "&iCalendar..."
+#~ msgid "Send as iCalendar..."
+#~ msgstr "&iCalendar..."
+
+#, fuzzy
+#~| msgid "Delete &Future"
+#~ msgid "Also &Future Items"
+#~ msgstr "&Kelajakdagini oʻchirish"
+
+#~ msgid "Event Viewer"
+#~ msgstr "Hodisani koʻruvchi"
+
+#, fuzzy
+#~| msgid "Edit..."
+#~ msgid "Edit..."
+#~ msgstr "Tahrirlash"
+
+#, fuzzy
+#~ msgid "Show in Context"
+#~ msgstr "Faqat tanlanganni koʻrsatish"
+
+#~ msgid "Password:"
+#~ msgstr "Maxfiy soʻz:"
+
+#, fuzzy
+#~| msgid "Username:"
+#~ msgctxt "login name on the Kolab server"
+#~ msgid "Username:"
+#~ msgstr "Foydalanuvchi:"
+
+#~ msgid "Remember p&assword"
+#~ msgstr "&Maxfiy soʻzni eslab qolish"
+
+#~ msgid "Server URL:"
+#~ msgstr "&Serverning manzili:"
+
+#~ msgid "User&name:"
+#~ msgstr "&Foydalanuvchi:"
+
+#~ msgid "Passwor&d:"
+#~ msgstr "&Maxfiy soʻz:"
+
+#~ msgid "Re&member password"
+#~ msgstr "&Maxfiy soʻzni eslab qolish"
+
+#, fuzzy
+#~ msgid "Unable to save %1 \"%2\"."
+#~ msgstr "'%1' namunani topib boʻlmadi."
+
+#~ msgctxt "Default export file"
+#~ msgid "calendar.html"
+#~ msgstr "calendar.html"
+
+#, fuzzy
+#~| msgid "Personal"
+#~ msgctxt "@title:tab personal settings"
+#~ msgid "Personal"
+#~ msgstr "Shaxsiy"
+
+#, fuzzy
+#~ msgctxt "@title:group email settings"
+#~ msgid "Email Settings"
+#~ msgstr "Uchrashuv"
+
+#, fuzzy
+#~| msgid "Import Calendar"
+#~ msgctxt "@title:group"
+#~ msgid "Exporting Calendar"
+#~ msgstr "Kalendarni import qilish"
+
+#, fuzzy
+#~| msgid "Calendar"
+#~ msgctxt "@title:tab calendar account settings"
+#~ msgid "Calendars"
+#~ msgstr "Kalendar"
+
+#, fuzzy
+#~| msgid "Personal"
+#~ msgctxt "@title:tab"
+#~ msgid "Regional"
+#~ msgstr "Shaxsiy"
+
+#, fuzzy
+#~| msgid "Holiday"
+#~ msgctxt "@title:group"
+#~ msgid "Holidays"
+#~ msgstr "Dam olish"
+
+#, fuzzy
+#~| msgid "(None)"
+#~ msgctxt "No holiday region"
+#~ msgid "None"
+#~ msgstr "(Yoʻq)"
+
+#, fuzzy
+#~| msgid "Appointment"
+#~ msgctxt "@title:group"
+#~ msgid "Appointments"
+#~ msgstr "Uchrashuv"
+
+#, fuzzy
+#~| msgid "Reminder"
+#~ msgctxt "@title:group"
+#~ msgid "Reminders"
+#~ msgstr "Esga solish"
+
+#, fuzzy
+#~| msgid "Default reminder time:"
+#~ msgctxt "@label"
+#~ msgid "Default reminder time:"
+#~ msgstr "Andoza esga solish vaqti:"
+
+#, fuzzy
+#~| msgid "minute(s)"
+#~ msgctxt "@item:inlistbox reminder units in minutes"
+#~ msgid "minute(s)"
+#~ msgstr "daqiqa"
+
+#, fuzzy
+#~| msgid "hour(s)"
+#~ msgctxt "@item:inlistbox reminder time units in hours"
+#~ msgid "hour(s)"
+#~ msgstr "soat"
+
+#, fuzzy
+#~| msgid "day(s)"
+#~ msgctxt "@item:inlistbox reminder time units in days"
+#~ msgid "day(s)"
+#~ msgstr "kun"
+
+#, fuzzy
+#~| msgid "General"
+#~ msgctxt "@title:tab general settings"
+#~ msgid "General"
+#~ msgstr "Umumiy"
+
+#, fuzzy
+#~| msgid "In days"
+#~ msgctxt "@label suffix in the N days spin box"
+#~ msgid " days"
+#~ msgstr "Kunlarda"
+
+#, fuzzy
+#~ msgctxt "@title:tab"
+#~ msgid "Agenda View"
+#~ msgstr "Hodisani koʻruvchi"
+
+#, fuzzy
+#~| msgid "Month View"
+#~ msgctxt "@title:tab"
+#~ msgid "Month View"
+#~ msgstr "Oy koʻrinishi"
+
+#, fuzzy
+#~| msgid "To-do View"
+#~ msgctxt "@title:tab"
+#~ msgid "Todo View"
+#~ msgstr "Vazifalar koʻrinishi"
+
+#, fuzzy
+#~| msgid "Other Options"
+#~ msgctxt "@title:group"
+#~ msgid "Other Options"
+#~ msgstr "Boshqa parametrlar"
+
+#, fuzzy
+#~| msgid "Categories"
+#~ msgctxt "@title:group"
+#~ msgid "Categories"
+#~ msgstr "Turkumlar"
+
+#, fuzzy
+#~| msgid "Resources"
+#~ msgctxt "@title:group"
+#~ msgid "Resources"
+#~ msgstr "Manbalar"
+
+#, fuzzy
+#~| msgid "Sets the Title of this event or to-do."
+#~ msgctxt "@info:whatsthis"
+#~ msgid ""
+#~ "Choose here the color of the calendar selected using the combo box above."
+#~ msgstr "Ushbu hodisa yoki vazifa sarlavhasini moslash."
+
+#, fuzzy
+#~| msgid "month(s)"
+#~ msgctxt "@title:tab"
+#~ msgid "Fonts"
+#~ msgstr "oy"
+
+#, fuzzy
+#~| msgid "Event text"
+#~ msgctxt "@label"
+#~ msgid "Event text"
+#~ msgstr "Hodisa matni"
+
+#, fuzzy
+#~| msgid "Name"
+#~ msgctxt "@title:column plugin name"
+#~ msgid "Name"
+#~ msgstr "Nomi"
+
+#, fuzzy
+#~| msgid "Configure &Plugin..."
+#~ msgctxt "@action:button"
+#~ msgid "Configure &Plugin..."
+#~ msgstr "&Plaginni moslash"
+
+#, fuzzy
+#~| msgid "&Description"
+#~ msgctxt "@title:group"
+#~ msgid "Position"
+#~ msgstr "&Taʼrifi"
+
+#, fuzzy
+#~ msgctxt "@option:check"
+#~ msgid "Show at the top of the agenda views"
+#~ msgstr "Faqat tanlanganni koʻrsatish"
+
+#, fuzzy
+#~| msgid "Calendar"
+#~ msgctxt "@title:group"
+#~ msgid "Calendar Decorations"
+#~ msgstr "Kalendar"
+
+#, fuzzy
+#~| msgid "Other Options"
+#~ msgctxt "@title:group"
+#~ msgid "Other Plugins"
+#~ msgstr "Boshqa parametrlar"
+
+#, fuzzy
+#~| msgid "Unable to configure this plugin"
+#~ msgctxt "@info"
+#~ msgid "Unable to configure this plugin"
+#~ msgstr "Ushbu plaginni moslab boʻlmadi"
+
+#~ msgid "New Calendar"
+#~ msgstr "Yangi kalendar"
+
+#, fuzzy
+#~ msgid "Export &interval in minutes"
+#~ msgstr "Saqlash &davri (min):"
+
+#~ msgid "Confirm deletes"
+#~ msgstr "Oʻchirishni tasdiqlash"
+
+#~ msgid "Next x days"
+#~ msgstr "Keyingi x kun"
+
+#, fuzzy
+#~ msgid "Show icons in agenda view items"
+#~ msgstr "Faqat tanlanganni koʻrsatish"
+
+#, fuzzy
+#~ msgid "Display icons in agenda view items"
+#~ msgstr "Faqat tanlanganni koʻrsatish"
+
+#, fuzzy
+#~| msgid "&Show To-do"
+#~ msgid "Show to-dos"
+#~ msgstr "Vazifani &koʻrsatish"
+
+#, fuzzy
+#~| msgid "Displays appointment time information."
+#~ msgid "Display the current-time indicator"
+#~ msgstr "Uchrashuv vaqti maʼlumotini koʻrsatish."
+
+#, fuzzy
+#~| msgid "Show seconds on current-time line"
+#~ msgid "Show seconds on the current-time (Marcus Bains) line"
+#~ msgstr "Joriy vaqt qatorida soniyalarni koʻrsatish"
+
+#, fuzzy
+#~| msgid "Show seconds on current-time line"
+#~ msgid "Display seconds with the current-time indicator"
+#~ msgstr "Joriy vaqt qatorida soniyalarni koʻrsatish"
+
+#, fuzzy
+#~| msgid "Calendar"
+#~ msgid "Calendar inside, category outside"
+#~ msgstr "Kalendar"
+
+#, fuzzy
+#~ msgid "Only category"
+#~ msgstr "Turkumlar"
+
+#, fuzzy
+#~| msgid "Calendar"
+#~ msgid "Only calendar"
+#~ msgstr "Kalendar"
+
+#, fuzzy
+#~| msgid "Active Calendar"
+#~ msgid "Multiple Calendar Display"
+#~ msgstr "Aktiv kalendar"
+
+#, fuzzy
+#~| msgid "New Calendar"
+#~ msgid "Tab through calendars"
+#~ msgstr "Yangi kalendar"
+
+#, fuzzy
+#~ msgid "Show icons in month view items"
+#~ msgstr "Faqat tanlanganni koʻrsatish"
+
+#, fuzzy
+#~ msgid "Show time in month view items"
+#~ msgstr "Faqat tanlanganni koʻrsatish"
+
+#, fuzzy
+#~ msgid "Display time in month view items"
+#~ msgstr "Faqat tanlanganni koʻrsatish"
+
+#, fuzzy
+#~ msgid "Check this box to display to-dos in the month view."
+#~ msgstr "Faqat tanlanganni koʻrsatish"
+
+#, fuzzy
+#~ msgid "Display to-dos in the month view"
+#~ msgstr "Faqat tanlanganni koʻrsatish"
+
+#, fuzzy
+#~| msgid "New &Journal..."
+#~ msgid "Show journals"
+#~ msgstr "Yangi &kundalik"
+
+#, fuzzy
+#~ msgid "Display journals in the month view"
+#~ msgstr "Faqat tanlanganni koʻrsatish"
+
+#, fuzzy
+#~ msgid "Display to-do list in a full KOrganizer window"
+#~ msgstr "Faqat tanlanganni koʻrsatish"
+
+#, fuzzy
+#~| msgid "Displays appointment time information."
+#~ msgid "Agenda view current-time line color"
+#~ msgstr "Uchrashuv vaqti maʼlumotini koʻrsatish."
+
+#, fuzzy
+#~| msgid "Show seconds on current-time line"
+#~ msgid "Select a color to use for the current-time (Marcus Bains) line."
+#~ msgstr "Joriy vaqt qatorida soniyalarni koʻrsatish"
+
+#, fuzzy
+#~| msgid "Show seconds on current-time line"
+#~ msgid "Use this color for the Agenda View current-time (Marcus Bains) line"
+#~ msgstr "Joriy vaqt qatorida soniyalarni koʻrsatish"
+
+#, fuzzy
+#~| msgid "Displays appointment time information."
+#~ msgid "Busy days background color"
+#~ msgstr "Uchrashuv vaqti maʼlumotini koʻrsatish."
+
+#~ msgid "Month view"
+#~ msgstr "Oy koʻrinishi"
+
+#, fuzzy
+#~| msgid "Default appointment time"
+#~ msgid "Default todo attachment method"
+#~ msgstr "Andoza uchrashuv vaqti"
+
+#, fuzzy
+#~| msgid "Attach&ments"
+#~ msgid "Attach complete message"
+#~ msgstr "&Ilovalar"
+
+#~ msgid "Default event color"
+#~ msgstr "Hodisaning andoza rangi"
+
+#, fuzzy
+#~ msgid "Import the specified files as separate calendars"
+#~ msgstr "Ilovani qoʻshish"
+
+#, fuzzy
+#~ msgid "Merge the specified files into an existing calendar"
+#~ msgstr "Ilovani qoʻshish"
+
+#, fuzzy
+#~ msgid "&File"
+#~ msgstr "S&arlavha:"
+
+#, fuzzy
+#~ msgid "&Edit"
+#~ msgstr "&Tahrirlash"
+
+#, fuzzy
+#~ msgid "&View"
+#~ msgstr "&Yangi"
+
+#, fuzzy
+#~ msgid "&Zoom"
+#~ msgstr "Kattalashtirish"
+
+#~ msgid "&Go"
+#~ msgstr "Oʻ&tish"
+
+#~ msgid "&Actions"
+#~ msgstr "&Amallar"
+
+#~ msgid "S&chedule"
+#~ msgstr "&Jadval"
+
+#, fuzzy
+#~| msgid "Main"
+#~ msgctxt "main toolbar"
+#~ msgid "Main"
+#~ msgstr "Asosiy"
+
+#~ msgid "Schedule"
+#~ msgstr "Jadval"
+
+#, fuzzy
+#~| msgid "Calendar"
+#~ msgid "Calendar Colors"
+#~ msgstr "Kalendar"
+
+#, fuzzy
+#~| msgid "New Calendar"
+#~ msgid "Merged calendar"
+#~ msgstr "Yangi kalendar"
+
+#, fuzzy
+#~| msgid "&Title:"
+#~ msgid "Title"
+#~ msgstr "Sa&rlavha:"
+
+#~ msgid "Select a month"
+#~ msgstr "Oyni tanlash"
+
+#, fuzzy
+#~| msgid "Select a month"
+#~ msgid "Select a year"
+#~ msgstr "Oyni tanlash"
+
+#~ msgid "Configure Day Numbers"
+#~ msgstr "Kun raqamlarini moslash"
+
+#~ msgid "Show both"
+#~ msgstr "Ikalasini ham koʻrsatish"
+
+#, fuzzy
+#~| msgid "Week"
+#~ msgctxt "Week weekOfYear"
+#~ msgid "Week %1"
+#~ msgstr "Hafta"
+
+#, fuzzy
+#~| msgctxt "short_weekday date (e.g. Mon 13)"
+#~| msgid "%1 %2"
+#~ msgctxt "Week weekOfYear (year)"
+#~ msgid "Week %1 (%2)"
+#~ msgstr "%1 %2"
+
+#, fuzzy
+#~| msgctxt "short_weekday date (e.g. Mon 13)"
+#~| msgid "%1 %2"
+#~ msgctxt "weekOfYear / weeksTillEndOfYear"
+#~ msgid "%1 / %2"
+#~ msgstr "%1 %2"
+
+#, fuzzy
+#~ msgctxt ""
+#~ "n weeks since the beginning of the year\n"
+#~ "n weeks until the end of the year"
+#~ msgid ""
+#~ "%1\n"
+#~ "%2"
+#~ msgstr "%1 %2"
+
+#, fuzzy
+#~ msgctxt ""
+#~ "These are Jewish holidays and mostly do not have translations. They may "
+#~ "have different spellings in your language; otherwise, just translate the "
+#~ "sound to your characters."
+#~ msgid "Sh. HaHodesh"
+#~ msgstr "Nissan"
+
+#, fuzzy
+#~ msgctxt ""
+#~ "These are weekly readings and do not have translations. They may have "
+#~ "different spellings in your language; otherwise, just translate the sound "
+#~ "to your characters"
+#~ msgid "Bereshit"
+#~ msgstr "Nissan"
+
+#, fuzzy
+#~| msgid "Go &Forward"
+#~ msgid "Loading..."
+#~ msgstr "Oldin&ga oʻtish"
+
+#, fuzzy
+#~| msgid "Import Calendar"
+#~ msgid "Import Calendar/Event"
+#~ msgstr "Kalendarni import qilish"
+
+#, fuzzy
+#~| msgid "Add as new calendar"
+#~ msgid "&Add as new calendar..."
+#~ msgstr "Yangi kalendar sifatida qoʻshish"
+
+#, fuzzy
+#~| msgid "Add as new calendar"
+#~ msgid "&Add as new calendar"
+#~ msgstr "Yangi kalendar sifatida qoʻshish"
+
+#~ msgid "*.vcs *.ics|Calendar Files"
+#~ msgstr "*.vcs *.ics|Kalendar fayllar"
+
+#, fuzzy
+#~| msgid "New Calendar"
+#~ msgid "Select path for new calendar"
+#~ msgstr "Yangi kalendar"
+
+#~ msgid "Select Addresses"
+#~ msgstr "Manzillarni tanlash"
+
+#~ msgid "(EmptyName)"
+#~ msgstr "(Boʻsh nom)"
+
+#, fuzzy
+#~| msgid "Click to add a new to-do"
+#~ msgid "Add a new recipient"
+#~ msgstr "Yangi vazifa qoʻshish uchun bosing"
+
+#, fuzzy
+#~| msgid "Select Addressee..."
+#~ msgid "&Select..."
+#~ msgstr "Oluvchini tanlash"
+
+#, fuzzy
+#~| msgid "Name:"
+#~ msgctxt "recipient name"
+#~ msgid "Name:"
+#~ msgstr "Nomi:"
+
+#, fuzzy
+#~| msgid "Email:"
+#~ msgctxt "recipient email"
+#~ msgid "Email:"
+#~ msgstr "Elektron pochta:"
+
+#, fuzzy
+#~| msgid "Additional email address:"
+#~ msgid "The recipient's email address"
+#~ msgstr "Qoʻshimcha elektron pochta:"
+
+#, fuzzy
+#~| msgid "New Calendar"
+#~ msgid "Search Calendar"
+#~ msgstr "Yangi kalendar"
+
+#, fuzzy
+#~ msgctxt "search in calendar"
+#~ msgid "&Search"
+#~ msgstr "&Boshi:"
+
+#, fuzzy
+#~ msgid "Search Results"
+#~ msgstr "&Boshi:"
+
+#, fuzzy
+#~ msgid "%1 item"
+#~ msgid_plural "%1 items"
+#~ msgstr[0] "1 daqiqa"
+
+#~ msgid "To-&dos"
+#~ msgstr "&Vazifalar"
+
+#~ msgid "Cate&gories"
+#~ msgstr "Tur&kumlar"
+
+#, fuzzy
+#~ msgid "Locations"
+#~ msgstr "&Manzil:"
+
+#, fuzzy
+#~| msgid "&Description"
+#~ msgid "Include item descriptions in your search"
+#~ msgstr "&Taʼrifi"
+
+#~ msgid "Desc&riptions"
+#~ msgstr "Taʼri&flar"
+
+#~ msgid "Su&mmaries"
+#~ msgstr "Hiso&botlar"
+
+#, fuzzy
+#~ msgid "Attendees"
+#~ msgstr "&Qatnashuvchilar"
+
+#, fuzzy
+#~| msgid "Sets the Title of this event or to-do."
+#~ msgid "Include items with a starting date on or after this date"
+#~ msgstr "Ushbu hodisa yoki vazifa sarlavhasini moslash."
+
+#, fuzzy
+#~| msgid "Sets the Title of this event or to-do."
+#~ msgid "Include items with ending date on or before this date"
+#~ msgstr "Ushbu hodisa yoki vazifa sarlavhasini moslash."
+
+#, fuzzy
+#~ msgid ""
+#~ "Check this box to include To-dos without a due date in the search results."
+#~ msgstr "Faqat tanlanganni koʻrsatish"
+
+#, fuzzy
+#~| msgid "KOrganizer Reminder Daemon"
+#~ msgid "KOrganizer Theming Stub"
+#~ msgstr "KOrganizer esga solish demoni"
+
+#, fuzzy
+#~| msgid "Import Calendar"
+#~ msgid "Show custom calendars"
+#~ msgstr "Kalendarni import qilish"
+
+#, fuzzy
+#~ msgid "Agenda %1"
+#~ msgstr "Hodisani koʻruvchi"
+
+#, fuzzy
+#~| msgid "Other Options"
+#~ msgctxt "@title:group"
+#~ msgid "Print Plugins"
+#~ msgstr "Boshqa parametrlar"
+
+#, fuzzy
+#~| msgid "Reminder"
+#~ msgctxt "@title:window"
+#~ msgid "Reminders"
+#~ msgstr "Esga solish"
+
+#, fuzzy
+#~ msgctxt "@action:button"
+#~ msgid "Dismiss Reminder"
+#~ msgstr "Esga solish"
+
+#, fuzzy
+#~ msgctxt "@action:button"
+#~ msgid "Dismiss All"
+#~ msgstr "Esga solish"
+
+#, fuzzy
+#~| msgid "Edit..."
+#~ msgctxt "@action:button"
+#~ msgid "Edit..."
+#~ msgstr "Tahrirlash"
+
+#, fuzzy
+#~| msgid "&Title:"
+#~ msgctxt "@title:column reminder title"
+#~ msgid "Title"
+#~ msgstr "Sa&rlavha:"
+
+#, fuzzy
+#~| msgid "Date && Time"
+#~ msgctxt "@title:column happens at date/time"
+#~ msgid "Date Time"
+#~ msgstr "Sana va vaqt"
+
+#, fuzzy
+#~ msgctxt "@title:column trigger date/time"
+#~ msgid "Trigger Time"
+#~ msgstr "Sana va vaqt"
+
+#, fuzzy
+#~| msgid "Sets the Title of this event or to-do."
+#~ msgctxt "@info:tooltip"
+#~ msgid "The event or to-do title"
+#~ msgstr "Ushbu hodisa yoki vazifa sarlavhasini moslash."
+
+#, fuzzy
+#~| msgid "Enter the reminder time here."
+#~ msgctxt "@info:tooltip"
+#~ msgid "The date/time the reminder was triggered"
+#~ msgstr "Esga solish vaqtini shu yerga kiriting."
+
+#, fuzzy
+#~| msgid "minute(s)"
+#~ msgctxt "@item:inlistbox suspend in terms of minutes"
+#~ msgid "minute(s)"
+#~ msgstr "daqiqa"
+
+#, fuzzy
+#~| msgid "hour(s)"
+#~ msgctxt "@item:inlistbox suspend in terms of hours"
+#~ msgid "hour(s)"
+#~ msgstr "soat"
+
+#, fuzzy
+#~| msgid "day(s)"
+#~ msgctxt "@item:inlistbox suspend in terms of days"
+#~ msgid "day(s)"
+#~ msgstr "kun"
+
+#, fuzzy
+#~| msgid "week(s)"
+#~ msgctxt "@item:inlistbox suspend in terms of weeks"
+#~ msgid "week(s)"
+#~ msgstr "hafta(lar)"
+
+#, fuzzy
+#~| msgid "Edit..."
+#~ msgctxt "@label an elipsis"
+#~ msgid "..."
+#~ msgstr "Tahrirlash"
+
+#, fuzzy
+#~| msgid "Reminder"
+#~ msgctxt "@title"
+#~ msgid "Reminder"
+#~ msgstr "Esga solish"
+
+#, fuzzy
+#~ msgctxt "@title"
+#~ msgid "Reminder: %1"
+#~ msgstr "1 daqiqa"
+
+#, fuzzy
+#~| msgid "Could not start KOrganizer."
+#~ msgctxt "@info"
+#~ msgid "Could not start KOrganizer so editing is not possible."
+#~ msgstr "KOrganizer'ni ishga tushirib boʻlmadi."
+
+#, fuzzy
+#~| msgid "KOrganizer Reminder Daemon"
+#~ msgctxt "@title:window"
+#~ msgid "KOrganizer Reminder Daemon"
+#~ msgstr "KOrganizer esga solish demoni"
+
+#, fuzzy
+#~| msgid "Edit Reminders"
+#~ msgctxt "@action:inmenu"
+#~ msgid "Suspend All Reminders"
+#~ msgstr "Esga solishni tahrirlash"
+
+#, fuzzy
+#~ msgctxt "@action:inmenu"
+#~ msgid "Dismiss All Reminders"
+#~ msgstr "Esga solish"
+
+#, fuzzy
+#~| msgid "KOrganizer Reminder Daemon"
+#~ msgctxt "@action:inmenu"
+#~ msgid "Start Reminder Daemon at Login"
+#~ msgstr "KOrganizer esga solish demoni"
+
+#, fuzzy
+#~ msgctxt "@info:status"
+#~ msgid "There is 1 active reminder."
+#~ msgid_plural "There are %1 active reminders."
+#~ msgstr[0] "Esga solish"
+
+#, fuzzy
+#~ msgctxt "@info:status"
+#~ msgid "No active reminders."
+#~ msgstr "Esga solish"
+
+#, fuzzy
+#~| msgid "KOrganizer Reminder Daemon"
+#~ msgctxt "@title:window"
+#~ msgid "Close KOrganizer Reminder Daemon"
+#~ msgstr "KOrganizer esga solish demoni"
+
+#, fuzzy
+#~| msgid "Do Not Start"
+#~ msgctxt "@action:button do not start the reminder daemon"
+#~ msgid "Do Not Start"
+#~ msgstr "Ishga tushirilmasin"
+
+#~ msgid "KOrganizer Reminder Daemon"
+#~ msgstr "KOrganizer esga solish demoni"
+
+#, fuzzy
+#~| msgid "&Free/Busy"
+#~ msgid "Free Busy Object"
+#~ msgstr "&Boʻsh/band"
+
+#, fuzzy
+#~| msgid "Send Messages"
+#~ msgid "Free Busy Message"
+#~ msgstr "Xabarlarni joʻnatish"
+
+#~ msgid "New calendar '%1'."
+#~ msgstr "Yangi kalendar '%1'."
+
+#~ msgid "Could not load calendar '%1'."
+#~ msgstr "'%1' kalendarini yuklab boʻlmadi."
+
+#~ msgid "Filter Applied"
+#~ msgstr "Filter qoʻllandi"
+
+#, fuzzy
+#~| msgid "Delete Only This"
+#~ msgid "Cut Only This"
+#~ msgstr "Faqat shuni oʻchirish"
+
+#, fuzzy
+#~| msgid "Delete Only This"
+#~ msgid "Copy Only This"
+#~ msgstr "Faqat shuni oʻchirish"
+
+#, fuzzy
+#~| msgid "&Copy To"
+#~ msgid "Copy All"
+#~ msgstr "&Nusxa olish"
+
+#~ msgid "Delete %1"
+#~ msgstr "%1'ni oʻchirish"
+
+#~ msgid "Add %1"
+#~ msgstr "%1'ni qoʻshish"
+
+#~ msgid "Edit %1"
+#~ msgstr "%1'ni tahrirlash"
+
+#, fuzzy
+#~| msgid "Additional email addresses:"
+#~ msgctxt "@label"
+#~ msgid "Additional email addresses:"
+#~ msgstr "Qoʻshimcha elektron pochtalar:"
+
+#, fuzzy
+#~| msgid "Additional email address:"
+#~ msgctxt "@label"
+#~ msgid "Additional email address:"
+#~ msgstr "Qoʻshimcha elektron pochta:"
+
+#, fuzzy
+#~| msgid "New"
+#~ msgctxt "@action:button add a new email address"
+#~ msgid "New"
+#~ msgstr "Yangi"
+
+#, fuzzy
+#~ msgctxt "@action:button"
+#~ msgid "Remove"
+#~ msgstr "Tutgan oʻrin"
+
+#, fuzzy
+#~| msgid "(EmptyName)"
+#~ msgctxt "@label"
+#~ msgid "(EmptyEmail)"
+#~ msgstr "(Boʻsh nom)"
+
+#~ msgid "Edit this journal entry"
+#~ msgstr "Ushbu kundalik yozuvini tahrirlash"
+
+#~ msgid "Delete this journal entry"
+#~ msgstr "Ushbu kundalik yozuvini oʻchirish"
+
+#, fuzzy
+#~ msgid "&Print"
+#~ msgstr "Bosib chiqarish uslubi"
+
+#, fuzzy
+#~ msgid "Print this journal entry"
+#~ msgstr "Ushbu kundalik yozuvini tahrirlash"
+
+#, fuzzy
+#~ msgid "Opens a print dialog for this journal entry"
+#~ msgstr "Ushbu kundalikning nomini koʻrsatish."
+
+#, fuzzy
+#~ msgid "No category"
+#~ msgstr "Turkumlar"
+
+#, fuzzy
+#~ msgctxt "number of hours spent"
+#~ msgid "%1 hour"
+#~ msgid_plural "%1 hours"
+#~ msgstr[0] "1 soat"
+
+#, fuzzy
+#~| msgid "Redo (%1)"
+#~ msgctxt "percent of hours spent"
+#~ msgid " (%1%)"
+#~ msgstr "Qaytarish (%1)"
+
+#, fuzzy
+#~ msgctxt "@action:inmenu Unspecified priority"
+#~ msgid "unspecified"
+#~ msgstr "Taʼri&flar"
+
+#, fuzzy
+#~| msgid "1 (highest)"
+#~ msgctxt "@action:inmenu highest priority"
+#~ msgid "1 (highest)"
+#~ msgstr "1 (eng yuqori)"
+
+#, fuzzy
+#~| msgid "2"
+#~ msgctxt "@action:inmenu"
+#~ msgid "2"
+#~ msgstr "2"
+
+#, fuzzy
+#~| msgid "3"
+#~ msgctxt "@action:inmenu"
+#~ msgid "3"
+#~ msgstr "3"
+
+#, fuzzy
+#~| msgid "4"
+#~ msgctxt "@action:inmenu"
+#~ msgid "4"
+#~ msgstr "4"
+
+#, fuzzy
+#~| msgid "9 (lowest)"
+#~ msgctxt "@action:inmenu lowest priority"
+#~ msgid "9 (lowest)"
+#~ msgstr "9 (eng past)"
+
+#, fuzzy
+#~ msgctxt "delimiter for joining category names"
+#~ msgid ","
+#~ msgstr ", "
+
+#, fuzzy
+#~| msgid "Complete"
+#~ msgctxt "@title:column percent complete"
+#~ msgid "Complete"
+#~ msgstr "Bajarilgan"
+
+#, fuzzy
+#~ msgid "Due Date/Time"
+#~ msgstr "Sana va vaqt"
+
+#, fuzzy
+#~| msgid "&Description"
+#~ msgid "Description"
+#~ msgstr "&Taʼrifi"
+
+#, fuzzy
+#~ msgctxt "@info:tooltip"
+#~ msgid "Display to-do list in a full window"
+#~ msgstr "Faqat tanlanganni koʻrsatish"
+
+#, fuzzy
+#~| msgid "&Show"
+#~ msgctxt "@action:inmenu show the to-do"
+#~ msgid "&Show"
+#~ msgstr "&Koʻrsatish"
+
+#, fuzzy
+#~| msgid "&Edit..."
+#~ msgctxt "@action:inmenu edit the to-do"
+#~ msgid "&Edit..."
+#~ msgstr "&Tahrirlash"
+
+#, fuzzy
+#~ msgctxt "@action:inmenu print the to-do"
+#~ msgid "&Print..."
+#~ msgstr "&Tahrirlash"
+
+#, fuzzy
+#~ msgctxt "@action:inmenu print preview the to-do"
+#~ msgid "Print Previe&w..."
+#~ msgstr "&Tahrirlash"
+
+#, fuzzy
+#~ msgctxt "@action:inmenu delete the to-do"
+#~ msgid "&Delete"
+#~ msgstr "%1'ni oʻchirish"
+
+#, fuzzy
+#~| msgid "New &To-do..."
+#~ msgctxt "@action:inmenu create a new to-do"
+#~ msgid "New &To-do..."
+#~ msgstr "Yangi &vazifa..."
+
+#, fuzzy
+#~| msgid "New Su&b-to-do..."
+#~ msgctxt "@action:inmenu create a new sub-to-do"
+#~ msgid "New Su&b-to-do..."
+#~ msgstr "Yangi tub &vazifa..."
+
+#, fuzzy
+#~| msgid "&Copy To"
+#~ msgctxt "@title:menu"
+#~ msgid "&Copy To"
+#~ msgstr "&Nusxa olish"
+
+#, fuzzy
+#~| msgid "&Move To"
+#~ msgctxt "@title:menu"
+#~ msgid "&Move To"
+#~ msgstr "&Koʻchirish"
+
+#, fuzzy
+#~ msgctxt "@action:inmenu unspecified priority"
+#~ msgid "unspecified"
+#~ msgstr "Taʼri&flar"
+
+#, fuzzy
+#~| msgid "2"
+#~ msgctxt "@action:inmenu priority value=2"
+#~ msgid "2"
+#~ msgstr "2"
+
+#, fuzzy
+#~| msgid "3"
+#~ msgctxt "@action:inmenu priority value=3"
+#~ msgid "3"
+#~ msgstr "3"
+
+#, fuzzy
+#~| msgid "4"
+#~ msgctxt "@action:inmenu priority value=4"
+#~ msgid "4"
+#~ msgstr "4"
+
+#~ msgid "Click to add a new to-do"
+#~ msgstr "Yangi vazifa qoʻshish uchun bosing"
+
+#, fuzzy
+#~| msgid "Su&mmaries"
+#~ msgctxt "@label in QuickSearchLine"
+#~ msgid "Search Summaries"
+#~ msgstr "Hiso&botlar"
+
+#, fuzzy
+#~| msgid "Select Cate&gories..."
+#~ msgctxt "@info:tooltip"
+#~ msgid "Filter on these categories"
+#~ msgstr "Turkumlarni &tanlash"
+
+#, fuzzy
+#~| msgid "Select Cate&gories..."
+#~ msgctxt "@item:inlistbox"
+#~ msgid "Select Categories"
+#~ msgstr "Turkumlarni &tanlash"
+
+#, fuzzy
+#~ msgctxt "@item:intext delimiter for joining category names"
+#~ msgid ","
+#~ msgstr ", "
+
+#, fuzzy
+#~| msgid "Priority"
+#~ msgctxt "@item:inlistbox"
+#~ msgid "Select Priority"
+#~ msgstr "Muhimlik darajasi"
+
+#, fuzzy
+#~ msgctxt "@action:inmenu priority is unspecified"
+#~ msgid "unspecified"
+#~ msgstr "Taʼri&flar"
+
+#, fuzzy
+#~| msgid "1 (highest)"
+#~ msgctxt "@action:inmenu highest priority"
+#~ msgid "%1 (highest)"
+#~ msgstr "1 (eng yuqori)"
+
+#, fuzzy
+#~| msgid "9 (lowest)"
+#~ msgctxt "@action:inmenu lowest priority"
+#~ msgid "%1 (lowest)"
+#~ msgstr "9 (eng past)"
+
+#, fuzzy
+#~ msgctxt "priority is unspecified"
+#~ msgid "unspecified"
+#~ msgstr "Taʼri&flar"
+
+#, fuzzy
+#~| msgid "1 (highest)"
+#~ msgctxt "highest priority"
+#~ msgid "%1 (highest)"
+#~ msgstr "1 (eng yuqori)"
+
+#, fuzzy
+#~| msgid "9 (lowest)"
+#~ msgctxt "lowest priority"
+#~ msgid "%1 (lowest)"
+#~ msgstr "9 (eng past)"
+
+#~ msgid "What's Next?"
+#~ msgstr "Navbatda nima?"
+
+#~ msgid "Events:"
+#~ msgstr "Hodisalar:"
+
+#~ msgid "To-do:"
+#~ msgstr "Vazifa:"
+
+#, fuzzy
+#~ msgctxt "to-do due date"
+#~ msgid "  (Due: %1)"
+#~ msgstr "Tugash kuni: %1"
+
+#, fuzzy
+#~| msgid "Month View"
+#~ msgctxt "@option:check Checkbox to display todos not hierarchical"
+#~ msgid "Flat View"
+#~ msgstr "Oy koʻrinishi"
+
+#, fuzzy
+#~ msgid "Find Events - KOrganizer"
+#~ msgstr "KOrganizer'ni ishga tushirib boʻlmadi."
+
+#, fuzzy
+#~ msgctxt "@info:tooltip"
+#~ msgid "Fully collapse the to-do tree"
+#~ msgstr "1 daqiqa"
+
+#, fuzzy
+#~ msgctxt "unspecified priority"
+#~ msgid "unspecified"
+#~ msgstr "Taʼri&flar"
+
+#, fuzzy
+#~| msgid "1 (highest)"
+#~ msgctxt "highest priority"
+#~ msgid "1 (highest)"
+#~ msgstr "1 (eng yuqori)"
+
+#, fuzzy
+#~| msgid "9 (lowest)"
+#~ msgctxt "lowest priority"
+#~ msgid "9 (lowest)"
+#~ msgstr "9 (eng past)"
+
+#, fuzzy
+#~ msgctxt "@label in QuickSearchLine"
+#~ msgid "Search"
+#~ msgstr "&Boshi:"
+
+#~ msgid "Other Options"
+#~ msgstr "Boshqa parametrlar"
+
+#, fuzzy
+#~| msgid "Month View"
+#~ msgid "&Month View"
+#~ msgstr "Oy koʻrinishi"
+
+#, fuzzy
+#~ msgctxt ""
+#~ "@info/plain Displayed grayed-out inside the textbox, verb to search"
+#~ msgid "Search"
+#~ msgstr "&Boshi:"
+
+#, fuzzy
+#~| msgid "Categories"
+#~ msgid "Edit Categories"
+#~ msgstr "Turkumlar"
+
+#, fuzzy
+#~ msgid "New category entry"
+#~ msgstr "Turkumlar"
+
+#, fuzzy
+#~| msgid "Select Cate&gories..."
+#~ msgid "Add the entry to the category list"
+#~ msgstr "Turkumlarni &tanlash"
+
+#, fuzzy
+#~| msgid "&Add"
+#~ msgid "A&dd"
+#~ msgstr "&Qoʻshish"
+
+#, fuzzy
+#~| msgid "Sets the Title of this event or to-do."
+#~ msgid ""
+#~ "Click this button to insert the entry as a subcategory of the currently "
+#~ "selected category."
+#~ msgstr "Ushbu hodisa yoki vazifa sarlavhasini moslash."
+
+#, fuzzy
+#~ msgid "Add &Subcategory"
+#~ msgstr "Turkumlar"
+
+#, fuzzy
+#~| msgid "Sets the Title of this event or to-do."
+#~ msgid "Remove the selected category"
+#~ msgstr "Ushbu hodisa yoki vazifa sarlavhasini moslash."
+
+#, fuzzy
+#~| msgid "Sets the Title of this event or to-do."
+#~ msgid ""
+#~ "Click this button to remove the selected category from the category list."
+#~ msgstr "Ushbu hodisa yoki vazifa sarlavhasini moslash."
+
+#, fuzzy
+#~| msgid "Categories"
+#~ msgid "Category list"
+#~ msgstr "Turkumlar"
+
+#, fuzzy
+#~| msgid "Select Cate&gories..."
+#~ msgid "Default Category"
+#~ msgstr "Turkumlarni &tanlash"
+
+#, fuzzy
+#~ msgid "New category"
+#~ msgstr "Turkumlar"
+
+#, fuzzy
+#~ msgid "New subcategory"
+#~ msgstr "Turkumlar"
+
+#, fuzzy
+#~| msgid "Default appointment time"
+#~ msgid "Default Email Attachment Method"
+#~ msgstr "Andoza uchrashuv vaqti"
+
+#~ msgid "TestKabc"
+#~ msgstr "TestKabc"
+
+#, fuzzy
+#~| msgid "&Events"
+#~ msgctxt "@option:check"
+#~ msgid "&Events"
+#~ msgstr "&Hodisalar"
+
+#, fuzzy
+#~| msgid "&To-dos"
+#~ msgctxt "@option:check"
+#~ msgid "&To-dos"
+#~ msgstr "&Vazifalar"
+
+#~ msgid "Reminder"
+#~ msgstr "Esga solish"
+
+#, fuzzy
+#~| msgid "Start Date"
+#~ msgid "Start Date/Time"
+#~ msgstr "Boshlash kuni"
+
+#, fuzzy
+#~ msgid "End Date/Time"
+#~ msgstr "Sana va vaqt"
+
+#, fuzzy
+#~| msgctxt "short_weekday date (e.g. Mon 13)"
+#~| msgid "%1 %2"
+#~ msgid "%2 (1 year)"
+#~ msgid_plural "%2 (%1 years)"
+#~ msgstr[0] "%1 %2"
+
+#, fuzzy
+#~| msgid "Go &Forward"
+#~ msgid "Forwarding"
+#~ msgstr "Oldin&ga oʻtish"
+
+#, fuzzy
+#~ msgid "Unable to forward the item '%1'"
+#~ msgstr "'%1' namunani topib boʻlmadi."
+
+#, fuzzy
+#~| msgid "Go &Forward"
+#~ msgid "Forwarding Error"
+#~ msgstr "Oldin&ga oʻtish"
+
+#, fuzzy
+#~| msgid "Go &Forward"
+#~ msgid "Go forward one week"
+#~ msgstr "Oldin&ga oʻtish"
+
+#~ msgctxt "short_weekday date (e.g. Mon 13)"
+#~ msgid "%1 %2"
+#~ msgstr "%1 %2"
+
+#, fuzzy
+#~ msgid "Attendee added"
+#~ msgstr "Qatnashuvchilar olib tashlandi"
+
+#, fuzzy
+#~ msgid "Timezone:"
+#~ msgstr "Vaqt zonasi:"
+
+#, fuzzy
+#~| msgid "Edit Exceptions"
+#~ msgid "&Add Timezones..."
+#~ msgstr "Qoidadan tashqari holatlarni tahrirlash"
+
+#, fuzzy
+#~ msgid "&Remove Timezone %1"
+#~ msgstr "Vaqt zonasi:"
+
+#, fuzzy
+#~ msgid "Timezone: %1"
+#~ msgstr "Vaqt zonasi:"
+
+#, fuzzy
+#~ msgid "Timezone"
+#~ msgstr "Vaqt zonasi:"
+
+#, fuzzy
+#~| msgid "&iCalendar..."
+#~ msgid "Add Calendar..."
+#~ msgstr "&iCalendar..."
+
+#, fuzzy
+#~ msgid "Reload"
+#~ msgstr "&Qaytadan yuklash"
+
+#, fuzzy
+#~ msgid "Properties..."
+#~ msgstr "&Tahrirlash"
+
+#, fuzzy
+#~| msgid "New Calendar"
+#~ msgid "New Calendar..."
+#~ msgstr "Yangi kalendar"
+
+#~ msgid "Start Time"
+#~ msgstr "Boshlash vaqti"
+
+#~ msgid "End Date"
+#~ msgstr "Tugash kuni"
+
+#~ msgid "End Time"
+#~ msgstr "Tugash vaqti"
+
+#~ msgid "Locking Failed"
+#~ msgstr "Qulflash muvaffaqiyatsiz tugadi"
+
+#, fuzzy
+#~| msgid "Saving Calendar"
+#~ msgctxt "@title:group"
+#~ msgid "Saving Calendar"
+#~ msgstr "Kalendarni saqlash"
+
+#, fuzzy
+#~| msgid "&General"
+#~ msgctxt "@title:tab general to-do settings"
+#~ msgid "&General"
+#~ msgstr "&Umumiy"
+
+#, fuzzy
+#~| msgid "New To-do"
+#~ msgctxt "@title:window"
+#~ msgid "New To-do"
+#~ msgstr "Yangi vazifa"
+
+#~ msgid "Sets the title of this journal."
+#~ msgstr "Ushbu kundalikning nomini koʻrsatish."
+
+#, fuzzy
+#~| msgid "T&itle:"
+#~ msgctxt "journal title"
+#~ msgid "T&itle:"
+#~ msgstr "S&arlavha:"
+
+#~ msgid "&Date:"
+#~ msgstr "Sa&na:"
+
+#~ msgid "&Time: "
+#~ msgstr "&Vaqt: "
+
+#~ msgid "Select Cate&gories..."
+#~ msgstr "Turkumlarni &tanlash"
+
+#, fuzzy
+#~| msgid "Please select an appointment."
+#~ msgctxt "@info"
+#~ msgid "Please specify a journal title."
+#~ msgstr "Iltimos uchrashuvni tanlang."
+
+#, fuzzy
+#~| msgid "General"
+#~ msgctxt "@title general journal settings"
+#~ msgid "General"
+#~ msgstr "Umumiy"
+
+#, fuzzy
+#~| msgid "New &Journal..."
+#~ msgctxt "@title:window"
+#~ msgid "New Journal"
+#~ msgstr "Yangi &kundalik"
+
+#, fuzzy
+#~| msgid "Attach&ments"
+#~ msgctxt "@label"
+#~ msgid "Attachment name"
+#~ msgstr "&Ilovalar"
+
+#, fuzzy
+#~| msgid "Attach&ments"
+#~ msgctxt "@info:tooltip"
+#~ msgid "Give the attachment a name"
+#~ msgstr "&Ilovalar"
+
+#, fuzzy
+#~ msgctxt "@label"
+#~ msgid "Type:"
+#~ msgstr "Turi"
+
+#, fuzzy
+#~ msgctxt "@option:check"
+#~ msgid "Store attachment inline"
+#~ msgstr "Ilovani qoʻshish"
+
+#, fuzzy
+#~ msgctxt "@info:tooltip"
+#~ msgid "Store the attachment file inside the calendar"
+#~ msgstr "Ilovani qoʻshish"
+
+#, fuzzy
+#~ msgctxt "@label"
+#~ msgid "Location:"
+#~ msgstr "&Manzil:"
+
+#, fuzzy
+#~ msgctxt "@label"
+#~ msgid "Attachments:"
+#~ msgstr "&Ilovalar"
+
+#, fuzzy
+#~| msgid "Add Attachment"
+#~ msgctxt "@info:tooltip"
+#~ msgid "Add an attachment"
+#~ msgstr "Ilovani qoʻshish"
+
+#, fuzzy
+#~| msgid "Attach&ments"
+#~ msgctxt "@info:tooltip"
+#~ msgid "Remove the selected attachment"
+#~ msgstr "&Ilovalar"
+
+#, fuzzy
+#~| msgid "Sets the Title of this event or to-do."
+#~ msgctxt "@info:whatsthis"
+#~ msgid ""
+#~ "Removes the attachment selected in the list above from this event or to-"
+#~ "do."
+#~ msgstr "Ushbu hodisa yoki vazifa sarlavhasini moslash."
+
+#, fuzzy
+#~ msgctxt "@action:inmenu remove the attachment"
+#~ msgid "&Remove"
+#~ msgstr "Tutgan oʻrin"
+
+#, fuzzy
+#~ msgctxt "@action:inmenu show a dialog used to edit the attachment"
+#~ msgid "&Properties..."
+#~ msgstr "&Tahrirlash"
+
+#, fuzzy
+#~ msgctxt "@action:inmenu"
+#~ msgid "&Link here"
+#~ msgstr "&Nusxa olish"
+
+#, fuzzy
+#~ msgctxt "@action:inmenu"
+#~ msgid "&Copy here"
+#~ msgstr "&Nusxa olish"
+
+#, fuzzy
+#~ msgctxt "@action:inmenu"
+#~ msgid "C&ancel"
+#~ msgstr "Oʻz&gartirish"
+
+#, fuzzy
+#~| msgid "Add Attachment"
+#~ msgctxt "@title"
+#~ msgid "Add Attachment"
+#~ msgstr "Ilovani qoʻshish"
+
+#, fuzzy
+#~| msgid "Attach&ments"
+#~ msgctxt "@title:window"
+#~ msgid "Remove Attachment?"
+#~ msgstr "&Ilovalar"
+
+#, fuzzy
+#~| msgid "Manage Templates"
+#~ msgctxt "@action:button"
+#~ msgid "Manage &Templates..."
+#~ msgstr "Namunalarni boshqarish"
+
+#, fuzzy
+#~| msgid "Edit %1"
+#~ msgctxt "@title:window"
+#~ msgid "Edit %1: %2"
+#~ msgstr "%1'ni tahrirlash"
+
+#, fuzzy
+#~| msgid "Delete Confirmation"
+#~ msgctxt "@title:window"
+#~ msgid "KOrganizer Confirmation"
+#~ msgstr "Oʻchirishni tasdiqlash"
+
+#, fuzzy
+#~| msgid "Atte&ndees"
+#~ msgctxt "@title:tab"
+#~ msgid "Atte&ndees"
+#~ msgstr "&Qatnashuvchilar"
+
+#, fuzzy
+#~| msgid "Unable to find template '%1'."
+#~ msgctxt "@info"
+#~ msgid "Unable to find template '%1'."
+#~ msgstr "'%1' namunani topib boʻlmadi."
+
+#, fuzzy
+#~| msgid "Error loading template file '%1'."
+#~ msgctxt "@info"
+#~ msgid "Error loading template file '%1'."
+#~ msgstr "'%1' namunani yuklashda xato roʻy berdi."
+
+#, fuzzy
+#~| msgid "Click to add a new to-do"
+#~ msgctxt "@action:button"
+#~ msgid "Create to-do"
+#~ msgstr "Yangi vazifa qoʻshish uchun bosing"
+
+#, fuzzy
+#~| msgid "Name"
+#~ msgctxt "@title:column attendee name"
+#~ msgid "Name"
+#~ msgstr "Nomi"
+
+#, fuzzy
+#~| msgid "Role"
+#~ msgctxt "@title:column attendee role"
+#~ msgid "Role"
+#~ msgstr "Tutgan oʻrin"
+
+#, fuzzy
+#~| msgid "Status"
+#~ msgctxt "@title:column attendee status"
+#~ msgid "Status"
+#~ msgstr "Holati"
+
+#, fuzzy
+#~| msgid "RSVP"
+#~ msgctxt "@title:column attendee has RSVPed?"
+#~ msgid "RSVP"
+#~ msgstr "RSVP"
+
+#, fuzzy
+#~ msgctxt "@title:column attendee delegated to"
+#~ msgid "Delegated To"
+#~ msgstr "%1'ni oʻchirish"
+
+#, fuzzy
+#~| msgid "Delete To-do"
+#~ msgctxt "@title:column attendee delegated from"
+#~ msgid "Delegated From"
+#~ msgstr "Vazifani oʻchirish"
+
+#, fuzzy
+#~ msgctxt "@title"
+#~ msgid "Invalid Email Address"
+#~ msgstr "Qoʻshimcha elektron pochta:"
+
+#, fuzzy
+#~| msgid "Manage Templates"
+#~ msgid "Manage %1 Templates"
+#~ msgstr "Namunalarni boshqarish"
+
+#~ msgid "Template Name"
+#~ msgstr "Namunaning nomi"
+
+#~ msgid "Please enter a name for the new template:"
+#~ msgstr "Iltimos yangi namunaning nomini kiriting:"
+
+#, fuzzy
+#~| msgid "New Template"
+#~ msgid "New %1 Template"
+#~ msgstr "Yangi namuna"
+
+#~ msgid "Duplicate Template Name"
+#~ msgstr "Namunaning nomi mavjud"
+
+#, fuzzy
+#~| msgid "New Template"
+#~ msgid "Remove Template"
+#~ msgstr "Yangi namuna"
+
+#, fuzzy
+#~ msgid "Remove"
+#~ msgstr "Tutgan oʻrin"
+
+#, fuzzy
+#~ msgctxt "@label"
+#~ msgid "Identity as organizer:"
+#~ msgstr "KOrganizer'ni ishga tushirib boʻlmadi."
+
+#, fuzzy
+#~| msgid "Sets the Title of this event or to-do."
+#~ msgctxt "@info:whatsthis"
+#~ msgid ""
+#~ "Edits the name of the attendee selected in the list above, or adds a new "
+#~ "attendee if there are no attendees in the list."
+#~ msgstr "Ushbu hodisa yoki vazifa sarlavhasini moslash."
+
+#, fuzzy
+#~| msgid "Na&me:"
+#~ msgctxt "@label attendee's name"
+#~ msgid "Na&me:"
+#~ msgstr "&Ismi:"
+
+#, fuzzy
+#~| msgid "Click to add a new to-do"
+#~ msgctxt "@label"
+#~ msgid "Click to add a new attendee"
+#~ msgstr "Yangi vazifa qoʻshish uchun bosing"
+
+#, fuzzy
+#~| msgid "Sets the Title of this event or to-do."
+#~ msgctxt "@info:whatsthis"
+#~ msgid "Edits the role of the attendee selected in the list above."
+#~ msgstr "Ushbu hodisa yoki vazifa sarlavhasini moslash."
+
+#, fuzzy
+#~| msgid "Ro&le:"
+#~ msgctxt "@label"
+#~ msgid "Ro&le:"
+#~ msgstr "&Tutgan oʻrin:"
+
+#, fuzzy
+#~| msgid "Sets the Title of this event or to-do."
+#~ msgctxt "@info:whatsthis"
+#~ msgid ""
+#~ "Edits the current attendance status of the attendee selected in the list "
+#~ "above."
+#~ msgstr "Ushbu hodisa yoki vazifa sarlavhasini moslash."
+
+#, fuzzy
+#~| msgid "Stat&us:"
+#~ msgctxt "@label"
+#~ msgid "Stat&us:"
+#~ msgstr "&Holati:"
+
+#, fuzzy
+#~| msgid "Re&quest Update"
+#~ msgctxt "@info:tooltip"
+#~ msgid "Request a response from the attendee"
+#~ msgstr "Yangilashni soʻ&rash"
+
+#, fuzzy
+#~| msgid "Sets the Title of this event or to-do."
+#~ msgctxt "@info:whatsthis"
+#~ msgid ""
+#~ "Edits whether to send an email to the attendee selected in the list above "
+#~ "to request a response concerning attendance."
+#~ msgstr "Ushbu hodisa yoki vazifa sarlavhasini moslash."
+
+#, fuzzy
+#~| msgid "Re&quest Update"
+#~ msgctxt "@option:check"
+#~ msgid "Re&quest response"
+#~ msgstr "Yangilashni soʻ&rash"
+
+#, fuzzy
+#~| msgid "&New"
+#~ msgctxt "@action:button new attendee"
+#~ msgid "&New"
+#~ msgstr "&Yangi"
+
+#, fuzzy
+#~ msgctxt "@info:tooltip"
+#~ msgid "Add an attendee"
+#~ msgstr "1 daqiqa"
+
+#, fuzzy
+#~ msgctxt "@action:button"
+#~ msgid "&Remove"
+#~ msgstr "Tutgan oʻrin"
+
+#, fuzzy
+#~| msgid "Sets the Title of this event or to-do."
+#~ msgctxt "@info:tooltip"
+#~ msgid "Remove the selected attendee"
+#~ msgstr "Ushbu hodisa yoki vazifa sarlavhasini moslash."
+
+#, fuzzy
+#~| msgid "Sets the Title of this event or to-do."
+#~ msgctxt "@info:whatsthis"
+#~ msgid "Removes the attendee selected in the list above."
+#~ msgstr "Ushbu hodisa yoki vazifa sarlavhasini moslash."
+
+#, fuzzy
+#~| msgid "Select Addressee..."
+#~ msgctxt "@action:button"
+#~ msgid "Select Addressee..."
+#~ msgstr "Oluvchini tanlash"
+
+#, fuzzy
+#~| msgid "name"
+#~ msgctxt "@item:intext sample attendee email name"
+#~ msgid "name"
+#~ msgstr "ismi"
+
+#, fuzzy
+#~| msgid "Sets the Title of this event or to-do."
+#~ msgctxt "@info:whatsthis"
+#~ msgid "Select the identity to use as the organizer for this incidence."
+#~ msgstr "Ushbu hodisa yoki vazifa sarlavhasini moslash."
+
+#, fuzzy
+#~| msgid "Organizer: %1"
+#~ msgctxt "@label"
+#~ msgid "Organizer: %1"
+#~ msgstr "Tashkil etuvchi: %1"
+
+#, fuzzy
+#~ msgctxt "@label"
+#~ msgid "Delegated to %1"
+#~ msgstr "%1'ni oʻchirish"
+
+#, fuzzy
+#~| msgid "Delete To-do"
+#~ msgctxt "@label"
+#~ msgid "Delegated from %1"
+#~ msgstr "Vazifani oʻchirish"
+
+#, fuzzy
+#~| msgid "No item selected."
+#~ msgctxt "@label"
+#~ msgid "Not delegated"
+#~ msgstr "Hech narsa tanlanmagan."
+
+#, fuzzy
+#~| msgid "1st"
+#~ msgctxt "@item:inlistbox"
+#~ msgid "1st"
+#~ msgstr "1 chi"
+
+#, fuzzy
+#~| msgid "2nd"
+#~ msgctxt "@item:inlistbox"
+#~ msgid "2nd"
+#~ msgstr "2 chi"
+
+#, fuzzy
+#~| msgid "3rd"
+#~ msgctxt "@item:inlistbox"
+#~ msgid "3rd"
+#~ msgstr "3 chi"
+
+#, fuzzy
+#~| msgid "4th"
+#~ msgctxt "@item:inlistbox"
+#~ msgid "4th"
+#~ msgstr "4 chi"
+
+#, fuzzy
+#~| msgid "5th"
+#~ msgctxt "@item:inlistbox"
+#~ msgid "5th"
+#~ msgstr "5 chi"
+
+#, fuzzy
+#~| msgid "Last"
+#~ msgctxt "@item:inlistbox last week of the month"
+#~ msgid "Last"
+#~ msgstr "Oxirgi"
+
+#, fuzzy
+#~| msgid "2nd Last"
+#~ msgctxt "@item:inlistbox"
+#~ msgid "2nd Last"
+#~ msgstr "Oxirgi 2 chi"
+
+#, fuzzy
+#~| msgid "3rd Last"
+#~ msgctxt "@item:inlistbox"
+#~ msgid "3rd Last"
+#~ msgstr "Oxirgi 3 chi"
+
+#, fuzzy
+#~| msgid "4th Last"
+#~ msgctxt "@item:inlistbox"
+#~ msgid "4th Last"
+#~ msgstr "Oxirgi 4 chi"
+
+#, fuzzy
+#~| msgid "5th Last"
+#~ msgctxt "@item:inlistbox"
+#~ msgid "5th Last"
+#~ msgstr "Oxirgi 5 chi"
+
+#, fuzzy
+#~| msgid "Sets the Title of this event or to-do."
+#~ msgctxt "@info:whatsthis"
+#~ msgid "Sets how often this event or to-do should recur."
+#~ msgstr "Ushbu hodisa yoki vazifa sarlavhasini moslash."
+
+#, fuzzy
+#~| msgid "day(s)"
+#~ msgctxt "@label recurrence expressed in days"
+#~ msgid "day(s)"
+#~ msgstr "kun"
+
+#, fuzzy
+#~| msgid "week(s)"
+#~ msgctxt "@label"
+#~ msgid "week(s) on:"
+#~ msgstr "hafta(lar)"
+
+#, fuzzy
+#~| msgid "Sets the Title of this event or to-do."
+#~ msgctxt "@info:whatsthis"
+#~ msgid "Set %1 as the day when this event or to-do should recur."
+#~ msgstr "Ushbu hodisa yoki vazifa sarlavhasini moslash."
+
+#, fuzzy
+#~| msgid "Person: %1"
+#~ msgctxt "@info:tooltip"
+#~ msgid "Recur on %1"
+#~ msgstr "Kishi: %1"
+
+#, fuzzy
+#~| msgid "month(s)"
+#~ msgctxt "@label"
+#~ msgid "month(s)"
+#~ msgstr "oy"
+
+#, fuzzy
+#~| msgid "6th"
+#~ msgctxt "@item:inlistbox"
+#~ msgid "6th"
+#~ msgstr "6 chi"
+
+#, fuzzy
+#~| msgid "7th"
+#~ msgctxt "@item:inlistbox"
+#~ msgid "7th"
+#~ msgstr "7 chi"
+
+#, fuzzy
+#~| msgid "8th"
+#~ msgctxt "@item:inlistbox"
+#~ msgid "8th"
+#~ msgstr "8 chi"
+
+#, fuzzy
+#~| msgid "9th"
+#~ msgctxt "@item:inlistbox"
+#~ msgid "9th"
+#~ msgstr "9 chi"
+
+#, fuzzy
+#~| msgid "10th"
+#~ msgctxt "@item:inlistbox"
+#~ msgid "10th"
+#~ msgstr "10 chi"
+
+#, fuzzy
+#~| msgid "11th"
+#~ msgctxt "@item:inlistbox"
+#~ msgid "11th"
+#~ msgstr "11 chi"
+
+#, fuzzy
+#~| msgid "12th"
+#~ msgctxt "@item:inlistbox"
+#~ msgid "12th"
+#~ msgstr "12 chi"
+
+#, fuzzy
+#~| msgid "13th"
+#~ msgctxt "@item:inlistbox"
+#~ msgid "13th"
+#~ msgstr "13 chi"
+
+#, fuzzy
+#~| msgid "14th"
+#~ msgctxt "@item:inlistbox"
+#~ msgid "14th"
+#~ msgstr "14 chi"
+
+#, fuzzy
+#~| msgid "15th"
+#~ msgctxt "@item:inlistbox"
+#~ msgid "15th"
+#~ msgstr "15 chi"
+
+#, fuzzy
+#~| msgid "16th"
+#~ msgctxt "@item:inlistbox"
+#~ msgid "16th"
+#~ msgstr "16 chi"
+
+#, fuzzy
+#~| msgid "17th"
+#~ msgctxt "@item:inlistbox"
+#~ msgid "17th"
+#~ msgstr "17 chi"
+
+#, fuzzy
+#~| msgid "18th"
+#~ msgctxt "@item:inlistbox"
+#~ msgid "18th"
+#~ msgstr "18 chi"
+
+#, fuzzy
+#~| msgid "19th"
+#~ msgctxt "@item:inlistbox"
+#~ msgid "19th"
+#~ msgstr "19 chi"
+
+#, fuzzy
+#~| msgid "20th"
+#~ msgctxt "@item:inlistbox"
+#~ msgid "20th"
+#~ msgstr "20 chi"
+
+#, fuzzy
+#~| msgid "21st"
+#~ msgctxt "@item:inlistbox"
+#~ msgid "21st"
+#~ msgstr "21 chi"
+
+#, fuzzy
+#~| msgid "22nd"
+#~ msgctxt "@item:inlistbox"
+#~ msgid "22nd"
+#~ msgstr "22 chi"
+
+#, fuzzy
+#~| msgid "23rd"
+#~ msgctxt "@item:inlistbox"
+#~ msgid "23rd"
+#~ msgstr "23 chi"
+
+#, fuzzy
+#~| msgid "24th"
+#~ msgctxt "@item:inlistbox"
+#~ msgid "24th"
+#~ msgstr "24 chi"
+
+#, fuzzy
+#~| msgid "25th"
+#~ msgctxt "@item:inlistbox"
+#~ msgid "25th"
+#~ msgstr "25 chi"
+
+#, fuzzy
+#~| msgid "26th"
+#~ msgctxt "@item:inlistbox"
+#~ msgid "26th"
+#~ msgstr "26 chi"
+
+#, fuzzy
+#~| msgid "27th"
+#~ msgctxt "@item:inlistbox"
+#~ msgid "27th"
+#~ msgstr "27 chi"
+
+#, fuzzy
+#~| msgid "28th"
+#~ msgctxt "@item:inlistbox"
+#~ msgid "28th"
+#~ msgstr "28 chi"
+
+#, fuzzy
+#~| msgid "29th"
+#~ msgctxt "@item:inlistbox"
+#~ msgid "29th"
+#~ msgstr "29 chi"
+
+#, fuzzy
+#~| msgid "30th"
+#~ msgctxt "@item:inlistbox"
+#~ msgid "30th"
+#~ msgstr "30 chi"
+
+#, fuzzy
+#~| msgid "31st"
+#~ msgctxt "@item:inlistbox"
+#~ msgid "31st"
+#~ msgstr "31 chi"
+
+#, fuzzy
+#~| msgid "Last"
+#~ msgctxt "@item:inlistbox last day of the month"
+#~ msgid "Last"
+#~ msgstr "Oxirgi"
+
+#, fuzzy
+#~ msgctxt "@item:inlistbox"
+#~ msgid "6th Last"
+#~ msgstr "Oxirgi 4 chi"
+
+#, fuzzy
+#~ msgctxt "@item:inlistbox"
+#~ msgid "7th Last"
+#~ msgstr "Oxirgi 4 chi"
+
+#, fuzzy
+#~ msgctxt "@item:inlistbox"
+#~ msgid "8th Last"
+#~ msgstr "Oxirgi 4 chi"
+
+#, fuzzy
+#~ msgctxt "@item:inlistbox"
+#~ msgid "9th Last"
+#~ msgstr "Oxirgi 4 chi"
+
+#, fuzzy
+#~ msgctxt "@item:inlistbox"
+#~ msgid "10th Last"
+#~ msgstr "Oxirgi 4 chi"
+
+#, fuzzy
+#~ msgctxt "@item:inlistbox"
+#~ msgid "11th Last"
+#~ msgstr "Oxirgi 4 chi"
+
+#, fuzzy
+#~ msgctxt "@item:inlistbox"
+#~ msgid "12th Last"
+#~ msgstr "Oxirgi 4 chi"
+
+#, fuzzy
+#~ msgctxt "@item:inlistbox"
+#~ msgid "13th Last"
+#~ msgstr "Oxirgi 4 chi"
+
+#, fuzzy
+#~ msgctxt "@item:inlistbox"
+#~ msgid "14th Last"
+#~ msgstr "Oxirgi 4 chi"
+
+#, fuzzy
+#~ msgctxt "@item:inlistbox"
+#~ msgid "15th Last"
+#~ msgstr "Oxirgi 5 chi"
+
+#, fuzzy
+#~ msgctxt "@item:inlistbox"
+#~ msgid "16th Last"
+#~ msgstr "Oxirgi 4 chi"
+
+#, fuzzy
+#~ msgctxt "@item:inlistbox"
+#~ msgid "17th Last"
+#~ msgstr "Oxirgi 4 chi"
+
+#, fuzzy
+#~ msgctxt "@item:inlistbox"
+#~ msgid "18th Last"
+#~ msgstr "Oxirgi 4 chi"
+
+#, fuzzy
+#~ msgctxt "@item:inlistbox"
+#~ msgid "19th Last"
+#~ msgstr "Oxirgi 4 chi"
+
+#, fuzzy
+#~ msgctxt "@item:inlistbox"
+#~ msgid "20th Last"
+#~ msgstr "Oxirgi 4 chi"
+
+#, fuzzy
+#~ msgctxt "@item:inlistbox"
+#~ msgid "21st Last"
+#~ msgstr "Oxirgi 2 chi"
+
+#, fuzzy
+#~ msgctxt "@item:inlistbox"
+#~ msgid "22nd Last"
+#~ msgstr "Oxirgi 2 chi"
+
+#, fuzzy
+#~ msgctxt "@item:inlistbox"
+#~ msgid "23rd Last"
+#~ msgstr "Oxirgi 3 chi"
+
+#, fuzzy
+#~ msgctxt "@item:inlistbox"
+#~ msgid "24th Last"
+#~ msgstr "Oxirgi 4 chi"
+
+#, fuzzy
+#~ msgctxt "@item:inlistbox"
+#~ msgid "25th Last"
+#~ msgstr "Oxirgi 5 chi"
+
+#, fuzzy
+#~ msgctxt "@item:inlistbox"
+#~ msgid "26th Last"
+#~ msgstr "Oxirgi 4 chi"
+
+#, fuzzy
+#~ msgctxt "@item:inlistbox"
+#~ msgid "27th Last"
+#~ msgstr "Oxirgi 4 chi"
+
+#, fuzzy
+#~ msgctxt "@item:inlistbox"
+#~ msgid "28th Last"
+#~ msgstr "Oxirgi 4 chi"
+
+#, fuzzy
+#~ msgctxt "@item:inlistbox"
+#~ msgid "29th Last"
+#~ msgstr "Oxirgi 4 chi"
+
+#, fuzzy
+#~ msgctxt "@item:inlistbox"
+#~ msgid "30th Last"
+#~ msgstr "Oxirgi 4 chi"
+
+#, fuzzy
+#~ msgctxt "@item:inlistbox"
+#~ msgid "31st Last"
+#~ msgstr "Oxirgi 3 chi"
+
+#, fuzzy
+#~| msgid "day"
+#~ msgctxt "@label"
+#~ msgid "day"
+#~ msgstr "kun"
+
+#, fuzzy
+#~| msgid "year(s)"
+#~ msgctxt "@label"
+#~ msgid "year(s)"
+#~ msgstr "yil"
+
+#, fuzzy
+#~| msgid "&Month"
+#~ msgctxt "@option:radio Part before XXX in 'Recur on NNN. WEEKDAY of MONTH'"
+#~ msgid "&On the"
+#~ msgstr "&Oy"
+
+#, fuzzy
+#~| msgid "E&xceptions"
+#~ msgctxt "@title:group"
+#~ msgid "E&xceptions"
+#~ msgstr "Qoidadan t&ashqari holatlar"
+
+#, fuzzy
+#~| msgid "&Add"
+#~ msgctxt "@action:button"
+#~ msgid "&Add"
+#~ msgstr "&Qoʻshish"
+
+#, fuzzy
+#~| msgid "Activates a reminder for this event or to-do."
+#~ msgctxt "@info:whatsthis"
+#~ msgid ""
+#~ "Add this date as an exception to the recurrence rules for this event or "
+#~ "to-do."
+#~ msgstr "Ushbu hodisa yoki vazifa uchun esga solishni qoʻllash."
+
+#, fuzzy
+#~| msgid "&Change"
+#~ msgctxt "@action:button"
+#~ msgid "&Change"
+#~ msgstr "Oʻz&gartirish"
+
+#, fuzzy
+#~ msgctxt "@action:button"
+#~ msgid "&Delete"
+#~ msgstr "%1'ni oʻchirish"
+
+#, fuzzy
+#~| msgid "Edit Exceptions"
+#~ msgctxt "@title:window"
+#~ msgid "Edit Exceptions"
+#~ msgstr "Qoidadan tashqari holatlarni tahrirlash"
+
+#, fuzzy
+#~| msgid "Begins on: %1"
+#~ msgctxt "@label"
+#~ msgid "Begin on:"
+#~ msgstr "Boshlanadi: %1"
+
+#, fuzzy
+#~ msgctxt "@option radio"
+#~ msgid "&No ending date"
+#~ msgstr "Tugash kuni:"
+
+#, fuzzy
+#~| msgid "Sets the Title of this event or to-do."
+#~ msgctxt "@info:whatsthis"
+#~ msgid "Sets the event or to-do to recur forever."
+#~ msgstr "Ushbu hodisa yoki vazifa sarlavhasini moslash."
+
+#, fuzzy
+#~| msgid "End Date"
+#~ msgctxt "@option:radio"
+#~ msgid "End &after"
+#~ msgstr "Tugash kuni"
+
+#, fuzzy
+#~ msgctxt "@option:radio"
+#~ msgid "End &on:"
+#~ msgstr "Tugash &oyi:"
+
+#, fuzzy
+#~| msgid "Begins on: %1"
+#~ msgctxt "@label"
+#~ msgid "Begins on: %1"
+#~ msgstr "Boshlanadi: %1"
+
+#, fuzzy
+#~| msgid "Resources"
+#~ msgctxt "@title:group"
+#~ msgid "Recurrence Types"
+#~ msgstr "Manbalar"
+
+#, fuzzy
+#~| msgid "&Daily"
+#~ msgctxt "@option:radio recur daily"
+#~ msgid "&Daily"
+#~ msgstr "Har &kun"
+
+#, fuzzy
+#~| msgid "&Weekly"
+#~ msgctxt "@option:radio recur weekly"
+#~ msgid "&Weekly"
+#~ msgstr "Har &hafta"
+
+#, fuzzy
+#~| msgid "&Monthly"
+#~ msgctxt "@option:radio recur monthly"
+#~ msgid "&Monthly"
+#~ msgstr "Har &oy"
+
+#, fuzzy
+#~| msgid "Appointment Time "
+#~ msgctxt "@title:group"
+#~ msgid "Appointment Time "
+#~ msgstr "Uchrashuv vaqti"
+
+#, fuzzy
+#~| msgid "Displays appointment time information."
+#~ msgctxt "@info:whatsthis"
+#~ msgid "Displays appointment time information."
+#~ msgstr "Uchrashuv vaqti maʼlumotini koʻrsatish."
+
+#~ msgid "Date && Time"
+#~ msgstr "Sana va vaqt"
+
+#, fuzzy
+#~| msgid "Sta&rt:"
+#~ msgctxt "@option:check to-do start datetime"
+#~ msgid "Sta&rt:"
+#~ msgstr "&Boshi:"
+
+#, fuzzy
+#~| msgid "&Date:"
+#~ msgctxt "to-do due datetime"
+#~ msgid "&Due:"
+#~ msgstr "Sa&na:"
+
+#, fuzzy
+#~| msgid "Resources"
+#~ msgctxt "@label"
+#~ msgid "Recurrence:"
+#~ msgstr "Manbalar"
+
+#, fuzzy
+#~| msgid "co&mpleted"
+#~ msgctxt "percent completed"
+#~ msgid "co&mpleted"
+#~ msgstr "&bajarilgan"
+
+#, fuzzy
+#~| msgid "co&mpleted"
+#~ msgctxt "to-do completed"
+#~ msgid "co&mpleted"
+#~ msgstr "&bajarilgan"
+
+#, fuzzy
+#~| msgid "Start: %1"
+#~ msgctxt "to-do start datetime"
+#~ msgid "Start: %1"
+#~ msgstr "Boshi: %1"
+
+#, fuzzy
+#~ msgctxt "to-do due datetime"
+#~ msgid "   Due: %1"
+#~ msgstr "Tugash kuni: %1"
+
+#, fuzzy
+#~| msgid "co&mpleted on"
+#~ msgctxt "to-do completed on datetime"
+#~ msgid "co&mpleted on"
+#~ msgstr "&yakunlandi"
+
+#, fuzzy
+#~| msgid "Sets the Title of this event or to-do."
+#~ msgctxt "@info:whatsthis"
+#~ msgid "Sets the Title of this event or to-do."
+#~ msgstr "Ushbu hodisa yoki vazifa sarlavhasini moslash."
+
+#, fuzzy
+#~| msgid "Enter the reminder time here."
+#~ msgctxt "@info:tooltip"
+#~ msgid "Set the title"
+#~ msgstr "Esga solish vaqtini shu yerga kiriting."
+
+#, fuzzy
+#~| msgid "T&itle:"
+#~ msgctxt "@label event or to-do title"
+#~ msgid "T&itle:"
+#~ msgstr "S&arlavha:"
+
+#, fuzzy
+#~| msgid "Sets the Title of this event or to-do."
+#~ msgctxt "@info:whatsthis"
+#~ msgid "Sets where the event or to-do will take place."
+#~ msgstr "Ushbu hodisa yoki vazifa sarlavhasini moslash."
+
+#, fuzzy
+#~| msgid "&Location:"
+#~ msgctxt "@label"
+#~ msgid "&Location:"
+#~ msgstr "&Manzil:"
+
+#, fuzzy
+#~ msgctxt "@label"
+#~ msgid "Categories:"
+#~ msgstr "Turkumlar"
+
+#, fuzzy
+#~| msgid "Select Addressee..."
+#~ msgctxt "@action:button select a category"
+#~ msgid "&Select..."
+#~ msgstr "Oluvchini tanlash"
+
+#, fuzzy
+#~ msgctxt "@info:tooltip"
+#~ msgid "Set the secrecy level"
+#~ msgstr "Boshlash kuni:"
+
+#, fuzzy
+#~| msgid "&Toggle Reminder"
+#~ msgctxt "@option:check"
+#~ msgid "Rich text"
+#~ msgstr "&Esga solishni oʻchirish/yoqish"
+
+#, fuzzy
+#~| msgid "&Toggle Reminder"
+#~ msgctxt "@info:tooltip"
+#~ msgid "Toggle Rich Text"
+#~ msgstr "&Esga solishni oʻchirish/yoqish"
+
+#, fuzzy
+#~| msgid "&Reminder:"
+#~ msgctxt "@option:check"
+#~ msgid "&Reminder:"
+#~ msgstr "&Esga solish:"
+
+#, fuzzy
+#~| msgid "Activates a reminder for this event or to-do."
+#~ msgctxt "@info:whatsthis"
+#~ msgid "Activates a reminder for this event or to-do."
+#~ msgstr "Ushbu hodisa yoki vazifa uchun esga solishni qoʻllash."
+
+#, fuzzy
+#~ msgctxt "@info:tooltip"
+#~ msgid "Set a reminder"
+#~ msgstr "Esga solish"
+
+#, fuzzy
+#~| msgid "Select a month"
+#~ msgctxt "@info:tooltip"
+#~ msgid "Set an alarm"
+#~ msgstr "Oyni tanlash"
+
+#, fuzzy
+#~| msgid "minute(s)"
+#~ msgctxt "@item:inlistbox alarm expressed in minutes"
+#~ msgid "minute(s)"
+#~ msgstr "daqiqa"
+
+#, fuzzy
+#~| msgid "hour(s)"
+#~ msgctxt "@item:inlistbox alarm expressed in hours"
+#~ msgid "hour(s)"
+#~ msgstr "soat"
+
+#, fuzzy
+#~| msgid "day(s)"
+#~ msgctxt "@item:inlistbox alarm expressed in days"
+#~ msgid "day(s)"
+#~ msgstr "kun"
+
+#, fuzzy
+#~| msgid "Advanced"
+#~ msgctxt "@action:button advanced alarm settings"
+#~ msgid "Advanced..."
+#~ msgstr "Qoʻshimcha"
+
+#, fuzzy
+#~| msgid "Activates a reminder for this event or to-do."
+#~ msgctxt "@info:whatsthis"
+#~ msgid "Push this button to create an advanced alarm for this event or to-do"
+#~ msgstr "Ushbu hodisa yoki vazifa uchun esga solishni qoʻllash."
+
+#, fuzzy
+#~ msgctxt "@label"
+#~ msgid "1 reminder configured"
+#~ msgid_plural "%1 reminders configured"
+#~ msgstr[0] "Esga solish"
+
+#, fuzzy
+#~ msgctxt "@label"
+#~ msgid "1 advanced reminder configured"
+#~ msgstr "Esga solish"
+
+#, fuzzy
+#~ msgctxt "@label"
+#~ msgid "No attendees"
+#~ msgstr "&Qatnashuvchilar"
+
+#, fuzzy
+#~| msgid "Please select an appointment."
+#~ msgctxt "@info"
+#~ msgid "Please specify a title."
+#~ msgstr "Iltimos uchrashuvni tanlang."
+
+#, fuzzy
+#~| msgid "Date && Time"
+#~ msgctxt "@title:group"
+#~ msgid "Date && Time"
+#~ msgstr "Sana va vaqt"
+
+#, fuzzy
+#~| msgid "Sets the Title of this event or to-do."
+#~ msgctxt "@info:whatsthis"
+#~ msgid "Sets options related to the date and time of the event or to-do."
+#~ msgstr "Ushbu hodisa yoki vazifa sarlavhasini moslash."
+
+#, fuzzy
+#~| msgid "Start &time:"
+#~ msgctxt "@info:tooltip"
+#~ msgid "Set the start time"
+#~ msgstr "Boshlash &vaqti:"
+
+#, fuzzy
+#~| msgid "Sets the Title of this event or to-do."
+#~ msgctxt "@info:whatsthis"
+#~ msgid "Select the starting time for this event."
+#~ msgstr "Ushbu hodisa yoki vazifa sarlavhasini moslash."
+
+#, fuzzy
+#~| msgid "Accept"
+#~ msgctxt "@action:button"
+#~ msgid "Accept"
+#~ msgstr "Qabul qilish"
+
+#, fuzzy
+#~ msgctxt "@action:button"
+#~ msgid "Decline"
+#~ msgstr "Vaqt zonasi:"
+
+#, fuzzy
+#~| msgid "Delete Confirmation"
+#~ msgctxt "@info:tooltip"
+#~ msgid "Decline the invitation"
+#~ msgstr "Oʻchirishni tasdiqlash"
+
+#, fuzzy
+#~| msgid "Duration: "
+#~ msgctxt "@label"
+#~ msgid "Duration: "
+#~ msgstr "Davom etishi: "
+
+#, fuzzy
+#~ msgctxt "@label"
+#~ msgid "1 Day"
+#~ msgid_plural "%1 Days"
+#~ msgstr[0] "1 kun"
+
+#, fuzzy
+#~ msgctxt "@label"
+#~ msgid "1 hour"
+#~ msgid_plural "%1 hours"
+#~ msgstr[0] "1 soat"
+
+#, fuzzy
+#~ msgctxt "@label"
+#~ msgid "1 minute"
+#~ msgid_plural "%1 minutes"
+#~ msgstr[0] "1 daqiqa"
+
+#, fuzzy
+#~| msgid "From: %1   To: %2   %3"
+#~ msgctxt "@label"
+#~ msgid "From: %1   To: %2   %3"
+#~ msgstr "%1 dan %2 gacha   %3"
+
+#, fuzzy
+#~| msgid "Please select an appointment."
+#~ msgctxt "@info"
+#~ msgid "Please specify a valid start time, for example '%1'."
+#~ msgstr "Iltimos uchrashuvni tanlang."
+
+#, fuzzy
+#~| msgid "Please select an appointment."
+#~ msgctxt "@info"
+#~ msgid "Please specify a valid end time, for example '%1'."
+#~ msgstr "Iltimos uchrashuvni tanlang."
+
+#, fuzzy
+#~| msgid "Please select an appointment."
+#~ msgctxt "@info"
+#~ msgid "Please specify a valid start date, for example '%1'."
+#~ msgstr "Iltimos uchrashuvni tanlang."
+
+#, fuzzy
+#~| msgid "Please select an appointment."
+#~ msgctxt "@info"
+#~ msgid "Please specify a valid end date, for example '%1'."
+#~ msgstr "Iltimos uchrashuvni tanlang."
+
+#, fuzzy
+#~| msgid "Unknown"
+#~ msgctxt "@option unknown alarm type"
+#~ msgid "Unknown"
+#~ msgstr "Nomaʼlum"
+
+#, fuzzy
+#~| msgid "Reminder Dialog"
+#~ msgctxt "@option popup reminder dialog"
+#~ msgid "Reminder Dialog"
+#~ msgstr "Esga solish oynasi"
+
+#, fuzzy
+#~| msgid "Email"
+#~ msgctxt "@option send email reminder"
+#~ msgid "Email"
+#~ msgstr "Elektron pochta"
+
+#, fuzzy
+#~ msgctxt "@item@intable alarm offset specified in days"
+#~ msgid "1 day"
+#~ msgid_plural "%1 days"
+#~ msgstr[0] "1 kun"
+
+#, fuzzy
+#~ msgctxt "@item@intable alarm offset specified in hours"
+#~ msgid "1 hour"
+#~ msgid_plural "%1 hours"
+#~ msgstr[0] "1 soat"
+
+#, fuzzy
+#~ msgctxt "@item@intable alarm offset specified in minutes"
+#~ msgid "1 minute"
+#~ msgid_plural "%1 minutes"
+#~ msgstr[0] "1 daqiqa"
+
+#, fuzzy
+#~| msgid "Edit Reminders"
+#~ msgctxt "@title"
+#~ msgid "Edit Reminders"
+#~ msgstr "Esga solishni tahrirlash"
+
+#, fuzzy
+#~ msgctxt "@item:inlistbox"
+#~ msgid "before the to-do starts"
+#~ msgstr "Ishga tushirilmasin"
+
+#, fuzzy
+#~ msgctxt "@item:inlistbox"
+#~ msgid "after the to-do starts"
+#~ msgstr "Ishga tushirilmasin"
+
+#, fuzzy
+#~| msgid "&General"
+#~ msgctxt "@title:tab general event settings"
+#~ msgid "&General"
+#~ msgstr "&Umumiy"
+
+#, fuzzy
+#~ msgctxt "@title:tab"
+#~ msgid "&Attendees"
+#~ msgstr "&Qatnashuvchilar"
+
+#, fuzzy
+#~| msgid "New Event"
+#~ msgctxt "@title:window"
+#~ msgid "New Event"
+#~ msgstr "Yangi hodisa"
+
+#, fuzzy
+#~| msgid "Exchange"
+#~ msgctxt "@title:window"
+#~ msgid "No Changes"
+#~ msgstr "Exchange"
+
+#, fuzzy
+#~ msgctxt "@info:tooltip"
+#~ msgid "Location: %1"
+#~ msgstr "&Manzil:"
+
+#, fuzzy
+#~| msgid "Hour"
+#~ msgctxt "@item:inlistbox range in hours"
+#~ msgid "Hour"
+#~ msgstr "Soat"
+
+#, fuzzy
+#~| msgid "Day"
+#~ msgctxt "@item:inlistbox range in days"
+#~ msgid "Day"
+#~ msgstr "Kun"
+
+#, fuzzy
+#~| msgid "Week"
+#~ msgctxt "@item:inlistbox range in weeks"
+#~ msgid "Week"
+#~ msgstr "Hafta"
+
+#, fuzzy
+#~| msgid "Month"
+#~ msgctxt "@item:inlistbox range in months"
+#~ msgid "Month"
+#~ msgstr "Oy"
+
+#, fuzzy
+#~| msgid "Event text"
+#~ msgctxt "@action:button"
+#~ msgid "Center on Start"
+#~ msgstr "Hodisa matni"
+
+#, fuzzy
+#~ msgctxt "@action:button reload freebusy data"
+#~ msgid "Reload"
+#~ msgstr "&Qaytadan yuklash"
+
+#, fuzzy
+#~ msgctxt "@info"
+#~ msgid "No suitable date found."
+#~ msgstr "Boshlash kuni:"
+
+#, fuzzy
+#~ msgctxt "@title:window"
+#~ msgid "Invalid Email Address"
+#~ msgstr "Qoʻshimcha elektron pochta:"
+
+#, fuzzy
+#~| msgid "Select Cate&gories..."
+#~ msgid "Select Categories"
+#~ msgstr "Turkumlarni &tanlash"
+
+#, fuzzy
+#~ msgid "Category"
+#~ msgstr "Turkumlar"
+
+#, fuzzy
+#~| msgid "Calendar"
+#~ msgid "&Clear Selection"
+#~ msgstr "Kalendar"
+
+#, fuzzy
+#~| msgid "Select Cate&gories..."
+#~ msgid "&Edit Categories..."
+#~ msgstr "Turkumlarni &tanlash"
+
+#, fuzzy
+#~ msgid "Time"
+#~ msgstr "V&aqt:"
+
+#, fuzzy
+#~| msgid "Enter the reminder time here."
+#~ msgid "Set the reminder trigger time"
+#~ msgstr "Esga solish vaqtini shu yerga kiriting."
+
+#, fuzzy
+#~| msgid "Sets the Title of this event or to-do."
+#~ msgid "Select the reminder trigger time unit"
+#~ msgstr "Ushbu hodisa yoki vazifa sarlavhasini moslash."
+
+#, fuzzy
+#~| msgid "minute(s)"
+#~ msgctxt "@item:inlistbox alarm offset expressed in minutes"
+#~ msgid "minute(s)"
+#~ msgstr "daqiqa"
+
+#, fuzzy
+#~| msgid "hour(s)"
+#~ msgctxt "@item:inlistbox alarm offset expressed in hours"
+#~ msgid "hour(s)"
+#~ msgstr "soat"
+
+#, fuzzy
+#~| msgid "day(s)"
+#~ msgctxt "@item:inlistbox alarm offset expressed in days"
+#~ msgid "day(s)"
+#~ msgstr "kun"
+
+#, fuzzy
+#~| msgid "Sets the Title of this event or to-do."
+#~ msgid "Select the reminder trigger relative to the start or end time"
+#~ msgstr "Ushbu hodisa yoki vazifa sarlavhasini moslash."
+
+#, fuzzy
+#~ msgid "before the event starts"
+#~ msgstr "Ishga tushirilmasin"
+
+#, fuzzy
+#~ msgid "after the event starts"
+#~ msgstr "Ishga tushirilmasin"
+
+#, fuzzy
+#~ msgid "before the event ends"
+#~ msgstr "Ishga tushirilmasin"
+
+#, fuzzy
+#~| msgid "Sets the Title of this event or to-do."
+#~ msgid "Select how often the reminder should repeat"
+#~ msgstr "Ushbu hodisa yoki vazifa sarlavhasini moslash."
+
+#~ msgid "&Interval:"
+#~ msgstr "Ora&liq:"
+
+#, fuzzy
+#~| msgid "Enter the reminder time here."
+#~ msgid "Set the reminder to repeat"
+#~ msgstr "Esga solish vaqtini shu yerga kiriting."
+
+#, fuzzy
+#~ msgid "&Repeating:"
+#~ msgstr "Qaytarish"
+
+#, fuzzy
+#~ msgctxt "@label:spinbox repeat interval expressed in minutes"
+#~ msgid " Minute(s)"
+#~ msgstr "daqiqa"
+
+#, fuzzy
+#~| msgid "every "
+#~ msgctxt "repeat every X minutes"
+#~ msgid "every "
+#~ msgstr "har "
+
+#, fuzzy
+#~| msgid "Enter the reminder time here."
+#~ msgid "Send email when the reminder is triggered"
+#~ msgstr "Esga solish vaqtini shu yerga kiriting."
+
+#, fuzzy
+#~| msgid "Send Email"
+#~ msgid "Send email"
+#~ msgstr "Xat joʻnatish"
+
+#, fuzzy
+#~ msgid "Display &text:"
+#~ msgstr "Esga solish"
+
+#, fuzzy
+#~ msgid "Sound &file:"
+#~ msgstr "Ar&xiv fayli:"
+
+#, fuzzy
+#~ msgid "Ar&guments:"
+#~ msgstr "Ar&gumentlar:"
+
+#, fuzzy
+#~| msgid "Sets the Title of this event or to-do."
+#~ msgid "Remove the currently selected reminder"
+#~ msgstr "Ushbu hodisa yoki vazifa sarlavhasini moslash."
+
+#, fuzzy
+#~| msgid "Sets the Title of this event or to-do."
+#~ msgid "Create a new reminder from the currently selected reminder"
+#~ msgstr "Ushbu hodisa yoki vazifa sarlavhasini moslash."
+
+#, fuzzy
+#~| msgid "Activates a reminder for this event or to-do."
+#~ msgid "The list of reminders for this event or to-do"
+#~ msgstr "Ushbu hodisa yoki vazifa uchun esga solishni qoʻllash."
+
+#, fuzzy
+#~| msgid "Activates a reminder for this event or to-do."
+#~ msgid ""
+#~ "This area displays a list of all the reminders you have specified for "
+#~ "this event or to-do."
+#~ msgstr "Ushbu hodisa yoki vazifa uchun esga solishni qoʻllash."
+
+#~ msgid "Repeat"
+#~ msgstr "Qaytarish"
+
+#, fuzzy
+#~| msgid "Manage Templates"
+#~ msgid "The list of managed templates"
+#~ msgstr "Namunalarni boshqarish"
+
+#, fuzzy
+#~ msgid "&New..."
+#~ msgstr "&Yangi"
+
+#, fuzzy
+#~| msgid "Sets the Title of this event or to-do."
+#~ msgid "Remove the currently selected template"
+#~ msgstr "Ushbu hodisa yoki vazifa sarlavhasini moslash."
+
+#, fuzzy
+#~| msgid "Calendar"
+#~ msgid "text/calendar"
+#~ msgstr "Kalendar"
+
+#~ msgid "Attendees Removed"
+#~ msgstr "Qatnashuvchilar olib tashlandi"
+
+#~ msgid "Do Not Send"
+#~ msgstr "Joʻnatilmasin"
+
+#, fuzzy
+#~| msgid "Import Calendar"
+#~ msgid "C&opy to Calendar"
+#~ msgstr "Kalendarni import qilish"
+
+#, fuzzy
+#~| msgid "New Calendar"
+#~ msgid "&Move to Calendar"
+#~ msgstr "Yangi kalendar"
+
+#, fuzzy
+#~| msgid "Import Calendar"
+#~ msgid "Copy Calendar"
+#~ msgid_plural "Copy %1 Calendars"
+#~ msgstr[0] "Kalendarni import qilish"
+
+#, fuzzy
+#~| msgid ""
+#~| "The meeting has been moved to\n"
+#~| "Start: %1\n"
+#~| "End: %2."
+#~ msgctxt "@info"
+#~ msgid ""
+#~ "The meeting has been moved to\n"
+#~ "Start: %1\n"
+#~ "End: %2."
+#~ msgstr ""
+#~ "Uchrashuv koʻchirildi\n"
+#~ "Boshi: %1\n"
+#~ "Oxiri: %2."
+
+#, fuzzy
+#~| msgid "KOrganizer"
+#~ msgid "Korganizer"
+#~ msgstr "KOrganizer"
+
+#, fuzzy
+#~| msgid "Could not load calendar '%1'."
+#~ msgid "Could not download calendar %1: %2."
+#~ msgstr "'%1' kalendarini yuklab boʻlmadi."
+
+#, fuzzy
+#~| msgctxt "short_weekday date (e.g. Mon 13)"
+#~| msgid "%1 %2"
+#~ msgid "%1 (%2 years)"
+#~ msgstr "%1 %2"
+
+#, fuzzy
+#~| msgid "&Day "
+#~ msgctxt "@option:radio"
+#~ msgid "&Day "
+#~ msgstr "&Kun"
+
+#, fuzzy
+#~| msgid "Day #"
+#~ msgctxt "@option:radio"
+#~ msgid "Day #"
+#~ msgstr "Kun #"
+
+#, fuzzy
+#~| msgid "Sets the Title of this event or to-do."
+#~ msgctxt "@info:whatsthis"
+#~ msgid "Sets the type of recurrence this event or to-do should have."
+#~ msgstr "Ushbu hodisa yoki vazifa sarlavhasini moslash."
+
+#, fuzzy
+#~| msgid "Daily"
+#~ msgctxt "@item:inlistbox recur daily"
+#~ msgid "Daily"
+#~ msgstr "Har kun"
+
+#, fuzzy
+#~| msgid "Weekly"
+#~ msgctxt "@item:inlistbox recur weekly"
+#~ msgid "Weekly"
+#~ msgstr "Har hafta"
+
+#, fuzzy
+#~| msgid "Monthly"
+#~ msgctxt "@item:inlistbox recur monthly"
+#~ msgid "Monthly"
+#~ msgstr "Har oy"
+
+#, fuzzy
+#~| msgid "Yearly"
+#~ msgctxt "@item:inlistbox recur yearly"
+#~ msgid "Yearly"
+#~ msgstr "Har yil"
+
+#, fuzzy
+#~| msgid "Exceptions..."
+#~ msgctxt "@action:button"
+#~ msgid "Exceptions..."
+#~ msgstr "Qoidadan tashqari holatlar"
+
+#, fuzzy
+#~| msgid "Email"
+#~ msgctxt "@title:column email addresses"
+#~ msgid "Email"
+#~ msgstr "Elektron pochta"
+
+#~ msgid "Send Email"
+#~ msgstr "Xat joʻnatish"
+
+#, fuzzy
+#~ msgid "Send Update"
+#~ msgstr "Tugash kuni:"
+
+#, fuzzy
+#~| msgid "Edit To-do"
+#~ msgctxt "@title:window"
+#~ msgid "Edit Journal: %1"
+#~ msgstr "Vazifani tahrirlash"
+
+#~ msgid "&iCalendar..."
+#~ msgstr "&iCalendar..."
+
+#~ msgid "&vCalendar..."
+#~ msgstr "&vCalendar..."
+
+#, fuzzy
+#~| msgid "New calendar '%1'."
+#~ msgid "Added calendar for URL '%1'."
+#~ msgstr "Yangi kalendar '%1'."
+
+#, fuzzy
+#~ msgid "Unable to create calendar '%1'."
+#~ msgstr "'%1' namunani topib boʻlmadi."
+
+#~ msgid ""
+#~ "The calendar contains unsaved changes. Do you want to save them before "
+#~ "exiting?"
+#~ msgstr ""
+#~ "Kalendarda saqlanmagan oʻzgarishlar mavjud. Chiqishdan oldin bu "
+#~ "oʻzgarishlarni saqlashni istaysizmi?"
+
+#, fuzzy
+#~ msgid "Cancel Save"
+#~ msgstr "Oʻz&gartirish"
+
+#~ msgid "Mail Client"
+#~ msgstr "Xat-xabar klienti"
+
+#~ msgid "KMail"
+#~ msgstr "KMail"
+
+#~ msgid "Sendmail"
+#~ msgstr "Sendmail"
+
+#, fuzzy
+#~| msgid "Edit Calendar Filters"
+#~ msgctxt "@info:tooltip"
+#~ msgid "Edit calendar settings"
+#~ msgstr "Kalendar filterlarini tahrirlash"
+
+#, fuzzy
+#~| msgid "New Calendar"
+#~ msgctxt "@info:tooltip"
+#~ msgid "Remove calendar"
+#~ msgstr "Yangi kalendar"
+
+#, fuzzy
+#~| msgid "Sets the Title of this event or to-do."
+#~ msgctxt "@info:whatsthis"
+#~ msgid ""
+#~ "Press this button to delete the calendar currently selected in the list "
+#~ "above."
+#~ msgstr "Ushbu hodisa yoki vazifa sarlavhasini moslash."
+
+#, fuzzy
+#~| msgid "Edit Calendar Filters"
+#~ msgid "Add Calendar Folder"
+#~ msgstr "Kalendar filterlarini tahrirlash"
+
+#, fuzzy
+#~| msgid "Calendar"
+#~ msgid "Calendar Configuration"
+#~ msgstr "Kalendar"
+
+#, fuzzy
+#~| msgid "Please enter a name for the new template:"
+#~ msgid "Please enter a new name for the calendar folder"
+#~ msgstr "Iltimos yangi namunaning nomini kiriting:"
+
+#, fuzzy
+#~| msgid "Cannot write archive file %1."
+#~ msgid "<qt>Cannot edit the calendar folder <b>%1</b>.</qt>"
+#~ msgstr "%1 arxiv faylini yozib boʻlmadi."
+
+#, fuzzy
+#~| msgid "Re&load"
+#~ msgctxt "reload the resource"
+#~ msgid "Re&load"
+#~ msgstr "&Qaytadan yuklash"
+
+#, fuzzy
+#~| msgid "Travel"
+#~ msgctxt "save the resource"
+#~ msgid "&Save"
+#~ msgstr "Sayohat"
+
+#~ msgid "Show &Info"
+#~ msgstr "&Maʼlumotni koʻrsatish"
+
+#, fuzzy
+#~| msgid "Edit Calendar Filters"
+#~ msgid "&Add Calendar Folder..."
+#~ msgstr "Kalendar filterlarini tahrirlash"
+
+#, fuzzy
+#~| msgid "General"
+#~ msgctxt "@title:tab general event settings"
+#~ msgid "General"
+#~ msgstr "Umumiy"
+
+#, fuzzy
+#~| msgid "Details"
+#~ msgctxt "@title:tab"
+#~ msgid "Details"
+#~ msgstr "Tafsilotlar"
+
+#, fuzzy
+#~| msgid "Resources"
+#~ msgctxt "@title:tab"
+#~ msgid "Rec&urrence"
+#~ msgstr "Manbalar"
+
+#, fuzzy
+#~| msgid "Edit Event"
+#~ msgctxt "@title:window"
+#~ msgid "Edit Event : %1"
+#~ msgstr "Hodisani tahrirlash"
+
+#, fuzzy
+#~| msgid "General"
+#~ msgctxt "@title:tab general to-do settings"
+#~ msgid "General"
+#~ msgstr "Umumiy"
+
+#, fuzzy
+#~| msgid "Edit To-do"
+#~ msgctxt "@title:window"
+#~ msgid "Edit To-do: %1"
+#~ msgstr "Vazifani tahrirlash"
+
+#~ msgid "Active Calendar"
+#~ msgstr "Aktiv kalendar"
+
+#~ msgid "Birthdays"
+#~ msgstr "Tugʻilgan kunlar"
+
+#, fuzzy
+#~| msgid "&Reminder:"
+#~ msgctxt "@label"
+#~ msgid "Reminder:"
+#~ msgstr "&Esga solish:"
+
+#, fuzzy
+#~| msgid "event"
+#~ msgctxt "incidence type is event"
+#~ msgid "event"
+#~ msgstr "hodisa"
+
+#, fuzzy
+#~| msgid "task"
+#~ msgctxt "incidence type is to-do/task"
+#~ msgid "task"
+#~ msgstr "vazifa"
+
+#, fuzzy
+#~ msgctxt "@title:column reminder date/time"
+#~ msgid "Reminder Time"
+#~ msgstr "Sana va vaqt"
+
+#~ msgid "Zoom In"
+#~ msgstr "Kattalashtirish"
+
+#~ msgid "Zoom Out"
+#~ msgstr "Kichiklashtirish"
+
+#~ msgid "Accept"
+#~ msgstr "Qabul qilish"
+
+#, fuzzy
+#~| msgid "Reminder"
+#~ msgctxt "@title:column reminder date/time"
+#~ msgid "Reminder"
+#~ msgstr "Esga solish"
+
+#, fuzzy
+#~ msgctxt "@item:inlistbox alarm offset expressed in minutes"
+#~ msgid "Minutes"
+#~ msgstr "5 daqiqa"
+
+#, fuzzy
+#~ msgctxt "@item:inlistbox alarm offset expressed in hours"
+#~ msgid "Hours"
+#~ msgstr "Soat"
+
+#, fuzzy
+#~ msgctxt "@item:inlistbox alarm offset expressed in days"
+#~ msgid "Days"
+#~ msgstr "Kun"
+
+#, fuzzy
+#~ msgid "Before the Start"
+#~ msgstr "Ishga tushirilmasin"
+
+#, fuzzy
+#~ msgid "&Display reminder"
+#~ msgstr "Esga solish"
+
+#, fuzzy
+#~ msgid "Reminder &text:"
+#~ msgstr "Esga solish oynasi"
+
+#, fuzzy
+#~ msgctxt "@label"
+#~ msgid "Time zone:"
+#~ msgstr "Vaqt zonasi:"
+
+#, fuzzy
+#~| msgid "Unknown"
+#~ msgctxt "@item:inlistbox unknown timezone"
+#~ msgid "Unknown"
+#~ msgstr "Nomaʼlum"
+
+#, fuzzy
+#~| msgid "[No selection]"
+#~ msgctxt "@item:inlistbox no timezone selected"
+#~ msgid "[No selection]"
+#~ msgstr "[Tanlanmagan]"
+
+#~ msgid "&Find"
+#~ msgstr "&Qidirish"
+
+#~ msgid "Delete Confirmation"
+#~ msgstr "Oʻchirishni tasdiqlash"
+
+#, fuzzy
+#~ msgctxt "@action:button"
+#~ msgid "Delete"
+#~ msgstr "%1'ni oʻchirish"
+
+#, fuzzy
+#~| msgid "Please enter a name for the new template:"
+#~ msgid "Please enter a name for the new subresource"
+#~ msgstr "Iltimos yangi namunaning nomini kiriting:"
+
+#, fuzzy
+#~| msgid "Resources"
+#~ msgid "&Add Resource..."
+#~ msgstr "Manbalar"
+
+#, fuzzy
+#~ msgid "Resource Colors"
+#~ msgstr "Manbalar"
+
+#, fuzzy
+#~ msgid "Print &Year:"
+#~ msgstr "Bosib chiqarish uslubi"
+
+#, fuzzy
+#~ msgid "No (unset) category color"
+#~ msgstr "Turkumlar"
+
+#~ msgid "&Add..."
+#~ msgstr "&Qoʻshish..."
+
+#, fuzzy
+#~ msgctxt "@action:inmenu remove the attachment"
+#~ msgid "&Delete"
+#~ msgstr "%1'ni oʻchirish"
+
+#, fuzzy
+#~| msgid "Scheduler Mail Client"
+#~ msgctxt "@title"
+#~ msgid "Scheduler Mail Client"
+#~ msgstr "Pochta dasturini rejalashtirish"
+
+#, fuzzy
+#~| msgid "Mail client"
+#~ msgctxt "@option:radio"
+#~ msgid "Mail client"
+#~ msgstr "Xat-xabar klienti"
+
+#, fuzzy
+#~ msgctxt "@item:inlistbox"
+#~ msgid "1 minute"
+#~ msgstr "1 daqiqa"
+
+#, fuzzy
+#~| msgid "5 minutes"
+#~ msgctxt "@item:inlistbox"
+#~ msgid "5 minutes"
+#~ msgstr "5 daqiqa"
+
+#, fuzzy
+#~| msgid "10 minutes"
+#~ msgctxt "@item:inlistbox"
+#~ msgid "10 minutes"
+#~ msgstr "10 daqiqa"
+
+#, fuzzy
+#~| msgid "15 minutes"
+#~ msgctxt "@item:inlistbox"
+#~ msgid "15 minutes"
+#~ msgstr "15 daqiqa"
+
+#, fuzzy
+#~| msgid "30 minutes"
+#~ msgctxt "@item:inlistbox"
+#~ msgid "30 minutes"
+#~ msgstr "30 daqiqa"
+
+#~ msgid "Default Reminder Time"
+#~ msgstr "Andoza esga solish vaqti"
+
+#, fuzzy
+#~| msgid "Summary"
+#~ msgctxt "@title:column reminder summary"
+#~ msgid "Summary"
+#~ msgstr "Hisobot"
+
+#~ msgid "Apply Template"
+#~ msgstr "Namunani qoʻllash"
+
+#, fuzzy
+#~| msgid "New &Journal..."
+#~ msgctxt "Journal for DATE"
+#~ msgid "Journal for %1"
+#~ msgstr "Yangi &kundalik"
+
+#, fuzzy
+#~ msgctxt "@item delimiter for joining category names"
+#~ msgid ","
+#~ msgstr ", "
+
+#, fuzzy
+#~ msgctxt "@info delimiter for joining category names"
+#~ msgid ","
+#~ msgstr ", "
+
+#, fuzzy
+#~| msgid "Name"
+#~ msgctxt "addressee name"
+#~ msgid "Name"
+#~ msgstr "Nomi"
+
+#, fuzzy
+#~| msgid "Email"
+#~ msgctxt "addressee email"
+#~ msgid "Email"
+#~ msgstr "Elektron pochta"
+
+#, fuzzy
+#~| msgid "Name:"
+#~ msgctxt "addressee name"
+#~ msgid "Name:"
+#~ msgstr "Nomi:"
+
+#~ msgid "Select &Addressee..."
+#~ msgstr "Oluvchini &tanlash"
+
+#, fuzzy
+#~| msgid "&Add..."
+#~ msgctxt "@action:button"
+#~ msgid "&Add..."
+#~ msgstr "&Qoʻshish..."
+
+#~ msgid "Filter: "
+#~ msgstr "Filter:"
+
+#, fuzzy
+#~| msgid "Categories"
+#~ msgid "categories-view"
+#~ msgstr "Turkumlar"
+
+#, fuzzy
+#~| msgid "Holiday"
+#~ msgctxt "incidence category"
+#~ msgid "Holiday"
+#~ msgstr "Dam olish"
+
+#, fuzzy
+#~| msgid "Show only selected"
+#~ msgid "Show timezone selectors"
+#~ msgstr "Faqat tanlanganni koʻrsatish"
+
+#, fuzzy
+#~ msgid "31st Last"
+#~ msgstr "Oxirgi 3 chi"
+
+#, fuzzy
+#~ msgid "30th Last"
+#~ msgstr "Oxirgi 4 chi"
+
+#, fuzzy
+#~ msgid "29th Last"
+#~ msgstr "Oxirgi 4 chi"
+
+#, fuzzy
+#~ msgid "28th Last"
+#~ msgstr "Oxirgi 4 chi"
+
+#, fuzzy
+#~ msgid "27th Last"
+#~ msgstr "Oxirgi 4 chi"
+
+#, fuzzy
+#~ msgid "26th Last"
+#~ msgstr "Oxirgi 4 chi"
+
+#, fuzzy
+#~ msgid "25th Last"
+#~ msgstr "Oxirgi 5 chi"
+
+#, fuzzy
+#~ msgid "24th Last"
+#~ msgstr "Oxirgi 4 chi"
+
+#, fuzzy
+#~ msgid "23rd Last"
+#~ msgstr "Oxirgi 3 chi"
+
+#, fuzzy
+#~ msgid "22nd Last"
+#~ msgstr "Oxirgi 2 chi"
+
+#, fuzzy
+#~ msgid "21st Last"
+#~ msgstr "Oxirgi 2 chi"
+
+#, fuzzy
+#~ msgid "20th Last"
+#~ msgstr "Oxirgi 4 chi"
+
+#, fuzzy
+#~ msgid "19th Last"
+#~ msgstr "Oxirgi 4 chi"
+
+#, fuzzy
+#~ msgid "18th Last"
+#~ msgstr "Oxirgi 4 chi"
+
+#, fuzzy
+#~ msgid "17th Last"
+#~ msgstr "Oxirgi 4 chi"
+
+#, fuzzy
+#~ msgid "16th Last"
+#~ msgstr "Oxirgi 4 chi"
+
+#, fuzzy
+#~ msgid "15th Last"
+#~ msgstr "Oxirgi 5 chi"
+
+#, fuzzy
+#~ msgid "14th Last"
+#~ msgstr "Oxirgi 4 chi"
+
+#, fuzzy
+#~ msgid "13th Last"
+#~ msgstr "Oxirgi 4 chi"
+
+#, fuzzy
+#~ msgid "12th Last"
+#~ msgstr "Oxirgi 4 chi"
+
+#, fuzzy
+#~ msgid "11th Last"
+#~ msgstr "Oxirgi 4 chi"
+
+#, fuzzy
+#~ msgid "10th Last"
+#~ msgstr "Oxirgi 4 chi"
+
+#, fuzzy
+#~ msgid "9th Last"
+#~ msgstr "Oxirgi 4 chi"
+
+#, fuzzy
+#~ msgid "8th Last"
+#~ msgstr "Oxirgi 4 chi"
+
+#, fuzzy
+#~ msgid "7th Last"
+#~ msgstr "Oxirgi 4 chi"
+
+#, fuzzy
+#~ msgid "6th Last"
+#~ msgstr "Oxirgi 4 chi"
+
+#, fuzzy
+#~| msgid "5th Last"
+#~ msgid "5th Last"
+#~ msgstr "Oxirgi 5 chi"
+
+#, fuzzy
+#~| msgid "4th Last"
+#~ msgid "4th Last"
+#~ msgstr "Oxirgi 4 chi"
+
+#, fuzzy
+#~| msgid "3rd Last"
+#~ msgid "3rd Last"
+#~ msgstr "Oxirgi 3 chi"
+
+#, fuzzy
+#~| msgid "2nd Last"
+#~ msgid "2nd Last"
+#~ msgstr "Oxirgi 2 chi"
+
+#, fuzzy
+#~| msgid "Last"
+#~ msgctxt "last day of the month"
+#~ msgid "Last"
+#~ msgstr "Oxirgi"
+
+#, fuzzy
+#~| msgid "1st"
+#~ msgid "1st"
+#~ msgstr "1 chi"
+
+#, fuzzy
+#~| msgid "2nd"
+#~ msgid "2nd"
+#~ msgstr "2 chi"
+
+#, fuzzy
+#~| msgid "3rd"
+#~ msgid "3rd"
+#~ msgstr "3 chi"
+
+#, fuzzy
+#~| msgid "4th"
+#~ msgid "4th"
+#~ msgstr "4 chi"
+
+#, fuzzy
+#~| msgid "5th"
+#~ msgid "5th"
+#~ msgstr "5 chi"
+
+#, fuzzy
+#~| msgid "every "
+#~ msgid "Every day"
+#~ msgid_plural "Every %1 days"
+#~ msgstr[0] "har "
+
+#, fuzzy
+#~| msgid "every "
+#~ msgctxt "Every N MONTH[S] on day N"
+#~ msgid "Every month on day %2"
+#~ msgid_plural "Every %1 months on day %2"
+#~ msgstr[0] "har "
+
+#, fuzzy
+#~| msgid "Resources"
+#~ msgid "occurrences"
+#~ msgid_plural "occurrences"
+#~ msgstr[0] "Manbalar"
+
+#, fuzzy
+#~| msgctxt "short_weekday date (e.g. Mon 13)"
+#~| msgid "%1 %2"
+#~ msgctxt "for N %OCCURRENCE[S]"
+#~ msgid "for %1 %2"
+#~ msgstr "%1 %2"
+
+#, fuzzy
+#~ msgid "Attendees:"
+#~ msgstr "&Qatnashuvchilar"
+
+#, fuzzy
+#~| msgid "Zoom Out"
+#~ msgctxt "@action:button"
+#~ msgid "Zoom to Fit"
+#~ msgstr "Kichiklashtirish"
+
+#, fuzzy
+#~| msgid "Week"
+#~ msgid "week"
+#~ msgid_plural "weeks"
+#~ msgstr[0] "Hafta"
+
+#, fuzzy
+#~| msgid "Month"
+#~ msgid "month"
+#~ msgid_plural "months"
+#~ msgstr[0] "Oy"
+
+#, fuzzy
+#~| msgid "year(s)"
+#~ msgid "year"
+#~ msgid_plural "years"
+#~ msgstr[0] "yil"
+
+#, fuzzy
+#~| msgid "Sets the Title of this event or to-do."
+#~ msgctxt "@info:whatsthis"
+#~ msgid "Day of the week on which this event or to-do should recur."
+#~ msgstr "Ushbu hodisa yoki vazifa sarlavhasini moslash."
+
+#, fuzzy
+#~ msgctxt "Unspecified priority"
+#~ msgid "unspecified"
+#~ msgstr "Taʼri&flar"
+
+#, fuzzy
+#~| msgid "1 (highest)"
+#~ msgid "1 (highest)"
+#~ msgstr "1 (eng yuqori)"
+
+#, fuzzy
+#~| msgid "9 (lowest)"
+#~ msgid "9 (lowest)"
+#~ msgstr "9 (eng past)"
+
+#, fuzzy
+#~| msgid "Month View"
+#~ msgid "&New Month View"
+#~ msgstr "Oy koʻrinishi"
+
+#, fuzzy
+#~ msgctxt "@info alarm offset specified in days"
+#~ msgid "1 day"
+#~ msgid_plural "%1 days"
+#~ msgstr[0] "1 kun"
+
+#, fuzzy
+#~ msgctxt "@info alarm offset specified in hours"
+#~ msgid "1 hour"
+#~ msgid_plural "%1 hours"
+#~ msgstr[0] "1 soat"
+
+#, fuzzy
+#~ msgctxt "@info alarm offset specified in minutes"
+#~ msgid "1 minute"
+#~ msgid_plural "%1 minutes"
+#~ msgstr[0] "1 daqiqa"
+
+#, fuzzy
+#~| msgid "Calendar"
+#~ msgid "Calendar: %1"
+#~ msgstr "Kalendar"
+
+#, fuzzy
+#~ msgid "Underline text"
+#~ msgstr "Esga solish oynasi"
+
+#, fuzzy
+#~| msgid "Event text"
+#~ msgid "Center text"
+#~ msgstr "Hodisa matni"
+
+#, fuzzy
+#~| msgid "Enter the default reminder time here."
+#~ msgctxt "@info:whatsthis"
+#~ msgid "Enter the default reminder time here."
+#~ msgstr "Andoza esga solish vaqtini shu yerga kiriting."
+
+#~ msgid "&New To-do..."
+#~ msgstr "Yangi &vazifa..."
+
+#, fuzzy
+#~| msgid "Reminders Enabled"
+#~ msgctxt "@action:inmenu"
+#~ msgid "Reminders Enabled"
+#~ msgstr "Esga solish yoqilgan"
+
+#, fuzzy
+#~| msgid "Reminder"
+#~ msgctxt "@title:window"
+#~ msgid "Reminder"
+#~ msgstr "Esga solish"
+
+#, fuzzy
+#~| msgid "&Date:"
+#~ msgctxt "@title:column reminder due date/time"
+#~ msgid "Due"
+#~ msgstr "Sa&na:"
+
+#~ msgid "&Templates..."
+#~ msgstr "&Namunalar..."
+
+#, fuzzy
+#~ msgid "Edit"
+#~ msgstr "%1'ni tahrirlash"
+
+#, fuzzy
+#~| msgid "day(s)"
+#~ msgctxt "@label"
+#~ msgid "day(s)"
+#~ msgstr "kun"
+
+#~ msgid "Owner:"
+#~ msgstr "Egasi:"
+
+#, fuzzy
+#~| msgid "&New"
+#~ msgctxt "@action:button add a new attendee"
+#~ msgid "&New"
+#~ msgstr "&Yangi"
+
+#, fuzzy
+#~ msgctxt "@action:button remove this attendee"
+#~ msgid "&Remove"
+#~ msgstr "Tutgan oʻrin"
+
+#, fuzzy
+#~ msgctxt "@action:button"
+#~ msgid "&Properties..."
+#~ msgstr "&Tahrirlash"
+
+#, fuzzy
+#~| msgid "&Show"
+#~ msgctxt "@action:button"
+#~ msgid "&Show"
+#~ msgstr "&Koʻrsatish"
+
+#~ msgid "Role"
+#~ msgstr "Tutgan oʻrin"
+
+#~ msgid "RSVP"
+#~ msgstr "RSVP"
+
+#, fuzzy
+#~ msgctxt "Example: 5 hours (80%)"
+#~ msgid "%1 hours ("
+#~ msgstr "1 soat"
+
+#~ msgid "<undefined>"
+#~ msgstr "<noaniq>"
+
+#~ msgid "Owner: "
+#~ msgstr "Egasi: "
+
+#~ msgid "Go to &Today"
+#~ msgstr "&Bugunga oʻtish"
+
+#~ msgid "&List"
+#~ msgstr "&Roʻyxat"
+
+#~ msgid "Previous year"
+#~ msgstr "Oldingi yil"
+
+#~ msgid "Previous month"
+#~ msgstr "Oldingi oy"
+
+#~ msgid "Next year"
+#~ msgstr "Kelasi yil"
+
+#~ msgid "Co-Maintainer"
+#~ msgstr "Ikkinchi taʼminlovchi"
+
+#, fuzzy
+#~| msgid "Go &Forward"
+#~ msgid "Floating"
+#~ msgstr "Oldin&ga oʻtish"
+
+#~ msgid "&Title: "
+#~ msgstr "&Sarlavha:"
+
+#~ msgid "Ti&me: "
+#~ msgstr "V&aqt:"
+
+#, fuzzy
+#~ msgid "Sets the time associated with this journal  entry"
+#~ msgstr "Ushbu kundalikning nomini koʻrsatish."
+
+#, fuzzy
+#~ msgid "Reset"
+#~ msgstr "Qaytarish"
+
+#, fuzzy
+#~ msgid "&Reminder Dialog"
+#~ msgstr "Esga solish oynasi"
+
+#, fuzzy
+#~ msgid "A&udio"
+#~ msgstr "Audio"
+
+#, fuzzy
+#~ msgid "Email &address(es):"
+#~ msgstr "Elektron p&ochta"
+
+#~ msgid "URI"
+#~ msgstr "URI"
+
+#~ msgid "MIME Type"
+#~ msgstr "MIME turi"
+
+#~ msgid "Edit Attachment"
+#~ msgstr "Ilovani tahrirlash"
+
+#~ msgid "&Project"
+#~ msgstr "&Loyiha"
+
+#~ msgid "Exchange Plugin"
+#~ msgstr "Exchange plagini"
+
+#~ msgid "Exchange server:"
+#~ msgstr "Exchange serveri:"
+
+#~ msgid "Port:"
+#~ msgstr "Port:"
+
+#~ msgid "User:"
+#~ msgstr "Foydalanuvchi:"
+
+#~ msgid "Start date:"
+#~ msgstr "Boshlash kuni:"
+
+#~ msgid "End date:"
+#~ msgstr "Tugash kuni:"
+
+#~ msgid "&Download..."
+#~ msgstr "Yozib &olish"
+
+#~ msgid "&Upload Event..."
+#~ msgstr "Hodisani &yozib qoʻyish"
+
+#~ msgid "De&lete Event"
+#~ msgstr "Hodisani &oʻchirish"
+
+#~ msgid "&Upload"
+#~ msgstr "&Yozib qoʻyish"
+
+#~ msgid "Unknown Error"
+#~ msgstr "Nomaʼlum xato"

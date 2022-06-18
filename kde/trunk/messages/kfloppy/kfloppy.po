@@ -1,0 +1,629 @@
+# translation of kfloppy.po to Uzbek
+# Abdurahmonov Nurali <mavnur@gmail.com>, 2006.
+# Mashrab Kuvatov <kmashrab@uni-bremen.de>, 2006.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: kfloppy\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2022-01-12 00:48+0000\n"
+"PO-Revision-Date: 2006-01-15 01:22+0100\n"
+"Last-Translator: Mashrab Kuvatov <kmashrab@uni-bremen.de>\n"
+"Language-Team: Uzbek <floss-uz-l10n@googlegroups.com>\n"
+"Language: uz\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: KBabel 1.10.2\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: floppy.cpp:81
+#, kde-format
+msgid "Floppy &drive:"
+msgstr "&Diskovod:"
+
+#: floppy.cpp:89 floppy.cpp:364 floppy.cpp:654
+#, fuzzy, kde-format
+#| msgid "Primary"
+msgctxt "Primary floppy drive"
+msgid "Primary"
+msgstr "Asosiy"
+
+#: floppy.cpp:90 floppy.cpp:366
+#, fuzzy, kde-format
+#| msgid "Secondary"
+msgctxt "Secondary floppy drive"
+msgid "Secondary"
+msgstr "Ikkilamchi"
+
+#: floppy.cpp:92
+#, kde-format
+msgid "<qt>Select the floppy drive.</qt>"
+msgstr "<qt>Diskovodni tanlang.</qt>"
+
+#: floppy.cpp:98
+#, kde-format
+msgid "&Size:"
+msgstr "&Hajmi:"
+
+#: floppy.cpp:104 floppy.cpp:656
+#, kde-format
+msgid "Auto-Detect"
+msgstr "Avtomatik aniqlash"
+
+#: floppy.cpp:106 floppy.cpp:372 floppy.cpp:658
+#, kde-format
+msgid "3.5\" 1.44MB"
+msgstr "3.5\" 1.44 Mb"
+
+#: floppy.cpp:107 floppy.cpp:374
+#, kde-format
+msgid "3.5\" 720KB"
+msgstr "3.5\" 720 Kb"
+
+#: floppy.cpp:108 floppy.cpp:376
+#, kde-format
+msgid "5.25\" 1.2MB"
+msgstr "5.25\" 1.2 Mb"
+
+#: floppy.cpp:109 floppy.cpp:378
+#, kde-format
+msgid "5.25\" 360KB"
+msgstr "5.25\" 360 Kb"
+
+#: floppy.cpp:112
+#, kde-format
+msgid "<qt>This allows you to select the floppy disk's size and density.</qt>"
+msgstr "<qt>Bu moslama yordamida diskovod va zichlikni tanlash mumkin.</qt>"
+
+#: floppy.cpp:119
+#, kde-format
+msgid "F&ile system:"
+msgstr "F&ayl tizimi:"
+
+#: floppy.cpp:126 floppy.cpp:136
+#, kde-format
+msgctxt "Linux"
+msgid ""
+"KFloppy supports three file formats under Linux: MS-DOS, Ext2, and Minix"
+msgstr ""
+"KFloppy Linux uchun uchta fayl tizimini qoʻllaydi: MS-DOS, Ext2, va Minix"
+
+#: floppy.cpp:128
+#, kde-format
+msgctxt "BSD"
+msgid "KFloppy supports three file formats under BSD: MS-DOS, UFS, and Ext2"
+msgstr "KFloppy BSD uchun uchta fayl tizimini qoʻllaydi: MS-DOS, UFS, va Ext2"
+
+#: floppy.cpp:138 floppy.cpp:163 floppy.cpp:558 floppy.cpp:660
+#, kde-format
+msgid "DOS"
+msgstr "DOS"
+
+#: floppy.cpp:140
+#, kde-format
+msgctxt "Linux"
+msgid "Program mkdosfs found."
+msgstr "mkdosfs dasturi topildi."
+
+#: floppy.cpp:142
+#, kde-format
+msgctxt "Linux"
+msgid ""
+"Program mkdosfs <b>not found</b>. MSDOS formatting <b>not available</b>."
+msgstr ""
+"mkdosfs dasturi <b>topilmadi</b>. MSDOS formatlash imkoniyati <b>mavjud "
+"emas</b>."
+
+#: floppy.cpp:146 floppy.cpp:179 floppy.cpp:569
+#, kde-format
+msgid "ext2"
+msgstr "ext2"
+
+#: floppy.cpp:148 floppy.cpp:181
+#, kde-format
+msgid "Program mke2fs found."
+msgstr "mke2fs dasturi topildi."
+
+#: floppy.cpp:150 floppy.cpp:183
+#, kde-format
+msgid "Program mke2fs <b>not found</b>. Ext2 formatting <b>not available</b>"
+msgstr ""
+"mke2fs dasturi <b>topilmadi</b>. Ext2 formatlash imkoniyati <b>mavjud emas</"
+"b>."
+
+#: floppy.cpp:154 floppy.cpp:588
+#, kde-format
+msgid "Minix"
+msgstr "Minix"
+
+#: floppy.cpp:156
+#, kde-format
+msgctxt "Linux"
+msgid "Program mkfs.minix found."
+msgstr "mkfs.minix dasturi topildi."
+
+#: floppy.cpp:158
+#, kde-format
+msgctxt "Linux"
+msgid ""
+"Program mkfs.minix <b>not found</b>. Minix formatting <b>not available</b>"
+msgstr ""
+"mkfs.minix dasturi <b>topilmadi</b>. Minix formatlash imkoniyati <b>mavjud "
+"emas</b>."
+
+#: floppy.cpp:161
+#, kde-format
+msgctxt "BSD"
+msgid "KFloppy supports two file formats under BSD: MS-DOS and UFS"
+msgstr "KFloppy BSD uchun ikki xil format turini bajaradi: MS-DOS va UFS"
+
+#: floppy.cpp:165
+#, kde-format
+msgctxt "BSD"
+msgid "Program newfs_msdos found."
+msgstr "newfs_msdos dasturi topildi."
+
+#: floppy.cpp:167
+#, kde-format
+msgctxt "BSD"
+msgid ""
+"Program newfs_msdos <b>not found</b>. MSDOS formatting <b>not available</b>."
+msgstr ""
+"newfs_msdos dasturi <b>topilmadi</b>. MSDOS formatlash imkoniyati <b>mavjud "
+"emas</b>."
+
+#: floppy.cpp:171 floppy.cpp:487 floppy.cpp:580
+#, kde-format
+msgid "UFS"
+msgstr "UFS"
+
+#: floppy.cpp:173
+#, kde-format
+msgctxt "BSD"
+msgid "Program newfs found."
+msgstr "newfs dasturi topildi."
+
+#: floppy.cpp:175
+#, kde-format
+msgctxt "BSD"
+msgid "Program newfs <b>not found</b>. UFS formatting <b>not available</b>."
+msgstr ""
+"newfs dasturi <b>topilmadi</b>. UFS formatlash imkoniyati <b>mavjud emas</b>."
+
+#: floppy.cpp:189
+#, kde-format
+msgid "&Formatting"
+msgstr "&Formatlash"
+
+#: floppy.cpp:192
+#, kde-format
+msgid "Q&uick format"
+msgstr "T&ez formatlash"
+
+#: floppy.cpp:196
+#, kde-format
+msgid ""
+"<qt>Quick format is only a high-level format: it creates only a file system."
+"</qt>"
+msgstr "<qt>Ushbu usulda disketda faqat fayl tizimi yaratiladi.</qt>"
+
+#: floppy.cpp:199
+#, kde-format
+msgid "&Zero out and quick format"
+msgstr "&Nol va tez format"
+
+#: floppy.cpp:202
+#, kde-format
+msgid ""
+"<qt>This first erases the floppy by writing zeros and then it creates the "
+"file system.</qt>"
+msgstr ""
+"<qt>Ushbu usulda disketga nol yozilib undagi maʼlumot oʻchiriladi soʻng fayl "
+"tizimi yaratiladi.</qt>"
+
+#: floppy.cpp:204
+#, kde-format
+msgid "Fu&ll format"
+msgstr "T&oʻliq format"
+
+#: floppy.cpp:207
+#, kde-format
+msgid ""
+"Full format is a low-level and high-level format. It erases everything on "
+"the disk."
+msgstr ""
+"<qt>Ushbu usulda disket past va yuqori darajali format qilinadi. Diskdagi "
+"hamma maʼlumot yoʻqoladi.</qt>"
+
+#: floppy.cpp:216
+#, kde-format
+msgid "Program fdformat found."
+msgstr "fdformat dasturi topildi."
+
+#: floppy.cpp:220
+#, kde-format
+msgid "Program fdformat <b>not found</b>. Full formatting <b>disabled</b>."
+msgstr ""
+"fdformat dasturi <b>topilmadi</b>. Toʻliq formatlashni <b>bajarib boʻlmaydi</"
+"b>."
+
+#: floppy.cpp:226
+#, kde-format
+msgid "Program dd found."
+msgstr "dd dasturi topildi."
+
+#: floppy.cpp:229
+#, kde-format
+msgid "Program dd <b>not found</b>. Zeroing-out <b>disabled</b>."
+msgstr "dd dasturi <b>topilmadi</b>. Nol yozishni <b>bajarib boʻlmaydi</b>."
+
+#: floppy.cpp:234
+#, kde-format
+msgid "&Verify integrity"
+msgstr "&Butunligini tekshirish"
+
+#: floppy.cpp:238
+#, kde-format
+msgid ""
+"<qt>Check this if you want the floppy disk to be checked after formatting. "
+"Please note that the floppy will be checked twice if you have selected full "
+"formatting.</qt>"
+msgstr ""
+"<qt>Belgilansa, formatlashdan keyin disket tekshiriladi. Diqqat! Toʻliq "
+"formatlashda disket ikki marta teshiriladi.</qt>"
+
+#: floppy.cpp:243
+#, kde-format
+msgid "Volume la&bel:"
+msgstr "Disketning &nomi:"
+
+#: floppy.cpp:247
+#, kde-format
+msgid ""
+"<qt>Check this if you want a volume label for your floppy. Please note that "
+"Minix does not support labels at all.</qt>"
+msgstr ""
+"<qt>Diskening nomini koʻrsatmoqchi boʻlsangiz, shu yerni belgilang. "
+"Esingizda boʻlsin Minix fayl tizimida bunday imkoniyat yoʻq.</qt>"
+
+#: floppy.cpp:256 floppy.cpp:652
+#, kde-format
+msgctxt "Volume label, maximal 11 characters"
+msgid "KDE Floppy"
+msgstr "KDE Floppy"
+
+#: floppy.cpp:260
+#, kde-format
+msgid ""
+"<qt>This is for the volume label. Due to a limitation of MS-DOS the label "
+"can only be 11 characters long. Please note that Minix does not support "
+"labels, whatever you enter here.</qt>"
+msgstr ""
+"<qt>MS-DOS qoidasi boʻyicha disketning nomi 11 belgidan koʻp boʻlishi mumkin "
+"emas. Esingizda boʻlsin ushbu maydonni toʻldirganingizga qaramasdan Minix "
+"fayl tizimida bunday imkoniyat yoʻq.</qt>"
+
+#: floppy.cpp:270 floppy.cpp:469
+#, kde-format
+msgid "&Format"
+msgstr "&Formatlash"
+
+#: floppy.cpp:276
+#, kde-format
+msgid "<qt>Click here to start formatting.</qt>"
+msgstr "<qt>Formatlashni boshlash uchun shu yerni bosing.</qt>"
+
+#: floppy.cpp:301
+#, kde-format
+msgid "<qt>This is the status window, where error messages are displayed.</qt>"
+msgstr "<qt>Ushbu oynada jarayon davomida xato xabarlari koʻrsatiladi.</qt>"
+
+#: floppy.cpp:314
+#, kde-format
+msgid "<qt>Shows progress of the format.</qt>"
+msgstr "<qt>Formatlash jarayonini koʻrsatish.</qt>"
+
+#: floppy.cpp:323
+#, fuzzy, kde-format
+#| msgid ""
+#| "KFloppy cannot find any of the needed programs for creating file systems; "
+#| "please check your installation.<br><br>Log:"
+msgid ""
+"KFloppy cannot find any of the needed programs for creating file systems; "
+"please check your installation.<br /><br />Log:"
+msgstr ""
+"Fayl tizimini yaratish uchun kerakli dasturlar topilmadi. Ular toʻgʻri "
+"oʻrnatilganligini tekshiring.<br><br>Hisobot:"
+
+#: floppy.cpp:355
+#, kde-format
+msgid "KDE Floppy Formatter"
+msgstr "KDE uchun disket formatlagich"
+
+#: floppy.cpp:488
+#, kde-format
+msgctxt "BSD"
+msgid "Formatting with BSD on a user-given device is only possible with UFS"
+msgstr ""
+
+#: floppy.cpp:495
+#, kde-format
+msgid ""
+"<qt>Formatting will erase all data on the device:<br/><b>%1</b><br/>(Please "
+"check the correctness of the device name.)<br/>Are you sure you wish to "
+"proceed?</qt>"
+msgstr ""
+"<qt>Formatlashdan soʻng quyidagi uskunasidagi hamma maʼlumot yoʻqoladi.<br/"
+"><b>%1</b><br/>Iltimos uskunaning nomi toʻgʻriligini tekshiring.<br/>Davom "
+"etishga ishonchingiz komilmi?</qt>"
+
+#: floppy.cpp:499 floppy.cpp:511
+#, kde-format
+msgid "Proceed?"
+msgstr "Davom etish"
+
+#: floppy.cpp:505
+#, kde-format
+msgid "Full formatting of a user-given device is not possible."
+msgstr ""
+
+#: floppy.cpp:509
+#, kde-format
+msgid ""
+"Formatting will erase all data on the disk.\n"
+"Are you sure you wish to proceed?"
+msgstr ""
+"Formatlashdan soʻng disketdagi hamma maʼlumot yoʻqoladi.\n"
+"Davom etishga ishonchingiz komilmi?"
+
+#: format.cpp:247
+#, kde-format
+msgid "Unexpected drive number %1."
+msgstr "Uskuna uchun kutilmagan raqam %1."
+
+#: format.cpp:257
+#, kde-format
+msgid "Unexpected density number %1."
+msgstr "Zichlik uchun kutilmagan raqam %1."
+
+#: format.cpp:270
+#, kde-format
+msgid "Cannot find a device for drive %1 and density %2."
+msgstr "Diskovod %1 va zichlik %2 uchun uskuna topilmadi."
+
+#: format.cpp:284
+#, kde-format
+msgid ""
+"Cannot access %1\n"
+"Make sure that the device exists and that you have write permission to it."
+msgstr ""
+"Uskunaga %1 murojaat qilib boʻlmadi.\n"
+"Uskuna mavjud va unga sizda yetarli ruxsatlar borligiga ishonch hosil qiling."
+
+#: format.cpp:316
+#, kde-format
+msgid "The program %1 terminated with an error."
+msgstr "Dastur %1 xato bilan yakunlandi."
+
+#: format.cpp:320
+#, kde-format
+msgid "The program %1 terminated abnormally."
+msgstr "Dastur %1 xato bilan yakunlandi."
+
+#: format.cpp:377 format.cpp:508 format.cpp:597 format.cpp:691 format.cpp:762
+#: format.cpp:852
+#, kde-format
+msgid "Internal error: device not correctly defined."
+msgstr "Ichki xato: uskuna notoʻgʻri aniqlangan."
+
+#: format.cpp:383
+#, kde-format
+msgid "Cannot find fdformat."
+msgstr "fdformat dasturi topilmadi."
+
+#: format.cpp:410
+#, kde-format
+msgid "Could not start fdformat."
+msgstr "fdformat dasturini ishga tushirib boʻlmadi."
+
+#: format.cpp:432
+#, kde-format
+msgid "Error formatting track %1."
+msgstr "%1 yoʻlchani format qilishda xato roʻy berdi."
+
+#: format.cpp:435 format.cpp:460
+#, kde-format
+msgid ""
+"Cannot access floppy or floppy drive.\n"
+"Please insert a floppy and make sure that you have selected a valid floppy "
+"drive."
+msgstr ""
+"Disket yoki disket uskunasiga murojaat qilib boʻlmadi.\n"
+"Iltimos disketni qoʻying va toʻgʻri uskuna tanlanganiga ishonch hosil qiling."
+
+#: format.cpp:453
+#, kde-format
+msgid "Low-level formatting error at track %1."
+msgstr "%1 yoʻlchada past darajali formatlash xatosi roʻy berdi."
+
+#: format.cpp:456
+#, kde-format
+msgid "Low-level formatting error: %1"
+msgstr "Past darajali formatlash xatosi: %1"
+
+#: format.cpp:467 format.cpp:647 format.cpp:803 format.cpp:889
+#, kde-format
+msgid ""
+"Device busy.\n"
+"Perhaps you need to unmount the floppy first."
+msgstr ""
+"Uskuna band.\n"
+"Balki uni uzish (masalan umount buyrugʻi yordamida) kerak."
+
+#: format.cpp:472
+#, kde-format
+msgid "Low-level format error: %1"
+msgstr "Past darajali formatlash xatosi: %1"
+
+#: format.cpp:514
+#, kde-format
+msgid "Cannot find dd."
+msgstr "dd dasturi topilmadi."
+
+#: format.cpp:528
+#, kde-format
+msgid "Could not start dd."
+msgstr "dd dasturini ishga tushirib boʻlmadi."
+
+#: format.cpp:603
+#, kde-format
+msgid "Cannot find a program to create FAT filesystems."
+msgstr "FAT fayl tizimini yaratish uchun dastur topilmadi."
+
+#: format.cpp:630
+#, kde-format
+msgid "Cannot start FAT format program."
+msgstr "FAT formatlash dasturini ishga tushirib boʻlmadi."
+
+#: format.cpp:643 format.cpp:799 format.cpp:885
+#, kde-format
+msgid ""
+"Floppy is mounted.\n"
+"You need to unmount the floppy first."
+msgstr ""
+"Diskovod ulangan.\n"
+"Uni avval uzish (masalan umount buyrugʻi yordamida) kerak."
+
+#: format.cpp:697
+#, kde-format
+msgctxt "BSD"
+msgid "Cannot find a program to create UFS filesystems."
+msgstr "UFS fayl tizimini yaratish uchun dastur topilmadi."
+
+#: format.cpp:714
+#, kde-format
+msgctxt "BSD"
+msgid "Cannot start UFS format program."
+msgstr "UFS formatlash dasturini ishga tushirib boʻlmadi."
+
+#: format.cpp:768
+#, kde-format
+msgid "Cannot find a program to create ext2 filesystems."
+msgstr "ext2 fayl tizimi yaratish uchun dastur topilmadi."
+
+#: format.cpp:786
+#, kde-format
+msgid "Cannot start ext2 format program."
+msgstr "ext2 formatlash dasturini ishga tushirib boʻlmadi."
+
+#: format.cpp:858
+#, kde-format
+msgid "Cannot find a program to create Minix filesystems."
+msgstr "Minix fayl tizimini yaratish uchun dastur topilmadi."
+
+#: format.cpp:875
+#, kde-format
+msgid "Cannot start Minix format program."
+msgstr "Minix formatlash dasturini ishga tushirib boʻlmadi."
+
+#: main.cpp:51
+#, kde-format
+msgid "KFloppy"
+msgstr "KFloppy"
+
+#: main.cpp:53
+#, kde-format
+msgid "KDE Floppy Disk Utility"
+msgstr "KDE uchun floppi disk vositasi"
+
+#: main.cpp:55
+#, kde-format
+msgid ""
+"(c) 1997, Bernd Johannes Wuebben\n"
+"(c) 2001, Chris Howells\n"
+"(c) 2002, Adriaan de Groot\n"
+"(c) 2004, 2005, Nicolas Goutte\n"
+"(c) 2015, 2016, Wolfgang Bauer"
+msgstr ""
+
+# lo'nda va tushinarli
+#: main.cpp:60
+#, kde-format
+msgid "KFloppy helps you format floppies with the filesystem of your choice."
+msgstr "KFloppy yordamida disketni formatlash mumkin."
+
+#: main.cpp:63
+#, kde-format
+msgid "Bernd Johannes Wuebben"
+msgstr ""
+
+#: main.cpp:63
+#, kde-format
+msgid "Author and former maintainer"
+msgstr "Muallif va oldingi taʼminlovchi"
+
+#: main.cpp:64
+#, kde-format
+msgid "Chris Howells"
+msgstr ""
+
+#: main.cpp:64
+#, kde-format
+msgid "User interface re-design"
+msgstr "Grafik interfeysni boshqadan tuzish"
+
+#: main.cpp:65
+#, kde-format
+msgid "Adriaan de Groot"
+msgstr ""
+
+#: main.cpp:65
+#, kde-format
+msgid "Add BSD support"
+msgstr "BSD operatsion tizimiga qoʻshish"
+
+#: main.cpp:66
+#, kde-format
+msgid "Nicolas Goutte"
+msgstr ""
+
+#: main.cpp:66
+#, kde-format
+msgid "Make KFloppy work again for KDE 3.4"
+msgstr "KDE 3.4 uchun KFloppy xatolarini tuzatish"
+
+#: main.cpp:67
+#, kde-format
+msgid "Wolfgang Bauer"
+msgstr ""
+
+#: main.cpp:67
+#, kde-format
+msgid "Port KFloppy to KF5"
+msgstr ""
+
+#: main.cpp:69
+#, kde-format
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "Abdurahmonov Nurali"
+
+#: main.cpp:69
+#, kde-format
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "mavnur@gmail.com"
+
+#: main.cpp:77
+#, kde-format
+msgid "Default device"
+msgstr "Andoza uskuna"
+
+#, fuzzy
+#~ msgid "Cannot start dd to zero disk."
+#~ msgstr "FAT formatlash dasturini ishga tushirib boʻlmadi."
+
+#, fuzzy
+#~ msgid "Cannot start newfs."
+#~ msgstr "dd dasturini ishga tushirib boʻlmadi."

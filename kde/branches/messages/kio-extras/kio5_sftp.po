@@ -1,0 +1,282 @@
+# translation of kio_sftp.po to Uzbek
+# Copyright (C) 2003, 2004, 2005 Free Software Foundation, Inc.
+# Mashrab Kuvatov <kmashrab@uni-bremen.de>, 2003, 2004, 2005.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: kio_sftp\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2022-04-08 02:12+0000\n"
+"PO-Revision-Date: 2005-10-11 22:24+0200\n"
+"Last-Translator: Mashrab Kuvatov <kmashrab@uni-bremen.de>\n"
+"Language-Team: Uzbek <floss-uz-l10n@googlegroups.com>\n"
+"Language: uz\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: KBabel 1.10.2\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: kio_sftp.cpp:208
+#, fuzzy, kde-format
+#| msgid "Incorrect username or password"
+msgid "Incorrect or invalid passphrase"
+msgstr "Foydalanuvchining ismi yoki maxfiy soʻzi notoʻgʻri"
+
+#: kio_sftp.cpp:258
+#, fuzzy, kde-format
+#| msgid "Could not allocate memory for SFTP packet."
+msgid "Could not allocate callbacks"
+msgstr "SFTP paketi uchun xotiradan joy ajratib boʻlmadi."
+
+#: kio_sftp.cpp:271
+#, kde-format
+msgid "Could not set log verbosity."
+msgstr ""
+
+#: kio_sftp.cpp:276
+#, fuzzy, kde-format
+#| msgid "Could not read SFTP packet"
+msgid "Could not set log userdata."
+msgstr "SFTP paketini oʻqib boʻlmadi."
+
+#: kio_sftp.cpp:281
+#, fuzzy, kde-format
+#| msgid "Could not allocate memory for SFTP packet."
+msgid "Could not set log callback."
+msgstr "SFTP paketi uchun xotiradan joy ajratib boʻlmadi."
+
+#: kio_sftp.cpp:350 kio_sftp.cpp:352 kio_sftp.cpp:880
+#, kde-format
+msgid "SFTP Login"
+msgstr "SFTP kirish"
+
+#: kio_sftp.cpp:367
+#, kde-format
+msgid "Use the username input field to answer this question."
+msgstr ""
+
+#: kio_sftp.cpp:380
+#, fuzzy, kde-format
+#| msgid "Please enter your username and password."
+msgid "Please enter your password."
+msgstr "Iltimos foydalanuvchi ismingiz bilan maxfiy soʻzingizni kiriting."
+
+#: kio_sftp.cpp:385 kio_sftp.cpp:883
+#, fuzzy, kde-format
+#| msgid "site:"
+msgid "Site:"
+msgstr "Sayt:"
+
+#: kio_sftp.cpp:432
+#, fuzzy, kde-format
+#| msgid "Could not read SFTP packet"
+msgctxt "error message. %1 is a path, %2 is a numeric error code"
+msgid "Could not read link: %1 [%2]"
+msgstr "SFTP paketini oʻqib boʻlmadi."
+
+#: kio_sftp.cpp:570
+#, kde-format
+msgid "Could not create a new SSH session."
+msgstr ""
+
+#: kio_sftp.cpp:581 kio_sftp.cpp:585
+#, fuzzy, kde-format
+#| msgid "Could not read SFTP packet"
+msgid "Could not set a timeout."
+msgstr "SFTP paketini oʻqib boʻlmadi."
+
+#: kio_sftp.cpp:592
+#, fuzzy, kde-format
+#| msgid "Could not read SFTP packet"
+msgid "Could not disable Nagle's Algorithm."
+msgstr "SFTP paketini oʻqib boʻlmadi."
+
+#: kio_sftp.cpp:598 kio_sftp.cpp:603
+#, kde-format
+msgid "Could not set compression."
+msgstr ""
+
+#: kio_sftp.cpp:609
+#, kde-format
+msgid "Could not set host."
+msgstr ""
+
+#: kio_sftp.cpp:615
+#, fuzzy, kde-format
+#| msgid "Could not read SFTP packet"
+msgid "Could not set port."
+msgstr "SFTP paketini oʻqib boʻlmadi."
+
+#: kio_sftp.cpp:623
+#, kde-format
+msgid "Could not set username."
+msgstr ""
+
+#: kio_sftp.cpp:630
+#, kde-format
+msgid "Could not parse the config file."
+msgstr ""
+
+#: kio_sftp.cpp:647
+#, fuzzy, kde-kuit-format
+#| msgid "Opening SFTP connection to host <b>%1:%2</b>"
+msgid "Opening SFTP connection to host %1:%2"
+msgstr "<b>%1:%2</b> bilan SFTP aloqa oʻrnatilmoqda"
+
+#: kio_sftp.cpp:687
+#, kde-format
+msgid "Could not get server public key type name"
+msgstr ""
+
+#: kio_sftp.cpp:700
+#, kde-format
+msgid "Could not create hash from server public key"
+msgstr ""
+
+#: kio_sftp.cpp:709
+#, kde-format
+msgid "Could not create fingerprint for server public key"
+msgstr ""
+
+#: kio_sftp.cpp:769
+#, kde-format
+msgid ""
+"An %1 host key for this server was not found, but another type of key "
+"exists.\n"
+"An attacker might change the default server key to confuse your client into "
+"thinking the key does not exist.\n"
+"Please contact your system administrator.\n"
+"%2"
+msgstr ""
+
+#: kio_sftp.cpp:780
+#, kde-format
+msgid ""
+"The host key for the server %1 has changed.\n"
+"This could either mean that DNS SPOOFING is happening or the IP address for "
+"the host and its host key have changed at the same time.\n"
+"The fingerprint for the %2 key sent by the remote host is:\n"
+"  SHA256:%3\n"
+"Please contact your system administrator.\n"
+"%4"
+msgstr ""
+
+#: kio_sftp.cpp:794
+#, kde-format
+msgid "Warning: Cannot verify host's identity."
+msgstr ""
+
+#: kio_sftp.cpp:796
+#, kde-format
+msgid ""
+"The authenticity of host %1 cannot be established.\n"
+"The %2 key fingerprint is: %3\n"
+"Are you sure you want to continue connecting?"
+msgstr ""
+
+#: kio_sftp.cpp:826 kio_sftp.cpp:844 kio_sftp.cpp:859 kio_sftp.cpp:872
+#: kio_sftp.cpp:924 kio_sftp.cpp:934
+#, kde-format
+msgid "Authentication failed."
+msgstr "Tasdiqlash muvaffaqiyatsiz tugadi."
+
+#: kio_sftp.cpp:832
+#, kde-format
+msgid ""
+"Authentication failed. The server didn't send any authentication methods"
+msgstr ""
+
+#: kio_sftp.cpp:881
+#, kde-format
+msgid "Please enter your username and password."
+msgstr "Iltimos foydalanuvchi ismingiz bilan maxfiy soʻzingizni kiriting."
+
+#: kio_sftp.cpp:892
+#, kde-format
+msgid "Incorrect username or password"
+msgstr "Foydalanuvchining ismi yoki maxfiy soʻzi notoʻgʻri"
+
+#: kio_sftp.cpp:941
+#, kde-format
+msgid ""
+"Unable to request the SFTP subsystem. Make sure SFTP is enabled on the "
+"server."
+msgstr ""
+
+#: kio_sftp.cpp:946
+#, kde-format
+msgid "Could not initialize the SFTP session."
+msgstr ""
+
+#: kio_sftp.cpp:950
+#, kde-format
+msgid "Successfully connected to %1"
+msgstr "%1 bilan aloqa muvaffaqiyatli oʻrnatildi"
+
+#: kio_sftp.cpp:1003
+#, kde-format
+msgid "Invalid sftp context"
+msgstr ""
+
+#: kio_sftp.cpp:1570
+#, kde-format
+msgid ""
+"Could not change permissions for\n"
+"%1"
+msgstr ""
+
+#, fuzzy
+#~| msgid "No hostname specified"
+#~ msgid "No hostname specified."
+#~ msgstr "Hech qanday kompyuterning nomi koʻrsatilmagan"
+
+#~ msgid "Connection failed."
+#~ msgstr "Aloqa oʻrnatish muvaffaqiyatsiz tugadi."
+
+#~ msgid "Connection closed by remote host."
+#~ msgstr "Aloqa masofadagi kompyuter tomonidan uzildi."
+
+#, fuzzy
+#~| msgid "Unexpected SFTP error: %1"
+#~ msgid "unexpected SFTP error: %1"
+#~ msgstr "Kutilmagan SFTP xatosi: %1"
+
+#~ msgid "SFTP version %1"
+#~ msgstr "SFTP versiyasi %1"
+
+#~ msgid "Protocol error."
+#~ msgstr "Protokolning xatosi."
+
+#~ msgid "The remote host does not support renaming files."
+#~ msgstr "Masofadagi kompyuter fayllarning nomini oʻzgartirishni qoʻllamaydi."
+
+#~ msgid "The remote host does not support creating symbolic links."
+#~ msgstr "Masofadagi kompyuter ramziy bogʻlarni yaratishni qoʻllamaydi."
+
+#~ msgid "Connection closed"
+#~ msgstr "Aloqa uzildi"
+
+#~ msgid "SFTP command failed for an unknown reason."
+#~ msgstr "SFTP buyrugʻi nomaʼlum sabablarga koʻra muvaffaqiyatsiz tugadi."
+
+#~ msgid "The SFTP server received a bad message."
+#~ msgstr "SFTP serveri yomon xabarni qabul qildi."
+
+#~ msgid "You attempted an operation unsupported by the SFTP server."
+#~ msgstr "Siz uringan amalni SFTP serveri qoʻllamaydi."
+
+#~ msgid "Error code: %1"
+#~ msgstr "Xatoning kodi: %1"
+
+#~ msgid "Error encountered while talking to ssh."
+#~ msgstr "SSH bilan aloqa davomida xato roʻy berdi."
+
+#~ msgid "Please supply a password."
+#~ msgstr "Iltimos maxfiy soʻzni kiriting."
+
+#~ msgid "Host key was rejected."
+#~ msgstr "Xostning kaliti rad etildi."
+
+#~ msgid "Please enter a username and password"
+#~ msgstr "Iltimos foydalanuvchi ismingiz bilan maxfiy soʻzingizni kiriting"
