@@ -1,2 +1,14 @@
-# i10n
-Internationalization repository where translation to Uzbek happens 
+# DE lar tarjimalari
+
+## Asosiy prioritetlar
+
+### Gnome
+
+1. 43
+2. extras (stable)
+3. ...
+
+### KDE
+
+1. Trunk
+2. Branches
