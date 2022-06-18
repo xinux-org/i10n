@@ -1,0 +1,660 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/gnome-power-manager/"
+"issues\n"
+"POT-Creation-Date: 2022-06-01 11:06+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+
+#: data/appdata/org.gnome.PowerStats.appdata.xml.in:7
+msgid "GNOME Power Statistics"
+msgstr ""
+
+#: data/appdata/org.gnome.PowerStats.appdata.xml.in:8
+#: data/org.gnome.PowerStats.desktop.in.in:4
+msgid "Observe power management"
+msgstr ""
+
+#: data/appdata/org.gnome.PowerStats.appdata.xml.in:10
+msgid ""
+"Power Statistics can show historical and current battery information and "
+"programs waking up that use power."
+msgstr ""
+
+#: data/appdata/org.gnome.PowerStats.appdata.xml.in:14
+msgid ""
+"You probably only need to install this application if you are having "
+"problems with your laptop battery, or are trying to work out what programs "
+"are using significant amounts of power."
+msgstr ""
+
+#: data/org.gnome.power-manager.gschema.xml:5
+msgid "Whether we should show the history data points"
+msgstr ""
+
+#: data/org.gnome.power-manager.gschema.xml:6
+msgid ""
+"Whether we should show the history data points in the statistics window."
+msgstr ""
+
+#: data/org.gnome.power-manager.gschema.xml:10
+msgid "Whether we should smooth the history data"
+msgstr ""
+
+#: data/org.gnome.power-manager.gschema.xml:11
+msgid "Whether we should smooth the history data in the graph."
+msgstr ""
+
+#: data/org.gnome.power-manager.gschema.xml:15
+msgid "The default graph type to show for history"
+msgstr ""
+
+#: data/org.gnome.power-manager.gschema.xml:16
+msgid "The default graph type to show in the history window."
+msgstr ""
+
+#: data/org.gnome.power-manager.gschema.xml:20
+msgid "The maximum time displayed for history"
+msgstr ""
+
+#: data/org.gnome.power-manager.gschema.xml:21
+msgid ""
+"The maximum duration of time displayed on the x-axis of the history graph."
+msgstr ""
+
+#: data/org.gnome.power-manager.gschema.xml:25
+msgid "Whether we should show the stats data points"
+msgstr ""
+
+#: data/org.gnome.power-manager.gschema.xml:26
+msgid "Whether we should show the stats data points in the statistics window."
+msgstr ""
+
+#: data/org.gnome.power-manager.gschema.xml:30
+msgid "Whether we should smooth the stats data"
+msgstr ""
+
+#: data/org.gnome.power-manager.gschema.xml:31
+msgid "Whether we should smooth the stats data in the graph."
+msgstr ""
+
+#: data/org.gnome.power-manager.gschema.xml:35
+msgid "The default graph type to show for stats"
+msgstr ""
+
+#: data/org.gnome.power-manager.gschema.xml:36
+msgid "The default graph type to show in the stats window."
+msgstr ""
+
+#: data/org.gnome.power-manager.gschema.xml:40
+msgid "The index of the page number to show by default"
+msgstr ""
+
+#: data/org.gnome.power-manager.gschema.xml:41
+msgid ""
+"The index of the page number to show by default which is used to return "
+"focus to the correct page."
+msgstr ""
+
+#: data/org.gnome.power-manager.gschema.xml:45
+msgid "The ID of the last device selected"
+msgstr ""
+
+#: data/org.gnome.power-manager.gschema.xml:46
+msgid ""
+"The identifier of the last device which is used to return focus to the "
+"correct device."
+msgstr ""
+
+#. TRANSLATORS: shown on the titlebar
+#. TRANSLATORS: the program name
+#: data/org.gnome.PowerStats.desktop.in.in:3 src/gpm-statistics.c:982
+#: src/gpm-statistics.c:1350 src/gpm-statistics.ui:8
+msgid "Power Statistics"
+msgstr ""
+
+#. Translators: Search terms to find this application. Do NOT translate or localize the semicolons! The list MUST also end with a semicolon!
+#: data/org.gnome.PowerStats.desktop.in.in:6
+msgid "battery;consumption;charge;"
+msgstr ""
+
+#. Translators: This is %i days
+#: src/egg-graph-widget.c:408
+#, c-format
+msgid "%id"
+msgstr ""
+
+#. Translators: This is %i days %02i hours
+#: src/egg-graph-widget.c:411
+#, c-format
+msgid "%id%02ih"
+msgstr ""
+
+#. Translators: This is %i hours
+#: src/egg-graph-widget.c:416
+#, c-format
+msgid "%ih"
+msgstr ""
+
+#. Translators: This is %i hours %02i minutes
+#: src/egg-graph-widget.c:419
+#, c-format
+msgid "%ih%02im"
+msgstr ""
+
+#. Translators: This is %2i minutes
+#: src/egg-graph-widget.c:424
+#, c-format
+msgid "%2im"
+msgstr ""
+
+#. Translators: This is %2i minutes %02i seconds
+#: src/egg-graph-widget.c:427
+#, c-format
+msgid "%2im%02i"
+msgstr ""
+
+#. TRANSLATORS: This is ms
+#: src/egg-graph-widget.c:431
+#, c-format
+msgid "%.0fms"
+msgstr ""
+
+#. Translators: This is %2i seconds
+#: src/egg-graph-widget.c:434
+#, c-format
+msgid "%2is"
+msgstr ""
+
+#. TRANSLATORS: This is %i Percentage
+#: src/egg-graph-widget.c:438
+#, c-format
+msgid "%i%%"
+msgstr ""
+
+#. TRANSLATORS: This is %.1f Watts
+#: src/egg-graph-widget.c:441
+#, c-format
+msgid "%.1fW"
+msgstr ""
+
+#. TRANSLATORS: This is %.1f Volts
+#: src/egg-graph-widget.c:446
+#, c-format
+msgid "%.1fV"
+msgstr ""
+
+#. TRANSLATORS: This is %.1f nanometers
+#: src/egg-graph-widget.c:449
+#, c-format
+msgid "%.0f nm"
+msgstr ""
+
+#. TRANSLATORS: the rate of discharge for the device
+#: src/gpm-statistics.c:72 src/gpm-statistics.c:634
+msgid "Rate"
+msgstr ""
+
+#: src/gpm-statistics.c:73
+msgid "Charge"
+msgstr ""
+
+#: src/gpm-statistics.c:74 src/gpm-statistics.c:648
+msgid "Time to full"
+msgstr ""
+
+#: src/gpm-statistics.c:75 src/gpm-statistics.c:653
+msgid "Time to empty"
+msgstr ""
+
+#: src/gpm-statistics.c:82
+msgid "30 minutes"
+msgstr ""
+
+#: src/gpm-statistics.c:83
+msgid "3 hours"
+msgstr ""
+
+#: src/gpm-statistics.c:84
+msgid "8 hours"
+msgstr ""
+
+#: src/gpm-statistics.c:85
+msgid "1 day"
+msgstr ""
+
+#: src/gpm-statistics.c:86
+msgid "1 week"
+msgstr ""
+
+#. 5 min tick
+#. 30 min tick
+#. 1 hr tick
+#. 2 hr tick
+#. 1 day tick
+#. TRANSLATORS: what we've observed about the device
+#: src/gpm-statistics.c:101
+msgid "Charge profile"
+msgstr ""
+
+#: src/gpm-statistics.c:102
+msgid "Discharge profile"
+msgstr ""
+
+#. TRANSLATORS: how accurately we can predict the time remaining of the battery
+#: src/gpm-statistics.c:104
+msgid "Charge accuracy"
+msgstr ""
+
+#: src/gpm-statistics.c:105
+msgid "Discharge accuracy"
+msgstr ""
+
+#. TRANSLATORS: system power cord
+#: src/gpm-statistics.c:235
+msgid "AC adapter"
+msgid_plural "AC adapters"
+msgstr[0] ""
+msgstr[1] ""
+
+#. TRANSLATORS: laptop primary battery
+#: src/gpm-statistics.c:239
+msgid "Laptop battery"
+msgid_plural "Laptop batteries"
+msgstr[0] ""
+msgstr[1] ""
+
+#. TRANSLATORS: battery-backed AC power source
+#: src/gpm-statistics.c:243
+msgid "UPS"
+msgid_plural "UPSs"
+msgstr[0] ""
+msgstr[1] ""
+
+#. TRANSLATORS: a monitor is a device to measure voltage and current
+#: src/gpm-statistics.c:247
+msgid "Monitor"
+msgid_plural "Monitors"
+msgstr[0] ""
+msgstr[1] ""
+
+#. TRANSLATORS: wireless mice with internal batteries
+#: src/gpm-statistics.c:251
+msgid "Mouse"
+msgid_plural "Mice"
+msgstr[0] ""
+msgstr[1] ""
+
+#. TRANSLATORS: wireless keyboard with internal battery
+#: src/gpm-statistics.c:255
+msgid "Keyboard"
+msgid_plural "Keyboards"
+msgstr[0] ""
+msgstr[1] ""
+
+#. TRANSLATORS: portable device
+#: src/gpm-statistics.c:259
+msgid "PDA"
+msgid_plural "PDAs"
+msgstr[0] ""
+msgstr[1] ""
+
+#. TRANSLATORS: cell phone (mobile...)
+#: src/gpm-statistics.c:263
+msgid "Cell phone"
+msgid_plural "Cell phones"
+msgstr[0] ""
+msgstr[1] ""
+
+#. TRANSLATORS: media player, mp3 etc
+#: src/gpm-statistics.c:268
+msgid "Media player"
+msgid_plural "Media players"
+msgstr[0] ""
+msgstr[1] ""
+
+#. TRANSLATORS: tablet device
+#: src/gpm-statistics.c:272
+msgid "Tablet"
+msgid_plural "Tablets"
+msgstr[0] ""
+msgstr[1] ""
+
+#. TRANSLATORS: tablet device
+#: src/gpm-statistics.c:276
+msgid "Computer"
+msgid_plural "Computers"
+msgstr[0] ""
+msgstr[1] ""
+
+#. TRANSLATORS: battery technology
+#: src/gpm-statistics.c:293
+msgid "Lithium Ion"
+msgstr ""
+
+#. TRANSLATORS: battery technology
+#: src/gpm-statistics.c:297
+msgid "Lithium Polymer"
+msgstr ""
+
+#. TRANSLATORS: battery technology
+#: src/gpm-statistics.c:301
+msgid "Lithium Iron Phosphate"
+msgstr ""
+
+#. TRANSLATORS: battery technology
+#: src/gpm-statistics.c:305
+msgid "Lead acid"
+msgstr ""
+
+#. TRANSLATORS: battery technology
+#: src/gpm-statistics.c:309
+msgid "Nickel Cadmium"
+msgstr ""
+
+#. TRANSLATORS: battery technology
+#: src/gpm-statistics.c:313
+msgid "Nickel metal hydride"
+msgstr ""
+
+#. TRANSLATORS: battery technology
+#: src/gpm-statistics.c:317
+msgid "Unknown technology"
+msgstr ""
+
+#. TRANSLATORS: battery state
+#: src/gpm-statistics.c:334
+msgid "Charging"
+msgstr ""
+
+#. TRANSLATORS: battery state
+#: src/gpm-statistics.c:338
+msgid "Discharging"
+msgstr ""
+
+#. TRANSLATORS: battery state
+#: src/gpm-statistics.c:342
+msgid "Empty"
+msgstr ""
+
+#. TRANSLATORS: battery state
+#: src/gpm-statistics.c:346
+msgid "Charged"
+msgstr ""
+
+#. TRANSLATORS: battery state
+#: src/gpm-statistics.c:350
+msgid "Waiting to charge"
+msgstr ""
+
+#. TRANSLATORS: battery state
+#: src/gpm-statistics.c:354
+msgid "Waiting to discharge"
+msgstr ""
+
+#. TRANSLATORS: battery state
+#. TRANSLATORS: this is when the stats time is not known
+#: src/gpm-statistics.c:358 src/gpm-statistics.c:472
+msgid "Unknown"
+msgstr ""
+
+#: src/gpm-statistics.c:375
+msgid "Attribute"
+msgstr ""
+
+#: src/gpm-statistics.c:382
+msgid "Value"
+msgstr ""
+
+#: src/gpm-statistics.c:396
+msgid "Image"
+msgstr ""
+
+#: src/gpm-statistics.c:402
+msgid "Description"
+msgstr ""
+
+#. TRANSLATORS: this is a time value, usually to show on a graph
+#: src/gpm-statistics.c:476
+#, c-format
+msgid "%.0f second"
+msgid_plural "%.0f seconds"
+msgstr[0] ""
+msgstr[1] ""
+
+#. TRANSLATORS: this is a time value, usually to show on a graph
+#: src/gpm-statistics.c:481
+#, c-format
+msgid "%.1f minute"
+msgid_plural "%.1f minutes"
+msgstr[0] ""
+msgstr[1] ""
+
+#. TRANSLATORS: this is a time value, usually to show on a graph
+#: src/gpm-statistics.c:486
+#, c-format
+msgid "%.1f hour"
+msgid_plural "%.1f hours"
+msgstr[0] ""
+msgstr[1] ""
+
+#. TRANSLATORS: this is a time value, usually to show on a graph
+#: src/gpm-statistics.c:490
+#, c-format
+msgid "%.1f day"
+msgid_plural "%.1f days"
+msgstr[0] ""
+msgstr[1] ""
+
+#: src/gpm-statistics.c:496
+msgid "Yes"
+msgstr ""
+
+#: src/gpm-statistics.c:496
+msgid "No"
+msgstr ""
+
+#. TRANSLATORS: the device ID of the current device, e.g. "battery0"
+#: src/gpm-statistics.c:571
+msgid "Device"
+msgstr ""
+
+#: src/gpm-statistics.c:573
+msgid "Type"
+msgstr ""
+
+#: src/gpm-statistics.c:575
+msgid "Vendor"
+msgstr ""
+
+#: src/gpm-statistics.c:577
+msgid "Model"
+msgstr ""
+
+#: src/gpm-statistics.c:579
+msgid "Serial number"
+msgstr ""
+
+#. TRANSLATORS: a boolean attribute that means if the device is supplying the
+#. * main power for the computer. For instance, an AC adapter or laptop battery
+#. * would be TRUE,  but a mobile phone or mouse taking power is FALSE
+#: src/gpm-statistics.c:584
+msgid "Supply"
+msgstr ""
+
+#: src/gpm-statistics.c:587
+#, c-format
+msgid "%u second"
+msgid_plural "%u seconds"
+msgstr[0] ""
+msgstr[1] ""
+
+#. TRANSLATORS: when the device was last updated with new data. It's
+#. * usually a few seconds when a device is discharging or charging.
+#: src/gpm-statistics.c:591
+msgid "Refreshed"
+msgstr ""
+
+#. TRANSLATORS: Present is whether the device is currently attached
+#. * to the computer, as some devices (e.g. laptop batteries) can
+#. * be removed, but still observed as devices on the system
+#: src/gpm-statistics.c:601
+msgid "Present"
+msgstr ""
+
+#. TRANSLATORS: If the device can be recharged, e.g. lithium
+#. * batteries rather than alkaline ones
+#: src/gpm-statistics.c:608
+msgid "Rechargeable"
+msgstr ""
+
+#. TRANSLATORS: The state of the device, e.g. "Changing" or "Fully charged"
+#: src/gpm-statistics.c:614
+msgid "State"
+msgstr ""
+
+#: src/gpm-statistics.c:618
+msgid "Energy"
+msgstr ""
+
+#: src/gpm-statistics.c:621
+msgid "Energy when empty"
+msgstr ""
+
+#: src/gpm-statistics.c:624
+msgid "Energy when full"
+msgstr ""
+
+#: src/gpm-statistics.c:627
+msgid "Energy (design)"
+msgstr ""
+
+#: src/gpm-statistics.c:641
+msgid "Voltage"
+msgstr ""
+
+#. TRANSLATORS: the amount of charge the cell contains
+#: src/gpm-statistics.c:663
+msgid "Percentage"
+msgstr ""
+
+#. TRANSLATORS: the capacity of the device, which is basically a measure
+#. * of how full it can get, relative to the design capacity
+#: src/gpm-statistics.c:670
+msgid "Capacity"
+msgstr ""
+
+#. TRANSLATORS: the type of battery, e.g. lithium or nikel metal hydroxide
+#: src/gpm-statistics.c:675
+msgid "Technology"
+msgstr ""
+
+#. TRANSLATORS: this is when the device is plugged in, typically
+#. * only shown for the ac adaptor device
+#: src/gpm-statistics.c:680
+msgid "Online"
+msgstr ""
+
+#. TRANSLATORS: shown on the titlebar
+#: src/gpm-statistics.c:974
+msgid "Device Information"
+msgstr ""
+
+#. TRANSLATORS: shown on the titlebar
+#: src/gpm-statistics.c:976
+msgid "Device History"
+msgstr ""
+
+#. TRANSLATORS: shown on the titlebar
+#: src/gpm-statistics.c:978
+msgid "Device Profile"
+msgstr ""
+
+#. TRANSLATORS: this is the X axis on the graph
+#: src/gpm-statistics.c:1142 src/gpm-statistics.c:1148
+#: src/gpm-statistics.c:1154 src/gpm-statistics.c:1160
+msgid "Time elapsed"
+msgstr ""
+
+#. TRANSLATORS: this is the Y axis on the graph
+#: src/gpm-statistics.c:1144
+msgid "Power"
+msgstr ""
+
+#. TRANSLATORS: this is the Y axis on the graph for the whole battery device
+#. TRANSLATORS: this is the X axis on the graph for the whole battery device
+#: src/gpm-statistics.c:1150 src/gpm-statistics.c:1189
+#: src/gpm-statistics.c:1195 src/gpm-statistics.c:1201
+#: src/gpm-statistics.c:1207
+msgid "Cell charge"
+msgstr ""
+
+#. TRANSLATORS: this is the Y axis on the graph
+#: src/gpm-statistics.c:1156 src/gpm-statistics.c:1162
+msgid "Predicted time"
+msgstr ""
+
+#. TRANSLATORS: this is the Y axis on the graph
+#: src/gpm-statistics.c:1191 src/gpm-statistics.c:1203
+msgid "Correction factor"
+msgstr ""
+
+#. TRANSLATORS: this is the Y axis on the graph
+#: src/gpm-statistics.c:1197 src/gpm-statistics.c:1209
+msgid "Prediction accuracy"
+msgstr ""
+
+#. TRANSLATORS: show verbose debugging
+#: src/gpm-statistics.c:1338
+msgid "Show extra debugging information"
+msgstr ""
+
+#. TRANSLATORS: show a device by default
+#: src/gpm-statistics.c:1341
+msgid "Select this device at startup"
+msgstr ""
+
+#: src/gpm-statistics.ui:66
+msgid "Details"
+msgstr ""
+
+#: src/gpm-statistics.ui:92 src/gpm-statistics.ui:296
+msgid "Graph type:"
+msgstr ""
+
+#: src/gpm-statistics.ui:127
+msgid "Data length:"
+msgstr ""
+
+#: src/gpm-statistics.ui:186 src/gpm-statistics.ui:348
+msgid "There is no data to display."
+msgstr ""
+
+#: src/gpm-statistics.ui:228 src/gpm-statistics.ui:391
+msgid "Use smoothed line"
+msgstr ""
+
+#: src/gpm-statistics.ui:244 src/gpm-statistics.ui:407
+msgid "Show data points"
+msgstr ""
+
+#: src/gpm-statistics.ui:274
+msgid "History"
+msgstr ""
+
+#: src/gpm-statistics.ui:437
+msgid "Statistics"
+msgstr ""

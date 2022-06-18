@@ -1,0 +1,423 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/NetworkManager-pptp/"
+"issues\n"
+"POT-Creation-Date: 2022-05-13 08:03+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../appdata/network-manager-pptp.metainfo.xml.in.h:1
+msgid "PPTP VPN client"
+msgstr ""
+
+#: ../appdata/network-manager-pptp.metainfo.xml.in.h:2
+msgid "Client for PPTP virtual private networks"
+msgstr ""
+
+#: ../appdata/network-manager-pptp.metainfo.xml.in.h:3
+msgid "Support for configuring PPTP virtual private network connections."
+msgstr ""
+
+#: ../appdata/network-manager-pptp.metainfo.xml.in.h:4
+msgid "Compatible with various PPTP servers including Microsoft."
+msgstr ""
+
+#: ../appdata/network-manager-pptp.metainfo.xml.in.h:5
+msgid "The NetworkManager Developers"
+msgstr ""
+
+#. Otherwise, we have no saved password, or the password flags indicated
+#. * that the password should never be saved.
+#.
+#: ../auth-dialog/main.c:146
+#, c-format
+msgid "You need to authenticate to access the Virtual Private Network “%s”."
+msgstr ""
+
+#: ../auth-dialog/main.c:155 ../auth-dialog/main.c:176
+msgid "Authenticate VPN"
+msgstr ""
+
+#: ../auth-dialog/main.c:157 ../properties/nm-pptp-dialog.ui.h:43
+msgid "Password"
+msgstr ""
+
+#: ../properties/advanced-dialog.c:170
+msgid "All Available (Default)"
+msgstr ""
+
+#: ../properties/advanced-dialog.c:174
+msgid "128-bit (most secure)"
+msgstr ""
+
+#: ../properties/advanced-dialog.c:183
+msgid "40-bit (less secure)"
+msgstr ""
+
+#: ../properties/advanced-dialog.c:287
+msgid "PAP"
+msgstr ""
+
+#: ../properties/advanced-dialog.c:300
+msgid "CHAP"
+msgstr ""
+
+#: ../properties/advanced-dialog.c:312
+msgid "MSCHAP"
+msgstr ""
+
+#: ../properties/advanced-dialog.c:324
+msgid "MSCHAPv2"
+msgstr ""
+
+#: ../properties/advanced-dialog.c:337
+msgid "EAP"
+msgstr ""
+
+#: ../properties/nm-pptp-editor-plugin.c:34
+msgid "Point-to-Point Tunneling Protocol (PPTP)"
+msgstr ""
+
+#: ../properties/nm-pptp-editor-plugin.c:35
+msgid "Compatible with Microsoft and other PPTP VPN servers."
+msgstr ""
+
+#: ../shared/nm-utils/nm-shared-utils.c:264
+#, c-format
+msgid "object class '%s' has no property named '%s'"
+msgstr ""
+
+#: ../shared/nm-utils/nm-shared-utils.c:271
+#, c-format
+msgid "property '%s' of object class '%s' is not writable"
+msgstr ""
+
+#: ../shared/nm-utils/nm-shared-utils.c:278
+#, c-format
+msgid ""
+"construct property \"%s\" for object '%s' can't be set after construction"
+msgstr ""
+
+#: ../shared/nm-utils/nm-shared-utils.c:286
+#, c-format
+msgid "'%s::%s' is not a valid property name; '%s' is not a GObject subtype"
+msgstr ""
+
+#: ../shared/nm-utils/nm-shared-utils.c:295
+#, c-format
+msgid "unable to set property '%s' of type '%s' from value of type '%s'"
+msgstr ""
+
+#: ../shared/nm-utils/nm-shared-utils.c:306
+#, c-format
+msgid ""
+"value \"%s\" of type '%s' is invalid or out of range for property '%s' of "
+"type '%s'"
+msgstr ""
+
+#: ../shared/nm-utils/nm-vpn-plugin-utils.c:69
+#, c-format
+msgid "unable to get editor plugin name: %s"
+msgstr ""
+
+#: ../shared/nm-utils/nm-vpn-plugin-utils.c:103
+#, c-format
+msgid "missing plugin file \"%s\""
+msgstr ""
+
+#: ../shared/nm-utils/nm-vpn-plugin-utils.c:109
+#, c-format
+msgid "cannot load editor plugin: %s"
+msgstr ""
+
+#: ../shared/nm-utils/nm-vpn-plugin-utils.c:118
+#, c-format
+msgid "cannot load factory %s from plugin: %s"
+msgstr ""
+
+#: ../shared/nm-utils/nm-vpn-plugin-utils.c:144
+msgid "unknown error creating editor instance"
+msgstr ""
+
+#: ../src/nm-pptp-service.c:193
+#, c-format
+msgid "invalid gateway “%s”"
+msgstr ""
+
+#: ../src/nm-pptp-service.c:207
+#, c-format
+msgid "invalid integer property “%s”"
+msgstr ""
+
+#: ../src/nm-pptp-service.c:217
+#, c-format
+msgid "invalid boolean property “%s” (not yes or no)"
+msgstr ""
+
+#: ../src/nm-pptp-service.c:224
+#, c-format
+msgid "unhandled property “%s” type %s"
+msgstr ""
+
+#: ../src/nm-pptp-service.c:235
+#, c-format
+msgid "property “%s” invalid or not supported"
+msgstr ""
+
+#: ../src/nm-pptp-service.c:253
+msgid "No VPN configuration options."
+msgstr ""
+
+#: ../src/nm-pptp-service.c:273
+#, c-format
+msgid "Missing required option “%s”."
+msgstr ""
+
+#: ../src/nm-pptp-service.c:293
+msgid "No VPN secrets!"
+msgstr ""
+
+#: ../src/nm-pptp-service.c:447
+msgid "Could not find pptp client binary."
+msgstr ""
+
+#: ../src/nm-pptp-service.c:460
+msgid "Missing VPN gateway."
+msgstr ""
+
+#: ../src/nm-pptp-service.c:635
+msgid "Could not find the pppd binary."
+msgstr ""
+
+#: ../src/nm-pptp-service.c:695
+msgid "Missing VPN username."
+msgstr ""
+
+#: ../src/nm-pptp-service.c:704
+msgid "Missing or invalid VPN password."
+msgstr ""
+
+#: ../src/nm-pptp-service.c:810
+#, c-format
+msgid "couldn’t convert PPTP VPN gateway IP address “%s” (%d)"
+msgstr ""
+
+#: ../src/nm-pptp-service.c:828
+#, c-format
+msgid "couldn’t look up PPTP VPN gateway IP address “%s” (%d)"
+msgstr ""
+
+#: ../src/nm-pptp-service.c:852
+#, c-format
+msgid "no usable addresses returned for PPTP VPN gateway “%s”"
+msgstr ""
+
+#: ../src/nm-pptp-service.c:881
+msgid "Invalid or missing PPTP gateway."
+msgstr ""
+
+#: ../src/nm-pptp-service.c:1129
+msgid "Don’t quit when VPN connection terminates"
+msgstr ""
+
+#: ../src/nm-pptp-service.c:1130
+msgid "Enable verbose debug logging (may expose passwords)"
+msgstr ""
+
+#: ../src/nm-pptp-service.c:1131
+msgid "D-Bus name to use for this instance"
+msgstr ""
+
+#: ../src/nm-pptp-service.c:1152
+msgid ""
+"nm-pptp-service provides integrated PPTP VPN capability (compatible with "
+"Microsoft and other implementations) to NetworkManager."
+msgstr ""
+
+#: ../properties/nm-pptp-dialog.ui.h:1
+msgid "Default"
+msgstr ""
+
+#: ../properties/nm-pptp-dialog.ui.h:2
+msgid "PPTP Advanced Options"
+msgstr ""
+
+#: ../properties/nm-pptp-dialog.ui.h:3
+msgid "Advanced Properties"
+msgstr ""
+
+#: ../properties/nm-pptp-dialog.ui.h:4
+msgid "_Cancel"
+msgstr ""
+
+#: ../properties/nm-pptp-dialog.ui.h:5
+msgid "_Apply"
+msgstr ""
+
+#: ../properties/nm-pptp-dialog.ui.h:6
+msgid "Authentication"
+msgstr ""
+
+#: ../properties/nm-pptp-dialog.ui.h:7
+msgid "Allow the following authentication methods:"
+msgstr ""
+
+#: ../properties/nm-pptp-dialog.ui.h:8
+msgid ""
+"Allow/disable authentication methods.\n"
+"config: refuse-pap, refuse-chap, refuse-mschap, refuse-mschap-v2, refuse-eap"
+msgstr ""
+
+#: ../properties/nm-pptp-dialog.ui.h:10
+msgid "Security and Compression"
+msgstr ""
+
+#: ../properties/nm-pptp-dialog.ui.h:11
+msgid "Use _Point-to-Point encryption (MPPE)"
+msgstr ""
+
+#: ../properties/nm-pptp-dialog.ui.h:12
+msgid ""
+"Note: MPPE encryption is only available with MSCHAP authentication methods. "
+"To enable this checkbox, select one or more of the MSCHAP authentication "
+"methods: MSCHAP or MSCHAPv2."
+msgstr ""
+
+#: ../properties/nm-pptp-dialog.ui.h:13
+msgid "_Security:"
+msgstr ""
+
+#: ../properties/nm-pptp-dialog.ui.h:14
+msgid ""
+"Require the use of MPPE, with 40/128-bit encryption or all.\n"
+"    config: require-mppe, require-mppe-128 or require-mppe-40"
+msgstr ""
+
+#: ../properties/nm-pptp-dialog.ui.h:16
+msgid "Allow st_ateful encryption"
+msgstr ""
+
+#: ../properties/nm-pptp-dialog.ui.h:17
+msgid ""
+"Allow MPPE to use stateful mode. Stateless mode is still attempted first.\n"
+"config: mppe-stateful (when checked)"
+msgstr ""
+
+#: ../properties/nm-pptp-dialog.ui.h:19
+msgid "Allow _BSD data compression"
+msgstr ""
+
+#: ../properties/nm-pptp-dialog.ui.h:20
+msgid ""
+"Allow/disable BSD-Compress compression.\n"
+"config: nobsdcomp (when unchecked)"
+msgstr ""
+
+#: ../properties/nm-pptp-dialog.ui.h:22
+msgid "Allow _Deflate data compression"
+msgstr ""
+
+#: ../properties/nm-pptp-dialog.ui.h:23
+msgid ""
+"Allow/disable Deflate compression.\n"
+"config: nodeflate (when unchecked)"
+msgstr ""
+
+#: ../properties/nm-pptp-dialog.ui.h:25
+msgid "Use TCP _header compression"
+msgstr ""
+
+#: ../properties/nm-pptp-dialog.ui.h:26
+msgid ""
+"Allow/disable Van Jacobson style TCP/IP header compression in both the "
+"transmit and the receive directions.\n"
+"config: novj (when unchecked)"
+msgstr ""
+
+#: ../properties/nm-pptp-dialog.ui.h:28
+msgid "Misc"
+msgstr ""
+
+#: ../properties/nm-pptp-dialog.ui.h:29
+msgid "Send PPP _echo packets"
+msgstr ""
+
+#: ../properties/nm-pptp-dialog.ui.h:30
+msgid ""
+"Send LCP echo-requests to find out whether peer is alive.\n"
+"config: lcp-echo-failure and lcp-echo-interval"
+msgstr ""
+
+#: ../properties/nm-pptp-dialog.ui.h:32
+msgid "Use custom _unit number:"
+msgstr ""
+
+#: ../properties/nm-pptp-dialog.ui.h:33
+msgid ""
+"Enable custom index for ppp<n> device name.\n"
+"    config: unit <n>"
+msgstr ""
+
+#: ../properties/nm-pptp-dialog.ui.h:35
+msgid "General"
+msgstr ""
+
+#: ../properties/nm-pptp-dialog.ui.h:36
+msgid "_Gateway"
+msgstr ""
+
+#: ../properties/nm-pptp-dialog.ui.h:37
+msgid ""
+"PPTP server IP or name.\n"
+"config: the first parameter of pptp"
+msgstr ""
+
+#: ../properties/nm-pptp-dialog.ui.h:39
+msgid "Optional"
+msgstr ""
+
+#: ../properties/nm-pptp-dialog.ui.h:40
+msgid "User name"
+msgstr ""
+
+#: ../properties/nm-pptp-dialog.ui.h:41
+msgid ""
+"Set the name used for authenticating the local system to the peer to "
+"<name>.\n"
+"config: user <name>"
+msgstr ""
+
+#: ../properties/nm-pptp-dialog.ui.h:44
+msgid "Password passed to PPTP when prompted for it."
+msgstr ""
+
+#: ../properties/nm-pptp-dialog.ui.h:45
+msgid "Show password"
+msgstr ""
+
+#: ../properties/nm-pptp-dialog.ui.h:46
+msgid "NT Domain"
+msgstr ""
+
+#: ../properties/nm-pptp-dialog.ui.h:47
+msgid ""
+"Append the domain name <domain> to the local host name for authentication "
+"purposes.\n"
+"config: domain <domain>"
+msgstr ""
+
+#: ../properties/nm-pptp-dialog.ui.h:49
+msgid "Advance_d…"
+msgstr ""

@@ -1,0 +1,301 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/telegnome/issues\n"
+"POT-Creation-Date: 2022-03-27 12:47+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: data/org.gnome.telegnome.gschema.xml:5
+msgid "Legacy migration complete"
+msgstr ""
+
+#: data/org.gnome.telegnome.gschema.xml:6
+msgid ""
+"Set internally to true to indicate that TeleGNOME has checked for legacy "
+"gnome-config settings and migrated any that existed."
+msgstr ""
+
+#: data/org.gnome.telegnome.gschema.xml:10
+msgid "Channel children"
+msgstr ""
+
+#: data/org.gnome.telegnome.gschema.xml:11
+msgid ""
+"List of channel IDs. Each channel folder uses the org.gnome.telegnome."
+"channel schema."
+msgstr ""
+
+#: data/org.gnome.telegnome.gschema.xml:15
+msgid "Current channel"
+msgstr ""
+
+#: data/org.gnome.telegnome.gschema.xml:16
+msgid "ID of current channel."
+msgstr ""
+
+#: data/org.gnome.telegnome.gschema.xml:20
+msgid "Zoom factor"
+msgstr ""
+
+#: data/org.gnome.telegnome.gschema.xml:21
+msgid "Page zoom factor. Larger numbers produce larger text."
+msgstr ""
+
+#: data/org.gnome.telegnome.gschema.xml:25
+msgid "Automatically switch page at periodic intervals"
+msgstr ""
+
+#: data/org.gnome.telegnome.gschema.xml:26
+msgid "The frequency of paging is controlled by the \"paging-interval\" key."
+msgstr ""
+
+#: data/org.gnome.telegnome.gschema.xml:30 src/prefs.ui:164
+msgid "Paging interval"
+msgstr ""
+
+#: data/org.gnome.telegnome.gschema.xml:31 src/prefs.ui:165
+msgid "Specifies the interval for the auto-pager, in milliseconds."
+msgstr ""
+
+#: data/org.gnome.telegnome.gschema.xml:35
+msgid "Current page number"
+msgstr ""
+
+#: data/org.gnome.telegnome.gschema.xml:39
+msgid "Current subpage number"
+msgstr ""
+
+#: data/org.gnome.telegnome.gschema.xml:45
+msgid "Channel name"
+msgstr ""
+
+#: data/org.gnome.telegnome.gschema.xml:49
+msgid "Channel description"
+msgstr ""
+
+#: data/org.gnome.telegnome.gschema.xml:53 src/prefs.ui:264
+msgid "Page URL"
+msgstr ""
+
+#: data/org.gnome.telegnome.gschema.xml:54
+msgid ""
+"URL pattern for pages. Must contain one C format string substitution "
+"accepting an int (e.g. %d), for the page number."
+msgstr ""
+
+#: data/org.gnome.telegnome.gschema.xml:58 src/prefs.ui:282
+msgid "Subpage URL"
+msgstr ""
+
+#: data/org.gnome.telegnome.gschema.xml:59
+msgid ""
+"URL pattern for subpages. Must contain two C format string substitution "
+"accepting ints (e.g. %d), for the page and subpage numbers respectively."
+msgstr ""
+
+#: data/org.gnome.telegnome.gschema.xml:63
+msgid "Country code"
+msgstr ""
+
+#: src/gui.vala:169
+#, c-format
+msgid "TeleGNOME: %s (%s)"
+msgstr ""
+
+#: src/gui.vala:377
+msgid "Web server error: Wrong page number?"
+msgstr ""
+
+#: src/gui.vala:390
+msgid "Error making HTTP connection"
+msgstr ""
+
+#: src/gui.vala:393
+msgid "Internal error in HTTP query code"
+msgstr ""
+
+#: src/gui.vala:512
+msgid "Error in page entry"
+msgstr ""
+
+#: src/menus.ui:24
+msgid "_File"
+msgstr ""
+
+#: src/menus.ui:26
+msgid "_Quit"
+msgstr ""
+
+#: src/menus.ui:32
+msgid "_Settings"
+msgstr ""
+
+#: src/menus.ui:34
+msgid "_Preferences"
+msgstr ""
+
+#: src/menus.ui:39
+msgid "_Channels"
+msgstr ""
+
+#: src/menus.ui:42
+msgid "_Help"
+msgstr ""
+
+#: src/menus.ui:44
+msgid "_Contents"
+msgstr ""
+
+#: src/menus.ui:49
+msgid "_About"
+msgstr ""
+
+#: src/prefs.ui:40
+msgid "TeleGNOME: Preferences"
+msgstr ""
+
+#: src/prefs.ui:61 src/prefs.ui:300
+msgid "Country"
+msgstr ""
+
+#: src/prefs.ui:72 src/prefs.ui:228
+msgid "Name"
+msgstr ""
+
+#: src/prefs.ui:100
+msgid "Move up"
+msgstr ""
+
+#: src/prefs.ui:109
+msgid "Move down"
+msgstr ""
+
+#: src/prefs.ui:118
+msgid "Add..."
+msgstr ""
+
+#: src/prefs.ui:127
+msgid "Delete"
+msgstr ""
+
+#: src/prefs.ui:136
+msgid "Edit"
+msgstr ""
+
+#: src/prefs.ui:154
+msgid "Channels"
+msgstr ""
+
+#: src/prefs.ui:186
+msgid "Miscellaneous"
+msgstr ""
+
+#: src/prefs.ui:195 src/prefs.ui:324
+msgid "_Cancel"
+msgstr ""
+
+#: src/prefs.ui:201 src/prefs.ui:330
+msgid "_OK"
+msgstr ""
+
+#: src/prefs.ui:212
+msgid "New/Edit Channel"
+msgstr ""
+
+#: src/prefs.ui:220
+msgid "Channel Information"
+msgstr ""
+
+#: src/prefs.ui:246
+msgid "Description"
+msgstr ""
+
+#: src/telegnome.ui:23
+msgid "TeleGNOME: Teletext for GNOME"
+msgstr ""
+
+#: src/telegnome.ui:35
+msgid "Page:"
+msgstr ""
+
+#: src/telegnome.ui:47
+msgid "Page number"
+msgstr ""
+
+#: src/telegnome.ui:61
+msgid "_Jump to"
+msgstr ""
+
+#: src/telegnome.ui:63
+msgid "Go To Page"
+msgstr ""
+
+#: src/telegnome.ui:68
+msgid "_Back"
+msgstr ""
+
+#: src/telegnome.ui:70
+msgid "Get Previous Page"
+msgstr ""
+
+#: src/telegnome.ui:75
+msgid "_Forward"
+msgstr ""
+
+#: src/telegnome.ui:77
+msgid "Get Next Page"
+msgstr ""
+
+#: src/telegnome.ui:82
+msgid "_Home"
+msgstr ""
+
+#: src/telegnome.ui:84
+msgid "Go to the home page"
+msgstr ""
+
+#: src/telegnome.ui:89
+msgid "_Play"
+msgstr ""
+
+#: src/telegnome.ui:91
+msgid "Toggles auto-paging"
+msgstr ""
+
+#: src/telegnome.ui:145 telegnome.appdata.xml.in:27 telegnome.desktop.in:3
+msgid "TeleGNOME"
+msgstr ""
+
+#: src/telegnome.ui:147
+msgid "Teletext for GNOME"
+msgstr ""
+
+#: src/telegnome.ui:148
+msgid "GNU General Public License, version 2 or later"
+msgstr ""
+
+#: src/telegnome.ui:153
+msgid "translator-credits"
+msgstr ""
+
+#: telegnome.appdata.xml.in:28 telegnome.desktop.in:4
+msgid "Viewer for Teletext pages"
+msgstr ""
+
+#: telegnome.appdata.xml.in:31
+msgid ""
+"TeleGNOME is a program to display teletext pages over the internet, based on "
+"image feeds from a variety of broadcasters."
+msgstr ""

@@ -1,0 +1,377 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: https://gitlab.gnome.org/World/gfeeds/issues\n"
+"POT-Creation-Date: 2022-06-18 07:38+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+
+#: data/org.gabmus.gfeeds.appdata.xml.in:4
+msgid "Feeds"
+msgstr ""
+
+#: data/org.gabmus.gfeeds.appdata.xml.in:6 data/org.gabmus.gfeeds.desktop.in:7
+msgid "News reader for GNOME"
+msgstr ""
+
+#: data/org.gabmus.gfeeds.appdata.xml.in:15
+msgid ""
+"Feeds is a minimal RSS/Atom feed reader built with speed and simplicity in "
+"mind."
+msgstr ""
+
+#: data/org.gabmus.gfeeds.appdata.xml.in:16
+msgid ""
+"It offers a simple user interface that only shows the latest news from your "
+"subscriptions."
+msgstr ""
+
+#: data/org.gabmus.gfeeds.appdata.xml.in:17
+msgid ""
+"Articles are shown in a web view by default, with javascript disabled for a "
+"faster and less intrusive user experience. There's also a reader mode "
+"included, built from the one GNOME Web/Epiphany uses."
+msgstr ""
+
+#: data/org.gabmus.gfeeds.appdata.xml.in:18
+msgid "Feeds can be imported and exported via OPML."
+msgstr ""
+
+#. Translators: Search terms to find this application. Do NOT translate or localize the semicolons! The list MUST also end with a semicolon!
+#: data/org.gabmus.gfeeds.desktop.in:16
+msgid "rss;reader;feed;news;"
+msgstr ""
+
+#: gfeeds/feed_item.py:49
+#, python-brace-format
+msgid "Error: unable to parse datetime {0} for feeditem {1}"
+msgstr ""
+
+#: gfeeds/feed_parser.py:37
+#, python-brace-format
+msgid "Errors while parsing feed `{0}`, URL: `{1}`"
+msgstr ""
+
+#: gfeeds/feed_parser.py:55
+#, python-brace-format
+msgid "`{0}` may not be an RSS or Atom feed"
+msgstr ""
+
+#: gfeeds/feeds_manager.py:88
+#, python-brace-format
+msgid "Feed {0} exists already, skipping"
+msgstr ""
+
+#: gfeeds/feeds_view.py:13
+msgid "All feeds"
+msgstr ""
+
+#: gfeeds/headerbar.py:184
+msgid ""
+"There were problems with some feeds.\n"
+"Do you want to remove them?"
+msgstr ""
+
+#: gfeeds/main_leaflet.py:119
+#, python-brace-format
+msgid "{0} new article"
+msgid_plural "{0} new articles"
+msgstr[0] ""
+msgstr[1] ""
+
+#: gfeeds/__main__.py:229
+msgid "Do you want to import these feeds?"
+msgstr ""
+
+#: gfeeds/__main__.py:256
+msgid "Do you want to import this feed?"
+msgstr ""
+
+#: gfeeds/__main__.py:285
+msgid "url"
+msgstr ""
+
+#: gfeeds/__main__.py:288
+msgid "opml file local url or rss remote url to import"
+msgstr ""
+
+#: gfeeds/manage_feeds_window.py:263
+msgid "Manage Feeds"
+msgstr ""
+
+#: gfeeds/manage_feeds_window.py:318
+msgid "Do you want to delete these feeds?"
+msgstr ""
+
+#: gfeeds/opml_file_chooser.py:7
+msgid "XML files"
+msgstr ""
+
+#: gfeeds/opml_file_chooser.py:14
+msgid "Choose an OPML file to import"
+msgstr ""
+
+#: gfeeds/opml_file_chooser.py:18
+msgid "Open"
+msgstr ""
+
+#: gfeeds/opml_file_chooser.py:19 gfeeds/opml_file_chooser.py:31
+msgid "Cancel"
+msgstr ""
+
+#: gfeeds/opml_file_chooser.py:26
+msgid "Choose where to save the exported OPML file"
+msgstr ""
+
+#: gfeeds/opml_file_chooser.py:30
+msgid "Save"
+msgstr ""
+
+#: gfeeds/opml_manager.py:42
+msgid "Error: OPML path provided does not exist"
+msgstr ""
+
+#: gfeeds/opml_manager.py:53
+#, python-brace-format
+msgid "Error parsing OPML file `{0}`"
+msgstr ""
+
+#: gfeeds/preferences_window.py:22
+msgid "General"
+msgstr ""
+
+#: gfeeds/preferences_window.py:25
+msgid "General preferences"
+msgstr ""
+
+#: gfeeds/preferences_window.py:27
+msgid "Show newer articles first"
+msgstr ""
+
+#: gfeeds/preferences_window.py:32
+msgid "Open links in your browser"
+msgstr ""
+
+#: gfeeds/preferences_window.py:36
+msgid "Use external video player for YouTube"
+msgstr ""
+
+#: gfeeds/preferences_window.py:38
+msgid "Requires youtube-dl and a compatible video player"
+msgstr ""
+
+#: gfeeds/preferences_window.py:44
+msgid "Preferred video player"
+msgstr ""
+
+#: gfeeds/preferences_window.py:48
+msgid "Maximum article age"
+msgstr ""
+
+#: gfeeds/preferences_window.py:49
+msgid "In days"
+msgstr ""
+
+#: gfeeds/preferences_window.py:56
+msgid "Refresh preferences"
+msgstr ""
+
+#: gfeeds/preferences_window.py:58
+msgid "Refresh articles on startup"
+msgstr ""
+
+#: gfeeds/preferences_window.py:62
+msgid "New articles notification"
+msgstr ""
+
+#: gfeeds/preferences_window.py:66
+msgid "Enable auto-refresh"
+msgstr ""
+
+#: gfeeds/preferences_window.py:70
+msgid "Auto-refresh interval"
+msgstr ""
+
+#: gfeeds/preferences_window.py:71
+msgid "In seconds"
+msgstr ""
+
+#: gfeeds/preferences_window.py:78
+msgid "Cache"
+msgstr ""
+
+#: gfeeds/preferences_window.py:80
+msgid "Clear caches"
+msgstr ""
+
+#: gfeeds/preferences_window.py:81
+msgid "Clear"
+msgstr ""
+
+#: gfeeds/preferences_window.py:109
+msgid "Appearance"
+msgstr ""
+
+#: gfeeds/preferences_window.py:112
+msgid "Appearance preferences"
+msgstr ""
+
+#: gfeeds/preferences_window.py:114
+msgid "Dark mode"
+msgstr ""
+
+#: gfeeds/preferences_window.py:118
+msgid "Reader mode theme"
+msgstr ""
+
+#: gfeeds/preferences_window.py:122
+msgid "Automatic"
+msgstr ""
+
+#: gfeeds/preferences_window.py:122
+msgid "Light"
+msgstr ""
+
+#: gfeeds/preferences_window.py:122
+msgid "Dark"
+msgstr ""
+
+#: gfeeds/preferences_window.py:126
+msgid "Show article thumbnails"
+msgstr ""
+
+#: gfeeds/preferences_window.py:131
+msgid "Show full articles titles"
+msgstr ""
+
+#: gfeeds/preferences_window.py:136
+msgid "Show full feeds names"
+msgstr ""
+
+#: gfeeds/preferences_window.py:143
+msgid "Font preferences"
+msgstr ""
+
+#: gfeeds/preferences_window.py:145
+msgid "Use system font for titles"
+msgstr ""
+
+#: gfeeds/preferences_window.py:149
+msgid "Use system font for paragraphs"
+msgstr ""
+
+#: gfeeds/preferences_window.py:153
+msgid "Custom title font"
+msgstr ""
+
+#: gfeeds/preferences_window.py:157
+msgid "Custom paragraph font"
+msgstr ""
+
+#: gfeeds/preferences_window.py:161
+msgid "Custom monospace font"
+msgstr ""
+
+#: gfeeds/preferences_window.py:173
+msgid "Privacy"
+msgstr ""
+
+#: gfeeds/preferences_window.py:176
+msgid "Privacy preferences"
+msgstr ""
+
+#: gfeeds/preferences_window.py:178
+msgid "Enable JavaScript"
+msgstr ""
+
+#: gfeeds/preferences_window.py:183
+msgid "Try to block advertisements"
+msgstr ""
+
+#: gfeeds/preferences_window.py:185 gfeeds/preferences_window.py:220
+msgid "Requires app restart"
+msgstr ""
+
+#: gfeeds/preferences_window.py:189
+msgid "Update advertisement blocking list"
+msgstr ""
+
+#: gfeeds/preferences_window.py:190
+msgid "Updates automatically every 10 days"
+msgstr ""
+
+#: gfeeds/preferences_window.py:191
+msgid "Update"
+msgstr ""
+
+#: gfeeds/preferences_window.py:204
+msgid "Advanced"
+msgstr ""
+
+#: gfeeds/preferences_window.py:207
+msgid "Advanced preferences"
+msgstr ""
+
+#: gfeeds/preferences_window.py:209
+msgid "Maximum refresh threads"
+msgstr ""
+
+#: gfeeds/preferences_window.py:211
+msgid "How many threads to use for feeds refresh"
+msgstr ""
+
+#: gfeeds/preferences_window.py:218
+msgid "Experimental GtkListView for articles list"
+msgstr ""
+
+#: gfeeds/sidebar.py:21
+msgid "Loading feeds..."
+msgstr ""
+
+#: gfeeds/sidebar_row_popover.py:31 gfeeds/sidebar_row_popover.py:58
+msgid "Mark as unread"
+msgstr ""
+
+#: gfeeds/sidebar_row_popover.py:38 gfeeds/sidebar_row_popover.py:50
+msgid "Mark as read"
+msgstr ""
+
+#: gfeeds/util/download_manager.py:102
+#, python-brace-format
+msgid "`{0}`: connection timed out"
+msgstr ""
+
+#: gfeeds/util/download_manager.py:111
+#, python-brace-format
+msgid "`{0}` might not be a valid address"
+msgstr ""
+
+#: gfeeds/util/download_manager.py:150
+#, python-brace-format
+msgid "Error downloading `{0}`, code `{1}`"
+msgstr ""
+
+#: gfeeds/util/get_favicon.py:53
+#, python-brace-format
+msgid "Error downloading favicon for `{0}`"
+msgstr ""
+
+#: gfeeds/webview.py:201
+msgid "Link copied to clipboard!"
+msgstr ""
+
+#: gfeeds/webview.py:223
+msgid "Feed content not available for this article"
+msgstr ""

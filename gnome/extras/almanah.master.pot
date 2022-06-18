@@ -1,0 +1,712 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/almanah/issues\n"
+"POT-Creation-Date: 2022-03-25 08:37+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+
+#: data/almanah.appdata.xml.in:7 data/almanah.desktop.in:3
+#: src/application.c:135 src/main-window.c:163
+msgid "Almanah Diary"
+msgstr ""
+
+#: data/almanah.appdata.xml.in:8
+msgid "Keep a diary of your life"
+msgstr ""
+
+#: data/almanah.appdata.xml.in:10
+msgid ""
+"Almanah Diary is an application to allow you to keep a diary of your life."
+msgstr ""
+
+#: data/almanah.appdata.xml.in:13
+msgid ""
+"You can encrypt the diary to preserve your privacy. It has editing "
+"abilities, including text formatting and printing and shows you a lists of "
+"events which happened (on your computer) for each day (such as tasks and "
+"appointments from Evolution)."
+msgstr ""
+
+#: data/almanah.desktop.in:4
+msgid "Keep a personal diary"
+msgstr ""
+
+#. Translators: This is the default name of the PDF/PS/SVG file the diary is printed to if "Print to File" is chosen.
+#: data/almanah.desktop.in:5 src/application.c:274
+msgid "Diary"
+msgstr ""
+
+#. TRANSLATORS: Search terms to find this application. Do NOT translate or localize the semicolons! The list MUST also end with a semicolon!
+#: data/almanah.desktop.in:7
+msgid "diary;journal;"
+msgstr ""
+
+#: src/ui/almanah.ui:27
+msgid "Calendar"
+msgstr ""
+
+#: src/ui/almanah.ui:46
+msgid "Go to Today"
+msgstr ""
+
+#: src/ui/almanah.ui:56
+msgid "Select Date…"
+msgstr ""
+
+#: src/ui/almanah.ui:134
+msgid "Entry editing area"
+msgstr ""
+
+#: src/ui/almanah.ui:160
+msgid "Past events"
+msgstr ""
+
+#: src/ui/almanah.ui:204
+msgid "Past Event List"
+msgstr ""
+
+#: src/ui/almanah.ui:299
+msgid "Search entry"
+msgstr ""
+
+#: src/ui/almanah.ui:307 src/search-dialog.c:69
+msgid "Search"
+msgstr ""
+
+#: src/ui/almanah.ui:398
+msgid "Result List"
+msgstr ""
+
+#: src/ui/almanah.ui:442 src/ui/almanah.ui:835
+msgid "View Entry"
+msgstr ""
+
+#. Translators: Use two common date formats from your locale which will be parsed correctly by GLib's g_date_set_parse() function.
+#: src/ui/almanah.ui:505
+msgid "e.g. \"14/03/2009\" or \"14th March 2009\"."
+msgstr ""
+
+#. Translators: Use two popular URIs from your locale, preferably one on the Internet and one local file.
+#: src/ui/almanah.ui:570
+msgid "e.g. “http://google.com/” or “file:///home/me/Photos/photo.jpg”."
+msgstr ""
+
+#: src/ui/almanah.ui:734
+msgid "Successful Entries"
+msgstr ""
+
+#: src/ui/almanah.ui:737
+msgid "Merged Entries"
+msgstr ""
+
+#: src/ui/almanah.ui:740
+msgid "Failed Entries"
+msgstr ""
+
+#: src/ui/almanah.ui:802
+msgid "Import Results List"
+msgstr ""
+
+#: data/org.gnome.almanah.gschema.xml.in:6
+msgid "Database encryption key ID"
+msgstr ""
+
+#: data/org.gnome.almanah.gschema.xml.in:7
+msgid ""
+"The ID of the key to use to encrypt and decrypt the database, if Almanah has "
+"been built with encryption support. Leave blank to disable database "
+"encryption."
+msgstr ""
+
+#: data/org.gnome.almanah.gschema.xml.in:11
+msgid "Spell checking language"
+msgstr ""
+
+#: data/org.gnome.almanah.gschema.xml.in:12
+msgid "The locale specifier of the language in which to check entry spellings."
+msgstr ""
+
+#: data/org.gnome.almanah.gschema.xml.in:16
+msgid "Spell checking enabled?"
+msgstr ""
+
+#: data/org.gnome.almanah.gschema.xml.in:17
+msgid "Whether spell checking of entries is enabled."
+msgstr ""
+
+#: src/application.c:257
+msgid "Error opening database"
+msgstr ""
+
+#: src/application.c:336
+msgid "Enable debug mode"
+msgstr ""
+
+#: src/application.c:353
+msgid ""
+"Manage your diary. Only one instance of the program may be open at any time."
+msgstr ""
+
+#. Print an error
+#: src/application.c:364
+#, c-format
+msgid "Command line options could not be parsed: %s\n"
+msgstr ""
+
+#: src/application.c:383
+msgid "Error encrypting database"
+msgstr ""
+
+#: src/application.c:526
+msgid ""
+"Almanah is free software: you can redistribute it and/or modify it under the "
+"terms of the GNU General Public License as published by the Free Software "
+"Foundation, either version 3 of the License, or (at your option) any later "
+"version."
+msgstr ""
+
+#: src/application.c:530
+msgid ""
+"Almanah is distributed in the hope that it will be useful, but WITHOUT ANY "
+"WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS "
+"FOR A PARTICULAR PURPOSE.  See the GNU General Public License for more "
+"details."
+msgstr ""
+
+#: src/application.c:534
+msgid ""
+"You should have received a copy of the GNU General Public License along with "
+"Almanah.  If not, see <http://www.gnu.org/licenses/>."
+msgstr ""
+
+#: src/application.c:549
+#, c-format
+msgid "A helpful diary keeper, storing %u entries."
+msgstr ""
+
+#: src/application.c:553
+msgid "Copyright © 2008-2009 Philip Withnall"
+msgstr ""
+
+#. Translators: please include your names here to be credited for your hard work!
+#. * Format:
+#. * "Translator name 1 <translator@email.address>\n"
+#. * "Translator name 2 <translator2@email.address>"
+#.
+#: src/application.c:561
+msgid "translator-credits"
+msgstr ""
+
+#: src/application.c:565
+msgid "Almanah Website"
+msgstr ""
+
+#: src/application.c:593
+#, c-format
+msgid ""
+"Couldn't load the CSS resources. The interface might not be styled "
+"correctly: %s"
+msgstr ""
+
+#: src/date-entry-dialog.c:72
+msgid "Select Date"
+msgstr ""
+
+#: src/date-entry-dialog.c:127 src/import-export-dialog.c:169
+#: src/import-export-dialog.c:476 src/main-window.c:235
+#: src/preferences-dialog.c:177 src/search-dialog.c:95
+#: src/uri-entry-dialog.c:126
+msgid "UI data could not be loaded"
+msgstr ""
+
+#: src/entry.c:303
+#, c-format
+msgid "Invalid data version number %u."
+msgstr ""
+
+#: src/events/calendar-appointment.c:51
+msgid "Calendar Appointment"
+msgstr ""
+
+#: src/events/calendar-appointment.c:52
+msgid "An appointment on an Evolution calendar."
+msgstr ""
+
+#. Translators: This is a time string with the format hh:mm
+#: src/events/calendar-appointment.c:89 src/events/calendar-task.c:90
+#, c-format
+msgid "%.2d:%.2d"
+msgstr ""
+
+#: src/events/calendar-appointment.c:135 src/events/calendar-task.c:125
+msgid "Error launching Evolution"
+msgstr ""
+
+#: src/events/calendar-task.c:51
+msgid "Calendar Task"
+msgstr ""
+
+#: src/events/calendar-task.c:52
+msgid "A task on an Evolution calendar."
+msgstr ""
+
+#: src/export-operation.c:47 src/import-operation.c:45
+msgid "Text Files"
+msgstr ""
+
+#: src/export-operation.c:48
+msgid ""
+"Select a _folder to export the entries to as text files, one per entry, with "
+"names in the format 'yyyy-mm-dd', and no extension. All entries will be "
+"exported, unencrypted in plain text format."
+msgstr ""
+
+#: src/export-operation.c:52 src/import-operation.c:50
+msgid "Database"
+msgstr ""
+
+#: src/export-operation.c:53
+msgid ""
+"Select a _filename for a complete copy of the unencrypted Almanah Diary "
+"database to be given."
+msgstr ""
+
+#: src/export-operation.c:256 src/export-operation.c:313
+#, c-format
+msgid "Error changing exported file permissions: %s"
+msgstr ""
+
+#: src/gtk/menus.ui:6
+msgid "_Search"
+msgstr ""
+
+#: src/gtk/menus.ui:12
+msgid "Pr_eferences"
+msgstr ""
+
+#: src/gtk/menus.ui:16
+msgctxt "Main menu"
+msgid "_Import"
+msgstr ""
+
+#: src/gtk/menus.ui:20
+msgctxt "Main menu"
+msgid "_Export"
+msgstr ""
+
+#: src/gtk/menus.ui:24
+msgid "_Print diary"
+msgstr ""
+
+#: src/gtk/menus.ui:30
+msgid "_About Almanah Diary"
+msgstr ""
+
+#: src/gtk/menus.ui:34
+msgid "_Quit"
+msgstr ""
+
+#: src/gtk/menus.ui:42
+msgid "_Bold"
+msgstr ""
+
+#: src/gtk/menus.ui:46
+msgid "_Italic"
+msgstr ""
+
+#: src/gtk/menus.ui:50
+msgid "_Underline"
+msgstr ""
+
+#: src/gtk/menus.ui:56
+msgid "_Cut"
+msgstr ""
+
+#: src/gtk/menus.ui:60
+msgid "_Copy"
+msgstr ""
+
+#: src/gtk/menus.ui:64
+msgid "_Paste"
+msgstr ""
+
+#: src/gtk/menus.ui:68 src/main-window.c:640
+msgid "_Delete"
+msgstr ""
+
+#: src/gtk/menus.ui:74
+msgid "Insert _Time"
+msgstr ""
+
+#: src/gtk/menus.ui:78
+msgid "Add/Remove _Hyperlink"
+msgstr ""
+
+#: src/import-export-dialog.c:203
+msgid "Import _mode: "
+msgstr ""
+
+#: src/import-export-dialog.c:203
+msgid "Export _mode: "
+msgstr ""
+
+#. Set the window title
+#: src/import-export-dialog.c:206
+msgid "Import Entries"
+msgstr ""
+
+#: src/import-export-dialog.c:206
+msgid "Export Entries"
+msgstr ""
+
+#. Translators: These are verbs.
+#: src/import-export-dialog.c:211
+msgctxt "Dialog button"
+msgid "_Import"
+msgstr ""
+
+#: src/import-export-dialog.c:211
+msgctxt "Dialog button"
+msgid "_Export"
+msgstr ""
+
+#: src/import-export-dialog.c:248
+msgid "Import failed"
+msgstr ""
+
+#: src/import-export-dialog.c:286
+msgid "Export failed"
+msgstr ""
+
+#: src/import-export-dialog.c:299
+msgid "Export successful"
+msgstr ""
+
+#: src/import-export-dialog.c:300
+msgid "The diary was successfully exported."
+msgstr ""
+
+#: src/import-export-dialog.c:448
+msgid "Import Results"
+msgstr ""
+
+#. Translators: This is a strftime()-format string for the dates displayed in import results.
+#. Translators: This is a strftime()-format string for the date to display when asking about editing a diary entry.
+#. Translators: This is a strftime()-format string for the date to display when asking about deleting a diary entry.
+#. Translators: This is a strftime()-format string for the date displayed at the top of the main window.
+#. Translators: This is a strftime()-format string for the date displayed above each printed entry.
+#. Translators: This is a strftime()-format string for the dates displayed in search results.
+#: src/import-export-dialog.c:543 src/main-window.c:601 src/main-window.c:632
+#: src/main-window.c:1271 src/printing.c:263 src/search-dialog.c:180
+msgid "%A, %e %B %Y"
+msgstr ""
+
+#: src/import-operation.c:46
+msgid ""
+"Select a _folder containing text files, one per entry, with names in the "
+"format 'yyyy-mm-dd', and no extension. Any and all such files will be "
+"imported."
+msgstr ""
+
+#: src/import-operation.c:51
+msgid "Select a database _file created by Almanah Diary to import."
+msgstr ""
+
+#: src/import-operation.c:248
+#, c-format
+msgid "Error deserializing imported entry into buffer: %s"
+msgstr ""
+
+#: src/import-operation.c:264
+#, c-format
+msgid ""
+"Error deserializing existing entry into buffer; overwriting with imported "
+"entry: %s"
+msgstr ""
+
+#. Append some header text for the imported entry
+#. Translators: This text is appended to an existing entry when an entry is being imported to the same date.
+#. * The imported entry is appended to this text.
+#: src/import-operation.c:305
+#, c-format
+msgid ""
+"\n"
+"\n"
+"Entry imported from \"%s\":\n"
+"\n"
+msgstr ""
+
+#: src/main-window.c:605
+#, c-format
+msgid "Are you sure you want to edit this diary entry for %s?"
+msgstr ""
+
+#: src/main-window.c:608 src/main-window.c:639
+msgid "_Cancel"
+msgstr ""
+
+#: src/main-window.c:609
+msgid "_Edit"
+msgstr ""
+
+#: src/main-window.c:636
+#, c-format
+msgid "Are you sure you want to delete this diary entry for %s?"
+msgstr ""
+
+#. Print a warning about the unknown tag
+#: src/main-window.c:746
+#, c-format
+msgid "Unknown or duplicate text tag \"%s\" in entry. Ignoring."
+msgstr ""
+
+#: src/main-window.c:987
+msgid "Error opening URI"
+msgstr ""
+
+#. Translators: this is an event source name (like Calendar appointment) and the time when the event takes place
+#: src/main-window.c:1198
+#, c-format
+msgid "%s @ %s"
+msgstr ""
+
+#: src/main-window.c:1304
+msgid "Entry content could not be loaded"
+msgstr ""
+
+#. Translators: this sentence is just used in startup to estimate the width
+#. of a 15 words sentence. Translate with some random sentences with just 15 words.
+#. See: https://bugzilla.gnome.org/show_bug.cgi?id=754841
+#: src/main-window.c:1575
+msgid ""
+"This is just a fifteen words sentence to calculate the diary entry text view "
+"size"
+msgstr ""
+
+#: src/main-window.c:1612
+msgid "Spelling checker could not be initialized"
+msgstr ""
+
+#: src/preferences-dialog.c:83
+msgid "Preferences"
+msgstr ""
+
+#. Grab our child widgets
+#: src/preferences-dialog.c:204
+msgid "Encryption key: "
+msgstr ""
+
+#: src/preferences-dialog.c:208
+msgid "None (don't encrypt)"
+msgstr ""
+
+#: src/preferences-dialog.c:213
+msgid "New _Key"
+msgstr ""
+
+#. Set up the "Enable spell checking" check button
+#: src/preferences-dialog.c:237
+msgid "Enable _spell checking"
+msgstr ""
+
+#: src/preferences-dialog.c:262
+msgid "Error saving the encryption key"
+msgstr ""
+
+#: src/preferences-dialog.c:281
+msgid "Error opening Seahorse"
+msgstr ""
+
+#: src/printing.c:277
+msgid "This entry is marked as important."
+msgstr ""
+
+#: src/printing.c:298
+msgid "No entry for this date."
+msgstr ""
+
+#: src/printing.c:457
+msgid "Start date:"
+msgstr ""
+
+#: src/printing.c:459
+msgid "End date:"
+msgstr ""
+
+#. Line spacing
+#: src/printing.c:475
+msgid "Line spacing:"
+msgstr ""
+
+#: src/search-dialog.c:221
+msgid "Search canceled."
+msgstr ""
+
+#. Translators: This is an error message wrapper for when searches encounter an error. The placeholder is for an error message.
+#: src/search-dialog.c:224
+#, c-format
+msgid "Error: %s"
+msgstr ""
+
+#. Success!
+#: src/search-dialog.c:229
+#, c-format
+msgid "Found %d entry:"
+msgid_plural "Found %d entries:"
+msgstr[0] ""
+msgstr[1] ""
+
+#: src/search-dialog.c:278
+msgid "Searching…"
+msgstr ""
+
+#: src/storage-manager.c:247
+#, c-format
+msgid ""
+"Could not open database \"%s\". SQLite provided the following error message: "
+"%s"
+msgstr ""
+
+#: src/storage-manager.c:290
+#, c-format
+msgid ""
+"Could not run query \"%s\". SQLite provided the following error message: %s"
+msgstr ""
+
+#: src/storage-manager.c:596
+msgid "Error deserializing entry into buffer while searching."
+msgstr ""
+
+#: src/uri-entry-dialog.c:71
+msgid "Enter URI"
+msgstr ""
+
+#: src/vfs.c:291
+#, c-format
+msgid "GPGME is not at least version %s"
+msgstr ""
+
+#: src/vfs.c:298
+#, c-format
+msgid "GPGME doesn't support OpenPGP: %s"
+msgstr ""
+
+#: src/vfs.c:305
+#, c-format
+msgid "Error creating cipher context: %s"
+msgstr ""
+
+#: src/vfs.c:325
+#, c-format
+msgid "Can't create a new GIOChannel for the encrypted database: %s"
+msgstr ""
+
+#: src/vfs.c:333
+#, c-format
+msgid "Error opening encrypted database file \"%s\": %s"
+msgstr ""
+
+#: src/vfs.c:349
+#, c-format
+msgid "Error creating Callback base data buffer: %s"
+msgstr ""
+
+#: src/vfs.c:357
+#, c-format
+msgid "Can't create a new GIOChannel for the plain database: %s"
+msgstr ""
+
+#: src/vfs.c:365
+#, c-format
+msgid "Error opening plain database file \"%s\": %s"
+msgstr ""
+
+#: src/vfs.c:461
+#, c-format
+msgid "Error getting encryption key: %s"
+msgstr ""
+
+#: src/vfs.c:485 src/vfs.c:491
+#, c-format
+msgid "Error encrypting database: %s"
+msgstr ""
+
+#. Translators: The first and second params are file paths, the last param is an error message.
+#: src/vfs.c:541
+#, c-format
+msgid "Error copying the file from %s to %s: %s"
+msgstr ""
+
+#: src/vfs.c:547
+#, c-format
+msgid "Error changing database backup file permissions: %s"
+msgstr ""
+
+#: src/vfs.c:647
+#, c-format
+msgid "Error closing file: %s"
+msgstr ""
+
+#. Translators: the first parameter is a filename.
+#: src/vfs.c:1046 src/vfs.c:1073
+#, c-format
+msgid "Error backing up file ‘%s’"
+msgstr ""
+
+#: src/vfs.c:1059
+#, c-format
+msgid "Error decrypting database: %s"
+msgstr ""
+
+#: src/vfs.c:1099
+#, c-format
+msgid "Error changing database file permissions: %s"
+msgstr ""
+
+#: src/widgets/calendar-button.c:142
+#, c-format
+msgid "UI data could not be loaded: %s"
+msgstr ""
+
+#: src/widgets/calendar-button.c:152
+msgid "Can't load calendar window object from UI file"
+msgstr ""
+
+#. Translators: This is the detail string for important days as displayed in the calendar.
+#: src/widgets/calendar.c:176
+msgid "Important!"
+msgstr ""
+
+#: src/widgets/entry-tags-area.c:100 src/widgets/tag-entry.c:166
+msgid "add tag"
+msgstr ""
+
+#: src/widgets/entry-tags-area.c:101
+msgid "Write the tag and press enter to save it"
+msgstr ""
+
+#: src/widgets/tag-accessible.c:165
+msgid "Remove the tag from the entry"
+msgstr ""
+
+#. Looks like gtk_widget_set_tooltip_text don't works here, even in the init... ?
+#: src/widgets/tag.c:416
+msgid "Remove tag"
+msgstr ""
+
+#: src/widgets/tag-entry.c:85
+msgid "Tag entry"
+msgstr ""

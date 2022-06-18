@@ -1,0 +1,273 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: https://gitlab.gnome.org/World/design/icon-library/"
+"issues\n"
+"POT-Creation-Date: 2022-05-29 13:02+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: data/org.gnome.design.IconLibrary.desktop.in.in:3
+#: data/org.gnome.design.IconLibrary.metainfo.xml.in.in:7 src/application.rs:69
+msgid "Icon Library"
+msgstr ""
+
+#: data/org.gnome.design.IconLibrary.desktop.in.in:4
+msgid "Find the right icon to use on your GNOME application"
+msgstr ""
+
+#. Translators: Search terms to find this application. Do NOT translate or localize the semicolons! The list MUST also end with a semicolon!
+#: data/org.gnome.design.IconLibrary.desktop.in.in:10
+msgid "Icon;Library;GNOME;GTK;"
+msgstr ""
+
+#: data/org.gnome.design.IconLibrary.gschema.xml.in:6
+msgid "Width of the last opened window"
+msgstr ""
+
+#: data/org.gnome.design.IconLibrary.gschema.xml.in:10
+msgid "Height of the last opened window"
+msgstr ""
+
+#: data/org.gnome.design.IconLibrary.gschema.xml.in:14
+msgid "Maximized state of the last opened window"
+msgstr ""
+
+#: data/org.gnome.design.IconLibrary.gschema.xml.in:18
+msgid "Enable or disable dark mode"
+msgstr ""
+
+#: data/org.gnome.design.IconLibrary.gschema.xml.in:22
+msgid "The default doc-page"
+msgstr ""
+
+#: data/org.gnome.design.IconLibrary.metainfo.xml.in.in:8 src/application.rs:72
+msgid "Symbolic icons for your apps"
+msgstr ""
+
+#: data/org.gnome.design.IconLibrary.metainfo.xml.in.in:10
+msgid "Find the right icon to use on your GNOME application."
+msgstr ""
+
+#: data/org.gnome.design.IconLibrary.metainfo.xml.in.in:15
+msgid "Main Window"
+msgstr ""
+
+#: data/org.gnome.design.IconLibrary.metainfo.xml.in.in:106
+msgid "Bilal Elmoussaoui"
+msgstr ""
+
+#: data/resources/ui/export_dialog.ui:139
+msgid "_Save As…"
+msgstr ""
+
+#: data/resources/ui/export_dialog.ui:150
+msgid "_Copy Name"
+msgstr ""
+
+#: data/resources/ui/export_dialog.ui:167
+msgid "Use in a Mockup"
+msgstr ""
+
+#: data/resources/ui/export_dialog.ui:170
+msgid "_Copy to Clipboard"
+msgstr ""
+
+#: data/resources/ui/export_dialog.ui:182
+#: data/resources/ui/export_dialog.ui:224
+msgid "Include in an App"
+msgstr ""
+
+#: data/resources/ui/export_dialog.ui:193
+#: data/resources/ui/export_dialog.ui:734
+msgid "Use as a System Icon"
+msgstr ""
+
+#: data/resources/ui/export_dialog.ui:253
+msgid ""
+"In order to use a custom icon in your app, it needs to be shipped as a "
+"GResource."
+msgstr ""
+
+#: data/resources/ui/export_dialog.ui:262
+msgid ""
+"The first step is saving the file in your project directory (e.g. in <b>/"
+"data/icons</b>)."
+msgstr ""
+
+#: data/resources/ui/export_dialog.ui:272
+msgid "_Save SVG to…"
+msgstr ""
+
+#: data/resources/ui/export_dialog.ui:284
+msgid ""
+"Then you need to include the file in your resource XML file, with a line "
+"similar to this∶"
+msgstr ""
+
+#: data/resources/ui/export_dialog.ui:317
+msgid ""
+"You should be able to use the icon by setting <i>icon-name</i> property of "
+"<i>Gtk.Image</i>"
+msgstr ""
+
+#: data/resources/ui/export_dialog.ui:329
+msgid "No Resource File?"
+msgstr ""
+
+#: data/resources/ui/export_dialog.ui:341
+msgid ""
+"If you don't have a resource file in your project yet, you can start from "
+"this example file."
+msgstr ""
+
+#: data/resources/ui/export_dialog.ui:350
+msgid "Save _Resource File to…"
+msgstr ""
+
+#: data/resources/ui/export_dialog.ui:362
+msgid ""
+"<a href='https://docs.gtk.org/gio/struct.Resource.html'>Read more on "
+"GResources</a>"
+msgstr ""
+
+#: data/resources/ui/export_dialog.ui:374
+msgid "Include the GResource in your app"
+msgstr ""
+
+#: data/resources/ui/export_dialog.ui:406
+#: data/resources/ui/export_dialog.ui:449
+msgid ""
+"In order for this to work you need to include it in your meson.build, like "
+"so∶"
+msgstr ""
+
+#: data/resources/ui/export_dialog.ui:480
+#: data/resources/ui/export_dialog.ui:632
+msgid "And then load it in your main file"
+msgstr ""
+
+#: data/resources/ui/export_dialog.ui:523
+#: data/resources/ui/export_dialog.ui:599
+msgid ""
+"In order for this to work you need to create a bundle out of the "
+"<b>GResource</b> file and install it in <b>$prefix/$datadir/$app-name</b>. "
+"Here's how you would do it using Meson"
+msgstr ""
+
+#: data/resources/ui/export_dialog.ui:555
+msgid "And then load the bundle in your main file"
+msgstr ""
+
+#: data/resources/ui/export_dialog.ui:677
+msgid ""
+"In order for this to work you need to include the <b>GResource</b> in the "
+"binary."
+msgstr ""
+
+#: data/resources/ui/export_dialog.ui:759
+msgid ""
+"This is a system icon, which means it comes pre-installed as part of the "
+"platform."
+msgstr ""
+
+#: data/resources/ui/export_dialog.ui:768
+msgid ""
+"Note that system icons can change over time, so if you are using this icon "
+"because of what it looks like rather than its semantic meaning it would be "
+"better to <a href='in-app'>include it with your app</a>."
+msgstr ""
+
+#: data/resources/ui/export_dialog.ui:778
+msgid "_Copy Icon Name"
+msgstr ""
+
+#: data/resources/ui/icons_group.ui:26
+msgid ""
+"These icons come with the operating system, which means you have no control "
+"over them and they could change at any time. Only use them if you're sure "
+"you are using them in the correct context (e.g. three lines for a primary "
+"menu)."
+msgstr ""
+
+#: data/resources/ui/shortcuts.ui:13
+msgctxt "shortcut window"
+msgid "General"
+msgstr ""
+
+#: data/resources/ui/shortcuts.ui:17
+msgctxt "shortcut window"
+msgid "Show Shortcuts"
+msgstr ""
+
+#: data/resources/ui/shortcuts.ui:24
+msgctxt "shortcut window"
+msgid "Quit"
+msgstr ""
+
+#: data/resources/ui/window.ui:5
+msgid "_Keyboard Shortcuts"
+msgstr ""
+
+#: data/resources/ui/window.ui:9
+msgid "About Icon Library"
+msgstr ""
+
+#: data/resources/ui/window.ui:29
+msgid "Search for icons by name, category or tag"
+msgstr ""
+
+#: data/resources/ui/window.ui:41
+msgid "Toggle Dark Mode"
+msgstr ""
+
+#: data/resources/ui/window.ui:95
+msgid "No Results found"
+msgstr ""
+
+#: data/resources/ui/window.ui:96
+msgid "Try a different search"
+msgstr ""
+
+#: src/application.rs:76
+msgid "translator-credits"
+msgstr ""
+
+#: src/widgets/export.rs:254 src/widgets/export.rs:361
+msgid "Copied"
+msgstr ""
+
+#: src/widgets/export.rs:278
+msgid "Export GResource example file"
+msgstr ""
+
+#: src/widgets/export.rs:281 src/widgets/export.rs:315
+msgid "Export"
+msgstr ""
+
+#: src/widgets/export.rs:282 src/widgets/export.rs:316
+msgid "Cancel"
+msgstr ""
+
+#: src/widgets/export.rs:286
+msgid "XML Document"
+msgstr ""
+
+#: src/widgets/export.rs:312
+msgid "Export a symbolic icon"
+msgstr ""
+
+#: src/widgets/export.rs:320
+msgid "SVG images"
+msgstr ""
