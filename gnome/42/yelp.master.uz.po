@@ -1,0 +1,1068 @@
+# translation of yelp to Uzbek
+# Copyright (C) 2008 Free Software Foundation, Inc.
+# This file is distributed under the same license as the yelp package.
+#
+# Nurali Abdurahmonov <mavnur@gmail.com>, 2009.
+msgid ""
+msgstr ""
+"Project-Id-Version: yelp\n"
+"Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/yelp/issues\n"
+"POT-Creation-Date: 2022-05-11 16:39+0000\n"
+"PO-Revision-Date: 2009-01-03 20:41+0500\n"
+"Last-Translator: Nurali Abdurahmonov <mavnur@gmail.com>\n"
+"Language-Team: Uzbek\n"
+"Language: uz\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: KBabel 1.11.4\n"
+
+#. (itstool) path: msg/msgstr
+#. ID: install.tooltip
+#. This is a format message used to format tooltips on install: links. These
+#. links allow users to install packages by clicking a link in the help. The
+#. tooltip may also be used as the link text, if there's no link text in the
+#. document. Special elements in the message will be replaced with the
+#. appropriate content, as follows:
+#.
+#. <string/> - The package to install
+#.
+#: data/domains/yelp.xml.in:36
+msgid "Install <string/>"
+msgstr ""
+
+#: data/yelp.appdata.xml.in:25 src/yelp-application.c:269
+#: src/yelp-window.c:1192 yelp.desktop.in:3
+msgid "Help"
+msgstr "Yordam"
+
+#: data/yelp.appdata.xml.in:26
+msgid "Help viewer for GNOME"
+msgstr ""
+
+#: data/yelp.appdata.xml.in:28
+msgid ""
+"Yelp is the GNOME help viewer. It is the default Mallard viewer, but it can "
+"also display DocBook, info, man, and HTML documentation."
+msgstr ""
+
+#: data/yelp.appdata.xml.in:32
+msgid ""
+"It makes it easy to find the documentation you need, with interactive search "
+"and bookmarks."
+msgstr ""
+
+#: data/yelp.appdata.xml.in:36
+msgid ""
+"It also has an editor mode, which shows editorial comments and revision "
+"statuses when editing Mallard documents."
+msgstr ""
+
+#: data/yelp.appdata.xml.in:51
+msgid "The GNOME Project"
+msgstr ""
+
+#: libyelp/yelp-bz2-decompressor.c:143 libyelp/yelp-lzma-decompressor.c:152
+msgid "Invalid compressed data"
+msgstr ""
+
+#: libyelp/yelp-bz2-decompressor.c:149 libyelp/yelp-lzma-decompressor.c:158
+#, fuzzy
+#| msgid "Out of memory"
+msgid "Not enough memory"
+msgstr "Xotira yetishmayapti"
+
+#: libyelp/yelp-docbook-document.c:298 libyelp/yelp-info-document.c:220
+#: libyelp/yelp-mallard-document.c:312 libyelp/yelp-mallard-document.c:477
+#: libyelp/yelp-man-document.c:198
+#, fuzzy, c-format
+#| msgid "The page %s was not found in the document %s."
+msgid "The page ‘%s’ was not found in the document ‘%s’."
+msgstr "%s sahifasi %s qoʻllanmasida topilmadi."
+
+#: libyelp/yelp-docbook-document.c:337 libyelp/yelp-info-document.c:357
+#: libyelp/yelp-man-document.c:335
+#, fuzzy
+#| msgid "The file ‘%s’ does not exist."
+msgid "The file does not exist."
+msgstr "'%s' fayli mavjud emas."
+
+#: libyelp/yelp-docbook-document.c:347 libyelp/yelp-info-document.c:367
+#: libyelp/yelp-man-document.c:345
+#, c-format
+msgid "The file ‘%s’ does not exist."
+msgstr "'%s' fayli mavjud emas."
+
+#: libyelp/yelp-docbook-document.c:365
+#, c-format
+msgid ""
+"The file ‘%s’ could not be parsed because it is not a well-formed XML "
+"document."
+msgstr ""
+
+#: libyelp/yelp-docbook-document.c:378
+#, c-format
+msgid ""
+"The file ‘%s’ could not be parsed because one or more of its included files "
+"is not a well-formed XML document."
+msgstr ""
+
+#: libyelp/yelp-docbook-document.c:813
+msgid "Unknown"
+msgstr "Nomaʼlum"
+
+#: libyelp/yelp-docbook-document.c:911 libyelp/yelp-info-document.c:300
+#: libyelp/yelp-man-document.c:278
+#, fuzzy, c-format
+#| msgid "The requested page was not found in the document %s."
+msgid "The requested page was not found in the document ‘%s’."
+msgstr "Qidirilgan sahifa %s hujjatida topilmadi."
+
+#: libyelp/yelp-document.c:888
+#, fuzzy, c-format
+#| msgid "Search results for \"%s\""
+msgid "Search results for “%s”"
+msgstr "\"%s\" uchun qidirish natijalari"
+
+#: libyelp/yelp-document.c:898
+msgid "No matching help pages found."
+msgstr ""
+
+#: libyelp/yelp-error.c:35
+msgid "An unknown error occurred."
+msgstr ""
+
+#: libyelp/yelp-help-list.c:537
+msgid "All Help Documents"
+msgstr ""
+
+#: libyelp/yelp-info-document.c:382
+#, c-format
+msgid ""
+"The file ‘%s’ could not be parsed because it is not a well-formed info page."
+msgstr ""
+
+#: libyelp/yelp-mallard-document.c:354
+#, fuzzy, c-format
+#| msgid "The file ‘%s’ does not exist."
+msgid "The directory ‘%s’ does not exist."
+msgstr "'%s' fayli mavjud emas."
+
+#: libyelp/yelp-search-entry.c:435
+#, fuzzy, c-format
+#| msgid "Search results for \"%s\""
+msgid "Search for “%s”"
+msgstr "\"%s\" uchun qidirish natijalari"
+
+#: libyelp/yelp-transform.c:379 libyelp/yelp-transform.c:394
+#, c-format
+msgid "The XSLT stylesheet ‘%s’ is either missing or not valid."
+msgstr ""
+
+#: libyelp/yelp-transform.c:528
+msgid "No href attribute found on yelp:document\n"
+msgstr ""
+
+#: libyelp/yelp-transform.c:543
+msgid "Out of memory"
+msgstr "Xotira yetishmayapti"
+
+#: libyelp/yelp-view.c:253
+msgid "C_opy Code Block"
+msgstr ""
+
+#: libyelp/yelp-view.c:258
+#, fuzzy
+#| msgid "Open Location"
+msgid "_Copy Link Location"
+msgstr "Manzilni ochish"
+
+#: libyelp/yelp-view.c:263
+msgid "_Open Link"
+msgstr "Bogʻlamani _ochish"
+
+#: libyelp/yelp-view.c:268
+#, fuzzy
+#| msgid "Open Link in _New Window"
+msgid "Open Link in New _Window"
+msgstr "Bogʻlamani yangi _oynada ochish"
+
+#: libyelp/yelp-view.c:278
+#, fuzzy
+#| msgid "Manual Pages"
+msgid "_Install Packages"
+msgstr "Qoʻllanma sahifalari"
+
+#: libyelp/yelp-view.c:283
+msgid "Save Code _Block As…"
+msgstr ""
+
+#: libyelp/yelp-view.c:298
+#, fuzzy
+#| msgid "_Copy"
+msgid "_Copy Text"
+msgstr "_Nusxa olish"
+
+#: libyelp/yelp-view.c:845 libyelp/yelp-view.c:2162
+#, fuzzy, c-format
+#| msgid "The file ‘%s’ does not exist."
+msgid "The URI ‘%s’ does not point to a valid page."
+msgstr "'%s' fayli mavjud emas."
+
+#: libyelp/yelp-view.c:851 libyelp/yelp-view.c:2168
+msgid "The URI does not point to a valid page."
+msgstr ""
+
+#: libyelp/yelp-view.c:856 libyelp/yelp-view.c:2174
+#, fuzzy, c-format
+#| msgid "The file ‘%s’ does not exist."
+msgid "The URI ‘%s’ could not be parsed."
+msgstr "'%s' fayli mavjud emas."
+
+#: libyelp/yelp-view.c:861
+#, fuzzy
+#| msgid "Unknown Error"
+msgid "Unknown Error."
+msgstr "Nomaʼlum xatolik"
+
+#: libyelp/yelp-view.c:1015
+msgid "You do not have PackageKit. Package install links require PackageKit."
+msgstr ""
+
+#: libyelp/yelp-view.c:1262
+msgid "Save Image"
+msgstr ""
+
+#: libyelp/yelp-view.c:1361
+msgid "Save Code"
+msgstr ""
+
+#: libyelp/yelp-view.c:1457
+#, c-format
+msgid "Send email to %s"
+msgstr ""
+
+#: libyelp/yelp-view.c:1561
+msgid "_Save Image As…"
+msgstr ""
+
+#: libyelp/yelp-view.c:1562
+msgid "_Save Video As…"
+msgstr ""
+
+#: libyelp/yelp-view.c:1570
+msgid "S_end Image To…"
+msgstr ""
+
+#: libyelp/yelp-view.c:1571
+msgid "S_end Video To…"
+msgstr ""
+
+#: libyelp/yelp-view.c:1926
+#, c-format
+msgid "Could not load a document for ‘%s’"
+msgstr ""
+
+#: libyelp/yelp-view.c:1932
+msgid "Could not load a document"
+msgstr ""
+
+#: libyelp/yelp-view.c:1987
+msgid "Document Not Found"
+msgstr ""
+
+#: libyelp/yelp-view.c:1989
+#, fuzzy
+#| msgid "Page not found"
+msgid "Page Not Found"
+msgstr "Sahifa topilmadi"
+
+#: libyelp/yelp-view.c:1992
+#, fuzzy
+#| msgid "Cannot create window"
+msgid "Cannot Read"
+msgstr "Oyna yaratib boʻlmadi"
+
+#: libyelp/yelp-view.c:1998
+msgid "Unknown Error"
+msgstr "Nomaʼlum xatolik"
+
+#: libyelp/yelp-view.c:2018
+msgid "Search for packages containing this document."
+msgstr ""
+
+#: src/yelp-application.c:60
+msgid "Turn on editor mode"
+msgstr ""
+
+#: src/yelp-window.c:346
+#, fuzzy
+#| msgid "_Back"
+msgid "Back"
+msgstr "_Orqaga"
+
+#: src/yelp-window.c:353
+#, fuzzy
+#| msgid "_Forward"
+msgid "Forward"
+msgstr "_Oldinga"
+
+#: src/yelp-window.c:364
+msgid "Menu"
+msgstr ""
+
+#: src/yelp-window.c:369
+#, fuzzy
+#| msgid "_New Window"
+msgid "New Window"
+msgstr "_Yangi oyna"
+
+#: src/yelp-window.c:370
+#, fuzzy
+#| msgid "Find"
+msgid "Find…"
+msgstr "Qidirish"
+
+#: src/yelp-window.c:371
+#, fuzzy
+#| msgid "Print"
+msgid "Print…"
+msgstr "Bosib chiqarish"
+
+#: src/yelp-window.c:376
+#, fuzzy
+#| msgid "_Previous"
+msgid "Previous Page"
+msgstr "_Oldingi"
+
+#: src/yelp-window.c:377
+msgid "Next Page"
+msgstr ""
+
+#: src/yelp-window.c:382
+msgid "Larger Text"
+msgstr ""
+
+#: src/yelp-window.c:383
+msgid "Smaller Text"
+msgstr ""
+
+#: src/yelp-window.c:388
+#, fuzzy
+#| msgid "Help"
+msgid "All Help"
+msgstr "Yordam"
+
+#: src/yelp-window.c:410
+msgid "Search (Ctrl+S)"
+msgstr ""
+
+#: src/yelp-window.c:427
+msgid "Bookmarks"
+msgstr "Xatchoʻplar"
+
+#: src/yelp-window.c:444
+#, fuzzy
+#| msgid "Bookmarks"
+msgid "No bookmarks"
+msgstr "Xatchoʻplar"
+
+#: src/yelp-window.c:452
+msgid "Add Bookmark"
+msgstr "Xatchoʻp qoʻshish"
+
+#: src/yelp-window.c:458
+msgid "Remove Bookmark"
+msgstr "Xatchoʻpni olib tashlash"
+
+#: yelp.desktop.in:4
+msgid "Get help with GNOME"
+msgstr ""
+
+#. Translators: Search terms to find this application. Do NOT translate or localize the semicolons! The list MUST also end with a semicolon!
+#: yelp.desktop.in:6
+msgid "documentation;information;manual;help;"
+msgstr ""
+
+#~ msgid "GNU Info Pages"
+#~ msgstr "GNU maʼlumot sahifalari"
+
+#~ msgid "Traditional command line help (info)"
+#~ msgstr "Anʼanaviy buyruqlar satri yordami (info)"
+
+#~ msgid "Applications"
+#~ msgstr "Dasturlar"
+
+#~ msgid "BLT Functions"
+#~ msgstr "BLT funksiyalari"
+
+#~ msgid "Configuration Files"
+#~ msgstr "Moslama fayllari"
+
+#~ msgid "Curses Functions"
+#~ msgstr "Curses funksiyalari"
+
+#~ msgid "FORTRAN Functions"
+#~ msgstr "FORTRAN funksiyalari"
+
+#~ msgid "Games"
+#~ msgstr "Oʻyinlar"
+
+#~ msgid "OpenSSL Applications"
+#~ msgstr "OpenSSL dasturlari"
+
+#~ msgid "OpenSSL Configuration"
+#~ msgstr "OpenSSL moslamasi"
+
+#~ msgid "OpenSSL Functions"
+#~ msgstr "OpenSSL funksiyalari"
+
+#~ msgid "POSIX Functions"
+#~ msgstr "POSIX funksiyalari"
+
+#~ msgid "Perl Functions"
+#~ msgstr "Perl funksiyalari"
+
+#~ msgid "Qt Functions"
+#~ msgstr "Qt funksiyalari"
+
+#~ msgid "Readline Functions"
+#~ msgstr "Readline funksiyalari"
+
+#~ msgid "Section 0p"
+#~ msgstr "Boʻlim 0p"
+
+#~ msgid "Section 1m"
+#~ msgstr "Boʻlim 1m"
+
+#~ msgid "Section 1ssl"
+#~ msgstr "Boʻlim 1ssl"
+
+#~ msgid "Section 1x"
+#~ msgstr "Boʻlim 1x"
+
+#~ msgid "Section 2"
+#~ msgstr "Boʻlim 2"
+
+#~ msgid "Section 3blt"
+#~ msgstr "Boʻlim 3blt"
+
+#~ msgid "Section 3f"
+#~ msgstr "Boʻlim 3f"
+
+#~ msgid "Section 3nas"
+#~ msgstr "Boʻlim 3nas"
+
+#~ msgid "Section 3p"
+#~ msgstr "Boʻlim 3p"
+
+#~ msgid "Section 3qt"
+#~ msgstr "Boʻlim 3qt"
+
+#~ msgid "Section 3readline"
+#~ msgstr "Boʻlim 3readline"
+
+#~ msgid "Section 3ssl"
+#~ msgstr "Boʻlim 3ssl"
+
+#~ msgid "Section 3tiff"
+#~ msgstr "Boʻlim 3tiff"
+
+#~ msgid "Section 4"
+#~ msgstr "Boʻlim 4"
+
+#~ msgid "Section 4x"
+#~ msgstr "Boʻlim 4x"
+
+#~ msgid "Section 5"
+#~ msgstr "Boʻlim 5"
+
+#~ msgid "Section 5ssl"
+#~ msgstr "Boʻlim 5ssl"
+
+#~ msgid "Section 5x"
+#~ msgstr "Boʻlim 5x"
+
+#~ msgid "Section 6"
+#~ msgstr "Boʻlim 6"
+
+#~ msgid "Section 6x"
+#~ msgstr "Boʻlim 6x"
+
+#~ msgid "Section 7ssl"
+#~ msgstr "Boʻlim 7ssl"
+
+#~ msgid "Section 7x"
+#~ msgstr "Boʻlim 7x"
+
+#~ msgid "Section 9"
+#~ msgstr "Boʻlim 9"
+
+#~ msgid "Sections 1, 1p, 1g and 1t"
+#~ msgstr "Boʻlim 1, 1p, 1g va 1t"
+
+#~ msgid "Sections 3, 3o, and 3t"
+#~ msgstr "Boʻlim 3, 3o, va 3t"
+
+#~ msgid "Sections 3form and 3menu"
+#~ msgstr "Boʻlim 3form va 3menu"
+
+#~ msgid "Sections 3ncurses and 3curses"
+#~ msgstr "Boʻlimlar 3ncurses va 3curses"
+
+#~ msgid "Sections 3pm and 3perl"
+#~ msgstr "Boʻlimlar 3pm va 3perl"
+
+#~ msgid "Sections 3x and 3X11"
+#~ msgstr "Boʻlimlar 3x va 3X11"
+
+#~ msgid "Sections 7 and 7gcc"
+#~ msgstr "Boʻlimlar 7 va 7gcc"
+
+#~ msgid "Sections 8 and 8l"
+#~ msgstr "Boʻlimlar 8 va 8l"
+
+#~ msgid "System Administration"
+#~ msgstr "Tizimni boshqarish"
+
+#~ msgid "System Calls"
+#~ msgstr "Tizim chaqiruvlari"
+
+#~ msgid "TIFF Functions"
+#~ msgstr "TIFF funksiyalari"
+
+#~ msgid "Termcap Applications"
+#~ msgstr "Termcap dasturlari"
+
+#~ msgid "Traditional command line help (man)"
+#~ msgstr "Anʼanaviy buyruq satri yordami (man)"
+
+#~ msgid "X11 Applications"
+#~ msgstr "X11 dasturlari"
+
+#~ msgid "X11 Configuration"
+#~ msgstr "X11 moslamasi"
+
+#~ msgid "X11 Devices"
+#~ msgstr "X11 uskunalari"
+
+#~ msgid "X11 Functions"
+#~ msgstr "X11 funksiyalari"
+
+#~ msgid "X11 Games"
+#~ msgstr "X11 oʻyinlari"
+
+#~ msgid "2D Graphics"
+#~ msgstr "2D grafika"
+
+#~ msgid "3D Graphics"
+#~ msgstr "3D grafika"
+
+#~ msgid "Accessibility"
+#~ msgstr "Qulayliklar"
+
+#~ msgid "Adventure Games"
+#~ msgstr "Sarguzasht oʻyinlari"
+
+#~ msgid "Applications related to audio and video"
+#~ msgstr "Audio va videoga oid dasturlar"
+
+#~ msgid "Archiving Tools"
+#~ msgstr "Arxivlash vositalari"
+
+#~ msgid "Art"
+#~ msgstr "Sanʼat"
+
+#~ msgid "Artificial Intelligence"
+#~ msgstr "Sunʼiy ong"
+
+#~ msgid "Astronomy"
+#~ msgstr "Astronomiya"
+
+#~ msgid "Biology"
+#~ msgstr "Biologiya"
+
+#~ msgid "Board Games"
+#~ msgstr "Stol oʻyinlari"
+
+#~ msgid "Calculator"
+#~ msgstr "Kalkulyator"
+
+#~ msgid "Calendar"
+#~ msgstr "Taqvim"
+
+#~ msgid "Card Games"
+#~ msgstr "Karta oʻyinlari"
+
+#~ msgid "Chat"
+#~ msgstr "Chat"
+
+#~ msgid "Chemistry"
+#~ msgstr "Kimyo"
+
+#~ msgid "Clocks"
+#~ msgstr "Soatlar"
+
+#~ msgid "Compression Tools"
+#~ msgstr "Qisish vositalari"
+
+#~ msgid "Computer Science"
+#~ msgstr "Kompyuter ilmi"
+
+#~ msgid "Construction"
+#~ msgstr "Qurilish"
+
+#~ msgid "Databases"
+#~ msgstr "Maʼlumot bazalari"
+
+#~ msgid "Desktop"
+#~ msgstr "Ish stoli"
+
+#~ msgid "Desktop Settings"
+#~ msgstr "Ish stoli moslamalari"
+
+#~ msgid "Dictionaries"
+#~ msgstr "Lugʻatlar"
+
+#~ msgid "Disc Burning"
+#~ msgstr "Diskka yozish"
+
+#~ msgid "Economy"
+#~ msgstr "Iqtisodiyot"
+
+#~ msgid "Education"
+#~ msgstr "Taʼlim"
+
+#~ msgid "Electronics"
+#~ msgstr "Elektronika"
+
+#~ msgid "Email Tools"
+#~ msgstr "El.pochta vositalari"
+
+#~ msgid "Emulator"
+#~ msgstr "Emulyator"
+
+#~ msgid "Engineering"
+#~ msgstr "Muhandislik"
+
+#~ msgid "File Manager"
+#~ msgstr "Fayl boshqaruvchisi"
+
+#~ msgid "File Tools"
+#~ msgstr "Fayl vositalari"
+
+#~ msgid "File Transfer"
+#~ msgstr "Fayl uzatish"
+
+#~ msgid "Filesystem"
+#~ msgstr "Fayl tizimi"
+
+#~ msgid "Financial Tools"
+#~ msgstr "Moliyaviy vositalar"
+
+#~ msgid "GNOME Applications"
+#~ msgstr "GNOME dasturlari"
+
+#~ msgid "GTK"
+#~ msgstr "GTK"
+
+#~ msgid "GUI Designers"
+#~ msgstr "Foydalanuvchi interfeysi dizaynerlari"
+
+#~ msgid "Generic applications for the GNOME environment"
+#~ msgstr "GNOME muhiti umumiy dasturlari"
+
+#~ msgid "Generic applications for the KDE environment"
+#~ msgstr "KDE muhiti umumiy dasturlari"
+
+#~ msgid "Geography"
+#~ msgstr "Geografiya"
+
+#~ msgid "Geology"
+#~ msgstr "Geologiya"
+
+#~ msgid "Graphics"
+#~ msgstr "Grafika"
+
+#~ msgid "History"
+#~ msgstr "Tarix"
+
+#~ msgid "IDEs"
+#~ msgstr "IDE'lar"
+
+#~ msgid "IRC Clients"
+#~ msgstr "IRC klientlari"
+
+#~ msgid "Internet"
+#~ msgstr "Internet"
+
+#~ msgid "Java"
+#~ msgstr "Java"
+
+#~ msgid "KDE Applications"
+#~ msgstr "KDE dasturlari"
+
+#~ msgid "Kids Games"
+#~ msgstr "Bolalar oʻyinlari"
+
+#~ msgid "Licenses"
+#~ msgstr "Litsenziyalar"
+
+#~ msgid "Literature"
+#~ msgstr "Adabiyot"
+
+#~ msgid "Logic Games"
+#~ msgstr "Mantiqiy oʻyinlar"
+
+#~ msgid "Math"
+#~ msgstr "Matematika"
+
+#~ msgid "Medical Software"
+#~ msgstr "Tibbiyot dasturi"
+
+#~ msgid "Midi"
+#~ msgstr "Midi"
+
+#~ msgid "Miscellaneous Documentation"
+#~ msgstr "Har-xil qoʻllanmalar"
+
+#~ msgid "Monitor"
+#~ msgstr "Monitor"
+
+#~ msgid "Music"
+#~ msgstr "Musiqa"
+
+#~ msgid "News"
+#~ msgstr "Yangiliklar"
+
+#~ msgid "OCR"
+#~ msgstr "OCR"
+
+#~ msgid "Office Applications"
+#~ msgstr "Idora dasturlari"
+
+#~ msgid "Office applications"
+#~ msgstr "Idora dasturlari"
+
+#~ msgid "Other Documentation"
+#~ msgstr "Boshqa qoʻllanma"
+
+#~ msgid "P2P"
+#~ msgstr "P2P"
+
+#~ msgid "Package Manager"
+#~ msgstr "Paket boshqaruvchisi"
+
+#~ msgid "Photography"
+#~ msgstr "Fotografiya"
+
+#~ msgid "Physics"
+#~ msgstr "Fizika"
+
+#~ msgid "Players"
+#~ msgstr "Pleyerlar"
+
+#~ msgid "Printing"
+#~ msgstr "Bosib chiqarish"
+
+#~ msgid "Qt"
+#~ msgstr "Qt"
+
+#~ msgid "Remote Access"
+#~ msgstr "Masofadan ulanish"
+
+#~ msgid "Revision Control"
+#~ msgstr "Versiyalarni boshqarish"
+
+#~ msgid "Robotics"
+#~ msgstr "Robototexnika"
+
+#~ msgid "Role Playing Games"
+#~ msgstr "Rol oʻynash oʻyinlari"
+
+#~ msgid "Security"
+#~ msgstr "Xavfsizlik"
+
+#~ msgid "Settings"
+#~ msgstr "Moslamalar"
+
+#~ msgid "Simulation Games"
+#~ msgstr "Simulyator oʻyinlari"
+
+#~ msgid "Sound"
+#~ msgstr "Tovush"
+
+#~ msgid "Sound &amp; Video"
+#~ msgstr "Tovush va video"
+
+#~ msgid "Sports"
+#~ msgstr "Sport"
+
+#~ msgid "Sports Games"
+#~ msgstr "Sport oʻyinlari"
+
+#~ msgid "Spreadsheet Tools"
+#~ msgstr "Elektron jadval vositalari"
+
+#~ msgid "Strategy Games"
+#~ msgstr "Strategik oʻyinlar"
+
+#~ msgid "System"
+#~ msgstr "Tizim"
+
+#~ msgid "TV"
+#~ msgstr "TV"
+
+#~ msgid "Telephony"
+#~ msgstr "Telefoniya"
+
+#~ msgid "Telephony Tools"
+#~ msgstr "Telefoniya vositalari"
+
+#~ msgid "Terminal Emulator"
+#~ msgstr "Terminal emulyatori"
+
+#~ msgid "Text Editors"
+#~ msgstr "Matn tahrirchilari"
+
+#~ msgid "Text Tools"
+#~ msgstr "Matn vositalari"
+
+#~ msgid "Tools to help you manage your computer"
+#~ msgstr "Kompyuterni boshqarish uchun yordam beruvchi vositalar"
+
+#~ msgid "Translation Tools"
+#~ msgstr "Tarjima vositalari"
+
+#~ msgid "Tuners"
+#~ msgstr "Tyunerlar"
+
+#~ msgid "Vector Graphics"
+#~ msgstr "Vektorli grafika"
+
+#~ msgid "Video"
+#~ msgstr "Video"
+
+#~ msgid "Video Conference"
+#~ msgstr "Video konferensiya"
+
+#~ msgid "Web Browser"
+#~ msgstr "Veb brauzer"
+
+#~ msgid "Welcome to the GNOME Help Browser"
+#~ msgstr "GNOME yordam tizimiga xush kelibsiz"
+
+#~ msgid "<b>Accessibility</b>"
+#~ msgstr "<b>Qulayliklar</b>"
+
+#~ msgid "<b>Fonts</b>"
+#~ msgstr "<b>Shriftlar</b>"
+
+#~ msgid "C_ase sensitive"
+#~ msgstr "Katta-kichik harfni _farqlash"
+
+#~ msgid "Preferences"
+#~ msgstr "Parametrlar"
+
+#~ msgid "Re_name"
+#~ msgstr "_Nomini oʻzgartirish"
+
+#~ msgid "_Bookmarks:"
+#~ msgstr "_Xatchoʻplar:"
+
+#~ msgid "_Find:"
+#~ msgstr "_Qidirish:"
+
+#~ msgid "_Fixed width:"
+#~ msgstr "Eni _oʻzgarmaydigan:"
+
+#~ msgid "_Location:"
+#~ msgstr "_Manzili:"
+
+#~ msgid "_Next"
+#~ msgstr "_Keyingi"
+
+#~ msgid "_Title:"
+#~ msgstr "_Sarlavha:"
+
+#~ msgid "_Use system fonts"
+#~ msgstr "Tizimning shriftidan _foydalanish"
+
+#~ msgid "_Variable width:"
+#~ msgstr "_Oʻzgaruvchan kenglik:"
+
+#~ msgid "Font for text"
+#~ msgstr "Matn uchun shrift"
+
+#~ msgid "Use system fonts"
+#~ msgstr "Tizim shriftidan foydalanish"
+
+#~ msgid "Open Bookmark in New Window"
+#~ msgstr "Xatchoʻpni yangi oynada ochish"
+
+#~ msgid "Rename Bookmark"
+#~ msgstr "Xatchoʻpning nomini oʻzgartirish"
+
+#, c-format
+#~ msgid "A bookmark titled %s already exists for this page."
+#~ msgstr "Ushbu sahifa uchun %s nomli xatchoʻp allaqachon mavjud."
+
+#, c-format
+#~ msgid "A bookmark titled <b>%s</b> already exists for this page."
+#~ msgstr "Ushbu sahifa uchun <b>%s</b> nomli xatchoʻp allaqachon mavjud."
+
+#~ msgid "File not found"
+#~ msgstr "Fayl topilmadi"
+
+#~ msgid "Could Not Read File"
+#~ msgstr "Faylni oʻqib boʻlmadi"
+
+#~ msgid "No information is available about this error."
+#~ msgstr "Ushbu xatolik uchun maʼlumot mavjud emas."
+
+#~ msgid " GNOME Help Browser"
+#~ msgstr " GNOME yordam brauzeri"
+
+#~ msgid "Preparing to print"
+#~ msgstr "Bosib chiqarishga tayyorlanilmoqda"
+
+#~ msgid "Printing is not supported on this printer"
+#~ msgstr "Ushbu printerda bosib chiqarish qoʻllanilmaydi"
+
+#, c-format
+#~ msgid "Printer %s does not support postscript printing."
+#~ msgstr "%s printeri postscript usulini qoʻllamaydi."
+
+#~ msgid "Waiting to print"
+#~ msgstr "Bosib chiqarish kutilmoqda"
+
+#~ msgid "An error occurred while printing"
+#~ msgstr "Bosib chiqarishda xatolik yuz berdi"
+
+#, c-format
+#~ msgid "It was not possible to print your document: %s"
+#~ msgstr "Hujjatni bosib chiqarining imkoniyati yoʻq: %s"
+
+#~ msgid "the GNOME Support Forums"
+#~ msgstr "GNOME qoʻllab-quvvatlash foruslari"
+
+#, c-format
+#~ msgid "No results for \"%s\""
+#~ msgstr "\"%s\" uchun natija yoʻq"
+
+#~ msgid "No Comment"
+#~ msgstr "Izohsiz"
+
+#~ msgid "Invalid Stylesheet"
+#~ msgstr "Xato uslublar jadvali"
+
+#~ msgid "_File"
+#~ msgstr "_Fayl"
+
+#~ msgid "_Edit"
+#~ msgstr "_Tahrirlash"
+
+#~ msgid "_Go"
+#~ msgstr "_Oʻtish"
+
+#~ msgid "_Bookmarks"
+#~ msgstr "_Xatchoʻplar"
+
+#~ msgid "_Help"
+#~ msgstr "_Yordam"
+
+#~ msgid "Print This Document ..."
+#~ msgstr "Ushbu hujjatni bosib chiqarish ..."
+
+#~ msgid "Print This Page ..."
+#~ msgstr "Ushbu sahifani bosib chiqarish ..."
+
+#~ msgid "About This Document"
+#~ msgstr "Ushbu hujjat haqida"
+
+#~ msgid "Open _Location"
+#~ msgstr "_Manzilni ochish"
+
+#~ msgid "_Close Window"
+#~ msgstr "Oynani _yopish"
+
+#~ msgid "_Select All"
+#~ msgstr "Hammasini _tanlash"
+
+#~ msgid "_Find..."
+#~ msgstr "_Qidirish..."
+
+#~ msgid "Find Pre_vious"
+#~ msgstr "Oldin_gisini qidirish"
+
+#~ msgid "Find Ne_xt"
+#~ msgstr "_Keyingisini qidirish"
+
+#~ msgid "_Preferences"
+#~ msgstr "_Parametrlar"
+
+#~ msgid "_Reload"
+#~ msgstr "_Qaytadan yuklash"
+
+#~ msgid "Show previous page in history"
+#~ msgstr "Oldingi sahifani koʻrsatish"
+
+#~ msgid "Show next page in history"
+#~ msgstr "Keyingi sahifani koʻrsatish"
+
+#~ msgid "_Previous Section"
+#~ msgstr "_Oldingi boʻlim"
+
+#~ msgid "_Next Section"
+#~ msgstr "_Keyingi boʻlim"
+
+#~ msgid "_Add Bookmark"
+#~ msgstr "Xatchoʻplarga _qoʻshish"
+
+#~ msgid "_Edit Bookmarks..."
+#~ msgstr "Xatchoʻplarni _tahrirlash"
+
+#~ msgid "_Copy Link Address"
+#~ msgstr "Bogʻlama manzilidan _nusxa olish"
+
+#~ msgid "Help On this application"
+#~ msgstr "Ushbu dastur boʻyicha qoʻllanma"
+
+#~ msgid "_About"
+#~ msgstr "_Haqida"
+
+#~ msgid "Copy _Email Address"
+#~ msgstr "_Elektron pochtadan nusxa olish"
+
+#~ msgid "Loading..."
+#~ msgstr "Yuklanmoqda..."
+
+#~ msgid "Unknown Page"
+#~ msgstr "Nomaʼlum sahifa"
+
+#~ msgid "Unable to load page"
+#~ msgstr "Sahifani yuklab boʻlmadi"
+
+#~ msgid "_Search:"
+#~ msgstr "_Qidirish:"
+
+#~ msgid "Fin_d:"
+#~ msgstr "Qidiri_sh:"
+
+#~ msgid "Find _Previous"
+#~ msgstr "Oldin_gisini qidirish"
+
+#~ msgid "Find _Next"
+#~ msgstr "_Keyingisini qidirish"
+
+#~ msgid "Phrase not found"
+#~ msgstr "Jumla topilmadi"
+
+#~ msgid "translator-credits"
+#~ msgstr "Nurali Abdurahmonov <mavnur@gmail.com>"
+
+#~ msgid "Yelp"
+#~ msgstr "Yelp"
+
+#~ msgid "A documentation browser and viewer for the Gnome Desktop."
+#~ msgstr "Gnome ish stoli uchun qoʻllanmalarni koʻrish dasturi."

@@ -1,0 +1,1091 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/sound-juicer/issues\n"
+"POT-Creation-Date: 2022-05-02 13:20+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+
+#: data/org.gnome.sound-juicer.gschema.xml:19
+msgid "The CD to extract from"
+msgstr ""
+
+#: data/org.gnome.sound-juicer.gschema.xml:20
+msgid ""
+"Please note: Sound Juicer currently only handles real device names, no "
+"symlinks like e.g. /dev/cdrom. An empty key implicates that the system's "
+"default CD-ROM drive will be used."
+msgstr ""
+
+#: data/org.gnome.sound-juicer.gschema.xml:25
+msgid "Whether to eject the CD when finished extracting"
+msgstr ""
+
+#: data/org.gnome.sound-juicer.gschema.xml:30
+msgid "Whether to open the target directory when finished extracting"
+msgstr ""
+
+#: data/org.gnome.sound-juicer.gschema.xml:35
+msgid "The URI to save the extracted music to"
+msgstr ""
+
+#: data/org.gnome.sound-juicer.gschema.xml:40
+msgid "The directory structure for the files"
+msgstr ""
+
+#: data/org.gnome.sound-juicer.gschema.xml:41
+msgid ""
+"Format specifiers: %at - album title; %aT - album title (lowercase); %aa - "
+"album artist; %aA - album artist (lowercase); %as - album artist (sortable); "
+"%aS - album artist (sortable lowercase); %ac - album composer; %aC - album "
+"composer (lowercase); %ap - album composer (sortable); %aP - album composer "
+"(sortable lowercase); %ay - album year; %tt - track title; %tT - track title "
+"(lowercase); %ta - track artist; %tA - track artist (lowercase); %ts - track "
+"artist (sortable); %tS - track artist (sortable lowercase); %tc - track "
+"composer; %tC - track composer (lowercase); %tp - track composer (sortable); "
+"%tP - track composer (sortable lowercase)."
+msgstr ""
+
+#: data/org.gnome.sound-juicer.gschema.xml:46
+msgid "The name pattern for files"
+msgstr ""
+
+#: data/org.gnome.sound-juicer.gschema.xml:47
+msgid ""
+"Do not specify an extension. Format specifiers: %at - album title; %aT - "
+"album title (lowercase); %aa - album artist; %aA - album artist (lowercase); "
+"%as - album artist (sortable); %aS - album artist (sortable lowercase); %ac "
+"- album composer; %aC - album composer (lowercase); %ap - album composer "
+"(sortable); %aP - album composer (sortable lowercase); %tn - track number (i."
+"e 8); %tN - track number, zero padded (i.e 08); %tt - track title; %tT - "
+"track title (lowercase); %ta - track artist; %tA - track artist (lowercase); "
+"%ts - track artist (sortable); %tS - track artist (sortable lowercase); %tc "
+"- track composer; %tC - track composer (lowercase); %tp - track composer "
+"(sortable); %tP - track composer (sortable lowercase); %dn - disc and track "
+"number (i.e Disk 2 - 6, or 6); %dN - disc number, zero padded (i.e d02t06, "
+"or 06)."
+msgstr ""
+
+#: data/org.gnome.sound-juicer.gschema.xml:52
+msgid "The paranoia mode to use"
+msgstr ""
+
+#: data/org.gnome.sound-juicer.gschema.xml:53
+msgid "Paranoia flags: disable; fragment; overlap; scratch; repair."
+msgstr ""
+
+#: data/org.gnome.sound-juicer.gschema.xml:58
+msgid "Whether to strip special characters from filenames"
+msgstr ""
+
+#: data/org.gnome.sound-juicer.gschema.xml:59
+msgid ""
+"If enabled, special characters such as space, wildcards and backslashes will "
+"be removed from the output filename."
+msgstr ""
+
+#: data/org.gnome.sound-juicer.gschema.xml:64
+msgid "Media type to encode to"
+msgstr ""
+
+#: data/org.gnome.sound-juicer.gschema.xml:65
+msgid "The GStreamer media type to encode to."
+msgstr ""
+
+#: data/org.gnome.sound-juicer.gschema.xml:71
+msgid "Audio volume"
+msgstr ""
+
+#: data/sound-juicer.desktop.in.in:3 data/appdata/sound-juicer.appdata.xml.in:7
+#: data/sound-juicer.ui:7 src/sj-main.c:130 src/sj-main.c:132
+#: src/sj-main.c:2131
+msgid "Sound Juicer"
+msgstr ""
+
+#: data/sound-juicer.desktop.in.in:4
+msgid "Audio CD Extractor"
+msgstr ""
+
+#: data/sound-juicer.desktop.in.in:5
+msgid "Copy music from your CDs"
+msgstr ""
+
+#. Translators: Search terms to find this application. Do NOT translate or localize the semicolons! The list MUST also end with a semicolon!
+#: data/sound-juicer.desktop.in.in:7
+msgid "Ripper;"
+msgstr ""
+
+#: data/appdata/sound-juicer.appdata.xml.in:8
+msgid "CD ripper with a clean interface and simple preferences"
+msgstr ""
+
+#: data/appdata/sound-juicer.appdata.xml.in:10
+msgid ""
+"Sound Juicer is a simple and clean CD ripping tool. It allows you to extract "
+"the audio from audio compact discs and convert them into audio files that "
+"your computer can understand and play. Sound Juicer can also play the audio "
+"tracks directly from the CD, allowing you to preview the CD before ripping "
+"it."
+msgstr ""
+
+#: data/appdata/sound-juicer.appdata.xml.in:17
+msgid ""
+"Sound Juicer is designed to be easy to use, and to work with little user "
+"intervention. When you start Sound Juicer, it will examine the CD in the "
+"drive and try to locate information about the audio tracks using the freely-"
+"available MusicBrainz service."
+msgstr ""
+
+#: data/sj-album-chooser-dialog.ui:6
+msgid "Select Album"
+msgstr ""
+
+#: data/sj-album-chooser-dialog.ui:11
+msgid "_Select"
+msgstr ""
+
+#: data/sj-album-chooser-dialog.ui:28
+msgid "This CD could be more than one album. Please select which album it is."
+msgstr ""
+
+#: data/sound-juicer.ui:29
+msgid "_Edit Album"
+msgstr ""
+
+#: data/sound-juicer.ui:47
+msgid "_Reload Album"
+msgstr ""
+
+#: data/sound-juicer.ui:170
+msgid "_Year:"
+msgstr ""
+
+#: data/sound-juicer.ui:207
+msgid "_Disc:"
+msgstr ""
+
+#: data/sound-juicer.ui:253
+msgid "_Title:"
+msgstr ""
+
+#: data/sound-juicer.ui:282
+msgid "_Artist:"
+msgstr ""
+
+#: data/sound-juicer.ui:315
+msgid "_Composer:"
+msgstr ""
+
+#: data/sound-juicer.ui:348
+msgid "_Genre:"
+msgstr ""
+
+#: data/sound-juicer.ui:366
+msgid "Duration:"
+msgstr ""
+
+#: data/sound-juicer.ui:421
+msgid "Tracks"
+msgstr ""
+
+#: data/sound-juicer.ui:445 src/sj-main.c:1866 src/sj-play.c:121
+#: src/sj-play.c:259 src/sj-play.c:622
+msgid "_Play"
+msgstr ""
+
+#: data/sound-juicer.ui:460 src/sj-extracting.c:233 src/sj-main.c:1890
+msgid "E_xtract"
+msgstr ""
+
+#: data/sound-juicer.ui:489
+msgid "Track Progress"
+msgstr ""
+
+#: data/sound-juicer.ui:595 data/sound-juicer-menu.ui:33
+msgid "Preferences"
+msgstr ""
+
+#: data/sound-juicer.ui:614
+msgid "Device"
+msgstr ""
+
+#: data/sound-juicer.ui:630
+msgid "CD _drive:"
+msgstr ""
+
+#: data/sound-juicer.ui:652
+msgid "_Eject after extracting tracks"
+msgstr ""
+
+#: data/sound-juicer.ui:667
+msgid "_Open music folder when finished"
+msgstr ""
+
+#: data/sound-juicer.ui:685
+msgid "Music Folder"
+msgstr ""
+
+#: data/sound-juicer.ui:701
+msgid "_Folder:"
+msgstr ""
+
+#: data/sound-juicer.ui:717
+msgid "Select A Folder"
+msgstr ""
+
+#: data/sound-juicer.ui:730
+msgid "Track Names"
+msgstr ""
+
+#: data/sound-juicer.ui:746
+msgid "Folder hie_rarchy:"
+msgstr ""
+
+#: data/sound-juicer.ui:777
+msgid "File _name:"
+msgstr ""
+
+#: data/sound-juicer.ui:805
+msgid "_Strip special characters"
+msgstr ""
+
+#: data/sound-juicer.ui:836
+msgid "Format"
+msgstr ""
+
+#: data/sound-juicer.ui:852
+msgid "O_utput Format:"
+msgstr ""
+
+#: data/sound-juicer-menu.ui:5
+msgid "Disc"
+msgstr ""
+
+#: data/sound-juicer-menu.ui:8
+msgid "Re-read"
+msgstr ""
+
+#: data/sound-juicer-menu.ui:13
+msgid "Duplicate"
+msgstr ""
+
+#: data/sound-juicer-menu.ui:17
+msgid "Eject"
+msgstr ""
+
+#: data/sound-juicer-menu.ui:26
+msgid "Open MusicBrainz"
+msgstr ""
+
+#: data/sound-juicer-menu.ui:39
+msgid "Shortcuts"
+msgstr ""
+
+#: data/sound-juicer-menu.ui:43
+msgid "Help"
+msgstr ""
+
+#: data/sound-juicer-menu.ui:48
+msgid "About"
+msgstr ""
+
+#: data/sound-juicer-menu.ui:52
+msgid "Quit"
+msgstr ""
+
+#: data/sound-juicer-shortcuts.ui:14
+msgctxt "shortcut window"
+msgid "Disc"
+msgstr ""
+
+#: data/sound-juicer-shortcuts.ui:19
+msgctxt "shortcut window"
+msgid "Reread track names"
+msgstr ""
+
+#: data/sound-juicer-shortcuts.ui:26
+msgctxt "shortcut window"
+msgid "Eject disc"
+msgstr ""
+
+#: data/sound-juicer-shortcuts.ui:33
+msgctxt "shortcut window"
+msgid "Toggle playback"
+msgstr ""
+
+#: data/sound-juicer-shortcuts.ui:40
+msgctxt "shortcut window"
+msgid "Next track"
+msgstr ""
+
+#: data/sound-juicer-shortcuts.ui:47
+msgctxt "shortcut window"
+msgid "Previous track"
+msgstr ""
+
+#: data/sound-juicer-shortcuts.ui:55
+msgctxt "shortcut window"
+msgid "General"
+msgstr ""
+
+#: data/sound-juicer-shortcuts.ui:60
+msgctxt "shortcut window"
+msgid "Help"
+msgstr ""
+
+#: data/sound-juicer-shortcuts.ui:67
+msgctxt "shortcut window"
+msgid "Shortcuts help"
+msgstr ""
+
+#: data/sound-juicer-shortcuts.ui:74
+msgctxt "shortcut window"
+msgid "Quit"
+msgstr ""
+
+#: data/sound-juicer-shortcuts.ui:81
+msgctxt "shortcut window"
+msgid "Select all tracks"
+msgstr ""
+
+#: data/sound-juicer-shortcuts.ui:88
+msgctxt "shortcut window"
+msgid "Unselect all tracks"
+msgstr ""
+
+#: libjuicer/sj-extractor.c:355
+#, c-format
+msgid "Could not create GStreamer CD reader"
+msgstr ""
+
+#: libjuicer/sj-extractor.c:373
+#, c-format
+msgid "Could not create GStreamer encoders for %s"
+msgstr ""
+
+#: libjuicer/sj-extractor.c:385
+#, c-format
+msgid "Could not create GStreamer file output"
+msgstr ""
+
+#: libjuicer/sj-extractor.c:399
+#, c-format
+msgid "Could not link pipeline"
+msgstr ""
+
+#: libjuicer/sj-extractor.c:422
+msgid "Could not get current track position"
+msgstr ""
+
+#: libjuicer/sj-extractor.c:451
+#, c-format
+msgid ""
+"Extractor object is not valid. This is bad, check your console for errors."
+msgstr ""
+
+#: libjuicer/sj-extractor.c:711
+#, c-format
+msgid "The plugin necessary for CD access was not found"
+msgstr ""
+
+#: libjuicer/sj-extractor.c:719
+#, c-format
+msgid "The plugin necessary for file access was not found"
+msgstr ""
+
+#: libjuicer/sj-metadata.c:211 libjuicer/sj-metadata.c:234
+#: libjuicer/sj-metadata.c:245
+#, c-format
+msgid "Cannot read CD: %s"
+msgstr ""
+
+#: libjuicer/sj-metadata.c:212
+msgid "Devices haven't been all probed yet"
+msgstr ""
+
+#: libjuicer/sj-metadata.c:228
+#, c-format
+msgid "Device ‘%s’ does not contain any media"
+msgstr ""
+
+#: libjuicer/sj-metadata.c:231
+#, c-format
+msgid ""
+"Device ‘%s’ could not be opened. Check the access permissions on the device."
+msgstr ""
+
+#: libjuicer/sj-metadata.c:373
+msgid "Czechoslovakia"
+msgstr ""
+
+#: libjuicer/sj-metadata.c:374
+msgid "East Germany"
+msgstr ""
+
+#: libjuicer/sj-metadata.c:375
+msgid "Europe"
+msgstr ""
+
+#: libjuicer/sj-metadata.c:376
+msgid "Serbia and Montenegro"
+msgstr ""
+
+#: libjuicer/sj-metadata.c:377
+msgid "Soviet Union"
+msgstr ""
+
+#: libjuicer/sj-metadata.c:378
+msgid "Worldwide"
+msgstr ""
+
+#: libjuicer/sj-metadata.c:379
+msgid "Yugoslavia"
+msgstr ""
+
+#: libjuicer/sj-metadata-gvfs.c:97
+#, c-format
+msgid "Cannot access CD"
+msgstr ""
+
+#: libjuicer/sj-metadata-gvfs.c:119 src/egg-play-preview.c:575
+#: src/sj-main.c:355
+msgid "Unknown Title"
+msgstr ""
+
+#: libjuicer/sj-metadata-gvfs.c:125 libjuicer/sj-metadata-gvfs.c:155
+#: src/egg-play-preview.c:580 src/sj-extracting.c:984
+msgid "Unknown Artist"
+msgstr ""
+
+#: libjuicer/sj-metadata-gvfs.c:149
+#, c-format
+msgid "Track %d"
+msgstr ""
+
+#: libjuicer/sj-metadata-gvfs.c:176
+#, c-format
+msgid "Cannot access CD: %s"
+msgstr ""
+
+#. Translators: This string is used to build the composer tag
+#. when a track has composers and arrangers, or a composer and a
+#. mixture of arrangers, orchestrators and transcribers
+#: libjuicer/sj-metadata-musicbrainz5.c:695
+#, c-format
+msgid "%s arr. %s"
+msgstr ""
+
+#. Translators: This string is used to build the composer tag
+#. when a track has composers and orchestrators
+#: libjuicer/sj-metadata-musicbrainz5.c:699
+#, c-format
+msgid "%s orch. %s"
+msgstr ""
+
+#. Translators: This string is used to build the composer tag
+#. when a track has composers and transcribers
+#: libjuicer/sj-metadata-musicbrainz5.c:703
+#, c-format
+msgid "%s trans. %s"
+msgstr ""
+
+#. Translators: This string is used to build the composer tag
+#. when a track has a mixture of arrangers, orchestrators and
+#. transcribers but no composers
+#: libjuicer/sj-metadata-musicbrainz5.c:713
+#, c-format
+msgid "arr. %s"
+msgstr ""
+
+#. Translators: This string is used to build the composer tag
+#. when a track has orchestrators but no composer
+#: libjuicer/sj-metadata-musicbrainz5.c:717
+#, c-format
+msgid "orch. %s"
+msgstr ""
+
+#. Translators: This string is used to build the composer tag
+#. when a track has a transcribers but no composer
+#: libjuicer/sj-metadata-musicbrainz5.c:721
+#, c-format
+msgid "trans. %s"
+msgstr ""
+
+#: src/egg-play-preview.c:581 src/sj-extracting.c:983
+msgid "Unknown Album"
+msgstr ""
+
+#: src/sj-about.c:51
+msgid ""
+"Sound Juicer is free software; you can redistribute it and/or modify it "
+"under the terms of the GNU General Public License as published by the Free "
+"Software Foundation; either version 2 of the License, or (at your option) "
+"any later version."
+msgstr ""
+
+#: src/sj-about.c:55
+msgid ""
+"Sound Juicer is distributed in the hope that it will be useful, but WITHOUT "
+"ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or "
+"FITNESS FOR A PARTICULAR PURPOSE.  See the GNU General Public License for "
+"more details."
+msgstr ""
+
+#: src/sj-about.c:59
+msgid ""
+"You should have received a copy of the GNU General Public License along with "
+"Sound Juicer; if not, write to the Free Software Foundation, Inc., 51 "
+"Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA"
+msgstr ""
+
+#: src/sj-about.c:70
+msgid "An Audio CD Extractor"
+msgstr ""
+
+#. Translators: put here your name and email
+#. so it will show up in the "about" box
+#: src/sj-about.c:78
+msgid "translator-credits"
+msgstr ""
+
+#. Translators: this string is a list of catalog number(s) used by
+#. the label(s) to identify the release
+#: src/sj-album-chooser-dialog.c:242
+msgid "Catalog No.: "
+msgid_plural "Catalog Nos.: "
+msgstr[0] ""
+msgstr[1] ""
+
+#. Translators: this string appears when multiple CDs were
+#. found in musicbrainz online database, it corresponds to
+#. "Released: <country> in <year> on <label>"
+#: src/sj-album-chooser-dialog.c:284
+#, c-format
+msgid "Released: %s in %d on %s"
+msgstr ""
+
+#. Translators: this string appears when multiple CDs were
+#. found in musicbrainz online database, it corresponds to
+#. "Released: <country> on <label>"
+#: src/sj-album-chooser-dialog.c:292
+#, c-format
+msgid "Released: %s on %s"
+msgstr ""
+
+#. Translators: this string appears when multiple CDs were
+#. found in musicbrainz online database, it corresponds to
+#. "Released: <country> in <year>"
+#: src/sj-album-chooser-dialog.c:299
+#, c-format
+msgid "Released: %s in %d"
+msgstr ""
+
+#. Translators: this string appears when multiple CDs were
+#. found in musicbrainz online database, it corresponds to
+#. "Released: <country>"
+#: src/sj-album-chooser-dialog.c:306
+#, c-format
+msgid "Released: %s"
+msgstr ""
+
+#. Translators: this string appears when multiple CDs were
+#. found in musicbrainz online database, it corresponds to
+#. "Released in <year> on <label>"
+#: src/sj-album-chooser-dialog.c:313
+#, c-format
+msgid "Released in %d on %s"
+msgstr ""
+
+#. Translators: this string appears when multiple CDs were
+#. found in musicbrainz online database, it corresponds to
+#. "Released in <year>"
+#: src/sj-album-chooser-dialog.c:320
+#, c-format
+msgid "Released in %d"
+msgstr ""
+
+#. Translators: this string appears when multiple CDs were
+#. found in musicbrainz online database, it corresponds to
+#. "Released on <label>"
+#: src/sj-album-chooser-dialog.c:327
+#, c-format
+msgid "Released on %s"
+msgstr ""
+
+#: src/sj-album-chooser-dialog.c:330
+#, c-format
+msgid "Release label, year & country unknown"
+msgstr ""
+
+#. Translators: this string identifies
+#. the number of the barcode printed on
+#. the release
+#: src/sj-album-chooser-dialog.c:341 src/sj-album-chooser-dialog.c:350
+msgid "Barcode:"
+msgstr ""
+
+#: src/sj-album-chooser-dialog.c:374
+#, c-format
+msgid " (Disc %d/%d)"
+msgstr ""
+
+#: src/sj-extracting.c:148
+#, c-format
+msgid "Failed to get output format"
+msgstr ""
+
+#: src/sj-extracting.c:173
+msgid "Name too long"
+msgstr ""
+
+#: src/sj-extracting.c:309
+msgid "A file with the same name exists"
+msgstr ""
+
+#: src/sj-extracting.c:311
+#, c-format
+msgid ""
+"A file called ‘%s’ exists, size %s.\n"
+"Do you want to skip this track or overwrite it?"
+msgstr ""
+
+#: src/sj-extracting.c:325
+msgid "_Skip"
+msgstr ""
+
+#: src/sj-extracting.c:326
+msgid "S_kip All"
+msgstr ""
+
+#: src/sj-extracting.c:327
+msgid "_Overwrite"
+msgstr ""
+
+#: src/sj-extracting.c:328
+msgid "Overwrite _All"
+msgstr ""
+
+#: src/sj-extracting.c:377
+#, c-format
+msgid "Failed to create output directory: %s"
+msgstr ""
+
+#: src/sj-extracting.c:517
+#, c-format
+msgid "Estimated time left: %d:%02d (at %0.1f×)"
+msgstr ""
+
+#: src/sj-extracting.c:519
+msgid "Estimated time left: unknown"
+msgstr ""
+
+#: src/sj-extracting.c:609
+msgid "CD rip complete"
+msgstr ""
+
+#: src/sj-extracting.c:701
+msgid "Sound Juicer could not extract this CD."
+msgstr ""
+
+#: src/sj-extracting.c:703 src/sj-main.c:176 src/sj-main.c:418
+#: src/sj-main.c:457 src/sj-main.c:842 src/sj-main.c:1033
+msgid "Reason"
+msgstr ""
+
+#: src/sj-extracting.c:793 src/sj-main.c:1897
+msgid "_Stop"
+msgstr ""
+
+#: src/sj-extracting.c:821 src/sj-extracting.c:829
+msgid "Extracting audio from CD"
+msgstr ""
+
+#: src/sj-extracting.c:985
+msgid "Unknown Composer"
+msgstr ""
+
+#: src/sj-extracting.c:986
+msgid "Unknown Track"
+msgstr ""
+
+#: src/sj-genres.c:33
+msgid "Ambient"
+msgstr ""
+
+#: src/sj-genres.c:34
+msgid "Blues"
+msgstr ""
+
+#: src/sj-genres.c:35 src/sj-main.c:506
+msgid "Classical"
+msgstr ""
+
+#: src/sj-genres.c:36
+msgid "Country"
+msgstr ""
+
+#: src/sj-genres.c:37
+msgid "Dance"
+msgstr ""
+
+#: src/sj-genres.c:38
+msgid "Electronica"
+msgstr ""
+
+#: src/sj-genres.c:39
+msgid "Folk"
+msgstr ""
+
+#: src/sj-genres.c:40
+msgid "Funk"
+msgstr ""
+
+#: src/sj-genres.c:41
+msgid "Jazz"
+msgstr ""
+
+#: src/sj-genres.c:42
+msgid "Latin"
+msgstr ""
+
+#: src/sj-genres.c:43
+msgid "Pop"
+msgstr ""
+
+#: src/sj-genres.c:44
+msgid "Rap"
+msgstr ""
+
+#: src/sj-genres.c:45
+msgid "Reggae"
+msgstr ""
+
+#: src/sj-genres.c:46
+msgid "Rock"
+msgstr ""
+
+#: src/sj-genres.c:47
+msgid "Soul"
+msgstr ""
+
+#: src/sj-genres.c:48
+msgid "Spoken Word"
+msgstr ""
+
+#: src/sj-genres.c:197
+#, c-format
+msgid "Error while saving custom genre: %s"
+msgstr ""
+
+#: src/sj-main.c:175
+msgid "Could not start Sound Juicer"
+msgstr ""
+
+#: src/sj-main.c:178
+msgid "Please consult the documentation for assistance."
+msgstr ""
+
+#: src/sj-main.c:234
+msgid "You are currently extracting a CD. Do you want to quit now or continue?"
+msgstr ""
+
+#: src/sj-main.c:235 src/sj-main.c:1157
+msgid "_Quit"
+msgstr ""
+
+#: src/sj-main.c:236
+msgid "_Continue"
+msgstr ""
+
+#: src/sj-main.c:283 src/sj-main.c:1844 src/sj-main.c:1920
+msgid "Select None"
+msgstr ""
+
+#: src/sj-main.c:297 src/sj-main.c:1914
+msgid "Select All"
+msgstr ""
+
+#: src/sj-main.c:318 src/sj-main.c:665
+msgid "(unknown)"
+msgstr ""
+
+#: src/sj-main.c:356
+msgid ""
+"This album is not in the MusicBrainz database, please click ‘Edit Album’ to "
+"open your browser and edit it in MusicBrainz."
+msgstr ""
+
+#: src/sj-main.c:358
+#, c-format
+msgid ""
+"Could not find %s by %s on MusicBrainz, please click ‘Edit Album’ to open "
+"your browser and edit it in MusicBrainz."
+msgstr ""
+
+#: src/sj-main.c:394
+msgid "Click ‘Reload’ to load the edited album details from MusicBrainz"
+msgstr ""
+
+#: src/sj-main.c:416
+msgid "Could not open URL"
+msgstr ""
+
+#: src/sj-main.c:417
+msgid "Sound Juicer could not open the submission URL"
+msgstr ""
+
+#: src/sj-main.c:455
+msgid "Could not duplicate disc"
+msgstr ""
+
+#: src/sj-main.c:456
+msgid "Sound Juicer could not duplicate the disc"
+msgstr ""
+
+#: src/sj-main.c:506
+msgid "Lieder"
+msgstr ""
+
+#: src/sj-main.c:506
+msgid "Opera"
+msgstr ""
+
+#: src/sj-main.c:506
+msgid "Chamber"
+msgstr ""
+
+#: src/sj-main.c:506
+msgid "Musical"
+msgstr ""
+
+#: src/sj-main.c:840 src/sj-main.c:1031
+msgid "Could not read the CD"
+msgstr ""
+
+#: src/sj-main.c:841
+msgid "Sound Juicer could not read the track listing on this CD."
+msgstr ""
+
+#: src/sj-main.c:993
+#, c-format
+msgid "Sound Juicer could not use the CD-ROM device ‘%s’"
+msgstr ""
+
+#: src/sj-main.c:1000
+msgid "HAL daemon may not be running."
+msgstr ""
+
+#: src/sj-main.c:1024
+#, c-format
+msgid "Sound Juicer could not access the CD-ROM device ‘%s’"
+msgstr ""
+
+#: src/sj-main.c:1122
+msgid "No CD-ROM drives found"
+msgstr ""
+
+#: src/sj-main.c:1123
+msgid "Sound Juicer could not find any CD-ROM drives to read."
+msgstr ""
+
+#: src/sj-main.c:1156
+msgid ""
+"The currently selected audio profile is not available on your installation."
+msgstr ""
+
+#: src/sj-main.c:1158
+msgid "_Change Profile"
+msgstr ""
+
+#: src/sj-main.c:1547
+msgid "Unknown widget calling on_person_edit_changed."
+msgstr ""
+
+#: src/sj-main.c:1647 src/sj-prefs.c:120
+#, c-format
+msgid ""
+"Could not display help for Sound Juicer\n"
+"%s"
+msgstr ""
+
+#: src/sj-main.c:1706
+msgid "Retrieving track listing…please wait."
+msgstr ""
+
+#: src/sj-main.c:1873 src/sj-play.c:301
+msgid "_Pause"
+msgstr ""
+
+#: src/sj-main.c:1951
+msgid "Track"
+msgstr ""
+
+#: src/sj-main.c:1963
+msgid "Title"
+msgstr ""
+
+#: src/sj-main.c:1964
+msgid "Artist"
+msgstr ""
+
+#: src/sj-main.c:1965
+msgid "Composer"
+msgstr ""
+
+#: src/sj-main.c:1971
+msgid "Duration"
+msgstr ""
+
+#: src/sj-main.c:2119
+msgid "Start extracting immediately"
+msgstr ""
+
+#: src/sj-main.c:2120
+msgid "Start playing immediately"
+msgstr ""
+
+#: src/sj-main.c:2121
+msgid "What CD device to read"
+msgstr ""
+
+#: src/sj-main.c:2121
+msgid "DEVICE"
+msgstr ""
+
+#: src/sj-main.c:2122
+msgid "URI to the CD device to read"
+msgstr ""
+
+#: src/sj-main.c:2134
+msgid "- Extract music from your CDs"
+msgstr ""
+
+#: src/sj-play.c:193 src/sj-play.c:417 src/sj-play.c:453
+#, c-format
+msgid ""
+"Error playing CD.\n"
+"\n"
+"Reason: %s"
+msgstr ""
+
+#: src/sj-play.c:355
+#, c-format
+msgid "Failed to create CD source element"
+msgstr ""
+
+#: src/sj-play.c:593
+#, c-format
+msgid "Seeking to %s"
+msgstr ""
+
+#: src/sj-prefs.c:51
+msgid "Album Artist, Album Title"
+msgstr ""
+
+#: src/sj-prefs.c:52
+msgid "Album Artist (sortable), Album Title"
+msgstr ""
+
+#: src/sj-prefs.c:53
+msgid "Track Artist, Album Title"
+msgstr ""
+
+#: src/sj-prefs.c:54
+msgid "Track Artist (sortable), Album Title"
+msgstr ""
+
+#: src/sj-prefs.c:55
+msgid "Album Title"
+msgstr ""
+
+#: src/sj-prefs.c:56
+msgid "Album Artist"
+msgstr ""
+
+#: src/sj-prefs.c:57
+msgid "Album Artist (sortable)"
+msgstr ""
+
+#: src/sj-prefs.c:58
+msgid "Album Artist - Album Title"
+msgstr ""
+
+#: src/sj-prefs.c:59
+msgid "Album Artist (sortable) - Album Title"
+msgstr ""
+
+#: src/sj-prefs.c:60
+msgid "Album Composer, Album Title"
+msgstr ""
+
+#: src/sj-prefs.c:61
+msgid "Album Composer (sortable), Album Title"
+msgstr ""
+
+#: src/sj-prefs.c:62
+msgid "Track Composer, Album Title"
+msgstr ""
+
+#: src/sj-prefs.c:63
+msgid "Track Composer (sortable), Album Title"
+msgstr ""
+
+#: src/sj-prefs.c:64
+msgid "[none]"
+msgstr ""
+
+#: src/sj-prefs.c:69
+msgid "Number - Title"
+msgstr ""
+
+#: src/sj-prefs.c:70
+msgid "Track Title"
+msgstr ""
+
+#: src/sj-prefs.c:71
+msgid "Track Artist - Track Title"
+msgstr ""
+
+#: src/sj-prefs.c:72
+msgid "Track Artist (sortable) - Track Title"
+msgstr ""
+
+#: src/sj-prefs.c:73
+msgid "Number. Track Artist - Track Title"
+msgstr ""
+
+#: src/sj-prefs.c:75
+msgid "Number-Track Artist-Track Title (lowercase)"
+msgstr ""
+
+#: src/sj-prefs.c:77
+msgid "Track Composer - Track Artist - Track Title"
+msgstr ""
+
+#: src/sj-prefs.c:78
+msgid "Track Composer (sortable) - Track Artist (sortable) - Track Title"
+msgstr ""
+
+#: src/sj-prefs.c:79
+msgid "Number. Track Composer - Track Artist - Track Title"
+msgstr ""
+
+#: src/sj-prefs.c:80
+msgid "Number-Track Composer-Track Artist-Track Title (lowercase)"
+msgstr ""
+
+#: src/sj-prefs.c:250
+msgid "Example Path: "
+msgstr ""

@@ -1,0 +1,455 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/eog-plugins/issues\n"
+"POT-Creation-Date: 2022-01-12 20:54+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: plugins/exif-display/eog-exif-display-plugin.c:105
+msgid " (invalid Unicode)"
+msgstr ""
+
+#. TRANSLATORS: This is the actual focal length used when
+#. the image was taken.
+#: plugins/exif-display/eog-exif-display-plugin.c:183
+#, c-format
+msgid "%.1fmm (lens)"
+msgstr ""
+
+#. Print as float to get a similar look as above.
+#. TRANSLATORS: This is the equivalent focal length assuming
+#. a 35mm film camera.
+#: plugins/exif-display/eog-exif-display-plugin.c:194
+#, c-format
+msgid "%.1fmm (35mm film)"
+msgstr ""
+
+#: plugins/exif-display/exif-display-config.ui:53
+msgid "Histogram"
+msgstr ""
+
+#: plugins/exif-display/exif-display-config.ui:88
+msgid "Display per-channel histogram"
+msgstr ""
+
+#: plugins/exif-display/exif-display-config.ui:103
+msgid "Display RGB histogram"
+msgstr ""
+
+#: plugins/exif-display/exif-display-config.ui:135
+msgid "General"
+msgstr ""
+
+#: plugins/exif-display/exif-display-config.ui:170
+msgid "Display camera settings in statusbar"
+msgstr ""
+
+#: plugins/exif-display/exif-display.plugin.desktop.in:5
+#: plugins/exif-display/eog-exif-display.appdata.xml.in:6
+msgid "Exif Display"
+msgstr ""
+
+#: plugins/exif-display/exif-display.plugin.desktop.in:9
+msgid "Displays camera settings and histogram"
+msgstr ""
+
+#: plugins/exif-display/eog-exif-display.appdata.xml.in:7
+msgid "Displays Exif tags in the side panel and optionally the statusbar"
+msgstr ""
+
+#: plugins/exif-display/exif-display.ui:59
+msgid "ISO speed:"
+msgstr ""
+
+#: plugins/exif-display/exif-display.ui:74
+msgid "Expo. Time:"
+msgstr ""
+
+#: plugins/exif-display/exif-display.ui:89
+msgid "Aperture:"
+msgstr ""
+
+#: plugins/exif-display/exif-display.ui:104
+msgid "Zoom:"
+msgstr ""
+
+#: plugins/exif-display/exif-display.ui:119
+msgid "Metering:"
+msgstr ""
+
+#: plugins/exif-display/exif-display.ui:134
+msgid "Expo. bias:"
+msgstr ""
+
+#: plugins/exif-display/exif-display.ui:149
+msgid "Description:"
+msgstr ""
+
+#: plugins/export-to-folder/eog-export-to-folder.appdata.xml.in:6
+#: plugins/export-to-folder/export-to-folder.plugin.desktop.in:6
+msgid "Export to Folder"
+msgstr ""
+
+#: plugins/export-to-folder/eog-export-to-folder.appdata.xml.in:7
+#: plugins/export-to-folder/export-to-folder.plugin.desktop.in:10
+msgid "Export the current image to a separate directory"
+msgstr ""
+
+#: plugins/export-to-folder/export-to-folder.py:59
+msgid "_Export"
+msgstr ""
+
+#: plugins/export-to-folder/org.gnome.eog.plugins.export-to-folder.gschema.xml.in:5
+msgid "The folder to export to"
+msgstr ""
+
+#: plugins/export-to-folder/org.gnome.eog.plugins.export-to-folder.gschema.xml.in:6
+msgid ""
+"This is the folder the plugin will place the exported files in. Plugin will "
+"export to $HOME/exported-images if not set."
+msgstr ""
+
+#: plugins/export-to-folder/preferences_dialog.ui:15
+msgid "Export directory:"
+msgstr ""
+
+#: plugins/fit-to-width/eog-fit-to-width.appdata.xml.in:6
+#: plugins/fit-to-width/fit-to-width.plugin.desktop.in:5
+msgid "Zoom to Fit Image Width"
+msgstr ""
+
+#: plugins/fit-to-width/eog-fit-to-width.appdata.xml.in:7
+msgid "Adjusts the zoom to have the image’s width fit into the window"
+msgstr ""
+
+#: plugins/fit-to-width/eog-fit-to-width-plugin.c:129
+msgid "Fit to width"
+msgstr ""
+
+#: plugins/fit-to-width/fit-to-width.plugin.desktop.in:9
+msgid "Fit images to the window width"
+msgstr ""
+
+#: plugins/fullscreenbg/eog-fullscreenbg.appdata.xml.in:6
+#: plugins/fullscreenbg/fullscreenbg.plugin.desktop.in:6
+msgid "Fullscreen Background"
+msgstr ""
+
+#: plugins/fullscreenbg/eog-fullscreenbg.appdata.xml.in:7
+#: plugins/fullscreenbg/fullscreenbg.plugin.desktop.in:7
+msgid "Enables changing background in fullscreen mode"
+msgstr ""
+
+#: plugins/fullscreenbg/org.gnome.eog.plugins.fullscreenbg.gschema.xml.in:5
+msgid "Use custom background settings"
+msgstr ""
+
+#: plugins/fullscreenbg/org.gnome.eog.plugins.fullscreenbg.gschema.xml.in:6
+msgid "Whether the plugin should use global settings or its own."
+msgstr ""
+
+#: plugins/fullscreenbg/org.gnome.eog.plugins.fullscreenbg.gschema.xml.in:10
+msgid "Background color in fullscreen mode"
+msgstr ""
+
+#: plugins/fullscreenbg/org.gnome.eog.plugins.fullscreenbg.gschema.xml.in:11
+msgid ""
+"The color that is used to fill the area behind the image. This option has "
+"effect only if use-custom is enabled."
+msgstr ""
+
+#: plugins/fullscreenbg/preferences_dialog.ui:17
+msgid "Use custom color:"
+msgstr ""
+
+#: plugins/hide-titlebar/eog-hide-titlebar.appdata.xml.in:6
+#: plugins/hide-titlebar/hide-titlebar.plugin.desktop.in:5
+msgid "Hide Titlebar"
+msgstr ""
+
+#: plugins/hide-titlebar/eog-hide-titlebar.appdata.xml.in:7
+msgid "Hides the titlebar of maximized windows"
+msgstr ""
+
+#: plugins/hide-titlebar/hide-titlebar.plugin.desktop.in:9
+msgid "Hides the titlebar of maximized Eye of GNOME windows"
+msgstr ""
+
+#: plugins/light-theme/eog-light-theme.appdata.xml.in:6
+#: plugins/light-theme/light-theme.plugin.desktop.in:5
+msgid "Disable Dark Theme"
+msgstr ""
+
+#: plugins/light-theme/eog-light-theme.appdata.xml.in:7
+msgid "Disables dark theme"
+msgstr ""
+
+#: plugins/light-theme/light-theme.plugin.desktop.in:9
+msgid "Disables Eye of GNOME’s preference of dark theme variants"
+msgstr ""
+
+#: plugins/map/eog-map.appdata.xml.in:6 plugins/map/eog-map-plugin.c:467
+#: plugins/map/map.plugin.desktop.in:5
+msgid "Map"
+msgstr ""
+
+#: plugins/map/eog-map.appdata.xml.in:7
+msgid "Displays on a map in the side panel where the picture was taken"
+msgstr ""
+
+#: plugins/map/eog-map-plugin.c:430
+msgid "Jump to current image’s location"
+msgstr ""
+
+#: plugins/map/eog-map-plugin.c:443
+msgid "Zoom in"
+msgstr ""
+
+#: plugins/map/eog-map-plugin.c:452
+msgid "Zoom out"
+msgstr ""
+
+#: plugins/map/map.plugin.desktop.in:9
+msgid "Display the geolocation of the image on a map"
+msgstr ""
+
+#: plugins/maximize-windows/eog-maximize-windows.appdata.xml.in:5
+#: plugins/maximize-windows/maximize-windows.plugin.desktop.in:6
+msgid "Maximize Windows"
+msgstr ""
+
+#: plugins/maximize-windows/eog-maximize-windows.appdata.xml.in:6
+msgid "New windows will open maximized"
+msgstr ""
+
+#: plugins/maximize-windows/maximize-windows.plugin.desktop.in:7
+msgid "Maximize new windows"
+msgstr ""
+
+#: plugins/postasa/eog-postasa.appdata.xml.in:5
+msgid "Picasa Web Uploader"
+msgstr ""
+
+#: plugins/postasa/eog-postasa.appdata.xml.in:6
+msgid "Supports uploading photos to Google Picasa Web"
+msgstr ""
+
+#: plugins/postasa/eog-postasa-plugin.c:307
+msgid "Uploading…"
+msgstr ""
+
+#: plugins/postasa/eog-postasa-plugin.c:353
+msgid "Uploaded"
+msgstr ""
+
+#: plugins/postasa/eog-postasa-plugin.c:357
+msgid "Cancelled"
+msgstr ""
+
+#: plugins/postasa/eog-postasa-plugin.c:360
+msgid "Failed"
+msgstr ""
+
+#: plugins/postasa/eog-postasa-plugin.c:583
+#, c-format
+msgid "Login failed. %s"
+msgstr ""
+
+#: plugins/postasa/eog-postasa-plugin.c:587
+msgid "Logged in successfully."
+msgstr ""
+
+#: plugins/postasa/eog-postasa-plugin.c:588
+msgid "Close"
+msgstr ""
+
+#: plugins/postasa/eog-postasa-plugin.c:609
+msgid "Cancel"
+msgstr ""
+
+#. TODO: want to handle passwords more securely
+#: plugins/postasa/eog-postasa-plugin.c:615
+msgid "Logging in…"
+msgstr ""
+
+#: plugins/postasa/eog-postasa-plugin.c:664
+msgid "Please log in to continue upload."
+msgstr ""
+
+#: plugins/postasa/eog-postasa-plugin.c:843
+msgid "Upload to PicasaWeb"
+msgstr ""
+
+#: plugins/postasa/postasa-config.ui:9
+msgid "PicasaWeb Login"
+msgstr ""
+
+#: plugins/postasa/postasa-config.ui:26
+msgid "_Cancel"
+msgstr ""
+
+#: plugins/postasa/postasa-config.ui:41
+msgid "_Login"
+msgstr ""
+
+#: plugins/postasa/postasa-config.ui:72
+msgid "_Username:"
+msgstr ""
+
+#: plugins/postasa/postasa-config.ui:86
+msgid "_Password:"
+msgstr ""
+
+#: plugins/postasa/postasa.plugin.desktop.in:5
+msgid "PicasaWeb Uploader"
+msgstr ""
+
+#: plugins/postasa/postasa.plugin.desktop.in:9
+msgid "Upload your pictures to PicasaWeb"
+msgstr ""
+
+#: plugins/postasa/postasa-uploads.ui:37
+msgid "Uploads:"
+msgstr ""
+
+#: plugins/postasa/postasa-uploads.ui:62
+msgid "File"
+msgstr ""
+
+#: plugins/postasa/postasa-uploads.ui:84
+msgid "Size"
+msgstr ""
+
+#: plugins/postasa/postasa-uploads.ui:96
+msgid "Status"
+msgstr ""
+
+#: plugins/postasa/postasa-uploads.ui:125
+msgid "Cancel Selected"
+msgstr ""
+
+#: plugins/postasa/postasa-uploads.ui:138
+msgid "Cancel All"
+msgstr ""
+
+#: plugins/postr/eog-postr.appdata.xml.in:6
+msgid "Postr"
+msgstr ""
+
+#: plugins/postr/eog-postr.appdata.xml.in:7
+msgid "Supports uploading photos to Flickr"
+msgstr ""
+
+#: plugins/postr/eog-postr-plugin.c:156
+msgid "Upload to Flickr"
+msgstr ""
+
+#: plugins/postr/postr.plugin.desktop.in:5
+msgid "Flickr Uploader"
+msgstr ""
+
+#: plugins/postr/postr.plugin.desktop.in:9
+msgid "Upload your pictures to Flickr"
+msgstr ""
+
+#: plugins/pythonconsole/config.ui:56
+msgid "C_ommand color:"
+msgstr ""
+
+#: plugins/pythonconsole/config.ui:70
+msgid "_Error color:"
+msgstr ""
+
+#: plugins/pythonconsole/eog-pythonconsole.appdata.xml.in:6
+#: plugins/pythonconsole/__init__.py:87
+#: plugins/pythonconsole/pythonconsole.plugin.desktop.in:6
+msgid "Python Console"
+msgstr ""
+
+#: plugins/pythonconsole/eog-pythonconsole.appdata.xml.in:7
+msgid "Adds a Python console"
+msgstr ""
+
+#: plugins/pythonconsole/__init__.py:59
+msgid "P_ython Console"
+msgstr ""
+
+#: plugins/pythonconsole/org.gnome.eog.plugins.pythonconsole.gschema.xml.in:5
+msgid "Command Text Color"
+msgstr ""
+
+#: plugins/pythonconsole/org.gnome.eog.plugins.pythonconsole.gschema.xml.in:6
+msgid "The color used for commands."
+msgstr ""
+
+#: plugins/pythonconsole/org.gnome.eog.plugins.pythonconsole.gschema.xml.in:10
+msgid "Error Text Color"
+msgstr ""
+
+#: plugins/pythonconsole/org.gnome.eog.plugins.pythonconsole.gschema.xml.in:11
+msgid "The color used for errors."
+msgstr ""
+
+#: plugins/pythonconsole/org.gnome.eog.plugins.pythonconsole.gschema.xml.in:15
+msgid "Whether to use the system font"
+msgstr ""
+
+#: plugins/pythonconsole/org.gnome.eog.plugins.pythonconsole.gschema.xml.in:16
+msgid ""
+"If true, the terminal will use the desktop-global standard font if it’s "
+"monospace (and the most similar font it can come up with otherwise)."
+msgstr ""
+
+#: plugins/pythonconsole/org.gnome.eog.plugins.pythonconsole.gschema.xml.in:24
+msgid "Font used by Python Console"
+msgstr ""
+
+#: plugins/pythonconsole/org.gnome.eog.plugins.pythonconsole.gschema.xml.in:25
+msgid "A Pango font name. Examples are “Sans 12” or “Monospace Bold 14”."
+msgstr ""
+
+#: plugins/pythonconsole/pythonconsole.plugin.desktop.in:7
+msgid "Python console for Eye of GNOME"
+msgstr ""
+
+#: plugins/send-by-mail/eog-send-by-mail.appdata.xml.in:6
+msgid "Send by Mail"
+msgstr ""
+
+#: plugins/send-by-mail/eog-send-by-mail.appdata.xml.in:7
+#: plugins/send-by-mail/send-by-mail.plugin.desktop.in:9
+msgid "Sends an image attached to a new mail"
+msgstr ""
+
+#: plugins/send-by-mail/eog-send-by-mail-plugin.c:118
+msgid "Send by _Mail"
+msgstr ""
+
+#: plugins/send-by-mail/send-by-mail.plugin.desktop.in:5
+msgid "Send By Mail"
+msgstr ""
+
+#: plugins/slideshowshuffle/eog-slideshowshuffle.appdata.xml.in:6
+#: plugins/slideshowshuffle/slideshowshuffle.plugin.desktop.in:6
+msgid "Slideshow Shuffle"
+msgstr ""
+
+#: plugins/slideshowshuffle/eog-slideshowshuffle.appdata.xml.in:7
+msgid "Shuffles the photos in slideshow mode"
+msgstr ""
+
+#: plugins/slideshowshuffle/slideshowshuffle.plugin.desktop.in:10
+msgid "Shuffles images in slideshow mode"
+msgstr ""
