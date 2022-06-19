@@ -1,4 +1,4 @@
-# DE lar tarjimalari
+# i10n 
 
 ## Asosiy prioritetlar
 
