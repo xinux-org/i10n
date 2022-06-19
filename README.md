@@ -1,4 +1,4 @@
-# i10n 
+# i10n Lokalizatsiya
 
 ## Asosiy prioritetlar
 
