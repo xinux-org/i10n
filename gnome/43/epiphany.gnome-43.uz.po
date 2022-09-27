@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: uz@cyrillic\n"
 "Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/epiphany/issues\n"
-"POT-Creation-Date: 2022-06-12 15:26+0000\n"
+"POT-Creation-Date: 2022-09-23 16:42+0000\n"
 "PO-Revision-Date: 2009-01-07 21:30+0500\n"
 "Last-Translator: Nurali Abdurahmonov <mavnur@gmail.com>\n"
 "Language-Team: Uzbek\n"
@@ -22,7 +22,7 @@ msgstr ""
 #: data/org.gnome.Epiphany.appdata.xml.in.in:6
 #: data/org.gnome.Epiphany.desktop.in.in:3 embed/ephy-about-handler.c:193
 #: embed/ephy-about-handler.c:227 src/ephy-main.c:102 src/ephy-main.c:256
-#: src/ephy-main.c:409 src/window-commands.c:1005
+#: src/ephy-main.c:409 src/window-commands.c:1013
 msgid "Web"
 msgstr ""
 
@@ -909,7 +909,7 @@ msgstr ""
 msgid "About Web"
 msgstr "Dastur _haqida"
 
-#: embed/ephy-about-handler.c:195 src/window-commands.c:1007
+#: embed/ephy-about-handler.c:195 src/window-commands.c:1015
 msgid "Epiphany Technology Preview"
 msgstr ""
 
@@ -983,65 +983,72 @@ msgid ""
 "that you visit, and advertisers on these websites may still be tracking you."
 msgstr ""
 
-#: embed/ephy-download.c:652 src/preferences/prefs-general-page.c:723
+#: embed/ephy-download.c:678 src/preferences/prefs-general-page.c:723
 msgid "Select a Directory"
 msgstr "Direktoriyani tanlang"
 
-#: embed/ephy-download.c:655 src/preferences/prefs-general-page.c:726
-#: src/window-commands.c:311
+#: embed/ephy-download.c:681 embed/ephy-download.c:687
+#: src/preferences/prefs-general-page.c:726 src/window-commands.c:321
 #, fuzzy
 #| msgid "Select _All"
 msgid "_Select"
 msgstr "_Hammasini tanlash"
 
-#: embed/ephy-download.c:656 embed/ephy-download.c:704
-#: lib/widgets/ephy-file-chooser.c:113 src/ephy-web-extension-dialog.c:89
-#: src/ephy-web-extension-dialog.c:265 src/preferences/prefs-general-page.c:727
+#: embed/ephy-download.c:682 embed/ephy-download.c:688
+#: embed/ephy-download.c:739 lib/widgets/ephy-file-chooser.c:113
+#: src/ephy-web-extension-dialog.c:89 src/ephy-web-extension-dialog.c:282
+#: src/preferences/prefs-general-page.c:727
 #: src/resources/gtk/firefox-sync-dialog.ui:166
 #: src/resources/gtk/history-dialog.ui:91
-#: src/resources/gtk/prefs-lang-dialog.ui:14 src/window-commands.c:309
-#: src/window-commands.c:381 src/window-commands.c:428
-#: src/window-commands.c:554 src/window-commands.c:654
-#: src/window-commands.c:798
+#: src/resources/gtk/prefs-lang-dialog.ui:14 src/window-commands.c:319
+#: src/window-commands.c:391 src/window-commands.c:438
+#: src/window-commands.c:559 src/window-commands.c:660
+#: src/window-commands.c:805
 #, fuzzy
 #| msgid "_Cancel Logout"
 msgid "_Cancel"
 msgstr "Chiqishni _bekor qilish"
 
-#: embed/ephy-download.c:703
+#: embed/ephy-download.c:684
+#, fuzzy
+#| msgid "Select the entire page"
+msgid "Select the Destination"
+msgstr "Butun sahifani tanlash"
+
+#: embed/ephy-download.c:738
 #, fuzzy
 #| msgid "Download finished"
 msgid "Download requested"
 msgstr "Yuklash tugatildi"
 
-#: embed/ephy-download.c:704
+#: embed/ephy-download.c:739
 msgid "_Download"
 msgstr "_Yozib olish"
 
-#: embed/ephy-download.c:717
+#: embed/ephy-download.c:752
 #, c-format
 msgid "Type: %s (%s)"
 msgstr ""
 
 #. From
-#: embed/ephy-download.c:723
+#: embed/ephy-download.c:758
 #, c-format
 msgid "From: %s"
 msgstr ""
 
 #. Question
-#: embed/ephy-download.c:728
+#: embed/ephy-download.c:763
 msgid "Where do you want to save the file?"
 msgstr ""
 
 #. Translators: a desktop notification when a download finishes.
-#: embed/ephy-download.c:896
+#: embed/ephy-download.c:942
 #, c-format
 msgid "Finished downloading %s"
 msgstr ""
 
 #. Translators: the title of the notification.
-#: embed/ephy-download.c:898
+#: embed/ephy-download.c:944
 msgid "Download finished"
 msgstr "Yuklash tugatildi"
 
@@ -1065,7 +1072,7 @@ msgstr ""
 msgid "Web is being controlled by automation."
 msgstr ""
 
-#: embed/ephy-embed-shell.c:766
+#: embed/ephy-embed-shell.c:753
 #, fuzzy, c-format
 #| msgid "User is not allowed to close Epiphany"
 msgid "URI %s not authorized to access Epiphany resource %s"
@@ -1447,27 +1454,27 @@ msgstr ""
 msgid "Find next occurrence of the search string"
 msgstr ""
 
-#: embed/ephy-reader-handler.c:296 embed/ephy-view-source-handler.c:266
+#: embed/ephy-reader-handler.c:296
 #, c-format
 msgid "%s is not a valid URI"
 msgstr ""
 
-#: embed/ephy-web-view.c:203 src/window-commands.c:1365
+#: embed/ephy-web-view.c:202 src/window-commands.c:1373
 msgid "Open"
 msgstr "Ochish"
 
-#: embed/ephy-web-view.c:377
+#: embed/ephy-web-view.c:376
 msgid "Not No_w"
 msgstr ""
 
-#: embed/ephy-web-view.c:378
+#: embed/ephy-web-view.c:377
 #, fuzzy
 #| msgid "_Never accept"
 msgid "_Never Save"
 msgstr "_Hech qachon qabul qilinmasin"
 
-#: embed/ephy-web-view.c:379 lib/widgets/ephy-file-chooser.c:124
-#: src/resources/gtk/firefox-sync-dialog.ui:175 src/window-commands.c:653
+#: embed/ephy-web-view.c:378 lib/widgets/ephy-file-chooser.c:124
+#: src/resources/gtk/firefox-sync-dialog.ui:175 src/window-commands.c:659
 #, fuzzy
 #| msgid "Save As"
 msgid "_Save"
@@ -1476,143 +1483,143 @@ msgstr "Boshqacha saqlash"
 #. Translators: The %s the hostname where this is happening.
 #. * Example: mail.google.com.
 #.
-#: embed/ephy-web-view.c:386
+#: embed/ephy-web-view.c:385
 #, c-format
 msgid "Do you want to save your password for “%s”?"
 msgstr ""
 
 #. Translators: Message appears when insecure password form is focused.
-#: embed/ephy-web-view.c:625
+#: embed/ephy-web-view.c:624
 msgid ""
 "Heads-up: this form is not secure. If you type your password, it will not be "
 "kept private."
 msgstr ""
 
-#: embed/ephy-web-view.c:849
+#: embed/ephy-web-view.c:842
 msgid "Web process crashed"
 msgstr ""
 
-#: embed/ephy-web-view.c:852
+#: embed/ephy-web-view.c:845
 msgid "Web process terminated due to exceeding memory limit"
 msgstr ""
 
-#: embed/ephy-web-view.c:855
+#: embed/ephy-web-view.c:848
 msgid "Web process terminated by API request"
 msgstr ""
 
-#: embed/ephy-web-view.c:899
+#: embed/ephy-web-view.c:892
 #, c-format
 msgid "The current page '%s' is unresponsive"
 msgstr ""
 
-#: embed/ephy-web-view.c:902
+#: embed/ephy-web-view.c:895
 msgid "_Wait"
 msgstr ""
 
-#: embed/ephy-web-view.c:903
+#: embed/ephy-web-view.c:896
 msgid "_Kill"
 msgstr ""
 
-#: embed/ephy-web-view.c:1128 embed/ephy-web-view.c:1249
+#: embed/ephy-web-view.c:1107 embed/ephy-web-view.c:1228
 #: lib/widgets/ephy-security-popover.c:512
 msgid "Deny"
 msgstr ""
 
-#: embed/ephy-web-view.c:1129 embed/ephy-web-view.c:1250
+#: embed/ephy-web-view.c:1108 embed/ephy-web-view.c:1229
 #: lib/widgets/ephy-security-popover.c:511
 msgid "Allow"
 msgstr ""
 
 #. Translators: Notification policy for a specific site.
-#: embed/ephy-web-view.c:1142
+#: embed/ephy-web-view.c:1121
 #, c-format
 msgid "The page at %s wants to show desktop notifications."
 msgstr ""
 
 #. Translators: Geolocation policy for a specific site.
-#: embed/ephy-web-view.c:1147
+#: embed/ephy-web-view.c:1126
 #, c-format
 msgid "The page at %s wants to know your location."
 msgstr ""
 
 #. Translators: Microphone policy for a specific site.
-#: embed/ephy-web-view.c:1152
+#: embed/ephy-web-view.c:1131
 #, c-format
 msgid "The page at %s wants to use your microphone."
 msgstr ""
 
 #. Translators: Webcam policy for a specific site.
-#: embed/ephy-web-view.c:1157
+#: embed/ephy-web-view.c:1136
 #, c-format
 msgid "The page at %s wants to use your webcam."
 msgstr ""
 
 #. Translators: Webcam and microphone policy for a specific site.
-#: embed/ephy-web-view.c:1162
+#: embed/ephy-web-view.c:1141
 #, c-format
 msgid "The page at %s wants to use your webcam and microphone."
 msgstr ""
 
-#: embed/ephy-web-view.c:1257
+#: embed/ephy-web-view.c:1236
 #, c-format
 msgid "Do you want to allow “%s” to use cookies while browsing “%s”?"
 msgstr ""
 
-#: embed/ephy-web-view.c:1266
+#: embed/ephy-web-view.c:1245
 #, c-format
 msgid "This will allow “%s” to track your activity."
 msgstr ""
 
 #. translators: %s here is the address of the web page
-#: embed/ephy-web-view.c:1444
+#: embed/ephy-web-view.c:1423
 #, c-format
 msgid "Loading “%s”…"
 msgstr "“%s” yuklanmoqda…"
 
-#: embed/ephy-web-view.c:1446 embed/ephy-web-view.c:1452
+#: embed/ephy-web-view.c:1425 embed/ephy-web-view.c:1431
 msgid "Loading…"
 msgstr "Yuklanmoqda..."
 
 #. Possible error message when a site presents a bad certificate.
-#: embed/ephy-web-view.c:1791
+#: embed/ephy-web-view.c:1764
 msgid ""
 "This website presented identification that belongs to a different website."
 msgstr ""
 
 #. Possible error message when a site presents a bad certificate.
-#: embed/ephy-web-view.c:1796
+#: embed/ephy-web-view.c:1769
 msgid ""
 "This website’s identification is too old to trust. Check the date on your "
 "computer’s calendar."
 msgstr ""
 
 #. Possible error message when a site presents a bad certificate.
-#: embed/ephy-web-view.c:1801
+#: embed/ephy-web-view.c:1774
 msgid "This website’s identification was not issued by a trusted organization."
 msgstr ""
 
 #. Possible error message when a site presents a bad certificate.
-#: embed/ephy-web-view.c:1806
+#: embed/ephy-web-view.c:1779
 msgid ""
 "This website’s identification could not be processed. It may be corrupted."
 msgstr ""
 
 #. Possible error message when a site presents a bad certificate.
-#: embed/ephy-web-view.c:1811
+#: embed/ephy-web-view.c:1784
 msgid ""
 "This website’s identification has been revoked by the trusted organization "
 "that issued it."
 msgstr ""
 
 #. Possible error message when a site presents a bad certificate.
-#: embed/ephy-web-view.c:1816
+#: embed/ephy-web-view.c:1789
 msgid ""
 "This website’s identification cannot be trusted because it uses very weak "
 "encryption."
 msgstr ""
 
 #. Possible error message when a site presents a bad certificate.
-#: embed/ephy-web-view.c:1821
+#: embed/ephy-web-view.c:1794
 msgid ""
 "This website’s identification is only valid for future dates. Check the date "
 "on your computer’s calendar."
@@ -1620,31 +1627,31 @@ msgstr ""
 
 #. Page title when a site cannot be loaded due to a network error.
 #. Page title when a site cannot be loaded due to a page crash error.
-#: embed/ephy-web-view.c:1886 embed/ephy-web-view.c:1942
+#: embed/ephy-web-view.c:1859 embed/ephy-web-view.c:1915
 #, c-format
 msgid "Problem Loading Page"
 msgstr ""
 
 #. Message title when a site cannot be loaded due to a network error.
-#: embed/ephy-web-view.c:1889
+#: embed/ephy-web-view.c:1862
 msgid "Unable to display this website"
 msgstr ""
 
 #. Error details when a site cannot be loaded due to a network error.
-#: embed/ephy-web-view.c:1894
+#: embed/ephy-web-view.c:1867
 #, c-format
 msgid "The site at %s seems to be unavailable."
 msgstr ""
 
 #. Further error details when a site cannot be loaded due to a network error.
-#: embed/ephy-web-view.c:1898
+#: embed/ephy-web-view.c:1871
 msgid ""
 "It may be temporarily inaccessible or moved to a new address. You may wish "
 "to verify that your internet connection is working correctly."
 msgstr ""
 
 #. Technical details when a site cannot be loaded due to a network error.
-#: embed/ephy-web-view.c:1908
+#: embed/ephy-web-view.c:1881
 #, c-format
 msgid "The precise error was: %s"
 msgstr ""
@@ -1653,8 +1660,8 @@ msgstr ""
 #. The button on the page crash error page. DO NOT ADD MNEMONICS HERE.
 #. The button on the process crash error page. DO NOT ADD MNEMONICS HERE.
 #. The button on the unresponsive process error page. DO NOT ADD MNEMONICS HERE.
-#: embed/ephy-web-view.c:1913 embed/ephy-web-view.c:1966
-#: embed/ephy-web-view.c:2002 embed/ephy-web-view.c:2038
+#: embed/ephy-web-view.c:1886 embed/ephy-web-view.c:1939
+#: embed/ephy-web-view.c:1975 embed/ephy-web-view.c:2011
 #: src/resources/gtk/page-menu-popover.ui:102
 #, fuzzy
 #| msgid "_Reload"
@@ -1662,78 +1669,78 @@ msgid "Reload"
 msgstr "_Qaytadan yuklash"
 
 #. Mnemonic for the Reload button on browser error pages.
-#: embed/ephy-web-view.c:1917 embed/ephy-web-view.c:1970
-#: embed/ephy-web-view.c:2006 embed/ephy-web-view.c:2042
+#: embed/ephy-web-view.c:1890 embed/ephy-web-view.c:1943
+#: embed/ephy-web-view.c:1979 embed/ephy-web-view.c:2015
 msgctxt "reload-access-key"
 msgid "R"
 msgstr ""
 
 #. Message title when a site cannot be loaded due to a page crash error.
-#: embed/ephy-web-view.c:1945
+#: embed/ephy-web-view.c:1918
 msgid "Oops! There may be a problem"
 msgstr ""
 
 #. Error details when a site cannot be loaded due to a page crash error.
-#: embed/ephy-web-view.c:1950
+#: embed/ephy-web-view.c:1923
 #, c-format
 msgid "The page %s may have caused Web to close unexpectedly."
 msgstr ""
 
 #. Further error details when a site cannot be loaded due to a page crash error.
-#: embed/ephy-web-view.c:1957
+#: embed/ephy-web-view.c:1930
 #, c-format
 msgid "If this happens again, please report the problem to the %s developers."
 msgstr ""
 
 #. Page title when a site cannot be loaded due to a process crash error.
-#: embed/ephy-web-view.c:1991
+#: embed/ephy-web-view.c:1964
 #, c-format
 msgid "Problem Displaying Page"
 msgstr ""
 
 #. Message title when a site cannot be loaded due to a process crash error.
-#: embed/ephy-web-view.c:1994
+#: embed/ephy-web-view.c:1967
 msgid "Oops!"
 msgstr ""
 
 #. Error details when a site cannot be loaded due to a process crash error.
-#: embed/ephy-web-view.c:1997
+#: embed/ephy-web-view.c:1970
 msgid ""
 "Something went wrong while displaying this page. Please reload or visit a "
 "different page to continue."
 msgstr ""
 
 #. Page title when web content has become unresponsive.
-#: embed/ephy-web-view.c:2027
+#: embed/ephy-web-view.c:2000
 #, c-format
 msgid "Unresponsive Page"
 msgstr ""
 
 #. Message title when web content has become unresponsive.
-#: embed/ephy-web-view.c:2030
+#: embed/ephy-web-view.c:2003
 msgid "Uh-oh!"
 msgstr ""
 
 #. Error details when web content has become unresponsive.
-#: embed/ephy-web-view.c:2033
+#: embed/ephy-web-view.c:2006
 msgid ""
 "This page has been unresponsive for too long. Please reload or visit a "
 "different page to continue."
 msgstr ""
 
 #. Page title when a site is not loaded due to an invalid TLS certificate.
-#: embed/ephy-web-view.c:2069
+#: embed/ephy-web-view.c:2042
 #, c-format
 msgid "Security Violation"
 msgstr ""
 
 #. Message title when a site is not loaded due to an invalid TLS certificate.
-#: embed/ephy-web-view.c:2072
+#: embed/ephy-web-view.c:2045
 msgid "This Connection is Not Secure"
 msgstr ""
 
 #. Error details when a site is not loaded due to an invalid TLS certificate.
-#: embed/ephy-web-view.c:2077
+#: embed/ephy-web-view.c:2050
 #, c-format
 msgid ""
 "This does not look like the real %s. Attackers might be trying to steal or "
@@ -1743,8 +1750,8 @@ msgstr ""
 #. The button on the invalid TLS certificate error page. DO NOT ADD MNEMONICS HERE.
 #. The button on unsafe browsing error page. DO NOT ADD MNEMONICS HERE.
 #. The button on no such file error page. DO NOT ADD MNEMONICS HERE.
-#: embed/ephy-web-view.c:2087 embed/ephy-web-view.c:2175
-#: embed/ephy-web-view.c:2225
+#: embed/ephy-web-view.c:2060 embed/ephy-web-view.c:2148
+#: embed/ephy-web-view.c:2198
 #, fuzzy
 #| msgid "_Back"
 msgid "Go Back"
@@ -1753,8 +1760,8 @@ msgstr "_Orqaga"
 #. Mnemonic for the Go Back button on the invalid TLS certificate error page.
 #. Mnemonic for the Go Back button on the unsafe browsing error page.
 #. Mnemonic for the Go Back button on the no such file error page.
-#: embed/ephy-web-view.c:2090 embed/ephy-web-view.c:2178
-#: embed/ephy-web-view.c:2228
+#: embed/ephy-web-view.c:2063 embed/ephy-web-view.c:2151
+#: embed/ephy-web-view.c:2201
 #, fuzzy
 #| msgid "MB"
 msgctxt "back-access-key"
@@ -1763,43 +1770,43 @@ msgstr "Mb"
 
 #. The hidden button on the invalid TLS certificate error page. Do not add mnemonics here.
 #. The hidden button on the unsafe browsing error page. Do not add mnemonics here.
-#: embed/ephy-web-view.c:2093 embed/ephy-web-view.c:2181
+#: embed/ephy-web-view.c:2066 embed/ephy-web-view.c:2154
 msgid "Accept Risk and Proceed"
 msgstr ""
 
 #. Mnemonic for the Accept Risk and Proceed button on the invalid TLS certificate error page.
 #. Mnemonic for the Accept Risk and Proceed button on the unsafe browsing error page.
-#: embed/ephy-web-view.c:2097 embed/ephy-web-view.c:2185
+#: embed/ephy-web-view.c:2070 embed/ephy-web-view.c:2158
 msgctxt "proceed-anyway-access-key"
 msgid "P"
 msgstr ""
 
 #. Page title when a site is flagged by Google Safe Browsing verification.
-#: embed/ephy-web-view.c:2125
+#: embed/ephy-web-view.c:2098
 #, c-format
 msgid "Security Warning"
 msgstr ""
 
 #. Message title on the unsafe browsing error page.
-#: embed/ephy-web-view.c:2128
+#: embed/ephy-web-view.c:2101
 msgid "Unsafe website detected!"
 msgstr ""
 
-#: embed/ephy-web-view.c:2136
+#: embed/ephy-web-view.c:2109
 #, c-format
 msgid ""
 "Visiting %s may harm your computer. This page appears to contain malicious "
 "code that could be downloaded to your computer without your consent."
 msgstr ""
 
-#: embed/ephy-web-view.c:2140
+#: embed/ephy-web-view.c:2113
 #, c-format
 msgid ""
 "You can learn more about harmful web content including viruses and other "
 "malicious code and how to protect your computer at %s."
 msgstr ""
 
-#: embed/ephy-web-view.c:2147
+#: embed/ephy-web-view.c:2120
 #, c-format
 msgid ""
 "Attackers on %s may trick you into doing something dangerous like installing "
@@ -1807,13 +1814,13 @@ msgid ""
 "phone numbers, or credit cards)."
 msgstr ""
 
-#: embed/ephy-web-view.c:2152
+#: embed/ephy-web-view.c:2125
 #, c-format
 msgid ""
 "You can find out more about social engineering (phishing) at %s or from %s."
 msgstr ""
 
-#: embed/ephy-web-view.c:2161
+#: embed/ephy-web-view.c:2134
 #, c-format
 msgid ""
 "%s may contain harmful programs. Attackers might attempt to trick you into "
@@ -1821,40 +1828,40 @@ msgid ""
 "changing your homepage or showing extra ads on sites you visit)."
 msgstr ""
 
-#: embed/ephy-web-view.c:2166
+#: embed/ephy-web-view.c:2139
 #, c-format
 msgid "You can learn more about unwanted software at %s."
 msgstr ""
 
 #. Page title on no such file error page
 #. Message title on the no such file error page.
-#: embed/ephy-web-view.c:2208 embed/ephy-web-view.c:2211
+#: embed/ephy-web-view.c:2181 embed/ephy-web-view.c:2184
 #, fuzzy, c-format
 #| msgid "Not found"
 msgid "File not found"
 msgstr "Topilmadi"
 
-#: embed/ephy-web-view.c:2216
+#: embed/ephy-web-view.c:2189
 #, c-format
 msgid "%s could not be found."
 msgstr ""
 
-#: embed/ephy-web-view.c:2218
+#: embed/ephy-web-view.c:2191
 #, c-format
 msgid ""
 "Please check the file name for capitalization or other typing errors. Also "
 "check if it has been moved, renamed, or deleted."
 msgstr ""
 
-#: embed/ephy-web-view.c:2281
+#: embed/ephy-web-view.c:2254
 msgid "None specified"
 msgstr ""
 
-#: embed/ephy-web-view.c:2412
+#: embed/ephy-web-view.c:2385
 msgid "Technical information"
 msgstr ""
 
-#: embed/ephy-web-view.c:3607
+#: embed/ephy-web-view.c:3580
 msgid "_OK"
 msgstr ""
 
@@ -2228,7 +2235,7 @@ msgstr "Yuklanmoqda..."
 msgid "Starting…"
 msgstr "Yuklanmoqda..."
 
-#: lib/widgets/ephy-file-chooser.c:122 src/ephy-web-extension-dialog.c:264
+#: lib/widgets/ephy-file-chooser.c:122 src/ephy-web-extension-dialog.c:281
 #: src/resources/gtk/history-dialog.ui:255
 #, fuzzy
 #| msgid "Open"
@@ -2264,7 +2271,7 @@ msgid "Paste and _Go"
 msgstr ""
 
 #. Undo, redo.
-#: lib/widgets/ephy-location-entry.c:790 src/ephy-window.c:932
+#: lib/widgets/ephy-location-entry.c:790 src/ephy-window.c:933
 msgid "_Undo"
 msgstr "_Bekor qilish"
 
@@ -2535,7 +2542,7 @@ msgid "Web options"
 msgstr "GNOME veb brauzeri parametrlari"
 
 #. Translators: tooltip for the new tab button
-#: src/ephy-tab-view.c:636 src/resources/gtk/action-bar-start.ui:90
+#: src/ephy-tab-view.c:637 src/resources/gtk/action-bar-start.ui:90
 msgid "Open a new tab"
 msgstr "Yangi tab ochish"
 
@@ -2543,299 +2550,313 @@ msgstr "Yangi tab ochish"
 msgid "Do you really want to remove this extension?"
 msgstr ""
 
-#: src/ephy-web-extension-dialog.c:91 src/ephy-web-extension-dialog.c:203
+#: src/ephy-web-extension-dialog.c:91 src/ephy-web-extension-dialog.c:220
 #: src/resources/gtk/bookmark-properties.ui:120
 msgid "_Remove"
 msgstr ""
 
-#: src/ephy-web-extension-dialog.c:172
+#: src/ephy-web-extension-dialog.c:182
 msgid "Author"
 msgstr ""
 
-#: src/ephy-web-extension-dialog.c:181
+#: src/ephy-web-extension-dialog.c:191
 msgid "Version"
 msgstr ""
 
-#: src/ephy-web-extension-dialog.c:190
+#: src/ephy-web-extension-dialog.c:200
 #: src/resources/gtk/prefs-general-page.ui:127
 #, fuzzy
 #| msgid "Home page"
 msgid "Homepage"
 msgstr "Uy sahifasi"
 
-#: src/ephy-web-extension-dialog.c:207
+#: src/ephy-web-extension-dialog.c:213
+#, fuzzy
+#| msgid "Open _Image"
+msgid "Open _Inspector"
+msgstr "_Rasmni ochish"
+
+#: src/ephy-web-extension-dialog.c:215
+msgid "Open Inspector for debugging Background Page"
+msgstr ""
+
+#: src/ephy-web-extension-dialog.c:224
 #, fuzzy
 #| msgid "Remove the selected toolbar"
 msgid "Remove selected WebExtension"
 msgstr "Tanlangan asboblar panelini olib tashlash"
 
 #. Translators: this is the title of a file chooser dialog.
-#: src/ephy-web-extension-dialog.c:261
+#: src/ephy-web-extension-dialog.c:278
 msgid "Open File (manifest.json/xpi)"
 msgstr ""
 
-#: src/ephy-window.c:933
+#: src/ephy-window.c:934
 msgid "Re_do"
 msgstr "_Qaytarish"
 
 #. Edit.
-#: src/ephy-window.c:936
+#: src/ephy-window.c:937
 msgid "Cu_t"
 msgstr "_Kesish"
 
-#: src/ephy-window.c:937
+#: src/ephy-window.c:938
 msgid "_Copy"
 msgstr "_Nusxa olish"
 
-#: src/ephy-window.c:938
+#: src/ephy-window.c:939
 msgid "_Paste"
 msgstr "_Qoʻyish"
 
-#: src/ephy-window.c:939
+#: src/ephy-window.c:940
 #, fuzzy
 #| msgid "Text only"
 msgid "_Paste Text Only"
 msgstr "Faqat matn"
 
-#: src/ephy-window.c:940
+#: src/ephy-window.c:941
 msgid "Select _All"
 msgstr "_Hammasini tanlash"
 
-#: src/ephy-window.c:942
+#: src/ephy-window.c:943
 msgid "S_end Link by Email…"
 msgstr "Bogʻlamani el.pochta orqali _qoʻnatish…"
 
-#: src/ephy-window.c:944
+#: src/ephy-window.c:945
 msgid "_Reload"
 msgstr "_Qaytadan yuklash"
 
-#: src/ephy-window.c:945
+#: src/ephy-window.c:946
 msgid "_Back"
 msgstr "_Orqaga"
 
-#: src/ephy-window.c:946
+#: src/ephy-window.c:947
 msgid "_Forward"
 msgstr "_Oldinga"
 
 #. Bookmarks
-#: src/ephy-window.c:949
+#: src/ephy-window.c:950
 msgid "Add Boo_kmark…"
 msgstr "_Xatchoʻp qoʻshish…"
 
 #. Links.
-#: src/ephy-window.c:953
+#: src/ephy-window.c:954
 msgid "Open Link in New _Window"
 msgstr "Bogʻlamani yangi _oynada ochish"
 
-#: src/ephy-window.c:954
+#: src/ephy-window.c:955
 msgid "Open Link in New _Tab"
 msgstr "Bogʻlamani yangi _tab oynada ochish"
 
-#: src/ephy-window.c:955
+#: src/ephy-window.c:956
 #, fuzzy
 #| msgid "Open Link in New _Window"
 msgid "Open Link in I_ncognito Window"
 msgstr "Bogʻlamani yangi _oynada ochish"
 
-#: src/ephy-window.c:956
+#: src/ephy-window.c:957
 msgid "_Save Link As…"
 msgstr "Bogʻlamani boshqacha _saqlash…"
 
-#: src/ephy-window.c:957
+#: src/ephy-window.c:958
 msgid "_Copy Link Address"
 msgstr "Bogʻlama manzilidan _nusxa olish"
 
-#: src/ephy-window.c:958
+#: src/ephy-window.c:959
 #, fuzzy
 #| msgid "_Copy Email Address"
 msgid "_Copy E-mail Address"
 msgstr "El.pochta manzilidan _nusxa olish"
 
 #. Images.
-#: src/ephy-window.c:962
+#: src/ephy-window.c:963
 #, fuzzy
 #| msgid "Open in New _Tabs"
 msgid "View _Image in New Tab"
 msgstr "Yangi _tablarda ochish"
 
-#: src/ephy-window.c:963
+#: src/ephy-window.c:964
 msgid "Copy I_mage Address"
 msgstr "_Rasm manzilidan nusxa olish"
 
-#: src/ephy-window.c:964
+#: src/ephy-window.c:965
 msgid "_Save Image As…"
 msgstr "Rasmni boshqacha _saqlash…"
 
-#: src/ephy-window.c:965
+#: src/ephy-window.c:966
 msgid "Set as _Wallpaper"
 msgstr ""
 
 #. Video.
-#: src/ephy-window.c:969
+#: src/ephy-window.c:970
 #, fuzzy
 #| msgid "Open Link in New _Window"
 msgid "Open Video in New _Window"
 msgstr "Bogʻlamani yangi _oynada ochish"
 
-#: src/ephy-window.c:970
+#: src/ephy-window.c:971
 #, fuzzy
 #| msgid "Open Link in New _Tab"
 msgid "Open Video in New _Tab"
 msgstr "Bogʻlamani yangi _tab oynada ochish"
 
-#: src/ephy-window.c:971
+#: src/ephy-window.c:972
 #, fuzzy
 #| msgid "_Save Link As…"
 msgid "_Save Video As…"
 msgstr "Bogʻlamani boshqacha _saqlash…"
 
-#: src/ephy-window.c:972
+#: src/ephy-window.c:973
 #, fuzzy
 #| msgid "_Copy Address"
 msgid "_Copy Video Address"
 msgstr "Manzildan _nusxa olish"
 
 #. Audio.
-#: src/ephy-window.c:976
+#: src/ephy-window.c:977
 #, fuzzy
 #| msgid "Open Link in New _Window"
 msgid "Open Audio in New _Window"
 msgstr "Bogʻlamani yangi _oynada ochish"
 
-#: src/ephy-window.c:977
+#: src/ephy-window.c:978
 #, fuzzy
 #| msgid "Open Link in New _Tab"
 msgid "Open Audio in New _Tab"
 msgstr "Bogʻlamani yangi _tab oynada ochish"
 
-#: src/ephy-window.c:978
+#: src/ephy-window.c:979
 #, fuzzy
 #| msgid "_Save Link As…"
 msgid "_Save Audio As…"
 msgstr "Bogʻlamani boshqacha _saqlash…"
 
-#: src/ephy-window.c:979
+#: src/ephy-window.c:980
 #, fuzzy
 #| msgid "_Copy Address"
 msgid "_Copy Audio Address"
 msgstr "Manzildan _nusxa olish"
 
-#: src/ephy-window.c:985
+#: src/ephy-window.c:986
 #, fuzzy
 #| msgid "_Save Image As…"
 msgid "Save Pa_ge As…"
 msgstr "Rasmni boshqacha _saqlash…"
 
-#: src/ephy-window.c:986
+#: src/ephy-window.c:987
+msgid "_Take Screenshot…"
+msgstr ""
+
+#: src/ephy-window.c:988
 msgid "_Page Source"
 msgstr "_Sahifa kodi"
 
-#: src/ephy-window.c:1370
+#: src/ephy-window.c:1372
 #, fuzzy, c-format
 #| msgid "Search the web"
 msgid "Search the Web for “%s”"
 msgstr "Internetda qidirish"
 
-#: src/ephy-window.c:1399
+#: src/ephy-window.c:1401
 #, fuzzy
 #| msgid "_Open Link"
 msgid "Open Link"
 msgstr "Bogʻlamani _ochish"
 
-#: src/ephy-window.c:1401
+#: src/ephy-window.c:1403
 #, fuzzy
 #| msgid "Open Link in New _Tab"
 msgid "Open Link In New Tab"
 msgstr "Bogʻlamani yangi _tab oynada ochish"
 
-#: src/ephy-window.c:1403
+#: src/ephy-window.c:1405
 #, fuzzy
 #| msgid "Open Link in New _Window"
 msgid "Open Link In New Window"
 msgstr "Bogʻlamani yangi _oynada ochish"
 
-#: src/ephy-window.c:1405
+#: src/ephy-window.c:1407
 #, fuzzy
 #| msgid "Open Link in New _Window"
 msgid "Open Link In Incognito Window"
 msgstr "Bogʻlamani yangi _oynada ochish"
 
-#: src/ephy-window.c:2846 src/ephy-window.c:4175
+#: src/ephy-window.c:2841 src/ephy-window.c:4157
 msgid "Do you want to leave this website?"
 msgstr ""
 
-#: src/ephy-window.c:2847 src/ephy-window.c:4176 src/window-commands.c:1213
+#: src/ephy-window.c:2842 src/ephy-window.c:4158 src/window-commands.c:1221
 msgid "A form you modified has not been submitted."
 msgstr ""
 
-#: src/ephy-window.c:2848 src/ephy-window.c:4177 src/window-commands.c:1215
+#: src/ephy-window.c:2843 src/ephy-window.c:4159 src/window-commands.c:1223
 msgid "_Discard form"
 msgstr ""
 
-#: src/ephy-window.c:2869
+#: src/ephy-window.c:2864
 #, fuzzy
 #| msgid "Download Link"
 msgid "Download operation"
 msgstr "Bogʻlamani yozib olish"
 
-#: src/ephy-window.c:2871
+#: src/ephy-window.c:2866
 #, fuzzy
 #| msgid "Details"
 msgid "Show details"
 msgstr "Tafsilotlar"
 
-#: src/ephy-window.c:2873
+#: src/ephy-window.c:2868
 #, c-format
 msgid "%d download operation active"
 msgid_plural "%d download operations active"
 msgstr[0] ""
 
 #. Translators: tooltip for the tab switcher menu button
-#: src/ephy-window.c:3367
+#: src/ephy-window.c:3349
 msgid "View open tabs"
 msgstr ""
 
-#: src/ephy-window.c:3497
+#: src/ephy-window.c:3479
 msgid "Set Web as your default browser?"
 msgstr ""
 
-#: src/ephy-window.c:3499
+#: src/ephy-window.c:3481
 msgid "Set Epiphany Technology Preview as your default browser?"
 msgstr ""
 
-#: src/ephy-window.c:3511
+#: src/ephy-window.c:3493
 msgid "_Yes"
 msgstr ""
 
-#: src/ephy-window.c:3512
+#: src/ephy-window.c:3494
 #, fuzzy
 #| msgid "_Go"
 msgid "_No"
 msgstr "_Oʻtish"
 
-#: src/ephy-window.c:4309
+#: src/ephy-window.c:4291
 msgid "There are multiple tabs open."
 msgstr ""
 
-#: src/ephy-window.c:4310
+#: src/ephy-window.c:4292
 msgid "If you close this window, all open tabs will be lost"
 msgstr ""
 
-#: src/ephy-window.c:4311
+#: src/ephy-window.c:4293
 #, fuzzy
 #| msgid "Close tab"
 msgid "C_lose tabs"
 msgstr "Tabni yopish"
 
-#: src/popup-commands.c:271
+#: src/context-menu-commands.c:271
 msgid "Save Link As"
 msgstr "Bogʻlamani boshqacha saqlash"
 
-#: src/popup-commands.c:279
+#: src/context-menu-commands.c:279
 msgid "Save Image As"
 msgstr "Rasmni boshqacha saqlash"
 
-#: src/popup-commands.c:287
+#: src/context-menu-commands.c:287
 #, fuzzy
 #| msgid "Save Link As"
 msgid "Save Media As"
@@ -3852,333 +3873,338 @@ msgid "Save page"
 msgstr "Rasmni boshqacha saqlash"
 
 #: src/resources/gtk/shortcuts-dialog.ui:47
+msgctxt "shortcut window"
+msgid "Take Screenshot"
+msgstr ""
+
+#: src/resources/gtk/shortcuts-dialog.ui:54
 #, fuzzy
 #| msgid "Print preview"
 msgctxt "shortcut window"
 msgid "Print page"
 msgstr "Koʻrib chiqish"
 
-#: src/resources/gtk/shortcuts-dialog.ui:54
+#: src/resources/gtk/shortcuts-dialog.ui:61
 msgctxt "shortcut window"
 msgid "Quit"
 msgstr ""
 
-#: src/resources/gtk/shortcuts-dialog.ui:61
+#: src/resources/gtk/shortcuts-dialog.ui:68
 #, fuzzy
 #| msgid "_Help"
 msgctxt "shortcut window"
 msgid "Help"
 msgstr "_Yordam"
 
-#: src/resources/gtk/shortcuts-dialog.ui:68
+#: src/resources/gtk/shortcuts-dialog.ui:75
 #, fuzzy
 #| msgid "Open _Image"
 msgctxt "shortcut window"
 msgid "Open menu"
 msgstr "_Rasmni ochish"
 
-#: src/resources/gtk/shortcuts-dialog.ui:75
+#: src/resources/gtk/shortcuts-dialog.ui:82
 msgctxt "shortcut window"
 msgid "Shortcuts"
 msgstr ""
 
-#: src/resources/gtk/shortcuts-dialog.ui:82
+#: src/resources/gtk/shortcuts-dialog.ui:89
 #, fuzzy
 #| msgid "_Show Downloads"
 msgctxt "shortcut window"
 msgid "Show downloads list"
 msgstr "Yozib olishlarni _koʻrsatish"
 
-#: src/resources/gtk/shortcuts-dialog.ui:93
+#: src/resources/gtk/shortcuts-dialog.ui:100
 #, fuzzy
 #| msgid "Organization:"
 msgctxt "shortcut window"
 msgid "Navigation"
 msgstr "Tashkilot:"
 
-#: src/resources/gtk/shortcuts-dialog.ui:97
+#: src/resources/gtk/shortcuts-dialog.ui:104
 #, fuzzy
 #| msgid "Go to the home page"
 msgctxt "shortcut window"
 msgid "Go to homepage"
 msgstr "Uy sahifasiga oʻtish"
 
-#: src/resources/gtk/shortcuts-dialog.ui:104
+#: src/resources/gtk/shortcuts-dialog.ui:111
 #, fuzzy
 #| msgid "Save the current page"
 msgctxt "shortcut window"
 msgid "Reload current page"
 msgstr "Joriy sahifani saqlash"
 
-#: src/resources/gtk/shortcuts-dialog.ui:111
+#: src/resources/gtk/shortcuts-dialog.ui:118
 msgctxt "shortcut window"
 msgid "Reload bypassing cache"
 msgstr ""
 
-#: src/resources/gtk/shortcuts-dialog.ui:118
+#: src/resources/gtk/shortcuts-dialog.ui:125
 #, fuzzy
 #| msgid "Set to Current _Page"
 msgctxt "shortcut window"
 msgid "Stop loading current page"
 msgstr "Joriy _sahifaga oʻrnatish"
 
-#: src/resources/gtk/shortcuts-dialog.ui:125
-#: src/resources/gtk/shortcuts-dialog.ui:140
+#: src/resources/gtk/shortcuts-dialog.ui:132
+#: src/resources/gtk/shortcuts-dialog.ui:147
 #, fuzzy
 #| msgid "Go to the previous page"
 msgctxt "shortcut window"
 msgid "Go back to the previous page"
 msgstr "Oldingi sahifaga oʻtish"
 
-#: src/resources/gtk/shortcuts-dialog.ui:132
-#: src/resources/gtk/shortcuts-dialog.ui:147
+#: src/resources/gtk/shortcuts-dialog.ui:139
+#: src/resources/gtk/shortcuts-dialog.ui:154
 #, fuzzy
 #| msgid "Go to next page"
 msgctxt "shortcut window"
 msgid "Go forward to the next page"
 msgstr "Keyingi sahifaga oʻtish"
 
-#: src/resources/gtk/shortcuts-dialog.ui:157
+#: src/resources/gtk/shortcuts-dialog.ui:164
 #, fuzzy
 #| msgid "_Tabs"
 msgctxt "shortcut window"
 msgid "Tabs"
 msgstr "_Tablar"
 
-#: src/resources/gtk/shortcuts-dialog.ui:161
+#: src/resources/gtk/shortcuts-dialog.ui:168
 #, fuzzy
 #| msgid "New _Tab"
 msgctxt "shortcut window"
 msgid "New tab"
 msgstr "Yangi _tab"
 
-#: src/resources/gtk/shortcuts-dialog.ui:168
+#: src/resources/gtk/shortcuts-dialog.ui:175
 #, fuzzy
 #| msgid "Detach current tab"
 msgctxt "shortcut window"
 msgid "Close current tab"
 msgstr "Joriy tabni ajratish"
 
-#: src/resources/gtk/shortcuts-dialog.ui:175
+#: src/resources/gtk/shortcuts-dialog.ui:182
 #, fuzzy
 #| msgid "Close tab"
 msgctxt "shortcut window"
 msgid "Reopen closed tab"
 msgstr "Tabni yopish"
 
-#: src/resources/gtk/shortcuts-dialog.ui:182
+#: src/resources/gtk/shortcuts-dialog.ui:189
 #, fuzzy
 #| msgid "Go to the next visited page"
 msgctxt "shortcut window"
 msgid "Go to the next tab"
 msgstr "Keyingi koʻrilgan sahifaga oʻtish"
 
-#: src/resources/gtk/shortcuts-dialog.ui:189
+#: src/resources/gtk/shortcuts-dialog.ui:196
 #, fuzzy
 #| msgid "Go to the previous page"
 msgctxt "shortcut window"
 msgid "Go to the previous tab"
 msgstr "Oldingi sahifaga oʻtish"
 
-#: src/resources/gtk/shortcuts-dialog.ui:196
+#: src/resources/gtk/shortcuts-dialog.ui:203
 #, fuzzy
 #| msgid "Move current tab to left"
 msgctxt "shortcut window"
 msgid "Move current tab to the left"
 msgstr "Joriy tabni chap tomonga koʻchirish"
 
-#: src/resources/gtk/shortcuts-dialog.ui:203
+#: src/resources/gtk/shortcuts-dialog.ui:210
 #, fuzzy
 #| msgid "Move current tab to right"
 msgctxt "shortcut window"
 msgid "Move current tab to the right"
 msgstr "Joriy tabni oʻng tomonga koʻchirish"
 
-#: src/resources/gtk/shortcuts-dialog.ui:210
+#: src/resources/gtk/shortcuts-dialog.ui:217
 #, fuzzy
 #| msgid "Detach current tab"
 msgctxt "shortcut window"
 msgid "Duplicate current tab"
 msgstr "Joriy tabni ajratish"
 
-#: src/resources/gtk/shortcuts-dialog.ui:221
+#: src/resources/gtk/shortcuts-dialog.ui:228
 msgctxt "shortcut window"
 msgid "Miscellaneous"
 msgstr ""
 
-#: src/resources/gtk/shortcuts-dialog.ui:225
+#: src/resources/gtk/shortcuts-dialog.ui:232
 #, fuzzy
 #| msgid "History"
 msgctxt "shortcut window"
 msgid "History"
 msgstr "Tarix"
 
-#: src/resources/gtk/shortcuts-dialog.ui:232
+#: src/resources/gtk/shortcuts-dialog.ui:239
 #, fuzzy
 #| msgid "Preferences"
 msgctxt "shortcut window"
 msgid "Preferences"
 msgstr "Parametrlar"
 
-#: src/resources/gtk/shortcuts-dialog.ui:239
+#: src/resources/gtk/shortcuts-dialog.ui:246
 #, fuzzy
 #| msgid "Add a bookmark for the current page"
 msgctxt "shortcut window"
 msgid "Bookmark current page"
 msgstr "Joriy sahifa uchun xatchoʻp qoʻshish"
 
-#: src/resources/gtk/shortcuts-dialog.ui:246
+#: src/resources/gtk/shortcuts-dialog.ui:253
 #, fuzzy
 #| msgid "Show bookmarks bar by default"
 msgctxt "shortcut window"
 msgid "Show bookmarks list"
 msgstr "Andoza boʻyicha xatchoʻplar panelini koʻrsatish"
 
-#: src/resources/gtk/shortcuts-dialog.ui:253
+#: src/resources/gtk/shortcuts-dialog.ui:260
 #, fuzzy
 #| msgid "Import Bookmarks"
 msgctxt "shortcut window"
 msgid "Import bookmarks"
 msgstr "Xatchoʻplarni import qilish"
 
-#: src/resources/gtk/shortcuts-dialog.ui:260
+#: src/resources/gtk/shortcuts-dialog.ui:267
 #, fuzzy
 #| msgid "Export Bookmarks"
 msgctxt "shortcut window"
 msgid "Export bookmarks"
 msgstr "Xatchoʻplarni eksport qilish"
 
-#: src/resources/gtk/shortcuts-dialog.ui:267
+#: src/resources/gtk/shortcuts-dialog.ui:274
 msgctxt "shortcut window"
 msgid "Toggle caret browsing"
 msgstr ""
 
-#: src/resources/gtk/shortcuts-dialog.ui:278
+#: src/resources/gtk/shortcuts-dialog.ui:285
 msgctxt "shortcut window"
 msgid "Web application"
 msgstr ""
 
-#: src/resources/gtk/shortcuts-dialog.ui:282
+#: src/resources/gtk/shortcuts-dialog.ui:289
 msgctxt "shortcut window"
 msgid "Install site as web application"
 msgstr ""
 
-#: src/resources/gtk/shortcuts-dialog.ui:293
+#: src/resources/gtk/shortcuts-dialog.ui:300
 #, fuzzy
 #| msgid "_View"
 msgctxt "shortcut window"
 msgid "View"
 msgstr "_Koʻrinish"
 
-#: src/resources/gtk/shortcuts-dialog.ui:297
+#: src/resources/gtk/shortcuts-dialog.ui:304
 msgctxt "shortcut window"
 msgid "Zoom in"
 msgstr ""
 
-#: src/resources/gtk/shortcuts-dialog.ui:304
+#: src/resources/gtk/shortcuts-dialog.ui:311
 msgctxt "shortcut window"
 msgid "Zoom out"
 msgstr ""
 
-#: src/resources/gtk/shortcuts-dialog.ui:311
+#: src/resources/gtk/shortcuts-dialog.ui:318
 msgctxt "shortcut window"
 msgid "Reset zoom"
 msgstr ""
 
-#: src/resources/gtk/shortcuts-dialog.ui:318
+#: src/resources/gtk/shortcuts-dialog.ui:325
 #, fuzzy
 #| msgid "_Fullscreen"
 msgctxt "shortcut window"
 msgid "Fullscreen"
 msgstr "_Butun ekran"
 
-#: src/resources/gtk/shortcuts-dialog.ui:325
+#: src/resources/gtk/shortcuts-dialog.ui:332
 #, fuzzy
 #| msgid "_Page Source"
 msgctxt "shortcut window"
 msgid "View page source"
 msgstr "_Sahifa kodi"
 
-#: src/resources/gtk/shortcuts-dialog.ui:332
+#: src/resources/gtk/shortcuts-dialog.ui:339
 msgctxt "shortcut window"
 msgid "Toggle inspector"
 msgstr ""
 
-#: src/resources/gtk/shortcuts-dialog.ui:339
+#: src/resources/gtk/shortcuts-dialog.ui:346
 msgctxt "shortcut window"
 msgid "Toggle reader mode"
 msgstr ""
 
-#: src/resources/gtk/shortcuts-dialog.ui:350
+#: src/resources/gtk/shortcuts-dialog.ui:357
 #, fuzzy
 #| msgid "_Edit"
 msgctxt "shortcut window"
 msgid "Editing"
 msgstr "_Tahrirlash"
 
-#: src/resources/gtk/shortcuts-dialog.ui:354
+#: src/resources/gtk/shortcuts-dialog.ui:361
 #, fuzzy
 #| msgid "Cu_t"
 msgctxt "shortcut window"
 msgid "Cut"
 msgstr "_Kesish"
 
-#: src/resources/gtk/shortcuts-dialog.ui:361
+#: src/resources/gtk/shortcuts-dialog.ui:368
 #, fuzzy
 #| msgid "_Copy"
 msgctxt "shortcut window"
 msgid "Copy"
 msgstr "_Nusxa olish"
 
-#: src/resources/gtk/shortcuts-dialog.ui:368
+#: src/resources/gtk/shortcuts-dialog.ui:375
 #, fuzzy
 #| msgid "_Paste"
 msgctxt "shortcut window"
 msgid "Paste"
 msgstr "_Qoʻyish"
 
-#: src/resources/gtk/shortcuts-dialog.ui:375
+#: src/resources/gtk/shortcuts-dialog.ui:382
 #, fuzzy
 #| msgid "_Undo"
 msgctxt "shortcut window"
 msgid "Undo"
 msgstr "_Bekor qilish"
 
-#: src/resources/gtk/shortcuts-dialog.ui:382
+#: src/resources/gtk/shortcuts-dialog.ui:389
 msgctxt "shortcut window"
 msgid "Redo"
 msgstr ""
 
-#: src/resources/gtk/shortcuts-dialog.ui:389
+#: src/resources/gtk/shortcuts-dialog.ui:396
 #, fuzzy
 #| msgid "Select _All"
 msgctxt "shortcut window"
 msgid "Select all"
 msgstr "_Hammasini tanlash"
 
-#: src/resources/gtk/shortcuts-dialog.ui:396
+#: src/resources/gtk/shortcuts-dialog.ui:403
 msgctxt "shortcut window"
 msgid "Select page URL"
 msgstr ""
 
-#: src/resources/gtk/shortcuts-dialog.ui:403
+#: src/resources/gtk/shortcuts-dialog.ui:410
 msgctxt "shortcut window"
 msgid "Search with default search engine"
 msgstr ""
 
-#: src/resources/gtk/shortcuts-dialog.ui:410
+#: src/resources/gtk/shortcuts-dialog.ui:417
 #, fuzzy
 #| msgid "Find"
 msgctxt "shortcut window"
 msgid "Find"
 msgstr "Qidirish"
 
-#: src/resources/gtk/shortcuts-dialog.ui:417
+#: src/resources/gtk/shortcuts-dialog.ui:424
 msgctxt "shortcut window"
 msgid "Next find result"
 msgstr ""
 
-#: src/resources/gtk/shortcuts-dialog.ui:424
+#: src/resources/gtk/shortcuts-dialog.ui:431
 msgctxt "shortcut window"
 msgid "Previous find result"
 msgstr ""
@@ -4302,150 +4328,150 @@ msgstr ""
 msgid "The web application ‘%s’ could not be deleted"
 msgstr ""
 
-#: src/webextension/api/runtime.c:121
+#: src/webextension/api/runtime.c:161
 #, c-format
 msgid "Options for %s"
 msgstr ""
 
-#: src/window-commands.c:113
+#: src/window-commands.c:119
 #, fuzzy
 #| msgid "File"
 msgid "GVDB File"
 msgstr "Fayl"
 
-#: src/window-commands.c:114
+#: src/window-commands.c:120
 #, fuzzy
 #| msgid "File"
 msgid "HTML File"
 msgstr "Fayl"
 
-#: src/window-commands.c:115
+#: src/window-commands.c:121
 msgid "Firefox"
 msgstr "Firefox"
 
-#: src/window-commands.c:116 src/window-commands.c:693
+#: src/window-commands.c:122 src/window-commands.c:699
 msgid "Chrome"
 msgstr ""
 
-#: src/window-commands.c:117 src/window-commands.c:694
+#: src/window-commands.c:123 src/window-commands.c:700
 msgid "Chromium"
 msgstr ""
 
-#: src/window-commands.c:131 src/window-commands.c:556
-#: src/window-commands.c:772
+#: src/window-commands.c:137 src/window-commands.c:561
+#: src/window-commands.c:778
 msgid "Ch_oose File"
 msgstr ""
 
-#: src/window-commands.c:133 src/window-commands.c:380
-#: src/window-commands.c:427 src/window-commands.c:774
-#: src/window-commands.c:800
+#: src/window-commands.c:139 src/window-commands.c:390
+#: src/window-commands.c:437 src/window-commands.c:780
+#: src/window-commands.c:807
 msgid "I_mport"
 msgstr "I_mport"
 
-#: src/window-commands.c:293 src/window-commands.c:368
-#: src/window-commands.c:415 src/window-commands.c:458
-#: src/window-commands.c:481 src/window-commands.c:497
+#: src/window-commands.c:303 src/window-commands.c:378
+#: src/window-commands.c:425 src/window-commands.c:468
+#: src/window-commands.c:491 src/window-commands.c:507
 msgid "Bookmarks successfully imported!"
 msgstr ""
 
-#: src/window-commands.c:306
+#: src/window-commands.c:316
 #, fuzzy
 #| msgid "Select _All"
 msgid "Select Profile"
 msgstr "_Hammasini tanlash"
 
-#: src/window-commands.c:377 src/window-commands.c:424
-#: src/window-commands.c:650
+#: src/window-commands.c:387 src/window-commands.c:434
+#: src/window-commands.c:656
 #, fuzzy
 #| msgid "Choose a l_anguage:"
 msgid "Choose File"
 msgstr "_Tilni tanlash:"
 
-#: src/window-commands.c:551
+#: src/window-commands.c:556
 msgid "Import Bookmarks"
 msgstr "Xatchoʻplarni import qilish"
 
-#: src/window-commands.c:570 src/window-commands.c:814
+#: src/window-commands.c:575 src/window-commands.c:821
 msgid "From:"
 msgstr ""
 
-#: src/window-commands.c:612
+#: src/window-commands.c:618
 msgid "Bookmarks successfully exported!"
 msgstr ""
 
 #. Translators: Only translate the part before ".html" (e.g. "bookmarks")
-#: src/window-commands.c:658
+#: src/window-commands.c:664
 #, fuzzy
 #| msgid "bookmarks|All"
 msgid "bookmarks.html"
 msgstr "Hammasi"
 
-#: src/window-commands.c:731
+#: src/window-commands.c:741
 msgid "Passwords successfully imported!"
 msgstr ""
 
-#: src/window-commands.c:795
+#: src/window-commands.c:802
 #, fuzzy
 #| msgid "Passwords"
 msgid "Import Passwords"
 msgstr "Maxfiy soʻzlar"
 
-#: src/window-commands.c:988
+#: src/window-commands.c:996
 #, c-format
 msgid ""
 "A simple, clean, beautiful view of the web.\n"
 "Powered by WebKitGTK %d.%d.%d"
 msgstr ""
 
-#: src/window-commands.c:1002
+#: src/window-commands.c:1010
 #, fuzzy
 #| msgid "Epiphany bookmarks"
 msgid "Epiphany Canary"
 msgstr "Epiphany xatchoʻplari"
 
-#: src/window-commands.c:1018
+#: src/window-commands.c:1026
 msgid "Website"
 msgstr ""
 
-#: src/window-commands.c:1051
+#: src/window-commands.c:1059
 msgid "translator-credits"
 msgstr "Nurali Abdurahmonov <mavnur@gmail.com>"
 
-#: src/window-commands.c:1211
+#: src/window-commands.c:1219
 msgid "Do you want to reload this website?"
 msgstr ""
 
-#: src/window-commands.c:1813
+#: src/window-commands.c:1821
 #, c-format
 msgid "The application “%s” is ready to be used"
 msgstr ""
 
-#: src/window-commands.c:1816
+#: src/window-commands.c:1824
 #, c-format
 msgid "The application “%s” could not be created: %s"
 msgstr ""
 
 #. Translators: Desktop notification when a new web app is created.
-#: src/window-commands.c:1825
+#: src/window-commands.c:1833
 msgid "Launch"
 msgstr ""
 
-#: src/window-commands.c:1896
+#: src/window-commands.c:1904
 #, c-format
 msgid "A web application named “%s” already exists. Do you want to replace it?"
 msgstr ""
 
-#: src/window-commands.c:1899
+#: src/window-commands.c:1907
 #, fuzzy
 #| msgid "_Cancel Logout"
 msgid "Cancel"
 msgstr "Chiqishni _bekor qilish"
 
-#: src/window-commands.c:1901
+#: src/window-commands.c:1909
 msgid "Replace"
 msgstr ""
 
-#: src/window-commands.c:1905
+#: src/window-commands.c:1913
 #, fuzzy
 #| msgid ""
 #| "A file with this name already exists and you don't have permission to "
@@ -4457,38 +4483,38 @@ msgstr ""
 "Shunday nomli fayl allaqachon mavjud va uni almashtirish uchun sizda yetarli "
 "huquq yoʻq."
 
-#: src/window-commands.c:2118
+#: src/window-commands.c:2126 src/window-commands.c:2182
 #, fuzzy
 #| msgid "Save As"
 msgid "Save"
 msgstr "Boshqacha saqlash"
 
-#: src/window-commands.c:2139
+#: src/window-commands.c:2147
 msgid "HTML"
 msgstr ""
 
-#: src/window-commands.c:2144
+#: src/window-commands.c:2152
 msgid "MHTML"
 msgstr ""
 
-#: src/window-commands.c:2149
+#: src/window-commands.c:2203
 msgid "PNG"
 msgstr ""
 
-#: src/window-commands.c:2672
+#: src/window-commands.c:2707
 #, fuzzy
 #| msgid "Clear browsing history?"
 msgid "Enable caret browsing mode?"
 msgstr "Tarix tozalansinmi?"
 
-#: src/window-commands.c:2675
+#: src/window-commands.c:2710
 msgid ""
 "Pressing F7 turns caret browsing on or off. This feature places a moveable "
 "cursor in web pages, allowing you to move around with your keyboard. Do you "
 "want to enable caret browsing?"
 msgstr ""
 
-#: src/window-commands.c:2678
+#: src/window-commands.c:2713
 #, fuzzy
 #| msgid "Enable Java"
 msgid "_Enable"

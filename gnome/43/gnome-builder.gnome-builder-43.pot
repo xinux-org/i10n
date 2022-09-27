@@ -1,0 +1,5557 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/gnome-builder/issues\n"
+"POT-Creation-Date: 2022-09-27 06:22+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+
+#: data/appdata/org.gnome.Builder.appdata.xml.in.in:7
+#: data/org.gnome.Builder.desktop.in.in:3
+#: src/libide/editor/ide-editor-workspace.ui:21
+#: src/libide/gui/ide-application-actions.c:114 src/main.c:242
+#: src/plugins/editorui/tweaks.ui:481
+#: src/plugins/newcomers/gbp-newcomers-section.ui:39
+msgid "Builder"
+msgstr ""
+
+#: data/appdata/org.gnome.Builder.appdata.xml.in.in:8
+msgid "An IDE for GNOME"
+msgstr ""
+
+#: data/appdata/org.gnome.Builder.appdata.xml.in.in:9
+#: src/libide/gui/ide-application-actions.c:115
+msgid "Christian Hergert, et al."
+msgstr ""
+
+#: data/appdata/org.gnome.Builder.appdata.xml.in.in:12
+msgid ""
+"Builder is an actively developed Integrated Development Environment for "
+"GNOME. It combines integrated support for essential GNOME technologies such "
+"as GTK+, GLib, and GNOME APIs with features that any developer will "
+"appreciate, like syntax highlighting and snippets."
+msgstr ""
+
+#: data/appdata/org.gnome.Builder.appdata.xml.in.in:18
+msgid ""
+"You can rely on predictable releases of Builder with each new release of "
+"GNOME every six months."
+msgstr ""
+
+#: data/appdata/org.gnome.Builder.appdata.xml.in.in:22
+msgid "Features:"
+msgstr ""
+
+#: data/appdata/org.gnome.Builder.appdata.xml.in.in:24
+msgid "Built in syntax highlighting for many languages"
+msgstr ""
+
+#: data/appdata/org.gnome.Builder.appdata.xml.in.in:25
+msgid "Side-by-side code editors"
+msgstr ""
+
+#: data/appdata/org.gnome.Builder.appdata.xml.in.in:26
+msgid "Multi-monitor support"
+msgstr ""
+
+#: data/appdata/org.gnome.Builder.appdata.xml.in.in:27
+msgid "Code overview mini-map"
+msgstr ""
+
+#: data/appdata/org.gnome.Builder.appdata.xml.in.in:28
+msgid "Integration with Git"
+msgstr ""
+
+#: data/appdata/org.gnome.Builder.appdata.xml.in.in:29
+msgid ""
+"Integration with Autotools, Cargo, CMake, Gradle, Meson, Maven, Make, "
+"PHPize, and Waf"
+msgstr ""
+
+#: data/appdata/org.gnome.Builder.appdata.xml.in.in:30
+msgid "Clang based auto-completion, semantic highlighting, and diagnostics"
+msgstr ""
+
+#: data/appdata/org.gnome.Builder.appdata.xml.in.in:31
+msgid "Python based auto-completion, semantic highlighting, and diagnostics"
+msgstr ""
+
+#: data/appdata/org.gnome.Builder.appdata.xml.in.in:32
+msgid "Vala based auto-completion and diagnostics"
+msgstr ""
+
+#: data/appdata/org.gnome.Builder.appdata.xml.in.in:33
+msgid "Auto indentation support for C, Python, Vala, and XML"
+msgstr ""
+
+#: data/appdata/org.gnome.Builder.appdata.xml.in.in:34
+msgid "HTML, Markdown, and reStructuredText, and Sphinx live preview"
+msgstr ""
+
+#: data/appdata/org.gnome.Builder.appdata.xml.in.in:35
+msgid "Optional Vim, Emacs, and SublimeText style editing"
+msgstr ""
+
+#: data/appdata/org.gnome.Builder.appdata.xml.in.in:36
+msgid "An integrated software profiler for native applications"
+msgstr ""
+
+#: data/appdata/org.gnome.Builder.appdata.xml.in.in:37
+msgid "An integrated debugger for native applications"
+msgstr ""
+
+#: data/appdata/org.gnome.Builder.appdata.xml.in.in:38
+msgid "Support for building with jhbuild and flatpak runtimes"
+msgstr ""
+
+#: data/appdata/org.gnome.Builder.appdata.xml.in.in:39
+msgid "Support for viewing TODOs found within your code base"
+msgstr ""
+
+#: data/appdata/org.gnome.Builder.appdata.xml.in.in:40
+msgid "Fast fuzzy text search across files and symbols"
+msgstr ""
+
+#: data/appdata/org.gnome.Builder.appdata.xml.in.in:46
+msgid "Quickly access your projects"
+msgstr ""
+
+#: data/appdata/org.gnome.Builder.appdata.xml.in.in:50
+msgid "Create new projects from a variety of templates"
+msgstr ""
+
+#: data/appdata/org.gnome.Builder.appdata.xml.in.in:54
+msgid "Integration with Git to clone your projects"
+msgstr ""
+
+#: data/appdata/org.gnome.Builder.appdata.xml.in.in:58
+msgid "The source code editor"
+msgstr ""
+
+#: data/appdata/org.gnome.Builder.appdata.xml.in.in:62
+msgid "Fast global fuzzy search"
+msgstr ""
+
+#: data/appdata/org.gnome.Builder.appdata.xml.in.in:66
+msgid "Debug with the GNU debugger"
+msgstr ""
+
+#: data/appdata/org.gnome.Builder.appdata.xml.in.in:70
+msgid "Use the minimap to see more of the file"
+msgstr ""
+
+#: data/gsettings/org.gnome.builder.build.gschema.xml:6
+#: src/plugins/buildui/tweaks.ui:217
+msgid "Build Parallelism"
+msgstr ""
+
+#: data/gsettings/org.gnome.builder.build.gschema.xml:7
+msgid ""
+"Number of workers to use when performing builds. -1 for sensible default. 0 "
+"for number of CPU."
+msgstr ""
+
+#: data/gsettings/org.gnome.builder.build.gschema.xml:11
+msgid "Clear build logs"
+msgstr ""
+
+#: data/gsettings/org.gnome.builder.build.gschema.xml:12
+msgid "If enabled, build log pane will be cleared on rebuild."
+msgstr ""
+
+#: data/gsettings/org.gnome.builder.build.gschema.xml:16
+msgid "Allow network when metered"
+msgstr ""
+
+#: data/gsettings/org.gnome.builder.build.gschema.xml:17
+msgid ""
+"Enable automated transfers upon building such as SDK downloads and "
+"dependencies when connection is metered."
+msgstr ""
+
+#: data/gsettings/org.gnome.builder.code-insight.gschema.xml.in:5
+msgid "Ctags based autocompletion"
+msgstr ""
+
+#: data/gsettings/org.gnome.builder.code-insight.gschema.xml.in:6
+msgid "Use Ctags for autocompletion."
+msgstr ""
+
+#: data/gsettings/org.gnome.builder.code-insight.gschema.xml.in:10
+msgid "Enable semantic highlighting"
+msgstr ""
+
+#: data/gsettings/org.gnome.builder.code-insight.gschema.xml.in:11
+msgid ""
+"If enabled, additional highlighting will be provided in supported languages "
+"based on information extracted from the source code."
+msgstr ""
+
+#: data/gsettings/org.gnome.builder.code-insight.gschema.xml.in:15
+msgid "Path to ctags executable"
+msgstr ""
+
+#: data/gsettings/org.gnome.builder.code-insight.gschema.xml.in:16
+msgid "The path to the ctags executable on the system."
+msgstr ""
+
+#: data/gsettings/org.gnome.builder.debug.gschema.xml:5
+msgid "Debugger Breakpoint at Main"
+msgstr ""
+
+#: data/gsettings/org.gnome.builder.debug.gschema.xml:6
+msgid "Debugger should automatically insert breakpoint at main() function."
+msgstr ""
+
+#: data/gsettings/org.gnome.builder.debug.gschema.xml:10
+msgid "Debugger Breakpoint at g_critical()"
+msgstr ""
+
+#: data/gsettings/org.gnome.builder.debug.gschema.xml:11
+msgid ""
+"Debugger should automatically insert breakpoint at g_critical() function."
+msgstr ""
+
+#: data/gsettings/org.gnome.builder.debug.gschema.xml:15
+msgid "Debugger Breakpoint at g_warning()"
+msgstr ""
+
+#: data/gsettings/org.gnome.builder.debug.gschema.xml:16
+msgid ""
+"Debugger should automatically insert breakpoint at g_warning() function."
+msgstr ""
+
+#: data/gsettings/org.gnome.builder.editor.gschema.xml:19
+msgid "Restore last position"
+msgstr ""
+
+#: data/gsettings/org.gnome.builder.editor.gschema.xml:20
+msgid "Jump to the last position when reopening a file"
+msgstr ""
+
+#: data/gsettings/org.gnome.builder.editor.gschema.xml:24
+msgid "Show modified lines"
+msgstr ""
+
+#: data/gsettings/org.gnome.builder.editor.gschema.xml:25
+msgid ""
+"If enabled, the editor will show line additions and changes next to the "
+"source code."
+msgstr ""
+
+#: data/gsettings/org.gnome.builder.editor.gschema.xml:29
+msgid "Show diagnostics next to line number"
+msgstr ""
+
+#: data/gsettings/org.gnome.builder.editor.gschema.xml:30
+msgid ""
+"If enabled, the editor will show diagnostics to the left to the line numbers."
+msgstr ""
+
+#: data/gsettings/org.gnome.builder.editor.gschema.xml:34
+msgid "Highlight current line"
+msgstr ""
+
+#: data/gsettings/org.gnome.builder.editor.gschema.xml:35
+msgid "If enabled, the editor will highlight the line containing the cursor."
+msgstr ""
+
+#: data/gsettings/org.gnome.builder.editor.gschema.xml:39
+msgid "Highlight matching brackets"
+msgstr ""
+
+#: data/gsettings/org.gnome.builder.editor.gschema.xml:40
+msgid "If enabled, the editor will highlight matching brackets."
+msgstr ""
+
+#: data/gsettings/org.gnome.builder.editor.gschema.xml:44
+msgid "Show line numbers"
+msgstr ""
+
+#: data/gsettings/org.gnome.builder.editor.gschema.xml:45
+msgid "If enabled, the editor will show line numbers."
+msgstr ""
+
+#: data/gsettings/org.gnome.builder.editor.gschema.xml:49
+msgid "Show relative line numbers"
+msgstr ""
+
+#: data/gsettings/org.gnome.builder.editor.gschema.xml:50
+msgid "If enabled, the editor will show relative line numbers."
+msgstr ""
+
+#: data/gsettings/org.gnome.builder.editor.gschema.xml:54
+#: src/plugins/editorui/tweaks.ui:494
+msgid "Smart Backspace"
+msgstr ""
+
+#: data/gsettings/org.gnome.builder.editor.gschema.xml:55
+msgid ""
+"Backspace will remove additional spaces to keep you aligned to the "
+"indentation size."
+msgstr ""
+
+#: data/gsettings/org.gnome.builder.editor.gschema.xml:65
+#: src/plugins/editorui/tweaks.ui:506
+msgid "Smart Home/End"
+msgstr ""
+
+#: data/gsettings/org.gnome.builder.editor.gschema.xml:66
+msgid "Modifies the behavior of Home/End keys."
+msgstr ""
+
+#: data/gsettings/org.gnome.builder.editor.gschema.xml:70
+msgid "Show grid lines"
+msgstr ""
+
+#: data/gsettings/org.gnome.builder.editor.gschema.xml:71
+msgid "If enabled, the editor will show grid lines in the document."
+msgstr ""
+
+#: data/gsettings/org.gnome.builder.editor.gschema.xml:86
+msgid "Overview Map Policy"
+msgstr ""
+
+#: data/gsettings/org.gnome.builder.editor.gschema.xml:87
+msgid "When the overview map should be displayed."
+msgstr ""
+
+#: data/gsettings/org.gnome.builder.editor.gschema.xml:91
+#: src/plugins/editorui/tweaks.ui:254
+msgid "Draw Spaces"
+msgstr ""
+
+#: data/gsettings/org.gnome.builder.editor.gschema.xml:92
+msgid "The various types of space to draw in the editor."
+msgstr ""
+
+#: data/gsettings/org.gnome.builder.editor.gschema.xml:101
+#: src/plugins/editorui/tweaks.ui:77
+msgid "Wrap Text"
+msgstr ""
+
+#: data/gsettings/org.gnome.builder.editor.gschema.xml:102
+msgid "The way to wrap a long line of text for a better visibility."
+msgstr ""
+
+#: data/gsettings/org.gnome.builder.editor.gschema.xml:106
+msgid "Autosave Enabled"
+msgstr ""
+
+#: data/gsettings/org.gnome.builder.editor.gschema.xml:107
+msgid "Enable or disable autosave feature."
+msgstr ""
+
+#: data/gsettings/org.gnome.builder.editor.gschema.xml:112
+msgid "Autosave Frequency"
+msgstr ""
+
+#: data/gsettings/org.gnome.builder.editor.gschema.xml:113
+msgid "The number of seconds after modification before auto saving."
+msgstr ""
+
+#: data/gsettings/org.gnome.builder.editor.gschema.xml:118
+msgid "Completion Row Count"
+msgstr ""
+
+#: data/gsettings/org.gnome.builder.editor.gschema.xml:119
+msgid "The number of completion rows to display to the user."
+msgstr ""
+
+#: data/gsettings/org.gnome.builder.editor.gschema.xml:124
+#: src/plugins/editorui/tweaks.ui:60
+msgid "Line Height"
+msgstr ""
+
+#: data/gsettings/org.gnome.builder.editor.gschema.xml:125
+msgid "The line height to use for the selected font."
+msgstr ""
+
+#: data/gsettings/org.gnome.builder.editor.gschema.xml:129
+msgid "Interactive Completion"
+msgstr ""
+
+#: data/gsettings/org.gnome.builder.editor.gschema.xml:130
+msgid ""
+"If enabled, Builder will automatically display completion proposals as you "
+"type."
+msgstr ""
+
+#: data/gsettings/org.gnome.builder.editor.gschema.xml:135
+msgid "Minimum characters for matching selection."
+msgstr ""
+
+#: data/gsettings/org.gnome.builder.editor.gschema.xml:136
+msgid "Specify the minimum number of characters for selection matching."
+msgstr ""
+
+#: data/gsettings/org.gnome.builder.editor.gschema.xml:140
+msgid "Enable Snippets"
+msgstr ""
+
+#: data/gsettings/org.gnome.builder.editor.gschema.xml:141
+msgid ""
+"Allow expanding snippets from the editor by pressing tab after the snippet "
+"trigger."
+msgstr ""
+
+#: data/gsettings/org.gnome.builder.editor.gschema.xml:145
+msgid "Select First Completion"
+msgstr ""
+
+#: data/gsettings/org.gnome.builder.editor.gschema.xml:146
+msgid "Automatically select the first auto-completion entry."
+msgstr ""
+
+#: data/gsettings/org.gnome.builder.editor.language.gschema.xml:42
+msgid "Spaces Style"
+msgstr ""
+
+#: data/gsettings/org.gnome.builder.editor.language.gschema.xml:43
+msgid "How to apply spaces when reformatting text."
+msgstr ""
+
+#: data/gsettings/org.gnome.builder.extension-type.gschema.xml:5
+msgid "Enabled"
+msgstr ""
+
+#: data/gsettings/org.gnome.builder.extension-type.gschema.xml:6
+msgid "If the type within the extension is enabled."
+msgstr ""
+
+#: data/gsettings/org.gnome.builder.gschema.xml:5
+msgid "Window size"
+msgstr ""
+
+#: data/gsettings/org.gnome.builder.gschema.xml:6
+msgid "Window size (width and height)."
+msgstr ""
+
+#: data/gsettings/org.gnome.builder.gschema.xml:10
+msgid "Window maximized"
+msgstr ""
+
+#: data/gsettings/org.gnome.builder.gschema.xml:11
+msgid "Window maximized state"
+msgstr ""
+
+#: data/gsettings/org.gnome.builder.gschema.xml:20
+msgid "Style Variant"
+msgstr ""
+
+#: data/gsettings/org.gnome.builder.gschema.xml:21
+msgid ""
+"Use the light or dark variant of the GTK theme and/or GtkSourceView style "
+"scheme."
+msgstr ""
+
+#. Translators: This is the default directory name for user’s
+#. projects. Do NOT change the ASCII double quotes ("") to your
+#. language’s convention, e.g. do not use “” or »«.
+#: data/gsettings/org.gnome.builder.gschema.xml:27
+msgid "\"Projects\""
+msgstr ""
+
+#: data/gsettings/org.gnome.builder.gschema.xml:28
+msgid "Projects directory"
+msgstr ""
+
+#: data/gsettings/org.gnome.builder.gschema.xml:29
+msgid "Directory for all Builder projects."
+msgstr ""
+
+#: data/gsettings/org.gnome.builder.gschema.xml:33
+msgid "Restore Session"
+msgstr ""
+
+#: data/gsettings/org.gnome.builder.gschema.xml:34
+msgid "Restores the projects previous session when loading."
+msgstr ""
+
+#: data/gsettings/org.gnome.builder.gschema.xml:38
+msgid "Clear build caches at startup"
+msgstr ""
+
+#: data/gsettings/org.gnome.builder.gschema.xml:39
+msgid "If enabled, Builder will clear build caches upon startup."
+msgstr ""
+
+#: data/gsettings/org.gnome.builder.gschema.xml:50
+msgid "The interface style to change pages"
+msgstr ""
+
+#: data/gsettings/org.gnome.builder.gschema.xml:64
+msgid "Default License"
+msgstr ""
+
+#: data/gsettings/org.gnome.builder.gschema.xml:65
+msgid "The default license to use for new projects"
+msgstr ""
+
+#: data/gsettings/org.gnome.builder.plugin.gschema.xml:5
+msgid "Plugin enabled"
+msgstr ""
+
+#: data/gsettings/org.gnome.builder.plugin.gschema.xml:6
+msgid "If the plugin should be enabled"
+msgstr ""
+
+#: data/gsettings/org.gnome.builder.project.gschema.xml:7
+msgid "Selected configuration for building"
+msgstr ""
+
+#: data/gsettings/org.gnome.builder.project.gschema.xml:8
+msgid ""
+"The configuration that has been selected and will be restored the next time "
+"the project loads."
+msgstr ""
+
+#: data/gsettings/org.gnome.builder.project.gschema.xml:13
+msgid "Install Project Before Running"
+msgstr ""
+
+#: data/gsettings/org.gnome.builder.project.gschema.xml:14
+msgid ""
+"Run the pipelines install phase before running the project. Only use this if "
+"you know what you're doing with your project."
+msgstr ""
+
+#: data/gsettings/org.gnome.builder.project.gschema.xml:19
+msgid "Default Run Command"
+msgstr ""
+
+#: data/gsettings/org.gnome.builder.project.gschema.xml:20
+msgid "The id of the default run command"
+msgstr ""
+
+#: data/gsettings/org.gnome.builder.project.gschema.xml:34
+msgid "The signal to send the app to stop"
+msgstr ""
+
+#: data/gsettings/org.gnome.builder.project.gschema.xml:35
+msgid ""
+"This allows sending something other than sigkill to stop the target "
+"application. That might be useful when you want to gracefully shutdown a "
+"server process."
+msgstr ""
+
+#: data/gsettings/org.gnome.builder.project.gschema.xml:44
+msgid "Unit Test Locality"
+msgstr ""
+
+#: data/gsettings/org.gnome.builder.project.gschema.xml:45
+msgid "What environment to use when running unit tests"
+msgstr ""
+
+#: data/gsettings/org.gnome.builder.project.gschema.xml:50
+#: src/plugins/buildui/gtk/menus.ui:170 src/plugins/buildui/tweaks.ui:133
+msgid "Verbose Logging"
+msgstr ""
+
+#: data/gsettings/org.gnome.builder.project.gschema.xml:51
+msgid ""
+"If G_MESSAGES_DEBUG=all should be used when running the target application"
+msgstr ""
+
+#: data/gsettings/org.gnome.builder.project-tree.gschema.xml:5
+#: src/plugins/project-tree/tweaks.ui:13
+msgid "Show Icons"
+msgstr ""
+
+#: data/gsettings/org.gnome.builder.project-tree.gschema.xml:6
+msgid "This setting is deprecated and no longer in use."
+msgstr ""
+
+#: data/gsettings/org.gnome.builder.project-tree.gschema.xml:10
+#: src/plugins/project-tree/tweaks.ui:25
+msgid "Show Ignored Files"
+msgstr ""
+
+#: data/gsettings/org.gnome.builder.project-tree.gschema.xml:11
+msgid ""
+"If enabled, the project tree will display files that are ignored by the VCS."
+msgstr ""
+
+#: data/gsettings/org.gnome.builder.project-tree.gschema.xml:15
+#: src/plugins/project-tree/tweaks.ui:37
+msgid "Sort Directories First"
+msgstr ""
+
+#: data/gsettings/org.gnome.builder.project-tree.gschema.xml:16
+msgid ""
+"If enabled, the project tree will sort directories before regular files."
+msgstr ""
+
+#: data/gsettings/org.gnome.builder.spelling.gschema.xml:5
+#: src/plugins/editorui/tweaks.ui:363
+#: src/plugins/spellcheck/editor-spell-menu.c:250
+msgid "Check Spelling"
+msgstr ""
+
+#: data/gsettings/org.gnome.builder.spelling.gschema.xml:6
+msgid "Automatically check spelling within documents"
+msgstr ""
+
+#: data/org.gnome.Builder.desktop.in.in:4
+msgid "Build software for GNOME"
+msgstr ""
+
+#. Translators: Search terms to find this application. Do NOT translate or localize the semicolons! The list MUST also end with a semicolon!
+#: data/org.gnome.Builder.desktop.in.in:14
+msgid "Build;Develop;"
+msgstr ""
+
+#: data/org.gnome.Builder.desktop.in.in:20
+msgid "Open a Project"
+msgstr ""
+
+#: data/org.gnome.Builder.desktop.in.in:24
+msgid "Start New Project"
+msgstr ""
+
+#: data/org.gnome.Builder.desktop.in.in:28
+#: src/plugins/vcsui/gbp-vcsui-clone-page.ui:279
+#: src/plugins/vcsui/gbp-vcsui-workspace-addin.c:92
+msgid "Clone Repository"
+msgstr ""
+
+#: data/org.gnome.Builder.desktop.in.in:32
+msgid "New Editor Workspace"
+msgstr ""
+
+#: data/org.gnome.Builder.desktop.in.in:36
+#: src/plugins/dspy/gbp-dspy-workspace.ui:11
+msgid "D-Bus Inspector"
+msgstr ""
+
+#: src/libide/code/ide-buffer.c:3685
+msgid "The current language lacks a symbol resolver."
+msgstr ""
+
+#. translators: %u is replaced with an incrementing number
+#: src/libide/code/ide-buffer-manager.c:381
+#, c-format
+msgid "unsaved file %u"
+msgstr ""
+
+#: src/libide/code/ide-language-defaults.c:219
+#, c-format
+msgid "%s contained invalid ASCII"
+msgstr ""
+
+#: src/libide/code/ide-language-defaults.c:234
+#, c-format
+msgid "Failed to parse integer from “%s”"
+msgstr ""
+
+#: src/libide/code/ide-language-defaults.c:309
+msgid "language defaults missing version in [global] group."
+msgstr ""
+
+#: src/libide/code/ide-language-defaults.c:403
+msgid "Failed to initialize defaults."
+msgstr ""
+
+#. translators: %s is replaced with the error message
+#: src/libide/code/ide-unsaved-files.c:253
+#, c-format
+msgid "Failed to save draft: %s"
+msgstr ""
+
+#: src/libide/core/ide-context.c:380 src/libide/core/ide-context.c:843
+msgid "Untitled"
+msgstr ""
+
+#: src/libide/core/ide-transfer.c:547
+#: src/libide/greeter/ide-greeter-workspace.c:545
+#: src/libide/greeter/ide-greeter-workspace.c:682
+#: src/libide/gtk/ide-install-button.ui:31
+#: src/libide/gtk/ide-shortcut-accel-dialog.ui:21
+#: src/libide/gui/ide-workbench.c:1517
+#: src/plugins/buildui/gbp-buildui-log-pane.c:328
+#: src/plugins/codeui/gbp-codeui-range-dialog.ui:7
+#: src/plugins/codeui/gbp-codeui-rename-dialog.ui:9
+#: src/plugins/flatpak/gbp-flatpak-install-dialog.c:117
+#: src/plugins/flatpak/gbp-flatpak-runtime-provider.c:325
+#: src/plugins/shellcmd/gbp-shellcmd-command-dialog.ui:16
+#: src/plugins/testui/gbp-testui-output-panel.c:104
+msgid "_Cancel"
+msgstr ""
+
+#: src/libide/debugger/ide-debug-manager.c:977
+msgid "A suitable debugger could not be found."
+msgstr ""
+
+#: src/libide/editor/gtk/menus.ui:18 src/libide/gui/ide-frame.ui:105
+#: src/libide/gui/ide-workbench.c:1513
+msgid "Open File…"
+msgstr ""
+
+#: src/libide/editor/gtk/menus.ui:22
+msgid "Open a file in the workspace"
+msgstr ""
+
+#: src/libide/editor/gtk/menus.ui:31 src/libide/greeter/gtk/menus.ui:29
+#: src/libide/gui/gtk/menus.ui:26 src/libide/tweaks/ide-tweaks-window.c:129
+msgid "Preferences"
+msgstr ""
+
+#: src/libide/editor/gtk/menus.ui:37 src/libide/greeter/gtk/menus.ui:35
+#: src/libide/gui/gtk/menus.ui:34 src/libide/plugins/ide-plugin.c:350
+#: src/libide/tweaks/ide-tweaks-window.ui:139
+#: src/plugins/editorui/tweaks.ui:464
+msgid "Keyboard Shortcuts"
+msgstr ""
+
+#: src/libide/editor/gtk/menus.ui:43 src/libide/greeter/gtk/menus.ui:41
+#: src/libide/gui/gtk/menus.ui:39 src/libide/gui/gtk/menus.ui:43
+#: src/libide/gui/gtk/menus.ui:46 src/libide/gui/gtk/menus.ui:53
+#: src/libide/tweaks/ide-tweaks-window.ui:143
+msgid "Help"
+msgstr ""
+
+#: src/libide/editor/gtk/menus.ui:49 src/libide/greeter/gtk/menus.ui:47
+#: src/libide/gui/gtk/menus.ui:50
+msgid "About Builder"
+msgstr ""
+
+#: src/libide/editor/gtk/menus.ui:59 src/libide/gui/gtk/menus.ui:61
+msgid "_Quit"
+msgstr ""
+
+#: src/libide/editor/gtk/menus.ui:66
+msgid "Document"
+msgstr ""
+
+#: src/libide/editor/gtk/menus.ui:67 src/libide/editor/gtk/menus.ui:71
+#: src/libide/editor/gtk/menus.ui:80 src/libide/gui/gtk/menus.ui:22
+#: src/libide/gui/gtk/menus.ui:23 src/libide/gui/gtk/menus.ui:57
+#: src/libide/gui/gtk/menus.ui:58 src/libide/gui/gtk/menus.ui:69
+#: src/libide/gui/gtk/menus.ui:73 src/libide/gui/gtk/menus.ui:77
+#: src/plugins/buildui/tweaks.ui:9 src/plugins/editorui/gtk/menus.ui:153
+#: src/plugins/menu-search/gtk/menus.ui:10
+#: src/plugins/menu-search/gtk/menus.ui:23
+#: src/plugins/menu-search/gtk/menus.ui:52
+#: src/plugins/web-browser/gtk/menus.ui:15
+msgid "Application"
+msgstr ""
+
+#: src/libide/editor/gtk/menus.ui:68 src/libide/editor/gtk/menus.ui:72
+msgid "Pages"
+msgstr ""
+
+#: src/libide/editor/gtk/menus.ui:76 src/libide/editor/gtk/menus.ui:84
+#: src/libide/editor/gtk/menus.ui:88 src/libide/gui/tweaks.ui:23
+#: src/libide/sourceview/gtk/menus.ui:6 src/libide/sourceview/gtk/menus.ui:30
+#: src/libide/sourceview/gtk/menus.ui:46 src/libide/sourceview/gtk/menus.ui:70
+#: src/libide/sourceview/gtk/menus.ui:78 src/libide/sourceview/gtk/menus.ui:109
+#: src/libide/sourceview/gtk/menus.ui:139
+#: src/libide/sourceview/gtk/menus.ui:145
+#: src/plugins/comment-code/gtk/menus.ui:6
+#: src/plugins/menu-search/gtk/menus.ui:69
+#: src/plugins/symbol-tree/gtk/menus.ui:5
+msgid "Text Editor"
+msgstr ""
+
+#: src/libide/editor/gtk/menus.ui:77
+msgid "Search & Replace"
+msgstr ""
+
+#: src/libide/editor/gtk/menus.ui:81 src/libide/gui/gtk/menus.ui:70
+#: src/libide/gui/gtk/menus.ui:74 src/plugins/editorui/gtk/menus.ui:154
+msgid "Documents"
+msgstr ""
+
+#: src/libide/editor/gtk/menus.ui:85 src/libide/sourceview/gtk/menus.ui:71
+#: src/libide/sourceview/gtk/menus.ui:110
+msgid "Selection"
+msgstr ""
+
+#: src/libide/editor/gtk/menus.ui:89
+msgid "Printing"
+msgstr ""
+
+#. translators: %s is replaced with the error message
+#: src/libide/editor/ide-editor.c:121
+#, c-format
+msgid "Failed to open file: %s"
+msgstr ""
+
+#: src/libide/editor/ide-editor-info-bar.c:85
+msgid "_Discard Changes and Reload"
+msgstr ""
+
+#: src/libide/editor/ide-editor-info-bar.c:88
+msgid "File Has Changed on Disk"
+msgstr ""
+
+#: src/libide/editor/ide-editor-info-bar.c:89
+msgid "The file has been changed by another program."
+msgstr ""
+
+#: src/libide/editor/ide-editor-info-bar.c:100
+msgid "Save _As…"
+msgstr ""
+
+#: src/libide/editor/ide-editor-info-bar.c:102
+msgid "Buffer Restored"
+msgstr ""
+
+#: src/libide/editor/ide-editor-info-bar.c:103
+msgid "Unsaved buffer has been restored."
+msgstr ""
+
+#: src/libide/editor/ide-editor-info-bar.c:109
+msgid "_Save…"
+msgstr ""
+
+#: src/libide/editor/ide-editor-info-bar.c:111
+#: src/libide/editor/ide-editor-info-bar.ui:81
+msgid "_Discard…"
+msgstr ""
+
+#: src/libide/editor/ide-editor-info-bar.c:113
+msgid "Draft Changes Restored"
+msgstr ""
+
+#: src/libide/editor/ide-editor-info-bar.c:114
+msgid "Unsaved changes to the buffer have been restored."
+msgstr ""
+
+#: src/libide/editor/ide-editor-info-bar.ui:19
+msgid "Could Not Open File"
+msgstr ""
+
+#: src/libide/editor/ide-editor-info-bar.ui:29
+msgid "You do not have permission to open the file."
+msgstr ""
+
+#: src/libide/editor/ide-editor-info-bar.ui:37
+msgid "_Retry"
+msgstr ""
+
+#: src/libide/editor/ide-editor-info-bar.ui:44
+msgid "Open As _Administrator"
+msgstr ""
+
+#: src/libide/editor/ide-editor-info-bar.ui:63
+msgid "Document Restored"
+msgstr ""
+
+#: src/libide/editor/ide-editor-info-bar.ui:73
+msgid "Unsaved document has been restored."
+msgstr ""
+
+#. translators: %s is the error message
+#: src/libide/editor/ide-editor-page.c:452
+#, c-format
+msgid "Print failed: %s"
+msgstr ""
+
+#. translators: %s contains the error message
+#: src/libide/editor/ide-editor-page.c:528
+#, c-format
+msgid "Failed to format selection: %s"
+msgstr ""
+
+#: src/libide/editor/ide-editor-page.c:948
+#: src/plugins/buildui/gbp-buildui-log-pane.c:324
+#: src/plugins/testui/gbp-testui-output-panel.c:100
+msgid "Save File"
+msgstr ""
+
+#: src/libide/editor/ide-editor-page.c:951
+#: src/libide/gtk/ide-file-chooser-entry.c:109
+#: src/libide/terminal/ide-terminal-page-actions.c:281
+#: src/plugins/editorui/gtk/menus.ui:156 src/plugins/sysprof/gtk/menus.ui:123
+msgid "Save"
+msgstr ""
+
+#: src/libide/editor/ide-editor-page.c:951
+#: src/libide/gtk/ide-file-chooser-entry.c:156
+#: src/libide/terminal/ide-terminal-page-actions.c:280
+#: src/libide/tweaks/ide-tweaks-directory.c:140
+#: src/plugins/create-project/gbp-create-project-widget.c:223
+#: src/plugins/shellcmd/gbp-shellcmd-command-dialog.c:485
+#: src/plugins/sysprof/gbp-sysprof-workbench-addin.c:347
+#: src/plugins/vcsui/gbp-vcsui-clone-page.c:112
+msgid "Cancel"
+msgstr ""
+
+#: src/libide/editor/ide-editor-search-bar.ui:30
+msgid "Replace"
+msgstr ""
+
+#: src/libide/editor/ide-editor-search-bar.ui:46
+msgid "Move to previous match (Ctrl+Shift+G)"
+msgstr ""
+
+#: src/libide/editor/ide-editor-search-bar.ui:57
+msgid "Move to next match (Ctrl+G)"
+msgstr ""
+
+#: src/libide/editor/ide-editor-search-bar.ui:72
+msgid "Search & Replace (Ctrl+H)"
+msgstr ""
+
+#: src/libide/editor/ide-editor-search-bar.ui:103
+msgid "Close search"
+msgstr ""
+
+#: src/libide/editor/ide-editor-search-bar.ui:120
+msgid "_Replace"
+msgstr ""
+
+#: src/libide/editor/ide-editor-search-bar.ui:132
+msgid "Replace _All"
+msgstr ""
+
+#: src/libide/editor/ide-editor-search-bar.ui:146
+msgid "Use Re_gular Expressions"
+msgstr ""
+
+#: src/libide/editor/ide-editor-search-bar.ui:150
+msgid "_Case Sensitive"
+msgstr ""
+
+#: src/libide/editor/ide-editor-search-bar.ui:154
+msgid "Match Whole Words"
+msgstr ""
+
+#: src/libide/editor/ide-editor-utils.c:40
+msgid "Unix/Linux (LF)"
+msgstr ""
+
+#: src/libide/editor/ide-editor-utils.c:41
+msgid "Mac OS Classic (CR)"
+msgstr ""
+
+#: src/libide/editor/ide-editor-utils.c:42
+msgid "Windows (CR+LF)"
+msgstr ""
+
+#: src/libide/editor/ide-editor-utils.c:141
+msgid "Automatically Detected"
+msgstr ""
+
+#: src/libide/editor/ide-editor-utils.c:157
+msgid "Character Encoding:"
+msgstr ""
+
+#: src/libide/editor/ide-editor-utils.c:192
+msgid "Line Ending:"
+msgstr ""
+
+#: src/libide/editor/ide-editor-utils.c:270
+#: src/plugins/create-project/gbp-create-project-widget.ui:101
+msgid "Language"
+msgstr ""
+
+#: src/libide/foundry/ide-build-manager.c:470
+#, c-format
+msgid "Failed to initialize build pipeline: %s"
+msgstr ""
+
+#: src/libide/foundry/ide-build-manager.c:611
+#, c-format
+msgid "Failed to get device information: %s"
+msgstr ""
+
+#: src/libide/foundry/ide-config-manager.c:529
+msgid "Active Configuration"
+msgstr ""
+
+#. translators: %s is replaced with the external device name
+#: src/libide/foundry/ide-device-manager.c:149
+#, c-format
+msgid "Discovered device “%s”"
+msgstr ""
+
+#: src/libide/foundry/ide-device-manager.c:535
+msgid "Devices"
+msgstr ""
+
+#: src/libide/foundry/ide-device-manager.c:709
+msgid "Cannot deploy to device, build pipeline is not initialized"
+msgstr ""
+
+#: src/libide/foundry/ide-fallback-build-system.c:143
+#: src/libide/greeter/ide-greeter-row.c:252
+msgid "Fallback"
+msgstr ""
+
+#. translators: %s is replaced with the host name
+#: src/libide/foundry/ide-local-device.c:140
+#, c-format
+msgid "My Computer (%s)"
+msgstr ""
+
+#. translators: first %s is replaced with the host name, second with CPU architecture
+#: src/libide/foundry/ide-local-device.c:150
+#, c-format
+msgid "My Computer (%s) — %s"
+msgstr ""
+
+#: src/libide/foundry/ide-pipeline.c:835
+msgid "The build pipeline is in a failed state"
+msgstr ""
+
+#: src/libide/foundry/ide-pipeline.c:845
+msgid "The build configuration has errors"
+msgstr ""
+
+#. translators: %s is replaced with the build shell command
+#: src/libide/foundry/ide-pipeline.c:1096
+#, c-format
+msgid "Build (%s)"
+msgstr ""
+
+#. translators: %s is replaced with the post-install shell command
+#: src/libide/foundry/ide-pipeline.c:1137
+#, c-format
+msgid "Post-install (%s)"
+msgstr ""
+
+#: src/libide/foundry/ide-pipeline.c:3077
+#: src/libide/foundry/ide-pipeline.c:3116
+msgid "Pseudo terminal creation failed. Terminal features will be limited."
+msgstr ""
+
+#: src/libide/foundry/ide-pipeline.c:3313
+msgid "Cleaning…"
+msgstr ""
+
+#: src/libide/foundry/ide-pipeline.c:3317
+#: src/libide/foundry/ide-pipeline.c:3374
+#: src/plugins/buildui/gbp-buildui-omni-bar-section.c:218
+msgid "Failed"
+msgstr ""
+
+#: src/libide/foundry/ide-pipeline.c:3319
+#: src/libide/foundry/ide-pipeline.c:3382
+msgid "Ready"
+msgstr ""
+
+#: src/libide/foundry/ide-pipeline.c:3334
+msgid "Downloading…"
+msgstr ""
+
+#: src/libide/foundry/ide-pipeline.c:3338
+msgid "Building dependencies…"
+msgstr ""
+
+#: src/libide/foundry/ide-pipeline.c:3342
+msgid "Bootstrapping…"
+msgstr ""
+
+#: src/libide/foundry/ide-pipeline.c:3346
+msgid "Configuring…"
+msgstr ""
+
+#: src/libide/foundry/ide-pipeline.c:3350
+#: src/plugins/buildui/gbp-buildui-omni-bar-section.c:200
+#: src/plugins/notification/ide-notification-addin.c:62
+msgid "Building…"
+msgstr ""
+
+#: src/libide/foundry/ide-pipeline.c:3354
+msgid "Installing…"
+msgstr ""
+
+#: src/libide/foundry/ide-pipeline.c:3358
+msgid "Committing…"
+msgstr ""
+
+#: src/libide/foundry/ide-pipeline.c:3362
+msgid "Exporting…"
+msgstr ""
+
+#: src/libide/foundry/ide-pipeline.c:3366
+#: src/libide/foundry/ide-pipeline.c:3370
+#: src/plugins/buildui/gbp-buildui-omni-bar-section.c:236
+msgid "Success"
+msgstr ""
+
+#: src/libide/foundry/ide-pipeline.c:3378
+msgid "Preparing…"
+msgstr ""
+
+#. translators: %s is replaced with the name of the file being removed
+#: src/libide/foundry/ide-pipeline.c:3734
+#, c-format
+msgid "Removing %s"
+msgstr ""
+
+#: src/libide/foundry/ide-pipeline.c:3793
+msgid "Removing build directories…"
+msgstr ""
+
+#: src/libide/foundry/ide-pipeline-stage-transfer.c:136
+msgid "Cannot build transfer while on metered connection"
+msgstr ""
+
+#: src/libide/foundry/ide-run-command.c:177
+#: src/plugins/shellcmd/gbp-shellcmd-search-result.c:67
+#: src/plugins/shellcmd/gbp-shellcmd-shortcut-provider.c:73
+msgid "Untitled command"
+msgstr ""
+
+#: src/libide/foundry/ide-run-command.c:237
+msgid "Unit Test"
+msgstr ""
+
+#: src/libide/foundry/ide-run-manager.c:505
+msgid "Cannot run target, another target is running"
+msgstr ""
+
+#. translators: %s is replaced with the name of the users run command
+#: src/libide/foundry/ide-run-manager.c:929
+#, c-format
+msgid "Running %s…"
+msgstr ""
+
+#: src/libide/foundry/ide-run-manager.c:996
+msgid "Deploying to device…"
+msgstr ""
+
+#: src/libide/foundry/ide-runtime.c:413
+#: src/plugins/host/gbp-host-runtime-provider.c:53
+#: src/plugins/jhbuild/gbp-jhbuild-runtime-provider.c:122
+#: src/plugins/shellcmd/gbp-shellcmd-command-dialog.ui:265
+msgid "Host System"
+msgstr ""
+
+#: src/libide/foundry/ide-toolchain-manager.c:329
+msgid "Default (Host operating system)"
+msgstr ""
+
+#: src/libide/greeter/gtk/menus.ui:12 src/libide/greeter/gtk/menus.ui:63
+#: src/libide/greeter/gtk/menus.ui:82
+#: src/plugins/vcsui/gbp-vcsui-workspace-addin.c:95
+msgid "_Clone Repository…"
+msgstr ""
+
+#: src/libide/greeter/gtk/menus.ui:20
+#: src/plugins/codeui/gbp-codeui-editor-page-addin.c:195
+#: src/plugins/codeui/gbp-codeui-editor-page-addin.c:405
+#: src/plugins/dspy/gtk/menus.ui:21 src/plugins/sysprof/gtk/menus.ui:138
+msgid "Close"
+msgstr ""
+
+#: src/libide/greeter/gtk/menus.ui:56 src/libide/greeter/gtk/menus.ui:76
+msgid "Open a _Project…"
+msgstr ""
+
+#: src/libide/greeter/gtk/menus.ui:59
+msgid "Open a new or existing project"
+msgstr ""
+
+#: src/libide/greeter/gtk/menus.ui:66
+msgid "Create a new project by cloning a repository"
+msgstr ""
+
+#: src/libide/greeter/ide-greeter-buttons-section.c:78
+msgid "Select a _Folder…"
+msgstr ""
+
+#: src/libide/greeter/ide-greeter-row.c:251 src/plugins/projectui/tweaks.ui:31
+msgid "Directory"
+msgstr ""
+
+#: src/libide/greeter/ide-greeter-workspace.c:227
+#: src/libide/gui/ide-workbench.c:347 src/libide/gui/ide-workbench.c:852
+#, c-format
+msgid "Builder — %s"
+msgstr ""
+
+#: src/libide/greeter/ide-greeter-workspace.c:346
+msgid "Failed to load the project"
+msgstr ""
+
+#: src/libide/greeter/ide-greeter-workspace.c:348
+#: src/plugins/create-project/gbp-create-project-widget.c:261
+#: src/plugins/recent/gbp-recent-section.c:433
+msgid "_Close"
+msgstr ""
+
+#: src/libide/greeter/ide-greeter-workspace.c:542
+msgid "Delete Project Sources?"
+msgstr ""
+
+#: src/libide/greeter/ide-greeter-workspace.c:543
+msgid "Deleting the project source code from your computer cannot be undone."
+msgstr ""
+
+#: src/libide/greeter/ide-greeter-workspace.c:546
+msgid "_Delete Project Sources"
+msgstr ""
+
+#: src/libide/greeter/ide-greeter-workspace.c:641
+#: src/libide/greeter/ide-greeter-workspace.c:678
+msgid "Select Project Folder"
+msgstr ""
+
+#: src/libide/greeter/ide-greeter-workspace.c:646
+msgid "Select Project File"
+msgstr ""
+
+#: src/libide/greeter/ide-greeter-workspace.c:683
+#: src/libide/gui/ide-workbench.c:1516
+msgid "_Open"
+msgstr ""
+
+#: src/libide/greeter/ide-greeter-workspace.c:694
+msgid "All Project Types"
+msgstr ""
+
+#: src/libide/greeter/ide-greeter-workspace.ui:21
+msgid "Go back"
+msgstr ""
+
+#: src/libide/greeter/ide-greeter-workspace.ui:37
+msgid "Toggle selection mode"
+msgstr ""
+
+#: src/libide/greeter/ide-greeter-workspace.ui:51
+msgctxt "title"
+msgid "Open a Project"
+msgstr ""
+
+#: src/libide/greeter/ide-greeter-workspace.ui:75
+msgid "Search all Builder projects…"
+msgstr ""
+
+#: src/libide/greeter/ide-greeter-workspace.ui:97
+msgid "No Projects Found"
+msgstr ""
+
+#: src/libide/greeter/ide-greeter-workspace.ui:130
+msgid "_Remove Projects"
+msgstr ""
+
+#: src/libide/greeter/ide-greeter-workspace.ui:141
+msgid "Remove Projects and Sources…"
+msgstr ""
+
+#: src/libide/gtk/ide-animation.c:685
+#, c-format
+msgid "Cannot locate property %s in class %s"
+msgstr ""
+
+#: src/libide/gtk/ide-animation.c:997
+#, c-format
+msgid "Failed to find property %s in %s"
+msgstr ""
+
+#: src/libide/gtk/ide-animation.c:1006
+#, c-format
+msgid "Failed to retrieve va_list value: %s"
+msgstr ""
+
+#: src/libide/gtk/ide-file-chooser-entry.c:101
+#: src/libide/gtk/ide-file-chooser-entry.c:157
+#: src/plugins/sysprof/gbp-sysprof-workbench-addin.c:346
+msgid "Open"
+msgstr ""
+
+#: src/libide/gtk/ide-file-chooser-entry.c:105
+#: src/libide/tweaks/ide-tweaks-directory.c:141
+#: src/plugins/create-project/gbp-create-project-widget.c:222
+#: src/plugins/shellcmd/gbp-shellcmd-command-dialog.c:484
+#: src/plugins/vcsui/gbp-vcsui-clone-page.c:111
+msgid "Select"
+msgstr ""
+
+#: src/libide/gtk/ide-file-chooser-entry.c:448
+msgid "Browse…"
+msgstr ""
+
+#: src/libide/gtk/ide-file-manager.c:99
+msgid "File path is NULL"
+msgstr ""
+
+#: src/libide/gtk/ide-file-manager.c:108 src/libide/gtk/ide-file-manager.c:119
+msgid "Error converting UTF-8 filename to wide char"
+msgstr ""
+
+#: src/libide/gtk/ide-file-manager.c:127
+msgid "ILCreateFromPath() failed"
+msgstr ""
+
+#: src/libide/gtk/ide-file-manager.c:164
+#, c-format
+msgid "Cannot convert “%s” into a valid NSURL."
+msgstr ""
+
+#: src/libide/gtk/ide-gtk.c:453
+msgid "Just now"
+msgstr ""
+
+#: src/libide/gtk/ide-gtk.c:455
+msgid "An hour ago"
+msgstr ""
+
+#: src/libide/gtk/ide-gtk.c:457
+msgid "Yesterday"
+msgstr ""
+
+#: src/libide/gtk/ide-gtk.c:463
+msgid "About a year ago"
+msgstr ""
+
+#: src/libide/gtk/ide-gtk.c:467
+#, c-format
+msgid "About %u year ago"
+msgid_plural "About %u years ago"
+msgstr[0] ""
+msgstr[1] ""
+
+#: src/libide/gtk/ide-install-button.ui:16 src/plugins/buildui/gtk/menus.ui:49
+#: src/plugins/flatpak/gbp-flatpak-install-dialog.c:118
+msgid "_Install"
+msgstr ""
+
+#. translators: the first %u is replaced with the current position, the second with the number of search results
+#: src/libide/gtk/ide-search-entry.c:199
+#, c-format
+msgid "%u of %u"
+msgstr ""
+
+#: src/libide/gtk/ide-search-entry.ui:17 src/libide/gui/ide-frame.ui:16
+#: src/libide/plugins/ide-plugin.c:351 src/plugins/menu-search/gtk/menus.ui:11
+msgid "Search"
+msgstr ""
+
+#. Translators: <b>%s</b> is used to show the provided text in bold
+#: src/libide/gtk/ide-shortcut-accel-dialog.c:394
+#, c-format
+msgid "Enter new shortcut to change <b>%s</b>."
+msgstr ""
+
+#: src/libide/gtk/ide-shortcut-accel-dialog.ui:27
+msgid "_Set"
+msgstr ""
+
+#: src/libide/gtk/ide-shortcut-accel-dialog.ui:68
+msgid "Press Escape to cancel or Backspace to disable."
+msgstr ""
+
+#: src/libide/gui/gtk/menus.ui:14
+msgid "Close Project"
+msgstr ""
+
+#: src/libide/gui/gtk/menus.ui:27
+msgid "Change application preferences"
+msgstr ""
+
+#: src/libide/gui/gtk/menus.ui:35
+msgid "Find keyboard shortcuts"
+msgstr ""
+
+#: src/libide/gui/gtk/menus.ui:52
+msgid "Show information about Builder"
+msgstr ""
+
+#: src/libide/gui/gtk/menus.ui:78 src/plugins/web-browser/gtk/menus.ui:16
+msgid "Web Browsing"
+msgstr ""
+
+#: src/libide/gui/gtk/menus.ui:81 src/libide/gui/tweaks.ui:29
+#: src/libide/terminal/gtk/menus.ui:12 src/libide/terminal/gtk/menus.ui:34
+#: src/plugins/terminal/gbp-terminal-workspace-addin.c:276
+#: src/plugins/terminal/gtk/menus.ui:33
+msgid "Terminal"
+msgstr ""
+
+#: src/libide/gui/gtk/menus.ui:82
+msgid "New Terminals"
+msgstr ""
+
+#: src/libide/gui/ide-application-actions.c:122
+msgid "translator-credits"
+msgstr ""
+
+#: src/libide/gui/ide-application-actions.c:129
+msgid "Funded By"
+msgstr ""
+
+#: src/libide/gui/ide-application-command-line.c:62
+msgid "Show the application preferences"
+msgstr ""
+
+#: src/libide/gui/ide-application-command-line.c:63
+msgid "Open project in new workbench"
+msgstr ""
+
+#: src/libide/gui/ide-application-command-line.c:63
+msgid "FILE"
+msgstr ""
+
+#: src/libide/gui/ide-application-command-line.c:64
+msgid "Print version information and exit"
+msgstr ""
+
+#. Verbose is handled in main(), but we need to add to --help here
+#: src/libide/gui/ide-application-command-line.c:66
+msgid "Increase log verbosity (may be repeated)"
+msgstr ""
+
+#: src/libide/gui/ide-application-command-line.c:116
+#, c-format
+msgid "Failed to open project: %s"
+msgstr ""
+
+#: src/libide/gui/ide-environment-editor.c:73
+msgid "New variable…"
+msgstr ""
+
+#: src/libide/gui/ide-environment-editor-row.ui:33
+msgid "Remove environment variable"
+msgstr ""
+
+#: src/libide/gui/ide-frame.ui:6
+msgid "Open a File or Terminal"
+msgstr ""
+
+#: src/libide/gui/ide-frame.ui:7
+msgid "Use the page switcher above or use one of the following:"
+msgstr ""
+
+#: src/libide/gui/ide-frame.ui:36
+msgid "Project Sidebar"
+msgstr ""
+
+#: src/libide/gui/ide-frame.ui:56
+msgid "Open File"
+msgstr ""
+
+#: src/libide/gui/ide-frame.ui:76 src/libide/gui/ide-frame.ui:114
+msgid "New Terminal"
+msgstr ""
+
+#: src/libide/gui/ide-header-bar.ui:34
+msgid "Open application menu (F10)"
+msgstr ""
+
+#: src/libide/gui/ide-marked-view.c:421
+msgid "Cannot load HTML. Missing WebKit support."
+msgstr ""
+
+#: src/libide/gui/ide-primary-workspace.ui:17
+msgid "Toggle Left Panel (F9)"
+msgstr ""
+
+#: src/libide/gui/ide-primary-workspace.ui:51
+#: src/plugins/menu-search/gtk/menus.ui:34
+msgid "Toggle Right Panel"
+msgstr ""
+
+#: src/libide/gui/ide-primary-workspace.ui:59
+msgid "Search (Ctrl+Enter)"
+msgstr ""
+
+#: src/libide/gui/ide-primary-workspace.ui:105
+msgid "Toggle Bottom Panel (Ctrl+F9)"
+msgstr ""
+
+#: src/libide/gui/ide-run-button.c:62
+msgid "Run Project (Shift+Ctrl+Space)"
+msgstr ""
+
+#: src/libide/gui/ide-run-button.c:68
+msgid "Stop Running Project"
+msgstr ""
+
+#: src/libide/gui/ide-run-button.c:149
+msgid "Stop running"
+msgstr ""
+
+#: src/libide/gui/ide-run-button.c:151
+msgid "Run project"
+msgstr ""
+
+#: src/libide/gui/ide-shortcut-window.c:239
+#: src/libide/gui/ide-shortcut-window.c:265
+msgid "Other"
+msgstr ""
+
+#: src/libide/gui/ide-workspace.c:1701
+msgid "There are unsaved documents"
+msgstr ""
+
+#: src/libide/gui/tweaks.ui:17 src/plugins/buildui/gtk/menus.ui:125
+#: src/plugins/buildui/gtk/preferences.ui:25
+#: src/plugins/buildui/gtk/preferences.ui:32
+msgid "Appearance"
+msgstr ""
+
+#: src/libide/gui/tweaks.ui:63
+msgid "Configurations"
+msgstr ""
+
+#: src/libide/gui/tweaks.ui:75
+msgid "Plugins"
+msgstr ""
+
+#: src/libide/io/ide-pkcon-transfer.c:56
+#, c-format
+msgid "Installing %u package"
+msgid_plural "Installing %u packages"
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: %s is replaced with the error message
+#: src/libide/lsp/ide-lsp-client.c:1522
+#, c-format
+msgid "Failed to initialize language server: %s"
+msgstr ""
+
+#: src/libide/plugins/ide-plugin.c:340
+#: src/plugins/create-project/gbp-create-project-widget.ui:115
+#: src/plugins/git/tweaks.ui:10 src/plugins/projectui/tweaks.ui:148
+msgid "Version Control"
+msgstr ""
+
+#: src/libide/plugins/ide-plugin.c:341 src/plugins/sdkui/tweaks.ui:9
+msgid "SDKs"
+msgstr ""
+
+#: src/libide/plugins/ide-plugin.c:342
+msgid "Language Servers"
+msgstr ""
+
+#: src/libide/plugins/ide-plugin.c:343
+msgid "Devices & Simulators"
+msgstr ""
+
+#: src/libide/plugins/ide-plugin.c:344
+#: src/plugins/codeui/gbp-codeui-hover-provider.c:82
+#: src/plugins/menu-search/gtk/menus.ui:70
+msgid "Diagnostics"
+msgstr ""
+
+#: src/libide/plugins/ide-plugin.c:345
+msgid "Build Systems"
+msgstr ""
+
+#: src/libide/plugins/ide-plugin.c:346
+msgid "Compilers"
+msgstr ""
+
+#: src/libide/plugins/ide-plugin.c:347
+msgid "Debuggers"
+msgstr ""
+
+#: src/libide/plugins/ide-plugin.c:348
+msgid "Templates"
+msgstr ""
+
+#: src/libide/plugins/ide-plugin.c:349
+msgid "Editing & Formatting"
+msgstr ""
+
+#: src/libide/plugins/ide-plugin.c:352
+msgid "Web"
+msgstr ""
+
+#: src/libide/plugins/ide-plugin.c:353
+msgid "Language Enablement"
+msgstr ""
+
+#: src/libide/plugins/ide-plugin.c:354
+msgid "Desktop Integration"
+msgstr ""
+
+#: src/libide/plugins/ide-plugin.c:355
+msgid "Additional"
+msgstr ""
+
+#: src/libide/plugins/ide-plugin-view.ui:35
+msgid "Authors"
+msgstr ""
+
+#: src/libide/plugins/ide-plugin-view.ui:66
+msgid "Version"
+msgstr ""
+
+#: src/libide/plugins/ide-plugin-view.ui:97
+msgid "Website"
+msgstr ""
+
+#: src/libide/projects/ide-project.c:198
+msgid "Destination file must be within the project tree."
+msgstr ""
+
+#: src/libide/projects/ide-project.c:435
+msgid "File must be within the project tree."
+msgstr ""
+
+#: src/libide/projects/ide-projects-global.c:103
+#: src/plugins/projectui/tweaks.ui:9
+msgid "Projects"
+msgstr ""
+
+#: src/libide/projects/xml-reader.c:329
+#, c-format
+msgid "Could not parse XML from stream"
+msgstr ""
+
+#: src/libide/sourceview/gtk/menus.ui:7 src/libide/terminal/gtk/menus.ui:13
+#: src/libide/terminal/gtk/menus.ui:35
+msgid "Clipboard"
+msgstr ""
+
+#: src/libide/sourceview/gtk/menus.ui:10
+msgid "C_ut"
+msgstr ""
+
+#: src/libide/sourceview/gtk/menus.ui:16 src/libide/terminal/gtk/menus.ui:16
+msgid "_Copy"
+msgstr ""
+
+#: src/libide/sourceview/gtk/menus.ui:22 src/libide/terminal/gtk/menus.ui:27
+msgid "_Paste"
+msgstr ""
+
+#: src/libide/sourceview/gtk/menus.ui:29 src/libide/sourceview/gtk/menus.ui:33
+msgid "Undo"
+msgstr ""
+
+#: src/libide/sourceview/gtk/menus.ui:31
+msgid "Undo & Redo"
+msgstr ""
+
+#: src/libide/sourceview/gtk/menus.ui:38
+msgid "Redo"
+msgstr ""
+
+#: src/libide/sourceview/gtk/menus.ui:44 src/libide/sourceview/gtk/menus.ui:47
+msgid "Zoom"
+msgstr ""
+
+#: src/libide/sourceview/gtk/menus.ui:49
+msgid "Zoom Out"
+msgstr ""
+
+#: src/libide/sourceview/gtk/menus.ui:55
+msgid "Reset Zoom"
+msgstr ""
+
+#: src/libide/sourceview/gtk/menus.ui:61
+msgid "Zoom In"
+msgstr ""
+
+#: src/libide/sourceview/gtk/menus.ui:69
+msgid "_Selection"
+msgstr ""
+
+#: src/libide/sourceview/gtk/menus.ui:73 src/libide/terminal/gtk/menus.ui:37
+msgid "Select _All"
+msgstr ""
+
+#: src/libide/sourceview/gtk/menus.ui:79 src/libide/sourceview/gtk/menus.ui:140
+msgid "Formatting"
+msgstr ""
+
+#: src/libide/sourceview/gtk/menus.ui:81
+msgid "All _Upper Case"
+msgstr ""
+
+#: src/libide/sourceview/gtk/menus.ui:82
+msgid "Convert the text selection to upper case"
+msgstr ""
+
+#: src/libide/sourceview/gtk/menus.ui:88
+msgid "All _Lower Case"
+msgstr ""
+
+#: src/libide/sourceview/gtk/menus.ui:89
+msgid "Convert the text selection to lower case"
+msgstr ""
+
+#: src/libide/sourceview/gtk/menus.ui:95
+msgid "In_vert Case"
+msgstr ""
+
+#: src/libide/sourceview/gtk/menus.ui:96
+msgid "Invert case of the text selection"
+msgstr ""
+
+#: src/libide/sourceview/gtk/menus.ui:102
+msgid "_Title Case"
+msgstr ""
+
+#: src/libide/sourceview/gtk/menus.ui:103
+msgid "Convert the text selection to title case"
+msgstr ""
+
+#: src/libide/sourceview/gtk/menus.ui:112
+msgid "Select _Line"
+msgstr ""
+
+#: src/libide/sourceview/gtk/menus.ui:117
+msgid "_Delete Line"
+msgstr ""
+
+#: src/libide/sourceview/gtk/menus.ui:122
+msgid "_Join Lines"
+msgstr ""
+
+#: src/libide/sourceview/gtk/menus.ui:127
+msgid "S_ort Lines"
+msgstr ""
+
+#: src/libide/sourceview/gtk/menus.ui:133
+msgid "D_uplicate Line"
+msgstr ""
+
+#: src/libide/sourceview/gtk/menus.ui:146
+#: src/plugins/symbol-tree/gtk/menus.ui:6
+msgid "Code Navigation"
+msgstr ""
+
+#. translators: the first %u is replaced with the line number and the second with the column.
+#: src/libide/sourceview/ide-source-view.c:1550
+#: src/plugins/editorui/gbp-editorui-position-label.c:77
+#, c-format
+msgid "Ln %u, Col %u"
+msgstr ""
+
+#: src/libide/terminal/gtk/menus.ui:6
+msgid "_Open Link"
+msgstr ""
+
+#: src/libide/terminal/gtk/menus.ui:17
+msgid "Copy selection from terminal to clipboard"
+msgstr ""
+
+#: src/libide/terminal/gtk/menus.ui:22
+msgid "_Copy Link"
+msgstr ""
+
+#: src/libide/terminal/gtk/menus.ui:28
+msgid "Paste from clipboard into the terminal"
+msgstr ""
+
+#: src/libide/terminal/gtk/menus.ui:38
+msgid "Selection all text from terminal including scrollback"
+msgstr ""
+
+#: src/libide/terminal/gtk/menus.ui:44
+msgid "Select _None"
+msgstr ""
+
+#: src/libide/terminal/ide-terminal-page-actions.c:272
+msgid "Save Terminal Content As"
+msgstr ""
+
+#: src/libide/terminal/ide-terminal-page.c:117
+msgid "Failed to launch subprocess. You may need to rebuild your project."
+msgstr ""
+
+#: src/libide/terminal/ide-terminal-page.c:122
+#: src/libide/terminal/ide-terminal-page.c:157
+#: src/libide/terminal/ide-terminal-page.c:271
+msgid "Untitled terminal"
+msgstr ""
+
+#. translators: exited describes that the terminal shell process has exited
+#: src/libide/terminal/ide-terminal-page.c:124
+msgid "Exited"
+msgstr ""
+
+#: src/libide/terminal/ide-terminal-page.c:144
+msgid "Subprocess launcher failed too quickly, will not respawn."
+msgstr ""
+
+#: src/libide/terminal/ide-terminal-page.ui:7
+msgid "Untitled Terminal"
+msgstr ""
+
+#: src/libide/terminal/ide-terminal-popover.ui:12
+msgid "Search runtimes"
+msgstr ""
+
+#: src/libide/terminal/ide-terminal-search.ui:66
+msgid "Show or hide search options such as case sensitivity"
+msgstr ""
+
+#: src/libide/terminal/ide-terminal-search.ui:106
+msgid "Regex"
+msgstr ""
+
+#: src/libide/terminal/ide-terminal-search.ui:115
+msgid "Case sensitive"
+msgstr ""
+
+#: src/libide/terminal/ide-terminal-search.ui:124
+msgid "Match whole word"
+msgstr ""
+
+#: src/libide/terminal/ide-terminal-search.ui:133
+msgid "Wrap around"
+msgstr ""
+
+#: src/libide/tree/ide-tree-node.c:1107 src/libide/tree/ide-tree-node.c:1470
+#: src/libide/tree/ide-tree-node.c:1499
+msgid "(Empty)"
+msgstr ""
+
+#: src/libide/tree/ide-tree-node.c:1468
+#: src/plugins/codeui/gbp-codeui-range-dialog.ui:17
+msgid "Loading…"
+msgstr ""
+
+#: src/libide/tweaks/ide-tweaks-directory.c:137
+msgid "Projects Directory"
+msgstr ""
+
+#: src/libide/tweaks/ide-tweaks-font.c:81
+msgid "Select Font"
+msgstr ""
+
+#: src/libide/tweaks/ide-tweaks-window.c:134
+#, c-format
+msgid "Builder — %s — Preferences"
+msgstr ""
+
+#: src/libide/tweaks/ide-tweaks-window.c:138
+msgid "Builder — Preferences"
+msgstr ""
+
+#: src/libide/tweaks/ide-tweaks-window.ui:35
+msgid "All Preferences"
+msgstr ""
+
+#: src/libide/tweaks/ide-tweaks-window.ui:61
+msgid "Primary Menu"
+msgstr ""
+
+#: src/libide/vcs/ide-directory-vcs.c:57
+msgid "unversioned"
+msgstr ""
+
+#. translators: None means "no version control system"
+#: src/libide/vcs/ide-vcs.c:665
+msgid "None"
+msgstr ""
+
+#: src/libide/webkit/ide-webkit-page.ui:5
+msgid "Blank page"
+msgstr ""
+
+#: src/libide/webkit/ide-webkit-page.ui:96 src/plugins/buildui/gtk/menus.ui:123
+msgid "Settings"
+msgstr ""
+
+#: src/libide/webkit/ide-webkit-page.ui:98
+msgid "Allow JavaScript"
+msgstr ""
+
+#: src/main.c:154
+msgid "Run a new instance of Builder"
+msgstr ""
+
+#: src/plugins/autotools/ide-autotools-makecache-stage.c:204
+msgid "Building cache…"
+msgstr ""
+
+#: src/plugins/autotools/ide-autotools-pipeline-addin.c:50
+msgid "Bootstrapping build system"
+msgstr ""
+
+#: src/plugins/autotools/ide-autotools-pipeline-addin.c:290
+#: src/plugins/phpize/gbp-phpize-pipeline-addin.c:113
+#: src/plugins/waf/gbp-waf-pipeline-addin.c:116
+msgid "Configuring project"
+msgstr ""
+
+#: src/plugins/autotools/ide-autotools-pipeline-addin.c:340
+#: src/plugins/buildstream/gbp-buildstream-pipeline-addin.c:86
+#: src/plugins/cmake/gbp-cmake-pipeline-addin.c:230
+#: src/plugins/gradle/gbp-gradle-pipeline-addin.c:96
+#: src/plugins/make/gbp-make-pipeline-addin.c:142
+#: src/plugins/maven/gbp-maven-pipeline-addin.c:91
+#: src/plugins/phpize/gbp-phpize-pipeline-addin.c:124
+#: src/plugins/waf/gbp-waf-pipeline-addin.c:131
+msgid "Building project"
+msgstr ""
+
+#: src/plugins/autotools/ide-autotools-pipeline-addin.c:366
+msgid "Caching build commands"
+msgstr ""
+
+#. translators: %s is replaced with the name of the configuration
+#: src/plugins/buildconfig/ide-buildconfig-config-provider.c:704
+#, c-format
+msgid "%s (Copy)"
+msgstr ""
+
+#: src/plugins/buildstream/gbp-buildstream-pipeline-addin.c:76
+msgid "BuildStream project in use but “bst” executable could not be found."
+msgstr ""
+
+#: src/plugins/buildui/gbp-buildui-environment-editor.ui:23
+#: src/plugins/shellcmd/gbp-shellcmd-command-dialog.ui:204
+msgid "Add _Variable"
+msgstr ""
+
+#: src/plugins/buildui/gbp-buildui-environment-editor.ui:29
+#: src/plugins/shellcmd/gbp-shellcmd-command-dialog.ui:210
+msgid "Add Variable"
+msgstr ""
+
+#: src/plugins/buildui/gbp-buildui-environment-editor.ui:30
+#: src/plugins/shellcmd/gbp-shellcmd-command-dialog.ui:211
+msgid "_Add"
+msgstr ""
+
+#: src/plugins/buildui/gbp-buildui-environment-row.ui:29
+msgid "Copy"
+msgstr ""
+
+#: src/plugins/buildui/gbp-buildui-environment-row.ui:42
+msgid "Remove"
+msgstr ""
+
+#: src/plugins/buildui/gbp-buildui-log-pane.c:327
+#: src/plugins/testui/gbp-testui-output-panel.c:103
+msgid "_Save"
+msgstr ""
+
+#: src/plugins/buildui/gbp-buildui-log-pane.c:359
+msgid "Build Output"
+msgstr ""
+
+#: src/plugins/buildui/gbp-buildui-log-pane.ui:40
+msgid "Clear build log"
+msgstr ""
+
+#: src/plugins/buildui/gbp-buildui-log-pane.ui:56
+msgid "Cancel build"
+msgstr ""
+
+#: src/plugins/buildui/gbp-buildui-log-pane.ui:72
+msgid "Save build log"
+msgstr ""
+
+#: src/plugins/buildui/gbp-buildui-omni-bar-section.c:113
+msgid "Missing"
+msgstr ""
+
+#: src/plugins/buildui/gbp-buildui-omni-bar-section.ui:37
+#: src/plugins/flatpak/gbp-flatpak-install-dialog.ui:81
+msgid "Branch"
+msgstr ""
+
+#: src/plugins/buildui/gbp-buildui-omni-bar-section.ui:60
+msgid "Build Profile"
+msgstr ""
+
+#: src/plugins/buildui/gbp-buildui-omni-bar-section.ui:83
+#: src/plugins/buildui/gbp-buildui-tweaks-addin.c:96
+msgid "Runtime"
+msgstr ""
+
+#: src/plugins/buildui/gbp-buildui-omni-bar-section.ui:107
+msgid "Device"
+msgstr ""
+
+#: src/plugins/buildui/gbp-buildui-omni-bar-section.ui:136
+msgid "There is a problem with the current build configuration."
+msgstr ""
+
+#: src/plugins/buildui/gbp-buildui-omni-bar-section.ui:162
+msgid "Build status"
+msgstr ""
+
+#: src/plugins/buildui/gbp-buildui-omni-bar-section.ui:186
+msgid "Last build"
+msgstr ""
+
+#: src/plugins/buildui/gbp-buildui-omni-bar-section.ui:211
+msgid "Build result"
+msgstr ""
+
+#: src/plugins/buildui/gbp-buildui-omni-bar-section.ui:236
+msgid "Errors"
+msgstr ""
+
+#: src/plugins/buildui/gbp-buildui-omni-bar-section.ui:262
+msgid "Warnings"
+msgstr ""
+
+#: src/plugins/buildui/gbp-buildui-pane.c:348
+#: src/plugins/buildui/gbp-buildui-pane.ui:81 src/plugins/buildui/tweaks.ui:150
+#: src/plugins/shellcmd/gbp-shellcmd-command-dialog.ui:272
+msgid "Build Pipeline"
+msgstr ""
+
+#: src/plugins/buildui/gbp-buildui-pane.ui:4
+msgid "Build Issues"
+msgstr ""
+
+#: src/plugins/buildui/gbp-buildui-pane.ui:21
+msgid "Build status:"
+msgstr ""
+
+#: src/plugins/buildui/gbp-buildui-pane.ui:37
+msgid "Time completed:"
+msgstr ""
+
+#: src/plugins/buildui/gbp-buildui-pane.ui:53
+#: src/plugins/buildui/gbp-buildui-pane.ui:67
+msgid "—"
+msgstr ""
+
+#. translators: %u is replaced with the number of warnings
+#: src/plugins/buildui/gbp-buildui-status-popover.c:63
+#, c-format
+msgid "Warnings (%u)"
+msgstr ""
+
+#. translators: %u is replaced with the number of errors
+#: src/plugins/buildui/gbp-buildui-status-popover.c:76
+#, c-format
+msgid "Errors (%u)"
+msgstr ""
+
+#: src/plugins/buildui/gbp-buildui-targets-dialog.c:87
+msgid "Shared"
+msgstr ""
+
+#: src/plugins/buildui/gbp-buildui-targets-dialog.c:91
+msgid "Static"
+msgstr ""
+
+#: src/plugins/buildui/gbp-buildui-targets-dialog.c:95
+msgid "Executable"
+msgstr ""
+
+#. translators: %s is replaced with the error message
+#: src/plugins/buildui/gbp-buildui-targets-dialog.c:142
+#, c-format
+msgid "Failed to list build targets: %s"
+msgstr ""
+
+#: src/plugins/buildui/gbp-buildui-targets-dialog.ui:4
+msgid "Select Build Target"
+msgstr ""
+
+#: src/plugins/buildui/gbp-buildui-targets-dialog.ui:18
+msgid "Available Build Targets"
+msgstr ""
+
+#: src/plugins/buildui/gbp-buildui-targets-dialog.ui:19
+msgid ""
+"Some targets may not be available until the project has been configured."
+msgstr ""
+
+#: src/plugins/buildui/gbp-buildui-targets-dialog.ui:27
+#: src/plugins/buildui/tweaks.ui:26
+msgid "Automatically Discover"
+msgstr ""
+
+#: src/plugins/buildui/gbp-buildui-targets-dialog.ui:28
+msgid "This selection allows Builder to choose the best candidate."
+msgstr ""
+
+#: src/plugins/buildui/gbp-buildui-tweaks-addin.c:97
+msgid "The container used to build and run your application"
+msgstr ""
+
+#: src/plugins/buildui/gbp-buildui-tweaks-addin.c:205
+msgid "Duplicate"
+msgstr ""
+
+#: src/plugins/buildui/gbp-buildui-tweaks-addin.c:206
+msgid "Duplicate into new configuration"
+msgstr ""
+
+#: src/plugins/buildui/gbp-buildui-tweaks-addin.c:217
+msgid "Make Active"
+msgstr ""
+
+#: src/plugins/buildui/gbp-buildui-tweaks-addin.c:218
+msgid "Make configuration active and reload build pipeline"
+msgstr ""
+
+#: src/plugins/buildui/gbp-buildui-tweaks-addin.c:230
+#: src/plugins/meson/gbp-meson-toolchain-edition-preferences-row.ui:241
+#: src/plugins/sysroot/gbp-sysroot-preferences-row.ui:172
+msgid "Delete"
+msgstr ""
+
+#: src/plugins/buildui/gbp-buildui-tweaks-addin.c:231
+msgid "Delete configuration"
+msgstr ""
+
+#: src/plugins/buildui/gbp-buildui-workspace-addin.c:152
+msgid "Stop Building Project"
+msgstr ""
+
+#: src/plugins/buildui/gbp-buildui-workspace-addin.c:152
+msgid "Build Project (Shift+Ctrl+Alt+B)"
+msgstr ""
+
+#: src/plugins/buildui/gbp-buildui-workspace-addin.c:286
+msgid "Display Build Diagnostics (Ctrl+Alt+?)"
+msgstr ""
+
+#: src/plugins/buildui/gtk/menus.ui:5
+msgid "Configure Project…"
+msgstr ""
+
+#: src/plugins/buildui/gtk/menus.ui:8
+msgid "Configure settings related to the project"
+msgstr ""
+
+#: src/plugins/buildui/gtk/menus.ui:10 src/plugins/buildui/gtk/menus.ui:14
+#: src/plugins/buildui/gtk/menus.ui:23 src/plugins/buildui/gtk/menus.ui:46
+#: src/plugins/buildui/gtk/menus.ui:73 src/plugins/buildui/gtk/menus.ui:83
+#: src/plugins/buildui/gtk/menus.ui:97 src/plugins/buildui/gtk/menus.ui:106
+#: src/plugins/buildui/gtk/menus.ui:119
+msgid "Code Foundry"
+msgstr ""
+
+#: src/plugins/buildui/gtk/menus.ui:11 src/plugins/buildui/gtk/menus.ui:15
+#: src/plugins/projectui/tweaks.ui:218
+msgid "Configuration"
+msgstr ""
+
+#: src/plugins/buildui/gtk/menus.ui:17
+msgid "Select Build Target…"
+msgstr ""
+
+#: src/plugins/buildui/gtk/menus.ui:19
+msgid "Change default build target"
+msgstr ""
+
+#: src/plugins/buildui/gtk/menus.ui:24 src/plugins/buildui/gtk/menus.ui:74
+#: src/plugins/buildui/gtk/menus.ui:84
+msgid "Building"
+msgstr ""
+
+#: src/plugins/buildui/gtk/menus.ui:26
+msgid "_Build"
+msgstr ""
+
+#: src/plugins/buildui/gtk/menus.ui:27
+msgid "Build the project"
+msgstr ""
+
+#: src/plugins/buildui/gtk/menus.ui:33
+msgid "_Rebuild"
+msgstr ""
+
+#: src/plugins/buildui/gtk/menus.ui:34
+msgid "Rebuild the project"
+msgstr ""
+
+#: src/plugins/buildui/gtk/menus.ui:39
+msgid "_Clean"
+msgstr ""
+
+#: src/plugins/buildui/gtk/menus.ui:40
+msgid "Clean the project"
+msgstr ""
+
+#: src/plugins/buildui/gtk/menus.ui:47
+msgid "Install & Deployment"
+msgstr ""
+
+#: src/plugins/buildui/gtk/menus.ui:51
+msgid "Install the project"
+msgstr ""
+
+#: src/plugins/buildui/gtk/menus.ui:55
+msgid "Deploy to Device…"
+msgstr ""
+
+#: src/plugins/buildui/gtk/menus.ui:57
+msgid "Deploy project to current device"
+msgstr ""
+
+#. TODO: Instead of having a generic Export via the build-manager,
+#. this should move into the Flatpak plugin and have it use
+#. flatpak-builder directly (reusing our cachepoints) so that
+#. the output is the same as using flatpak-builder from Flathub, etc.
+#: src/plugins/buildui/gtk/menus.ui:66
+msgid "_Export"
+msgstr ""
+
+#: src/plugins/buildui/gtk/menus.ui:68
+msgid "Export project"
+msgstr ""
+
+#: src/plugins/buildui/gtk/menus.ui:76
+msgid "Stop Build"
+msgstr ""
+
+#: src/plugins/buildui/gtk/menus.ui:78
+msgid "Stop building project"
+msgstr ""
+
+#: src/plugins/buildui/gtk/menus.ui:86
+msgid "Show Build _Log"
+msgstr ""
+
+#: src/plugins/buildui/gtk/menus.ui:89
+msgid "Display panel containing the build log"
+msgstr ""
+
+#: src/plugins/buildui/gtk/menus.ui:98 src/plugins/buildui/gtk/menus.ui:107
+msgid "Running"
+msgstr ""
+
+#: src/plugins/buildui/gtk/menus.ui:100
+msgid "Select Run Command…"
+msgstr ""
+
+#: src/plugins/buildui/gtk/menus.ui:112
+msgid "Run"
+msgstr ""
+
+#: src/plugins/buildui/gtk/menus.ui:115
+msgid "Run the project"
+msgstr ""
+
+#: src/plugins/buildui/gtk/menus.ui:120 src/plugins/buildui/tweaks.ui:147
+#: src/plugins/testui/gbp-testui-item.c:84
+#: src/plugins/testui/gbp-testui-panel.ui:4
+msgid "Unit Tests"
+msgstr ""
+
+#: src/plugins/buildui/gtk/menus.ui:127
+msgid "Follow System Style"
+msgstr ""
+
+#: src/plugins/buildui/gtk/menus.ui:133
+msgid "Force Light"
+msgstr ""
+
+#: src/plugins/buildui/gtk/menus.ui:139
+msgid "Force Dark"
+msgstr ""
+
+#: src/plugins/buildui/gtk/menus.ui:146
+msgid "Accessibility"
+msgstr ""
+
+#: src/plugins/buildui/gtk/menus.ui:148
+msgid "High Contrast"
+msgstr ""
+
+#: src/plugins/buildui/gtk/menus.ui:153
+msgid "Text Direction"
+msgstr ""
+
+#: src/plugins/buildui/gtk/menus.ui:155
+msgid "Left-to-Right"
+msgstr ""
+
+#: src/plugins/buildui/gtk/menus.ui:161
+msgid "Right-to-Left"
+msgstr ""
+
+#: src/plugins/buildui/gtk/menus.ui:176
+msgid "Tools"
+msgstr ""
+
+#: src/plugins/buildui/gtk/preferences.ui:36
+#: src/plugins/menu-search/gtk/menus.ui:53
+msgid "Style"
+msgstr ""
+
+#: src/plugins/buildui/gtk/preferences.ui:40
+#: src/plugins/platformui/tweaks.ui:10
+msgid "Interface"
+msgstr ""
+
+#: src/plugins/buildui/gtk/preferences.ui:66
+msgid "Editor Font"
+msgstr ""
+
+#: src/plugins/buildui/gtk/preferences.ui:67
+msgid "The font used in the source code editor"
+msgstr ""
+
+#: src/plugins/buildui/gtk/preferences.ui:72
+msgid "Terminal Font"
+msgstr ""
+
+#: src/plugins/buildui/gtk/preferences.ui:73
+msgid "The font used in the terminal"
+msgstr ""
+
+#: src/plugins/buildui/gtk/preferences.ui:80
+msgid "Show Grid Pattern"
+msgstr ""
+
+#: src/plugins/buildui/gtk/preferences.ui:81
+msgid "Display a grid pattern underneath source code"
+msgstr ""
+
+#: src/plugins/buildui/gtk/preferences.ui:92 src/plugins/editorui/tweaks.ui:87
+msgid "Never"
+msgstr ""
+
+#: src/plugins/buildui/gtk/preferences.ui:93
+msgid "Overview map is never displayed"
+msgstr ""
+
+#: src/plugins/buildui/gtk/preferences.ui:98
+msgid "Always"
+msgstr ""
+
+#: src/plugins/buildui/gtk/preferences.ui:99
+msgid "Overview map is always displayed"
+msgstr ""
+
+#: src/plugins/buildui/gtk/preferences.ui:104
+msgid "Auto"
+msgstr ""
+
+#: src/plugins/buildui/gtk/preferences.ui:105
+msgid "Overview map is automatically displayed based on user input"
+msgstr ""
+
+#: src/plugins/buildui/gtk/preferences.ui:112
+msgid "Navigate with Tabs"
+msgstr ""
+
+#: src/plugins/buildui/gtk/preferences.ui:113
+msgid "Switch documents using a tabbed interface"
+msgstr ""
+
+#: src/plugins/buildui/gtk/preferences.ui:119
+msgid "Navigate with Popover"
+msgstr ""
+
+#: src/plugins/buildui/gtk/preferences.ui:120
+msgid "Switch documents using a popover"
+msgstr ""
+
+#: src/plugins/buildui/tweaks.ui:12 src/plugins/shellcmd/tweaks.ui:8
+#: src/plugins/shellcmd/tweaks.ui:21
+msgid "Commands"
+msgstr ""
+
+#: src/plugins/buildui/tweaks.ui:16
+msgid "Run Command"
+msgstr ""
+
+#: src/plugins/buildui/tweaks.ui:17
+msgid "This command is used to run your project"
+msgstr ""
+
+#: src/plugins/buildui/tweaks.ui:55
+msgid "Starting & Stopping"
+msgstr ""
+
+#: src/plugins/buildui/tweaks.ui:58
+msgid "Install Before Running"
+msgstr ""
+
+#: src/plugins/buildui/tweaks.ui:59
+msgid ""
+"Installs the application before running. This is necessary for most projects "
+"unless custom run commands are used."
+msgstr ""
+
+#: src/plugins/buildui/tweaks.ui:74
+msgid "Stop Signal"
+msgstr ""
+
+#: src/plugins/buildui/tweaks.ui:75
+msgid ""
+"Send the signal to the target application when requesting the application "
+"stop."
+msgstr ""
+
+#: src/plugins/buildui/tweaks.ui:130
+msgid "Logging"
+msgstr ""
+
+#: src/plugins/buildui/tweaks.ui:134
+msgid ""
+"Runs with <tt>G_MESSAGES_DEBUG=all</tt> environment variable for "
+"troubleshooting"
+msgstr ""
+
+#: src/plugins/buildui/tweaks.ui:151
+msgid "Run unit tests from within the build environment."
+msgstr ""
+
+#: src/plugins/buildui/tweaks.ui:163
+msgid "As Application"
+msgstr ""
+
+#: src/plugins/buildui/tweaks.ui:164
+msgid "Run unit with access to display and other runtime environment features."
+msgstr ""
+
+#: src/plugins/buildui/tweaks.ui:176
+msgid "Build & Tooling"
+msgstr ""
+
+#: src/plugins/buildui/tweaks.ui:182 src/plugins/buildui/tweaks.ui:345
+msgid "General"
+msgstr ""
+
+#: src/plugins/buildui/tweaks.ui:185 src/plugins/terminal/tweaks.ui:84
+msgid "History"
+msgstr ""
+
+#: src/plugins/buildui/tweaks.ui:188
+msgid "Clear Expired Artifacts"
+msgstr ""
+
+#: src/plugins/buildui/tweaks.ui:189
+msgid "Artifacts which have expired will be deleted when Builder is started"
+msgstr ""
+
+#: src/plugins/buildui/tweaks.ui:200
+msgid "Clear Build Logs"
+msgstr ""
+
+#: src/plugins/buildui/tweaks.ui:201
+msgid "Clear the build log history when a new build begins"
+msgstr ""
+
+#: src/plugins/buildui/tweaks.ui:214
+msgid "Workers"
+msgstr ""
+
+#: src/plugins/buildui/tweaks.ui:218
+msgid "Number of workers to use when performing builds"
+msgstr ""
+
+#: src/plugins/buildui/tweaks.ui:227
+msgid "Default"
+msgstr ""
+
+#: src/plugins/buildui/tweaks.ui:233
+msgid "1 per CPU"
+msgstr ""
+
+#: src/plugins/buildui/tweaks.ui:239
+msgid "1"
+msgstr ""
+
+#: src/plugins/buildui/tweaks.ui:245 src/plugins/editorui/gtk/menus.ui:15
+#: src/plugins/editorui/gtk/menus.ui:51
+msgid "2"
+msgstr ""
+
+#: src/plugins/buildui/tweaks.ui:251 src/plugins/editorui/gtk/menus.ui:25
+#: src/plugins/editorui/gtk/menus.ui:61
+msgid "4"
+msgstr ""
+
+#: src/plugins/buildui/tweaks.ui:257
+msgid "6"
+msgstr ""
+
+#: src/plugins/buildui/tweaks.ui:263 src/plugins/editorui/gtk/menus.ui:35
+#: src/plugins/editorui/gtk/menus.ui:71
+msgid "8"
+msgstr ""
+
+#: src/plugins/buildui/tweaks.ui:269
+msgid "16"
+msgstr ""
+
+#: src/plugins/buildui/tweaks.ui:275
+msgid "32"
+msgstr ""
+
+#: src/plugins/buildui/tweaks.ui:281
+msgid "64"
+msgstr ""
+
+#: src/plugins/buildui/tweaks.ui:287
+msgid "128"
+msgstr ""
+
+#: src/plugins/buildui/tweaks.ui:293
+msgid "256"
+msgstr ""
+
+#: src/plugins/buildui/tweaks.ui:299
+msgid "512"
+msgstr ""
+
+#: src/plugins/buildui/tweaks.ui:313
+msgid "Tooling"
+msgstr ""
+
+#: src/plugins/buildui/tweaks.ui:348
+msgid "Installation Prefix"
+msgstr ""
+
+#: src/plugins/buildui/tweaks.ui:349
+msgid ""
+"The project will be installed to this directory during the installation "
+"phase of the build pipeline."
+msgstr ""
+
+#: src/plugins/buildui/tweaks.ui:367
+msgid "Configure Options"
+msgstr ""
+
+#: src/plugins/buildui/tweaks.ui:380
+msgid ""
+"These options are used by the build system to configure the project during "
+"the configure phase of the build pipeline"
+msgstr ""
+
+#: src/plugins/buildui/tweaks.ui:387
+msgid "Build Environment"
+msgstr ""
+
+#: src/plugins/buildui/tweaks.ui:403
+msgid ""
+"The SDK used to build your application is automatically determined from the "
+"runtime."
+msgstr ""
+
+#: src/plugins/cargo/gbp-cargo-pipeline-addin.c:146
+msgid "Fetch dependencies"
+msgstr ""
+
+#: src/plugins/cargo/gbp-cargo-pipeline-addin.c:174
+#: src/plugins/meson/gbp-meson-pipeline-addin.c:237
+msgid "Build project"
+msgstr ""
+
+#: src/plugins/cargo/gbp-cargo-run-command-provider.c:77
+msgid "Cargo Run"
+msgstr ""
+
+#: src/plugins/clang/ide-clang-symbol-node.c:55
+msgid "anonymous"
+msgstr ""
+
+#: src/plugins/clang/org.gnome.builder.clang.gschema.xml:6
+msgid "Complete parentheses"
+msgstr ""
+
+#: src/plugins/clang/org.gnome.builder.clang.gschema.xml:7
+msgid "If parentheses should be included when completing."
+msgstr ""
+
+#: src/plugins/clang/org.gnome.builder.clang.gschema.xml:11
+msgid "Complete parameters"
+msgstr ""
+
+#: src/plugins/clang/org.gnome.builder.clang.gschema.xml:12
+msgid ""
+"If parameters should be included when completing. Requires complete-"
+"parentheses."
+msgstr ""
+
+#: src/plugins/clang/tweaks.ui:14
+msgid "Clang"
+msgstr ""
+
+#: src/plugins/clang/tweaks.ui:17
+msgid "Complete Parentheses"
+msgstr ""
+
+#: src/plugins/clang/tweaks.ui:18
+msgid "Include parentheses when completing clang proposals"
+msgstr ""
+
+#: src/plugins/clang/tweaks.ui:29
+msgid "Complete Parameters"
+msgstr ""
+
+#: src/plugins/clang/tweaks.ui:30
+msgid "Include parameters and type information when completing clang proposals"
+msgstr ""
+
+#: src/plugins/cmake/gbp-cmake-build-system.c:423
+msgid "CMake"
+msgstr ""
+
+#: src/plugins/cmake/gbp-cmake-pipeline-addin.c:202
+#: src/plugins/meson/gbp-meson-pipeline-addin.c:227
+msgid "Configure project"
+msgstr ""
+
+#: src/plugins/cmake/gbp-cmake-pipeline-addin.c:245
+#: src/plugins/make/gbp-make-pipeline-addin.c:155
+#: src/plugins/maven/gbp-maven-pipeline-addin.c:103
+#: src/plugins/phpize/gbp-phpize-pipeline-addin.c:132
+#: src/plugins/waf/gbp-waf-pipeline-addin.c:142
+msgid "Installing project"
+msgstr ""
+
+#: src/plugins/cmake/gbp-cmake-toolchain.c:218
+#, c-format
+msgid "%s (CMake)"
+msgstr ""
+
+#: src/plugins/code-index/gbp-code-index-application-addin.c:53
+msgid "Create or update code-index for project file"
+msgstr ""
+
+#: src/plugins/code-index/gbp-code-index-application-addin.c:54
+msgid "PROJECT_FILE"
+msgstr ""
+
+#: src/plugins/code-index/gbp-code-index-application-addin.c:152
+#, c-format
+msgid "Failed to load flags for plan: %s"
+msgstr ""
+
+#: src/plugins/code-index/gbp-code-index-application-addin.c:195
+#, c-format
+msgid "Failed to cull index plan: %s"
+msgstr ""
+
+#: src/plugins/code-index/gbp-code-index-application-addin.c:230
+#, c-format
+msgid "Failed to populate index plan: %s"
+msgstr ""
+
+#: src/plugins/code-index/gbp-code-index-application-addin.c:265
+#, c-format
+msgid "Failed to load project: %s"
+msgstr ""
+
+#. Now we can drop our paused state
+#: src/plugins/code-index/gbp-code-index-service.c:209
+#: src/plugins/ctags/ide-ctags-service.c:131
+#: src/plugins/ctags/ide-ctags-service.c:1023
+msgid "Indexing Source Code"
+msgstr ""
+
+#: src/plugins/code-index/gbp-code-index-service.c:210
+msgid "Search, diagnostics, and autocompletion may be limited until complete."
+msgstr ""
+
+#. translators: "Declaration" is describing a function that is defined in a header
+#. *              file (.h) rather than a source file (.c).
+#.
+#: src/plugins/code-index/ide-code-index-index.c:338
+#: src/plugins/symbol-tree/gbp-symbol-hover-provider.c:79
+msgid "Declaration"
+msgstr ""
+
+#: src/plugins/codespell/ide-codespell-diagnostic-provider.c:107
+#, c-format
+msgid "Possible typo in “%s”. Did you mean “%s”?"
+msgstr ""
+
+#: src/plugins/codeui/gbp-codeui-buffer-addin.c:240
+#, c-format
+msgid "Failed to format while saving document: %s"
+msgstr ""
+
+#: src/plugins/codeui/gbp-codeui-editor-page-addin.c:193
+msgid "Symbol Not Selected"
+msgstr ""
+
+#: src/plugins/codeui/gbp-codeui-editor-page-addin.c:194
+msgid "A symbol to rename must be selected"
+msgstr ""
+
+#: src/plugins/codeui/gbp-codeui-editor-page-addin.c:461
+#: src/plugins/codeui/gbp-codeui-range-dialog.ui:4
+msgid "Find References"
+msgstr ""
+
+#: src/plugins/codeui/gbp-codeui-range-dialog.c:168
+msgid "No references found"
+msgstr ""
+
+#: src/plugins/codeui/gbp-codeui-range-dialog.c:169
+msgid "The programming language tooling may not support finding references"
+msgstr ""
+
+#: src/plugins/codeui/gbp-codeui-rename-dialog.c:97
+#, c-format
+msgid "Failed to rename symbol: %s"
+msgstr ""
+
+#: src/plugins/codeui/gbp-codeui-rename-dialog.ui:4
+msgid "Rename Symbol"
+msgstr ""
+
+#: src/plugins/codeui/gbp-codeui-rename-dialog.ui:10
+#: src/plugins/project-tree/gbp-rename-file-popover.ui:34
+#: src/plugins/project-tree/gtk/menus.ui:58
+msgid "_Rename"
+msgstr ""
+
+#: src/plugins/codeui/gbp-codeui-rename-dialog.ui:22
+msgid "Current Symbol name"
+msgstr ""
+
+#: src/plugins/codeui/gbp-codeui-rename-dialog.ui:28
+msgid "New Symbol name"
+msgstr ""
+
+#: src/plugins/codeui/gtk/menus.ui:7
+msgid "R_ename Symbol…"
+msgstr ""
+
+#: src/plugins/codeui/gtk/menus.ui:13
+msgid "_Go to Declaration"
+msgstr ""
+
+#: src/plugins/codeui/gtk/menus.ui:14
+msgid "Jump to file and location where item is declared"
+msgstr ""
+
+#: src/plugins/codeui/gtk/menus.ui:19
+msgid "_Go to Definition"
+msgstr ""
+
+#: src/plugins/codeui/gtk/menus.ui:20
+msgid "Jump to file and location where item is defined"
+msgstr ""
+
+#: src/plugins/codeui/gtk/menus.ui:25
+msgid "_Find References"
+msgstr ""
+
+#: src/plugins/comment-code/gtk/menus.ui:7
+msgid "Code Comments"
+msgstr ""
+
+#: src/plugins/comment-code/gtk/menus.ui:9
+msgid "_Comment Code"
+msgstr ""
+
+#: src/plugins/comment-code/gtk/menus.ui:10
+msgid "Add comments surrounding the source code selection"
+msgstr ""
+
+#: src/plugins/comment-code/gtk/menus.ui:16
+msgid "Unco_mment Code"
+msgstr ""
+
+#: src/plugins/comment-code/gtk/menus.ui:17
+msgid "Remove comments from the source code selection"
+msgstr ""
+
+#: src/plugins/copyright/org.gnome.builder.copyright.gschema.xml:5
+msgid "Update Copyright before Saving"
+msgstr ""
+
+#: src/plugins/copyright/org.gnome.builder.copyright.gschema.xml:6
+msgid "Updates the copyright for the user before saving to disk."
+msgstr ""
+
+#: src/plugins/copyright/tweaks.ui:16
+msgid "Update Copyright"
+msgstr ""
+
+#: src/plugins/copyright/tweaks.ui:17
+msgid "Update copyright headers when saving documents"
+msgstr ""
+
+#: src/plugins/create-project/gbp-create-project-application-addin.c:49
+msgid "Display the project creation guide"
+msgstr ""
+
+#: src/plugins/create-project/gbp-create-project-widget.c:219
+#: src/plugins/vcsui/gbp-vcsui-clone-page.c:108
+msgid "Select Location"
+msgstr ""
+
+#: src/plugins/create-project/gbp-create-project-widget.c:259
+msgid "Failed to Create Project"
+msgstr ""
+
+#: src/plugins/create-project/gbp-create-project-widget.ui:18
+msgid "Project Name"
+msgstr ""
+
+#: src/plugins/create-project/gbp-create-project-widget.ui:24
+msgid "A subdirectory with this name already exists"
+msgstr ""
+
+#: src/plugins/create-project/gbp-create-project-widget.ui:31
+msgid ""
+"A unique name that is used for the project folder and other resources. The "
+"name should be in lower case without spaces and should not start with a "
+"number."
+msgstr ""
+
+#: src/plugins/create-project/gbp-create-project-widget.ui:47
+msgid "Application ID…"
+msgstr ""
+
+#: src/plugins/create-project/gbp-create-project-widget.ui:53
+msgid ""
+"A reverse domain-name identifier used to identify the application, such as "
+"\"org.gnome.Builder\". It may not contain dashes."
+msgstr ""
+
+#: src/plugins/create-project/gbp-create-project-widget.ui:69
+#: src/plugins/debuggerui/ide-debugger-threads-view.ui:95
+#: src/plugins/grep/gbp-grep-panel.c:744
+#: src/plugins/symbol-tree/gbp-symbol-hover-provider.c:78
+#: src/plugins/sysroot/gbp-sysroot-preferences-row.ui:120
+#: src/plugins/vcsui/gbp-vcsui-clone-page.ui:154
+msgid "Location"
+msgstr ""
+
+#: src/plugins/create-project/gbp-create-project-widget.ui:85
+msgid "The project will be created in a new subdirectory."
+msgstr ""
+
+#: src/plugins/create-project/gbp-create-project-widget.ui:108
+#: src/plugins/projectui/tweaks.ui:47
+msgid "License"
+msgstr ""
+
+#: src/plugins/create-project/gbp-create-project-widget.ui:127
+msgid "Template"
+msgstr ""
+
+#: src/plugins/create-project/gbp-create-project-widget.ui:183
+msgid "Create Project"
+msgstr ""
+
+#: src/plugins/create-project/gbp-create-project-workspace-addin.c:53
+msgid "Create _New Project…"
+msgstr ""
+
+#: src/plugins/create-project/gbp-create-project-workspace-addin.c:63
+msgid "Create New Project"
+msgstr ""
+
+#: src/plugins/create-project/gtk/menus.ui:7
+#: src/plugins/create-project/gtk/menus.ui:18
+#: src/plugins/create-project/gtk/menus.ui:30
+msgid "Create New Project…"
+msgstr ""
+
+#: src/plugins/create-project/gtk/menus.ui:22
+msgid "Create a new project from template"
+msgstr ""
+
+#: src/plugins/ctags/ide-ctags-service.c:132
+msgid ""
+"Search, autocompletion, and symbol information may be limited until Ctags "
+"indexing is complete."
+msgstr ""
+
+#: src/plugins/ctags/ide-ctags-service.c:980
+msgid "Indexing Source Code (Paused)"
+msgstr ""
+
+#: src/plugins/ctags/tweaks.ui:14
+msgid "CTags"
+msgstr ""
+
+#: src/plugins/ctags/tweaks.ui:17
+msgid "Suggest Completions"
+msgstr ""
+
+#: src/plugins/ctags/tweaks.ui:18
+msgid "Use CTags to suggest code completion proposals"
+msgstr ""
+
+#: src/plugins/ctags/tweaks.ui:34
+msgid "CTags Path"
+msgstr ""
+
+#: src/plugins/ctags/tweaks.ui:35
+msgid "The path to the ctags executable"
+msgstr ""
+
+#: src/plugins/debuggerui/gtk/menus.ui:10
+msgid "Run with Debugger"
+msgstr ""
+
+#: src/plugins/debuggerui/gtk/menus.ui:13
+msgid "Run the project with debugger"
+msgstr ""
+
+#: src/plugins/debuggerui/gtk/menus.ui:21
+#: src/plugins/debuggerui/ide-debugger-workspace-addin.c:218
+#: src/plugins/debuggerui/tweaks.ui:12
+msgid "Debugger"
+msgstr ""
+
+#: src/plugins/debuggerui/gtk/menus.ui:23
+#: src/plugins/debuggerui/ide-debugger-workspace-addin.c:252
+#: src/plugins/debuggerui/tweaks.ui:16
+msgid "Breakpoints"
+msgstr ""
+
+#: src/plugins/debuggerui/gtk/menus.ui:25
+msgid "Automatically Break at Program Start"
+msgstr ""
+
+#: src/plugins/debuggerui/gtk/menus.ui:30
+msgid "Automatically Break at Warnings"
+msgstr ""
+
+#: src/plugins/debuggerui/gtk/menus.ui:35
+msgid "Automatically Break at Criticals"
+msgstr ""
+
+#: src/plugins/debuggerui/ide-debugger-breakpoints-view.ui:22
+#: src/plugins/debuggerui/ide-debugger-registers-view.ui:13
+msgid "ID"
+msgstr ""
+
+#: src/plugins/debuggerui/ide-debugger-breakpoints-view.ui:34
+msgid "File"
+msgstr ""
+
+#: src/plugins/debuggerui/ide-debugger-breakpoints-view.ui:46
+msgid "Line"
+msgstr ""
+
+#: src/plugins/debuggerui/ide-debugger-breakpoints-view.ui:58
+#: src/plugins/debuggerui/ide-debugger-threads-view.ui:70
+msgid "Function"
+msgstr ""
+
+#: src/plugins/debuggerui/ide-debugger-breakpoints-view.ui:70
+msgid "Address"
+msgstr ""
+
+#: src/plugins/debuggerui/ide-debugger-breakpoints-view.ui:81
+#: src/plugins/debuggerui/ide-debugger-locals-view.ui:28
+msgid "Type"
+msgstr ""
+
+#: src/plugins/debuggerui/ide-debugger-breakpoints-view.ui:91
+msgid "Hits"
+msgstr ""
+
+#: src/plugins/debuggerui/ide-debugger-breakpoints-view.ui:102
+msgid "Expression"
+msgstr ""
+
+#: src/plugins/debuggerui/ide-debugger-controls.ui:17
+msgid "Interrupt the program"
+msgstr ""
+
+#: src/plugins/debuggerui/ide-debugger-controls.ui:27
+msgid "Continue running the program"
+msgstr ""
+
+#: src/plugins/debuggerui/ide-debugger-controls.ui:59
+msgid "Execute the current line, stepping into any function calls"
+msgstr ""
+
+#: src/plugins/debuggerui/ide-debugger-controls.ui:69
+msgid "Execute the current line, stepping over any function calls"
+msgstr ""
+
+#: src/plugins/debuggerui/ide-debugger-controls.ui:79
+msgid "Run until the end of the function"
+msgstr ""
+
+#: src/plugins/debuggerui/ide-debugger-disassembly-view.ui:5
+msgid "Disassembly"
+msgstr ""
+
+#: src/plugins/debuggerui/ide-debugger-hover-controls.ui:16
+msgid "No break"
+msgstr ""
+
+#: src/plugins/debuggerui/ide-debugger-hover-controls.ui:22
+msgid "Breakpoint"
+msgstr ""
+
+#: src/plugins/debuggerui/ide-debugger-hover-controls.ui:28
+msgid "Countpoint"
+msgstr ""
+
+#: src/plugins/debuggerui/ide-debugger-libraries-view.ui:14
+msgid "Library"
+msgstr ""
+
+#: src/plugins/debuggerui/ide-debugger-libraries-view.ui:26
+msgid "Address Range"
+msgstr ""
+
+#: src/plugins/debuggerui/ide-debugger-locals-view.c:312
+msgid "Locals"
+msgstr ""
+
+#: src/plugins/debuggerui/ide-debugger-locals-view.c:367
+msgid "Parameters"
+msgstr ""
+
+#: src/plugins/debuggerui/ide-debugger-locals-view.ui:16
+msgid "Variable"
+msgstr ""
+
+#: src/plugins/debuggerui/ide-debugger-locals-view.ui:41
+#: src/plugins/debuggerui/ide-debugger-registers-view.ui:34
+msgid "Value"
+msgstr ""
+
+#: src/plugins/debuggerui/ide-debugger-registers-view.ui:23
+msgid "Register"
+msgstr ""
+
+#: src/plugins/debuggerui/ide-debugger-threads-view.ui:17
+msgid "Group"
+msgstr ""
+
+#: src/plugins/debuggerui/ide-debugger-threads-view.ui:38
+msgid "Thread"
+msgstr ""
+
+#: src/plugins/debuggerui/ide-debugger-threads-view.ui:58
+msgid "Frame"
+msgstr ""
+
+#: src/plugins/debuggerui/ide-debugger-threads-view.ui:82
+msgid "Arguments"
+msgstr ""
+
+#: src/plugins/debuggerui/ide-debugger-threads-view.ui:106
+msgid "Binary"
+msgstr ""
+
+#: src/plugins/debuggerui/ide-debugger-workspace-addin.c:233
+msgid "Threads"
+msgstr ""
+
+#: src/plugins/debuggerui/ide-debugger-workspace-addin.c:257
+msgid "Libraries"
+msgstr ""
+
+#: src/plugins/debuggerui/ide-debugger-workspace-addin.c:262
+msgid "Registers"
+msgstr ""
+
+#: src/plugins/debuggerui/ide-debugger-workspace-addin.c:267
+msgid "Console"
+msgstr ""
+
+#: src/plugins/debuggerui/tweaks.ui:19
+msgid "Stop After Launching Program"
+msgstr ""
+
+#: src/plugins/debuggerui/tweaks.ui:20
+msgid "Automatically insert a breakpoint at the start of the application"
+msgstr ""
+
+#: src/plugins/debuggerui/tweaks.ui:31
+msgid "Stop at Warnings"
+msgstr ""
+
+#: src/plugins/debuggerui/tweaks.ui:32
+msgid "Automatically insert a breakpoint on warning logs"
+msgstr ""
+
+#: src/plugins/debuggerui/tweaks.ui:43
+msgid "Stop at Criticals"
+msgstr ""
+
+#: src/plugins/debuggerui/tweaks.ui:44
+msgid "Automatically insert a breakpoint on critical logs"
+msgstr ""
+
+#: src/plugins/deviced/gnome-builder-deviced.c:48
+msgid "The device address"
+msgstr ""
+
+#: src/plugins/deviced/gnome-builder-deviced.c:49
+msgid "The device port number"
+msgstr ""
+
+#: src/plugins/deviced/gnome-builder-deviced.c:50
+msgid "The application to run"
+msgstr ""
+
+#: src/plugins/deviced/gnome-builder-deviced.c:51
+msgid "A PTY to bidirectionally proxy to the device"
+msgstr ""
+
+#: src/plugins/deviced/gnome-builder-deviced.c:52
+msgid "Number of seconds to wait for the deviced peer to appear"
+msgstr ""
+
+#: src/plugins/dspy/gbp-dspy-application-addin.c:47
+msgid "Display D-Bus inspector"
+msgstr ""
+
+#: src/plugins/dspy/gtk/menus.ui:6 src/plugins/dspy/gtk/menus.ui:14
+msgid "D-Bus Inspector…"
+msgstr ""
+
+#: src/plugins/editorconfig/gbp-editorconfig-file-settings.c:164
+msgid "No file was provided."
+msgstr ""
+
+#: src/plugins/editorui/gbp-editorui-application-addin.c:137
+msgid "Use minimal editorui interface"
+msgstr ""
+
+#: src/plugins/editorui/gbp-editorui-tweaks-addin.c:127
+msgid "Reset"
+msgstr ""
+
+#: src/plugins/editorui/gbp-editorui-tweaks-addin.c:128
+msgid "Reverts language preferences to application defaults"
+msgstr ""
+
+#. translators: "Text" means plaintext or text/plain
+#: src/plugins/editorui/gbp-editorui-workspace-addin.c:123
+msgid "Text"
+msgstr ""
+
+#: src/plugins/editorui/gbp-editorui-workspace-addin.c:196
+#: src/plugins/editorui/gbp-editorui-workspace-addin.c:200
+#: src/plugins/editorui/tweaks-language.ui:65
+#: src/plugins/editorui/tweaks-language.ui:242
+#: src/plugins/editorui/tweaks.ui:257
+msgid "Spaces"
+msgstr ""
+
+#: src/plugins/editorui/gbp-editorui-workspace-addin.c:196
+#: src/plugins/editorui/gbp-editorui-workspace-addin.c:200
+#: src/plugins/editorui/tweaks.ui:270
+msgid "Tabs"
+msgstr ""
+
+#: src/plugins/editorui/gbp-editorui-workspace-addin.c:540
+msgid "Go"
+msgstr ""
+
+#: src/plugins/editorui/gbp-editorui-workspace-addin.c:541
+msgid "Go to Line"
+msgstr ""
+
+#: src/plugins/editorui/gtk/menus.ui:5
+msgid "Indentation"
+msgstr ""
+
+#: src/plugins/editorui/gtk/menus.ui:7
+msgid "Indent Using Spaces"
+msgstr ""
+
+#: src/plugins/editorui/gtk/menus.ui:13
+msgid "Spaces per Tab"
+msgstr ""
+
+#: src/plugins/editorui/gtk/menus.ui:20 src/plugins/editorui/gtk/menus.ui:56
+msgid "3"
+msgstr ""
+
+#: src/plugins/editorui/gtk/menus.ui:30 src/plugins/editorui/gtk/menus.ui:66
+msgid "5"
+msgstr ""
+
+#: src/plugins/editorui/gtk/menus.ui:41
+#: src/plugins/editorui/tweaks-language.ui:145
+msgid "Indentation Size"
+msgstr ""
+
+#: src/plugins/editorui/gtk/menus.ui:44
+msgid "Same as Tab Width"
+msgstr ""
+
+#: src/plugins/editorui/gtk/menus.ui:81
+msgid "Line Ending"
+msgstr ""
+
+#: src/plugins/editorui/gtk/menus.ui:90
+msgid "Windows (CR/LF)"
+msgstr ""
+
+#: src/plugins/editorui/gtk/menus.ui:95
+msgid "Mac Classic (CR)"
+msgstr ""
+
+#: src/plugins/editorui/gtk/menus.ui:104 src/plugins/editorui/gtk/menus.ui:113
+msgid "New Editor Workspace…"
+msgstr ""
+
+#: src/plugins/editorui/gtk/menus.ui:124
+msgid "New _File"
+msgstr ""
+
+#: src/plugins/editorui/gtk/menus.ui:133
+msgid "_Open File…"
+msgstr ""
+
+#: src/plugins/editorui/gtk/menus.ui:142 src/plugins/terminal/gtk/menus.ui:36
+msgid "Open in New Frame"
+msgstr ""
+
+#: src/plugins/editorui/gtk/menus.ui:147
+msgid "Open in New Workspace…"
+msgstr ""
+
+#: src/plugins/editorui/gtk/menus.ui:161
+msgid "Save _As"
+msgstr ""
+
+#: src/plugins/editorui/gtk/menus.ui:168
+msgid "Find…"
+msgstr ""
+
+#: src/plugins/editorui/gtk/menus.ui:173
+msgid "Find/Replace…"
+msgstr ""
+
+#: src/plugins/editorui/gtk/menus.ui:180
+msgid "Print…"
+msgstr ""
+
+#: src/plugins/editorui/gtk/menus.ui:188
+msgid "Format Selection"
+msgstr ""
+
+#: src/plugins/editorui/tweaks-language.ui:9
+msgid "Programming Languages"
+msgstr ""
+
+#: src/plugins/editorui/tweaks-language.ui:34
+msgid ""
+"Settings provided by .editorconfig and modelines take precedence over those "
+"below."
+msgstr ""
+
+#: src/plugins/editorui/tweaks-language.ui:41
+msgid "Indentation & Formatting"
+msgstr ""
+
+#: src/plugins/editorui/tweaks-language.ui:44
+msgid "Tab Character"
+msgstr ""
+
+#: src/plugins/editorui/tweaks-language.ui:45
+msgid "The character to be inserted for Tab"
+msgstr ""
+
+#: src/plugins/editorui/tweaks-language.ui:59
+msgid "Tab"
+msgstr ""
+
+#: src/plugins/editorui/tweaks-language.ui:73
+msgid "Insert Trailing Newline"
+msgstr ""
+
+#: src/plugins/editorui/tweaks-language.ui:74
+msgid "Ensure files end with a newline"
+msgstr ""
+
+#: src/plugins/editorui/tweaks-language.ui:90
+msgid "Trim Trailing Space"
+msgstr ""
+
+#: src/plugins/editorui/tweaks-language.ui:91
+msgid "Upon saving, trailing whitespace from modified lines will be trimmed"
+msgstr ""
+
+#: src/plugins/editorui/tweaks-language.ui:111
+msgid "Auto Indent"
+msgstr ""
+
+#: src/plugins/editorui/tweaks-language.ui:112
+msgid "Automatically indent source code as you type"
+msgstr ""
+
+#: src/plugins/editorui/tweaks-language.ui:128
+msgid "Tab Size"
+msgstr ""
+
+#: src/plugins/editorui/tweaks-language.ui:129
+msgid "The number of characters to indent for Tab"
+msgstr ""
+
+#: src/plugins/editorui/tweaks-language.ui:146
+msgid "The number of characters to indent, or -1 to use tab size"
+msgstr ""
+
+#: src/plugins/editorui/tweaks-language.ui:164
+msgid "Margin"
+msgstr ""
+
+#: src/plugins/editorui/tweaks-language.ui:167
+msgid "Show Right Margin"
+msgstr ""
+
+#: src/plugins/editorui/tweaks-language.ui:168
+msgid "Display a margin in the editor to indicate maximum desired width"
+msgstr ""
+
+#: src/plugins/editorui/tweaks-language.ui:184
+msgid "Right Margin Position"
+msgstr ""
+
+#: src/plugins/editorui/tweaks-language.ui:185
+msgid "The desired maximum line length"
+msgstr ""
+
+#: src/plugins/editorui/tweaks-language.ui:203
+#: src/plugins/editorui/tweaks.ui:356
+msgid "Behavior"
+msgstr ""
+
+#: src/plugins/editorui/tweaks-language.ui:206
+msgid "Overwrite Braces"
+msgstr ""
+
+#: src/plugins/editorui/tweaks-language.ui:207
+msgid "Overwrite closing braces, brackets, parenthesis, and quotes"
+msgstr ""
+
+#: src/plugins/editorui/tweaks-language.ui:223
+msgid "Insert Matching Brace"
+msgstr ""
+
+#: src/plugins/editorui/tweaks-language.ui:224
+msgid "Insert matching character for braces, brackets, parenthesis, and quotes"
+msgstr ""
+
+#: src/plugins/editorui/tweaks-language.ui:245
+msgid "Space before opening parentheses"
+msgstr ""
+
+#: src/plugins/editorui/tweaks-language.ui:262
+msgid "Space before opening brackets"
+msgstr ""
+
+#: src/plugins/editorui/tweaks-language.ui:269
+msgid "Space before opening braces"
+msgstr ""
+
+#: src/plugins/editorui/tweaks-language.ui:276
+msgid "Space before opening angles"
+msgstr ""
+
+#: src/plugins/editorui/tweaks-language.ui:283
+msgid "Prefer a space before colon"
+msgstr ""
+
+#: src/plugins/editorui/tweaks-language.ui:290
+msgid "Prefer a space before commas"
+msgstr ""
+
+#: src/plugins/editorui/tweaks-language.ui:297
+msgid "Prefer a space before semicolons"
+msgstr ""
+
+#: src/plugins/editorui/tweaks.ui:10
+msgid "Color"
+msgstr ""
+
+#: src/plugins/editorui/tweaks.ui:32 src/plugins/terminal/tweaks.ui:10
+msgid "Fonts & Styling"
+msgstr ""
+
+#: src/plugins/editorui/tweaks.ui:36
+msgid "Preview"
+msgstr ""
+
+#: src/plugins/editorui/tweaks.ui:48 src/plugins/terminal/tweaks.ui:13
+msgid "Font"
+msgstr ""
+
+#: src/plugins/editorui/tweaks.ui:49
+msgid "The font used within the source code editor"
+msgstr ""
+
+#: src/plugins/editorui/tweaks.ui:61
+msgid "Adjust spacing between lines"
+msgstr ""
+
+#: src/plugins/editorui/tweaks.ui:78
+msgid "How text should be wrapped when wider than the frame"
+msgstr ""
+
+#: src/plugins/editorui/tweaks.ui:93
+msgid "At Spaces"
+msgstr ""
+
+#: src/plugins/editorui/tweaks.ui:99
+msgid "Anywhere"
+msgstr ""
+
+#: src/plugins/editorui/tweaks.ui:111
+msgid "Background Pattern"
+msgstr ""
+
+#: src/plugins/editorui/tweaks.ui:112
+msgid "Show a background pattern underneath source code"
+msgstr ""
+
+#: src/plugins/editorui/tweaks.ui:121
+msgid "No Pattern"
+msgstr ""
+
+#: src/plugins/editorui/tweaks.ui:127
+msgid "Grid Lines"
+msgstr ""
+
+#: src/plugins/editorui/tweaks.ui:137
+msgid "Scrollbars"
+msgstr ""
+
+#: src/plugins/editorui/tweaks.ui:140
+msgid "Source Code Overview"
+msgstr ""
+
+#: src/plugins/editorui/tweaks.ui:141
+msgid "Display an overview of source code next to the editor"
+msgstr ""
+
+#: src/plugins/editorui/tweaks.ui:150
+msgid "Prefer Scrollbars"
+msgstr ""
+
+#: src/plugins/editorui/tweaks.ui:156
+msgid "Always On"
+msgstr ""
+
+#: src/plugins/editorui/tweaks.ui:162
+msgid "Automatic"
+msgstr ""
+
+#: src/plugins/editorui/tweaks.ui:172
+msgid "Line Numbers"
+msgstr ""
+
+#: src/plugins/editorui/tweaks.ui:175
+msgid "Show Line Numbers"
+msgstr ""
+
+#: src/plugins/editorui/tweaks.ui:176
+msgid "Display line numbers next to each line of code"
+msgstr ""
+
+#: src/plugins/editorui/tweaks.ui:187
+msgid "Use Relative Line Numbers"
+msgstr ""
+
+#: src/plugins/editorui/tweaks.ui:188
+msgid "Show line numbers relative to the current line"
+msgstr ""
+
+#: src/plugins/editorui/tweaks.ui:199
+msgid "Show Diagnostics"
+msgstr ""
+
+#: src/plugins/editorui/tweaks.ui:200
+msgid "Display diagnostics next to the line number"
+msgstr ""
+
+#: src/plugins/editorui/tweaks.ui:213
+msgid "Syntax Highlighting"
+msgstr ""
+
+#: src/plugins/editorui/tweaks.ui:216
+msgid "Highlight Current Line"
+msgstr ""
+
+#: src/plugins/editorui/tweaks.ui:217
+msgid "Make the current line stand out with highlights"
+msgstr ""
+
+#: src/plugins/editorui/tweaks.ui:228
+msgid "Highlight Matching Brackets"
+msgstr ""
+
+#: src/plugins/editorui/tweaks.ui:229
+msgid ""
+"Use cursor position to highlight matching brackets, braces, parenthesis, and "
+"more"
+msgstr ""
+
+#: src/plugins/editorui/tweaks.ui:240
+msgid "Semantic Highlighting"
+msgstr ""
+
+#: src/plugins/editorui/tweaks.ui:241
+msgid ""
+"Use symbol information to highlight namespaces, functions, and variables "
+"within source code"
+msgstr ""
+
+#: src/plugins/editorui/tweaks.ui:258
+msgid "Draw a mark representing normal spaces"
+msgstr ""
+
+#: src/plugins/editorui/tweaks.ui:271
+msgid "Draw a mark representing tabs"
+msgstr ""
+
+#: src/plugins/editorui/tweaks.ui:283
+msgid "Newlines"
+msgstr ""
+
+#: src/plugins/editorui/tweaks.ui:284
+msgid "Draw a mark at the end of lines"
+msgstr ""
+
+#: src/plugins/editorui/tweaks.ui:296
+msgid "Non-breaking spaces"
+msgstr ""
+
+#: src/plugins/editorui/tweaks.ui:297
+msgid "Draw a mark at non-breaking space characters"
+msgstr ""
+
+#: src/plugins/editorui/tweaks.ui:313
+msgid "Leading"
+msgstr ""
+
+#: src/plugins/editorui/tweaks.ui:314
+msgid "Draw marks for leading spaces only"
+msgstr ""
+
+#: src/plugins/editorui/tweaks.ui:326
+msgid "Inside Text"
+msgstr ""
+
+#: src/plugins/editorui/tweaks.ui:327
+msgid "Draw marks inside a line of text only"
+msgstr ""
+
+#: src/plugins/editorui/tweaks.ui:339
+msgid "Trailing"
+msgstr ""
+
+#: src/plugins/editorui/tweaks.ui:340
+msgid "Draw marks for trailing spaces only"
+msgstr ""
+
+#: src/plugins/editorui/tweaks.ui:360
+msgid "Spelling"
+msgstr ""
+
+#: src/plugins/editorui/tweaks.ui:364
+msgid "Underline potential spelling mistakes as you type"
+msgstr ""
+
+#: src/plugins/editorui/tweaks.ui:377
+msgid "Selections"
+msgstr ""
+
+#: src/plugins/editorui/tweaks.ui:380
+msgid "Minimum Characters to Highlight"
+msgstr ""
+
+#: src/plugins/editorui/tweaks.ui:381
+msgid "The minimum selection length before highlighting matches"
+msgstr ""
+
+#: src/plugins/editorui/tweaks.ui:394
+msgid "Snippets"
+msgstr ""
+
+#: src/plugins/editorui/tweaks.ui:397
+msgid "Expand Snippets"
+msgstr ""
+
+#: src/plugins/editorui/tweaks.ui:398
+msgid "Use “Tab” to expand configured snippets in the editor"
+msgstr ""
+
+#: src/plugins/editorui/tweaks.ui:413
+msgid "Code Completion"
+msgstr ""
+
+#: src/plugins/editorui/tweaks.ui:417
+msgid "Completion Proposals"
+msgstr ""
+
+#: src/plugins/editorui/tweaks.ui:420
+msgid "Suggest Code Completions"
+msgstr ""
+
+#: src/plugins/editorui/tweaks.ui:421
+msgid "Automatically suggest code completions while typing"
+msgstr ""
+
+#: src/plugins/editorui/tweaks.ui:432
+msgid "Select First Completion Proposal"
+msgstr ""
+
+#: src/plugins/editorui/tweaks.ui:433
+msgid "Automatically select the first completion proposal when displayed"
+msgstr ""
+
+#: src/plugins/editorui/tweaks.ui:448
+msgid "Maximum Completion Proposals"
+msgstr ""
+
+#: src/plugins/editorui/tweaks.ui:449
+msgid "The maximum number of completion rows that will be displayed at once"
+msgstr ""
+
+#: src/plugins/editorui/tweaks.ui:468 src/plugins/editorui/tweaks.ui:471
+msgid "Keyboard Theme"
+msgstr ""
+
+#: src/plugins/editorui/tweaks.ui:472
+msgid ""
+"Shortcut themes provide a keyboard experience similar to other IDEs and "
+"editors"
+msgstr ""
+
+#: src/plugins/editorui/tweaks.ui:491
+msgid "Movements"
+msgstr ""
+
+#: src/plugins/editorui/tweaks.ui:495
+msgid ""
+"Backspace will remove extra space to keep you aligned with your indentation"
+msgstr ""
+
+#: src/plugins/editorui/tweaks.ui:507
+msgid "Navigate to non-space characters"
+msgstr ""
+
+#: src/plugins/editorui/tweaks.ui:516
+msgid "Before line boundaries"
+msgstr ""
+
+#: src/plugins/editorui/tweaks.ui:522
+msgid "After line boundaries"
+msgstr ""
+
+#: src/plugins/editorui/tweaks.ui:528
+msgid "Instead of line boundaries"
+msgstr ""
+
+#: src/plugins/editorui/tweaks.ui:534 src/plugins/valgrind/gtk/menus.ui:44
+msgid "Disabled"
+msgstr ""
+
+#: src/plugins/editorui/tweaks.ui:546
+msgid "Session Management"
+msgstr ""
+
+#: src/plugins/editorui/tweaks.ui:550
+msgid "Save & Restore"
+msgstr ""
+
+#: src/plugins/editorui/tweaks.ui:553
+msgid "Auto-Save"
+msgstr ""
+
+#: src/plugins/editorui/tweaks.ui:554
+msgid "Regularly save the document as you type"
+msgstr ""
+
+#: src/plugins/editorui/tweaks.ui:565
+msgid "Auto-Save Delay"
+msgstr ""
+
+#: src/plugins/editorui/tweaks.ui:566
+msgid "The delay in seconds to wait before auto-saving the document"
+msgstr ""
+
+#: src/plugins/editorui/tweaks.ui:581
+msgid "Format on Save"
+msgstr ""
+
+#: src/plugins/editorui/tweaks.ui:582
+msgid ""
+"Reformat sources when saving to disk. Requires a registered formatter for "
+"the source language."
+msgstr ""
+
+#: src/plugins/editorui/tweaks.ui:597
+msgid "Restore Cursor Position"
+msgstr ""
+
+#: src/plugins/editorui/tweaks.ui:598
+msgid "Jump to the last position when re-opening a file"
+msgstr ""
+
+#: src/plugins/find-other-file/gbp-find-other-file-workspace-addin.c:205
+msgid "Similar Files (Ctrl+Shift+O)"
+msgstr ""
+
+#: src/plugins/flatpak/daemon/ipc-flatpak-service-impl.c:883
+msgid "Installation failed"
+msgstr ""
+
+#: src/plugins/flatpak/daemon/ipc-flatpak-service-impl.c:893
+msgid "Installation complete"
+msgstr ""
+
+#: src/plugins/flatpak/gbp-flatpak-client.c:454
+#: src/plugins/git/gbp-git-client.c:328
+msgid "The client has been closed"
+msgstr ""
+
+#: src/plugins/flatpak/gbp-flatpak-config-provider.c:680
+#, c-format
+msgid "Failed to remove flatpak manifest: %s"
+msgstr ""
+
+#: src/plugins/flatpak/gbp-flatpak-download-stage.c:73
+msgid "Network is not available, skipping downloads"
+msgstr ""
+
+#: src/plugins/flatpak/gbp-flatpak-install-dialog.c:113
+msgid "Install or Update SDK?"
+msgstr ""
+
+#: src/plugins/flatpak/gbp-flatpak-install-dialog.ui:33
+msgid ""
+"Builder needs to install the following software development kits to build "
+"your project."
+msgstr ""
+
+#: src/plugins/flatpak/gbp-flatpak-install-dialog.ui:58
+#: src/plugins/git/tweaks.ui:16 src/plugins/ls/gbp-ls-page.ui:17
+#: src/plugins/meson/gbp-meson-toolchain-edition-preferences-row.ui:69
+#: src/plugins/shellcmd/gbp-shellcmd-command-dialog.ui:40
+#: src/plugins/sysroot/gbp-sysroot-preferences-row.ui:64
+#: src/plugins/vcsui/gbp-vcsui-clone-page.ui:197
+msgid "Name"
+msgstr ""
+
+#: src/plugins/flatpak/gbp-flatpak-install-dialog.ui:70
+#: src/plugins/meson/gbp-meson-toolchain-edition-preferences-row.ui:95
+#: src/plugins/sysroot/gbp-sysroot-preferences-row.ui:90
+msgid "Architecture"
+msgstr ""
+
+#: src/plugins/flatpak/gbp-flatpak-manifest.c:684
+msgid "Flatpak"
+msgstr ""
+
+#: src/plugins/flatpak/gbp-flatpak-pipeline-addin.c:181
+msgid "Creating flatpak workspace"
+msgstr ""
+
+#: src/plugins/flatpak/gbp-flatpak-pipeline-addin.c:383
+msgid "Preparing build directory"
+msgstr ""
+
+#: src/plugins/flatpak/gbp-flatpak-pipeline-addin.c:433
+msgid "Downloading dependencies"
+msgstr ""
+
+#: src/plugins/flatpak/gbp-flatpak-pipeline-addin.c:512
+msgid "Building dependencies"
+msgstr ""
+
+#: src/plugins/flatpak/gbp-flatpak-pipeline-addin.c:563
+msgid "Finalizing flatpak build"
+msgstr ""
+
+#: src/plugins/flatpak/gbp-flatpak-pipeline-addin.c:608
+msgid "Exporting staging directory"
+msgstr ""
+
+#: src/plugins/flatpak/gbp-flatpak-pipeline-addin.c:693
+msgid "Creating flatpak bundle"
+msgstr ""
+
+#: src/plugins/flatpak/gbp-flatpak-run-command-provider.c:102
+msgid "Flatpak Application"
+msgstr ""
+
+#: src/plugins/flatpak/gbp-flatpak-runtime-provider.c:435
+msgid "Installing Necessary SDKs"
+msgstr ""
+
+#: src/plugins/flatpak/gbp-flatpak-runtime-provider.c:436
+msgid ""
+"Builder is installing Software Development Kits necessary for building your "
+"application."
+msgstr ""
+
+#: src/plugins/flatpak/gbp-flatpak-sdk-stage.c:59
+#, c-format
+msgid "Failed to update SDKs: %s"
+msgstr ""
+
+#: src/plugins/flatpak/gbp-flatpak-sdk-stage.c:130
+msgid "Updating Necessary SDKs"
+msgstr ""
+
+#: src/plugins/flatpak/gbp-flatpak-sdk-stage.c:131
+msgid ""
+"Builder is updating Software Development Kits necessary for building your "
+"application."
+msgstr ""
+
+#: src/plugins/flatpak/gbp-flatpak-sdk-stage.c:222
+msgid "Updating SDK Runtime"
+msgstr ""
+
+#: src/plugins/gcc/gbp-gcc-toolchain-provider.c:89
+#, c-format
+msgid "GCC %s Cross-Compiler (System)"
+msgstr ""
+
+#: src/plugins/git/daemon/ipc-git-change-monitor-impl.c:119
+#, c-format
+msgid "No repository to access file contents"
+msgstr ""
+
+#: src/plugins/git/daemon/ipc-git-change-monitor-impl.c:187
+#, c-format
+msgid "No contents have been set to diff"
+msgstr ""
+
+#: src/plugins/git/daemon/ipc-git-change-monitor-impl.c:264
+#: src/plugins/git/daemon/ipc-git-util.h:33
+#, c-format
+msgid "The operation failed. The original error was \"%s\""
+msgstr ""
+
+#: src/plugins/git/daemon/ipc-git-remote-callbacks.c:105
+#, c-format
+msgid "The operation has been canceled"
+msgstr ""
+
+#: src/plugins/git/daemon/ipc-git-remote-callbacks.c:138
+#, c-format
+msgid ""
+"Builder failed to provide appropriate credentials when cloning the "
+"repository."
+msgstr ""
+
+#: src/plugins/git/daemon/ipc-git-repository-impl.c:619
+#, c-format
+msgid "Cannot set AMEND and GPG_SIGN flags"
+msgstr ""
+
+#: src/plugins/git/daemon/ipc-git-repository-impl.c:628
+#, c-format
+msgid "Cannot sign commit without GPG_KEY_ID"
+msgstr ""
+
+#: src/plugins/git/gbp-git-buffer-change-monitor.c:433
+#, c-format
+msgid "Cannot monitor files outside the working directory"
+msgstr ""
+
+#: src/plugins/git/gbp-git-dependency-updater.c:92
+msgid "Git version control is not in use"
+msgstr ""
+
+#: src/plugins/git/gbp-git-dependency-updater.c:100
+msgid "Updating Git Submodules"
+msgstr ""
+
+#: src/plugins/git/gbp-git-submodule-stage.c:60
+msgid "Initialize git submodules"
+msgstr ""
+
+#: src/plugins/git/gbp-git-submodule-stage.c:133
+msgid "Network is not available, skipping submodule update"
+msgstr ""
+
+#: src/plugins/git/gbp-git-vcs.c:206
+msgid "Pushed."
+msgstr ""
+
+#: src/plugins/git/gbp-git-vcs.c:244
+#, c-format
+msgid "Pushing ref “%s”"
+msgstr ""
+
+#: src/plugins/git/gbp-git-vcs.c:508
+msgid "Directory is not within repository"
+msgstr ""
+
+#: src/plugins/git/gbp-git-vcs.c:536
+msgid "Git"
+msgstr ""
+
+#: src/plugins/git/gbp-git-vcs-cloner.c:149
+#, c-format
+msgid "A repository could not be found at “%s”."
+msgstr ""
+
+#: src/plugins/git/gbp-git-vcs-cloner.c:165
+#, c-format
+msgid "The protocol “%s” is not supported."
+msgstr ""
+
+#: src/plugins/git/gbp-git-vcs-cloner.c:240
+msgid "Cloning repository"
+msgstr ""
+
+#: src/plugins/git/gbp-git-vcs-cloner.c:256
+msgid "A valid Git URL is required"
+msgstr ""
+
+#: src/plugins/git/tweaks.ui:13
+msgid "Authorship"
+msgstr ""
+
+#: src/plugins/git/tweaks.ui:27 src/plugins/vcsui/gbp-vcsui-clone-page.ui:203
+msgid "Email"
+msgstr ""
+
+#: src/plugins/gradle/gbp-gradle-pipeline-addin.c:85
+#: src/plugins/phpize/gbp-phpize-pipeline-addin.c:103
+msgid "Bootstrapping project"
+msgstr ""
+
+#: src/plugins/gradle/gbp-gradle-run-command-provider.c:181
+msgid "Gradle Run"
+msgstr ""
+
+#: src/plugins/greeter/gbp-greeter-application-addin.c:134
+msgid "Display a new greeter window"
+msgstr ""
+
+#: src/plugins/grep/gbp-grep-panel.c:756
+msgid "Match"
+msgstr ""
+
+#: src/plugins/grep/gbp-grep-panel.c:768
+msgid "Path"
+msgstr ""
+
+#. TRANSLATORS: %s is the directory or file from where the search was started from the project tree.
+#: src/plugins/grep/gbp-grep-panel.c:832
+#, c-format
+msgid "_Find in %s"
+msgstr ""
+
+#. TRANSLATORS: %s is the directory or file from where the search was started from the project tree.
+#: src/plugins/grep/gbp-grep-panel.c:834
+#, c-format
+msgid "_Replace in %s"
+msgstr ""
+
+#: src/plugins/grep/gbp-grep-panel.ui:5
+msgid "Find in Files (Ctrl+Alt+Shift+F)"
+msgstr ""
+
+#: src/plugins/grep/gbp-grep-panel.ui:46
+msgid "Find and Replace"
+msgstr ""
+
+#: src/plugins/grep/gbp-grep-panel.ui:65
+msgid "R_ecursive"
+msgstr ""
+
+#: src/plugins/grep/gbp-grep-panel.ui:72
+msgid "Match _Case"
+msgstr ""
+
+#: src/plugins/grep/gbp-grep-panel.ui:78
+msgid "Match _Words"
+msgstr ""
+
+#: src/plugins/grep/gbp-grep-panel.ui:84
+msgid "Regular E_xpressions"
+msgstr ""
+
+#: src/plugins/grep/gbp-grep-panel.ui:93
+msgid "Close the panel (Escape key)"
+msgstr ""
+
+#: src/plugins/grep/gbp-grep-panel.ui:124
+msgid "_Find in Project"
+msgstr ""
+
+#: src/plugins/grep/gbp-grep-panel.ui:144
+msgid "_Replace in Project"
+msgstr ""
+
+#: src/plugins/grep/gbp-grep-popover.ui:12
+msgid "Find in Files"
+msgstr ""
+
+#: src/plugins/grep/gbp-grep-popover.ui:28
+msgid "Search for…"
+msgstr ""
+
+#: src/plugins/grep/gbp-grep-popover.ui:38
+msgid "_Find"
+msgstr ""
+
+#: src/plugins/grep/gbp-grep-popover.ui:55
+msgid "Search _recursively through folders"
+msgstr ""
+
+#: src/plugins/grep/gbp-grep-popover.ui:62
+msgid "Match _case when searching"
+msgstr ""
+
+#: src/plugins/grep/gbp-grep-popover.ui:70
+msgid "Match _whole words"
+msgstr ""
+
+#: src/plugins/grep/gbp-grep-popover.ui:77
+msgid "Allow regular _expressions"
+msgstr ""
+
+#: src/plugins/grep/gtk/menus.ui:7
+msgid "_Find in Files"
+msgstr ""
+
+#: src/plugins/host/gbp-host-runtime-provider.c:52
+msgid "Host Operating System"
+msgstr ""
+
+#: src/plugins/html-preview/gtk/menus.ui:7
+#: src/plugins/markdown-preview/gtk/menus.ui:7
+#: src/plugins/sphinx-preview/gtk/menus.ui:7
+msgid "Open Preview…"
+msgstr ""
+
+#: src/plugins/intelephense/gbp-intelephense-service.c:100
+msgid "Indexing PHP code"
+msgstr ""
+
+#: src/plugins/ls/gbp-ls-page.c:291
+#, c-format
+msgid "Failed to load directory: %s"
+msgstr ""
+
+#: src/plugins/ls/gbp-ls-page.ui:49
+msgid "Size"
+msgstr ""
+
+#: src/plugins/ls/gbp-ls-page.ui:63
+msgid "Modified"
+msgstr ""
+
+#: src/plugins/ls/gtk/menus.ui:7 src/plugins/ls/gtk/menus.ui:18
+msgid "With _Folder Listing"
+msgstr ""
+
+#: src/plugins/ls/gtk/menus.ui:15
+msgid "Open Containing Folder"
+msgstr ""
+
+#: src/plugins/ls/gtk/menus.ui:23 src/plugins/project-tree/gtk/menus.ui:41
+msgid "With File _Browser…"
+msgstr ""
+
+#: src/plugins/make/gbp-make-build-target.c:55
+msgid "Default Make Target"
+msgstr ""
+
+#: src/plugins/make/gbp-make-run-command-provider.c:83
+msgid "Make Run"
+msgstr ""
+
+#: src/plugins/make-templates/gbp-make-template-provider.c:48
+msgid "Empty Makefile Project"
+msgstr ""
+
+#: src/plugins/make-templates/gbp-make-template-provider.c:49
+msgid "Create a new empty project using a simple Makefile"
+msgstr ""
+
+#: src/plugins/maven/gbp-maven-run-command-provider.c:198
+msgid "Maven Run"
+msgstr ""
+
+#: src/plugins/menu-search/gtk/menus.ui:13
+msgid "Global Search"
+msgstr ""
+
+#: src/plugins/menu-search/gtk/menus.ui:14
+msgid "Display the global search"
+msgstr ""
+
+#: src/plugins/menu-search/gtk/menus.ui:24
+msgid "Panels"
+msgstr ""
+
+#: src/plugins/menu-search/gtk/menus.ui:26
+msgid "Toggle Left Panel"
+msgstr ""
+
+#: src/plugins/menu-search/gtk/menus.ui:27
+msgid "Toggle the left panel in or out of view"
+msgstr ""
+
+#. translators: valid values are "panel-left-symbolic" and "panel-right-symbolic". Choose "panel-right-symbolic" for RTL
+#: src/plugins/menu-search/gtk/menus.ui:29
+msgid "panel-left-symbolic"
+msgstr ""
+
+#: src/plugins/menu-search/gtk/menus.ui:35
+msgid "Toggle the right panel in or out of view"
+msgstr ""
+
+#. translators: valid values are "panel-right-symbolic" and "panel-left-symbolic". Choose "panel-left-symbolic" for RTL
+#: src/plugins/menu-search/gtk/menus.ui:37
+msgid "panel-right-symbolic"
+msgstr ""
+
+#: src/plugins/menu-search/gtk/menus.ui:41
+msgid "Toggle Bottom Panel"
+msgstr ""
+
+#: src/plugins/menu-search/gtk/menus.ui:42
+msgid "Toggle the bottom panel in or out of view"
+msgstr ""
+
+#: src/plugins/menu-search/gtk/menus.ui:55
+msgid "Switch to Dark Mode"
+msgstr ""
+
+#: src/plugins/menu-search/gtk/menus.ui:56
+msgid "Change style-scheme to dark variant"
+msgstr ""
+
+#: src/plugins/menu-search/gtk/menus.ui:60
+msgid "Switch to Light Mode"
+msgstr ""
+
+#: src/plugins/menu-search/gtk/menus.ui:61
+msgid "Change style-scheme to light variant"
+msgstr ""
+
+#: src/plugins/menu-search/gtk/menus.ui:72
+msgid "Display Build Diagnostics"
+msgstr ""
+
+#: src/plugins/menu-search/gtk/menus.ui:73
+msgid "Display errors and warnings found during build"
+msgstr ""
+
+#: src/plugins/meson/gbp-meson-build-system.c:473
+msgid "Meson"
+msgstr ""
+
+#: src/plugins/meson/gbp-meson-introspection.c:624
+msgid "Load Meson Introspection"
+msgstr ""
+
+#: src/plugins/meson/gbp-meson-pipeline-addin.c:244
+msgid "Install project"
+msgstr ""
+
+#: src/plugins/meson/gbp-meson-toolchain.c:61
+#, c-format
+msgid "%s (Meson)"
+msgstr ""
+
+#: src/plugins/meson/gbp-meson-toolchain-edition-preferences-row.c:408
+msgid "No Provided Tool"
+msgstr ""
+
+#: src/plugins/meson/gbp-meson-toolchain-edition-preferences-row.ui:70
+#: src/plugins/sysroot/gbp-sysroot-preferences-row.ui:65
+msgid "A name to identify the sysroot."
+msgstr ""
+
+#: src/plugins/meson/gbp-meson-toolchain-edition-preferences-row.ui:96
+#: src/plugins/sysroot/gbp-sysroot-preferences-row.ui:91
+msgid "The system architecture of the sysroot."
+msgstr ""
+
+#: src/plugins/meson/gbp-meson-toolchain-edition-preferences-row.ui:148
+msgid "Add Tool:"
+msgstr ""
+
+#: src/plugins/meson/gbp-meson-toolchain-edition-preferences-row.ui:169
+#: src/plugins/meson/gbp-meson-utils.c:98
+msgid "Compiler"
+msgstr ""
+
+#: src/plugins/meson/gbp-meson-toolchain-edition-preferences-row.ui:170
+#: src/plugins/meson/gbp-meson-utils.c:100
+msgid "Preprocessor"
+msgstr ""
+
+#: src/plugins/meson/gbp-meson-toolchain-edition-preferences-row.ui:171
+#: src/plugins/meson/gbp-meson-utils.c:102
+msgid "Archiver"
+msgstr ""
+
+#: src/plugins/meson/gbp-meson-toolchain-edition-preferences-row.ui:172
+#: src/plugins/meson/gbp-meson-utils.c:104
+msgid "Linker"
+msgstr ""
+
+#: src/plugins/meson/gbp-meson-toolchain-edition-preferences-row.ui:173
+#: src/plugins/meson/gbp-meson-utils.c:106
+msgid "Strip"
+msgstr ""
+
+#: src/plugins/meson/gbp-meson-toolchain-edition-preferences-row.ui:174
+#: src/plugins/meson/gbp-meson-utils.c:108
+msgid "Executable wrapper"
+msgstr ""
+
+#: src/plugins/meson/gbp-meson-toolchain-edition-preferences-row.ui:175
+#: src/plugins/meson/gbp-meson-utils.c:110
+msgid "Package Config"
+msgstr ""
+
+#: src/plugins/meson/gbp-meson-toolchain-edition-preferences-row.ui:187
+msgid "Any language"
+msgstr ""
+
+#: src/plugins/meson/gbp-meson-toolchain-edition-preferences-row.ui:188
+msgid "C"
+msgstr ""
+
+#: src/plugins/meson/gbp-meson-toolchain-edition-preferences-row.ui:189
+msgid "C++"
+msgstr ""
+
+#: src/plugins/meson/gbp-meson-toolchain-edition-preferences-row.ui:190
+msgid "Python"
+msgstr ""
+
+#: src/plugins/meson/gbp-meson-toolchain-edition-preferences-row.ui:191
+msgid "Vala"
+msgstr ""
+
+#: src/plugins/meson/gbp-meson-toolchain-edition-preferences-row.ui:192
+msgid "Fortran"
+msgstr ""
+
+#: src/plugins/meson/gbp-meson-toolchain-edition-preferences-row.ui:193
+msgid "D"
+msgstr ""
+
+#: src/plugins/meson/gbp-meson-toolchain-edition-preferences-row.ui:226
+msgid "Add Tool"
+msgstr ""
+
+#: src/plugins/meson/gbp-meson-toolchain-edition-preferences-row.ui:247
+msgid "Delete Toolchain"
+msgstr ""
+
+#: src/plugins/meson/gbp-meson-tool-row.ui:25
+msgid "Delete Tool"
+msgstr ""
+
+#: src/plugins/meson-templates/gbp-meson-template-provider.c:171
+msgid "GNOME Application"
+msgstr ""
+
+#: src/plugins/meson-templates/gbp-meson-template-provider.c:172
+msgid "A Meson-based project for GNOME using GTK 4 and libadwaita"
+msgstr ""
+
+#: src/plugins/meson-templates/gbp-meson-template-provider.c:186
+msgid "GTK 4 Application"
+msgstr ""
+
+#: src/plugins/meson-templates/gbp-meson-template-provider.c:187
+msgid "A Meson-based project using GTK 4"
+msgstr ""
+
+#: src/plugins/meson-templates/gbp-meson-template-provider.c:201
+msgid "Shared Library"
+msgstr ""
+
+#: src/plugins/meson-templates/gbp-meson-template-provider.c:202
+msgid "A Meson-based project for a shared library"
+msgstr ""
+
+#: src/plugins/meson-templates/gbp-meson-template-provider.c:209
+msgid "Command Line Tool"
+msgstr ""
+
+#: src/plugins/meson-templates/gbp-meson-template-provider.c:210
+msgid "An Meson-based project for a command-line program"
+msgstr ""
+
+#: src/plugins/meson-templates/gbp-meson-template-provider.c:217
+msgid "Empty Meson Project"
+msgstr ""
+
+#: src/plugins/meson-templates/gbp-meson-template-provider.c:218
+msgid "An empty Meson project skeleton"
+msgstr ""
+
+#: src/plugins/messages/gbp-messages-panel.ui:5
+msgid "Messages"
+msgstr ""
+
+#: src/plugins/newcomers/gbp-newcomers-section.ui:15
+msgid "Suggested GNOME Projects"
+msgstr ""
+
+#: src/plugins/newcomers/gbp-newcomers-section.ui:30
+msgid "Boxes"
+msgstr ""
+
+#: src/plugins/newcomers/gbp-newcomers-section.ui:31
+msgid "A GNOME application to access remote or virtual systems"
+msgstr ""
+
+#: src/plugins/newcomers/gbp-newcomers-section.ui:40
+msgid "An IDE for writing GNOME-based software"
+msgstr ""
+
+#: src/plugins/newcomers/gbp-newcomers-section.ui:49
+msgid "Calendar"
+msgstr ""
+
+#: src/plugins/newcomers/gbp-newcomers-section.ui:50
+msgid "A calendar application for GNOME"
+msgstr ""
+
+#: src/plugins/newcomers/gbp-newcomers-section.ui:58
+msgid "Clocks"
+msgstr ""
+
+#: src/plugins/newcomers/gbp-newcomers-section.ui:59
+msgid "A clock application for GNOME"
+msgstr ""
+
+#: src/plugins/newcomers/gbp-newcomers-section.ui:67
+msgid "Gitg"
+msgstr ""
+
+#: src/plugins/newcomers/gbp-newcomers-section.ui:68
+msgid "Gitg is a graphical Git client"
+msgstr ""
+
+#: src/plugins/newcomers/gbp-newcomers-section.ui:76
+msgid "Maps"
+msgstr ""
+
+#: src/plugins/newcomers/gbp-newcomers-section.ui:77
+msgid "A GNOME maps application"
+msgstr ""
+
+#: src/plugins/newcomers/gbp-newcomers-section.ui:86
+msgid "Music"
+msgstr ""
+
+#: src/plugins/newcomers/gbp-newcomers-section.ui:87
+msgid "Music player and management application"
+msgstr ""
+
+#: src/plugins/newcomers/gbp-newcomers-section.ui:95
+msgid "Nautilus"
+msgstr ""
+
+#: src/plugins/newcomers/gbp-newcomers-section.ui:96
+msgid "Default file manager for GNOME"
+msgstr ""
+
+#: src/plugins/newcomers/gbp-newcomers-section.ui:104
+msgid "Photos"
+msgstr ""
+
+#: src/plugins/newcomers/gbp-newcomers-section.ui:105
+msgid "Access, organize and share your photos on GNOME"
+msgstr ""
+
+#: src/plugins/newcomers/gbp-newcomers-section.ui:113
+msgid "Polari"
+msgstr ""
+
+#: src/plugins/newcomers/gbp-newcomers-section.ui:114
+msgid "An IRC Client for GNOME"
+msgstr ""
+
+#: src/plugins/newcomers/gbp-newcomers-section.ui:123
+msgid "Sound Recorder"
+msgstr ""
+
+#: src/plugins/newcomers/gbp-newcomers-section.ui:124
+msgid "A modern sound recorder for GNOME"
+msgstr ""
+
+#: src/plugins/notification/ide-notification-addin.c:123
+msgid "Build successful"
+msgstr ""
+
+#: src/plugins/notification/ide-notification-addin.c:124
+#, c-format
+msgid "Project “%s” has completed building"
+msgstr ""
+
+#: src/plugins/notification/ide-notification-addin.c:128
+#: src/plugins/notification/ide-notification-addin.c:216
+msgid "Build failed"
+msgstr ""
+
+#: src/plugins/notification/ide-notification-addin.c:129
+#, c-format
+msgid "Project “%s” failed to build"
+msgstr ""
+
+#: src/plugins/notification/ide-notification-addin.c:207
+msgid "Build succeeded"
+msgstr ""
+
+#: src/plugins/notification/ide-notification-addin.c:209
+msgid "Build configured"
+msgstr ""
+
+#: src/plugins/notification/ide-notification-addin.c:211
+msgid "Build bootstrapped"
+msgstr ""
+
+#: src/plugins/npm/gbp-npm-pipeline-addin.c:91
+msgid "Downloading npm dependencies"
+msgstr ""
+
+#: src/plugins/open-with-external/gtk/menus.ui:9
+msgid "_External Program…"
+msgstr ""
+
+#: src/plugins/platformui/gbp-platformui-tweaks-addin.c:45
+msgid "Follow System"
+msgstr ""
+
+#: src/plugins/platformui/gbp-platformui-tweaks-addin.c:46
+msgid "Light"
+msgstr ""
+
+#: src/plugins/platformui/gbp-platformui-tweaks-addin.c:47
+msgid "Dark"
+msgstr ""
+
+#: src/plugins/platformui/tweaks.ui:22
+msgid "Document Navigation"
+msgstr ""
+
+#: src/plugins/platformui/tweaks.ui:31
+msgid "Tab Bar"
+msgstr ""
+
+#: src/plugins/platformui/tweaks.ui:37
+msgid "Drop Down"
+msgstr ""
+
+#. translators: this is a path to browse to the runtime, likely only "containers" should be translated
+#: src/plugins/podman/gbp-podman-runtime.c:686
+msgid "Containers/Toolbox"
+msgstr ""
+
+#. translators: this is a path to browse to the runtime, likely only "containers" should be translated
+#: src/plugins/podman/gbp-podman-runtime.c:692
+msgid "Containers/Podman"
+msgstr ""
+
+#: src/plugins/project-tree/gbp-new-file-popover.c:127
+#: src/plugins/project-tree/gbp-rename-file-popover.c:145
+msgid "A folder with that name already exists."
+msgstr ""
+
+#: src/plugins/project-tree/gbp-new-file-popover.c:130
+#: src/plugins/project-tree/gbp-rename-file-popover.c:148
+msgid "A file with that name already exists."
+msgstr ""
+
+#: src/plugins/project-tree/gbp-new-file-popover.c:354
+#: src/plugins/project-tree/gbp-new-file-popover.ui:16
+#: src/plugins/project-tree/gbp-rename-file-popover.ui:15
+msgid "File Name"
+msgstr ""
+
+#: src/plugins/project-tree/gbp-new-file-popover.c:356
+msgid "Folder Name"
+msgstr ""
+
+#: src/plugins/project-tree/gbp-new-file-popover.ui:38
+msgid "_Create"
+msgstr ""
+
+#: src/plugins/project-tree/gbp-project-tree-addin.c:208
+msgid "Files"
+msgstr ""
+
+#: src/plugins/project-tree/gbp-project-tree-addin.c:682
+#, c-format
+msgid "Copying 1 file"
+msgstr ""
+
+#. translators: first %s is replaced with completed number of files, second %s with total number of files
+#: src/plugins/project-tree/gbp-project-tree-addin.c:685
+#, c-format
+msgid "Copying %s of %s files"
+msgstr ""
+
+#: src/plugins/project-tree/gbp-project-tree-addin.c:721
+msgid "Failed to copy files"
+msgstr ""
+
+#: src/plugins/project-tree/gbp-project-tree-addin.c:731
+msgid "Files copied"
+msgstr ""
+
+#: src/plugins/project-tree/gbp-project-tree-addin.c:735
+#, c-format
+msgid "Copied %s file"
+msgid_plural "Copied %s files"
+msgstr[0] ""
+msgstr[1] ""
+
+#: src/plugins/project-tree/gbp-project-tree-addin.c:928
+msgid "Copying files…"
+msgstr ""
+
+#: src/plugins/project-tree/gbp-project-tree-addin.c:929
+msgid "Files will be copied in a moment"
+msgstr ""
+
+#: src/plugins/project-tree/gbp-project-tree-workspace-addin.c:48
+#: src/plugins/project-tree/tweaks.ui:10
+msgid "Project Tree"
+msgstr ""
+
+#: src/plugins/project-tree/gbp-rename-file-popover.c:85
+#, c-format
+msgid "Rename %s"
+msgstr ""
+
+#: src/plugins/project-tree/gtk/menus.ui:8
+msgid "New Fil_e…"
+msgstr ""
+
+#: src/plugins/project-tree/gtk/menus.ui:14
+msgid "New F_older…"
+msgstr ""
+
+#: src/plugins/project-tree/gtk/menus.ui:22
+msgid "O_pen"
+msgstr ""
+
+#: src/plugins/project-tree/gtk/menus.ui:26
+msgid "Open _With…"
+msgstr ""
+
+#: src/plugins/project-tree/gtk/menus.ui:30
+msgid "_Source Code Editor"
+msgstr ""
+
+#: src/plugins/project-tree/gtk/menus.ui:37
+msgid "Open _Containing Folder"
+msgstr ""
+
+#: src/plugins/project-tree/gtk/menus.ui:47
+msgid "With _Terminal…"
+msgstr ""
+
+#: src/plugins/project-tree/gtk/menus.ui:64
+msgid "_Move to Trash"
+msgstr ""
+
+#: src/plugins/project-tree/gtk/menus.ui:70
+msgid "_Display Options"
+msgstr ""
+
+#: src/plugins/project-tree/gtk/menus.ui:74
+msgid "S_how Ignored Files"
+msgstr ""
+
+#: src/plugins/project-tree/gtk/menus.ui:79
+msgid "S_ort Directories First"
+msgstr ""
+
+#: src/plugins/project-tree/gtk/menus.ui:91
+msgid "Reveal in Project Tree"
+msgstr ""
+
+#: src/plugins/project-tree/gtk/menus.ui:100
+msgid "Reveal in Project _Tree"
+msgstr ""
+
+#: src/plugins/project-tree/tweaks.ui:14
+msgid "Display icons next to files within the project tree"
+msgstr ""
+
+#: src/plugins/project-tree/tweaks.ui:26
+msgid "Show files which are typically ignored"
+msgstr ""
+
+#: src/plugins/project-tree/tweaks.ui:38
+msgid "Sort directories before files in the same directory"
+msgstr ""
+
+#: src/plugins/projectui/gbp-projectui-tweaks-addin.c:134
+msgid "No version control"
+msgstr ""
+
+#: src/plugins/projectui/tweaks.ui:14
+msgid "Restore Previous Session"
+msgstr ""
+
+#: src/plugins/projectui/tweaks.ui:15
+msgid "Open previously opened files when loading a project"
+msgstr ""
+
+#: src/plugins/projectui/tweaks.ui:28
+msgid "Project Creation"
+msgstr ""
+
+#: src/plugins/projectui/tweaks.ui:32
+msgid "Projects created with Builder will be placed within this directory"
+msgstr ""
+
+#: src/plugins/projectui/tweaks.ui:48
+msgid "The default license when creating new projects"
+msgstr ""
+
+#: src/plugins/projectui/tweaks.ui:93
+msgid "No License"
+msgstr ""
+
+#: src/plugins/projectui/tweaks.ui:109
+msgid "Overview"
+msgstr ""
+
+#: src/plugins/projectui/tweaks.ui:115
+msgid "Project Identifier"
+msgstr ""
+
+#: src/plugins/projectui/tweaks.ui:123
+msgid ""
+"This identifier is used when referencing your project's settings, build "
+"directories, and cached information."
+msgstr ""
+
+#: src/plugins/projectui/tweaks.ui:132
+msgid "Build System"
+msgstr ""
+
+#: src/plugins/projectui/tweaks.ui:140
+msgid "Source Directory"
+msgstr ""
+
+#: src/plugins/projectui/tweaks.ui:160
+msgid "Current Configuration"
+msgstr ""
+
+#: src/plugins/projectui/tweaks.ui:161
+msgid ""
+"The configuration is used to setup build pipelines, configure your build "
+"system, and run your project."
+msgstr ""
+
+#: src/plugins/projectui/tweaks.ui:228
+msgid "Provided By"
+msgstr ""
+
+#. translators: format is "CPU emulation". Only translate "emulation"
+#: src/plugins/qemu/gbp-qemu-device-provider.c:42
+msgid "Aarch64 Emulation"
+msgstr ""
+
+#: src/plugins/qemu/gbp-qemu-device-provider.c:43
+msgid "Arm Emulation"
+msgstr ""
+
+#. translators: first %s is replaced with hostname, second %s with the CPU architecture
+#: src/plugins/qemu/gbp-qemu-device-provider.c:160
+#, c-format
+msgid "My Computer (%s) %s"
+msgstr ""
+
+#: src/plugins/recent/gbp-recent-section.c:254
+msgid "Removed Files"
+msgstr ""
+
+#. translators: %s is replaced with the path of the file to be deleted and \n for a new line
+#: src/plugins/recent/gbp-recent-section.c:289
+#: src/plugins/recent/gbp-recent-section.c:296
+#, c-format
+msgid "Removing %s\n"
+msgstr ""
+
+#: src/plugins/recent/gbp-recent-section.c:424
+msgid "Removing Files…"
+msgstr ""
+
+#: src/plugins/recent/gbp-recent-section.ui:6
+msgid "Recent Projects"
+msgstr ""
+
+#: src/plugins/retab/gtk/menus.ui:5
+msgid "_Reformat Tabs"
+msgstr ""
+
+#: src/plugins/rust-analyzer/tweaks.ui:13
+msgid "Rust Analyzer"
+msgstr ""
+
+#: src/plugins/rust-analyzer/tweaks.ui:16
+msgid "Cargo"
+msgstr ""
+
+#: src/plugins/rust-analyzer/tweaks.ui:19
+msgid "Cargo Command"
+msgstr ""
+
+#: src/plugins/rust-analyzer/tweaks.ui:20
+msgid "The default cargo command to run with rust-analyzer"
+msgstr ""
+
+#: src/plugins/rust-analyzer/tweaks.ui:45
+msgid "Features"
+msgstr ""
+
+#: src/plugins/rust-analyzer/tweaks.ui:48
+msgid "Proc Macros"
+msgstr ""
+
+#: src/plugins/rust-analyzer/tweaks.ui:49
+msgid "Enables the Proc Macros feature of rust-analyzer"
+msgstr ""
+
+#: src/plugins/rust-analyzer/tweaks.ui:61
+msgid "Cargo Build Scripts"
+msgstr ""
+
+#: src/plugins/rust-analyzer/tweaks.ui:62
+msgid "Run build scripts (build.rs) for more precise code analysis"
+msgstr ""
+
+#: src/plugins/rust-analyzer/tweaks.ui:74
+msgid "Rustfmt Range Formatting"
+msgstr ""
+
+#: src/plugins/rust-analyzer/tweaks.ui:75
+msgid ""
+"Enables the use of rustfmt’s unstable range formatting command. The rustfmt "
+"option is unstable and only available on nightly builds of the Rust SDK."
+msgstr ""
+
+#: src/plugins/sdkui/gbp-sdkui-tweaks-addin.c:100
+msgid "Update"
+msgstr ""
+
+#: src/plugins/sdkui/gtk/menus.ui:6
+msgid "Manage SDKs…"
+msgstr ""
+
+#: src/plugins/sdkui/tweaks.ui:12
+msgid "Downloads"
+msgstr ""
+
+#: src/plugins/sdkui/tweaks.ui:15
+msgid "Download on Metered Connections"
+msgstr ""
+
+#: src/plugins/sdkui/tweaks.ui:16
+msgid ""
+"Allow the download of SDKs and dependencies when on metered internet "
+"connections"
+msgstr ""
+
+#: src/plugins/sdkui/tweaks.ui:29
+msgid "Available SDKs"
+msgstr ""
+
+#: src/plugins/shellcmd/gbp-shellcmd-command-dialog.c:336
+msgid "Untitled Command"
+msgstr ""
+
+#: src/plugins/shellcmd/gbp-shellcmd-command-dialog.c:343
+msgid "Set Shortcut"
+msgstr ""
+
+#: src/plugins/shellcmd/gbp-shellcmd-command-dialog.c:481
+msgid "Select Working Directory"
+msgstr ""
+
+#: src/plugins/shellcmd/gbp-shellcmd-command-dialog.c:547
+#: src/plugins/shellcmd/gbp-shellcmd-tweaks-addin.c:101
+msgid "Create Command"
+msgstr ""
+
+#: src/plugins/shellcmd/gbp-shellcmd-command-dialog.c:548
+msgid "Cre_ate"
+msgstr ""
+
+#: src/plugins/shellcmd/gbp-shellcmd-command-dialog.ui:6
+msgid "Edit Command"
+msgstr ""
+
+#: src/plugins/shellcmd/gbp-shellcmd-command-dialog.ui:23
+msgid "S_ave"
+msgstr ""
+
+#: src/plugins/shellcmd/gbp-shellcmd-command-dialog.ui:51
+msgid "Keyboard Shortcut"
+msgstr ""
+
+#: src/plugins/shellcmd/gbp-shellcmd-command-dialog.ui:52
+msgid "An optional shortcut to run the command"
+msgstr ""
+
+#: src/plugins/shellcmd/gbp-shellcmd-command-dialog.ui:67
+msgid "Shell Command"
+msgstr ""
+
+#: src/plugins/shellcmd/gbp-shellcmd-command-dialog.ui:72
+msgid "You may use single or double quotes for parameters."
+msgstr ""
+
+#: src/plugins/shellcmd/gbp-shellcmd-command-dialog.ui:87
+msgid "Environment"
+msgstr ""
+
+#: src/plugins/shellcmd/gbp-shellcmd-command-dialog.ui:90
+msgid "Working Directory"
+msgstr ""
+
+#: src/plugins/shellcmd/gbp-shellcmd-command-dialog.ui:105
+msgid ""
+"The command will be run from this location. Use <tt>$BUILDDIR</tt>, <tt>"
+"$SRCDIR</tt>, or <tt>$HOME</tt> to define a relative path."
+msgstr ""
+
+#: src/plugins/shellcmd/gbp-shellcmd-command-dialog.ui:122
+msgid "Use Subshell"
+msgstr ""
+
+#: src/plugins/shellcmd/gbp-shellcmd-command-dialog.ui:123
+msgid "Run the program from a subshell such as <tt>sh -c ''</tt>"
+msgstr ""
+
+#: src/plugins/shellcmd/gbp-shellcmd-command-dialog.ui:134
+msgid "Locality"
+msgstr ""
+
+#: src/plugins/shellcmd/gbp-shellcmd-command-dialog.ui:135
+msgid ""
+"Builder can run your command from a number of localities including the host "
+"system or build containers."
+msgstr ""
+
+#: src/plugins/shellcmd/gbp-shellcmd-command-dialog.ui:230
+msgid "_Delete Command"
+msgstr ""
+
+#: src/plugins/shellcmd/gbp-shellcmd-command-dialog.ui:258
+msgid "Subprocess"
+msgstr ""
+
+#: src/plugins/shellcmd/gbp-shellcmd-command-dialog.ui:259
+msgid "Runs the command as a subprocess of Builder."
+msgstr ""
+
+#: src/plugins/shellcmd/gbp-shellcmd-command-dialog.ui:266
+msgid "Runs the command on the host system."
+msgstr ""
+
+#: src/plugins/shellcmd/gbp-shellcmd-command-dialog.ui:273
+msgid "Runs the command within the build pipeline."
+msgstr ""
+
+#: src/plugins/shellcmd/gbp-shellcmd-command-dialog.ui:279
+msgid "As Target Application"
+msgstr ""
+
+#: src/plugins/shellcmd/gbp-shellcmd-command-dialog.ui:280
+msgid "Runs the command as if it were the target application."
+msgstr ""
+
+#: src/plugins/shellcmd/gbp-shellcmd-tweaks-addin.c:102
+msgid "Commands can be used to build, run, or modify your projects"
+msgstr ""
+
+#: src/plugins/shellcmd/gbp-shellcmd-tweaks-addin.c:116
+msgid "These commands are specific to this project."
+msgstr ""
+
+#: src/plugins/shellcmd/gbp-shellcmd-tweaks-addin.c:117
+msgid "These commands are shared across all projects."
+msgstr ""
+
+#: src/plugins/shellcmd/org.gnome.builder.shellcmd.command.gschema.xml:6
+msgid "Display Name"
+msgstr ""
+
+#: src/plugins/shellcmd/org.gnome.builder.shellcmd.command.gschema.xml:10
+msgid "Keyboard Accelerator"
+msgstr ""
+
+#: src/plugins/shellcmd/org.gnome.builder.shellcmd.command.gschema.xml:14
+msgid "Current Working Directory"
+msgstr ""
+
+#: src/plugins/shellcmd/org.gnome.builder.shellcmd.command.gschema.xml:18
+msgid "Command Arguments"
+msgstr ""
+
+#: src/plugins/shellcmd/org.gnome.builder.shellcmd.command.gschema.xml:22
+msgid "Command Environment"
+msgstr ""
+
+#: src/plugins/shellcmd/org.gnome.builder.shellcmd.command.gschema.xml:32
+msgid "Command Locality"
+msgstr ""
+
+#: src/plugins/shellcmd/org.gnome.builder.shellcmd.command.gschema.xml:36
+msgid "Use Shell"
+msgstr ""
+
+#: src/plugins/shellcmd/org.gnome.builder.shellcmd.gschema.xml:6
+msgid "Run Commands"
+msgstr ""
+
+#: src/plugins/shellcmd/org.gnome.builder.shellcmd.gschema.xml:7
+msgid "A list of run-command ids to load for the application or project."
+msgstr ""
+
+#: src/plugins/shellcmd/tweaks.ui:14
+msgid ""
+"Use commands to run build tooling, applications, or shell scripts and map "
+"them to a keyboard shortcut. They can run from various environments such as "
+"the build pipeline, runtime environment, or host operating system."
+msgstr ""
+
+#: src/plugins/spellcheck/editor-enchant-spell-provider.c:123
+msgid "Enchant 2"
+msgstr ""
+
+#: src/plugins/spellcheck/editor-spell-menu.c:248
+msgid "Add to Dictionary"
+msgstr ""
+
+#: src/plugins/spellcheck/editor-spell-menu.c:249
+msgid "Ignore"
+msgstr ""
+
+#: src/plugins/spellcheck/editor-spell-menu.c:259
+msgid "Languages"
+msgstr ""
+
+#: src/plugins/symbol-tree/gbp-symbol-hover-provider.c:115
+msgid "Unnamed Symbol"
+msgstr ""
+
+#: src/plugins/symbol-tree/gbp-symbol-popover.ui:38
+msgid "Filter Symbols…"
+msgstr ""
+
+#. translators: "In Page" refers to the title of the page which contains the search result
+#: src/plugins/symbol-tree/gbp-symbol-search-result.c:198
+msgid "In Page"
+msgstr ""
+
+#: src/plugins/symbol-tree/gbp-symbol-workspace-addin.c:95
+#: src/plugins/symbol-tree/gbp-symbol-workspace-addin.c:342
+#: src/plugins/symbol-tree/gtk/menus.ui:8
+msgid "Select Symbol…"
+msgstr ""
+
+#: src/plugins/symbol-tree/gbp-symbol-workspace-addin.c:345
+msgid "Select Symbol (Ctrl+Shift+K)"
+msgstr ""
+
+#: src/plugins/symbol-tree/gtk/menus.ui:9
+msgid "Navigate to a symbol within the current page"
+msgstr ""
+
+#: src/plugins/sysprof/gbp-sysprof-tool.c:307
+msgid "Profiling Application…"
+msgstr ""
+
+#: src/plugins/sysprof/gbp-sysprof-tool.c:308
+msgid "Symbol decoding will begin after application exits"
+msgstr ""
+
+#: src/plugins/sysprof/gbp-sysprof-workbench-addin.c:343
+msgid "Open Sysprof Capture…"
+msgstr ""
+
+#: src/plugins/sysprof/gbp-sysprof-workbench-addin.c:352
+msgid "Sysprof Capture (*.syscap)"
+msgstr ""
+
+#: src/plugins/sysprof/gbp-sysprof-workbench-addin.c:358
+msgid "All Files"
+msgstr ""
+
+#: src/plugins/sysprof/gtk/menus.ui:8
+msgctxt "menu label"
+msgid "Open _Sysprof Capture…"
+msgstr ""
+
+#: src/plugins/sysprof/gtk/menus.ui:19
+msgid "Run with Profiler"
+msgstr ""
+
+#: src/plugins/sysprof/gtk/menus.ui:22
+msgid "Run the project with profiler"
+msgstr ""
+
+#: src/plugins/sysprof/gtk/menus.ui:30 src/plugins/sysprof/tweaks.ui:13
+msgid "Profiler"
+msgstr ""
+
+#: src/plugins/sysprof/gtk/menus.ui:32
+msgid "Thread Sampling"
+msgstr ""
+
+#: src/plugins/sysprof/gtk/menus.ui:34
+msgid "CPU Performance"
+msgstr ""
+
+#: src/plugins/sysprof/gtk/menus.ui:39
+msgid "Memory Allocations"
+msgstr ""
+
+#: src/plugins/sysprof/gtk/menus.ui:44
+msgid "Sample JavaScript Stacks"
+msgstr ""
+
+#: src/plugins/sysprof/gtk/menus.ui:50
+msgid "Graphics"
+msgstr ""
+
+#: src/plugins/sysprof/gtk/menus.ui:52
+msgid "Display Timings"
+msgstr ""
+
+#: src/plugins/sysprof/gtk/menus.ui:58
+msgid "Counters"
+msgstr ""
+
+#: src/plugins/sysprof/gtk/menus.ui:60 src/plugins/sysprof/tweaks.ui:19
+msgid "CPU Usage"
+msgstr ""
+
+#: src/plugins/sysprof/gtk/menus.ui:65 src/plugins/sysprof/tweaks.ui:71
+msgid "Memory Usage"
+msgstr ""
+
+#: src/plugins/sysprof/gtk/menus.ui:70
+msgid "Storage I/O"
+msgstr ""
+
+#: src/plugins/sysprof/gtk/menus.ui:75
+msgid "Network I/O"
+msgstr ""
+
+#: src/plugins/sysprof/gtk/menus.ui:81
+msgid "Energy"
+msgstr ""
+
+#: src/plugins/sysprof/gtk/menus.ui:83
+msgid "Consumption"
+msgstr ""
+
+#: src/plugins/sysprof/gtk/menus.ui:88
+msgid "Battery Charge"
+msgstr ""
+
+#: src/plugins/sysprof/gtk/menus.ui:95
+msgid "Allow Application Integration"
+msgstr ""
+
+#: src/plugins/sysprof/gtk/menus.ui:100
+msgid "Allow CPU Throttling"
+msgstr ""
+
+#: src/plugins/sysprof/gtk/menus.ui:112
+msgid "Run with _Profiler"
+msgstr ""
+
+#: src/plugins/sysprof/gtk/menus.ui:130
+msgid "Record Again…"
+msgstr ""
+
+#: src/plugins/sysprof/tweaks.ui:16
+msgid "Instruments"
+msgstr ""
+
+#: src/plugins/sysprof/tweaks.ui:20
+msgid "Records CPU usage and CPU frequency statistics"
+msgstr ""
+
+#: src/plugins/sysprof/tweaks.ui:31
+msgid "Sample Callstacks"
+msgstr ""
+
+#: src/plugins/sysprof/tweaks.ui:32
+msgid "Record stacktraces on a regular interval and build a callgraph"
+msgstr ""
+
+#: src/plugins/sysprof/tweaks.ui:43
+msgid "CPU Governor"
+msgstr ""
+
+#: src/plugins/sysprof/tweaks.ui:44
+msgid "Force performance mode while profiling"
+msgstr ""
+
+#: src/plugins/sysprof/tweaks.ui:53
+msgid "Don't Change Governor"
+msgstr ""
+
+#: src/plugins/sysprof/tweaks.ui:59
+msgid "Force Performance Mode"
+msgstr ""
+
+#: src/plugins/sysprof/tweaks.ui:72
+msgid "Simple memory statistics about the process such as total memory used"
+msgstr ""
+
+#: src/plugins/sysprof/tweaks.ui:83
+msgid "Memory Profiling"
+msgstr ""
+
+#: src/plugins/sysprof/tweaks.ui:84
+msgid "Record stacktraces of memory allocations and releases"
+msgstr ""
+
+#: src/plugins/sysprof/tweaks.ui:99
+msgid "Energy Usage"
+msgstr ""
+
+#: src/plugins/sysprof/tweaks.ui:100
+msgid "Record statistics about energy usage using RAPL"
+msgstr ""
+
+#: src/plugins/sysprof/tweaks.ui:111
+msgid "Battery Usage"
+msgstr ""
+
+#: src/plugins/sysprof/tweaks.ui:112 src/plugins/sysprof/tweaks.ui:140
+msgid "Record statistics about battery charge and discharge rates"
+msgstr ""
+
+#: src/plugins/sysprof/tweaks.ui:127
+msgid "Network Usage"
+msgstr ""
+
+#: src/plugins/sysprof/tweaks.ui:128
+msgid "Record statistics about network usage"
+msgstr ""
+
+#: src/plugins/sysprof/tweaks.ui:139
+msgid "Disk Usage"
+msgstr ""
+
+#: src/plugins/sysprof/tweaks.ui:155
+msgid "GNOME Shell Performance"
+msgstr ""
+
+#: src/plugins/sysprof/tweaks.ui:156
+msgid "Collect performance and timing information from GNOME Shell"
+msgstr ""
+
+#: src/plugins/sysprof/tweaks.ui:169
+msgid "Integration"
+msgstr ""
+
+#: src/plugins/sysprof/tweaks.ui:172
+msgid "JavaScript"
+msgstr ""
+
+#: src/plugins/sysprof/tweaks.ui:173
+msgid "Collect information from GJS-based applications"
+msgstr ""
+
+#: src/plugins/sysprof/tweaks.ui:184
+msgid "Application Tracing"
+msgstr ""
+
+#: src/plugins/sysprof/tweaks.ui:185
+msgid ""
+"Provide TRACE_FD environment variable for applications to deliver custom "
+"events"
+msgstr ""
+
+#: src/plugins/sysroot/gbp-sysroot-preferences-row.ui:121
+msgid "An absolute file-system path to the sysroot."
+msgstr ""
+
+#: src/plugins/sysroot/gbp-sysroot-preferences-row.ui:148
+msgid "Package Config Path"
+msgstr ""
+
+#: src/plugins/sysroot/gbp-sysroot-preferences-row.ui:149
+msgid "An optional comma-separated path to specify PKG_CONFIG_PATH."
+msgstr ""
+
+#: src/plugins/sysroot/gbp-sysroot-toolchain-provider.c:148
+#, c-format
+msgid "%s (Sysroot SDK)"
+msgstr ""
+
+#. translators: %s is replaced with the current local time of day
+#: src/plugins/terminal/gbp-terminal-workspace-addin.c:193
+#, c-format
+msgid "Application started at %s\r\n"
+msgstr ""
+
+#: src/plugins/terminal/gbp-terminal-workspace-addin.c:211
+msgid "Application exited"
+msgstr ""
+
+#: src/plugins/terminal/gbp-terminal-workspace-addin.c:295
+msgid "Application Output"
+msgstr ""
+
+#: src/plugins/terminal/gbp-terminal-workspace-addin.c:367
+msgid "Process completed"
+msgstr ""
+
+#: src/plugins/terminal/gtk/menus.ui:6
+msgid "New _Terminal"
+msgstr ""
+
+#: src/plugins/terminal/gtk/menus.ui:11
+msgid "Open a new terminal on the host operating system"
+msgstr ""
+
+#: src/plugins/terminal/gtk/menus.ui:14
+msgid "New _Build Terminal"
+msgstr ""
+
+#: src/plugins/terminal/gtk/menus.ui:19
+msgid "Open a new terminal in project's build pipeline"
+msgstr ""
+
+#: src/plugins/terminal/gtk/menus.ui:22
+msgid "New _Runtime Terminal"
+msgstr ""
+
+#: src/plugins/terminal/gtk/menus.ui:27
+msgid "Open a new terminal in project's runtime environment"
+msgstr ""
+
+#: src/plugins/terminal/gtk/menus.ui:40
+msgid "Split"
+msgstr ""
+
+#: src/plugins/terminal/tweaks.ui:14
+msgid "The font used within terminals"
+msgstr ""
+
+#: src/plugins/terminal/tweaks.ui:29
+msgid "Allow Bold"
+msgstr ""
+
+#: src/plugins/terminal/tweaks.ui:30
+msgid "Allows the use of bold escape sequences"
+msgstr ""
+
+#: src/plugins/terminal/tweaks.ui:41
+msgid "Allow Hyperlinks"
+msgstr ""
+
+#: src/plugins/terminal/tweaks.ui:42
+msgid "Allows the use of hyperlink escape sequences"
+msgstr ""
+
+#: src/plugins/terminal/tweaks.ui:55
+msgid "Scrolling"
+msgstr ""
+
+#: src/plugins/terminal/tweaks.ui:58
+msgid "Scroll On Output"
+msgstr ""
+
+#: src/plugins/terminal/tweaks.ui:59
+msgid "Automatically scroll when applications within the terminal output text"
+msgstr ""
+
+#: src/plugins/terminal/tweaks.ui:70
+msgid "Scroll On Keyboard Input"
+msgstr ""
+
+#: src/plugins/terminal/tweaks.ui:71
+msgid "Automatically scroll when typing to insert text"
+msgstr ""
+
+#: src/plugins/terminal/tweaks.ui:87
+msgid "Limit Scrollback"
+msgstr ""
+
+#: src/plugins/terminal/tweaks.ui:88
+msgid ""
+"Limit the number of lines that are stored in memory for terminal scrollback"
+msgstr ""
+
+#: src/plugins/terminal/tweaks.ui:99
+msgid "Maximum Lines in Scrollback"
+msgstr ""
+
+#: src/plugins/terminal/tweaks.ui:100
+msgid "The maximum number of lines stored in history when limiting scrollback"
+msgstr ""
+
+#: src/plugins/testui/gbp-testui-output-panel.c:147
+msgid "Unit Test Output"
+msgstr ""
+
+#: src/plugins/testui/gbp-testui-output-panel.ui:39
+msgid "Clear test output"
+msgstr ""
+
+#: src/plugins/testui/gbp-testui-output-panel.ui:49
+msgid "Cancel tests"
+msgstr ""
+
+#: src/plugins/testui/gbp-testui-output-panel.ui:59
+msgid "Save test output"
+msgstr ""
+
+#. Translators: %s is replaced with the time in the current locale
+#: src/plugins/testui/gbp-testui-workspace-addin.c:86
+#, c-format
+msgid "Running all unit tests at %s"
+msgstr ""
+
+#: src/plugins/testui/gbp-testui-workspace-addin.c:119
+#, c-format
+msgid "Unit tests completed in %lf seconds"
+msgstr ""
+
+#: src/plugins/testui/gbp-testui-workspace-addin.c:121
+msgid "Unit tests completed"
+msgstr ""
+
+#: src/plugins/testui/gtk/menus.ui:8
+msgid "Run all Unit Tests"
+msgstr ""
+
+#: src/plugins/testui/gtk/menus.ui:11
+msgid "Request that all unit tests are run"
+msgstr ""
+
+#: src/plugins/todo/gbp-todo-panel.ui:4
+#: src/plugins/todo/gbp-todo-workspace-addin.c:142
+msgid "TODO/FIXMEs"
+msgstr ""
+
+#: src/plugins/todo/gbp-todo-panel.ui:14
+msgid "Loading TODOs…"
+msgstr ""
+
+#: src/plugins/update-dependencies/gbp-update-dependencies-workbench-addin.c:133
+msgid "Updating Dependencies…"
+msgstr ""
+
+#: src/plugins/update-dependencies/gbp-update-dependencies-workbench-addin.c:134
+msgid "Builder is updating your projects configured dependencies."
+msgstr ""
+
+#: src/plugins/update-dependencies/gtk/menus.ui:6
+msgid "Update Dependencies…"
+msgstr ""
+
+#: src/plugins/update-dependencies/gtk/menus.ui:8
+msgid "Download updates to project dependencies"
+msgstr ""
+
+#: src/plugins/update-manager/gbp-update-manager-app-addin.c:106
+msgid "Updating Builder"
+msgstr ""
+
+#: src/plugins/update-manager/gbp-update-manager-app-addin.c:166
+msgid "Update Available"
+msgstr ""
+
+#: src/plugins/update-manager/gbp-update-manager-app-addin.c:167
+msgid ""
+"An update to Builder is available. Builder can download and install it for "
+"you."
+msgstr ""
+
+#: src/plugins/update-manager/gbp-update-manager-app-addin.c:169
+msgid "_Update"
+msgstr ""
+
+#: src/plugins/update-manager/gtk/menus.ui:7
+msgid "Install Updates…"
+msgstr ""
+
+#: src/plugins/update-manager/gtk/menus.ui:8
+msgid "Install pending updates for Builder"
+msgstr ""
+
+#: src/plugins/valgrind/gtk/menus.ui:10
+msgid "Run with Leak Detector"
+msgstr ""
+
+#: src/plugins/valgrind/gtk/menus.ui:13
+msgid "Run the project with valgrind"
+msgstr ""
+
+#: src/plugins/valgrind/gtk/menus.ui:21 src/plugins/valgrind/tweaks.ui:13
+msgid "Leak Detector"
+msgstr ""
+
+#: src/plugins/valgrind/gtk/menus.ui:24
+msgid "Track Origin of Leaks"
+msgstr ""
+
+#: src/plugins/valgrind/gtk/menus.ui:30
+msgid "Report Leaks"
+msgstr ""
+
+#: src/plugins/valgrind/gtk/menus.ui:32
+msgid "Summary"
+msgstr ""
+
+#: src/plugins/valgrind/gtk/menus.ui:38
+msgid "Full"
+msgstr ""
+
+#: src/plugins/valgrind/gtk/menus.ui:51 src/plugins/valgrind/tweaks.ui:16
+msgid "Leak Kinds"
+msgstr ""
+
+#: src/plugins/valgrind/gtk/menus.ui:53 src/plugins/valgrind/tweaks.ui:19
+msgid "Definite"
+msgstr ""
+
+#: src/plugins/valgrind/gtk/menus.ui:58 src/plugins/valgrind/tweaks.ui:43
+msgid "Indirect"
+msgstr ""
+
+#: src/plugins/valgrind/gtk/menus.ui:63 src/plugins/valgrind/tweaks.ui:31
+msgid "Possible"
+msgstr ""
+
+#: src/plugins/valgrind/gtk/menus.ui:68 src/plugins/valgrind/tweaks.ui:55
+msgid "Reachable"
+msgstr ""
+
+#: src/plugins/valgrind/tweaks.ui:20
+msgid "Include definite leaks in report summary"
+msgstr ""
+
+#: src/plugins/valgrind/tweaks.ui:32
+msgid "Include possible leaks in report summary"
+msgstr ""
+
+#: src/plugins/valgrind/tweaks.ui:44
+msgid "Include indirect leaks in report summary"
+msgstr ""
+
+#: src/plugins/valgrind/tweaks.ui:56
+msgid "Include reachable leaks in report summary"
+msgstr ""
+
+#: src/plugins/valgrind/tweaks.ui:71
+msgid "Track Origins"
+msgstr ""
+
+#: src/plugins/valgrind/tweaks.ui:72
+msgid "Show origin of undefined values"
+msgstr ""
+
+#: src/plugins/valgrind/tweaks.ui:87
+msgid "Leak Check"
+msgstr ""
+
+#: src/plugins/valgrind/tweaks.ui:88
+msgid "Search for memory leaks at exit"
+msgstr ""
+
+#: src/plugins/vcsui/gbp-vcsui-application-addin.c:95
+msgid "Begin cloning project from URI"
+msgstr ""
+
+#: src/plugins/vcsui/gbp-vcsui-clone-page.c:150
+msgid "A failure occurred while cloning the repository."
+msgstr ""
+
+#: src/plugins/vcsui/gbp-vcsui-clone-page.ui:19
+msgid "Repository URL"
+msgstr ""
+
+#: src/plugins/vcsui/gbp-vcsui-clone-page.ui:38
+msgid "Choose an alternate branch"
+msgstr ""
+
+#: src/plugins/vcsui/gbp-vcsui-clone-page.ui:57
+msgid "Branches"
+msgstr ""
+
+#: src/plugins/vcsui/gbp-vcsui-clone-page.ui:141
+msgid ""
+"Enter the URL of the source code repository for the project you would like "
+"to clone."
+msgstr ""
+
+#: src/plugins/vcsui/gbp-vcsui-clone-page.ui:170
+msgid "The repository will be cloned into a new subdirectory."
+msgstr ""
+
+#: src/plugins/vcsui/gbp-vcsui-clone-page.ui:194
+msgid "Author Details"
+msgstr ""
+
+#: src/plugins/vcsui/gbp-vcsui-clone-page.ui:212
+msgid "You may specify authorship information to override defaults."
+msgstr ""
+
+#: src/plugins/vcsui/gbp-vcsui-clone-page.ui:228
+msgid "Status"
+msgstr ""
+
+#: src/plugins/vcsui/gbp-vcsui-switcher-popover.ui:27
+msgid "_Branches"
+msgstr ""
+
+#: src/plugins/vcsui/gbp-vcsui-switcher-popover.ui:93
+msgid "_Tags"
+msgstr ""
+
+#: src/plugins/vcsui/gtk/menus.ui:7
+msgid "_Switch to branch"
+msgstr ""
+
+#: src/plugins/vcsui/gtk/menus.ui:12
+msgid "_Push to origin"
+msgstr ""
+
+#: src/plugins/vim/tweaks.ui:18
+msgid "Vim"
+msgstr ""
+
+#: src/plugins/web-browser/gtk/menus.ui:6
+msgid "New _Browser Page"
+msgstr ""
+
+#: src/plugins/web-browser/gtk/menus.ui:18
+#: src/plugins/web-browser/gtk/menus.ui:24
+msgid "Reload Page"
+msgstr ""
+
+#: src/plugins/web-browser/gtk/menus.ui:19
+msgid "Reload the current page"
+msgstr ""
+
+#: src/plugins/web-browser/gtk/menus.ui:25
+msgid "Reload the current page ignoring cache"
+msgstr ""
+
+#: src/plugins/web-browser/gtk/menus.ui:30
+msgid "Focus Location"
+msgstr ""
+
+#: src/plugins/web-browser/gtk/menus.ui:31
+msgid "Focus the current page's location"
+msgstr ""
+
+#: src/plugins/xml-pack/ide-xml-parser.c:604
+#: src/plugins/xml-pack/ide-xml-tree-builder.c:522
+msgid "Failed to create the XML tree."
+msgstr ""
+
+#: src/plugins/xml-pack/ide-xml-service.c:91
+msgid "File must be saved locally to parse."
+msgstr ""

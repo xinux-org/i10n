@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: uz@cyrillic\n"
 "Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/eog/issues\n"
-"POT-Creation-Date: 2022-05-07 13:46+0000\n"
+"POT-Creation-Date: 2022-07-09 17:23+0000\n"
 "PO-Revision-Date: 2009-01-07 21:21+0500\n"
 "Last-Translator: Nurali Abdurahmonov <mavnur@gmail.com>\n"
 "Language-Team: Uzbek\n"
@@ -20,7 +20,7 @@ msgstr ""
 "X-Generator: KBabel 1.11.4\n"
 
 #: data/eog.appdata.xml.in:6 data/org.gnome.eog.desktop.in.in:3
-#: src/eog-application.c:337 src/eog-window.c:5573
+#: src/eog-application.c:337 src/eog-window.c:5585
 msgid "Image Viewer"
 msgstr "Rasm koʻruvchi"
 
@@ -148,8 +148,8 @@ msgstr "Quyidagicha saqlash"
 #: data/eog-multiple-save-as-dialog.ui:32
 #: src/eog-close-confirmation-dialog.c:172 src/eog-error-message-area.c:123
 #: src/eog-file-chooser.c:467 src/eog-file-chooser.c:475
-#: src/eog-file-chooser.c:483 src/eog-window.c:3315 src/eog-window.c:3318
-#: src/eog-window.c:3550
+#: src/eog-file-chooser.c:483 src/eog-window.c:3326 src/eog-window.c:3329
+#: src/eog-window.c:3561
 msgid "_Cancel"
 msgstr ""
 
@@ -1021,7 +1021,7 @@ msgstr "Boshqa dastur _bilan ochish"
 msgid "_Copy"
 msgstr ""
 
-#: data/popup-menus.ui:34 src/eog-window.c:3553
+#: data/popup-menus.ui:34 src/eog-window.c:3564
 msgid "Move to _Trash"
 msgstr "Chiqindilar _qutisiga koʻchirish"
 
@@ -1488,7 +1488,7 @@ msgid_plural "%i × %i pixels  %s    %i%%"
 msgstr[0] ""
 msgstr[1] ""
 
-#: src/eog-window.c:937 src/eog-window.c:2715
+#: src/eog-window.c:937 src/eog-window.c:2722
 msgctxt "MessageArea"
 msgid "Hi_de"
 msgstr ""
@@ -1505,25 +1505,25 @@ msgstr ""
 #. * - the original filename
 #. * - the current image's position in the queue
 #. * - the total number of images queued for saving
-#: src/eog-window.c:1198
+#: src/eog-window.c:1199
 #, c-format
 msgid "Saving image “%s” (%u/%u)"
 msgstr ""
 
-#: src/eog-window.c:1622
+#: src/eog-window.c:1627
 #, fuzzy, c-format
 #| msgid "Loading image \"%s\""
 msgid "Opening image “%s”"
 msgstr "\"%s\" rasm yuklanmoqda"
 
 #. L10N: This the reason why the screensaver is inhibited.
-#: src/eog-window.c:2022
+#: src/eog-window.c:2027
 #, fuzzy
 #| msgid "Open in slide show mode"
 msgid "Viewing a slideshow"
 msgstr "Slayd-shou usulida ochish"
 
-#: src/eog-window.c:2243
+#: src/eog-window.c:2248
 #, c-format
 msgid ""
 "Error printing file:\n"
@@ -1532,28 +1532,28 @@ msgstr ""
 "Faylni bosib chiqarish xatosi:\n"
 "%s"
 
-#: src/eog-window.c:2663 src/eog-window.c:2678
+#: src/eog-window.c:2670 src/eog-window.c:2685
 msgid "Error launching System Settings: "
 msgstr ""
 
-#: src/eog-window.c:2713
+#: src/eog-window.c:2720
 msgid "_Open Background Preferences"
 msgstr ""
 
-#: src/eog-window.c:2727
+#: src/eog-window.c:2734
 #, c-format
 msgid ""
 "The image “%s” has been set as Desktop Background. Would you like to modify "
 "its appearance?"
 msgstr ""
 
-#: src/eog-window.c:3210
+#: src/eog-window.c:3221
 #, fuzzy
 #| msgid "Saving image locally..."
 msgid "Saving image locally…"
 msgstr "Rasm lokal saqlanmoqda..."
 
-#: src/eog-window.c:3291
+#: src/eog-window.c:3302
 #, fuzzy, c-format
 #| msgid ""
 #| "Are you sure you want to move\n"
@@ -1565,7 +1565,7 @@ msgstr ""
 "Rostdan ham \"%s\" ni chiqindilar\n"
 "qutisiga koʻchirmoqchimisiz?"
 
-#: src/eog-window.c:3294
+#: src/eog-window.c:3305
 #, fuzzy, c-format
 #| msgid ""
 #| "Are you sure you want to move\n"
@@ -1585,44 +1585,44 @@ msgstr[1] ""
 "Tanlangan %d rasmlarni chiqindilar qutisiga koʻchirishga ishonchingiz "
 "komilmi?"
 
-#: src/eog-window.c:3316 src/eog-window.c:3561
+#: src/eog-window.c:3327 src/eog-window.c:3572
 #, fuzzy
 #| msgid "_Delete Toolbar"
 msgid "_Delete"
 msgstr "Asboblar panelini _olib tashlash"
 
-#: src/eog-window.c:3319 src/eog-window.c:3563
+#: src/eog-window.c:3330 src/eog-window.c:3574
 msgid "_Yes"
 msgstr ""
 
 #. add 'dont ask again' button
-#: src/eog-window.c:3323 src/eog-window.c:3555
+#: src/eog-window.c:3334 src/eog-window.c:3566
 msgid "Do _not ask again during this session"
 msgstr ""
 
-#: src/eog-window.c:3367
+#: src/eog-window.c:3378
 #, c-format
 msgid "Couldn’t retrieve image file"
 msgstr ""
 
-#: src/eog-window.c:3383
+#: src/eog-window.c:3394
 #, fuzzy, c-format
 #| msgid "Couldn't create temporary file for saving: %s"
 msgid "Couldn’t retrieve image file information"
 msgstr "Saqlash uchun vaqtinchalik fayl yaratib boʻlmadi: %s"
 
-#: src/eog-window.c:3399 src/eog-window.c:3622
+#: src/eog-window.c:3410 src/eog-window.c:3633
 #, c-format
 msgid "Couldn’t delete file"
 msgstr ""
 
 #. set dialog error message
-#: src/eog-window.c:3444 src/eog-window.c:3718
+#: src/eog-window.c:3455 src/eog-window.c:3729
 #, c-format
 msgid "Error on deleting image %s"
 msgstr "%s rasmni oʻchirishda xatolik"
 
-#: src/eog-window.c:3523
+#: src/eog-window.c:3534
 #, fuzzy, c-format
 #| msgid ""
 #| "Are you sure you want to move\n"
@@ -1634,14 +1634,14 @@ msgstr ""
 "Rostdan ham \"%s\" ni chiqindilar\n"
 "qutisiga koʻchirmoqchimisiz?"
 
-#: src/eog-window.c:3526
+#: src/eog-window.c:3537
 #, c-format
 msgid ""
 "A trash for “%s” couldn’t be found. Do you want to remove this image "
 "permanently?"
 msgstr ""
 
-#: src/eog-window.c:3531
+#: src/eog-window.c:3542
 #, c-format
 msgid ""
 "Are you sure you want to move\n"
@@ -1655,39 +1655,39 @@ msgstr[1] ""
 "Tanlangan %d rasmlarni chiqindilar qutisiga koʻchirishga ishonchingiz "
 "komilmi?"
 
-#: src/eog-window.c:3536
+#: src/eog-window.c:3547
 msgid ""
 "Some of the selected images can’t be moved to the trash and will be removed "
 "permanently. Are you sure you want to proceed?"
 msgstr ""
 
-#: src/eog-window.c:3600 src/eog-window.c:3614
+#: src/eog-window.c:3611 src/eog-window.c:3625
 #, fuzzy, c-format
 #| msgid "Couldn't access trash."
 msgid "Couldn’t access trash."
 msgstr "Chiqindilar qutisiga murojaat etib boʻlmadi."
 
-#: src/eog-window.c:4311
+#: src/eog-window.c:4323
 #, fuzzy
 #| msgid "Reload current image"
 msgid "Shrink or enlarge the current image"
 msgstr "Joriy rasmni qayta yuklash"
 
-#: src/eog-window.c:4370
+#: src/eog-window.c:4382
 msgid "Show the current image in fullscreen mode"
 msgstr "Joriy rasmni butun ekran usulida koʻrsatish"
 
-#: src/eog-window.c:4443
+#: src/eog-window.c:4455
 #, fuzzy
 #| msgid "Prope_rties"
 msgid "Properties"
 msgstr "_Xossalari"
 
-#: src/eog-window.c:5576
+#: src/eog-window.c:5588
 msgid "The GNOME image viewer."
 msgstr "GNOME rasm koʻruvchisi."
 
-#: src/eog-window.c:5579
+#: src/eog-window.c:5591
 msgid "translator-credits"
 msgstr "Nurali Abdurahmonov <mavnur@gmail.com>"
 

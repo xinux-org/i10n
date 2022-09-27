@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gnome-session-2.0\n"
 "Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/gnome-session/issues\n"
-"POT-Creation-Date: 2021-10-12 18:16+0000\n"
+"POT-Creation-Date: 2022-07-31 09:17+0000\n"
 "PO-Revision-Date: 2009-01-08 19:52+0500\n"
 "Last-Translator: Nurali Abdurahmonov <mavnur@gmail.com>\n"
 "Language-Team: Uzbek\n"
@@ -152,7 +152,7 @@ msgstr ""
 msgid "_Log Out"
 msgstr ""
 
-#: gnome-session/gsm-fail-whale-dialog.c:412 gnome-session/main.c:404
+#: gnome-session/gsm-fail-whale-dialog.c:412 gnome-session/main.c:408
 msgid "Enable debugging code"
 msgstr ""
 
@@ -166,7 +166,7 @@ msgstr "Seansni tugatish dialogini koʻrsatish"
 msgid "Show extension warning"
 msgstr ""
 
-#: gnome-session/gsm-manager.c:1289 gnome-session/gsm-manager.c:1999
+#: gnome-session/gsm-manager.c:1317 gnome-session/gsm-manager.c:2058
 msgid "Not responding"
 msgstr "Javob bermayapti"
 
@@ -190,67 +190,67 @@ msgstr "Joriy ishlayotgan dasturni _eslab qolish"
 msgid "This program is blocking logout."
 msgstr ""
 
-#: gnome-session/gsm-xsmp-server.c:338
+#: gnome-session/gsm-xsmp-server.c:340
 msgid ""
 "Refusing new client connection because the session is currently being shut "
 "down\n"
 msgstr ""
 
-#: gnome-session/gsm-xsmp-server.c:605
+#: gnome-session/gsm-xsmp-server.c:607
 #, c-format
 msgid "Could not create ICE listening socket: %s"
 msgstr ""
 
-#: gnome-session/main.c:398
+#: gnome-session/main.c:402
 msgid "Running as systemd service"
 msgstr ""
 
-#: gnome-session/main.c:399
+#: gnome-session/main.c:403
 #, fuzzy
 #| msgid "Specify session management ID"
 msgid "Use systemd session management"
 msgstr "Seans boshqaruvi ID'ni koʻrsating"
 
-#: gnome-session/main.c:401
+#: gnome-session/main.c:405
 msgid "Use builtin session management (rather than the systemd based one)"
 msgstr ""
 
-#: gnome-session/main.c:402
+#: gnome-session/main.c:406
 msgid "Override standard autostart directories"
 msgstr ""
 
-#: gnome-session/main.c:402
+#: gnome-session/main.c:406
 msgid "AUTOSTART_DIR"
 msgstr ""
 
-#: gnome-session/main.c:403
+#: gnome-session/main.c:407
 #, fuzzy
 #| msgid "Sessions"
 msgid "Session to use"
 msgstr "Seanslar"
 
-#: gnome-session/main.c:403
+#: gnome-session/main.c:407
 msgid "SESSION_NAME"
 msgstr ""
 
-#: gnome-session/main.c:405
+#: gnome-session/main.c:409
 msgid "Do not load user-specified applications"
 msgstr "Foydalanuvchi dasturlari ishga tushirilmasin"
 
-#: gnome-session/main.c:406
+#: gnome-session/main.c:410
 msgid "Version of this application"
 msgstr "Dastur versiyasi"
 
 #. Translators: the 'fail whale' is the black dialog we show when something goes seriously wrong
-#: gnome-session/main.c:408
+#: gnome-session/main.c:412
 msgid "Show the fail whale dialog for testing"
 msgstr ""
 
-#: gnome-session/main.c:409
+#: gnome-session/main.c:413
 msgid "Disable hardware acceleration check"
 msgstr ""
 
-#: gnome-session/main.c:441
+#: gnome-session/main.c:445
 #, fuzzy
 #| msgid " - the GNOME session manager"
 msgid " — the GNOME session manager"
@@ -441,15 +441,19 @@ msgstr ""
 #~ msgid "_Name:"
 #~ msgstr "_Nomi:"
 
+#, c-format
 #~ msgid "Unrecognized desktop file Version '%s'"
 #~ msgstr "Aniqlanmagan '%s' desktop fayli versiyasi"
 
+#, c-format
 #~ msgid "Starting %s"
 #~ msgstr "%s ishga tushirilmoqda"
 
+#, c-format
 #~ msgid "Unrecognized launch option: %d"
 #~ msgstr "Tanilmagan ishga tushirish opsiyasi: %d"
 
+#, c-format
 #~ msgid "Not a launchable item"
 #~ msgstr "Element ishga tushiriladigan emas"
 
@@ -468,6 +472,7 @@ msgstr ""
 #~ msgid "Show Session Management options"
 #~ msgstr "Seans boshqaruvi parametrlarini koʻrsatish"
 
+#, c-format
 #~ msgid "Icon '%s' not found"
 #~ msgstr "'%s' nishonchasi topildi"
 

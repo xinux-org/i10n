@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/mutter/issues\n"
-"POT-Creation-Date: 2022-06-16 13:37+0000\n"
+"POT-Creation-Date: 2022-09-22 20:00+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -517,26 +517,26 @@ msgid ""
 "needs to be restarted for this setting to take effect."
 msgstr ""
 
-#: src/backends/meta-monitor.c:246
+#: src/backends/meta-monitor.c:253
 msgid "Built-in display"
 msgstr ""
 
-#: src/backends/meta-monitor.c:275
+#: src/backends/meta-monitor.c:280
 msgid "Unknown"
 msgstr ""
 
-#: src/backends/meta-monitor.c:277
+#: src/backends/meta-monitor.c:282
 msgid "Unknown Display"
 msgstr ""
 
-#: src/backends/meta-monitor.c:285
+#: src/backends/meta-monitor.c:290
 #, c-format
 msgctxt ""
 "This is a monitor vendor name, followed by a size in inches, like 'Dell 15\"'"
 msgid "%s %s"
 msgstr ""
 
-#: src/backends/meta-monitor.c:293
+#: src/backends/meta-monitor.c:298
 #, c-format
 msgctxt ""
 "This is a monitor vendor name followed by product/model name where size in "
@@ -551,7 +551,7 @@ msgstr ""
 
 #. This probably means that a non-WM compositor like xcompmgr is running;
 #. * we have no way to get it to exit
-#: src/compositor/compositor.c:393
+#: src/compositor/compositor.c:400
 #, c-format
 msgid ""
 "Another compositing manager is already running on screen %i on display “%s”."
@@ -628,7 +628,7 @@ msgstr ""
 #. TRANSLATORS: This string refers to a button that switches between
 #. * different modes.
 #.
-#: src/core/meta-pad-action-mapper.c:842
+#: src/core/meta-pad-action-mapper.c:848
 #, c-format
 msgid "Mode Switch (Group %d)"
 msgstr ""
@@ -636,11 +636,11 @@ msgstr ""
 #. TRANSLATORS: This string refers to an action, cycles drawing tablets'
 #. * mapping through the available outputs.
 #.
-#: src/core/meta-pad-action-mapper.c:865
+#: src/core/meta-pad-action-mapper.c:871
 msgid "Switch monitor"
 msgstr ""
 
-#: src/core/meta-pad-action-mapper.c:867
+#: src/core/meta-pad-action-mapper.c:873
 msgid "Show on-screen help"
 msgstr ""
 
@@ -657,8 +657,12 @@ msgstr ""
 msgid "Workspace %d"
 msgstr ""
 
-#: src/core/util.c:142
+#: src/core/util.c:143
 msgid "Mutter was compiled without support for verbose mode"
+msgstr ""
+
+#: src/core/workspace.c:536
+msgid "Workspace switched"
 msgstr ""
 
 #: src/wayland/meta-wayland-tablet-pad.c:520
@@ -666,23 +670,23 @@ msgstr ""
 msgid "Mode Switch: Mode %d"
 msgstr ""
 
-#: src/x11/meta-x11-display.c:673
+#: src/x11/meta-x11-display.c:657
 #, c-format
 msgid ""
 "Display “%s” already has a window manager; try using the --replace option to "
 "replace the current window manager."
 msgstr ""
 
-#: src/x11/meta-x11-display.c:1067
+#: src/x11/meta-x11-display.c:1048
 msgid "Failed to initialize GDK"
 msgstr ""
 
-#: src/x11/meta-x11-display.c:1091
+#: src/x11/meta-x11-display.c:1074
 #, c-format
 msgid "Failed to open X Window System display “%s”"
 msgstr ""
 
-#: src/x11/meta-x11-display.c:1199
+#: src/x11/meta-x11-display.c:1187
 #, c-format
 msgid "Screen %d on display “%s” is invalid"
 msgstr ""

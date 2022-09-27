@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/gnome-online-accounts/"
 "issues\n"
-"POT-Creation-Date: 2022-06-17 16:12+0000\n"
+"POT-Creation-Date: 2022-09-21 19:16+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -148,7 +148,6 @@ msgstr ""
 #: src/goabackend/goalastfmprovider.c:812
 #: src/goabackend/goamediaserverprovider.c:412
 #: src/goabackend/goaoauth2provider.c:1001
-#: src/goabackend/goaoauthprovider.c:870
 #: src/goabackend/goaowncloudprovider.c:671
 #: src/goabackend/goaowncloudprovider.c:890
 msgid "Dialog was dismissed"
@@ -226,11 +225,11 @@ msgstr ""
 msgid "Identity service returned invalid key"
 msgstr ""
 
-#: src/goabackend/goagoogleprovider.c:56
+#: src/goabackend/goagoogleprovider.c:57
 msgid "Google"
 msgstr ""
 
-#: src/goabackend/goagoogleprovider.c:183
+#: src/goabackend/goagoogleprovider.c:215
 #: src/goabackend/goawindowsliveprovider.c:157
 #, c-format
 msgid ""
@@ -238,8 +237,8 @@ msgid ""
 msgstr ""
 
 #. TODO: more specific
-#: src/goabackend/goagoogleprovider.c:202
-#: src/goabackend/goagoogleprovider.c:213
+#: src/goabackend/goagoogleprovider.c:234
+#: src/goabackend/goagoogleprovider.c:245
 #: src/goabackend/goalastfmprovider.c:204
 #: src/goabackend/goalastfmprovider.c:213
 #: src/goabackend/goalastfmprovider.c:222
@@ -422,8 +421,7 @@ msgstr ""
 msgid "No media servers found"
 msgstr ""
 
-#. Translators: the %d is a HTTP status code and the %s is a textual description of it
-#: src/goabackend/goaoauth2provider.c:636 src/goabackend/goaoauthprovider.c:546
+#: src/goabackend/goaoauth2provider.c:636
 #, c-format
 msgid ""
 "Expected status 200 when requesting access token, instead got status %d (%s)"
@@ -439,17 +437,14 @@ msgid "Authorization response: %s"
 msgstr ""
 
 #: src/goabackend/goaoauth2provider.c:1027
-#: src/goabackend/goaoauthprovider.c:901
 msgid "Error getting an Access Token: "
 msgstr ""
 
 #: src/goabackend/goaoauth2provider.c:1042
-#: src/goabackend/goaoauthprovider.c:914
 msgid "Error getting identity: "
 msgstr ""
 
 #: src/goabackend/goaoauth2provider.c:1236
-#: src/goabackend/goaoauthprovider.c:1179
 #, c-format
 msgid "Was asked to log in as %s, but logged in as %s"
 msgstr ""
@@ -459,32 +454,8 @@ msgid "Credentials do not contain access_token"
 msgstr ""
 
 #: src/goabackend/goaoauth2provider.c:1427
-#: src/goabackend/goaoauthprovider.c:1394
 #, c-format
 msgid "Failed to refresh access token (%s, %d): "
-msgstr ""
-
-#: src/goabackend/goaoauthprovider.c:569
-msgid "Missing access_token or access_token_secret headers in response"
-msgstr ""
-
-#: src/goabackend/goaoauthprovider.c:715
-msgid "Error getting a Request Token: "
-msgstr ""
-
-#. Translators: the %d is a HTTP status code and the %s is a textual description of it
-#: src/goabackend/goaoauthprovider.c:815
-#, c-format
-msgid ""
-"Expected status 200 for getting a Request Token, instead got status %d (%s)"
-msgstr ""
-
-#: src/goabackend/goaoauthprovider.c:832
-msgid "Missing request_token or request_token_secret headers in response"
-msgstr ""
-
-#: src/goabackend/goaoauthprovider.c:1350
-msgid "Credentials do not contain access_token or access_token_secret"
 msgstr ""
 
 #: src/goabackend/goaowncloudprovider.c:58

@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/gnome-boxes/issues\n"
-"POT-Creation-Date: 2022-06-16 16:00+0000\n"
+"POT-Creation-Date: 2022-09-25 19:31+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -90,7 +90,7 @@ msgstr ""
 msgid "Setup Shared Folders between your system and virtual machines."
 msgstr ""
 
-#: data/org.gnome.Boxes.appdata.xml.in:71
+#: data/org.gnome.Boxes.appdata.xml.in:61
 msgid "The GNOME Project"
 msgstr ""
 
@@ -155,6 +155,14 @@ msgstr ""
 msgid "Variant array of shared folders’ names and path mapping"
 msgstr ""
 
+#: data/org.gnome.boxes.gschema.xml:59
+msgid "Recommended Downloads Source URL"
+msgstr ""
+
+#: data/org.gnome.boxes.gschema.xml:60
+msgid "An URL pointing at a recommended-downloads.xml file"
+msgstr ""
+
 #: data/ui/app-window.ui:81 data/ui/welcome-tutorial.ui:40
 msgid "Welcome to Boxes"
 msgstr ""
@@ -167,16 +175,16 @@ msgstr ""
 msgid "Unknown media"
 msgstr ""
 
-#: data/ui/assistant/pages/downloads-page.ui:68
+#: data/ui/assistant/pages/downloads-page.ui:81
 msgid "No operating systems found"
 msgstr ""
 
-#: data/ui/assistant/pages/downloads-page.ui:69
+#: data/ui/assistant/pages/downloads-page.ui:82
 msgid "Try a different search"
 msgstr ""
 
-#: data/ui/assistant/pages/downloads-page.ui:82
-#: src/assistant/downloads-page.vala:57
+#: data/ui/assistant/pages/downloads-page.ui:95
+#: src/assistant/downloads-page.vala:59
 msgid "Search for an OS or enter a download link…"
 msgstr ""
 
@@ -278,16 +286,16 @@ msgid "Storage limit"
 msgstr ""
 
 #: data/ui/assistant/pages/review-page.ui:107
-#: data/ui/unattended-setup-box.ui:68 src/unattended-installer.vala:270
+#: data/ui/unattended-setup-box.ui:69 src/unattended-installer.vala:270
 msgid "Username"
 msgstr ""
 
 #: data/ui/assistant/pages/review-page.ui:123
-#: data/ui/unattended-setup-box.ui:84 src/unattended-installer.vala:271
+#: data/ui/unattended-setup-box.ui:85 src/unattended-installer.vala:271
 msgid "Password"
 msgstr ""
 
-#: data/ui/assistant/pages/review-page.ui:140
+#: data/ui/assistant/pages/review-page.ui:141
 msgid "Enable EFI"
 msgstr ""
 
@@ -297,8 +305,8 @@ msgstr ""
 
 #: data/ui/assistant/vm-assistant.ui:54
 #: data/ui/preferences/shared-folder-popover.ui:97
-#: data/ui/shared-folder-popover.ui:97 src/assistant/index-page.vala:120
-#: src/assistant/index-page.vala:168 src/assistant/vm-assistant.vala:72
+#: data/ui/shared-folder-popover.ui:97 src/assistant/index-page.vala:124
+#: src/assistant/index-page.vala:172 src/assistant/vm-assistant.vala:72
 #: src/preferences/cdrom-row.vala:65
 msgid "Cancel"
 msgstr ""
@@ -482,31 +490,31 @@ msgstr ""
 msgid "CPUs"
 msgstr ""
 
-#: data/ui/preferences/resources-page.ui:105
+#: data/ui/preferences/resources-page.ui:106
 msgid "3D acceleration"
 msgstr ""
 
-#: data/ui/preferences/resources-page.ui:127
+#: data/ui/preferences/resources-page.ui:129
 msgid "Allow running in background"
 msgstr ""
 
-#: data/ui/preferences/resources-page.ui:145
+#: data/ui/preferences/resources-page.ui:147
 msgid "Configuration"
 msgstr ""
 
-#: data/ui/preferences/resources-page.ui:150
+#: data/ui/preferences/resources-page.ui:152
 msgid "Troubleshooting Logs"
 msgstr ""
 
-#: data/ui/preferences/resources-page.ui:151
+#: data/ui/preferences/resources-page.ui:153
 msgid "Diagnose problems with your box using the log file."
 msgstr ""
 
-#: data/ui/preferences/resources-page.ui:173
+#: data/ui/preferences/resources-page.ui:175
 msgid "Edit Configuration"
 msgstr ""
 
-#: data/ui/preferences/resources-page.ui:174
+#: data/ui/preferences/resources-page.ui:176
 msgid "Edit the Libvirt domain configuration for this box."
 msgstr ""
 
@@ -556,7 +564,7 @@ msgstr ""
 msgid "Creating new snapshot…"
 msgstr ""
 
-#: data/ui/toast.ui:34 src/app.vala:604
+#: data/ui/toast.ui:34 src/app.vala:601
 #: src/preferences/snapshot-list-row.vala:157
 msgid "Undo"
 msgstr ""
@@ -576,11 +584,11 @@ msgid ""
 msgstr ""
 
 #. Translators: 'Express Install' means that the new box installation will be fully automated, the user won't be asked anything while it's performed.
-#: data/ui/unattended-setup-box.ui:52
+#: data/ui/unattended-setup-box.ui:53
 msgid "Express Install"
 msgstr ""
 
-#: data/ui/unattended-setup-box.ui:106
+#: data/ui/unattended-setup-box.ui:107
 msgid "Product Key"
 msgstr ""
 
@@ -714,37 +722,37 @@ msgstr ""
 msgid "— A simple application to access virtual machines"
 msgstr ""
 
-#: src/app.vala:220
+#: src/app.vala:217
 msgid "Too many command line arguments specified.\n"
 msgstr ""
 
-#: src/app.vala:460
+#: src/app.vala:457
 #, c-format
 msgid "Box “%s” installed and ready to use"
 msgstr ""
 
-#: src/app.vala:462
+#: src/app.vala:459
 msgid "Launch"
 msgstr ""
 
-#: src/app.vala:492
+#: src/app.vala:489
 #, c-format
 msgid "“%s“ is running in the background"
 msgstr ""
 
-#: src/app.vala:573
+#: src/app.vala:570
 #, c-format
 msgid "Box “%s” has been deleted"
 msgstr ""
 
-#: src/app.vala:574
+#: src/app.vala:571
 #, c-format
 msgid "%u box has been deleted"
 msgid_plural "%u boxes have been deleted"
 msgstr[0] ""
 msgstr[1] ""
 
-#: src/app.vala:645
+#: src/app.vala:642
 msgid "Boxes is doing something"
 msgstr ""
 
@@ -760,15 +768,15 @@ msgstr ""
 msgid "_Open"
 msgstr ""
 
-#: src/assistant/index-page.vala:165 src/preferences/cdrom-row.vala:62
+#: src/assistant/index-page.vala:169 src/preferences/cdrom-row.vala:62
 msgid "Select a device or ISO file"
 msgstr ""
 
-#: src/assistant/index-page.vala:168 src/preferences/cdrom-row.vala:65
+#: src/assistant/index-page.vala:172 src/preferences/cdrom-row.vala:65
 msgid "Open"
 msgstr ""
 
-#: src/assistant/index-page.vala:186 src/assistant/vm-assistant.vala:72
+#: src/assistant/index-page.vala:192 src/assistant/vm-assistant.vala:72
 msgid "Previous"
 msgstr ""
 
@@ -800,16 +808,16 @@ msgstr ""
 msgid "Create"
 msgstr ""
 
-#: src/display-page.vala:133
+#: src/display-page.vala:127
 msgid "Press (left) Ctrl+Alt to ungrab"
 msgstr ""
 
-#: src/display-page.vala:135
+#: src/display-page.vala:129
 msgid "Press & release (left) Ctrl+Alt to ungrab keyboard."
 msgstr ""
 
 #. Translators: Showing size of widget as WIDTH×HEIGHT here.
-#: src/display-page.vala:324
+#: src/display-page.vala:318
 #, c-format
 msgid "%d×%d"
 msgstr ""
@@ -832,7 +840,7 @@ msgid "Install"
 msgstr ""
 
 #. We did this, so ignore!
-#: src/downloads-hub.vala:186
+#: src/downloads-hub.vala:180 src/downloads-hub.vala:189
 #, c-format
 msgid "Failed to download: %s"
 msgstr ""
@@ -877,40 +885,40 @@ msgid "Send key combinations"
 msgstr ""
 
 #. Translators: The %s will be expanded with the name of the vm
-#: src/libvirt-machine.vala:481
+#: src/libvirt-machine.vala:470
 #, c-format
 msgid "Restoring %s from disk"
 msgstr ""
 
 #. Translators: The %s will be expanded with the name of the vm
-#: src/libvirt-machine.vala:484
+#: src/libvirt-machine.vala:473
 #, c-format
 msgid "Starting %s"
 msgstr ""
 
-#: src/libvirt-machine.vala:557
+#: src/libvirt-machine.vala:546
 #, c-format
 msgid "Restart of “%s” is taking too long. Force it to shutdown?"
 msgstr ""
 
-#: src/libvirt-machine.vala:560
+#: src/libvirt-machine.vala:549
 msgid "Shutdown"
 msgstr ""
 
-#: src/libvirt-machine.vala:575
+#: src/libvirt-machine.vala:564
 #, c-format
 msgid "Cloning “%s”…"
 msgstr ""
 
-#: src/libvirt-machine.vala:701
+#: src/libvirt-machine.vala:690
 msgid "Installing…"
 msgstr ""
 
-#: src/libvirt-machine.vala:703
+#: src/libvirt-machine.vala:692
 msgid "Setting up clone…"
 msgstr ""
 
-#: src/libvirt-machine.vala:705
+#: src/libvirt-machine.vala:694
 msgid "Importing…"
 msgstr ""
 
@@ -1162,37 +1170,37 @@ msgstr ""
 msgid "GNOME Boxes credentials for “%s”"
 msgstr ""
 
-#: src/util-app.vala:368
+#: src/util-app.vala:414
 #, c-format
 msgid ""
 "Your SELinux context looks incorrect, you can try to fix it by running:\n"
 "%s"
 msgstr ""
 
-#: src/util-app.vala:372
+#: src/util-app.vala:418
 msgid "SELinux not installed?"
 msgstr ""
 
-#: src/util-app.vala:454
+#: src/util-app.vala:500
 msgid ""
 "Could not get “gnome-boxes” storage pool information from libvirt. Make sure "
 "“virsh -c qemu:///session pool-dumpxml gnome-boxes” is working."
 msgstr ""
 
-#: src/util-app.vala:459
+#: src/util-app.vala:505
 #, c-format
 msgid ""
 "%s is known to libvirt as GNOME Boxes’s storage pool but this directory does "
 "not exist"
 msgstr ""
 
-#: src/util-app.vala:463
+#: src/util-app.vala:509
 #, c-format
 msgid ""
 "%s is known to libvirt as GNOME Boxes’s storage pool but is not a directory"
 msgstr ""
 
-#: src/util-app.vala:467
+#: src/util-app.vala:513
 #, c-format
 msgid ""
 "%s is known to libvirt as GNOME Boxes’s storage pool but is not user-"
@@ -1209,7 +1217,7 @@ msgstr ""
 
 #. No guest caps or none compatible
 #. FIXME: Better error messsage than this please?
-#: src/vm-configurator.vala:804
+#: src/vm-configurator.vala:790
 msgid "Incapable host system"
 msgstr ""
 

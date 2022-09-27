@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/console/issues\n"
-"POT-Creation-Date: 2022-06-16 23:33+0000\n"
+"POT-Creation-Date: 2022-09-25 14:12+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -18,7 +18,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 
 #: data/org.gnome.Console.desktop.in.in:3
-#: data/org.gnome.Console.metainfo.xml.in.in:8 src/kgx-application.h:46
+#: data/org.gnome.Console.metainfo.xml.in.in:8 src/kgx-application.h:29
 msgid "Console"
 msgstr ""
 
@@ -31,11 +31,11 @@ msgstr ""
 msgid "New Window"
 msgstr ""
 
-#: data/org.gnome.Console.desktop.in.in:27 src/kgx-window.ui:168
+#: data/org.gnome.Console.desktop.in.in:27 src/kgx-window.ui:132
 msgid "New Tab"
 msgstr ""
 
-#: data/org.gnome.Console.metainfo.xml.in.in:9 src/kgx-application.c:568
+#: data/org.gnome.Console.metainfo.xml.in.in:9 src/kgx-application.c:361
 msgid "Terminal Emulator"
 msgstr ""
 
@@ -47,138 +47,142 @@ msgstr ""
 msgid "Terminal window"
 msgstr ""
 
-#: data/org.gnome.Console.metainfo.xml.in.in:104
-msgid "Zander Brown"
+#: data/org.gnome.Console.metainfo.xml.in.in:210 src/kgx-window.c:387
+msgid "The GNOME Project"
 msgstr ""
 
-#: src/help-overlay.ui:13
+#: src/help-overlay.ui:12
 msgctxt "shortcut window"
 msgid "Application"
 msgstr ""
 
-#: src/help-overlay.ui:19
+#: src/help-overlay.ui:16
 msgctxt "shortcut window"
 msgid "New Window"
 msgstr ""
 
-#: src/help-overlay.ui:26
+#: src/help-overlay.ui:23
 msgctxt "shortcut window"
 msgid "Terminal"
 msgstr ""
 
-#: src/help-overlay.ui:32
+#: src/help-overlay.ui:27
 msgctxt "shortcut window"
 msgid "Find"
 msgstr ""
 
-#: src/help-overlay.ui:39
+#: src/help-overlay.ui:33
 msgctxt "shortcut window"
 msgid "Copy"
 msgstr ""
 
-#: src/help-overlay.ui:46
+#: src/help-overlay.ui:39
 msgctxt "shortcut window"
 msgid "Paste"
 msgstr ""
 
-#: src/help-overlay.ui:53
+#: src/help-overlay.ui:46
 msgctxt "shortcut window"
 msgid "Tabs"
 msgstr ""
 
-#: src/help-overlay.ui:59
+#: src/help-overlay.ui:50
 msgctxt "shortcut window"
 msgid "New Tab"
 msgstr ""
 
-#: src/help-overlay.ui:66
+#: src/help-overlay.ui:56
 msgctxt "shortcut window"
 msgid "Close Tab"
 msgstr ""
 
-#: src/help-overlay.ui:73
+#: src/help-overlay.ui:62
 msgctxt "shortcut window"
 msgid "Next Tab"
 msgstr ""
 
-#: src/help-overlay.ui:80
+#: src/help-overlay.ui:68
 msgctxt "shortcut window"
 msgid "Previous Tab"
 msgstr ""
 
-#: src/help-overlay.ui:87
+#: src/help-overlay.ui:74
 msgctxt "shortcut window"
 msgid "Switch to Tab"
 msgstr ""
 
+#: src/kgx-application.c:236
+msgid "Cannot use both --command and positional parameters"
+msgstr ""
+
 #. Translators: The leading # is intentional, the initial %s is the
 #. version of KGX itself, the latter format is the VTE version
-#: src/kgx-application.c:540
+#: src/kgx-application.c:333
 #, c-format
 msgid "# KGX %s using VTE %u.%u.%u %s\n"
 msgstr ""
 
 #. Translators: %s is the year range
-#: src/kgx-application.c:552 src/kgx-window.c:525
+#: src/kgx-application.c:345 src/kgx-window.c:382
 #, c-format
 msgid "© %s Zander Brown"
 msgstr ""
 
-#: src/kgx-application.c:566 src/kgx-window.ui:115
+#: src/kgx-application.c:359 src/kgx-window.ui:44
 msgid "King’s Cross"
 msgstr ""
 
-#: src/kgx-application.c:570
+#: src/kgx-application.c:363
 msgid "GPL 3.0 or later"
 msgstr ""
 
-#: src/kgx-application.c:701
+#: src/kgx-application.c:428
 msgid "Execute the argument to this option inside the terminal"
 msgstr ""
 
-#: src/kgx-application.c:702
+#: src/kgx-application.c:429
 msgid "COMMAND"
 msgstr ""
 
-#: src/kgx-application.c:710
+#: src/kgx-application.c:437
 msgid "Set the working directory"
 msgstr ""
 
 #. Translators: Placeholder of for a given directory
-#: src/kgx-application.c:712
+#: src/kgx-application.c:439
 msgid "DIRNAME"
 msgstr ""
 
-#: src/kgx-application.c:720
+#: src/kgx-application.c:447
 msgid "Wait until the child exits (TODO)"
 msgstr ""
 
-#: src/kgx-application.c:729
+#: src/kgx-application.c:456
 msgid "Set the initial window title"
 msgstr ""
 
-#: src/kgx-application.c:730
+#: src/kgx-application.c:457
 msgid "TITLE"
 msgstr ""
 
-#: src/kgx-application.c:738
+#: src/kgx-application.c:465
 msgid "ADVANCED: Set the shell to launch"
 msgstr ""
 
-#: src/kgx-application.c:739
+#: src/kgx-application.c:466
 msgid "SHELL"
 msgstr ""
 
-#: src/kgx-application.c:747
+#: src/kgx-application.c:474
 msgid "ADVANCED: Set the scrollback length"
 msgstr ""
 
-#: src/kgx-application.c:748
+#: src/kgx-application.c:475
 msgid "LINES"
 msgstr ""
 
-#: src/kgx-application.h:44
-msgid "Console (Development)"
+#: src/kgx-application.c:484
+msgid "[-e|-- COMMAND [ARGUMENT...]]"
 msgstr ""
 
 #: src/kgx-close-dialog.c:50
@@ -201,19 +205,19 @@ msgid ""
 "lead to unexpected outcomes"
 msgstr ""
 
-#: src/kgx-close-dialog.ui:24 src/kgx-terminal.c:804
+#: src/kgx-close-dialog.ui:18 src/kgx-terminal.c:877
 msgid "_Cancel"
 msgstr ""
 
-#: src/kgx-close-dialog.ui:32
+#: src/kgx-close-dialog.ui:19
 msgid "C_lose"
 msgstr ""
 
-#: src/kgx-pages.ui:47
+#: src/kgx-pages.ui:61
 msgid "_Detach Tab"
 msgstr ""
 
-#: src/kgx-pages.ui:53
+#: src/kgx-pages.ui:67
 msgid "_Close"
 msgstr ""
 
@@ -237,7 +241,7 @@ msgstr ""
 msgid "<b>Failed to start</b> — %s"
 msgstr ""
 
-#: src/kgx-tab.c:1162
+#: src/kgx-tab.c:961
 msgid "Command completed"
 msgstr ""
 
@@ -245,73 +249,69 @@ msgstr ""
 msgid "View Open Tabs"
 msgstr ""
 
-#: src/kgx-terminal.c:793
+#: src/kgx-terminal.c:870
 msgid "You are pasting a command that runs as an administrator"
 msgstr ""
 
 #. TRANSLATORS: %s is the command being pasted
-#: src/kgx-terminal.c:796
+#: src/kgx-terminal.c:874
 #, c-format
 msgid ""
 "Make sure you know what the command does:\n"
 "%s"
 msgstr ""
 
-#: src/kgx-terminal.c:807 src/menus.ui:24
+#: src/kgx-terminal.c:878 src/menus.ui:24
 msgid "_Paste"
 msgstr ""
 
-#: src/kgx-theme-switcher.ui:18
+#: src/kgx-theme-switcher.ui:16
 msgid "Use System Colors"
 msgstr ""
 
-#: src/kgx-theme-switcher.ui:47
+#: src/kgx-theme-switcher.ui:44
 msgid "Use Light Colors"
 msgstr ""
 
-#: src/kgx-theme-switcher.ui:76
+#: src/kgx-theme-switcher.ui:71
 msgid "Use Dark Colors"
 msgstr ""
 
 #. Translators: Credit yourself here
-#: src/kgx-window.c:531
+#: src/kgx-window.c:393
 msgid "translator-credits"
 msgstr ""
 
-#: src/kgx-window.ui:26
-msgid "Shrink Text"
-msgstr ""
-
-#: src/kgx-window.ui:39
-msgid "Reset Size"
-msgstr ""
-
-#: src/kgx-window.ui:52
-msgid "Enlarge Text"
-msgstr ""
-
-#: src/kgx-window.ui:74
+#: src/kgx-window.ui:17
 msgid "_New Window"
 msgstr ""
 
-#: src/kgx-window.ui:86
+#: src/kgx-window.ui:23
 msgid "_Keyboard Shortcuts"
 msgstr ""
 
-#: src/kgx-window.ui:93
+#: src/kgx-window.ui:27
 msgid "_About Console"
 msgstr ""
 
-#: src/kgx-window.ui:94
-msgid "About this Program"
-msgstr ""
-
-#: src/kgx-window.ui:123
+#: src/kgx-window.ui:52
 msgid "Find in Terminal"
 msgstr ""
 
-#: src/kgx-window.ui:141
+#: src/kgx-window.ui:60
 msgid "Menu"
+msgstr ""
+
+#: src/kgx-window.ui:78
+msgid "Shrink Text"
+msgstr ""
+
+#: src/kgx-window.ui:89
+msgid "Reset Size"
+msgstr ""
+
+#: src/kgx-window.ui:106
+msgid "Enlarge Text"
 msgstr ""
 
 #: src/menus.ui:7
@@ -332,16 +332,4 @@ msgstr ""
 
 #: src/menus.ui:36
 msgid "Show in _Files"
-msgstr ""
-
-#: nautilus/kgx-nautilus-menu-item.c:120
-msgid "Open in Co_nsole (Devel)"
-msgstr ""
-
-#: nautilus/kgx-nautilus-menu-item.c:122
-msgid "Open in Co_nsole"
-msgstr ""
-
-#: nautilus/kgx-nautilus-menu-item.c:124
-msgid "Start a terminal session for this location"
 msgstr ""

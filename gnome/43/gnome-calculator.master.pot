@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/gnome-calculator/"
 "issues\n"
-"POT-Creation-Date: 2022-06-16 18:08+0000\n"
+"POT-Creation-Date: 2022-09-18 07:48+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -19,10 +19,9 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
 
-#. Program name in the about dialog
 #: data/org.gnome.Calculator.appdata.xml.in:7
 #: data/org.gnome.Calculator.desktop.in:3 src/gnome-calculator.vala:81
-#: src/gnome-calculator.vala:324 src/ui/math-window.ui:107
+#: src/gnome-calculator.vala:320 src/ui/math-window.ui:107
 msgid "Calculator"
 msgstr ""
 
@@ -61,7 +60,7 @@ msgid ""
 "character to character code conversion, and more."
 msgstr ""
 
-#: data/org.gnome.Calculator.appdata.xml.in:66
+#: data/org.gnome.Calculator.appdata.xml.in:66 src/gnome-calculator.vala:322
 msgid "The GNOME Project"
 msgstr ""
 
@@ -471,55 +470,55 @@ msgid "No sane value to store"
 msgstr ""
 
 #. Error displayed to user when they perform a bitwise operation on numbers greater than the current word
-#: lib/math-equation.vala:1042
+#: lib/math-equation.vala:1044
 msgid "Overflow. Try a bigger word size"
 msgstr ""
 
 #. Error displayed to user when they an unknown variable is entered
-#: lib/math-equation.vala:1047
+#: lib/math-equation.vala:1049
 #, c-format
 msgid "Unknown variable “%s”"
 msgstr ""
 
 #. Error displayed to user when an unknown function is entered
-#: lib/math-equation.vala:1054
+#: lib/math-equation.vala:1056
 #, c-format
 msgid "Function “%s” is not defined"
 msgstr ""
 
 #. Error displayed to user when an conversion with unknown units is attempted
-#: lib/math-equation.vala:1061
+#: lib/math-equation.vala:1063
 msgid "Unknown conversion"
 msgstr ""
 
 #. should always be run
-#: lib/math-equation.vala:1071
+#: lib/math-equation.vala:1073
 #, c-format
 msgid "%s"
 msgstr ""
 
 #. Unknown error.
 #. Error displayed to user when they enter an invalid calculation
-#: lib/math-equation.vala:1076 lib/math-equation.vala:1081
+#: lib/math-equation.vala:1078 lib/math-equation.vala:1083
 msgid "Malformed expression"
 msgstr ""
 
-#: lib/math-equation.vala:1092
+#: lib/math-equation.vala:1094
 msgid "Calculating"
 msgstr ""
 
 #. Error displayed when trying to factorize a non-integer value
-#: lib/math-equation.vala:1285
+#: lib/math-equation.vala:1287
 msgid "Need an integer to factorize"
 msgstr ""
 
 #. This message is displayed in the status bar when a bit shift operation is performed and the display does not contain a number
-#: lib/math-equation.vala:1349
+#: lib/math-equation.vala:1351
 msgid "No sane value to bitwise shift"
 msgstr ""
 
 #. Message displayed when cannot toggle bit in display
-#: lib/math-equation.vala:1371
+#: lib/math-equation.vala:1373
 msgid "Displayed value not an integer"
 msgstr ""
 
@@ -2766,24 +2765,15 @@ msgid "Show release version"
 msgstr ""
 
 #. The translator credits. Please translate this with your name (s).
-#: src/gnome-calculator.vala:319
+#: src/gnome-calculator.vala:332
 msgid "translator-credits"
 msgstr ""
 
-#: src/gnome-calculator.vala:325 src/ui/math-window.ui:101
-msgid "About Calculator"
-msgstr ""
-
-#. Short description in the about dialog
-#: src/gnome-calculator.vala:334
-msgid "Calculator with financial and scientific modes."
-msgstr ""
-
-#: src/gnome-calculator.vala:347
+#: src/gnome-calculator.vala:344
 msgid "Are you sure you want to close all open windows?"
 msgstr ""
 
-#: src/gnome-calculator.vala:348
+#: src/gnome-calculator.vala:345
 msgid "Close _All"
 msgstr ""
 
@@ -2835,7 +2825,7 @@ msgstr ""
 msgid "New function"
 msgstr ""
 
-#: src/ui/math-function-popover.ui:37
+#: src/ui/math-function-popover.ui:36
 msgid "Select no. of arguments"
 msgstr ""
 
@@ -3123,6 +3113,10 @@ msgstr ""
 
 #: src/ui/math-window.ui:97
 msgid "_Help"
+msgstr ""
+
+#: src/ui/math-window.ui:101
+msgid "About Calculator"
 msgstr ""
 
 #: src/ui/math-window.ui:117
