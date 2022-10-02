@@ -394,10 +394,13 @@ msgid ""
 "terminal by this number of lines; lines that don’t fit in the scrollback are "
 "discarded. If scrollback_unlimited is true, this value is ignored."
 msgstr ""
+"Atrofda ushlab turish uchun orqaga o'tish qatorlari soni. Orqaga o'tishingiz mumkin "
+"bu qatorlar soni bo'yicha terminal; orqaga aylantirishga mos kelmaydigan satrlar"
+"o'chirildi. Agar scrollback_unlimited rost bo'lsa, bu qiymat e'tiborga olinmaydi."
 
 #: src/org.gnome.Terminal.gschema.xml:248
 msgid "Whether an unlimited number of lines should be kept in scrollback"
-msgstr ""
+msgstr "Orqaga aylantirishda cheksiz miqdordagi qatorlar saqlanishi kerakmi"
 
 #: src/org.gnome.Terminal.gschema.xml:249
 msgid ""
@@ -405,151 +408,169 @@ msgid ""
 "stored on disk temporarily, so this may cause the system to run out of disk "
 "space if there is a lot of output to the terminal."
 msgstr ""
+"Agar rost bo'lsa, orqaga o'tish satrlari hech qachon o'chirilmaydi. Orqaga aylantirish tarixi "
+"Vaqtinchalik diskda saqlanadi, shuning uchun bu tizimda diskning tugashiga olib kelishi mumkin"
+"terminalga juda ko'p chiqish bo'lsa, bo'sh joy."
 
 #: src/org.gnome.Terminal.gschema.xml:253
 msgid "Whether to scroll to the bottom when a key is pressed"
-msgstr ""
+msgstr "Klaviatura bosilganda pastga o'tish kerakmi"
 
 #: src/org.gnome.Terminal.gschema.xml:254
 msgid "If true, pressing a key jumps the scrollbar to the bottom."
-msgstr ""
+msgstr "Agar rost bo'lsa, tugmani bosish aylantirish panelini pastga o'tkazadi."
 
 #: src/org.gnome.Terminal.gschema.xml:258
 msgid "Whether to scroll to the bottom when there’s new output"
-msgstr ""
+msgstr "Yangi chiqish paydo bo'lganda, pastga o'tish kerakmi"
 
 #: src/org.gnome.Terminal.gschema.xml:259
 msgid ""
 "If true, whenever there’s new output the terminal will scroll to the bottom."
-msgstr ""
+msgstr "Agar rost bo'lsa, har safar yangi chiqish bo'lsa, terminal pastga siljiydi."
 
 #: src/org.gnome.Terminal.gschema.xml:263
 msgid "What to do with the terminal when the child command exits"
-msgstr ""
+msgstr "Bola buyrug'i chiqqanda terminal bilan nima qilish kerak"
 
 #: src/org.gnome.Terminal.gschema.xml:264
 msgid ""
 "Possible values are “close” to close the terminal, “restart” to restart the "
 "command, and “hold” to keep the terminal open with no command running inside."
 msgstr ""
+"Mumkin bo'lgan qiymatlar terminalni yopish uchun "yaqin", qayta ishga tushirish uchun "qayta ishga tushirish" "
+"buyruq"ni bosing va terminalda hech qanday buyruq ishlamasdan turib ochiq tutish uchun "ushlab turing".
 
 #: src/org.gnome.Terminal.gschema.xml:268
 msgid "Whether to launch the command in the terminal as a login shell"
-msgstr ""
+msgstr "Buyruqni terminalda shell sifatida ishga tushirish kerakmi"
 
 #: src/org.gnome.Terminal.gschema.xml:269
 msgid ""
 "If true, the command inside the terminal will be launched as a login shell "
 "(argv[0] will have a hyphen in front of it)."
 msgstr ""
+"Agar rost bo'lsa, terminal ichidagi buyruq shell sifatida ishga tushiriladi"
+"(argv[0] oldida tire bo'ladi)."
 
 #: src/org.gnome.Terminal.gschema.xml:273
 msgid "Whether to preserve the working directory when opening a new terminal"
-msgstr ""
+msgstr "Yangi terminalni ochishda ishchi jild saqlash kerakmi"
 
 #: src/org.gnome.Terminal.gschema.xml:274
 msgid ""
 "Controls when opening a new terminal from a previous one carries over the "
 "working directory of the opening terminal to the new one."
 msgstr ""
-
+"Oldingi terminaldan yangi terminalni ochishda boshqaruvlar"
+"Ochilish terminalining yangisiga ish jildi."
 #: src/org.gnome.Terminal.gschema.xml:280
 msgid "Whether to run a custom command instead of the shell"
-msgstr ""
+msgstr "Shell o'rniga maxsus buyruqni ishga tushirish kerakmi"
 
 #: src/org.gnome.Terminal.gschema.xml:281
 msgid ""
 "If true, the value of the custom_command setting will be used in place of "
 "running a shell."
 msgstr ""
+"Agar rost bo'lsa, custom_command sozlamasining qiymati o'rniga ishlatiladi"
+"shellni ishga tushirish."
 
 #: src/org.gnome.Terminal.gschema.xml:285
 msgid "Whether to blink the cursor"
-msgstr ""
+msgstr "Kursorni miltillash kerakmi"
 
 #: src/org.gnome.Terminal.gschema.xml:286
 msgid ""
 "The possible values are “system” to use the global cursor blinking settings, "
 "or “on” or “off” to set the mode explicitly."
 msgstr ""
+"Mumkin bo'lgan qiymatlar global kursor miltillovchi sozlamalaridan foydalanish uchun 'tizim',"
+"yoki rejimni aniq belgilash uchun 'yoqish' yoki 'o'chirish'".
 
 #: src/org.gnome.Terminal.gschema.xml:290
 msgid "The cursor appearance"
-msgstr ""
+msgstr "Kursor ko'rinishi"
 
 #: src/org.gnome.Terminal.gschema.xml:294
 msgid ""
 "Possible values are “always” or “never” allow blinking text, or only when "
 "the terminal is “focused” or “unfocused”."
 msgstr ""
+"Mumkin bo'lgan qiymatlar “har doim” yoki “hech qachon” matnning miltillashiga yo'l qo'ymaydi yoki faqat “"
+"terminal 'fokuslangan' yoki 'fokuslanmagan'"
 
 #: src/org.gnome.Terminal.gschema.xml:298
 msgid "Custom command to use instead of the shell"
-msgstr ""
+msgstr "Shell o'rniga foydalanish uchun maxsus buyruq"
 
 #: src/org.gnome.Terminal.gschema.xml:299
 msgid "Run this command in place of the shell, if use_custom_command is true."
-msgstr ""
+msgstr "Agar use_custom_command to'g'ri bo'lsa, ushbu buyruqni shell o'rniga ishga tushiring."
 
 #: src/org.gnome.Terminal.gschema.xml:318
 msgid "Palette for terminal applications"
-msgstr ""
+msgstr "Terminal ilovalari uchun palitrasi"
 
 #: src/org.gnome.Terminal.gschema.xml:322
 msgid "A Pango font name and size"
-msgstr ""
+msgstr "Pango shrifti nomi va hajmi"
 
 #: src/org.gnome.Terminal.gschema.xml:326
 msgid "The code sequence the Backspace key generates"
-msgstr ""
+msgstr "Backspace tugmasi yaratadigan kod ketma-ketligi"
 
 #: src/org.gnome.Terminal.gschema.xml:330
 msgid "The code sequence the Delete key generates"
-msgstr ""
+msgstr "Delete tugmasi yaratadigan kod ketma-ketligi"
 
 #: src/org.gnome.Terminal.gschema.xml:334
 msgid "Whether to use the colors from the theme for the terminal widget"
-msgstr ""
+msgstr "Terminal vidjeti uchun mavzudagi ranglardan foydalanish kerakmi"
 
 #: src/org.gnome.Terminal.gschema.xml:338
 msgid "Whether to use the system monospace font"
-msgstr ""
+msgstr "Tizim monospace shriftidan foydalanish kerakmi"
 
 #: src/org.gnome.Terminal.gschema.xml:342
 msgid "Whether to rewrap the terminal contents on window resize"
-msgstr ""
+msgstr "Oyna o'lchamini o'zgartirishda terminal tarkibini qayta o'rash kerakmi"
 
 #: src/org.gnome.Terminal.gschema.xml:346
 msgid "Which encoding to use"
-msgstr ""
+msgstr "Qaysi kodlashdan foydalanish kerak"
 
 #: src/org.gnome.Terminal.gschema.xml:350
 msgid ""
 "Whether ambiguous-width characters are narrow or wide when using UTF-8 "
 "encoding"
 msgstr ""
+"UTF-8 dan kodlash foydalanganda noaniq kenglikdagi belgilar tor yoki"
+"keng bo'ladimi"
 
 #: src/org.gnome.Terminal.gschema.xml:359
 msgid "Keyboard shortcut to open a new tab"
-msgstr ""
+msgstr "Yangi varaqni ochish uchun klaviatura yorlig'i"
 
 #: src/org.gnome.Terminal.gschema.xml:363
 msgid "Keyboard shortcut to open a new window"
-msgstr ""
+msgstr "Yangi oyna ochish uchun klaviatura yorlig'i"
 
 #: src/org.gnome.Terminal.gschema.xml:367
 msgid "Keyboard shortcut to save the current tab contents to file"
-msgstr ""
+msgstr "Joriy yorliq mazmunini faylga saqlash uchun klaviatura yorlig'i"
 
 #: src/org.gnome.Terminal.gschema.xml:371
 msgid ""
 "Keyboard shortcut to export the current tab contents to file in various "
 "formats"
 msgstr ""
+"Joriy yorliq tarkibini turli xil faylga eksport qilish uchun klaviatura yorlig'i"
+"formatlar"
 
 #: src/org.gnome.Terminal.gschema.xml:375
 msgid "Keyboard shortcut to print the current tab contents to printer or file"
-msgstr ""
+msgstr "Joriy yorliq tarkibini printer yoki faylga chop etish uchun klaviatura yorlig'i"
 
 #: src/org.gnome.Terminal.gschema.xml:379
 msgid "Keyboard shortcut to close a tab"
