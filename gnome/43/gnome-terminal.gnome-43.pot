@@ -205,15 +205,19 @@ msgid ""
 "HTML-style hex digits, or a color name such as “red”). This is ignored if "
 "bold-color-same-as-fg is true."
 msgstr ""
+"Terminaldagi qalin matnning standart rangi, rang spetsifikatsiyasi sifatida (bo'lishi mumkin"
+"HTML uslubidagi olti burchakli raqamlar yoki 'qizil' kabi rang nomi). Bu e'tiborga olinmaydi, agar"
+"qalin-rang-fg bilan bir xil."
+
 
 #: src/org.gnome.Terminal.gschema.xml:154
 msgid "Whether bold text should use the same color as normal text"
-msgstr ""
+msgstr "Qalin matn oddiy matn bilan bir xil rangdan foydalanishi kerakmi?"
 
 #: src/org.gnome.Terminal.gschema.xml:155
 msgid ""
 "If true, boldface text will be rendered using the same color as normal text."
-msgstr ""
+msgstr "Agar rost bo'lsa, qalin harfli matn oddiy matn bilan bir xil rangda ko'rsatiladi"
 
 #: src/org.gnome.Terminal.gschema.xml:160
 msgid ""
@@ -226,18 +230,20 @@ msgid ""
 "Scale factor for the cell width to increase letter spacing. (Does not "
 "increase the font’s width.)"
 msgstr ""
+"Qator oralig'ini oshirish uchun katak balandligi uchun masshtab koeffitsienti. (Yo'q"
+"shrift balandligini oshiring.)"
 
 #: src/org.gnome.Terminal.gschema.xml:169
 msgid "Whether to use custom cursor colors"
-msgstr ""
+msgstr "Maxsus kursor ranglarini ishlatish kerakmi"
 
 #: src/org.gnome.Terminal.gschema.xml:170
 msgid "If true, use the cursor colors from the profile."
-msgstr ""
+msgstr "Agar rost bo'lsa, profildagi kursor ranglarini ishlating."
 
 #: src/org.gnome.Terminal.gschema.xml:174
 msgid "Cursor background color"
-msgstr ""
+msgstr "Kursor fon rangi"
 
 #: src/org.gnome.Terminal.gschema.xml:175
 msgid ""
@@ -245,10 +251,13 @@ msgid ""
 "specification (can be HTML-style hex digits, or a color name such as “red”). "
 "This is ignored if cursor-colors-set is false."
 msgstr ""
+"Terminal kursorining fonining rang sifatida moslashtirilgan rangi"
+"spetsifikatsiya (HTML uslubidagi olti burchakli raqamlar yoki 'qizil' kabi rang nomi bo'lishi mumkin)."
+"Kursor-ranglar to'plami noto'g'ri bo'lsa, bu e'tiborga olinmaydi."
 
 #: src/org.gnome.Terminal.gschema.xml:179
 msgid "Cursor foreground colour"
-msgstr ""
+msgstr "Kursorning oldingi rangi"
 
 #: src/org.gnome.Terminal.gschema.xml:180
 msgid ""
@@ -256,18 +265,21 @@ msgid ""
 "cursor position, as a color specification (can be HTML-style hex digits, or "
 "a color name such as “red”). This is ignored if cursor-colors-set is false."
 msgstr ""
+"Terminaldagi matn belgisining oldingi qismi uchun moslashtirilgan rang"
+"kursor o'rni, rang spetsifikatsiyasi sifatida (HTML uslubidagi olti burchakli raqamlar bo'lishi mumkin yoki"
+"rang nomi, masalan, 'qizil'). Agar kursor-ranglar to'plami noto'g'ri bo'lsa, bu e'tiborga olinmaydi."
 
 #: src/org.gnome.Terminal.gschema.xml:184
 msgid "Whether to use custom highlight colors"
-msgstr ""
+msgstr "Maxsus ta'kidlash ranglarini ishlatish kerakmi"
 
 #: src/org.gnome.Terminal.gschema.xml:185
 msgid "If true, use the highlight colors from the profile."
-msgstr ""
+msgstr "Agar rost bo'lsa, profildagi yorqin ranglardan foydalaning."
 
 #: src/org.gnome.Terminal.gschema.xml:189
 msgid "Highlight background color"
-msgstr ""
+msgstr "Fon rangini ajratib ko'rsatish"
 
 #: src/org.gnome.Terminal.gschema.xml:190
 msgid ""
@@ -275,10 +287,13 @@ msgid ""
 "specification (can be HTML-style hex digits, or a color name such as “red”). "
 "This is ignored if highlight-colors-set is false."
 msgstr ""
+"Terminalni ajratib ko'rsatish fonining moslashtirilgan rangi, rang sifatida"
+"spetsifikatsiya (HTML uslubidagi olti burchakli raqamlar yoki 'qizil' kabi rang nomi bo'lishi mumkin)."
+"Agar ta'kidlash ranglari to'plami noto'g'ri bo'lsa, bu e'tiborga olinmaydi."
 
 #: src/org.gnome.Terminal.gschema.xml:194
 msgid "Highlight foreground colour"
-msgstr ""
+msgstr "Old fon rangini ajratib ko'rsatish"
 
 #: src/org.gnome.Terminal.gschema.xml:195
 msgid ""
@@ -287,78 +302,91 @@ msgid ""
 "or a color name such as “red”). This is ignored if highlight-colors-set is "
 "false."
 msgstr ""
+"Terminaldagi matn belgisining oldingi qismi uchun moslashtirilgan rang"
+"rang spetsifikatsiyasi sifatida pozitsiyani ta'kidlang (HTML uslubidagi olti burchakli raqamlar bo'lishi mumkin,"
+"yoki rang nomi, masalan, 'qizil'). Agar ta'kidlash ranglari to'plami "
+"bo'lsa, bu e'tiborga olinmaydi."
+"false".
 
 #: src/org.gnome.Terminal.gschema.xml:199
 msgid "Whether to perform bidirectional text rendering"
-msgstr ""
+msgstr "Ikki tomonlama matn ko'rsatishni amalga oshirish kerakmi"
 
 #: src/org.gnome.Terminal.gschema.xml:200
 msgid "If true, perform bidirectional text rendering (“BiDi”)."
-msgstr ""
+msgstr "Agar rost boʻlsa, ikki tomonlama matnni koʻrsatish (“BiDi”)"
 
 #: src/org.gnome.Terminal.gschema.xml:204
 msgid "Whether to perform Arabic shaping"
-msgstr ""
+msgstr "Arabcha shakllantirishni bajarish kerakmi"
 
 #: src/org.gnome.Terminal.gschema.xml:205
 msgid "If true, shape Arabic text."
-msgstr ""
+msgstr "Agar rost bo'lsa, arabcha matnni shakllantiring"
 
 #: src/org.gnome.Terminal.gschema.xml:209
 msgid "Whether to enable SIXEL images"
-msgstr ""
+msgstr "SIXEL tasvirlarni yoqish kerakmi""
 
 #: src/org.gnome.Terminal.gschema.xml:210
 msgid "If true, SIXEL sequences are parsed and images are rendered."
-msgstr ""
+msgstr "Agar rost boʻlsa, SIXEL ketma-ketliklari tahlil qilinadi va tasvirlar koʻrsatiladi."
 
 #: src/org.gnome.Terminal.gschema.xml:214
 msgid "Whether bold is also bright"
-msgstr ""
+msgstr "Qalin ham yorqin bo'ladimi"
 
 #: src/org.gnome.Terminal.gschema.xml:215
 msgid ""
 "If true, setting bold on the first 8 colors also switches to their bright "
 "variants."
 msgstr ""
+"Agar rost bo'lsa, dastlabki 8 ta rangdagi qalin belgi ham yorqin rangga o'tadi"
+"variantlar".
 
 #: src/org.gnome.Terminal.gschema.xml:219
 msgid "Whether to ring the terminal bell"
-msgstr ""
+msgstr "Terminal qo'ng'irog'ini jiringlash kerakmi"
 
 #: src/org.gnome.Terminal.gschema.xml:223
 msgid ""
 "List of ASCII punctuation characters that are not to be treated as part of a "
 "word when doing word-wise selection"
 msgstr ""
+"ASCII tinish belgilarining bir qismi sifatida ko'rib chiqilmaydigan ro'yxati"
+"so'zni tanlashda so'z"
 
 #: src/org.gnome.Terminal.gschema.xml:228
 msgid "Default number of columns"
-msgstr ""
+msgstr "Standart ustunlar soni"
 
 #: src/org.gnome.Terminal.gschema.xml:229
 msgid ""
 "Number of columns in newly created terminal windows. Has no effect if "
 "use_custom_default_size is not enabled."
 msgstr ""
+"Yangi yaratilgan terminal oynalaridagi ustunlar soni. Hech qanday ta'siri yo'q "
+"use_custom_default_size yoqilmagan."
 
 #: src/org.gnome.Terminal.gschema.xml:234
 msgid "Default number of rows"
-msgstr ""
+msgstr "Birlamchi qatorlar soni"
 
 #: src/org.gnome.Terminal.gschema.xml:235
 msgid ""
 "Number of rows in newly created terminal windows. Has no effect if "
 "use_custom_default_size is not enabled."
 msgstr ""
+"Yangi yaratilgan terminal oynalaridagi qatorlar soni. Hech qanday ta'siri yo'q "
+"use_custom_default_size yoqilmagan."
 
 #: src/org.gnome.Terminal.gschema.xml:239
 msgid "When to show the scrollbar"
-msgstr ""
+msgstr "O'tkazish paneli qachon ko'rsatilishi kerak"
 
 #: src/org.gnome.Terminal.gschema.xml:243
 msgid "Number of lines to keep in scrollback"
-msgstr ""
+msgstr "Orqaga aylantirishda saqlanadigan qatorlar soni"
 
 #: src/org.gnome.Terminal.gschema.xml:244
 msgid ""
