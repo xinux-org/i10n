@@ -138,10 +138,15 @@ msgid ""
 "list. You can also manipulate this list with the EnableExtension and "
 "DisableExtension D-Bus methods on org.gnome.Shell."
 msgstr ""
+"GNOME Shell kengaytmalari UUID xususiyatiga ega; bu kalitda kengaytmalar ro'yxati keltirilgan "
+"yuklanishi kerak. Yuklanmoqchi bo'lgan har qanday kengaytma shu"
+"da bo'lishi kerak."
+"ro'yxat. Bu ro'yxatni EnableExtension va  bilan ham o'zgartirishingiz mumkin."
+"DisableExtension D-Bus usullarini org.gnome.Shell da."
 
 #: data/org.gnome.shell.gschema.xml.in:26
 msgid "UUIDs of extensions to force disabling"
-msgstr ""
+msgstr "Majburiy o‘chirib qo‘yish uchun kengaytmalarning UUIDlari"
 
 #: data/org.gnome.shell.gschema.xml.in:27
 msgid ""
@@ -151,16 +156,23 @@ msgid ""
 "methods on org.gnome.Shell. This key takes precedence over the “enabled-"
 "extensions” setting."
 msgstr ""
+"GNOME Shell kengaytmalari UUID xususiyatiga ega; bu kalitda kengaytmalar ro'yxati keltirilgan "
+"joriy rejimning bir qismi sifatida yuklangan bo'lsa ham o'chirib qo'yish kerak. Siz ham "
+"Ushbu ro'yxatni EnableExtension va DisableExtension D-Bus bilan boshqaring"
+"org.gnome.Shell dagi usullar. Bu kalit enabled dan ustun turadi."
+"kengaytmalar sozlamalari."
 
 #: data/org.gnome.shell.gschema.xml.in:37
 msgid "Disable user extensions"
-msgstr ""
+msgstr "Foydalanuvchi kengaytmalarini o'chirib qo'ying"
 
 #: data/org.gnome.shell.gschema.xml.in:38
 msgid ""
 "Disable all extensions the user has enabled without affecting the “enabled-"
 "extension” setting."
 msgstr ""
+"Foydalanuvchi yoqilgan barcha kengaytmalarni yoqilgan- ga ta'sir qilmasdan o'chirib qo'ying."
+"kengaytma sozlamalari."
 
 #: data/org.gnome.shell.gschema.xml.in:45
 msgid "Disables the validation of extension version compatibility"
