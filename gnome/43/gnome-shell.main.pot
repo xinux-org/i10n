@@ -176,7 +176,7 @@ msgstr ""
 
 #: data/org.gnome.shell.gschema.xml.in:45
 msgid "Disables the validation of extension version compatibility"
-msgstr ""
+msgstr "Kengaytma versiyasi mosligini tekshirishni o'chiradi"
 
 #: data/org.gnome.shell.gschema.xml.in:46
 msgid ""
@@ -184,40 +184,48 @@ msgid ""
 "running version. Enabling this option will disable this check and try to "
 "load all extensions regardless of the versions they claim to support."
 msgstr ""
+"GNOME Shell faqat joriyni qo'llab-quvvatlaydigan kengaytmalarni yuklaydi"
+"Ishlayotgan versiya. Ushbu parametr yoqilsa, bu tekshirish o'chiriladi va "
+"Ular qo'llab-quvvatlagan versiyalaridan qat'i nazar, barcha kengaytmalarni yuklang."
 
 #: data/org.gnome.shell.gschema.xml.in:54
 msgid "List of desktop file IDs for favorite applications"
-msgstr ""
+msgstr "Sevimli ilovalar uchun ish stoli fayl identifikatorlari ro'yxati"
 
 #: data/org.gnome.shell.gschema.xml.in:55
 msgid ""
 "The applications corresponding to these identifiers will be displayed in the "
 "favorites area."
 msgstr ""
+"Ushbu identifikatorlarga mos keladigan ilovalar" oynasida ko'rsatiladi.
+"sevimli hudud".
 
 #: data/org.gnome.shell.gschema.xml.in:62
 msgid "History for command (Alt-F2) dialog"
-msgstr ""
+msgstr "Buyruqlar tarixi (Alt-F2) dialog oynasi"
 
 #. Translators: looking glass is a debugger and inspector tool, see https://wiki.gnome.org/Projects/GnomeShell/LookingGlass
 #: data/org.gnome.shell.gschema.xml.in:67
 msgid "History for the looking glass dialog"
-msgstr ""
+msgstr "Oynali dialog uchun tarix"
 
 #: data/org.gnome.shell.gschema.xml.in:71
 msgid "Always show the “Log out” menu item in the user menu."
-msgstr ""
+msgstr "Foydalanuvchi menyusida har doim 'Chiqish' menyu bandini ko'rsating."
 
 #: data/org.gnome.shell.gschema.xml.in:72
 msgid ""
 "This key overrides the automatic hiding of the “Log out” menu item in single-"
 "user, single-session situations."
 msgstr ""
+"Ushbu kalit 'Chiqish' menyu bandini avtomatik ravishda yashirishni bekor qiladi-"
+"foydalanuvchi, bir seansli vaziyatlar".
 
 #: data/org.gnome.shell.gschema.xml.in:79
 msgid ""
 "Whether to remember password for mounting encrypted or remote filesystems"
 msgstr ""
+"Shifrlangan yoki masofaviy fayl tizimlarini o'rnatish uchun parolni eslab qolish kerakmi"
 
 #: data/org.gnome.shell.gschema.xml.in:80
 msgid ""
@@ -226,10 +234,13 @@ msgid ""
 "“Remember Password” checkbox will be present. This key sets the default "
 "state of the checkbox."
 msgstr ""
-
+"Shifrlangan qurilma yoki masofadan boshqarish pulti ishga tushganda shell parol so'raydi"
+"fayl tizimi o'rnatilgan. Agar parol kelajakda foydalanish uchun saqlanishi mumkin bo'lsa "
+"'Parolni eslab qolish' katagiga belgi qo'yiladi. Bu kalit standartni o'rnatadi"
+"tasdiqlash qutisi holati."
 #: data/org.gnome.shell.gschema.xml.in:89
 msgid "The last selected non-default power profile"
-msgstr ""
+msgstr "Oxirgi tanlangan standart bo'lmagan quvvat profili"
 
 #: data/org.gnome.shell.gschema.xml.in:90
 msgid ""
@@ -237,10 +248,13 @@ msgid ""
 "toggling between two profiles, this key records the last selected non-"
 "default profile."
 msgstr ""
+"Ba'zi tizimlar ikkitadan ortiq quvvat rejimini qo'llab-quvvatlaydi. Hali ham qo'llab-quvvatlash uchun "
+"ikkita profil o'rtasida almashish, bu kalit oxirgi tanlangan bo'lmaganlarni qayd qiladi"
+"standart profil."
 
 #: data/org.gnome.shell.gschema.xml.in:98
 msgid "The last version the “Welcome to GNOME” dialog was shown for"
-msgstr ""
+msgstr "“GNOME’ga xush kelibsiz” muloqot oynasining oxirgi versiyasi ko‘rsatilgan"
 
 #: data/org.gnome.shell.gschema.xml.in:99
 msgid ""
@@ -249,10 +263,14 @@ msgid ""
 "number will represent versions that do not exist yet. This huge number can "
 "be used to effectively disable the dialog."
 msgstr ""
+"Ushbu kalit 'GNOME ga xush kelibsiz' dialog oynasi oxirgi marta qaysi versiyada bo'lganini aniqlaydi "
+"ko'rsatilgan. Bo'sh satr mumkin bo'lgan eng qadimgi versiyani va ulkan "
+"Raqam hali mavjud bo'lmagan versiyalarni ifodalaydi. Bu juda katta raqam "
+"muloqot oynasini samarali o'chirish uchun foydalaniladi."
 
 #: data/org.gnome.shell.gschema.xml.in:132
 msgid "Layout of the app picker"
-msgstr ""
+msgstr "Ilova tanlagichining tartibi"
 
 #: data/org.gnome.shell.gschema.xml.in:133
 msgid ""
@@ -261,101 +279,106 @@ msgid ""
 "“application id” → 'data' pair. Currently, the following values are stored "
 "as 'data': • “position”: the position of the application icon in the page"
 msgstr ""
+"Ilova tanlagichining tartibi. Massivdagi har bir yozuv sahifadir. Sahifalar "
+"Ular GNOME Shell-da paydo bo'ladigan tartibda saqlanadi. Har bir sahifada "
+"“ilova identifikatori” → “maʼlumotlar” juftligi. Hozirda quyidagi qiymatlar saqlanadi "
+"'ma'lumotlar' sifatida: • 'pozitsiya': sahifadagi ilova belgisining o'rni"
 
 #: data/org.gnome.shell.gschema.xml.in:148
 msgid "Keybinding to open the application menu"
-msgstr ""
+msgstr "Ilova menyusini ochish uchun tugmalar birikmasi"
 
 #: data/org.gnome.shell.gschema.xml.in:149
 msgid "Keybinding to open the application menu."
-msgstr ""
+msgstr "Ilova menyusini ochish uchun tugmalar birikmasi."
 
 #: data/org.gnome.shell.gschema.xml.in:155
 #: data/org.gnome.shell.gschema.xml.in:162
 msgid "Keybinding to shift between overview states"
-msgstr ""
+msgstr "Umumiy koʻrinish holatlari oʻrtasida oʻtish uchun tugmalar birikmasi"
 
 #: data/org.gnome.shell.gschema.xml.in:156
 msgid "Keybinding to shift between session, window picker and app grid"
-msgstr ""
+msgstr "Seans, oyna tanlash va ilovalar to'plami o'rtasida siljish uchun tugmalar birikmasi"
 
 #: data/org.gnome.shell.gschema.xml.in:163
 msgid "Keybinding to shift between app grid, window picker and session"
-msgstr ""
+msgstr "Ilovalar tarmog'i, oyna tanlash va seans o'rtasida siljish uchun tugmalar birikmasi"
 
 #: data/org.gnome.shell.gschema.xml.in:169
 msgid "Keybinding to open the “Show Applications” view"
-msgstr ""
+msgstr "'Ilovalarni ko'rsatish' ko'rinishini ochish uchun tugmachalarni bog'lash"
 
 #: data/org.gnome.shell.gschema.xml.in:170
 msgid ""
 "Keybinding to open the “Show Applications” view of the Activities Overview."
 msgstr ""
+"Faoliyatlar umumiy koʻrinishining “Ilovalarni koʻrsatish” koʻrinishini ochish uchun tugmalar birikmasi."
 
 #: data/org.gnome.shell.gschema.xml.in:177
 msgid "Keybinding to open the overview"
-msgstr ""
+msgstr "Umumiy koʻrinishni ochish uchun tugmalar birikmasi"
 
 #: data/org.gnome.shell.gschema.xml.in:178
 msgid "Keybinding to open the Activities Overview."
-msgstr ""
+msgstr "Faoliyatlar koʻrinishini ochish uchun tugmalar birikmasi."
 
 #: data/org.gnome.shell.gschema.xml.in:184
 msgid "Keybinding to toggle the visibility of the notification list"
-msgstr ""
+msgstr "Bildirishnomalar roʻyxatining koʻrinishini almashtirish uchun tugmalar birikmasi"
 
 #: data/org.gnome.shell.gschema.xml.in:185
 msgid "Keybinding to toggle the visibility of the notification list."
-msgstr ""
+msgstr "Bildirishnomalar roʻyxatining koʻrinishini almashtirish uchun tugmalar birikmasi."
 
 #: data/org.gnome.shell.gschema.xml.in:191
 msgid "Keybinding to focus the active notification"
-msgstr ""
+msgstr "Faol bildirishnomani fokuslash uchun tugmalar birikmasi"
 
 #: data/org.gnome.shell.gschema.xml.in:192
 msgid "Keybinding to focus the active notification."
-msgstr ""
+msgstr "Faol bildirishnomani fokuslash uchun tugmalar birikmasi"
 
 #: data/org.gnome.shell.gschema.xml.in:198
 msgid "Switch to application 1"
-msgstr ""
+msgstr "1-ilovaga o'tish"
 
 #: data/org.gnome.shell.gschema.xml.in:202
 msgid "Switch to application 2"
-msgstr ""
+msgstr "2-ilovaga o'tish"
 
 #: data/org.gnome.shell.gschema.xml.in:206
 msgid "Switch to application 3"
-msgstr ""
+msgstr "3-ilovaga o'tish"
 
 #: data/org.gnome.shell.gschema.xml.in:210
 msgid "Switch to application 4"
-msgstr ""
+msgstr "4-ilovaga o'tish"
 
 #: data/org.gnome.shell.gschema.xml.in:214
 msgid "Switch to application 5"
-msgstr ""
+msgstr "5-ilovaga o'tish"
 
 #: data/org.gnome.shell.gschema.xml.in:218
 msgid "Switch to application 6"
-msgstr ""
+msgstr "6-ilovaga o'tish"
 
 #: data/org.gnome.shell.gschema.xml.in:222
 msgid "Switch to application 7"
-msgstr ""
+msgstr "7-ilovaga o'tish"
 
 #: data/org.gnome.shell.gschema.xml.in:226
 msgid "Switch to application 8"
-msgstr ""
+msgstr "8-ilovaga o'tish"
 
 #: data/org.gnome.shell.gschema.xml.in:230
 msgid "Switch to application 9"
-msgstr ""
+msgstr "9-ilovaga o'tish"
 
 #: data/org.gnome.shell.gschema.xml.in:255
 #: data/org.gnome.shell.gschema.xml.in:282
 msgid "Limit switcher to current workspace."
-msgstr ""
+msgstr "Joriy ish maydoniga almashtirgichni cheklang."
 
 #: data/org.gnome.shell.gschema.xml.in:256
 msgid ""
