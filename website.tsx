@@ -20,7 +20,10 @@ const handler = (req: Request) =>
           </a>
           <p class="mt-2 text-lg text-center text-gray-600">
             Gnome Lokalizatsiyasi{" "}
-            <a class="font-bold" href="https://github.com/uzinfocom-org/i10n/tree/main/gnome">
+            <a
+              class="font-bold"
+              href="https://github.com/uzinfocom-org/i10n/tree/main/gnome"
+            >
               GitHub →
             </a>
           </p>
@@ -32,7 +35,10 @@ const handler = (req: Request) =>
           </a>
           <p class="mt-2 text-lg text-center text-gray-600">
             KDE Lokalizatsiyasi{" "}
-            <a class="font-bold" href="https://github.com/uzinfocom-org/i10n/tree/main/kde">
+            <a
+              class="font-bold"
+              href="https://github.com/uzinfocom-org/i10n/tree/main/kde"
+            >
               GitHub →
             </a>
           </p>
@@ -44,7 +50,10 @@ const handler = (req: Request) =>
           </a>
           <p className="mt-2 text-lg text-center text-gray-600">
             Cinnamon Lokalizatsiyasi{" "}
-            <a className="font-bold" href="https://github.com/uzinfocom-org/i10n/tree/main/cinnamon">
+            <a
+              className="font-bold"
+              href="https://github.com/uzinfocom-org/i10n/tree/main/cinnamon"
+            >
               GitHub →
             </a>
           </p>
@@ -56,7 +65,10 @@ const handler = (req: Request) =>
           </a>
           <p className="mt-2 text-lg text-center text-gray-600">
             XFCE Lokalizatsiyasi{" "}
-            <a className="font-bold" href="https://github.com/uzinfocom-org/i10n/tree/main/xfce">
+            <a
+              className="font-bold"
+              href="https://github.com/uzinfocom-org/i10n/tree/main/xfce"
+            >
               GitHub →
             </a>
           </p>
@@ -70,7 +82,7 @@ const handler = (req: Request) =>
           >
             <img
               alt="Deno"
-              src="https://dash.deno.com/assets/logo.svg"
+              src="https://raw.githubusercontent.com/uzinfocom-org/website/main/src/images/logo.svg"
               class="w-5"
             />{" "}
             Uzinfocom Open Source Team
