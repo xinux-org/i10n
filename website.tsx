@@ -25,6 +25,7 @@ const handler = (req: Request) =>
             </a>
           </p>
         </div>
+
         <div class="p-4">
           <a href="https://l10n.kde.org/team-infos.php?teamcode=uz">
             <h1 class="text-4xl font-bold">KDE i10n</h1>
@@ -36,6 +37,7 @@ const handler = (req: Request) =>
             </a>
           </p>
         </div>
+
         <footer class="fixed bottom-8 w-full h-6 flex items-center justify-center gap-2 text-gray-800">
           Powered by
           <a
