@@ -26,7 +26,7 @@ const handler = (req: Request) =>
           </p>
         </div>
 
-        <div class="p-4">
+        <div class="pt-4">
           <a href="https://l10n.kde.org/team-infos.php?teamcode=uz">
             <h1 class="text-4xl font-bold">KDE i10n</h1>
           </a>
