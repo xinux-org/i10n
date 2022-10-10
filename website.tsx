@@ -38,6 +38,30 @@ const handler = (req: Request) =>
           </p>
         </div>
 
+        <div className="pt-6">
+          <a href="https://translations.launchpad.net/linuxmint/latest/+lang/uz">
+            <h1 className="text-4xl font-bold text-center">Cinnamon i10n</h1>
+          </a>
+          <p className="mt-2 text-lg text-center text-gray-600">
+            Cinnamon Lokalizatsiyasi{" "}
+            <a className="font-bold" href="https://github.com/uzinfocom-org/i10n/tree/main/cinnamon">
+              GitHub →
+            </a>
+          </p>
+        </div>
+
+        <div className="pt-6">
+          <a href="https://explore.transifex.com/xfce/">
+            <h1 className="text-4xl font-bold text-center">XFCE i10n</h1>
+          </a>
+          <p className="mt-2 text-lg text-center text-gray-600">
+            XFCE Lokalizatsiyasi{" "}
+            <a className="font-bold" href="https://github.com/uzinfocom-org/i10n/tree/main/xfce">
+              GitHub →
+            </a>
+          </p>
+        </div>
+
         <footer class="fixed bottom-8 w-full h-6 flex items-center justify-center gap-2 text-gray-800">
           Powered by
           <a
