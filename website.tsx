@@ -16,24 +16,24 @@ const handler = (req: Request) =>
       >
         <div>
           <a href="https://l10n.gnome.org/teams/uz/">
-            <h1 class="text-4xl font-bold">Gnome i10n</h1>
+            <h1 class="text-4xl font-bold text-center">Gnome i10n</h1>
           </a>
           <p class="mt-2 text-lg text-center text-gray-600">
             Gnome Lokalizatsiyasi{" "}
-            <a href="https://github.com/uzinfocom-org/i10n/tree/main/gnome">
-              GitHub
+            <a class="font-bold" href="https://github.com/uzinfocom-org/i10n/tree/main/gnome">
+              GitHub →
             </a>
           </p>
         </div>
 
-        <div class="pt-4">
+        <div class="pt-6">
           <a href="https://l10n.kde.org/team-infos.php?teamcode=uz">
-            <h1 class="text-4xl font-bold">KDE i10n</h1>
+            <h1 class="text-4xl font-bold text-center">KDE i10n</h1>
           </a>
           <p class="mt-2 text-lg text-center text-gray-600">
             KDE Lokalizatsiyasi{" "}
-            <a href="https://github.com/uzinfocom-org/i10n/tree/main/kde">
-              GitHub
+            <a class="font-bold" href="https://github.com/uzinfocom-org/i10n/tree/main/kde">
+              GitHub →
             </a>
           </p>
         </div>
