@@ -8,7 +8,7 @@ html.use(UnoCSS());
 
 const handler = (req: Request) =>
   html({
-    title: "Hello World!",
+    title: "Xinux Localization Mission!",
     body: (
       <div
         class="flex flex-col items-center justify-center w-full h-screen"
