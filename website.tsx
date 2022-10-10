@@ -83,7 +83,7 @@ const handler = (req: Request) =>
             <img
               alt="Deno"
               src="https://raw.githubusercontent.com/uzinfocom-org/website/main/src/images/logo.svg"
-              class="w-5"
+              class="w-10"
             />{" "}
             Uzinfocom Open Source Team
           </a>
