@@ -1,6 +1,6 @@
 <p align="center"><a href="https://xinux.uz" target="_blank"><img height="300" width="300" src="./.github/assets/tux.png"/></a></p>
 <h2 align="center">Xinux | Lokalizatsiya</h2>
-<p align="center"><b><a href="https://xinux.uz" target="_blank">Xinux Jamiyati</a> tomonidan qilingan tarjimalar.</b></p>
+<p align="center"><b><a href="https://github.com/ismoilovdevml" target="_blank">@ismoilovdev</a> boshchiligida <a href="https://xinux.uz" target="_blank">Xinux Jamiyati</a> tomonidan qilingan tarjimalar.</b></p>
 
 ## Qatnashish uchun
 
