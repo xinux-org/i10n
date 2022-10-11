@@ -29,7 +29,7 @@ yuz beradigan bo'lsa yoki savollar, [ismoilovdev](https://t.me/ismoilovdev) ga m
 
 Agar ushbu loyihada ancha ter to'kgan bo'lsangiz va o'zingizni sponsoringiz bo'lishiga loyiq deb topsangiz, [@uwussimo](https://t.me/uwussimo) ga
 sponsorlik uchun murojaat qiling. Murojaat qilishdan avval [Payme](https://payme.uz) da o'z shaxsiy hisobingiz va shu bilan birgalikda ochiq URL shaklida
-pul o'tkazish uchun qulay sahifangiz yaratishingizni iltimos qilib qolamiz!
+pul o'tkazish uchun qulay sahifangiz yaratishingizni iltimos qilib qolamiz! Hissa qo'shayotganlar haqidagi statistikalarni [Insight](https://github.com/uzinfocom-org/i10n/pulse) da ko'rsangiz bo'ladi.
 
 <p align="center"><b>Barcha huquqlar himoyalangan &copy; 2021-2022 <a href="https://xinux.uz" target="_blank">Xinux Jamiyati</a></b></p>
 
