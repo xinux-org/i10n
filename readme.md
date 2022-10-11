@@ -31,6 +31,6 @@ Agar ushbu loyihada ancha ter to'kgan bo'lsangiz va o'zingizni sponsoringiz bo'l
 sponsorlik uchun murojaat qiling. Murojaat qilishdan avval [Payme](https://payme.uz) da o'z shaxsiy hisobingiz va shu bilan birgalikda ochiq URL shaklida
 pul o'tkazish uchun qulay sahifangiz yaratishingizni iltimos qilib qolamiz!
 
-<p align="center">Barcha huquqlar himoyalangan &copy; 2021-2022 <a href="https://xinux.uz" target="_blank">Xinux Jamiyati</a></p>
+<p align="center"><b>Barcha huquqlar himoyalangan &copy; 2021-2022 <a href="https://xinux.uz" target="_blank">Xinux Jamiyati</a></b></p>
 
 <p align="center"><a href="https://github.com/uzinfocom-org/mirror/blob/master/license"><img src="https://img.shields.io/static/v1.svg?style=flat-square&label=Litsenziya&message=MIT&logoColor=eceff4&logo=github&colorA=000000&colorB=ffffff"/></a></p>
