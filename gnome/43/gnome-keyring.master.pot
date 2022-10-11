@@ -10,9 +10,9 @@ msgstr ""
 "Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/gnome-keyring/issues\n"
 "POT-Creation-Date: 2022-09-18 08:24+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
-"Language: \n"
+"Last-Translator: Otabek Ismoilov <ismoiovdev@gmail.com>\n"
+"Language-Team: Uzbek\n"
+"Language: uz\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -25,12 +25,12 @@ msgstr ""
 #: pkcs11/wrap-layer/gkm-wrap-login.c:345
 #: pkcs11/wrap-layer/gkm-wrap-prompt.c:733
 msgid "Unnamed"
-msgstr ""
+msgstr "Nomsiz"
 
 #: daemon/dbus/gkd-secret-change.c:89
 #, c-format
 msgid "Enter the old password for the “%s” keyring"
-msgstr ""
+msgstr "“%s” kaliti uchun eski parolni kiriting"
 
 #: daemon/dbus/gkd-secret-change.c:93
 #, c-format
@@ -38,18 +38,20 @@ msgid ""
 "An application wants to change the password for the “%s” keyring. Enter the "
 "old password for it."
 msgstr ""
+"Ilova “%s” kaliti uchun parolni o‘zgartirmoqchi. "
+"Uning uchun eski parol."
 
 #: daemon/dbus/gkd-secret-change.c:99 daemon/dbus/gkd-secret-change.c:135
 #: daemon/dbus/gkd-secret-change.c:146 pkcs11/wrap-layer/gkm-wrap-prompt.c:1143
 #: pkcs11/wrap-layer/gkm-wrap-prompt.c:1256
 #: pkcs11/wrap-layer/gkm-wrap-prompt.c:1291
 msgid "Continue"
-msgstr ""
+msgstr "Davom eting"
 
 #: daemon/dbus/gkd-secret-change.c:125
 #, c-format
 msgid "Choose a new password for the “%s” keyring"
-msgstr ""
+msgstr "“%s” kaliti uchun yangi parolni tanlang"
 
 #: daemon/dbus/gkd-secret-change.c:129
 #, c-format
@@ -57,10 +59,12 @@ msgid ""
 "An application wants to change the password for the “%s” keyring. Choose the "
 "new password you want to use for it."
 msgstr ""
+"Ilova ”%s” kaliti uchun parolni o'zgartirmoqchi. "
+"Uning uchun foydalanmoqchi bo'lgan yangi parol."
 
 #: daemon/dbus/gkd-secret-change.c:142 daemon/dbus/gkd-secret-create.c:94
 msgid "Store passwords unencrypted?"
-msgstr ""
+msgstr "Parollar shifrlanmagan holda saqlansinmi?"
 
 #: daemon/dbus/gkd-secret-change.c:144 daemon/dbus/gkd-secret-create.c:96
 msgid ""
@@ -68,14 +72,17 @@ msgid ""
 "safely encrypted. They will be accessible by anyone with access to your "
 "files."
 msgstr ""
+"Bo'sh paroldan foydalanishni tanlasangiz, saqlangan parollaringiz bo'lmaydi"
+"xavfsiz shifrlangan. Ularga kirish huquqiga ega bo'lgan har bir kishi foydalanishi mumkin"
+"fayllar."
 
 #: daemon/dbus/gkd-secret-change.c:152
 msgid "The original password was incorrect"
-msgstr ""
+msgstr "Asl parol noto'g'ri edi"
 
 #: daemon/dbus/gkd-secret-change.c:348
 msgid "Change Keyring Password"
-msgstr ""
+msgstr "Keyring parolini o'zgartiring"
 
 #: daemon/dbus/gkd-secret-create.c:80
 #, c-format
@@ -83,71 +90,73 @@ msgid ""
 "An application wants to create a new keyring called “%s”. Choose the "
 "password you want to use for it."
 msgstr ""
+"Ilova “%s” nomli yangi kalitni yaratmoqchi. "
+"Uning uchun foydalanmoqchi bo'lgan parol."
 
 #: daemon/dbus/gkd-secret-create.c:84
 msgid "Choose password for new keyring"
-msgstr ""
+msgstr "Yangi kalit uchun parolni tanlang"
 
 #: daemon/dbus/gkd-secret-create.c:309
 msgid "New Keyring Password"
-msgstr ""
+msgstr "Yangi kalit uchun parol"
 
 #: daemon/gnome-keyring-pkcs11.desktop.in.in:4
 msgid "Certificate and Key Storage"
-msgstr ""
+msgstr "Certificate and Key Storage"
 
 #: daemon/gnome-keyring-pkcs11.desktop.in.in:5
 msgid "GNOME Keyring: PKCS#11 Component"
-msgstr ""
+msgstr "GNOME kalitlari: PKCS#11 komponenti"
 
 #: daemon/gnome-keyring-secrets.desktop.in.in:4
 msgid "Secret Storage Service"
-msgstr ""
+msgstr "Maxfiy saqlash xizmati"
 
 #: daemon/gnome-keyring-secrets.desktop.in.in:5
 msgid "GNOME Keyring: Secret Service"
-msgstr ""
+msgstr "GNOME kalitlari: Maxfiy xizmat"
 
 #: daemon/gnome-keyring-ssh.desktop.in.in:4
 msgid "SSH Key Agent"
-msgstr ""
+msgstr "SSH kalit agenti"
 
 #: daemon/gnome-keyring-ssh.desktop.in.in:5
 msgid "GNOME Keyring: SSH Agent"
-msgstr ""
+msgstr "GNOME kalitlari: SSH agenti"
 
 #. TRANSLATORS: This is the display label for the login keyring
 #: daemon/login/gkd-login.c:162
 msgid "Login"
-msgstr ""
+msgstr "Kirish"
 
 #. Get the label ready
 #: daemon/login/gkd-login-interaction.c:191
 #: pkcs11/wrap-layer/gkm-wrap-login.c:345
 #, c-format
 msgid "Unlock password for: %s"
-msgstr ""
+msgstr "Parolni ochish: %s"
 
 #: daemon/ssh-agent/gkd-ssh-agent-interaction.c:100
 #: pkcs11/wrap-layer/gkm-wrap-prompt.c:634
 msgid "Unlock private key"
-msgstr ""
+msgstr "Shaxsiy kalitni qulfdan chiqaring"
 
 #: daemon/ssh-agent/gkd-ssh-agent-interaction.c:101
 msgid "Enter password to unlock the private key"
-msgstr ""
+msgstr "Shaxsiy kalitni ochish uchun parolni kiriting"
 
 #. TRANSLATORS: The private key is locked
 #: daemon/ssh-agent/gkd-ssh-agent-interaction.c:104
 #: pkcs11/wrap-layer/gkm-wrap-prompt.c:665
 #, c-format
 msgid "An application wants access to the private key “%s”, but it is locked"
-msgstr ""
+msgstr "Ilova “%s” shaxsiy kalitiga kirishni xohlaydi, lekin u qulflangan"
 
 #: daemon/ssh-agent/gkd-ssh-agent-interaction.c:111
 #: pkcs11/wrap-layer/gkm-wrap-prompt.c:650
 msgid "Automatically unlock this key whenever I’m logged in"
-msgstr ""
+msgstr "Men tizimga kirganimda ushbu kalit avtomatik ravishda qulfdan chiqariladi"
 
 #: daemon/ssh-agent/gkd-ssh-agent-interaction.c:113
 #: pkcs11/wrap-layer/gkm-wrap-prompt.c:600
@@ -157,27 +166,27 @@ msgstr ""
 #: pkcs11/wrap-layer/gkm-wrap-prompt.c:747
 #: pkcs11/wrap-layer/gkm-wrap-prompt.c:779
 msgid "Unlock"
-msgstr ""
+msgstr "Qulfni ochish"
 
 #: daemon/ssh-agent/gkd-ssh-agent-interaction.c:116
 #: pkcs11/wrap-layer/gkm-wrap-prompt.c:745
 msgid "The unlock password was incorrect"
-msgstr ""
+msgstr "Qulfni ochish paroli noto'g'ri"
 
 #: egg/dotlock.c:668
 #, c-format
 msgid "failed to create temporary file `%s': %s\n"
-msgstr ""
+msgstr "“%s” vaqtinchalik faylini yaratib bo‘lmadi: %s\n"
 
 #: egg/dotlock.c:718
 #, c-format
 msgid "error writing to `%s': %s\n"
-msgstr ""
+msgstr "`%s'ga yozishda xatolik: %s\n"
 
 #: egg/dotlock.c:782
 #, c-format
 msgid "can't create `%s': %s\n"
-msgstr ""
+msgstr "can't create `%s': %s\n"
 
 #. Note: It is unlikley that we get a race here unless a pid is
 #. reused too fast or a new process with the same pid as the one
@@ -185,21 +194,21 @@ msgstr ""
 #: egg/dotlock.c:1048
 #, c-format
 msgid "removing stale lockfile (created by %d)\n"
-msgstr ""
+msgstr "eskirgan blokirovka faylini olib tashlash (%d tomonidan yaratilgan)\n"
 
 #: egg/dotlock.c:1084
 #, c-format
 msgid "waiting for lock (held by %d%s) %s...\n"
-msgstr ""
+msgstr "blokirovka kutilmoqda (%d%s tomonidan ushlab turilgan) %s...\n"
 
 #: egg/dotlock.c:1085
 msgid "(deadlock?) "
-msgstr ""
+msgstr "(tiqilib qolganmi?)"
 
 #: egg/dotlock.c:1124
 #, c-format
 msgid "lock `%s' not made: %s\n"
-msgstr ""
+msgstr "`%s' blokirovka qilinmadi: %s\n"
 
 #: egg/dotlock.c:1150
 #, c-format
