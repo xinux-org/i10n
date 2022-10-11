@@ -4,7 +4,7 @@
 
 ## Ushu loyiha
 
-Tarjima qilinmagan DE yoki WM dasturlari uchun o'zbek tilida tarjimalar yetkazish uchun xizmat qiladi. 
+Tarjima qilinmagan DE yoki WM dasturlari uchun o'zbek tilida tarjimalar yetkazish uchun xizmat qiladi.
 Asosan hamma protsessni sentrallashtirish uchun yaratilgan repozitoriya hisoblanadi va kuzatib borish, hamda
 birga ishlash osonlashtiradi.
 
