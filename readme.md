@@ -2,6 +2,12 @@
 <h2 align="center">Xinux | Lokalizatsiya</h2>
 <p align="center"><b><a href="https://github.com/ismoilovdevml" target="_blank">@ismoilovdev</a> boshchiligida <a href="https://xinux.uz" target="_blank">Xinux Jamiyati</a> tomonidan qilingan tarjimalar.</b></p>
 
+## Ushu loyiha
+
+Tarjima qilinmagan DE yoki WM dasturlari uchun o'zbek tilida tarjimalar yetkazish uchun xizmat qiladi. 
+Asosan hamma protsessni sentrallashtirish uchun yaratilgan repozitoriya hisoblanadi va kuzatib borish, hamda
+birga ishlash osonlashtiradi.
+
 ## Qatnashish uchun
 
 Ushbu repozitoriyada tarjima ishlari boshlashdan avval, telegramdagi asosiy guruhimizad
@@ -18,6 +24,12 @@ yuz beradigan bo'lsa yoki savollar, [ismoilovdev](https://t.me/ismoilovdev) ga m
 > Bu proyekt hozirda faol rivojlantirilmoqda. Agarda bironta xatolikka duchor
 > bo'lsangiz, xatolik haqida [e'lon](https://github.com/uzinfocom-org/i10n/issues/new)
 > qoldirishni unutmang.
+
+## Sponsorlik
+
+Agar ushbu loyihada ancha ter to'kgan bo'lsangiz va o'zingizni sponsoringiz bo'lishiga loyiq deb topsangiz, [@uwussimo](https://t.me/uwussimo) ga
+sponsorlik uchun murojaat qiling. Murojaat qilishdan avval [Payme](https://payme.uz) da o'z shaxsiy hisobingiz va shu bilan birgalikda ochiq URL shaklida
+pul o'tkazish uchun qulay sahifangiz yaratishingizni iltimos qilib qolamiz!
 
 <p align="center">Barcha huquqlar himoyalangan &copy; 2021-2022 <a href="https://xinux.uz" target="_blank">Xinux Jamiyati</a></p>
 
