@@ -525,6 +525,7 @@ msgctxt "Password hint"
 msgid ""
 "Adding more letters, numbers and punctuation will make the password stronger."
 msgstr ""
+"Ko'proq harflar, raqamlar va tinish belgilarini qo'shish parolni kuchliroq qiladi."
 
 #. Translators: the first parameter here is the name of a distribution,
 #. * like "Fedora" or "Ubuntu". It falls back to "GNOME" if we can't
@@ -536,6 +537,8 @@ msgid ""
 "Sends technical reports that have personal information automatically "
 "removed. Data is collected by %1$s (<a href='%2$s'>privacy policy</a>)."
 msgstr ""
+"Shaxsiy ma'lumotlarga ega bo'lgan texnik hisobotlarni avtomatik ravishda yuboradi"
+"O'chirildi. Ma'lumotlar %1$s (<a href='%2$s'>maxfiylik siyosati</a>) tomonidan yig'iladi."
 
 #. Translators: the parameter here is the name of a distribution,
 #. * like "Fedora" or "Ubuntu". It falls back to "GNOME" if we can't
@@ -547,19 +550,21 @@ msgid ""
 "Sends technical reports that have personal information automatically "
 "removed. Data is collected by %s."
 msgstr ""
+"Shaxsiy ma'lumotlarga ega bo'lgan texnik hisobotlarni avtomatik ravishda yuboradi"
+"olib tashlandi. Ma'lumotlar %s tomonidan yig'iladi."
 
 #: gnome-initial-setup/pages/privacy/gis-privacy-page.c:196
 msgid "Privacy Policy"
-msgstr ""
+msgstr "Maxfiylik siyosati"
 
 #: gnome-initial-setup/pages/privacy/gis-privacy-page.c:231
 #: gnome-initial-setup/pages/privacy/gis-privacy-page.ui:14
 msgid "Privacy"
-msgstr ""
+msgstr "Maxfiylik"
 
 #: gnome-initial-setup/pages/privacy/gis-privacy-page.ui:27
 msgid "Location Services"
-msgstr ""
+msgstr "Joylashuv xizmatlari"
 
 #: gnome-initial-setup/pages/privacy/gis-privacy-page.ui:28
 msgid ""
@@ -567,20 +572,24 @@ msgid ""
 "Mozilla Location Service (<a href='https://location.services.mozilla.com/"
 "privacy'>privacy policy</a>)."
 msgstr ""
+"Ilovalarga geografik joylashuvingizni aniqlashga ruxsat beradi. "
+"Mozilla joylashuv xizmati (<a href='https://location.services.mozilla.com/"
+"maxfiylik'>maxfiylik siyosati</a>)."
 
 #: gnome-initial-setup/pages/privacy/gis-privacy-page.ui:44
 msgid "Automatic Problem Reporting"
-msgstr ""
+msgstr "Muammolar haqida avtomatik xabar berish"
 
 #: gnome-initial-setup/pages/privacy/gis-privacy-page.ui:62
 msgid ""
 "Privacy controls can be changed at any time from the Settings application."
 msgstr ""
+"Maxfiylik boshqaruvlarini istalgan vaqtda Sozlamalar ilovasidan oʻzgartirish mumkin."
 
 #: gnome-initial-setup/pages/software/gis-software-page.c:109
 #: gnome-initial-setup/pages/software/gis-software-page.ui:11
 msgid "Third-Party Repositories"
-msgstr ""
+msgstr "Uchinchi tomon ombori"
 
 #: gnome-initial-setup/pages/software/gis-software-page.c:110
 msgid ""
@@ -588,14 +597,17 @@ msgid ""
 "external sources, including popular apps and drivers that are important for "
 "some devices. Some proprietary software is included."
 msgstr ""
+"Uchinchi tomon omborlari tanlanganlardan qo'shimcha dasturiy ta'minotga kirishni ta'minlaydi"
+"tashqi manbalar, shu jumladan mashhur ilovalar va drayverlar uchun muhim bo'lgan"
+"ba'zi qurilmalar. Ba'zi xususiy dasturlar kiritilgan."
 
 #: gnome-initial-setup/pages/software/gis-software-page.c:120
 msgid "_Disable Third-Party Repositories"
-msgstr ""
+msgstr "_Uchinchi tomon repozitoriylarini o'chirib qo'ying"
 
 #: gnome-initial-setup/pages/software/gis-software-page.c:125
 msgid "_Enable Third-Party Repositories"
-msgstr ""
+msgstr "_Uchinchi tomon omborlarini yoqish"
 
 #. Translators: the parameter here is the name of a distribution,
 #. * like "Fedora" or "Ubuntu". It falls back to "GNOME" if we can't
@@ -603,7 +615,7 @@ msgstr ""
 #: gnome-initial-setup/pages/summary/gis-summary-page.c:232
 #, c-format
 msgid "_Start Using %s"
-msgstr ""
+msgstr "_%s dan foydalanishni boshlang"
 
 #. Translators: the parameter here is the name of a distribution,
 #. * like "Fedora" or "Ubuntu". It falls back to "GNOME" if we can't
@@ -611,15 +623,15 @@ msgstr ""
 #: gnome-initial-setup/pages/summary/gis-summary-page.c:239
 #, c-format
 msgid "%s is ready to be used. We hope that you love it!"
-msgstr ""
+msgstr "%s foydalanishga tayyor. Umid qilamizki, sizga yoqadi!"
 
 #: gnome-initial-setup/pages/summary/gis-summary-page.c:263
 msgid "Setup Complete"
-msgstr ""
+msgstr "Sozlash tugallandi"
 
 #: gnome-initial-setup/pages/summary/gis-summary-page.ui:7
 msgid "All done!"
-msgstr ""
+msgstr "Hammasi tayyor!"
 
 #. Recurse, adding the ADM1 name to the country name
 #. Translators: this is the name of a location followed by a region, for example:
@@ -635,53 +647,55 @@ msgstr ""
 #: gnome-initial-setup/pages/timezone/gis-location-entry.c:576
 #, c-format
 msgid "%s, %s"
-msgstr ""
+msgstr "%s, %s"
 
 #. Translators: "city, country"
 #: gnome-initial-setup/pages/timezone/gis-timezone-page.c:271
 #, c-format
 msgctxt "timezone loc"
 msgid "%s, %s"
-msgstr ""
+msgstr "%s, %s"
 
 #. Translators: UTC here means the Coordinated Universal Time.
 #. * %:::z will be replaced by the offset from UTC e.g. UTC+02
 #.
 #: gnome-initial-setup/pages/timezone/gis-timezone-page.c:308
 msgid "UTC%:::z"
-msgstr ""
+msgstr "UTC%:::z"
 
 #. Translators: This is the time format used in 12-hour mode.
 #: gnome-initial-setup/pages/timezone/gis-timezone-page.c:312
 msgid "%l:%M %p"
-msgstr ""
+msgstr "%l:%M %p"
 
 #. Translators: This is the time format used in 24-hour mode.
 #: gnome-initial-setup/pages/timezone/gis-timezone-page.c:315
 msgid "%R"
-msgstr ""
+msgstr "%R"
 
 #. Translators: "timezone (utc shift)"
 #: gnome-initial-setup/pages/timezone/gis-timezone-page.c:318
 #, c-format
 msgctxt "timezone map"
 msgid "%s (%s)"
-msgstr ""
+msgstr "%s (%s)"
 
 #: gnome-initial-setup/pages/timezone/gis-timezone-page.c:484
 #: gnome-initial-setup/pages/timezone/gis-timezone-page.ui:12
 msgid "Time Zone"
-msgstr ""
+msgstr "Vaqt mintaqasi"
 
 #: gnome-initial-setup/pages/timezone/gis-timezone-page.ui:13
 msgid ""
 "The time zone will be set automatically if your location can be found. You "
 "can also search for a city to set it yourself."
 msgstr ""
+"Joylashuvingiz topilsa, vaqt mintaqasi avtomatik ravishda o'rnatiladi. Siz "
+"Shuningdek, shaharni o'zingiz belgilashingiz mumkin."
 
 #: gnome-initial-setup/pages/timezone/gis-timezone-page.ui:44
 msgid "Please search for a nearby city"
-msgstr ""
+msgstr "Yaqin atrofdagi shaharni qidiring"
 
 #. Translators: This is meant to be a warm, engaging welcome message,
 #. * like greeting somebody at the door. If the exclamation mark is not
@@ -694,18 +708,20 @@ msgstr ""
 #: gnome-initial-setup/pages/welcome/gis-welcome-page.c:75
 #, c-format
 msgid "Welcome to %s !"
-msgstr ""
+msgstr "%s  ga xush kelibsiz!"
 
 #: gnome-initial-setup/pages/welcome/gis-welcome-page.ui:4
 msgid "Setup"
-msgstr ""
+msgstr "Sozlash"
 
 #: gnome-initial-setup/pages/welcome/gis-welcome-page.ui:39
 msgid ""
 "Setup will guide you through making an account and enabling some features. "
 "We’ll have you up and running in no time."
 msgstr ""
+"Sozlash sizga hisob yaratish va ba'zi funksiyalarni yoqish bo'yicha ko'rsatma beradi."
+"Biz sizni qisqa vaqt ichida ishga tushiramiz."
 
 #: gnome-initial-setup/pages/welcome/gis-welcome-page.ui:49
 msgid "_Start Setup"
-msgstr ""
+msgstr "_Sozlashni boshlang"
