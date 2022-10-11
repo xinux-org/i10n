@@ -1,0 +1,540 @@
+# Uzbek translation for linuxmint
+# Copyright (c) 2015 Rosetta Contributors and Canonical Ltd 2015
+# This file is distributed under the same license as the linuxmint package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2015.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: linuxmint\n"
+"Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
+"POT-Creation-Date: 2022-06-22 12:00+0200\n"
+"PO-Revision-Date: 2022-06-12 08:00+0000\n"
+"Last-Translator: Umidjon Almasov <umidjon@almasov.uz>\n"
+"Language-Team: Uzbek <uz@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Launchpad-Export-Date: 2022-10-10 13:06+0000\n"
+"X-Generator: Launchpad (build 762fb15a975e8b23af6a1f86e44e46bfd0451459)\n"
+"Language: uz\n"
+
+#: usr/lib/linuxmint/mintSources/mintSources.py:83
+msgid "You are about to remove the following PPA:"
+msgstr "Quyidagi PPA-ni olib tashlamoqchisiz:"
+
+#: usr/lib/linuxmint/mintSources/mintSources.py:86
+#: usr/lib/linuxmint/mintSources/mintSources.py:166
+#, python-format
+msgid " More info: %s"
+msgstr " Qo‘shimcha ma’lumot : %s"
+
+#: usr/lib/linuxmint/mintSources/mintSources.py:90
+#: usr/lib/linuxmint/mintSources/mintSources.py:170
+msgid "Press Enter to continue or Ctrl+C to cancel"
+msgstr "Davom etish uchun Enter bosing yoki bekor qilish uchun Ctrl+C bosing"
+
+#: usr/lib/linuxmint/mintSources/mintSources.py:94
+#: usr/lib/linuxmint/mintSources/mintSources.py:174
+msgid "Unable to prompt for response.  Please run with -y"
+msgstr "Javobni soʻrash imkonsiz. Iltimos, -y bilan ishlating"
+
+#: usr/lib/linuxmint/mintSources/mintSources.py:98
+msgid "Cancelling..."
+msgstr "Bekor qilinmoqda..."
+
+#: usr/lib/linuxmint/mintSources/mintSources.py:101
+#, python-format
+msgid "Cannot get info about PPA: '%s'."
+msgstr "PPA haqida ma'lumot olib bo‘lmadi: '%s'."
+
+#: usr/lib/linuxmint/mintSources/mintSources.py:123
+#, python-format
+msgid "failed to remove PPA: '%s'"
+msgstr "PPA-ni olib tashlab bo'lmadi: '%s'"
+
+#: usr/lib/linuxmint/mintSources/mintSources.py:142
+#, python-format
+msgid "failed to remove repository: '%s'"
+msgstr "repozitoriyni olib tashlab bo‘lmadi: '%s'"
+
+#: usr/lib/linuxmint/mintSources/mintSources.py:149
+msgid "Adding PPAs is not supported"
+msgstr "PPA qo'shish qo'llab-quvvatlanmaydi"
+
+#: usr/lib/linuxmint/mintSources/mintSources.py:156
+#, python-format
+msgid "Cannot add PPA: '%s'."
+msgstr "PPA qo‘shib bo‘lmadi: '%s'."
+
+#: usr/lib/linuxmint/mintSources/mintSources.py:160
+msgid "Adding private PPAs is not supported currently"
+msgstr "Shaxsiy PPA qo‘shish hozirda qo'llab-quvvatlanmaydi"
+
+#: usr/lib/linuxmint/mintSources/mintSources.py:163
+msgid "You are about to add the following PPA:"
+msgstr "Siz quyidagi PPA-ni qo'shmoqchisiz:"
+
+#: usr/lib/linuxmint/mintSources/mintSources.py:193
+#: usr/lib/linuxmint/mintSources/mintSources.py:1554
+msgid "Malformed input, repository not added."
+msgstr "Noto‘g‘ri kiritilgan, repozitoriy qo‘shilmagan."
+
+#: usr/lib/linuxmint/mintSources/mintSources.py:196
+msgid "Repository already exists."
+msgstr "Repozitoriy allaqachon mavjud."
+
+#: usr/lib/linuxmint/mintSources/mintSources.py:260
+msgid "Connection timed out, check your connection or try again later."
+msgstr ""
+"Ulanish vaqti tugadi, ulanishni tekshiring yoki keyinroq qayta urinib "
+"ko‘ring."
+
+#: usr/lib/linuxmint/mintSources/mintSources.py:262
+msgid "Failed to establish a secure connection."
+msgstr "Xavfsiz ulanishni o‘rnatib bo‘lmadi."
+
+#: usr/lib/linuxmint/mintSources/mintSources.py:264
+#, python-format
+msgid "Failed to download the PPA: %s."
+msgstr "PPA yuklab olinmadi: %s."
+
+#: usr/lib/linuxmint/mintSources/mintSources.py:273
+#: usr/lib/linuxmint/mintSources/mintSources.py:277
+msgid "No supported PPA of this name was found."
+msgstr "Bu nomdagi qo‘llab-quvvatlanadigan PPA topilmadi."
+
+#: usr/lib/linuxmint/mintSources/mintSources.py:285
+#, python-format
+msgid "This PPA does not support %s"
+msgstr "Bu PPA %s ni qo‘llab-quvvatlamaydi"
+
+#: usr/lib/linuxmint/mintSources/mintSources.py:425
+#: usr/lib/linuxmint/mintSources/mintSources.py:465
+msgid "Sources"
+msgstr "Manbalar"
+
+#: usr/lib/linuxmint/mintSources/mintSources.py:434
+msgid "CD-ROM (Installation Disc)"
+msgstr "CD-ROM (o'rnatish diski)"
+
+#: usr/lib/linuxmint/mintSources/mintSources.py:446
+msgid "Local Repository"
+msgstr "Mahalliy repozitoriy"
+
+#: usr/lib/linuxmint/mintSources/mintSources.py:494
+msgid ""
+"Linux Mint uses Romeo to publish packages which are not tested. Once these "
+"packages are tested, they are then moved to the official repositories. "
+"Unless you are participating in beta-testing, you should not enable this "
+"repository. Are you sure you want to enable Romeo?"
+msgstr ""
+"Linux Mint sinovdan o'tmagan paketlarni nashr qilish uchun Romeo-dan "
+"foydalanadi. Ushbu paketlar sinovdan o'tkazilgach, ular rasmiy "
+"repozitoriylarga ko'chiriladi. Agar beta-sinovda ishtirok etmasangiz, ushbu "
+"repozitoriyni yoqmasligingiz kerak. Romeo yoqishga ishonchingiz komilmi?"
+
+#: usr/lib/linuxmint/mintSources/mintSources.py:526
+msgid "Select a mirror"
+msgstr "Ko‘zguni tanlash"
+
+#: usr/lib/linuxmint/mintSources/mintSources.py:538
+msgid "Country"
+msgstr "Davlat"
+
+#: usr/lib/linuxmint/mintSources/mintSources.py:544
+msgid "Mirror"
+msgstr "Ko‘zgu"
+
+#: usr/lib/linuxmint/mintSources/mintSources.py:549
+msgid "Speed"
+msgstr "Tezlik"
+
+#: usr/lib/linuxmint/mintSources/mintSources.py:580
+msgid "Worldwide"
+msgstr "Dunyo bo‘ylab"
+
+#: usr/lib/linuxmint/mintSources/mintSources.py:667
+#: usr/lib/linuxmint/mintSources/mintSources.py:681
+msgid "kB/s"
+msgstr "kB/s"
+
+#: usr/lib/linuxmint/mintSources/mintSources.py:670
+msgid "MB/s"
+msgstr "MB/s"
+
+#: usr/lib/linuxmint/mintSources/mintSources.py:673
+msgid "GB/s"
+msgstr "GB/s"
+
+#: usr/lib/linuxmint/mintSources/mintSources.py:721
+msgid "Obsolete"
+msgstr "Eskirgan"
+
+#: usr/lib/linuxmint/mintSources/mintSources.py:724
+msgid "Unreachable"
+msgstr "Ulanib bo‘lmaydi"
+
+#: usr/lib/linuxmint/mintSources/mintSources.py:866 generate_desktop_files:25
+#: generate_desktop_files:53
+msgid "Software Sources"
+msgstr "Dastur manbalari"
+
+#: usr/lib/linuxmint/mintSources/mintSources.py:886
+msgid "Backported packages"
+msgstr "Orqaga ko‘chirilgan paketlar"
+
+#: usr/lib/linuxmint/mintSources/mintSources.py:888
+msgid "Unstable packages"
+msgstr "Turg‘un bo‘lmagan paketlar"
+
+#: usr/lib/linuxmint/mintSources/mintSources.py:901
+msgid "Main"
+msgstr "Asosiy"
+
+#: usr/lib/linuxmint/mintSources/mintSources.py:902
+msgid "Base"
+msgstr "Ombor"
+
+#: usr/lib/linuxmint/mintSources/mintSources.py:945
+#: usr/lib/linuxmint/mintSources/mintSources.py:970
+msgid "Enabled"
+msgstr "Yoqilgan"
+
+#: usr/lib/linuxmint/mintSources/mintSources.py:951
+#: usr/lib/linuxmint/mintSources/ppa_browser.py:49
+msgid "PPA"
+msgstr "PPA"
+
+#: usr/lib/linuxmint/mintSources/mintSources.py:976
+msgid "Repository"
+msgstr "Repozitoriy"
+
+#: usr/lib/linuxmint/mintSources/mintSources.py:993
+msgid "Key"
+msgstr "Kalit"
+
+#: usr/lib/linuxmint/mintSources/mintSources.py:1131
+msgid "There is no more residual configuration on the system."
+msgstr "Tizimda boshqa qoldiq konfiguratsiya yo‘q."
+
+#: usr/lib/linuxmint/mintSources/mintSources.py:1137
+msgid "The problem was fixed. Please reload the cache."
+msgstr "Muammo hal etildi. Keshni qayta yuklang."
+
+#: usr/lib/linuxmint/mintSources/mintSources.py:1180
+msgid "Duplicate entries were removed. Please reload the cache."
+msgstr "Ikki nusxadagi yozuvlar olib tashlandi. Keshni qayta yuklang."
+
+#: usr/lib/linuxmint/mintSources/mintSources.py:1186
+msgid "No duplicate entries were found."
+msgstr "Ikki nusxadagi yozuvlar topilmadi."
+
+#: usr/lib/linuxmint/mintSources/mintSources.py:1199
+msgid ""
+"Error with your APT configuration, you may have to reload the cache first."
+msgstr ""
+"APT konfiguratsiyasida xatolik yuz berdi, avval keshni qayta yuklashingiz "
+"kerak bo‘lishi mumkin."
+
+#: usr/lib/linuxmint/mintSources/mintSources.py:1294
+msgid "All missing keys were successfully added."
+msgstr "Barcha yetishmayotgan kalitlar muvaffaqiyatli qo‘shildi."
+
+#: usr/lib/linuxmint/mintSources/mintSources.py:1296
+msgid "Not all missing keys could be found."
+msgstr "Barcha yetishmayotgan kalitlarni topib bo‘lmadi."
+
+#: usr/lib/linuxmint/mintSources/mintSources.py:1299
+msgid "Keys were added for the following repositories:"
+msgstr "Quyidagi repozitoriylar uchun kalitlar qo‘shildi:"
+
+#: usr/lib/linuxmint/mintSources/mintSources.py:1303
+msgid "Keys are still missing for the following repositories:"
+msgstr "Quyidagi repozitoriylar uchun kalitlar hali ham mavjud emas:"
+
+#: usr/lib/linuxmint/mintSources/mintSources.py:1304
+msgid ""
+"Add the remaining missing key(s) manually or remove the corresponding "
+"repositories or PPAs."
+msgstr ""
+"Qolgan yetishmayotgan kalit(lar)ni qo‘lda qo‘shing yoki tegishli "
+"repozitoriylarni yoki PPAlarni olib tashlang."
+
+#: usr/lib/linuxmint/mintSources/mintSources.py:1312
+msgid "Please reload the cache."
+msgstr "Keshni qayta yuklang."
+
+#: usr/lib/linuxmint/mintSources/mintSources.py:1317
+msgid "No missing keys were found."
+msgstr "Hech qanday yetishmayotgan kalit topilmadi."
+
+#: usr/lib/linuxmint/mintSources/mintSources.py:1353
+msgid "Open.."
+msgstr "Ochish..."
+
+#: usr/lib/linuxmint/mintSources/mintSources.py:1356
+#: usr/lib/linuxmint/mintSources/mintSources.py:1637
+#: usr/lib/linuxmint/mintSources/mintSources.py:1776
+#: usr/lib/linuxmint/mintSources/mintsources.glade.h:4
+msgid "Cancel"
+msgstr "Bekor qilish"
+
+#: usr/lib/linuxmint/mintSources/mintSources.py:1357
+#: usr/lib/linuxmint/mintSources/mintsources.glade.h:17
+msgid "Open"
+msgstr "Ochish"
+
+#: usr/lib/linuxmint/mintSources/mintSources.py:1369
+msgid ""
+"Please enter the fingerprint of the public key you want to download from "
+"keyserver.ubuntu.com:"
+msgstr ""
+"Keyserver.ubuntu.com saytidan yuklab olmoqchi bo‘lgan ochiq kalitning barmoq "
+"izini kiriting:"
+
+#: usr/lib/linuxmint/mintSources/mintSources.py:1382
+msgid "Are you sure you want to permanently remove the selected keys?"
+msgstr "Tanlangan kalitlarni butunlay olib tashlashga ishonchingiz komilmi?"
+
+#: usr/lib/linuxmint/mintSources/mintSources.py:1408
+msgid "Please enter the name or the URL of the PPA you want to add:"
+msgstr "Qo‘shmoqchi bo‘lgan PPA nomini yoki URL manzilini kiriting:"
+
+#: usr/lib/linuxmint/mintSources/mintSources.py:1417
+msgid "The name of the PPA you entered isn't formatted correctly."
+msgstr "Siz kiritgan PPA nomi toʻgʻri formatlanmagan."
+
+#: usr/lib/linuxmint/mintSources/mintSources.py:1473
+msgid "Edit the URL of the PPA"
+msgstr "Ushbu PPA ning URL ini tahrirlash"
+
+#: usr/lib/linuxmint/mintSources/mintSources.py:1479
+msgid "Are you sure you want to permanently remove the selected PPAs?"
+msgstr "Tanlangan PPAlarni butunlay olib tashlashga ishonchingiz komilmi?"
+
+#: usr/lib/linuxmint/mintSources/mintSources.py:1529
+msgid ""
+"The content of this PPA is not available. Please refresh the cache and try "
+"again."
+msgstr ""
+"Ushbu PPA ning tarkibini ko‘rish imkoni yo‘q. Keshni yangilang va yana "
+"urinib ko‘ring."
+
+#: usr/lib/linuxmint/mintSources/mintSources.py:1549
+msgid "Please enter the name of the repository you want to add:"
+msgstr "Qo‘shmoqchi bo‘lgan repozitoriy nomini kiriting:"
+
+#: usr/lib/linuxmint/mintSources/mintSources.py:1566
+msgid ""
+"This repository is already configured, you cannot add it a second time."
+msgstr ""
+"Ushbu repozitoriy allaqachon sozlangan, uni ikkinchi marta qo‘sha olmaysiz."
+
+#: usr/lib/linuxmint/mintSources/mintSources.py:1573
+msgid "Edit the URL of the repository"
+msgstr "Repozitoriy URL ini tahrirlash"
+
+#: usr/lib/linuxmint/mintSources/mintSources.py:1579
+msgid ""
+"Are you sure you want to permanently remove the selected repositories?"
+msgstr ""
+"Tanlangan repozitoriylarni butunlay olib tashlashga ishonchingiz komilmi?"
+
+#: usr/lib/linuxmint/mintSources/mintSources.py:1638
+#: usr/lib/linuxmint/mintSources/mintSources.py:1775
+msgid "OK"
+msgstr "OK"
+
+#: usr/lib/linuxmint/mintSources/mintSources.py:1771
+msgid "Your configuration changed"
+msgstr "Konfiguratsiya o‘zgartirildi"
+
+#: usr/lib/linuxmint/mintSources/mintSources.py:1771
+msgid "Click OK to update your APT cache"
+msgstr "APT keshini yangilash uchun OK tugmasini bosing"
+
+#: usr/lib/linuxmint/mintSources/ppa_browser.py:88
+#, python-format
+msgid "version %s already installed"
+msgstr "%s versiyasi allaqachon tizimga o‘rnatilgan"
+
+#: usr/lib/linuxmint/mintSources/ppa_browser.py:91
+msgid "already installed"
+msgstr "allaqachon o‘rnatilgan"
+
+#: usr/lib/linuxmint/mintSources/foreign_packages.py:112
+#: usr/lib/linuxmint/mintSources/mintsources.glade.h:1
+msgid "Foreign packages"
+msgstr "Begona paketlar"
+
+#: usr/lib/linuxmint/mintSources/foreign_packages.py:119
+#: usr/lib/linuxmint/mintSources/mintsources.glade.h:5
+msgid "Downgrade"
+msgstr "Darajasini pasaytirish"
+
+#: usr/lib/linuxmint/mintSources/foreign_packages.py:120
+#: usr/lib/linuxmint/mintSources/mintsources.glade.h:2
+msgid ""
+"The version of the following packages doesn't match the one from the "
+"repositories:"
+msgstr "Quyidagi paketlar versiyasi repozitoriylardagiga mos kelmaydi:"
+
+#: usr/lib/linuxmint/mintSources/foreign_packages.py:122
+#: usr/lib/linuxmint/mintSources/mintsources.glade.h:16
+msgid "Remove"
+msgstr "Olib tashlash"
+
+#: usr/lib/linuxmint/mintSources/foreign_packages.py:123
+msgid ""
+"The packages below are installed on your computer but not present in the "
+"repositories:"
+msgstr ""
+"Quyidagi paketlar kompyuteringizga o'rnatilgan, ammo repozitoriylarda mavjud "
+"emas:"
+
+#: usr/lib/linuxmint/mintSources/foreign_packages.py:128
+#: usr/lib/linuxmint/mintSources/foreign_packages.py:275
+#: usr/lib/linuxmint/mintSources/mintsources.glade.h:3
+msgid "Select All"
+msgstr "Hammasini tanlash"
+
+#: usr/lib/linuxmint/mintSources/foreign_packages.py:146
+msgid "Package"
+msgstr "Paket"
+
+#: usr/lib/linuxmint/mintSources/foreign_packages.py:151
+msgid "Installed version"
+msgstr "O‘rnatilgan versiya"
+
+#: usr/lib/linuxmint/mintSources/foreign_packages.py:157
+msgid "Repository version"
+msgstr "Repozitoriy versiyasi"
+
+#: usr/lib/linuxmint/mintSources/foreign_packages.py:278
+msgid "Clear"
+msgstr "Tozalash"
+
+#: usr/bin/add-apt-repository:19
+msgid "Error: must run as root"
+msgstr "Xato: root sifatida ishga tushirilishi kerak"
+
+#: usr/bin/add-apt-repository:23
+msgid "Error: need a repository as argument"
+msgstr "Xato: argument sifatida repozitoriy kerak"
+
+#: generate_desktop_files:25
+msgid "Configure the sources for installable software and updates"
+msgstr ""
+"O‘rnatish mumkin bo‘lgan dasturiy ta'minot va yangilanishlar uchun "
+"manbalarni sozlash"
+
+#: usr/lib/linuxmint/mintSources/mintsources.glade.h:6
+msgid "Warning"
+msgstr "Ogohlantirish"
+
+#: usr/lib/linuxmint/mintSources/mintsources.glade.h:7
+msgid ""
+"Review the information below very carefully before validating the command."
+msgstr ""
+"Buyruqni tasdiqlashdan oldin quyidagi ma'lumotlarni diqqat bilan ko‘rib "
+"chiqing."
+
+#: usr/lib/linuxmint/mintSources/mintsources.glade.h:8
+msgid "Mirrors"
+msgstr "Ko‘zgular"
+
+#: usr/lib/linuxmint/mintSources/mintsources.glade.h:9
+msgid "Optional Sources"
+msgstr "Ixtiyoriy manbalar"
+
+#: usr/lib/linuxmint/mintSources/mintsources.glade.h:10
+msgid "Source code repositories"
+msgstr "Manba kodlari repozitoriylari"
+
+#: usr/lib/linuxmint/mintSources/mintsources.glade.h:11
+msgid "Debug symbols"
+msgstr "Nosozliklarni tuzatish belgilari"
+
+#: usr/lib/linuxmint/mintSources/mintsources.glade.h:12
+msgid "Restore the default settings"
+msgstr "Standart sozlamalarni tiklash"
+
+#: usr/lib/linuxmint/mintSources/mintsources.glade.h:13
+msgid "Official Repositories"
+msgstr "Rasmiy repozitoriylar"
+
+#: usr/lib/linuxmint/mintSources/mintsources.glade.h:14
+msgid "Add"
+msgstr "Qo‘shish"
+
+#: usr/lib/linuxmint/mintSources/mintsources.glade.h:15
+msgid "Edit"
+msgstr "Tahrirlash"
+
+#: usr/lib/linuxmint/mintSources/mintsources.glade.h:18
+msgid "PPAs"
+msgstr "PPA"
+
+#: usr/lib/linuxmint/mintSources/mintsources.glade.h:19
+msgid "Additional Repositories"
+msgstr "Qo‘shimcha repozitoriylar"
+
+#: usr/lib/linuxmint/mintSources/mintsources.glade.h:20
+msgid "Import"
+msgstr "Import qilish"
+
+#: usr/lib/linuxmint/mintSources/mintsources.glade.h:21
+msgid "Download"
+msgstr "Yuklab olish"
+
+#: usr/lib/linuxmint/mintSources/mintsources.glade.h:22
+msgid "Authentication Keys"
+msgstr "Autentifikatsiya kalitlari"
+
+#: usr/lib/linuxmint/mintSources/mintsources.glade.h:23
+msgid "Fix MergeList problems"
+msgstr "MergeList muammolarini hal etish"
+
+#: usr/lib/linuxmint/mintSources/mintsources.glade.h:24
+msgid "Purge residual configuration"
+msgstr "Qolgan konfiguratsiyani tozalash"
+
+#: usr/lib/linuxmint/mintSources/mintsources.glade.h:25
+msgid "Remove duplicate entries"
+msgstr "Ikki nusxadagi yozuvlarni olib tashlash"
+
+#: usr/lib/linuxmint/mintSources/mintsources.glade.h:26
+msgid "Add missing keys"
+msgstr "Yetishmayotgan kalitlarni qo‘shish"
+
+#: usr/lib/linuxmint/mintSources/mintsources.glade.h:27
+msgid "Remove foreign packages"
+msgstr "Begona paketlarni tizimdan olib tashlash"
+
+#: usr/lib/linuxmint/mintSources/mintsources.glade.h:28
+msgid "Downgrade foreign packages"
+msgstr "Begona paketlar darajasini pasaytirish"
+
+#: usr/lib/linuxmint/mintSources/mintsources.glade.h:29
+msgid "Maintenance"
+msgstr "Texnik xizmat"
+
+#: usr/lib/linuxmint/mintSources/mintsources.glade.h:30
+msgid "Select Mirror"
+msgstr "Ko‘zguni tanlash"
+
+#: usr/lib/linuxmint/mintSources/mintsources.glade.h:31
+msgid "Apply"
+msgstr "Qo‘llash"
+
+#: usr/lib/linuxmint/mintSources/mintsources.glade.h:32
+msgid ""
+"This PPA provides the following packages. Please select the ones you want to "
+"install."
+msgstr ""
+"Ushbu PPA quyidagi paketlarni taqdim etadi. O‘rnatmoqchi bo‘lganlarini "
+"tanlang."
+
+#: usr/lib/linuxmint/mintSources/mintsources.glade.h:33
+msgid "Install"
+msgstr "O‘rnatish"

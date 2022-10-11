@@ -1,0 +1,1683 @@
+# Hindi translation for linuxmint
+# Copyright (c) 2018 Rosetta Contributors and Canonical Ltd 2018
+# This file is distributed under the same license as the linuxmint package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2018.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: linuxmint\n"
+"Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
+"POT-Creation-Date: 2019-03-29 10:21+0000\n"
+"PO-Revision-Date: 2021-12-14 17:55+0000\n"
+"Last-Translator: Panwar <Unknown>\n"
+"Language-Team: Hindi <hi@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Launchpad-Export-Date: 2022-10-10 13:12+0000\n"
+"X-Generator: Launchpad (build 762fb15a975e8b23af6a1f86e44e46bfd0451459)\n"
+
+#: ../../boot_options.rst:2
+msgid "Boot options"
+msgstr "बूट विकल्प"
+
+#: ../../boot_options.rst:4
+msgid ""
+"Some graphics cards and motherboards don't work well with the open-source "
+"drivers present in Linux Mint by default."
+msgstr ""
+"कुछ ग्राफ़िक्स कार्ड और मदरबोर्ड लिनक्स मिंट के डिफ़ॉल्ट मुक्त स्रोत ड्राइवर "
+"के साथ सही से काम नहीं करते।"
+
+#: ../../boot_options.rst:7
+msgid "Compatibility mode"
+msgstr "संगतता मोड"
+
+#: ../../boot_options.rst:9
+msgid ""
+"The easiest option is to select ``compatibility mode`` from the USB stick "
+"(or DVD) boot menu."
+msgstr ""
+"सबसे आसान विकल्प है यूएसबी डिवाइस (या डीवीडी) बूट मेन्यू से ``संगतता मोड`` "
+"चुनना।"
+
+#: ../../boot_options.rst:15
+msgid "Grub menu (EFI mode)"
+msgstr "GRUB मेन्यू (EFI मोड)"
+
+#: ../../boot_options.rst:21
+msgid "Isolinux menu (BIOS mode)"
+msgstr "Isolinux मेन्यू (BIOS मोड)"
+
+#: ../../boot_options.rst:23
+msgid "If that doesn't work, you can try the ``nomodeset`` boot option."
+msgstr ""
+"अगर यह भी काम नहीं करता, तो बूट विकल्प` \"nomodeset``\" उपयोग करके देखें।"
+
+#: ../../boot_options.rst:26
+msgid "Nomodeset boot option"
+msgstr "Nomodeset बूट विकल्प"
+
+#: ../../boot_options.rst:28
+msgid ""
+"In EFI mode, highlight the ``Start Linux Mint`` option and press :kbd:`e` to "
+"modify the boot options."
+msgstr ""
+"EFI मोड में, \"लिनक्स मिंट शुरू करें\" को हाईलाइट करें और :kbd:'e' दबाकर बूट "
+"विकल्प संपादित करें।"
+
+#: ../../boot_options.rst:34
+msgid ""
+"Replace ``quiet splash`` with ``nomodeset`` and press :kbd:`F10` to boot."
+msgstr ""
+"\"quiet splash\" को \"nomodeset\" से बदलें और बूट के लिए :kbd:'F10' दबाएँ।"
+
+#: ../../boot_options.rst:36
+msgid ""
+"In BIOS mode, highlight ``Start Linux Mint`` and press :kbd:`Tab` to modify "
+"the boot options."
+msgstr ""
+"BIOS मोड में, \"लिनक्स मिंट शुरू करें\" को हाईलाइट करें और :kbd:'Tab' दबाकर "
+"बूट विकल्प संपादित करें।"
+
+#: ../../boot_options.rst:42
+msgid ""
+"Replace ``quiet splash`` with ``nomodeset`` and press :kbd:`Enter` to boot."
+msgstr ""
+"\"quiet splash\" को \"nomodeset\" से बदलें और बूट के लिए :kbd:'Enter' दबाएँ।"
+
+#: ../../boot_options.rst:45
+msgid ""
+"Repeat this operation post-install in your grub boot menu and read "
+":doc:`drivers` to install additional drivers."
+msgstr ""
+"यह प्रकिया इंस्टॉल-उपरांत बूट मेन्यू में दोहराएँ व अतिरिक्त ड्राइवर इंस्टॉल "
+"करने हेतु :doc:'ड्राइवर' पढ़ें।"
+
+#: ../../boot_options.rst:48
+msgid "Other boot options"
+msgstr "अन्य बूट विकल्प"
+
+#: ../../boot_options.rst:50
+msgid "If you still cannot boot try one of the following solutions:"
+msgstr "अगर अब भी बूट नहीं हो रहा, तो नीचे दिए उपाय करके देखें:"
+
+#: ../../boot_options.rst:52
+msgid "Try ``nouveau.noaccel=1`` instead of ``nomodeset``."
+msgstr "\"nomodeset\" की बजाय \"nouveau.noaccel=1\" उपयोग करें"
+
+#: ../../boot_options.rst:53
+msgid ""
+"After the installation, use :menuselection:`Advanced Options --> Recovery "
+"mode` from the boot menu and choose ``resume``."
+msgstr ""
+"इंस्टॉल के उपरांत, बूट मेन्यू में :menuselection:`विस्तृत विकल्प --> रिकवरी "
+"मोड` द्वारा ``चालू करें`` चुनें।"
+
+#: ../../boot_options.rst:56
+msgid "Install an older release"
+msgstr "पुराना संस्करण इंस्टॉल करें"
+
+#: ../../boot_options.rst:58
+msgid ""
+"If your computer has compatibility issues with the latest Linux Mint "
+"release, install a previous release from the same Linux Mint series."
+msgstr ""
+"यदि आपके कंप्यूटर में नवीनतम लिनक्स मिंट रिलीज़ के साथ संगतता समस्याएँ हैं, "
+"तो उसी लिनक्स मिंट श्रृंखला की पिछली रिलीज़ इंस्टॉल करें।"
+
+#: ../../boot_options.rst:60
+msgid ""
+"For instance, if you can't install Linux Mint 18.3 (which comes with a 4.10 "
+"kernel), install Linux Mint 18 (which comes with a 4.4 kernel) and upgrade "
+"to 18.3."
+msgstr ""
+"जैसे कि, यदि आप लिनक्स मिंट 18.3 (कर्नेल संस्करण 4.10) इंस्टॉल नहीं कर पा "
+"रहे हैं, तो लिनक्स मिंट 18 (कर्नेल संस्करण 4.4) इंस्टॉल करे व 18.3 में "
+"अपग्रेड करें।"
+
+#: ../../boot_options.rst:63
+msgid ""
+"The first release in each series uses an LTS (Long Term Support) kernel. "
+"Upgrading from this release to the latest one in the series does not change "
+"your kernel."
+msgstr ""
+"प्रत्येक श्रृंखला की प्रथम रिलीज़ LTS (दीर्घकालिक समर्थन) कर्नेल उपयोग करती "
+"है। इस रिलीज़ से श्रृंखला की नवीनतम में अपग्रेड करने पर आपका कर्नेल बदला नहीं "
+"जाता है।"
+
+#: ../../boot.rst:2
+msgid "Boot Linux Mint"
+msgstr "लिनक्स मिंट बूट करें"
+
+#: ../../boot.rst:4
+msgid ""
+"Now that you have Linux Mint on a USB stick (or DVD) boot the computer from "
+"it."
+msgstr "अब इस लिनक्स मिंट यूएसबी डिवाइस (या डीवीडी) से कंप्यूटर से बूट करें।"
+
+#: ../../boot.rst:6
+msgid "Insert your USB stick (or DVD) into the computer."
+msgstr "यूएसबी डिवाइस (या डीवीडी) को कंप्यूटर में लगाएँ।"
+
+#: ../../boot.rst:8 ../../drivers.rst:23 ../../efi.rst:61 ../../oem.rst:21
+msgid "Restart the computer."
+msgstr "कंप्यूटर पुनः आरंभ करें"
+
+#: ../../boot.rst:10
+msgid ""
+"Before your computer boots your current operating system (Windows, Mac, "
+"Linux) you should see your `BIOS <https://en.wikipedia.org/wiki/BIOS>`_ "
+"loading screen. Check the screen or your computer's documentation to know "
+"which key to press and instruct your computer to boot on USB (or DVD)."
+msgstr ""
+"वर्तमान ऑपरेटिंग सिस्टम (विंडोज, मैक, लिनक्स) बूट करने से पूर्व अपनी `BIOS "
+"<https://en.wikipedia.org/wiki/BIOS>`_ लोड स्क्रीन आवश्यक देख लें। स्क्रीन "
+"पर देखकर या कंप्यूटर प्रलेखन द्वारा ज्ञात करें कि यूएसबी (या डीवीडी) से "
+"कंप्यूटर बूट करने हेतु कौन सी कुंजी दबानी होती है।"
+
+#: ../../boot.rst:13
+msgid ""
+"Most BIOS have a special key you can press to select the boot device and all "
+"of them have a special key to enter the BIOS configuration screen (from "
+"which you can define the boot order). Depending on the BIOS, these special "
+"keys can be :kbd:`Escape`, :kbd:`F1`, :kbd:`F2`, :kbd:`F8`, :kbd:`F10`, "
+":kbd:`F11`, :kbd:`F12`, or :kbd:`Delete`. That information is usually "
+"briefly written on the screen during the boot sequence."
+msgstr ""
+"अधिकतर BIOS में एक विशिष्ट कुंजी दबाकर बूट उपकरण चयन व BIOS विन्यास स्क्रीन "
+"(बूट क्रम निर्धारण हेतु) हेतु अभिगम उपलब्ध है। BIOS अनुरूप ये कुंजियाँ "
+":kbd:`Escape`, :kbd:`F1`, :kbd:`F2`, :kbd:`F8`, :kbd:`F10`, :kbd:`F11`, "
+":kbd:`F12`, या :kbd:`Delete` हो सकती हैं। यह सूचना बूट आरंभ के दौरान स्क्रीन "
+"पर कुछ समय के लिए प्रदर्शित की जाती है।"
+
+#: ../../boot.rst:16
+msgid ""
+"On Macs, keep your finger pressed on the :kbd:`Alt` or :kbd:`Option` key "
+"after hearing the boot sound."
+msgstr ""
+"एप्पल मैक हेतु, बूट ध्वनि के उपरांत :kbd:`Alt` या :kbd:`Option` कुंजी दबाएँ "
+"रखें।"
+
+#: ../../boot.rst:18
+msgid ""
+"The Linux Mint ISO can be booted both in EFI or BIOS mode. In EFI mode it "
+"shows a grub menu. In BIOS mode it shows an isolinux menu."
+msgstr ""
+"लिनक्स मिंट आईएसओ फाइल EFI या BIOS दोनों मोड में बूट करना संभव है। EFI मोड "
+"में grub मेन्यू व BIOS मोड में isolinux मेन्यू प्रदर्शित होगी।"
+
+#: ../../boot.rst:24
+msgid "The isolinux menu in BIOS mode"
+msgstr "BIOS मोड की isolinux मेन्यू"
+
+#: ../../boot.rst:30
+msgid "The grub menu in EFI mode"
+msgstr "grub मोड में EFI मेन्यू"
+
+#: ../../boot.rst:32
+msgid ""
+"From one of these menu, press :kbd:`Enter` to start Linux Mint from your USB "
+"stick (or DVD)."
+msgstr ""
+"मेन्यू में से, :kbd:'Enter' दबाकर लिनक्स मिंट अपनी से यूएसबी डिवाइस (या "
+"डीवीडी) से शुरू करें।"
+
+#: ../../burn.rst:2
+msgid "Create the bootable media"
+msgstr "बूट योग्य मीडिया बनाएँ"
+
+#: ../../burn.rst:4
+msgid "The easiest way to install Linux Mint is with a USB stick."
+msgstr "लिनक्स मिंट इंस्टॉल करने का सबसे सरल माध्यम है यूएसबी डिवाइस।"
+
+#: ../../burn.rst:6
+msgid "If you cannot boot from USB, you can use a blank DVD."
+msgstr "अगर यूएसबी डिवाइस से बूट नहीं कर सकते तो खाली डीवीडी उपयोग करें।"
+
+#: ../../burn.rst:9
+msgid "How to make a bootable USB stick"
+msgstr "बूट योग्य यूएसबी डिवाइस कैसे बनाएँ"
+
+#: ../../burn.rst:12
+msgid "In Linux Mint"
+msgstr "लिनक्स मिंट में"
+
+#: ../../burn.rst:14
+msgid ""
+"Right-click the ISO file and select :menuselection:`Make Bootable USB "
+"Stick`, or launch :menuselection:`Menu --> Accessories --> USB Image Writer`."
+msgstr ""
+"ISO फ़ाइल पर राइट-क्लिक कर :menuselection:'बूट योग्य यूएसबी डिवाइस बनाएँ' "
+"चुनें, या फिर :menuselection:'मेन्यू -->सहायक साधन --> यूएसबी फ़ाइल राइटर' "
+"लॉन्च कर उपयोग करें।"
+
+#: ../../burn.rst:20
+msgid "Select your USB device and click :guilabel:`Write`."
+msgstr "डिवाइस चुनकर :guilabel:'राइट करें' पर क्लिक करें।"
+
+#: ../../burn.rst:23
+msgid "In Windows, Mac OS, or other Linux distributions"
+msgstr "विंडोज, मैक OS, या दूसरे लिनक्स वितरण में"
+
+#: ../../burn.rst:25
+msgid ""
+"Download `Etcher <https://www.balena.io/etcher/>`_, install it and run it."
+msgstr ""
+"Etcher <https://www.balena.io/etcher/>`  को डाउनलोड करें, व इंस्टॉल कर उसे "
+"निष्पादित करें।"
+
+#: ../../burn.rst:31
+msgid "Using Etcher"
+msgstr "Etcher उपयोग करना"
+
+#: ../../burn.rst:33
+msgid "Click :guilabel:`Select image` and select your ISO file."
+msgstr ":guilabel:'छवि चुनें' पर क्लिक कर ISO फ़ाइल चुनें।"
+
+#: ../../burn.rst:35
+msgid "Click :guilabel:`Select drive` and select your USB stick."
+msgstr ":guilabel:'ड्राइव चुनें' पर क्लिक यूएसबी डिवाइस चुनें।"
+
+#: ../../burn.rst:37
+msgid "Click :guilabel:`Flash!`."
+msgstr "क्लिक करें :guilabel:`Flash!`।"
+
+#: ../../burn.rst:41
+msgid "How to make a bootable DVD"
+msgstr "एक बूट योग्य डीवीडी कैसे बनाए"
+
+#: ../../burn.rst:43
+msgid "Optical discs are slow and burning to disc is prone to errors."
+msgstr "सीडी पर फाइल कॉपी करना धीमा व त्रुटि की संभावना अधिक होती है।"
+
+#: ../../burn.rst:46
+msgid "To prevent issues, burn at the lowest possible speed."
+msgstr "मंद गति पर सीडी कॉपी करने से त्रुटि संभावना कम होती है।"
+
+#: ../../burn.rst:49
+msgid ""
+"Burn the content of the ISO onto the DVD, not the ISO file itself. When "
+"finished, your DVD should contain directories such as ``boot`` and "
+"``casper``, it shouldn't be an empty DVD containing an .iso file."
+msgstr ""
+"डीवीडी पर आईएसओ फाइल की सामग्री कॉपी करें न की आईएसओ फाइल। कॉपी उपरांत "
+"सुनिश्चित करें कि डीवीडी में ``boot`` व ``casper`` नामक डायरेक्टरी हैं, ऐसा "
+"न हो कि डीवीडी में केवल एक .iso फाइल हो।"
+
+#: ../../burn.rst:52
+msgid "In Linux"
+msgstr "लिनक्स में"
+
+#: ../../burn.rst:53
+msgid "Install and use ``xfburn``."
+msgstr "``xfburn`` इंस्टॉल कर उपयोग करें।"
+
+#: ../../burn.rst:56
+msgid "In Windows"
+msgstr "विंडोज में"
+
+#: ../../burn.rst:57
+msgid "Right-click the ISO file and select :menuselection:`Burn disk image`."
+msgstr ""
+"आईएसओ फाइल पर दायां क्लिक कर चुनें :menuselection:`डिस्क फाइल कॉपी करें`।"
+
+#: ../../burn.rst:59
+msgid ""
+"To make sure the ISO was burned without any errors, select "
+":menuselection:`Verify disc after burning`."
+msgstr ""
+"आईएसओ फाइल हेतु त्रुटि रहित कॉपी सुनिश्चित करने हेतु चुनें "
+":menuselection:`कॉपी उपरांत डिस्क प्रमाणीकरण`।"
+
+#: ../../burn.rst:62
+msgid "In Mac OS"
+msgstr "मैक OS में"
+
+#: ../../burn.rst:63
+msgid ""
+"Right-click the ISO file and select :menuselection:`Burn Disk Image to Disc`."
+msgstr ""
+"आईएसओ फाइल पर दायां क्लिक कर चुनें :menuselection:`डिस्क फाइल डिस्क पर कॉपी "
+"करें`।"
+
+#: ../../choose.rst:2
+msgid "Choose the right edition"
+msgstr "उचित संस्करण चुनें"
+
+#: ../../choose.rst:4
+msgid ""
+"You can download Linux Mint from the `Linux Mint website "
+"<https://linuxmint.com/download.php>`_."
+msgstr ""
+"आप `लिनक्स मिंट वेबसाइट <https://linuxmint.com/download.php>`_ से लिनक्स "
+"मिंट डाउनलोड कर सकते हैं।"
+
+#: ../../choose.rst:6
+msgid ""
+"Read below to choose which edition and architecture are right for you."
+msgstr "उपयुक्त संस्करण व संरचना चयन हेतु आगे पढ़ें।"
+
+#: ../../choose.rst:9
+msgid "Cinnamon, MATE or Xfce?"
+msgstr "सिनेमन, मैटे या Xfce?"
+
+#: ../../choose.rst:11
+msgid ""
+"Linux Mint comes in 3 different flavours, each featuring a different desktop "
+"environment."
+msgstr ""
+"लिनक्स मिंट के 3 विभिन्न संस्करण है, प्रत्येक का डेस्कटॉप वातावरण भिन्न है।"
+
+#: ../../choose.rst:14 ../../choose.rst:26
+msgid "Cinnamon"
+msgstr "सिनेमन"
+
+#: ../../choose.rst:14
+msgid "The most modern, innovative and full-featured desktop"
+msgstr "सबसे आधुनिक, उन्नत व विशेषताओं से युक्त डेस्कटॉप"
+
+#: ../../choose.rst:15 ../../choose.rst:35
+msgid "MATE"
+msgstr "मैटे"
+
+#: ../../choose.rst:15
+msgid "A more traditional, and faster desktop"
+msgstr "अधिक पारंपरिक व तीव्र डेस्कटॉप"
+
+#: ../../choose.rst:16 ../../choose.rst:44
+msgid "Xfce"
+msgstr "Xfce"
+
+#: ../../choose.rst:16
+msgid "The most lightweight desktop"
+msgstr "सबसे हल्का डेस्कटॉप"
+
+#: ../../choose.rst:19
+msgid ""
+"The most popular version of Linux Mint is the Cinnamon edition. Cinnamon is "
+"primarily developed for and by Linux Mint. It is slick, beautiful, and full "
+"of new features."
+msgstr ""
+"लिनक्स मिंट का सबसे प्रसिद्ध संस्करण है सिनेमन। इसका विकास लिनक्स मिंट "
+"द्वारा व हेतु किया गया है। यह कार्यकुशल, मनमोहक व नवीन विशेषताओं से युक्त है।"
+
+#: ../../choose.rst:28
+msgid ""
+"Linux Mint is also involved in the development of MATE, a classic desktop "
+"environment which is the continuation of GNOME 2, Linux Mint's default "
+"desktop between 2006 and 2011. Although it misses a few features and its "
+"development is slower than Cinnamon's, MATE uses less resources and can run "
+"faster on older computers."
+msgstr ""
+"लिनक्स मिंट मैटे के विकास में भी योगदानकर्ता है, यह एक पारंपरिक डेस्कटॉप "
+"वातावरण जो गनोम 2 का पुनरारंभ है, गनोम 2006 se 2011 तक लिनक्स मिंट का "
+"डिफ़ॉल्ट डेस्कटॉप था। यद्यपि इसमें पूर्व संस्करण की कुछ विशेषताओं नहीं है "
+"एवं इसकी विकास प्रक्रिया सिनेमन की तुलना में धीमा है, लेकिन मैटे कम संसाधनों "
+"का उपयोग करता है व पुराने कंप्यूटरों पर तीव्र गति से कार्य करता है।"
+
+#: ../../choose.rst:37
+msgid ""
+"Xfce is a lightweight desktop environment. It doesn't support as many "
+"features as Cinnamon or MATE, but it's extremely stable and very light on "
+"resource usage."
+msgstr ""
+"एक्सएफसीई एक सरल डेस्कटॉप वातावरण है। इसमें सिनेमन या मैटे जितनी विशेषताएँ "
+"नहीं हैं परंतु यह अत्यंत स्थिर व संसाधन खपत की दृष्टि से काफी हल्का है ।"
+
+#: ../../choose.rst:46
+msgid ""
+"Of course, all three desktops are great and Linux Mint is extremely proud of "
+"each edition. Although there are more features and better support in some "
+"editions than others, and some do run faster and use less resources than "
+"others, they're all great alternatives and choosing the right edition is "
+"largely a matter of taste."
+msgstr ""
+"ये तीनों डेस्कटॉप अपने आप में उत्कृष्ट हैं व लिनक्स मिंट हेतु गौरव का विषय "
+"है। विशेषताओं, समर्थन, कार्यक्षमता, संसाधन खपत में अंतर संभव है परंतु ये सभी "
+"श्रेष्ठ विकल्प हैं व डेस्कटॉप चयन उपयोक्ता अनुरूप उपयोग पर निर्भर है।"
+
+#: ../../choose.rst:48
+msgid ""
+"Other than their features and performance, Cinnamon, MATE and Xfce also "
+"represent three different desktop environments, with different menus, "
+"different panels and configuration tools. The right one for you is the one "
+"where you feel at home."
+msgstr ""
+"कार्यक्षमता व विशेषताओं के अतिरिक्त, सिनेमन, मैटे व एक्सएफसीई हेतु कार्यरत "
+"डेस्कटॉप वातावरण, मेन्यू, पैनल व विन्यास साधन भिन्न हैं। अपनी सुविधा अनुरूप "
+"चयन करें।"
+
+#: ../../choose.rst:50
+msgid ""
+"If you are unsure which desktop to choose start with the Cinnamon edition. "
+"Try them all eventually when you have the time. All three of them have their "
+"own audience within the Linux Mint community and they're all very popular."
+msgstr ""
+"यदि निश्चित न हो तो डेस्कटॉप हेतु सिनेमन संस्करण चुनें। समय उपलब्ध होने पर "
+"सभी उपयोग कर देखें। लिनक्स मिंट उपयोक्ता समुदाय में तीनों प्रचलित व लोकप्रिय "
+"हैं।"
+
+#: ../../choose.rst:54
+msgid "32-bit or 64-bit?"
+msgstr "32-बिट या 64-बिट?"
+
+#: ../../choose.rst:56
+msgid "From version 20 onward, only 64-bit is available."
+msgstr "संस्करण संख्या के उपरांत केवल 64-बिट ही उपलब्ध है।"
+
+#: ../../choose.rst:58
+msgid ""
+"The 32-bit ISO images on prior versions are provided for compatibility with "
+"older computers. 32-bit processors are extremely rare nowadays and most "
+"computers are able to run in 64-bit. If your computer was manufactured after "
+"2007, you probably have a 64-bit processor."
+msgstr ""
+"पुराने कंप्यूटर के साथ संगतता हेतु पूर्व संस्करणों की 32-बिट आईएसओ फाइलें "
+"उपलब्ध कराई गई हैं। वर्तमान कल में 32-बिट प्रोसेसर अत्यंत दुर्लभ हैं व "
+"अधिकांश कंप्यूटर 64-बिट उपयोग करने में सक्षम हैं। यदि आपका कंप्यूटर 2007 के "
+"बाद निर्मित है तो संभवतः आपका प्रोसेसर 64-बिट का ही है।"
+
+#: ../../choose.rst:60
+msgid ""
+"If you have an old computer and you are unsure whether or not it can run in "
+"64-bit, read `X86 Chronology "
+"<https://en.wikipedia.org/wiki/X86#Chronology>`_."
+msgstr ""
+"यदि आप अपने पुराने कंप्यूटर की 64-बिट हेतु संगतता के बारे में निश्चित नहीं "
+"हैं तो इस संदर्भ में यहाँ पढ़ें `X86 घटनाक्रम "
+"<https://en.wikipedia.org/wiki/X86#Chronology>`_।"
+
+#: ../../choose.rst:63
+msgid ""
+"You can try to boot Linux Mint 64-bit on your computer. If it isn't "
+"compatible, nothing bad will happen. You will just get an error message."
+msgstr ""
+"आप कंप्यूटर पर लिनक्स मिंट का 64-बिट संस्करण बूट करके देख सकते हैं। असंगत "
+"होने पर, सिस्टम केवल एक त्रुटि संदेश प्रदर्शित करेगा।"
+
+#: ../../choose.rst:66
+msgid ""
+"If you cannot boot or install Linux Mint because your hardware is too recent "
+"and is not properly detected see the `Edge ISO Images <https://linuxmint-"
+"user-guide.readthedocs.io/en/latest/edge.html>`_ chapter in the Linux Mint "
+"User Guide for an alternative ISO."
+msgstr ""
+"यदि आप नवीन हार्डवेयर होने या सिस्टम द्वारा हार्डवेयर की पहचान न होने के "
+"कारण लिनक्स मिंट को बूट या इंस्टॉल नहीं कर पा रहे हैं तो वैकल्पिक आईएसओ हेतु "
+"लिनक्स मिंट उपयोक्ता गाइड में `Edge आईएसओ फाइलें <https://linuxmint-user-"
+"guide.readthedocs.io/en/latest/edge.html>`_ का अध्याय पढ़ें।"
+
+#: ../../codecs.rst:2
+msgid "Multimedia codecs"
+msgstr "मल्टीमीडिया कोडेक्स"
+
+#: ../../codecs.rst:4
+msgid "Some multimedia content requires additional codecs to be installed."
+msgstr ""
+"कुछ मल्टीमीडिया सामग्री हेतु अतिरिक्त कोडेक्स इंस्टॉल करना आवश्यक होता है।"
+
+#: ../../codecs.rst:7
+msgid ""
+"If you were online when installing Linux Mint and you ticked the option to "
+"install these codecs, they are already installed."
+msgstr ""
+"लिनक्स मिंट प्रक्रिया के दौरान इंटरनेट कनेक्ट होने के साथ ही कोडेक्स इंस्टॉल "
+"करने हेतु विकल्प चिन्हित होने पर, वे इंस्टॉल हो जाएँगे।"
+
+#: ../../codecs.rst:9
+msgid ""
+"Launch :menuselection:`Menu --> Sound & Video --> Install Multimedia Codecs`."
+msgstr ""
+":menuselection:`मेन्यू --> ध्वनि व वीडियो --> मल्टीमीडिया कोडेक्स इंस्टॉल` "
+"उपयोग करें।"
+
+#: ../../codecs.rst:14
+msgid "Click :guilabel:`Install`."
+msgstr ":guilabel:`इंस्टॉल` पर क्लिक करें।"
+
+#: ../../codecs.rst:16
+msgid ""
+"Enter your password and wait for the codecs to be installed on your computer."
+msgstr ""
+"कूटशब्द दर्ज कर, कंप्यूटर पर कोडेक्स का इंस्टॉल पूर्ण होने की प्रतीक्षा करें।"
+
+#: ../../drivers.rst:2
+msgid "Hardware drivers"
+msgstr "हार्डवेयर ड्राइवर"
+
+#: ../../drivers.rst:4
+msgid ""
+"One of the first things to do after installing Linux Mint is to check for "
+"available hardware drivers."
+msgstr "लिनक्स मिंट इंस्टॉल उपरांत सर्वप्रथम उपलब्ध हार्डवेयर ड्राइवर खोजें।"
+
+#: ../../drivers.rst:6
+msgid "Launch :menuselection:`Menu --> Administration --> Driver Manager`."
+msgstr ":menuselection:`मेन्यू --> प्रशासन --> ड्राइवर प्रबंधक` उपयोग करें।"
+
+#: ../../drivers.rst:13
+msgid ""
+"If you are offline, the Driver Manager will complain that it cannot connect "
+"to the Internet."
+msgstr ""
+"इंटरनेट से कनेक्ट न होने पर ड्राइवर प्रबंधक संबंधित संदेश प्रदर्शित करेगा।"
+
+#: ../../drivers.rst:19
+msgid ""
+"Insert your bootable Linux Mint USB stick (or DVD), wait for it to be "
+"mounted, and click :guilabel:`OK`."
+msgstr ""
+"बूट योग्य लिनक्स मिंट यूएसबी (या डीवीडी) सिस्टम में लगाकर माउंट होने की "
+"प्रतीक्षा करें व फिर :guilabel:`ठीक है` पर क्लिक करें।"
+
+#: ../../drivers.rst:21
+msgid ""
+"Tick the appropriate checkboxes to select the available drivers and click "
+":guilabel:`Apply Changes`."
+msgstr ""
+"उचित विकल्प चिन्हित कर उपलब्ध ड्राइवर चुनें व :guilabel:`बदलाव लागू करें` पर "
+"क्लिक करें।"
+
+#: ../../efi.rst:2
+msgid "EFI"
+msgstr "EFI"
+
+#: ../../efi.rst:5
+msgid "SecureBoot"
+msgstr "SecureBoot"
+
+#: ../../efi.rst:7
+msgid ""
+"If after installing Linux Mint in EFI mode, you are unable to boot due to a "
+"``Secure Boot Violation``, you can try one of the following solutions:"
+msgstr ""
+"लिनक्स मिंट EFI मोड में इंस्टॉल करने के उपरांत ``सुरक्षित बूट उल्लंघन`` के "
+"कारण बूट विफल होने पर निम्नलिखित समाधान करें :"
+
+#: ../../efi.rst:15
+msgid "Restart the installation:"
+msgstr "इंस्टॉल पुनः आरंभ करें :"
+
+#: ../../efi.rst:14
+msgid "Connect to the Internet before the installation"
+msgstr "इंस्टॉल पूर्व इंटरनेट से कनेक्ट करें"
+
+#: ../../efi.rst:15
+msgid ""
+"**Do not** select ``Install third-party software for graphics and Wi-Fi "
+"hardware, Flash, MP3 and other media``."
+msgstr ""
+"``ग्राफ़िक्स, वाईफाई हार्डवेयर, फ़्लैश, एमपी3 व दूसरे मीडिया हेतु अन्य-स्रोत "
+"से सॉफ्टवेयर इंस्टॉल करें`` का विकल्प **चयनित न करें**।"
+
+#: ../../efi.rst:17
+msgid "Disable ``SecureBoot`` in the ``BIOS`` settings of your computer."
+msgstr "कंप्यूटर ``BIOS`` की सेटिंग्स में से ``SecureBoot`` निष्क्रिय करें।"
+
+#: ../../efi.rst:20
+msgid ""
+"For examples of how to disable secure boot on various computers, read "
+"`Managing EFI Boot Loaders for Linux: Dealing with Secure Boot "
+"<http://www.rodsbooks.com/efi-bootloaders/secureboot.html>`_."
+msgstr ""
+"विभिन्न कंप्यूटर मॉडल में सुरक्षित बूट निष्क्रिय करने हेतु पढ़ें `लिनक्स हेतु "
+"EFI बूट लोडर प्रबंधन : सुरक्षित बूट "
+"कार्यप्रणाली<http://www.rodsbooks.com/efi-bootloaders/secureboot.html>`।"
+
+#: ../../efi.rst:23
+msgid "EFI boot order"
+msgstr "EFI बूट क्रम"
+
+#: ../../efi.rst:25
+msgid ""
+"If after installing Linux Mint in EFI mode, your computer skips the boot "
+"menu and boots straight into Windows (or another operating system), you "
+"probably have an issue with the boot order."
+msgstr ""
+"लिनक्स मिंट EFI मोड में इंस्टॉल करने के उपरांत यदि कंप्यूटर बूट मेन्यू "
+"दिखाएँ बिना विंडोज (या अन्य ऑपरेटिंग सिस्टम) आरंभ करें तो यह बूट क्रम संबंधी "
+"समस्या है।"
+
+#: ../../efi.rst:27
+msgid "To modify the boot order:"
+msgstr "बूट क्रम बदलने हेतु :"
+
+#: ../../efi.rst:29 ../../multiboot.rst:18
+msgid "Boot Linux Mint in ``live`` mode (with your USB stick or DVD)."
+msgstr "``लाइव`` मोड में लिनक्स मिंट आरंभ (यूएसबी या डीवीडी से)।"
+
+#: ../../efi.rst:31 ../../multiboot.rst:20
+msgid "Open a terminal."
+msgstr "टर्मिनल खोलें।"
+
+#: ../../efi.rst:33
+msgid "Type ``sudo efibootmgr`` and press :kbd:`Enter`."
+msgstr "`` ``sudo efibootmgr`` ````  टाइप करें व  :kbd:`Enter`  दबाएँ।"
+
+#: ../../efi.rst:35
+msgid "This command lists the available boot options and the boot order."
+msgstr "उपलब्ध बूट विकल्प व बूट क्रम सूचीबद्ध करने हेतु कमांड।"
+
+#: ../../efi.rst:41
+msgid "In the screenshot above, there are three boot options:"
+msgstr "ऊपर दिए स्क्रीनशॉट में बूट हेतु तीन विकल्प हैं :"
+
+#: ../../efi.rst:43
+msgid "``ubuntu`` at ``0000``"
+msgstr "``0000`` पर ``ubuntu``"
+
+#: ../../efi.rst:44
+msgid "``linuxmint`` at ``0001``"
+msgstr "``0001`` पर ``linuxmint``"
+
+#: ../../efi.rst:45
+msgid "``Mac OS X`` at ``0081``"
+msgstr "``0081`` पर ``Mac OS X`"
+
+#: ../../efi.rst:47
+msgid ""
+"The boot order is ``0081``. This indicates that the computer only tries to "
+"boot Mac OS and not Linux Mint."
+msgstr ""
+"बूट क्रम ``0081``। यह कंप्यूटर केवल मैक ओएस आरंभ हेतु प्रयास करेगा न कि "
+"लिनक्स मिंट।"
+
+#: ../../efi.rst:50
+msgid ""
+"For technical reasons Linux Mint uses ``ubuntu`` as its EFI boot name."
+msgstr "तकनीकी कारणों से लिनक्स मिंट का EFI बूट नाम ``उबंटू`` है।"
+
+#: ../../efi.rst:53
+msgid ""
+"To fix the boot order, type ``sudo efibootmgr --bootorder XXXX,YYYY`` (where "
+"``XXXX`` and ``YYYY`` are the operating system boot options you want to "
+"boot)."
+msgstr ""
+"बूट क्रम ठीक करने हेतु टाइप करें ``sudo efibootmgr --bootorder XXXX,YYYY`` "
+"(``XXXX`` व ``YYYY`` इच्छित बूट हेतु ऑपरेटिंग सिस्टम बूट विकल्प हैं)।"
+
+#: ../../efi.rst:59
+msgid ""
+"In the screenshot above, ``sudo efibootmgr --bootorder 0000,0081`` instructs "
+"the computer to first try to boot Linux Mint (``ubuntu`` being the EFI boot "
+"name for Linux Mint), and then Mac OS."
+msgstr ""
+"ऊपर दिए स्क्रीनशॉट अनुसार, ``sudo efibootmgr --bootorder 0000,0081`` कमांड "
+"कंप्यूटर को सर्वप्रथम लिनक्स मिंट (``उबंटू`` - लिनक्स मिंट का EFI बूट नाम) व "
+"फिर मैक ओएस बूट करने हेतु निर्देशित करती है।"
+
+#: ../../efi.rst:64
+msgid ""
+"In the screenshot above ``0000`` is the first boot option so the computer "
+"boots on the Linux Mint grub menu. If grub fails (or if it is dismissed with "
+"the ``exit`` command), the computer follows the boot order and then tries to "
+"boot ``0081``, which corresponds to Mac OS."
+msgstr ""
+"ऊपर दिए स्क्रीनशॉट अनुसार, ``0000`` कंप्यूटर द्वारा लिनक्स मिंट GRUB मेन्यू "
+"आरंभ हेतु प्रथम बूट विकल्प है। GRUB विफल (या ``बंद करें`` कमांड द्वारा "
+"निरस्त) होने पर कंप्यूटर बूट क्रम अनुसार ``0081`` यानि मैक ओएस बूट करने का "
+"प्रयास करेगा।"
+
+#: ../../help.rst:2
+msgid "Where to find help"
+msgstr "सहायता हेतु साधन"
+
+#: ../../help.rst:4
+msgid ""
+"Many users will be glad to help you and guide you through your first steps "
+"with Linux if you are nice and patient with them and if you give them the "
+"information they require to understand the issues you are facing."
+msgstr ""
+"अधिकांश उपयोक्ता लिनक्स मिंट उपयोग हेतु प्रसन्नतापूर्वक सहायता व मार्गदर्शन "
+"करेंगे यदि आप धैर्यपूर्वक उन्हें अपनी समस्याओं संबंधी आवश्यक जानकारी प्रदान "
+"करते हैं।"
+
+#: ../../help.rst:7
+msgid "The forums"
+msgstr "चर्चा-मंच"
+
+#: ../../help.rst:9
+msgid ""
+"The best place to find help is on the `Linux Mint Forums "
+"<https://forums.linuxmint.com>`_."
+msgstr ""
+"सहायता हेतु सर्वश्रेष्ठ स्थान है `लिनक्स मिंट चर्चा मंच "
+"<https://forums.linuxmint.com>`_।"
+
+#: ../../help.rst:12
+msgid ""
+"Search the forums before asking, in case someone else already asked the same "
+"question."
+msgstr ""
+"प्रश्न पोस्ट करने से पहले अपनी समस्या चर्चा मंच पर खोज लें, संभवतः आपके "
+"प्रश्न का उत्तर पहले से ही उपलब्ध हो।"
+
+#: ../../help.rst:15
+msgid "The chat room"
+msgstr "चैट कक्ष"
+
+#: ../../help.rst:17
+msgid "Another great place to find help is in the IRC chat room."
+msgstr "सहायता हेतु अन्य श्रेष्ट स्थान है आईआरसी चैट कक्ष।"
+
+#: ../../help.rst:19
+msgid ""
+"To reach the chat room from within Linux Mint, launch :menuselection:`Menu --"
+"> Internet --> HexChat`."
+msgstr ""
+"लिनक्स मिंट से ही चैट मंच से जुड़ने हेतु :menuselection:`मेन्यू --> इंटरनेट --"
+"> हेक्सचैट` उपयोग करें।"
+
+#: ../../help.rst:21
+msgid ""
+"If you are using another operating system, you can use `Kiwiirc "
+"<https://kiwiirc.com/client/irc.spotchat.org/?i#linuxmint-help>`_ to connect "
+"to the chat room."
+msgstr ""
+"यदि अन्य ऑपरेटिंग सिस्टम उपयोग कर रहे हैं तो `Kiwiirc "
+"<https://kiwiirc.com/client/irc.spotchat.org/?i#linuxmint-help>`_ द्वारा चैट "
+"कक्ष में प्रवेश करें।"
+
+#: ../../help.rst:24
+msgid ""
+"Many people are connected to the chat room but only look at it now and then. "
+"Be patient after asking a question. Don't repeat it and stay connected until "
+"you get an answer. It can sometimes take a few hours for somebody to see "
+"your question and reply to you. Don't quit after a few minutes. It is "
+"frustrating to you, but also to others who later see your question and are "
+"unable to reply because you already left."
+msgstr ""
+"इंटरनेट द्वारा चैट कक्ष में कई व्यक्ति उपस्थित होने पर भी सदैव उपलब्ध नहीं "
+"होते हैं। प्रश्न पोस्ट करने के उपरांत संयम रखें। वहीं प्रश्न पुनः पोस्ट न "
+"करें व उत्तर मिलने तक प्रतीक्षा करें। उपयोक्ताओं की उपलब्धता अनुरूप उत्तर "
+"प्राप्ति में एकाधिक घंटे का विलंब संभव है। कुछ मिनट के धैर्य उपरांत कक्ष न "
+"छोड़ें। आपके अतिरिक्त यह आपकी सहायता की इच्छुक उन उपयोक्ताओं के लिए भी "
+"निराशापूर्ण अनुभव होगा जो आपकी अनुपस्थिति के कारण उत्तर नहीं दे सकें।"
+
+#: ../../help.rst:27
+msgid ""
+"If you are using Hexchat, you can minimize it to tray by clicking its status "
+"icon. People will often mention your nickname when replying to you. When "
+"they do, your Hexchat status icon will blink to catch your attention."
+msgstr ""
+"हेक्सचैट संक्षिप्त करने हेतु उसके स्थिति आइकन पर क्लिक करें। अन्य उपयोक्ता "
+"आपका चैट उपनाम संलग्न कर आपको उत्तर करेंगे। ऐसा होने पर हेक्सचैट स्थिति आइकन "
+"प्रकाशित होकर आपको सूचित करेगा।"
+
+#: ../../help.rst:30
+msgid "Community resources"
+msgstr "सामुदायिक साधन"
+
+#: ../../help.rst:32
+msgid ""
+"The `tutorials section <https://community.linuxmint.com/tutorial/search>`_ "
+"is useful to find tutorials about Linux Mint."
+msgstr ""
+"लिनक्स मिंट संबंधी उपयोगी निर्देश खोजने हेतु `उपयोग निर्देश अनुभाग "
+"<https://community.linuxmint.com/tutorial/search>`_।"
+
+#: ../../help.rst:34
+msgid ""
+"The `hardware database <https://community.linuxmint.com/hardware/search>`_ "
+"is useful to find compatible hardware."
+msgstr ""
+"संगत हार्डवेयर खोजने हेतु `हार्डवेयर डेटाबेस "
+"<https://community.linuxmint.com/hardware/search>`_।"
+
+#: ../../help.rst:37
+msgid "Local communities"
+msgstr "स्थानीय समुदाय"
+
+#: ../../help.rst:39
+msgid ""
+"To find help in your language, use the `Local Communities "
+"<https://www.linuxmint.com/links.php>`_."
+msgstr ""
+"अपनी भाषा में सहायता प्राप्त करने हेतु `स्थानीय समुदाय "
+"<https://www.linuxmint.com/links.php>`_ उपयोग करें।"
+
+#: ../../index.rst:2
+msgid "Linux Mint Installation Guide"
+msgstr "लिनक्स मिंट इंस्टॉल गाइड"
+
+#: ../../index.rst:8
+msgid ""
+"Linux Mint comes in the form of an ISO image (an .iso file) which can be "
+"used to make a bootable DVD or a bootable USB stick."
+msgstr ""
+"लिनक्स मिंट एक आईएसओ फाइल (.iso) के रूप में उपलब्ध है जिससे बूट योग्य डीवीडी "
+"या यूएसबी बनाना संभव है।"
+
+#: ../../index.rst:10
+msgid ""
+"This guide will help you download the right ISO image, create your bootable "
+"media and install Linux Mint on your computer."
+msgstr ""
+"यह गाइड उचित आईएसओ फाइल डाउनलोड, बूट योग्य मीडिया बनाने एवं कंप्यूटर पर "
+"लिनक्स मिंट इंस्टॉल करने में सहायक होगी।"
+
+#: ../../index.rst:12 ../../sections.rst:5
+msgid "Download"
+msgstr "डाउनलोड"
+
+#: ../../index.rst:19 ../../sections.rst:7
+msgid "Live Boot"
+msgstr "लाइव बूट"
+
+#: ../../index.rst:26 ../../sections.rst:9
+msgid "Installation"
+msgstr "इंस्टॉल"
+
+#: ../../index.rst:32 ../../sections.rst:11
+msgid "Post-installation"
+msgstr "इंस्टॉल-उपरांत"
+
+#: ../../index.rst:41 ../../sections.rst:13
+msgid "Troubleshooting"
+msgstr "समस्या निवारण"
+
+#: ../../index.rst:48 ../../sections.rst:15
+msgid "Frequently Asked Questions"
+msgstr "सामान्य प्रश्न"
+
+#: ../../install.rst:2
+msgid "Install Linux Mint"
+msgstr "लिनक्स मिंट इंस्टॉल"
+
+#: ../../install.rst:5
+msgid "The live session"
+msgstr "लाइव सत्र"
+
+#: ../../install.rst:7
+msgid ""
+"When you boot the computer from the USB stick (or DVD), Linux Mint starts a "
+"``live session``. It logs you in automatically as a user called ``mint`` and "
+"shows you a desktop with the installer on it:"
+msgstr ""
+"कंप्यूटर को यूएसबी (या डीवीडी) से बूट करने पर लिनक्स मिंट का ``लाइव सत्र`` "
+"आरंभ होता है। 'मिंट' नामक उपयोक्ता के रूप में लॉगिन होने के उपरांत आपको "
+"इंस्टॉलर युक्त डेस्कटॉप प्रदर्शित किया जाता है :"
+
+#: ../../install.rst:13
+msgid "The Linux Mint live session"
+msgstr "लिनक्स मिंट लाइव सत्र"
+
+#: ../../install.rst:15
+msgid ""
+"The ``live session`` is similar to a normal session (i.e. to Linux Mint once "
+"it is permanently installed on the computer), but with the following "
+"exceptions:"
+msgstr ""
+"यह ``लाइव सत्र`` सामान्य सत्र (यानि इंस्टॉल उपरांत लिनक्स मिंट) के समान होता "
+"है, किन्तु इसके कुछ अपवाद हैं :"
+
+#: ../../install.rst:17
+msgid ""
+"The Live session is slower (it is loaded from a USB stick or DVD as opposed "
+"to a SSD or HDD)."
+msgstr ""
+"लाइव सत्र की कार्यगति मंद होती है (कारण : यह यूएसबी या डीवीडी से लोड होता है "
+"न कि एसएसडी या हार्ड डिस्क)।"
+
+#: ../../install.rst:18
+msgid ""
+"Changes you make in the live session are not permanent. They are not written "
+"to the USB stick (or DVD) and they do not impact the system installed by the "
+"installer."
+msgstr ""
+"लाइव सत्र के दौरान किए परिवर्तन अस्थायी होते हैं। ये न तो यूएसबी (या डीवीडी) "
+"पर राइट होते हैं व न इंस्टॉल होने वाले सिस्टम पर प्रभाव डालते हैं।"
+
+#: ../../install.rst:19
+msgid ""
+"Some applications work differently (or not at all) in the live session "
+"(Timeshift, Flatpak, Update Manager, Welcome Screen..etc.)."
+msgstr ""
+"लाइव सत्र में कुछ अनुप्रयोगों (टाइमशिफ्ट, फ्लैटपैक, अपडेट प्रबंधक, स्वागत "
+"स्क्रीन) की कार्यप्रणाली भिन्न (या निष्क्रिय) होती है।"
+
+#: ../../install.rst:22
+msgid ""
+"The username for the live session is ``mint``. If asked for a password press "
+":kbd:`Enter`."
+msgstr ""
+"लाइव सत्र हेतु उपयोक्ता नाम ``मिंट`` है। आवश्यकता होने पर कूटशब्द हेतु "
+":kbd:`Enter` कुंजी दर्ज करें।"
+
+#: ../../install.rst:25
+msgid "Installing Linux Mint on the computer"
+msgstr "कंप्यूटर पर लिनक्स मिंट इंस्टॉल करना"
+
+#: ../../install.rst:27
+msgid "To permanently install Linux Mint on your computer:"
+msgstr "कंप्यूटर पर स्थायी रूप से लिनक्स मिंट इंस्टॉल करने हेतु :"
+
+#: ../../install.rst:29
+msgid "Double-click :guilabel:`Install Linux Mint`."
+msgstr ":guilabel:`लिनक्स मिंट इंस्टॉल करें` पर द्वि-क्लिक करें।"
+
+#: ../../install.rst:31
+msgid "Select your language."
+msgstr "अपनी भाषा चुनें।"
+
+#: ../../install.rst:37
+msgid "Connect to the Internet."
+msgstr "इंटरनेट से कनेक्ट करें।"
+
+#: ../../install.rst:43
+msgid ""
+"If you are connected to the Internet, tick the box to install the multimedia "
+"codecs."
+msgstr ""
+"यदि इंटरनेट से कनेक्ट हैं तो मल्टीमीडिया कोडेक्स इंस्टॉल संबंधी विकल्प "
+"चिन्हित करें।"
+
+#: ../../install.rst:49
+msgid "Choose an installation type."
+msgstr "इंस्टॉल प्रकार चुनें।"
+
+#: ../../install.rst:55
+msgid ""
+"If Linux Mint is the only operating system you want to run on this computer "
+"and all data can be lost on the hard drive, choose :guilabel:`Erase disk and "
+"install Linux Mint`."
+msgstr ""
+"यदि हार्ड डिस्क का सारा डेटा हटाकर केवल लिनक्स मिंट को कंप्यूटर पर कार्यरत "
+"करना चाहते हैं तो :guilabel:`डिस्क डेटा हटाकर लिनक्स मिंट इंस्टॉल करें` का "
+"चयन करें।"
+
+#: ../../install.rst:58
+msgid ""
+":guilabel:`Encrypt the new Linux Mint installation for security` refers to "
+"full disk encryption. At this stage of the installation your keyboard layout "
+"wasn't yet selected so it is set to en_US. If you decide to use this option, "
+"keep this in mind when entering a password. Note that there are issues with "
+"this option and some NVIDIA drivers. If you are new to Linux use home "
+"directory encryption instead (you can select it later during the "
+"installation)."
+msgstr ""
+":guilabel:`लिनक्स मिंट का नवीन इंस्टॉल एन्क्रिप्ट करें' यानी पूर्ण डिस्क "
+"एन्क्रिप्शन। इंस्टॉल प्रक्रिया के इस चरण पर कुंजीपटल अभिन्यास अचयनित होने के "
+"कारण यह en_US अमेरिकी अंग्रेजी पर सेट है। यदि एन्क्रिप्शन करना चाहते हैं तो "
+"कूटशब्द दर्ज करते समय इस संदर्भ में सतर्क रहें। ध्यान दें कि एन्क्रिप्शन व "
+"कुछ NVIDIA ड्राइवर में संगतता समस्याएँ हैं। यदि आप लिनक्स संसार में नवांगतुक "
+"है तो होम डायरेक्टरी एन्क्रिप्शन ही चुनें (आप इसे बाद में इंस्टॉल के दौरान "
+"भी चुन सकते हैं)।"
+
+#: ../../install.rst:60
+msgid ""
+"If another operating system is present on the computer, the installer shows "
+"you an option to install Linux Mint alongside it. If you choose this option, "
+"the installer automatically resizes your existing operating system, makes "
+"room and installs Linux Mint beside it. A boot menu is set up to choose "
+"between the two operating systems each time you start your computer."
+msgstr ""
+"कंप्यूटर पर पहले से ऑपरेटिंग सिस्टम होने के स्थिति में इंस्टॉलर आपको इसी के "
+"साथ में लिनक्स मिंट इंस्टॉल करने का विकल्प देगा। चयनित होने के उपरांत "
+"इंस्टॉलर स्वतः ही वर्तमान ऑपरेटिंग सिस्टम का आकार पुनः सेट कर लिनक्स मिंट को "
+"साथ में इंस्टॉल करेगा। बूट मेनू भी सेट होगी जिसके द्वारा आप कंप्यूटर आरंभ "
+"होने पर दोनों ऑपरेटिंग सिस्टम में से इच्छित सिस्टम चुन सकेंगे।"
+
+#: ../../install.rst:64
+msgid ""
+"If you want to manage the partitions or specify which partitions to use, "
+"select :guilabel:`Something else`."
+msgstr "विभाजन प्रबंधन व निर्दिष्ट करने हेतु :guilabel:`कुछ और` चुनें।"
+
+#: ../../install.rst:70
+msgid ""
+"Linux Mint requires one partition to be mounted on the root ``/`` directory."
+msgstr ""
+"लिनक्स मिंट हेतु एक विभाजन रुट ``/`` डायरेक्टरी पर माउंट होना आवश्यक है।"
+
+#: ../../install.rst:72
+msgid ""
+"The Linux Mint operating system (without additional software or personal "
+"data) takes roughly 15GB, so give this partition a decent size (100GB or "
+"more)."
+msgstr ""
+"लिनक्स मिंट ऑपरेटिंग सिस्टम (अतिरिक्त सॉफ्टवेयर या निजी डेटा रहित) हेतु "
+"सामान्यतः 15 जीबी स्पेस उपयोग होता है, अतः विभाजन हेतु उचित आकार (100 जीबी "
+"या अधिक) चुनें।"
+
+#: ../../install.rst:74
+msgid "``ext4`` is recommended. It is the most popular Linux filesystem."
+msgstr ""
+"हम ``EXT4`` उपयोग करने का परामर्श देते हैं। यह सबसे प्रचलित लिनक्स फाइल "
+"सिस्टम है।"
+
+#: ../../install.rst:79
+msgid ""
+"Also create a ``swap`` partition. This partition is used for hibernation and "
+"as a safety buffer in case your computer runs out of RAM. Give this "
+"partition a size equal to the amount of RAM in your computer."
+msgstr ""
+"एक ``स्वैप`` विभाजन भी बनाएँ। यह विभाजन सिस्टम सुप्त करने एवं RAM के अभाव "
+"में कंप्यूटर के सुचारु क्रियान्वन हेतु उपयोग होता है। इसका आकार कंप्यूटर की "
+"RAM के जितना रखें।"
+
+#: ../../install.rst:81
+msgid "Select your timezone"
+msgstr "अपना समय क्षेत्र चुनें"
+
+#: ../../install.rst:87
+msgid "Select your keyboard layout"
+msgstr "अपना कुंजीपटल अभिन्यास चुनें"
+
+#: ../../install.rst:93
+msgid "Enter your user details"
+msgstr "अपनी उपयोक्ता जानकारी दर्ज करें"
+
+#: ../../install.rst:99
+msgid ""
+"Your ``name`` can be your real name, but it doesn't have to be. It is only "
+"used locally, in the screensaver and on the login screen."
+msgstr ""
+"``नाम`` हेतु आप अपना वास्तविक नाम उपयोग कर सकते हैं पर यह आवश्यक नहीं है। "
+"इसका उपयोग सिस्टम, स्क्रीनसेवर व लॉगिन स्क्रीन तक ही सीमित है।"
+
+#: ../../install.rst:101
+msgid ""
+"Your ``username`` is what you log in as, and your ``hostname`` is the name "
+"of your computer on the network."
+msgstr ""
+"आपका ``उपयोक्ता नाम`` लॉगिन हेतु होता है व आपका ``होस्ट नाम`` नेटवर्क पर "
+"आपके कंप्यूटर का नाम है।"
+
+#: ../../install.rst:103
+msgid ""
+"To prevent bugs only use lowercase characters, with no punctuation or "
+"accentuation."
+msgstr ""
+"अनावश्यक समस्याओं से बचने हेतु केवल विराम चिन्ह या उच्चारण चिन्हों से रहित "
+"लोअरकेस अक्षर उपयोग करें।"
+
+#: ../../install.rst:105
+msgid ""
+"To protect your personal data against local attacks (people around you, or "
+"in case your computer gets stolen), tick :guilabel:`Encrypt my home folder`."
+msgstr ""
+"अनपेक्षित वातावरण/घटनाओं (आसपास के व्यक्ति या कंप्यूटर चोरी होने पर) से अपना "
+"डेटा सुरक्षित रखने हेतु :guilabel:`होम फोल्डर एन्क्रिप्ट करें` का विकल्प "
+"चिन्हित करें।"
+
+#: ../../install.rst:107
+msgid "Choose a strong password."
+msgstr "प्रबल कूटशब्द चुनें।"
+
+#: ../../install.rst:109
+msgid "Enjoy the slideshow while Linux Mint is installed on your computer."
+msgstr ""
+"कंप्यूटर पर लिनक्स मिंट इंस्टॉल पूर्ण होने तक आप स्लाइडशो का आनंद लें।"
+
+#: ../../install.rst:115
+msgid "When the installation is finished, click :guilabel:`Restart Now`."
+msgstr "इंस्टॉल पूर्ण होने पर :guilabel:`अभी पुनः आरंभ करें` पर क्लिक करें।"
+
+#: ../../install.rst:121
+msgid ""
+"The computer will then start to shut down and ask you to remove the USB disk "
+"(or DVD). Upon reboot, your computer should show you a boot menu or start "
+"your newly installed Linux Mint operating system."
+msgstr ""
+"अब कंप्यूटर बंद होने से पूर्व आपसे यूएसबी (डीवीडी) हटाने को कहेगा। पुनः आरंभ "
+"उपरांत कंप्यूटर बूट मेन्यू प्रदर्शित करेगा या लिनक्स मिंट ऑपरेटिंग सिस्टम का "
+"नवीन इंस्टॉल आरंभ होगा।"
+
+#: ../../locales.rst:2
+msgid "Language support"
+msgstr "भाषीय समर्थन"
+
+#: ../../locales.rst:4
+msgid ""
+"Language support includes translations but also packages related to spell-"
+"checking, synonyms, hyphenation and dictionaries which enhance your "
+"experience in software applications such as LibreOffice."
+msgstr ""
+"भाषीय समर्थन में अनुवाद के अतिरिक्त वर्तनी-जाँच, पर्यायवाची, हाइफ़न समर्थन "
+"और शब्दकोश आदि से संबंधित पैकेज भी सम्मिलित हैं जो लिब्रे ऑफिस जैसे "
+"सॉफ्टवेयर अनुप्रयोगों हेतु उपयोक्ता अनुभव में वर्धन करते हैं।"
+
+#: ../../locales.rst:6
+msgid "Launch :menuselection:`Menu --> Preferences --> Languages`."
+msgstr ":menuselection:`मेन्यू --> सेटिंग्स --> भाषाएँ` उपयोग करें।"
+
+#: ../../locales.rst:12
+msgid "Click :guilabel:`Install / Remove Language`."
+msgstr ":guilabel:`भाषा इंस्टॉल करें/हटाएँ` पर क्लिक करें।"
+
+#: ../../locales.rst:18
+msgid ""
+"If beside your locale, you see a label saying ``Some language packs are "
+"missing``, select your locale and click :guilabel:`Install language packs`."
+msgstr ""
+"आपकी स्थानिकी के समक्ष ``अनुपस्थित भाषीय पैक`` प्रदर्शित होने पर स्थानिकी "
+"चयनित करके :guilabel:`भाषीय पैक इंस्टॉल करें`पर क्लिक करें।"
+
+#: ../../multiboot.rst:2
+msgid "Multi-boot"
+msgstr "एकाधिक बूट"
+
+#: ../../multiboot.rst:5
+msgid "Always install Windows first"
+msgstr "हमेशा सबसे पहले विंडोज इंस्टॉल करें"
+
+#: ../../multiboot.rst:7
+msgid ""
+"Windows does not detect other operating systems and does not feature a boot "
+"menu. When you install it, it overwrites your boot sequence and your "
+"computer then boots straight into Windows."
+msgstr ""
+"विंडोज में अन्य ऑपरेटिंग सिस्टम की पहचान व बूट मेन्यू की सुविधा नहीं है। "
+"इंस्टॉल उपरांत विंडोज द्वारा बूट क्रम अधिलेखित होने के कारण कंप्यूटर सीधे "
+"विंडोज में बूट होता है।"
+
+#: ../../multiboot.rst:9
+msgid ""
+"Linux Mint (and most Linux distributions) detects other operating systems "
+"and builds a menu from which you can choose which system to boot."
+msgstr ""
+"लिनक्स मिंट (एवं अन्य लिनक्स वितरण) में ऑपरेटिंग सिस्टम पहचान व बूट उपरांत "
+"सिस्टम चयन हेतु मेन्यू उपलब्ध है।"
+
+#: ../../multiboot.rst:11
+msgid ""
+"For this reason, if you want to dual-boot or multi-boot with Windows, it is "
+"easier and recommended to install Windows first, before you install Linux "
+"Mint."
+msgstr ""
+"इसी कारणवश विंडोज के साथ एकाधिक सिस्टम हेतु लिनक्स मिंट से पहले विंडोज "
+"इंस्टॉल करें क्योंकि यह अधिक सरल व सुगम है।"
+
+#: ../../multiboot.rst:14
+msgid "Fix the boot sequence"
+msgstr "बूट क्रम हेतु समाधान"
+
+#: ../../multiboot.rst:16
+msgid "If Windows overwrites your boot sequence:"
+msgstr "विंडोज द्वारा बूट क्रम अधिलेखित होने पर :"
+
+#: ../../multiboot.rst:22
+msgid "To list your partitions, type ``lsblk -f`` and press :kbd:`Enter`."
+msgstr ""
+"विभाजन सूचीबद्ध करने हेतु ``lsblk -f`` `  टाइप करें व :kbd:`Enter`  दबाएँ।"
+
+#: ../../multiboot.rst:28
+msgid ""
+"Find the partition where Linux Mint is installed. On most systems this "
+"should be the only ``ext4`` partition."
+msgstr ""
+"लिनक्स मिंट विभाजन खोजें। अधिकांश सिस्टम पर यह एकमात्र ``EXT4`` विभाजन होता "
+"है।"
+
+#: ../../multiboot.rst:30
+msgid "In the screenshot above:"
+msgstr "ऊपर दिए स्क्रीनशॉट में :"
+
+#: ../../multiboot.rst:32
+msgid ""
+"``sdb`` is the USB stick (recognizable by its ``iso9660`` type which "
+"corresponds to an ISO image)."
+msgstr ""
+"``sdb`` यूएसबी डिस्क है (आईएसओ फाइल अनुसार ``iso9660`` प्रकार द्वारा इसकी "
+"पहचान संभव है)।"
+
+#: ../../multiboot.rst:33
+msgid "``sda`` is the hard drive."
+msgstr "``sda`` हार्ड ड्राइव है।"
+
+#: ../../multiboot.rst:34
+msgid ""
+"``sda4`` is the partition on the ``sda`` hard drive, where Linux Mint is "
+"installed."
+msgstr "लिनक्स मिंट इंस्टॉल हेतु ``sda`` हार्ड डिस्क का विभाजन ``sd4`` है।"
+
+#: ../../multiboot.rst:36
+msgid "To list partition sizes, type ``lsblk``:"
+msgstr "``lsblk`` टाइप कर विभाजन आकार सूचीबद्ध करें :"
+
+#: ../../multiboot.rst:42
+msgid "To list partition labels, type ``blkid``:"
+msgstr "``blkid`` टाइप कर विभाजन उपनाम सूचीबद्ध करें :"
+
+#: ../../multiboot.rst:48
+msgid ""
+"Mount the Linux Mint partition and reinstall the grub menu with the "
+"following commands:"
+msgstr ""
+"निम्नलिखित कमांड द्वारा लिनक्स मिंट विभाजन माउंट कर grub मेन्यू पुनः इंस्टॉल "
+"करें :"
+
+#: ../../multiboot.rst:56
+msgid ""
+"In the commands above, replace /dev/sda4 and /dev/sda with the appropriate "
+"names for your Linux Mint partition and your hard drive device."
+msgstr ""
+"ऊपर दी गई कमांड में /dev/sd4 व /dev/sda को अपने लिनक्स मिंट विभाजन व हार्ड "
+"डिस्क अनुसार बदलें।"
+
+#: ../../oem.rst:2
+msgid "Pre-installing Linux Mint (OEM Installation)"
+msgstr "लिनक्स मिंट पूर्व-इंस्टॉल (मूल उपकरण निर्माता इंस्टॉल)"
+
+#: ../../oem.rst:4
+msgid ""
+"In the ISO boot menu, ``OEM install`` is used to preinstall Linux Mint."
+msgstr ""
+"आईएसओ बूट मेन्यू में ``मूल उपकरण निर्माता इंस्टॉल`` उपयोग कर लिनक्स मिंट "
+"पूर्व-इंस्टॉल करें।"
+
+#: ../../oem.rst:6
+msgid "This option is useful to:"
+msgstr "यह निम्नलिखित हेतु उपयोगी है :"
+
+#: ../../oem.rst:8
+msgid ""
+"Manufacturers and resellers who want to install Linux Mint on computers they "
+"sell to their customers."
+msgstr "लिनक्स मिंट कंप्यूटर विक्रय के इच्छुक निर्माता व पुनर्विक्रेता।"
+
+#: ../../oem.rst:9
+msgid "People who want to sell or give their computer to somebody else."
+msgstr "कंप्यूटर विक्रय या अन्य लोगों को कंप्यूटर देने के इच्छुक व्यक्ति।"
+
+#: ../../oem.rst:11
+msgid ""
+"When you install Linux Mint in ``OEM`` mode, the operating system is "
+"installed with a temporary user account and prepared for the computer's "
+"future owner."
+msgstr ""
+"लिनक्स मिंट को ``मूल उपकरण निर्माता`` मोड में इंस्टॉल करने पर, भावी उपयोक्ता "
+"हेतु ऑपरेटिंग सिस्टम में अस्थायी उपयोक्ता अकाउंट बना होता है।"
+
+#: ../../oem.rst:13
+msgid "The user account is set up by the new owner."
+msgstr "अकाउंट भावी उपयोक्ता द्वारा सेट किया जाता है।"
+
+#: ../../oem.rst:15
+msgid "To perform an OEM installation follow the steps below:"
+msgstr "मूल उपकरण निर्माता इंस्टॉल हेतु दिशानिर्देश :"
+
+#: ../../oem.rst:17
+msgid "Select ``OEM Install`` from the USB stick (or DVD) menu."
+msgstr "यूएसबी (या डीवीडी) मेन्यू से ``मूल उपकरण निर्माता इंस्टॉल`` चुनें।"
+
+#: ../../oem.rst:19
+msgid "Launch the installer and follow the installation instructions."
+msgstr "इंस्टॉलर आरंभ उपरांत दिशानिर्देशों का पालन करें।"
+
+#: ../../oem.rst:23
+msgid ""
+"Change any system settings or install additional software if you want."
+msgstr ""
+"आवश्यकता अनुरूप सिस्टम सेटिंग्स बदलें या अतिरिक्त सॉफ्टवेयर इंस्टॉल करें।"
+
+#: ../../oem.rst:25
+msgid ""
+"When ready, click :guilabel:`Prepare for shipping to end user`, enter the "
+"password you chose during the installation, click :guilabel:`OK` and shut "
+"down the computer."
+msgstr ""
+"कार्य पूर्ण होने पर :guilabel:`उपयोक्ता विक्रय हेतु तैयार` पर क्लिक करें, "
+"इंस्टॉल प्रक्रिया के समय चयनित कूटशब्द दर्ज करें व :guilabel:`ठीक है` पर "
+"क्लिक कर कंप्यूटर बंद करें।"
+
+#: ../../oem.rst:31
+msgid ""
+"When the new owner of the computer boots the computer the following screen "
+"appears:"
+msgstr ""
+"भावी उपयोक्ता द्वारा कंप्यूटर आरंभ करने पर यह स्क्रीन प्रदर्शित होगी :"
+
+#: ../../oem.rst:37
+msgid ""
+"The new owner selects his or her username, password, keyboard layout, "
+"language, timezone and all the details relevant to create his or her user "
+"account."
+msgstr ""
+"भावी उपयोक्ता अकाउंट संबंधी जानकारी जैसे उपयोक्ता नाम, कूटशब्द, कुंजीपटल "
+"अभिन्यास, भाषा, समयक्षेत्र आदि स्वयं ही चयनित करेगा।"
+
+#: ../../partitioning.rst:2
+msgid "Partitioning"
+msgstr "डिस्क विभाजन"
+
+#: ../../partitioning.rst:5
+msgid "Disks and partitions under Linux"
+msgstr "लिनक्स के अंतर्गत डिस्क व विभाजन"
+
+#: ../../partitioning.rst:7
+msgid ""
+"If you are not familiar with the Linux naming scheme for devices and "
+"partitions, or the concept of filesystems and mount points, read:"
+msgstr ""
+"उपकरण व विभाजन हेतु लिनक्स नामांकन विधि या फाइल सिस्टम व माउंट पॉइंट आदि "
+"विषयों के परिचय हेतु पढ़ें :"
+
+#: ../../partitioning.rst:9
+msgid ""
+"`A beginner’s guide to disks and disk partitions in Linux "
+"<http://linuxbsdos.com/2014/11/08/a-beginners-guide-to-disks-and-disk-"
+"partitions-in-linux/>`_"
+msgstr ""
+"`लिनक्स डिस्क व डिस्क विभाजन हेतु गाइड <http://linuxbsdos.com/2014/11/08/a-"
+"beginners-guide-to-disks-and-disk-partitions-in-linux/>`_"
+
+#: ../../partitioning.rst:10
+msgid ""
+"`Device Names in Linux "
+"<https://www.debian.org/releases/wheezy/amd64/apcs04.html.en>`_"
+msgstr ""
+"`लिनक्स हेतु उपकरण नाम "
+"<https://www.debian.org/releases/wheezy/amd64/apcs04.html.en>`_"
+
+#: ../../partitioning.rst:11
+msgid ""
+"`Understanding the Linux File System "
+"<http://etutorials.org/Linux+systems/red+hat+linux+9+professional+secrets/Par"
+"t+II+Exploring+Red+Hat+Linux/Chapter+7+Red+Hat+Linux+Basics/Understanding+the"
+"+Linux+File+System/>`_"
+msgstr ""
+"`लिनक्स फाइल सिस्टम "
+"<http://etutorials.org/Linux+systems/red+hat+linux+9+professional+secrets/Par"
+"t+II+Exploring+Red+Hat+Linux/Chapter+7+Red+Hat+Linux+Basics/Understanding+the"
+"+Linux+File+System/>`_"
+
+#: ../../partitioning.rst:14
+msgid "Dedicated /home partition"
+msgstr "/home हेतु विभाजन"
+
+#: ../../partitioning.rst:16
+msgid ""
+"In Linux, the ``/home`` directory is used to store user data and preferences."
+msgstr ""
+"लिनक्स में उपयोक्ता डेटा व सेटिंग्स ``/home`` डायरेक्टरी में संचित होती हैं।"
+
+#: ../../partitioning.rst:18
+msgid ""
+"This directory contains one subdirectoy for each user account. Say your "
+"username is ``john``, your home directory is ``/home/john``, your downloads "
+"are in ``/home/john/Downloads``, your documents in ``/home/john/Documents``, "
+"your Firefox bookmarks somewhere in ``/home/john/.mozilla`` and so on..."
+msgstr ""
+"इस डायरेक्टरी में प्रत्येक उपयोक्ता हेतु उप-डायरेक्टरी होती है। उदाहरण के "
+"तौर पर उपयोक्ता नाम ``john`` हेतु होम डायरेक्टरी ``/home/john``, डाउनलोड "
+"``/home/john/Downloads, प्रलेख ``/home/john/Documents``, फायरफॉक्स पृष्ठ-"
+"स्मृति ``/home/john/.mozilla`` में संचित में होंगे..."
+
+#: ../../partitioning.rst:20
+msgid ""
+"By giving ``/home`` its own dedicated partition, you separate the user data "
+"from the rest of the operating system."
+msgstr ""
+"``/home`` हेतु विभाजन होने से, उपयोक्ता डेटा ऑपरेटिंग सिस्टम से पृथक रहता है।"
+
+#: ../../partitioning.rst:22
+msgid ""
+"The advantage is that you can wipe the operating system and replace it "
+"without affecting the user data."
+msgstr ""
+"उपयोक्ता डेटा हेतु बिना किसी दुष्परिणाम के ऑपरेटिंग सिस्टम को हटा सकने की "
+"स्थिति में यह लाभप्रद होता है।"
+
+#: ../../partitioning.rst:24
+msgid "When installing Linux Mint:"
+msgstr "लिनक्स मिंट इंस्टॉल करते समय :"
+
+#: ../../partitioning.rst:26
+msgid ""
+"Assign the ``/`` mount point to the partition dedicated to the operating "
+"system, and tell the installer to format it."
+msgstr ""
+"ऑपरेटिंग सिस्टम हेतु विभाजन को ``/`` माउंट पॉइंट निर्दिष्ट कर इंस्टॉलर "
+"द्वारा इसे फॉर्मेट करें।"
+
+#: ../../partitioning.rst:28
+msgid ""
+"Assign the ``/home`` mount point to the partition dedicated to the user "
+"data, and if it contains user data already, make sure to tell the installer "
+"**not to format it**."
+msgstr ""
+"उपयोक्ता डेटा हेतु ``/home`` विभाजन को माउंट पॉइंट निर्दिष्ट करें, व ध्यान "
+"रहें कि उपयोक्ता डेटा पहले से मौजूद होने पर इंस्टॉलर द्वारा इसे **फॉर्मेट न "
+"करें**।"
+
+#: ../../partitioning.rst:31
+msgid ""
+"This is not recommended for novice users. A misstep during the installation "
+"could wipe all your data. Always make backups, make sure to select the right "
+"partitions and to carefully review formatting options."
+msgstr ""
+"नवीन उपयोक्ता ऐसा न करें। इंस्टॉल प्रक्रिया के समय की गई भूल से सारा डेटा "
+"नष्ट हो सकता है। सदैव बैकअप बनाएँ और डिस्क विभाजन व फॉर्मेट विकल्पों का चयन "
+"ध्यानपूर्वक करें ।"
+
+#: ../../partitioning.rst:34
+msgid ""
+"A Linux Mint operating system takes about 15GB and grows as you install "
+"additional software. If you can spare the size, give it 100GB. Keep most of "
+"your free space for the home partition. User data (downloads, videos, "
+"pictures) takes a lot more space."
+msgstr ""
+"लिनक्स मिंट ऑपरेटिंग सिस्टम हार्ड डिस्क का 15 जीबी उपयोग होगा व यह मात्रा "
+"अतिरिक्त सॉफ्टवेयर इंस्टॉल अनुरूप बढ़ेगी। उपलब्ध हो तो, 100 जीबी आवंटित करें। "
+"उपयोक्ता डेटा (डाउनलोड, वीडियो, चित्र) भी अत्यधिक स्पेस उपयोग करते हैं।"
+
+#: ../../timeshift.rst:2
+msgid "System snapshots"
+msgstr "सिस्टम स्नैपशॉट"
+
+#: ../../timeshift.rst:4
+msgid ""
+"Before you start using your operating system, set up system snapshots. Then "
+"if anything goes wrong, you can restore your system from an earlier backup."
+msgstr ""
+"ऑपरेटिंग सिस्टम उपयोग पूर्व सिस्टम स्नैपशॉट सेट करें। ताकि प्रक्रिया विफल "
+"होने की स्थिति में आप बैकअप द्वारा सिस्टम पुनः स्थापित कर सकें।"
+
+#: ../../timeshift.rst:6
+msgid "Launch :menuselection:`Menu --> Administration --> Timeshift`."
+msgstr ":menuselection:`मेन्यू --> प्रशासन --> टाइमशिफ्ट` उपयोग करें।"
+
+#: ../../timeshift.rst:8
+msgid "Select ``RSYNC`` and click :guilabel:`Next`."
+msgstr "``RSYNC`` चुनें व :guilabel:`अगला` पर क्लिक करें।"
+
+#: ../../timeshift.rst:13
+msgid ""
+"Select the device where you want system snapshots to be saved and click "
+":guilabel:`Next`."
+msgstr ""
+"सिस्टम स्नैपशॉट संचय हेतु उपकरण चुनें व :guilabel:`अगला` पर क्लिक करें।"
+
+#: ../../timeshift.rst:19
+msgid ""
+"The selected device is not formatted and no data is lost. System snapshots "
+"are saved into a newly created ``timeshift`` directory on the root of the "
+"selected device."
+msgstr ""
+"चयनित उपकरण फॉर्मेट नहीं किया जाता है व सारा डेटा सुरक्षित है। सिस्टम "
+"स्नैपशॉट चयनित उपकरण के रुट फोल्डर में ``टाइमशिफ्ट`` नामक डायरेक्टरी में "
+"संचित होती हैं।"
+
+#: ../../timeshift.rst:21
+msgid "Select when system snapshots are saved."
+msgstr "सिस्टम स्नैपशॉट संचय हेतु समय चयन।"
+
+#: ../../timeshift.rst:27
+msgid ""
+"System snapshots are incremental so although the first snapshot takes a "
+"significant amount of spaces, new snapshots only take additional space for "
+"files which have changed."
+msgstr ""
+"सिस्टम स्नैपशॉट वृद्धिशील होती हैं अतः प्राथमिक स्नैपशॉट ही अत्यधिक स्पेस "
+"उपयोग करती है व आगामी स्नैपशॉट में केवल फाइल परिवर्तनों के अनुरूप स्पेस "
+"उपयोग होता है।"
+
+#: ../../timeshift.rst:30
+msgid ""
+"``Boot`` snapshots are performed in the background and do not impact the "
+"speed of the boot sequence."
+msgstr ""
+"``बूट`` स्नैपशॉट बैकग्राउंड में होती हैं व इनका बूट क्रम की गति पर कोई "
+"प्रभाव नहीं पड़ता है।"
+
+#: ../../timeshift.rst:32
+msgid "Click :guilabel:`Finish`."
+msgstr ":guilabel:`पूर्ण` पर क्लिक करें।"
+
+#: ../../verify.rst:2
+msgid "Verify your ISO image"
+msgstr "आईएसओ फाइल प्रमाणीकरण"
+
+#: ../../verify.rst:4
+msgid ""
+"It is important to verify the integrity and authenticity of your ISO image."
+msgstr "आईएसओ फाइल की अखंडता हेतु प्रमाणीकरण आवश्यक होता है।"
+
+#: ../../verify.rst:6
+msgid ""
+"The integrity check confirms that your ISO image was properly downloaded and "
+"that your local file is an exact copy of the file present on the download "
+"servers. An error during the download could result in a corrupted file and "
+"trigger random issues during the installation."
+msgstr ""
+"अखंडता जाँच द्वारा आपके द्वारा डाउनलोड की गई फाइल का हमारे डाउनलोड सर्वर से "
+"मिलान कर आईएसओ फाइल के उचित डाउनलोड की पुष्टि होती है। डाउनलोड त्रुटि से "
+"फाइल विकृत होकर इंस्टॉल प्रक्रिया हेतु समस्या उत्पन्न हो सकती है।"
+
+#: ../../verify.rst:8
+msgid ""
+"The authenticity check confirms that the ISO image you downloaded was signed "
+"by Linux Mint, and thus that it isn't a modified or malicious copy made by "
+"somebody else."
+msgstr ""
+"अखंडता जाँच द्वारा डाउनलोड की गई आईएसओ फाइल के लिनक्स मिंट द्वारा "
+"हस्ताक्षरित होने की पुष्टि होती है व सुनिश्चित किया जाता है कि फाइल में किसी "
+"ने दुर्भावनापूर्ण परिवर्तन नहीं किए हैं।"
+
+#: ../../verify.rst:11
+msgid "Download the SHA256 sums provided by Linux Mint"
+msgstr "लिनक्स मिंट द्वारा प्रदान किए गए SHA256 सम डाउनलोड करें"
+
+#: ../../verify.rst:13
+msgid ""
+"All `download mirrors <https://www.linuxmint.com/mirrors.php>`_ provide the "
+"ISO images, a ``sha256sum.txt`` file and a ``sha256sum.txt.gpg`` file. You "
+"should be able to find these files in the same place you downloaded the ISO "
+"image from."
+msgstr ""
+"सभी `डाउनलोड सर्वर-मिरर <https://www.linuxmint.com/mirrors.php>`_` आईएसओ "
+"फाइल, ``sha256sum.txt`` फाइल व ``sha256sum.txt.gpg`` फाइल प्रदान करते हैं। "
+"ये सभी फाइलें आईएसओ फाइल डाउनलोड साइट पर उपलब्ध होती हैं।"
+
+#: ../../verify.rst:15
+msgid ""
+"If you can't find them, browse the `Heanet download mirror "
+"<https://ftp.heanet.ie/mirrors/linuxmint.com/stable/>`_ and click the "
+"version of the Linux Mint release you downloaded."
+msgstr ""
+"अन्यथा 'HEAnet डाउनलोड सर्वर-मिरर "
+"<https://ftp.heanet.ie/mirrors/linuxmint.com/stable/>`_ से अपने डाउनलोड "
+"अनुरूप लिनक्स मिंट संस्करण पर क्लिक कर फाइलें प्राप्त करें।"
+
+#: ../../verify.rst:17
+msgid "Download both ``sha256sum.txt`` and ``sha256sum.txt.gpg``."
+msgstr "दोनों ``sha256sum.txt`` व ``sha256sum.txt.gpg`` डाउनलोड करें।"
+
+#: ../../verify.rst:19
+msgid ""
+"Do not copy their content, use \"right-click->Save Link As...\" to download "
+"the files themselves and do not modify them in any way."
+msgstr ""
+"फाइल सामग्री कॉपी न करें, फाइल पर \"दायां क्लिक->इस रूप में संचित करें...\" "
+"द्वारा डाउनलोड करें व उनमें कोई परिवर्तन न करें।"
+
+#: ../../verify.rst:22
+msgid "Integrity check"
+msgstr "अखंडता की जाँच"
+
+#: ../../verify.rst:24
+msgid ""
+"To check the integrity of your local ISO file, generate its SHA256 sum and "
+"compare it with the sum present in ``sha256sum.txt``."
+msgstr ""
+"आईएसओ फाइल अखंडता जाँचने हेतु उसका SHA256 सम प्राप्त कर ``sha256sum.txt`` "
+"फाइल में मौजूद सम से मिलान करें।"
+
+#: ../../verify.rst:31
+msgid ""
+"If you are using Windows follow the tutorial `How to verify the ISO image on "
+"Windows <https://forums.linuxmint.com/viewtopic.php?f=42&t=291093>`_."
+msgstr ""
+"विंडोज उपयोक्ता इस लिंक पर दिए निर्देशों का पालन करें `विंडोज पर आईएसओ फाइल "
+"प्रमाणीकरण <https://forums.linuxmint.com/viewtopic.php?f=42&t=291093>`_।"
+
+#: ../../verify.rst:33
+msgid ""
+"If the sums match, your ISO image was successfully downloaded. If they "
+"don't, download it again."
+msgstr ""
+"उचित आईएसओ डाउनलोड होने पर मिलान सफल होगा व विफल होने पर आपको फाइल पुनः "
+"डाउनलोड करनी होगी।"
+
+#: ../../verify.rst:38
+msgid "Authenticity check"
+msgstr "प्रामाणिकता की जाँच"
+
+#: ../../verify.rst:40
+msgid ""
+"To verify the authenticity of ``sha256sum.txt``, check the signature of "
+"``sha256sum.txt.gpg`` by following the steps below."
+msgstr ""
+"निम्नलिखित निर्देशों द्वारा ``sha256sum.txt.gpg`` हस्ताक्षर जाँच कर "
+"``sha256sum.txt`` की अखंडता प्रमाणित करें।"
+
+#: ../../verify.rst:43
+msgid "Import the Linux Mint signing key:"
+msgstr "लिनक्स मिंट हस्ताक्षर कुंजी आयात करें :"
+
+#: ../../verify.rst:49
+msgid ""
+"If gpg complains about the key ID, try the following commands instead:"
+msgstr ""
+"जीपीजी द्वारा कुंजी आईडी त्रुटि होने पर निम्नलिखित कमांड उपयोग करें :"
+
+#: ../../verify.rst:56
+msgid ""
+"Check the output of the last command, to make sure the fingerprint is ``27DE "
+"B156 44C6 B3CF 3BD7 D291 300F 846B A25B AE09`` (with or without spaces)."
+msgstr ""
+"अंतिम कमांड के आउटपुट द्वारा सुनिश्चित करें कि पहचान चिन्ह ``27DE B156 44C6 "
+"B3CF 3BD7 D291 300F 846B A25B AE09`` (स्पेस सहित या रहित) ही है।"
+
+#: ../../verify.rst:59
+msgid "Verify the authenticity of sha256sum.txt:"
+msgstr "sha265sum.txt हेतु अखंडता प्रमाणीकरण :"
+
+#: ../../verify.rst:64
+msgid ""
+"The output of the last command should tell you that the file signature is "
+"``good`` and that it was signed with the ``A25BAE09`` key."
+msgstr ""
+"अंतिम कमांड के आउटपुट द्वारा फाइल हस्ताक्षर ``उचित`` व कुंजी ``A25BAE09`` "
+"होने की पुष्टि करें।"
+
+#: ../../verify.rst:67
+msgid ""
+"GPG might warn you that the Linux Mint signature is not trusted by your "
+"computer. This is expected and perfectly normal."
+msgstr ""
+"जीपीजी द्वारा लिनक्स मिंट कुंजी के अविश्वसनीय होने का संदेश प्रदर्शित हो "
+"सकता है। यह सामान्य प्रक्रिया है, इसे अनदेखा करें।"
+
+#: ../../verify.rst:70
+msgid ""
+"For more information on ISO verification, or to verify BETA, LMDE or old "
+"releases, read `How to Verify ISO images "
+"<https://linuxmint.com/verify.php>`_."
+msgstr ""
+"आईएसओ फाइल, बीटा, एलएमडीई या पुराने संस्करणों के प्रमाणीकरण हेतु अधिक "
+"जानकारी के लिए `आईएसओ फाइल प्रमाणीकरण <https://linuxmint.com/verify.php>`_ "
+"पढ़ें।"

@@ -1,0 +1,6689 @@
+# Vietnamese translation for linuxmint
+# Copyright (c) 2012 Rosetta Contributors and Canonical Ltd 2012
+# This file is distributed under the same license as the linuxmint package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2012.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: linuxmint\n"
+"Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
+"POT-Creation-Date: 2022-06-10 13:37+0200\n"
+"PO-Revision-Date: 2015-11-21 17:51+0000\n"
+"Last-Translator: Saki <Unknown>\n"
+"Language-Team: Vietnamese <vi@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Launchpad-Export-Date: 2022-10-10 13:05+0000\n"
+"X-Generator: Launchpad (build 762fb15a975e8b23af6a1f86e44e46bfd0451459)\n"
+
+#. (itstool) path: mime-type/_comment
+#: data/nemo.xml.in:5
+msgid "Saved search"
+msgstr ""
+
+#. (itstool) path: mime-type/_comment
+#: data/nemo.xml.in:10
+msgid "Nemo action definition"
+msgstr ""
+
+#. (itstool) path: mime-type/_comment
+#: data/nemo.xml.in:16
+msgid "Nemo search-helper definition"
+msgstr ""
+
+#: src/nemo-action-config-widget.c:237
+msgid "No actions found"
+msgstr "Không tìm thấy hành động nào"
+
+#: src/nemo-action-config-widget.c:447
+msgid "Actions"
+msgstr "Hành động"
+
+#: src/nemo-application.c:402
+#, c-format
+msgid "Nemo could not create the required folder \"%s\"."
+msgstr "Nemo không tạo được thư mục yêu cầu \"%s\"."
+
+#: src/nemo-application.c:404
+msgid ""
+"Before running Nemo, please create the following folder, or set permissions "
+"such that Nemo can create it."
+msgstr ""
+"Trước khi chạy Nemo, xin vui lòng tạo thư mục sau đây, hoặc đặt quyền truy "
+"cập sao cho Nemo có thể tạo nó."
+
+#: src/nemo-autorun-software.c:143 src/nemo-autorun-software.c:146
+#, c-format
+msgid "Error starting autorun program: %s"
+msgstr "Có lỗi khi chạy trình tự khởi chạy: %s"
+
+#: src/nemo-autorun-software.c:149
+msgid "Cannot find the autorun program"
+msgstr "Không tìm thấy trình tự khởi chạy"
+
+#: src/nemo-autorun-software.c:171
+msgid "<big><b>Error autorunning software</b></big>"
+msgstr "<big><b>Có lỗi khi tự khởi chạy phần mềm</b></big>"
+
+#: src/nemo-autorun-software.c:197
+msgid ""
+"<big><b>This medium contains software intended to be automatically started. "
+"Would you like to run it?</b></big>"
+msgstr ""
+"<big><b>Thiết bị này chứa phần mềm tự khởi chạy. Bạn có muốn chạy nó "
+"không?</b></big>"
+
+#: src/nemo-autorun-software.c:199
+#, c-format
+msgid ""
+"The software will run directly from the medium \"%s\". You should never run "
+"software that you don't trust.\n"
+"\n"
+"If in doubt, press Cancel."
+msgstr ""
+"Phần mềm sẽ chạy trực tiếp từ thiết bị \"%s\". Bạn không bao giờ nên chạy "
+"phần mềm mà bạn không tin tưởng.\n"
+"\n"
+"Nếu nghi ngờ, nhấn Thôi."
+
+#: src/nemo-autorun-software.c:234 src/nemo-mime-actions.c:732
+msgid "_Run"
+msgstr "_Chạy"
+
+#: src/nemo-blank-desktop-window.c:154
+msgid "Customize"
+msgstr ""
+
+#. hardcode "Desktop"
+#: src/nemo-blank-desktop-window.c:230 src/nemo-desktop-window.c:125
+#: src/nemo-desktop-window.c:294 src/nemo-pathbar.c:1437
+#: src/nemo-places-sidebar.c:827 libnemo-private/nemo-action.c:1422
+#: gresources/nemo-file-management-properties.glade:4036
+msgid "Desktop"
+msgstr "Màn hình làm việc"
+
+#: src/nemo-bookmarks-window.c:171
+msgid "No bookmarks defined"
+msgstr "Chưa có đánh dấu được định nghĩa"
+
+#: src/nemo-config-base-widget.c:70
+msgid "Disable all"
+msgstr "Vô hiệu hóa tất cả"
+
+#: src/nemo-config-base-widget.c:73
+msgid "Enable all"
+msgstr "Cho phép tất cả"
+
+#: src/nemo-connect-server-dialog.c:125
+msgid "SSH"
+msgstr "SSH"
+
+#: src/nemo-connect-server-dialog.c:128
+msgid "Public FTP"
+msgstr "FTP công cộng"
+
+#: src/nemo-connect-server-dialog.c:130
+msgid "FTP (with login)"
+msgstr "FTP (đăng nhập)"
+
+#: src/nemo-connect-server-dialog.c:133
+msgid "Windows share"
+msgstr "Chia sẻ Windows"
+
+#: src/nemo-connect-server-dialog.c:135
+msgid "WebDAV (HTTP)"
+msgstr "WebDAV (HTTP)"
+
+#: src/nemo-connect-server-dialog.c:137
+msgid "Secure WebDAV (HTTPS)"
+msgstr "WebDAV bảo mật (HTTPS)"
+
+#: src/nemo-connect-server-dialog.c:184
+msgid "Connecting..."
+msgstr "Đang kết nối..."
+
+#: src/nemo-connect-server-dialog.c:208
+msgid ""
+"Can't load the supported server method list.\n"
+"Please check your gvfs installation."
+msgstr ""
+"Không nạp được danh sách phương thức máy phục vụ được hỗ trợ.\n"
+"Xin vui lòng kiểm tra bản cài đặt gvfs."
+
+#: src/nemo-connect-server-dialog.c:286
+#, c-format
+msgid "The folder \"%s\" cannot be opened on \"%s\"."
+msgstr "Không mở được thư mục \"%s\" trên \"%s\"."
+
+#: src/nemo-connect-server-dialog.c:296
+#, c-format
+msgid "The server at \"%s\" cannot be found."
+msgstr "Không tìm thấy máy chủ ở \"%s\"."
+
+#: src/nemo-connect-server-dialog.c:331
+msgid "Try Again"
+msgstr "Thử Lại"
+
+#: src/nemo-connect-server-dialog.c:396
+msgid "Please verify your user details."
+msgstr "Xin vui lòng xác nhận chi tiết người dùng."
+
+#: src/nemo-connect-server-dialog.c:426
+msgid "Continue"
+msgstr "Tiếp tục"
+
+#: src/nemo-connect-server-dialog.c:700 src/nemo-connect-server-dialog.c:1094
+msgid "C_onnect"
+msgstr "_Kết nối"
+
+#. set dialog properties
+#: src/nemo-connect-server-dialog.c:829
+msgid "Connect to Server"
+msgstr "Kết nối đến máy chủ"
+
+#: src/nemo-connect-server-dialog.c:847
+msgid "Server Details"
+msgstr "Chi tiết Máy chủ"
+
+#. first row: server entry + port spinbutton
+#: src/nemo-connect-server-dialog.c:872
+msgid "_Server:"
+msgstr "_Máy chủ:"
+
+#. port
+#: src/nemo-connect-server-dialog.c:892
+msgid "_Port:"
+msgstr "_Cổng:"
+
+#. second row: type combobox
+#: src/nemo-connect-server-dialog.c:910
+msgid "_Type:"
+msgstr "_Loại:"
+
+#. third row: share entry
+#: src/nemo-connect-server-dialog.c:980
+msgid "Sh_are:"
+msgstr "Chia _sẻ:"
+
+#. fourth row: folder entry
+#: src/nemo-connect-server-dialog.c:995
+msgid "_Folder:"
+msgstr "_Thư mục:"
+
+#: src/nemo-connect-server-dialog.c:1013
+msgid "User Details"
+msgstr "Chi tiết Người dùng"
+
+#. first row: domain entry
+#: src/nemo-connect-server-dialog.c:1037
+msgid "_Domain name:"
+msgstr "Tên m_iền:"
+
+#. second row: username entry
+#: src/nemo-connect-server-dialog.c:1052
+msgid "_User name:"
+msgstr "Tên _người dùng:"
+
+#. third row: password entry
+#: src/nemo-connect-server-dialog.c:1067
+msgid "Pass_word:"
+msgstr "Mật _khẩu"
+
+#. fourth row: remember checkbox
+#: src/nemo-connect-server-dialog.c:1083
+msgid "_Remember this password"
+msgstr "Nhớ mật khẩ_u này"
+
+#: src/nemo-connect-server-dialog.c:1180
+msgid "Operation cancelled"
+msgstr "Thao tác bị hủy"
+
+#: src/nemo-connect-server-dialog-main.c:120
+msgid "Print but do not open the URI"
+msgstr "In nhưng không mở URI"
+
+#. Translators: This is the --help description for the connect to server app,
+#. the initial newlines are between the command line arg and the description
+#: src/nemo-connect-server-dialog-main.c:131
+msgid ""
+"\n"
+"\n"
+"Add connect to server mount"
+msgstr ""
+"\n"
+"\n"
+"Thêm gắn kết đến máy chủ"
+
+#: src/nemo-desktop-application.c:258 src/nemo-main-application.c:669
+msgid "Show the version of the program."
+msgstr "Hiển thị phiên bản chương trình."
+
+#: src/nemo-desktop-application.c:262
+msgid "Quit Nemo Desktop."
+msgstr ""
+
+#: src/nemo-desktop-application.c:273
+msgid ""
+"\n"
+"\n"
+"Manage the desktop with the file manager"
+msgstr ""
+
+#. name, stock id
+#. label, accelerator
+#: src/nemo-desktop-icon-grid-view.c:917 src/nemo-desktop-icon-view.c:682
+#: src/nemo-view.c:8274 src/nemo-view.c:9907
+msgid "E_mpty Trash"
+msgstr "Đổ _rác"
+
+#. name, stock id
+#. label, accelerator
+#: src/nemo-desktop-icon-grid-view.c:1027
+#: gresources/nemo-desktop-overlay.glade:293
+msgid "Auto-arrange"
+msgstr ""
+
+#. name, stock id
+#. label, accelerator
+#: src/nemo-desktop-icon-grid-view.c:1032
+#: gresources/nemo-desktop-overlay.glade:539
+#: gresources/nemo-file-management-properties.glade:546
+msgid "Reverse sort"
+msgstr ""
+
+#: src/nemo-desktop-icon-grid-view.c:1040
+msgid "Smaller"
+msgstr ""
+
+#: src/nemo-desktop-icon-grid-view.c:1044
+msgid "Small"
+msgstr ""
+
+#: src/nemo-desktop-icon-grid-view.c:1048
+msgid "Normal"
+msgstr ""
+
+#: src/nemo-desktop-icon-grid-view.c:1052
+msgid "Large"
+msgstr ""
+
+#: src/nemo-desktop-icon-grid-view.c:1056
+msgid "Larger"
+msgstr ""
+
+#: src/nemo-desktop-icon-grid-view.c:1063
+msgid "_Vertical"
+msgstr ""
+
+#: src/nemo-desktop-icon-grid-view.c:1067
+msgid "_Horizontal"
+msgstr ""
+
+#: src/nemo-desktop-icon-grid-view.c:1074 src/nemo-list-view.c:2498
+#: libnemo-private/nemo-column-utilities.c:43
+#: gresources/nemo-desktop-overlay.glade:116
+msgid "Name"
+msgstr "Tên"
+
+#: src/nemo-desktop-icon-grid-view.c:1078
+#: libnemo-private/nemo-column-utilities.c:50
+#: gresources/nemo-desktop-overlay.glade:121
+msgid "Size"
+msgstr "Kích thước"
+
+#: src/nemo-desktop-icon-grid-view.c:1082
+#: libnemo-private/nemo-column-utilities.c:58
+#: gresources/nemo-desktop-overlay.glade:126
+msgid "Type"
+msgstr "Dạng"
+
+#: src/nemo-desktop-icon-grid-view.c:1086
+#: gresources/nemo-desktop-overlay.glade:131
+msgid "Date"
+msgstr ""
+
+#. name, stock id, label
+#: src/nemo-desktop-icon-grid-view.c:1092
+msgid "_Sort"
+msgstr ""
+
+#. name, stock id, label
+#: src/nemo-desktop-icon-grid-view.c:1093
+msgid "_Icon Size"
+msgstr ""
+
+#. label, accelerator
+#. name, stock id
+#. label, accelerator
+#: src/nemo-desktop-icon-grid-view.c:1097 src/nemo-desktop-icon-view.c:723
+msgid "Empty Trash"
+msgstr "Đổ Rác"
+
+#. tooltip
+#: src/nemo-desktop-icon-grid-view.c:1099 src/nemo-desktop-icon-view.c:724
+#: src/nemo-trash-bar.c:227 src/nemo-view.c:8275
+msgid "Delete all items in the Trash"
+msgstr "Xóa tất cả các mục trong Thùng rác"
+
+#: src/nemo-desktop-icon-grid-view.c:1103
+#: gresources/nemo-file-management-properties.glade:4059
+msgid "_Customize"
+msgstr ""
+
+#: src/nemo-desktop-icon-grid-view.c:1104
+msgid "Adjust the desktop layout for this monitor"
+msgstr ""
+
+#: src/nemo-desktop-icon-grid-view.c:1195 src/nemo-desktop-icon-view.c:787
+msgid "The desktop view encountered an error."
+msgstr "Kiểu xem màn hình làm việc gặp lỗi."
+
+#: src/nemo-desktop-icon-grid-view.c:1196 src/nemo-desktop-icon-view.c:788
+msgid "The desktop view encountered an error while starting up."
+msgstr "Kiểu xem màn hình làm việc gặp lỗi khi khởi động."
+
+#. name, stock id
+#. label, accelerator
+#: src/nemo-desktop-icon-view.c:704 src/nemo-desktop-icon-view.c:719
+msgid "Restore Icons' Original Si_zes"
+msgstr "Phục hồi Kích thước _Ban đầu của Biểu tượng"
+
+#: src/nemo-desktop-icon-view.c:705
+msgid "Restore Icon's Original Si_ze"
+msgstr "Phục hồi Kích thước _Ban đầu của Biểu tượng"
+
+#. name, stock id
+#. label, accelerator
+#: src/nemo-desktop-icon-view.c:715
+msgid "Resize Icon..."
+msgstr "Co giãn Biểu tượng..."
+
+#. tooltip
+#: src/nemo-desktop-icon-view.c:716
+msgid "Make the selected icon resizable"
+msgstr "Làm cho biểu tượng được chọn co giãn được"
+
+#. tooltip
+#: src/nemo-desktop-icon-view.c:720
+msgid "Restore each selected icon to its original size"
+msgstr "Phục hồi biểu tượng được chọn về kích thước ban đầu"
+
+#: src/nemo-desktop-item-properties.c:408
+#: src/nemo-desktop-item-properties.c:418 src/nemo-image-properties-page.c:368
+msgid "Comment"
+msgstr "Bình luận"
+
+#: src/nemo-desktop-item-properties.c:411
+msgid "URL"
+msgstr "URL"
+
+#: src/nemo-desktop-item-properties.c:414
+#: src/nemo-desktop-item-properties.c:424 src/nemo-image-properties-page.c:361
+#: src/nemo-image-properties-page.c:414
+msgid "Description"
+msgstr "Mô tả"
+
+#: src/nemo-desktop-item-properties.c:421
+msgid "Command"
+msgstr "Lệnh"
+
+#: src/nemo-desktop-overlay.c:78
+#, c-format
+msgid "Current Monitor Layout (%s - %dx%d)"
+msgstr ""
+
+#: src/nemo-desktop-overlay.c:90
+#, c-format
+msgid "Current Monitor Layout (%dx%d)"
+msgstr ""
+
+#: src/nemo-desktop-overlay.c:365 src/nemo-desktop-overlay.c:503
+#: src/nemo-desktop-overlay.c:506
+msgid "Desktop Settings"
+msgstr ""
+
+#: src/nemo-desktop-overlay.c:469
+msgid "Current Monitor Preferences"
+msgstr ""
+
+#: src/nemo-desktop-overlay.c:493
+msgid "Show global desktop settings"
+msgstr ""
+
+#: src/nemo-error-reporting.c:68
+#, c-format
+msgid ""
+"You do not have the permissions necessary to view the contents of \"%s\"."
+msgstr "Bạn không có đủ quyền cần thiết để xem nội dung \"%s\"."
+
+#: src/nemo-error-reporting.c:72
+#, c-format
+msgid "\"%s\" could not be found. Perhaps it has recently been deleted."
+msgstr "Không tìm thấy \"%s\". Có lẽ nó vừa bị xóa."
+
+#: src/nemo-error-reporting.c:76
+#, c-format
+msgid "Sorry, could not display all the contents of \"%s\": %s"
+msgstr "Rất tiếc, không hiển thị được tất cả nội dung của \"%s\": %s"
+
+#: src/nemo-error-reporting.c:83
+msgid "The folder contents could not be displayed."
+msgstr "Không hiển thị được nội dung thư mục."
+
+#: src/nemo-error-reporting.c:107
+#, c-format
+msgid ""
+"You do not have the permissions necessary to change the group of \"%s\"."
+msgstr "Bạn không có quyền truy cập cần thiết để thay đổi nhóm của \"%s\"."
+
+#. fall through
+#: src/nemo-error-reporting.c:120
+#, c-format
+msgid "Sorry, could not change the group of \"%s\": %s"
+msgstr "Rất tiếc, không thay đổi được nhóm của \"%s\": %s"
+
+#: src/nemo-error-reporting.c:125
+msgid "The group could not be changed."
+msgstr "Không thay đổi nhóm được."
+
+#: src/nemo-error-reporting.c:145
+#, c-format
+msgid "Sorry, could not change the owner of \"%s\": %s"
+msgstr "Rất tiếc, không thay đổi được chủ sở hữu của \"%s\": %s"
+
+#: src/nemo-error-reporting.c:147
+msgid "The owner could not be changed."
+msgstr "Không thay đổi chủ sở hữu được."
+
+#: src/nemo-error-reporting.c:167
+#, c-format
+msgid "Sorry, could not change the permissions of \"%s\": %s"
+msgstr "Rất tiếc, không thay đổi được quyền truy cập của \"%s\": %s"
+
+#: src/nemo-error-reporting.c:169
+msgid "The permissions could not be changed."
+msgstr "Không thay đổi quyền truy cập được."
+
+#: src/nemo-error-reporting.c:204
+#, c-format
+msgid ""
+"The name \"%s\" is already used in this folder. Please use a different name."
+msgstr ""
+"Tên \"%s\" đã được dùng trong thư mục này. Xin vui lòng dùng tên khác."
+
+#: src/nemo-error-reporting.c:209
+#, c-format
+msgid ""
+"There is no \"%s\" in this folder. Perhaps it was just moved or deleted?"
+msgstr ""
+"Không có \"%s\" trong thư mục này. Có lẽ nó vừa bị di chuyển hoặc xóa?"
+
+#: src/nemo-error-reporting.c:214
+#, c-format
+msgid "You do not have the permissions necessary to rename \"%s\"."
+msgstr "Bạn không có quyền truy cập cần thiết để đổi tên \"%s\"."
+
+#: src/nemo-error-reporting.c:219
+#, c-format
+msgid ""
+"The name \"%s\" is not valid because it contains the character \"/\". Please "
+"use a different name."
+msgstr ""
+"Tên \"%s\" không hợp lệ vì có chứa ký tự \"/\". Xin vui lòng dùng tên khác."
+
+#: src/nemo-error-reporting.c:223
+#, c-format
+msgid "The name \"%s\" is not valid. Please use a different name."
+msgstr "Tên \"%s\" không hợp lệ. Xin vui lòng dùng tên khác."
+
+#: src/nemo-error-reporting.c:229
+#, c-format
+msgid "The name \"%s\" is too long. Please use a different name."
+msgstr "Tên \"%s\" quá dài. Xin vui lòng dùng tên khác."
+
+#. fall through
+#: src/nemo-error-reporting.c:243
+#, c-format
+msgid "Sorry, could not rename \"%s\" to \"%s\": %s"
+msgstr "Rất tiếc, không đổi tên được \"%s\" thành \"%s\": %s"
+
+#: src/nemo-error-reporting.c:251
+msgid "The item could not be renamed."
+msgstr "Không đổi tên mục được."
+
+#: src/nemo-error-reporting.c:348
+#, c-format
+msgid "Renaming \"%s\" to \"%s\"."
+msgstr "Đang đổi tên \"%s\" thành \"%s\"."
+
+#: src/nemo-extension-config-widget.c:212
+msgid "No extensions found"
+msgstr "Không tìm thấy phần mở rộng nào"
+
+#: src/nemo-extension-config-widget.c:277
+msgid "no information available"
+msgstr "không có sẵn thông tin"
+
+#: src/nemo-extension-config-widget.c:287
+msgid "Configure"
+msgstr ""
+
+#: src/nemo-extension-config-widget.c:398
+msgid "Extensions"
+msgstr "Phần mở rộng"
+
+#: src/nemo-extension-config-widget.c:406
+msgid "Extensions changed.  Restart required."
+msgstr "Đã thay đổi phần mở rộng. Cần phải khởi chạy lại."
+
+#. Translators: this is referred to captions under icons.
+#. Translators: this is referred to the permissions
+#. * the user has in a directory.
+#. 
+#: src/nemo-file-management-properties.c:293 src/nemo-properties-window.c:3942
+#: src/nemo-properties-window.c:3953
+msgid "None"
+msgstr "Không có"
+
+#: src/nemo-file-management-properties.c:486 libnemo-private/nemo-file.c:5160
+#, no-c-format
+msgid "Yesterday"
+msgstr ""
+
+#: src/nemo-icon-view.c:137
+msgid "by _Name"
+msgstr "theo _Tên"
+
+#: src/nemo-icon-view.c:138 src/nemo-icon-view.c:1429
+msgid "Keep icons sorted by name in rows"
+msgstr "Sắp xếp các biểu tượng theo tên với biểu diễn hàng"
+
+#: src/nemo-icon-view.c:144
+msgid "by _Size"
+msgstr "theo _Kích thước"
+
+#: src/nemo-icon-view.c:145 src/nemo-icon-view.c:1433
+msgid "Keep icons sorted by size in rows"
+msgstr "Sắp xếp các biểu tượng theo kích thước với biểu diễn hàng"
+
+#: src/nemo-icon-view.c:151
+msgid "by _Type"
+msgstr "theo _Dạng"
+
+#: src/nemo-icon-view.c:152 src/nemo-icon-view.c:1437
+msgid "Keep icons sorted by type in rows"
+msgstr "Sắp xếp các biểu tượng theo dạng với biểu diễn hàng"
+
+#: src/nemo-icon-view.c:158
+msgid "by _Detailed Type"
+msgstr "theo _Kiểu Chi tiết"
+
+#: src/nemo-icon-view.c:159 src/nemo-icon-view.c:1441
+msgid "Keep icons sorted by detailed type in rows"
+msgstr "Để biểu tượng sắp xếp theo kiểu chi tiết trong mỗi hàng"
+
+#: src/nemo-icon-view.c:165
+msgid "by Modification _Date"
+msgstr "theo _Ngày Sửa đổi"
+
+#: src/nemo-icon-view.c:166 src/nemo-icon-view.c:1445
+msgid "Keep icons sorted by modification date in rows"
+msgstr "Sắp xếp các biểu tượng theo ngày sửa đổi với biểu diễn hàng"
+
+#: src/nemo-icon-view.c:172
+msgid "by T_rash Time"
+msgstr "theo _Thời gian xóa"
+
+#: src/nemo-icon-view.c:173 src/nemo-icon-view.c:1449
+msgid "Keep icons sorted by trash time in rows"
+msgstr "Sắp xếp biểu tượng theo thời gian xóa"
+
+#: src/nemo-icon-view.c:607
+msgid "_Organize Desktop by Name"
+msgstr "Tổ chức Màn hình &làm việc theo Tên"
+
+#. name, stock id, label
+#: src/nemo-icon-view.c:1401
+#: gresources/nemo-file-management-properties.glade:3979
+msgid "Arran_ge Items"
+msgstr "Sắp _xếp các mục"
+
+#. name, stock id
+#. label, accelerator
+#: src/nemo-icon-view.c:1403
+#: gresources/nemo-file-management-properties.glade:3998
+msgid "_Organize by Name"
+msgstr "_Tổ chức theo tên"
+
+#. tooltip
+#: src/nemo-icon-view.c:1404
+msgid "Reposition icons to better fit in the window and avoid overlapping"
+msgstr ""
+"Tái định vị các biểu tượng để hiển thị vừa hơn trong cửa sổ và tránh chồng "
+"lấp"
+
+#. name, stock id
+#. label, accelerator
+#: src/nemo-icon-view.c:1411
+msgid "Re_versed Order"
+msgstr "Thứ tự Ngược"
+
+#. tooltip
+#: src/nemo-icon-view.c:1412
+msgid "Display icons in the opposite order"
+msgstr "Hiển thị biểu tượng theo thứ tự ngược"
+
+#. name, stock id
+#. label, accelerator
+#: src/nemo-icon-view.c:1416
+msgid "_Keep Aligned"
+msgstr "_Giữ Ngay hàng"
+
+#. tooltip
+#: src/nemo-icon-view.c:1417
+msgid "Keep icons lined up on a grid"
+msgstr "Giữ các biểu tượng thẳng hàng theo lưới"
+
+#: src/nemo-icon-view.c:1424
+msgid "_Manually"
+msgstr "Thủ _công"
+
+#: src/nemo-icon-view.c:1425
+msgid "Leave icons wherever they are dropped"
+msgstr "Để các biểu tượng tại chỗ thả xuống"
+
+#: src/nemo-icon-view.c:1428
+msgid "By _Name"
+msgstr "Theo _Tên"
+
+#: src/nemo-icon-view.c:1432
+msgid "By _Size"
+msgstr "Theo _Kích thước"
+
+#: src/nemo-icon-view.c:1436
+msgid "By _Type"
+msgstr "Theo _Dạng"
+
+#: src/nemo-icon-view.c:1440
+msgid "By _Detailed Type"
+msgstr "Theo _Kiểu Chi tiết"
+
+#: src/nemo-icon-view.c:1444
+msgid "By Modification _Date"
+msgstr "Theo _Ngày Sửa đổi"
+
+#: src/nemo-icon-view.c:1448
+msgid "By T_rash Time"
+msgstr "Theo _Thời gian xóa"
+
+#. translators: this is used in the view selection dropdown
+#. * of navigation windows and in the preferences dialog
+#: src/nemo-icon-view.c:2851 src/nemo-icon-view-container.c:2173
+#: src/nemo-icon-view-grid-container.c:1611 src/nemo-window-menus.c:1553
+#: src/nemo-window-menus.c:1703
+#: gresources/nemo-file-management-properties.glade:110
+#: gresources/nemo-file-management-properties.glade:3956
+msgid "Icon View"
+msgstr "Kiểu xem biểu tượng"
+
+#. translators: this is used in the view menu
+#: src/nemo-icon-view.c:2853
+msgid "_Icons"
+msgstr "B_iểu tượng"
+
+#: src/nemo-icon-view.c:2854
+msgid "The icon view encountered an error."
+msgstr "Kiểu xem biểu tượng gặp lỗi."
+
+#: src/nemo-icon-view.c:2855
+msgid "The icon view encountered an error while starting up."
+msgstr "Kiểu xem biểu tượng gặp lỗi khi khởi động."
+
+#: src/nemo-icon-view.c:2856
+msgid "Display this location with the icon view."
+msgstr "Hiển thị vị trí này trong kiểu xem biểu tượng."
+
+#. translators: this is used in the view selection dropdown
+#. * of navigation windows and in the preferences dialog
+#: src/nemo-icon-view.c:2865 src/nemo-window-menus.c:1559
+#: src/nemo-window-menus.c:1726
+#: gresources/nemo-file-management-properties.glade:116
+msgid "Compact View"
+msgstr "Kiểu xem Gọn"
+
+#. translators: this is used in the view menu
+#: src/nemo-icon-view.c:2867
+msgid "_Compact"
+msgstr "_Gọn"
+
+#: src/nemo-icon-view.c:2868
+msgid "The compact view encountered an error."
+msgstr "Kiểu xem gọn gặp lỗi."
+
+#: src/nemo-icon-view.c:2869
+msgid "The compact view encountered an error while starting up."
+msgstr "Kiểu xem gọn gặp lỗi khi khởi động."
+
+#: src/nemo-icon-view.c:2870
+msgid "Display this location with the compact view."
+msgstr "Hiển thị vị trí này trong kiểu xem gọn."
+
+#: src/nemo-image-properties-page.c:331
+msgid "Image Type"
+msgstr "Dạng Ảnh"
+
+#: src/nemo-image-properties-page.c:333 src/nemo-image-properties-page.c:339
+#, c-format
+msgid "%d pixel"
+msgid_plural "%d pixels"
+msgstr[0] "%d pixel"
+
+#: src/nemo-image-properties-page.c:337
+msgid "Width"
+msgstr "Rộng"
+
+#: src/nemo-image-properties-page.c:343
+msgid "Height"
+msgstr "Cao"
+
+#: src/nemo-image-properties-page.c:356 src/nemo-image-properties-page.c:357
+msgid "Title"
+msgstr "Tiêu đề"
+
+#: src/nemo-image-properties-page.c:358 src/nemo-image-properties-page.c:359
+msgid "Author"
+msgstr "Tác giả"
+
+#: src/nemo-image-properties-page.c:362 src/nemo-image-properties-page.c:417
+msgid "Copyright"
+msgstr "Bản quyền"
+
+#: src/nemo-image-properties-page.c:363
+msgid "Created On"
+msgstr "Tạo Vào"
+
+#: src/nemo-image-properties-page.c:364
+msgid "Created By"
+msgstr "Tạo Bởi"
+
+#: src/nemo-image-properties-page.c:365
+msgid "Disclaimer"
+msgstr "Tuyên bố từ bỏ"
+
+#: src/nemo-image-properties-page.c:366
+msgid "Warning"
+msgstr "Cảnh báo"
+
+#: src/nemo-image-properties-page.c:367
+msgid "Source"
+msgstr "Nguồn"
+
+#: src/nemo-image-properties-page.c:382
+msgid "Camera Brand"
+msgstr "Hiệu Máy ảnh"
+
+#: src/nemo-image-properties-page.c:383
+msgid "Camera Model"
+msgstr "Kiểu Máy ảnh"
+
+#. Choose which date to show in order of relevance
+#: src/nemo-image-properties-page.c:386
+msgid "Date Taken"
+msgstr "Ngày Chụp"
+
+#: src/nemo-image-properties-page.c:387
+msgid "Date Digitized"
+msgstr "Ngày Số hóa"
+
+#: src/nemo-image-properties-page.c:388
+#: libnemo-private/nemo-column-utilities.c:72
+msgid "Date Modified"
+msgstr "Ngày Sửa đổi"
+
+#: src/nemo-image-properties-page.c:392
+msgid "Exposure Time"
+msgstr "Thời gian Phơi sáng"
+
+#: src/nemo-image-properties-page.c:393
+msgid "Aperture Value"
+msgstr "Giá trị Độ mở"
+
+#: src/nemo-image-properties-page.c:394
+msgid "ISO Speed Rating"
+msgstr "Tỷ lệ Tốc độ ISO"
+
+#: src/nemo-image-properties-page.c:395
+msgid "Flash Fired"
+msgstr "Có Flash"
+
+#: src/nemo-image-properties-page.c:396
+msgid "Metering Mode"
+msgstr "Chế độ Đo"
+
+#: src/nemo-image-properties-page.c:397
+msgid "Exposure Program"
+msgstr "Chương trình Phơi sáng"
+
+#: src/nemo-image-properties-page.c:398
+msgid "Focal Length"
+msgstr "Tiêu cự"
+
+#: src/nemo-image-properties-page.c:399
+msgid "Software"
+msgstr "Phần mềm"
+
+#: src/nemo-image-properties-page.c:413 src/nemo-window-menus.c:1668
+#: libnemo-private/nemo-column-utilities.c:159
+msgid "Location"
+msgstr "Vị trí"
+
+#: src/nemo-image-properties-page.c:415
+msgid "Keywords"
+msgstr "Từ khóa"
+
+#: src/nemo-image-properties-page.c:416
+msgid "Creator"
+msgstr "Người tạo"
+
+#: src/nemo-image-properties-page.c:418
+msgid "Rating"
+msgstr "Đánh giá"
+
+#: src/nemo-image-properties-page.c:441
+msgid "Failed to load image information"
+msgstr "Có lỗi khi nạp thông tin ảnh"
+
+#: src/nemo-image-properties-page.c:706 src/nemo-list-model.c:461
+#: src/nemo-tree-sidebar-model.c:1270 src/nemo-window-manage-views.c:1228
+#: src/nemo-window-slot.c:346
+msgid "Loading..."
+msgstr "Đang nạp..."
+
+#: src/nemo-image-properties-page.c:767 libnemo-private/nemo-file.c:6966
+msgid "Image"
+msgstr "Hình ảnh"
+
+#: src/nemo-interesting-folder-bar.c:126
+msgid ""
+"Actions: Action files can be added to this folder and will appear in the "
+"menu."
+msgstr ""
+"Hành động: có thể thêm tập tin hành động vào thư mục này và nó sẽ hiển thị "
+"trong trình đơn."
+
+#: src/nemo-interesting-folder-bar.c:128 src/nemo-interesting-folder-bar.c:136
+msgid "More info"
+msgstr "Thông tin thêm"
+
+#: src/nemo-interesting-folder-bar.c:130
+msgid "View a sample action file with documentation"
+msgstr "Xem tập tin hành động mẫu với tài liệu"
+
+#: src/nemo-interesting-folder-bar.c:133
+msgid ""
+"Scripts: All executable files in this folder will appear in the Scripts menu."
+msgstr ""
+"Kịch bản: Mọi tập tin thực thi trong thư mục này sẽ hiển thị trên trình đơn "
+"Kịch bản."
+
+#: src/nemo-interesting-folder-bar.c:138
+msgid "View additional information about creating scripts"
+msgstr "Xem thêm thông tin về việc tạo kịch bản"
+
+#: src/nemo-list-model.c:459 src/nemo-tree-sidebar-model.c:1270
+msgid "(Empty)"
+msgstr "(Trống)"
+
+#: src/nemo-list-view.c:2020
+msgid "Use Default"
+msgstr "Dùng Mặc định"
+
+#: src/nemo-list-view.c:2031
+msgid "Temporarily disable auto-sort"
+msgstr "Tạm thời vô hiệu hoá sắp xếp tự động"
+
+#. translators: this is used in the view selection dropdown
+#. * of navigation windows and in the preferences dialog
+#: src/nemo-list-view.c:2586 src/nemo-list-view.c:4268
+#: src/nemo-window-menus.c:1556 src/nemo-window-menus.c:1714
+#: gresources/nemo-file-management-properties.glade:113
+msgid "List View"
+msgstr "Kiểu xem Danh sách"
+
+#. translators: this is used in the view menu
+#: src/nemo-list-view.c:4270
+msgid "_List"
+msgstr "_Danh sách"
+
+#: src/nemo-list-view.c:4271
+msgid "The list view encountered an error."
+msgstr "Kiểu xem danh sách gặp lỗi."
+
+#: src/nemo-list-view.c:4272
+msgid "The list view encountered an error while starting up."
+msgstr "Kiểu xem danh sách gặp lỗi khi khởi động."
+
+#: src/nemo-list-view.c:4273
+msgid "Display this location with the list view."
+msgstr "Hiển thị vị trí này trong kiểu xem danh sách."
+
+#: src/nemo-location-bar.c:164
+#, c-format
+msgid "Do you want to view %d location?"
+msgid_plural "Do you want to view %d locations?"
+msgstr[0] "Bạn có muốn xem %d vị trí không?"
+
+#: src/nemo-location-bar.c:168 src/nemo-mime-actions.c:1064
+#, c-format
+msgid "This will open %d separate window."
+msgid_plural "This will open %d separate windows."
+msgstr[0] "Thao tác này sẽ mở %d cửa sổ riêng."
+
+#: src/nemo-main-application.c:599
+msgid "--check cannot be used with other options."
+msgstr "--check không thể dùng chung với các tùy chọn khác."
+
+#: src/nemo-main-application.c:605
+msgid "--quit cannot be used with URIs."
+msgstr "--quit không thể dùng chung với URI."
+
+#: src/nemo-main-application.c:613
+msgid "--geometry cannot be used with more than one URI."
+msgstr "--geometry không thể dùng chung với nhiều URI."
+
+#: src/nemo-main-application.c:663
+msgid "Perform a quick set of self-check tests."
+msgstr "Thực hiện một loạt tự kiểm tra nhanh."
+
+#: src/nemo-main-application.c:671
+msgid ""
+"Create the initial window with the given geometry. Examples: nemo --"
+"geometry=+100+100, nemo --geometry=600x400, nemo --geometry=600x400+100+100."
+msgstr ""
+
+#: src/nemo-main-application.c:672
+msgid "GEOMETRY"
+msgstr "Vị trí và kích cỡ"
+
+#: src/nemo-main-application.c:674
+msgid "Only create windows for explicitly specified URIs."
+msgstr "Chỉ tạo cửa sổ cho những URI đã chỉ định rõ"
+
+#: src/nemo-main-application.c:676
+msgid "Ignored argument - left for compatibility only."
+msgstr ""
+
+#: src/nemo-main-application.c:678
+msgid "Open URIs in tabs."
+msgstr ""
+
+#: src/nemo-main-application.c:680
+msgid "Open URIs in an existing window."
+msgstr ""
+
+#: src/nemo-main-application.c:682
+msgid ""
+"Repair the user thumbnail cache - this can be useful if you're having "
+"trouble with file thumbnails.  Must be run as root"
+msgstr ""
+"Sửa bộ đệm ảnh nhỏ người dùng - có thể hữu ích khi gặp vấn đề với ảnh nhỏ "
+"của tập tin. Phải chạy với vai trò root"
+
+#: src/nemo-main-application.c:686
+msgid "Quit Nemo."
+msgstr "Thoát Nemo."
+
+#: src/nemo-main-application.c:687
+msgid "[URI...]"
+msgstr "[URI...]"
+
+#: src/nemo-main-application.c:698
+msgid ""
+"\n"
+"\n"
+"Browse the file system with the file manager"
+msgstr ""
+"\n"
+"\n"
+"Duyệt hệ thống tập tin bằng trình quản lý tập tin"
+
+#: src/nemo-main-application.c:862
+msgid "Nemo's main menu is now hidden"
+msgstr "Trình đơn chính của Nemo hiện đã bị ẩn"
+
+#: src/nemo-main-application.c:865
+msgid ""
+"You have chosen to hide the main menu.  You can get it back temporarily by:\n"
+"\n"
+"- Tapping the <Alt> key\n"
+"- Right-clicking an empty region of the main toolbar\n"
+"- Right-clicking an empty region of the status bar.\n"
+"\n"
+"You can restore it permanently by selecting this option again from the View "
+"menu."
+msgstr ""
+"Bạn đã chọn ẩn trình đơn chính. Bạn có thể tạm thời hiện lại bằng cách:\n"
+"\n"
+"- Gõ phím <Alt>\n"
+"- Nhấp phải vào vùng trống trên thanh công cụ chính\n"
+"- Nhấp phải vào vùng trống trên thanh trạng thái."
+
+#: src/nemo-main-application.c:876
+msgid "Don't show this message again."
+msgstr "Đừng hiện thông báo này nữa."
+
+#: src/nemo-mime-actions.c:640
+#, c-format
+msgid "The Link \"%s\" is Broken."
+msgstr "Liên kết \"%s\" bị Hỏng."
+
+#: src/nemo-mime-actions.c:642
+#, c-format
+msgid "The Link \"%s\" is Broken. Move it to Trash?"
+msgstr "Liên kết \"%s\" bị Hỏng. Chuyển vào Thùng rác không ?"
+
+#: src/nemo-mime-actions.c:648
+msgid "This link cannot be used, because it has no target."
+msgstr "Không dùng liên kết này được, vì nó không có đích đến."
+
+#: src/nemo-mime-actions.c:650
+#, c-format
+msgid "This link cannot be used, because its target \"%s\" doesn't exist."
+msgstr ""
+"Không dùng liên kết này được, vì đích đến của nó \"%s\" không tồn tại."
+
+#. name, stock id
+#. label, accelerator
+#: src/nemo-mime-actions.c:660 src/nemo-tree-sidebar.c:1453
+#: src/nemo-view.c:8326 src/nemo-view.c:8435 src/nemo-view.c:9492
+#: src/nemo-view.c:9829 gresources/nemo-file-management-properties.glade:3713
+msgid "Mo_ve to Trash"
+msgstr "Chuyển vào Thùng _rác"
+
+#: src/nemo-mime-actions.c:720
+#, c-format
+msgid "Do you want to run \"%s\", or display its contents?"
+msgstr "Bạn muốn chạy \"%s\", hay hiển thị nội dung của nó ?"
+
+#: src/nemo-mime-actions.c:722
+#, c-format
+msgid "\"%s\" is an executable text file."
+msgstr "\"%s\" là tập tin văn bản thực thi."
+
+#: src/nemo-mime-actions.c:728
+msgid "Run in _Terminal"
+msgstr "Chạy trong Trình _dòng lệnh"
+
+#: src/nemo-mime-actions.c:729
+msgid "_Display"
+msgstr "_Hiển thị"
+
+#: src/nemo-mime-actions.c:1059 src/nemo-mime-actions.c:1750
+#: src/nemo-view.c:1085
+msgid "Are you sure you want to open all files?"
+msgstr "Bạn có chắc muốn mở tất cả tập tin không?"
+
+#: src/nemo-mime-actions.c:1061
+#, c-format
+msgid "This will open %d separate tab."
+msgid_plural "This will open %d separate tabs."
+msgstr[0] "Thao tác này sẽ mở %d thẻ riêng."
+
+#: src/nemo-mime-actions.c:1163 src/nemo-open-with-main.c:151
+#: src/nemo-view.c:1371
+msgid "Open with"
+msgstr "Mở với"
+
+#: src/nemo-mime-actions.c:1240
+msgid "Unknown file type"
+msgstr "Kiểu tập tin không biết."
+
+#: src/nemo-mime-actions.c:1248
+#, c-format
+msgid ""
+"The file \"%s\" has no known programs associated with it.  If you trust the "
+"source of this file, and have sufficient permissions, you can mark it "
+"executable and launch it.  Or, you can use the Open With dialog to pick a "
+"program to associate it with."
+msgstr ""
+"Tập tin \"%s\" không có chương trình liên kết nào được biết đến. Nếu bạn tin "
+"tưởng nguồn tập tn này, và có đủ quyền, bạn có thể đánh dấu nó thực thi rồi "
+"chạy. Hoặc bạn có thể dùng hộp thoại Mở Với để chọn chương trình liên kết."
+
+#: src/nemo-mime-actions.c:1255
+msgid "Make executable and run"
+msgstr "Cho phép thực thi và chạy"
+
+#: src/nemo-mime-actions.c:1257
+#, c-format
+msgid ""
+"The file \"%s\" has no known programs associated with it.  Use the Open With "
+"dialog to pick a program to open it with."
+msgstr ""
+
+#: src/nemo-mime-actions.c:1270
+msgid "Choose a program"
+msgstr "Chọn chương trình"
+
+#: src/nemo-mime-actions.c:1351
+msgid "Untrusted application launcher"
+msgstr "Trình khởi chạy ứng dụng không đáng tin cậy"
+
+#: src/nemo-mime-actions.c:1354
+#, c-format
+msgid ""
+"The application launcher \"%s\" has not been marked as trusted (executable). "
+"If you do not know the source of this file, launching it may be unsafe."
+msgstr ""
+"Trình khởi chạy ứng dụng \"%s\" không được đánh dấu tin cậy (thực thi được). "
+"Nếu bạn không biết nguồn gốc tập tin này, khởi chạy nó là không an toàn."
+
+#: src/nemo-mime-actions.c:1370
+msgid "_Launch Anyway"
+msgstr "_Chạy bằng Mọi giá"
+
+#: src/nemo-mime-actions.c:1373
+msgid "Mark as _Trusted"
+msgstr "Đấnh dấu _Tin cậy"
+
+#: src/nemo-mime-actions.c:1751
+#, c-format
+msgid "This will open %d separate application."
+msgid_plural "This will open %d separate applications."
+msgstr[0] "Thao tác này sẽ mở %d ứng dụng riêng."
+
+#: src/nemo-mime-actions.c:1829 src/nemo-mime-actions.c:2103
+#: src/nemo-view.c:7444
+msgid "Unable to mount location"
+msgstr "Không gắn kết vị trí được."
+
+#: src/nemo-mime-actions.c:2182 src/nemo-view.c:7591
+msgid "Unable to start location"
+msgstr "Không khởi chạy vị trí được"
+
+#: src/nemo-mime-actions.c:2266
+#, c-format
+msgid "Opening \"%s\"."
+msgstr "Đang mở \"%s\"."
+
+#: src/nemo-mime-actions.c:2269
+#, c-format
+msgid "Opening %d item."
+msgid_plural "Opening %d items."
+msgstr[0] "Đang mở %d mục."
+
+#: src/nemo-notebook.c:370
+msgid "Close tab"
+msgstr "Đóng thẻ"
+
+#. Translators: This is the --help description for the open-with app,
+#. the initial newlines are between the command line arg and the description
+#: src/nemo-open-with-main.c:104
+msgid ""
+"\n"
+"\n"
+"Show an open-with dialog given a uri, to allow the user to change the "
+"default mimetype handler."
+msgstr ""
+"\n"
+"\n"
+"Hiện hộp thoại Mở-Với cho uri, để người dùng thay đổi trình xử lý mimetype "
+"mặc định."
+
+#: src/nemo-places-sidebar.c:379
+msgid "Devices"
+msgstr "Thiết bị"
+
+#: src/nemo-places-sidebar.c:676 src/nemo-view.c:3153
+#, c-format
+msgid "Free space: %s"
+msgstr "Chỗ trống: %s"
+
+#: src/nemo-places-sidebar.c:795
+msgid "My Computer"
+msgstr "Máy tính của Tôi"
+
+#: src/nemo-places-sidebar.c:806
+#, c-format
+msgid ""
+"Open your personal folder\n"
+"%s"
+msgstr ""
+"Mở thư mục cá nhân\n"
+"%s"
+
+#: src/nemo-places-sidebar.c:810 src/nemo-tree-sidebar.c:1592
+#: libnemo-private/nemo-bookmark.c:130 libnemo-private/nemo-desktop-link.c:118
+#: libnemo-private/nemo-file-utilities.c:67
+#: libnemo-private/nemo-file-utilities.c:115 generate_additional_file:41
+#: gresources/nemo-desktop-preferences.glade:211
+#: gresources/nemo-file-management-properties.glade:3003
+msgid "Home"
+msgstr "Nhà"
+
+#: src/nemo-places-sidebar.c:829
+msgid "Open the contents of your desktop in a folder"
+msgstr "Mở nội dung màn hình nền trong một thư mục"
+
+#: src/nemo-places-sidebar.c:882 src/nemo-tree-sidebar.c:1597
+msgid "Favorites"
+msgstr ""
+
+#: src/nemo-places-sidebar.c:884
+msgid "Favorite files"
+msgstr ""
+
+#: src/nemo-places-sidebar.c:899
+msgid "Recent"
+msgstr "Gần đây"
+
+#: src/nemo-places-sidebar.c:901
+msgid "Recent files"
+msgstr "Tập tin gần đây"
+
+#: src/nemo-places-sidebar.c:916
+#, c-format
+msgid ""
+"Open the contents of the File System\n"
+"%s"
+msgstr ""
+"Mở nội dung Hệ thống Tập tin\n"
+"%s"
+
+#: src/nemo-places-sidebar.c:920 src/nemo-tree-sidebar.c:1601
+msgid "File System"
+msgstr "Hệ thống Tập tin"
+
+#: src/nemo-places-sidebar.c:936 src/nemo-trash-bar.c:211
+#: libnemo-private/nemo-desktop-link.c:135 generate_additional_file:55
+#: gresources/nemo-desktop-preferences.glade:289
+msgid "Trash"
+msgstr "Thùng rác"
+
+#: src/nemo-places-sidebar.c:938
+msgid "Open the trash"
+msgstr "Mở thùng rác"
+
+#: src/nemo-places-sidebar.c:944
+msgid "Bookmarks"
+msgstr "Đánh dấu"
+
+#: src/nemo-places-sidebar.c:1071
+#, c-format
+msgid ""
+"%s (%s)\n"
+"%s"
+msgstr ""
+"%s (%s)\n"
+"%s"
+
+#: src/nemo-places-sidebar.c:1104
+#, c-format
+msgid "Mount and open %s (%s)"
+msgstr "Gắn kết và mở %s (%s)"
+
+#: src/nemo-places-sidebar.c:1132 src/nemo-places-sidebar.c:1255
+#, c-format
+msgid "Mount and open %s"
+msgstr "Gắn kết và mở %s"
+
+#: src/nemo-places-sidebar.c:1179
+#, c-format
+msgid ""
+"%s\n"
+"%s"
+msgstr ""
+"%s\n"
+"%s"
+
+#: src/nemo-places-sidebar.c:1242 src/nemo-places-sidebar.c:1297
+#: src/nemo-tree-sidebar.c:1605 libnemo-private/nemo-desktop-link.c:147
+#: gresources/nemo-desktop-preferences.glade:445
+msgid "Network"
+msgstr "Mạng"
+
+#: src/nemo-places-sidebar.c:1299
+msgid "Browse the contents of the network"
+msgstr "Duyệt nội dung Mạng"
+
+#. Adjust start/stop items to reflect the type of the drive
+#. name, stock id
+#. label, accelerator
+#: src/nemo-places-sidebar.c:2395 src/nemo-places-sidebar.c:3673
+#: src/nemo-view.c:8372 src/nemo-view.c:8396 src/nemo-view.c:8459
+#: src/nemo-view.c:9113 src/nemo-view.c:9117 src/nemo-view.c:9200
+#: src/nemo-view.c:9204 src/nemo-view.c:9304 src/nemo-view.c:9308
+msgid "_Start"
+msgstr "_Bắt đầu"
+
+#. name, stock id
+#. label, accelerator
+#: src/nemo-places-sidebar.c:2396 src/nemo-places-sidebar.c:3680
+#: src/nemo-view.c:8376 src/nemo-view.c:8400 src/nemo-view.c:8463
+#: src/nemo-view.c:9142 src/nemo-view.c:9229 src/nemo-view.c:9333
+#: src/nemo-window-menus.c:1368
+msgid "_Stop"
+msgstr "_Dừng"
+
+#. start() for type G_DRIVE_START_STOP_TYPE_SHUTDOWN is normally not used
+#: src/nemo-places-sidebar.c:2401
+msgid "_Power On"
+msgstr "_Bật Nguồn"
+
+#: src/nemo-places-sidebar.c:2402 src/nemo-view.c:9146 src/nemo-view.c:9233
+#: src/nemo-view.c:9337
+msgid "_Safely Remove Drive"
+msgstr "_Gỡ bỏ ổ đĩa an toàn"
+
+#: src/nemo-places-sidebar.c:2405
+msgid "_Connect Drive"
+msgstr "_Kết nối ổ đĩa"
+
+#: src/nemo-places-sidebar.c:2406
+msgid "_Disconnect Drive"
+msgstr "_Ngắt kết nối ổ đĩa"
+
+#: src/nemo-places-sidebar.c:2409
+msgid "_Start Multi-disk Device"
+msgstr "_Chạy ổ nhiều đĩa"
+
+#: src/nemo-places-sidebar.c:2410
+msgid "_Stop Multi-disk Device"
+msgstr "_Dừng ổ nhiều đĩa"
+
+#. stop() for type G_DRIVE_START_STOP_TYPE_PASSWORD is normally not used
+#: src/nemo-places-sidebar.c:2414 src/nemo-view.c:9216 src/nemo-view.c:9320
+msgid "_Unlock Drive"
+msgstr "_Mở khoá Ổ đĩa"
+
+#: src/nemo-places-sidebar.c:2415 src/nemo-view.c:9158 src/nemo-view.c:9245
+#: src/nemo-view.c:9349
+msgid "_Lock Drive"
+msgstr "_Khoá Ổ đĩa"
+
+#: src/nemo-places-sidebar.c:2534 src/nemo-places-sidebar.c:3153
+#, c-format
+msgid "Unable to start %s"
+msgstr "Không chạy được %s"
+
+#: src/nemo-places-sidebar.c:2920 src/nemo-places-sidebar.c:2946
+#: src/nemo-places-sidebar.c:2972
+#, c-format
+msgid "Unable to eject %s"
+msgstr "Không đẫy ra %s được"
+
+#: src/nemo-places-sidebar.c:3109
+#, c-format
+msgid "Unable to poll %s for media changes"
+msgstr "Không thăm dò %s để tìm thay đổi phương tiện được"
+
+#: src/nemo-places-sidebar.c:3207
+#, c-format
+msgid "Unable to stop %s"
+msgstr "Không dừng %s được"
+
+#. name, stock id
+#. label, accelerator
+#: src/nemo-places-sidebar.c:3585 src/nemo-tree-sidebar.c:1333
+#: src/nemo-view.c:8233 src/nemo-view.c:9761
+#: libnemo-private/nemo-mime-application-chooser.c:483
+#: gresources/nemo-file-management-properties.glade:3411
+msgid "_Open"
+msgstr "_Mở"
+
+#. add the "open in new tab" menu item
+#. name, stock id
+#. label, accelerator
+#: src/nemo-places-sidebar.c:3593 src/nemo-tree-sidebar.c:1344
+#: src/nemo-view.c:8245 src/nemo-view.c:8417 src/nemo-view.c:9439
+#: src/nemo-view.c:9807 gresources/nemo-file-management-properties.glade:3430
+msgid "Open in New _Tab"
+msgstr "Mở trong _Thẻ Mới"
+
+#. add the "open in new window" menu item
+#: src/nemo-places-sidebar.c:3603 src/nemo-tree-sidebar.c:1358
+#: src/nemo-view.c:9430 src/nemo-view.c:9787
+#: gresources/nemo-file-management-properties.glade:3449
+msgid "Open in New _Window"
+msgstr "Mở trong _Cửa sổ Mới"
+
+#. name, stock id, label
+#: src/nemo-places-sidebar.c:3614 src/nemo-window-menus.c:1478
+msgid "_Add Bookmark"
+msgstr "_Thêm Đánh dấu"
+
+#: src/nemo-places-sidebar.c:3620
+msgid "Remove"
+msgstr "Gỡ bỏ"
+
+#. name, stock id
+#. label, accelerator
+#: src/nemo-places-sidebar.c:3629 src/nemo-view.c:8318
+#: gresources/nemo-file-management-properties.glade:3620
+msgid "_Rename..."
+msgstr "Đổ_i tên..."
+
+#. name, stock id
+#. label, accelerator
+#: src/nemo-places-sidebar.c:3645 src/nemo-view.c:8360 src/nemo-view.c:8384
+#: src/nemo-view.c:8447
+msgid "_Mount"
+msgstr "_Gắn kết"
+
+#. add the "Unmount" menu item
+#. name, stock id
+#. label, accelerator
+#: src/nemo-places-sidebar.c:3652 src/nemo-tree-sidebar.c:1485
+#: src/nemo-view.c:8364 src/nemo-view.c:8388 src/nemo-view.c:8451
+msgid "_Unmount"
+msgstr "_Bỏ gắn"
+
+#. add the "Eject" menu item
+#. name, stock id
+#. label, accelerator
+#: src/nemo-places-sidebar.c:3659 src/nemo-tree-sidebar.c:1494
+#: src/nemo-view.c:8368 src/nemo-view.c:8392 src/nemo-view.c:8455
+msgid "_Eject"
+msgstr "_Đẩy ra"
+
+#. name, stock id
+#. label, accelerator
+#: src/nemo-places-sidebar.c:3666 src/nemo-view.c:8380 src/nemo-view.c:8404
+#: src/nemo-view.c:8467
+msgid "_Detect Media"
+msgstr "_Phát hiện Phương tiện"
+
+#. Empty Trash menu item
+#: src/nemo-places-sidebar.c:3689 src/nemo-trash-bar.c:224
+#: libnemo-private/nemo-file-operations.c:1303
+#: libnemo-private/nemo-file-operations.c:1620
+#: libnemo-private/nemo-file-operations.c:2555
+msgid "Empty _Trash"
+msgstr "Đổ _Rác"
+
+#. name, stock id
+#. label, accelerator
+#: src/nemo-places-sidebar.c:3701 src/nemo-view.c:8215 src/nemo-view.c:8472
+#: gresources/nemo-file-management-properties.glade:3732
+#: gresources/nemo-file-management-properties.glade:3918
+msgid "_Properties"
+msgstr "Th_uộc tính"
+
+#: src/nemo-progress-ui-handler.c:118
+#, c-format
+msgid "%1$s file operation active.  %2$d%% complete."
+msgid_plural "%1$s file operations active.  %2$d%% complete."
+msgstr[0] "%1$s tác vụ tập tin hoạt động. %2$d%% hoàn tất."
+
+#: src/nemo-progress-ui-handler.c:210 src/nemo-progress-ui-handler.c:267
+msgid "File Operations"
+msgstr "Thao tác Tập tin"
+
+#: src/nemo-progress-ui-handler.c:268
+msgid "All file operations have been successfully completed"
+msgstr "Đã hoàn tất mọi thao tác tập tin thành công"
+
+#: src/nemo-progress-ui-handler.c:320
+#, c-format
+msgid "%d%% %s"
+msgstr "%d%% %s"
+
+#: src/nemo-properties-window.c:500
+msgid "You cannot assign more than one custom icon at a time!"
+msgstr "Bạn không thể gán nhiều biểu tượng tùy biến cùng một lúc!"
+
+#: src/nemo-properties-window.c:501
+msgid "Please drag just one image to set a custom icon."
+msgstr "Xin vui lòng kéo chỉ một ảnh vào để đặt làm biểu tượng tùy biến."
+
+#: src/nemo-properties-window.c:512
+msgid "The file that you dropped is not local."
+msgstr "Tập tin bạn thả vào không phải tập tin cục bộ."
+
+#: src/nemo-properties-window.c:513 src/nemo-properties-window.c:519
+msgid "You can only use local images as custom icons."
+msgstr "Bạn chỉ có thể dùng ảnh cục bộ để làm biểu tượng tùy biến."
+
+#: src/nemo-properties-window.c:518
+msgid "The file that you dropped is not an image."
+msgstr "Tập tin bạn thả vào không phải hình ảnh."
+
+#: src/nemo-properties-window.c:648
+msgid "_Name:"
+msgid_plural "_Names:"
+msgstr[0] "_Tên:"
+
+#: src/nemo-properties-window.c:843
+msgid "Properties"
+msgstr "Thuộc tính"
+
+#: src/nemo-properties-window.c:851
+#, c-format
+msgid "%s Properties"
+msgstr "Thuộc tính của %s"
+
+#. Fallback, use for both unknown attributes and attributes
+#. * for which we have no more appropriate default.
+#. 
+#: src/nemo-properties-window.c:1125 libnemo-private/nemo-file.c:6924
+msgid "unknown"
+msgstr "không biết"
+
+#: src/nemo-properties-window.c:1357
+msgid "Cancel Group Change?"
+msgstr "Hủy Thay đổi Nhóm?"
+
+#: src/nemo-properties-window.c:1772
+msgid "Cancel Owner Change?"
+msgstr "Hủy Thay đổi Chủ sở hữu?"
+
+#: src/nemo-properties-window.c:2093
+msgid "nothing"
+msgstr "không có gì"
+
+#: src/nemo-properties-window.c:2095
+msgid "unreadable"
+msgstr "không đọc được"
+
+#: src/nemo-properties-window.c:2110
+#, c-format
+msgid "%1$s item (and %2$s hidden), with size %3$s"
+msgid_plural "%1$s items (and %2$s hidden), totalling %3$s"
+msgstr[0] "%1$s mục (và %2$s ẩn), tổng cộng %3$s"
+
+#: src/nemo-properties-window.c:2115
+#, c-format
+msgid "%1$s item, with size %2$s"
+msgid_plural "%1$s items, totalling %2$s"
+msgstr[0] "%1$s mục, tổng cộng %2$s"
+
+#: src/nemo-properties-window.c:2124
+msgid "(some contents unreadable)"
+msgstr "(vài nội dung không đọc được)"
+
+#. Also set the title field here, with a trailing carriage return &
+#. * space if the value field has two lines. This is a hack to get the
+#. * "Contents:" title to line up with the first line of the
+#. * 2-line value. Maybe there's a better way to do this, but I
+#. * couldn't think of one.
+#. 
+#: src/nemo-properties-window.c:2141
+msgid "Contents:"
+msgstr "Nội dung:"
+
+#. Translators: "used" refers to the capacity of the filesystem
+#: src/nemo-properties-window.c:2927
+msgid "used"
+msgstr "đã dùng"
+
+#. Translators: "free" refers to the capacity of the filesystem
+#: src/nemo-properties-window.c:2934
+msgid "free"
+msgstr "trống"
+
+#: src/nemo-properties-window.c:2936
+msgid "Total capacity:"
+msgstr "Tổng dung lượng:"
+
+#: src/nemo-properties-window.c:2945
+msgid "Filesystem type:"
+msgstr "Dạng hệ tập tin:"
+
+#: src/nemo-properties-window.c:3030
+msgid "Basic"
+msgstr "Cơ bản"
+
+#: src/nemo-properties-window.c:3087
+#: libnemo-private/nemo-file-conflict-dialog.c:272
+#: libnemo-private/nemo-file-conflict-dialog.c:304
+msgid "Type:"
+msgstr "Dạng:"
+
+#: src/nemo-properties-window.c:3096 libnemo-private/nemo-file.c:8135
+msgid "Link target:"
+msgstr "Đích liên kết:"
+
+#: src/nemo-properties-window.c:3107
+#: libnemo-private/nemo-file-conflict-dialog.c:269
+#: libnemo-private/nemo-file-conflict-dialog.c:301
+msgid "Size:"
+msgstr "Kích thước:"
+
+#: src/nemo-properties-window.c:3116
+msgid "Location:"
+msgstr "Vị trí:"
+
+#: src/nemo-properties-window.c:3123
+msgid "Volume:"
+msgstr "Phân vùng:"
+
+#: src/nemo-properties-window.c:3136
+msgid "Accessed:"
+msgstr "Truy cập:"
+
+#: src/nemo-properties-window.c:3141
+msgid "Created:"
+msgstr ""
+
+#: src/nemo-properties-window.c:3148
+msgid "Modified:"
+msgstr "Sửa đổi:"
+
+#: src/nemo-properties-window.c:3157
+msgid "Free space:"
+msgstr "Chỗ trống:"
+
+#: src/nemo-properties-window.c:3578
+msgid "_Read"
+msgstr "_Đọc"
+
+#: src/nemo-properties-window.c:3580
+msgid "_Write"
+msgstr "_Ghi"
+
+#: src/nemo-properties-window.c:3582
+msgid "E_xecute"
+msgstr "_Thực thi"
+
+#. translators: this gets concatenated to "no read",
+#. * "no access", etc. (see following strings)
+#. 
+#: src/nemo-properties-window.c:3850 src/nemo-properties-window.c:3861
+#: src/nemo-properties-window.c:3873
+msgid "no "
+msgstr "không "
+
+#: src/nemo-properties-window.c:3853
+msgid "list"
+msgstr "danh sách"
+
+#: src/nemo-properties-window.c:3855
+msgid "read"
+msgstr "đọc"
+
+#: src/nemo-properties-window.c:3864
+msgid "create/delete"
+msgstr "tạo/xoá"
+
+#: src/nemo-properties-window.c:3866
+msgid "write"
+msgstr "ghi"
+
+#: src/nemo-properties-window.c:3875
+msgid "access"
+msgstr "truy cập"
+
+#: src/nemo-properties-window.c:3923
+msgid "Access:"
+msgstr "Truy cập:"
+
+#: src/nemo-properties-window.c:3925
+msgid "Folder access:"
+msgstr "Truy cập thư mục:"
+
+#: src/nemo-properties-window.c:3927
+msgid "File access:"
+msgstr "Truy cập tập tin:"
+
+#: src/nemo-properties-window.c:3945
+msgid "List files only"
+msgstr "Chỉ liệt kê tập tin"
+
+#: src/nemo-properties-window.c:3947
+msgid "Access files"
+msgstr "Truy cập tập tin"
+
+#: src/nemo-properties-window.c:3949
+msgid "Create and delete files"
+msgstr "Tạo và xoá tập tin"
+
+#: src/nemo-properties-window.c:3956
+msgid "Read-only"
+msgstr "Chỉ đọc"
+
+#: src/nemo-properties-window.c:3958
+msgid "Read and write"
+msgstr "Đọc và ghi"
+
+#: src/nemo-properties-window.c:4023
+msgid "Special flags:"
+msgstr "Cờ đặc biệt:"
+
+#: src/nemo-properties-window.c:4025
+msgid "Set _user ID"
+msgstr "Đặt UID người _dùng"
+
+#: src/nemo-properties-window.c:4026
+msgid "Set gro_up ID"
+msgstr "Đặt _UID nhóm"
+
+#: src/nemo-properties-window.c:4027
+msgid "_Sticky"
+msgstr "_Dính"
+
+#: src/nemo-properties-window.c:4101 src/nemo-properties-window.c:4293
+msgid "_Owner:"
+msgstr "_Chủ:"
+
+#: src/nemo-properties-window.c:4109 src/nemo-properties-window.c:4198
+#: src/nemo-properties-window.c:4303
+msgid "Owner:"
+msgstr "Chủ:"
+
+#: src/nemo-properties-window.c:4131 src/nemo-properties-window.c:4315
+msgid "_Group:"
+msgstr "_Nhóm:"
+
+#: src/nemo-properties-window.c:4139 src/nemo-properties-window.c:4199
+#: src/nemo-properties-window.c:4323
+msgid "Group:"
+msgstr "Nhóm:"
+
+#: src/nemo-properties-window.c:4178
+msgid "Execute:"
+msgstr "Thực thi:"
+
+#: src/nemo-properties-window.c:4181
+msgid "Allow _executing file as program"
+msgstr "Cho phép thực thi tập tin như là _chương trình"
+
+#: src/nemo-properties-window.c:4200
+msgid "Others:"
+msgstr "Khác:"
+
+#: src/nemo-properties-window.c:4339
+msgid "Folder Permissions:"
+msgstr "Quyền truy cập Thư mục:"
+
+#: src/nemo-properties-window.c:4347
+msgid "File Permissions:"
+msgstr "Quyền truy cập Tập tin:"
+
+#: src/nemo-properties-window.c:4356
+msgid "Text view:"
+msgstr "Xem văn bản:"
+
+#: src/nemo-properties-window.c:4490
+#: libnemo-private/nemo-column-utilities.c:127
+msgid "Permissions"
+msgstr "Quyền truy cập"
+
+#: src/nemo-properties-window.c:4504
+msgid "You are not the owner, so you cannot change these permissions."
+msgstr ""
+"Bạn không phải là chủ sở hữu nên không thay đổi các quyền truy cập này được."
+
+#: src/nemo-properties-window.c:4524
+msgid "SELinux context:"
+msgstr "Bối cảnh SELinux:"
+
+#: src/nemo-properties-window.c:4529
+msgid "Last changed:"
+msgstr "Thay đổi sau cùng:"
+
+#: src/nemo-properties-window.c:4541
+msgid "Apply Permissions to Enclosed Files"
+msgstr "Áp dụng Quyền truy cập cho các Tập tin Bên trong"
+
+#: src/nemo-properties-window.c:4551
+#, c-format
+msgid "The permissions of \"%s\" could not be determined."
+msgstr "Không xác định được quyền truy cập của \"%s\""
+
+#: src/nemo-properties-window.c:4554
+msgid "The permissions of the selected file could not be determined."
+msgstr "Không xác định được quyền truy cập của tập tin được chọn."
+
+#: src/nemo-properties-window.c:4794
+msgid "Open With"
+msgstr "Mở Bằng"
+
+#: src/nemo-properties-window.c:4932
+msgid "Help"
+msgstr ""
+
+#: src/nemo-properties-window.c:4933
+msgid "Close"
+msgstr ""
+
+#: src/nemo-properties-window.c:5151
+msgid "Creating Properties window."
+msgstr "Đang tạo cửa sổ Thuộc tính."
+
+#: src/nemo-properties-window.c:5182 src/nemo-view.c:1705
+msgid "There was an error displaying help."
+msgstr "Có lỗi khi hiển thị trợ giúp."
+
+#: src/nemo-properties-window.c:5412
+msgid "Revert"
+msgstr ""
+
+#: src/nemo-query-editor.c:753
+msgid "Not supported in this location"
+msgstr ""
+
+#: src/nemo-script-config-widget.c:148
+msgid "No scripts found"
+msgstr "Không tìm thấy kịch bản"
+
+#: src/nemo-script-config-widget.c:345
+msgid "Scripts"
+msgstr "Kịch bản"
+
+#: src/nemo-statusbar.c:176
+msgid "Show Places"
+msgstr "Hiện Địa điểm"
+
+#: src/nemo-statusbar.c:185
+msgid "Show Treeview"
+msgstr "Hiện Kiểu xem cây"
+
+#: src/nemo-statusbar.c:199
+msgid "Hide the Sidebar (F9)"
+msgstr "Ẩn Thanh lề (F9)"
+
+#: src/nemo-statusbar.c:208
+msgid "Show the Sidebar (F9)"
+msgstr "Hiện Thanh lề (F9)"
+
+#: src/nemo-statusbar.c:222
+msgid "Adjust zoom level"
+msgstr "Điều chỉnh mức độ phóng đại"
+
+#: src/nemo-thumbnail-problem-bar.c:114
+msgid ""
+"A problem has been detected with your thumbnail cache.  Fixing it will "
+"require administrative privileges."
+msgstr ""
+"Đã phát hiện vấn đề với bộ đệm ảnh nhỏ của bạn. Để sửa nó cần phải có quyền "
+"quản trị."
+
+#: src/nemo-thumbnail-problem-bar.c:118
+msgid "Fix now"
+msgstr "Sửa ngay"
+
+#: src/nemo-thumbnail-problem-bar.c:121
+msgid "Dismiss"
+msgstr "Bỏ qua"
+
+#: src/nemo-toolbar.c:197
+msgid "Elevated Privileges"
+msgstr "Phân quyền Nâng cao"
+
+#: src/nemo-trash-bar.c:218
+msgid "Restore Selected Items"
+msgstr "Phục hồi Mục được Chọn"
+
+#: src/nemo-trash-bar.c:221
+msgid "Restore selected items to their original position"
+msgstr "Phục hồi các mục được chọn về vị trí ban đầu"
+
+#: src/nemo-tree-sidebar.c:994 src/nemo-view.c:6779
+#, c-format
+msgid "\"%s\" will be moved if you select the Paste command"
+msgstr "\"%s\" sẽ được chuyển đi nếu bạn dùng lệnh Dán"
+
+#: src/nemo-tree-sidebar.c:998 src/nemo-view.c:6783
+#, c-format
+msgid "\"%s\" will be copied if you select the Paste command"
+msgstr "\"%s\" sẽ được sao chép nếu bạn dùng lệnh Dán"
+
+#: src/nemo-tree-sidebar.c:1037 src/nemo-view.c:7033
+msgid "There is nothing on the clipboard to paste."
+msgstr "Không có gì trong bảng tạm để dán."
+
+#. add the "create new folder" menu item
+#. name, stock id
+#. label, accelerator
+#: src/nemo-tree-sidebar.c:1374 src/nemo-view.c:8223
+#: gresources/nemo-file-management-properties.glade:3806
+msgid "Create New _Folder"
+msgstr "Tạo _Thư mục Mới"
+
+#. name, stock id
+#. label, accelerator
+#: src/nemo-tree-sidebar.c:1387 src/nemo-view.c:8278 src/nemo-view.c:8422
+#: gresources/nemo-file-management-properties.glade:3487
+msgid "Cu_t"
+msgstr ""
+
+#. name, stock id
+#. label, accelerator
+#: src/nemo-tree-sidebar.c:1399 src/nemo-view.c:8282 src/nemo-view.c:8426
+#: gresources/nemo-file-management-properties.glade:3506
+msgid "_Copy"
+msgstr ""
+
+#. We make accelerator "" instead of null here to not inherit the stock
+#. accelerator for paste
+#. name, stock id
+#. label, accelerator
+#: src/nemo-tree-sidebar.c:1411 src/nemo-view.c:8292 src/nemo-view.c:8430
+msgid "_Paste Into Folder"
+msgstr "_Dán Vào Thư mục"
+
+#: src/nemo-tree-sidebar.c:1425 src/nemo-view.c:8507
+#: gresources/nemo-file-management-properties.glade:3563
+msgid "P_in"
+msgstr ""
+
+#: src/nemo-tree-sidebar.c:1437 src/nemo-view.c:8511
+msgid "Unp_in"
+msgstr ""
+
+#. name, stock id
+#. label, accelerator
+#: src/nemo-tree-sidebar.c:1467 src/nemo-view.c:8330 src/nemo-view.c:8439
+#: src/nemo-view.c:9853
+msgid "_Delete"
+msgstr "_Xóa"
+
+#: src/nemo-tree-sidebar.c:1509
+msgid "P_roperties"
+msgstr ""
+
+#: src/nemo-tree-sidebar.c:1587 libnemo-private/nemo-desktop-link.c:126
+#: generate_additional_file:48 gresources/nemo-desktop-preferences.glade:133
+#: gresources/nemo-file-management-properties.glade:2966
+msgid "Computer"
+msgstr "Máy tính"
+
+#: src/nemo-view.c:1087
+#, c-format
+msgid "This will open %'d separate tab."
+msgid_plural "This will open %'d separate tabs."
+msgstr[0] "Thao tác này sẽ mở %'d thẻ riêng."
+
+#: src/nemo-view.c:1090
+#, c-format
+msgid "This will open %'d separate window."
+msgid_plural "This will open %'d separate windows."
+msgstr[0] "Thao tác này sẽ mở %'d cửa sổ riêng."
+
+#: src/nemo-view.c:1725
+msgid "Select Items Matching"
+msgstr "Chọn Mục Tương ứng"
+
+#: src/nemo-view.c:1740
+msgid "_Pattern:"
+msgstr "_Mẫu:"
+
+#: src/nemo-view.c:1746
+msgid "Examples: "
+msgstr "Ví dụ: "
+
+#. Reset to default info
+#: src/nemo-view.c:2590 libnemo-private/nemo-file-undo-operations.c:147
+msgid "Undo"
+msgstr "Hoàn tác"
+
+#: src/nemo-view.c:2591 libnemo-private/nemo-file-undo-operations.c:150
+msgid "Undo last action"
+msgstr "Hoàn tác hành động sau cùng"
+
+#. Reset to default info
+#: src/nemo-view.c:2609 libnemo-private/nemo-file-undo-operations.c:154
+msgid "Redo"
+msgstr "Làm lại"
+
+#: src/nemo-view.c:2610 libnemo-private/nemo-file-undo-operations.c:157
+msgid "Redo last undone action"
+msgstr "Làm lại hành động hoàn tác sau cùng"
+
+#: src/nemo-view.c:2804
+msgid "Content View"
+msgstr "Kiểu xem Nội dung"
+
+#: src/nemo-view.c:2805
+msgid "View of the current folder"
+msgstr "Kiểu xem thư mục hiện thời"
+
+#: src/nemo-view.c:3076 src/nemo-view.c:3113
+#, c-format
+msgid "\"%s\" selected"
+msgstr "\"%s\" được chọn"
+
+#: src/nemo-view.c:3078
+#, c-format
+msgid "%'d folder selected"
+msgid_plural "%'d folders selected"
+msgstr[0] "%'d thư mục được chọn"
+
+#: src/nemo-view.c:3088
+#, c-format
+msgid " (containing %'d item)"
+msgid_plural " (containing %'d items)"
+msgstr[0] " (chứa %'d mục)"
+
+#. translators: this is preceded with a string of form 'N folders' (N more than 1)
+#: src/nemo-view.c:3099
+#, c-format
+msgid " (containing a total of %'d item)"
+msgid_plural " (containing a total of %'d items)"
+msgstr[0] " (chứa tổng cộng %'d mục)"
+
+#: src/nemo-view.c:3116
+#, c-format
+msgid "%'d item selected"
+msgid_plural "%'d items selected"
+msgstr[0] "%'d mục được chọn"
+
+#. Folders selected also, use "other" terminology
+#: src/nemo-view.c:3123
+#, c-format
+msgid "%'d other item selected"
+msgid_plural "%'d other items selected"
+msgstr[0] "%'d mục khác được chọn"
+
+#. This is marked for translation in case a localiser
+#. * needs to use something other than parentheses. The
+#. * first message gives the number of items selected;
+#. * the message in parentheses the size of those items.
+#. 
+#: src/nemo-view.c:3140
+#, c-format
+msgid "%s (%s)"
+msgstr "%s (%s)"
+
+#: src/nemo-view.c:3161 libnemo-private/nemo-file.c:6442
+#, c-format
+msgid "%'u item"
+msgid_plural "%'u items"
+msgstr[0] "%'u mục"
+
+#: src/nemo-view.c:3164
+#, c-format
+msgid "%s, Free space: %s"
+msgstr "%s, Chỗ trống: %s"
+
+#. Marking this for translation, since you
+#. * might want to change "," to something else.
+#. * After the comma the amount of free space will
+#. * be shown.
+#. 
+#: src/nemo-view.c:3179
+#, c-format
+msgid "%s, %s"
+msgstr "%s, %s"
+
+#. Marking this for translation, since you
+#. * might want to change "," to something else.
+#. * After the comma the amount of free space will
+#. * be shown.
+#. 
+#. This is marked for translation in case a localizer
+#. * needs to change ", " to something else. The comma
+#. * is between the message about the number of folders
+#. * and the number of items in those folders and the
+#. * message about the number of other items and the
+#. * total size of those items.
+#. 
+#: src/nemo-view.c:3198 src/nemo-view.c:3211
+#, c-format
+msgid "%s%s, %s"
+msgstr "%s%s, %s"
+
+#. This is marked for translation in case a localizer
+#. * needs to change ", " to something else. The first comma
+#. * is between the message about the number of folders
+#. * and the number of items in those folders and the
+#. * message about the number of other items and the
+#. * total size of those items. After the second comma
+#. * the free space is written.
+#. 
+#: src/nemo-view.c:3225
+#, c-format
+msgid "%s%s, %s, %s"
+msgstr "%s%s, %s, %s"
+
+#: src/nemo-view.c:4713
+#, c-format
+msgid "Open With %s"
+msgstr "Mở Bằng %s"
+
+#: src/nemo-view.c:4715
+#, c-format
+msgid "Use \"%s\" to open the selected item"
+msgid_plural "Use \"%s\" to open the selected items"
+msgstr[0] "Dùng \"%s\" để mở mục được chọn"
+
+#: src/nemo-view.c:6081
+#, c-format
+msgid "Run \"%s\" on any selected items"
+msgstr "Chạy \"%s\" với các mục được chọn"
+
+#: src/nemo-view.c:6486
+#, c-format
+msgid "Create a new document from template \"%s\""
+msgstr "Tạo một tài liệu mới theo mẫu \"%s\""
+
+#: src/nemo-view.c:6790
+#, c-format
+msgid "The %'d selected item will be moved if you select the Paste command"
+msgid_plural ""
+"The %'d selected items will be moved if you select the Paste command"
+msgstr[0] "%'d mục được chọn sẽ được chuyển đi nếu bạn dùng lệnh Dán"
+
+#: src/nemo-view.c:6797
+#, c-format
+msgid "The %'d selected item will be copied if you select the Paste command"
+msgid_plural ""
+"The %'d selected items will be copied if you select the Paste command"
+msgstr[0] "%'d mục được chọn sẽ được sao chép nếu bạn dùng lệnh Dán"
+
+#: src/nemo-view.c:6967
+msgid "Select Target Folder For Move"
+msgstr "Chọn Thư mục Đích Để Di chuyển"
+
+#: src/nemo-view.c:6990
+msgid "Select Target Folder For Copy"
+msgstr "Chọn Thư mục Đích Để Sao chép"
+
+#: src/nemo-view.c:7464
+msgid "Unable to unmount location"
+msgstr "Không bỏ gắn kết vị trí được"
+
+#: src/nemo-view.c:7484
+msgid "Unable to eject location"
+msgstr "Không đẩy vị trí ra được"
+
+#: src/nemo-view.c:7499
+msgid "Unable to stop drive"
+msgstr "Không dừng ổ đĩa được"
+
+#: src/nemo-view.c:7985
+#, c-format
+msgid "Connect to Server %s"
+msgstr "Kết nối đến Máy chủ %s"
+
+#: src/nemo-view.c:7990 src/nemo-view.c:9121 src/nemo-view.c:9208
+#: src/nemo-view.c:9312
+msgid "_Connect"
+msgstr "_Kết nối"
+
+#: src/nemo-view.c:8004
+msgid "Link _name:"
+msgstr "Tên _liên kết:"
+
+#. name, stock id, label
+#: src/nemo-view.c:8211
+msgid "Create New _Document"
+msgstr "Tạo Tài liệu _Mới"
+
+#. name, stock id, label
+#: src/nemo-view.c:8212
+msgid "Open Wit_h"
+msgstr "Mở _Bằng"
+
+#: src/nemo-view.c:8213
+msgid "Choose a program with which to open the selected item"
+msgstr "Chọn một chương trình để mở mục được chọn"
+
+#. tooltip
+#: src/nemo-view.c:8216 src/nemo-view.c:9894
+msgid "View or modify the properties of each selected item"
+msgstr "Xem hoặc sửa đổi thuộc tính từng mục được chọn"
+
+#. tooltip
+#: src/nemo-view.c:8224
+msgid "Create a new empty folder inside this folder"
+msgstr "Tạo một thư mục rỗng bên trong thư mục này"
+
+#. name, stock id, label
+#: src/nemo-view.c:8226
+msgid "No templates installed"
+msgstr "Chưa cài mẫu"
+
+#. name, stock id
+#. translators: this is used to indicate that a document doesn't contain anything
+#. label, accelerator
+#: src/nemo-view.c:8229
+msgid "_Empty Document"
+msgstr "Tài liệu T_rống"
+
+#. tooltip
+#: src/nemo-view.c:8230
+msgid "Create a new empty document inside this folder"
+msgstr "Tạo một tài liệu trống bên trong thư mục này"
+
+#. tooltip
+#: src/nemo-view.c:8234
+msgid "Open the selected item in this window"
+msgstr "Mở mục được chọn trong cửa sổ này"
+
+#. name, stock id
+#. label, accelerator
+#. Location-specific actions
+#. name, stock id
+#. label, accelerator
+#: src/nemo-view.c:8241 src/nemo-view.c:8413
+msgid "Open in Navigation Window"
+msgstr "Mở trong Cửa sổ Duyệt"
+
+#. tooltip
+#: src/nemo-view.c:8242
+msgid "Open each selected item in a navigation window"
+msgstr "Mở từng mục được chọn trong cửa sổ duyệt"
+
+#. tooltip
+#: src/nemo-view.c:8246
+msgid "Open each selected item in a new tab"
+msgstr "Mở từng mục được chọn trong thẻ mới"
+
+#. name, stock id
+#. label, accelerator
+#: src/nemo-view.c:8249 src/nemo-window-menus.c:1691
+#: gresources/nemo-file-management-properties.glade:3677
+#: gresources/nemo-file-management-properties.glade:3844
+msgid "Open in Terminal"
+msgstr "Mở trong Trình dòng lệnh"
+
+#. tooltip
+#: src/nemo-view.c:8250
+msgid "Open terminal in the selected folder"
+msgstr "Mở trình dòng lệnh với thư mục được chọn"
+
+#. name, stock id
+#. label, accelerator
+#: src/nemo-view.c:8253 gresources/nemo-file-management-properties.glade:3695
+#: gresources/nemo-file-management-properties.glade:3862
+msgid "Open as Root"
+msgstr "Mở với tư cách Root"
+
+#. tooltip
+#: src/nemo-view.c:8254
+msgid "Open the folder with administration privileges"
+msgstr "Mở thư mục với phân quyền quản trị"
+
+#. name, stock id
+#. label, accelerator
+#: src/nemo-view.c:8258
+msgid "Follow link to original file"
+msgstr "Theo liên kết đến tập tin gốc"
+
+#. tooltip
+#: src/nemo-view.c:8259
+msgid "Navigate to the original file that this symbolic link points to"
+msgstr "Điều hướng đến tập tin gốc mà liên kết biểu tượng này trỏ tới"
+
+#. name, stock id
+#. label, accelerator
+#: src/nemo-view.c:8262
+msgid "Open containing folder"
+msgstr "Mở thư mục chứa"
+
+#. tooltip
+#: src/nemo-view.c:8263
+msgid "Navigate to the folder that the selected item is stored in"
+msgstr "Chuyển đến thư mục lưu trữ mục đang chọn"
+
+#. name, stock id
+#. label, accelerator
+#: src/nemo-view.c:8266
+msgid "Other _Application..."
+msgstr "Ứng dụng _Khác"
+
+#. tooltip
+#: src/nemo-view.c:8267 src/nemo-view.c:8271
+msgid "Choose another application with which to open the selected item"
+msgstr "Chọn ứng dụng khác để mở mục được chọn"
+
+#. name, stock id
+#. label, accelerator
+#: src/nemo-view.c:8270
+msgid "Open With Other _Application..."
+msgstr "Mở Bằng Ứng dụng _Khác..."
+
+#. tooltip
+#: src/nemo-view.c:8279
+msgid "Prepare the selected files to be moved with a Paste command"
+msgstr "Chuẩn bị các tập tin được chọn để di chuyển với lệnh Dán"
+
+#. tooltip
+#: src/nemo-view.c:8283
+msgid "Prepare the selected files to be copied with a Paste command"
+msgstr "Chuẩn bị các tập tin được chọn để sao chép với lệnh Dán"
+
+#. name, stock id
+#. label, accelerator
+#: src/nemo-view.c:8286 gresources/nemo-file-management-properties.glade:3525
+#: gresources/nemo-file-management-properties.glade:3899
+msgid "_Paste"
+msgstr ""
+
+#. tooltip
+#: src/nemo-view.c:8287
+msgid "Move or copy files previously selected by a Cut or Copy command"
+msgstr "Chuyển hoặc chép tập tin được chọn trước đây bằng lệnh Cắt hoặc Chép"
+
+#. tooltip
+#: src/nemo-view.c:8293
+msgid ""
+"Move or copy files previously selected by a Cut or Copy command into the "
+"selected folder"
+msgstr ""
+"Chuyển hoặc chép tập tin được chọn trước đây bằng lệnh Cắt hoặc Chép vào thư "
+"mục được chọn"
+
+#. name, stock id, label
+#: src/nemo-view.c:8295 gresources/nemo-file-management-properties.glade:3639
+msgid "Cop_y to"
+msgstr "Chép _đến"
+
+#. name, stock id, label
+#: src/nemo-view.c:8296 gresources/nemo-file-management-properties.glade:3658
+msgid "M_ove to"
+msgstr "Ch_uyển đến"
+
+#. name, stock id
+#. label, accelerator
+#: src/nemo-view.c:8298 libnemo-private/nemo-clipboard.c:444
+msgid "Select _All"
+msgstr "Chọn _Tất cả"
+
+#. tooltip
+#: src/nemo-view.c:8299
+msgid "Select all items in this window"
+msgstr "Chọn tất cả mục trong cửa sổ này"
+
+#. name, stock id
+#. label, accelerator
+#: src/nemo-view.c:8302
+msgid "Select I_tems Matching..."
+msgstr "Chọn _Mục Khớp..."
+
+#. tooltip
+#: src/nemo-view.c:8303
+msgid "Select items in this window matching a given pattern"
+msgstr "Chọn các mục trong cửa sổ này khớp với mẫu chỉ định"
+
+#. name, stock id
+#. label, accelerator
+#: src/nemo-view.c:8306
+msgid "_Invert Selection"
+msgstr "_Đảo Vùng chọn"
+
+#. tooltip
+#: src/nemo-view.c:8307
+msgid "Select all and only the items that are not currently selected"
+msgstr "Chọn tất cả và chỉ những mục hiện đang không được chọn"
+
+#. name, stock id
+#. label, accelerator
+#: src/nemo-view.c:8310 libnemo-private/nemo-file-conflict-dialog.c:565
+#: gresources/nemo-file-management-properties.glade:3544
+msgid "D_uplicate"
+msgstr "N_hân đôi"
+
+#. tooltip
+#: src/nemo-view.c:8311
+msgid "Duplicate each selected item"
+msgstr "Nhân đôi từng mục được chọn"
+
+#. name, stock id
+#. label, accelerator
+#: src/nemo-view.c:8314 src/nemo-view.c:9879
+#: gresources/nemo-file-management-properties.glade:3601
+msgid "Ma_ke Link"
+msgid_plural "Ma_ke Links"
+msgstr[0] "Tạ_o Liên kết"
+
+#. tooltip
+#: src/nemo-view.c:8315
+msgid "Create a symbolic link for each selected item"
+msgstr "Tạo liên kết biểu tượng cho từng mục được chọn"
+
+#. tooltip
+#: src/nemo-view.c:8319
+msgid "Rename selected item"
+msgstr "Đổi tên mục được chọn"
+
+#. tooltip
+#: src/nemo-view.c:8327 src/nemo-view.c:9830
+msgid "Move each selected item to the Trash"
+msgstr "Chuyển từng mục được chọn vào Thùng rác"
+
+#. tooltip
+#: src/nemo-view.c:8331 src/nemo-view.c:9854
+msgid "Delete each selected item, without moving to the Trash"
+msgstr "Xóa từng mục được chọn, không chuyển vào Thùng rác"
+
+#. name, stock id
+#. label, accelerator
+#: src/nemo-view.c:8334 src/nemo-view.c:8443
+msgid "_Restore"
+msgstr "_Phục hồi"
+
+#. name, stock id
+#. label, accelerator
+#. name, stock id, label
+#: src/nemo-view.c:8338 src/nemo-window-menus.c:1357
+msgid "_Undo"
+msgstr "_Hoàn tác"
+
+#. tooltip
+#: src/nemo-view.c:8339
+msgid "Undo the last action"
+msgstr "Hoàn tác hành động sau cùng"
+
+#. name, stock id
+#. label, accelerator
+#: src/nemo-view.c:8342
+msgid "_Redo"
+msgstr "_Làm lại"
+
+#. tooltip
+#: src/nemo-view.c:8343
+msgid "Redo the last undone action"
+msgstr "Làm lại hành động hoàn tác sau cùng"
+
+#. 
+#. * multiview-TODO: decide whether "Reset to Defaults" should
+#. * be window-wide, and not just view-wide.
+#. * Since this also resets the "Show hidden files" mode,
+#. * it is a mixture of both ATM.
+#. 
+#. name, stock id
+#. label, accelerator
+#: src/nemo-view.c:8352
+msgid "Reset View to _Defaults"
+msgstr "Đặt lại Kiểu xem về _Mặc định"
+
+#. tooltip
+#: src/nemo-view.c:8353
+msgid "Reset sorting order and zoom level to match preferences for this view"
+msgstr ""
+"Đặt lại thứ tự sắp xếp và cấp độ thu phóng khớp với thiết đặt cho kiểu xem "
+"này"
+
+#. name, stock id
+#. label, accelerator
+#: src/nemo-view.c:8356
+msgid "Connect To This Server"
+msgstr "Kết nối Đến Máy chủ Này"
+
+#. tooltip
+#: src/nemo-view.c:8357
+msgid "Make a permanent connection to this server"
+msgstr "Tạo kết nối vĩnh viễn đến máy chủ này"
+
+#. tooltip
+#: src/nemo-view.c:8361
+msgid "Mount the selected volume"
+msgstr "Gắn kết phân vùng được chọn"
+
+#. tooltip
+#: src/nemo-view.c:8365
+msgid "Unmount the selected volume"
+msgstr "Tháo gắn kết phân vùng được chọn"
+
+#. tooltip
+#: src/nemo-view.c:8369
+msgid "Eject the selected volume"
+msgstr "Đẩy phân vùng được chọn ra"
+
+#. tooltip
+#: src/nemo-view.c:8373
+msgid "Start the selected volume"
+msgstr "Chạy phân vùng được chọn"
+
+#. tooltip
+#: src/nemo-view.c:8377 src/nemo-view.c:9334
+msgid "Stop the selected volume"
+msgstr "Dừng phân vùng được chọn"
+
+#. tooltip
+#: src/nemo-view.c:8381 src/nemo-view.c:8405 src/nemo-view.c:8468
+msgid "Detect media in the selected drive"
+msgstr "Phát hiện dữ liệu phương tiện trên ổ đĩa được chọn"
+
+#. tooltip
+#: src/nemo-view.c:8385
+msgid "Mount the volume associated with the open folder"
+msgstr "Gắn kết phân vùng kiên kết với thư mục mở"
+
+#. tooltip
+#: src/nemo-view.c:8389
+msgid "Unmount the volume associated with the open folder"
+msgstr "Tháo gắn kết phân vùng kiên kết với thư mục mở"
+
+#. tooltip
+#: src/nemo-view.c:8393
+msgid "Eject the volume associated with the open folder"
+msgstr "Đẩy phân vùng được chọn liên kết với thư mục mở"
+
+#. tooltip
+#: src/nemo-view.c:8397
+msgid "Start the volume associated with the open folder"
+msgstr "Chạy phân vùng được chọn liên kết với thư mục mở"
+
+#. tooltip
+#: src/nemo-view.c:8401
+msgid "Stop the volume associated with the open folder"
+msgstr "Dừng phân vùng được chọn liên kết với thư mục mở"
+
+#. name, stock id
+#. label, accelerator
+#: src/nemo-view.c:8408
+msgid "Open File and Close window"
+msgstr "Mở Tập tin và Đóng cửa sổ"
+
+#. tooltip
+#: src/nemo-view.c:8414
+msgid "Open this folder in a navigation window"
+msgstr "Mở thư mục này trong cửa sổ duyệt"
+
+#. tooltip
+#: src/nemo-view.c:8418
+msgid "Open this folder in a new tab"
+msgstr "Mở thư mục này trong thẻ mới"
+
+#. tooltip
+#: src/nemo-view.c:8423
+msgid "Prepare this folder to be moved with a Paste command"
+msgstr "Chuẩn bị thư mục này để di chuyển bằng lệnh Dán"
+
+#. tooltip
+#: src/nemo-view.c:8427
+msgid "Prepare this folder to be copied with a Paste command"
+msgstr "Chuẩn bị thư mục này để sao chép bằng lệnh Dán"
+
+#. tooltip
+#: src/nemo-view.c:8431
+msgid ""
+"Move or copy files previously selected by a Cut or Copy command into this "
+"folder"
+msgstr ""
+"Chuyển hoặc chép tập tin được chọn bằng lệnh Cắt hoặc Chép vào thư mục này"
+
+#. tooltip
+#: src/nemo-view.c:8436
+msgid "Move this folder to the Trash"
+msgstr "Chuyển thư mục này vào Thùng rác"
+
+#. tooltip
+#: src/nemo-view.c:8440
+msgid "Delete this folder, without moving to the Trash"
+msgstr "Xóa thư mục này, không chuyển vào Thùng rác"
+
+#. tooltip
+#: src/nemo-view.c:8448
+msgid "Mount the volume associated with this folder"
+msgstr "Gắn kết phân vùng được chọn iiên kết với thư mục này"
+
+#. tooltip
+#: src/nemo-view.c:8452
+msgid "Unmount the volume associated with this folder"
+msgstr "Tháo gắn kết phân vùng được chọn iiên kết với thư mục này"
+
+#. tooltip
+#: src/nemo-view.c:8456
+msgid "Eject the volume associated with this folder"
+msgstr "Đẩy phân vùng liên kết với thư mục này"
+
+#. tooltip
+#: src/nemo-view.c:8460
+msgid "Start the volume associated with this folder"
+msgstr "Chạy phân vùng liên kết với thư mục này"
+
+#. tooltip
+#: src/nemo-view.c:8464
+msgid "Stop the volume associated with this folder"
+msgstr "Dừng phân vùng liên kết với thư mục này"
+
+#. tooltip
+#: src/nemo-view.c:8473
+msgid "View or modify the properties of this folder"
+msgstr "Xem hoặc sửa đổi thuộc tính của thư mục này"
+
+#. name, stock id, label
+#: src/nemo-view.c:8476 src/nemo-view.c:8479
+msgid "_Other pane"
+msgstr "_Khung khác"
+
+#: src/nemo-view.c:8477
+msgid "Copy the current selection to the other pane in the window"
+msgstr "Chép vùng chọn hiện thời đến khung khác trong cửa sổ"
+
+#: src/nemo-view.c:8480
+msgid "Move the current selection to the other pane in the window"
+msgstr "Chuyển vùng chọn hiện thời đến khung khác trong cửa sổ"
+
+#. name, stock id, label
+#. name, stock id
+#. label, accelerator
+#: src/nemo-view.c:8483 src/nemo-view.c:8487 src/nemo-window-menus.c:1432
+#: src/nemo-window-menus.c:1641 src/nemo-window-menus.c:1897
+msgid "_Home"
+msgstr "_Thư mục nhà"
+
+#: src/nemo-view.c:8484
+msgid "Copy the current selection to the home folder"
+msgstr "Chép vùng chọn hiện thời đến thư mục nhà"
+
+#: src/nemo-view.c:8488
+msgid "Move the current selection to the home folder"
+msgstr "Chuyển vùng chọn hiện thời đến thư mục nhà"
+
+#. name, stock id, label
+#: src/nemo-view.c:8491 src/nemo-view.c:8495
+msgid "_Desktop"
+msgstr "_Màn hình làm việc"
+
+#: src/nemo-view.c:8492
+msgid "Copy the current selection to the desktop"
+msgstr "Chép vùng chọn hiện thời đến màn hình làm việc"
+
+#: src/nemo-view.c:8496
+msgid "Move the current selection to the desktop"
+msgstr "Chuyển vùng chọn hiện thời đến thư mục làm việc"
+
+#: src/nemo-view.c:8499 src/nemo-view.c:8503
+msgid "Browse..."
+msgstr ""
+
+#: src/nemo-view.c:8500
+msgid "Browse for a folder to move the selection to"
+msgstr "Duyệt chọn thư mục để chuyển phần chọn vào"
+
+#: src/nemo-view.c:8504
+msgid "Browse for a folder to copy the selection to"
+msgstr "Duyệt chọn thư mục để chép phần chọn vào"
+
+#: src/nemo-view.c:8508
+msgid ""
+"Pin the selected file so it always appears at the top of this location's "
+"file list"
+msgstr ""
+
+#: src/nemo-view.c:8512
+msgid "Unpin the selected file from the top of this location's file list"
+msgstr ""
+
+#: src/nemo-view.c:8515
+msgid "Add to favorites"
+msgstr ""
+
+#: src/nemo-view.c:8516
+msgid "Add the selected file to your favorites"
+msgstr ""
+
+#: src/nemo-view.c:8519
+msgid "Remove from favorites"
+msgstr ""
+
+#: src/nemo-view.c:8520
+msgid "Remove the selected file from your favorites"
+msgstr ""
+
+#: src/nemo-view.c:8595
+msgid "Run scripts"
+msgstr "Chạy kịch bản"
+
+#. Create a script action here specially because its tooltip is dynamic
+#: src/nemo-view.c:8597 gresources/nemo-file-management-properties.glade:3468
+#: gresources/nemo-file-management-properties.glade:3825
+msgid "_Scripts"
+msgstr "Tập _lệnh"
+
+#: src/nemo-view.c:8970
+#, c-format
+msgid "Move the open folder out of the trash to \"%s\""
+msgstr "Chuyển thư mục được mở khỏi Thùng rác đến \"%s\""
+
+#: src/nemo-view.c:8973
+#, c-format
+msgid "Move the selected folder out of the trash to \"%s\""
+msgid_plural "Move the selected folders out of the trash to \"%s\""
+msgstr[0] "Chuyển thư mục được chọn khỏi Thùng rác đến \"%s\""
+
+#: src/nemo-view.c:8977
+msgid "Move the selected folder out of the trash"
+msgid_plural "Move the selected folders out of the trash"
+msgstr[0] "Chuyển thư mục được chọn khỏi Thùng rác"
+
+#: src/nemo-view.c:8983
+#, c-format
+msgid "Move the selected file out of the trash to \"%s\""
+msgid_plural "Move the selected files out of the trash to \"%s\""
+msgstr[0] "Chuyển tập tin được chọn khỏi Thùng rác đến \"%s\""
+
+#: src/nemo-view.c:8987
+msgid "Move the selected file out of the trash"
+msgid_plural "Move the selected files out of the trash"
+msgstr[0] "Chuyển tập tin được chọn khỏi Thùng rác"
+
+#: src/nemo-view.c:8993
+#, c-format
+msgid "Move the selected item out of the trash to \"%s\""
+msgid_plural "Move the selected items out of the trash to \"%s\""
+msgstr[0] "Chuyển mục được chọn khỏi Thùng rác đến \"%s\""
+
+#: src/nemo-view.c:8997
+msgid "Move the selected item out of the trash"
+msgid_plural "Move the selected items out of the trash"
+msgstr[0] "Chuyển mục được chọn khỏi Thùng rác"
+
+#: src/nemo-view.c:9114 src/nemo-view.c:9118 src/nemo-view.c:9305
+#: src/nemo-view.c:9309
+msgid "Start the selected drive"
+msgstr "Khởi chạy ổ đĩa được chọn"
+
+#: src/nemo-view.c:9122 src/nemo-view.c:9313
+msgid "Connect to the selected drive"
+msgstr "Kết nối đến ổ đĩa được chọn"
+
+#: src/nemo-view.c:9125 src/nemo-view.c:9212 src/nemo-view.c:9316
+msgid "_Start Multi-disk Drive"
+msgstr "_Chạy Ổ nhiều đĩa"
+
+#: src/nemo-view.c:9126 src/nemo-view.c:9317
+msgid "Start the selected multi-disk drive"
+msgstr "Chạy Ổ nhiều đĩa được chọn"
+
+#: src/nemo-view.c:9129
+msgid "U_nlock Drive"
+msgstr "Mở _khóa Đĩa"
+
+#: src/nemo-view.c:9130 src/nemo-view.c:9321
+msgid "Unlock the selected drive"
+msgstr "Mở khóa ổ đĩa được chọn"
+
+#: src/nemo-view.c:9143
+msgid "Stop the selected drive"
+msgstr "Dừng ổ đĩa được chọn"
+
+#: src/nemo-view.c:9147 src/nemo-view.c:9338
+msgid "Safely remove the selected drive"
+msgstr "Gỡ bỏ ổ đĩa được chọn an toàn"
+
+#: src/nemo-view.c:9150 src/nemo-view.c:9237 src/nemo-view.c:9341
+msgid "_Disconnect"
+msgstr "_Ngắt kết nối"
+
+#: src/nemo-view.c:9151 src/nemo-view.c:9342
+msgid "Disconnect the selected drive"
+msgstr "Ngắt kết nối ổ đĩa được chọn"
+
+#: src/nemo-view.c:9154 src/nemo-view.c:9241 src/nemo-view.c:9345
+msgid "_Stop Multi-disk Drive"
+msgstr "_Dừng Ổ nhiều đĩa"
+
+#: src/nemo-view.c:9155 src/nemo-view.c:9346
+msgid "Stop the selected multi-disk drive"
+msgstr "Dừng ổ nhiều đĩa được chọn"
+
+#: src/nemo-view.c:9159 src/nemo-view.c:9350
+msgid "Lock the selected drive"
+msgstr "Khoá ổ đĩa được chọn"
+
+#: src/nemo-view.c:9201 src/nemo-view.c:9205
+msgid "Start the drive associated with the open folder"
+msgstr "Khởi chạy ổ đĩa liên kết với thư mục mở"
+
+#: src/nemo-view.c:9209
+msgid "Connect to the drive associated with the open folder"
+msgstr "Kết nối ổ đĩa liên kết với thư mục mở"
+
+#: src/nemo-view.c:9213
+msgid "Start the multi-disk drive associated with the open folder"
+msgstr "Khởi chạy ổ nhiều đĩa liên kết với thư mục mở"
+
+#: src/nemo-view.c:9217
+msgid "Unlock the drive associated with the open folder"
+msgstr "Mở khóa ổ đĩa liên kết với thư mục mở"
+
+#: src/nemo-view.c:9230
+msgid "_Stop the drive associated with the open folder"
+msgstr "_Dừng ổ đĩa liên kết với thư mục mở"
+
+#: src/nemo-view.c:9234
+msgid "Safely remove the drive associated with the open folder"
+msgstr "Gỡ bỏ ổ đĩa liên kết với thư mục mở an toàn"
+
+#: src/nemo-view.c:9238
+msgid "Disconnect the drive associated with the open folder"
+msgstr "Ngắt kết nối ổ đĩa liên kết với thư mục mở"
+
+#: src/nemo-view.c:9242
+msgid "Stop the multi-disk drive associated with the open folder"
+msgstr "Dừng ổ nhiều đĩa tương ứng với thư mục mở"
+
+#: src/nemo-view.c:9246
+msgid "Lock the drive associated with the open folder"
+msgstr "Khóa ổ đĩa tương ứng với thư mục mở"
+
+#: src/nemo-view.c:9488 src/nemo-view.c:9825
+msgid "_Delete Permanently"
+msgstr "_Xóa Vĩnh viễn"
+
+#: src/nemo-view.c:9489
+msgid "Delete the open folder permanently"
+msgstr "Xóa vĩnh viễn thư mục mở"
+
+#: src/nemo-view.c:9493
+msgid "Move the open folder to the Trash"
+msgstr "Chuyển thư mục mở vào Thùng rác"
+
+#: src/nemo-view.c:9740
+#, c-format
+msgid "_Open With %s"
+msgstr "_Mở Bằng %s"
+
+#: src/nemo-view.c:9789
+#, c-format
+msgid "Open in %'d New _Window"
+msgid_plural "Open in %'d New _Windows"
+msgstr[0] "Mở trong %'d Cửa sổ Mới"
+
+#: src/nemo-view.c:9809
+#, c-format
+msgid "Open in %'d New _Tab"
+msgid_plural "Open in %'d New _Tabs"
+msgstr[0] "Mở trong %'d Thẻ Mới"
+
+#: src/nemo-view.c:9826
+msgid "Delete all selected items permanently"
+msgstr "Xóa vĩnh viễn mọi mục được chọn"
+
+#: src/nemo-view.c:9850
+msgid "Remo_ve from Recent"
+msgstr "_Bỏ khỏi Gần đây"
+
+#: src/nemo-view.c:9851
+msgid "Remove each selected item from the recently used list"
+msgstr "Bỏ các mục được chọn khỏi danh sách sử dụng gần đây"
+
+#: src/nemo-view.c:9892
+msgid "View or modify the properties of the open folder"
+msgstr "Xem hoặc sửa đổi thuộc tính thư mục mở"
+
+#. Note to localizers: convert file type string for file
+#. * (e.g. "folder", "plain text") to file type for symbolic link
+#. * to that kind of file (e.g. "link to folder").
+#. 
+#. appended to new link file
+#: src/nemo-view-dnd.c:125 libnemo-private/nemo-file.c:7066
+#: libnemo-private/nemo-file-operations.c:396
+#, c-format
+msgid "Link to %s"
+msgstr "Liên kết đến %s"
+
+#: src/nemo-view-dnd.c:171 src/nemo-view-dnd.c:205 src/nemo-view-dnd.c:298
+msgid "Drag and drop is not supported."
+msgstr "Không hỗ trợ kéo và thả."
+
+#: src/nemo-view-dnd.c:172
+msgid "Drag and drop is only supported on local file systems."
+msgstr "Chỉ hỗ trợ kéo và thả trên hệ thống tập tin cục bộ."
+
+#: src/nemo-view-dnd.c:206 src/nemo-view-dnd.c:299
+msgid "An invalid drag type was used."
+msgstr "Đã dùng một kiểu kéo không hợp lệ."
+
+#. Translator: This is the filename used for when you dnd text to a directory
+#: src/nemo-view-dnd.c:376
+msgid "dropped text.txt"
+msgstr "văn bản thả.txt"
+
+#. Translator: This is the filename used for when you dnd raw
+#. * data to a directory, if the source didn't supply a name.
+#. 
+#: src/nemo-view-dnd.c:421
+msgid "dropped data"
+msgstr "dữ liệu thả"
+
+#: src/nemo-window-bookmarks.c:83
+msgid ""
+"Do you want to remove any bookmarks with the non-existing location from your "
+"list?"
+msgstr ""
+"Bạn có muốn loại bỏ những đánh dấu dấu liên kết đến vị trí không tồn tại "
+"khỏi danh sách không?"
+
+#: src/nemo-window-bookmarks.c:85
+#, c-format
+msgid "The location \"%s\" does not exist."
+msgstr "Vị trí \"%s\" không tồn tại."
+
+#: src/nemo-window-bookmarks.c:88
+msgid "Bookmark for Nonexistent Location"
+msgstr "Đánh dấu Vị trí Không tồn tại"
+
+#: src/nemo-window-bookmarks.c:308
+msgid "Go to the location specified by this bookmark"
+msgstr "Đến vị trí đánh dấu này chỉ định"
+
+#: src/nemo-window.c:1387
+#, c-format
+msgid "%s - File Browser"
+msgstr "%s - Trình duyệt tập tin"
+
+#. Set initial window title
+#: src/nemo-window.c:1998 src/nemo-window-menus.c:343
+msgid "Nemo"
+msgstr "Nemo"
+
+#: src/nemo-window-manage-views.c:1228
+msgid "Searching..."
+msgstr "Đang tìm..."
+
+#: src/nemo-window-manage-views.c:1717 src/nemo-window-manage-views.c:1723
+#: src/nemo-window-manage-views.c:1740 src/nemo-window-manage-views.c:1751
+#: src/nemo-window-manage-views.c:1757 src/nemo-window-manage-views.c:1783
+#, c-format
+msgid "Could not display \"%s\"."
+msgstr "Không hiển thị \"%s\" được."
+
+#: src/nemo-window-manage-views.c:1720
+msgid "Nemo has no installed viewer capable of displaying the folder."
+msgstr "Nemo không cài sẵn trình xem nào có thể hiển thị thư mục này."
+
+#: src/nemo-window-manage-views.c:1726
+msgid "The location is not a folder."
+msgstr "Vị trí không phải thư mục."
+
+#: src/nemo-window-manage-views.c:1732
+#, c-format
+msgid "Could not find \"%s\"."
+msgstr "Không tìm thấy \"%s\"."
+
+#: src/nemo-window-manage-views.c:1735
+msgid "Please check the spelling and try again."
+msgstr "Xin vui lòng kiểm tra chính tả và thử lại."
+
+#: src/nemo-window-manage-views.c:1743
+#, c-format
+msgid "Nemo cannot handle \"%s\" locations."
+msgstr "Nemo không xử lý được các vị trí \"%s\"."
+
+#: src/nemo-window-manage-views.c:1746
+msgid "Nemo cannot handle this kind of location."
+msgstr "Nemo không xử lý được loại ví trí này."
+
+#: src/nemo-window-manage-views.c:1753
+msgid "Unable to mount the location."
+msgstr "Không gắn kết vị trí được."
+
+#: src/nemo-window-manage-views.c:1759
+msgid "Access was denied."
+msgstr "Truy cập bị từ chối."
+
+#. This case can be hit for user-typed strings like "foo" due to
+#. * the code that guesses web addresses when there's no initial "/".
+#. * But this case is also hit for legitimate web addresses when
+#. * the proxy is set up wrong.
+#. 
+#: src/nemo-window-manage-views.c:1768
+#, c-format
+msgid "Could not display \"%s\", because the host could not be found."
+msgstr "Không hiển thị \"%s\" được vì không tìm thấy máy chủ."
+
+#: src/nemo-window-manage-views.c:1770
+msgid ""
+"Check that the spelling is correct and that your proxy settings are correct."
+msgstr ""
+"Hãy kiểm tra lại chính tả lvà thiết đặt máy ủy nhiệm là đúng hay không."
+
+#: src/nemo-window-manage-views.c:1785
+#, c-format
+msgid ""
+"Error: %s\n"
+"Please select another viewer and try again."
+msgstr ""
+"Lỗi: %s\n"
+"Xin vui lòng chọn trình xem khác và thử lại."
+
+#: src/nemo-window-menus.c:322
+msgid ""
+"Nemo is free software; you can redistribute it and/or modify it under the "
+"terms of the GNU General Public License as published by the Free Software "
+"Foundation; either version 2 of the License, or (at your option) any later "
+"version."
+msgstr ""
+"Nemo là phần mềm tự do; bạn có thể phân phối và/hoặc thay đổi nó theo các "
+"điều khoản của Giấy phép Công cộng GNU do Quỹ Phần mềm Tự do phát hành; hoặc "
+"Giấy phép phiên bản 2, hoặc (tùy chọn) bất kỳ phiên bản sau này."
+
+#: src/nemo-window-menus.c:326
+msgid ""
+"Nemo is distributed in the hope that it will be useful, but WITHOUT ANY "
+"WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS "
+"FOR A PARTICULAR PURPOSE.  See the GNU General Public License for more "
+"details."
+msgstr ""
+"Nemo được phân phối với hi vọng rằng nó sẽ hữu ích, nhưng KHÔNG KÈM THEO BẤT "
+"KỲ SỰ BẢO ĐẢM NÀO; không có cả sự bảo đảm ngầm hiểm về TÍNH THƯƠNG MẠI HÓA "
+"hay ĐỘ THÍCH HỢP VỚI MỘT MỤC ĐÍCH CỤ THỂ NÀO. Xem Giấy phép Công cộng GNU để "
+"biết thêm chi tiết."
+
+#: src/nemo-window-menus.c:330
+msgid ""
+"You should have received a copy of the GNU General Public License along with "
+"Nemo; if not, write to the Free Software Foundation, Inc., 51 Franklin "
+"Street, Fifth Floor, Boston, MA 02110-1301 USA"
+msgstr ""
+"Bạn đã phải có một bản sao của Giấy phép Công cộng GNU cùng với Nemo; nếu "
+"không, hãy viết thư đến Tập đoàn Quỹ Phần mềm Tự do, 51 Franklin Street, "
+"Tầng 5, Boston, MA 02110-1301 Hoa Kỳ."
+
+#: src/nemo-window-menus.c:345
+msgid ""
+"Nemo lets you organize files and folders, both on your computer and online."
+msgstr ""
+"Nemo giúp bạn tổ chức tập tin và thư mục, cả trên máy của bạn và trực tuyến."
+
+#: src/nemo-window-menus.c:406
+#, c-format
+msgid ""
+"There was an error displaying help: \n"
+"%s"
+msgstr ""
+"Có lỗi khi hiển thị trợ giúp: \n"
+"%s"
+
+#. name, stock id, label
+#: src/nemo-window-menus.c:1340
+msgid "_File"
+msgstr "_Tập tin"
+
+#. name, stock id, label
+#: src/nemo-window-menus.c:1341
+msgid "_Edit"
+msgstr "Chỉnh _sửa"
+
+#. name, stock id, label
+#: src/nemo-window-menus.c:1342
+msgid "_View"
+msgstr "_Xem"
+
+#. name, stock id, label
+#: src/nemo-window-menus.c:1343
+msgid "_Help"
+msgstr "Trợ _giúp"
+
+#. name, stock id
+#. label, accelerator
+#: src/nemo-window-menus.c:1345
+msgid "_Close"
+msgstr "_Đóng"
+
+#. tooltip
+#: src/nemo-window-menus.c:1346
+msgid "Close this folder"
+msgstr "Đóng thư mục này"
+
+#: src/nemo-window-menus.c:1349
+msgid "Prefere_nces"
+msgstr "Tùy chỉnh"
+
+#: src/nemo-window-menus.c:1350
+msgid "Edit Nemo preferences"
+msgstr "Sửa tùy chỉnh Nemo"
+
+#: src/nemo-window-menus.c:1353
+#: gresources/nemo-file-management-properties.glade:4151
+msgid "Plugins"
+msgstr "Phần gắn thêm"
+
+#: src/nemo-window-menus.c:1354
+msgid "Manage extensions, actions and scripts"
+msgstr "Quản lý phần mở rộng, hành động và kịch bản"
+
+#: src/nemo-window-menus.c:1358
+msgid "Undo the last text change"
+msgstr "Hoàn tác thay đổi văn bản gần nhất"
+
+#. name, stock id, label
+#: src/nemo-window-menus.c:1361
+msgid "Open _Parent"
+msgstr "Mở _Cấp trên"
+
+#: src/nemo-window-menus.c:1362
+msgid "Open the parent folder"
+msgstr "Mở thư mục cấp trên"
+
+#. tooltip
+#: src/nemo-window-menus.c:1369
+msgid "Stop loading the current location"
+msgstr "Dừng nạp vị trí hiện thời"
+
+#. name, stock id
+#. label, accelerator
+#: src/nemo-window-menus.c:1372 src/nemo-window-menus.c:1627
+msgid "_Reload"
+msgstr "_Nạp lại"
+
+#. tooltip
+#: src/nemo-window-menus.c:1373 src/nemo-window-menus.c:1629
+msgid "Reload the current location"
+msgstr "Nạp lại vị trí hiện thời"
+
+#. name, stock id
+#. label, accelerator
+#: src/nemo-window-menus.c:1376
+msgid "_All Topics"
+msgstr "_Mọi chủ đề"
+
+#. tooltip
+#: src/nemo-window-menus.c:1377
+msgid "Display Nemo help"
+msgstr "Hiện trợ giúp Nemo"
+
+#: src/nemo-window-menus.c:1380
+msgid "_Keyboard Shortcuts"
+msgstr ""
+
+#: src/nemo-window-menus.c:1381
+msgid "Display keyboard shortcuts"
+msgstr ""
+
+#. * name, stock id          { "NemoHelpSearch", NULL,
+#. label, accelerator        N_("Search for files"), NULL,
+#. tooltip                   N_("Locate files based on file name and type. Save your searches for later use."),
+#. G_CALLBACK (action_nemo_manual_callback) },
+#. name, stock id          { "NemoHelpSort", NULL,
+#. label, accelerator        N_("Sort files and folders"), NULL,
+#. tooltip                   N_("Arrange files by name, size, type, or when they were changed."),
+#. G_CALLBACK (action_nemo_manual_callback) },
+#. name, stock id          { "NemoHelpLost", NULL,
+#. label, accelerator        N_("Find a lost file"), NULL,
+#. tooltip                   N_("Follow these tips if you can't find a file you created or downloaded."),
+#. G_CALLBACK (action_nemo_manual_callback) },
+#. name, stock id          { "NemoHelpShare", NULL,
+#. label, accelerator        N_("Share and transfer files"), NULL,
+#. tooltip                   N_("Easily transfer files to your contacts and devices from the file manager."),
+#. G_CALLBACK (action_nemo_manual_callback) }, *
+#. name, stock id
+#. label, accelerator
+#: src/nemo-window-menus.c:1400
+msgid "_About"
+msgstr "_Giới thiệu"
+
+#. tooltip
+#: src/nemo-window-menus.c:1401
+msgid "Display credits for the creators of Nemo"
+msgstr "Hiện công trạng các tác giả Nemo"
+
+#. name, stock id
+#. label, accelerator
+#: src/nemo-window-menus.c:1404
+msgid "Zoom _In"
+msgstr "Phóng _To"
+
+#. tooltip
+#: src/nemo-window-menus.c:1405
+msgid "Increase the view size"
+msgstr "Tăng kích thước vùng xem"
+
+#. name, stock id
+#. label, accelerator
+#: src/nemo-window-menus.c:1416
+msgid "Zoom _Out"
+msgstr "Thu _Nhỏ"
+
+#. tooltip
+#: src/nemo-window-menus.c:1417
+msgid "Decrease the view size"
+msgstr "Giảm kích thước vùng xem"
+
+#. name, stock id
+#. label, accelerator
+#: src/nemo-window-menus.c:1424
+msgid "Normal Si_ze"
+msgstr "Cỡ _Thường"
+
+#. tooltip
+#: src/nemo-window-menus.c:1425
+msgid "Use the normal view size"
+msgstr "Sử dụng kích cỡ xem bình thường"
+
+#. name, stock id
+#. label, accelerator
+#: src/nemo-window-menus.c:1428
+msgid "Connect to _Server..."
+msgstr "Kết nối đến Máy _chủ..."
+
+#. tooltip
+#: src/nemo-window-menus.c:1429
+msgid "Connect to a remote computer or shared disk"
+msgstr "Kết nối đến máy tính ở xa hay ổ đĩa chia sẻ"
+
+#. tooltip
+#: src/nemo-window-menus.c:1433
+msgid "Open your personal folder"
+msgstr "Mở thư mục cá nhân"
+
+#. name, stock id
+#. label, accelerator
+#: src/nemo-window-menus.c:1436 src/nemo-window-menus.c:1655
+msgid "_Computer"
+msgstr "_Máy tính"
+
+#. tooltip
+#: src/nemo-window-menus.c:1437
+msgid ""
+"Browse all local and remote disks and folders accessible from this computer"
+msgstr ""
+"Duyệt  xem mọi ổ đĩa cục bộ và từ xa, cũng như các thư mục truy cập được từ "
+"máy này"
+
+#. name, stock id
+#. label, accelerator
+#: src/nemo-window-menus.c:1440
+msgid "_Network"
+msgstr "_Mạng"
+
+#. tooltip
+#: src/nemo-window-menus.c:1441
+msgid "Browse bookmarked and local network locations"
+msgstr "Duyệt các vị trí mạng cục bộ và các vị trí đã đánh dấu"
+
+#. name, stock id
+#. label, accelerator
+#: src/nemo-window-menus.c:1444
+msgid "T_emplates"
+msgstr "_Mẫu"
+
+#. tooltip
+#: src/nemo-window-menus.c:1445
+msgid "Open your personal templates folder"
+msgstr "Đến thư mục mẫu cá nhân"
+
+#. name, stock id
+#. label, accelerator
+#: src/nemo-window-menus.c:1448
+msgid "_Trash"
+msgstr "Thùng _rác"
+
+#. tooltip
+#: src/nemo-window-menus.c:1449
+msgid "Open your personal trash folder"
+msgstr "Mở thư mục thùng rác cá nhân"
+
+#. name, stock id, label
+#: src/nemo-window-menus.c:1451
+msgid "_Go"
+msgstr "Đ_i đến"
+
+#. name, stock id, label
+#: src/nemo-window-menus.c:1452
+msgid "_Bookmarks"
+msgstr "Đánh _dấu"
+
+#. name, stock id, label
+#: src/nemo-window-menus.c:1453
+msgid "_Tabs"
+msgstr "_Thẻ"
+
+#. name, stock id, label
+#: src/nemo-window-menus.c:1454
+msgid "New _Window"
+msgstr "_Cửa sổ Mới"
+
+#: src/nemo-window-menus.c:1455
+msgid "Open another Nemo window for the displayed location"
+msgstr "Mở cửa sổ Nemo khác cho vị trí đã hiển thị"
+
+#. name, stock id, label
+#: src/nemo-window-menus.c:1457
+msgid "New _Tab"
+msgstr "_Thẻ Mới"
+
+#: src/nemo-window-menus.c:1458
+msgid "Open another tab for the displayed location"
+msgstr "Mở thẻ khác cho vị trí đã hiển thị"
+
+#. name, stock id, label
+#: src/nemo-window-menus.c:1460
+msgid "Close _All Windows"
+msgstr "Đóng _Mọi Cửa sổ"
+
+#: src/nemo-window-menus.c:1461
+msgid "Close all Navigation windows"
+msgstr "Đóng mọi Cửa sổ Duyệt"
+
+#. name, stock id, label
+#: src/nemo-window-menus.c:1463 src/nemo-window-menus.c:1577
+msgid "_Back"
+msgstr "_Lùi"
+
+#: src/nemo-window-menus.c:1464 src/nemo-window-menus.c:1579
+msgid "Go to the previous visited location"
+msgstr "Đến vị trí đã ghé thăm trước đó"
+
+#. name, stock id, label
+#: src/nemo-window-menus.c:1466 src/nemo-window-menus.c:1593
+msgid "_Forward"
+msgstr "_Tiếp"
+
+#: src/nemo-window-menus.c:1467 src/nemo-window-menus.c:1595
+msgid "Go to the next visited location"
+msgstr "Đến vị trí đã ghé thăm kế tiếp"
+
+#. name, stock id, label
+#: src/nemo-window-menus.c:1469
+msgid "Toggle _Location Entry"
+msgstr "Bật tắt _Mục nhập Vị trí"
+
+#: src/nemo-window-menus.c:1470
+msgid "Switch between location entry and breadcrumbs"
+msgstr "Chuyển đổi giữa mục nhập vị trí và mẩu bánh mì"
+
+#. name, stock id, label
+#: src/nemo-window-menus.c:1472
+msgid "S_witch to Other Pane"
+msgstr "_Chuyển sang Khung Khác"
+
+#: src/nemo-window-menus.c:1473
+msgid "Move focus to the other pane in a split view window"
+msgstr "Chuyển tiêu điểm sang khung khác trong cửa sổ ngăn cách khung nhìn"
+
+#. name, stock id, label
+#: src/nemo-window-menus.c:1475
+msgid "Sa_me Location as Other Pane"
+msgstr "_Cùng Vị trí với Khung Khác"
+
+#: src/nemo-window-menus.c:1476
+msgid "Go to the same location as in the extra pane"
+msgstr "Đi đến cùng vị trí với trong khung phụ"
+
+#: src/nemo-window-menus.c:1479
+msgid "Add a bookmark for the current location to this menu"
+msgstr "Thêm mục đánh dấu cho vị trí hiện thời vào trình đơn này"
+
+#. name, stock id, label
+#: src/nemo-window-menus.c:1481
+msgid "_Edit Bookmarks..."
+msgstr "_Sửa Đánh dấu..."
+
+#: src/nemo-window-menus.c:1482
+msgid "Display a window that allows editing the bookmarks in this menu"
+msgstr "Hiện cửa sổ cho phép chỉnh sửa mục đánh dấu trong trình đơn này"
+
+#: src/nemo-window-menus.c:1484
+msgid "_Previous Tab"
+msgstr "Thẻ _Trước"
+
+#: src/nemo-window-menus.c:1485
+msgid "Activate previous tab"
+msgstr "Kích thoạt thẻ trước"
+
+#: src/nemo-window-menus.c:1487
+msgid "_Next Tab"
+msgstr "_Thẻ Kế"
+
+#: src/nemo-window-menus.c:1488
+msgid "Activate next tab"
+msgstr "Kích hoạt thẻ kế"
+
+#: src/nemo-window-menus.c:1490 src/nemo-window-pane.c:498
+msgid "Move Tab _Left"
+msgstr "Chuyển Thẻ sang _Trái"
+
+#: src/nemo-window-menus.c:1491
+msgid "Move current tab to left"
+msgstr "Chuyển thẻ hiện thời sang trái"
+
+#: src/nemo-window-menus.c:1493 src/nemo-window-pane.c:506
+msgid "Move Tab _Right"
+msgstr "Chuyển Thẻ sang _Phải"
+
+#: src/nemo-window-menus.c:1494
+msgid "Move current tab to right"
+msgstr "Chuyển thẻ hiện thời sang phải"
+
+#: src/nemo-window-menus.c:1496
+msgid "Sidebar"
+msgstr "Thanh lề"
+
+#. name, stock id
+#. label, accelerator
+#: src/nemo-window-menus.c:1501
+#: gresources/nemo-file-management-properties.glade:3880
+msgid "Show _Hidden Files"
+msgstr "Hiện Tập tin _Ẩn"
+
+#. tooltip
+#: src/nemo-window-menus.c:1502
+msgid "Toggle the display of hidden files in the current window"
+msgstr "Bật tắt hiện tập tin ẩn trong cửa sổ hiện hành"
+
+#. name, stock id
+#. label, accelerator
+#: src/nemo-window-menus.c:1506
+msgid "_Main Toolbar"
+msgstr "Thanh công cụ _Chính"
+
+#. tooltip
+#: src/nemo-window-menus.c:1507
+msgid "Change the visibility of this window's main toolbar"
+msgstr "Bật tắt thanh công cụ chính của cửa sổ này"
+
+#. is_active
+#. name, stock id
+#. label, accelerator
+#: src/nemo-window-menus.c:1511
+msgid "_Show Sidebar"
+msgstr "_Hiện Thanh lề"
+
+#. tooltip
+#: src/nemo-window-menus.c:1512
+msgid "Change the visibility of this window's side pane"
+msgstr "Bật tắt khung lề của cửa sổ này"
+
+#. is_active
+#. name, stock id
+#. label, accelerator
+#: src/nemo-window-menus.c:1516
+msgid "St_atusbar"
+msgstr "Thanh _trạng thái"
+
+#. tooltip
+#: src/nemo-window-menus.c:1517
+msgid "Change the visibility of this window's statusbar"
+msgstr "Bật tắt thanh trạng thái của cửa sổ này"
+
+#. is_active
+#. name, stock id
+#. label, accelerator
+#: src/nemo-window-menus.c:1521
+msgid "M_enubar"
+msgstr "_Trình đơn"
+
+#. tooltip
+#: src/nemo-window-menus.c:1522
+msgid "Change the default visibility of the menubar"
+msgstr "Đổi tính nhìn thấy mặc định của trình đơn"
+
+#. is_active
+#. name, stock id
+#. label, accelerator
+#: src/nemo-window-menus.c:1526
+msgid "_Search for Files..."
+msgstr "_Tìm tập tin..."
+
+#. tooltip
+#: src/nemo-window-menus.c:1527 src/nemo-window-menus.c:1737
+msgid "Search documents and folders"
+msgstr ""
+
+#. is_active
+#. name, stock id
+#. label, accelerator
+#: src/nemo-window-menus.c:1531
+msgid "E_xtra Pane"
+msgstr "_Khung Phụ"
+
+#. tooltip
+#: src/nemo-window-menus.c:1532
+msgid "Open an extra folder view side-by-side"
+msgstr "Mở khung xem thư mục phụ bên cạnh nhau"
+
+#. is_active
+#. name, stock id
+#. label, accelerator
+#: src/nemo-window-menus.c:1536
+msgid "Show _Thumbnails"
+msgstr ""
+
+#. tooltip
+#: src/nemo-window-menus.c:1537
+msgid "Toggle the display of thumbnails in the current directory"
+msgstr ""
+
+#: src/nemo-window-menus.c:1544
+msgid "Places"
+msgstr "Vị trí"
+
+#: src/nemo-window-menus.c:1544
+msgid "Select Places as the default sidebar"
+msgstr "Chọn Vị trí làm thanh lề mặc định"
+
+#: src/nemo-window-menus.c:1547
+msgid "Tree"
+msgstr "Cây"
+
+#: src/nemo-window-menus.c:1547
+msgid "Select Tree as the default sidebar"
+msgstr "Chọn Cây làm thanh lề mặc định"
+
+#: src/nemo-window-menus.c:1580
+msgid "Back history"
+msgstr "Lược sử quay lui"
+
+#: src/nemo-window-menus.c:1596 src/nemo-window-menus.c:1615
+msgid "Forward history"
+msgstr "Lược sử kế tiếp"
+
+#: src/nemo-window-menus.c:1612 src/nemo-window-menus.c:1894
+msgid "_Up"
+msgstr "_Lên"
+
+#: src/nemo-window-menus.c:1614
+msgid "Go to parent folder"
+msgstr "Đến thư mục cấp trên"
+
+#: src/nemo-window-menus.c:1643
+msgid "Go to home directory"
+msgstr "Đến thư mục nhà"
+
+#: src/nemo-window-menus.c:1657
+msgid "Go to Computer"
+msgstr "Đến Máy tính"
+
+#: src/nemo-window-menus.c:1669
+msgid "Toggle Location Entry"
+msgstr "Bật tắt Mục nhập Vị trí"
+
+#: src/nemo-window-menus.c:1681
+#: gresources/nemo-file-management-properties.glade:3114
+msgid "New folder"
+msgstr "Thư mục mới"
+
+#: src/nemo-window-menus.c:1682
+msgid "Create a new folder"
+msgstr "Tạo thư mục mới"
+
+#: src/nemo-window-menus.c:1692
+msgid "Open a terminal in the active folder"
+msgstr "Mở trình dòng lệnh trong thư mục hiện hoạt"
+
+#: src/nemo-window-menus.c:1702
+msgid "Icons"
+msgstr "Biểu tượng"
+
+#: src/nemo-window-menus.c:1713
+msgid "List"
+msgstr "Danh sách"
+
+#: src/nemo-window-menus.c:1725
+msgid "Compact"
+msgstr "Gọn"
+
+#: src/nemo-window-menus.c:1737 libnemo-private/nemo-query.c:189
+#: libnemo-private/nemo-search-directory-file.c:164
+#: libnemo-private/nemo-search-directory-file.c:190
+#: libnemo-private/nemo-search-directory-file.c:224
+#: gresources/nemo-file-management-properties.glade:3151
+msgid "Search"
+msgstr "Tìm kiếm"
+
+#: src/nemo-window-menus.c:1746 src/nemo-window-menus.c:1747
+#: gresources/nemo-file-management-properties.glade:3299
+msgid "Show Thumbnails"
+msgstr ""
+
+#: src/nemo-window-menus.c:1900
+msgid "_Location"
+msgstr "_Vị trí"
+
+#: src/nemo-window-pane.c:481
+msgid "_New Tab"
+msgstr "Thẻ _Mới"
+
+#: src/nemo-window-pane.c:517
+msgid "_Close Tab"
+msgstr "_Đóng Thẻ"
+
+#: src/nemo-window-slot.c:290
+msgid "No files found"
+msgstr ""
+
+#: src/nemo-x-content-bar.c:97
+msgid "These files are on an Audio CD."
+msgstr "Các tập tin này nằm trên CD Nhạc."
+
+#: src/nemo-x-content-bar.c:99
+msgid "These files are on an Audio DVD."
+msgstr "Các tập tin này nằm trên DVD Nhạc."
+
+#: src/nemo-x-content-bar.c:101
+msgid "These files are on a Video DVD."
+msgstr "Các tập tin này nằm trên DVD Phim."
+
+#: src/nemo-x-content-bar.c:103
+msgid "These files are on a Video CD."
+msgstr "Các tập tin này nằm trên VCD."
+
+#: src/nemo-x-content-bar.c:105
+msgid "These files are on a Super Video CD."
+msgstr "Các tập tin này nằm trên SVCD."
+
+#: src/nemo-x-content-bar.c:107
+msgid "These files are on a Photo CD."
+msgstr "Các tập tin này nằm trên CD Hình."
+
+#: src/nemo-x-content-bar.c:109
+msgid "These files are on a Picture CD."
+msgstr "Các tập tin này nằm trên VCD Ảnh."
+
+#: src/nemo-x-content-bar.c:111
+msgid "The media contains digital photos."
+msgstr "Thiết bị chứa ảnh số."
+
+#: src/nemo-x-content-bar.c:113
+msgid "These files are on a digital audio player."
+msgstr "Các tập tin này nằm trên máy nghe nhạc số."
+
+#: src/nemo-x-content-bar.c:115
+msgid "The media contains software."
+msgstr "Thiết bị chứa phần mềm."
+
+#. fallback to generic greeting
+#: src/nemo-x-content-bar.c:118
+#, c-format
+msgid "The media has been detected as \"%s\"."
+msgstr "Thiết bị được phát hiện là \"%s\"."
+
+#: src/nemo-x-content-bar.c:143
+#, c-format
+msgid "Open %s"
+msgstr "Mở %s"
+
+#. name, stock id
+#. label, accelerator
+#. tooltip
+#: libnemo-private/nemo-clipboard.c:433
+msgid "Cut the selected text to the clipboard"
+msgstr "Cắt văn bản chọn vào bảng tạm"
+
+#. name, stock id
+#. label, accelerator
+#. tooltip
+#: libnemo-private/nemo-clipboard.c:437
+msgid "Copy the selected text to the clipboard"
+msgstr "Chép văn bản chọn vào bảng tạm"
+
+#. name, stock id
+#. label, accelerator
+#. tooltip
+#: libnemo-private/nemo-clipboard.c:441
+msgid "Paste the text stored on the clipboard"
+msgstr "Dán văn bản lưu trên bảng tạm"
+
+#. tooltip
+#: libnemo-private/nemo-clipboard.c:445
+msgid "Select all the text in a text field"
+msgstr "Chọn tất cả văn bản trong trường văn bản"
+
+#: libnemo-private/nemo-column-chooser.c:371
+msgid "Move _Up"
+msgstr "Chuyển _Lên"
+
+#: libnemo-private/nemo-column-chooser.c:381
+msgid "Move Dow_n"
+msgstr "Chuyển _Xuống"
+
+#: libnemo-private/nemo-column-chooser.c:394
+msgid "Use De_fault"
+msgstr "Dùng _Mặc định"
+
+#: libnemo-private/nemo-column-utilities.c:44
+msgid "The name and icon of the file."
+msgstr "Tên và biểu tượng của tập tin."
+
+#: libnemo-private/nemo-column-utilities.c:51
+msgid "The size of the file."
+msgstr "Kích thước của tập tin."
+
+#: libnemo-private/nemo-column-utilities.c:59
+msgid "The general type of the file."
+msgstr "Kiểu tập tin tổng quát"
+
+#: libnemo-private/nemo-column-utilities.c:65
+msgid "Detailed Type"
+msgstr "Kiểu Chi tiết"
+
+#: libnemo-private/nemo-column-utilities.c:66
+msgid "The specific type of the file."
+msgstr "Kiểu tập tin cụ thể."
+
+#: libnemo-private/nemo-column-utilities.c:73
+#: libnemo-private/nemo-column-utilities.c:80
+msgid "The date the file was modified."
+msgstr "Ngày sửa đổi tập tin."
+
+#: libnemo-private/nemo-column-utilities.c:79
+msgid "Modified - Time"
+msgstr ""
+
+#: libnemo-private/nemo-column-utilities.c:88
+msgid "Date Created"
+msgstr ""
+
+#: libnemo-private/nemo-column-utilities.c:89
+#: libnemo-private/nemo-column-utilities.c:96
+msgid "The date the file was created."
+msgstr ""
+
+#: libnemo-private/nemo-column-utilities.c:95
+msgid "Created - Time"
+msgstr ""
+
+#: libnemo-private/nemo-column-utilities.c:103
+msgid "Date Accessed"
+msgstr "Ngày Truy cập"
+
+#: libnemo-private/nemo-column-utilities.c:104
+msgid "The date the file was accessed."
+msgstr "Ngày truy cập tập tin."
+
+#: libnemo-private/nemo-column-utilities.c:111
+msgid "Owner"
+msgstr "Chủ sở hữu"
+
+#: libnemo-private/nemo-column-utilities.c:112
+msgid "The owner of the file."
+msgstr "Chủ sở hữu của tập tin."
+
+#: libnemo-private/nemo-column-utilities.c:119
+msgid "Group"
+msgstr "Nhóm"
+
+#: libnemo-private/nemo-column-utilities.c:120
+msgid "The group of the file."
+msgstr "Nhóm của tập tin."
+
+#: libnemo-private/nemo-column-utilities.c:128
+msgid "The permissions of the file."
+msgstr "Quyền truy cập tập tin."
+
+#: libnemo-private/nemo-column-utilities.c:135
+msgid "Octal Permissions"
+msgstr "Quyền theo hệ bát phân"
+
+#: libnemo-private/nemo-column-utilities.c:136
+msgid "The permissions of the file, in octal notation."
+msgstr "Quyền truy cập tập tin theo cách ghi hệ bát phân."
+
+#: libnemo-private/nemo-column-utilities.c:143
+msgid "MIME Type"
+msgstr "Dạng MIME"
+
+#: libnemo-private/nemo-column-utilities.c:144
+msgid "The mime type of the file."
+msgstr "Dạng MIME của tập tin."
+
+#: libnemo-private/nemo-column-utilities.c:151
+msgid "SELinux Context"
+msgstr "Bối cảnh SELinux"
+
+#: libnemo-private/nemo-column-utilities.c:152
+msgid "The SELinux security context of the file."
+msgstr "Bối cảnh bảo mật SELinux của tập tin."
+
+#: libnemo-private/nemo-column-utilities.c:160
+msgid "The location of the file."
+msgstr "Vị trí của tập tin."
+
+#: libnemo-private/nemo-column-utilities.c:203
+msgid "Trashed On"
+msgstr "Đưa vào thùng rác Lúc"
+
+#: libnemo-private/nemo-column-utilities.c:204
+msgid "Date when file was moved to the Trash"
+msgstr "Ngày chuyển tập tin vào thùng rác"
+
+#: libnemo-private/nemo-column-utilities.c:210
+msgid "Original Location"
+msgstr "Vị trí Ban đầu"
+
+#: libnemo-private/nemo-column-utilities.c:211
+msgid "Original location of file before moved to the Trash"
+msgstr "Vị trí ban đầu trước khi chuyển tập tin vào Thùng rác"
+
+#: libnemo-private/nemo-column-utilities.c:235
+msgid "Hits"
+msgstr ""
+
+#: libnemo-private/nemo-column-utilities.c:236
+msgid "How many times the search string appeared in the file"
+msgstr ""
+
+#: libnemo-private/nemo-desktop-directory-file.c:459
+#: libnemo-private/nemo-desktop-icon-file.c:154
+msgid "on the desktop"
+msgstr "trên màn hình làm việc"
+
+#: libnemo-private/nemo-desktop-link-monitor.c:89
+#, c-format
+msgid "You cannot move the volume \"%s\" to the trash."
+msgstr "Bạn không được chuyển phân vùng \"%s\" vào thùng rác."
+
+#: libnemo-private/nemo-desktop-link-monitor.c:99
+msgid ""
+"If you want to eject the volume, please use \"Eject\" in the popup menu of "
+"the volume."
+msgstr ""
+"Nếu muốn đẩy phân vùng ra, xin vui lòng dùng lệnh \"Đẩy ra\" ở trình đơn bật "
+"ra của phân vùng."
+
+#: libnemo-private/nemo-desktop-link-monitor.c:108
+msgid ""
+"If you want to unmount the volume, please use \"Unmount Volume\" in the "
+"popup menu of the volume."
+msgstr ""
+"Nếu muốn bỏ gắn phân vùng, xin vui lòng dùng lệnh \"Bỏ gắn\" ở trình đơn bật "
+"ra của phân vùng."
+
+#: libnemo-private/nemo-dnd.c:869
+msgid "_Move Here"
+msgstr "_Chuyển vào Đây"
+
+#: libnemo-private/nemo-dnd.c:874
+msgid "_Copy Here"
+msgstr "_Chép vào Đây"
+
+#: libnemo-private/nemo-dnd.c:879
+msgid "_Link Here"
+msgstr "_Liên kết vào Đây"
+
+#: libnemo-private/nemo-dnd.c:886
+msgid "Cancel"
+msgstr "Thôi"
+
+#: libnemo-private/nemo-file.c:1253 libnemo-private/nemo-vfs-file.c:418
+msgid "This file cannot be mounted"
+msgstr "Tập tin này không gắn kết được"
+
+#: libnemo-private/nemo-file.c:1298
+msgid "This file cannot be unmounted"
+msgstr "Tập tin này không bỏ gắn kết được"
+
+#: libnemo-private/nemo-file.c:1332
+msgid "This file cannot be ejected"
+msgstr "Tập tin này không đẩy ra được"
+
+#: libnemo-private/nemo-file.c:1365 libnemo-private/nemo-vfs-file.c:596
+msgid "This file cannot be started"
+msgstr "Tập tin này không khởi chạy được"
+
+#: libnemo-private/nemo-file.c:1417 libnemo-private/nemo-file.c:1448
+msgid "This file cannot be stopped"
+msgstr "Tập tin này không dừng được"
+
+#: libnemo-private/nemo-file.c:1897
+msgid "Slashes are not allowed in filenames"
+msgstr "Không cho phép dấu gạch chéo trong tên tập tin"
+
+#: libnemo-private/nemo-file.c:1915
+msgid "File not found"
+msgstr "Không tìm thấy tập tin"
+
+#: libnemo-private/nemo-file.c:1943
+msgid "Toplevel files cannot be renamed"
+msgstr "Tập tin cấp đầu không đổi tên được"
+
+#: libnemo-private/nemo-file.c:1966
+msgid "Unable to rename desktop icon"
+msgstr "Không đổi tên biểu tượng trên màn hình làm việc được"
+
+#: libnemo-private/nemo-file.c:1995
+msgid "Unable to rename desktop file"
+msgstr "Không đổi tên tập tin trên màn hình làm việc được"
+
+#. Translators: Time in 24h format
+#: libnemo-private/nemo-file.c:5150
+msgid "%H:%M"
+msgstr ""
+
+#. Translators: Time in 12h format
+#: libnemo-private/nemo-file.c:5153
+msgid "%l:%M %p"
+msgstr ""
+
+#. Translators: this is the word Yesterday followed by
+#. * a time in 24h format. i.e. "Yesterday 23:04"
+#: libnemo-private/nemo-file.c:5166
+#, no-c-format
+msgid "Yesterday %H:%M"
+msgstr ""
+
+#. Translators: this is the word Yesterday followed by
+#. * a time in 12h format. i.e. "Yesterday 9:04 PM"
+#: libnemo-private/nemo-file.c:5171
+#, no-c-format
+msgid "Yesterday %l:%M %p"
+msgstr ""
+
+#: libnemo-private/nemo-file.c:5179
+#, no-c-format
+msgid "%A"
+msgstr ""
+
+#. Translators: this is the name of the week day followed by
+#. * a time in 24h format. i.e. "Monday 23:04"
+#: libnemo-private/nemo-file.c:5185
+#, no-c-format
+msgid "%A %H:%M"
+msgstr ""
+
+#. Translators: this is the week day name followed by
+#. * a time in 12h format. i.e. "Monday 9:04 PM"
+#: libnemo-private/nemo-file.c:5190
+#, no-c-format
+msgid "%A %l:%M %p"
+msgstr ""
+
+#. Translators: this is the day of the month followed
+#. * by the abbreviated month name i.e. "3 February"
+#: libnemo-private/nemo-file.c:5198
+#, no-c-format
+msgid "%-e %B"
+msgstr ""
+
+#. Translators: this is the day of the month followed
+#. * by the abbreviated month name followed by a time in
+#. * 24h format i.e. "3 February 23:04"
+#: libnemo-private/nemo-file.c:5205
+#, no-c-format
+msgid "%-e %B %H:%M"
+msgstr ""
+
+#. Translators: this is the day of the month followed
+#. * by the abbreviated month name followed by a time in
+#. * 12h format i.e. "3 February 9:04"
+#: libnemo-private/nemo-file.c:5211
+#, no-c-format
+msgid "%-e %B %l:%M %p"
+msgstr ""
+
+#. Translators: this is the day of the month followed by the abbreviated
+#. * month name followed by the year i.e. "3 Feb 2015"
+#: libnemo-private/nemo-file.c:5219
+#, no-c-format
+msgid "%-e %b %Y"
+msgstr ""
+
+#. Translators: this is the day number followed
+#. * by the abbreviated month name followed by the year followed
+#. * by a time in 24h format i.e. "3 Feb 2015 23:04"
+#: libnemo-private/nemo-file.c:5226
+#, no-c-format
+msgid "%-e %b %Y %H:%M"
+msgstr ""
+
+#. Translators: this is the day number followed
+#. * by the abbreviated month name followed by the year followed
+#. * by a time in 12h format i.e. "3 Feb 2015 9:04 PM"
+#: libnemo-private/nemo-file.c:5232
+#, no-c-format
+msgid "%-e %b %Y %l:%M %p"
+msgstr ""
+
+#: libnemo-private/nemo-file.c:5242
+#, no-c-format
+msgid "%c"
+msgstr ""
+
+#: libnemo-private/nemo-file.c:5690
+msgid "Not allowed to set permissions"
+msgstr "Không được phép đặt quyền truy cập"
+
+#: libnemo-private/nemo-file.c:5985
+msgid "Not allowed to set owner"
+msgstr "Không được phép đặt chủ sở hữu"
+
+#: libnemo-private/nemo-file.c:6003
+#, c-format
+msgid "Specified owner '%s' doesn't exist"
+msgstr "Chủ sở hữu chỉ định '%s' không tồn tại"
+
+#: libnemo-private/nemo-file.c:6267
+msgid "Not allowed to set group"
+msgstr "Không được phép đặt nhóm"
+
+#: libnemo-private/nemo-file.c:6285
+#, c-format
+msgid "Specified group '%s' doesn't exist"
+msgstr "Nhóm chỉ định '%s' không tồn tại"
+
+#: libnemo-private/nemo-file.c:6443
+#, c-format
+msgid "%'u folder"
+msgid_plural "%'u folders"
+msgstr[0] "%'u thư mục"
+
+#: libnemo-private/nemo-file.c:6444
+#, c-format
+msgid "%'u file"
+msgid_plural "%'u files"
+msgstr[0] "%'u tập tin"
+
+#. This means no contents at all were readable
+#: libnemo-private/nemo-file.c:6887 libnemo-private/nemo-file.c:6903
+msgid "? items"
+msgstr "? mục"
+
+#. This means no contents at all were readable
+#: libnemo-private/nemo-file.c:6893
+msgid "? bytes"
+msgstr "? byte"
+
+#: libnemo-private/nemo-file.c:6910
+msgid "Unknown"
+msgstr "Không biết."
+
+#: libnemo-private/nemo-file.c:6963 libnemo-private/nemo-file.c:6971
+#: libnemo-private/nemo-file.c:7019
+msgid "Program"
+msgstr "Chương trình"
+
+#: libnemo-private/nemo-file.c:6964
+msgid "Audio"
+msgstr "Âm thanh"
+
+#: libnemo-private/nemo-file.c:6965
+msgid "Font"
+msgstr "Kiểu chữ"
+
+#: libnemo-private/nemo-file.c:6967
+msgid "Archive"
+msgstr "Kho lưu"
+
+#: libnemo-private/nemo-file.c:6968
+msgid "Markup"
+msgstr "Đánh dấu"
+
+#: libnemo-private/nemo-file.c:6969 libnemo-private/nemo-file.c:6970
+#: eel/eel-editable-label.c:319
+msgid "Text"
+msgstr "Văn bản"
+
+#: libnemo-private/nemo-file.c:6972
+msgid "Video"
+msgstr "Phim"
+
+#: libnemo-private/nemo-file.c:6973
+msgid "Contacts"
+msgstr "Liên hệ"
+
+#: libnemo-private/nemo-file.c:6974
+msgid "Calendar"
+msgstr "Lịch"
+
+#: libnemo-private/nemo-file.c:6975
+msgid "Document"
+msgstr "Tài liệu"
+
+#: libnemo-private/nemo-file.c:6976
+msgid "Presentation"
+msgstr "Trình diễn"
+
+#: libnemo-private/nemo-file.c:6977
+msgid "Spreadsheet"
+msgstr "Bảng tính"
+
+#: libnemo-private/nemo-file.c:7021
+#: gresources/nemo-file-management-properties.glade:150
+msgid "Binary"
+msgstr "Nhị phân"
+
+#: libnemo-private/nemo-file.c:7025
+msgid "Folder"
+msgstr "Thư mục"
+
+#: libnemo-private/nemo-file.c:7060
+msgid "link"
+msgstr "liên kết"
+
+#: libnemo-private/nemo-file.c:7082 libnemo-private/nemo-file.c:7096
+msgid "link (broken)"
+msgstr "liên kết (hỏng)"
+
+#: libnemo-private/nemo-file.c:8064
+#, c-format
+msgid "Name: %s"
+msgstr "Tên: %s"
+
+#: libnemo-private/nemo-file.c:8071
+#, c-format
+msgid "Type: %s"
+msgstr "Kiểu: %s"
+
+#: libnemo-private/nemo-file.c:8081
+#, c-format
+msgid "%s item"
+msgid_plural "%s items"
+msgstr[0] "%s mục"
+
+#: libnemo-private/nemo-file.c:8083
+#, c-format
+msgid "Contains: %s"
+msgstr "Chứa: %s"
+
+#: libnemo-private/nemo-file.c:8093
+#, c-format
+msgid "Size: %s"
+msgstr "Kích thước: %s"
+
+#: libnemo-private/nemo-file.c:8101
+#, c-format
+msgid "Accessed: %s"
+msgstr "Truy cập: %s"
+
+#: libnemo-private/nemo-file.c:8109
+#, c-format
+msgid "Modified: %s"
+msgstr "Chỉnh sửa: %s"
+
+#: libnemo-private/nemo-file.c:8117
+#, c-format
+msgid "Created: %s"
+msgstr ""
+
+#: libnemo-private/nemo-file.c:8127
+#, c-format
+msgid "Location: %s"
+msgstr "Vị trí: %s"
+
+#: libnemo-private/nemo-file-conflict-dialog.c:145
+#, c-format
+msgid "Merge folder \"%s\"?"
+msgstr "Gộp thư mục \"%s\"?"
+
+#: libnemo-private/nemo-file-conflict-dialog.c:149
+msgid ""
+"Merging will ask for confirmation before replacing any files in the folder "
+"that conflict with the files being copied."
+msgstr ""
+"Chương trình sẽ hỏi để xác nhận trước khi thay thế tập tin trong thư mục có "
+"sự xung đột với tập tin được chép khi gộp."
+
+#: libnemo-private/nemo-file-conflict-dialog.c:154
+#, c-format
+msgid "An older folder with the same name already exists in \"%s\"."
+msgstr "Có một thư mục cũ hơn với cùng tên trong \"%s\"."
+
+#: libnemo-private/nemo-file-conflict-dialog.c:158
+#, c-format
+msgid "A newer folder with the same name already exists in \"%s\"."
+msgstr "Có một thư mục mới hơn với cùng tên trong \"%s\"."
+
+#: libnemo-private/nemo-file-conflict-dialog.c:162
+#, c-format
+msgid "Another folder with the same name already exists in \"%s\"."
+msgstr "Có một thư mục với cùng tên trong \"%s\"."
+
+#: libnemo-private/nemo-file-conflict-dialog.c:167
+msgid "Replacing it will remove all files in the folder."
+msgstr "Thay thế nó sẽ xóa toàn bộ tập tin trong thư mục."
+
+#: libnemo-private/nemo-file-conflict-dialog.c:169
+#, c-format
+msgid "Replace folder \"%s\"?"
+msgstr "Thay thế thư mục \"%s\"?"
+
+#: libnemo-private/nemo-file-conflict-dialog.c:171
+#, c-format
+msgid "A folder with the same name already exists in \"%s\"."
+msgstr "Có một thư mục với cùng tên trong \"%s\"."
+
+#: libnemo-private/nemo-file-conflict-dialog.c:176
+#, c-format
+msgid "Replace file \"%s\"?"
+msgstr "Thay thế tập tin \"%s\"?"
+
+#: libnemo-private/nemo-file-conflict-dialog.c:178
+msgid "Replacing it will overwrite its content."
+msgstr "Thay thế sẽ ghi đè lên nội dung của nó."
+
+#: libnemo-private/nemo-file-conflict-dialog.c:182
+#, c-format
+msgid "An older file with the same name already exists in \"%s\"."
+msgstr "Có một tập tin cũ hơn với cùng tên trong \"%s\"."
+
+#: libnemo-private/nemo-file-conflict-dialog.c:186
+#, c-format
+msgid "A newer file with the same name already exists in \"%s\"."
+msgstr "Có một tập tin mới hơn với cùng tên trong \"%s\"."
+
+#: libnemo-private/nemo-file-conflict-dialog.c:190
+#, c-format
+msgid "Another file with the same name already exists in \"%s\"."
+msgstr "Có một tập tin với cùng tên trong \"%s\"."
+
+#: libnemo-private/nemo-file-conflict-dialog.c:268
+msgid "Original file"
+msgstr "Tập tin gốc"
+
+#: libnemo-private/nemo-file-conflict-dialog.c:275
+#: libnemo-private/nemo-file-conflict-dialog.c:307
+msgid "Last modified:"
+msgstr "Sửa đổi sau cùng:"
+
+#: libnemo-private/nemo-file-conflict-dialog.c:300
+msgid "Replace with"
+msgstr "Thay bằng"
+
+#: libnemo-private/nemo-file-conflict-dialog.c:329
+msgid "Merge"
+msgstr "Gộp"
+
+#. Setup the expander for the rename action
+#: libnemo-private/nemo-file-conflict-dialog.c:522
+msgid "_Select a new name for the destination"
+msgstr "_Chọn tên mới cho đích đến"
+
+#: libnemo-private/nemo-file-conflict-dialog.c:536
+msgid "Reset"
+msgstr "Đặt lại"
+
+#. Setup the checkbox to apply the action to all files
+#: libnemo-private/nemo-file-conflict-dialog.c:548
+msgid "Apply this action to all files"
+msgstr "Áp dụng thao tác này cho tất cả tập tin"
+
+#: libnemo-private/nemo-file-conflict-dialog.c:559
+#: libnemo-private/nemo-file-operations.c:198
+msgid "_Skip"
+msgstr "Bỏ _qua"
+
+#: libnemo-private/nemo-file-conflict-dialog.c:570
+msgid "Re_name"
+msgstr "Đổ_i tên"
+
+#: libnemo-private/nemo-file-conflict-dialog.c:576
+msgid "Replace"
+msgstr "Thay"
+
+#: libnemo-private/nemo-file-conflict-dialog.c:648
+msgid "File conflict"
+msgstr "Xung đột tập tin"
+
+#: libnemo-private/nemo-file-operations.c:199
+msgid "S_kip All"
+msgstr "_Bỏ qua Tất cả"
+
+#: libnemo-private/nemo-file-operations.c:200
+msgid "_Retry"
+msgstr "Thử _lại"
+
+#: libnemo-private/nemo-file-operations.c:201
+msgid "Delete _All"
+msgstr "_Xóa Tất cả"
+
+#: libnemo-private/nemo-file-operations.c:202
+msgid "_Replace"
+msgstr "_Thay"
+
+#: libnemo-private/nemo-file-operations.c:203
+msgid "Replace _All"
+msgstr "_Thay Tất cả"
+
+#: libnemo-private/nemo-file-operations.c:204
+msgid "_Merge"
+msgstr "_Gộp"
+
+#: libnemo-private/nemo-file-operations.c:205
+msgid "Merge _All"
+msgstr "Gộ_p Tất cả"
+
+#: libnemo-private/nemo-file-operations.c:206
+msgid "Copy _Anyway"
+msgstr "Chép bằng _Mọi giá"
+
+#: libnemo-private/nemo-file-operations.c:297
+#, c-format
+msgid "%'d second"
+msgid_plural "%'d seconds"
+msgstr[0] "%'d giây"
+
+#: libnemo-private/nemo-file-operations.c:302
+#: libnemo-private/nemo-file-operations.c:313
+#, c-format
+msgid "%'d minute"
+msgid_plural "%'d minutes"
+msgstr[0] "%'d phút"
+
+#: libnemo-private/nemo-file-operations.c:312
+#, c-format
+msgid "%'d hour"
+msgid_plural "%'d hours"
+msgstr[0] "%'d giờ"
+
+#: libnemo-private/nemo-file-operations.c:320
+#, c-format
+msgid "approximately %'d hour"
+msgid_plural "approximately %'d hours"
+msgstr[0] "khoảng %'d giờ"
+
+#. appended to new link file
+#: libnemo-private/nemo-file-operations.c:400
+#, c-format
+msgid "Another link to %s"
+msgstr "Liên kết khác đến %s"
+
+#. Localizers: Feel free to leave out the "st" suffix
+#. * if there's no way to do that nicely for a
+#. * particular language.
+#. 
+#: libnemo-private/nemo-file-operations.c:416
+#, c-format
+msgid "%'dst link to %s"
+msgstr "liên kết thứ %'d đến %s"
+
+#. appended to new link file
+#: libnemo-private/nemo-file-operations.c:420
+#, c-format
+msgid "%'dnd link to %s"
+msgstr "liên kết thứ %'d đến %s"
+
+#. appended to new link file
+#: libnemo-private/nemo-file-operations.c:424
+#, c-format
+msgid "%'drd link to %s"
+msgstr "liên kết thứ %'d đến %s"
+
+#. appended to new link file
+#: libnemo-private/nemo-file-operations.c:428
+#, c-format
+msgid "%'dth link to %s"
+msgstr "liên kết thứ %'d đến %s"
+
+#. Localizers:
+#. * Feel free to leave out the st, nd, rd and th suffix or
+#. * make some or all of them match.
+#. 
+#. localizers: tag used to detect the first copy of a file
+#: libnemo-private/nemo-file-operations.c:467
+msgid " (copy)"
+msgstr " (sao)"
+
+#. localizers: tag used to detect the second copy of a file
+#: libnemo-private/nemo-file-operations.c:469
+msgid " (another copy)"
+msgstr " (sao khác)"
+
+#. localizers: tag used to detect the x11th copy of a file
+#. localizers: tag used to detect the x12th copy of a file
+#. localizers: tag used to detect the x13th copy of a file
+#. localizers: tag used to detect the xxth copy of a file
+#: libnemo-private/nemo-file-operations.c:472
+#: libnemo-private/nemo-file-operations.c:474
+#: libnemo-private/nemo-file-operations.c:476
+#: libnemo-private/nemo-file-operations.c:486
+msgid "th copy)"
+msgstr "(sao thứ"
+
+#. localizers: tag used to detect the x1st copy of a file
+#: libnemo-private/nemo-file-operations.c:479
+msgid "st copy)"
+msgstr "(sao thứ"
+
+#. localizers: tag used to detect the x2nd copy of a file
+#: libnemo-private/nemo-file-operations.c:481
+msgid "nd copy)"
+msgstr "(sao thứ"
+
+#. localizers: tag used to detect the x3rd copy of a file
+#: libnemo-private/nemo-file-operations.c:483
+msgid "rd copy)"
+msgstr "(sao thứ"
+
+#. localizers: appended to first file copy
+#: libnemo-private/nemo-file-operations.c:500
+#, c-format
+msgid "%s (copy)%s"
+msgstr "%s (sao)%s"
+
+#. localizers: appended to second file copy
+#: libnemo-private/nemo-file-operations.c:502
+#, c-format
+msgid "%s (another copy)%s"
+msgstr "%s (sao khác)%s"
+
+#. localizers: appended to x11th file copy
+#. localizers: appended to x12th file copy
+#. localizers: appended to x13th file copy
+#. localizers: appended to xxth file copy
+#: libnemo-private/nemo-file-operations.c:505
+#: libnemo-private/nemo-file-operations.c:507
+#: libnemo-private/nemo-file-operations.c:509
+#: libnemo-private/nemo-file-operations.c:523
+#, c-format
+msgid "%s (%'dth copy)%s"
+msgstr "%s (sao thứ %'d)%s"
+
+#. localizers: if in your language there's no difference between 1st, 2nd, 3rd and nth
+#. * plurals, you can leave the st, nd, rd suffixes out and just make all the translated
+#. * strings look like "%s (copy %'d)%s".
+#. 
+#. localizers: appended to x1st file copy
+#: libnemo-private/nemo-file-operations.c:517
+#, c-format
+msgid "%s (%'dst copy)%s"
+msgstr "%s (sao thứ %'d)%s"
+
+#. localizers: appended to x2nd file copy
+#: libnemo-private/nemo-file-operations.c:519
+#, c-format
+msgid "%s (%'dnd copy)%s"
+msgstr "%s (sao thứ %'d)%s"
+
+#. localizers: appended to x3rd file copy
+#: libnemo-private/nemo-file-operations.c:521
+#, c-format
+msgid "%s (%'drd copy)%s"
+msgstr "%s (sao thứ %'d)%s"
+
+#. localizers: opening parentheses to match the "th copy)" string
+#: libnemo-private/nemo-file-operations.c:622
+msgid " ("
+msgstr " ("
+
+#. localizers: opening parentheses of the "th copy)" string
+#: libnemo-private/nemo-file-operations.c:630
+#, c-format
+msgid " (%'d"
+msgstr " (%'d"
+
+#: libnemo-private/nemo-file-operations.c:1000
+#, c-format
+msgid "Error removing file: %s"
+msgstr ""
+
+#: libnemo-private/nemo-file-operations.c:1055
+#, c-format
+msgid "Waiting to copy a file from '%1$s' to '%2$s'"
+msgid_plural "Waiting to copy files from '%1$s' to '%2$s'"
+msgstr[0] "Chờ sao chép tập tin từ '%1$s' đến '%2$s'"
+
+#: libnemo-private/nemo-file-operations.c:1064
+#, c-format
+msgid "Waiting to move a file from '%1$s' to '%2$s'"
+msgid_plural "Waiting to move files from '%1$s' to '%2$s'"
+msgstr[0] "Chờ di chuyển tập tin từ '%1$s' đến '%2$s'"
+
+#: libnemo-private/nemo-file-operations.c:1072
+#, c-format
+msgid "Waiting to permanently delete a file from '%s'"
+msgid_plural "Waiting to permanently delete files from '%s'"
+msgstr[0] "Chờ xóa vĩnh viễn tập tin khỏi '%s'"
+
+#: libnemo-private/nemo-file-operations.c:1080
+#, c-format
+msgid "Waiting to trash a file in '%s'"
+msgid_plural "Waiting to trash files in '%s'"
+msgstr[0] "Chờ xóa tập tin khỏi '%s'"
+
+#: libnemo-private/nemo-file-operations.c:1086
+msgid "Waiting to empty the trash"
+msgstr "Chờ dọn thùng rác"
+
+#: libnemo-private/nemo-file-operations.c:1092
+#, c-format
+msgid "Waiting to duplicate a file in '%s'"
+msgid_plural "Waiting to duplicate files in '%s'"
+msgstr[0] "Chờ nhân đôi tập tin ở '%s'"
+
+#: libnemo-private/nemo-file-operations.c:1100
+#, c-format
+msgid "Waiting to change permissions of files in '%s'"
+msgstr "Chờ thay đổi phân quyền của tập tin ở '%s'"
+
+#: libnemo-private/nemo-file-operations.c:1106
+#, c-format
+msgid "Waiting to link a file from '%1$s' to '%2$s'"
+msgid_plural "Waiting to link files from '%1$s' to '%2$s'"
+msgstr[0] "Chờ liên kết tập tin từ '%1$s' đến '%2$s'"
+
+#: libnemo-private/nemo-file-operations.c:1531
+msgid "Are you sure you want to move \"%B\" to the trash?"
+msgstr ""
+
+#. translators: the singular form here can be skipped.
+#: libnemo-private/nemo-file-operations.c:1535
+#, c-format
+msgid "unused %'d"
+msgid_plural ""
+"Are you sure you want to move the %'d selected items to the trash?"
+msgstr[0] ""
+msgstr[1] ""
+
+#: libnemo-private/nemo-file-operations.c:1544
+msgid ""
+"You can restore an item from the trash, if you later change your mind."
+msgstr ""
+
+#: libnemo-private/nemo-file-operations.c:1547
+msgid "Move to _Trash"
+msgstr ""
+
+#: libnemo-private/nemo-file-operations.c:1580
+msgid "Are you sure you want to permanently delete \"%B\" from the trash?"
+msgstr "Bạn có chắc muốn xóa vĩnh viễn \"%B\" khỏi thùng rác không?"
+
+#: libnemo-private/nemo-file-operations.c:1583
+#, c-format
+msgid ""
+"Are you sure you want to permanently delete the %'d selected item from the "
+"trash?"
+msgid_plural ""
+"Are you sure you want to permanently delete the %'d selected items from the "
+"trash?"
+msgstr[0] ""
+"Bạn có chắc muốn xóa vĩnh viễn %'d mục được chọn khỏi thùng rác không?"
+
+#: libnemo-private/nemo-file-operations.c:1593
+#: libnemo-private/nemo-file-operations.c:1659
+msgid "If you delete an item, it will be permanently lost."
+msgstr "Nếu bạn xóa một mục, nó sẽ mất vĩnh viễn."
+
+#: libnemo-private/nemo-file-operations.c:1613
+msgid "Empty all items from Trash?"
+msgstr "Đổ sạch mọi mục trong Thùng rác?"
+
+#: libnemo-private/nemo-file-operations.c:1617
+msgid "All items in the Trash will be permanently deleted."
+msgstr "Mọi mục trong Thùng rác sẽ bị xóa vĩnh viễn."
+
+#: libnemo-private/nemo-file-operations.c:1647
+msgid "Are you sure you want to permanently delete \"%B\"?"
+msgstr "Bạn có chắc muốn xóa vĩnh viễn \"%B\" không?"
+
+#: libnemo-private/nemo-file-operations.c:1650
+#, c-format
+msgid "Are you sure you want to permanently delete the %'d selected item?"
+msgid_plural ""
+"Are you sure you want to permanently delete the %'d selected items?"
+msgstr[0] "Bạn có chắc muốn xóa vĩnh viễn %'d mục được chọn không?"
+
+#: libnemo-private/nemo-file-operations.c:1693
+#, c-format
+msgid "%'d file left to delete"
+msgid_plural "%'d files left to delete"
+msgstr[0] "%'d tập tin chờ xóa"
+
+#: libnemo-private/nemo-file-operations.c:1699
+msgid "Deleting files"
+msgstr "Đang xóa tập tin"
+
+#. To translators: %T will expand to a time like "2 minutes".
+#. * The singular/plural form will be used depending on the remaining time (i.e. the %T argument).
+#. 
+#: libnemo-private/nemo-file-operations.c:1713
+msgid "%T left"
+msgid_plural "%T left"
+msgstr[0] "còn %T"
+
+#: libnemo-private/nemo-file-operations.c:1780
+#: libnemo-private/nemo-file-operations.c:1814
+#: libnemo-private/nemo-file-operations.c:1853
+#: libnemo-private/nemo-file-operations.c:1947
+#: libnemo-private/nemo-file-operations.c:2824
+msgid "Error while deleting."
+msgstr "Có lỗi khi xóa."
+
+#: libnemo-private/nemo-file-operations.c:1784
+msgid ""
+"Files in the folder \"%B\" cannot be deleted because you do not have "
+"permissions to see them."
+msgstr ""
+"Không xóa được tập tin trong thư mục \"%B\" vì bạn không có quyền truy cập "
+"chúng."
+
+#: libnemo-private/nemo-file-operations.c:1787
+#: libnemo-private/nemo-file-operations.c:2884
+#: libnemo-private/nemo-file-operations.c:3892
+msgid ""
+"There was an error getting information about the files in the folder \"%B\"."
+msgstr "Có lỗi khi lấy thông tin về tập tin trong thư mục \"%B\"."
+
+#: libnemo-private/nemo-file-operations.c:1796
+#: libnemo-private/nemo-file-operations.c:3901
+msgid "_Skip files"
+msgstr "_Bỏ qua tập tin"
+
+#: libnemo-private/nemo-file-operations.c:1817
+msgid ""
+"The folder \"%B\" cannot be deleted because you do not have permissions to "
+"read it."
+msgstr "Không xóa được thư mục \"%B\" vì bạn không có quyền truy cập nó."
+
+#: libnemo-private/nemo-file-operations.c:1820
+#: libnemo-private/nemo-file-operations.c:2923
+#: libnemo-private/nemo-file-operations.c:3937
+msgid "There was an error reading the folder \"%B\"."
+msgstr "Có lỗi khi đọc thư mục \"%B\"."
+
+#: libnemo-private/nemo-file-operations.c:1854
+msgid "Could not remove the folder %B."
+msgstr "Không xóa bỏ thư mục %B được."
+
+#: libnemo-private/nemo-file-operations.c:1948
+msgid "There was an error deleting %B."
+msgstr "Có lỗi khi xóa %B."
+
+#: libnemo-private/nemo-file-operations.c:2028
+msgid "Moving files to trash"
+msgstr "Đang chuyển tập tin vào thùng rác"
+
+#: libnemo-private/nemo-file-operations.c:2030
+#, c-format
+msgid "%'d file left to trash"
+msgid_plural "%'d files left to trash"
+msgstr[0] "%'d tập tin chờ chuyển vào thùng rác"
+
+#: libnemo-private/nemo-file-operations.c:2081
+msgid "Cannot move file to trash, do you want to delete immediately?"
+msgstr "Không chuyển tập tin vào thùng rác được, bạn có muốn xóa luôn không?"
+
+#: libnemo-private/nemo-file-operations.c:2082
+msgid "The file \"%B\" cannot be moved to the trash."
+msgstr "Không chuyển tập tin \"%B\" vào thùng rác được."
+
+#: libnemo-private/nemo-file-operations.c:2301
+msgid "Trashing Files"
+msgstr "Đang bỏ tập tin vào thùng rác"
+
+#: libnemo-private/nemo-file-operations.c:2303
+msgid "Deleting Files"
+msgstr "Đang xóa tập tin"
+
+#: libnemo-private/nemo-file-operations.c:2386
+msgid "Unable to eject %V"
+msgstr "Không đẩy ra %V được"
+
+#: libnemo-private/nemo-file-operations.c:2388
+msgid "Unable to unmount %V"
+msgstr "Không bỏ gắn %V được"
+
+#: libnemo-private/nemo-file-operations.c:2545
+msgid "Do you want to empty the trash before you unmount?"
+msgstr "Bạn có muốn đổ thùng rác trước khi bỏ gắn kết không?"
+
+#: libnemo-private/nemo-file-operations.c:2547
+msgid ""
+"In order to regain the free space on this volume the trash must be emptied. "
+"All trashed items on the volume will be permanently lost."
+msgstr ""
+"Cần phải đổ sạch thùng rác để lấy lại chỗ trống trên phân vùng này. Mọi thứ "
+"trong thùng rác trên phân vùng sẽ mất vĩnh viễn."
+
+#: libnemo-private/nemo-file-operations.c:2553
+msgid "Do _not Empty Trash"
+msgstr "_Không Đổ Thùng rác"
+
+#: libnemo-private/nemo-file-operations.c:2683
+#, c-format
+msgid "Unable to mount %s"
+msgstr "Không gắn kết %s được"
+
+#: libnemo-private/nemo-file-operations.c:2765
+#, c-format
+msgid "Preparing to copy %'d file (%S)"
+msgid_plural "Preparing to copy %'d files (%S)"
+msgstr[0] "Chuẩn bị chép %'d tập tin (%S)"
+
+#: libnemo-private/nemo-file-operations.c:2771
+#, c-format
+msgid "Preparing to move %'d file (%S)"
+msgid_plural "Preparing to move %'d files (%S)"
+msgstr[0] "Chuẩn bị chuyển %'d tập tin (%S)"
+
+#: libnemo-private/nemo-file-operations.c:2777
+#, c-format
+msgid "Preparing to delete %'d file (%S)"
+msgid_plural "Preparing to delete %'d files (%S)"
+msgstr[0] "Chuẩn bị xóa %'d tập tin (%S)"
+
+#: libnemo-private/nemo-file-operations.c:2784
+#, c-format
+msgid "Preparing to trash %'d file"
+msgid_plural "Preparing to trash %'d files"
+msgstr[0] "Chuẩn bị chuyển %'d tập tin vào thùng rác"
+
+#: libnemo-private/nemo-file-operations.c:2820
+#: libnemo-private/nemo-file-operations.c:3752
+#: libnemo-private/nemo-file-operations.c:3884
+#: libnemo-private/nemo-file-operations.c:3929
+msgid "Error while copying."
+msgstr "Có lỗi khi chép."
+
+#: libnemo-private/nemo-file-operations.c:2822
+#: libnemo-private/nemo-file-operations.c:3882
+#: libnemo-private/nemo-file-operations.c:3927
+msgid "Error while moving."
+msgstr "Có lỗi khi chuyển."
+
+#: libnemo-private/nemo-file-operations.c:2827
+msgid "Error while moving files to trash."
+msgstr "Có lỗi khi chuyển tập tin vào thùng rác"
+
+#: libnemo-private/nemo-file-operations.c:2881
+msgid ""
+"Files in the folder \"%B\" cannot be handled because you do not have "
+"permissions to see them."
+msgstr ""
+"Không xử lý được tập tin trong thư mục \"%B\" vì bạn không có quyền truy cập "
+"chúng."
+
+#: libnemo-private/nemo-file-operations.c:2920
+msgid ""
+"The folder \"%B\" cannot be handled because you do not have permissions to "
+"read it."
+msgstr "Không xử lý được thư mục \"%B\" vì bạn không có quyền đọc nó."
+
+#: libnemo-private/nemo-file-operations.c:3000
+msgid ""
+"The file \"%B\" cannot be handled because you do not have permissions to "
+"read it."
+msgstr "Không xử lý được tập tin \"%B\" vì bạn không có quyền đọc nó."
+
+#: libnemo-private/nemo-file-operations.c:3003
+msgid "There was an error getting information about \"%B\"."
+msgstr "Có lỗi khi lấy thông tin về \"%B\"."
+
+#: libnemo-private/nemo-file-operations.c:3104
+#: libnemo-private/nemo-file-operations.c:3146
+#: libnemo-private/nemo-file-operations.c:3180
+#: libnemo-private/nemo-file-operations.c:3210
+msgid "Error while copying to \"%B\"."
+msgstr "Có lỗi khi chép vào \"%B\"."
+
+#: libnemo-private/nemo-file-operations.c:3108
+msgid "You do not have permissions to access the destination folder."
+msgstr "Bạn không có quyền truy cập thư mục đích."
+
+#: libnemo-private/nemo-file-operations.c:3110
+msgid "There was an error getting information about the destination."
+msgstr "Có lỗi khi lấy thông tin về đích đến."
+
+#: libnemo-private/nemo-file-operations.c:3147
+msgid "The destination is not a folder."
+msgstr "Đích đến không phải thư mục."
+
+#: libnemo-private/nemo-file-operations.c:3181
+msgid ""
+"There is not enough space on the destination. Try to remove files to make "
+"space."
+msgstr ""
+"Không có đủ chỗ trống ở đích đến. Hãy cố gắng xóa bỏ tập tin để làm trống "
+"chỗ."
+
+#: libnemo-private/nemo-file-operations.c:3183
+#, c-format
+msgid "%S more space is required to copy to the destination."
+msgstr "Cần thêm %S chỗ trống để chép đến đích."
+
+#: libnemo-private/nemo-file-operations.c:3211
+msgid "The destination is read-only."
+msgstr "Đích đến chỉ cho phép đọc."
+
+#: libnemo-private/nemo-file-operations.c:3270
+msgid "Moving \"%B\" to \"%B\""
+msgstr "Đang chuyển \"%B\" đến \"%B\""
+
+#: libnemo-private/nemo-file-operations.c:3271
+msgid "Copying \"%B\" to \"%B\""
+msgstr "Đang chép \"%B\" đến \"%B\""
+
+#: libnemo-private/nemo-file-operations.c:3278
+msgid "Duplicating \"%B\""
+msgstr "Đang nhân đôi \"%B\""
+
+#: libnemo-private/nemo-file-operations.c:3286
+msgid "Moving file %'d of %'d (in \"%B\") to \"%B\""
+msgstr "Đang chuyển %'d trong số %'d tập tin (trong \"%B\") đến \"%B\""
+
+#: libnemo-private/nemo-file-operations.c:3288
+msgid "Copying file %'d of %'d (in \"%B\") to \"%B\""
+msgstr "Đang chép %'d trong số %'d tập tin (trong \"%B\") đến \"%B\""
+
+#: libnemo-private/nemo-file-operations.c:3295
+msgid "Duplicating file %'d of %'d (in \"%B\")"
+msgstr "Đang nhân đôi %'d trong số %'d tập tin (trong \"%B\")"
+
+#: libnemo-private/nemo-file-operations.c:3304
+msgid "Moving file %'d of %'d to \"%B\""
+msgstr "Đang chuyển %'d trong số %'d tập tin đến \"%B\""
+
+#: libnemo-private/nemo-file-operations.c:3306
+msgid "Copying file %'d of %'d to \"%B\""
+msgstr "Đang chép %'d trong số %'d tập tin đến \"%B\""
+
+#: libnemo-private/nemo-file-operations.c:3312
+#, c-format
+msgid "Duplicating file %'d of %'d"
+msgstr "Đang nhân đôi %'d trong số %'d tập tin"
+
+#. To translators: %S will expand to a size like "2 bytes" or "3 MB", so something like "4 kb of 4 MB"
+#: libnemo-private/nemo-file-operations.c:3331
+#, c-format
+msgid "%S of %S"
+msgstr "%S trong số %S"
+
+#. To translators: %S will expand to a size like "2 bytes" or "3 MB", %T to a time duration like
+#. * "2 minutes". So the whole thing will be something like "2 kb of 4 MB -- 2 hours left (4kb/sec)"
+#. *
+#. * The singular/plural form will be used depending on the remaining time (i.e. the %T argument).
+#. 
+#: libnemo-private/nemo-file-operations.c:3342
+msgid "%S of %S — %T left (%S/sec)"
+msgid_plural "%S of %S — %T left (%S/sec)"
+msgstr[0] "%S trong số %S — còn %T (%S/giây)"
+
+#: libnemo-private/nemo-file-operations.c:3756
+msgid ""
+"The folder \"%B\" cannot be copied because you do not have permissions to "
+"create it in the destination."
+msgstr ""
+"Không chép thư mục \"%B\" được do bạn không có quyền tạo nó ở đích đến."
+
+#: libnemo-private/nemo-file-operations.c:3759
+msgid "There was an error creating the folder \"%B\"."
+msgstr "Có lỗi khi tạo thư mục \"%B\"."
+
+#: libnemo-private/nemo-file-operations.c:3889
+msgid ""
+"Files in the folder \"%B\" cannot be copied because you do not have "
+"permissions to see them."
+msgstr ""
+"Không chép tập tin trong thư mục \"%B\" được vì bạn không có quyền truy cập "
+"chúng."
+
+#: libnemo-private/nemo-file-operations.c:3934
+msgid ""
+"The folder \"%B\" cannot be copied because you do not have permissions to "
+"read it."
+msgstr "Không chép thư mục \"%B\" được vì bạn không có quyền đọc nó."
+
+#: libnemo-private/nemo-file-operations.c:3979
+#: libnemo-private/nemo-file-operations.c:4711
+#: libnemo-private/nemo-file-operations.c:5361
+msgid "Error while moving \"%B\"."
+msgstr "Có lỗi khi chuyển \"%B\"."
+
+#: libnemo-private/nemo-file-operations.c:3980
+msgid "Could not remove the source folder."
+msgstr "Không xóa bỏ thư mục nguồn được."
+
+#: libnemo-private/nemo-file-operations.c:4065
+#: libnemo-private/nemo-file-operations.c:4106
+#: libnemo-private/nemo-file-operations.c:4713
+#: libnemo-private/nemo-file-operations.c:4784
+msgid "Error while copying \"%B\"."
+msgstr "Có lỗi khi chép\"%B\"."
+
+#: libnemo-private/nemo-file-operations.c:4066
+#, c-format
+msgid "Could not remove files from the already existing folder %F."
+msgstr "Không xóa bỏ tập tin khỏi thư mục đã tồn tại %F được."
+
+#: libnemo-private/nemo-file-operations.c:4107
+#, c-format
+msgid "Could not remove the already existing file %F."
+msgstr "Không xóa bỏ tập tin đã tồn tại %F được."
+
+#. the run_warning() frees all strings passed in automatically
+#: libnemo-private/nemo-file-operations.c:4442
+#: libnemo-private/nemo-file-operations.c:5183
+msgid "You cannot move a folder into itself."
+msgstr "Bạn không thể chuyển một thư mục vào chính nó."
+
+#: libnemo-private/nemo-file-operations.c:4443
+#: libnemo-private/nemo-file-operations.c:5184
+msgid "You cannot copy a folder into itself."
+msgstr "Bạn không được chép thư mục vào chính nó."
+
+#: libnemo-private/nemo-file-operations.c:4444
+#: libnemo-private/nemo-file-operations.c:5185
+msgid "The destination folder is inside the source folder."
+msgstr "Thư mục đích nằm trong thư mục nguồn."
+
+#. the run_warning() frees all strings passed in automatically
+#: libnemo-private/nemo-file-operations.c:4475
+msgid "You cannot move a file over itself."
+msgstr "Bạn không thể chuyển một tập tin vào chính nó."
+
+#: libnemo-private/nemo-file-operations.c:4476
+msgid "You cannot copy a file over itself."
+msgstr "Bạn không được chép tập tin vào chính nó."
+
+#: libnemo-private/nemo-file-operations.c:4477
+msgid "The source file would be overwritten by the destination."
+msgstr "Tập tin nguồn sẽ bị ghi đè bằng tập tin đích."
+
+#: libnemo-private/nemo-file-operations.c:4715
+#, c-format
+msgid "Could not remove the already existing file with the same name in %F."
+msgstr "Không thể xóa bỏ tập tin đã tồn tại với cùng tên trong %F."
+
+#: libnemo-private/nemo-file-operations.c:4785
+#, c-format
+msgid "There was an error copying the file into %F."
+msgstr "Có lỗi khi chép tập tin vào %F."
+
+#: libnemo-private/nemo-file-operations.c:5017
+#: libnemo-private/nemo-file-operations.c:5049
+msgid "Copying Files"
+msgstr "Đang chép Tập tin"
+
+#: libnemo-private/nemo-file-operations.c:5075
+msgid "Preparing to Move to \"%B\""
+msgstr "Chuẩn bị Chuyển đến \"%B\""
+
+#: libnemo-private/nemo-file-operations.c:5079
+#, c-format
+msgid "Preparing to move %'d file"
+msgid_plural "Preparing to move %'d files"
+msgstr[0] "Chuẩn bị chuyển %'d tập tin"
+
+#: libnemo-private/nemo-file-operations.c:5362
+#, c-format
+msgid "There was an error moving the file into %F."
+msgstr "Có lỗi khi chuyển tập tin vào %F."
+
+#: libnemo-private/nemo-file-operations.c:5625
+msgid "Moving Files"
+msgstr "Đang chuyển Tập tin"
+
+#: libnemo-private/nemo-file-operations.c:5658
+msgid "Creating links in \"%B\""
+msgstr "Đang tạo liên kết trong \"%B\""
+
+#: libnemo-private/nemo-file-operations.c:5662
+#, c-format
+msgid "Making link to %'d file"
+msgid_plural "Making links to %'d files"
+msgstr[0] "Đang tạo liên kết đến %'d tập tin"
+
+#: libnemo-private/nemo-file-operations.c:5800
+msgid "Error while creating link to %B."
+msgstr "Có lỗi khi tạo liên kết đến %B."
+
+#: libnemo-private/nemo-file-operations.c:5802
+msgid "Symbolic links only supported for local files"
+msgstr "Chỉ hỗ trợ liên kết mềm đối với tập tin cục bộ"
+
+#: libnemo-private/nemo-file-operations.c:5805
+msgid "The target doesn't support symbolic links."
+msgstr "Đích đến không hỗ trợ liên kết mềm."
+
+#: libnemo-private/nemo-file-operations.c:5808
+#, c-format
+msgid "There was an error creating the symlink in %F."
+msgstr "Có lỗi khi tạo liên kết mềm tron %F."
+
+#: libnemo-private/nemo-file-operations.c:6126
+msgid "Setting permissions"
+msgstr "Đang đặt quyền truy cập"
+
+#. localizers: the initial name of a new folder
+#: libnemo-private/nemo-file-operations.c:6389
+msgid "Untitled Folder"
+msgstr "Thư mục Không tên"
+
+#. localizers: the initial name of a new empty document
+#: libnemo-private/nemo-file-operations.c:6401
+msgid "Untitled Document"
+msgstr "Tài liệu Không tên"
+
+#: libnemo-private/nemo-file-operations.c:6577
+msgid "Error while creating directory %B."
+msgstr "Có lỗi khi tạo thư mục %B."
+
+#: libnemo-private/nemo-file-operations.c:6579
+msgid "Error while creating file %B."
+msgstr "Có lỗi khi tạo tập tin %B."
+
+#: libnemo-private/nemo-file-operations.c:6581
+#, c-format
+msgid "There was an error creating the directory in %F."
+msgstr "Có lỗi khi tạo thư mục trong %F."
+
+#: libnemo-private/nemo-file-operations.c:6823
+#: libnemo-private/nemo-file-operations.c:6824
+#: libnemo-private/nemo-file-operations.c:6857
+msgid "Emptying Trash"
+msgstr "Đổ Rác"
+
+#: libnemo-private/nemo-file-operations.c:6903
+#: libnemo-private/nemo-file-operations.c:6944
+#: libnemo-private/nemo-file-operations.c:6979
+#: libnemo-private/nemo-file-operations.c:7014
+msgid "Unable to mark launcher trusted (executable)"
+msgstr "Không đánh dấu tin cậy cho trình khởi động (thực thi) được"
+
+#: libnemo-private/nemo-file-undo-operations.c:378
+#, c-format
+msgid "Move %d item back to '%s'"
+msgid_plural "Move %d items back to '%s'"
+msgstr[0] "Chuyển %d mục trở lại '%s'"
+
+#: libnemo-private/nemo-file-undo-operations.c:381
+#, c-format
+msgid "Move %d item to '%s'"
+msgid_plural "Move %d items to '%s'"
+msgstr[0] "Chuyển %d mục đến '%s'"
+
+#: libnemo-private/nemo-file-undo-operations.c:385
+#, c-format
+msgid "_Undo Move %d item"
+msgid_plural "_Undo Move %d items"
+msgstr[0] "_Hoàn tác Chuyển %d mục"
+
+#: libnemo-private/nemo-file-undo-operations.c:388
+#, c-format
+msgid "_Redo Move %d item"
+msgid_plural "_Redo Move %d items"
+msgstr[0] "_Làm lại Chuyển %d mục"
+
+#: libnemo-private/nemo-file-undo-operations.c:392
+#, c-format
+msgid "Move '%s' back to '%s'"
+msgstr "Chuyển '%s' trở lại '%s'"
+
+#: libnemo-private/nemo-file-undo-operations.c:393
+#, c-format
+msgid "Move '%s' to '%s'"
+msgstr "Chuyển '%s' đến '%s'"
+
+#: libnemo-private/nemo-file-undo-operations.c:395
+msgid "_Undo Move"
+msgstr "_Hoàn tác Chuyển"
+
+#: libnemo-private/nemo-file-undo-operations.c:396
+msgid "_Redo Move"
+msgstr "_Làm lại Chuyển"
+
+#: libnemo-private/nemo-file-undo-operations.c:399
+msgid "_Undo Restore from Trash"
+msgstr "_Hoàn tác Phục hồi từ Thùng rác"
+
+#: libnemo-private/nemo-file-undo-operations.c:400
+msgid "_Redo Restore from Trash"
+msgstr "_Làm lại Phục hồi từ Thùng rác"
+
+#: libnemo-private/nemo-file-undo-operations.c:403
+#, c-format
+msgid "Move %d item back to trash"
+msgid_plural "Move %d items back to trash"
+msgstr[0] "Chuyển %d mục trở lại vào thùng rác"
+
+#: libnemo-private/nemo-file-undo-operations.c:406
+#: libnemo-private/nemo-file-undo-operations.c:999
+#, c-format
+msgid "Restore %d item from trash"
+msgid_plural "Restore %d items from trash"
+msgstr[0] "Phục hồi %d mục từ thùng rác"
+
+#: libnemo-private/nemo-file-undo-operations.c:410
+#, c-format
+msgid "Move '%s' back to trash"
+msgstr "Chuyển '%s' trở lại vào thùng rác"
+
+#: libnemo-private/nemo-file-undo-operations.c:411
+#, c-format
+msgid "Restore '%s' from trash"
+msgstr "Phục hồi '%s' từ thùng rác"
+
+#: libnemo-private/nemo-file-undo-operations.c:415
+#, c-format
+msgid "Delete %d copied item"
+msgid_plural "Delete %d copied items"
+msgstr[0] "Xóa %d mục đã chép"
+
+#: libnemo-private/nemo-file-undo-operations.c:418
+#, c-format
+msgid "Copy %d item to '%s'"
+msgid_plural "Copy %d items to '%s'"
+msgstr[0] "Chép %d mục đến '%s'"
+
+#: libnemo-private/nemo-file-undo-operations.c:422
+#, c-format
+msgid "_Undo Copy %d item"
+msgid_plural "_Undo Copy %d items"
+msgstr[0] "_Hoàn tác Chép %d mục"
+
+#: libnemo-private/nemo-file-undo-operations.c:425
+#, c-format
+msgid "_Redo Copy %d item"
+msgid_plural "_Redo Copy %d items"
+msgstr[0] "_Làm lại Chép %d mục"
+
+#: libnemo-private/nemo-file-undo-operations.c:429
+#: libnemo-private/nemo-file-undo-operations.c:451
+#: libnemo-private/nemo-file-undo-operations.c:684
+#, c-format
+msgid "Delete '%s'"
+msgstr "Xóa '%s'"
+
+#: libnemo-private/nemo-file-undo-operations.c:430
+#, c-format
+msgid "Copy '%s' to '%s'"
+msgstr "Chép '%s' đến '%s'"
+
+#: libnemo-private/nemo-file-undo-operations.c:432
+msgid "_Undo Copy"
+msgstr "_Hoàn tác Chép"
+
+#: libnemo-private/nemo-file-undo-operations.c:433
+msgid "_Redo Copy"
+msgstr "_Làm lại Chép"
+
+#: libnemo-private/nemo-file-undo-operations.c:437
+#, c-format
+msgid "Delete %d duplicated item"
+msgid_plural "Delete %d duplicated items"
+msgstr[0] "Xóa %d mục trùng"
+
+#: libnemo-private/nemo-file-undo-operations.c:440
+#, c-format
+msgid "Duplicate %d item in '%s'"
+msgid_plural "Duplicate %d items in '%s'"
+msgstr[0] "Nhân đôi %d mục trong '%s'"
+
+#: libnemo-private/nemo-file-undo-operations.c:444
+#, c-format
+msgid "_Undo Duplicate %d item"
+msgid_plural "_Undo Duplicate %d items"
+msgstr[0] "_Hoàn tác Nhân đôi %d mục"
+
+#: libnemo-private/nemo-file-undo-operations.c:447
+#, c-format
+msgid "_Redo Duplicate %d item"
+msgid_plural "_Redo Duplicate %d items"
+msgstr[0] "_Làm lại Nhân đôi %d mục"
+
+#: libnemo-private/nemo-file-undo-operations.c:452
+#, c-format
+msgid "Duplicate '%s' in '%s'"
+msgstr "Nhân đôi '%s' trong '%s'"
+
+#: libnemo-private/nemo-file-undo-operations.c:455
+msgid "_Undo Duplicate"
+msgstr "_Hoàn tác Nhân đôi"
+
+#: libnemo-private/nemo-file-undo-operations.c:456
+msgid "_Redo Duplicate"
+msgstr "_Làm lại Nhân đôi"
+
+#: libnemo-private/nemo-file-undo-operations.c:460
+#, c-format
+msgid "Delete links to %d item"
+msgid_plural "Delete links to %d items"
+msgstr[0] "Xóa liên kết đến %d mục"
+
+#: libnemo-private/nemo-file-undo-operations.c:463
+#, c-format
+msgid "Create links to %d item"
+msgid_plural "Create links to %d items"
+msgstr[0] "Tạo liên kết đến %d mục"
+
+#: libnemo-private/nemo-file-undo-operations.c:467
+#, c-format
+msgid "Delete link to '%s'"
+msgstr "Xóa liên kết đến '%s'"
+
+#: libnemo-private/nemo-file-undo-operations.c:468
+#, c-format
+msgid "Create link to '%s'"
+msgstr "Tạo liên kết đến '%s'"
+
+#: libnemo-private/nemo-file-undo-operations.c:470
+msgid "_Undo Create Link"
+msgstr "_Hoàn tác Tạo Liên kết"
+
+#: libnemo-private/nemo-file-undo-operations.c:471
+msgid "_Redo Create Link"
+msgstr "_Làm lại Tạo Liên kết"
+
+#: libnemo-private/nemo-file-undo-operations.c:687
+#, c-format
+msgid "Create an empty file '%s'"
+msgstr "Tạo tập tin rỗng '%s'"
+
+#: libnemo-private/nemo-file-undo-operations.c:689
+msgid "_Undo Create Empty File"
+msgstr "_Hoàn tác Tạo Tập tin Rỗng"
+
+#: libnemo-private/nemo-file-undo-operations.c:690
+msgid "_Redo Create Empty File"
+msgstr "_Làm lại Tạo Tập tin Rỗng"
+
+#: libnemo-private/nemo-file-undo-operations.c:692
+#, c-format
+msgid "Create a new folder '%s'"
+msgstr "Tạo thư mục mới '%s'"
+
+#: libnemo-private/nemo-file-undo-operations.c:694
+msgid "_Undo Create Folder"
+msgstr "_Hoàn tác Tạo Thư mục"
+
+#: libnemo-private/nemo-file-undo-operations.c:695
+msgid "_Redo Create Folder"
+msgstr "_Làm lại Tạo Thư mục"
+
+#: libnemo-private/nemo-file-undo-operations.c:697
+#, c-format
+msgid "Create new file '%s' from template "
+msgstr "Tạo tập tin mới '%s' từ mẫu "
+
+#: libnemo-private/nemo-file-undo-operations.c:699
+msgid "_Undo Create from Template"
+msgstr "_Hoàn tác Tạo từ Mẫu"
+
+#: libnemo-private/nemo-file-undo-operations.c:700
+msgid "_Redo Create from Template"
+msgstr "_Làm lại Tạo từ Mẫu"
+
+#: libnemo-private/nemo-file-undo-operations.c:882
+#: libnemo-private/nemo-file-undo-operations.c:883
+#, c-format
+msgid "Rename '%s' as '%s'"
+msgstr "Đổi tên '%s' thành '%s'"
+
+#: libnemo-private/nemo-file-undo-operations.c:885
+msgid "_Undo Rename"
+msgstr "_Hoàn tác Đổi tên"
+
+#: libnemo-private/nemo-file-undo-operations.c:886
+msgid "_Redo Rename"
+msgstr "_Làm lại Đổi tên"
+
+#: libnemo-private/nemo-file-undo-operations.c:1002
+#, c-format
+msgid "Move %d item to trash"
+msgid_plural "Move %d items to trash"
+msgstr[0] "Chuyển %d mục vào thùng rác"
+
+#: libnemo-private/nemo-file-undo-operations.c:1014
+#, c-format
+msgid "Restore '%s' to '%s'"
+msgstr "Phục hồi '%s' về '%s'"
+
+#: libnemo-private/nemo-file-undo-operations.c:1021
+#, c-format
+msgid "Move '%s' to trash"
+msgstr "Chuyển '%s' vào thùng rác"
+
+#: libnemo-private/nemo-file-undo-operations.c:1025
+msgid "_Undo Trash"
+msgstr "_Hoàn tác Cho vào Thùng rác"
+
+#: libnemo-private/nemo-file-undo-operations.c:1026
+msgid "_Redo Trash"
+msgstr "_Làm lại Cho vào Thùng rác"
+
+#: libnemo-private/nemo-file-undo-operations.c:1318
+#, c-format
+msgid "Restore original permissions of items enclosed in '%s'"
+msgstr "Phục hồi quyền truy cập ban đầu của các mục trong '%s'"
+
+#: libnemo-private/nemo-file-undo-operations.c:1319
+#, c-format
+msgid "Set permissions of items enclosed in '%s'"
+msgstr "Đặt quyền truy cập của các mục trong '%s'"
+
+#: libnemo-private/nemo-file-undo-operations.c:1321
+#: libnemo-private/nemo-file-undo-operations.c:1476
+msgid "_Undo Change Permissions"
+msgstr "_Hoàn tác Thay đổi Quyền"
+
+#: libnemo-private/nemo-file-undo-operations.c:1322
+#: libnemo-private/nemo-file-undo-operations.c:1477
+msgid "_Redo Change Permissions"
+msgstr "_Làm lại Thay đổi Quyền"
+
+#: libnemo-private/nemo-file-undo-operations.c:1473
+#, c-format
+msgid "Restore original permissions of '%s'"
+msgstr "Phục hồi quyền truy cập ban đầu của '%s'"
+
+#: libnemo-private/nemo-file-undo-operations.c:1474
+#, c-format
+msgid "Set permissions of '%s'"
+msgstr "Đặt quyền truy cập của '%s'"
+
+#: libnemo-private/nemo-file-undo-operations.c:1584
+#, c-format
+msgid "Restore group of '%s' to '%s'"
+msgstr "Phục hồi nhóm của '%s' về '%s'"
+
+#: libnemo-private/nemo-file-undo-operations.c:1586
+#, c-format
+msgid "Set group of '%s' to '%s'"
+msgstr "Đặt nhóm của '%s' là '%s'"
+
+#: libnemo-private/nemo-file-undo-operations.c:1589
+msgid "_Undo Change Group"
+msgstr "_Hoàn tác Thay đổi Nhóm"
+
+#: libnemo-private/nemo-file-undo-operations.c:1590
+msgid "_Redo Change Group"
+msgstr "_Làm lại Thay đổi Nhóm"
+
+#: libnemo-private/nemo-file-undo-operations.c:1592
+#, c-format
+msgid "Restore owner of '%s' to '%s'"
+msgstr "Phục hồi chủ sở hữu của '%s' về '%s'"
+
+#: libnemo-private/nemo-file-undo-operations.c:1594
+#, c-format
+msgid "Set owner of '%s' to '%s'"
+msgstr "Đặt chủ sở hữu của '%s' là '%s'"
+
+#: libnemo-private/nemo-file-undo-operations.c:1597
+msgid "_Undo Change Owner"
+msgstr "_Hoàn tác Thay đổi Chủ sở hữu"
+
+#: libnemo-private/nemo-file-undo-operations.c:1598
+msgid "_Redo Change Owner"
+msgstr "_Làm lại Thay đổi Chủ sở hữu"
+
+#: libnemo-private/nemo-file-utilities.c:1379
+#, c-format
+msgid "Could not determine original location of \"%s\" "
+msgstr "Không xác định được vị trí ban đầu của \"%s\" "
+
+#: libnemo-private/nemo-file-utilities.c:1383
+msgid "The item cannot be restored from trash"
+msgstr "Không phục hồi mục từ thùng rác được."
+
+#: libnemo-private/nemo-icon-container.c:1415
+msgid "The selection rectangle"
+msgstr "Vùng chữ nhật chọn"
+
+#: libnemo-private/nemo-mime-application-chooser.c:113
+msgid "Could not forget association"
+msgstr "Không quên liên kết được"
+
+#: libnemo-private/nemo-mime-application-chooser.c:137
+msgid "Forget association"
+msgstr "Quên liên kết"
+
+#: libnemo-private/nemo-mime-application-chooser.c:277
+msgid "Valid executable."
+msgstr "Tập tin thực thi hiệu lực."
+
+#: libnemo-private/nemo-mime-application-chooser.c:284
+msgid ""
+"Not a valid executable.  Spaces in the file path must be escaped with "
+"backslash (\\)."
+msgstr ""
+"Không phải tập tin thực thi hợp lệ. Các khoảng trống trong đường dẫn tập tin "
+"phải có ký tự (\\)."
+
+#. the %s here is a file extension
+#: libnemo-private/nemo-mime-application-chooser.c:419
+#: libnemo-private/nemo-mime-application-chooser.c:437
+#, c-format
+msgid "%s document"
+msgstr "Tài liệu %s"
+
+#: libnemo-private/nemo-mime-application-chooser.c:424
+#, c-format
+msgid "Open all files of type \"%s\" with"
+msgstr "Mở mọi tập tin dạng \"%s\" bằng"
+
+#: libnemo-private/nemo-mime-application-chooser.c:444
+#, c-format
+msgid ""
+"Select an application in the list to open %s and other files of type \"%s\""
+msgstr ""
+"Chọn ứng dụng trong danh sách để mở %s và những kiểu tập tin \"%s\" khác"
+
+#: libnemo-private/nemo-mime-application-chooser.c:478
+msgid "Custom application"
+msgstr "Ứng dụng tuỳ biến"
+
+#: libnemo-private/nemo-mime-application-chooser.c:481
+msgid "_Cancel"
+msgstr ""
+
+#: libnemo-private/nemo-mime-application-chooser.c:498
+msgid "Executables"
+msgstr "Tập tin thực thi"
+
+#: libnemo-private/nemo-mime-application-chooser.c:544
+msgid ""
+"You can also type or select a custom executable file to use to open this "
+"file type.  You can use this command just once, or set it as default for all "
+"files of this type."
+msgstr ""
+"Bạn cũng có thể nhập hoặc chọn tập tin thực thi tuỳ biến để mở kiểu tập tin "
+"này. Bạn có thể dùng lệnh này một lần, hoặc đặt làm mặc định cho mọi tập tin "
+"kiểu này."
+
+#: libnemo-private/nemo-mime-application-chooser.c:558
+msgid "Enter a custom command..."
+msgstr "Nhập lệnh tuỳ biến..."
+
+#: libnemo-private/nemo-mime-application-chooser.c:584
+msgid "Add to list"
+msgstr "Thêm vào danh sách"
+
+#: libnemo-private/nemo-mime-application-chooser.c:592
+msgid "Set as default"
+msgstr "Đặt làm mặc định"
+
+#: libnemo-private/nemo-mime-application-chooser.c:601
+msgid "Reset to system defaults"
+msgstr "Đặt về mặc định hệ thống"
+
+#: libnemo-private/nemo-program-choosing.c:323
+msgid "Sorry, but you cannot execute commands from a remote site."
+msgstr "Rất tiếc, bạn không thực thi lệnh từ vị trí ở xa được."
+
+#: libnemo-private/nemo-program-choosing.c:325
+msgid "This is disabled due to security considerations."
+msgstr "Thao tác này bị vô hiệu hóa vì lý do bảo mật."
+
+#: libnemo-private/nemo-program-choosing.c:336
+#: libnemo-private/nemo-program-choosing.c:397
+msgid "There was an error launching the application."
+msgstr "Có lỗi khi khởi chạy ứng dụng."
+
+#: libnemo-private/nemo-program-choosing.c:361
+#: libnemo-private/nemo-program-choosing.c:372
+msgid "This drop target only supports local files."
+msgstr "Đích thả này chỉ hỗ trợ tập tin cục bộ."
+
+#: libnemo-private/nemo-program-choosing.c:362
+msgid ""
+"To open non-local files copy them to a local folder and then drop them again."
+msgstr ""
+"Để mở tập tin không cục bộ hãy chép chúng sang một thư mục cục bộ rồi thả "
+"lại."
+
+#: libnemo-private/nemo-program-choosing.c:373
+msgid ""
+"To open non-local files copy them to a local folder and then drop them "
+"again. The local files you dropped have already been opened."
+msgstr ""
+"Để mở tập tin không cục bộ hãy chép chúng sang một thư mục cục bộ rồi thả "
+"lại. Tập tin nội bộ bạn thả đang mở rồi."
+
+#: libnemo-private/nemo-program-choosing.c:395
+msgid "Details: "
+msgstr "Chi tiết: "
+
+#: libnemo-private/nemo-progress-info.c:205
+#: libnemo-private/nemo-progress-info.c:223
+#: libnemo-private/nemo-progress-info.c:241
+msgid "Preparing"
+msgstr "Chuẩn bị"
+
+#: libnemo-private/nemo-query.c:197
+#, c-format
+msgid "Search in \"%s\""
+msgstr ""
+
+#: libnemo-private/nemo-undo-signal-handlers.c:173
+msgid "Edit"
+msgstr "Sửa đổi"
+
+#: libnemo-private/nemo-undo-signal-handlers.c:174
+msgid "Undo Edit"
+msgstr "Hoàn tác Sửa đổi"
+
+#: libnemo-private/nemo-undo-signal-handlers.c:175
+msgid "Undo the edit"
+msgstr "Hoàn tác sửa đổi"
+
+#: libnemo-private/nemo-undo-signal-handlers.c:176
+msgid "Redo Edit"
+msgstr "Làm lại Sửa đổi"
+
+#: libnemo-private/nemo-undo-signal-handlers.c:177
+msgid "Redo the edit"
+msgstr "Làm lại bước sửa đổi"
+
+#: eel/eel-canvas.c:1255 eel/eel-canvas.c:1256
+msgid "X"
+msgstr "X"
+
+#: eel/eel-canvas.c:1262 eel/eel-canvas.c:1263
+msgid "Y"
+msgstr "Y"
+
+#: eel/eel-editable-label.c:320
+msgid "The text of the label."
+msgstr "Văn bản trên nhãn."
+
+#: eel/eel-editable-label.c:326
+msgid "Justification"
+msgstr "Canh đều"
+
+#: eel/eel-editable-label.c:327
+msgid ""
+"The alignment of the lines in the text of the label relative to each other. "
+"This does NOT affect the alignment of the label within its allocation. See "
+"GtkMisc::xalign for that."
+msgstr ""
+"Độ canh chỉnh các hàng trong văn bản trên nhãn là tương đối với nhau. Nó "
+"KHÔNG tác động lên độ canh chỉnh của nhãn trong vùng cấp phát. Xem thêm "
+"GtkMisc::xalign để rõ."
+
+#: eel/eel-editable-label.c:335
+msgid "Line wrap"
+msgstr "Ngắt hàng"
+
+#: eel/eel-editable-label.c:336
+msgid "If set, wrap lines if the text becomes too wide."
+msgstr "Nếu đặt, sẽ ngắt dòng khi văn bản quá rộng."
+
+#: eel/eel-editable-label.c:343
+msgid "Cursor Position"
+msgstr "Vị trí Con nháy"
+
+#: eel/eel-editable-label.c:344
+msgid "The current position of the insertion cursor in chars."
+msgstr "Vị trí hiện hành của con nháy chèn tính theo ký tự."
+
+#: eel/eel-editable-label.c:353
+msgid "Selection Bound"
+msgstr "Biên Vùng chọn"
+
+#: eel/eel-editable-label.c:354
+msgid ""
+"The position of the opposite end of the selection from the cursor in chars."
+msgstr "Vị trí đuôi vùng chọn từ con nháy tính theo ký tự."
+
+#: eel/eel-editable-label.c:3106
+msgid "Select All"
+msgstr "Chọn Hết"
+
+#: eel/eel-editable-label.c:3117
+msgid "Input Methods"
+msgstr "Bộ Gõ"
+
+#: eel/eel-gtk-extensions.c:328
+msgid "Show more _details"
+msgstr "Hiện nhiều _chi tiết hơn"
+
+#: eel/eel-stock-dialogs.c:205
+msgid "You can stop this operation by clicking cancel."
+msgstr "Bạn có thể nhấp Thôi để dừng thao tác này."
+
+#: eel/eel-vfs-extensions.c:128
+msgid " (invalid Unicode)"
+msgstr " (Unicode không hợp lệ)"
+
+#: data/nemo-actions/action_i18n_strings.py:8
+msgid "Set as Wallpaper..."
+msgstr "Đặt làm Hình nền..."
+
+#: data/nemo-actions/action_i18n_strings.py:9
+msgid "Set the selected image as your Cinnamon desktop wallpaper"
+msgstr "Đặt ảnh được chọn làm màn hình nền Cinnamon"
+
+#: data/nemo-actions/action_i18n_strings.py:10
+msgid "Add Desklets"
+msgstr "Thêm Tiểu trình màn hình"
+
+#: data/nemo-actions/action_i18n_strings.py:11
+msgid "Add Cinamon desklets"
+msgstr "Thêm tiểu dụng màn hình Cinnamon"
+
+#: data/nemo-actions/action_i18n_strings.py:12
+msgid "Mount archive"
+msgstr "Gắn kết bộ lưu trữ"
+
+#: data/nemo-actions/action_i18n_strings.py:13
+#, python-format
+msgid "Mount %f to browse its contents"
+msgstr "Gắn kết %f để duyệt xem nội dung"
+
+#: data/nemo-actions/action_i18n_strings.py:14
+msgid "Change Desktop _Background"
+msgstr "Đổi Ảnh _nền Màn hình"
+
+#: data/nemo-actions/action_i18n_strings.py:15
+msgid "Change the Cinnamon desktop background"
+msgstr "Đổi ảnh nền Cinnamon"
+
+#: data/nemo-actions/action_i18n_strings.py:16
+msgid "Manage workspaces (Expo)"
+msgstr "Quản lý vùng làm việc (Expo)"
+
+#: data/nemo-actions/action_i18n_strings.py:17
+msgid "Open Expo to add, remove, or organize workspaces"
+msgstr "Mở Expo để thêm, bỏ, quản lý vùng làm việc"
+
+#: data/nemo-actions/action_i18n_strings.py:18
+msgid "Create a new l_auncher here..."
+msgstr "Tạo trình _khởi chạy mới ở đây..."
+
+#: data/nemo-actions/action_i18n_strings.py:19
+msgid "Create a new launcher in this folder"
+msgstr "Tạo trình khởi chạy mới trong thư mục này"
+
+#: data/nemo-actions/action_i18n_strings.py:20
+msgid "Remove workspace"
+msgstr "Bỏ vùng làm việc"
+
+#: data/nemo-actions/action_i18n_strings.py:21
+msgid "Remove the currently active workspace"
+msgstr "Bỏ vùng làm việc hiện hoạt"
+
+#: data/nemo-actions/action_i18n_strings.py:22
+msgid "Jump to new workspace"
+msgstr "Chuyển qua vùng làm việc mới"
+
+#: data/nemo-actions/action_i18n_strings.py:23
+msgid "Create a new workspace and activate it"
+msgstr "Tạo và kích hoạt vùng làm việc mới"
+
+#: generate_additional_file:33
+msgid "Files"
+msgstr ""
+
+#: generate_additional_file:33
+msgid "Access and organize files"
+msgstr ""
+
+#: gresources/nemo-bookmarks-window.glade:8
+msgid "Edit Bookmarks"
+msgstr "Sửa Đánh dấu"
+
+#: gresources/nemo-bookmarks-window.glade:116
+msgid "<b>_Bookmarks</b>"
+msgstr "<b>Đánh _dấu</b>"
+
+#: gresources/nemo-bookmarks-window.glade:205
+msgid "<b>_Name</b>"
+msgstr "<b>_Tên</b>"
+
+#: gresources/nemo-bookmarks-window.glade:272
+msgid "<b>_Location</b>"
+msgstr "<b>_Vị tríỉ:</b>"
+
+#: gresources/nemo-desktop-overlay.glade:61
+msgctxt "Desktop icon size"
+msgid "Smaller"
+msgstr ""
+
+#: gresources/nemo-desktop-overlay.glade:66
+msgctxt "Desktop icon size"
+msgid "Small"
+msgstr ""
+
+#: gresources/nemo-desktop-overlay.glade:71
+msgctxt "Desktop icon size"
+msgid "Normal"
+msgstr ""
+
+#: gresources/nemo-desktop-overlay.glade:76
+msgctxt "Desktop icon size"
+msgid "Large"
+msgstr ""
+
+#: gresources/nemo-desktop-overlay.glade:81
+msgctxt "Desktop icon size"
+msgid "Larger"
+msgstr ""
+
+#: gresources/nemo-desktop-overlay.glade:95
+msgid "Vertical"
+msgstr ""
+
+#: gresources/nemo-desktop-overlay.glade:99
+msgid "Horizontal"
+msgstr ""
+
+#: gresources/nemo-desktop-overlay.glade:138
+msgid "Current Monitor Layout"
+msgstr ""
+
+#: gresources/nemo-desktop-overlay.glade:197
+msgid "Icon Size"
+msgstr ""
+
+#: gresources/nemo-desktop-overlay.glade:240
+msgid "Layout"
+msgstr ""
+
+#: gresources/nemo-desktop-overlay.glade:369
+msgid "Direction"
+msgstr ""
+
+#: gresources/nemo-desktop-overlay.glade:454
+msgid "Sort items by"
+msgstr ""
+
+#: gresources/nemo-desktop-overlay.glade:613
+msgid "Reset grid spacing"
+msgstr ""
+
+#: gresources/nemo-desktop-overlay.glade:680
+#: gresources/nemo-desktop-overlay.glade:870
+msgid "button"
+msgstr ""
+
+#: gresources/nemo-desktop-overlay.glade:746
+msgid "Adjust horizontal grid spacing"
+msgstr ""
+
+#: gresources/nemo-desktop-overlay.glade:801
+msgid "Adjust vertical grid spacing"
+msgstr ""
+
+#: gresources/nemo-desktop-overlay.glade:845
+msgid "page0"
+msgstr ""
+
+#: gresources/nemo-desktop-overlay.glade:859
+msgid ""
+"<b><big>Desktop icons are not currently enabled for this monitor.</big></b>"
+msgstr ""
+
+#: gresources/nemo-desktop-overlay.glade:887
+msgid "page1"
+msgstr ""
+
+#: gresources/nemo-desktop-preferences.glade:36
+msgid "Desktop Layout"
+msgstr ""
+
+#: gresources/nemo-desktop-preferences.glade:54
+msgid "No desktop icons"
+msgstr ""
+
+#: gresources/nemo-desktop-preferences.glade:55
+msgid "Show desktop icons on primary monitor only"
+msgstr ""
+
+#: gresources/nemo-desktop-preferences.glade:56
+msgid "Show desktop icons on non-primary monitor(s) only"
+msgstr ""
+
+#: gresources/nemo-desktop-preferences.glade:57
+msgid "Show desktop icons on all monitors"
+msgstr ""
+
+#: gresources/nemo-desktop-preferences.glade:77
+msgid "Desktop Icons"
+msgstr ""
+
+#: gresources/nemo-desktop-preferences.glade:367
+msgid "Mounted Drives"
+msgstr ""
+
+#: gresources/nemo-desktop-preferences.glade:503
+msgid "Options"
+msgstr ""
+
+#: gresources/nemo-desktop-preferences.glade:559
+msgid "Show icons from missing monitors"
+msgstr ""
+
+#: gresources/nemo-file-management-properties.glade:127
+#: gresources/nemo-file-management-properties.glade:330
+#: gresources/nemo-file-management-properties.glade:4180
+msgid "Always"
+msgstr "Luôn luôn"
+
+#: gresources/nemo-file-management-properties.glade:130
+#: gresources/nemo-file-management-properties.glade:333
+#: gresources/nemo-file-management-properties.glade:350
+#: gresources/nemo-file-management-properties.glade:4183
+msgid "Local Files Only"
+msgstr "Chỉ Tập tin Cục bộ"
+
+#: gresources/nemo-file-management-properties.glade:133
+#: gresources/nemo-file-management-properties.glade:336
+#: gresources/nemo-file-management-properties.glade:4186
+msgid "Never"
+msgstr "Không bao giờ"
+
+#: gresources/nemo-file-management-properties.glade:144
+msgid "Decimal"
+msgstr "Thập phân"
+
+#: gresources/nemo-file-management-properties.glade:147
+msgid "Decimal (long format)"
+msgstr "Thập phân (định dạng dài)"
+
+#: gresources/nemo-file-management-properties.glade:153
+msgid "Binary (long format)"
+msgstr "Nhị phân (định dạng dài)"
+
+#: gresources/nemo-file-management-properties.glade:164
+msgid "By Name"
+msgstr "Theo Tên"
+
+#: gresources/nemo-file-management-properties.glade:167
+msgid "By Size"
+msgstr "Theo Cỡ"
+
+#: gresources/nemo-file-management-properties.glade:170
+msgid "By Type"
+msgstr "Theo Kiểu"
+
+#: gresources/nemo-file-management-properties.glade:173
+msgid "By Detailed Type"
+msgstr "Theo Kiểu Chi tiết"
+
+#: gresources/nemo-file-management-properties.glade:176
+msgid "By Modification Date"
+msgstr "Theo Ngày Sửa đổi"
+
+#: gresources/nemo-file-management-properties.glade:179
+msgid "By Access Date"
+msgstr "Theo Ngày Truy cập"
+
+#: gresources/nemo-file-management-properties.glade:182
+msgid "By Trashed Date"
+msgstr "Theo Ngày Bỏ rác"
+
+#: gresources/nemo-file-management-properties.glade:193
+#: gresources/nemo-file-management-properties.glade:272
+#: gresources/nemo-file-management-properties.glade:301
+msgid "33%"
+msgstr "33%"
+
+#: gresources/nemo-file-management-properties.glade:196
+#: gresources/nemo-file-management-properties.glade:275
+#: gresources/nemo-file-management-properties.glade:304
+msgid "50%"
+msgstr "50%"
+
+#: gresources/nemo-file-management-properties.glade:199
+#: gresources/nemo-file-management-properties.glade:278
+#: gresources/nemo-file-management-properties.glade:307
+msgid "66%"
+msgstr "66%"
+
+#: gresources/nemo-file-management-properties.glade:202
+#: gresources/nemo-file-management-properties.glade:281
+#: gresources/nemo-file-management-properties.glade:310
+msgid "100%"
+msgstr "100%"
+
+#: gresources/nemo-file-management-properties.glade:205
+#: gresources/nemo-file-management-properties.glade:284
+#: gresources/nemo-file-management-properties.glade:313
+msgid "150%"
+msgstr "150%"
+
+#: gresources/nemo-file-management-properties.glade:208
+#: gresources/nemo-file-management-properties.glade:287
+#: gresources/nemo-file-management-properties.glade:316
+msgid "200%"
+msgstr "200%"
+
+#: gresources/nemo-file-management-properties.glade:211
+#: gresources/nemo-file-management-properties.glade:290
+#: gresources/nemo-file-management-properties.glade:319
+msgid "400%"
+msgstr "400%"
+
+#: gresources/nemo-file-management-properties.glade:222
+msgid "100 KB"
+msgstr "100 KB"
+
+#: gresources/nemo-file-management-properties.glade:225
+msgid "500 KB"
+msgstr "500 KB"
+
+#: gresources/nemo-file-management-properties.glade:228
+msgid "1 MB"
+msgstr "1 MB"
+
+#: gresources/nemo-file-management-properties.glade:231
+msgid "3 MB"
+msgstr "3 MB"
+
+#: gresources/nemo-file-management-properties.glade:234
+msgid "5 MB"
+msgstr "5 MB"
+
+#: gresources/nemo-file-management-properties.glade:237
+msgid "10 MB"
+msgstr "10 MB"
+
+#: gresources/nemo-file-management-properties.glade:240
+msgid "100 MB"
+msgstr "100 MB"
+
+#: gresources/nemo-file-management-properties.glade:243
+msgid "1 GB"
+msgstr "1 GB"
+
+#: gresources/nemo-file-management-properties.glade:246
+msgid "2 GB"
+msgstr "2 GB"
+
+#: gresources/nemo-file-management-properties.glade:249
+msgid "4 GB"
+msgstr "4 GB"
+
+#: gresources/nemo-file-management-properties.glade:252
+msgid "8 GB"
+msgstr "8 GB"
+
+#: gresources/nemo-file-management-properties.glade:255
+msgid "16 GB"
+msgstr ""
+
+#: gresources/nemo-file-management-properties.glade:258
+msgid "32 GB"
+msgstr ""
+
+#: gresources/nemo-file-management-properties.glade:261
+msgid "64 GB"
+msgstr ""
+
+#: gresources/nemo-file-management-properties.glade:347
+msgid "Yes"
+msgstr ""
+
+#: gresources/nemo-file-management-properties.glade:353
+msgid "No"
+msgstr ""
+
+#: gresources/nemo-file-management-properties.glade:359
+msgid "File Management Preferences"
+msgstr "Tùy thích Quản lý Tập tin"
+
+#: gresources/nemo-file-management-properties.glade:417
+msgid "<b>Default View</b>"
+msgstr "<b>Kiểu xem Mặc định</b>"
+
+#: gresources/nemo-file-management-properties.glade:447
+msgid "View _new folders using:"
+msgstr "Xem thư mục _mới bằng:"
+
+#: gresources/nemo-file-management-properties.glade:485
+msgid "_Inherit view type from parent"
+msgstr ""
+
+#: gresources/nemo-file-management-properties.glade:508
+msgid "_Arrange items:"
+msgstr "_Sắp xếp các mục:"
+
+#: gresources/nemo-file-management-properties.glade:562
+msgid "Sort _folders before files"
+msgstr "Xếp _thư mục trước tập tin"
+
+#: gresources/nemo-file-management-properties.glade:578
+msgid "Sort _favorites before other files"
+msgstr ""
+
+#: gresources/nemo-file-management-properties.glade:619
+msgid "<b>Icon View Defaults</b>"
+msgstr "<b>Mặc định Kiểu xem Biểu tượng</b>"
+
+#: gresources/nemo-file-management-properties.glade:649
+msgid "Default _zoom level:"
+msgstr "Mức thu _phóng mặc định:"
+
+#: gresources/nemo-file-management-properties.glade:687
+msgid "_Text beside icons"
+msgstr "_Chữ cạnh biểu tượng"
+
+#: gresources/nemo-file-management-properties.glade:728
+msgid "<b>Compact View Defaults</b>"
+msgstr "<b>Mặc định Kiểu xem Gọn</b>"
+
+#: gresources/nemo-file-management-properties.glade:758
+msgid "_Default zoom level:"
+msgstr "Mức thu phóng _mặc định:"
+
+#: gresources/nemo-file-management-properties.glade:796
+msgid "A_ll columns have the same width"
+msgstr "Mọ_i cột có cùng bề rộng"
+
+#: gresources/nemo-file-management-properties.glade:837
+msgid "<b>List View Defaults</b>"
+msgstr "<b>Mặc định Kiểu xem Danh sách</b>"
+
+#: gresources/nemo-file-management-properties.glade:867
+msgid "D_efault zoom level:"
+msgstr "Mức thu phóng _mặc định:"
+
+#: gresources/nemo-file-management-properties.glade:930
+msgid "<b>Tree View Defaults</b>"
+msgstr "<b>Mặc định Kiểu xem Cây</b>"
+
+#: gresources/nemo-file-management-properties.glade:953
+msgid "Show _only folders"
+msgstr "_Chỉ hiện thư mục"
+
+#: gresources/nemo-file-management-properties.glade:990
+msgid "Views"
+msgstr "Xem"
+
+#: gresources/nemo-file-management-properties.glade:1018
+msgid "<b>Behavior</b>"
+msgstr "<b>Ứng xử</b>"
+
+#: gresources/nemo-file-management-properties.glade:1040
+msgid "_Single click to open items"
+msgstr "Nhấp đơ_n để mở mục"
+
+#: gresources/nemo-file-management-properties.glade:1057
+msgid "_Double click to open items"
+msgstr "Nhấp đú_p để mở mục"
+
+#: gresources/nemo-file-management-properties.glade:1075
+msgid "Click on a file's name twice to rename it"
+msgstr ""
+
+#: gresources/nemo-file-management-properties.glade:1092
+msgid "Open each _folder in its own window"
+msgstr "Mở mỗi thư mục trong cửa sổ _riêng"
+
+#: gresources/nemo-file-management-properties.glade:1109
+msgid "Always start in dual-pane view"
+msgstr "Luôn chạy với kiểu xem hai bảng"
+
+#: gresources/nemo-file-management-properties.glade:1126
+msgid "Ignore per-folder view preferences"
+msgstr "Bỏ qua tuỳ thích kiểu xem cho từng thư mục"
+
+#: gresources/nemo-file-management-properties.glade:1143
+msgid "Disable file operation queueing"
+msgstr "Vô hiệu hoá hàng đợi thao tác tập tin"
+
+#: gresources/nemo-file-management-properties.glade:1160
+msgid "Double-click on a blank area to go to the parent folder"
+msgstr ""
+
+#: gresources/nemo-file-management-properties.glade:1202
+msgid "<b>Executable Text Files</b>"
+msgstr "<b>Tập tin Văn bản Thực thi</b>"
+
+#: gresources/nemo-file-management-properties.glade:1225
+msgid "_Run executable text files when they are opened"
+msgstr "_Chạy tập tin văn bản thực thi khi mở"
+
+#: gresources/nemo-file-management-properties.glade:1242
+msgid "_View executable text files when they are opened"
+msgstr "_Xem tập tin văn bản thực thi khi mở"
+
+#: gresources/nemo-file-management-properties.glade:1259
+msgid "_Ask each time"
+msgstr "_Hỏi mỗi lần"
+
+#: gresources/nemo-file-management-properties.glade:1301
+msgid "<b>Trash</b>"
+msgstr "<b>Thùng rác</b>"
+
+#: gresources/nemo-file-management-properties.glade:1324
+msgid "Ask before moving files to the Trash"
+msgstr ""
+
+#: gresources/nemo-file-management-properties.glade:1340
+msgid "Ask before _emptying the Trash or deleting files"
+msgstr "Hỏi trước khi đổ _rác hoặc xóa tập tin"
+
+#: gresources/nemo-file-management-properties.glade:1356
+msgid "I_nclude a Delete command that bypasses Trash"
+msgstr "_Bao gồm lệnh Xóa bỏ qua Thùng rác"
+
+#: gresources/nemo-file-management-properties.glade:1372
+msgid "Bypass the Trash when the Delete key is pressed"
+msgstr "Bỏ qua Thùng rác khi nhấn phím Delete"
+
+#: gresources/nemo-file-management-properties.glade:1412
+msgid "<b>Media Handling</b>"
+msgstr "<b>Xử lí Phương tiện</b>"
+
+#: gresources/nemo-file-management-properties.glade:1435
+msgid "Automatically mount removeable media when inserted and on startup"
+msgstr "Tự động gắn kết phương tiện tháo lắp khi gắn vào và lúc khởi động"
+
+#: gresources/nemo-file-management-properties.glade:1451
+msgid "Automatically open a folder for automounted media"
+msgstr "Tự động mở thư mục đối với phương tiện tháo lắp"
+
+#: gresources/nemo-file-management-properties.glade:1467
+msgid "Prompt or autorun/autostart programs when media are inserted"
+msgstr "Nhắc nhở hoặc tự chạy chương trình khi phương tiện được gắn vào"
+
+#: gresources/nemo-file-management-properties.glade:1483
+msgid ""
+"Automatically close the device's tab, pane, or window when a device is "
+"unmounted or ejected"
+msgstr ""
+"Tự động đóng cửa sổ, khung hay thẻ của thiết bị khi thiết bị được tháo lắp "
+"hay đẩy ra"
+
+#: gresources/nemo-file-management-properties.glade:1499
+msgid "Detect content of media and suggest application to open"
+msgstr ""
+
+#: gresources/nemo-file-management-properties.glade:1540
+msgid "<b>Bulk Rename</b>"
+msgstr "<b>Đổi tên Hàng loạt</b>"
+
+#: gresources/nemo-file-management-properties.glade:1570
+msgid "Command to invoke when renaming multiple items:"
+msgstr "Lệnh gọi khi đổi tên nhiều mục:"
+
+#: gresources/nemo-file-management-properties.glade:1623
+msgid "Behavior"
+msgstr "Ứng xử"
+
+#: gresources/nemo-file-management-properties.glade:1652
+msgid "<b>Icon Captions</b>"
+msgstr "<b>Tên Biểu tượng</b>"
+
+#: gresources/nemo-file-management-properties.glade:1677
+msgid ""
+"Choose the order of information to appear beneath icon names. More "
+"information will appear when zooming in closer."
+msgstr ""
+"Chọn thứ tự hiển thị thông tin dưới tên biểu tượng. Hiển thị nhiều thông tin "
+"hơn khi phóng to hơn."
+
+#: gresources/nemo-file-management-properties.glade:1814
+msgid "<b>Date</b>"
+msgstr "<b>Date</b>"
+
+#: gresources/nemo-file-management-properties.glade:1838
+msgid "_Format:"
+msgstr "Định _dạng:"
+
+#: gresources/nemo-file-management-properties.glade:1886
+msgid "<b>Window and Tab Titles</b>"
+msgstr "<b>Tiêu đề Cửa sổ và Thẻ</b>"
+
+#: gresources/nemo-file-management-properties.glade:1909
+msgid "Show the full p_ath in the title bar and tab bars"
+msgstr "Hiện đường _dẫn đầy đủ trên thanh tiêu đề và thanh thẻ"
+
+#: gresources/nemo-file-management-properties.glade:1950
+msgid "<b>File Size</b>"
+msgstr "<b>Kích thước Tập tin</b>"
+
+#: gresources/nemo-file-management-properties.glade:1974
+msgid "_Prefixes:"
+msgstr "_Tiền tố:"
+
+#: gresources/nemo-file-management-properties.glade:2029
+msgid "<b>File Properties</b>"
+msgstr "<b>Thuộc tính Tập tin</b>"
+
+#: gresources/nemo-file-management-properties.glade:2052
+msgid "Show advanced permissions in the file property dialog"
+msgstr "Hiện phân quyền cao cấp trong hộp thoại thuộc tính tập tin"
+
+#: gresources/nemo-file-management-properties.glade:2093
+msgid "<b>Move/Copy To Menu</b>"
+msgstr "<b>Trình đơn Chuyển/Chép Vào</b>"
+
+#: gresources/nemo-file-management-properties.glade:2116
+msgid "List bookmarks in the menu"
+msgstr "Liệt kê đánh dấu trang trong trình đơn"
+
+#: gresources/nemo-file-management-properties.glade:2132
+msgid "List devices and network locations in the menu"
+msgstr "Liệt kê thiết bị và vị trí mạng trong trình đơn"
+
+#: gresources/nemo-file-management-properties.glade:2169
+msgid "Display"
+msgstr "Hiển thị"
+
+#: gresources/nemo-file-management-properties.glade:2198
+msgid "<b>List Columns</b>"
+msgstr "<b>Cột Danh sách</b>"
+
+#: gresources/nemo-file-management-properties.glade:2223
+msgid "Choose the order of information to appear in the list view."
+msgstr "Chọn thứ tự hiển thị thông tin trong kiểu xem danh sách."
+
+#: gresources/nemo-file-management-properties.glade:2259
+msgid "List Columns"
+msgstr "Cột Danh sách"
+
+#: gresources/nemo-file-management-properties.glade:2288
+msgid "<b>Previewable Files</b>"
+msgstr ""
+
+#: gresources/nemo-file-management-properties.glade:2318
+msgid "Show _thumbnails:"
+msgstr "Hiện hình _thu nhỏ:"
+
+#: gresources/nemo-file-management-properties.glade:2356
+msgid "_Inherit thumbnail visibility from parent"
+msgstr ""
+
+#: gresources/nemo-file-management-properties.glade:2379
+msgid "_Only for files smaller than:"
+msgstr "_Chỉ với tập tin nhỏ hơn:"
+
+#: gresources/nemo-file-management-properties.glade:2442
+msgid "<b>Folders</b>"
+msgstr "<b>Thư mục</b>"
+
+#: gresources/nemo-file-management-properties.glade:2472
+msgid "Count _number of items:"
+msgstr "Đếm _số mục:"
+
+#: gresources/nemo-file-management-properties.glade:2535
+msgid "<b>Tooltips</b>"
+msgstr "<b>Chú thích công cụ</b>"
+
+#: gresources/nemo-file-management-properties.glade:2558
+msgid "Show tooltips in icon and compact views"
+msgstr "Hiện chú thích công cụ trong kiểu xem biểu tượng và gọn"
+
+#: gresources/nemo-file-management-properties.glade:2575
+msgid "Show tooltips in list views"
+msgstr "Hiện chú thích công cụ trong kiểu xem danh sách"
+
+#: gresources/nemo-file-management-properties.glade:2592
+msgid "Show tooltips on the desktop"
+msgstr "Hiện chú thích công cụ trên bàn làm việc"
+
+#: gresources/nemo-file-management-properties.glade:2611
+msgid ""
+"<i>By default, a folder tooltip shows the item count, and files display "
+"their size.\n"
+"    Select additional information to display in the tooltip:</i>"
+msgstr ""
+"<i>Mặc định, chú giải thư mục hiện số lượng mục, còn tập tin thì hiện kích "
+"thước.\n"
+"    Chọn thông tin thêm để hiển thị trong chú giải:</i>"
+
+#: gresources/nemo-file-management-properties.glade:2636
+msgid "Detailed file type"
+msgstr "Kiểu tập tin chi tiết"
+
+#: gresources/nemo-file-management-properties.glade:2651
+msgid "Modified date"
+msgstr "Ngày chỉnh sửa"
+
+#: gresources/nemo-file-management-properties.glade:2666
+msgid "Created date"
+msgstr ""
+
+#: gresources/nemo-file-management-properties.glade:2682
+msgid "Accessed date"
+msgstr "Ngày truy cập"
+
+#: gresources/nemo-file-management-properties.glade:2698
+msgid "File or folder location"
+msgstr "Vị trí tập tin hay thư mục"
+
+#: gresources/nemo-file-management-properties.glade:2744
+msgid "Preview"
+msgstr "Xem trước"
+
+#: gresources/nemo-file-management-properties.glade:2773
+msgid "Visible Buttons"
+msgstr ""
+
+#: gresources/nemo-file-management-properties.glade:2818
+msgid "Previous"
+msgstr ""
+
+#: gresources/nemo-file-management-properties.glade:2855
+msgid "Next"
+msgstr ""
+
+#: gresources/nemo-file-management-properties.glade:2892
+msgid "Up"
+msgstr ""
+
+#: gresources/nemo-file-management-properties.glade:2929
+msgid "Refresh"
+msgstr ""
+
+#: gresources/nemo-file-management-properties.glade:3040
+msgid "Location entry toggle"
+msgstr ""
+
+#: gresources/nemo-file-management-properties.glade:3077
+msgid "Open in terminal"
+msgstr ""
+
+#: gresources/nemo-file-management-properties.glade:3188
+#: gresources/nemo-shortcuts.ui:308
+msgid "Icon view"
+msgstr ""
+
+#: gresources/nemo-file-management-properties.glade:3225
+msgid "List view"
+msgstr ""
+
+#: gresources/nemo-file-management-properties.glade:3262
+msgid "Compact view"
+msgstr ""
+
+#: gresources/nemo-file-management-properties.glade:3334
+msgid "Toolbar"
+msgstr "Thanh công cụ"
+
+#: gresources/nemo-file-management-properties.glade:3357
+msgid "Visible Entries"
+msgstr ""
+
+#: gresources/nemo-file-management-properties.glade:3388
+msgid "Selection"
+msgstr ""
+
+#: gresources/nemo-file-management-properties.glade:3582
+msgid "Favorite"
+msgstr ""
+
+#: gresources/nemo-file-management-properties.glade:3783
+msgid "Background"
+msgstr ""
+
+#: gresources/nemo-file-management-properties.glade:4106
+msgid ""
+"Visible action and extension entries can be configured in the Plugins tab"
+msgstr ""
+
+#: gresources/nemo-file-management-properties.glade:4123
+msgid "Context Menus"
+msgstr ""
+
+#: gresources/nemo-search-bar.glade:46
+msgid "Search for files:"
+msgstr ""
+
+#: gresources/nemo-search-bar.glade:78 gresources/nemo-search-bar.glade:172
+msgid "Case sensitive"
+msgstr ""
+
+#: gresources/nemo-search-bar.glade:99
+msgid "Search folders recursively"
+msgstr ""
+
+#: gresources/nemo-search-bar.glade:140
+msgid "Search content:"
+msgstr ""
+
+#: gresources/nemo-search-bar.glade:193
+msgid "Regular expression"
+msgstr ""
+
+#: gresources/nemo-shortcuts.ui:13
+msgctxt "shortcut window"
+msgid "General"
+msgstr ""
+
+#: gresources/nemo-shortcuts.ui:17
+msgctxt "shortcut window"
+msgid "New window"
+msgstr ""
+
+#: gresources/nemo-shortcuts.ui:24
+msgctxt "shortcut window"
+msgid "Close window or tab"
+msgstr ""
+
+#: gresources/nemo-shortcuts.ui:31
+msgctxt "shortcut window"
+msgid "Close all windows"
+msgstr ""
+
+#: gresources/nemo-shortcuts.ui:38 gresources/nemo-shortcuts.ui:232
+msgctxt "shortcut window"
+msgid "Toggle extra pane"
+msgstr ""
+
+#: gresources/nemo-shortcuts.ui:45
+msgctxt "shortcut window"
+msgid "Search"
+msgstr ""
+
+#: gresources/nemo-shortcuts.ui:52
+msgctxt "shortcut window"
+msgid "Bookmark current location"
+msgstr ""
+
+#: gresources/nemo-shortcuts.ui:59
+msgctxt "shortcut window"
+msgid "Edit bookmarks"
+msgstr ""
+
+#: gresources/nemo-shortcuts.ui:66
+msgctxt "shortcut window"
+msgid "Make link"
+msgstr ""
+
+#: gresources/nemo-shortcuts.ui:73
+msgctxt "shortcut window"
+msgid "Pin/Unpin selection"
+msgstr ""
+
+#: gresources/nemo-shortcuts.ui:80
+msgctxt "shortcut window"
+msgid "Show help"
+msgstr ""
+
+#: gresources/nemo-shortcuts.ui:87
+msgctxt "shortcut window"
+msgid "Shortcuts"
+msgstr ""
+
+#: gresources/nemo-shortcuts.ui:96
+msgctxt "shortcut window"
+msgid "Opening"
+msgstr ""
+
+#: gresources/nemo-shortcuts.ui:100
+msgctxt "shortcut window"
+msgid "Open"
+msgstr ""
+
+#: gresources/nemo-shortcuts.ui:107
+msgctxt "shortcut window"
+msgid "Open in new tab"
+msgstr ""
+
+#: gresources/nemo-shortcuts.ui:114
+msgctxt "shortcut window"
+msgid "Open in new window"
+msgstr ""
+
+#: gresources/nemo-shortcuts.ui:121
+msgctxt "shortcut window"
+msgid "Open item location (recent files and search only)"
+msgstr ""
+
+#: gresources/nemo-shortcuts.ui:131
+msgctxt "shortcut window"
+msgid "Tabs"
+msgstr ""
+
+#: gresources/nemo-shortcuts.ui:135
+msgctxt "shortcut window"
+msgid "New tab"
+msgstr ""
+
+#: gresources/nemo-shortcuts.ui:142
+msgctxt "shortcut window"
+msgid "Go to previous tab"
+msgstr ""
+
+#: gresources/nemo-shortcuts.ui:149
+msgctxt "shortcut window"
+msgid "Go to next tab"
+msgstr ""
+
+#: gresources/nemo-shortcuts.ui:156
+msgctxt "shortcut window"
+msgid "Switch to tab"
+msgstr ""
+
+#: gresources/nemo-shortcuts.ui:163
+msgctxt "shortcut window"
+msgid "Move tab left"
+msgstr ""
+
+#: gresources/nemo-shortcuts.ui:170
+msgctxt "shortcut window"
+msgid "Move tab right"
+msgstr ""
+
+#: gresources/nemo-shortcuts.ui:179
+msgctxt "shortcut window"
+msgid "Navigation"
+msgstr ""
+
+#: gresources/nemo-shortcuts.ui:183
+msgctxt "shortcut window"
+msgid "Go back"
+msgstr ""
+
+#: gresources/nemo-shortcuts.ui:190
+msgctxt "shortcut window"
+msgid "Go forward"
+msgstr ""
+
+#: gresources/nemo-shortcuts.ui:197
+msgctxt "shortcut window"
+msgid "Go up"
+msgstr ""
+
+#: gresources/nemo-shortcuts.ui:204
+msgctxt "shortcut window"
+msgid "Go down"
+msgstr ""
+
+#: gresources/nemo-shortcuts.ui:211
+msgctxt "shortcut window"
+msgid "Go to home folder"
+msgstr ""
+
+#: gresources/nemo-shortcuts.ui:218
+msgctxt "shortcut window"
+msgid "Toggle location entry"
+msgstr ""
+
+#: gresources/nemo-shortcuts.ui:228
+msgctxt "shortcut window"
+msgid "Dual Pane"
+msgstr ""
+
+#: gresources/nemo-shortcuts.ui:239
+msgctxt "shortcut window"
+msgid "Go to other pane's location"
+msgstr ""
+
+#: gresources/nemo-shortcuts.ui:246
+msgctxt "shortcut window"
+msgid "Focus other pane"
+msgstr ""
+
+#: gresources/nemo-shortcuts.ui:255
+msgctxt "shortcut window"
+msgid "View"
+msgstr ""
+
+#: gresources/nemo-shortcuts.ui:259
+msgctxt "shortcut window"
+msgid "Zoom in"
+msgstr ""
+
+#: gresources/nemo-shortcuts.ui:266
+msgctxt "shortcut window"
+msgid "Zoom out"
+msgstr ""
+
+#: gresources/nemo-shortcuts.ui:273
+msgctxt "shortcut window"
+msgid "Reset zoom"
+msgstr ""
+
+#: gresources/nemo-shortcuts.ui:280
+msgctxt "shortcut window"
+msgid "Refresh view"
+msgstr ""
+
+#: gresources/nemo-shortcuts.ui:287
+msgctxt "shortcut window"
+msgid "Show/hide hidden files"
+msgstr ""
+
+#: gresources/nemo-shortcuts.ui:294
+msgctxt "shortcut window"
+msgid "Show/hide sidebar"
+msgstr ""
+
+#: gresources/nemo-shortcuts.ui:301
+msgctxt "shortcut window"
+msgid "Show/hide action menu"
+msgstr ""
+
+#: gresources/nemo-shortcuts.ui:314
+msgctxt "shortcut window"
+msgid "List view"
+msgstr ""
+
+#: gresources/nemo-shortcuts.ui:322
+msgctxt "shortcut window"
+msgid "Compact view"
+msgstr ""
+
+#: gresources/nemo-shortcuts.ui:331
+msgctxt "shortcut window"
+msgid "Editing"
+msgstr ""
+
+#: gresources/nemo-shortcuts.ui:335
+msgctxt "shortcut window"
+msgid "Create folder"
+msgstr ""
+
+#: gresources/nemo-shortcuts.ui:342
+msgctxt "shortcut window"
+msgid "Rename"
+msgstr ""
+
+#: gresources/nemo-shortcuts.ui:349
+msgctxt "shortcut window"
+msgid "Move to trash"
+msgstr ""
+
+#: gresources/nemo-shortcuts.ui:356
+msgctxt "shortcut window"
+msgid "Delete permanently"
+msgstr ""
+
+#: gresources/nemo-shortcuts.ui:363
+msgctxt "shortcut window"
+msgid "Cut"
+msgstr ""
+
+#: gresources/nemo-shortcuts.ui:370
+msgctxt "shortcut window"
+msgid "Copy"
+msgstr ""
+
+#: gresources/nemo-shortcuts.ui:377
+msgctxt "shortcut window"
+msgid "Paste"
+msgstr ""
+
+#: gresources/nemo-shortcuts.ui:384
+msgctxt "shortcut window"
+msgid "Select all"
+msgstr ""
+
+#: gresources/nemo-shortcuts.ui:391
+msgctxt "shortcut window"
+msgid "Invert selection"
+msgstr ""
+
+#: gresources/nemo-shortcuts.ui:398
+msgctxt "shortcut window"
+msgid "Select items matching"
+msgstr ""
+
+#: gresources/nemo-shortcuts.ui:405
+msgctxt "shortcut window"
+msgid "Undo"
+msgstr ""
+
+#: gresources/nemo-shortcuts.ui:412
+msgctxt "shortcut window"
+msgid "Redo"
+msgstr ""
+
+#: gresources/nemo-shortcuts.ui:419
+msgctxt "shortcut window"
+msgid "Show item properties"
+msgstr ""

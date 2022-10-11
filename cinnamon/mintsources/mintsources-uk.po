@@ -1,0 +1,530 @@
+# Ukrainian translation for linuxmint
+# Copyright (c) 2013 Rosetta Contributors and Canonical Ltd 2013
+# This file is distributed under the same license as the linuxmint package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2013.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: linuxmint\n"
+"Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
+"POT-Creation-Date: 2022-06-22 12:00+0200\n"
+"PO-Revision-Date: 2021-05-13 13:48+0000\n"
+"Last-Translator: Mykola Tkach <chistomov@gmail.com>\n"
+"Language-Team: Ukrainian <uk@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Launchpad-Export-Date: 2022-10-10 13:06+0000\n"
+"X-Generator: Launchpad (build 762fb15a975e8b23af6a1f86e44e46bfd0451459)\n"
+
+#: usr/lib/linuxmint/mintSources/mintSources.py:83
+msgid "You are about to remove the following PPA:"
+msgstr "Ви бажаєте вилучити такі PPA:"
+
+#: usr/lib/linuxmint/mintSources/mintSources.py:86
+#: usr/lib/linuxmint/mintSources/mintSources.py:166
+#, python-format
+msgid " More info: %s"
+msgstr " Докладніше: %s"
+
+#: usr/lib/linuxmint/mintSources/mintSources.py:90
+#: usr/lib/linuxmint/mintSources/mintSources.py:170
+msgid "Press Enter to continue or Ctrl+C to cancel"
+msgstr "Натисніть Enter, щоб продовжити чи Ctrl+C для скасування"
+
+#: usr/lib/linuxmint/mintSources/mintSources.py:94
+#: usr/lib/linuxmint/mintSources/mintSources.py:174
+msgid "Unable to prompt for response.  Please run with -y"
+msgstr "Неможливо запитати відповідь. Будь ласка, запустіть з -у"
+
+#: usr/lib/linuxmint/mintSources/mintSources.py:98
+msgid "Cancelling..."
+msgstr "Скасування…"
+
+#: usr/lib/linuxmint/mintSources/mintSources.py:101
+#, python-format
+msgid "Cannot get info about PPA: '%s'."
+msgstr "Не можу знайти інформацію про PPA:'%s'."
+
+#: usr/lib/linuxmint/mintSources/mintSources.py:123
+#, python-format
+msgid "failed to remove PPA: '%s'"
+msgstr "не вдалося вилучити PPA: '%s'"
+
+#: usr/lib/linuxmint/mintSources/mintSources.py:142
+#, python-format
+msgid "failed to remove repository: '%s'"
+msgstr "не вдалося вилучити сховище ПЗ:'%s'"
+
+#: usr/lib/linuxmint/mintSources/mintSources.py:149
+msgid "Adding PPAs is not supported"
+msgstr "Додавання сховищ PPA не підтримується"
+
+#: usr/lib/linuxmint/mintSources/mintSources.py:156
+#, python-format
+msgid "Cannot add PPA: '%s'."
+msgstr "Неможливо додати PPA: '%s'."
+
+#: usr/lib/linuxmint/mintSources/mintSources.py:160
+msgid "Adding private PPAs is not supported currently"
+msgstr "Додавання приватних PPA наразі не підтримується"
+
+#: usr/lib/linuxmint/mintSources/mintSources.py:163
+msgid "You are about to add the following PPA:"
+msgstr "Ви бажаєте додати такі PPA:"
+
+#: usr/lib/linuxmint/mintSources/mintSources.py:193
+#: usr/lib/linuxmint/mintSources/mintSources.py:1554
+msgid "Malformed input, repository not added."
+msgstr "Неправильний спосіб введення, сховище не додано."
+
+#: usr/lib/linuxmint/mintSources/mintSources.py:196
+msgid "Repository already exists."
+msgstr "Сховище вже існує."
+
+#: usr/lib/linuxmint/mintSources/mintSources.py:260
+msgid "Connection timed out, check your connection or try again later."
+msgstr ""
+"Час з'єднання сплив, перевірте з'єднання або повторіть спробу пізніше."
+
+#: usr/lib/linuxmint/mintSources/mintSources.py:262
+msgid "Failed to establish a secure connection."
+msgstr "Не вдалося встановити безпечне з'єднання."
+
+#: usr/lib/linuxmint/mintSources/mintSources.py:264
+#, python-format
+msgid "Failed to download the PPA: %s."
+msgstr "Не вдалося завантажити PPA: %s."
+
+#: usr/lib/linuxmint/mintSources/mintSources.py:273
+#: usr/lib/linuxmint/mintSources/mintSources.py:277
+msgid "No supported PPA of this name was found."
+msgstr "Не знайдено підтримуваних PPA з цим іменем."
+
+#: usr/lib/linuxmint/mintSources/mintSources.py:285
+#, python-format
+msgid "This PPA does not support %s"
+msgstr "Це сховище не підтримує %s"
+
+#: usr/lib/linuxmint/mintSources/mintSources.py:425
+#: usr/lib/linuxmint/mintSources/mintSources.py:465
+msgid "Sources"
+msgstr "Джерела"
+
+#: usr/lib/linuxmint/mintSources/mintSources.py:434
+msgid "CD-ROM (Installation Disc)"
+msgstr "CD-ROM (встановлювальний диск)"
+
+#: usr/lib/linuxmint/mintSources/mintSources.py:446
+msgid "Local Repository"
+msgstr "Локальне сховище"
+
+#: usr/lib/linuxmint/mintSources/mintSources.py:494
+msgid ""
+"Linux Mint uses Romeo to publish packages which are not tested. Once these "
+"packages are tested, they are then moved to the official repositories. "
+"Unless you are participating in beta-testing, you should not enable this "
+"repository. Are you sure you want to enable Romeo?"
+msgstr ""
+"Linux Mint використовує Romeo для публікування пакунків, які не були "
+"протестовані. Після того, як ці пакунки перевіряються, вони переносяться до "
+"офіційних сховищ ПЗ. Якщо Ви не берете участь у бета-тестуванні, Ви не "
+"повинні вмикати ці сховища. Ви впевнені, що волієте увімкнути Romeo?"
+
+#: usr/lib/linuxmint/mintSources/mintSources.py:526
+msgid "Select a mirror"
+msgstr "Оберіть дзеркало"
+
+#: usr/lib/linuxmint/mintSources/mintSources.py:538
+msgid "Country"
+msgstr "Країна"
+
+#: usr/lib/linuxmint/mintSources/mintSources.py:544
+msgid "Mirror"
+msgstr ""
+
+#: usr/lib/linuxmint/mintSources/mintSources.py:549
+msgid "Speed"
+msgstr "Швидкість"
+
+#: usr/lib/linuxmint/mintSources/mintSources.py:580
+msgid "Worldwide"
+msgstr "Глобальне"
+
+#: usr/lib/linuxmint/mintSources/mintSources.py:667
+#: usr/lib/linuxmint/mintSources/mintSources.py:681
+msgid "kB/s"
+msgstr "кБ/с"
+
+#: usr/lib/linuxmint/mintSources/mintSources.py:670
+msgid "MB/s"
+msgstr "МБ/с"
+
+#: usr/lib/linuxmint/mintSources/mintSources.py:673
+msgid "GB/s"
+msgstr "ҐБ/с"
+
+#: usr/lib/linuxmint/mintSources/mintSources.py:721
+msgid "Obsolete"
+msgstr "Застаріло"
+
+#: usr/lib/linuxmint/mintSources/mintSources.py:724
+msgid "Unreachable"
+msgstr "Недосяжно"
+
+#: usr/lib/linuxmint/mintSources/mintSources.py:866 generate_desktop_files:25
+#: generate_desktop_files:53
+msgid "Software Sources"
+msgstr "Джерела програмного забезпечення"
+
+#: usr/lib/linuxmint/mintSources/mintSources.py:886
+msgid "Backported packages"
+msgstr "Портовані пакунки"
+
+#: usr/lib/linuxmint/mintSources/mintSources.py:888
+msgid "Unstable packages"
+msgstr "Нестабільні пакунки"
+
+#: usr/lib/linuxmint/mintSources/mintSources.py:901
+msgid "Main"
+msgstr "Головне"
+
+#: usr/lib/linuxmint/mintSources/mintSources.py:902
+msgid "Base"
+msgstr "База"
+
+#: usr/lib/linuxmint/mintSources/mintSources.py:945
+#: usr/lib/linuxmint/mintSources/mintSources.py:970
+msgid "Enabled"
+msgstr "Увімкнено"
+
+#: usr/lib/linuxmint/mintSources/mintSources.py:951
+#: usr/lib/linuxmint/mintSources/ppa_browser.py:49
+msgid "PPA"
+msgstr "PPA"
+
+#: usr/lib/linuxmint/mintSources/mintSources.py:976
+msgid "Repository"
+msgstr "Сховище ПЗ"
+
+#: usr/lib/linuxmint/mintSources/mintSources.py:993
+msgid "Key"
+msgstr "Ключ"
+
+#: usr/lib/linuxmint/mintSources/mintSources.py:1131
+msgid "There is no more residual configuration on the system."
+msgstr "Відсутня залишкова конфігурація системи."
+
+#: usr/lib/linuxmint/mintSources/mintSources.py:1137
+msgid "The problem was fixed. Please reload the cache."
+msgstr "Проблему вирішено. Будь ласка, оновіть кеш."
+
+#: usr/lib/linuxmint/mintSources/mintSources.py:1180
+msgid "Duplicate entries were removed. Please reload the cache."
+msgstr "Дубльовані записи було вилучено. Перезавантажте кеш."
+
+#: usr/lib/linuxmint/mintSources/mintSources.py:1186
+msgid "No duplicate entries were found."
+msgstr "Дублікатів записів не знайдено.. Перезавантажте кеш."
+
+#: usr/lib/linuxmint/mintSources/mintSources.py:1199
+msgid ""
+"Error with your APT configuration, you may have to reload the cache first."
+msgstr ""
+"Помилка у конфігурації APT, можливо, вам доведеться спочатку перезавантажити "
+"кеш."
+
+#: usr/lib/linuxmint/mintSources/mintSources.py:1294
+msgid "All missing keys were successfully added."
+msgstr "Усі ключі котрих бракувало були успішно додані."
+
+#: usr/lib/linuxmint/mintSources/mintSources.py:1296
+msgid "Not all missing keys could be found."
+msgstr "Було знайдено не всі відсутні ключі."
+
+#: usr/lib/linuxmint/mintSources/mintSources.py:1299
+msgid "Keys were added for the following repositories:"
+msgstr "Ключі було додано для таких сховищ:"
+
+#: usr/lib/linuxmint/mintSources/mintSources.py:1303
+msgid "Keys are still missing for the following repositories:"
+msgstr "Ключі досі відсутні для таких сховищ:"
+
+#: usr/lib/linuxmint/mintSources/mintSources.py:1304
+msgid ""
+"Add the remaining missing key(s) manually or remove the corresponding "
+"repositories or PPAs."
+msgstr ""
+"Додайте решту відсутніх ключів вручну або вилучіть відповідні сховища чи PPA."
+
+#: usr/lib/linuxmint/mintSources/mintSources.py:1312
+msgid "Please reload the cache."
+msgstr "Будь ласка, перезавантажте кеш."
+
+#: usr/lib/linuxmint/mintSources/mintSources.py:1317
+msgid "No missing keys were found."
+msgstr "Відсутні ключі не знайдено."
+
+#: usr/lib/linuxmint/mintSources/mintSources.py:1353
+msgid "Open.."
+msgstr "Відкрити.."
+
+#: usr/lib/linuxmint/mintSources/mintSources.py:1356
+#: usr/lib/linuxmint/mintSources/mintSources.py:1637
+#: usr/lib/linuxmint/mintSources/mintSources.py:1776
+#: usr/lib/linuxmint/mintSources/mintsources.glade.h:4
+msgid "Cancel"
+msgstr "Скасувати"
+
+#: usr/lib/linuxmint/mintSources/mintSources.py:1357
+#: usr/lib/linuxmint/mintSources/mintsources.glade.h:17
+msgid "Open"
+msgstr "Відкрити"
+
+#: usr/lib/linuxmint/mintSources/mintSources.py:1369
+msgid ""
+"Please enter the fingerprint of the public key you want to download from "
+"keyserver.ubuntu.com:"
+msgstr ""
+"Уведіть відбиток відкритого ключа, який необхідно завантажити з "
+"keyserver.ubuntu.com:"
+
+#: usr/lib/linuxmint/mintSources/mintSources.py:1382
+msgid "Are you sure you want to permanently remove the selected keys?"
+msgstr ""
+
+#: usr/lib/linuxmint/mintSources/mintSources.py:1408
+msgid "Please enter the name or the URL of the PPA you want to add:"
+msgstr "Уведіть ім'я або URL PPA, який ви волієте додати:"
+
+#: usr/lib/linuxmint/mintSources/mintSources.py:1417
+msgid "The name of the PPA you entered isn't formatted correctly."
+msgstr "Уведене ім'я PPA має некоректний формат."
+
+#: usr/lib/linuxmint/mintSources/mintSources.py:1473
+msgid "Edit the URL of the PPA"
+msgstr "Редагування URL-адреси пакунку PPA"
+
+#: usr/lib/linuxmint/mintSources/mintSources.py:1479
+msgid "Are you sure you want to permanently remove the selected PPAs?"
+msgstr ""
+
+#: usr/lib/linuxmint/mintSources/mintSources.py:1529
+msgid ""
+"The content of this PPA is not available. Please refresh the cache and try "
+"again."
+msgstr ""
+"Вміст цього PPA недоступний. Будь ласка, оновіть кеш і спробуйте ще раз."
+
+#: usr/lib/linuxmint/mintSources/mintSources.py:1549
+msgid "Please enter the name of the repository you want to add:"
+msgstr "Будь ласка, введіть ім'я сховища ПЗ, яке бажаєте додати:"
+
+#: usr/lib/linuxmint/mintSources/mintSources.py:1566
+msgid ""
+"This repository is already configured, you cannot add it a second time."
+msgstr "Це сховище вже налаштовано, його не можна додати двічі."
+
+#: usr/lib/linuxmint/mintSources/mintSources.py:1573
+msgid "Edit the URL of the repository"
+msgstr "Редагувати URL-адресу сховища ПЗ"
+
+#: usr/lib/linuxmint/mintSources/mintSources.py:1579
+msgid ""
+"Are you sure you want to permanently remove the selected repositories?"
+msgstr ""
+
+#: usr/lib/linuxmint/mintSources/mintSources.py:1638
+#: usr/lib/linuxmint/mintSources/mintSources.py:1775
+msgid "OK"
+msgstr "Так"
+
+#: usr/lib/linuxmint/mintSources/mintSources.py:1771
+msgid "Your configuration changed"
+msgstr "Ваша конфігурація змінилася"
+
+#: usr/lib/linuxmint/mintSources/mintSources.py:1771
+msgid "Click OK to update your APT cache"
+msgstr "Клацніть кнопку Так, щоб оновити кеш APT"
+
+#: usr/lib/linuxmint/mintSources/ppa_browser.py:88
+#, python-format
+msgid "version %s already installed"
+msgstr "версія %s вже встановлена"
+
+#: usr/lib/linuxmint/mintSources/ppa_browser.py:91
+msgid "already installed"
+msgstr "вже встановлено"
+
+#: usr/lib/linuxmint/mintSources/foreign_packages.py:112
+#: usr/lib/linuxmint/mintSources/mintsources.glade.h:1
+msgid "Foreign packages"
+msgstr "Сторонні пакунки"
+
+#: usr/lib/linuxmint/mintSources/foreign_packages.py:119
+#: usr/lib/linuxmint/mintSources/mintsources.glade.h:5
+msgid "Downgrade"
+msgstr "Понизити"
+
+#: usr/lib/linuxmint/mintSources/foreign_packages.py:120
+#: usr/lib/linuxmint/mintSources/mintsources.glade.h:2
+msgid ""
+"The version of the following packages doesn't match the one from the "
+"repositories:"
+msgstr "Версії цих пакунків не відповідають версіям пакунків зі сховищ:"
+
+#: usr/lib/linuxmint/mintSources/foreign_packages.py:122
+#: usr/lib/linuxmint/mintSources/mintsources.glade.h:16
+msgid "Remove"
+msgstr "Вилучити"
+
+#: usr/lib/linuxmint/mintSources/foreign_packages.py:123
+msgid ""
+"The packages below are installed on your computer but not present in the "
+"repositories:"
+msgstr ""
+"Наведені нижче пакунки встановлено на Вашому комп'ютері, але їх немає у "
+"сховищах:"
+
+#: usr/lib/linuxmint/mintSources/foreign_packages.py:128
+#: usr/lib/linuxmint/mintSources/foreign_packages.py:275
+#: usr/lib/linuxmint/mintSources/mintsources.glade.h:3
+msgid "Select All"
+msgstr "Обрати все"
+
+#: usr/lib/linuxmint/mintSources/foreign_packages.py:146
+msgid "Package"
+msgstr "Пакунок"
+
+#: usr/lib/linuxmint/mintSources/foreign_packages.py:151
+msgid "Installed version"
+msgstr "Встановлена версія"
+
+#: usr/lib/linuxmint/mintSources/foreign_packages.py:157
+msgid "Repository version"
+msgstr "Версія сховища ПЗ"
+
+#: usr/lib/linuxmint/mintSources/foreign_packages.py:278
+msgid "Clear"
+msgstr "Очистити"
+
+#: usr/bin/add-apt-repository:19
+msgid "Error: must run as root"
+msgstr "Помилка: запускати може лише адміністратор"
+
+#: usr/bin/add-apt-repository:23
+msgid "Error: need a repository as argument"
+msgstr "Помилка: потрібне сховище у якості аргументу"
+
+#: generate_desktop_files:25
+msgid "Configure the sources for installable software and updates"
+msgstr ""
+"Налаштуйте джерела встановлення та оновлення програмного забезпечення."
+
+#: usr/lib/linuxmint/mintSources/mintsources.glade.h:6
+msgid "Warning"
+msgstr "Застереження"
+
+#: usr/lib/linuxmint/mintSources/mintsources.glade.h:7
+msgid ""
+"Review the information below very carefully before validating the command."
+msgstr ""
+"Перед схваленням команди уважно ознайомтеся з наведеною нижче інформацією."
+
+#: usr/lib/linuxmint/mintSources/mintsources.glade.h:8
+msgid "Mirrors"
+msgstr "Дзеркала"
+
+#: usr/lib/linuxmint/mintSources/mintsources.glade.h:9
+msgid "Optional Sources"
+msgstr "Додаткові джерела"
+
+#: usr/lib/linuxmint/mintSources/mintsources.glade.h:10
+msgid "Source code repositories"
+msgstr "Сховища джерельного коду"
+
+#: usr/lib/linuxmint/mintSources/mintsources.glade.h:11
+msgid "Debug symbols"
+msgstr "Символи зневадження"
+
+#: usr/lib/linuxmint/mintSources/mintsources.glade.h:12
+msgid "Restore the default settings"
+msgstr "Відновити типові налаштування"
+
+#: usr/lib/linuxmint/mintSources/mintsources.glade.h:13
+msgid "Official Repositories"
+msgstr "Офіційні репозиторії"
+
+#: usr/lib/linuxmint/mintSources/mintsources.glade.h:14
+msgid "Add"
+msgstr "Додати"
+
+#: usr/lib/linuxmint/mintSources/mintsources.glade.h:15
+msgid "Edit"
+msgstr "Змінити"
+
+#: usr/lib/linuxmint/mintSources/mintsources.glade.h:18
+msgid "PPAs"
+msgstr "Пакунки PPA"
+
+#: usr/lib/linuxmint/mintSources/mintsources.glade.h:19
+msgid "Additional Repositories"
+msgstr "Додаткові сховища"
+
+#: usr/lib/linuxmint/mintSources/mintsources.glade.h:20
+msgid "Import"
+msgstr "Імпорт"
+
+#: usr/lib/linuxmint/mintSources/mintsources.glade.h:21
+msgid "Download"
+msgstr "Завантажити"
+
+#: usr/lib/linuxmint/mintSources/mintsources.glade.h:22
+msgid "Authentication Keys"
+msgstr "Ключі автентифікації"
+
+#: usr/lib/linuxmint/mintSources/mintsources.glade.h:23
+msgid "Fix MergeList problems"
+msgstr "Виправити проблеми MergeList"
+
+#: usr/lib/linuxmint/mintSources/mintsources.glade.h:24
+msgid "Purge residual configuration"
+msgstr "Очищення залишкової конфігурації"
+
+#: usr/lib/linuxmint/mintSources/mintsources.glade.h:25
+msgid "Remove duplicate entries"
+msgstr "Вилучити дублікати записів"
+
+#: usr/lib/linuxmint/mintSources/mintsources.glade.h:26
+msgid "Add missing keys"
+msgstr "Додати відсутні ключі"
+
+#: usr/lib/linuxmint/mintSources/mintsources.glade.h:27
+msgid "Remove foreign packages"
+msgstr "Вилучити сторонні пакунки"
+
+#: usr/lib/linuxmint/mintSources/mintsources.glade.h:28
+msgid "Downgrade foreign packages"
+msgstr "Понизити сторонні пакунки"
+
+#: usr/lib/linuxmint/mintSources/mintsources.glade.h:29
+msgid "Maintenance"
+msgstr "Обслуговування"
+
+#: usr/lib/linuxmint/mintSources/mintsources.glade.h:30
+msgid "Select Mirror"
+msgstr "Оберіть дзеркало"
+
+#: usr/lib/linuxmint/mintSources/mintsources.glade.h:31
+msgid "Apply"
+msgstr "Застосувати"
+
+#: usr/lib/linuxmint/mintSources/mintsources.glade.h:32
+msgid ""
+"This PPA provides the following packages. Please select the ones you want to "
+"install."
+msgstr "Цей PPA надає такі пакунки. Оберіть ті, які бажаєте встановити."
+
+#: usr/lib/linuxmint/mintSources/mintsources.glade.h:33
+msgid "Install"
+msgstr "Встановити"

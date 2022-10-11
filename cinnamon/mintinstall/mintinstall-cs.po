@@ -1,0 +1,814 @@
+# Czech translation for linuxmint
+# Copyright (c) 2009 Rosetta Contributors and Canonical Ltd 2009
+# This file is distributed under the same license as the linuxmint package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2009.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: linuxmint\n"
+"Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
+"POT-Creation-Date: 2022-06-21 15:00+0200\n"
+"PO-Revision-Date: 2022-07-16 12:30+0000\n"
+"Last-Translator: Marek Hladík <mhladik@seznam.cz>\n"
+"Language-Team: Czech <cs@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
+"X-Launchpad-Export-Date: 2022-10-10 13:02+0000\n"
+"X-Generator: Launchpad (build 762fb15a975e8b23af6a1f86e44e46bfd0451459)\n"
+"Language: cs\n"
+
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:77
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:79
+msgid "Multimedia Codecs"
+msgstr "Kodeky multimédií"
+
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:78
+msgid "Multimedia Codecs for KDE"
+msgstr "Kodeky multimédií pro KDE"
+
+#. TRANSLATORS: showing specific number of reviews in the list view and the header of the package details.
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:471
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:2192
+msgid "Review"
+msgid_plural "Reviews"
+msgstr[0] "Recenze"
+msgstr[1] "Recenze"
+msgstr[2] "Recenzí"
+
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:573
+msgid "All"
+msgstr "Vše"
+
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:687
+msgid ""
+"Cannot process this file while there are active operations.\n"
+"Please try again after they finish."
+msgstr ""
+"Tento soubor nyní není možné zpracovat, protože probíhají jiné operace.\n"
+"Až budou dokončeny, zkuste to znovu."
+
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:708
+msgid "The Flatpak repo you are trying to add already exists."
+msgstr "Tento Flatpak repozitář už máte přidaný."
+
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:716
+msgid "An error occurred attempting to add the Flatpak repo."
+msgstr "Došlo k chybě při pokusu o přidání Flatpak repozitáře."
+
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:724
+msgid "Flatpak support is not currently available. Try installing flatpak."
+msgstr ""
+"Podpora pro Flatpak není v tuto chvíli k dispozici. Zkuste nainstalovat "
+"flatpak."
+
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:743
+msgid ""
+"Flatpak support is not currently available. Try installing flatpak and "
+"gir1.2-flatpak-1.0."
+msgstr ""
+"Podpora pro Flatpak není v tuto chvíli k dispozici. Zkuste nainstalovat "
+"flatpak a gir1.2-flatpak-1.0."
+
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:783
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:1332 generate_desktop_files:24
+#: generate_desktop_files:35
+msgid "Software Manager"
+msgstr "Správa software"
+
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:835
+msgid "Show installed applications"
+msgstr "Zobrazit nainstalované aplikace"
+
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:844
+msgid "Search in packages summary (slower search)"
+msgstr "Hledat ve shrnutích balíčků (pomalejší)"
+
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:850
+msgid "Search in packages description (even slower search)"
+msgstr "Hledat v popisech balíčků (ještě pomalejší)"
+
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:860
+msgid "Refresh the list of packages"
+msgstr "Znovu načíst seznam balíčků"
+
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:870
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:1330
+msgid "About"
+msgstr "O aplikaci"
+
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:1113
+#, python-format
+msgid "%d task running"
+msgid_plural "%d tasks running"
+msgstr[0] "spuštěna %d úloha"
+msgstr[1] "spuštěny %d úlohy"
+msgstr[2] "spuštěno %d úloh"
+
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:1420
+msgid ""
+"There are currently active operations.\n"
+"Are you sure you want to quit?"
+msgstr ""
+"Právě probíhají operace.\n"
+"Opravdu chcete ukončit?"
+
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:1473
+msgid "Installed Applications"
+msgstr "Nainstalované aplikace"
+
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:1476
+msgid "Currently working on the following packages"
+msgstr "Nyní zpracovává následující balíčky"
+
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:1478
+#: usr/share/linuxmint/mintinstall/mintinstall.glade.h:3
+msgid "Editors' Picks"
+msgstr "Editor doporučuje"
+
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:1495
+msgid "All Applications"
+msgstr "Všechny aplikace"
+
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:1503
+msgid "Internet"
+msgstr "Internet"
+
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:1505
+msgid "Web"
+msgstr "Web"
+
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:1510
+msgid "Email"
+msgstr "E-mail"
+
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:1514
+msgid "Chat"
+msgstr "Chat"
+
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:1517
+msgid "File sharing"
+msgstr "Sdílení souborů"
+
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:1523
+msgid "Sound and video"
+msgstr "Zvuk a video"
+
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:1525
+msgid "Sound"
+msgstr "Zvuk"
+
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:1527
+msgid "Video"
+msgstr "Video"
+
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:1532
+msgid "Graphics"
+msgstr "Grafika"
+
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:1536
+msgid "3D"
+msgstr "3D"
+
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:1538
+msgid "Drawing"
+msgstr "Kreslení"
+
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:1540
+msgid "Photography"
+msgstr "Fotografie"
+
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:1542
+msgid "Publishing"
+msgstr "Publikování"
+
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:1544
+msgid "Scanning"
+msgstr "Skenování"
+
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:1546
+msgid "Viewers"
+msgstr "Prohlížeče"
+
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:1551
+msgid "Office"
+msgstr "Kancelář"
+
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:1557
+msgid "Games"
+msgstr "Hry"
+
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:1561
+msgid "Board games"
+msgstr "Deskové hry"
+
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:1563
+msgid "First-person"
+msgstr "Z vlastního pohledu"
+
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:1565
+msgid "Real-time strategy"
+msgstr "Real-time strategie"
+
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:1567
+msgid "Turn-based strategy"
+msgstr "Tahové strategie"
+
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:1569
+msgid "Emulators"
+msgstr "Emulátory"
+
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:1571
+msgid "Simulation and racing"
+msgstr "Simulace a závody"
+
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:1576
+msgid "Accessories"
+msgstr "Příslušenství"
+
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:1582
+msgid "System tools"
+msgstr "Systémové nástroje"
+
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:1589
+msgid "Fonts"
+msgstr "Písma"
+
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:1595
+msgid "Science and Education"
+msgstr "Věda a vzdělávání"
+
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:1596
+msgid "Science"
+msgstr "Věda"
+
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:1598
+msgid "Maths"
+msgstr "Matematika"
+
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:1600
+msgid "Education"
+msgstr "Výuka"
+
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:1602
+msgid "Electronics"
+msgstr "Elektronika"
+
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:1608
+msgid "Programming"
+msgstr "Programování"
+
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:1610
+msgid "Java"
+msgstr "Progr. jazyk Java"
+
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:1612
+msgid "PHP"
+msgstr "PHP"
+
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:1614
+msgid "Python"
+msgstr "Python"
+
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:1616
+msgid "Essentials"
+msgstr "Nejpodstatnější"
+
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:1986
+msgid "All operations complete"
+msgstr "Všechny operace dokončeny"
+
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:1990
+msgid "No matching packages found"
+msgstr "Nenalezeny žádné odpovídající balíčky"
+
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:1993
+msgid ""
+"No packages to show.\n"
+"This may indicate a problem - try refreshing the cache."
+msgstr ""
+"Nejsou žádné balíčky k zobrazení.\n"
+"To může značit problém – zkuste obnovit mezipaměť balíčků."
+
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:2143
+#: usr/share/linuxmint/mintinstall/mintinstall.glade.h:10
+msgid "Details"
+msgstr "Podrobnosti"
+
+#. TRANSLATORS: reviews heading in package details view
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:2226
+#: usr/share/linuxmint/mintinstall/mintinstall.glade.h:17
+msgid "Reviews"
+msgstr "Recenze"
+
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:2242
+msgid "No reviews available"
+msgstr "Nejsou k dispozici žádné recenze"
+
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:2248
+#, python-format
+msgid "Click <a href='%s'>here</a> to add your own review."
+msgstr "Kliknutím <a href='%s'>sem</a> přidáte svou vlastní recenzi."
+
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:2305
+msgid "Remove"
+msgstr "Odebrat"
+
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:2308
+msgid "Installed"
+msgstr "Nainstalováno"
+
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:2310
+msgid "Removing"
+msgstr "Odstraňování"
+
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:2312
+msgid "Install"
+msgstr "Nainstalovat"
+
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:2315
+msgid "Not installed"
+msgstr "Nenainstalováno"
+
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:2317
+msgid "Installing"
+msgstr "Instalace"
+
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:2321
+msgid "Cannot remove"
+msgstr "Není možné odebrat"
+
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:2322
+msgid "Removing this package could cause irreparable damage to your system."
+msgstr ""
+"Odebrání tohoto balíčku by způsobilo neopravitelné poškození systému."
+
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:2324
+msgid "Cannot install"
+msgstr "Není možné nainstalovat"
+
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:2325
+msgid ""
+"Installing this package could cause irreparable damage to your system."
+msgstr ""
+"Instalace tohoto balíčku by způsobilo neopravitelné poškození systému."
+
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:2333
+msgid "Not available"
+msgstr "Není k dispozici"
+
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:2336
+msgid "Please use apt-get to install this package."
+msgstr "K instalaci tohoto balíčku použijte apt-get."
+
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:2355
+#, python-format
+msgid "%(localSize)s of disk space freed"
+msgstr "%(localSize)s místa na disku uvolněno"
+
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:2358
+#, python-format
+msgid "%(localSize)s of disk space required"
+msgstr "požadováno %(localSize)s místa na disku"
+
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:2362
+#, python-format
+msgid "%(downloadSize)s to download, %(localSize)s of disk space freed"
+msgstr ""
+"%(downloadSize)s ke stažení, %(localSize)s místa na úložišti uvolněno"
+
+#: usr/lib/linuxmint/mintinstall/mintinstall.py:2365
+#, python-format
+msgid "%(downloadSize)s to download, %(localSize)s of disk space required"
+msgstr ""
+"%(downloadSize)s ke stažení, požadováno %(localSize)s místa na úložišti"
+
+#: generate_desktop_files:24 generate_desktop_files:35
+msgid "Install new applications"
+msgstr "Nainstalovat nové aplikace"
+
+#: usr/share/linuxmint/mintinstall/mintinstall.glade.h:1
+msgid "Limit search to current listing"
+msgstr "Omezit vyhledávání na stávající výpis"
+
+#: usr/share/linuxmint/mintinstall/mintinstall.glade.h:2
+msgid "<big><b>Generating cache, one moment</b></big>"
+msgstr "<big><b>Vytváření mezipaměti, vyčkejte</b></big>"
+
+#: usr/share/linuxmint/mintinstall/mintinstall.glade.h:4
+msgid "Categories"
+msgstr "Kategorie"
+
+#: usr/share/linuxmint/mintinstall/mintinstall.glade.h:5
+msgid "page0"
+msgstr "strana 0"
+
+#: usr/share/linuxmint/mintinstall/mintinstall.glade.h:6
+msgid "<big><b>No matching packages found</b></big>"
+msgstr "<big><b>Nenalezeny žádné odpovídající balíčky</b></big>"
+
+#: usr/share/linuxmint/mintinstall/mintinstall.glade.h:7
+msgid "Refresh"
+msgstr "Načíst znovu"
+
+#: usr/share/linuxmint/mintinstall/mintinstall.glade.h:8
+msgid "Launch"
+msgstr "Spustit"
+
+#: usr/share/linuxmint/mintinstall/mintinstall.glade.h:9
+msgid "Please be patient. This can take some time..."
+msgstr "Prosím buďte trpěliví. Toto může chvíli trvat…"
+
+#: usr/share/linuxmint/mintinstall/mintinstall.glade.h:11
+msgid "Size"
+msgstr "Velikost"
+
+#: usr/share/linuxmint/mintinstall/mintinstall.glade.h:12
+msgid "Version"
+msgstr "Verze"
+
+#: usr/share/linuxmint/mintinstall/mintinstall.glade.h:13
+msgid "Package"
+msgstr "Balíček"
+
+#: usr/share/linuxmint/mintinstall/mintinstall.glade.h:14
+msgid "Branch"
+msgstr "Větev"
+
+#: usr/share/linuxmint/mintinstall/mintinstall.glade.h:15
+msgid "Architecture"
+msgstr "Architektura"
+
+#: usr/share/linuxmint/mintinstall/mintinstall.glade.h:16
+msgid "Remote"
+msgstr "Vzdálené"
+
+#: usr/share/linuxmint/mintinstall/mintinstall.glade.h:18
+msgid "Searching software repositories, one moment"
+msgstr "Hledání repozitářů software, okamžik prosím"
+
+#, python-format
+#~ msgid "Upgrade %s?"
+#~ msgstr "Aktualizovat %s?"
+
+#~ msgid "Find Software"
+#~ msgstr "Hledat software"
+
+#~ msgid ""
+#~ "Your APT sources were not correctly restored after you last ran mintInstall. "
+#~ "They now have been restored."
+#~ msgstr ""
+#~ "Vaše zdroje APT nebyly po posledním spuštění mintInstallu korektně obnoveny. "
+#~ "Nyní budou obnoveny znovu."
+
+#~ msgid "Show"
+#~ msgstr "Zobrazit"
+
+#~ msgid "Go to the Ubuntu repository"
+#~ msgstr "Přejít do repozitáře Ubuntu"
+
+#~ msgid "Go to the GetDeb Portal"
+#~ msgstr "Přejít na portál GetDeb"
+
+#~ msgid "Search for a .mint application"
+#~ msgstr "Hledat aplikace .mint"
+
+#~ msgid "Search"
+#~ msgstr "Hledat"
+
+#~ msgid "Icon"
+#~ msgstr "Ikona"
+
+#~ msgid "Description"
+#~ msgstr "Popis"
+
+#~ msgid "Application"
+#~ msgstr "Aplikace"
+
+#~ msgid "MB"
+#~ msgstr "MB"
+
+#~ msgid "Featured applications"
+#~ msgstr "Doporučené aplikace"
+
+#~ msgid "GB"
+#~ msgstr "GB"
+
+#~ msgid "B"
+#~ msgstr "B"
+
+#~ msgid "Repository"
+#~ msgstr "Repozitář"
+
+#~ msgid "Website"
+#~ msgstr "Webová stránka"
+
+#~ msgid "License:"
+#~ msgstr "Licence:"
+
+#~ msgid "Available version"
+#~ msgstr "Verze k dispozici"
+
+#~ msgid "Installed version"
+#~ msgstr "Nainstalovaná verze"
+
+#~ msgid "More info"
+#~ msgstr "Další informace"
+
+#~ msgid "Category"
+#~ msgstr "Kategorie"
+
+#~ msgid "Average rating"
+#~ msgstr "Průměrné hodnocení"
+
+#~ msgid "Views"
+#~ msgstr "Zobrazení"
+
+#~ msgid "Added"
+#~ msgstr "Přidáno"
+
+#~ msgid "Reviewer"
+#~ msgstr "Recenzent"
+
+#~ msgid "Score"
+#~ msgstr "Skóre"
+
+#~ msgid "Rating"
+#~ msgstr "Hodnocení"
+
+#~ msgid "Please refresh mintInstall by clicking on the Refresh button"
+#~ msgstr "Obnovte mintInstall kliknutím na tlačítko Obnovit"
+
+#~ msgid "_File"
+#~ msgstr "_Soubor"
+
+#~ msgid "_Help"
+#~ msgstr "_Nápověda"
+
+#, python-format
+#~ msgid "%d screenshots loaded"
+#~ msgstr "Stažené náhledy: %d"
+
+#, python-format
+#~ msgid "%d reviews loaded"
+#~ msgstr "Stažené recenze: %d"
+
+#, python-format
+#~ msgid "%d applications loaded"
+#~ msgstr "Stažené aplikace: %d"
+
+#~ msgid "All applications"
+#~ msgstr "Všechny aplikace"
+
+#~ msgid "Description:"
+#~ msgstr "Popis:"
+
+#~ msgid "Close"
+#~ msgstr "Zavřít"
+
+#~ msgid "Upgrade"
+#~ msgstr "Aktualizace"
+
+#~ msgid ""
+#~ "The mint file for this application was not successfully downloaded. Click on "
+#~ "refresh to fix the problem."
+#~ msgstr ""
+#~ "Soubor mint pro tuto aplikaci nebyl úspěšně stažen. Pro vyřešení problému "
+#~ "klikněte na Obnovit."
+
+#~ msgid ""
+#~ "The data used by mintInstall is corrupted or out of date. Click on refresh "
+#~ "to fix the problem :"
+#~ msgstr ""
+#~ "Data použitá mintInstallem jsou narušena nebo zastaralá. Pro vyřešení "
+#~ "problému klikněte na Obnovit:"
+
+#~ msgid "Installation is complete"
+#~ msgstr "Instalace dokončena"
+
+#~ msgid "Finished"
+#~ msgstr "Dokončeno"
+
+#~ msgid "These popular applications can be installed on your system:"
+#~ msgstr "Do vašeho systému lze nainstalovat tyto oblíbené aplikace:"
+
+#~ msgid "Software manager"
+#~ msgstr "Správce softwaru"
+
+#~ msgid "Quit"
+#~ msgstr "Ukončit"
+
+#, python-format
+#~ msgid "%d categories loaded"
+#~ msgstr "Načtené kategorie: %d"
+
+#, python-format
+#~ msgid "Downloading data for %s"
+#~ msgstr "Stahuji data pro %s"
+
+#~ msgid "Using the following repositories:"
+#~ msgstr "Použít následující repozitáře:"
+
+#~ msgid "The changes are complete"
+#~ msgstr "Změny jsou dokončeny"
+
+#~ msgid "Portal URL"
+#~ msgstr "URL portálu"
+
+#~ msgid "The following packages will be installed:"
+#~ msgstr "Následující balíčky budou nainstalovány:"
+
+#~ msgid "Show:"
+#~ msgstr "Zobrazit:"
+
+#~ msgid "Quick search:"
+#~ msgstr "Rychlé hledání:"
+
+#~ msgid "Installed software"
+#~ msgstr "Instalovaný software"
+
+#~ msgid "All software"
+#~ msgstr "Všechen software"
+
+#~ msgid "Available software"
+#~ msgstr "Software k dispozici"
+
+#, python-format
+#~ msgid "Remove %s?"
+#~ msgstr "Odebrat %s?"
+
+#~ msgid "The following packages will be removed:"
+#~ msgstr "Následující balíčky budou odebrány:"
+
+#~ msgid "Cancel all changes"
+#~ msgstr "Zrušit všechny změny"
+
+#~ msgid "Application removed successfully"
+#~ msgstr "Aplikace byla úspěšně odebrána"
+
+#~ msgid "Status"
+#~ msgstr "Stav"
+
+#~ msgid "_Edit"
+#~ msgstr "_Upravit"
+
+#~ msgid "Your changes"
+#~ msgstr "Vaše změny"
+
+#~ msgid "Cancel removal"
+#~ msgstr "Zrušit odebrání"
+
+#~ msgid "Cancel installation"
+#~ msgstr "Zrušit instalaci"
+
+#~ msgid "Cancel change"
+#~ msgstr "Zrušit změnu"
+
+#, python-format
+#~ msgid ""
+#~ "%(applications)d applications listed, %(install)d to install, %(remove)d to "
+#~ "remove"
+#~ msgstr ""
+#~ "%(applications)d aplikací zobrazeno, %(install)d k instalaci, %(remove)d k "
+#~ "odebrání"
+
+#~ msgid "Text editors"
+#~ msgstr "Textové editory"
+
+#~ msgid "Sound & Video"
+#~ msgstr "Zvuk a video"
+
+#~ msgid "Audio players"
+#~ msgstr "Přehrávače zvuku"
+
+#~ msgid "Burning tools"
+#~ msgstr "Vypalovací nástroje"
+
+#~ msgid "Office suites"
+#~ msgstr "Kancelářské balíky"
+
+#~ msgid "Tools"
+#~ msgstr "Nástroje"
+
+#~ msgid "Image viewers"
+#~ msgstr "Prohlížeče obrázků"
+
+#~ msgid "Photo"
+#~ msgstr "Fotografie"
+
+#~ msgid "Web browsers"
+#~ msgstr "Internetové prohlížeče"
+
+#~ msgid "Finance"
+#~ msgstr "Finance"
+
+#~ msgid "2D"
+#~ msgstr "2D"
+
+#~ msgid "Document viewers"
+#~ msgstr "Prohlížeče dokumentů"
+
+#~ msgid "Spreadsheets"
+#~ msgstr "Tabulkové kalkulátory"
+
+#~ msgid "Graph and flowcharts"
+#~ msgstr "Vývojové diagramy a grafy"
+
+#~ msgid "Databases"
+#~ msgstr "Databáze"
+
+#~ msgid "Firewall"
+#~ msgstr "Brána firewall"
+
+#~ msgid "Drivers"
+#~ msgstr "Ovladače"
+
+#~ msgid "No results"
+#~ msgstr "Žádné výsledky"
+
+#~ msgid "P2P and torrent"
+#~ msgstr "Sdílení souborů (P2P)"
+
+#~ msgid "Package management"
+#~ msgstr "Správa balíčků"
+
+#~ msgid "Desktop components"
+#~ msgstr "Součásti pracovní plochy"
+
+#~ msgid "FTP"
+#~ msgstr "FTP"
+
+#~ msgid "System Tools"
+#~ msgstr "Systémové nástroje"
+
+#, python-format
+#~ msgid "Could not find package: %s"
+#~ msgstr "Nelze nalézt balíček: %s"
+
+#~ msgid "Video players"
+#~ msgstr "Přehrávače videa"
+
+#~ msgid "Word processors"
+#~ msgstr "Textové procesory"
+
+#~ msgid "Instant messengers"
+#~ msgstr "Komunikační programy"
+
+#~ msgid "Mind mapping"
+#~ msgstr "Myšlenkové mapy"
+
+#~ msgid "Collection managers"
+#~ msgstr "Správa sbírek"
+
+#, python-format
+#~ msgid "Install %s?"
+#~ msgstr "Nainstalovat %s?"
+
+#~ msgid "The following packages will be upgraded:"
+#~ msgstr "Následující balíčky budou aktualizovány:"
+
+#~ msgid "First person shooters"
+#~ msgstr "Osobní střílečky"
+
+#~ msgid "Real time strategy"
+#~ msgstr "Strategiev reálném čase"
+
+#~ msgid "Simulation & racing"
+#~ msgstr "Simulátory a závodění"
+
+#~ msgid "Scanning tools"
+#~ msgstr "Skenování"
+
+#~ msgid "Internet Relay Chat"
+#~ msgstr "Internetoví kecálci"
+
+#~ msgid "Upstream"
+#~ msgstr "Nahrávání"
+
+#~ msgid "Restoring your APT sources"
+#~ msgstr "Obnova vašich zdrojů aplikací"
+
+#~ msgid "Backing up your APT sources"
+#~ msgstr "Zálohování vašich zdrojů aplikací"
+
+#~ msgid "Default repositories"
+#~ msgstr "Výchozí repozitáře"
+
+#~ msgid "Go to the Linux Mint Software Portal"
+#~ msgstr "Přejít na portál software Linuxu Mint"
+
+#~ msgid "Go to the Linux Mint repository"
+#~ msgstr "Přejít do repozitáře Linuxu Mint"
+
+#~ msgid "Search for a .deb package"
+#~ msgstr "Hledat balíčky .deb"
+
+#~ msgid "Please wait, this can take some time"
+#~ msgstr "Vyčkejte prosím, tato akce může trvat delší dobu"
+
+#~ msgid "Your APT sources were corrupted."
+#~ msgstr "Vaše APT zdroje byly porušeny."
+
+#~ msgid "KB"
+#~ msgstr "KB"

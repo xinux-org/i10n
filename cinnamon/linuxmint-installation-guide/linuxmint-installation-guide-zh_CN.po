@@ -1,0 +1,1478 @@
+# Chinese (Simplified) translation for linuxmint
+# Copyright (c) 2017 Rosetta Contributors and Canonical Ltd 2017
+# This file is distributed under the same license as the linuxmint package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2017.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: linuxmint\n"
+"Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
+"POT-Creation-Date: 2019-03-29 10:21+0000\n"
+"PO-Revision-Date: 2022-05-27 08:01+0000\n"
+"Last-Translator: Luke Luo <Unknown>\n"
+"Language-Team: Chinese (Simplified) <zh_CN@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Launchpad-Export-Date: 2022-10-10 13:11+0000\n"
+"X-Generator: Launchpad (build 762fb15a975e8b23af6a1f86e44e46bfd0451459)\n"
+
+#: ../../boot_options.rst:2
+msgid "Boot options"
+msgstr "启动选项"
+
+#: ../../boot_options.rst:4
+msgid ""
+"Some graphics cards and motherboards don't work well with the open-source "
+"drivers present in Linux Mint by default."
+msgstr "有些显卡和主板在 Linux Mint 中默认的开源驱动下并不能良好工作。"
+
+#: ../../boot_options.rst:7
+msgid "Compatibility mode"
+msgstr "兼容模式"
+
+#: ../../boot_options.rst:9
+msgid ""
+"The easiest option is to select ``compatibility mode`` from the USB stick "
+"(or DVD) boot menu."
+msgstr "最简单的选项是在U盘或 DVD 的启动菜单中选择 ``compatibility mode``。"
+
+#: ../../boot_options.rst:15
+msgid "Grub menu (EFI mode)"
+msgstr "Grub 菜单 (EFI 模式)"
+
+#: ../../boot_options.rst:21
+msgid "Isolinux menu (BIOS mode)"
+msgstr "Isolinux 菜单 (BIOS 模式)"
+
+#: ../../boot_options.rst:23
+msgid "If that doesn't work, you can try the ``nomodeset`` boot option."
+msgstr "如果这不奏效，您可以尝试 ``nomodeset`` 启动选项"
+
+#: ../../boot_options.rst:26
+msgid "Nomodeset boot option"
+msgstr "Nomodeset 启动选项"
+
+#: ../../boot_options.rst:28
+msgid ""
+"In EFI mode, highlight the ``Start Linux Mint`` option and press :kbd:`e` to "
+"modify the boot options."
+msgstr "在 EFI 模式中，高亮 ``Start Linux Mint`` 选项并按 :kbd:`e` 以更改启动选项。"
+
+#: ../../boot_options.rst:34
+msgid ""
+"Replace ``quiet splash`` with ``nomodeset`` and press :kbd:`F10` to boot."
+msgstr "将 ``quiet splash`` 替换成 ``nomodeset``，并按 :kbd:`F10` 以启动。"
+
+#: ../../boot_options.rst:36
+msgid ""
+"In BIOS mode, highlight ``Start Linux Mint`` and press :kbd:`Tab` to modify "
+"the boot options."
+msgstr "在 BIOS 模式中，高亮 ``Start Linux Mint`` 并按 :kbd:`Tab` 以更改启动选项。"
+
+#: ../../boot_options.rst:42
+msgid ""
+"Replace ``quiet splash`` with ``nomodeset`` and press :kbd:`Enter` to boot."
+msgstr "将 ``quiet splash`` 替换成 ``nomodeset``，并按 :kbd:`Enter` 以启动。"
+
+#: ../../boot_options.rst:45
+msgid ""
+"Repeat this operation post-install in your grub boot menu and read "
+":doc:`drivers` to install additional drivers."
+msgstr "如果要安装更多驱动，请在安装之后在您的 grub 启动菜单中重复此操作，并阅读 :doc:`drivers`。"
+
+#: ../../boot_options.rst:48
+msgid "Other boot options"
+msgstr "其它启动选项"
+
+#: ../../boot_options.rst:50
+msgid "If you still cannot boot try one of the following solutions:"
+msgstr "如果您还是无法启动，请尝试以下解决方案："
+
+#: ../../boot_options.rst:52
+msgid "Try ``nouveau.noaccel=1`` instead of ``nomodeset``."
+msgstr "试试把 ``nomodeset`` 换成 ``nouveau.noaccel=1``。"
+
+#: ../../boot_options.rst:53
+msgid ""
+"After the installation, use :menuselection:`Advanced Options --> Recovery "
+"mode` from the boot menu and choose ``resume``."
+msgstr ""
+"在安装后，在启动菜单中使用 :menuselection:`Advanced Options --> Recovery mode`，并选择 "
+"``resume``。"
+
+#: ../../boot_options.rst:56
+msgid "Install an older release"
+msgstr "安装一个更早的版本"
+
+#: ../../boot_options.rst:58
+msgid ""
+"If your computer has compatibility issues with the latest Linux Mint "
+"release, install a previous release from the same Linux Mint series."
+msgstr "如果您的计算机与最新版的 Linux Mint 不兼容，可以安装同一个 Linux Mint 系列的更早的版本。"
+
+#: ../../boot_options.rst:60
+msgid ""
+"For instance, if you can't install Linux Mint 18.3 (which comes with a 4.10 "
+"kernel), install Linux Mint 18 (which comes with a 4.4 kernel) and upgrade "
+"to 18.3."
+msgstr ""
+"比如说，如果您无法安装 Linux Mint 18.3（其 Linux 内核的版本是 4.10），可以尝试 Linux Mint 18（其 Linux "
+"内核的版本是 4.4），然后升级到 18.3。"
+
+#: ../../boot_options.rst:63
+msgid ""
+"The first release in each series uses an LTS (Long Term Support) kernel. "
+"Upgrading from this release to the latest one in the series does not change "
+"your kernel."
+msgstr "每一个系列的第一个版本使用的是 LTS（长期支持）的内核。从这一个版本更新到最新的版本并不会更改您的内核。"
+
+#: ../../boot.rst:2
+msgid "Boot Linux Mint"
+msgstr "启动 Linux Mint"
+
+#: ../../boot.rst:4
+msgid ""
+"Now that you have Linux Mint on a USB stick (or DVD) boot the computer from "
+"it."
+msgstr "现在您在U盘或 DVD 上有了一个可用于启动计算机的 Linux Mint 系统。"
+
+#: ../../boot.rst:6
+msgid "Insert your USB stick (or DVD) into the computer."
+msgstr "将U盘或 DVD 插入您的计算机。"
+
+#: ../../boot.rst:8 ../../drivers.rst:23 ../../efi.rst:61 ../../oem.rst:21
+msgid "Restart the computer."
+msgstr "重启计算机。"
+
+#: ../../boot.rst:10
+msgid ""
+"Before your computer boots your current operating system (Windows, Mac, "
+"Linux) you should see your `BIOS <https://en.wikipedia.org/wiki/BIOS>`_ "
+"loading screen. Check the screen or your computer's documentation to know "
+"which key to press and instruct your computer to boot on USB (or DVD)."
+msgstr ""
+"在您的计算机启动您当前的操作系统（Windows，Mac，Linux）之前，您会看到您的 `BIOS "
+"<https://en.wikipedia.org/wiki/BIOS>`_ 加载屏幕。 请查看屏幕或计算机的说明书，以确认按哪个键来从 USB 或 "
+"DVD 启动。"
+
+#: ../../boot.rst:13
+msgid ""
+"Most BIOS have a special key you can press to select the boot device and all "
+"of them have a special key to enter the BIOS configuration screen (from "
+"which you can define the boot order). Depending on the BIOS, these special "
+"keys can be :kbd:`Escape`, :kbd:`F1`, :kbd:`F2`, :kbd:`F8`, :kbd:`F10`, "
+":kbd:`F11`, :kbd:`F12`, or :kbd:`Delete`. That information is usually "
+"briefly written on the screen during the boot sequence."
+msgstr ""
+"大部分 BIOS 有一个特殊的键，您可以按该键以选择启动设备。所有的 BIOS 都有一个特殊的键来进入 BIOS "
+"设置屏幕，你可以在该设置屏幕中调整启动顺序。对不同的 BIOS ，这个特殊键可能是 :kbd:`Escape`， :kbd:`F1`， "
+":kbd:`F2`， :kbd:`F8`， :kbd:`F10`， :kbd:`F11`， :kbd:`F12`，或者是 "
+":kbd:`Delete`。这些信息通常在启动时短暂地出现在屏幕上。"
+
+#: ../../boot.rst:16
+msgid ""
+"On Macs, keep your finger pressed on the :kbd:`Alt` or :kbd:`Option` key "
+"after hearing the boot sound."
+msgstr "在 Macs 上，听到启动音效后按住 :kbd:`Alt` 或 :kbd:`Option` 键。"
+
+#: ../../boot.rst:18
+msgid ""
+"The Linux Mint ISO can be booted both in EFI or BIOS mode. In EFI mode it "
+"shows a grub menu. In BIOS mode it shows an isolinux menu."
+msgstr ""
+"Linux Mint ISO 可以在 EFI 或 BIOS 模式中启动。在 EFI 模式中它会显示一个 grub 菜单。在 EFI 模式中它会显示一个 "
+"isolinux 菜单。"
+
+#: ../../boot.rst:24
+msgid "The isolinux menu in BIOS mode"
+msgstr "BIOS 模式中的 isolinux 菜单"
+
+#: ../../boot.rst:30
+msgid "The grub menu in EFI mode"
+msgstr "EFI 模式中的 grub 菜单"
+
+#: ../../boot.rst:32
+msgid ""
+"From one of these menu, press :kbd:`Enter` to start Linux Mint from your USB "
+"stick (or DVD)."
+msgstr "在这两个菜单中，按 :kbd:`Enter` 以从您的U盘或 DVD 启动 Linux Mint。"
+
+#: ../../burn.rst:2
+msgid "Create the bootable media"
+msgstr "创建启动媒介"
+
+#: ../../burn.rst:4
+msgid "The easiest way to install Linux Mint is with a USB stick."
+msgstr "安装 Linux Mint 最简单的办法是用U盘安装。"
+
+#: ../../burn.rst:6
+msgid "If you cannot boot from USB, you can use a blank DVD."
+msgstr "如果您无法从 USB 启动，可以用一张空的 DVD。"
+
+#: ../../burn.rst:9
+msgid "How to make a bootable USB stick"
+msgstr "如何制作U盘启动盘"
+
+#: ../../burn.rst:12
+msgid "In Linux Mint"
+msgstr "在 Linux Mint 中"
+
+#: ../../burn.rst:14
+msgid ""
+"Right-click the ISO file and select :menuselection:`Make Bootable USB "
+"Stick`, or launch :menuselection:`Menu --> Accessories --> USB Image Writer`."
+msgstr ""
+"右键点击 ISO 文件，并选择 :menuselection:`Make Bootable USB Stick`，或者运行 "
+":menuselection:`Menu --> Accessories --> USB Image Writer`。"
+
+#: ../../burn.rst:20
+msgid "Select your USB device and click :guilabel:`Write`."
+msgstr "选择您的 USB 设备，并点击 :guilabel:`Write`."
+
+#: ../../burn.rst:23
+msgid "In Windows, Mac OS, or other Linux distributions"
+msgstr "在 Windows，Mac OS 或者其它的 Linux 发行版中"
+
+#: ../../burn.rst:25
+msgid ""
+"Download `Etcher <https://www.balena.io/etcher/>`_, install it and run it."
+msgstr "下载 `Etcher <https://www.balena.io/etcher/>`_，安装然后运行。"
+
+#: ../../burn.rst:31
+msgid "Using Etcher"
+msgstr "使用 Etcher"
+
+#: ../../burn.rst:33
+msgid "Click :guilabel:`Select image` and select your ISO file."
+msgstr "点击 :guilabel:`Select image`，然后选择您的ISO文件。"
+
+#: ../../burn.rst:35
+msgid "Click :guilabel:`Select drive` and select your USB stick."
+msgstr "点击 :guilabel:`Select drive`，然后选择您的U盘。"
+
+#: ../../burn.rst:37
+msgid "Click :guilabel:`Flash!`."
+msgstr "点击 :guilabel:`Flash!`。"
+
+#: ../../burn.rst:41
+msgid "How to make a bootable DVD"
+msgstr "怎样制作DVD启动盘"
+
+#: ../../burn.rst:43
+msgid "Optical discs are slow and burning to disc is prone to errors."
+msgstr "光盘速度较慢，而且刻录时容易出错。"
+
+#: ../../burn.rst:46
+msgid "To prevent issues, burn at the lowest possible speed."
+msgstr "为防止出错，请以最低的速度刻录。"
+
+#: ../../burn.rst:49
+msgid ""
+"Burn the content of the ISO onto the DVD, not the ISO file itself. When "
+"finished, your DVD should contain directories such as ``boot`` and "
+"``casper``, it shouldn't be an empty DVD containing an .iso file."
+msgstr ""
+"要将 ISO 中的内容刻录到 DVD，而不是 ISO 文件本身。当结束时，您的DVD应当包含 ``boot`` 、``casper`` "
+"这样的目录，而不是只有一个 .iso 文件。"
+
+#: ../../burn.rst:52
+msgid "In Linux"
+msgstr "在 Linux 中"
+
+#: ../../burn.rst:53
+msgid "Install and use ``xfburn``."
+msgstr "安装并使用 ``xfburn``。"
+
+#: ../../burn.rst:56
+msgid "In Windows"
+msgstr "在 Windows 中"
+
+#: ../../burn.rst:57
+msgid "Right-click the ISO file and select :menuselection:`Burn disk image`."
+msgstr "右键点击ISO文件，并选择 :menuselection:`Burn disk image`。"
+
+#: ../../burn.rst:59
+msgid ""
+"To make sure the ISO was burned without any errors, select "
+":menuselection:`Verify disc after burning`."
+msgstr "为确保ISO刻录时不出错，请选择 :menuselection:`Verify disc after burning`。"
+
+#: ../../burn.rst:62
+msgid "In Mac OS"
+msgstr "在 Mac OS 中"
+
+#: ../../burn.rst:63
+msgid ""
+"Right-click the ISO file and select :menuselection:`Burn Disk Image to Disc`."
+msgstr "右键点击ISO文件，并选择 :menuselection:`Burn Disk Image to Disc`。"
+
+#: ../../choose.rst:2
+msgid "Choose the right edition"
+msgstr "选择正确的版本"
+
+#: ../../choose.rst:4
+msgid ""
+"You can download Linux Mint from the `Linux Mint website "
+"<https://linuxmint.com/download.php>`_."
+msgstr ""
+"您可以从 `Linux Mint website <https://linuxmint.com/download.php>`_ 下载 Linux "
+"Mint。"
+
+#: ../../choose.rst:6
+msgid ""
+"Read below to choose which edition and architecture are right for you."
+msgstr "阅读下文以选择合适的版本和架构"
+
+#: ../../choose.rst:9
+msgid "Cinnamon, MATE or Xfce?"
+msgstr "Cinnamon，MATE 还是 Xfce？"
+
+#: ../../choose.rst:11
+msgid ""
+"Linux Mint comes in 3 different flavours, each featuring a different desktop "
+"environment."
+msgstr "Linux Mint 有三种不同风格的版本，分别提供三种不同的桌面环境。"
+
+#: ../../choose.rst:14 ../../choose.rst:26
+msgid "Cinnamon"
+msgstr "Cinnamon"
+
+#: ../../choose.rst:14
+msgid "The most modern, innovative and full-featured desktop"
+msgstr "最现代，最新颖，全功能的桌面"
+
+#: ../../choose.rst:15 ../../choose.rst:35
+msgid "MATE"
+msgstr "MATE"
+
+#: ../../choose.rst:15
+msgid "A more traditional, and faster desktop"
+msgstr "更加传统快捷的桌面"
+
+#: ../../choose.rst:16 ../../choose.rst:44
+msgid "Xfce"
+msgstr "Xfce"
+
+#: ../../choose.rst:16
+msgid "The most lightweight desktop"
+msgstr "最轻的桌面"
+
+#: ../../choose.rst:19
+msgid ""
+"The most popular version of Linux Mint is the Cinnamon edition. Cinnamon is "
+"primarily developed for and by Linux Mint. It is slick, beautiful, and full "
+"of new features."
+msgstr ""
+"Linux Mint 最流行的版本是 Cinnamon 版。Cinnamon 是主要由 Linux Mint 团队开发，专为 Linux Mint "
+"打造的桌面环境，流畅，美观，充满新特性。"
+
+#: ../../choose.rst:28
+msgid ""
+"Linux Mint is also involved in the development of MATE, a classic desktop "
+"environment which is the continuation of GNOME 2, Linux Mint's default "
+"desktop between 2006 and 2011. Although it misses a few features and its "
+"development is slower than Cinnamon's, MATE uses less resources and can run "
+"faster on older computers."
+msgstr ""
+
+#: ../../choose.rst:37
+msgid ""
+"Xfce is a lightweight desktop environment. It doesn't support as many "
+"features as Cinnamon or MATE, but it's extremely stable and very light on "
+"resource usage."
+msgstr "Xfce 是一个轻量级的桌面环境。它支持的特性没有 Cinnamon 和 MATE 那么多，但极其稳定，消耗极少的资源。"
+
+#: ../../choose.rst:46
+msgid ""
+"Of course, all three desktops are great and Linux Mint is extremely proud of "
+"each edition. Although there are more features and better support in some "
+"editions than others, and some do run faster and use less resources than "
+"others, they're all great alternatives and choosing the right edition is "
+"largely a matter of taste."
+msgstr ""
+"当然，三种桌面都非常优秀，Linux Mint "
+"为每个版本都非常自豪。虽然有的版本提供更多的特性和更好的支持，有的版本则有更快的运行和更低的资源消耗，它们都是不错的选择，而选择合适的版本在很大程度上只取"
+"决于个人口味。"
+
+#: ../../choose.rst:48
+msgid ""
+"Other than their features and performance, Cinnamon, MATE and Xfce also "
+"represent three different desktop environments, with different menus, "
+"different panels and configuration tools. The right one for you is the one "
+"where you feel at home."
+msgstr ""
+"除了特性和性能之外，Cinnamon 、Mate 和 Xfce "
+"还代表了三种不同的桌面环境，它们有不同的菜单，不同的面板和配置工具。让您感到舒适自在的桌面环境就是您最好的选择。"
+
+#: ../../choose.rst:50
+msgid ""
+"If you are unsure which desktop to choose start with the Cinnamon edition. "
+"Try them all eventually when you have the time. All three of them have their "
+"own audience within the Linux Mint community and they're all very popular."
+msgstr ""
+"如果您不确定应该选取哪个桌面，可以从 Cinnamon 版开始。当您有时间的时候，可以把所有的版本都尝试一遍。每个版本在 Linux Mint "
+"社区中都有自己的受众，也都十分流行。"
+
+#: ../../choose.rst:54
+msgid "32-bit or 64-bit?"
+msgstr "32位还是64位？"
+
+#: ../../choose.rst:56
+msgid "From version 20 onward, only 64-bit is available."
+msgstr "从 20 版开始，仅提供 64 位版本。"
+
+#: ../../choose.rst:58
+msgid ""
+"The 32-bit ISO images on prior versions are provided for compatibility with "
+"older computers. 32-bit processors are extremely rare nowadays and most "
+"computers are able to run in 64-bit. If your computer was manufactured after "
+"2007, you probably have a 64-bit processor."
+msgstr ""
+
+#: ../../choose.rst:60
+msgid ""
+"If you have an old computer and you are unsure whether or not it can run in "
+"64-bit, read `X86 Chronology "
+"<https://en.wikipedia.org/wiki/X86#Chronology>`_."
+msgstr ""
+"如果您有一台老计算机，并且不确定它是否能以64位运行，请阅读 `X86 Chronology "
+"<https://en.wikipedia.org/wiki/X86#Chronology>`_。"
+
+#: ../../choose.rst:63
+msgid ""
+"You can try to boot Linux Mint 64-bit on your computer. If it isn't "
+"compatible, nothing bad will happen. You will just get an error message."
+msgstr "您可以尝试在您的计算机上启动64位的 Linux Mint。即使它不兼容，也不会对计算机造成不良影响。您只会收到一条错误消息。"
+
+#: ../../choose.rst:66
+msgid ""
+"If you cannot boot or install Linux Mint because your hardware is too recent "
+"and is not properly detected see the `Edge ISO Images <https://linuxmint-"
+"user-guide.readthedocs.io/en/latest/edge.html>`_ chapter in the Linux Mint "
+"User Guide for an alternative ISO."
+msgstr ""
+
+#: ../../codecs.rst:2
+msgid "Multimedia codecs"
+msgstr "多媒体编解码器"
+
+#: ../../codecs.rst:4
+msgid "Some multimedia content requires additional codecs to be installed."
+msgstr "有些多媒体内容需要安装额外的编解码器。"
+
+#: ../../codecs.rst:7
+msgid ""
+"If you were online when installing Linux Mint and you ticked the option to "
+"install these codecs, they are already installed."
+msgstr "如果您在安装 Linux Mint 时连接到了互联网，并勾选了安装这些编解码器的选项，那么它们就已经安装了。"
+
+#: ../../codecs.rst:9
+msgid ""
+"Launch :menuselection:`Menu --> Sound & Video --> Install Multimedia Codecs`."
+msgstr ""
+"运行 :menuselection:`Menu --> Sound & Video --> Install Multimedia Codecs`。"
+
+#: ../../codecs.rst:14
+msgid "Click :guilabel:`Install`."
+msgstr "点击 :guilabel:`Install`。"
+
+#: ../../codecs.rst:16
+msgid ""
+"Enter your password and wait for the codecs to be installed on your computer."
+msgstr "输入您的密码，并等待编解码器安装到您的计算机上。"
+
+#: ../../drivers.rst:2
+msgid "Hardware drivers"
+msgstr "硬件驱动"
+
+#: ../../drivers.rst:4
+msgid ""
+"One of the first things to do after installing Linux Mint is to check for "
+"available hardware drivers."
+msgstr "安装好 Linux Mint 之后要做的第一件事情是检查是否有可用的硬件驱动。"
+
+#: ../../drivers.rst:6
+msgid "Launch :menuselection:`Menu --> Administration --> Driver Manager`."
+msgstr "运行 :menuselection:`Menu --> Administration --> Driver Manager`。"
+
+#: ../../drivers.rst:13
+msgid ""
+"If you are offline, the Driver Manager will complain that it cannot connect "
+"to the Internet."
+msgstr "如果您处于脱机状态，驱动程序管理器将提示您它无法连接到互联网。"
+
+#: ../../drivers.rst:19
+msgid ""
+"Insert your bootable Linux Mint USB stick (or DVD), wait for it to be "
+"mounted, and click :guilabel:`OK`."
+msgstr "插入您的 Linux Mint 启动盘（U盘或DVD），等待其挂载，然后点击 :guilabel:`OK`。"
+
+#: ../../drivers.rst:21
+msgid ""
+"Tick the appropriate checkboxes to select the available drivers and click "
+":guilabel:`Apply Changes`."
+msgstr "勾选适当的复选框以选择可用的驱动程序，然后点击 :guilabel:`Apply Changes`。"
+
+#: ../../efi.rst:2
+msgid "EFI"
+msgstr "EFI"
+
+#: ../../efi.rst:5
+msgid "SecureBoot"
+msgstr "安全启动"
+
+#: ../../efi.rst:7
+msgid ""
+"If after installing Linux Mint in EFI mode, you are unable to boot due to a "
+"``Secure Boot Violation``, you can try one of the following solutions:"
+msgstr ""
+"如果在 EFI 模式中安装 Linux Mint 之后，由于 ``Secure Boot Violation`` 而无法启动，您可以尝试以下的解决方案："
+
+#: ../../efi.rst:15
+msgid "Restart the installation:"
+msgstr "重新开始安装："
+
+#: ../../efi.rst:14
+msgid "Connect to the Internet before the installation"
+msgstr "在安装之前连接到互联网"
+
+#: ../../efi.rst:15
+msgid ""
+"**Do not** select ``Install third-party software for graphics and Wi-Fi "
+"hardware, Flash, MP3 and other media``."
+msgstr ""
+"**不要** 选择 ``Install third-party software for graphics and Wi-Fi hardware, "
+"Flash, MP3 and other media``."
+
+#: ../../efi.rst:17
+msgid "Disable ``SecureBoot`` in the ``BIOS`` settings of your computer."
+msgstr "在您的计算机的 ``BIOS`` 设置中禁用 ``SecureBoot``。"
+
+#: ../../efi.rst:20
+msgid ""
+"For examples of how to disable secure boot on various computers, read "
+"`Managing EFI Boot Loaders for Linux: Dealing with Secure Boot "
+"<http://www.rodsbooks.com/efi-bootloaders/secureboot.html>`_."
+msgstr ""
+"关于如何在各种计算机上禁用安全引导的示例，请阅读 `Managing EFI Boot Loaders for Linux: Dealing with "
+"Secure Boot <http://www.rodsbooks.com/efi-bootloaders/secureboot.html>`_。"
+
+#: ../../efi.rst:23
+msgid "EFI boot order"
+msgstr "EFI 启动顺序"
+
+#: ../../efi.rst:25
+msgid ""
+"If after installing Linux Mint in EFI mode, your computer skips the boot "
+"menu and boots straight into Windows (or another operating system), you "
+"probably have an issue with the boot order."
+msgstr ""
+"如果在 EFI 模式下安装 Linux Mint 后，您的计算机跳过启动菜单并直接启动到 Windows（或其他操作系统），那么启动顺序可能有问题。"
+
+#: ../../efi.rst:27
+msgid "To modify the boot order:"
+msgstr "修改引导顺序："
+
+#: ../../efi.rst:29 ../../multiboot.rst:18
+msgid "Boot Linux Mint in ``live`` mode (with your USB stick or DVD)."
+msgstr "在 ``实时`` 模式下启动 Linux Mint（使用 USB 设备或 DVD）。"
+
+#: ../../efi.rst:31 ../../multiboot.rst:20
+msgid "Open a terminal."
+msgstr "打开一个终端。"
+
+#: ../../efi.rst:33
+msgid "Type ``sudo efibootmgr`` and press :kbd:`Enter`."
+msgstr "输入 ``sudo efibootmgr`` 然后按 :kbd:`Enter`。"
+
+#: ../../efi.rst:35
+msgid "This command lists the available boot options and the boot order."
+msgstr "该命令列出了可用的启动选项和启动顺序。"
+
+#: ../../efi.rst:41
+msgid "In the screenshot above, there are three boot options:"
+msgstr "在上面的截图中，有三个启动选项："
+
+#: ../../efi.rst:43
+msgid "``ubuntu`` at ``0000``"
+msgstr "``ubuntu`` 在 ``0000``"
+
+#: ../../efi.rst:44
+msgid "``linuxmint`` at ``0001``"
+msgstr "``linuxmint`` 在 ``0001``"
+
+#: ../../efi.rst:45
+msgid "``Mac OS X`` at ``0081``"
+msgstr "``Mac OS X`` 在 ``0081``"
+
+#: ../../efi.rst:47
+msgid ""
+"The boot order is ``0081``. This indicates that the computer only tries to "
+"boot Mac OS and not Linux Mint."
+msgstr "引导顺序是 ``0081``。 这表明计算机只会尝试启动 Mac OS 而不启动 Linux Mint。"
+
+#: ../../efi.rst:50
+msgid ""
+"For technical reasons Linux Mint uses ``ubuntu`` as its EFI boot name."
+msgstr "由于技术原因，Linux Mint 使用 ``ubuntu`` 作为它的 EFI 启动名称。"
+
+#: ../../efi.rst:53
+msgid ""
+"To fix the boot order, type ``sudo efibootmgr --bootorder XXXX,YYYY`` (where "
+"``XXXX`` and ``YYYY`` are the operating system boot options you want to "
+"boot)."
+msgstr ""
+"要修复引导顺序，请输入 ``sudo efibootmgr --bootorder XXXX,YYYY``（其中 ``XXXX`` 和 ``YYYY`` "
+"是要引导的操作系统引导选项）。"
+
+#: ../../efi.rst:59
+msgid ""
+"In the screenshot above, ``sudo efibootmgr --bootorder 0000,0081`` instructs "
+"the computer to first try to boot Linux Mint (``ubuntu`` being the EFI boot "
+"name for Linux Mint), and then Mac OS."
+msgstr ""
+"在上面的截图中，``sudo efibootmgr --bootorder 0000,0081`` 是指计算机将首先尝试启动 Linux "
+"Mint（Linux Mint 的 EFI 启动名为  ``ubuntu``），然后是 Mac OS。"
+
+#: ../../efi.rst:64
+msgid ""
+"In the screenshot above ``0000`` is the first boot option so the computer "
+"boots on the Linux Mint grub menu. If grub fails (or if it is dismissed with "
+"the ``exit`` command), the computer follows the boot order and then tries to "
+"boot ``0081``, which corresponds to Mac OS."
+msgstr ""
+"在上面的截图中，``0000`` 是第一个启动选项，因此计算机将在 Linux Mint grub 菜单上启动。 如果 grub 失败（或者使用 "
+"``exit`` 命令退出），计算机将按照启动顺序，尝试启动对应于 Mac OS 的 ``0081``。"
+
+#: ../../help.rst:2
+msgid "Where to find help"
+msgstr "哪里可以找到帮助"
+
+#: ../../help.rst:4
+msgid ""
+"Many users will be glad to help you and guide you through your first steps "
+"with Linux if you are nice and patient with them and if you give them the "
+"information they require to understand the issues you are facing."
+msgstr "如果您友好地提供尽可能完整的信息，并有点耐心，许多用户会很乐意为您提供帮助，并指导您完成 Linux 的第一步。"
+
+#: ../../help.rst:7
+msgid "The forums"
+msgstr "论坛"
+
+#: ../../help.rst:9
+msgid ""
+"The best place to find help is on the `Linux Mint Forums "
+"<https://forums.linuxmint.com>`_."
+msgstr "寻找帮助的最佳地点在 `Linux Mint论坛<https://forums.linuxmint.com>`_ 上。"
+
+#: ../../help.rst:12
+msgid ""
+"Search the forums before asking, in case someone else already asked the same "
+"question."
+msgstr "在询问之前搜索论坛，以防其他人问过同一个问题。"
+
+#: ../../help.rst:15
+msgid "The chat room"
+msgstr "聊天室"
+
+#: ../../help.rst:17
+msgid "Another great place to find help is in the IRC chat room."
+msgstr "另一个寻找帮助的好地方是 IRC 聊天室。"
+
+#: ../../help.rst:19
+msgid ""
+"To reach the chat room from within Linux Mint, launch :menuselection:`Menu --"
+"> Internet --> HexChat`."
+msgstr ""
+"进入 Linux Mint中 的聊天室，运行 :menuselection:`Menu --> Internet --> HexChat`。"
+
+#: ../../help.rst:21
+msgid ""
+"If you are using another operating system, you can use `Kiwiirc "
+"<https://kiwiirc.com/client/irc.spotchat.org/?i#linuxmint-help>`_ to connect "
+"to the chat room."
+msgstr ""
+"如果您正在使用另一个操作系统，您可以使用 `Kiwiirc "
+"<https://kiwiirc.com/client/irc.spotchat.org/?i#linuxmint-help>`_ 来连接聊天室。"
+
+#: ../../help.rst:24
+msgid ""
+"Many people are connected to the chat room but only look at it now and then. "
+"Be patient after asking a question. Don't repeat it and stay connected until "
+"you get an answer. It can sometimes take a few hours for somebody to see "
+"your question and reply to you. Don't quit after a few minutes. It is "
+"frustrating to you, but also to others who later see your question and are "
+"unable to reply because you already left."
+msgstr ""
+"很多人都开着聊天室，但只是偶尔看看。提问之后要有耐心。不要重复同一个问题，保持连接直到您得到答案。有时候，过了几个小时，别人才看到您的问题并回复你。请不要"
+"等了几分钟就放弃。这会让您很沮丧，但同样也会让后来看到您的问题人无法回复到您，因为您已经离开了。"
+
+#: ../../help.rst:27
+msgid ""
+"If you are using Hexchat, you can minimize it to tray by clicking its status "
+"icon. People will often mention your nickname when replying to you. When "
+"they do, your Hexchat status icon will blink to catch your attention."
+msgstr ""
+"如果您正在使用 HexChat，可以通过单击其状态图标将其最小化到托盘。人们在回答您的时候经常会提到您的昵称。当他们这样做时，您的 HexChat "
+"状态图标会闪烁以引起您的注意。"
+
+#: ../../help.rst:30
+msgid "Community resources"
+msgstr "社区资源"
+
+#: ../../help.rst:32
+msgid ""
+"The `tutorials section <https://community.linuxmint.com/tutorial/search>`_ "
+"is useful to find tutorials about Linux Mint."
+msgstr ""
+"`tutorials section <https://community.linuxmint.com/tutorial/search>`_ "
+"对于寻找关于 Linux Mint 的教程非常有用。"
+
+#: ../../help.rst:34
+msgid ""
+"The `hardware database <https://community.linuxmint.com/hardware/search>`_ "
+"is useful to find compatible hardware."
+msgstr ""
+"`硬件数据库 <https://community.linuxmint.com/hardware/search>`_  对查找兼容的硬件来说非常有用。"
+
+#: ../../help.rst:37
+msgid "Local communities"
+msgstr "当地社区"
+
+#: ../../help.rst:39
+msgid ""
+"To find help in your language, use the `Local Communities "
+"<https://www.linuxmint.com/links.php>`_."
+msgstr "要使用您的语言寻求帮助，请使用 `本地社区 <https://www.linuxmint.com/links.php>`_。"
+
+#: ../../index.rst:2
+msgid "Linux Mint Installation Guide"
+msgstr "Linux Mint 安装指南"
+
+#: ../../index.rst:8
+msgid ""
+"Linux Mint comes in the form of an ISO image (an .iso file) which can be "
+"used to make a bootable DVD or a bootable USB stick."
+msgstr "Linux Mint 以 ISO 映像（iso文件）的形式提供，它可以用来制作可启动 DVD 或可启动的U盘。"
+
+#: ../../index.rst:10
+msgid ""
+"This guide will help you download the right ISO image, create your bootable "
+"media and install Linux Mint on your computer."
+msgstr "本指南将帮助您下载正确的 ISO 映像，创建可引导介质并帮助您在计算机上安装 Linux Mint。"
+
+#: ../../index.rst:12 ../../sections.rst:5
+msgid "Download"
+msgstr "下载"
+
+#: ../../index.rst:19 ../../sections.rst:7
+msgid "Live Boot"
+msgstr "实时启动"
+
+#: ../../index.rst:26 ../../sections.rst:9
+msgid "Installation"
+msgstr "安装"
+
+#: ../../index.rst:32 ../../sections.rst:11
+msgid "Post-installation"
+msgstr "安装之后"
+
+#: ../../index.rst:41 ../../sections.rst:13
+msgid "Troubleshooting"
+msgstr "故障排除"
+
+#: ../../index.rst:48 ../../sections.rst:15
+msgid "Frequently Asked Questions"
+msgstr "常见问题"
+
+#: ../../install.rst:2
+msgid "Install Linux Mint"
+msgstr "安装 Linux Mint"
+
+#: ../../install.rst:5
+msgid "The live session"
+msgstr "实时会话"
+
+#: ../../install.rst:7
+msgid ""
+"When you boot the computer from the USB stick (or DVD), Linux Mint starts a "
+"``live session``. It logs you in automatically as a user called ``mint`` and "
+"shows you a desktop with the installer on it:"
+msgstr ""
+"当您从U盘（或 DVD）启动电脑时，Linux Mint 会启动一个 ``实时会话``。它会自动以用户名为 ``mint`` "
+"的用户登录，并向您展示有安装程序的桌面："
+
+#: ../../install.rst:13
+msgid "The Linux Mint live session"
+msgstr "Linux Mint 实时会话"
+
+#: ../../install.rst:15
+msgid ""
+"The ``live session`` is similar to a normal session (i.e. to Linux Mint once "
+"it is permanently installed on the computer), but with the following "
+"exceptions:"
+msgstr "``实时会话`` 与普通会话（例如在计算机上永久安装的 Linux Mint）类似，除了以下几点："
+
+#: ../../install.rst:17
+msgid ""
+"The Live session is slower (it is loaded from a USB stick or DVD as opposed "
+"to a SSD or HDD)."
+msgstr "实时会话运行比较慢（它是从一个U盘或 DVD 中加载的，而不是 SSD 或 HDD）。"
+
+#: ../../install.rst:18
+msgid ""
+"Changes you make in the live session are not permanent. They are not written "
+"to the USB stick (or DVD) and they do not impact the system installed by the "
+"installer."
+msgstr "您在实时会话中所做的更改不是永久的。它们不会被写入U盘（或 DVD），也不会影响通过安装程序安装的系统。"
+
+#: ../../install.rst:19
+msgid ""
+"Some applications work differently (or not at all) in the live session "
+"(Timeshift, Flatpak, Update Manager, Welcome Screen..etc.)."
+msgstr "一些软件在实时会话中的工作方式不一样，或者完全不公作 ，例如 Timeshift，Flatpak，更新管理器，欢迎界面等。"
+
+#: ../../install.rst:22
+msgid ""
+"The username for the live session is ``mint``. If asked for a password press "
+":kbd:`Enter`."
+msgstr "实时会话的用户名是 ``mint``。如果要求输入密码，请按 :kbd:`Enter`。"
+
+#: ../../install.rst:25
+msgid "Installing Linux Mint on the computer"
+msgstr "在您的计算机上安装 Linux Mint"
+
+#: ../../install.rst:27
+msgid "To permanently install Linux Mint on your computer:"
+msgstr "在你的电脑上永久安装 Linux Mint："
+
+#: ../../install.rst:29
+msgid "Double-click :guilabel:`Install Linux Mint`."
+msgstr "双击 :guilabel:`Install Linux Mint`。"
+
+#: ../../install.rst:31
+msgid "Select your language."
+msgstr "选择您的语言。"
+
+#: ../../install.rst:37
+msgid "Connect to the Internet."
+msgstr "连接到互联网。"
+
+#: ../../install.rst:43
+msgid ""
+"If you are connected to the Internet, tick the box to install the multimedia "
+"codecs."
+msgstr "如果您连接到互联网，请在方框中勾选以便安装多媒体编解码器。"
+
+#: ../../install.rst:49
+msgid "Choose an installation type."
+msgstr "选择一个安装类型。"
+
+#: ../../install.rst:55
+msgid ""
+"If Linux Mint is the only operating system you want to run on this computer "
+"and all data can be lost on the hard drive, choose :guilabel:`Erase disk and "
+"install Linux Mint`."
+msgstr ""
+"如果 Linux Mint 是您希望在这个电脑上运行的唯一系统，并且硬盘上所有的数据都可以丢失，请选择 :guilabel:`Erase disk "
+"and install Linux Mint`。"
+
+#: ../../install.rst:58
+msgid ""
+":guilabel:`Encrypt the new Linux Mint installation for security` refers to "
+"full disk encryption. At this stage of the installation your keyboard layout "
+"wasn't yet selected so it is set to en_US. If you decide to use this option, "
+"keep this in mind when entering a password. Note that there are issues with "
+"this option and some NVIDIA drivers. If you are new to Linux use home "
+"directory encryption instead (you can select it later during the "
+"installation)."
+msgstr ""
+":guilabel:`Encrypt the new Linux Mint installation for security` "
+"指的是完整的磁盘加密。在安装的这一步您还没有选择键盘布局，所以它被设置为 "
+"en_US。如果您决定使用这个选项，请在输入密码的时候记住这一点。注意，这个选项和一些 NVIDIA 驱动存在问题。如果您是 Linux "
+"新手，请使用主目录加密来替代它（您可以在后面的安装中选择此项）。"
+
+#: ../../install.rst:60
+msgid ""
+"If another operating system is present on the computer, the installer shows "
+"you an option to install Linux Mint alongside it. If you choose this option, "
+"the installer automatically resizes your existing operating system, makes "
+"room and installs Linux Mint beside it. A boot menu is set up to choose "
+"between the two operating systems each time you start your computer."
+msgstr ""
+"如果计算机上有另一个操作系统，安装程序会向您显示一个在它旁边安装 Linux Mint "
+"的选项。如果您选择了这个选项，安装程序会自动调整您现有的操作系统的大小，并在它旁边安装 Linux "
+"Mint。每次启动计算机时，会有一个启动菜单让您在两个操作系统之间进行选择。"
+
+#: ../../install.rst:64
+msgid ""
+"If you want to manage the partitions or specify which partitions to use, "
+"select :guilabel:`Something else`."
+msgstr "如果您想管理分区或者指定哪个分区使用，请选择 :guilabel:`Something else`。"
+
+#: ../../install.rst:70
+msgid ""
+"Linux Mint requires one partition to be mounted on the root ``/`` directory."
+msgstr "Linux Mint 需要在一个分区上挂载根目录 ``/`` 。"
+
+#: ../../install.rst:72
+msgid ""
+"The Linux Mint operating system (without additional software or personal "
+"data) takes roughly 15GB, so give this partition a decent size (100GB or "
+"more)."
+msgstr "Linux Mint 操作系统（不包含额外的软件和个人数据）大概需要15GB，所以请给这个分区足够的大小（100GB或者更多）。"
+
+#: ../../install.rst:74
+msgid "``ext4`` is recommended. It is the most popular Linux filesystem."
+msgstr "推荐您使用 ``ext4`` 。它是 Linux 中最流行的文件系统。"
+
+#: ../../install.rst:79
+msgid ""
+"Also create a ``swap`` partition. This partition is used for hibernation and "
+"as a safety buffer in case your computer runs out of RAM. Give this "
+"partition a size equal to the amount of RAM in your computer."
+msgstr ""
+"同时要创建一个 ``swap`` 分区。这个分区将用于休眠，并作为安全缓冲区，以防计算机耗尽 RAM。这个分区分配的大小应与您计算机 RAM 的大小一致。"
+
+#: ../../install.rst:81
+msgid "Select your timezone"
+msgstr "选择您的时区"
+
+#: ../../install.rst:87
+msgid "Select your keyboard layout"
+msgstr "选择您的键盘布局"
+
+#: ../../install.rst:93
+msgid "Enter your user details"
+msgstr "填入您的用户详情"
+
+#: ../../install.rst:99
+msgid ""
+"Your ``name`` can be your real name, but it doesn't have to be. It is only "
+"used locally, in the screensaver and on the login screen."
+msgstr "您的名字（``name``）可以是您的真实姓名，但这不是必须的。它只在本地使用，如屏幕保护程序和登录屏幕。"
+
+#: ../../install.rst:101
+msgid ""
+"Your ``username`` is what you log in as, and your ``hostname`` is the name "
+"of your computer on the network."
+msgstr "您的用户名（``username``）是你登录的用户名，您的主机名（``hostname``）是您的计算机在网络上的名字。"
+
+#: ../../install.rst:103
+msgid ""
+"To prevent bugs only use lowercase characters, with no punctuation or "
+"accentuation."
+msgstr "为了防止错误，请只使用小写字符，不要包含标点符号或重音符号。"
+
+#: ../../install.rst:105
+msgid ""
+"To protect your personal data against local attacks (people around you, or "
+"in case your computer gets stolen), tick :guilabel:`Encrypt my home folder`."
+msgstr ""
+"为了保护您的个人数据免受本地攻击（您身边的人，或者万一您的电脑被偷），请勾选 :guilabel:`Encrypt my home folder`。"
+
+#: ../../install.rst:107
+msgid "Choose a strong password."
+msgstr "设置一个强密码。"
+
+#: ../../install.rst:109
+msgid "Enjoy the slideshow while Linux Mint is installed on your computer."
+msgstr "在您的计算机上安装 Linux Mint 时，请欣赏幻灯片。"
+
+#: ../../install.rst:115
+msgid "When the installation is finished, click :guilabel:`Restart Now`."
+msgstr "当安装完成，点击 :guilabel:`Restart Now`。"
+
+#: ../../install.rst:121
+msgid ""
+"The computer will then start to shut down and ask you to remove the USB disk "
+"(or DVD). Upon reboot, your computer should show you a boot menu or start "
+"your newly installed Linux Mint operating system."
+msgstr ""
+"然后计算机会开始关闭，并要求您删除U盘（或 DVD）。在重新启动时，计算机应该向您显示启动菜单或启动你新安装的 Linux Mint 操作系统。"
+
+#: ../../locales.rst:2
+msgid "Language support"
+msgstr "语言支持"
+
+#: ../../locales.rst:4
+msgid ""
+"Language support includes translations but also packages related to spell-"
+"checking, synonyms, hyphenation and dictionaries which enhance your "
+"experience in software applications such as LibreOffice."
+msgstr "语言支持包括翻译，还包括与拼写检查、同义词、连字符和字典相关的软件包，可增强您在 LibreOffice 等软件应用程序中的体验。"
+
+#: ../../locales.rst:6
+msgid "Launch :menuselection:`Menu --> Preferences --> Languages`."
+msgstr "运行 :menuselection:`Menu --> Preferences --> Languages`。"
+
+#: ../../locales.rst:12
+msgid "Click :guilabel:`Install / Remove Language`."
+msgstr "点击 :guilabel:`Install / Remove Language`。"
+
+#: ../../locales.rst:18
+msgid ""
+"If beside your locale, you see a label saying ``Some language packs are "
+"missing``, select your locale and click :guilabel:`Install language packs`."
+msgstr ""
+"如果在您的区域旁边看到一个标签显示 ``Some language packs are missing``，请选择您的区域并且点击  "
+":guilabel:`Install language packs`。"
+
+#: ../../multiboot.rst:2
+msgid "Multi-boot"
+msgstr "多重引导"
+
+#: ../../multiboot.rst:5
+msgid "Always install Windows first"
+msgstr "总是先安装 Windows"
+
+#: ../../multiboot.rst:7
+msgid ""
+"Windows does not detect other operating systems and does not feature a boot "
+"menu. When you install it, it overwrites your boot sequence and your "
+"computer then boots straight into Windows."
+msgstr "Windows 不会检测到其他操作系统，也没有启动菜单。当您安装它时，它会覆盖您的引导序列，然后您的电脑会直接进入 Windows。"
+
+#: ../../multiboot.rst:9
+msgid ""
+"Linux Mint (and most Linux distributions) detects other operating systems "
+"and builds a menu from which you can choose which system to boot."
+msgstr "Linux Mint（和大多数 Linux 发行版）会检测其他操作系统，并建立一个菜单让您可以从中选择要引导哪个系统。"
+
+#: ../../multiboot.rst:11
+msgid ""
+"For this reason, if you want to dual-boot or multi-boot with Windows, it is "
+"easier and recommended to install Windows first, before you install Linux "
+"Mint."
+msgstr ""
+"因此，如果您想和 Windows 系统双重引导或多重引导，那么在安装 Linux Mint 之前，建议先安装 Windows 系统，这样会更容易。"
+
+#: ../../multiboot.rst:14
+msgid "Fix the boot sequence"
+msgstr "修复启动顺序"
+
+#: ../../multiboot.rst:16
+msgid "If Windows overwrites your boot sequence:"
+msgstr "如果 Windows 系统覆盖了您的启动序列："
+
+#: ../../multiboot.rst:22
+msgid "To list your partitions, type ``lsblk -f`` and press :kbd:`Enter`."
+msgstr ""
+
+#: ../../multiboot.rst:28
+msgid ""
+"Find the partition where Linux Mint is installed. On most systems this "
+"should be the only ``ext4`` partition."
+msgstr "找到 Linux Mint 安装的分区。在大多数系统上这个分区应该是唯一的 ``ext4`` 分区。"
+
+#: ../../multiboot.rst:30
+msgid "In the screenshot above:"
+msgstr "在上面的截图中："
+
+#: ../../multiboot.rst:32
+msgid ""
+"``sdb`` is the USB stick (recognizable by its ``iso9660`` type which "
+"corresponds to an ISO image)."
+msgstr "``sdb`` 是U盘（可识别为 ``ISO9660`` 类型，它对应于 ISO 映像）。"
+
+#: ../../multiboot.rst:33
+msgid "``sda`` is the hard drive."
+msgstr "``sda`` 是硬盘驱动器。"
+
+#: ../../multiboot.rst:34
+msgid ""
+"``sda4`` is the partition on the ``sda`` hard drive, where Linux Mint is "
+"installed."
+msgstr "``sda4`` 是 ``sda`` 硬盘驱动器上的分区，其中安装了 Linux Mint。"
+
+#: ../../multiboot.rst:36
+msgid "To list partition sizes, type ``lsblk``:"
+msgstr "如果你想列出分区大小，请输入 ``lsblk``："
+
+#: ../../multiboot.rst:42
+msgid "To list partition labels, type ``blkid``:"
+msgstr "如果您想列出分区大小，请输入 ``blkid``："
+
+#: ../../multiboot.rst:48
+msgid ""
+"Mount the Linux Mint partition and reinstall the grub menu with the "
+"following commands:"
+msgstr "挂载 Linux Mint 分区并使用以下命令重新安装 grub 菜单："
+
+#: ../../multiboot.rst:56
+msgid ""
+"In the commands above, replace /dev/sda4 and /dev/sda with the appropriate "
+"names for your Linux Mint partition and your hard drive device."
+msgstr "在上面的命令中，用您 Linux Mint 分区和硬盘驱动器的正确名称替换 /dev/sda4 和 /dev/sda。"
+
+#: ../../oem.rst:2
+msgid "Pre-installing Linux Mint (OEM Installation)"
+msgstr "预安装 Linux Mint（OEM 安装）"
+
+#: ../../oem.rst:4
+msgid ""
+"In the ISO boot menu, ``OEM install`` is used to preinstall Linux Mint."
+msgstr "在 ISO 启动菜单中，``OEM install`` 用于预安装 Linux Mint。"
+
+#: ../../oem.rst:6
+msgid "This option is useful to:"
+msgstr "这个选项有用于："
+
+#: ../../oem.rst:8
+msgid ""
+"Manufacturers and resellers who want to install Linux Mint on computers they "
+"sell to their customers."
+msgstr "想要在他们销售给顾客的电脑上安装 Linux Mint 的制造商和经销商。"
+
+#: ../../oem.rst:9
+msgid "People who want to sell or give their computer to somebody else."
+msgstr "想把电脑卖给别人的人。"
+
+#: ../../oem.rst:11
+msgid ""
+"When you install Linux Mint in ``OEM`` mode, the operating system is "
+"installed with a temporary user account and prepared for the computer's "
+"future owner."
+msgstr "当你在 ``OEM`` 模式安装 Linux Mint 时，系统以一个临时的用户账户安装，并且为未来的使用者做好准备。"
+
+#: ../../oem.rst:13
+msgid "The user account is set up by the new owner."
+msgstr "用户帐户是由新的所有者设置。"
+
+#: ../../oem.rst:15
+msgid "To perform an OEM installation follow the steps below:"
+msgstr "进行 OEM 安装需要遵循接下来的步骤："
+
+#: ../../oem.rst:17
+msgid "Select ``OEM Install`` from the USB stick (or DVD) menu."
+msgstr "从U盘（或 DVD）菜单选择 ``OEM Install``。"
+
+#: ../../oem.rst:19
+msgid "Launch the installer and follow the installation instructions."
+msgstr "启动安装程序并按照安装指示进行操作。"
+
+#: ../../oem.rst:23
+msgid ""
+"Change any system settings or install additional software if you want."
+msgstr "如果有需要的话，可以更改任何系统设置或安装附加软件。"
+
+#: ../../oem.rst:25
+msgid ""
+"When ready, click :guilabel:`Prepare for shipping to end user`, enter the "
+"password you chose during the installation, click :guilabel:`OK` and shut "
+"down the computer."
+msgstr ""
+"当一切完成的时候，点击 :guilabel:`Prepare for shipping to end user`，输入您在安装过程中选择的密码，点击 "
+":guilabel:`OK` 并且关闭电脑。"
+
+#: ../../oem.rst:31
+msgid ""
+"When the new owner of the computer boots the computer the following screen "
+"appears:"
+msgstr "当电脑的新所有者启动电脑时，屏幕上会出现："
+
+#: ../../oem.rst:37
+msgid ""
+"The new owner selects his or her username, password, keyboard layout, "
+"language, timezone and all the details relevant to create his or her user "
+"account."
+msgstr "新的所有者选择他或她的用户名、密码、键盘布局、语言、时区以及与创建他或她的用户帐户相关的所有细节。"
+
+#: ../../partitioning.rst:2
+msgid "Partitioning"
+msgstr "正在进行分区"
+
+#: ../../partitioning.rst:5
+msgid "Disks and partitions under Linux"
+msgstr "Linux 下的磁盘和分区"
+
+#: ../../partitioning.rst:7
+msgid ""
+"If you are not familiar with the Linux naming scheme for devices and "
+"partitions, or the concept of filesystems and mount points, read:"
+msgstr "如果您不熟悉设备和分区的 Linux 命名方案，或者文件系统和挂载点的概念，请阅读："
+
+#: ../../partitioning.rst:9
+msgid ""
+"`A beginner’s guide to disks and disk partitions in Linux "
+"<http://linuxbsdos.com/2014/11/08/a-beginners-guide-to-disks-and-disk-"
+"partitions-in-linux/>`_"
+msgstr ""
+"`A beginner’s guide to disks and disk partitions in Linux "
+"<http://linuxbsdos.com/2014/11/08/a-beginners-guide-to-disks-and-disk-"
+"partitions-in-linux/>`_"
+
+#: ../../partitioning.rst:10
+msgid ""
+"`Device Names in Linux "
+"<https://www.debian.org/releases/wheezy/amd64/apcs04.html.en>`_"
+msgstr ""
+"`Device Names in Linux "
+"<https://www.debian.org/releases/wheezy/amd64/apcs04.html.en>`_"
+
+#: ../../partitioning.rst:11
+msgid ""
+"`Understanding the Linux File System "
+"<http://etutorials.org/Linux+systems/red+hat+linux+9+professional+secrets/Par"
+"t+II+Exploring+Red+Hat+Linux/Chapter+7+Red+Hat+Linux+Basics/Understanding+the"
+"+Linux+File+System/>`_"
+msgstr ""
+"`Understanding the Linux File System "
+"<http://etutorials.org/Linux+systems/red+hat+linux+9+professional+secrets/Par"
+"t+II+Exploring+Red+Hat+Linux/Chapter+7+Red+Hat+Linux+Basics/Understanding+the"
+"+Linux+File+System/>`_"
+
+#: ../../partitioning.rst:14
+msgid "Dedicated /home partition"
+msgstr "专用 /home 分区"
+
+#: ../../partitioning.rst:16
+msgid ""
+"In Linux, the ``/home`` directory is used to store user data and preferences."
+msgstr "在 Linux 中，``/home`` 目录用于存储个人数据和偏好设置。"
+
+#: ../../partitioning.rst:18
+msgid ""
+"This directory contains one subdirectoy for each user account. Say your "
+"username is ``john``, your home directory is ``/home/john``, your downloads "
+"are in ``/home/john/Downloads``, your documents in ``/home/john/Documents``, "
+"your Firefox bookmarks somewhere in ``/home/john/.mozilla`` and so on..."
+msgstr ""
+"这个目录包含每个用户帐户的一个子目录。比如说如果您的用户名是 ``john``，那么您的主目录是 ``/home/john``，您的下载目录是 "
+"``/home/john/Downloads``，您的文档目录是 ``/home/john/Documents``，您的火狐书签在 "
+"``/home/john/.mozilla`` 的某处，等等。"
+
+#: ../../partitioning.rst:20
+msgid ""
+"By giving ``/home`` its own dedicated partition, you separate the user data "
+"from the rest of the operating system."
+msgstr "通过给 ``/home`` 单独分区，您可以把个人数据和其余部分的操作系统分开来。"
+
+#: ../../partitioning.rst:22
+msgid ""
+"The advantage is that you can wipe the operating system and replace it "
+"without affecting the user data."
+msgstr "优点是您可以在不影响用户数据的情况下擦除操作系统并进行替换。"
+
+#: ../../partitioning.rst:24
+msgid "When installing Linux Mint:"
+msgstr "在安装 Linux Mint 时："
+
+#: ../../partitioning.rst:26
+msgid ""
+"Assign the ``/`` mount point to the partition dedicated to the operating "
+"system, and tell the installer to format it."
+msgstr "将 ``/`` 挂载点分配给专用于操作系统的分区，并告诉安装程序将其格式化。"
+
+#: ../../partitioning.rst:28
+msgid ""
+"Assign the ``/home`` mount point to the partition dedicated to the user "
+"data, and if it contains user data already, make sure to tell the installer "
+"**not to format it**."
+msgstr "将 ``/home`` 挂载点分配给专用于用户数据的分区，如果它已经包含用户数据，请确保告诉安装程序 **不要格式化它** 。"
+
+#: ../../partitioning.rst:31
+msgid ""
+"This is not recommended for novice users. A misstep during the installation "
+"could wipe all your data. Always make backups, make sure to select the right "
+"partitions and to carefully review formatting options."
+msgstr "对于新手用户来说，这是不推荐的。安装过程中的失误可能会删除所有数据。始终进行备份，确保选择了正确的分区并仔细查看格式化选项。"
+
+#: ../../partitioning.rst:34
+msgid ""
+"A Linux Mint operating system takes about 15GB and grows as you install "
+"additional software. If you can spare the size, give it 100GB. Keep most of "
+"your free space for the home partition. User data (downloads, videos, "
+"pictures) takes a lot more space."
+msgstr ""
+"Linux Mint 操作系统大约占据 15GB，并随着您安装的其他软件而增长。如果您能腾出空间，给它 "
+"100GB。请为主分区保留大部分空闲空间。用户数据（下载、视频、图片）会占用更多的空间。"
+
+#: ../../timeshift.rst:2
+msgid "System snapshots"
+msgstr "系统快照"
+
+#: ../../timeshift.rst:4
+msgid ""
+"Before you start using your operating system, set up system snapshots. Then "
+"if anything goes wrong, you can restore your system from an earlier backup."
+msgstr "在你开始使用系统之前，请设置系统快照。这样如果系统出现问题，你可以恢复系统到更早的版本。"
+
+#: ../../timeshift.rst:6
+msgid "Launch :menuselection:`Menu --> Administration --> Timeshift`."
+msgstr "运行 :menuselection:`Menu --> Administration --> Timeshift`."
+
+#: ../../timeshift.rst:8
+msgid "Select ``RSYNC`` and click :guilabel:`Next`."
+msgstr "选择 ``RSYNC`` 并点击 :guilabel:`Next`。"
+
+#: ../../timeshift.rst:13
+msgid ""
+"Select the device where you want system snapshots to be saved and click "
+":guilabel:`Next`."
+msgstr "选择您想存放系统快照的设备并且点击 :guilabel:`Next`。"
+
+#: ../../timeshift.rst:19
+msgid ""
+"The selected device is not formatted and no data is lost. System snapshots "
+"are saved into a newly created ``timeshift`` directory on the root of the "
+"selected device."
+msgstr "选中的设备不会被格式化，数据也不会丢失。系统快照会被存放在所选设备根目录上新创建的 ``timeshift`` 目录中。"
+
+#: ../../timeshift.rst:21
+msgid "Select when system snapshots are saved."
+msgstr "选择何时保存系统快照。"
+
+#: ../../timeshift.rst:27
+msgid ""
+"System snapshots are incremental so although the first snapshot takes a "
+"significant amount of spaces, new snapshots only take additional space for "
+"files which have changed."
+msgstr "系统快照是增量的，因此尽管第一次快照占用大量空间，但新快照只为新更改的文件占用额外的空间。"
+
+#: ../../timeshift.rst:30
+msgid ""
+"``Boot`` snapshots are performed in the background and do not impact the "
+"speed of the boot sequence."
+msgstr "``Boot`` 快照在后台启动并不会影响您的启动速度。"
+
+#: ../../timeshift.rst:32
+msgid "Click :guilabel:`Finish`."
+msgstr "点击 :guilabel:`Finish`。"
+
+#: ../../verify.rst:2
+msgid "Verify your ISO image"
+msgstr "验证您的 ISO 映像"
+
+#: ../../verify.rst:4
+msgid ""
+"It is important to verify the integrity and authenticity of your ISO image."
+msgstr "验证 ISO 映像的完整性和可靠性是很重要的。"
+
+#: ../../verify.rst:6
+msgid ""
+"The integrity check confirms that your ISO image was properly downloaded and "
+"that your local file is an exact copy of the file present on the download "
+"servers. An error during the download could result in a corrupted file and "
+"trigger random issues during the installation."
+msgstr ""
+"完整性检查确认您的 ISO "
+"映像是否被正确下载，以及您的本地文件是否和下载服务器上存在的文件完全一致。下载过程中的错误可能导致文件损坏，并在安装过程中引发随机问题。"
+
+#: ../../verify.rst:8
+msgid ""
+"The authenticity check confirms that the ISO image you downloaded was signed "
+"by Linux Mint, and thus that it isn't a modified or malicious copy made by "
+"somebody else."
+msgstr "可靠性检验确认您下载的 ISO 映像是由 Linux Mint 签署，而不是被别人修改的或恶意的拷贝。"
+
+#: ../../verify.rst:11
+msgid "Download the SHA256 sums provided by Linux Mint"
+msgstr "下载由 Linux Mint 提供的SHA256值"
+
+#: ../../verify.rst:13
+msgid ""
+"All `download mirrors <https://www.linuxmint.com/mirrors.php>`_ provide the "
+"ISO images, a ``sha256sum.txt`` file and a ``sha256sum.txt.gpg`` file. You "
+"should be able to find these files in the same place you downloaded the ISO "
+"image from."
+msgstr ""
+"所有 `下载镜像<https://www.linuxmint.com/mirrors.php>`_ 都提供 ISO 映像，一个 "
+"``sha256sum.txt`` 文件和一个 ``sha256sum.txt.gpg`` 文件。您应该能够在您下载 ISO 映像相同的位置找到这些文件。"
+
+#: ../../verify.rst:15
+msgid ""
+"If you can't find them, browse the `Heanet download mirror "
+"<https://ftp.heanet.ie/mirrors/linuxmint.com/stable/>`_ and click the "
+"version of the Linux Mint release you downloaded."
+msgstr ""
+"如果您不能找到他们，请浏览 `Heanet download mirror "
+"<https://ftp.heanet.ie/mirrors/linuxmint.com/stable/>`_ 并且检查您下载的 Linux Mint "
+"版本。"
+
+#: ../../verify.rst:17
+msgid "Download both ``sha256sum.txt`` and ``sha256sum.txt.gpg``."
+msgstr "下载 ``sha256sum.txt`` 和 ``sha256sum.txt.gpg`` 。"
+
+#: ../../verify.rst:19
+msgid ""
+"Do not copy their content, use \"right-click->Save Link As...\" to download "
+"the files themselves and do not modify them in any way."
+msgstr "请勿复制其内容，请使用 \"右键单击->另存为...\" 来下载文件，不要以任何方式修改它们。"
+
+#: ../../verify.rst:22
+msgid "Integrity check"
+msgstr "真实性检查"
+
+#: ../../verify.rst:24
+msgid ""
+"To check the integrity of your local ISO file, generate its SHA256 sum and "
+"compare it with the sum present in ``sha256sum.txt``."
+msgstr "为了检验你本地 ISO 文件的完整性，生成它的 SHA256 值并且与 ``sha256sum.txt`` 里面的值进行比较。"
+
+#: ../../verify.rst:31
+msgid ""
+"If you are using Windows follow the tutorial `How to verify the ISO image on "
+"Windows <https://forums.linuxmint.com/viewtopic.php?f=42&t=291093>`_."
+msgstr ""
+"如果您正在使用 Windows，请遵循教程 `How to verify the ISO image on Windows "
+"<https://forums.linuxmint.com/viewtopic.php?f=42&t=291093>`_."
+
+#: ../../verify.rst:33
+msgid ""
+"If the sums match, your ISO image was successfully downloaded. If they "
+"don't, download it again."
+msgstr "如果校验和匹配，您的 ISO 映像已被成功下载。如果没有，请再次下载。"
+
+#: ../../verify.rst:38
+msgid "Authenticity check"
+msgstr "真实性检查"
+
+#: ../../verify.rst:40
+msgid ""
+"To verify the authenticity of ``sha256sum.txt``, check the signature of "
+"``sha256sum.txt.gpg`` by following the steps below."
+msgstr "采取下面的步骤来核实 ``sha256sum.txt`` 的真实性，以及检查 ``sha256sum.txt.gpg`` 的签名。"
+
+#: ../../verify.rst:43
+msgid "Import the Linux Mint signing key:"
+msgstr "导入 Linux Mint 的签名密钥："
+
+#: ../../verify.rst:49
+msgid ""
+"If gpg complains about the key ID, try the following commands instead:"
+msgstr "如果 gpg 提示密钥 ID 错误，请尝试下面的命令："
+
+#: ../../verify.rst:56
+msgid ""
+"Check the output of the last command, to make sure the fingerprint is ``27DE "
+"B156 44C6 B3CF 3BD7 D291 300F 846B A25B AE09`` (with or without spaces)."
+msgstr ""
+"检查最后一条命令的输出，以确保指纹为 ``27DE B156 44C6 B3CF 3BD7 D291 300F 846B A25B AE09`` "
+"（不论是否有空格）。"
+
+#: ../../verify.rst:59
+msgid "Verify the authenticity of sha256sum.txt:"
+msgstr "验证 sha256sum.txt 的真实性："
+
+#: ../../verify.rst:64
+msgid ""
+"The output of the last command should tell you that the file signature is "
+"``good`` and that it was signed with the ``A25BAE09`` key."
+msgstr "最后指令的输出应该告诉你文件签名是 ``良好`` 的而且它以 ``A25BAE09`` 密钥签署。"
+
+#: ../../verify.rst:67
+msgid ""
+"GPG might warn you that the Linux Mint signature is not trusted by your "
+"computer. This is expected and perfectly normal."
+msgstr "GPG 也许会警告您 Linux Mint 的签名并不受你的电脑所信任。这是意料之中的，非常正常。"
+
+#: ../../verify.rst:70
+msgid ""
+"For more information on ISO verification, or to verify BETA, LMDE or old "
+"releases, read `How to Verify ISO images "
+"<https://linuxmint.com/verify.php>`_."
+msgstr ""
+"寻找有关 ISO 校验的更多信息，或者 BETA、LMDE 以及其他发行版校验的信息，请阅读 `How to Verify ISO images "
+"<https://linuxmint.com/verify.php>`_."

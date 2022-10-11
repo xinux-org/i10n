@@ -1,0 +1,1449 @@
+# Persian translation of xviewer.
+# Copyright (C) 2010-2011 Iranian Free Software Users Group (IFSUG.org)translation team.
+# This file is distributed under the same license as the xviewer package.
+# Roozbeh Pournader <roozbeh@farsiweb.info>, 2003, 2004, 2006.
+# Meelad Zakaria <meelad@farsiweb.info>, 2004, 2005, 2006.
+# Elnaz Sarbar <elnaz@farsiweb.info>, 2005, 2006.
+# Farzaneh Sarafraz <farzaneh@farsiweb.info>, 2006.
+# Mahyar Moghimi <mahyar.moqimi@gmail.com>, 2010.
+# Mohammad Javad Badiee <m.j.badiee@gmail.com>, 2010.
+# Arash Mousavi <mousavi.arash@gmail.com>, 2011, 2012, 2013, 2014.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: xviewer HEAD\n"
+"Report-Msgid-Bugs-To: "
+"http://bugzilla.gnome.org/enter_bug.cgi?product=xviewer&keywords=I18N+L10N&co"
+"mponent=general\n"
+"POT-Creation-Date: 2021-11-29 10:03+0000\n"
+"PO-Revision-Date: 2022-05-01 11:10+0000\n"
+"Last-Translator: MohammadSaleh Kamyab <Unknown>\n"
+"Language-Team: Persian\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Launchpad-Export-Date: 2022-10-10 13:09+0000\n"
+"X-Generator: Launchpad (build 762fb15a975e8b23af6a1f86e44e46bfd0451459)\n"
+"Language: fa\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+
+#. Translaters: This string is for a toggle to display a toolbar.
+#. * The name of the toolbar is automatically computed from the widgets
+#. * on the toolbar, and is placed at the %s. Note the _ before the %s
+#. * which is used to add mnemonics. We know that this is likely to
+#. * produce duplicates, but don't worry about it. If your language
+#. * normally has a mnemonic at the start, please use the _. If not,
+#. * please remove.
+#: ../cut-n-paste/toolbar-editor/egg-editable-toolbar.c:992
+#, c-format
+msgid "Show “_%s”"
+msgstr "نشان دادن «_%s»"
+
+#: ../cut-n-paste/toolbar-editor/egg-editable-toolbar.c:1485
+msgid "_Move on Toolbar"
+msgstr "_جابجایی روی نوار ابزار"
+
+#: ../cut-n-paste/toolbar-editor/egg-editable-toolbar.c:1486
+msgid "Move the selected item on the toolbar"
+msgstr "مورد گزیده‌شده روی نوار ابزار جا‌به‌جا شود"
+
+#: ../cut-n-paste/toolbar-editor/egg-editable-toolbar.c:1487
+msgid "_Remove from Toolbar"
+msgstr "_حذف از نوار ابزار"
+
+#: ../cut-n-paste/toolbar-editor/egg-editable-toolbar.c:1488
+msgid "Remove the selected item from the toolbar"
+msgstr "مورد انتخاب شده از نوار ابزار حذف شود"
+
+#: ../cut-n-paste/toolbar-editor/egg-editable-toolbar.c:1489
+msgid "_Delete Toolbar"
+msgstr "_حذف نوار ابزار"
+
+#: ../cut-n-paste/toolbar-editor/egg-editable-toolbar.c:1490
+msgid "Remove the selected toolbar"
+msgstr "حذف نوار ابزار انتخاب شده"
+
+#: ../cut-n-paste/toolbar-editor/egg-toolbar-editor.c:489
+msgid "Separator"
+msgstr "جداساز"
+
+#: ../data/xviewer-app-menu.xml.h:1 ../src/xviewer-window.c:4234
+msgid "_View"
+msgstr "_نما"
+
+#: ../data/xviewer-app-menu.xml.h:2 ../src/xviewer-window.c:4259
+msgid "_Toolbar"
+msgstr "نوار _ابزار"
+
+#: ../data/xviewer-app-menu.xml.h:3 ../src/xviewer-window.c:4262
+msgid "_Statusbar"
+msgstr "نوار _وضعیت"
+
+#: ../data/xviewer-app-menu.xml.h:4 ../src/xviewer-window.c:4265
+msgid "_Image Gallery"
+msgstr "گالری _تصویر"
+
+#: ../data/xviewer-app-menu.xml.h:5 ../src/xviewer-window.c:4268
+msgid "Side _Pane"
+msgstr "_قاب کناری"
+
+#: ../data/xviewer-app-menu.xml.h:6 ../src/xviewer-window.c:4247
+msgid "Prefere_nces"
+msgstr "ترجی_حات"
+
+#: ../data/xviewer-app-menu.xml.h:7 ../data/xviewer-preferences-dialog.ui.h:2
+#: ../src/xviewer-window.c:4237
+msgid "_Help"
+msgstr "_راهنما"
+
+#: ../data/xviewer-app-menu.xml.h:8 ../src/xviewer-window.c:4253
+msgid "_About"
+msgstr "_درباره"
+
+#: ../data/xviewer-app-menu.xml.h:9
+msgid "_Quit"
+msgstr "_ترک"
+
+#: ../data/xviewer.appdata.xml.in.h:1
+msgid ""
+"Xviewer is an image viewer which supports many formats. It can be used to "
+"view single images or images in a collection."
+msgstr ""
+
+#: ../data/xviewer.appdata.xml.in.h:2
+msgid ""
+"Xviewer also allows to view the images in a fullscreen slideshow mode or set "
+"an image as the desktop wallpaper. It reads the camera tags to automatically "
+"rotate your images in the correct portrait or landscape orientation."
+msgstr ""
+"همچنین «چشم گنوم» به شما امکان می‌دهد که تصاویر را در حالت تمام‌صفحه و "
+"نمایشی ببینید یا آنها را به عنوان پس‌زمینه تصویر خود انتخاب کنید. برچسب‌های "
+"دوربین را می‌خواند تا به‌طور خودکار عکس را بچرخاند تا در حالت صحیحی از "
+"منظره‌ای یا عمودی قرار بگیرد."
+
+#: ../data/xviewer.desktop.in.in.h:1 ../src/xviewer-application.c:293
+msgid "Image Viewer"
+msgstr "نمایشگر تصویر"
+
+#: ../data/xviewer.desktop.in.in.h:2
+msgid "Browse and rotate images"
+msgstr "مرور و چرخاندن تصویر"
+
+#. Extra keywords that can be used to search for xviewer in GNOME Shell and Unity
+#: ../data/xviewer.desktop.in.in.h:4
+msgid "Picture;Slideshow;Graphics;"
+msgstr "عکس;نمایش اسلایدی;گرافیک;"
+
+#: ../data/xviewer-image-properties-dialog.ui.h:1 ../src/xviewer-window.c:5375
+msgid "Image Properties"
+msgstr "ویژگی‌های تصویر"
+
+#: ../data/xviewer-image-properties-dialog.ui.h:2
+msgid "_Previous"
+msgstr "_قبلی"
+
+#: ../data/xviewer-image-properties-dialog.ui.h:3
+msgid "_Next"
+msgstr "_بعدی"
+
+#: ../data/xviewer-image-properties-dialog.ui.h:4
+#: ../data/xviewer-preferences-dialog.ui.h:3 ../src/xviewer-window.c:4244
+msgid "_Close"
+msgstr "بس_تن"
+
+#: ../data/xviewer-image-properties-dialog.ui.h:5
+#: ../src/xviewer-metadata-sidebar.c:497
+msgid "Name:"
+msgstr "نام:"
+
+#: ../data/xviewer-image-properties-dialog.ui.h:6
+#: ../src/xviewer-metadata-sidebar.c:499
+msgid "Width:"
+msgstr "عرض:"
+
+#: ../data/xviewer-image-properties-dialog.ui.h:7
+#: ../src/xviewer-metadata-sidebar.c:501
+msgid "Height:"
+msgstr "ارتفاع:"
+
+#: ../data/xviewer-image-properties-dialog.ui.h:8
+#: ../src/xviewer-metadata-sidebar.c:503
+msgid "Type:"
+msgstr "نوع:"
+
+#: ../data/xviewer-image-properties-dialog.ui.h:9
+msgid "Bytes:"
+msgstr "بایت:"
+
+#: ../data/xviewer-image-properties-dialog.ui.h:10
+#: ../src/xviewer-metadata-sidebar.c:507
+msgid "Folder:"
+msgstr "پوشه:"
+
+#: ../data/xviewer-image-properties-dialog.ui.h:11
+#: ../src/xviewer-metadata-sidebar.c:495
+msgid "General"
+msgstr "عمومی"
+
+#: ../data/xviewer-image-properties-dialog.ui.h:12
+#: ../src/xviewer-metadata-sidebar.c:532
+msgid "Aperture Value:"
+msgstr "اندازه‌ی دیافراگم:"
+
+#: ../data/xviewer-image-properties-dialog.ui.h:13
+#: ../src/xviewer-metadata-sidebar.c:535
+msgid "Exposure Time:"
+msgstr "زمان نوردهی:"
+
+#: ../data/xviewer-image-properties-dialog.ui.h:14
+#: ../src/xviewer-metadata-sidebar.c:538
+msgid "Focal Length:"
+msgstr "طول کانونی:"
+
+#: ../data/xviewer-image-properties-dialog.ui.h:15
+#: ../src/xviewer-metadata-sidebar.c:540
+msgid "Flash:"
+msgstr "فلاش:"
+
+#: ../data/xviewer-image-properties-dialog.ui.h:16
+#: ../src/xviewer-metadata-sidebar.c:544
+msgid "ISO Speed Rating:"
+msgstr "درجه سرعت ایزو:"
+
+#: ../data/xviewer-image-properties-dialog.ui.h:17
+#: ../src/xviewer-metadata-sidebar.c:547
+msgid "Metering Mode:"
+msgstr "حالت اندازه‌گیری:"
+
+#: ../data/xviewer-image-properties-dialog.ui.h:18
+#: ../src/xviewer-metadata-sidebar.c:550
+msgid "Camera Model:"
+msgstr "مدل دوربین:"
+
+#: ../data/xviewer-image-properties-dialog.ui.h:19
+#: ../src/xviewer-metadata-sidebar.c:552
+msgid "Date/Time:"
+msgstr "تاریخ/زمان:"
+
+#: ../data/xviewer-image-properties-dialog.ui.h:20
+#: ../src/xviewer-metadata-sidebar.c:557
+msgid "Description:"
+msgstr "شرح:"
+
+#: ../data/xviewer-image-properties-dialog.ui.h:21
+#: ../src/xviewer-metadata-sidebar.c:560
+msgid "Location:"
+msgstr "مکان:"
+
+#: ../data/xviewer-image-properties-dialog.ui.h:22
+#: ../src/xviewer-metadata-sidebar.c:563
+msgid "Keywords:"
+msgstr "کلمات کلیدی:"
+
+#: ../data/xviewer-image-properties-dialog.ui.h:23
+#: ../src/xviewer-metadata-sidebar.c:565
+msgid "Author:"
+msgstr "مؤلف:"
+
+#: ../data/xviewer-image-properties-dialog.ui.h:24
+#: ../src/xviewer-metadata-sidebar.c:568
+msgid "Copyright:"
+msgstr "حق نسخه‌برداری:"
+
+#: ../data/xviewer-image-properties-dialog.ui.h:25
+#: ../src/xviewer-metadata-sidebar.c:571
+msgid "Details"
+msgstr "جزئیات"
+
+#: ../data/xviewer-image-properties-dialog.ui.h:26
+#: ../src/xviewer-metadata-sidebar.c:528
+msgid "Metadata"
+msgstr "فوق‌داده"
+
+#: ../data/xviewer-multiple-save-as-dialog.ui.h:1
+msgid "Save As"
+msgstr "ذخیره به نام"
+
+#: ../data/xviewer-multiple-save-as-dialog.ui.h:2
+#: ../src/xviewer-close-confirmation-dialog.c:172
+#: ../src/xviewer-error-message-area.c:119 ../src/xviewer-file-chooser.c:456
+#: ../src/xviewer-file-chooser.c:464 ../src/xviewer-file-chooser.c:472
+#: ../src/xviewer-window.c:3464 ../src/xviewer-window.c:3468
+#: ../src/xviewer-window.c:3735
+msgid "_Cancel"
+msgstr "_لغو"
+
+#: ../data/xviewer-multiple-save-as-dialog.ui.h:3
+#: ../src/xviewer-close-confirmation-dialog.c:184
+msgid "Save _As"
+msgstr "ذخیره به _نام"
+
+#: ../data/xviewer-multiple-save-as-dialog.ui.h:5
+#, no-c-format
+msgid "<b>%f:</b> original filename"
+msgstr "<b>%f:</b> نام پرونده اصلی"
+
+#: ../data/xviewer-multiple-save-as-dialog.ui.h:7
+#, no-c-format
+msgid "<b>%n:</b> counter"
+msgstr "<b>%n:</b> شمارنده"
+
+#: ../data/xviewer-multiple-save-as-dialog.ui.h:8
+msgid "_Filename format:"
+msgstr "قالب _نام پرونده:"
+
+#: ../data/xviewer-multiple-save-as-dialog.ui.h:9
+msgid "_Destination folder:"
+msgstr "پوشه‌ی _مقصد:"
+
+#: ../data/xviewer-multiple-save-as-dialog.ui.h:10
+msgid "Choose a folder"
+msgstr "یک پوشه انتخاب کنید"
+
+#: ../data/xviewer-multiple-save-as-dialog.ui.h:11
+msgid "File Path Specifications"
+msgstr "مشخصات مسیر پرونده"
+
+#: ../data/xviewer-multiple-save-as-dialog.ui.h:12
+msgid "_Start counter at:"
+msgstr "شروع _شمارنده از:"
+
+#: ../data/xviewer-multiple-save-as-dialog.ui.h:13
+msgid "_Replace spaces with underscores"
+msgstr "_جای‌گزینی فاصله‌ها با زیرخط"
+
+#: ../data/xviewer-multiple-save-as-dialog.ui.h:14
+msgid "Options"
+msgstr "گزینه‌ها"
+
+#: ../data/xviewer-multiple-save-as-dialog.ui.h:15
+msgid "Rename from:"
+msgstr "تغییر نام از:"
+
+#: ../data/xviewer-multiple-save-as-dialog.ui.h:16
+msgid "To:"
+msgstr "تا:"
+
+#: ../data/xviewer-multiple-save-as-dialog.ui.h:17
+msgid "File Name Preview"
+msgstr "پیش‌نمایش نام پرونده"
+
+#: ../data/xviewer-preferences-dialog.ui.h:1
+msgid "Preferences"
+msgstr "ترجیحات"
+
+#: ../data/xviewer-preferences-dialog.ui.h:4
+msgid "Image Enhancements"
+msgstr "بهبود تصویر"
+
+#: ../data/xviewer-preferences-dialog.ui.h:5
+msgid "Smooth images when zoomed _out"
+msgstr "هموار کردن تصویرها هنگام _کوچک‌نمایی"
+
+#: ../data/xviewer-preferences-dialog.ui.h:6
+msgid "Smooth images when zoomed _in"
+msgstr "هموار کردن تصویرها هنگام _بزرگنمایی"
+
+#: ../data/xviewer-preferences-dialog.ui.h:7
+msgid "_Automatic orientation"
+msgstr "جهت‌یابی _خودکار"
+
+#: ../data/xviewer-preferences-dialog.ui.h:8
+msgid "Background"
+msgstr "پس‌زمینه"
+
+#: ../data/xviewer-preferences-dialog.ui.h:9
+msgid "As custom color:"
+msgstr "به عنوان رنگ سفارشی:"
+
+#: ../data/xviewer-preferences-dialog.ui.h:10
+msgid "Background Color"
+msgstr "رنگ پس‌زمینه"
+
+#: ../data/xviewer-preferences-dialog.ui.h:11
+msgid "Transparent Parts"
+msgstr "قسمت‌های شفاف"
+
+#: ../data/xviewer-preferences-dialog.ui.h:12
+msgid "As check _pattern"
+msgstr "به شکل ش_طرنجی"
+
+#: ../data/xviewer-preferences-dialog.ui.h:13
+msgid "As custom c_olor:"
+msgstr "به عنوان _رنگ سفارشی:"
+
+#: ../data/xviewer-preferences-dialog.ui.h:14
+msgid "Color for Transparent Areas"
+msgstr "رنگ نواحی شفاف"
+
+#: ../data/xviewer-preferences-dialog.ui.h:15
+msgid "As _background"
+msgstr "به عنوان _پس‌زمینه"
+
+#: ../data/xviewer-preferences-dialog.ui.h:16
+msgid "Image View"
+msgstr "نمایش تصویر"
+
+#: ../data/xviewer-preferences-dialog.ui.h:17
+msgid "Image Zoom"
+msgstr "بزرگ‌نمایی تصویر"
+
+#: ../data/xviewer-preferences-dialog.ui.h:18
+msgid "E_xpand images to fit screen"
+msgstr "تصویر‌ها _کشیده شوند تا با صفحه‌نمایش جور شوند"
+
+#: ../data/xviewer-preferences-dialog.ui.h:19
+msgid "Sequence"
+msgstr "دنباله"
+
+#. I18N: This sentence will be displayed above a horizonzal scale to select a number of seconds in xviewer
+#: ../data/xviewer-preferences-dialog.ui.h:21
+msgid "_Time between images:"
+msgstr "_زمان بین عکس‌ها:"
+
+#: ../data/xviewer-preferences-dialog.ui.h:22
+msgid "_Loop sequence"
+msgstr "_تکرار دنباله"
+
+#: ../data/xviewer-preferences-dialog.ui.h:23
+msgid "Control"
+msgstr "مهار"
+
+#: ../data/xviewer-preferences-dialog.ui.h:24
+msgid "Pause and resume with the spacebar"
+msgstr ""
+
+#: ../data/xviewer-preferences-dialog.ui.h:25
+msgid "Slideshow"
+msgstr "نمایش اسلایدی"
+
+#: ../data/xviewer-preferences-dialog.ui.h:26
+msgid "Scroll Wheel"
+msgstr ""
+
+#: ../data/xviewer-preferences-dialog.ui.h:27
+msgid "Wheel"
+msgstr "چرخ"
+
+#: ../data/xviewer-preferences-dialog.ui.h:28
+msgid "Zoom"
+msgstr "بزرگ‌نمایی"
+
+#: ../data/xviewer-preferences-dialog.ui.h:29
+msgid "Vertical Scrolling"
+msgstr ""
+
+#: ../data/xviewer-preferences-dialog.ui.h:30
+msgid "Horizontal Scrolling"
+msgstr ""
+
+#: ../data/xviewer-preferences-dialog.ui.h:31
+msgid "Previous/Next Image"
+msgstr ""
+
+#: ../data/xviewer-preferences-dialog.ui.h:32
+msgid "Rotate 90 degrees"
+msgstr ""
+
+#: ../data/xviewer-preferences-dialog.ui.h:33
+msgid "No Action"
+msgstr "بدون کنش"
+
+#: ../data/xviewer-preferences-dialog.ui.h:34
+msgid "Shift + Wheel"
+msgstr ""
+
+#: ../data/xviewer-preferences-dialog.ui.h:35
+msgid "Control + Wheel"
+msgstr ""
+
+#: ../data/xviewer-preferences-dialog.ui.h:36
+msgid "Shift + Control + Wheel"
+msgstr ""
+
+#: ../data/xviewer-preferences-dialog.ui.h:37
+msgid "Tilt Wheel"
+msgstr ""
+
+#: ../data/xviewer-preferences-dialog.ui.h:38
+msgid "Mouse"
+msgstr "موشی"
+
+#: ../data/xviewer-preferences-dialog.ui.h:39
+msgid "Plugins"
+msgstr "افزونه‌ها"
+
+#: ../src/xviewer-close-confirmation-dialog.c:166
+msgid "Close _without Saving"
+msgstr "بستن _بدون ذخیره کردن"
+
+#: ../src/xviewer-close-confirmation-dialog.c:178
+#: ../src/xviewer-file-chooser.c:465 ../src/xviewer-window.c:4274
+msgid "_Save"
+msgstr "_ذخیره"
+
+#: ../src/xviewer-close-confirmation-dialog.c:212
+msgid "Question"
+msgstr "سؤال"
+
+#: ../src/xviewer-close-confirmation-dialog.c:391
+msgid "If you don't save, your changes will be lost."
+msgstr ""
+"اگر ذخیره نکنید، تمام تغییراتی که داده‌اید برای همیشه از دست خواهد رفت."
+
+#: ../src/xviewer-close-confirmation-dialog.c:437
+#, c-format
+msgid "Save changes to image \"%s\" before closing?"
+msgstr "آیا مایلید قبل از بستن، تغییرات گالری تنظیمات «%s» را ذخیره کنید؟"
+
+#: ../src/xviewer-close-confirmation-dialog.c:652
+#, c-format
+msgid "There is %d image with unsaved changes. Save changes before closing?"
+msgid_plural ""
+"There are %d images with unsaved changes. Save changes before closing?"
+msgstr[0] ""
+"%Id نوشتار با تغییرات ذخیره نشده موجود است. تغییرات پیش از بستن ذخیره شوند؟"
+
+#: ../src/xviewer-close-confirmation-dialog.c:669
+msgid "S_elect the images you want to save:"
+msgstr "_تصاویری را که قصد ذخیره‌ی آن را دارید انتخاب کنید:"
+
+#. Secondary label
+#: ../src/xviewer-close-confirmation-dialog.c:688
+msgid "If you don't save, all your changes will be lost."
+msgstr ""
+"اگر ذخیره نکنید، تمام تغییراتی که داده‌اید برای همیشه از دست خواهد رفت."
+
+#: ../src/xviewer-error-message-area.c:124 ../src/xviewer-window.c:882
+#: ../src/xviewer-window.c:4334
+msgid "_Reload"
+msgstr "_‌بازخوانی"
+
+#: ../src/xviewer-error-message-area.c:129 ../src/xviewer-window.c:4280
+msgid "Save _As…"
+msgstr "ذخیره _به نام..."
+
+#: ../src/xviewer-error-message-area.c:171
+#, c-format
+msgid "Could not load image '%s'."
+msgstr "تصویر «%s» بار نشد."
+
+#: ../src/xviewer-error-message-area.c:213
+#, c-format
+msgid "Could not save image '%s'."
+msgstr "تصویر «%s» را نمی‌توان ذخیره کرد."
+
+#: ../src/xviewer-error-message-area.c:256
+#, c-format
+msgid "No images found in '%s'."
+msgstr "تصویری در «%s» پیدا نشد."
+
+#: ../src/xviewer-error-message-area.c:263
+msgid "The given locations contain no images."
+msgstr "مکان داده شده حاوی هیچ تصویری نیست."
+
+#: ../src/xviewer-metadata-details.c:65
+msgid "Camera"
+msgstr "دوربین"
+
+#: ../src/xviewer-metadata-details.c:66
+msgid "Image Data"
+msgstr "داده‌های تصویر"
+
+#: ../src/xviewer-metadata-details.c:67
+msgid "Image Taking Conditions"
+msgstr "شرایط گرفتن تصویر"
+
+#: ../src/xviewer-metadata-details.c:68
+msgid "GPS Data"
+msgstr "اطلاعات GPS"
+
+#: ../src/xviewer-metadata-details.c:69
+msgid "Maker Note"
+msgstr "یادداشت سازنده"
+
+#: ../src/xviewer-metadata-details.c:70
+msgid "Other"
+msgstr "غیره"
+
+#: ../src/xviewer-metadata-details.c:72
+msgid "XMP Exif"
+msgstr "XMP Exif"
+
+#: ../src/xviewer-metadata-details.c:73
+msgid "XMP IPTC"
+msgstr "XMP IPTC"
+
+#: ../src/xviewer-metadata-details.c:74
+msgid "XMP Rights Management"
+msgstr "مدیریت حقوق XMP"
+
+#: ../src/xviewer-metadata-details.c:75
+msgid "XMP Other"
+msgstr "XMP دیگر"
+
+#: ../src/xviewer-metadata-details.c:251
+msgid "Tag"
+msgstr "برچسب"
+
+#: ../src/xviewer-metadata-details.c:258
+msgid "Value"
+msgstr "مقدار"
+
+#: ../src/xviewer-metadata-details.c:436
+msgid "North"
+msgstr "شمال"
+
+#: ../src/xviewer-metadata-details.c:439
+msgid "East"
+msgstr "شرق"
+
+#: ../src/xviewer-metadata-details.c:442
+msgid "West"
+msgstr "غرب"
+
+#: ../src/xviewer-metadata-details.c:445
+msgid "South"
+msgstr "جنوب"
+
+#. A strftime-formatted string, to display the date the image was taken.
+#: ../src/xviewer-exif-util.c:120 ../src/xviewer-exif-util.c:160
+msgid "%a, %d %B %Y  %X"
+msgstr "%a, Od% %B OY%  %X"
+
+#. A strftime-formatted string, to display the date the image was taken, for the case we don't have the time.
+#: ../src/xviewer-exif-util.c:154
+msgid "%a, %d %B %Y"
+msgstr "%a, Od% %B OY%"
+
+#. TRANSLATORS: This is the actual focal length used when
+#. the image was taken.
+#: ../src/xviewer-exif-util.c:251
+#, c-format
+msgid "%.1f (lens)"
+msgstr "‏%I.1f (لنز)"
+
+#. Print as float to get a similar look as above.
+#. TRANSLATORS: This is the equivalent focal length assuming
+#. a 35mm film camera.
+#: ../src/xviewer-exif-util.c:262
+#, c-format
+msgid "%.1f (35mm film)"
+msgstr "%.1f (فیلم ۳۵ میلی‌متری)"
+
+#: ../src/xviewer-file-chooser.c:119
+msgid "File format is unknown or unsupported"
+msgstr "قالب پرونده ناشناخته یا پشتیبانی نشده است"
+
+#: ../src/xviewer-file-chooser.c:124
+msgid ""
+"Image Viewer could not determine a supported writable file format based on "
+"the filename."
+msgstr ""
+"نمایشگر تصویر نتوانست براساس نام پرونده، قالب قابل نوشتن پشتیبانی شده‌ای را "
+"تعیین کند."
+
+#: ../src/xviewer-file-chooser.c:125
+msgid "Please try a different file extension like .png or .jpg."
+msgstr "لطفا از پسوند دیگری مانند .png یا .jpg استفاده کنید."
+
+#. Filter name: First description then file extension, eg. "The PNG-Format (*.png)".
+#: ../src/xviewer-file-chooser.c:160
+#, c-format
+msgid "%s (*.%s)"
+msgstr "%s (*.%s)"
+
+#: ../src/xviewer-file-chooser.c:212
+msgid "All files"
+msgstr "همه پرونده‌ها"
+
+#: ../src/xviewer-file-chooser.c:217
+msgid "Supported image files"
+msgstr "قالب پرونده‌های پشتیبانی شده"
+
+#. Pixel size of image: width x height in pixel
+#: ../src/xviewer-file-chooser.c:289 ../src/xviewer-metadata-sidebar.c:234
+#: ../src/xviewer-metadata-sidebar.c:238 ../src/xviewer-properties-dialog.c:139
+#: ../src/xviewer-properties-dialog.c:141 ../src/xviewer-thumb-view.c:516
+msgid "pixel"
+msgid_plural "pixels"
+msgstr[0] "نقطه"
+
+#: ../src/xviewer-file-chooser.c:457 ../src/xviewer-file-chooser.c:473
+msgid "_Open"
+msgstr "_باز کردن"
+
+#: ../src/xviewer-file-chooser.c:459
+msgid "Open Image"
+msgstr "بازکردن تصویر"
+
+#: ../src/xviewer-file-chooser.c:467
+msgid "Save Image"
+msgstr "ذخیره‌ی تصویر"
+
+#: ../src/xviewer-file-chooser.c:475
+msgid "Open Folder"
+msgstr "باز کردن پوشه"
+
+#: ../src/xviewer-image.c:613
+#, c-format
+msgid "Transformation on unloaded image."
+msgstr "تبدیل بر روی تصویر بار نشده."
+
+#: ../src/xviewer-image.c:641
+#, c-format
+msgid "Transformation failed."
+msgstr "تبدیل شکست خورد."
+
+#: ../src/xviewer-image.c:1261
+#, c-format
+msgid "EXIF not supported for this file format."
+msgstr "‏EXIF برای این قالب پرونده پشتیبانی نمی‌شود."
+
+#: ../src/xviewer-image.c:1410
+#, c-format
+msgid "Image loading failed."
+msgstr "بار کردن تصویر شکست خورد."
+
+#: ../src/xviewer-image.c:1991 ../src/xviewer-image.c:2111
+#, c-format
+msgid "No image loaded."
+msgstr "تصویری بار نشده است."
+
+#: ../src/xviewer-image.c:1999 ../src/xviewer-image.c:2120
+#, c-format
+msgid "You do not have the permissions necessary to save the file."
+msgstr "شما اجازه لازم برای ذخیره پرونده را ندارد."
+
+#: ../src/xviewer-image.c:2009 ../src/xviewer-image.c:2131
+#, c-format
+msgid "Temporary file creation failed."
+msgstr "شکست در ایجاد پرونده‌ی موقت."
+
+#: ../src/xviewer-image-jpeg.c:374
+#, c-format
+msgid "Couldn't create temporary file for saving: %s"
+msgstr "عدم امکان ایجاد پرونده‌ی موقت برای ذخیره‌سازی: %s"
+
+#: ../src/xviewer-image-jpeg.c:393
+#, c-format
+msgid "Couldn't allocate memory for loading JPEG file"
+msgstr "اختصاص حافظه برای بار کردن تصویر JPEG ممکن نیست"
+
+#: ../src/xviewer-metadata-sidebar.c:247 ../src/xviewer-properties-dialog.c:156
+msgid "Unknown"
+msgstr "ناشناخته"
+
+#: ../src/xviewer-metadata-sidebar.c:505
+msgid "File size:"
+msgstr "اندازهٔ پرونده:"
+
+#: ../src/xviewer-metadata-sidebar.c:521 ../src/xviewer-properties-dialog.c:737
+#: ../src/xviewer-window.c:4284
+msgid "Show the folder which contains this file in the file manager"
+msgstr "نمایش پوشه‌ای که محتوی این پرونده است در مدیر پرونده"
+
+#: ../src/xviewer-preferences-dialog.c:134
+#, c-format
+msgid "%lu second"
+msgid_plural "%lu seconds"
+msgstr[0] "%Ilu ثانیه"
+
+#: ../src/xviewer-print.c:371
+msgid "Image Settings"
+msgstr "تنظیمات تصویر"
+
+#: ../src/xviewer-print-image-setup.c:897
+msgid "Image"
+msgstr "تصویر"
+
+#: ../src/xviewer-print-image-setup.c:898
+msgid "The image whose printing properties will be set up"
+msgstr "تصویری که ویژگی‌های چاپ آن تنظیم خواهد شد"
+
+#: ../src/xviewer-print-image-setup.c:904
+msgid "Page Setup"
+msgstr "برپاسازی چاپ"
+
+#: ../src/xviewer-print-image-setup.c:905
+msgid "The information for the page where the image will be printed"
+msgstr "اطلاعات برای صفحه‌ای که تصویر روی آن چاپ خواهد شد"
+
+#: ../src/xviewer-print-image-setup.c:931
+msgid "Position"
+msgstr "موقعیت"
+
+#: ../src/xviewer-print-image-setup.c:935
+msgid "_Left:"
+msgstr "_چپ:"
+
+#: ../src/xviewer-print-image-setup.c:937
+msgid "_Right:"
+msgstr "_راست:"
+
+#: ../src/xviewer-print-image-setup.c:938
+msgid "_Top:"
+msgstr "_بالا:"
+
+#: ../src/xviewer-print-image-setup.c:939
+msgid "_Bottom:"
+msgstr "_پایین:"
+
+#: ../src/xviewer-print-image-setup.c:942
+msgid "C_enter:"
+msgstr "_مرکز:"
+
+#: ../src/xviewer-print-image-setup.c:947
+msgid "None"
+msgstr "هیچ‌کدام"
+
+#: ../src/xviewer-print-image-setup.c:949
+msgid "Horizontal"
+msgstr "افقی"
+
+#: ../src/xviewer-print-image-setup.c:951
+msgid "Vertical"
+msgstr "عمودی"
+
+#: ../src/xviewer-print-image-setup.c:953
+msgid "Both"
+msgstr "هردو"
+
+#: ../src/xviewer-print-image-setup.c:969
+msgid "Size"
+msgstr "اندازه"
+
+#: ../src/xviewer-print-image-setup.c:972
+msgid "_Width:"
+msgstr "_عرض:"
+
+#: ../src/xviewer-print-image-setup.c:974
+msgid "_Height:"
+msgstr "_ارتفاع:"
+
+#: ../src/xviewer-print-image-setup.c:977
+msgid "_Scaling:"
+msgstr "م_قیاس تصویر:"
+
+#: ../src/xviewer-print-image-setup.c:988
+msgid "_Unit:"
+msgstr "_واحد:"
+
+#: ../src/xviewer-print-image-setup.c:993
+msgid "Millimeters"
+msgstr "میلی‌متر"
+
+#: ../src/xviewer-print-image-setup.c:995
+msgid "Inches"
+msgstr "اینچ"
+
+#: ../src/xviewer-print-image-setup.c:1024
+msgid "Preview"
+msgstr "پیش‌نمایش"
+
+#: ../src/xviewer-save-as-dialog-helper.c:162
+msgid "as is"
+msgstr "همین طور که هست"
+
+#. Translators: This string is displayed in the statusbar.
+#. * The first token is the image number, the second is total image
+#. * count.
+#. *
+#. * Translate to "%Id" if you want to use localized digits, or
+#. * translate to "%d" otherwise.
+#. *
+#. * Note that translating this doesn't guarantee that you get localized
+#. * digits. That needs support from your system and locale definition
+#. * too.
+#: ../src/xviewer-statusbar.c:126
+#, c-format
+msgid "%d / %d"
+msgstr "%Id / %Id"
+
+#: ../src/xviewer-thumb-view.c:544
+msgid "Taken on"
+msgstr "گرفته شده در"
+
+#: ../src/xviewer-uri-converter.c:982
+#, c-format
+msgid "At least two file names are equal."
+msgstr "دست کم دو پرونده همنام هستند."
+
+#: ../src/xviewer-util.c:68
+msgid "Could not display help for Image Viewer"
+msgstr "نمایش راهنمای نمایشگر تصویر ممکن نبود"
+
+#: ../src/xviewer-util.c:116
+msgid " (invalid Unicode)"
+msgstr " (یونی‌کد نامعتبر)"
+
+#. Translators: This is the string displayed in the statusbar
+#. * The tokens are from left to right:
+#. * - image width
+#. * - image height
+#. * - image size in bytes
+#. * - zoom in percent
+#: ../src/xviewer-window.c:547
+#, c-format
+msgid "%i × %i pixel  %s    %i%%"
+msgid_plural "%i × %i pixels  %s    %i%%"
+msgstr[0] "%Ii × %Ii نقطه  %s    ٪%Ii"
+
+#: ../src/xviewer-window.c:884 ../src/xviewer-window.c:2880
+msgctxt "MessageArea"
+msgid "Hi_de"
+msgstr "_مخفی کردن"
+
+#. The newline character is currently necessary due to a problem
+#. * with the automatic line break.
+#: ../src/xviewer-window.c:894
+#, c-format
+msgid ""
+"The image \"%s\" has been modified by an external application.\n"
+"Would you like to reload it?"
+msgstr ""
+"تصویر «%s» توسط یک برنامه کاربردی خارجی تغییر یافته است.\n"
+"آیا می‌خواهید دوباره آن را بازخوانی نمایید؟"
+
+#: ../src/xviewer-window.c:1071
+#, c-format
+msgid "Use \"%s\" to open the selected image"
+msgstr "استفاده از «%s» برای باز کردن تصویر انتخاب شده"
+
+#. Translators: This string is displayed in the statusbar
+#. * while saving images. The tokens are from left to right:
+#. * - the original filename
+#. * - the current image's position in the queue
+#. * - the total number of images queued for saving
+#: ../src/xviewer-window.c:1227
+#, c-format
+msgid "Saving image \"%s\" (%u/%u)"
+msgstr "در حال ذخیره‌ی تصویر «%s» (%u/%u)"
+
+#: ../src/xviewer-window.c:1622
+#, c-format
+msgid "Opening image \"%s\""
+msgstr "در حال بازکردن تصویر «%s»"
+
+#. L10N: This the reason why the screensaver is inhibited.
+#: ../src/xviewer-window.c:2208
+msgid "Viewing a slideshow"
+msgstr "در پخش یک نمایش اسلایدی"
+
+#: ../src/xviewer-window.c:2455
+#, c-format
+msgid ""
+"Error printing file:\n"
+"%s"
+msgstr ""
+"خطا در چاپ پرونده:\n"
+" %s"
+
+#: ../src/xviewer-window.c:2808 ../src/xviewer-window.c:2823
+msgid "Error launching System Settings: "
+msgstr "خطا در اجرای تنظیمات سیستم: "
+
+#. I18N: When setting mnemonics for these strings, watch out to not
+#. clash with mnemonics from xviewer's menubar
+#: ../src/xviewer-window.c:2878
+msgid "_Open Background Preferences"
+msgstr "_باز کردن ترجیحات پس‌زمینه"
+
+#. The newline character is currently necessary due to a problem
+#. * with the automatic line break.
+#: ../src/xviewer-window.c:2894
+#, c-format
+msgid ""
+"The image \"%s\" has been set as Desktop Background.\n"
+"Would you like to modify its appearance?"
+msgstr ""
+"تصویر  «%s» به عنوان پس‌زمینه‌ی میزکار تنظیم شده است.\n"
+"آیا می‌خواهید ظاهر آن را اصلاح کنید؟"
+
+#: ../src/xviewer-window.c:3361
+msgid "Saving image locally…"
+msgstr "در حال ذخیره‌ی محلی تصویر..."
+
+#: ../src/xviewer-window.c:3440
+#, c-format
+msgid ""
+"Are you sure you want to remove\n"
+"\"%s\" permanently?"
+msgstr ""
+"آیا واقعاً می‌خواهید «%s» را برای همیشه\n"
+"در زباله‌دان بیندازید؟"
+
+#: ../src/xviewer-window.c:3443
+#, c-format
+msgid ""
+"Are you sure you want to remove\n"
+"the selected image permanently?"
+msgid_plural ""
+"Are you sure you want to remove\n"
+"the %d selected images permanently?"
+msgstr[0] ""
+"آیا واقعاً می‌خواهید تصویر انتخاب شده\n"
+"را برای همیشه در زباله‌دان بیندازید؟"
+
+#: ../src/xviewer-window.c:3465 ../src/xviewer-window.c:3746
+msgid "_Delete"
+msgstr "_حذف"
+
+#: ../src/xviewer-window.c:3469 ../src/xviewer-window.c:3748
+msgid "_Yes"
+msgstr "_بله"
+
+#. add 'dont ask again' button
+#: ../src/xviewer-window.c:3474 ../src/xviewer-window.c:3740
+msgid "Do _not ask again during this session"
+msgstr "در طول این جلسه دیگر _نپرس"
+
+#: ../src/xviewer-window.c:3519
+#, c-format
+msgid "Couldn't retrieve image file"
+msgstr "بازآوری تصویر امکان‌پذیر نبود"
+
+#: ../src/xviewer-window.c:3535
+#, c-format
+msgid "Couldn't retrieve image file information"
+msgstr "امکان بازآوری اطلاعات پرونده‌ی تصویری امکان‌پذیر نبود"
+
+#: ../src/xviewer-window.c:3551 ../src/xviewer-window.c:3807
+#, c-format
+msgid "Couldn't delete file"
+msgstr "پرونده پاک نشد"
+
+#. set dialog error message
+#: ../src/xviewer-window.c:3601 ../src/xviewer-window.c:3903
+#, c-format
+msgid "Error on deleting image %s"
+msgstr "خطا در حذف تصویر %s"
+
+#: ../src/xviewer-window.c:3708
+#, c-format
+msgid ""
+"Are you sure you want to move\n"
+"\"%s\" to the trash?"
+msgstr ""
+"آیا واقعاً می‌خواهید «%s» را\n"
+"در زباله‌دان بیندازید؟"
+
+#: ../src/xviewer-window.c:3711
+#, c-format
+msgid ""
+"A trash for \"%s\" couldn't be found. Do you want to remove this image "
+"permanently?"
+msgstr ""
+"زباله‌دانی برای «%s» یافت نشد. آیا می‌خواهید این تصویر را برای همیشه پاک "
+"کنید؟"
+
+#: ../src/xviewer-window.c:3716
+#, c-format
+msgid ""
+"Are you sure you want to move\n"
+"the selected image to the trash?"
+msgid_plural ""
+"Are you sure you want to move\n"
+"the %d selected images to the trash?"
+msgstr[0] ""
+"آیا واقعاً می‌خواهید تصویر انتخاب شده\n"
+"را در زباله‌دان بیندازید؟"
+
+#: ../src/xviewer-window.c:3721
+msgid ""
+"Some of the selected images can't be moved to the trash and will be removed "
+"permanently. Are you sure you want to proceed?"
+msgstr ""
+"بعضی از تصویر‌ها گزیده شده را نمی‌توان به زباله‌دان انداخت و برای همیشه پاک "
+"خواهند شد. واقعا می‌خواهید ادامه دهید؟"
+
+#: ../src/xviewer-window.c:3738 ../src/xviewer-window.c:4310
+#: ../src/xviewer-window.c:4349
+msgid "Move to _Trash"
+msgstr "انداختن در _زباله‌دان"
+
+#: ../src/xviewer-window.c:3785 ../src/xviewer-window.c:3799
+#, c-format
+msgid "Couldn't access trash."
+msgstr "دسترسی به زباله‌دان مقدور نیست."
+
+#: ../src/xviewer-window.c:4232
+msgid "_File"
+msgstr "_پرونده"
+
+#: ../src/xviewer-window.c:4233
+msgid "_Edit"
+msgstr "_ویرایش"
+
+#: ../src/xviewer-window.c:4235
+msgid "_Go"
+msgstr "ر_فتن"
+
+#: ../src/xviewer-window.c:4236
+msgid "_Tools"
+msgstr "_ابزارها"
+
+#: ../src/xviewer-window.c:4238
+msgid "_Favorites"
+msgstr ""
+
+#: ../src/xviewer-window.c:4239
+msgid "_Recents"
+msgstr ""
+
+#: ../src/xviewer-window.c:4241
+msgid "_Open…"
+msgstr "_باز کردن..."
+
+#: ../src/xviewer-window.c:4242
+msgid "Open a file"
+msgstr "باز کردن پرونده"
+
+#: ../src/xviewer-window.c:4245
+msgid "Close window"
+msgstr "بستن پنجره"
+
+#: ../src/xviewer-window.c:4248
+msgid "Preferences for Image Viewer"
+msgstr "ترجیحات نمایشگر تصویر"
+
+#: ../src/xviewer-window.c:4250
+msgid "_Contents"
+msgstr "_محتویات"
+
+#: ../src/xviewer-window.c:4251
+msgid "Help on this application"
+msgstr "راهنمایی برای این برنامه"
+
+#: ../src/xviewer-window.c:4254
+msgid "About this application"
+msgstr "درباره‌ی این برنامه"
+
+#: ../src/xviewer-window.c:4260
+msgid "Changes the visibility of the toolbar in the current window"
+msgstr "حالت مرئی بودن یا نبودن نوار ابزار در پنجره‌ی فعلی را تغییر می‌دهد"
+
+#: ../src/xviewer-window.c:4263
+msgid "Changes the visibility of the statusbar in the current window"
+msgstr "حالت مرئی بودن یا نبودن نوار وضعیت در پنجره‌ی فعلی را تغییر می‌دهد"
+
+#: ../src/xviewer-window.c:4266
+msgid ""
+"Changes the visibility of the image gallery pane in the current window"
+msgstr "حالت مرئی بودن قاب گالری تصویر را در پنجره‌ی فعلی تغییر می‌دهد"
+
+#: ../src/xviewer-window.c:4269
+msgid "Changes the visibility of the side pane in the current window"
+msgstr "دیده‌شدن یا نشدن قاب پهلویی در پنجره‌ی فعلی را تغییر می‌دهد"
+
+#: ../src/xviewer-window.c:4275
+msgid "Save changes in currently selected images"
+msgstr "ذخیره‌ی تغییرات در تصویر‌های انتخاب ‌شده‌ی فعلی"
+
+#: ../src/xviewer-window.c:4277
+msgid "Open _with"
+msgstr "باز کردن _با"
+
+#: ../src/xviewer-window.c:4278
+msgid "Open the selected image with a different application"
+msgstr "تصویر گزیده شده را با برنامه‌ی دیگری باز کنید"
+
+#: ../src/xviewer-window.c:4281
+msgid "Save the selected images with a different name"
+msgstr "ذخیره کردن تصویر‌های گزیده شده با نامی متفاوت"
+
+#: ../src/xviewer-window.c:4283
+msgid "Show Containing _Folder"
+msgstr "نمایش _پوشه‌ی محتوی"
+
+#: ../src/xviewer-window.c:4286
+msgid "_Print…"
+msgstr "_چاپ..."
+
+#: ../src/xviewer-window.c:4287
+msgid "Print the selected image"
+msgstr "چاپ تصویر‌های انتخاب شده"
+
+#: ../src/xviewer-window.c:4289
+msgid "Prope_rties"
+msgstr "_ویژگی‌ها"
+
+#: ../src/xviewer-window.c:4290
+msgid "Show the properties and metadata of the selected image"
+msgstr "نشان دادن ویژگی‌ها و فراداده‌ی تصویر انتخاب شده"
+
+#: ../src/xviewer-window.c:4292
+msgid "_Undo"
+msgstr "_برگردان"
+
+#: ../src/xviewer-window.c:4293
+msgid "Undo the last change in the image"
+msgstr "آخرین تغییر در تصویر واگردانی شود"
+
+#: ../src/xviewer-window.c:4295
+msgid "Flip _Horizontal"
+msgstr "پشت و رو کردن ا_فقی"
+
+#: ../src/xviewer-window.c:4296
+msgid "Mirror the image horizontally"
+msgstr "آیینه کردن تصویر‌‌ها به صورت افقی"
+
+#: ../src/xviewer-window.c:4298
+msgid "Flip _Vertical"
+msgstr "پشت و رو کردن _عمودی"
+
+#: ../src/xviewer-window.c:4299
+msgid "Mirror the image vertically"
+msgstr "آیینه کردن تصویر‌‌ها به صورت عمودی"
+
+#: ../src/xviewer-window.c:4301
+msgid "_Rotate Clockwise"
+msgstr "چرخاندن در _جهت عقربه‌های ساعت"
+
+#: ../src/xviewer-window.c:4302
+msgid "Rotate the image 90 degrees to the right"
+msgstr "چرخاندن ۹۰ درجه تصویر به سمت راست"
+
+#: ../src/xviewer-window.c:4304
+msgid "Rotate Counterc_lockwise"
+msgstr "چرخاندن در _خلاف جهت عقربه‌های ساعت"
+
+#: ../src/xviewer-window.c:4305
+msgid "Rotate the image 90 degrees to the left"
+msgstr "چرخاندن ۹۰ درجه تصویر به سمت چپ"
+
+#: ../src/xviewer-window.c:4307
+msgid "Set as Wa_llpaper"
+msgstr "تنظیم به‌عنوان کاغذ دیواری"
+
+#: ../src/xviewer-window.c:4308
+msgid "Set the selected image as the wallpaper"
+msgstr "تنظیم تصویر انتخاب شده به‌عنوان کاغذ دیواری"
+
+#: ../src/xviewer-window.c:4311
+msgid "Move the selected image to the trash folder"
+msgstr "جابه‌جایی تصویر انتخاب شده به پوشه‌ی زباله‌دان"
+
+#: ../src/xviewer-window.c:4313
+msgid "_Delete Image"
+msgstr "_حذف تصویر"
+
+#: ../src/xviewer-window.c:4314
+msgid "Delete the selected image"
+msgstr "حذف تصویر انتخاب شده"
+
+#: ../src/xviewer-window.c:4316
+msgid "_Copy"
+msgstr "_رونوشت"
+
+#: ../src/xviewer-window.c:4317
+msgid "Copy the selected image to the clipboard"
+msgstr "رونوشت از عکس انتخاب شده در تخته‌گیره"
+
+#: ../src/xviewer-window.c:4319 ../src/xviewer-window.c:4337
+#: ../src/xviewer-window.c:4340
+msgid "_Zoom In"
+msgstr "_بزرگنمایی"
+
+#: ../src/xviewer-window.c:4320 ../src/xviewer-window.c:4338
+msgid "Enlarge the image"
+msgstr "بزرگ کردن تصویر"
+
+#: ../src/xviewer-window.c:4322 ../src/xviewer-window.c:4343
+msgid "Zoom _Out"
+msgstr "_کوچک‌نمایی"
+
+#: ../src/xviewer-window.c:4323 ../src/xviewer-window.c:4341
+#: ../src/xviewer-window.c:4344
+msgid "Shrink the image"
+msgstr "جمع‌شدن تصویر"
+
+#: ../src/xviewer-window.c:4325 ../src/xviewer-window.c:4346
+msgid "_Normal Size"
+msgstr "اندازه‌ی _عادی"
+
+#: ../src/xviewer-window.c:4326 ../src/xviewer-window.c:4347
+msgid "Show the image at its normal size"
+msgstr "نمایش تصویر با اندازه‌ی عادی آن"
+
+#: ../src/xviewer-window.c:4328
+msgid "Fit to _Height"
+msgstr ""
+
+#: ../src/xviewer-window.c:4329
+msgid "Fit to height"
+msgstr ""
+
+#: ../src/xviewer-window.c:4331
+msgid "Fit to _Width"
+msgstr ""
+
+#: ../src/xviewer-window.c:4332
+msgid "Fit to width"
+msgstr "متناسب با پهنا"
+
+#: ../src/xviewer-window.c:4335
+msgid "Reload the image"
+msgstr ""
+
+#: ../src/xviewer-window.c:4355
+msgid "_Fullscreen"
+msgstr "_تمام‌صفحه"
+
+#: ../src/xviewer-window.c:4356
+msgid "Show the current image in fullscreen mode"
+msgstr "نمایش تصویر جاری در حالت تمام‌صفحه"
+
+#: ../src/xviewer-window.c:4358
+msgid "Pause Slideshow"
+msgstr "مکث نمایش اسلایدی"
+
+#: ../src/xviewer-window.c:4359
+msgid "Pause or resume the slideshow"
+msgstr "پخش یا مکث نمایش اسلایدی"
+
+#: ../src/xviewer-window.c:4361
+msgid "_Best Fit"
+msgstr "_بهترین اندازه"
+
+#: ../src/xviewer-window.c:4362
+msgid "Fit the image to the window"
+msgstr "جور کردن اندازه‌ی تصویر با اندازه‌ی پنجره"
+
+#: ../src/xviewer-window.c:4367 ../src/xviewer-window.c:4382
+msgid "_Previous Image"
+msgstr "تصویر _قبلی"
+
+#: ../src/xviewer-window.c:4368
+msgid "Go to the previous image of the gallery"
+msgstr "رفتن به تصویر قبلی گالری"
+
+#: ../src/xviewer-window.c:4370
+msgid "_Next Image"
+msgstr "تصویر _بعدی"
+
+#: ../src/xviewer-window.c:4371
+msgid "Go to the next image of the gallery"
+msgstr "رفتن به تصویر بعدی گالری"
+
+#: ../src/xviewer-window.c:4373 ../src/xviewer-window.c:4385
+msgid "_First Image"
+msgstr "_اولین تصویر"
+
+#: ../src/xviewer-window.c:4374
+msgid "Go to the first image of the gallery"
+msgstr "رفتن به نخستین تصویر گالری"
+
+#: ../src/xviewer-window.c:4376 ../src/xviewer-window.c:4388
+msgid "_Last Image"
+msgstr "آ_خرین تصویر"
+
+#: ../src/xviewer-window.c:4377
+msgid "Go to the last image of the gallery"
+msgstr "رفتن به آخرین تصویر گالری"
+
+#: ../src/xviewer-window.c:4379
+msgid "_Random Image"
+msgstr "تصویر _شانسی"
+
+#: ../src/xviewer-window.c:4380
+msgid "Go to a random image of the gallery"
+msgstr "رفتن به تصویری شانسی از گالری"
+
+#: ../src/xviewer-window.c:4538
+msgid "S_lideshow"
+msgstr "نمایش ا_سلایدی"
+
+#: ../src/xviewer-window.c:4539
+msgid "Start a slideshow view of the images"
+msgstr "شروع نمایش اسلایدی از تصویر‌ها"
+
+#: ../src/xviewer-window.c:4611
+msgid "Previous"
+msgstr "قبلی"
+
+#: ../src/xviewer-window.c:4616
+msgid "Next"
+msgstr "بعدی"
+
+#: ../src/xviewer-window.c:4623
+msgid "Right"
+msgstr "راست"
+
+#: ../src/xviewer-window.c:4626
+msgid "Left"
+msgstr "چپ"
+
+#: ../src/xviewer-window.c:4629
+msgid "Show Folder"
+msgstr "نمایش پوشه"
+
+#: ../src/xviewer-window.c:4632
+msgid "Out"
+msgstr "خارج"
+
+#: ../src/xviewer-window.c:4635
+msgid "In"
+msgstr "داخل"
+
+#: ../src/xviewer-window.c:4638
+msgid "Normal"
+msgstr "عادی"
+
+#: ../src/xviewer-window.c:4641
+msgid "Height"
+msgstr "ارتفاع"
+
+#: ../src/xviewer-window.c:4644
+msgid "Width"
+msgstr "پهنا"
+
+#: ../src/xviewer-window.c:4647
+msgid "Fit"
+msgstr "اندازه کردن"
+
+#: ../src/xviewer-window.c:4650
+msgid "Gallery"
+msgstr "گالری"
+
+#: ../src/xviewer-window.c:4667
+msgctxt "action (to trash)"
+msgid "Trash"
+msgstr "زباله‌دان"
+
+#: ../src/main.c:63
+msgid "Open in fullscreen mode"
+msgstr "بازکردن در حالت تمام‌صفحه"
+
+#: ../src/main.c:64
+msgid "Disable image gallery"
+msgstr "از کار انداختن گالری تصویر"
+
+#: ../src/main.c:65
+msgid "Open in slideshow mode"
+msgstr "باز کردن در حالت نمایش اسلاید"
+
+#: ../src/main.c:66
+msgid "Start a new instance instead of reusing an existing one"
+msgstr "آغاز یک نمونه‌ی جدید بجای استفاده از نمونه‌ی موجود"
+
+#: ../src/main.c:67
+msgid ""
+"Open in a single window, if multiple windows are open the first one is used"
+msgstr "بازکردن در پنجره واحد، اگر چند پنجره باز است از اولی استفاده می‌شود"
+
+#: ../src/main.c:69
+msgid "Show the application's version"
+msgstr "نمایش نسخه‌ی برنامه"
+
+#: ../src/main.c:99
+msgid "[FILE…]"
+msgstr "[FILE…]"
+
+#. I18N: The '%s' is replaced with xviewer's command name.
+#: ../src/main.c:112
+#, c-format
+msgid "Run '%s --help' to see a full list of available command line options."
+msgstr ""
+"فرمان «%s --help» را برای رویت لیست کامل گزینه‌های خط فرمان اجرا کنید."

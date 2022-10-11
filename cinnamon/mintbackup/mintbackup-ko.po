@@ -1,0 +1,383 @@
+# Korean translation for linuxmint
+# Copyright (c) 2009 Rosetta Contributors and Canonical Ltd 2009
+# This file is distributed under the same license as the linuxmint package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2009.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: linuxmint\n"
+"Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
+"POT-Creation-Date: 2019-02-27 13:57+0000\n"
+"PO-Revision-Date: 2019-02-28 00:54+0000\n"
+"Last-Translator: Jung-Kyu Park <Unknown>\n"
+"Language-Team: Korean <ko@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Launchpad-Export-Date: 2022-10-10 13:02+0000\n"
+"X-Generator: Launchpad (build 762fb15a975e8b23af6a1f86e44e46bfd0451459)\n"
+
+#: usr/lib/linuxmint/mintbackup/mintbackup.py:41
+msgid "Backups"
+msgstr "백업"
+
+#: usr/lib/linuxmint/mintbackup/mintbackup.py:169
+#: usr/lib/linuxmint/mintbackup/mintbackup.py:209
+#: usr/lib/linuxmint/mintbackup/mintbackup.py:216 generate_desktop_files:24
+#: generate_desktop_files:39
+msgid "Backup Tool"
+msgstr "백업 도구"
+
+#: usr/lib/linuxmint/mintbackup/mintbackup.py:232
+#, python-format
+msgid "%s is not located in your home directory."
+msgstr "%s가 홈 디렉토리에 없습니다."
+
+#: usr/lib/linuxmint/mintbackup/mintbackup.py:272
+msgid "Please choose a directory."
+msgstr "폴더를 선택하세요."
+
+#: usr/lib/linuxmint/mintbackup/mintbackup.py:275
+msgid "You do not have the permission to write in the selected directory."
+msgstr "선택한 폴더에 파일을 새로 쓸 권한이 없습니다."
+
+#: usr/lib/linuxmint/mintbackup/mintbackup.py:335
+msgid "Please choose a backup file."
+msgstr "백업 파일을 선택하십시오."
+
+#: usr/lib/linuxmint/mintbackup/mintbackup.py:343
+msgid ""
+"This backup file is either too old or it was created with a different tool. "
+"Please extract it manually."
+msgstr "이 백업 파일은 너무 오래되었거나, 다른 도구로 생성되었습니다. 직접 파일을 압축해제하십시오."
+
+#: usr/lib/linuxmint/mintbackup/mintbackup.py:352
+#, python-format
+msgid "An error occurred while opening the backup file: %s."
+msgstr "다음 파일을 여는 동안 오류가 생겼습니다 : %s"
+
+#: usr/lib/linuxmint/mintbackup/mintbackup.py:366
+msgid "No packages need to be installed."
+msgstr "다른 패키지를 더 설치할 필요가 없습니다."
+
+#: usr/lib/linuxmint/mintbackup/mintbackup.py:373
+msgid "Please select packages to install."
+msgstr "설치하고 싶은 패키지를 선택하십시오."
+
+#: usr/lib/linuxmint/mintbackup/mintbackup.py:427
+#, python-format
+msgid "Skipping %s because named pipes are not supported."
+msgstr "명명된 파이프는 지원되지 않기 때문에 %s를 넘기고 있습니다."
+
+#: usr/lib/linuxmint/mintbackup/mintbackup.py:452
+msgid "Backing up:"
+msgstr "백업 중:"
+
+#: usr/lib/linuxmint/mintbackup/mintbackup.py:460
+msgid "Calculating..."
+msgstr "계산 중..."
+
+#: usr/lib/linuxmint/mintbackup/mintbackup.py:464
+#: usr/lib/linuxmint/mintbackup/mintbackup.py:568
+msgid "The following errors occurred:"
+msgstr "다음과 같은 오류가 생겼습니다:"
+
+#: usr/lib/linuxmint/mintbackup/mintbackup.py:470
+msgid "The backup was aborted."
+msgstr "백업 작업을 중단했습니다."
+
+#: usr/lib/linuxmint/mintbackup/mintbackup.py:474
+#, python-format
+msgid "Your files were successfully saved in %s."
+msgstr "%s에 파일이 잘 저장되었습니다."
+
+#: usr/lib/linuxmint/mintbackup/mintbackup.py:515
+msgid ""
+"Warning: The meta file could not be saved. This backup will not be accepted "
+"for restoration."
+msgstr "알림:  메타 파일을 저장할 수 없습니다. 이 백업은 복원할 수 없게 됩니다."
+
+#: usr/lib/linuxmint/mintbackup/mintbackup.py:542
+#, python-format
+msgid ""
+"Warning: Some files were not saved. Only %(archived)d files were backed up "
+"out of %(total)d."
+msgstr "알림: 일부 파일이 저장되지 않았습니다.  %(total)d 중에서 %(archived)d 파일들만 백업했습니다."
+
+#: usr/lib/linuxmint/mintbackup/mintbackup.py:557
+msgid "Restoring:"
+msgstr "복원 중:"
+
+#: usr/lib/linuxmint/mintbackup/mintbackup.py:574
+msgid "The restoration was aborted."
+msgstr "복원작업을 중단했습니다."
+
+#: usr/lib/linuxmint/mintbackup/mintbackup.py:578
+msgid "Your files were successfully restored."
+msgstr "파일을 성공적으로 복원했습니다."
+
+#: usr/lib/linuxmint/mintbackup/mintbackup.py:666
+#, python-format
+msgid "Warning: Only %(number)d files were restored out of %(total)d."
+msgstr "알림: %(total)d 중에서 %(number)d 파일들만 복원했습니다."
+
+#: usr/lib/linuxmint/mintbackup/mintbackup.py:691
+msgid "The list below shows the applications you installed."
+msgstr "아래 목록은 설치하신 애플리케이션들 목록입니다."
+
+#: usr/lib/linuxmint/mintbackup/mintbackup.py:735
+#, python-format
+msgid "Your software selection was saved in %s"
+msgstr "선택하신 소프트웨어들은 %s에 저장되었습니다."
+
+#: usr/lib/linuxmint/mintbackup/mintbackup.py:751
+msgid "The selected file is not a valid software selection."
+msgstr "선택한 파일은 유효한 소프트웨어가 아닙니다."
+
+#: usr/lib/linuxmint/mintbackup/mintbackup.py:756
+#: usr/lib/linuxmint/mintbackup/mintbackup.py:794
+msgid "An error occurred while reading the file."
+msgstr "파일을 읽는 동안 오류가 생겼습니다."
+
+#: usr/lib/linuxmint/mintbackup/mintbackup.py:779
+msgid "Could not locate the package."
+msgstr "패키지 위치를 찾을 수 없습니다."
+
+#: generate_desktop_files:24 generate_desktop_files:39
+msgid "Make a backup of your home directory"
+msgstr "사용자의 홈 디렉토리를 백업합니다"
+
+#: usr/share/linuxmint/mintbackup/mintbackup.ui.h:1
+msgid "Personal data"
+msgstr "개인 자료"
+
+#: usr/share/linuxmint/mintbackup/mintbackup.ui.h:2
+msgid "Your files, settings and the content of your home directory"
+msgstr "여러분의 파일, 설정, 그리고 홈 디렉토리의 내용물입니다"
+
+#: usr/share/linuxmint/mintbackup/mintbackup.ui.h:3
+msgid "Restore..."
+msgstr "복원..."
+
+#: usr/share/linuxmint/mintbackup/mintbackup.ui.h:4
+msgid "Back Up Now..."
+msgstr "지금 백업 하기..."
+
+#: usr/share/linuxmint/mintbackup/mintbackup.ui.h:5
+msgid "Software selection"
+msgstr "소프트웨어 목록"
+
+#: usr/share/linuxmint/mintbackup/mintbackup.ui.h:6
+msgid "The list of applications installed on your computer"
+msgstr "여러분의 컴퓨터에 설치된 애플리케이션 목록입니다"
+
+#: usr/share/linuxmint/mintbackup/mintbackup.ui.h:7
+msgid "Please select where you want to save the backup file:"
+msgstr "백업 파일을 어디에 저장할지 결정해주세요:"
+
+#: usr/share/linuxmint/mintbackup/mintbackup.ui.h:8
+msgid ""
+"Please add files or directories to the list below to exclude them from the "
+"backup."
+msgstr "백업하지 않을 파일이나 폴더를 아래 목록에 추가해주세요."
+
+#: usr/share/linuxmint/mintbackup/mintbackup.ui.h:9
+msgid "Exclude files"
+msgstr "파일 제외"
+
+#: usr/share/linuxmint/mintbackup/mintbackup.ui.h:10
+msgid "Exclude directories"
+msgstr "디렉토리 제외"
+
+#: usr/share/linuxmint/mintbackup/mintbackup.ui.h:11
+msgid "Remove"
+msgstr "제거"
+
+#: usr/share/linuxmint/mintbackup/mintbackup.ui.h:12
+msgid ""
+"Hidden files and hidden folders located at the root of your home directory "
+"are not included by default."
+msgstr "홈 디렉토리의 root에 있는 숨김 파일과 숨김 폴더는 기본으로는 포함되지 않습니다."
+
+#: usr/share/linuxmint/mintbackup/mintbackup.ui.h:13
+msgid ""
+"If you want to include some of them in the backup, please add them to the "
+"list below."
+msgstr "함께 백업하고 싶은 항목이 있으시면, 아래 목록에 추가하세요."
+
+#: usr/share/linuxmint/mintbackup/mintbackup.ui.h:14
+msgid "Include files"
+msgstr "파일 포함하기"
+
+#: usr/share/linuxmint/mintbackup/mintbackup.ui.h:15
+msgid "Include directories"
+msgstr "폴더 포함하기"
+
+#: usr/share/linuxmint/mintbackup/mintbackup.ui.h:16
+msgid ""
+"These files and folders usually contain temporary data or preferences for "
+"your applications."
+msgstr "이 파일 및 폴더에는 주로 사용하시는 애플리케이션의 한시적인 정보나 설정을 가지고 있습니다."
+
+#: usr/share/linuxmint/mintbackup/mintbackup.ui.h:17
+msgid "Please wait while your files are being backed up."
+msgstr "파일이 백업되는 동안 기다려주세요."
+
+#: usr/share/linuxmint/mintbackup/mintbackup.ui.h:18
+msgid "Please select the backup to restore:"
+msgstr "복원할 백업을 골라주세요."
+
+#: usr/share/linuxmint/mintbackup/mintbackup.ui.h:19
+msgid "Overwrite existing files?"
+msgstr "기존의 파일을 덮어쓸까요?"
+
+#: usr/share/linuxmint/mintbackup/mintbackup.ui.h:20
+msgid ""
+"No, only restore missing files.\n"
+"<small>This option is safe and does not affect your existing files.</small>"
+msgstr ""
+"아니요, 잃어버린 파일은 복원만 해주세요.\n"
+"<small>이 옵션은 안전하며 기존의 파일에는 영향을 주지 않습니다.</small>"
+
+#: usr/share/linuxmint/mintbackup/mintbackup.ui.h:22
+msgid ""
+"Yes, overwrite changes and restore the content of any existing files.\n"
+"<small>Use this option with caution. The changes you made to the files since "
+"the backup will be lost.</small>"
+msgstr ""
+"네, 바뀐 점들을 덮어써주시고 모든 기존 파일의 콘텐츠들은 복원해주세요.\n"
+"<small>이 옵션은 주의 깊게 사용해주세요. 파일에 수정한 부분으로 인해서 백업을 잃게 될 수 있습니다.</small>"
+
+#: usr/share/linuxmint/mintbackup/mintbackup.ui.h:24
+msgid "Please wait while your files are being restored."
+msgstr "파일이 백업되는 동안 기다려주세요."
+
+#: usr/share/linuxmint/mintbackup/mintbackup.ui.h:25
+msgid ""
+"The list below shows the applications you installed with the Software "
+"Manager."
+msgstr "아래 목록에는 소프트웨어 매니저로 설치한 애플리케이션들을 보여줍니다."
+
+#: usr/share/linuxmint/mintbackup/mintbackup.ui.h:26
+msgid "Please select the applications you want to save."
+msgstr "저장하려는 애플리케이션을 골라주세요."
+
+#: usr/share/linuxmint/mintbackup/mintbackup.ui.h:27
+msgid "Select all"
+msgstr "모두 선택"
+
+#: usr/share/linuxmint/mintbackup/mintbackup.ui.h:28
+msgid "Deselect all"
+msgstr "모두 선택 해제"
+
+#: usr/share/linuxmint/mintbackup/mintbackup.ui.h:29
+msgid ""
+"Note: If you want to save the complete list of all installed packages on the "
+"system, please use the command 'dpkg --get-selections > mylist.list' in a "
+"terminal."
+msgstr ""
+"알림: 시스템에 설치한 모든 패키지들의 목록을 저장하시려면, 터미널에서 'dpkg --get-selections > "
+"mylist.list' 커맨드를 사용하시면 됩니다."
+
+#: usr/share/linuxmint/mintbackup/mintbackup.ui.h:30
+msgid "Please select a saved software selection (.list file):"
+msgstr "저장된 소프트웨어 목록을 골라주세요 (.list 파일):"
+
+#: usr/share/linuxmint/mintbackup/mintbackup.ui.h:31
+msgid "Select the packages you want to install."
+msgstr "설치하시려는 패키지를 선택해주세요."
+
+#: usr/share/linuxmint/mintbackup/mintbackup.ui.h:32
+msgid "Refresh"
+msgstr "새로고침"
+
+#: usr/share/linuxmint/mintbackup/mintbackup.ui.h:33
+msgid "All the packages in your software selection are installed."
+msgstr "소프트웨어 목록에 있는 모든 패키지를 설치했습니다."
+
+#~ msgid "Your home directory was successfully backed-up into"
+#~ msgstr "다음 파일에 성공적으로 백업하였습니다:"
+
+#~ msgid "Backup successful"
+#~ msgstr "백업이 완료되었습니다"
+
+#~ msgid "An error occurred during the backup:"
+#~ msgstr "백업 중에 오류가 발생하였습니다:"
+
+#~ msgid "Backup failed"
+#~ msgstr "백업에 실패하였습니다"
+
+#~ msgid "Restoration successful"
+#~ msgstr "복원에 성공하였습니다"
+
+#~ msgid "Your backup was successfully restored"
+#~ msgstr "성공적으로 복원하였습니다"
+
+#~ msgid "Archiving your home directory..."
+#~ msgstr "홈 디렉토리를 묶고 있습니다..."
+
+#~ msgid "Backup"
+#~ msgstr "백업"
+
+#~ msgid "Exclude folders"
+#~ msgstr "폴더 제외"
+
+#~ msgid "Restoration failed"
+#~ msgstr "복원에 실패하였습니다"
+
+#~ msgid "An error occurred while restoring the backup archive:"
+#~ msgstr "복원 중에 오류가 발생하였습니다:"
+
+#~ msgid "Opening the backup archive..."
+#~ msgstr "백업 파일을 열고 있습니다..."
+
+#~ msgid "Read error"
+#~ msgstr "읽기 오류"
+
+#~ msgid "An error occurred while opening the backup:"
+#~ msgstr "백업 파일을 여는 중에 오류가 발생하였습니다:"
+
+#~ msgid "Excluded paths"
+#~ msgstr "백업에서 제외"
+
+#~ msgid "Hidden paths"
+#~ msgstr "숨겨진 폴더"
+
+#~ msgid "is not located within your home directory. Not added."
+#~ msgstr "은(는) 홈 디렉토리 내부에 있습니다. 추가하지 않습니다."
+
+#~ msgid "Invalid path"
+#~ msgstr "잘못된 경로"
+
+#~ msgid "Included hidden directories"
+#~ msgstr "숨겨진 폴더를 백업에 포함합니다"
+
+#~ msgid "Included"
+#~ msgstr "포함"
+
+#~ msgid "<big><b>Load data into your home directory</b></big>"
+#~ msgstr "<big><b>자료를 홈 디렉토리로 옮깁니다</b></big>"
+
+#~ msgid "Overwrite existing files"
+#~ msgstr "파일을 덮어씌움"
+
+#~ msgid "View content"
+#~ msgstr "내용물 보기"
+
+#~ msgid "Restore"
+#~ msgstr "복원"
+
+#~ msgid "Extracting the content of the backup into your home directory..."
+#~ msgstr "홈 디렉토리에 압축을 푸는 중입니다..."
+
+#~ msgid "Copying the backup file into your home directory..."
+#~ msgstr "백업 파일을 사용자의 홈 디렉토리로 복사하는 중입니다..."
+
+#~ msgid "Excluded Files and Directories"
+#~ msgstr "제외된 파일과 디렉토리"
+
+#~ msgid "Cleaning up..."
+#~ msgstr "정리 중..."
+
+#~ msgid "Restore your personal data from this backup"
+#~ msgstr "이 백업 파일을 사용하여 사용자의 자료를 복원합니다"

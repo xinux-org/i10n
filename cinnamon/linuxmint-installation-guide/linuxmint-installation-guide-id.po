@@ -1,0 +1,1744 @@
+# Indonesian translation for linuxmint
+# Copyright (c) 2018 Rosetta Contributors and Canonical Ltd 2018
+# This file is distributed under the same license as the linuxmint package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2018.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: linuxmint\n"
+"Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
+"POT-Creation-Date: 2019-03-29 10:21+0000\n"
+"PO-Revision-Date: 2022-02-17 16:09+0000\n"
+"Last-Translator: Andika Triwidada <andika@gmail.com>\n"
+"Language-Team: Indonesian <id@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Launchpad-Export-Date: 2022-10-10 13:12+0000\n"
+"X-Generator: Launchpad (build 762fb15a975e8b23af6a1f86e44e46bfd0451459)\n"
+"Language: id\n"
+
+#: ../../boot_options.rst:2
+msgid "Boot options"
+msgstr "Pilihan boot"
+
+#: ../../boot_options.rst:4
+msgid ""
+"Some graphics cards and motherboards don't work well with the open-source "
+"drivers present in Linux Mint by default."
+msgstr ""
+"Beberapa kartu grafis dan motherboard tidak dapat bekerja dengan baik dengan "
+"driver open source yang ada di Linux Mint secara baku."
+
+#: ../../boot_options.rst:7
+msgid "Compatibility mode"
+msgstr "Mode kompatibilitas"
+
+#: ../../boot_options.rst:9
+msgid ""
+"The easiest option is to select ``compatibility mode`` from the USB stick "
+"(or DVD) boot menu."
+msgstr ""
+"Pilihan termudah adalah memilih ``mode kompatibilitas`` dari menu boot USB "
+"stick (atau DVD)."
+
+#: ../../boot_options.rst:15
+msgid "Grub menu (EFI mode)"
+msgstr "Menu Grub (mode EFI)"
+
+#: ../../boot_options.rst:21
+msgid "Isolinux menu (BIOS mode)"
+msgstr "Menu Isolinux (mode BIOS)"
+
+#: ../../boot_options.rst:23
+msgid "If that doesn't work, you can try the ``nomodeset`` boot option."
+msgstr "Jika tidak berfungsi, Anda dapat mencoba pilihan boot ``nomodeset``."
+
+#: ../../boot_options.rst:26
+msgid "Nomodeset boot option"
+msgstr "Pilihan boot Nomodeset"
+
+#: ../../boot_options.rst:28
+msgid ""
+"In EFI mode, highlight the ``Start Linux Mint`` option and press :kbd:`e` to "
+"modify the boot options."
+msgstr ""
+"Pada mode EFI, sorot opsi ``Mulai Linux Mint`` dan tekan :kbd:`e` untuk "
+"mengubah opsi boot."
+
+#: ../../boot_options.rst:34
+msgid ""
+"Replace ``quiet splash`` with ``nomodeset`` and press :kbd:`F10` to boot."
+msgstr ""
+"Ganti ``quiet splash`` dengan ``nomodeset`` dan tekan :kbd:`F10` untuk boot."
+
+#: ../../boot_options.rst:36
+msgid ""
+"In BIOS mode, highlight ``Start Linux Mint`` and press :kbd:`Tab` to modify "
+"the boot options."
+msgstr ""
+"Pada mode BIOS, sorot ``Mulai Linux Mint`` dan tekan :kbd:`Tab` untuk "
+"mengubah opsi boot."
+
+#: ../../boot_options.rst:42
+msgid ""
+"Replace ``quiet splash`` with ``nomodeset`` and press :kbd:`Enter` to boot."
+msgstr ""
+"Ganti ``quiet splash`` dengan ``nomodeset`` dan tekan :kbd:`Enter` untuk "
+"boot."
+
+#: ../../boot_options.rst:45
+msgid ""
+"Repeat this operation post-install in your grub boot menu and read "
+":doc:`drivers` to install additional drivers."
+msgstr ""
+"Ulangi operasi ini setelah pemasangan di menu boot grub Anda dan baca "
+":doc:`drivers` untuk memasang driver tambahan."
+
+#: ../../boot_options.rst:48
+msgid "Other boot options"
+msgstr "Pilihan boot lainnya"
+
+#: ../../boot_options.rst:50
+msgid "If you still cannot boot try one of the following solutions:"
+msgstr "Jika Anda masih belum bisa boot coba salah satu solusi berikut ini:"
+
+#: ../../boot_options.rst:52
+msgid "Try ``nouveau.noaccel=1`` instead of ``nomodeset``."
+msgstr "Coba ``nouveau.noaccel=1`` daripada ``nomodeset``."
+
+#: ../../boot_options.rst:53
+msgid ""
+"After the installation, use :menuselection:`Advanced Options --> Recovery "
+"mode` from the boot menu and choose ``resume``."
+msgstr ""
+"Setelah selesai memasang, gunakan :menuselection:`Advanced Options --> "
+"Recovery mode` dari menu boot dan pilih ``resume``."
+
+#: ../../boot_options.rst:56
+msgid "Install an older release"
+msgstr "Memasang versi lebih lama"
+
+#: ../../boot_options.rst:58
+msgid ""
+"If your computer has compatibility issues with the latest Linux Mint "
+"release, install a previous release from the same Linux Mint series."
+msgstr ""
+"Jika komputer Anda mengalami masalah kompatibilitas dengan Linux Mint "
+"terbaru, pasanglah versi sebelumnya dari seri Linux Mint yang sama."
+
+#: ../../boot_options.rst:60
+msgid ""
+"For instance, if you can't install Linux Mint 18.3 (which comes with a 4.10 "
+"kernel), install Linux Mint 18 (which comes with a 4.4 kernel) and upgrade "
+"to 18.3."
+msgstr ""
+"Sebagai contoh, jika Anda tidak dapat memasang Linux Mint 18.3 (yang datang "
+"dengan kernel 4.10), pasang Linux Mint 18 (yang datang dengan kernel 4.4) "
+"dan tingkatkan ke 18.3."
+
+#: ../../boot_options.rst:63
+msgid ""
+"The first release in each series uses an LTS (Long Term Support) kernel. "
+"Upgrading from this release to the latest one in the series does not change "
+"your kernel."
+msgstr ""
+"Rilis pertama di setiap seri menggunakan kernel LTS (Long Term "
+"Support/Dukungan Jangka Panjang). Meningkatkan dari rilis ini ke yang "
+"terbaru dalam seri yang sama tidak mengubah kernel Anda."
+
+#: ../../boot.rst:2
+msgid "Boot Linux Mint"
+msgstr "Boot Linux Mint"
+
+#: ../../boot.rst:4
+msgid ""
+"Now that you have Linux Mint on a USB stick (or DVD) boot the computer from "
+"it."
+msgstr ""
+"Sekarang Anda memiliki Linux Mint pada USB stick (atau DVD), boot komputer "
+"melalui USB stick."
+
+#: ../../boot.rst:6
+msgid "Insert your USB stick (or DVD) into the computer."
+msgstr "Masukan stik USB (atau DVD) Anda ke komputer."
+
+#: ../../boot.rst:8 ../../drivers.rst:23 ../../efi.rst:61 ../../oem.rst:21
+msgid "Restart the computer."
+msgstr "Nyalakan ulang komputer."
+
+#: ../../boot.rst:10
+msgid ""
+"Before your computer boots your current operating system (Windows, Mac, "
+"Linux) you should see your `BIOS <https://en.wikipedia.org/wiki/BIOS>`_ "
+"loading screen. Check the screen or your computer's documentation to know "
+"which key to press and instruct your computer to boot on USB (or DVD)."
+msgstr ""
+"Sebelum komputer Anda mem-boot sistem operasi Anda (Windows, Mac, Linux) "
+"Anda harus melihat layar pemuatan `BIOS "
+"<https://en.wikipedia.org/wiki/BIOS>`_. Cek layar atau dokumentasi komputer "
+"Anda untuk mengetahui tombol mana yang akan ditekan dan instruksi komputer "
+"Anda untuk boot ke USB (atau DVD)."
+
+#: ../../boot.rst:13
+msgid ""
+"Most BIOS have a special key you can press to select the boot device and all "
+"of them have a special key to enter the BIOS configuration screen (from "
+"which you can define the boot order). Depending on the BIOS, these special "
+"keys can be :kbd:`Escape`, :kbd:`F1`, :kbd:`F2`, :kbd:`F8`, :kbd:`F10`, "
+":kbd:`F11`, :kbd:`F12`, or :kbd:`Delete`. That information is usually "
+"briefly written on the screen during the boot sequence."
+msgstr ""
+"Umumnya BIOS mempunyai tombol spesial yang bisa Anda tekan untuk memilih "
+"kandar boot dan semuanya mempunyai sebuah tombol spesial untuk masuk ke "
+"dalam layar konfigurasi BIOS (dari sana Anda akan menentukan urutan boot). "
+"Tergantung dari BIOS, tombol spesial ini bisa :kbd:`Escape`, :kbd:`F1`, "
+":kbd:`F2`, :kbd:`F8`, :kbd:`F10`, :kbd:`F11`, :kbd:`F12`, atau "
+":kbd:`Delete`. Informasi itu biasanya tertulis di layar selama proses urutan "
+"boot."
+
+#: ../../boot.rst:16
+msgid ""
+"On Macs, keep your finger pressed on the :kbd:`Alt` or :kbd:`Option` key "
+"after hearing the boot sound."
+msgstr ""
+"Di Macs, tetap tekan jari Anda di :kbd:`Alt` atau :kbd:`Option` setelah "
+"mendengar suara boot."
+
+#: ../../boot.rst:18
+msgid ""
+"The Linux Mint ISO can be booted both in EFI or BIOS mode. In EFI mode it "
+"shows a grub menu. In BIOS mode it shows an isolinux menu."
+msgstr ""
+"ISO Linux Mint dapat diboot dengan 2 cara yaitu EFI atau mode BIOS. Di mode "
+"EFI akan menampilkan sebuah menu grub. Di mode BIOS akan menampilkan sebuah "
+"menu isolinux."
+
+#: ../../boot.rst:24
+msgid "The isolinux menu in BIOS mode"
+msgstr "Menu isolinux dalam mode BIOS"
+
+#: ../../boot.rst:30
+msgid "The grub menu in EFI mode"
+msgstr "Menu grub dalam mode EFI"
+
+#: ../../boot.rst:32
+msgid ""
+"From one of these menu, press :kbd:`Enter` to start Linux Mint from your USB "
+"stick (or DVD)."
+msgstr ""
+"Dari salah satu menu ini, tekan :kbd:`Enter` untuk memulai Linux Mint dari "
+"stik USB Anda (atau DVD)."
+
+#: ../../burn.rst:2
+msgid "Create the bootable media"
+msgstr "Membuat media yang dapat di-boot"
+
+#: ../../burn.rst:4
+msgid "The easiest way to install Linux Mint is with a USB stick."
+msgstr ""
+"Cara termudah untuk memasang Linux Mint adalah dengan menggunakan sebuah "
+"stik USB."
+
+#: ../../burn.rst:6
+msgid "If you cannot boot from USB, you can use a blank DVD."
+msgstr ""
+"Jika Anda tidak dapat boot dari USB, Anda dapat menggunakan sebuah DVD "
+"kosong."
+
+#: ../../burn.rst:9
+msgid "How to make a bootable USB stick"
+msgstr "Cara membuat USB stik yang dapat di-boot"
+
+#: ../../burn.rst:12
+msgid "In Linux Mint"
+msgstr "Dalam Linux Mint"
+
+#: ../../burn.rst:14
+msgid ""
+"Right-click the ISO file and select :menuselection:`Make Bootable USB "
+"Stick`, or launch :menuselection:`Menu --> Accessories --> USB Image Writer`."
+msgstr ""
+"Klik kanan pada berkas ISO dan pilih :menuselection:`Buat Stik USB yang "
+"Dapat Di-boot`, atau luncurkan :menuselection:`Menu --> Aksesori --> Penulis "
+"Citra USB`."
+
+#: ../../burn.rst:20
+msgid "Select your USB device and click :guilabel:`Write`."
+msgstr "Pilih perangkat USB Anda dan klik :guilabel:`Tulis`."
+
+#: ../../burn.rst:23
+msgid "In Windows, Mac OS, or other Linux distributions"
+msgstr "Di Windows, Mac OS, atau distribusi Linux lainnya"
+
+#: ../../burn.rst:25
+msgid ""
+"Download `Etcher <https://www.balena.io/etcher/>`_, install it and run it."
+msgstr ""
+"Unduh `Etcher <https://www.balena.io/etcher/>`_, pasang dan jalankan itu."
+
+#: ../../burn.rst:31
+msgid "Using Etcher"
+msgstr "Menggunakan Etcher"
+
+#: ../../burn.rst:33
+msgid "Click :guilabel:`Select image` and select your ISO file."
+msgstr "Klik :guilabel:`Pilih citra` dan pilih berkas ISO Anda."
+
+#: ../../burn.rst:35
+msgid "Click :guilabel:`Select drive` and select your USB stick."
+msgstr "Klik :guilabel:`Pilih kandar` dan pilih stik USB Anda."
+
+#: ../../burn.rst:37
+msgid "Click :guilabel:`Flash!`."
+msgstr "Klik :guilabel:`Flash!`."
+
+#: ../../burn.rst:41
+msgid "How to make a bootable DVD"
+msgstr "Cara membuat sebuah DVD yang dapat di-boot"
+
+#: ../../burn.rst:43
+msgid "Optical discs are slow and burning to disc is prone to errors."
+msgstr ""
+"Piringan optik cenderung lambat dan pembakaran ke piringan cenderung rawan "
+"kesalahan."
+
+#: ../../burn.rst:46
+msgid "To prevent issues, burn at the lowest possible speed."
+msgstr "Untuk mencegah masalah, bakar pada kecepatan selambat mungkin."
+
+#: ../../burn.rst:49
+msgid ""
+"Burn the content of the ISO onto the DVD, not the ISO file itself. When "
+"finished, your DVD should contain directories such as ``boot`` and "
+"``casper``, it shouldn't be an empty DVD containing an .iso file."
+msgstr ""
+"Tulis kandungan dari ISO ke DVD, bukan ISO itu sendiri. Ketika selesai, DVD "
+"Anda seharusnya mengandung direktori seperti ``boot`` dan ``casper``, tidak "
+"seharusnya menjadi kepingan DVD kosong dengan sebuah berkas .iso."
+
+#: ../../burn.rst:52
+msgid "In Linux"
+msgstr "Di Linux"
+
+#: ../../burn.rst:53
+msgid "Install and use ``xfburn``."
+msgstr "Pasang dan gunakan ``xfburn``."
+
+#: ../../burn.rst:56
+msgid "In Windows"
+msgstr "Di Windows"
+
+#: ../../burn.rst:57
+msgid "Right-click the ISO file and select :menuselection:`Burn disk image`."
+msgstr "Klik kanan di berkas ISO dan pilih :menuselection:`Burn disk image`."
+
+#: ../../burn.rst:59
+msgid ""
+"To make sure the ISO was burned without any errors, select "
+":menuselection:`Verify disc after burning`."
+msgstr ""
+"Untuk memastikan berkas ISO tertulis tanpa berbagai masalah, pilih "
+":menuselection:`Verifikasi piringan setelah pembakaran`."
+
+#: ../../burn.rst:62
+msgid "In Mac OS"
+msgstr "Di Mac OS"
+
+#: ../../burn.rst:63
+msgid ""
+"Right-click the ISO file and select :menuselection:`Burn Disk Image to Disc`."
+msgstr ""
+"Klik kanan di berkas ISO dan pilih :menuselection:`Burn Disk Image to Disc`."
+
+#: ../../choose.rst:2
+msgid "Choose the right edition"
+msgstr "Pilih edisi yang tepat"
+
+#: ../../choose.rst:4
+msgid ""
+"You can download Linux Mint from the `Linux Mint website "
+"<https://linuxmint.com/download.php>`_."
+msgstr ""
+"Anda dapat mengunduh Linux Mint dari `Situs Linux Mint "
+"<https://linuxmint.com/download,php>`_."
+
+#: ../../choose.rst:6
+msgid ""
+"Read below to choose which edition and architecture are right for you."
+msgstr ""
+"Baca bagian bawah untuk memilih edisi mana dan arsitektur yang cocok untuk "
+"Anda."
+
+#: ../../choose.rst:9
+msgid "Cinnamon, MATE or Xfce?"
+msgstr "Cinnamon, MATE, atau Xfce?"
+
+#: ../../choose.rst:11
+msgid ""
+"Linux Mint comes in 3 different flavours, each featuring a different desktop "
+"environment."
+msgstr ""
+"Linux Mint datang dalam 3 rasa berbeda, masing-masing menawarkan lingkungan "
+"desktop yang berbeda."
+
+#: ../../choose.rst:14 ../../choose.rst:26
+msgid "Cinnamon"
+msgstr "Cinnamon"
+
+#: ../../choose.rst:14
+msgid "The most modern, innovative and full-featured desktop"
+msgstr "Sangat modern, inovatif, dan desktop penuh-fitur"
+
+#: ../../choose.rst:15 ../../choose.rst:35
+msgid "MATE"
+msgstr "MATE"
+
+#: ../../choose.rst:15
+msgid "A more traditional, and faster desktop"
+msgstr "Desktop yang lebih tradisional dan lebih cepat"
+
+#: ../../choose.rst:16 ../../choose.rst:44
+msgid "Xfce"
+msgstr "Xfce"
+
+#: ../../choose.rst:16
+msgid "The most lightweight desktop"
+msgstr "Desktop paling ringan"
+
+#: ../../choose.rst:19
+msgid ""
+"The most popular version of Linux Mint is the Cinnamon edition. Cinnamon is "
+"primarily developed for and by Linux Mint. It is slick, beautiful, and full "
+"of new features."
+msgstr ""
+"Versi paling terkenal dari Linux Mint adalah versi edisi Cinnamon. Cinnamon "
+"pertama kali dikembangkan untuk dan oleh Linux Mint. Sangat halus, cantik, "
+"dan penuh dengan fitur baru."
+
+#: ../../choose.rst:28
+msgid ""
+"Linux Mint is also involved in the development of MATE, a classic desktop "
+"environment which is the continuation of GNOME 2, Linux Mint's default "
+"desktop between 2006 and 2011. Although it misses a few features and its "
+"development is slower than Cinnamon's, MATE uses less resources and can run "
+"faster on older computers."
+msgstr ""
+"Linux Mint juga terlibat dalam pengembangan MATE, lingkungan desktop klasik "
+"yang merupakan kelanjutan dari GNOME 2, desktop baku Linux Mint antara tahun "
+"2006 dan 2011. Meskipun kehilangan beberapa fitur dan perkembangannya lebih "
+"lambat daripada Cinnamon, MATE menggunakan lebih sedikit sumber daya. dan "
+"dapat berjalan lebih cepat pada komputer lama."
+
+#: ../../choose.rst:37
+msgid ""
+"Xfce is a lightweight desktop environment. It doesn't support as many "
+"features as Cinnamon or MATE, but it's extremely stable and very light on "
+"resource usage."
+msgstr ""
+"Xfce adalah sebuah lingkungan desktop yang ringan. Tidak mendukung fitur "
+"sebanyak seperti pada Cinnamon atau MATE, tetapi sangat stabil dan ringan "
+"dalam penggunaannya."
+
+#: ../../choose.rst:46
+msgid ""
+"Of course, all three desktops are great and Linux Mint is extremely proud of "
+"each edition. Although there are more features and better support in some "
+"editions than others, and some do run faster and use less resources than "
+"others, they're all great alternatives and choosing the right edition is "
+"largely a matter of taste."
+msgstr ""
+"Tentu saja, ketiga desktop tersebut hebat dan Linux Mint sangat bangga dalam "
+"setiap rilisnya. Meskipun ketiga desktop tersebut penuh dengan fitur dan "
+"dukungan lebih baik di beberapa edisi dibandingkan dengan yang lainnya, dan "
+"beberapa berjalan lebih cepat dan menggunakan sumber daya lebih sedikit "
+"dibandingkan dengan yang lainnya, semuanya adalah alternatif hebat dan "
+"memilih edisi yang tepat adalah masalah selera."
+
+#: ../../choose.rst:48
+msgid ""
+"Other than their features and performance, Cinnamon, MATE and Xfce also "
+"represent three different desktop environments, with different menus, "
+"different panels and configuration tools. The right one for you is the one "
+"where you feel at home."
+msgstr ""
+"Selain fitur dan kinerja, Cinnamon, MATE, dan Xfce mewakili tiga lingkungan "
+"dekstop yang berbeda, dengan menu yang berbeda, panel dan peralatan "
+"konfigurasi yang berbeda. Yang tepat untuk Anda adalah yang membuat Anda "
+"merasa nyaman serasa di rumah."
+
+#: ../../choose.rst:50
+msgid ""
+"If you are unsure which desktop to choose start with the Cinnamon edition. "
+"Try them all eventually when you have the time. All three of them have their "
+"own audience within the Linux Mint community and they're all very popular."
+msgstr ""
+"Jika Anda tidak yakin dengan desktop mana yang akan Anda gunakan mulailah "
+"dengan edisi Cinnamon. Coba mereka semua ketika Anda mempunyai banyak waktu. "
+"Ketiganya mempunyai penggemarnya masing-masing di komunitas Linux Mint dan "
+"mereka semua sangat populer."
+
+#: ../../choose.rst:54
+msgid "32-bit or 64-bit?"
+msgstr "32-bit atau 64-bit?"
+
+#: ../../choose.rst:56
+msgid "From version 20 onward, only 64-bit is available."
+msgstr "Dari versi 20 dan seterusnya, hanya 64-bit yang tersedia."
+
+#: ../../choose.rst:58
+msgid ""
+"The 32-bit ISO images on prior versions are provided for compatibility with "
+"older computers. 32-bit processors are extremely rare nowadays and most "
+"computers are able to run in 64-bit. If your computer was manufactured after "
+"2007, you probably have a 64-bit processor."
+msgstr ""
+"Citra ISO 32-bit pada versi sebelumnya disediakan untuk kompatibilitas "
+"dengan komputer lama. Prosesor 32-bit sangat langka saat ini dan sebagian "
+"besar komputer dapat berjalan dalam 64-bit. Jika komputer Anda diproduksi "
+"setelah tahun 2007, Anda mungkin memiliki prosesor 64-bit."
+
+#: ../../choose.rst:60
+msgid ""
+"If you have an old computer and you are unsure whether or not it can run in "
+"64-bit, read `X86 Chronology "
+"<https://en.wikipedia.org/wiki/X86#Chronology>`_."
+msgstr ""
+"Jika Anda memiliki komputer tua dan Anda tidak yakin bisa atau tidak "
+"menjalankan 64-bit, bacalah `Kronologi X86 "
+"<https://en.wikipedia.org/wiki/X86#Chronology>`_."
+
+#: ../../choose.rst:63
+msgid ""
+"You can try to boot Linux Mint 64-bit on your computer. If it isn't "
+"compatible, nothing bad will happen. You will just get an error message."
+msgstr ""
+"Anda dapat mencoba mem-boot Linux Mint 64-bit di komputer Anda. Jika memang "
+"tidak kompatibel, sesuatu yang buruk tidak akan terjadi. Yang Anda dapatkan "
+"hanya sebuah pesan kesalahan."
+
+#: ../../choose.rst:66
+msgid ""
+"If you cannot boot or install Linux Mint because your hardware is too recent "
+"and is not properly detected see the `Edge ISO Images <https://linuxmint-"
+"user-guide.readthedocs.io/en/latest/edge.html>`_ chapter in the Linux Mint "
+"User Guide for an alternative ISO."
+msgstr ""
+"Bila Anda tidak bisa mem-boot atau memasang Linux Mint karena perangkat "
+"keras Anda terlalu kekinian dan tidak terdeteksi dengan benar, lihat bab "
+"`Edge ISO Images <https://linuxmint-user-"
+"guide.readthedocs.io/en/latest/edge.html>`_ dalam Panduan Pengguna Linux "
+"Mint untuk ISO alternatif."
+
+#: ../../codecs.rst:2
+msgid "Multimedia codecs"
+msgstr "Kodek multimedia"
+
+#: ../../codecs.rst:4
+msgid "Some multimedia content requires additional codecs to be installed."
+msgstr "Beberapa multimedia membutuhkan kodek tambahan untuk dipasang."
+
+#: ../../codecs.rst:7
+msgid ""
+"If you were online when installing Linux Mint and you ticked the option to "
+"install these codecs, they are already installed."
+msgstr ""
+"Jika Anda sedang daring ketika memasang Linux Mint dan Anda mencentang opsi "
+"untuk memasang kodek ini, semuanya sudah siap terpasang."
+
+#: ../../codecs.rst:9
+msgid ""
+"Launch :menuselection:`Menu --> Sound & Video --> Install Multimedia Codecs`."
+msgstr ""
+"Jalankan :menuselection:`Menu --> Suara & Video --> Pasang Kodek Multimedia`."
+
+#: ../../codecs.rst:14
+msgid "Click :guilabel:`Install`."
+msgstr "Klik :guilabel:`Pasang`."
+
+#: ../../codecs.rst:16
+msgid ""
+"Enter your password and wait for the codecs to be installed on your computer."
+msgstr ""
+"Masukan kata sandi Anda dan tunggu hingga kodek terpasang di komputer Anda."
+
+#: ../../drivers.rst:2
+msgid "Hardware drivers"
+msgstr "Driver perangkat keras"
+
+#: ../../drivers.rst:4
+msgid ""
+"One of the first things to do after installing Linux Mint is to check for "
+"available hardware drivers."
+msgstr ""
+"Satu dari hal pertama yang harus dilakukan setelah memasang Linux Mint "
+"adalah untuk memeriksa driver perangkat keras yang tersedia."
+
+#: ../../drivers.rst:6
+msgid "Launch :menuselection:`Menu --> Administration --> Driver Manager`."
+msgstr "Luncurkan :menuselection:`Menu --> Administrasi --> Manajer Driver`."
+
+#: ../../drivers.rst:13
+msgid ""
+"If you are offline, the Driver Manager will complain that it cannot connect "
+"to the Internet."
+msgstr ""
+"Jika Anda sedang luring, Manajer Driver akan mengeluh ketika tidak dapat "
+"terhubung ke Internet."
+
+#: ../../drivers.rst:19
+msgid ""
+"Insert your bootable Linux Mint USB stick (or DVD), wait for it to be "
+"mounted, and click :guilabel:`OK`."
+msgstr ""
+"Masukan stik Linux Mint Anda (atau DVD), tunggu sampai itu dikait, dan klik "
+":guilabel:`OK`."
+
+#: ../../drivers.rst:21
+msgid ""
+"Tick the appropriate checkboxes to select the available drivers and click "
+":guilabel:`Apply Changes`."
+msgstr ""
+"Tandai pilihan kotak centang yang sesuai untuk memilih driver yang tersedia "
+"dan klik :guilabel:`Terapkan Perubahan`."
+
+#: ../../efi.rst:2
+msgid "EFI"
+msgstr "EFI"
+
+#: ../../efi.rst:5
+msgid "SecureBoot"
+msgstr "SecureBoot"
+
+#: ../../efi.rst:7
+msgid ""
+"If after installing Linux Mint in EFI mode, you are unable to boot due to a "
+"``Secure Boot Violation``, you can try one of the following solutions:"
+msgstr ""
+"Jika setelah memasang Linux Mint di mode EFI, Anda tidak dapat boot "
+"dikarenakan sebuah ``Pelanggaran Boot Aman``, Anda dapat mencoba salah satu "
+"solusi berikut ini:"
+
+#: ../../efi.rst:15
+msgid "Restart the installation:"
+msgstr "Mulai ulang pemasangan:"
+
+#: ../../efi.rst:14
+msgid "Connect to the Internet before the installation"
+msgstr "Hubungkan ke Internet sebelum pemasangan"
+
+#: ../../efi.rst:15
+msgid ""
+"**Do not** select ``Install third-party software for graphics and Wi-Fi "
+"hardware, Flash, MP3 and other media``."
+msgstr ""
+"**Jangan** pilih ``Pasang perangkat lunak pihak ketiga untuk perangkat keras "
+"grafis dan Wi-Fi, Flash, MP3 dan media lainnya``."
+
+#: ../../efi.rst:17
+msgid "Disable ``SecureBoot`` in the ``BIOS`` settings of your computer."
+msgstr ""
+"Non-aktifkan ``SecureBoot`` di dalam pengaturan ``BIOS`` dari komputer Anda."
+
+#: ../../efi.rst:20
+msgid ""
+"For examples of how to disable secure boot on various computers, read "
+"`Managing EFI Boot Loaders for Linux: Dealing with Secure Boot "
+"<http://www.rodsbooks.com/efi-bootloaders/secureboot.html>`_."
+msgstr ""
+"Sebagai contoh bagaimana caranya menonaktifkan secure boot di beberapa "
+"variasi komputer, baca `Memanajemen Boot Loader EFI untuk Linux: Berurusan "
+"dengan Secure Boot <http://www.rodsbooks.com/efi-"
+"bootloaders/secureboot.html>`_."
+
+#: ../../efi.rst:23
+msgid "EFI boot order"
+msgstr "Urutan boot EFI"
+
+#: ../../efi.rst:25
+msgid ""
+"If after installing Linux Mint in EFI mode, your computer skips the boot "
+"menu and boots straight into Windows (or another operating system), you "
+"probably have an issue with the boot order."
+msgstr ""
+"Jika setelah pemasangan Linux Mint di mode EFI, komputer Anda melewati menu "
+"boot dan langsung boot ke Windows (atau sistem operasi lainnya), mungkin "
+"Anda mempunyai persoalan dengan urutan boot."
+
+#: ../../efi.rst:27
+msgid "To modify the boot order:"
+msgstr "Untuk memodifikasi urutan boot:"
+
+#: ../../efi.rst:29 ../../multiboot.rst:18
+msgid "Boot Linux Mint in ``live`` mode (with your USB stick or DVD)."
+msgstr "Boot Linux Mint di mode ``live`` (dengan stik USB atau DVD)."
+
+#: ../../efi.rst:31 ../../multiboot.rst:20
+msgid "Open a terminal."
+msgstr "Buka sebuah terminal."
+
+#: ../../efi.rst:33
+msgid "Type ``sudo efibootmgr`` and press :kbd:`Enter`."
+msgstr "Ketik ``sudo efibootmgr`` dan tekan :kbd:`Enter`."
+
+#: ../../efi.rst:35
+msgid "This command lists the available boot options and the boot order."
+msgstr ""
+"Perintah ini menampilkan daftar opsi boot yang tersedia dan urutan boot."
+
+#: ../../efi.rst:41
+msgid "In the screenshot above, there are three boot options:"
+msgstr "Dalam tangkapan layar di bawah ini, ada tiga pilihan boot:"
+
+#: ../../efi.rst:43
+msgid "``ubuntu`` at ``0000``"
+msgstr "``ubuntu`` pada ``0000``"
+
+#: ../../efi.rst:44
+msgid "``linuxmint`` at ``0001``"
+msgstr "``linuxmint`` pada ``0001``"
+
+#: ../../efi.rst:45
+msgid "``Mac OS X`` at ``0081``"
+msgstr "``Mac OS X`` pada ``0081``"
+
+#: ../../efi.rst:47
+msgid ""
+"The boot order is ``0081``. This indicates that the computer only tries to "
+"boot Mac OS and not Linux Mint."
+msgstr ""
+"Boot order adalah ``0081``. Ini mengindikasikan bahwa komputer hanya mencoba "
+"boot OS Mac dan bukan Linux Mint."
+
+#: ../../efi.rst:50
+msgid ""
+"For technical reasons Linux Mint uses ``ubuntu`` as its EFI boot name."
+msgstr ""
+"Untuk alasan teknis Linux Mint menggunakan ``ubuntu`` sebagai nama boot EFI."
+
+#: ../../efi.rst:53
+msgid ""
+"To fix the boot order, type ``sudo efibootmgr --bootorder XXXX,YYYY`` (where "
+"``XXXX`` and ``YYYY`` are the operating system boot options you want to "
+"boot)."
+msgstr ""
+"Untuk memperbaiki urutan boot, ketik ``sudo efibootmgr --bootorder "
+"XXXX,YYYY`` (dimana ``XXXX`` dan ``YYYY`` adalah pilihan boot sistem operasi "
+"yang ingin Anda boot)."
+
+#: ../../efi.rst:59
+msgid ""
+"In the screenshot above, ``sudo efibootmgr --bootorder 0000,0081`` instructs "
+"the computer to first try to boot Linux Mint (``ubuntu`` being the EFI boot "
+"name for Linux Mint), and then Mac OS."
+msgstr ""
+"Dalam tangkapan layar dibawah ini, ``sudo efibootmgr --bootorder 0000,0081`` "
+"menginstruksikan komputer untuk pertama kali mencoba untuk boot ke Linux "
+"Mint (``ubuntu`` menjadi nama boot EFI untuk Linux Mint), dan kemudian Mac "
+"OS."
+
+#: ../../efi.rst:64
+msgid ""
+"In the screenshot above ``0000`` is the first boot option so the computer "
+"boots on the Linux Mint grub menu. If grub fails (or if it is dismissed with "
+"the ``exit`` command), the computer follows the boot order and then tries to "
+"boot ``0081``, which corresponds to Mac OS."
+msgstr ""
+"Pada tangkapan layar di atas ``0000`` adalah opsi boot pertama sehingga "
+"komputer melakukan boot pada menu grub Linux Mint. Jika grub gagal (atau "
+"jika ditutup dengan perintah ``exit``), komputer mengikuti urutan boot dan "
+"kemudian mencoba untuk mem-boot ``0081``, yang sesuai dengan Mac OS."
+
+#: ../../help.rst:2
+msgid "Where to find help"
+msgstr "Di mana dapat menemukan bantuan"
+
+#: ../../help.rst:4
+msgid ""
+"Many users will be glad to help you and guide you through your first steps "
+"with Linux if you are nice and patient with them and if you give them the "
+"information they require to understand the issues you are facing."
+msgstr ""
+"Banyak pengguna merasa senang untuk membantu dan memandu Anda melalui "
+"langkah pertama dengan Linux jika Anda baik dan sabar dengan mereka dan jika "
+"Anda memberikan mereka informasi yang mereka butuhkan untuk memahami "
+"persoalan yang Anda hadapi."
+
+#: ../../help.rst:7
+msgid "The forums"
+msgstr "Forum"
+
+#: ../../help.rst:9
+msgid ""
+"The best place to find help is on the `Linux Mint Forums "
+"<https://forums.linuxmint.com>`_."
+msgstr ""
+"Tempat terbaik untuk menemukan bantuan adalah di `Forum Linux Mint "
+"<https://forums.linuxmint.com>`_."
+
+#: ../../help.rst:12
+msgid ""
+"Search the forums before asking, in case someone else already asked the same "
+"question."
+msgstr ""
+"Cari di forum sebelum bertanya, kalau saja orang lain telah mengajukan "
+"pertanyaan yang sama."
+
+#: ../../help.rst:15
+msgid "The chat room"
+msgstr "Ruang obrolan"
+
+#: ../../help.rst:17
+msgid "Another great place to find help is in the IRC chat room."
+msgstr ""
+"Salah satu tempat yang bagus untuk meminta bantuan adalah di ruang obrolan "
+"IRC."
+
+#: ../../help.rst:19
+msgid ""
+"To reach the chat room from within Linux Mint, launch :menuselection:`Menu --"
+"> Internet --> HexChat`."
+msgstr ""
+"Untuk mengakses ruang obrolan dari Linux Mint, luncurkan "
+":menuselection:`Menu --> Internet --> HexChat`."
+
+#: ../../help.rst:21
+msgid ""
+"If you are using another operating system, you can use `Kiwiirc "
+"<https://kiwiirc.com/client/irc.spotchat.org/?i#linuxmint-help>`_ to connect "
+"to the chat room."
+msgstr ""
+"Jika Anda menggunakan sistem operasi lainnya, Anda dapat menggunakan "
+"`Kiwiirc <https://kiwiirc.com/client/irc.spotchat.org/?i#linuxmint-help>`_ "
+"untuk dapat terhubung dengan ruang obrolan tersebut."
+
+#: ../../help.rst:24
+msgid ""
+"Many people are connected to the chat room but only look at it now and then. "
+"Be patient after asking a question. Don't repeat it and stay connected until "
+"you get an answer. It can sometimes take a few hours for somebody to see "
+"your question and reply to you. Don't quit after a few minutes. It is "
+"frustrating to you, but also to others who later see your question and are "
+"unable to reply because you already left."
+msgstr ""
+"Banyak orang yang terhubung dengan ruang obrolan, namun hanya sepintas "
+"melihat. Mohon bersabar setelah menanyakan pertanyaan. Jangan mengulang "
+"pertanyaan dan tetap terhubung sampai Anda mendapatkan jawaban. Kadang-"
+"kadang hal ini dapat memakan waktu beberapa jam, sampai ada yang melihat "
+"pertanyaan Anda dan menjawabnya. Jangan keluar setelah beberapa menit. "
+"Mungkin hal ini menyebalkan, tapi juga menyebalkan untuk orang yang kemudian "
+"membaca pertanyaan Anda namun tidak dapat menjawabnya karena Anda telah "
+"keluar ruang obrolan."
+
+#: ../../help.rst:27
+msgid ""
+"If you are using Hexchat, you can minimize it to tray by clicking its status "
+"icon. People will often mention your nickname when replying to you. When "
+"they do, your Hexchat status icon will blink to catch your attention."
+msgstr ""
+"Jika Anda menggunakan Hexchat, Anda dapat meminimalkannya ke baki dengan "
+"mengklik ikon statusnya. Orang-orang akan sering menyebut nama panggilan "
+"Anda saat menjawab Anda. Saat mereka melakukannya, ikon status Hexchat Anda "
+"akan berkedip untuk menarik perhatian Anda."
+
+#: ../../help.rst:30
+msgid "Community resources"
+msgstr "Sumberdaya komunitas"
+
+#: ../../help.rst:32
+msgid ""
+"The `tutorials section <https://community.linuxmint.com/tutorial/search>`_ "
+"is useful to find tutorials about Linux Mint."
+msgstr ""
+"`Bagian tutorial <https://community.linuxmint.com/tutorial/search>`_ berguna "
+"unuk mencari tutorial seputar Linux Mint."
+
+#: ../../help.rst:34
+msgid ""
+"The `hardware database <https://community.linuxmint.com/hardware/search>`_ "
+"is useful to find compatible hardware."
+msgstr ""
+"`Basis data perangkat keras "
+"<https://community.linuxmint.com/hardware/search>`_ berguna untuk menemukan "
+"perangkat keras yang sesuai."
+
+#: ../../help.rst:37
+msgid "Local communities"
+msgstr "Komunitas lokal"
+
+#: ../../help.rst:39
+msgid ""
+"To find help in your language, use the `Local Communities "
+"<https://www.linuxmint.com/links.php>`_."
+msgstr ""
+"Untuk mendapatkan bantuan dalam bahasa Anda, gunakan `Komunitas Lokal "
+"<https://www.linuxmint.com/links.php>`_."
+
+#: ../../index.rst:2
+msgid "Linux Mint Installation Guide"
+msgstr "Panduan Instalasi Linux Mint"
+
+#: ../../index.rst:8
+msgid ""
+"Linux Mint comes in the form of an ISO image (an .iso file) which can be "
+"used to make a bootable DVD or a bootable USB stick."
+msgstr ""
+"Linux Mint hadir dalam bentuk ISO image (berkas .iso) yang dapat digunakan "
+"untuk membuat DVD yang dapat di-boot atau stik USB yang dapat di-boot."
+
+#: ../../index.rst:10
+msgid ""
+"This guide will help you download the right ISO image, create your bootable "
+"media and install Linux Mint on your computer."
+msgstr ""
+"Panduan ini akan membantu Anda mengunduh ISO image yang tepat, membuat media "
+"yang dapat di-boot, dan memasang Linux Mint di komputer Anda."
+
+#: ../../index.rst:12 ../../sections.rst:5
+msgid "Download"
+msgstr "Unduh"
+
+#: ../../index.rst:19 ../../sections.rst:7
+msgid "Live Boot"
+msgstr "Live Boot"
+
+#: ../../index.rst:26 ../../sections.rst:9
+msgid "Installation"
+msgstr "Pemasangan"
+
+#: ../../index.rst:32 ../../sections.rst:11
+msgid "Post-installation"
+msgstr "Pasca-pemasangan"
+
+#: ../../index.rst:41 ../../sections.rst:13
+msgid "Troubleshooting"
+msgstr "Penanganan Masalah"
+
+#: ../../index.rst:48 ../../sections.rst:15
+msgid "Frequently Asked Questions"
+msgstr "Pertanyaan Yang Sering Muncul"
+
+#: ../../install.rst:2
+msgid "Install Linux Mint"
+msgstr "Pasang Linux Mint"
+
+#: ../../install.rst:5
+msgid "The live session"
+msgstr "Sesi langsung"
+
+#: ../../install.rst:7
+msgid ""
+"When you boot the computer from the USB stick (or DVD), Linux Mint starts a "
+"``live session``. It logs you in automatically as a user called ``mint`` and "
+"shows you a desktop with the installer on it:"
+msgstr ""
+"Jika Anda mem-boot dari USB (atau DVD), Linux Mint akan memulai ``sesi "
+"langsung/live session``. Anda akan masuk secara otomatis sebagai pengguna "
+"``mint`` dan menampilkan desktop Anda dengan penginstal di dalamnya:"
+
+#: ../../install.rst:13
+msgid "The Linux Mint live session"
+msgstr "Sesi langsung Linux Mint"
+
+#: ../../install.rst:15
+msgid ""
+"The ``live session`` is similar to a normal session (i.e. to Linux Mint once "
+"it is permanently installed on the computer), but with the following "
+"exceptions:"
+msgstr ""
+"``sesi Langsung`` mirip dengan sesi normal (dengan kata lain: Sama seperti "
+"Linux Mint setelah dipasang secara permanen di komputer), tetapi dengan "
+"pengecualian berikut:"
+
+#: ../../install.rst:17
+msgid ""
+"The Live session is slower (it is loaded from a USB stick or DVD as opposed "
+"to a SSD or HDD)."
+msgstr ""
+"Sesi Langsung lebih lambat (dimuat dari stik USB atau DVD sebagai lawan dari "
+"SSD atau HDD)."
+
+#: ../../install.rst:18
+msgid ""
+"Changes you make in the live session are not permanent. They are not written "
+"to the USB stick (or DVD) and they do not impact the system installed by the "
+"installer."
+msgstr ""
+"Perubahan yang Anda buat dalam sesi langsung tidak permanen. Mereka tidak "
+"ditulis ke stik USB (atau DVD) dan tidak mempengaruhi sistem yang dipasang "
+"oleh pemasang."
+
+#: ../../install.rst:19
+msgid ""
+"Some applications work differently (or not at all) in the live session "
+"(Timeshift, Flatpak, Update Manager, Welcome Screen..etc.)."
+msgstr ""
+"Beberapa aplikasi bekerja secara berbeda (atau tidak sama sekali) dalam sesi "
+"langsung (Timeshift, Flatpak, Manajer Pembaruan, Layar Selamat Datang..dll.)."
+
+#: ../../install.rst:22
+msgid ""
+"The username for the live session is ``mint``. If asked for a password press "
+":kbd:`Enter`."
+msgstr ""
+"Nama pengguna untuk sesi langsung adalah \"mint\". jika diminta kata sandi, "
+"tekan :kbd:`Enter`."
+
+#: ../../install.rst:25
+msgid "Installing Linux Mint on the computer"
+msgstr "Memasang Linux Mint di komputer"
+
+#: ../../install.rst:27
+msgid "To permanently install Linux Mint on your computer:"
+msgstr "Untuk memasang Linux Mint pada komputer Anda secara permanen:"
+
+#: ../../install.rst:29
+msgid "Double-click :guilabel:`Install Linux Mint`."
+msgstr "Klik gamda pada :guilabel:`Pasang Linux Mint`."
+
+#: ../../install.rst:31
+msgid "Select your language."
+msgstr "Pilih bahasa Anda."
+
+#: ../../install.rst:37
+msgid "Connect to the Internet."
+msgstr "Hubungkan ke Internet."
+
+#: ../../install.rst:43
+msgid ""
+"If you are connected to the Internet, tick the box to install the multimedia "
+"codecs."
+msgstr ""
+"Bila Anda terhubung ke Internet, centang kotak untuk memasang kodek "
+"multimedia."
+
+#: ../../install.rst:49
+msgid "Choose an installation type."
+msgstr "Pilih tipe instalasi."
+
+#: ../../install.rst:55
+msgid ""
+"If Linux Mint is the only operating system you want to run on this computer "
+"and all data can be lost on the hard drive, choose :guilabel:`Erase disk and "
+"install Linux Mint`."
+msgstr ""
+"Bila Linux Minta adalah satu-satunya sistem operasi yang Anda jalankan dan "
+"seluruh data di hard disk dapat dihilangkan, pilih :guilabel:`Hapus disk dan "
+"pasang Linux Mint`."
+
+#: ../../install.rst:58
+msgid ""
+":guilabel:`Encrypt the new Linux Mint installation for security` refers to "
+"full disk encryption. At this stage of the installation your keyboard layout "
+"wasn't yet selected so it is set to en_US. If you decide to use this option, "
+"keep this in mind when entering a password. Note that there are issues with "
+"this option and some NVIDIA drivers. If you are new to Linux use home "
+"directory encryption instead (you can select it later during the "
+"installation)."
+msgstr ""
+":guilabel:`Enkripsi pemasangan Linux Mint baru untuk keamanan` mengacu pada "
+"enkripsi seluruh disk. Pada tahap pemasangan ini, tata letak papan kektik "
+"Anda belum dipilih sehingga disetel ke en_US. Jika Anda memutuskan untuk "
+"menggunakan opsi ini, ingatlah ini saat memasukkan kata sandi. Perhatikan "
+"bahwa ada masalah dengan opsi ini dan beberapa driver NVIDIA. Jika Anda baru "
+"mengenal Linux, gunakan enkripsi direktori home sebagai gantinya (Anda dapat "
+"memilihnya nanti selama pemasangan)."
+
+#: ../../install.rst:60
+msgid ""
+"If another operating system is present on the computer, the installer shows "
+"you an option to install Linux Mint alongside it. If you choose this option, "
+"the installer automatically resizes your existing operating system, makes "
+"room and installs Linux Mint beside it. A boot menu is set up to choose "
+"between the two operating systems each time you start your computer."
+msgstr ""
+"Jika ada sistem operasi lain di komputer, pemasang menunjukkan opsi untuk "
+"memasang Linux Mint di sampingnya. Jika Anda memilih opsi ini, pemasang "
+"secara otomatis mengubah ukuran sistem operasi Anda yang ada, menyiapkan "
+"ruang dan memasang Linux Mint di sampingnya. Menu boot disiapkan untuk "
+"memilih di antara dua sistem operasi setiap kali Anda memulai komputer."
+
+#: ../../install.rst:64
+msgid ""
+"If you want to manage the partitions or specify which partitions to use, "
+"select :guilabel:`Something else`."
+msgstr ""
+"Jika Anda ingin mengelola partisi atau menentukan partisi mana yang akan "
+"digunakan, pilih :guilabel:`Lainnya`."
+
+#: ../../install.rst:70
+msgid ""
+"Linux Mint requires one partition to be mounted on the root ``/`` directory."
+msgstr ""
+"Linux Mint membutuhkan satu partisi yang dikait ke direktori root ``/``."
+
+#: ../../install.rst:72
+msgid ""
+"The Linux Mint operating system (without additional software or personal "
+"data) takes roughly 15GB, so give this partition a decent size (100GB or "
+"more)."
+msgstr ""
+"Sistem operasi Linux Mint (tanpa tambahan perangkat lunak atau data "
+"personal) membutuhkan ruang 15GB, jadi berikan partisi ini ukuran yang layak "
+"(100GB atau lebih)."
+
+#: ../../install.rst:74
+msgid "``ext4`` is recommended. It is the most popular Linux filesystem."
+msgstr ""
+"Direkomendasikan ``ext4``. Yang merupakan sistem berkas Linux yang paling "
+"populer."
+
+#: ../../install.rst:79
+msgid ""
+"Also create a ``swap`` partition. This partition is used for hibernation and "
+"as a safety buffer in case your computer runs out of RAM. Give this "
+"partition a size equal to the amount of RAM in your computer."
+msgstr ""
+"Buat juga partisi ``swap``. Partisi ini digunakan untuk hibernasi dan "
+"sebagai penyangga keamanan jika komputer Anda kehabisan RAM. Beri partisi "
+"ini ukuran yang sama dengan besarnya RAM di komputer Anda."
+
+#: ../../install.rst:81
+msgid "Select your timezone"
+msgstr "Pilih zona waktu Anda"
+
+#: ../../install.rst:87
+msgid "Select your keyboard layout"
+msgstr "Pilih tata letak papan ketik Anda"
+
+#: ../../install.rst:93
+msgid "Enter your user details"
+msgstr "Masukkan detail pengguna Anda"
+
+#: ../../install.rst:99
+msgid ""
+"Your ``name`` can be your real name, but it doesn't have to be. It is only "
+"used locally, in the screensaver and on the login screen."
+msgstr ""
+"``nama`` Anda bisa menggunakan nama asli, tetapi tidak harus. Ini hanya "
+"digunakan untuk lokal (komputer saja), di screensaver dan di layar login."
+
+#: ../../install.rst:101
+msgid ""
+"Your ``username`` is what you log in as, and your ``hostname`` is the name "
+"of your computer on the network."
+msgstr ""
+"``username`` Anda adalah yang Anda gunakan untuk masuk (login), dan "
+"``hostname`` Anda adalah nama dari komputer Anda di jaringan."
+
+#: ../../install.rst:103
+msgid ""
+"To prevent bugs only use lowercase characters, with no punctuation or "
+"accentuation."
+msgstr ""
+"Untuk mencegah bug hanya gunakan karakter huruf kecil, tanpa tanda baca atau "
+"aksentuasi."
+
+#: ../../install.rst:105
+msgid ""
+"To protect your personal data against local attacks (people around you, or "
+"in case your computer gets stolen), tick :guilabel:`Encrypt my home folder`."
+msgstr ""
+"Untuk memproteksi data pribadi Anda dari serangan lokal (orang-orang di "
+"sekitar Anda, atau bilamana komputer Anda dicuri), centang "
+":guilabel:`Enkripsi folder Home saya`."
+
+#: ../../install.rst:107
+msgid "Choose a strong password."
+msgstr "Pilih kata sandi yang kuat."
+
+#: ../../install.rst:109
+msgid "Enjoy the slideshow while Linux Mint is installed on your computer."
+msgstr ""
+"Saksikan tayangan salindia selagi Linux Mint sedang dipasang pada komputer "
+"Anda."
+
+#: ../../install.rst:115
+msgid "When the installation is finished, click :guilabel:`Restart Now`."
+msgstr "Ketika Instalasi selesai klik :guilabel:`Mulai Ulang Sekarang`."
+
+#: ../../install.rst:121
+msgid ""
+"The computer will then start to shut down and ask you to remove the USB disk "
+"(or DVD). Upon reboot, your computer should show you a boot menu or start "
+"your newly installed Linux Mint operating system."
+msgstr ""
+"Komputer kemudian akan mulai dimatikan dan meminta Anda untuk melepaskan "
+"disk USB (atau DVD). Setelah boot ulang, komputer Anda akan menampilkan menu "
+"boot atau memulai sistem operasi Linux Mint yang baru dipasang."
+
+#: ../../locales.rst:2
+msgid "Language support"
+msgstr "Dukungan bahasa"
+
+#: ../../locales.rst:4
+msgid ""
+"Language support includes translations but also packages related to spell-"
+"checking, synonyms, hyphenation and dictionaries which enhance your "
+"experience in software applications such as LibreOffice."
+msgstr ""
+"Dukungan bahasa termasuk terjemahan tetapi juga paket yang terkait dengan "
+"pemeriksaan ejaan, sinonim, pemutusan suku kata, dan kamus yang meningkatkan "
+"pengalaman Anda dalam aplikasi perangkat lunak seperti LibreOffice."
+
+#: ../../locales.rst:6
+msgid "Launch :menuselection:`Menu --> Preferences --> Languages`."
+msgstr "Luncurkan :menuselection:`Menu --> Preferensi --> Bahasa`."
+
+#: ../../locales.rst:12
+msgid "Click :guilabel:`Install / Remove Language`."
+msgstr "Klik :guilabel:`Pasang / Hapus Bahasa`."
+
+#: ../../locales.rst:18
+msgid ""
+"If beside your locale, you see a label saying ``Some language packs are "
+"missing``, select your locale and click :guilabel:`Install language packs`."
+msgstr ""
+"Jika di samping lokal Anda, Anda melihat label yang bertuliskan ``Beberapa "
+"paket bahasa hilang``, pilih lokal Anda dan klik :guilabel:`Pasang paket "
+"bahasa`."
+
+#: ../../multiboot.rst:2
+msgid "Multi-boot"
+msgstr "Multi-boot"
+
+#: ../../multiboot.rst:5
+msgid "Always install Windows first"
+msgstr "Selalu pasang Windows dulu"
+
+#: ../../multiboot.rst:7
+msgid ""
+"Windows does not detect other operating systems and does not feature a boot "
+"menu. When you install it, it overwrites your boot sequence and your "
+"computer then boots straight into Windows."
+msgstr ""
+"Windows tidak mendeteksi ada sistem operasi lain dan tidak menyediakan menu "
+"boot. Ketika Anda memasangnya, ia akan menimpa urutan boot Anda dan komputer "
+"Anda akan boot langsung ke Windows."
+
+#: ../../multiboot.rst:9
+msgid ""
+"Linux Mint (and most Linux distributions) detects other operating systems "
+"and builds a menu from which you can choose which system to boot."
+msgstr ""
+"Linux Mint (dan hampir seluruh distro Linux) mendeteksi sistem operasi lain "
+"dan membuat menu dari mana Anda dapat memilih sistem mana yang akan di-boot."
+
+#: ../../multiboot.rst:11
+msgid ""
+"For this reason, if you want to dual-boot or multi-boot with Windows, it is "
+"easier and recommended to install Windows first, before you install Linux "
+"Mint."
+msgstr ""
+"Untuk alasan ini, bila Anda menginginkan dual-boot dengan Windows, akan "
+"lebih mudah dan direkomendasikan untuk memasang Windows terlebih dahulu, "
+"sebelum Anda memasang Linux Mint."
+
+#: ../../multiboot.rst:14
+msgid "Fix the boot sequence"
+msgstr "Memperbaiki urutan boot"
+
+#: ../../multiboot.rst:16
+msgid "If Windows overwrites your boot sequence:"
+msgstr "Bila Windows menimpa urutan boot Anda:"
+
+#: ../../multiboot.rst:22
+msgid "To list your partitions, type ``lsblk -f`` and press :kbd:`Enter`."
+msgstr ""
+"Untuk membuat daftar partisi Anda, ketik ``lsblk -f`` dan tekan :kbd:`Enter`."
+
+#: ../../multiboot.rst:28
+msgid ""
+"Find the partition where Linux Mint is installed. On most systems this "
+"should be the only ``ext4`` partition."
+msgstr ""
+"Temukan partisi dimana Linux Mint dipasang. Pada kebanyakan sistem ini "
+"mestinya satu-satunya partisi ``ext4``."
+
+#: ../../multiboot.rst:30
+msgid "In the screenshot above:"
+msgstr "Pada tangkapan layar di atas:"
+
+#: ../../multiboot.rst:32
+msgid ""
+"``sdb`` is the USB stick (recognizable by its ``iso9660`` type which "
+"corresponds to an ISO image)."
+msgstr ""
+"``sdb`` adalah stik USB (dikenali sebagai tipe ``iso9660`` yang berhubungan "
+"dengan image ISO)."
+
+#: ../../multiboot.rst:33
+msgid "``sda`` is the hard drive."
+msgstr "``sda`` adalah hard disk."
+
+#: ../../multiboot.rst:34
+msgid ""
+"``sda4`` is the partition on the ``sda`` hard drive, where Linux Mint is "
+"installed."
+msgstr ""
+"``sda4`` adalah partisi hardisk pada ``sda``, dimana Linux Mint dipasang."
+
+#: ../../multiboot.rst:36
+msgid "To list partition sizes, type ``lsblk``:"
+msgstr "Untuk melihat daftar ukuran partisi, ketik ``lsblk``:"
+
+#: ../../multiboot.rst:42
+msgid "To list partition labels, type ``blkid``:"
+msgstr "Untuk melihat label partisi, ketik ``blkid``:"
+
+#: ../../multiboot.rst:48
+msgid ""
+"Mount the Linux Mint partition and reinstall the grub menu with the "
+"following commands:"
+msgstr ""
+"Kait partisi Linux Mint dan pasang ulang menu grub dengan perintah berikut:"
+
+#: ../../multiboot.rst:56
+msgid ""
+"In the commands above, replace /dev/sda4 and /dev/sda with the appropriate "
+"names for your Linux Mint partition and your hard drive device."
+msgstr ""
+"Pada perintah di atas, ganti /dev/sda4 dan /dev/sda dengan nama yang sesuai "
+"untuk partisi Linux Mint dan perangkat hard drive Anda."
+
+#: ../../oem.rst:2
+msgid "Pre-installing Linux Mint (OEM Installation)"
+msgstr "Pra-pemasangan Linux Mint (Pemasangan OEM)"
+
+#: ../../oem.rst:4
+msgid ""
+"In the ISO boot menu, ``OEM install`` is used to preinstall Linux Mint."
+msgstr ""
+"Pada menu boot ISO, ``pasang OEM`` digunakan untuk melakukan prapemasangan "
+"Linux Mint."
+
+#: ../../oem.rst:6
+msgid "This option is useful to:"
+msgstr "Pilihan ini berguna untuk:"
+
+#: ../../oem.rst:8
+msgid ""
+"Manufacturers and resellers who want to install Linux Mint on computers they "
+"sell to their customers."
+msgstr ""
+"Produsen dan pengecer yang ingin memasang Linux Mint pada komputer yang "
+"mereka jual kepada pelanggan mereka."
+
+#: ../../oem.rst:9
+msgid "People who want to sell or give their computer to somebody else."
+msgstr ""
+"Orang yang ingin menjual atau memberikan komputer mereka kepada orang lain."
+
+#: ../../oem.rst:11
+msgid ""
+"When you install Linux Mint in ``OEM`` mode, the operating system is "
+"installed with a temporary user account and prepared for the computer's "
+"future owner."
+msgstr ""
+"Ketika Anda memasang Linux Mint dalam mode ``OEM``, sistem operasi dipasang "
+"dengan akun pengguna sementara dan disiapkan untuk pemilik komputer masa "
+"depan."
+
+#: ../../oem.rst:13
+msgid "The user account is set up by the new owner."
+msgstr "Akun pengguna diatur oleh pemilik baru."
+
+#: ../../oem.rst:15
+msgid "To perform an OEM installation follow the steps below:"
+msgstr "Untuk melakukan instalasi OEM ikuti langkah-langkah di bawah ini:"
+
+#: ../../oem.rst:17
+msgid "Select ``OEM Install`` from the USB stick (or DVD) menu."
+msgstr "Pilih ``OEM Install`` dari menu USB stick (atau DVD)."
+
+#: ../../oem.rst:19
+msgid "Launch the installer and follow the installation instructions."
+msgstr "Luncurkan penginstal dan ikuti instruksi instalasi."
+
+#: ../../oem.rst:23
+msgid ""
+"Change any system settings or install additional software if you want."
+msgstr ""
+"Ubah pengaturan sistem apa pun atau pasang perangkat lunak tambahan jika "
+"Anda mau."
+
+#: ../../oem.rst:25
+msgid ""
+"When ready, click :guilabel:`Prepare for shipping to end user`, enter the "
+"password you chose during the installation, click :guilabel:`OK` and shut "
+"down the computer."
+msgstr ""
+"Jika sudah siap, klik :guilabel:`Siapkan pengiriman ke pengguna akhir`, "
+"masukkan kata sandi yang Anda pilih selama pemasangan, klik :guilabel:`OK` "
+"dan matikan komputer."
+
+#: ../../oem.rst:31
+msgid ""
+"When the new owner of the computer boots the computer the following screen "
+"appears:"
+msgstr ""
+"Ketika pemilik baru komputer mem-boot komputer, layar berikut muncul:"
+
+#: ../../oem.rst:37
+msgid ""
+"The new owner selects his or her username, password, keyboard layout, "
+"language, timezone and all the details relevant to create his or her user "
+"account."
+msgstr ""
+"Pemilik baru memilih nama pengguna, kata sandi, tata letak papan ketik, "
+"bahasa, zona waktu, dan semua detail yang relevan untuk membuat akun "
+"penggunanya."
+
+#: ../../partitioning.rst:2
+msgid "Partitioning"
+msgstr "Pemartisian"
+
+#: ../../partitioning.rst:5
+msgid "Disks and partitions under Linux"
+msgstr "Disk dan partisi di Linux"
+
+#: ../../partitioning.rst:7
+msgid ""
+"If you are not familiar with the Linux naming scheme for devices and "
+"partitions, or the concept of filesystems and mount points, read:"
+msgstr ""
+"Jika Anda tidak terbiasa dengan skema penamaan Linux untuk perangkat dan "
+"partisi, atau konsep sistem berkas dan titik kait, baca:"
+
+#: ../../partitioning.rst:9
+msgid ""
+"`A beginner’s guide to disks and disk partitions in Linux "
+"<http://linuxbsdos.com/2014/11/08/a-beginners-guide-to-disks-and-disk-"
+"partitions-in-linux/>`_"
+msgstr ""
+"`Panduan pemula untuk disk dan partisi disk di Linux "
+"<http://linuxbsdos.com/2014/11/08/a-beginners-guide-to-disks-and-disk-"
+"partitions-in-linux/>`_"
+
+#: ../../partitioning.rst:10
+msgid ""
+"`Device Names in Linux "
+"<https://www.debian.org/releases/wheezy/amd64/apcs04.html.en>`_"
+msgstr ""
+"`Nama Perangkat di Linux "
+"<https://www.debian.org/releases/wheezy/amd64/apcs04.html.en>`_"
+
+#: ../../partitioning.rst:11
+msgid ""
+"`Understanding the Linux File System "
+"<http://etutorials.org/Linux+systems/red+hat+linux+9+professional+secrets/Par"
+"t+II+Exploring+Red+Hat+Linux/Chapter+7+Red+Hat+Linux+Basics/Understanding+the"
+"+Linux+File+System/>`_"
+msgstr ""
+"`Memahami Sitem Berkas Linux "
+"<http://etutorials.org/Linux+systems/red+hat+linux+9+professional+secrets/Par"
+"t+II+Exploring+Red+Hat+Linux/Chapter+7+Red+Hat+Linux+Basics/Understanding+the"
+"+Linux+File+System/>`_"
+
+#: ../../partitioning.rst:14
+msgid "Dedicated /home partition"
+msgstr "Partisi khusus /home"
+
+#: ../../partitioning.rst:16
+msgid ""
+"In Linux, the ``/home`` directory is used to store user data and preferences."
+msgstr ""
+"Di Linux, direktori ``/home`` digunakan untuk menyimpan data dan preferensi "
+"pengguna."
+
+#: ../../partitioning.rst:18
+msgid ""
+"This directory contains one subdirectoy for each user account. Say your "
+"username is ``john``, your home directory is ``/home/john``, your downloads "
+"are in ``/home/john/Downloads``, your documents in ``/home/john/Documents``, "
+"your Firefox bookmarks somewhere in ``/home/john/.mozilla`` and so on..."
+msgstr ""
+"Direktori ini berisi satu subdirektori untuk setiap akun pengguna. Misalkan "
+"nama pengguna Anda adalah ``john``, direktori home Anda adalah "
+"``/home/john``, unduhan Anda ada di ``/home/john/Downloads``, dokumen Anda "
+"ada di ``/home/john/Documents``, markah Firefox Anda di suatu tempat di "
+"``/home/john/.mozilla`` dan seterusnya..."
+
+#: ../../partitioning.rst:20
+msgid ""
+"By giving ``/home`` its own dedicated partition, you separate the user data "
+"from the rest of the operating system."
+msgstr ""
+"Dengan memberikan ``/home`` partisi khusus, Anda memisahkan data pengguna "
+"dari sistem operasi lainnya."
+
+#: ../../partitioning.rst:22
+msgid ""
+"The advantage is that you can wipe the operating system and replace it "
+"without affecting the user data."
+msgstr ""
+"Keuntungannya adalah Anda dapat menghapus sistem operasi dan menggantinya "
+"tanpa memengaruhi data pengguna."
+
+#: ../../partitioning.rst:24
+msgid "When installing Linux Mint:"
+msgstr "Ketika memasang Linux Mint:"
+
+#: ../../partitioning.rst:26
+msgid ""
+"Assign the ``/`` mount point to the partition dedicated to the operating "
+"system, and tell the installer to format it."
+msgstr ""
+"Tetapkan titik kait ``/`` ke partisi khusus untuk sistem operasi, dan beri "
+"tahu pemasang untuk memformatnya."
+
+#: ../../partitioning.rst:28
+msgid ""
+"Assign the ``/home`` mount point to the partition dedicated to the user "
+"data, and if it contains user data already, make sure to tell the installer "
+"**not to format it**."
+msgstr ""
+"Tetapkan titik pemasangan ``/home`` ke partisi khusus untuk data pengguna, "
+"dan jika sudah berisi data pengguna, pastikan untuk memberi tahu pemasang "
+"**untuk tidak memformatnya**."
+
+#: ../../partitioning.rst:31
+msgid ""
+"This is not recommended for novice users. A misstep during the installation "
+"could wipe all your data. Always make backups, make sure to select the right "
+"partitions and to carefully review formatting options."
+msgstr ""
+"Ini tidak disarankan untuk pengguna pemula. Salah langkah selama pemasangan "
+"dapat menghapus semua data Anda. Selalu buat cadangan, pastikan untuk "
+"memilih partisi yang tepat dan tinjau opsi pemformatan dengan cermat."
+
+#: ../../partitioning.rst:34
+msgid ""
+"A Linux Mint operating system takes about 15GB and grows as you install "
+"additional software. If you can spare the size, give it 100GB. Keep most of "
+"your free space for the home partition. User data (downloads, videos, "
+"pictures) takes a lot more space."
+msgstr ""
+"Sistem operasi Linux Mint membutuhkan sekitar 15GB dan membesar saat Anda "
+"memasang perangkat lunak tambahan. Jika Anda bisa menyisihkan ukurannya, "
+"berikan 100GB. Pertahankan sebagian besar ruang kosong Anda untuk partisi "
+"home. Data pengguna (unduhan, video, gambar) membutuhkan lebih banyak ruang."
+
+#: ../../timeshift.rst:2
+msgid "System snapshots"
+msgstr "Snapshot sistem"
+
+#: ../../timeshift.rst:4
+msgid ""
+"Before you start using your operating system, set up system snapshots. Then "
+"if anything goes wrong, you can restore your system from an earlier backup."
+msgstr ""
+"Sebelum Anda mulai menggunakan sistem operasi Anda, siapkan snapshot sistem. "
+"Kemudian jika ada yang salah, Anda dapat memulihkan sistem Anda dari "
+"cadangan sebelumnya."
+
+#: ../../timeshift.rst:6
+msgid "Launch :menuselection:`Menu --> Administration --> Timeshift`."
+msgstr "Luncurkan :menuselection:`Menu --> Administrasi --> Timeshift`."
+
+#: ../../timeshift.rst:8
+msgid "Select ``RSYNC`` and click :guilabel:`Next`."
+msgstr "Pilih ``RSYNC`` dan klik :guilabel:`Lanjut`."
+
+#: ../../timeshift.rst:13
+msgid ""
+"Select the device where you want system snapshots to be saved and click "
+":guilabel:`Next`."
+msgstr ""
+"Pilih perangkat tempat Anda ingin menyimpan snapshot sistem dan klik "
+":guilabel:`Lanjut`."
+
+#: ../../timeshift.rst:19
+msgid ""
+"The selected device is not formatted and no data is lost. System snapshots "
+"are saved into a newly created ``timeshift`` directory on the root of the "
+"selected device."
+msgstr ""
+"Perangkat yang dipilih tidak diformat dan tidak ada data yang hilang. "
+"Snapshot sistem disimpan ke dalam direktori ``timeshift`` yang baru dibuat "
+"di akar perangkat yang dipilih."
+
+#: ../../timeshift.rst:21
+msgid "Select when system snapshots are saved."
+msgstr "Pilih kapan snapshot sistem disimpan."
+
+#: ../../timeshift.rst:27
+msgid ""
+"System snapshots are incremental so although the first snapshot takes a "
+"significant amount of spaces, new snapshots only take additional space for "
+"files which have changed."
+msgstr ""
+"Snapshot sistem bersifat tambahan sehingga meskipun snapshot pertama "
+"membutuhkan banyak ruang, snapshot baru hanya membutuhkan ruang tambahan "
+"untuk berkas-berkas yang telah berubah."
+
+#: ../../timeshift.rst:30
+msgid ""
+"``Boot`` snapshots are performed in the background and do not impact the "
+"speed of the boot sequence."
+msgstr ""
+"Snapshot ``Boot`` dilakukan di latar belakang dan tidak memengaruhi "
+"kecepatan urutan boot."
+
+#: ../../timeshift.rst:32
+msgid "Click :guilabel:`Finish`."
+msgstr "Klik :guilabel:`Selesai`."
+
+#: ../../verify.rst:2
+msgid "Verify your ISO image"
+msgstr "Verifikasi image ISO Anda"
+
+#: ../../verify.rst:4
+msgid ""
+"It is important to verify the integrity and authenticity of your ISO image."
+msgstr "Penting untuk memverifikasi integritas dan keaslian image ISO Anda."
+
+#: ../../verify.rst:6
+msgid ""
+"The integrity check confirms that your ISO image was properly downloaded and "
+"that your local file is an exact copy of the file present on the download "
+"servers. An error during the download could result in a corrupted file and "
+"trigger random issues during the installation."
+msgstr ""
+"Pemeriksaan integritas mengonfirmasi bahwa image ISO Anda diunduh dengan "
+"benar dan bahwa berkas lokal Anda adalah salinan persis dari berkas yang ada "
+"di server unduhan. Kesalahan selama pengunduhan dapat menyebabkan berkas "
+"rusak dan memicu masalah acak selama penginstalan."
+
+#: ../../verify.rst:8
+msgid ""
+"The authenticity check confirms that the ISO image you downloaded was signed "
+"by Linux Mint, and thus that it isn't a modified or malicious copy made by "
+"somebody else."
+msgstr ""
+"Pemeriksaan keaslian mengonfirmasi bahwa image ISO yang Anda unduh "
+"ditandatangani oleh Linux Mint, dan dengan demikian itu bukan salinan yang "
+"dimodifikasi atau berbahaya yang dibuat oleh orang lain."
+
+#: ../../verify.rst:11
+msgid "Download the SHA256 sums provided by Linux Mint"
+msgstr "Unduh SHA256 sum yang disediakan oleh Linux Mint"
+
+#: ../../verify.rst:13
+msgid ""
+"All `download mirrors <https://www.linuxmint.com/mirrors.php>`_ provide the "
+"ISO images, a ``sha256sum.txt`` file and a ``sha256sum.txt.gpg`` file. You "
+"should be able to find these files in the same place you downloaded the ISO "
+"image from."
+msgstr ""
+"Semua `cermin unduhan <https://www.linuxmint.com/mirrors.php>`_ menyediakan "
+"image ISO, berkas ``sha256sum.txt``, dan berkas ``sha256sum.txt.gpg``. Anda "
+"harus dapat menemukan berkas-berkas ini di tempat yang sama dengan tempat "
+"Anda mengunduh image ISO."
+
+#: ../../verify.rst:15
+msgid ""
+"If you can't find them, browse the `Heanet download mirror "
+"<https://ftp.heanet.ie/mirrors/linuxmint.com/stable/>`_ and click the "
+"version of the Linux Mint release you downloaded."
+msgstr ""
+"Jika Anda tidak dapat menemukannya, telusuri `Unduhan cermin Heanet "
+"<https://ftp.heanet.ie/mirrors/linuxmint.com/stable/>`_ dan klik versi rilis "
+"Linux Mint yang Anda unduh."
+
+#: ../../verify.rst:17
+msgid "Download both ``sha256sum.txt`` and ``sha256sum.txt.gpg``."
+msgstr "Unduh ``sha256sum.txt`` dan ``sha256sum.txt.gpg``."
+
+#: ../../verify.rst:19
+msgid ""
+"Do not copy their content, use \"right-click->Save Link As...\" to download "
+"the files themselves and do not modify them in any way."
+msgstr ""
+"Jangan menyalin kontennya, gunakan \"klik kanan->Simpan Tautan Sebagai...\" "
+"untuk mengunduh berkas itu sendiri dan jangan memodifikasinya dengan cara "
+"apa pun."
+
+#: ../../verify.rst:22
+msgid "Integrity check"
+msgstr "Pemeriksaan integritas"
+
+#: ../../verify.rst:24
+msgid ""
+"To check the integrity of your local ISO file, generate its SHA256 sum and "
+"compare it with the sum present in ``sha256sum.txt``."
+msgstr ""
+"Untuk memeriksa integritas berkas ISO lokal Anda, buat jumlah SHA256 dan "
+"bandingkan dengan jumlah yang ada di ``sha256sum.txt``."
+
+#: ../../verify.rst:31
+msgid ""
+"If you are using Windows follow the tutorial `How to verify the ISO image on "
+"Windows <https://forums.linuxmint.com/viewtopic.php?f=42&t=291093>`_."
+msgstr ""
+"Jika Anda menggunakan Windows, ikuti tutorial `Cara memverifikasi image ISO "
+"di Windows <https://forums.linuxmint.com/viewtopic.php?f=42&t=291093>`_."
+
+#: ../../verify.rst:33
+msgid ""
+"If the sums match, your ISO image was successfully downloaded. If they "
+"don't, download it again."
+msgstr ""
+"Jika jumlahnya cocok, image ISO Anda berhasil diunduh. Jika tidak, unduh "
+"lagi."
+
+#: ../../verify.rst:38
+msgid "Authenticity check"
+msgstr "Pemeriksaan keaslian"
+
+#: ../../verify.rst:40
+msgid ""
+"To verify the authenticity of ``sha256sum.txt``, check the signature of "
+"``sha256sum.txt.gpg`` by following the steps below."
+msgstr ""
+"Untuk memastikan keaslian dari ``sha256sum.txt``, periksa tandatangan dari "
+"``sha256sum.txt.gpg`` melalui langkah-langkah berikut."
+
+#: ../../verify.rst:43
+msgid "Import the Linux Mint signing key:"
+msgstr "Impor kunci penandatanganan Linux Mint:"
+
+#: ../../verify.rst:49
+msgid ""
+"If gpg complains about the key ID, try the following commands instead:"
+msgstr ""
+"Jika gpg mengeluh tentang ID kunci, coba perintah berikut sebagai gantinya:"
+
+#: ../../verify.rst:56
+msgid ""
+"Check the output of the last command, to make sure the fingerprint is ``27DE "
+"B156 44C6 B3CF 3BD7 D291 300F 846B A25B AE09`` (with or without spaces)."
+msgstr ""
+"Periksa keluaran dari perintah terakhir, untuk memastikan sidik jari adalah "
+"``27DE B156 44C6 B3CF 3BD7 D291 300F 846B A25B AE09`` (dengan atau tanpa "
+"spasi)."
+
+#: ../../verify.rst:59
+msgid "Verify the authenticity of sha256sum.txt:"
+msgstr "Perksa keaslian dari sha256sum.txt:"
+
+#: ../../verify.rst:64
+msgid ""
+"The output of the last command should tell you that the file signature is "
+"``good`` and that it was signed with the ``A25BAE09`` key."
+msgstr ""
+"Keluaran dari perintah terakhir akan memberi tahu Anda bahwa tanda tangan "
+"berkas adalah ``baik`` dan ditandatangani dengan kunci ``A25BAE09``."
+
+#: ../../verify.rst:67
+msgid ""
+"GPG might warn you that the Linux Mint signature is not trusted by your "
+"computer. This is expected and perfectly normal."
+msgstr ""
+"GPG mungkin memperingatkan Anda bahwa tanda tangan Linux Mint tidak "
+"dipercaya oleh komputer Anda. Ini diharapkan dan sangat normal."
+
+#: ../../verify.rst:70
+msgid ""
+"For more information on ISO verification, or to verify BETA, LMDE or old "
+"releases, read `How to Verify ISO images "
+"<https://linuxmint.com/verify.php>`_."
+msgstr ""
+"Untuk informasi lebih lanjut tentang verifikasi ISO, atau untuk "
+"memverifikasi BETA, LMDE atau rilisan lama, baca `Bagaimana Memverifikasi "
+"image ISO <https://linuxmint.com/verify.php>`_."

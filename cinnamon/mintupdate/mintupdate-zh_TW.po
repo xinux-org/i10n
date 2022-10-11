@@ -1,0 +1,1753 @@
+# Traditional Chinese translation for linuxmint
+# Copyright (c) 2009 Rosetta Contributors and Canonical Ltd 2009
+# This file is distributed under the same license as the linuxmint package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2009.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: linuxmint\n"
+"Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
+"POT-Creation-Date: 2021-06-18 12:56+0100\n"
+"PO-Revision-Date: 2020-09-06 15:15+0000\n"
+"Last-Translator: Ping-Yen Chen <Unknown>\n"
+"Language-Team: Traditional Chinese <zh_TW@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Launchpad-Export-Date: 2022-10-10 13:01+0000\n"
+"X-Generator: Launchpad (build 762fb15a975e8b23af6a1f86e44e46bfd0451459)\n"
+"Language: zh_TW\n"
+
+#: usr/share/help/C/mintupdate/updates.page:10(name)
+#: usr/share/help/C/mintupdate/snapshots.page:10(name)
+#: usr/share/help/C/mintupdate/regressions.page:10(name)
+#: usr/share/help/C/mintupdate/mintupdate-cli.page:10(name)
+#: usr/share/help/C/mintupdate/kernels.page:10(name)
+#: usr/share/help/C/mintupdate/index.page:9(name)
+msgid "Linux Mint"
+msgstr "Linux Mint"
+
+#: usr/share/help/C/mintupdate/updates.page:11(email)
+#: usr/share/help/C/mintupdate/snapshots.page:11(email)
+#: usr/share/help/C/mintupdate/regressions.page:11(email)
+#: usr/share/help/C/mintupdate/mintupdate-cli.page:11(email)
+#: usr/share/help/C/mintupdate/kernels.page:11(email)
+#: usr/share/help/C/mintupdate/index.page:10(email)
+msgid "root@linuxmint.com"
+msgstr "root@linuxmint.com"
+
+#: usr/share/help/C/mintupdate/updates.page:16(desc)
+msgid "There are different types of updates"
+msgstr "有不同種類的更新"
+
+#: usr/share/help/C/mintupdate/updates.page:19(title)
+msgid "The different types of updates"
+msgstr "不同種類的更新"
+
+#: usr/share/help/C/mintupdate/updates.page:21(p)
+msgid "There are different types of updates:"
+msgstr "以下為各種不同的更新："
+
+#: usr/share/help/C/mintupdate/updates.page:24(p)
+msgid ""
+"'Software updates' are updates which fix bugs (or also sometimes which bring "
+"new features)."
+msgstr "「軟體更新」會修正軟體問題 (有時也會增加一些新功能)。"
+
+#: usr/share/help/C/mintupdate/updates.page:25(p)
+msgid "'Security updates' are updates which patch vulnerabilities."
+msgstr "「安全性更新」會修正系統的安全問題。"
+
+#: usr/share/help/C/mintupdate/updates.page:26(p)
+msgid "'Kernel updates' represent the installation of a newer kernel."
+msgstr "「核心更新」會安裝新的核心。"
+
+#: usr/share/help/C/mintupdate/updates.page:29(p)
+msgid ""
+"Security is very important but also very technical. Vulnerabilities don't "
+"always affect your computer and can be quite difficult to understand. Most "
+"people don't understand them at all and their personal computers are rarely "
+"at risk. That said, a security breach can have dire consequences, so it is "
+"always recommended to take them seriously."
+msgstr ""
+"安全性更新非常重要，但也非常技術性。軟體的漏洞不一定會直接影響到您的電腦，而且也可能很難以去理解。多數使用者完全不了解這些漏洞，而他們的個人電腦也可能很少"
+"有風險。也就是說，安全性漏洞可能會產生可怕的後果，因此始終建議您要認真地對待它們。"
+
+#: usr/share/help/C/mintupdate/updates.page:31(p)
+msgid ""
+"Software updates aren't as important. They bring bug fixes or improvements "
+"which are not related to security."
+msgstr "軟體更新並不緊迫，只有修正問題或改善效能，不影響安全性。"
+
+#: usr/share/help/C/mintupdate/updates.page:33(p)
+#: usr/share/help/C/mintupdate/kernels.page:23(p)
+msgid ""
+"In Linux Mint, kernel updates bring both security patches and bug fixes (and "
+"sometimes even new features), and they impact critical parts of the "
+"operating system. This makes kernel updates important from a security point "
+"of view, but also prone to regressions which can be hard to fix for novice "
+"users."
+msgstr ""
+"在 Linux "
+"Mint，核心更新通常會一併修正安全性及軟體問題（有時更帶來新功能），過程中會更動系統的關鍵部份。以安全性而言，核心更新非常重要；但若造成效能倒退，初學者"
+"將更難以排除。"
+
+#: usr/share/help/C/mintupdate/snapshots.page:16(desc)
+msgid ""
+"When faced with a serious regression, restore the latest system snapshot."
+msgstr "當遇到嚴重的效能倒退時，還原為上次的系統備份快照。"
+
+#: usr/share/help/C/mintupdate/snapshots.page:19(title)
+#: usr/share/linuxmint/mintupdate/main.ui.h:18
+msgid "System snapshots"
+msgstr "系統備份快照"
+
+#: usr/share/help/C/mintupdate/snapshots.page:21(p)
+msgid ""
+"Timeshift, the system snapshot utility, is available in all versions of "
+"Linux Mint."
+msgstr "「Timeshift」，系統備份快照工具，可用於 Linux Mint 所有版本。"
+
+#: usr/share/help/C/mintupdate/snapshots.page:23(p)
+msgid ""
+"It can be used to create snapshots manually but also to automate system "
+"snapshots."
+msgstr "既可以手動建立備份，也可以定期自動執行備份。"
+
+#: usr/share/help/C/mintupdate/snapshots.page:25(p)
+msgid "Linux Mint recommends the automation of daily and boot snapshots."
+msgstr "Linux Mint 建議每天開機做自動備份快照。"
+
+#: usr/share/help/C/mintupdate/snapshots.page:27(p)
+msgid ""
+"If an update, a mistake, a bug or a malicious program breaks something on "
+"your computer, you can restore the operating system from any snapshot, thus "
+"cancelling the problem as if it never happened."
+msgstr "如果在一個更新上因失誤、臭蟲或惡意程式在您的電腦上造成危害，您可以用任一次的備份快照來還原至先前的作業系統，讓問題像是沒發生過一樣。"
+
+#: usr/share/help/C/mintupdate/snapshots.page:29(p)
+msgid ""
+"System snapshots only cover the operating system itself. They do not include "
+"or affect your personal data."
+msgstr "系統備份快照只含括作業系統本身，不包括或影響您的個人資料。"
+
+#: usr/share/help/C/mintupdate/regressions.page:16(desc)
+msgid "When an update breaks something, it's called a \"regression\"."
+msgstr "當更新會弄壞某些東西時，我們稱為「效能倒退」。"
+
+#: usr/share/help/C/mintupdate/regressions.page:19(title)
+msgid "Software regressions"
+msgstr "軟體效能倒退"
+
+#: usr/share/help/C/mintupdate/regressions.page:21(p)
+msgid ""
+"Updates keep your computer safe, eliminate bugs and even sometimes add new "
+"features to your operating system."
+msgstr "更新可以讓您的電腦保持安全、為作業系統除去臭蟲並可能增加些新功能。"
+
+#: usr/share/help/C/mintupdate/regressions.page:23(p)
+msgid ""
+"Unfortunately they also sometimes introduce new issues called 'regressions'."
+msgstr "然而它們有時會引發被稱為「效能倒退」的問題。"
+
+#: usr/share/help/C/mintupdate/regressions.page:25(p)
+msgid ""
+"Regressions are very common in the software industry. They're inherent to "
+"software development. Code changes can cause regressions. No matter how "
+"skilled developers are, they can't always predict every possible situation "
+"or test on every possible hardware specification."
+msgstr ""
+"在軟體產業中，效能倒退是十分常見的現象，它們伴隨軟體開發出現，程式碼的變更可能造成效能倒退。\n"
+"不論開發者的技術多麼老練，也無法預測任何可能的情況，或在每種硬體組合上測試。"
+
+#: usr/share/help/C/mintupdate/regressions.page:27(p)
+msgid ""
+"When a regression happens, it breaks something which worked well before."
+msgstr "當效能倒退發生時，原先正常運作的部分可能變得異常。"
+
+#: usr/share/help/C/mintupdate/regressions.page:29(p)
+msgid "Sometimes it doesn't really matter, but sometimes it matters a lot."
+msgstr "有時候並不要緊，但有時卻影響很大。"
+
+#: usr/share/help/C/mintupdate/regressions.page:31(p)
+msgid ""
+"It depends on what part of the operating system is affected and whether or "
+"not you're able to work around it or to fix it."
+msgstr "這取決於作業系統的哪一部分受到影響，以及您能否修復它。"
+
+#: usr/share/help/C/mintupdate/regressions.page:33(p)
+msgid ""
+"Say, the PDF reader is no longer able to print. Well, it's annoying... but "
+"it's not as problematic as if your network connection stopped working or if "
+"you were suddenly unable to boot the computer or to login."
+msgstr "像是：PDF 閱讀工具沒辦法列印了，這會造成一點困擾... 但並不會比您的網路無法連線棘手，也不會像突然無法正常開機或登入一樣糟糕。"
+
+#: usr/share/help/C/mintupdate/regressions.page:35(p)
+msgid ""
+"In the latter case, it can be very problematic if you're not experienced "
+"with Linux and you don't know how to troubleshoot."
+msgstr "後者情況就非常嚴重，如果您不熟悉 Linux 就沒辦法找到問題並排除。"
+
+#: usr/share/help/C/mintupdate/mintupdate-cli.page:16(desc)
+msgid "Updating from the command line"
+msgstr "使用命令列更新"
+
+#: usr/share/help/C/mintupdate/mintupdate-cli.page:19(title)
+msgid "Using mintupdate-cli"
+msgstr "使用 mintupdate-cli"
+
+#: usr/share/help/C/mintupdate/mintupdate-cli.page:21(p)
+msgid ""
+"The Update Manager provides a command line utility called \"mintupdate-cli\"."
+msgstr "更新管理員提供了命令列更新工具，叫「mintupdate-cli」。"
+
+#: usr/share/help/C/mintupdate/mintupdate-cli.page:23(p)
+msgid ""
+"If you are experienced with Linux, you can use this tool in your scripts or "
+"your cron jobs to automate the installation of software updates."
+msgstr "如果您熟悉 Linux，您可以在批次檔裏定期執行這個工具，自動完成軟體更新。"
+
+#: usr/share/help/C/mintupdate/mintupdate-cli.page:27(title)
+msgid "Listing updates"
+msgstr "列出更新"
+
+#: usr/share/help/C/mintupdate/mintupdate-cli.page:29(p)
+msgid "You can use the \"list\" command to list updates:"
+msgstr "您可以使用「list」指令來列出更新："
+
+#: usr/share/help/C/mintupdate/mintupdate-cli.page:31(screen)
+#, no-wrap
+msgid "mintupdate-cli list"
+msgstr "mintupdate-cli list"
+
+#: usr/share/help/C/mintupdate/mintupdate-cli.page:33(p)
+msgid "You can use -s to only show the security updates."
+msgstr "您可以使用 -s 只顯示安全性更新。"
+
+#: usr/share/help/C/mintupdate/mintupdate-cli.page:35(p)
+msgid "You can use -k to only show the kernel updates."
+msgstr "您可以使用 -k 來只顯示核心更新。"
+
+#: usr/share/help/C/mintupdate/mintupdate-cli.page:37(p)
+msgid "For instance, the following command lists all security updates:"
+msgstr "例如，以下的指令可以列出所有安全性更新："
+
+#: usr/share/help/C/mintupdate/mintupdate-cli.page:39(screen)
+#, no-wrap
+msgid "mintupdate-cli list -s"
+msgstr "mintupdate-cli list -s"
+
+#: usr/share/help/C/mintupdate/mintupdate-cli.page:45(title)
+msgid "Applying updates"
+msgstr "套用更新"
+
+#: usr/share/help/C/mintupdate/mintupdate-cli.page:47(p)
+msgid ""
+"You can use the \"upgrade\" command to apply updates, using the same options."
+msgstr "您可以使用「upgrade」指令來套用更新，會使用相同的選項。"
+
+#: usr/share/help/C/mintupdate/mintupdate-cli.page:49(p)
+msgid "For instance, the following command applies kernel updates:"
+msgstr "例如，以下的命令會套用核心更新："
+
+#: usr/share/help/C/mintupdate/mintupdate-cli.page:51(screen)
+#, no-wrap
+msgid "sudo mintupdate-cli upgrade -r -k"
+msgstr "sudo mintupdate-cli upgrade -r -k"
+
+#: usr/share/help/C/mintupdate/mintupdate-cli.page:53(p)
+msgid "Note the -r argument, which was added to refresh the cache."
+msgstr "注意 -r 這個參數，是用來更新快取。"
+
+#: usr/share/help/C/mintupdate/mintupdate-cli.page:55(p)
+msgid ""
+"For more information on mintupdate-cli and a complete list of arguments, "
+"type:"
+msgstr "欲查詢更多 mintupdate-cli 的資訊及完整參數清單，請輸入："
+
+#: usr/share/help/C/mintupdate/mintupdate-cli.page:57(screen)
+#, no-wrap
+msgid "mintupdate-cli -h"
+msgstr "mintupdate-cli -h"
+
+#: usr/share/help/C/mintupdate/kernels.page:16(desc)
+msgid "Kernels and kernel updates"
+msgstr "核心與核心更新"
+
+#: usr/share/help/C/mintupdate/kernels.page:19(title)
+#: usr/share/help/C/mintupdate/index.page:35(title)
+msgid "Kernel updates"
+msgstr "核心更新"
+
+#: usr/share/help/C/mintupdate/kernels.page:21(p)
+msgid ""
+"The kernel is the central part of the operating system. Among other things, "
+"it is responsible for hardware support."
+msgstr "核心是作業系統的心臟，也為其提供硬體支援。"
+
+#: usr/share/help/C/mintupdate/kernels.page:25(p)
+msgid ""
+"From a security point of view, it is important to apply kernel updates."
+msgstr "依系統安全而言，核心更新非常重要。"
+
+#: usr/share/help/C/mintupdate/kernels.page:27(p)
+msgid ""
+"A kernel regression could however affect your ability to connect to the "
+"Internet, to start your desktop environment or even to boot the operating "
+"system."
+msgstr "然而核心的效能倒退可能使電腦無法正常連線網路、啟動桌面環境、甚而使開機出現異常。"
+
+#: usr/share/help/C/mintupdate/kernels.page:29(p)
+msgid ""
+"For this reason it is important to be cautious when applying kernel updates "
+"and to know how to revert them when something goes wrong."
+msgstr "因此，套用核心更新時請保持謹慎，並了解如何處理異常錯誤。"
+
+#: usr/share/help/C/mintupdate/kernels.page:32(title)
+msgid "Multiple kernels can be installed"
+msgstr "您可以安裝多個版本的核心"
+
+#: usr/share/help/C/mintupdate/kernels.page:34(p)
+msgid ""
+"When you apply an update, you replace the old version of the software with "
+"the new version."
+msgstr "當您套用一般更新後，系統會將舊版軟體替換為新版。"
+
+#: usr/share/help/C/mintupdate/kernels.page:36(p)
+msgid ""
+"Things are different when it comes to kernels. When you apply a \"kernel "
+"update\", you don't actually update the kernel, you install a new kernel "
+"alongside the existing one."
+msgstr "但在處理核心時就不一樣了，當您套用「核心更新」時，舊版核心並不會被更新，而是安裝新版核心與其並存。"
+
+#: usr/share/help/C/mintupdate/kernels.page:38(p)
+msgid ""
+"Every time you apply a kernel update, you install a new kernel on the "
+"system, without removing the old ones."
+msgstr "當您套用核心更新時，系統將在安裝新版核心的同時，亦保留舊版核心。"
+
+#: usr/share/help/C/mintupdate/kernels.page:40(p)
+msgid "At boot time, the computer selects the most recent one."
+msgstr "開機時，電腦會選擇上次使用的。"
+
+#: usr/share/help/C/mintupdate/kernels.page:45(title)
+msgid "Identifying the current kernel"
+msgstr "辨識目前使用的核心"
+
+#: usr/share/help/C/mintupdate/kernels.page:47(p)
+msgid ""
+"If you want to know which kernel you are currently using, open a terminal "
+"and type:"
+msgstr "欲了解目前使用的核心版本，請開啟終端機輸入："
+
+#: usr/share/help/C/mintupdate/kernels.page:49(screen)
+#, no-wrap
+msgid "uname -a"
+msgstr "uname -a"
+
+#: usr/share/help/C/mintupdate/kernels.page:54(title)
+msgid "Installing and removing kernels"
+msgstr "安裝或移除核心"
+
+#: usr/share/help/C/mintupdate/kernels.page:56(p)
+msgid "You can install and remove kernels from the Update Manager."
+msgstr "您可以從更新管理員中安裝或移除核心。"
+
+#: usr/share/help/C/mintupdate/kernels.page:58(p)
+msgid "Select \"View\" -&gt; \"Linux Kernels\" in the menu."
+msgstr "在選單中選擇「檢視」-&gt;「Linux 核心」。"
+
+#: usr/share/help/C/mintupdate/kernels.page:60(p)
+msgid ""
+"You cannot remove the kernel you are currently using. To remove it, you need "
+"to reboot and select a different kernel to boot with."
+msgstr "您無法移除目前正在使用的核心。若要將其移除，您必須重開機並以其他核心啟動。"
+
+#: usr/share/help/C/mintupdate/kernels.page:65(title)
+msgid "Selecting a kernel"
+msgstr "選取一個核心"
+
+#: usr/share/help/C/mintupdate/kernels.page:67(p)
+msgid ""
+"You can have multiple kernels installed, but you can only run one kernel at "
+"a time."
+msgstr "您可以安裝多個不同版本的核心，但同時只能使用一個。"
+
+#: usr/share/help/C/mintupdate/kernels.page:69(p)
+msgid ""
+"When you boot the computer, the very first screen is called the Grub menu. "
+"This menu allows you to choose operating systems but you can also use it to "
+"select a kernel."
+msgstr "在您開機後，首先見到的畫面成為 Grub 選單，使您可以選擇進入什麼作業系統、使用哪個核心。"
+
+#: usr/share/help/C/mintupdate/kernels.page:71(p)
+msgid ""
+"If you only have one operating system installed, your boot sequence might "
+"skip the Grub menu. To force the Grub menu to show, boot the computer and "
+"keep pressing the left <key>Shift</key> key."
+msgstr ""
+"若您的電腦只有一個作業系統，開機時可能會略過 Grub 開機選單。如要強制顯示 Grub 開機選單，請在開機時按住左邊的 "
+"<key>Shift</key> 鍵。"
+
+#: usr/share/help/C/mintupdate/kernels.page:73(p)
+msgid ""
+"To select a kernel, choose \"Advanced options\" in the Grub menu. You should "
+"see all the kernels currently installed. Select the one you want to use and "
+"your computer will boot with that one."
+msgstr "欲選取核心，選擇 Grub 開機選單 的「進階選項」，就可看到目前安裝的所有版本核心，並選一個您要使用的。"
+
+#: usr/share/help/C/mintupdate/kernels.page:78(title)
+msgid "Checking the DKMS status"
+msgstr "檢查 DKMS 狀態"
+
+#: usr/share/help/C/mintupdate/kernels.page:80(p)
+msgid ""
+"The kernel includes all open source drivers and these usually work very "
+"well. Proprietary drivers (NVIDIA, AMD, Broadcom...etc) are not included and "
+"they need to compile themselves against every kernel you install. This is "
+"done via a mechanism called DKMS."
+msgstr ""
+"核心裡所有開源的驅動程式通常都能正常運作，但某些專有驅動程式 (如NVIDIA、AMD、Broadcom...) "
+"不包括在內，常常需要另外編譯後加入每個安裝的核心，就是依靠被稱為「DKMS」的機制。"
+
+#: usr/share/help/C/mintupdate/kernels.page:82(p)
+msgid ""
+"If a proprietary driver isn't properly recompiled with DKMS for one of your "
+"kernels, it will not function correctly with that kernel."
+msgstr "如果專有驅動程式沒有確實以 DKMS 與核心重新編譯完成，該核心就無法正常使用。"
+
+#: usr/share/help/C/mintupdate/kernels.page:84(p)
+msgid ""
+"After installing or removing a kernel, you can check your DKMS status, to "
+"make sure all proprietary drivers are properly installed for each of your "
+"kernels with the following command:"
+msgstr "安裝或移除核心後，您可以檢查 DKMS 狀態以確保所有的專屬驅動程式都已安裝在各版本核心上。 指令："
+
+#: usr/share/help/C/mintupdate/kernels.page:86(screen)
+#, no-wrap
+msgid "dkms status"
+msgstr "dkms status"
+
+#: usr/share/help/C/mintupdate/kernels.page:88(p)
+msgid ""
+"New kernel series usually become available before proprietary drivers "
+"support them via DKMS. If you are using proprietary drivers, it is "
+"recommended to stick to kernel updates and not to install kernels from "
+"series which are newer than the series of the recommended kernels."
+msgstr "新版核心系列經常在專有驅動程式以 DKMS 支援它之前釋出。若您正在使用專有驅動程式，請不要安裝比推薦版本更新的核心。"
+
+#: usr/share/help/C/mintupdate/kernels.page:93(title)
+msgid "Reverting a kernel update"
+msgstr "復原核心更新"
+
+#: usr/share/help/C/mintupdate/kernels.page:95(p)
+msgid ""
+"If something doesn't work with the latest kernel you installed (or the "
+"latest kernel update), reboot, select the kernel you were previously using, "
+"remove the new kernel and reboot again."
+msgstr "若您新安裝的核心有問題，請重開機、選用您先前使用的版本，並移除新核心後再重新開機一次。"
+
+#: usr/share/help/C/mintupdate/index.page:18(title)
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:60
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1225
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1229
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1302
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1710
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:2138 generate_desktop_files:25
+#: usr/bin/mintupdate-launcher:23
+msgid "Update Manager"
+msgstr "更新管理員"
+
+#: usr/share/help/C/mintupdate/index.page:20(p)
+msgid ""
+"The Update Manager provides your operating system with software and security "
+"updates."
+msgstr "更新管理員會提供您作業系統軟體及安全性的更新。"
+
+#: usr/share/help/C/mintupdate/index.page:22(p)
+msgid ""
+"Updates are important because they keep your computer safe, eliminate bugs "
+"and can even add new features to your operating system."
+msgstr "更新是很重要的，它們保持您電腦的安全、消除作業系統的問題、甚至會增加新的功能。"
+
+#: usr/share/help/C/mintupdate/index.page:24(p)
+msgid ""
+"Unfortunately they also sometimes introduce new issues called 'regressions', "
+"which can break things which worked well before."
+msgstr "然而它們有時引發新的問題，我們稱這現象為「效能倒退」，這可能使先前正常運作的地方出現異常。"
+
+#: usr/share/help/C/mintupdate/index.page:26(p)
+msgid ""
+"To keep your computer safe and in good working condition, it is recommended "
+"to apply all available updates and to set up system snapshots, so that you "
+"can restore your system in case something goes wrong."
+msgstr "為保持您的電腦處於安全且良好的運作狀況，我們推薦在設定好系統備份快照後套用所有更新，以便在系統發生錯誤時還原。"
+
+#: usr/share/help/C/mintupdate/index.page:29(title)
+msgid "Core concepts"
+msgstr "核心觀念"
+
+#: usr/share/help/C/mintupdate/index.page:31(p)
+msgid "This section explains the core concepts related to software updates."
+msgstr "這個段落說明軟體更新的核心觀念。"
+
+#: usr/share/help/C/mintupdate/index.page:37(p)
+msgid "This section explains kernel updates."
+msgstr "這個段落說明核心更新。"
+
+#: usr/share/help/C/mintupdate/index.page:41(title)
+msgid "Advanced techniques"
+msgstr "進階技術"
+
+#: usr/share/help/C/mintupdate/index.page:43(p)
+msgid "This section explains advanced techniques."
+msgstr "這個段落說明進階技術。"
+
+#. Put one translator per line, in the form of NAME <EMAIL>, YEAR1, YEAR2
+#: usr/share/help/C/mintupdate/index.page:0(None)
+msgid "translator-credits"
+msgstr ""
+"Launchpad Contributions:\n"
+"  Chao-Hsiung Liao https://launchpad.net/~j-h-liau\n"
+"  Cheng-Chia Tseng https://launchpad.net/~zerng07\n"
+"  Christopher Patrick https://launchpad.net/~cpatrick08\n"
+"  David Kuo https://launchpad.net/~davidkuo0717\n"
+"  Donatello https://launchpad.net/~bwv816\n"
+"  H.G. https://launchpad.net/~toto6038\n"
+"  James Lin https://launchpad.net/~chlin101\n"
+"  Kevin https://launchpad.net/~kevin-ngkf\n"
+"  Pin-hsien Lee https://launchpad.net/~plesry\n"
+"  Ping-Yen Chen https://launchpad.net/~pychen\n"
+"  Rockworld https://launchpad.net/~rockrock2222222\n"
+"  Steven Liao https://launchpad.net/~stevenliao0119\n"
+"  Walter Cheuk https://launchpad.net/~wwycheuk\n"
+"  Wayne Su https://launchpad.net/~mstarmstar\n"
+"  Will Peix https://launchpad.net/~willpeix\n"
+"  tomoe_musashi https://launchpad.net/~musashi\n"
+"  Уенхан Шие https://launchpad.net/~whsieh"
+
+#: usr/lib/linuxmint/mintUpdate/checkAPT.py:237
+#, python-format
+msgid "Linux kernel %s"
+msgstr "Linux 核心 %s"
+
+#: usr/lib/linuxmint/mintUpdate/checkAPT.py:238
+msgid "The Linux kernel."
+msgstr "Linux 核心。"
+
+#: usr/lib/linuxmint/mintUpdate/checkAPT.py:239
+msgid ""
+"The Linux Kernel is responsible for hardware and drivers support. Note that "
+"this update will not remove your existing kernel. You will still be able to "
+"boot with the current kernel by choosing the advanced options in your boot "
+"menu. Please be cautious though.. kernel regressions can affect your ability "
+"to connect to the Internet or to log in graphically. DKMS modules are "
+"compiled for the most recent kernels installed on your computer. If you are "
+"using proprietary drivers and you want to use an older kernel, you will need "
+"to remove the new one first."
+msgstr ""
+"Linux 核心負責硬體和驅動程式支援。請注意此更新並不會移除您的現有核心。您仍可以在啟動選單裡的進階選項選取目前的核心，並以其啟動電腦。請小心... "
+"核心回溯可能影響您的網路連線或圖形登入環境。DKMS "
+"模組是為您電腦上的最新核心所編譯。如果您現正使用專有驅動程式且想使用較舊的核心，您將需要先移除較新的核心。"
+
+#: usr/lib/linuxmint/mintUpdate/kernelwindow.py:148
+#: usr/lib/linuxmint/mintUpdate/kernelwindow.py:239
+msgid "Remove"
+msgstr "移除"
+
+#: usr/lib/linuxmint/mintUpdate/kernelwindow.py:150
+#: usr/lib/linuxmint/mintUpdate/kernelwindow.py:245
+msgid "Install"
+msgstr "安装"
+
+#: usr/lib/linuxmint/mintUpdate/kernelwindow.py:240
+msgid "Queue Removal"
+msgstr "將移除動作排入等待項目"
+
+#: usr/lib/linuxmint/mintUpdate/kernelwindow.py:242
+msgid "This kernel cannot be removed because it is currently in use."
+msgstr "您無法移除目前使用的核心。"
+
+#: usr/lib/linuxmint/mintUpdate/kernelwindow.py:246
+msgid "Queue Installation"
+msgstr "將安裝動作排入等待項目"
+
+#: usr/lib/linuxmint/mintUpdate/kernelwindow.py:248
+msgid "This kernel is not installable."
+msgstr "此核心無法被安裝。"
+
+#: usr/lib/linuxmint/mintUpdate/kernelwindow.py:265
+#, python-format
+msgid "Are you sure you want to remove the %s kernel?"
+msgstr "您是否確定要移除 %s 版核心？"
+
+#: usr/lib/linuxmint/mintUpdate/kernelwindow.py:267
+#, python-format
+msgid "Are you sure you want to install the %s kernel?"
+msgstr "您是否確定要安裝 %s 版核心？"
+
+#: usr/lib/linuxmint/mintUpdate/kernelwindow.py:299
+#: usr/share/linuxmint/mintupdate/kernels.ui.h:22
+msgid "Kernels"
+msgstr "Linux 核心"
+
+#: usr/lib/linuxmint/mintUpdate/kernelwindow.py:344
+msgid "Remove Kernels"
+msgstr "移除核心"
+
+#: usr/lib/linuxmint/mintUpdate/kernelwindow.py:346
+msgid "Perform Queued Actions"
+msgstr "執行等待中的項目"
+
+#: usr/lib/linuxmint/mintUpdate/kernelwindow.py:429
+msgid "Active"
+msgstr "使用中"
+
+#: usr/lib/linuxmint/mintUpdate/kernelwindow.py:432
+msgid "Installed"
+msgstr "已安裝"
+
+#: usr/lib/linuxmint/mintUpdate/kernelwindow.py:520
+msgid "Supported until"
+msgstr "被支援直到"
+
+#: usr/lib/linuxmint/mintUpdate/kernelwindow.py:523
+msgid "Superseded"
+msgstr "已取代"
+
+#: usr/lib/linuxmint/mintUpdate/kernelwindow.py:525
+msgid "End of Life"
+msgstr "生命週期已結束"
+
+#: usr/lib/linuxmint/mintUpdate/kernelwindow.py:527
+msgid "Unsupported"
+msgstr "不支援"
+
+#: usr/lib/linuxmint/mintUpdate/kernelwindow.py:559
+msgid "You are currently using the following kernel:"
+msgstr "您目前使用此版本核心："
+
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:75
+msgid "GB"
+msgstr "GB"
+
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:77
+msgid "MB"
+msgstr "MB"
+
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:79
+msgid "KB"
+msgstr "KB"
+
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:80
+msgid "B"
+msgstr "B"
+
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:236
+msgid "Downloading changelog..."
+msgstr "下載變更記錄中..."
+
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:249
+msgid "No changelog available"
+msgstr "無可用的變更紀錄"
+
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:460
+msgid "This upgrade will trigger additional changes"
+msgstr "此升級會觸發其他變更"
+
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:469
+msgid "The following packages will be removed:"
+msgstr "即將移除以下的軟體包："
+
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:498
+msgid "The following packages will be installed:"
+msgstr "即將安裝以下的軟體包："
+
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:541
+msgid "Installing updates"
+msgstr "安裝更新中"
+
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:601
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:661
+msgid "Could not install the security updates"
+msgstr "無法安裝安全性更新"
+
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:606
+msgid "Updating Cinnamon Spices"
+msgstr ""
+
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:636
+msgid "Restarting Cinnamon"
+msgstr ""
+
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:727
+msgid "Reboot required"
+msgstr "需要重新開機"
+
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:728
+msgid ""
+"You have installed updates that require a reboot to take effect, please "
+"reboot your system as soon as possible."
+msgstr "您已安裝需重新啟動的更新，請盡快重新開機。"
+
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:749
+msgid "Checking for package updates"
+msgstr ""
+
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:749
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1450
+msgid "Checking for updates"
+msgstr "檢查更新中"
+
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:770
+msgid "Checking for Cinnamon spices"
+msgstr ""
+
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:778
+msgid "Processing updates"
+msgstr ""
+
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:797
+msgid "Run 'apt update' in a terminal window to address this"
+msgstr "欲解決此問題，請開啟終端機並執行 apt update"
+
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:807
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:811
+msgid "Your APT configuration is corrupt."
+msgstr "您的 APT 設定有問題。"
+
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:808
+msgid ""
+"Do not install or update anything, it could break your operating system!"
+msgstr "請勿執行任何安裝或更新，這可能會損壞您的作業系統！"
+
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:809
+msgid ""
+"To switch to a different Linux Mint mirror and solve this problem, click OK."
+msgstr "欲切換為不同的 Linux Mint 鏡錄站並解決此問題，請點擊「確定」。"
+
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:812
+msgid "APT error:"
+msgstr "APT錯誤 ："
+
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:817
+msgid "Please switch to another Linux Mint mirror"
+msgstr "請切換至其他 的Linux Mint 鏡像網站"
+
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:820
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:826
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:827
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1029
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1030
+#: usr/share/linuxmint/mintupdate/main.ui.h:5
+msgid "Could not refresh the list of updates"
+msgstr "無法重新整理更新列表"
+
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:890
+msgid "Kernel update"
+msgstr "核心更新"
+
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:894
+msgid "Security update"
+msgstr "安全性更新"
+
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:898
+msgid ""
+"Unstable software. Only apply this update to help developers beta-test new "
+"software."
+msgstr "不穩定的軟體。除非協助開發團隊 beta 測試新軟體，否則請勿套用此更新。"
+
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:903
+msgid "Software update"
+msgstr "軟體更新"
+
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:907
+msgid "3rd-party update"
+msgstr "第三方更新"
+
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:934
+msgid "Cinnamon applet"
+msgstr ""
+
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:936
+msgid "Cinnamon desklet"
+msgstr ""
+
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:938
+msgid "Cinnamon theme"
+msgstr ""
+
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:940
+msgid "Cinnamon extension"
+msgstr ""
+
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:971
+msgid "Updates are available"
+msgstr ""
+
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:972
+#, python-format
+msgid "%d security update"
+msgid_plural "%d security updates"
+msgstr[0] ""
+msgstr[1] ""
+
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:973
+#, python-format
+msgid "%d software update"
+msgid_plural "%d software updates"
+msgstr[0] ""
+msgstr[1] ""
+
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:979
+msgid "Apply them to keep your operating system safe and up to date."
+msgstr ""
+
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:986
+msgid "View updates"
+msgstr ""
+
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:987
+msgid "Enable automatic updates"
+msgstr ""
+
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1001
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1780
+#, python-format
+msgid "%(selected)d update selected (%(size)s)"
+msgid_plural "%(selected)d updates selected (%(size)s)"
+msgstr[0] "已選取 %(selected)d 個更新 (%(size)s)"
+
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1007
+#, python-format
+msgid "%d update available"
+msgid_plural "%d updates available"
+msgstr[0] "有 %d 個更新可用"
+
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1012
+#: usr/share/linuxmint/mintupdate/main.ui.h:8
+msgid "Your system is up to date"
+msgstr "您的系統已是最新"
+
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1076
+msgid "Do you want to switch to a local mirror?"
+msgstr "您是否要切換至本地的鏡像網站？"
+
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1077
+msgid "Local mirrors are usually faster than packages.linuxmint.com."
+msgstr "本地的鏡像站通常會比連到packages.linuxmint.com 還快。"
+
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1088
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1098
+msgid "Please switch to another mirror"
+msgstr "請切換至其他鏡像站"
+
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1089
+#, python-format
+msgid "%s is unreachable."
+msgstr "無法連到 %s 。"
+
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1099
+#, python-format
+msgid "The last update on %(mirror)s was %(days)d day ago."
+msgid_plural "The last update on %(mirror)s was %(days)d days ago."
+msgstr[0] "最後一次從 %(mirror)s 更新是在 %(days)d 天前。"
+
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1235
+msgid "Exit"
+msgstr "離開"
+
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1338
+msgid "Upgrade"
+msgstr "升級"
+
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1343
+msgid "Name"
+msgstr "名稱"
+
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1347
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1549
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:2046
+msgid "Old Version"
+msgstr "舊版"
+
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1351
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1555
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:2049
+msgid "New Version"
+msgstr "新版"
+
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1355
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1567
+msgid "Size"
+msgstr "大小"
+
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1359
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1537
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:2040
+msgid "Type"
+msgstr "類型"
+
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1363
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1561
+msgid "Origin"
+msgstr "來源"
+
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1421
+#: usr/share/linuxmint/mintupdate/main.ui.h:3
+#: usr/share/linuxmint/mintupdate/shortcuts.ui.h:3
+msgid "Refresh"
+msgstr "重新整理"
+
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1426
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1529
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1894
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:2009
+msgid "Information"
+msgstr "資訊"
+
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1431
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1477
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:2194
+msgid "Preferences"
+msgstr "偏好設定"
+
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1436
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1464
+msgid "Quit"
+msgstr "離開"
+
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1453
+msgid "_File"
+msgstr "檔案(_F)"
+
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1458
+msgid "Close window"
+msgstr "關閉視窗"
+
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1472
+msgid "_Edit"
+msgstr "編輯(_E)"
+
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1483
+msgid "System Snapshots"
+msgstr "系統備份快照"
+
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1489
+msgid "Software Sources"
+msgstr "軟體來源"
+
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1512
+#, python-format
+msgid "Upgrade to %s"
+msgstr "升級至 %s"
+
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1516
+msgid "_View"
+msgstr "檢視(_V)"
+
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1521
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:2031
+msgid "History of Updates"
+msgstr "過去的升級紀錄"
+
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1525
+msgid "Linux Kernels"
+msgstr "Linux 核心"
+
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1533
+msgid "Visible Columns"
+msgstr "欲顯示的欄位"
+
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1543
+msgid "Package"
+msgstr "套件"
+
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1575
+msgid "Show Descriptions"
+msgstr "顯示描述"
+
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1591
+msgid "_Help"
+msgstr "協助(_H)"
+
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1597
+msgid "Welcome Screen"
+msgstr "歡迎畫面"
+
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1602
+msgid "Keyboard Shortcuts"
+msgstr "鍵盤快捷鍵"
+
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1608
+msgid "Contents"
+msgstr "內容"
+
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1615
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:2136
+msgid "About"
+msgstr "關於"
+
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1708
+msgid "Cannot Proceed"
+msgstr "無法進行"
+
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1709
+msgid ""
+"Another process is currently using the package management system. Please "
+"wait for it to finish and then try again."
+msgstr "套件管理系統正在執行另一項工作，請等待其完成再重試。"
+
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1737
+msgid "Yes"
+msgstr "是"
+
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1738
+msgid "No"
+msgstr "否"
+
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1740
+#: usr/share/linuxmint/mintupdate/main.ui.h:22
+msgid "OK"
+msgstr "確定"
+
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1777
+msgid "No updates selected"
+msgstr "未選擇任何更新"
+
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1855
+#: usr/share/linuxmint/mintupdate/main.ui.h:12
+msgid "Welcome to the Update Manager"
+msgstr "歡迎使用更新管理員"
+
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1885
+msgid "Most recent change"
+msgstr ""
+
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1899
+#: usr/share/linuxmint/mintupdate/main.ui.h:9
+msgid "Description"
+msgstr "說明"
+
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1928
+msgid "This update affects the following installed package:"
+msgid_plural "This update affects the following installed packages:"
+msgstr[0] "此更新將連帶作用下列已安裝的套件："
+
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1933
+msgid "Total size:"
+msgstr "總共大小："
+
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1942
+msgid "Ignore the current update for this package"
+msgstr "忽略此套件的這次更新"
+
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1945
+msgid "Ignore all future updates for this package"
+msgstr "忽略此套件未來的所有更新"
+
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:2037
+msgid "Date"
+msgstr "日期"
+
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:2043
+msgid "Update"
+msgstr ""
+
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:2087
+msgid "package"
+msgstr ""
+
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:2210
+msgid "Options"
+msgstr "選項"
+
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:2211
+msgid "Blacklist"
+msgstr "黑名單"
+
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:2212
+msgid "Automation"
+msgstr "自動化"
+
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:2218
+msgid "Interface"
+msgstr "介面"
+
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:2219
+msgid "Hide the update manager after applying updates"
+msgstr "套用更新後隱藏更新管理員"
+
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:2220
+msgid "Only show a tray icon when updates are available or in case of errors"
+msgstr "僅在有更新可用或出現錯誤時，顯示系統匣圖示"
+
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:2222
+msgid "Auto-refresh"
+msgstr "自動重新整理"
+
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:2223
+msgid "Refresh the list of updates automatically"
+msgstr "自動重新整理更新列表"
+
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:2235
+msgid "days"
+msgstr "天"
+
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:2236
+msgid "hours"
+msgstr "小時"
+
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:2237
+msgid "minutes"
+msgstr "分鐘"
+
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:2238
+msgid "First, refresh the list of updates after:"
+msgstr "首先，在多久之後重新整理更新列表："
+
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:2242
+msgid "Then, refresh the list of updates every:"
+msgstr "接著，每隔多久重新整理更新列表："
+
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:2285
+msgid ""
+"Note: The list only gets refreshed while the Update Manager window is closed "
+"(system tray mode)."
+msgstr "提醒：此清單只在更新管理員的視窗被關閉且縮小在系統匣時，才會重新整理。"
+
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:2289
+msgid "Notifications"
+msgstr ""
+
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:2295
+msgid "Only show notifications for security and kernel updates"
+msgstr ""
+
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:2297
+msgid ""
+"Show a notification if an update has been available for (in logged-in days):"
+msgstr ""
+
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:2299
+msgid "Show a notification if an update is older than (in days):"
+msgstr ""
+
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:2301
+msgid ""
+"Don't show notifications if an update was applied in the last (in days):"
+msgstr ""
+
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:2306
+msgid "Ignored Updates"
+msgstr "被忽略的更新"
+
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:2329
+msgid "Package Updates"
+msgstr ""
+
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:2329
+msgid "Performed as root on a daily basis"
+msgstr ""
+
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:2330
+msgid "Apply updates automatically"
+msgstr "自動套用更新"
+
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:2334
+msgid "Export blacklist to /etc/mintupdate.blacklist"
+msgstr "將黑名單匯出至 /etc/mintupdate.blacklist"
+
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:2338
+msgid ""
+"Click this button for automatic updates to use your current blacklist."
+msgstr "點擊這個按鈕以套用您目前的黑名單至自動更新。"
+
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:2343
+msgid "Update Cinnamon spices automatically"
+msgstr ""
+
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:2346
+msgid "Update flatpaks automatically"
+msgstr ""
+
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:2349
+msgid "Other Updates"
+msgstr ""
+
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:2349
+msgid "Performed when you log in"
+msgstr ""
+
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:2352
+msgid "Automatic Maintenance"
+msgstr "自動維護"
+
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:2352
+msgid "Performed as root on a weekly basis"
+msgstr ""
+
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:2353
+msgid "Remove obsolete kernels and dependencies"
+msgstr "移除老舊的核心及相依關係"
+
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:2357
+msgid ""
+"This option always leaves at least one older kernel installed and never "
+"removes manually installed kernels."
+msgstr "開啟此選項將總是保留至少一個舊版核心，並不移除您手動安裝的核心。"
+
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:2413
+msgid ""
+"Please specify the source package name of the update to ignore (wildcards "
+"are supported) and optionally the version:"
+msgstr "請指定欲忽略的套件原始名稱 (僅輸入部分文字亦可) 及版本 (選填)："
+
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:2414
+msgid "Ignore an Update"
+msgstr "忽略更新"
+
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:2422
+msgid "Name:"
+msgstr "名稱："
+
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:2424
+msgid "Version:"
+msgstr "版本："
+
+#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:2426
+msgid "(optional)"
+msgstr "(選填)"
+
+#: usr/lib/linuxmint/mintUpdate/rel_upgrade.py:23
+msgid "System Upgrade"
+msgstr "系統升級"
+
+#: usr/lib/linuxmint/mintUpdate/rel_upgrade.py:35
+msgid "Introduction"
+msgstr "導覽"
+
+#: usr/lib/linuxmint/mintUpdate/rel_upgrade.py:39
+msgid ""
+"Your system is missing critical components. A package corresponding to your "
+"edition of Linux Mint should provide the virtual package 'mint-info' and the "
+"file /etc/linuxmint/info."
+msgstr ""
+"您的系統遺失關鍵組件。有個對應您 Linux Mint 桌面版本的軟體包，會提供「mint-info」虛擬軟體包和 "
+"/etc/linuxmint/info 檔案。"
+
+#: usr/lib/linuxmint/mintUpdate/rel_upgrade.py:52
+msgid "No upgrades were found."
+msgstr "找不到升級。"
+
+#: usr/lib/linuxmint/mintUpdate/rel_upgrade.py:61
+msgid "A new version of Linux Mint is available!"
+msgstr "有新版的 Linux Mint 可用！"
+
+#: usr/lib/linuxmint/mintUpdate/rel_upgrade.py:71
+#, python-format
+msgid "An upgrade was found but it is not available yet for the %s edition."
+msgstr "找到升級，但還不可用於 %s 桌面版本。"
+
+#: usr/lib/linuxmint/mintUpdate/rel_upgrade.py:80
+msgid "Release notes"
+msgstr "版本資訊"
+
+#: usr/lib/linuxmint/mintUpdate/rel_upgrade.py:87
+msgid ""
+"Please read the release notes before upgrading. They explain all the known "
+"issues, workarounds and solutions associated with the new version."
+msgstr "升級前請先參閱版本資訊。它們解釋所有與新版本相關的已知問題，替代方案，與解決方案。"
+
+#: usr/lib/linuxmint/mintUpdate/rel_upgrade.py:91
+#, python-format
+msgid "Release notes for %s"
+msgstr "%s 的更新資訊"
+
+#: usr/lib/linuxmint/mintUpdate/rel_upgrade.py:94
+msgid "Click on the link to open the release notes."
+msgstr "點擊此連結以開啟版本資訊。"
+
+#: usr/lib/linuxmint/mintUpdate/rel_upgrade.py:102
+msgid "New features"
+msgstr "新功能"
+
+#: usr/lib/linuxmint/mintUpdate/rel_upgrade.py:109
+msgid "Please look at the new features introduced in the new version."
+msgstr "請參閱此新版本所引進的新功能。"
+
+#: usr/lib/linuxmint/mintUpdate/rel_upgrade.py:113
+#, python-format
+msgid "New features in %s"
+msgstr "%s 的新功能"
+
+#: usr/lib/linuxmint/mintUpdate/rel_upgrade.py:116
+msgid "Click on the link to browse the new features."
+msgstr "點擊此連結以瀏覽新功能。"
+
+#: usr/lib/linuxmint/mintUpdate/rel_upgrade.py:124
+msgid "Requirements"
+msgstr "需求"
+
+#: usr/lib/linuxmint/mintUpdate/rel_upgrade.py:134
+#, python-format
+msgid "The package %s needs to be installed before upgrading."
+msgstr "升級前需要先安裝 %s 套件。"
+
+#: usr/lib/linuxmint/mintUpdate/rel_upgrade.py:138
+#, python-format
+msgid "Install %s"
+msgstr "安裝 %s"
+
+#: usr/lib/linuxmint/mintUpdate/rel_upgrade.py:143
+msgid "Click on the button to install the missing package."
+msgstr "點按此按鈕以安裝遺漏的套件。"
+
+#: usr/lib/linuxmint/mintUpdate/rel_upgrade.py:157
+msgid ""
+"New releases provide bug fixes and new features but they also sometimes "
+"introduce new issues. Upgrading always represents a risk. Your data is safe "
+"but new issues can potentially affect your operating system."
+msgstr "新發行版本提供錯誤修正與新功能，但它們有時也會引進新問題。升級總是代表著風險。您的資料安全無虞，但是新問題可能會影響您的作業系統。"
+
+#: usr/lib/linuxmint/mintUpdate/rel_upgrade.py:161
+#, python-format
+msgid "I understand the risk. I want to upgrade to %s."
+msgstr "我理解風險。我要升級至 %s。"
+
+#: usr/lib/linuxmint/mintUpdate/rel_upgrade.py:171
+msgid "Summary"
+msgstr "總覽"
+
+#: usr/lib/linuxmint/mintUpdate/rel_upgrade.py:260
+msgid ""
+"Your operating system was successfully upgraded. Please reboot your computer "
+"for all changes to take effect."
+msgstr "您的作業系統已成功升級。請重開機以令所有變更生效。"
+
+#: usr/lib/linuxmint/mintUpdate/rel_upgrade.py:263
+msgid ""
+"The upgrade did not succeed. Make sure you are connected to the Internet and "
+"try to upgrade again."
+msgstr "此升級未成功。請確定您已連線至網際網路並再次嘗試升級。"
+
+#: generate_desktop_files:26
+msgid "Show and install available updates"
+msgstr "顯示並安裝可用的更新"
+
+#: usr/bin/mintupdate-launcher:57
+msgid "The following spices were automatically updated:"
+msgstr ""
+
+#: usr/bin/mintupdate-launcher:66
+msgid "Cinnamon was restarted"
+msgstr ""
+
+#: usr/share/linuxmint/mintupdate/history.ui.h:1
+#: usr/share/linuxmint/mintupdate/information.ui.h:3
+#: usr/share/linuxmint/mintupdate/kernels.ui.h:21
+#: usr/share/linuxmint/mintupdate/shortcuts.ui.h:2
+msgid "Close"
+msgstr "關閉"
+
+#: usr/share/linuxmint/mintupdate/information.ui.h:1
+msgid "Process ID:"
+msgstr "程序 ID："
+
+#: usr/share/linuxmint/mintupdate/information.ui.h:2
+msgid "Log file:"
+msgstr "記錄檔："
+
+#: usr/share/linuxmint/mintupdate/kernels.ui.h:1
+msgid "Warning!"
+msgstr "警告！"
+
+#: usr/share/linuxmint/mintupdate/kernels.ui.h:2
+msgid "Proceed with caution"
+msgstr "小心行事"
+
+#: usr/share/linuxmint/mintupdate/kernels.ui.h:3
+msgid ""
+"Installing a new kernel can sometimes cause problems, especially if you're "
+"using proprietary drivers."
+msgstr "安裝新的核心可能導致問題，特別是您正在使用專有驅動程式的情況下。"
+
+#: usr/share/linuxmint/mintupdate/kernels.ui.h:4
+msgid "These issues include:"
+msgstr "這些問題包括了："
+
+#: usr/share/linuxmint/mintupdate/kernels.ui.h:5
+msgid ""
+"- No wifi (or ethernet)\n"
+"- No video acceleration\n"
+"- Black screen on startup\n"
+"- Random system freeze"
+msgstr ""
+"- 沒有無線網路或有線網路的連線\n"
+"- 沒有視訊加速功能\n"
+"- 開機時出現黑畫面\n"
+"- 系統可能不定時沒有回應"
+
+#: usr/share/linuxmint/mintupdate/kernels.ui.h:9
+msgid "If you face any of these issues, don't panic:"
+msgstr "若您遇到這些情況，請別慌張："
+
+# 認為此翻譯不需在句尾加上句號，會使文句顯得冗贅
+#: usr/share/linuxmint/mintupdate/kernels.ui.h:10
+msgid ""
+"- Reboot.\n"
+"- Press and hold the Shift key to show the boot menu.\n"
+"- In the boot menu, select the line which starts with 'Advanced options'.\n"
+"- Select an older kernel.\n"
+"- After the computer boots with the older kernel, uninstall the new one."
+msgstr ""
+"- 重開機\n"
+"-長按 Shift 鍵以顯示開機選單\n"
+"- 在開機選項中，選擇以「進階選項」開頭的那行\n"
+"- 選擇舊版核心\n"
+"- 當電腦以舊版核心開機後，請您將新版核心移除"
+
+#: usr/share/linuxmint/mintupdate/kernels.ui.h:15
+msgid "Do not show this message again"
+msgstr "不要再顯示這個訊息"
+
+#: usr/share/linuxmint/mintupdate/kernels.ui.h:16
+#: usr/share/linuxmint/mintupdate/main.ui.h:21
+msgid "Help"
+msgstr "協助"
+
+#: usr/share/linuxmint/mintupdate/kernels.ui.h:17
+msgid "Continue"
+msgstr "繼續"
+
+#: usr/share/linuxmint/mintupdate/kernels.ui.h:18
+msgid "Kernel flavor:"
+msgstr ""
+
+#: usr/share/linuxmint/mintupdate/kernels.ui.h:19
+msgid "Perform Queued Actions..."
+msgstr "執行等待中的項目..."
+
+#: usr/share/linuxmint/mintupdate/kernels.ui.h:20
+msgid "Remove Kernels..."
+msgstr "移除核心..."
+
+#: usr/share/linuxmint/mintupdate/kernels.ui.h:23
+msgid "Cancel"
+msgstr "取消"
+
+#: usr/share/linuxmint/mintupdate/kernels.ui.h:24
+msgid "Apply"
+msgstr "套用"
+
+#: usr/share/linuxmint/mintupdate/kernels.ui.h:25
+msgid "Please confirm the following actions:"
+msgstr "請確認下列的動作："
+
+#: usr/share/linuxmint/mintupdate/main.ui.h:1
+#: usr/share/linuxmint/mintupdate/shortcuts.ui.h:6
+msgid "Clear"
+msgstr "清除"
+
+#: usr/share/linuxmint/mintupdate/main.ui.h:2
+#: usr/share/linuxmint/mintupdate/shortcuts.ui.h:7
+msgid "Select All"
+msgstr "全選"
+
+#: usr/share/linuxmint/mintupdate/main.ui.h:4
+#: usr/share/linuxmint/mintupdate/shortcuts.ui.h:4
+msgid "Install Updates"
+msgstr "安裝更新"
+
+#: usr/share/linuxmint/mintupdate/main.ui.h:6
+msgid "A new version of the Update Manager is available"
+msgstr "新版的更新管理員已經可用"
+
+#: usr/share/linuxmint/mintupdate/main.ui.h:7
+msgid "Apply the Update"
+msgstr "套用更新"
+
+#: usr/share/linuxmint/mintupdate/main.ui.h:10
+msgid "Packages"
+msgstr "套件"
+
+#: usr/share/linuxmint/mintupdate/main.ui.h:11
+msgid "Changelog"
+msgstr "變更記錄"
+
+#: usr/share/linuxmint/mintupdate/main.ui.h:13
+msgid ""
+"This tool provides your operating system with software and security updates."
+msgstr "此工具為您的作業系統提供軟體、安全性的更新。"
+
+#: usr/share/linuxmint/mintupdate/main.ui.h:14
+msgid "Security updates"
+msgstr "安全性更新"
+
+#: usr/share/linuxmint/mintupdate/main.ui.h:15
+msgid ""
+"Apply security updates to patch vulnerabilities and keep your computer safe."
+msgstr "套用安全性更新可以修正系統弱點，並保持電腦安全。"
+
+#: usr/share/linuxmint/mintupdate/main.ui.h:16
+msgid "Software updates"
+msgstr "軟體更新"
+
+#: usr/share/linuxmint/mintupdate/main.ui.h:17
+msgid "Apply software updates to fix bugs in your computer."
+msgstr "套用軟體更新可以修正您電腦上的問題。"
+
+#: usr/share/linuxmint/mintupdate/main.ui.h:19
+msgid ""
+"Set up system snapshots to protect yourself from mistakes and regressions. "
+"If anything breaks simply restore the last snapshot."
+msgstr "設定系統備份快照以避免操作錯誤及效能倒退。若發生任何錯誤，只要將系統還原至先前的快照狀態即可。"
+
+#: usr/share/linuxmint/mintupdate/main.ui.h:20
+msgid ""
+"Linux Mint recommends to set up automated system snapshots and to apply all "
+"available updates. This way, your computer is always secure and you can go "
+"back in time and recover from any potential regression."
+msgstr ""
+"Linux Mint 推薦您設定自動的系統備份快照並套用所有可用的更新。如此一來，您的電腦將隨時處於安全狀態，且您可在遭遇效能倒退時將系統還原至正常狀態。"
+
+#: usr/share/linuxmint/mintupdate/preferences.ui.h:1
+msgid ""
+"Packages listed here will never receive updates. Use this option to block "
+"updates that you know cause issues on your system."
+msgstr "此處列出的套件將不會收到更新。您可使用此功能來阻止會對您電腦造成問題的更新。"
+
+#: usr/share/linuxmint/mintupdate/preferences.ui.h:2
+msgid ""
+"It is recommended to add packages to the blacklist by right-clicking them in "
+"the updates listing."
+msgstr "建議在更新列表中對軟體包按下右鍵，以將其列入黑名單。"
+
+#: usr/share/linuxmint/mintupdate/preferences.ui.h:3
+msgid ""
+"Make sure your system snapshots are properly configured before using this "
+"option."
+msgstr "使用這個選項前，確定您的系統備份快照已設定好。"
+
+#: usr/share/linuxmint/mintupdate/shortcuts.ui.h:1
+msgid "Window"
+msgstr "視窗"
+
+#: usr/share/linuxmint/mintupdate/shortcuts.ui.h:5
+msgid "Selection"
+msgstr "選取"
+
+#: usr/share/linuxmint/mintupdate/shortcuts.ui.h:8
+msgid "Select Security Updates"
+msgstr "選擇安全更新"
+
+#: usr/share/linuxmint/mintupdate/shortcuts.ui.h:9
+msgid "Select Kernel Updates"
+msgstr "選擇核心更新"
+
+#~ msgid "Software Updates"
+#~ msgstr "軟體更新"
+
+#~ msgid "Update is complete"
+#~ msgstr "更新完成"
+
+#~ msgid "Level"
+#~ msgstr "等級"
+
+#~ msgid "Status"
+#~ msgstr "狀態"
+
+#~ msgid "Icons"
+#~ msgstr "圖示"
+
+#~ msgid "Icon"
+#~ msgstr "圖示"
+
+#~ msgid "Busy"
+#~ msgstr "忙碌"
+
+#~ msgid "HTTP Proxy:"
+#~ msgstr "HTTP 代理:"
+
+#~ msgid "Gopher Proxy:"
+#~ msgstr "Gopher 代理:"
+
+#~ msgid "Manual proxy configuration"
+#~ msgstr "手動代理伺服器設定"
+
+#~ msgid "Error"
+#~ msgstr "錯誤"
+
+#~ msgid "FTP Proxy:"
+#~ msgstr "FTP 代理:"
+
+#~ msgid "Port:"
+#~ msgstr "連接埠:"
+
+#~ msgid "Permissions:"
+#~ msgstr "權限:"
+
+#~ msgid "Warnings"
+#~ msgstr "警告"
+
+#~ msgid "Could not connect to the Internet"
+#~ msgstr "無法連上網際網路"
+
+#~ msgid "Downloading safety level rules..."
+#~ msgstr "正在下載安全規則"
+
+#~ msgid "Could not download safety rules"
+#~ msgstr "無法下載安全規則"
+
+#~ msgid "Linux Mint or Romeo"
+#~ msgstr "Linux Mint或Romeo"
+
+#~ msgid "Ubuntu or 3rd party"
+#~ msgstr "Ubuntu或第三方"
+
+#~ msgid "New Icon"
+#~ msgstr "新圖示"
+
+#~ msgid "Checking the connection to the Internet..."
+#~ msgstr "正在檢查網際網路連線..."
+
+#, python-format
+#~ msgid "%d recommended updates available"
+#~ msgstr "%d 可用的建議更新"
+
+#~ msgid "Use the same proxy for all protocols"
+#~ msgstr "所有的協定使用相同的代理伺服器"
+
+#~ msgid "Proxy"
+#~ msgstr "代理伺服器"
+
+#~ msgid "System up-to-date"
+#~ msgstr "系統已是最新"
+
+#~ msgid "Ignored packages"
+#~ msgstr "忽略的套件"
+
+#~ msgid "Please enter a package name:"
+#~ msgstr "請輸入套件名稱:"
+
+#~ msgid "Package name:"
+#~ msgstr "套件名稱:"
+
+#~ msgid "Old version"
+#~ msgstr "舊版本"
+
+#~ msgid "New version"
+#~ msgstr "新版本"
+
+#~ msgid "Please enter your password to start mintUpdate"
+#~ msgstr "輸入密碼以啟動mintUpdate"
+
+#~ msgid "Software sources"
+#~ msgstr "軟體來源"
+
+#~ msgid "Could not refresh the list of packages"
+#~ msgstr "無法重新整理套件列表"
+
+#~ msgid "Auto-Refresh"
+#~ msgstr "自動重新整理"
+
+#~ msgid "Internet check (domain name or IP address):"
+#~ msgstr "檢查網際網路 (網域名稱或IP位址):"
+
+#~ msgid "Satisfy changing dependencies using dist-upgrade?"
+#~ msgstr "使用發行版升級來滿足變更的相依性?"
+
+#~ msgid "Ignore a package"
+#~ msgstr "忽略一個套件"
+
+#~ msgid "Log file"
+#~ msgstr "記錄檔"
+
+#~ msgid "History of updates"
+#~ msgstr "更新歷史"
+
+#~ msgid "All available upgrades for this package will be ignored."
+#~ msgstr "忽略這個套件所有可用的升級"
+
+#~ msgid "Extra Info"
+#~ msgstr "額外的訊息"
+
+#, python-format
+#~ msgid "%(recommended)d recommended updates available, %(ignored)d ignored"
+#~ msgstr "%(recommended)d 可安裝的建議更新, %(ignored)d 被忽略"
+
+#~ msgid ""
+#~ "Note: The list only gets refreshed while the mintUpdate window is closed "
+#~ "(system tray mode)."
+#~ msgstr "注意：這個列表只會在mintUpdate視窗被關閉時(system tray mode)被重新整理"
+
+#~ msgid "Levels"
+#~ msgstr "等級"
+
+#~ msgid ""
+#~ "Note: The dist-upgrade option, in addition to performing the function of "
+#~ "upgrade, also intelligently handles changing dependencies with new versions "
+#~ "of packages. Without this option, only the latest versions of any out-of-"
+#~ "date packages on your system are installed. Packages that are not yet "
+#~ "installed don't get installed automatically and newer versions of packages "
+#~ "which dependencies require such installations are simply ignored."
+#~ msgstr ""
+#~ "注意: 發行版升級的選項除了執行功能的升級外,也處理新版本套件的依存. 沒有這個選項,只有舊版套件的最新版本會安裝在你的系統上. "
+#~ "未安裝的套件不會自動安裝,而依賴這些安裝的新版套件將被直接忽略."
+
+#~ msgid "Startup delay (in seconds):"
+#~ msgstr "開始時延遲(以秒為單位):"
+
+#~ msgid ""
+#~ "Unsafe packages. Could potentially affect the stability of the system."
+#~ msgstr "不安全的套件。可能會影響系統穩定度。"
+
+#~ msgid "Safe packages. Not tested but believed to be safe."
+#~ msgstr "安全的套件。未經測試但相信是安全的。"
+
+#~ msgid ""
+#~ "Dangerous packages. Known to affect the stability of the systems depending "
+#~ "on certain specs or hardware."
+#~ msgstr "危險的套件.。已知在特定規格或硬體下會影響系統穩定度。"
+
+#~ msgid ""
+#~ "Certified packages. Tested through Romeo or directly maintained by Linux "
+#~ "Mint."
+#~ msgstr "已認證的套件。通過 Romeo 測試或直接由 Linux Mint 維護。"
+
+#~ msgid "Recommended packages. Tested and approved by Linux Mint."
+#~ msgstr "建議的套件。通過 Linux Mint 測試與認可。"
+
+#~ msgid "Update Method"
+#~ msgstr "更新方法"
+
+#~ msgid "Visible?"
+#~ msgstr "可見?"
+
+#~ msgid "Tested?"
+#~ msgstr "已測?"
+
+#~ msgid "Finding the list of updates..."
+#~ msgstr "尋找更新列表中..."
+
+#~ msgid "Starting refresh..."
+#~ msgstr "開始重新整理中..."
+
+#~ msgid "Another application is using APT"
+#~ msgstr "其他程式正在使用 APT"
+
+#~ msgid "Updates available"
+#~ msgstr "有更新可用"
+
+#~ msgid "Refresh the list of updates every:"
+#~ msgstr "每隔多久重新整理更新列表:"
+
+#~ msgid "Safe?"
+#~ msgstr "勾選?"
+
+#~ msgid "Please wait, this can take some time"
+#~ msgstr "請稍候，這將需要一些時間"
+
+#~ msgid "Visible columns"
+#~ msgstr "顯示欄位"

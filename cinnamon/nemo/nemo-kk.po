@@ -1,0 +1,6684 @@
+# Kazakh translation for linuxmint
+# Copyright (c) 2016 Rosetta Contributors and Canonical Ltd 2016
+# This file is distributed under the same license as the linuxmint package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2016.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: linuxmint\n"
+"Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
+"POT-Creation-Date: 2022-06-10 13:37+0200\n"
+"PO-Revision-Date: 2018-07-18 16:00+0000\n"
+"Last-Translator: Murat Käribay <d2vsd1@mail.ru>\n"
+"Language-Team: Kazakh <kk@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Launchpad-Export-Date: 2022-10-10 13:06+0000\n"
+"X-Generator: Launchpad (build 762fb15a975e8b23af6a1f86e44e46bfd0451459)\n"
+"Language: kk\n"
+
+#. (itstool) path: mime-type/_comment
+#: data/nemo.xml.in:5
+msgid "Saved search"
+msgstr ""
+
+#. (itstool) path: mime-type/_comment
+#: data/nemo.xml.in:10
+msgid "Nemo action definition"
+msgstr ""
+
+#. (itstool) path: mime-type/_comment
+#: data/nemo.xml.in:16
+msgid "Nemo search-helper definition"
+msgstr ""
+
+#: src/nemo-action-config-widget.c:237
+msgid "No actions found"
+msgstr "Әрекеттер табылмады"
+
+#: src/nemo-action-config-widget.c:447
+msgid "Actions"
+msgstr "Әрекеттер"
+
+#: src/nemo-application.c:402
+#, c-format
+msgid "Nemo could not create the required folder \"%s\"."
+msgstr "Nemo \"%s\" деген буманы құрай алмайды."
+
+#: src/nemo-application.c:404
+msgid ""
+"Before running Nemo, please create the following folder, or set permissions "
+"such that Nemo can create it."
+msgstr ""
+
+#: src/nemo-autorun-software.c:143 src/nemo-autorun-software.c:146
+#, c-format
+msgid "Error starting autorun program: %s"
+msgstr ""
+
+#: src/nemo-autorun-software.c:149
+msgid "Cannot find the autorun program"
+msgstr ""
+
+#: src/nemo-autorun-software.c:171
+msgid "<big><b>Error autorunning software</b></big>"
+msgstr ""
+
+#: src/nemo-autorun-software.c:197
+msgid ""
+"<big><b>This medium contains software intended to be automatically started. "
+"Would you like to run it?</b></big>"
+msgstr ""
+
+#: src/nemo-autorun-software.c:199
+#, c-format
+msgid ""
+"The software will run directly from the medium \"%s\". You should never run "
+"software that you don't trust.\n"
+"\n"
+"If in doubt, press Cancel."
+msgstr ""
+
+#: src/nemo-autorun-software.c:234 src/nemo-mime-actions.c:732
+msgid "_Run"
+msgstr "_Орындау"
+
+#: src/nemo-blank-desktop-window.c:154
+msgid "Customize"
+msgstr ""
+
+#. hardcode "Desktop"
+#: src/nemo-blank-desktop-window.c:230 src/nemo-desktop-window.c:125
+#: src/nemo-desktop-window.c:294 src/nemo-pathbar.c:1437
+#: src/nemo-places-sidebar.c:827 libnemo-private/nemo-action.c:1422
+#: gresources/nemo-file-management-properties.glade:4036
+msgid "Desktop"
+msgstr "Жұмыс үстелі"
+
+#: src/nemo-bookmarks-window.c:171
+msgid "No bookmarks defined"
+msgstr "Сақталған бетбелгілер жоқ"
+
+#: src/nemo-config-base-widget.c:70
+msgid "Disable all"
+msgstr "Барлығын ажырату"
+
+#: src/nemo-config-base-widget.c:73
+msgid "Enable all"
+msgstr "Барлығын қосу"
+
+#: src/nemo-connect-server-dialog.c:125
+msgid "SSH"
+msgstr "SSH"
+
+#: src/nemo-connect-server-dialog.c:128
+msgid "Public FTP"
+msgstr "Публикалық FTP"
+
+#: src/nemo-connect-server-dialog.c:130
+msgid "FTP (with login)"
+msgstr "FTP (кірумен)"
+
+#: src/nemo-connect-server-dialog.c:133
+msgid "Windows share"
+msgstr "Windows ортақ бумасы"
+
+#: src/nemo-connect-server-dialog.c:135
+msgid "WebDAV (HTTP)"
+msgstr "WebDAV (HTTP)"
+
+#: src/nemo-connect-server-dialog.c:137
+msgid "Secure WebDAV (HTTPS)"
+msgstr "Қауіпсіз WebDAV (HTTPS)"
+
+#: src/nemo-connect-server-dialog.c:184
+msgid "Connecting..."
+msgstr "Байланысты орнату..."
+
+#: src/nemo-connect-server-dialog.c:208
+msgid ""
+"Can't load the supported server method list.\n"
+"Please check your gvfs installation."
+msgstr ""
+
+#: src/nemo-connect-server-dialog.c:286
+#, c-format
+msgid "The folder \"%s\" cannot be opened on \"%s\"."
+msgstr ""
+
+#: src/nemo-connect-server-dialog.c:296
+#, c-format
+msgid "The server at \"%s\" cannot be found."
+msgstr ""
+
+#: src/nemo-connect-server-dialog.c:331
+msgid "Try Again"
+msgstr "Қайталау"
+
+#: src/nemo-connect-server-dialog.c:396
+msgid "Please verify your user details."
+msgstr ""
+
+#: src/nemo-connect-server-dialog.c:426
+msgid "Continue"
+msgstr "Жалғастыру"
+
+#: src/nemo-connect-server-dialog.c:700 src/nemo-connect-server-dialog.c:1094
+msgid "C_onnect"
+msgstr "Ба_йланысты орнату"
+
+#. set dialog properties
+#: src/nemo-connect-server-dialog.c:829
+msgid "Connect to Server"
+msgstr "Сервермен байланысты орнату"
+
+#: src/nemo-connect-server-dialog.c:847
+msgid "Server Details"
+msgstr "Сервер ақпараты"
+
+#. first row: server entry + port spinbutton
+#: src/nemo-connect-server-dialog.c:872
+msgid "_Server:"
+msgstr "_Сервер:"
+
+#. port
+#: src/nemo-connect-server-dialog.c:892
+msgid "_Port:"
+msgstr "_Порт:"
+
+#. second row: type combobox
+#: src/nemo-connect-server-dialog.c:910
+msgid "_Type:"
+msgstr "_Түрі:"
+
+#. third row: share entry
+#: src/nemo-connect-server-dialog.c:980
+msgid "Sh_are:"
+msgstr "Қ_ор:"
+
+#. fourth row: folder entry
+#: src/nemo-connect-server-dialog.c:995
+msgid "_Folder:"
+msgstr "_Бума:"
+
+#: src/nemo-connect-server-dialog.c:1013
+msgid "User Details"
+msgstr "Пайд.-шы ақпараты"
+
+#. first row: domain entry
+#: src/nemo-connect-server-dialog.c:1037
+msgid "_Domain name:"
+msgstr "_Домен аты:"
+
+#. second row: username entry
+#: src/nemo-connect-server-dialog.c:1052
+msgid "_User name:"
+msgstr "_Пайдаланушы аты:"
+
+#. third row: password entry
+#: src/nemo-connect-server-dialog.c:1067
+msgid "Pass_word:"
+msgstr "Құпия_сөз:"
+
+#. fourth row: remember checkbox
+#: src/nemo-connect-server-dialog.c:1083
+msgid "_Remember this password"
+msgstr "_Бұл құпиясөзді еске сақтау"
+
+#: src/nemo-connect-server-dialog.c:1180
+msgid "Operation cancelled"
+msgstr "Әрекет бас тартылды"
+
+#: src/nemo-connect-server-dialog-main.c:120
+msgid "Print but do not open the URI"
+msgstr "URI баспаға шығару, бірақ ашпау"
+
+#. Translators: This is the --help description for the connect to server app,
+#. the initial newlines are between the command line arg and the description
+#: src/nemo-connect-server-dialog-main.c:131
+msgid ""
+"\n"
+"\n"
+"Add connect to server mount"
+msgstr ""
+"\n"
+"\n"
+"Сервер тіркеу нүкесіне байланысты қосу"
+
+#: src/nemo-desktop-application.c:258 src/nemo-main-application.c:669
+msgid "Show the version of the program."
+msgstr "Бағдарлама нұсқасын көрсету."
+
+#: src/nemo-desktop-application.c:262
+msgid "Quit Nemo Desktop."
+msgstr ""
+
+#: src/nemo-desktop-application.c:273
+msgid ""
+"\n"
+"\n"
+"Manage the desktop with the file manager"
+msgstr ""
+
+#. name, stock id
+#. label, accelerator
+#: src/nemo-desktop-icon-grid-view.c:917 src/nemo-desktop-icon-view.c:682
+#: src/nemo-view.c:8274 src/nemo-view.c:9907
+msgid "E_mpty Trash"
+msgstr "Себетті та_зарту"
+
+#. name, stock id
+#. label, accelerator
+#: src/nemo-desktop-icon-grid-view.c:1027
+#: gresources/nemo-desktop-overlay.glade:293
+msgid "Auto-arrange"
+msgstr ""
+
+#. name, stock id
+#. label, accelerator
+#: src/nemo-desktop-icon-grid-view.c:1032
+#: gresources/nemo-desktop-overlay.glade:539
+#: gresources/nemo-file-management-properties.glade:546
+msgid "Reverse sort"
+msgstr ""
+
+#: src/nemo-desktop-icon-grid-view.c:1040
+msgid "Smaller"
+msgstr "Кішірек"
+
+#: src/nemo-desktop-icon-grid-view.c:1044
+msgid "Small"
+msgstr ""
+
+#: src/nemo-desktop-icon-grid-view.c:1048
+msgid "Normal"
+msgstr ""
+
+#: src/nemo-desktop-icon-grid-view.c:1052
+msgid "Large"
+msgstr ""
+
+#: src/nemo-desktop-icon-grid-view.c:1056
+msgid "Larger"
+msgstr "Үлкенірек"
+
+#: src/nemo-desktop-icon-grid-view.c:1063
+msgid "_Vertical"
+msgstr ""
+
+#: src/nemo-desktop-icon-grid-view.c:1067
+msgid "_Horizontal"
+msgstr ""
+
+#: src/nemo-desktop-icon-grid-view.c:1074 src/nemo-list-view.c:2498
+#: libnemo-private/nemo-column-utilities.c:43
+#: gresources/nemo-desktop-overlay.glade:116
+msgid "Name"
+msgstr "Аты"
+
+#: src/nemo-desktop-icon-grid-view.c:1078
+#: libnemo-private/nemo-column-utilities.c:50
+#: gresources/nemo-desktop-overlay.glade:121
+msgid "Size"
+msgstr "Көлемі"
+
+#: src/nemo-desktop-icon-grid-view.c:1082
+#: libnemo-private/nemo-column-utilities.c:58
+#: gresources/nemo-desktop-overlay.glade:126
+msgid "Type"
+msgstr "Түрі"
+
+#: src/nemo-desktop-icon-grid-view.c:1086
+#: gresources/nemo-desktop-overlay.glade:131
+msgid "Date"
+msgstr ""
+
+#. name, stock id, label
+#: src/nemo-desktop-icon-grid-view.c:1092
+msgid "_Sort"
+msgstr ""
+
+#. name, stock id, label
+#: src/nemo-desktop-icon-grid-view.c:1093
+msgid "_Icon Size"
+msgstr ""
+
+#. label, accelerator
+#. name, stock id
+#. label, accelerator
+#: src/nemo-desktop-icon-grid-view.c:1097 src/nemo-desktop-icon-view.c:723
+msgid "Empty Trash"
+msgstr "Себетті тазалау"
+
+#. tooltip
+#: src/nemo-desktop-icon-grid-view.c:1099 src/nemo-desktop-icon-view.c:724
+#: src/nemo-trash-bar.c:227 src/nemo-view.c:8275
+msgid "Delete all items in the Trash"
+msgstr "Себеттегі барлық нәрсені өшіру"
+
+#: src/nemo-desktop-icon-grid-view.c:1103
+#: gresources/nemo-file-management-properties.glade:4059
+msgid "_Customize"
+msgstr ""
+
+#: src/nemo-desktop-icon-grid-view.c:1104
+msgid "Adjust the desktop layout for this monitor"
+msgstr ""
+
+#: src/nemo-desktop-icon-grid-view.c:1195 src/nemo-desktop-icon-view.c:787
+msgid "The desktop view encountered an error."
+msgstr ""
+
+#: src/nemo-desktop-icon-grid-view.c:1196 src/nemo-desktop-icon-view.c:788
+msgid "The desktop view encountered an error while starting up."
+msgstr ""
+
+#. name, stock id
+#. label, accelerator
+#: src/nemo-desktop-icon-view.c:704 src/nemo-desktop-icon-view.c:719
+msgid "Restore Icons' Original Si_zes"
+msgstr "Таңбашалардың бастапқы ө_лшемдерін қалпына келтіру"
+
+#: src/nemo-desktop-icon-view.c:705
+msgid "Restore Icon's Original Si_ze"
+msgstr "Таңбашаның бастапқы өл_шемін қалпына келтіру"
+
+#. name, stock id
+#. label, accelerator
+#: src/nemo-desktop-icon-view.c:715
+msgid "Resize Icon..."
+msgstr ""
+
+#. tooltip
+#: src/nemo-desktop-icon-view.c:716
+msgid "Make the selected icon resizable"
+msgstr ""
+
+#. tooltip
+#: src/nemo-desktop-icon-view.c:720
+msgid "Restore each selected icon to its original size"
+msgstr "Әр таңдалған таңбашаны бастапқы өлшемдеріне қайтару"
+
+#: src/nemo-desktop-item-properties.c:408
+#: src/nemo-desktop-item-properties.c:418 src/nemo-image-properties-page.c:368
+msgid "Comment"
+msgstr "Пікір"
+
+#: src/nemo-desktop-item-properties.c:411
+msgid "URL"
+msgstr "Сілтеме"
+
+#: src/nemo-desktop-item-properties.c:414
+#: src/nemo-desktop-item-properties.c:424 src/nemo-image-properties-page.c:361
+#: src/nemo-image-properties-page.c:414
+msgid "Description"
+msgstr "Анықтамасы"
+
+#: src/nemo-desktop-item-properties.c:421
+msgid "Command"
+msgstr "Бұйрық"
+
+#: src/nemo-desktop-overlay.c:78
+#, c-format
+msgid "Current Monitor Layout (%s - %dx%d)"
+msgstr ""
+
+#: src/nemo-desktop-overlay.c:90
+#, c-format
+msgid "Current Monitor Layout (%dx%d)"
+msgstr ""
+
+#: src/nemo-desktop-overlay.c:365 src/nemo-desktop-overlay.c:503
+#: src/nemo-desktop-overlay.c:506
+msgid "Desktop Settings"
+msgstr ""
+
+#: src/nemo-desktop-overlay.c:469
+msgid "Current Monitor Preferences"
+msgstr ""
+
+#: src/nemo-desktop-overlay.c:493
+msgid "Show global desktop settings"
+msgstr ""
+
+#: src/nemo-error-reporting.c:68
+#, c-format
+msgid ""
+"You do not have the permissions necessary to view the contents of \"%s\"."
+msgstr ""
+
+#: src/nemo-error-reporting.c:72
+#, c-format
+msgid "\"%s\" could not be found. Perhaps it has recently been deleted."
+msgstr ""
+
+#: src/nemo-error-reporting.c:76
+#, c-format
+msgid "Sorry, could not display all the contents of \"%s\": %s"
+msgstr ""
+
+#: src/nemo-error-reporting.c:83
+msgid "The folder contents could not be displayed."
+msgstr "Бума құрамасын көрсету мүмкін емес."
+
+#: src/nemo-error-reporting.c:107
+#, c-format
+msgid ""
+"You do not have the permissions necessary to change the group of \"%s\"."
+msgstr ""
+
+#. fall through
+#: src/nemo-error-reporting.c:120
+#, c-format
+msgid "Sorry, could not change the group of \"%s\": %s"
+msgstr ""
+
+#: src/nemo-error-reporting.c:125
+msgid "The group could not be changed."
+msgstr "Топты өзгерту мүмкін емес."
+
+#: src/nemo-error-reporting.c:145
+#, c-format
+msgid "Sorry, could not change the owner of \"%s\": %s"
+msgstr ""
+
+#: src/nemo-error-reporting.c:147
+msgid "The owner could not be changed."
+msgstr "Иесін өзгерту мүмкін емес."
+
+#: src/nemo-error-reporting.c:167
+#, c-format
+msgid "Sorry, could not change the permissions of \"%s\": %s"
+msgstr ""
+
+#: src/nemo-error-reporting.c:169
+msgid "The permissions could not be changed."
+msgstr "Рұқсаттарын өзгерту мүмкін емес."
+
+#: src/nemo-error-reporting.c:204
+#, c-format
+msgid ""
+"The name \"%s\" is already used in this folder. Please use a different name."
+msgstr ""
+
+#: src/nemo-error-reporting.c:209
+#, c-format
+msgid ""
+"There is no \"%s\" in this folder. Perhaps it was just moved or deleted?"
+msgstr ""
+
+#: src/nemo-error-reporting.c:214
+#, c-format
+msgid "You do not have the permissions necessary to rename \"%s\"."
+msgstr ""
+
+#: src/nemo-error-reporting.c:219
+#, c-format
+msgid ""
+"The name \"%s\" is not valid because it contains the character \"/\". Please "
+"use a different name."
+msgstr ""
+
+#: src/nemo-error-reporting.c:223
+#, c-format
+msgid "The name \"%s\" is not valid. Please use a different name."
+msgstr ""
+
+#: src/nemo-error-reporting.c:229
+#, c-format
+msgid "The name \"%s\" is too long. Please use a different name."
+msgstr ""
+
+#. fall through
+#: src/nemo-error-reporting.c:243
+#, c-format
+msgid "Sorry, could not rename \"%s\" to \"%s\": %s"
+msgstr ""
+
+#: src/nemo-error-reporting.c:251
+msgid "The item could not be renamed."
+msgstr "Нәрсенің атын ауыстыру мүмкін емес."
+
+#: src/nemo-error-reporting.c:348
+#, c-format
+msgid "Renaming \"%s\" to \"%s\"."
+msgstr "\"%s\" дан \"%s\" ға атын өзгерту"
+
+#: src/nemo-extension-config-widget.c:212
+msgid "No extensions found"
+msgstr "Кеңейтулер табылмады"
+
+#: src/nemo-extension-config-widget.c:277
+msgid "no information available"
+msgstr ""
+
+#: src/nemo-extension-config-widget.c:287
+msgid "Configure"
+msgstr "Баптау"
+
+#: src/nemo-extension-config-widget.c:398
+msgid "Extensions"
+msgstr "Кеңейтулер"
+
+#: src/nemo-extension-config-widget.c:406
+msgid "Extensions changed.  Restart required."
+msgstr ""
+
+#. Translators: this is referred to captions under icons.
+#. Translators: this is referred to the permissions
+#. * the user has in a directory.
+#. 
+#: src/nemo-file-management-properties.c:293 src/nemo-properties-window.c:3942
+#: src/nemo-properties-window.c:3953
+msgid "None"
+msgstr "Ештеңе"
+
+#: src/nemo-file-management-properties.c:486 libnemo-private/nemo-file.c:5160
+#, no-c-format
+msgid "Yesterday"
+msgstr "Кеше"
+
+#: src/nemo-icon-view.c:137
+msgid "by _Name"
+msgstr "а_ты бойынша"
+
+#: src/nemo-icon-view.c:138 src/nemo-icon-view.c:1429
+msgid "Keep icons sorted by name in rows"
+msgstr "Таңбашаларды бағандарда атауларымен реттеу"
+
+#: src/nemo-icon-view.c:144
+msgid "by _Size"
+msgstr "өлше_мі бойынша"
+
+#: src/nemo-icon-view.c:145 src/nemo-icon-view.c:1433
+msgid "Keep icons sorted by size in rows"
+msgstr "Таңбашаларды бағандарда өлшемдерімен реттеу"
+
+#: src/nemo-icon-view.c:151
+msgid "by _Type"
+msgstr "_түрі бойынша"
+
+#: src/nemo-icon-view.c:152 src/nemo-icon-view.c:1437
+msgid "Keep icons sorted by type in rows"
+msgstr "Таңбашаларды бағандарда түрлері бойынша реттеу"
+
+#: src/nemo-icon-view.c:158
+msgid "by _Detailed Type"
+msgstr ""
+
+#: src/nemo-icon-view.c:159 src/nemo-icon-view.c:1441
+msgid "Keep icons sorted by detailed type in rows"
+msgstr ""
+
+#: src/nemo-icon-view.c:165
+msgid "by Modification _Date"
+msgstr "Түз_ету уақыты бойынша"
+
+#: src/nemo-icon-view.c:166 src/nemo-icon-view.c:1445
+msgid "Keep icons sorted by modification date in rows"
+msgstr "Таңбашаларды бағандарда өзгерту уақытымен реттеу"
+
+#: src/nemo-icon-view.c:172
+msgid "by T_rash Time"
+msgstr ""
+
+#: src/nemo-icon-view.c:173 src/nemo-icon-view.c:1449
+msgid "Keep icons sorted by trash time in rows"
+msgstr "Таңбашаларды себетке тасталған уақытымен реттеу"
+
+#: src/nemo-icon-view.c:607
+msgid "_Organize Desktop by Name"
+msgstr "Жұмыс үстелін атаулары бойынша р_еттеу"
+
+#. name, stock id, label
+#: src/nemo-icon-view.c:1401
+#: gresources/nemo-file-management-properties.glade:3979
+msgid "Arran_ge Items"
+msgstr "Элементтерді ре_ттеу"
+
+#. name, stock id
+#. label, accelerator
+#: src/nemo-icon-view.c:1403
+#: gresources/nemo-file-management-properties.glade:3998
+msgid "_Organize by Name"
+msgstr ""
+
+#. tooltip
+#: src/nemo-icon-view.c:1404
+msgid "Reposition icons to better fit in the window and avoid overlapping"
+msgstr ""
+"Таңбашаларды терезеге жақсырақ сыю және бір-бірінің үстіне шықпау үшін қайта "
+"реттеу"
+
+#. name, stock id
+#. label, accelerator
+#: src/nemo-icon-view.c:1411
+msgid "Re_versed Order"
+msgstr "Ке_рі ретпен"
+
+#. tooltip
+#: src/nemo-icon-view.c:1412
+msgid "Display icons in the opposite order"
+msgstr "Таңбашаларды кері ретпен көрсету"
+
+#. name, stock id
+#. label, accelerator
+#: src/nemo-icon-view.c:1416
+msgid "_Keep Aligned"
+msgstr "Реттелген түрінде ұ_стау"
+
+#. tooltip
+#: src/nemo-icon-view.c:1417
+msgid "Keep icons lined up on a grid"
+msgstr "Таңбашаларды тормен реттеп ұстау"
+
+#: src/nemo-icon-view.c:1424
+msgid "_Manually"
+msgstr "Қол_мен"
+
+#: src/nemo-icon-view.c:1425
+msgid "Leave icons wherever they are dropped"
+msgstr "Таңбашаларды олар тасталған жерінде қалдыру"
+
+#: src/nemo-icon-view.c:1428
+msgid "By _Name"
+msgstr "А_ты бойынша"
+
+#: src/nemo-icon-view.c:1432
+msgid "By _Size"
+msgstr "Өлше_мі бойынша"
+
+#: src/nemo-icon-view.c:1436
+msgid "By _Type"
+msgstr "_Түрі бойынша"
+
+#: src/nemo-icon-view.c:1440
+msgid "By _Detailed Type"
+msgstr ""
+
+#: src/nemo-icon-view.c:1444
+msgid "By Modification _Date"
+msgstr "Түз_ету уақыты бойынша"
+
+#: src/nemo-icon-view.c:1448
+msgid "By T_rash Time"
+msgstr "Себ_етке тасталған уақыты бойынша"
+
+#. translators: this is used in the view selection dropdown
+#. * of navigation windows and in the preferences dialog
+#: src/nemo-icon-view.c:2851 src/nemo-icon-view-container.c:2173
+#: src/nemo-icon-view-grid-container.c:1611 src/nemo-window-menus.c:1553
+#: src/nemo-window-menus.c:1703
+#: gresources/nemo-file-management-properties.glade:110
+#: gresources/nemo-file-management-properties.glade:3956
+msgid "Icon View"
+msgstr "Таңбаша көрінісі"
+
+#. translators: this is used in the view menu
+#: src/nemo-icon-view.c:2853
+msgid "_Icons"
+msgstr "_Таңбашалар"
+
+#: src/nemo-icon-view.c:2854
+msgid "The icon view encountered an error."
+msgstr ""
+
+#: src/nemo-icon-view.c:2855
+msgid "The icon view encountered an error while starting up."
+msgstr ""
+
+#: src/nemo-icon-view.c:2856
+msgid "Display this location with the icon view."
+msgstr ""
+
+#. translators: this is used in the view selection dropdown
+#. * of navigation windows and in the preferences dialog
+#: src/nemo-icon-view.c:2865 src/nemo-window-menus.c:1559
+#: src/nemo-window-menus.c:1726
+#: gresources/nemo-file-management-properties.glade:116
+msgid "Compact View"
+msgstr "Ықшам көрінісі"
+
+#. translators: this is used in the view menu
+#: src/nemo-icon-view.c:2867
+msgid "_Compact"
+msgstr "Ық_шам"
+
+#: src/nemo-icon-view.c:2868
+msgid "The compact view encountered an error."
+msgstr ""
+
+#: src/nemo-icon-view.c:2869
+msgid "The compact view encountered an error while starting up."
+msgstr ""
+
+#: src/nemo-icon-view.c:2870
+msgid "Display this location with the compact view."
+msgstr ""
+
+#: src/nemo-image-properties-page.c:331
+msgid "Image Type"
+msgstr "Сурет түрі"
+
+#: src/nemo-image-properties-page.c:333 src/nemo-image-properties-page.c:339
+#, c-format
+msgid "%d pixel"
+msgid_plural "%d pixels"
+msgstr[0] "%d пиксель"
+msgstr[1] "%d пиксельдер"
+
+#: src/nemo-image-properties-page.c:337
+msgid "Width"
+msgstr "Ені"
+
+#: src/nemo-image-properties-page.c:343
+msgid "Height"
+msgstr "Биіктігі"
+
+#: src/nemo-image-properties-page.c:356 src/nemo-image-properties-page.c:357
+msgid "Title"
+msgstr "Атауы"
+
+#: src/nemo-image-properties-page.c:358 src/nemo-image-properties-page.c:359
+msgid "Author"
+msgstr "Авторы"
+
+#: src/nemo-image-properties-page.c:362 src/nemo-image-properties-page.c:417
+msgid "Copyright"
+msgstr "Авторлық құқығы"
+
+#: src/nemo-image-properties-page.c:363
+msgid "Created On"
+msgstr "Жасалған күні"
+
+#: src/nemo-image-properties-page.c:364
+msgid "Created By"
+msgstr "Жасаған"
+
+#: src/nemo-image-properties-page.c:365
+msgid "Disclaimer"
+msgstr "Жауапкершіліктен бас тарту"
+
+#: src/nemo-image-properties-page.c:366
+msgid "Warning"
+msgstr "Ескерту"
+
+#: src/nemo-image-properties-page.c:367
+msgid "Source"
+msgstr "Қайнар көзі"
+
+#: src/nemo-image-properties-page.c:382
+msgid "Camera Brand"
+msgstr "Камера жасаушысы"
+
+#: src/nemo-image-properties-page.c:383
+msgid "Camera Model"
+msgstr "Камера моделі"
+
+#. Choose which date to show in order of relevance
+#: src/nemo-image-properties-page.c:386
+msgid "Date Taken"
+msgstr "Түсірілген күні"
+
+#: src/nemo-image-properties-page.c:387
+msgid "Date Digitized"
+msgstr "Цифрленген күні"
+
+#: src/nemo-image-properties-page.c:388
+#: libnemo-private/nemo-column-utilities.c:72
+msgid "Date Modified"
+msgstr "Түзетілген уақыты"
+
+#: src/nemo-image-properties-page.c:392
+msgid "Exposure Time"
+msgstr "Экспозиция уақыты"
+
+#: src/nemo-image-properties-page.c:393
+msgid "Aperture Value"
+msgstr "Диафрагма мәні"
+
+#: src/nemo-image-properties-page.c:394
+msgid "ISO Speed Rating"
+msgstr "ISO сезімталдылық рейтингі"
+
+#: src/nemo-image-properties-page.c:395
+msgid "Flash Fired"
+msgstr "Жарқылдауы"
+
+#: src/nemo-image-properties-page.c:396
+msgid "Metering Mode"
+msgstr "Өлшеулер режимі"
+
+#: src/nemo-image-properties-page.c:397
+msgid "Exposure Program"
+msgstr "Экспозиция бағдарламасы"
+
+#: src/nemo-image-properties-page.c:398
+msgid "Focal Length"
+msgstr "Фокустық қашықтығы"
+
+#: src/nemo-image-properties-page.c:399
+msgid "Software"
+msgstr "Бағдарлама"
+
+#: src/nemo-image-properties-page.c:413 src/nemo-window-menus.c:1668
+#: libnemo-private/nemo-column-utilities.c:159
+msgid "Location"
+msgstr "Орны"
+
+#: src/nemo-image-properties-page.c:415
+msgid "Keywords"
+msgstr "Кілттік сөздер"
+
+#: src/nemo-image-properties-page.c:416
+msgid "Creator"
+msgstr "Жасаған"
+
+#: src/nemo-image-properties-page.c:418
+msgid "Rating"
+msgstr "Рейтинг"
+
+#: src/nemo-image-properties-page.c:441
+msgid "Failed to load image information"
+msgstr "Сурет ақпаратын жүктеу сәтсіз аяқталды"
+
+#: src/nemo-image-properties-page.c:706 src/nemo-list-model.c:461
+#: src/nemo-tree-sidebar-model.c:1270 src/nemo-window-manage-views.c:1228
+#: src/nemo-window-slot.c:346
+msgid "Loading..."
+msgstr "Жүктелуде..."
+
+#: src/nemo-image-properties-page.c:767 libnemo-private/nemo-file.c:6966
+msgid "Image"
+msgstr "Сурет"
+
+#: src/nemo-interesting-folder-bar.c:126
+msgid ""
+"Actions: Action files can be added to this folder and will appear in the "
+"menu."
+msgstr ""
+
+#: src/nemo-interesting-folder-bar.c:128 src/nemo-interesting-folder-bar.c:136
+msgid "More info"
+msgstr "Толық ақпарат"
+
+#: src/nemo-interesting-folder-bar.c:130
+msgid "View a sample action file with documentation"
+msgstr ""
+
+#: src/nemo-interesting-folder-bar.c:133
+msgid ""
+"Scripts: All executable files in this folder will appear in the Scripts menu."
+msgstr ""
+
+#: src/nemo-interesting-folder-bar.c:138
+msgid "View additional information about creating scripts"
+msgstr ""
+
+#: src/nemo-list-model.c:459 src/nemo-tree-sidebar-model.c:1270
+msgid "(Empty)"
+msgstr "(Бос)"
+
+#: src/nemo-list-view.c:2020
+msgid "Use Default"
+msgstr "Бастапқысын қолдану"
+
+#: src/nemo-list-view.c:2031
+msgid "Temporarily disable auto-sort"
+msgstr ""
+
+#. translators: this is used in the view selection dropdown
+#. * of navigation windows and in the preferences dialog
+#: src/nemo-list-view.c:2586 src/nemo-list-view.c:4268
+#: src/nemo-window-menus.c:1556 src/nemo-window-menus.c:1714
+#: gresources/nemo-file-management-properties.glade:113
+msgid "List View"
+msgstr "Тізімді көру"
+
+#. translators: this is used in the view menu
+#: src/nemo-list-view.c:4270
+msgid "_List"
+msgstr "Тізі_м"
+
+#: src/nemo-list-view.c:4271
+msgid "The list view encountered an error."
+msgstr ""
+
+#: src/nemo-list-view.c:4272
+msgid "The list view encountered an error while starting up."
+msgstr ""
+
+#: src/nemo-list-view.c:4273
+msgid "Display this location with the list view."
+msgstr ""
+
+#: src/nemo-location-bar.c:164
+#, c-format
+msgid "Do you want to view %d location?"
+msgid_plural "Do you want to view %d locations?"
+msgstr[0] "%d орналасуды қарауды қалайсыз ба?"
+msgstr[1] "%d орналасуларды қарауды қалайсыз ба?"
+
+#: src/nemo-location-bar.c:168 src/nemo-mime-actions.c:1064
+#, c-format
+msgid "This will open %d separate window."
+msgid_plural "This will open %d separate windows."
+msgstr[0] "Бұл әрекет %d бөлек терезені ашады."
+msgstr[1] "Бұл әрекет %d бөлек терезелерді ашады."
+
+#: src/nemo-main-application.c:599
+msgid "--check cannot be used with other options."
+msgstr "--check басқа опциялармен бірге қолдануға болмайды."
+
+#: src/nemo-main-application.c:605
+msgid "--quit cannot be used with URIs."
+msgstr "--quit опциясын URI-мен бірге қолдануға болмайды."
+
+#: src/nemo-main-application.c:613
+msgid "--geometry cannot be used with more than one URI."
+msgstr "--geometry опциясын бірден көп URI-мен бірге қолдануға болмайды."
+
+#: src/nemo-main-application.c:663
+msgid "Perform a quick set of self-check tests."
+msgstr "Өз-өзін тексеретін сынаулардың жылдам жиынын орындау."
+
+#: src/nemo-main-application.c:671
+msgid ""
+"Create the initial window with the given geometry. Examples: nemo --"
+"geometry=+100+100, nemo --geometry=600x400, nemo --geometry=600x400+100+100."
+msgstr ""
+
+#: src/nemo-main-application.c:672
+msgid "GEOMETRY"
+msgstr "МӨЛШЕРЛЕР"
+
+#: src/nemo-main-application.c:674
+msgid "Only create windows for explicitly specified URIs."
+msgstr "Терезелерді тек арнайы көрсетілген URI-лар үшін жасау."
+
+#: src/nemo-main-application.c:676
+msgid "Ignored argument - left for compatibility only."
+msgstr ""
+
+#: src/nemo-main-application.c:678
+msgid "Open URIs in tabs."
+msgstr ""
+
+#: src/nemo-main-application.c:680
+msgid "Open URIs in an existing window."
+msgstr ""
+
+#: src/nemo-main-application.c:682
+msgid ""
+"Repair the user thumbnail cache - this can be useful if you're having "
+"trouble with file thumbnails.  Must be run as root"
+msgstr ""
+
+#: src/nemo-main-application.c:686
+msgid "Quit Nemo."
+msgstr "Nemo дан Шығу"
+
+#: src/nemo-main-application.c:687
+msgid "[URI...]"
+msgstr "[URI...]"
+
+#: src/nemo-main-application.c:698
+msgid ""
+"\n"
+"\n"
+"Browse the file system with the file manager"
+msgstr ""
+"\n"
+"\n"
+"Файлдық жүйені файлдар басқарушысымен шолу"
+
+#: src/nemo-main-application.c:862
+msgid "Nemo's main menu is now hidden"
+msgstr ""
+
+#: src/nemo-main-application.c:865
+msgid ""
+"You have chosen to hide the main menu.  You can get it back temporarily by:\n"
+"\n"
+"- Tapping the <Alt> key\n"
+"- Right-clicking an empty region of the main toolbar\n"
+"- Right-clicking an empty region of the status bar.\n"
+"\n"
+"You can restore it permanently by selecting this option again from the View "
+"menu."
+msgstr ""
+
+#: src/nemo-main-application.c:876
+msgid "Don't show this message again."
+msgstr ""
+
+#: src/nemo-mime-actions.c:640
+#, c-format
+msgid "The Link \"%s\" is Broken."
+msgstr ""
+
+#: src/nemo-mime-actions.c:642
+#, c-format
+msgid "The Link \"%s\" is Broken. Move it to Trash?"
+msgstr ""
+
+#: src/nemo-mime-actions.c:648
+msgid "This link cannot be used, because it has no target."
+msgstr ""
+
+#: src/nemo-mime-actions.c:650
+#, c-format
+msgid "This link cannot be used, because its target \"%s\" doesn't exist."
+msgstr ""
+
+#. name, stock id
+#. label, accelerator
+#: src/nemo-mime-actions.c:660 src/nemo-tree-sidebar.c:1453
+#: src/nemo-view.c:8326 src/nemo-view.c:8435 src/nemo-view.c:9492
+#: src/nemo-view.c:9829 gresources/nemo-file-management-properties.glade:3713
+msgid "Mo_ve to Trash"
+msgstr "Себ_етке тастау"
+
+#: src/nemo-mime-actions.c:720
+#, c-format
+msgid "Do you want to run \"%s\", or display its contents?"
+msgstr ""
+
+#: src/nemo-mime-actions.c:722
+#, c-format
+msgid "\"%s\" is an executable text file."
+msgstr ""
+
+#: src/nemo-mime-actions.c:728
+msgid "Run in _Terminal"
+msgstr "_Терминалда орындау"
+
+#: src/nemo-mime-actions.c:729
+msgid "_Display"
+msgstr "Көр_сету"
+
+#: src/nemo-mime-actions.c:1059 src/nemo-mime-actions.c:1750
+#: src/nemo-view.c:1085
+msgid "Are you sure you want to open all files?"
+msgstr "Барлық файлдарды ашуды шынымен қалайсыз ба?"
+
+#: src/nemo-mime-actions.c:1061
+#, c-format
+msgid "This will open %d separate tab."
+msgid_plural "This will open %d separate tabs."
+msgstr[0] "Бұл әрекет %d бөлек бетті ашады."
+msgstr[1] "Бұл әрекет %d бөлек беттерді ашады."
+
+#: src/nemo-mime-actions.c:1163 src/nemo-open-with-main.c:151
+#: src/nemo-view.c:1371
+msgid "Open with"
+msgstr "Арқылы ашу"
+
+#: src/nemo-mime-actions.c:1240
+msgid "Unknown file type"
+msgstr "Беймәлім файл түрі"
+
+#: src/nemo-mime-actions.c:1248
+#, c-format
+msgid ""
+"The file \"%s\" has no known programs associated with it.  If you trust the "
+"source of this file, and have sufficient permissions, you can mark it "
+"executable and launch it.  Or, you can use the Open With dialog to pick a "
+"program to associate it with."
+msgstr ""
+
+#: src/nemo-mime-actions.c:1255
+msgid "Make executable and run"
+msgstr ""
+
+#: src/nemo-mime-actions.c:1257
+#, c-format
+msgid ""
+"The file \"%s\" has no known programs associated with it.  Use the Open With "
+"dialog to pick a program to open it with."
+msgstr ""
+
+#: src/nemo-mime-actions.c:1270
+msgid "Choose a program"
+msgstr ""
+
+#: src/nemo-mime-actions.c:1351
+msgid "Untrusted application launcher"
+msgstr "Сенімсіз қолданба жөнелткіші"
+
+#: src/nemo-mime-actions.c:1354
+#, c-format
+msgid ""
+"The application launcher \"%s\" has not been marked as trusted (executable). "
+"If you do not know the source of this file, launching it may be unsafe."
+msgstr ""
+
+#: src/nemo-mime-actions.c:1370
+msgid "_Launch Anyway"
+msgstr "Сон_да да жөнелту"
+
+#: src/nemo-mime-actions.c:1373
+msgid "Mark as _Trusted"
+msgstr "Сені_мді ретінде белгілеу"
+
+#: src/nemo-mime-actions.c:1751
+#, c-format
+msgid "This will open %d separate application."
+msgid_plural "This will open %d separate applications."
+msgstr[0] "Бұл әрекет %d бөлек қолданбаны ашады."
+msgstr[1] "Бұл әрекет %d бөлек қолданбаларды ашады."
+
+#: src/nemo-mime-actions.c:1829 src/nemo-mime-actions.c:2103
+#: src/nemo-view.c:7444
+msgid "Unable to mount location"
+msgstr ""
+
+#: src/nemo-mime-actions.c:2182 src/nemo-view.c:7591
+msgid "Unable to start location"
+msgstr "Орналасуды бастау мүмкін емес"
+
+#: src/nemo-mime-actions.c:2266
+#, c-format
+msgid "Opening \"%s\"."
+msgstr "%s ашу."
+
+#: src/nemo-mime-actions.c:2269
+#, c-format
+msgid "Opening %d item."
+msgid_plural "Opening %d items."
+msgstr[0] "%d нәрсе ашылуда"
+msgstr[1] "%d нәрселер ашылуда"
+
+#: src/nemo-notebook.c:370
+msgid "Close tab"
+msgstr "Бетті жабу"
+
+#. Translators: This is the --help description for the open-with app,
+#. the initial newlines are between the command line arg and the description
+#: src/nemo-open-with-main.c:104
+msgid ""
+"\n"
+"\n"
+"Show an open-with dialog given a uri, to allow the user to change the "
+"default mimetype handler."
+msgstr ""
+
+#: src/nemo-places-sidebar.c:379
+msgid "Devices"
+msgstr "Құрылғылар"
+
+#: src/nemo-places-sidebar.c:676 src/nemo-view.c:3153
+#, c-format
+msgid "Free space: %s"
+msgstr "Бос орын: %s"
+
+#: src/nemo-places-sidebar.c:795
+msgid "My Computer"
+msgstr "Компьютерім"
+
+#: src/nemo-places-sidebar.c:806
+#, c-format
+msgid ""
+"Open your personal folder\n"
+"%s"
+msgstr ""
+
+#: src/nemo-places-sidebar.c:810 src/nemo-tree-sidebar.c:1592
+#: libnemo-private/nemo-bookmark.c:130 libnemo-private/nemo-desktop-link.c:118
+#: libnemo-private/nemo-file-utilities.c:67
+#: libnemo-private/nemo-file-utilities.c:115 generate_additional_file:41
+#: gresources/nemo-desktop-preferences.glade:211
+#: gresources/nemo-file-management-properties.glade:3003
+msgid "Home"
+msgstr "Үй"
+
+#: src/nemo-places-sidebar.c:829
+msgid "Open the contents of your desktop in a folder"
+msgstr "Жұмыс үстеліңіздің құрамасын бумада ашу"
+
+#: src/nemo-places-sidebar.c:882 src/nemo-tree-sidebar.c:1597
+msgid "Favorites"
+msgstr ""
+
+#: src/nemo-places-sidebar.c:884
+msgid "Favorite files"
+msgstr ""
+
+#: src/nemo-places-sidebar.c:899
+msgid "Recent"
+msgstr "Жуырдағы"
+
+#: src/nemo-places-sidebar.c:901
+msgid "Recent files"
+msgstr "Жуырдағы файлдар"
+
+#: src/nemo-places-sidebar.c:916
+#, c-format
+msgid ""
+"Open the contents of the File System\n"
+"%s"
+msgstr ""
+
+#: src/nemo-places-sidebar.c:920 src/nemo-tree-sidebar.c:1601
+msgid "File System"
+msgstr "Файлдық жүйе"
+
+#: src/nemo-places-sidebar.c:936 src/nemo-trash-bar.c:211
+#: libnemo-private/nemo-desktop-link.c:135 generate_additional_file:55
+#: gresources/nemo-desktop-preferences.glade:289
+msgid "Trash"
+msgstr "Себет"
+
+#: src/nemo-places-sidebar.c:938
+msgid "Open the trash"
+msgstr "Себетті ашу"
+
+#: src/nemo-places-sidebar.c:944
+msgid "Bookmarks"
+msgstr "Бетбелгілер"
+
+#: src/nemo-places-sidebar.c:1071
+#, c-format
+msgid ""
+"%s (%s)\n"
+"%s"
+msgstr ""
+"%s (%s)\n"
+"%s"
+
+#: src/nemo-places-sidebar.c:1104
+#, c-format
+msgid "Mount and open %s (%s)"
+msgstr ""
+
+#: src/nemo-places-sidebar.c:1132 src/nemo-places-sidebar.c:1255
+#, c-format
+msgid "Mount and open %s"
+msgstr "%s тіркеу және ашу"
+
+#: src/nemo-places-sidebar.c:1179
+#, c-format
+msgid ""
+"%s\n"
+"%s"
+msgstr ""
+"%s\n"
+"%s"
+
+#: src/nemo-places-sidebar.c:1242 src/nemo-places-sidebar.c:1297
+#: src/nemo-tree-sidebar.c:1605 libnemo-private/nemo-desktop-link.c:147
+#: gresources/nemo-desktop-preferences.glade:445
+msgid "Network"
+msgstr "Желі"
+
+#: src/nemo-places-sidebar.c:1299
+msgid "Browse the contents of the network"
+msgstr "Желі құрамасын шолу"
+
+#. Adjust start/stop items to reflect the type of the drive
+#. name, stock id
+#. label, accelerator
+#: src/nemo-places-sidebar.c:2395 src/nemo-places-sidebar.c:3673
+#: src/nemo-view.c:8372 src/nemo-view.c:8396 src/nemo-view.c:8459
+#: src/nemo-view.c:9113 src/nemo-view.c:9117 src/nemo-view.c:9200
+#: src/nemo-view.c:9204 src/nemo-view.c:9304 src/nemo-view.c:9308
+msgid "_Start"
+msgstr "Ба_стау"
+
+#. name, stock id
+#. label, accelerator
+#: src/nemo-places-sidebar.c:2396 src/nemo-places-sidebar.c:3680
+#: src/nemo-view.c:8376 src/nemo-view.c:8400 src/nemo-view.c:8463
+#: src/nemo-view.c:9142 src/nemo-view.c:9229 src/nemo-view.c:9333
+#: src/nemo-window-menus.c:1368
+msgid "_Stop"
+msgstr "Тоқ_тату"
+
+#. start() for type G_DRIVE_START_STOP_TYPE_SHUTDOWN is normally not used
+#: src/nemo-places-sidebar.c:2401
+msgid "_Power On"
+msgstr "І_ске қосу"
+
+#: src/nemo-places-sidebar.c:2402 src/nemo-view.c:9146 src/nemo-view.c:9233
+#: src/nemo-view.c:9337
+msgid "_Safely Remove Drive"
+msgstr "Жетекті қауі_псіз шығару"
+
+#: src/nemo-places-sidebar.c:2405
+msgid "_Connect Drive"
+msgstr "Дискті і_ске қосу"
+
+#: src/nemo-places-sidebar.c:2406
+msgid "_Disconnect Drive"
+msgstr "Дискті а_жырату"
+
+#: src/nemo-places-sidebar.c:2409
+msgid "_Start Multi-disk Device"
+msgstr "Көпдискті құрылғыны іске қ_осу"
+
+#: src/nemo-places-sidebar.c:2410
+msgid "_Stop Multi-disk Device"
+msgstr "Көпдискті құрылғыны т_оқтату"
+
+#. stop() for type G_DRIVE_START_STOP_TYPE_PASSWORD is normally not used
+#: src/nemo-places-sidebar.c:2414 src/nemo-view.c:9216 src/nemo-view.c:9320
+msgid "_Unlock Drive"
+msgstr "Жетекті бо_сату"
+
+#: src/nemo-places-sidebar.c:2415 src/nemo-view.c:9158 src/nemo-view.c:9245
+#: src/nemo-view.c:9349
+msgid "_Lock Drive"
+msgstr "Жетекті б_локтау"
+
+#: src/nemo-places-sidebar.c:2534 src/nemo-places-sidebar.c:3153
+#, c-format
+msgid "Unable to start %s"
+msgstr "%s іске қосу мүмкін емес"
+
+#: src/nemo-places-sidebar.c:2920 src/nemo-places-sidebar.c:2946
+#: src/nemo-places-sidebar.c:2972
+#, c-format
+msgid "Unable to eject %s"
+msgstr "%s шығару мүмкін емес"
+
+#: src/nemo-places-sidebar.c:3109
+#, c-format
+msgid "Unable to poll %s for media changes"
+msgstr "%s тасушы өзгерістеріне бақылау мүмкін емес"
+
+#: src/nemo-places-sidebar.c:3207
+#, c-format
+msgid "Unable to stop %s"
+msgstr "%s тоқтату мүмкін емес"
+
+#. name, stock id
+#. label, accelerator
+#: src/nemo-places-sidebar.c:3585 src/nemo-tree-sidebar.c:1333
+#: src/nemo-view.c:8233 src/nemo-view.c:9761
+#: libnemo-private/nemo-mime-application-chooser.c:483
+#: gresources/nemo-file-management-properties.glade:3411
+msgid "_Open"
+msgstr "_Ашу"
+
+#. add the "open in new tab" menu item
+#. name, stock id
+#. label, accelerator
+#: src/nemo-places-sidebar.c:3593 src/nemo-tree-sidebar.c:1344
+#: src/nemo-view.c:8245 src/nemo-view.c:8417 src/nemo-view.c:9439
+#: src/nemo-view.c:9807 gresources/nemo-file-management-properties.glade:3430
+msgid "Open in New _Tab"
+msgstr "Жаңа бе_тте ашу"
+
+#. add the "open in new window" menu item
+#: src/nemo-places-sidebar.c:3603 src/nemo-tree-sidebar.c:1358
+#: src/nemo-view.c:9430 src/nemo-view.c:9787
+#: gresources/nemo-file-management-properties.glade:3449
+msgid "Open in New _Window"
+msgstr "Жаңа тере_зеде ашу"
+
+#. name, stock id, label
+#: src/nemo-places-sidebar.c:3614 src/nemo-window-menus.c:1478
+msgid "_Add Bookmark"
+msgstr "Бе_тбелгіні қосу"
+
+#: src/nemo-places-sidebar.c:3620
+msgid "Remove"
+msgstr "Кетіру"
+
+#. name, stock id
+#. label, accelerator
+#: src/nemo-places-sidebar.c:3629 src/nemo-view.c:8318
+#: gresources/nemo-file-management-properties.glade:3620
+msgid "_Rename..."
+msgstr "Атын ө_згерту..."
+
+#. name, stock id
+#. label, accelerator
+#: src/nemo-places-sidebar.c:3645 src/nemo-view.c:8360 src/nemo-view.c:8384
+#: src/nemo-view.c:8447
+msgid "_Mount"
+msgstr "Тірк_еу"
+
+#. add the "Unmount" menu item
+#. name, stock id
+#. label, accelerator
+#: src/nemo-places-sidebar.c:3652 src/nemo-tree-sidebar.c:1485
+#: src/nemo-view.c:8364 src/nemo-view.c:8388 src/nemo-view.c:8451
+msgid "_Unmount"
+msgstr "_Тіркеуден босату"
+
+#. add the "Eject" menu item
+#. name, stock id
+#. label, accelerator
+#: src/nemo-places-sidebar.c:3659 src/nemo-tree-sidebar.c:1494
+#: src/nemo-view.c:8368 src/nemo-view.c:8392 src/nemo-view.c:8455
+msgid "_Eject"
+msgstr "Ш_ығару"
+
+#. name, stock id
+#. label, accelerator
+#: src/nemo-places-sidebar.c:3666 src/nemo-view.c:8380 src/nemo-view.c:8404
+#: src/nemo-view.c:8467
+msgid "_Detect Media"
+msgstr "Тасушыны анық_тау"
+
+#. Empty Trash menu item
+#: src/nemo-places-sidebar.c:3689 src/nemo-trash-bar.c:224
+#: libnemo-private/nemo-file-operations.c:1303
+#: libnemo-private/nemo-file-operations.c:1620
+#: libnemo-private/nemo-file-operations.c:2555
+msgid "Empty _Trash"
+msgstr "Себетті тазарту"
+
+#. name, stock id
+#. label, accelerator
+#: src/nemo-places-sidebar.c:3701 src/nemo-view.c:8215 src/nemo-view.c:8472
+#: gresources/nemo-file-management-properties.glade:3732
+#: gresources/nemo-file-management-properties.glade:3918
+msgid "_Properties"
+msgstr "_Қасиеттері"
+
+#: src/nemo-progress-ui-handler.c:118
+#, c-format
+msgid "%1$s file operation active.  %2$d%% complete."
+msgid_plural "%1$s file operations active.  %2$d%% complete."
+msgstr[0] ""
+msgstr[1] ""
+
+#: src/nemo-progress-ui-handler.c:210 src/nemo-progress-ui-handler.c:267
+msgid "File Operations"
+msgstr "Файл әрекеттері"
+
+#: src/nemo-progress-ui-handler.c:268
+msgid "All file operations have been successfully completed"
+msgstr "Файлдармен барлық әрекеттер сәтті аяқталды"
+
+#: src/nemo-progress-ui-handler.c:320
+#, c-format
+msgid "%d%% %s"
+msgstr "%d%% %s"
+
+#: src/nemo-properties-window.c:500
+msgid "You cannot assign more than one custom icon at a time!"
+msgstr "Бір уақытта бірден көп таңдауыңызша таңбашаны тағайындай алмайсыз!"
+
+#: src/nemo-properties-window.c:501
+msgid "Please drag just one image to set a custom icon."
+msgstr "Таңдауыңызша таңбашаны жасау үшін тек бір суретті тартып апарыңыз."
+
+#: src/nemo-properties-window.c:512
+msgid "The file that you dropped is not local."
+msgstr "Сіз тастаған файл жергілікті емес."
+
+#: src/nemo-properties-window.c:513 src/nemo-properties-window.c:519
+msgid "You can only use local images as custom icons."
+msgstr ""
+"Таңдауыңызша таңбаша ретінде тек жергілікті суреттерді қолдануға болады."
+
+#: src/nemo-properties-window.c:518
+msgid "The file that you dropped is not an image."
+msgstr "Сіз тастаған файл сурет емес болып тұр."
+
+#: src/nemo-properties-window.c:648
+msgid "_Name:"
+msgid_plural "_Names:"
+msgstr[0] "_Аты:"
+msgstr[1] "_Аттары:"
+
+#: src/nemo-properties-window.c:843
+msgid "Properties"
+msgstr "Қасиеттері"
+
+#: src/nemo-properties-window.c:851
+#, c-format
+msgid "%s Properties"
+msgstr "%s Қасиеттері"
+
+#. Fallback, use for both unknown attributes and attributes
+#. * for which we have no more appropriate default.
+#. 
+#: src/nemo-properties-window.c:1125 libnemo-private/nemo-file.c:6924
+msgid "unknown"
+msgstr "белгісіз"
+
+#: src/nemo-properties-window.c:1357
+msgid "Cancel Group Change?"
+msgstr "Топты ауыстырудан бас тарту керек пе?"
+
+#: src/nemo-properties-window.c:1772
+msgid "Cancel Owner Change?"
+msgstr "Иесін ауыстырудан бас тарту керек пе?"
+
+#: src/nemo-properties-window.c:2093
+msgid "nothing"
+msgstr "ештеңе"
+
+#: src/nemo-properties-window.c:2095
+msgid "unreadable"
+msgstr "оқылмайды"
+
+#: src/nemo-properties-window.c:2110
+#, c-format
+msgid "%1$s item (and %2$s hidden), with size %3$s"
+msgid_plural "%1$s items (and %2$s hidden), totalling %3$s"
+msgstr[0] ""
+msgstr[1] ""
+
+#: src/nemo-properties-window.c:2115
+#, c-format
+msgid "%1$s item, with size %2$s"
+msgid_plural "%1$s items, totalling %2$s"
+msgstr[0] ""
+msgstr[1] ""
+
+#: src/nemo-properties-window.c:2124
+msgid "(some contents unreadable)"
+msgstr "(құраманың бір бөлігін оқу мүмкін емес)"
+
+#. Also set the title field here, with a trailing carriage return &
+#. * space if the value field has two lines. This is a hack to get the
+#. * "Contents:" title to line up with the first line of the
+#. * 2-line value. Maybe there's a better way to do this, but I
+#. * couldn't think of one.
+#. 
+#: src/nemo-properties-window.c:2141
+msgid "Contents:"
+msgstr "Құрамасы:"
+
+#. Translators: "used" refers to the capacity of the filesystem
+#: src/nemo-properties-window.c:2927
+msgid "used"
+msgstr "қолдануда"
+
+#. Translators: "free" refers to the capacity of the filesystem
+#: src/nemo-properties-window.c:2934
+msgid "free"
+msgstr "бос"
+
+#: src/nemo-properties-window.c:2936
+msgid "Total capacity:"
+msgstr "Жалпы сыйымдылығы:"
+
+#: src/nemo-properties-window.c:2945
+msgid "Filesystem type:"
+msgstr "Файлдық жүйе түрі:"
+
+#: src/nemo-properties-window.c:3030
+msgid "Basic"
+msgstr "Қарапайым"
+
+#: src/nemo-properties-window.c:3087
+#: libnemo-private/nemo-file-conflict-dialog.c:272
+#: libnemo-private/nemo-file-conflict-dialog.c:304
+msgid "Type:"
+msgstr "Түрі:"
+
+#: src/nemo-properties-window.c:3096 libnemo-private/nemo-file.c:8135
+msgid "Link target:"
+msgstr "Сілтеме мақсаты:"
+
+#: src/nemo-properties-window.c:3107
+#: libnemo-private/nemo-file-conflict-dialog.c:269
+#: libnemo-private/nemo-file-conflict-dialog.c:301
+msgid "Size:"
+msgstr "Көлемі:"
+
+#: src/nemo-properties-window.c:3116
+msgid "Location:"
+msgstr "Орналасуы:"
+
+#: src/nemo-properties-window.c:3123
+msgid "Volume:"
+msgstr "Том:"
+
+#: src/nemo-properties-window.c:3136
+msgid "Accessed:"
+msgstr "Қатынаған:"
+
+#: src/nemo-properties-window.c:3141
+msgid "Created:"
+msgstr ""
+
+#: src/nemo-properties-window.c:3148
+msgid "Modified:"
+msgstr "Түзетілген:"
+
+#: src/nemo-properties-window.c:3157
+msgid "Free space:"
+msgstr "Бос орын:"
+
+#: src/nemo-properties-window.c:3578
+msgid "_Read"
+msgstr "_Оқу"
+
+#: src/nemo-properties-window.c:3580
+msgid "_Write"
+msgstr "_Жазу"
+
+#: src/nemo-properties-window.c:3582
+msgid "E_xecute"
+msgstr "Жө_нелту"
+
+#. translators: this gets concatenated to "no read",
+#. * "no access", etc. (see following strings)
+#. 
+#: src/nemo-properties-window.c:3850 src/nemo-properties-window.c:3861
+#: src/nemo-properties-window.c:3873
+msgid "no "
+msgstr "жоқ "
+
+#: src/nemo-properties-window.c:3853
+msgid "list"
+msgstr "тізім"
+
+#: src/nemo-properties-window.c:3855
+msgid "read"
+msgstr "оқу"
+
+#: src/nemo-properties-window.c:3864
+msgid "create/delete"
+msgstr "жасау/өшіру"
+
+#: src/nemo-properties-window.c:3866
+msgid "write"
+msgstr "жазу"
+
+#: src/nemo-properties-window.c:3875
+msgid "access"
+msgstr "қатынау"
+
+#: src/nemo-properties-window.c:3923
+msgid "Access:"
+msgstr "Рұқсаттары:"
+
+#: src/nemo-properties-window.c:3925
+msgid "Folder access:"
+msgstr "Бумаға қатынау:"
+
+#: src/nemo-properties-window.c:3927
+msgid "File access:"
+msgstr "Файлға қатынау:"
+
+#: src/nemo-properties-window.c:3945
+msgid "List files only"
+msgstr "Тек файлдарды көрсету"
+
+#: src/nemo-properties-window.c:3947
+msgid "Access files"
+msgstr "Файлдарға қатынау"
+
+#: src/nemo-properties-window.c:3949
+msgid "Create and delete files"
+msgstr "Файлдарды жасау және өшіру"
+
+#: src/nemo-properties-window.c:3956
+msgid "Read-only"
+msgstr "Тек оқу үшін"
+
+#: src/nemo-properties-window.c:3958
+msgid "Read and write"
+msgstr "Оқу мен жазу"
+
+#: src/nemo-properties-window.c:4023
+msgid "Special flags:"
+msgstr "Арнайы жалаушалар:"
+
+#: src/nemo-properties-window.c:4025
+msgid "Set _user ID"
+msgstr "Па_йдаланушы ID-ін орнату"
+
+#: src/nemo-properties-window.c:4026
+msgid "Set gro_up ID"
+msgstr "Т_оп ID-ін орнату"
+
+#: src/nemo-properties-window.c:4027
+msgid "_Sticky"
+msgstr "Жаб_ысқақ"
+
+#: src/nemo-properties-window.c:4101 src/nemo-properties-window.c:4293
+msgid "_Owner:"
+msgstr "И_есі:"
+
+#: src/nemo-properties-window.c:4109 src/nemo-properties-window.c:4198
+#: src/nemo-properties-window.c:4303
+msgid "Owner:"
+msgstr "Иесі:"
+
+#: src/nemo-properties-window.c:4131 src/nemo-properties-window.c:4315
+msgid "_Group:"
+msgstr "_Тобы:"
+
+#: src/nemo-properties-window.c:4139 src/nemo-properties-window.c:4199
+#: src/nemo-properties-window.c:4323
+msgid "Group:"
+msgstr "Тобы:"
+
+#: src/nemo-properties-window.c:4178
+msgid "Execute:"
+msgstr "Орындау:"
+
+#: src/nemo-properties-window.c:4181
+msgid "Allow _executing file as program"
+msgstr "Файлды бағдарла_ма ретінде жөнелтуді рұқсат ету"
+
+#: src/nemo-properties-window.c:4200
+msgid "Others:"
+msgstr "Басқалар:"
+
+#: src/nemo-properties-window.c:4339
+msgid "Folder Permissions:"
+msgstr "Бума рұқсаттары:"
+
+#: src/nemo-properties-window.c:4347
+msgid "File Permissions:"
+msgstr "Файл рұқсаттары:"
+
+#: src/nemo-properties-window.c:4356
+msgid "Text view:"
+msgstr "Мәтіндік көрінісі:"
+
+#: src/nemo-properties-window.c:4490
+#: libnemo-private/nemo-column-utilities.c:127
+msgid "Permissions"
+msgstr "Рұқсаттары"
+
+#: src/nemo-properties-window.c:4504
+msgid "You are not the owner, so you cannot change these permissions."
+msgstr "Сіз осының иесі емессіз, сол үшін бұл рұқсаттарды өзгерте алмайсыз."
+
+#: src/nemo-properties-window.c:4524
+msgid "SELinux context:"
+msgstr "SELinux контексті:"
+
+#: src/nemo-properties-window.c:4529
+msgid "Last changed:"
+msgstr "Соңғы рет өзгертілген:"
+
+#: src/nemo-properties-window.c:4541
+msgid "Apply Permissions to Enclosed Files"
+msgstr ""
+
+#: src/nemo-properties-window.c:4551
+#, c-format
+msgid "The permissions of \"%s\" could not be determined."
+msgstr "\"%s\" рұқсаттарын анықтау мүмкін емес."
+
+#: src/nemo-properties-window.c:4554
+msgid "The permissions of the selected file could not be determined."
+msgstr "Ерекшеленген файлдың рұқсаттарын анықтау мүмкін емес."
+
+#: src/nemo-properties-window.c:4794
+msgid "Open With"
+msgstr "Көмегімен ашу"
+
+#: src/nemo-properties-window.c:4932
+msgid "Help"
+msgstr ""
+
+#: src/nemo-properties-window.c:4933
+msgid "Close"
+msgstr ""
+
+#: src/nemo-properties-window.c:5151
+msgid "Creating Properties window."
+msgstr "Қасиеттер терезесін жасау."
+
+#: src/nemo-properties-window.c:5182 src/nemo-view.c:1705
+msgid "There was an error displaying help."
+msgstr "Көмекті көрсету кезінде қате кетті."
+
+#: src/nemo-properties-window.c:5412
+msgid "Revert"
+msgstr ""
+
+#: src/nemo-query-editor.c:753
+msgid "Not supported in this location"
+msgstr ""
+
+#: src/nemo-script-config-widget.c:148
+msgid "No scripts found"
+msgstr ""
+
+#: src/nemo-script-config-widget.c:345
+msgid "Scripts"
+msgstr "Скрипттер"
+
+#: src/nemo-statusbar.c:176
+msgid "Show Places"
+msgstr ""
+
+#: src/nemo-statusbar.c:185
+msgid "Show Treeview"
+msgstr ""
+
+#: src/nemo-statusbar.c:199
+msgid "Hide the Sidebar (F9)"
+msgstr ""
+
+#: src/nemo-statusbar.c:208
+msgid "Show the Sidebar (F9)"
+msgstr ""
+
+#: src/nemo-statusbar.c:222
+msgid "Adjust zoom level"
+msgstr ""
+
+#: src/nemo-thumbnail-problem-bar.c:114
+msgid ""
+"A problem has been detected with your thumbnail cache.  Fixing it will "
+"require administrative privileges."
+msgstr ""
+
+#: src/nemo-thumbnail-problem-bar.c:118
+msgid "Fix now"
+msgstr ""
+
+#: src/nemo-thumbnail-problem-bar.c:121
+msgid "Dismiss"
+msgstr "Елемеу"
+
+#: src/nemo-toolbar.c:197
+msgid "Elevated Privileges"
+msgstr ""
+
+#: src/nemo-trash-bar.c:218
+msgid "Restore Selected Items"
+msgstr "Таңдалған нәрселерді қалпына келтіру"
+
+#: src/nemo-trash-bar.c:221
+msgid "Restore selected items to their original position"
+msgstr "Таңдалған нәрселерді олардың бастапқы орындарына қалпына келтіру"
+
+#: src/nemo-tree-sidebar.c:994 src/nemo-view.c:6779
+#, c-format
+msgid "\"%s\" will be moved if you select the Paste command"
+msgstr ""
+
+#: src/nemo-tree-sidebar.c:998 src/nemo-view.c:6783
+#, c-format
+msgid "\"%s\" will be copied if you select the Paste command"
+msgstr ""
+
+#: src/nemo-tree-sidebar.c:1037 src/nemo-view.c:7033
+msgid "There is nothing on the clipboard to paste."
+msgstr "Кірістіру үшін алмасу буферінде ешнәрсе жоқ."
+
+#. add the "create new folder" menu item
+#. name, stock id
+#. label, accelerator
+#: src/nemo-tree-sidebar.c:1374 src/nemo-view.c:8223
+#: gresources/nemo-file-management-properties.glade:3806
+msgid "Create New _Folder"
+msgstr "Жаңа буманы _жасау"
+
+#. name, stock id
+#. label, accelerator
+#: src/nemo-tree-sidebar.c:1387 src/nemo-view.c:8278 src/nemo-view.c:8422
+#: gresources/nemo-file-management-properties.glade:3487
+msgid "Cu_t"
+msgstr ""
+
+#. name, stock id
+#. label, accelerator
+#: src/nemo-tree-sidebar.c:1399 src/nemo-view.c:8282 src/nemo-view.c:8426
+#: gresources/nemo-file-management-properties.glade:3506
+msgid "_Copy"
+msgstr ""
+
+#. We make accelerator "" instead of null here to not inherit the stock
+#. accelerator for paste
+#. name, stock id
+#. label, accelerator
+#: src/nemo-tree-sidebar.c:1411 src/nemo-view.c:8292 src/nemo-view.c:8430
+msgid "_Paste Into Folder"
+msgstr "Б_ума ішіне кірістіру"
+
+#: src/nemo-tree-sidebar.c:1425 src/nemo-view.c:8507
+#: gresources/nemo-file-management-properties.glade:3563
+msgid "P_in"
+msgstr ""
+
+#: src/nemo-tree-sidebar.c:1437 src/nemo-view.c:8511
+msgid "Unp_in"
+msgstr ""
+
+#. name, stock id
+#. label, accelerator
+#: src/nemo-tree-sidebar.c:1467 src/nemo-view.c:8330 src/nemo-view.c:8439
+#: src/nemo-view.c:9853
+msgid "_Delete"
+msgstr "Ө_шіру"
+
+#: src/nemo-tree-sidebar.c:1509
+msgid "P_roperties"
+msgstr ""
+
+#: src/nemo-tree-sidebar.c:1587 libnemo-private/nemo-desktop-link.c:126
+#: generate_additional_file:48 gresources/nemo-desktop-preferences.glade:133
+#: gresources/nemo-file-management-properties.glade:2966
+msgid "Computer"
+msgstr "Компьютер"
+
+#: src/nemo-view.c:1087
+#, c-format
+msgid "This will open %'d separate tab."
+msgid_plural "This will open %'d separate tabs."
+msgstr[0] ""
+msgstr[1] ""
+
+#: src/nemo-view.c:1090
+#, c-format
+msgid "This will open %'d separate window."
+msgid_plural "This will open %'d separate windows."
+msgstr[0] ""
+msgstr[1] ""
+
+#: src/nemo-view.c:1725
+msgid "Select Items Matching"
+msgstr "Үлгі бойынша таңдау"
+
+#: src/nemo-view.c:1740
+msgid "_Pattern:"
+msgstr "_Үлгі:"
+
+#: src/nemo-view.c:1746
+msgid "Examples: "
+msgstr "Мысалдар: "
+
+#. Reset to default info
+#: src/nemo-view.c:2590 libnemo-private/nemo-file-undo-operations.c:147
+msgid "Undo"
+msgstr "Болдырмау"
+
+#: src/nemo-view.c:2591 libnemo-private/nemo-file-undo-operations.c:150
+msgid "Undo last action"
+msgstr "Соңғы әрекеттен қайту"
+
+#. Reset to default info
+#: src/nemo-view.c:2609 libnemo-private/nemo-file-undo-operations.c:154
+msgid "Redo"
+msgstr "Қайталау"
+
+#: src/nemo-view.c:2610 libnemo-private/nemo-file-undo-operations.c:157
+msgid "Redo last undone action"
+msgstr "Соңғы қайтудан айну"
+
+#: src/nemo-view.c:2804
+msgid "Content View"
+msgstr "Құрама көрінісі"
+
+#: src/nemo-view.c:2805
+msgid "View of the current folder"
+msgstr "Ағымдағы бума көрінісі"
+
+#: src/nemo-view.c:3076 src/nemo-view.c:3113
+#, c-format
+msgid "\"%s\" selected"
+msgstr "\"%s\" таңдалды"
+
+#: src/nemo-view.c:3078
+#, c-format
+msgid "%'d folder selected"
+msgid_plural "%'d folders selected"
+msgstr[0] ""
+msgstr[1] ""
+
+#: src/nemo-view.c:3088
+#, c-format
+msgid " (containing %'d item)"
+msgid_plural " (containing %'d items)"
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: this is preceded with a string of form 'N folders' (N more than 1)
+#: src/nemo-view.c:3099
+#, c-format
+msgid " (containing a total of %'d item)"
+msgid_plural " (containing a total of %'d items)"
+msgstr[0] ""
+msgstr[1] ""
+
+#: src/nemo-view.c:3116
+#, c-format
+msgid "%'d item selected"
+msgid_plural "%'d items selected"
+msgstr[0] "%d нәрсе таңдалды"
+msgstr[1] "%d нәрселер таңдалды"
+
+#. Folders selected also, use "other" terminology
+#: src/nemo-view.c:3123
+#, c-format
+msgid "%'d other item selected"
+msgid_plural "%'d other items selected"
+msgstr[0] ""
+msgstr[1] ""
+
+#. This is marked for translation in case a localiser
+#. * needs to use something other than parentheses. The
+#. * first message gives the number of items selected;
+#. * the message in parentheses the size of those items.
+#. 
+#: src/nemo-view.c:3140
+#, c-format
+msgid "%s (%s)"
+msgstr "%s (%s)"
+
+#: src/nemo-view.c:3161 libnemo-private/nemo-file.c:6442
+#, c-format
+msgid "%'u item"
+msgid_plural "%'u items"
+msgstr[0] ""
+msgstr[1] ""
+
+#: src/nemo-view.c:3164
+#, c-format
+msgid "%s, Free space: %s"
+msgstr "%s, Бос орны: %s"
+
+#. Marking this for translation, since you
+#. * might want to change "," to something else.
+#. * After the comma the amount of free space will
+#. * be shown.
+#. 
+#: src/nemo-view.c:3179
+#, c-format
+msgid "%s, %s"
+msgstr "%s, %s"
+
+#. Marking this for translation, since you
+#. * might want to change "," to something else.
+#. * After the comma the amount of free space will
+#. * be shown.
+#. 
+#. This is marked for translation in case a localizer
+#. * needs to change ", " to something else. The comma
+#. * is between the message about the number of folders
+#. * and the number of items in those folders and the
+#. * message about the number of other items and the
+#. * total size of those items.
+#. 
+#: src/nemo-view.c:3198 src/nemo-view.c:3211
+#, c-format
+msgid "%s%s, %s"
+msgstr "%s%s, %s"
+
+#. This is marked for translation in case a localizer
+#. * needs to change ", " to something else. The first comma
+#. * is between the message about the number of folders
+#. * and the number of items in those folders and the
+#. * message about the number of other items and the
+#. * total size of those items. After the second comma
+#. * the free space is written.
+#. 
+#: src/nemo-view.c:3225
+#, c-format
+msgid "%s%s, %s, %s"
+msgstr "%s%s, %s, %s"
+
+#: src/nemo-view.c:4713
+#, c-format
+msgid "Open With %s"
+msgstr "%s көмегімен ашу"
+
+#: src/nemo-view.c:4715
+#, c-format
+msgid "Use \"%s\" to open the selected item"
+msgid_plural "Use \"%s\" to open the selected items"
+msgstr[0] "Таңдалған нәрсені ашу үшін \"%s\" қолдану"
+msgstr[1] "Таңдалған нәрселерді ашу үшін \"%s\" қолдану"
+
+#: src/nemo-view.c:6081
+#, c-format
+msgid "Run \"%s\" on any selected items"
+msgstr ""
+
+#: src/nemo-view.c:6486
+#, c-format
+msgid "Create a new document from template \"%s\""
+msgstr "Жаңа құжатты \"%s\" үлгісінен жасау"
+
+#: src/nemo-view.c:6790
+#, c-format
+msgid "The %'d selected item will be moved if you select the Paste command"
+msgid_plural ""
+"The %'d selected items will be moved if you select the Paste command"
+msgstr[0] ""
+msgstr[1] ""
+
+#: src/nemo-view.c:6797
+#, c-format
+msgid "The %'d selected item will be copied if you select the Paste command"
+msgid_plural ""
+"The %'d selected items will be copied if you select the Paste command"
+msgstr[0] ""
+msgstr[1] ""
+
+#: src/nemo-view.c:6967
+msgid "Select Target Folder For Move"
+msgstr ""
+
+#: src/nemo-view.c:6990
+msgid "Select Target Folder For Copy"
+msgstr ""
+
+#: src/nemo-view.c:7464
+msgid "Unable to unmount location"
+msgstr ""
+
+#: src/nemo-view.c:7484
+msgid "Unable to eject location"
+msgstr ""
+
+#: src/nemo-view.c:7499
+msgid "Unable to stop drive"
+msgstr "Дискті тоқтату мүмкін емес"
+
+#: src/nemo-view.c:7985
+#, c-format
+msgid "Connect to Server %s"
+msgstr ""
+
+#: src/nemo-view.c:7990 src/nemo-view.c:9121 src/nemo-view.c:9208
+#: src/nemo-view.c:9312
+msgid "_Connect"
+msgstr "Ба_йланыс орнату"
+
+#: src/nemo-view.c:8004
+msgid "Link _name:"
+msgstr ""
+
+#. name, stock id, label
+#: src/nemo-view.c:8211
+msgid "Create New _Document"
+msgstr "Жаңа құжат_ты жасау"
+
+#. name, stock id, label
+#: src/nemo-view.c:8212
+msgid "Open Wit_h"
+msgstr ""
+
+#: src/nemo-view.c:8213
+msgid "Choose a program with which to open the selected item"
+msgstr "Таңдалған нәрсені ашу үшін бағдарламаны таңдау"
+
+#. tooltip
+#: src/nemo-view.c:8216 src/nemo-view.c:9894
+msgid "View or modify the properties of each selected item"
+msgstr "Әр таңдалған нәрсенің қасиеттерін қарау және түрлендіру"
+
+#. tooltip
+#: src/nemo-view.c:8224
+msgid "Create a new empty folder inside this folder"
+msgstr "Бұл буманың ішінде жаңа бос буманы жасау"
+
+#. name, stock id, label
+#: src/nemo-view.c:8226
+msgid "No templates installed"
+msgstr "Үлгілер орнатылмаған"
+
+#. name, stock id
+#. translators: this is used to indicate that a document doesn't contain anything
+#. label, accelerator
+#: src/nemo-view.c:8229
+msgid "_Empty Document"
+msgstr "_Бос құжат"
+
+#. tooltip
+#: src/nemo-view.c:8230
+msgid "Create a new empty document inside this folder"
+msgstr ""
+
+#. tooltip
+#: src/nemo-view.c:8234
+msgid "Open the selected item in this window"
+msgstr "Таңдалған нәрсені бұл терезеде ашу"
+
+#. name, stock id
+#. label, accelerator
+#. Location-specific actions
+#. name, stock id
+#. label, accelerator
+#: src/nemo-view.c:8241 src/nemo-view.c:8413
+msgid "Open in Navigation Window"
+msgstr "Навигация терезесінде ашу"
+
+#. tooltip
+#: src/nemo-view.c:8242
+msgid "Open each selected item in a navigation window"
+msgstr "Әр таңдалған нәрсені навигация терезесінде ашу"
+
+#. tooltip
+#: src/nemo-view.c:8246
+msgid "Open each selected item in a new tab"
+msgstr "Әр таңдалған нәрсені жаңа бетте ашу"
+
+#. name, stock id
+#. label, accelerator
+#: src/nemo-view.c:8249 src/nemo-window-menus.c:1691
+#: gresources/nemo-file-management-properties.glade:3677
+#: gresources/nemo-file-management-properties.glade:3844
+msgid "Open in Terminal"
+msgstr "Терминалда ашылсын"
+
+#. tooltip
+#: src/nemo-view.c:8250
+msgid "Open terminal in the selected folder"
+msgstr ""
+
+#. name, stock id
+#. label, accelerator
+#: src/nemo-view.c:8253 gresources/nemo-file-management-properties.glade:3695
+#: gresources/nemo-file-management-properties.glade:3862
+msgid "Open as Root"
+msgstr ""
+
+#. tooltip
+#: src/nemo-view.c:8254
+msgid "Open the folder with administration privileges"
+msgstr ""
+
+#. name, stock id
+#. label, accelerator
+#: src/nemo-view.c:8258
+msgid "Follow link to original file"
+msgstr ""
+
+#. tooltip
+#: src/nemo-view.c:8259
+msgid "Navigate to the original file that this symbolic link points to"
+msgstr ""
+
+#. name, stock id
+#. label, accelerator
+#: src/nemo-view.c:8262
+msgid "Open containing folder"
+msgstr "Орналасқан бумасын ашу"
+
+#. tooltip
+#: src/nemo-view.c:8263
+msgid "Navigate to the folder that the selected item is stored in"
+msgstr ""
+
+#. name, stock id
+#. label, accelerator
+#: src/nemo-view.c:8266
+msgid "Other _Application..."
+msgstr "Б_асқа қолданба..."
+
+#. tooltip
+#: src/nemo-view.c:8267 src/nemo-view.c:8271
+msgid "Choose another application with which to open the selected item"
+msgstr "Таңдалған нәрсені ашу үшін басқа қолданбаны таңдау"
+
+#. name, stock id
+#. label, accelerator
+#: src/nemo-view.c:8270
+msgid "Open With Other _Application..."
+msgstr "Б_асқа қолданбамен ашу..."
+
+#. tooltip
+#: src/nemo-view.c:8279
+msgid "Prepare the selected files to be moved with a Paste command"
+msgstr "Таңдалған файлдарды Кірістіру командасы көмегімен жылжытуға дайындау"
+
+#. tooltip
+#: src/nemo-view.c:8283
+msgid "Prepare the selected files to be copied with a Paste command"
+msgstr "Таңдалған файлдарды Кірістіру командасы көмегімен көшіруге дайындау"
+
+#. name, stock id
+#. label, accelerator
+#: src/nemo-view.c:8286 gresources/nemo-file-management-properties.glade:3525
+#: gresources/nemo-file-management-properties.glade:3899
+msgid "_Paste"
+msgstr ""
+
+#. tooltip
+#: src/nemo-view.c:8287
+msgid "Move or copy files previously selected by a Cut or Copy command"
+msgstr ""
+"Осыған дейін Қиып алынған не Көшірілген файлдарды жылжыту не кірістіру"
+
+#. tooltip
+#: src/nemo-view.c:8293
+msgid ""
+"Move or copy files previously selected by a Cut or Copy command into the "
+"selected folder"
+msgstr ""
+"Ағымдағы бумаға осыған дейін Қиып алынған не Көшірілген файлдарды жылжыту не "
+"кірістіру"
+
+#. name, stock id, label
+#: src/nemo-view.c:8295 gresources/nemo-file-management-properties.glade:3639
+msgid "Cop_y to"
+msgstr "Қа_йда көшіру"
+
+#. name, stock id, label
+#: src/nemo-view.c:8296 gresources/nemo-file-management-properties.glade:3658
+msgid "M_ove to"
+msgstr "Қайда ж_ылжыту"
+
+#. name, stock id
+#. label, accelerator
+#: src/nemo-view.c:8298 libnemo-private/nemo-clipboard.c:444
+msgid "Select _All"
+msgstr "Б_арлығын таңдау"
+
+#. tooltip
+#: src/nemo-view.c:8299
+msgid "Select all items in this window"
+msgstr "Бұл терезедегі барлық нәрсені таңдау"
+
+#. name, stock id
+#. label, accelerator
+#: src/nemo-view.c:8302
+msgid "Select I_tems Matching..."
+msgstr "Үл_гі бойынша таңдау..."
+
+#. tooltip
+#: src/nemo-view.c:8303
+msgid "Select items in this window matching a given pattern"
+msgstr "Бұл терезеден берілген үлгіге сәйкес нәрселерді таңдау"
+
+#. name, stock id
+#. label, accelerator
+#: src/nemo-view.c:8306
+msgid "_Invert Selection"
+msgstr "Таңдауды тері_стеу"
+
+#. tooltip
+#: src/nemo-view.c:8307
+msgid "Select all and only the items that are not currently selected"
+msgstr "Тек ағымдағы таңдалмаған барлық нәрсені таңдау"
+
+#. name, stock id
+#. label, accelerator
+#: src/nemo-view.c:8310 libnemo-private/nemo-file-conflict-dialog.c:565
+#: gresources/nemo-file-management-properties.glade:3544
+msgid "D_uplicate"
+msgstr ""
+
+#. tooltip
+#: src/nemo-view.c:8311
+msgid "Duplicate each selected item"
+msgstr ""
+
+#. name, stock id
+#. label, accelerator
+#: src/nemo-view.c:8314 src/nemo-view.c:9879
+#: gresources/nemo-file-management-properties.glade:3601
+msgid "Ma_ke Link"
+msgid_plural "Ma_ke Links"
+msgstr[0] ""
+msgstr[1] ""
+
+#. tooltip
+#: src/nemo-view.c:8315
+msgid "Create a symbolic link for each selected item"
+msgstr "Әр таңдалған нәрсе үшін символдық сілтемені жасау"
+
+#. tooltip
+#: src/nemo-view.c:8319
+msgid "Rename selected item"
+msgstr "Белгіленгеннің атын ауыстыру"
+
+#. tooltip
+#: src/nemo-view.c:8327 src/nemo-view.c:9830
+msgid "Move each selected item to the Trash"
+msgstr "Әр таңдалған нәрсені себетке тастау"
+
+#. tooltip
+#: src/nemo-view.c:8331 src/nemo-view.c:9854
+msgid "Delete each selected item, without moving to the Trash"
+msgstr "Әр таңдалған нәрсені Себетке тастамай-ақ өшіру"
+
+#. name, stock id
+#. label, accelerator
+#: src/nemo-view.c:8334 src/nemo-view.c:8443
+msgid "_Restore"
+msgstr "Қал_пына келтіру"
+
+#. name, stock id
+#. label, accelerator
+#. name, stock id, label
+#: src/nemo-view.c:8338 src/nemo-window-menus.c:1357
+msgid "_Undo"
+msgstr "Бол_дырмау"
+
+#. tooltip
+#: src/nemo-view.c:8339
+msgid "Undo the last action"
+msgstr "Соңғы әрекетті болдырмау"
+
+#. name, stock id
+#. label, accelerator
+#: src/nemo-view.c:8342
+msgid "_Redo"
+msgstr "Қа_йталау"
+
+#. tooltip
+#: src/nemo-view.c:8343
+msgid "Redo the last undone action"
+msgstr "Соңғы әрекетті қайталау"
+
+#. 
+#. * multiview-TODO: decide whether "Reset to Defaults" should
+#. * be window-wide, and not just view-wide.
+#. * Since this also resets the "Show hidden files" mode,
+#. * it is a mixture of both ATM.
+#. 
+#. name, stock id
+#. label, accelerator
+#: src/nemo-view.c:8352
+msgid "Reset View to _Defaults"
+msgstr "Бас_тапқы түріне тастау"
+
+#. tooltip
+#: src/nemo-view.c:8353
+msgid "Reset sorting order and zoom level to match preferences for this view"
+msgstr "Сұрыптау ретін және масштабын бұл көрініс баптауларына сәйкес тастау"
+
+#. name, stock id
+#. label, accelerator
+#: src/nemo-view.c:8356
+msgid "Connect To This Server"
+msgstr "Бұл серверге байланыс орнату"
+
+#. tooltip
+#: src/nemo-view.c:8357
+msgid "Make a permanent connection to this server"
+msgstr ""
+
+#. tooltip
+#: src/nemo-view.c:8361
+msgid "Mount the selected volume"
+msgstr "Таңдалған бөлімді тіркеу"
+
+#. tooltip
+#: src/nemo-view.c:8365
+msgid "Unmount the selected volume"
+msgstr "Таңдалған бөлімді тіркеуден шығару"
+
+#. tooltip
+#: src/nemo-view.c:8369
+msgid "Eject the selected volume"
+msgstr "Таңдалған бөлімді шығару"
+
+#. tooltip
+#: src/nemo-view.c:8373
+msgid "Start the selected volume"
+msgstr "Таңдалған бөлімді іске қосу"
+
+#. tooltip
+#: src/nemo-view.c:8377 src/nemo-view.c:9334
+msgid "Stop the selected volume"
+msgstr "Таңдалған бөлімді тоқтату"
+
+#. tooltip
+#: src/nemo-view.c:8381 src/nemo-view.c:8405 src/nemo-view.c:8468
+msgid "Detect media in the selected drive"
+msgstr "Таңдалған диск оқу құрылғысында тасушыны анықтау"
+
+#. tooltip
+#: src/nemo-view.c:8385
+msgid "Mount the volume associated with the open folder"
+msgstr "Ашық бумамен сәйкестелген томды тіркеу"
+
+#. tooltip
+#: src/nemo-view.c:8389
+msgid "Unmount the volume associated with the open folder"
+msgstr "Ашық бумамен сәйкестелген томды тіркеуден босату"
+
+#. tooltip
+#: src/nemo-view.c:8393
+msgid "Eject the volume associated with the open folder"
+msgstr "Ашық бумамен сәйкестелген томды шығару"
+
+#. tooltip
+#: src/nemo-view.c:8397
+msgid "Start the volume associated with the open folder"
+msgstr "Ашық бумамен сәйкестелген томды іске қосу"
+
+#. tooltip
+#: src/nemo-view.c:8401
+msgid "Stop the volume associated with the open folder"
+msgstr "Ашық бумамен сәйкестелген томды тоқтату"
+
+#. name, stock id
+#. label, accelerator
+#: src/nemo-view.c:8408
+msgid "Open File and Close window"
+msgstr "Файлды ашу және терезені жабу"
+
+#. tooltip
+#: src/nemo-view.c:8414
+msgid "Open this folder in a navigation window"
+msgstr "Бұл буманы навигация терезесінде ашу"
+
+#. tooltip
+#: src/nemo-view.c:8418
+msgid "Open this folder in a new tab"
+msgstr "Бұл буманы жаңа бетте ашу"
+
+#. tooltip
+#: src/nemo-view.c:8423
+msgid "Prepare this folder to be moved with a Paste command"
+msgstr "Бұл буманы Кірістіру командасы көмегімен жылжытуға дайындау"
+
+#. tooltip
+#: src/nemo-view.c:8427
+msgid "Prepare this folder to be copied with a Paste command"
+msgstr "Бұл буманы Кірістіру командасы көмегімен көшіруге дайындау"
+
+#. tooltip
+#: src/nemo-view.c:8431
+msgid ""
+"Move or copy files previously selected by a Cut or Copy command into this "
+"folder"
+msgstr ""
+"Бұл бумаға алдында Қиып алу не Көшіру көмегімен таңдалған файлдарды жылжыту "
+"не көшіру"
+
+#. tooltip
+#: src/nemo-view.c:8436
+msgid "Move this folder to the Trash"
+msgstr "Бұл буманы Себетке тастау"
+
+#. tooltip
+#: src/nemo-view.c:8440
+msgid "Delete this folder, without moving to the Trash"
+msgstr "Бұл бұманы Себетке тастамай-ақ өшіру."
+
+#. tooltip
+#: src/nemo-view.c:8448
+msgid "Mount the volume associated with this folder"
+msgstr "Бұл бумамен сәйкестендірілген томды тіркеу"
+
+#. tooltip
+#: src/nemo-view.c:8452
+msgid "Unmount the volume associated with this folder"
+msgstr "Бұл бумамен сәйкестелген томды тіркеуден босату"
+
+#. tooltip
+#: src/nemo-view.c:8456
+msgid "Eject the volume associated with this folder"
+msgstr "Бұл бумамен сәйкестелген томды шығару"
+
+#. tooltip
+#: src/nemo-view.c:8460
+msgid "Start the volume associated with this folder"
+msgstr "Бұл бумамен сәйкестелген томды іске қосу"
+
+#. tooltip
+#: src/nemo-view.c:8464
+msgid "Stop the volume associated with this folder"
+msgstr "Бұл бумамен сәйкестелген томды тоқтату"
+
+#. tooltip
+#: src/nemo-view.c:8473
+msgid "View or modify the properties of this folder"
+msgstr "Бұл буманың қасиеттерін қарау не өзгерту"
+
+#. name, stock id, label
+#: src/nemo-view.c:8476 src/nemo-view.c:8479
+msgid "_Other pane"
+msgstr ""
+
+#: src/nemo-view.c:8477
+msgid "Copy the current selection to the other pane in the window"
+msgstr ""
+
+#: src/nemo-view.c:8480
+msgid "Move the current selection to the other pane in the window"
+msgstr ""
+
+#. name, stock id, label
+#. name, stock id
+#. label, accelerator
+#: src/nemo-view.c:8483 src/nemo-view.c:8487 src/nemo-window-menus.c:1432
+#: src/nemo-window-menus.c:1641 src/nemo-window-menus.c:1897
+msgid "_Home"
+msgstr "_Үй"
+
+#: src/nemo-view.c:8484
+msgid "Copy the current selection to the home folder"
+msgstr ""
+
+#: src/nemo-view.c:8488
+msgid "Move the current selection to the home folder"
+msgstr ""
+
+#. name, stock id, label
+#: src/nemo-view.c:8491 src/nemo-view.c:8495
+msgid "_Desktop"
+msgstr "Жұм_ыс үстелі"
+
+#: src/nemo-view.c:8492
+msgid "Copy the current selection to the desktop"
+msgstr ""
+
+#: src/nemo-view.c:8496
+msgid "Move the current selection to the desktop"
+msgstr ""
+
+#: src/nemo-view.c:8499 src/nemo-view.c:8503
+msgid "Browse..."
+msgstr ""
+
+#: src/nemo-view.c:8500
+msgid "Browse for a folder to move the selection to"
+msgstr ""
+
+#: src/nemo-view.c:8504
+msgid "Browse for a folder to copy the selection to"
+msgstr ""
+
+#: src/nemo-view.c:8508
+msgid ""
+"Pin the selected file so it always appears at the top of this location's "
+"file list"
+msgstr ""
+
+#: src/nemo-view.c:8512
+msgid "Unpin the selected file from the top of this location's file list"
+msgstr ""
+
+#: src/nemo-view.c:8515
+msgid "Add to favorites"
+msgstr ""
+
+#: src/nemo-view.c:8516
+msgid "Add the selected file to your favorites"
+msgstr ""
+
+#: src/nemo-view.c:8519
+msgid "Remove from favorites"
+msgstr ""
+
+#: src/nemo-view.c:8520
+msgid "Remove the selected file from your favorites"
+msgstr ""
+
+#: src/nemo-view.c:8595
+msgid "Run scripts"
+msgstr ""
+
+#. Create a script action here specially because its tooltip is dynamic
+#: src/nemo-view.c:8597 gresources/nemo-file-management-properties.glade:3468
+#: gresources/nemo-file-management-properties.glade:3825
+msgid "_Scripts"
+msgstr "Ск_рипттер"
+
+#: src/nemo-view.c:8970
+#, c-format
+msgid "Move the open folder out of the trash to \"%s\""
+msgstr ""
+
+#: src/nemo-view.c:8973
+#, c-format
+msgid "Move the selected folder out of the trash to \"%s\""
+msgid_plural "Move the selected folders out of the trash to \"%s\""
+msgstr[0] "Таңдалған буманы себеттен \"%s\" ішіне орналастыру"
+msgstr[1] "Таңдалған бумаларды себеттен \"%s\" ішіне орналастыру"
+
+#: src/nemo-view.c:8977
+msgid "Move the selected folder out of the trash"
+msgid_plural "Move the selected folders out of the trash"
+msgstr[0] "Таңдалған буманы себет ішінен жылжыту"
+msgstr[1] "Таңдалған бумаларды себет ішінен жылжыту"
+
+#: src/nemo-view.c:8983
+#, c-format
+msgid "Move the selected file out of the trash to \"%s\""
+msgid_plural "Move the selected files out of the trash to \"%s\""
+msgstr[0] "Таңдалған файлды себеттен \"%s\" ішіне орналастыру"
+msgstr[1] "Таңдалған файлдарды себеттен \"%s\" ішіне орналастыру"
+
+#: src/nemo-view.c:8987
+msgid "Move the selected file out of the trash"
+msgid_plural "Move the selected files out of the trash"
+msgstr[0] "Таңдалған файлды себет ішінен жылжыту"
+msgstr[1] "Таңдалған файлдарды себет ішінен жылжыту"
+
+#: src/nemo-view.c:8993
+#, c-format
+msgid "Move the selected item out of the trash to \"%s\""
+msgid_plural "Move the selected items out of the trash to \"%s\""
+msgstr[0] "Таңдалған нәрсені себеттен \"%s\" ішіне орналастыру"
+msgstr[1] "Таңдалған нәрселерді себеттен \"%s\" ішіне орналастыру"
+
+#: src/nemo-view.c:8997
+msgid "Move the selected item out of the trash"
+msgid_plural "Move the selected items out of the trash"
+msgstr[0] "Таңдалған нәрсені себет ішінен жылжыту"
+msgstr[1] "Таңдалған нәрселерді себет ішінен жылжыту"
+
+#: src/nemo-view.c:9114 src/nemo-view.c:9118 src/nemo-view.c:9305
+#: src/nemo-view.c:9309
+msgid "Start the selected drive"
+msgstr "Таңдалған дискті іске қосу"
+
+#: src/nemo-view.c:9122 src/nemo-view.c:9313
+msgid "Connect to the selected drive"
+msgstr "Таңдалған дискке байланыс орнату"
+
+#: src/nemo-view.c:9125 src/nemo-view.c:9212 src/nemo-view.c:9316
+msgid "_Start Multi-disk Drive"
+msgstr "Көпдискті жетекті іске қо_су"
+
+#: src/nemo-view.c:9126 src/nemo-view.c:9317
+msgid "Start the selected multi-disk drive"
+msgstr "Таңдалған көпдискті жетегін іске қосу"
+
+#: src/nemo-view.c:9129
+msgid "U_nlock Drive"
+msgstr "Жетекті бо_сату"
+
+#: src/nemo-view.c:9130 src/nemo-view.c:9321
+msgid "Unlock the selected drive"
+msgstr "Таңдалған жетекті босату"
+
+#: src/nemo-view.c:9143
+msgid "Stop the selected drive"
+msgstr "Таңдалған жетекті тоқтату"
+
+#: src/nemo-view.c:9147 src/nemo-view.c:9338
+msgid "Safely remove the selected drive"
+msgstr "Таңдалған жетекті қауіпсіз шығару"
+
+#: src/nemo-view.c:9150 src/nemo-view.c:9237 src/nemo-view.c:9341
+msgid "_Disconnect"
+msgstr "Б_айланысты үзу"
+
+#: src/nemo-view.c:9151 src/nemo-view.c:9342
+msgid "Disconnect the selected drive"
+msgstr "Таңдалған жетекті ажыратып тастау"
+
+#: src/nemo-view.c:9154 src/nemo-view.c:9241 src/nemo-view.c:9345
+msgid "_Stop Multi-disk Drive"
+msgstr "Көпдискті жетекті тоқта_ту"
+
+#: src/nemo-view.c:9155 src/nemo-view.c:9346
+msgid "Stop the selected multi-disk drive"
+msgstr "Таңдалған көпдискті жетегін тоқтату"
+
+#: src/nemo-view.c:9159 src/nemo-view.c:9350
+msgid "Lock the selected drive"
+msgstr "Таңдалған жетекті блоктау"
+
+#: src/nemo-view.c:9201 src/nemo-view.c:9205
+msgid "Start the drive associated with the open folder"
+msgstr "Ашық бумаға сәйкес келетін жетекті іске қосу"
+
+#: src/nemo-view.c:9209
+msgid "Connect to the drive associated with the open folder"
+msgstr "Ашық бумаға сәйкес келетін жетегіне байланысу"
+
+#: src/nemo-view.c:9213
+msgid "Start the multi-disk drive associated with the open folder"
+msgstr "Ашық бумаға сәйкес келетін көпдискті жетекті іске қосу"
+
+#: src/nemo-view.c:9217
+msgid "Unlock the drive associated with the open folder"
+msgstr "Ашық бумаға сәйкес келетін жетекті босату"
+
+#: src/nemo-view.c:9230
+msgid "_Stop the drive associated with the open folder"
+msgstr "Ашық бумаға сәйкес келетін жетекті т_оқтату"
+
+#: src/nemo-view.c:9234
+msgid "Safely remove the drive associated with the open folder"
+msgstr "Ашық бумаға сәйкес келетін жетекті қауіпсіз шығару"
+
+#: src/nemo-view.c:9238
+msgid "Disconnect the drive associated with the open folder"
+msgstr "Ашық бумаға сәйкес келетін жетекті ажыратып тастау"
+
+#: src/nemo-view.c:9242
+msgid "Stop the multi-disk drive associated with the open folder"
+msgstr "Ашық бумаға сәйкес келетін көпдискті жетекті тоқтату"
+
+#: src/nemo-view.c:9246
+msgid "Lock the drive associated with the open folder"
+msgstr "Ашық бумаға сәйкес келетін жетекті блоктау"
+
+#: src/nemo-view.c:9488 src/nemo-view.c:9825
+msgid "_Delete Permanently"
+msgstr "_Толығымен өшіру"
+
+#: src/nemo-view.c:9489
+msgid "Delete the open folder permanently"
+msgstr "Ашық буманы толығымен өшіру"
+
+#: src/nemo-view.c:9493
+msgid "Move the open folder to the Trash"
+msgstr "Ашық буманы Себетке тастау"
+
+#: src/nemo-view.c:9740
+#, c-format
+msgid "_Open With %s"
+msgstr "%s _көмегімен ашу"
+
+#: src/nemo-view.c:9789
+#, c-format
+msgid "Open in %'d New _Window"
+msgid_plural "Open in %'d New _Windows"
+msgstr[0] ""
+msgstr[1] ""
+
+#: src/nemo-view.c:9809
+#, c-format
+msgid "Open in %'d New _Tab"
+msgid_plural "Open in %'d New _Tabs"
+msgstr[0] ""
+msgstr[1] ""
+
+#: src/nemo-view.c:9826
+msgid "Delete all selected items permanently"
+msgstr "Барлық таңдалған нәрсені толығымен өшіру"
+
+#: src/nemo-view.c:9850
+msgid "Remo_ve from Recent"
+msgstr "Жуыр_дағы тізімнен өшіру"
+
+#: src/nemo-view.c:9851
+msgid "Remove each selected item from the recently used list"
+msgstr "Әр таңдалған нәрсені жуырдағы қолданылған тізімнен өшіру"
+
+#: src/nemo-view.c:9892
+msgid "View or modify the properties of the open folder"
+msgstr "Ашық бумасының қасиеттерін қарау не түзету"
+
+#. Note to localizers: convert file type string for file
+#. * (e.g. "folder", "plain text") to file type for symbolic link
+#. * to that kind of file (e.g. "link to folder").
+#. 
+#. appended to new link file
+#: src/nemo-view-dnd.c:125 libnemo-private/nemo-file.c:7066
+#: libnemo-private/nemo-file-operations.c:396
+#, c-format
+msgid "Link to %s"
+msgstr "%s үшін сілтеме"
+
+#: src/nemo-view-dnd.c:171 src/nemo-view-dnd.c:205 src/nemo-view-dnd.c:298
+msgid "Drag and drop is not supported."
+msgstr "Ұстап апару мен тастауға қолдау жоқ."
+
+#: src/nemo-view-dnd.c:172
+msgid "Drag and drop is only supported on local file systems."
+msgstr "Ұстап апару мен тастау тек жергілікті файлдық жүйелер үшін істейді."
+
+#: src/nemo-view-dnd.c:206 src/nemo-view-dnd.c:299
+msgid "An invalid drag type was used."
+msgstr "Қате тартып апару түрі қолданылды."
+
+#. Translator: This is the filename used for when you dnd text to a directory
+#: src/nemo-view-dnd.c:376
+msgid "dropped text.txt"
+msgstr "тасталған мәтін.txt"
+
+#. Translator: This is the filename used for when you dnd raw
+#. * data to a directory, if the source didn't supply a name.
+#. 
+#: src/nemo-view-dnd.c:421
+msgid "dropped data"
+msgstr "тасталған мәлімет"
+
+#: src/nemo-window-bookmarks.c:83
+msgid ""
+"Do you want to remove any bookmarks with the non-existing location from your "
+"list?"
+msgstr ""
+
+#: src/nemo-window-bookmarks.c:85
+#, c-format
+msgid "The location \"%s\" does not exist."
+msgstr "\"%s\" орналасуы жоқ болып тұр."
+
+#: src/nemo-window-bookmarks.c:88
+msgid "Bookmark for Nonexistent Location"
+msgstr ""
+
+#: src/nemo-window-bookmarks.c:308
+msgid "Go to the location specified by this bookmark"
+msgstr "Бұл бетбелгі көрсететін жерге өту"
+
+#: src/nemo-window.c:1387
+#, c-format
+msgid "%s - File Browser"
+msgstr "%s - Файлдарды шолу"
+
+#. Set initial window title
+#: src/nemo-window.c:1998 src/nemo-window-menus.c:343
+msgid "Nemo"
+msgstr "Nemo"
+
+#: src/nemo-window-manage-views.c:1228
+msgid "Searching..."
+msgstr "Іздеу..."
+
+#: src/nemo-window-manage-views.c:1717 src/nemo-window-manage-views.c:1723
+#: src/nemo-window-manage-views.c:1740 src/nemo-window-manage-views.c:1751
+#: src/nemo-window-manage-views.c:1757 src/nemo-window-manage-views.c:1783
+#, c-format
+msgid "Could not display \"%s\"."
+msgstr "\"%s\" көрсету мүмкін емес."
+
+#: src/nemo-window-manage-views.c:1720
+msgid "Nemo has no installed viewer capable of displaying the folder."
+msgstr ""
+
+#: src/nemo-window-manage-views.c:1726
+msgid "The location is not a folder."
+msgstr "Орналасу бума емес."
+
+#: src/nemo-window-manage-views.c:1732
+#, c-format
+msgid "Could not find \"%s\"."
+msgstr "\"%s\" табу мүмкін емес."
+
+#: src/nemo-window-manage-views.c:1735
+msgid "Please check the spelling and try again."
+msgstr "Жазылуды тексеріп, қайталап көріңіз."
+
+#: src/nemo-window-manage-views.c:1743
+#, c-format
+msgid "Nemo cannot handle \"%s\" locations."
+msgstr ""
+
+#: src/nemo-window-manage-views.c:1746
+msgid "Nemo cannot handle this kind of location."
+msgstr ""
+
+#: src/nemo-window-manage-views.c:1753
+msgid "Unable to mount the location."
+msgstr "Орналасуды тіркеу мүмкін емес."
+
+#: src/nemo-window-manage-views.c:1759
+msgid "Access was denied."
+msgstr "Рұқсат етілмеген."
+
+#. This case can be hit for user-typed strings like "foo" due to
+#. * the code that guesses web addresses when there's no initial "/".
+#. * But this case is also hit for legitimate web addresses when
+#. * the proxy is set up wrong.
+#. 
+#: src/nemo-window-manage-views.c:1768
+#, c-format
+msgid "Could not display \"%s\", because the host could not be found."
+msgstr "\"%s\" көрсету мүмкін емес, өйткені хост табылмады."
+
+#: src/nemo-window-manage-views.c:1770
+msgid ""
+"Check that the spelling is correct and that your proxy settings are correct."
+msgstr ""
+
+#: src/nemo-window-manage-views.c:1785
+#, c-format
+msgid ""
+"Error: %s\n"
+"Please select another viewer and try again."
+msgstr ""
+
+#: src/nemo-window-menus.c:322
+msgid ""
+"Nemo is free software; you can redistribute it and/or modify it under the "
+"terms of the GNU General Public License as published by the Free Software "
+"Foundation; either version 2 of the License, or (at your option) any later "
+"version."
+msgstr ""
+
+#: src/nemo-window-menus.c:326
+msgid ""
+"Nemo is distributed in the hope that it will be useful, but WITHOUT ANY "
+"WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS "
+"FOR A PARTICULAR PURPOSE.  See the GNU General Public License for more "
+"details."
+msgstr ""
+
+#: src/nemo-window-menus.c:330
+msgid ""
+"You should have received a copy of the GNU General Public License along with "
+"Nemo; if not, write to the Free Software Foundation, Inc., 51 Franklin "
+"Street, Fifth Floor, Boston, MA 02110-1301 USA"
+msgstr ""
+
+#: src/nemo-window-menus.c:345
+msgid ""
+"Nemo lets you organize files and folders, both on your computer and online."
+msgstr ""
+
+#: src/nemo-window-menus.c:406
+#, c-format
+msgid ""
+"There was an error displaying help: \n"
+"%s"
+msgstr ""
+"Көмекті көрсету кезінде қате кетті: \n"
+"%s"
+
+#. name, stock id, label
+#: src/nemo-window-menus.c:1340
+msgid "_File"
+msgstr "_Файл"
+
+#. name, stock id, label
+#: src/nemo-window-menus.c:1341
+msgid "_Edit"
+msgstr "Тү_зету"
+
+#. name, stock id, label
+#: src/nemo-window-menus.c:1342
+msgid "_View"
+msgstr "_Түрі"
+
+#. name, stock id, label
+#: src/nemo-window-menus.c:1343
+msgid "_Help"
+msgstr "_Көмек"
+
+#. name, stock id
+#. label, accelerator
+#: src/nemo-window-menus.c:1345
+msgid "_Close"
+msgstr "_Жабу"
+
+#. tooltip
+#: src/nemo-window-menus.c:1346
+msgid "Close this folder"
+msgstr "Бұл буманы жабу"
+
+#: src/nemo-window-menus.c:1349
+msgid "Prefere_nces"
+msgstr "Бап_таулар"
+
+#: src/nemo-window-menus.c:1350
+msgid "Edit Nemo preferences"
+msgstr ""
+
+#: src/nemo-window-menus.c:1353
+#: gresources/nemo-file-management-properties.glade:4151
+msgid "Plugins"
+msgstr "Плагиндер"
+
+#: src/nemo-window-menus.c:1354
+msgid "Manage extensions, actions and scripts"
+msgstr ""
+
+#: src/nemo-window-menus.c:1358
+msgid "Undo the last text change"
+msgstr ""
+
+#. name, stock id, label
+#: src/nemo-window-menus.c:1361
+msgid "Open _Parent"
+msgstr "А_талық бумасын ашу"
+
+#: src/nemo-window-menus.c:1362
+msgid "Open the parent folder"
+msgstr "Аталық бумасын ашу"
+
+#. tooltip
+#: src/nemo-window-menus.c:1369
+msgid "Stop loading the current location"
+msgstr "Ағымдағы орналасуды жүктеуді тоқтату"
+
+#. name, stock id
+#. label, accelerator
+#: src/nemo-window-menus.c:1372 src/nemo-window-menus.c:1627
+msgid "_Reload"
+msgstr "Қа_йта жүктеу"
+
+#. tooltip
+#: src/nemo-window-menus.c:1373 src/nemo-window-menus.c:1629
+msgid "Reload the current location"
+msgstr "Ағымдағы орналасуды қайта жүктеу"
+
+#. name, stock id
+#. label, accelerator
+#: src/nemo-window-menus.c:1376
+msgid "_All Topics"
+msgstr "_Барлық тақырыптар"
+
+#. tooltip
+#: src/nemo-window-menus.c:1377
+msgid "Display Nemo help"
+msgstr ""
+
+#: src/nemo-window-menus.c:1380
+msgid "_Keyboard Shortcuts"
+msgstr ""
+
+#: src/nemo-window-menus.c:1381
+msgid "Display keyboard shortcuts"
+msgstr ""
+
+#. * name, stock id          { "NemoHelpSearch", NULL,
+#. label, accelerator        N_("Search for files"), NULL,
+#. tooltip                   N_("Locate files based on file name and type. Save your searches for later use."),
+#. G_CALLBACK (action_nemo_manual_callback) },
+#. name, stock id          { "NemoHelpSort", NULL,
+#. label, accelerator        N_("Sort files and folders"), NULL,
+#. tooltip                   N_("Arrange files by name, size, type, or when they were changed."),
+#. G_CALLBACK (action_nemo_manual_callback) },
+#. name, stock id          { "NemoHelpLost", NULL,
+#. label, accelerator        N_("Find a lost file"), NULL,
+#. tooltip                   N_("Follow these tips if you can't find a file you created or downloaded."),
+#. G_CALLBACK (action_nemo_manual_callback) },
+#. name, stock id          { "NemoHelpShare", NULL,
+#. label, accelerator        N_("Share and transfer files"), NULL,
+#. tooltip                   N_("Easily transfer files to your contacts and devices from the file manager."),
+#. G_CALLBACK (action_nemo_manual_callback) }, *
+#. name, stock id
+#. label, accelerator
+#: src/nemo-window-menus.c:1400
+msgid "_About"
+msgstr "Осы т_уралы"
+
+#. tooltip
+#: src/nemo-window-menus.c:1401
+msgid "Display credits for the creators of Nemo"
+msgstr ""
+
+#. name, stock id
+#. label, accelerator
+#: src/nemo-window-menus.c:1404
+msgid "Zoom _In"
+msgstr "Үлке_йту"
+
+#. tooltip
+#: src/nemo-window-menus.c:1405
+msgid "Increase the view size"
+msgstr "Көрініс түрін үлкейту"
+
+#. name, stock id
+#. label, accelerator
+#: src/nemo-window-menus.c:1416
+msgid "Zoom _Out"
+msgstr "Кі_шірейту"
+
+#. tooltip
+#: src/nemo-window-menus.c:1417
+msgid "Decrease the view size"
+msgstr "Көрініс түрін кішірейту"
+
+#. name, stock id
+#. label, accelerator
+#: src/nemo-window-menus.c:1424
+msgid "Normal Si_ze"
+msgstr "Қал_ыпты өлшемі"
+
+#. tooltip
+#: src/nemo-window-menus.c:1425
+msgid "Use the normal view size"
+msgstr "Қалыпты көрініс өлшемін қолдану"
+
+#. name, stock id
+#. label, accelerator
+#: src/nemo-window-menus.c:1428
+msgid "Connect to _Server..."
+msgstr "_Серверге байланыс орнату..."
+
+#. tooltip
+#: src/nemo-window-menus.c:1429
+msgid "Connect to a remote computer or shared disk"
+msgstr "Қашықтағы компьютерге не ортақ дискіге қатынау"
+
+#. tooltip
+#: src/nemo-window-menus.c:1433
+msgid "Open your personal folder"
+msgstr "Жеке бумаңызды ашу"
+
+#. name, stock id
+#. label, accelerator
+#: src/nemo-window-menus.c:1436 src/nemo-window-menus.c:1655
+msgid "_Computer"
+msgstr "Ко_мпьютер"
+
+#. tooltip
+#: src/nemo-window-menus.c:1437
+msgid ""
+"Browse all local and remote disks and folders accessible from this computer"
+msgstr ""
+"Осы компьютерден қол жетімді барлық локальды барлық дискілер мен бумаларды "
+"қарап шығу"
+
+#. name, stock id
+#. label, accelerator
+#: src/nemo-window-menus.c:1440
+msgid "_Network"
+msgstr "Ж_елі"
+
+#. tooltip
+#: src/nemo-window-menus.c:1441
+msgid "Browse bookmarked and local network locations"
+msgstr "Сақталған және локальды желілік орындарды қарап шығу"
+
+#. name, stock id
+#. label, accelerator
+#: src/nemo-window-menus.c:1444
+msgid "T_emplates"
+msgstr "Үлгіл_ер"
+
+#. tooltip
+#: src/nemo-window-menus.c:1445
+msgid "Open your personal templates folder"
+msgstr ""
+
+#. name, stock id
+#. label, accelerator
+#: src/nemo-window-menus.c:1448
+msgid "_Trash"
+msgstr "_Себет"
+
+#. tooltip
+#: src/nemo-window-menus.c:1449
+msgid "Open your personal trash folder"
+msgstr "Себеттің жеке бумасын ашу"
+
+#. name, stock id, label
+#: src/nemo-window-menus.c:1451
+msgid "_Go"
+msgstr "Ө_ту"
+
+#. name, stock id, label
+#: src/nemo-window-menus.c:1452
+msgid "_Bookmarks"
+msgstr "_Бетбелгілер"
+
+#. name, stock id, label
+#: src/nemo-window-menus.c:1453
+msgid "_Tabs"
+msgstr "Бе_ттер"
+
+#. name, stock id, label
+#: src/nemo-window-menus.c:1454
+msgid "New _Window"
+msgstr "Жаңа _терезе"
+
+#: src/nemo-window-menus.c:1455
+msgid "Open another Nemo window for the displayed location"
+msgstr ""
+
+#. name, stock id, label
+#: src/nemo-window-menus.c:1457
+msgid "New _Tab"
+msgstr "Жаңа _бет"
+
+#: src/nemo-window-menus.c:1458
+msgid "Open another tab for the displayed location"
+msgstr "Көрсетілген орналасу үшін жаңа бетті ашу"
+
+#. name, stock id, label
+#: src/nemo-window-menus.c:1460
+msgid "Close _All Windows"
+msgstr "Б_арлық терезелерді жабу"
+
+#: src/nemo-window-menus.c:1461
+msgid "Close all Navigation windows"
+msgstr "Барлық навигация терезелерін жабу"
+
+#. name, stock id, label
+#: src/nemo-window-menus.c:1463 src/nemo-window-menus.c:1577
+msgid "_Back"
+msgstr "Ар_тқа"
+
+#: src/nemo-window-menus.c:1464 src/nemo-window-menus.c:1579
+msgid "Go to the previous visited location"
+msgstr "Алдыңғы жерге өту"
+
+#. name, stock id, label
+#: src/nemo-window-menus.c:1466 src/nemo-window-menus.c:1593
+msgid "_Forward"
+msgstr "А_лға"
+
+#: src/nemo-window-menus.c:1467 src/nemo-window-menus.c:1595
+msgid "Go to the next visited location"
+msgstr "Келесі жерге өту"
+
+#. name, stock id, label
+#: src/nemo-window-menus.c:1469
+msgid "Toggle _Location Entry"
+msgstr ""
+
+#: src/nemo-window-menus.c:1470
+msgid "Switch between location entry and breadcrumbs"
+msgstr ""
+
+#. name, stock id, label
+#: src/nemo-window-menus.c:1472
+msgid "S_witch to Other Pane"
+msgstr "Б_асқа панельге ауысу"
+
+#: src/nemo-window-menus.c:1473
+msgid "Move focus to the other pane in a split view window"
+msgstr "Бөлінген терезе көрінісіндегі фокусты басқа панельге ауыстыру"
+
+#. name, stock id, label
+#: src/nemo-window-menus.c:1475
+msgid "Sa_me Location as Other Pane"
+msgstr "Ба_сқа панельдегі орналасу"
+
+#: src/nemo-window-menus.c:1476
+msgid "Go to the same location as in the extra pane"
+msgstr "Қосымша панельдегі орналасуға өту"
+
+#: src/nemo-window-menus.c:1479
+msgid "Add a bookmark for the current location to this menu"
+msgstr ""
+
+#. name, stock id, label
+#: src/nemo-window-menus.c:1481
+msgid "_Edit Bookmarks..."
+msgstr "Бе_тбелгілерді түзету..."
+
+#: src/nemo-window-menus.c:1482
+msgid "Display a window that allows editing the bookmarks in this menu"
+msgstr ""
+
+#: src/nemo-window-menus.c:1484
+msgid "_Previous Tab"
+msgstr "А_лдыңғы бет"
+
+#: src/nemo-window-menus.c:1485
+msgid "Activate previous tab"
+msgstr "Алдыңғы бетті белсендіру"
+
+#: src/nemo-window-menus.c:1487
+msgid "_Next Tab"
+msgstr "_Келесі бет"
+
+#: src/nemo-window-menus.c:1488
+msgid "Activate next tab"
+msgstr "Келесі бетті белсендіру"
+
+#: src/nemo-window-menus.c:1490 src/nemo-window-pane.c:498
+msgid "Move Tab _Left"
+msgstr "Бетті со_лға жылжыту"
+
+#: src/nemo-window-menus.c:1491
+msgid "Move current tab to left"
+msgstr "Ағымдағы бетті солға жылжыту"
+
+#: src/nemo-window-menus.c:1493 src/nemo-window-pane.c:506
+msgid "Move Tab _Right"
+msgstr "Бетті _оңға жылжыту"
+
+#: src/nemo-window-menus.c:1494
+msgid "Move current tab to right"
+msgstr "Ағымдағы бетті оңға жылжыту"
+
+#: src/nemo-window-menus.c:1496
+msgid "Sidebar"
+msgstr "Бүйір панелі"
+
+#. name, stock id
+#. label, accelerator
+#: src/nemo-window-menus.c:1501
+#: gresources/nemo-file-management-properties.glade:3880
+msgid "Show _Hidden Files"
+msgstr "Жас_ырын файлдарды көрсету"
+
+#. tooltip
+#: src/nemo-window-menus.c:1502
+msgid "Toggle the display of hidden files in the current window"
+msgstr "Ағымдағы терезеде жасырын файлдардың көрінуін іске қосу/сөндіру"
+
+#. name, stock id
+#. label, accelerator
+#: src/nemo-window-menus.c:1506
+msgid "_Main Toolbar"
+msgstr "Ба_с саймандар панелі"
+
+#. tooltip
+#: src/nemo-window-menus.c:1507
+msgid "Change the visibility of this window's main toolbar"
+msgstr ""
+
+#. is_active
+#. name, stock id
+#. label, accelerator
+#: src/nemo-window-menus.c:1511
+msgid "_Show Sidebar"
+msgstr "Бү_йір панелін көрсету"
+
+#. tooltip
+#: src/nemo-window-menus.c:1512
+msgid "Change the visibility of this window's side pane"
+msgstr "Бұл терезенің бүйір панелінің көрсетуін ауыстыру"
+
+#. is_active
+#. name, stock id
+#. label, accelerator
+#: src/nemo-window-menus.c:1516
+msgid "St_atusbar"
+msgstr "Күй _жолағы"
+
+#. tooltip
+#: src/nemo-window-menus.c:1517
+msgid "Change the visibility of this window's statusbar"
+msgstr "Бұл терезенің қалып-күй жолағын қосып/өшіреді"
+
+#. is_active
+#. name, stock id
+#. label, accelerator
+#: src/nemo-window-menus.c:1521
+msgid "M_enubar"
+msgstr ""
+
+#. tooltip
+#: src/nemo-window-menus.c:1522
+msgid "Change the default visibility of the menubar"
+msgstr ""
+
+#. is_active
+#. name, stock id
+#. label, accelerator
+#: src/nemo-window-menus.c:1526
+msgid "_Search for Files..."
+msgstr "Файлдарды і_здеу..."
+
+#. tooltip
+#: src/nemo-window-menus.c:1527 src/nemo-window-menus.c:1737
+msgid "Search documents and folders"
+msgstr ""
+
+#. is_active
+#. name, stock id
+#. label, accelerator
+#: src/nemo-window-menus.c:1531
+msgid "E_xtra Pane"
+msgstr "Қ_осымша панель"
+
+#. tooltip
+#: src/nemo-window-menus.c:1532
+msgid "Open an extra folder view side-by-side"
+msgstr "Сыбайлас көріністі ашу"
+
+#. is_active
+#. name, stock id
+#. label, accelerator
+#: src/nemo-window-menus.c:1536
+msgid "Show _Thumbnails"
+msgstr ""
+
+#. tooltip
+#: src/nemo-window-menus.c:1537
+msgid "Toggle the display of thumbnails in the current directory"
+msgstr ""
+
+#: src/nemo-window-menus.c:1544
+msgid "Places"
+msgstr "Орындар"
+
+#: src/nemo-window-menus.c:1544
+msgid "Select Places as the default sidebar"
+msgstr ""
+
+#: src/nemo-window-menus.c:1547
+msgid "Tree"
+msgstr "Ағаш"
+
+#: src/nemo-window-menus.c:1547
+msgid "Select Tree as the default sidebar"
+msgstr ""
+
+#: src/nemo-window-menus.c:1580
+msgid "Back history"
+msgstr ""
+
+#: src/nemo-window-menus.c:1596 src/nemo-window-menus.c:1615
+msgid "Forward history"
+msgstr ""
+
+#: src/nemo-window-menus.c:1612 src/nemo-window-menus.c:1894
+msgid "_Up"
+msgstr "Жоғ_ары"
+
+#: src/nemo-window-menus.c:1614
+msgid "Go to parent folder"
+msgstr ""
+
+#: src/nemo-window-menus.c:1643
+msgid "Go to home directory"
+msgstr ""
+
+#: src/nemo-window-menus.c:1657
+msgid "Go to Computer"
+msgstr ""
+
+#: src/nemo-window-menus.c:1669
+msgid "Toggle Location Entry"
+msgstr ""
+
+#: src/nemo-window-menus.c:1681
+#: gresources/nemo-file-management-properties.glade:3114
+msgid "New folder"
+msgstr "Жаңа бума"
+
+#: src/nemo-window-menus.c:1682
+msgid "Create a new folder"
+msgstr "Жаңа буманы жасау"
+
+#: src/nemo-window-menus.c:1692
+msgid "Open a terminal in the active folder"
+msgstr ""
+
+#: src/nemo-window-menus.c:1702
+msgid "Icons"
+msgstr "Таңбашалар"
+
+#: src/nemo-window-menus.c:1713
+msgid "List"
+msgstr "Тізім"
+
+#: src/nemo-window-menus.c:1725
+msgid "Compact"
+msgstr "Ықшам"
+
+#: src/nemo-window-menus.c:1737 libnemo-private/nemo-query.c:189
+#: libnemo-private/nemo-search-directory-file.c:164
+#: libnemo-private/nemo-search-directory-file.c:190
+#: libnemo-private/nemo-search-directory-file.c:224
+#: gresources/nemo-file-management-properties.glade:3151
+msgid "Search"
+msgstr "Іздеу"
+
+#: src/nemo-window-menus.c:1746 src/nemo-window-menus.c:1747
+#: gresources/nemo-file-management-properties.glade:3299
+msgid "Show Thumbnails"
+msgstr ""
+
+#: src/nemo-window-menus.c:1900
+msgid "_Location"
+msgstr "Орна_ласуы"
+
+#: src/nemo-window-pane.c:481
+msgid "_New Tab"
+msgstr "_Жаңа бет"
+
+#: src/nemo-window-pane.c:517
+msgid "_Close Tab"
+msgstr "Бетті _жабу"
+
+#: src/nemo-window-slot.c:290
+msgid "No files found"
+msgstr ""
+
+#: src/nemo-x-content-bar.c:97
+msgid "These files are on an Audio CD."
+msgstr ""
+
+#: src/nemo-x-content-bar.c:99
+msgid "These files are on an Audio DVD."
+msgstr ""
+
+#: src/nemo-x-content-bar.c:101
+msgid "These files are on a Video DVD."
+msgstr ""
+
+#: src/nemo-x-content-bar.c:103
+msgid "These files are on a Video CD."
+msgstr ""
+
+#: src/nemo-x-content-bar.c:105
+msgid "These files are on a Super Video CD."
+msgstr ""
+
+#: src/nemo-x-content-bar.c:107
+msgid "These files are on a Photo CD."
+msgstr ""
+
+#: src/nemo-x-content-bar.c:109
+msgid "These files are on a Picture CD."
+msgstr ""
+
+#: src/nemo-x-content-bar.c:111
+msgid "The media contains digital photos."
+msgstr ""
+
+#: src/nemo-x-content-bar.c:113
+msgid "These files are on a digital audio player."
+msgstr ""
+
+#: src/nemo-x-content-bar.c:115
+msgid "The media contains software."
+msgstr ""
+
+#. fallback to generic greeting
+#: src/nemo-x-content-bar.c:118
+#, c-format
+msgid "The media has been detected as \"%s\"."
+msgstr ""
+
+#: src/nemo-x-content-bar.c:143
+#, c-format
+msgid "Open %s"
+msgstr "%s ашу"
+
+#. name, stock id
+#. label, accelerator
+#. tooltip
+#: libnemo-private/nemo-clipboard.c:433
+msgid "Cut the selected text to the clipboard"
+msgstr "Таңдалған мәтінді алмасу буферіне қиып алу"
+
+#. name, stock id
+#. label, accelerator
+#. tooltip
+#: libnemo-private/nemo-clipboard.c:437
+msgid "Copy the selected text to the clipboard"
+msgstr "Таңдалған мәтінді алмасу буферіне көшіру"
+
+#. name, stock id
+#. label, accelerator
+#. tooltip
+#: libnemo-private/nemo-clipboard.c:441
+msgid "Paste the text stored on the clipboard"
+msgstr "Алмасу буферіндегі сақталған мәтінді кірістіру"
+
+#. tooltip
+#: libnemo-private/nemo-clipboard.c:445
+msgid "Select all the text in a text field"
+msgstr "Мәтіндік өрісіндегі барлық мәтінді іздеу"
+
+#: libnemo-private/nemo-column-chooser.c:371
+msgid "Move _Up"
+msgstr "Жоғар_ы жылжыту"
+
+#: libnemo-private/nemo-column-chooser.c:381
+msgid "Move Dow_n"
+msgstr "Тө_мен апару"
+
+#: libnemo-private/nemo-column-chooser.c:394
+msgid "Use De_fault"
+msgstr "Бас_тапқысын қолдану"
+
+#: libnemo-private/nemo-column-utilities.c:44
+msgid "The name and icon of the file."
+msgstr "Файлдың аты мен таңбашасы."
+
+#: libnemo-private/nemo-column-utilities.c:51
+msgid "The size of the file."
+msgstr "Файлдың көлемі."
+
+#: libnemo-private/nemo-column-utilities.c:59
+msgid "The general type of the file."
+msgstr ""
+
+#: libnemo-private/nemo-column-utilities.c:65
+msgid "Detailed Type"
+msgstr ""
+
+#: libnemo-private/nemo-column-utilities.c:66
+msgid "The specific type of the file."
+msgstr ""
+
+#: libnemo-private/nemo-column-utilities.c:73
+#: libnemo-private/nemo-column-utilities.c:80
+msgid "The date the file was modified."
+msgstr "Файл өзгертілген күні."
+
+#: libnemo-private/nemo-column-utilities.c:79
+msgid "Modified - Time"
+msgstr ""
+
+#: libnemo-private/nemo-column-utilities.c:88
+msgid "Date Created"
+msgstr ""
+
+#: libnemo-private/nemo-column-utilities.c:89
+#: libnemo-private/nemo-column-utilities.c:96
+msgid "The date the file was created."
+msgstr ""
+
+#: libnemo-private/nemo-column-utilities.c:95
+msgid "Created - Time"
+msgstr ""
+
+#: libnemo-private/nemo-column-utilities.c:103
+msgid "Date Accessed"
+msgstr "Қатынаған уақыты"
+
+#: libnemo-private/nemo-column-utilities.c:104
+msgid "The date the file was accessed."
+msgstr "Файлға қатынау күні."
+
+#: libnemo-private/nemo-column-utilities.c:111
+msgid "Owner"
+msgstr "Иесі"
+
+#: libnemo-private/nemo-column-utilities.c:112
+msgid "The owner of the file."
+msgstr "Файл иесі."
+
+#: libnemo-private/nemo-column-utilities.c:119
+msgid "Group"
+msgstr "Топ"
+
+#: libnemo-private/nemo-column-utilities.c:120
+msgid "The group of the file."
+msgstr "Файл жататын топ."
+
+#: libnemo-private/nemo-column-utilities.c:128
+msgid "The permissions of the file."
+msgstr "Файл рұқсаттары."
+
+#: libnemo-private/nemo-column-utilities.c:135
+msgid "Octal Permissions"
+msgstr "Сегіздік түрде рұқсаттар"
+
+#: libnemo-private/nemo-column-utilities.c:136
+msgid "The permissions of the file, in octal notation."
+msgstr "Файл рұқсаттары, сегіздік түрде."
+
+#: libnemo-private/nemo-column-utilities.c:143
+msgid "MIME Type"
+msgstr "MIME түрі"
+
+#: libnemo-private/nemo-column-utilities.c:144
+msgid "The mime type of the file."
+msgstr "Файлдың mime түрі."
+
+#: libnemo-private/nemo-column-utilities.c:151
+msgid "SELinux Context"
+msgstr "SELinux контексті"
+
+#: libnemo-private/nemo-column-utilities.c:152
+msgid "The SELinux security context of the file."
+msgstr "Файлдың SELinux қауіпсіздік контексті."
+
+#: libnemo-private/nemo-column-utilities.c:160
+msgid "The location of the file."
+msgstr "Файл орналасуы."
+
+#: libnemo-private/nemo-column-utilities.c:203
+msgid "Trashed On"
+msgstr "Жойылған"
+
+#: libnemo-private/nemo-column-utilities.c:204
+msgid "Date when file was moved to the Trash"
+msgstr "Файл Себетке тасталған күні"
+
+#: libnemo-private/nemo-column-utilities.c:210
+msgid "Original Location"
+msgstr "Бастапқы орналасуы"
+
+#: libnemo-private/nemo-column-utilities.c:211
+msgid "Original location of file before moved to the Trash"
+msgstr "Файл Себетке тасталғанға дейін орналасқан жері"
+
+#: libnemo-private/nemo-column-utilities.c:235
+msgid "Hits"
+msgstr ""
+
+#: libnemo-private/nemo-column-utilities.c:236
+msgid "How many times the search string appeared in the file"
+msgstr ""
+
+#: libnemo-private/nemo-desktop-directory-file.c:459
+#: libnemo-private/nemo-desktop-icon-file.c:154
+msgid "on the desktop"
+msgstr "жұмыс үстелінде"
+
+#: libnemo-private/nemo-desktop-link-monitor.c:89
+#, c-format
+msgid "You cannot move the volume \"%s\" to the trash."
+msgstr "Сіз \"%s\" томын себетке тастай алмайсыз."
+
+#: libnemo-private/nemo-desktop-link-monitor.c:99
+msgid ""
+"If you want to eject the volume, please use \"Eject\" in the popup menu of "
+"the volume."
+msgstr ""
+
+#: libnemo-private/nemo-desktop-link-monitor.c:108
+msgid ""
+"If you want to unmount the volume, please use \"Unmount Volume\" in the "
+"popup menu of the volume."
+msgstr ""
+
+#: libnemo-private/nemo-dnd.c:869
+msgid "_Move Here"
+msgstr "О_сында жылжыту"
+
+#: libnemo-private/nemo-dnd.c:874
+msgid "_Copy Here"
+msgstr "_Осында көшіру"
+
+#: libnemo-private/nemo-dnd.c:879
+msgid "_Link Here"
+msgstr "Ос_ында сілтеме жасау"
+
+#: libnemo-private/nemo-dnd.c:886
+msgid "Cancel"
+msgstr "Болдырмау"
+
+#: libnemo-private/nemo-file.c:1253 libnemo-private/nemo-vfs-file.c:418
+msgid "This file cannot be mounted"
+msgstr "Файлды тіркеу мүмкін емес"
+
+#: libnemo-private/nemo-file.c:1298
+msgid "This file cannot be unmounted"
+msgstr "Файлды тіркеуден босату мүмкін емес"
+
+#: libnemo-private/nemo-file.c:1332
+msgid "This file cannot be ejected"
+msgstr "Бұл файлды шығару мүмкін емес"
+
+#: libnemo-private/nemo-file.c:1365 libnemo-private/nemo-vfs-file.c:596
+msgid "This file cannot be started"
+msgstr "Бұл файлды іске қосу мүмкін емес"
+
+#: libnemo-private/nemo-file.c:1417 libnemo-private/nemo-file.c:1448
+msgid "This file cannot be stopped"
+msgstr "Бұл файлды тоқтату мүмкін емес"
+
+#: libnemo-private/nemo-file.c:1897
+msgid "Slashes are not allowed in filenames"
+msgstr "Файл атауларында көлбеу сызықты қолдануға болмайды"
+
+#: libnemo-private/nemo-file.c:1915
+msgid "File not found"
+msgstr "Файл табылмады"
+
+#: libnemo-private/nemo-file.c:1943
+msgid "Toplevel files cannot be renamed"
+msgstr "Жоғары деңгейлі файлдардың атауларын өзгерту мүмкін емес"
+
+#: libnemo-private/nemo-file.c:1966
+msgid "Unable to rename desktop icon"
+msgstr "Жұмыс үстел таңбашасының атауын өзгерту мүмкін емес"
+
+#: libnemo-private/nemo-file.c:1995
+msgid "Unable to rename desktop file"
+msgstr "Жұмыс үстел файлы атауын өзгерту мүмкін емес"
+
+#. Translators: Time in 24h format
+#: libnemo-private/nemo-file.c:5150
+msgid "%H:%M"
+msgstr ""
+
+#. Translators: Time in 12h format
+#: libnemo-private/nemo-file.c:5153
+msgid "%l:%M %p"
+msgstr ""
+
+#. Translators: this is the word Yesterday followed by
+#. * a time in 24h format. i.e. "Yesterday 23:04"
+#: libnemo-private/nemo-file.c:5166
+#, no-c-format
+msgid "Yesterday %H:%M"
+msgstr ""
+
+#. Translators: this is the word Yesterday followed by
+#. * a time in 12h format. i.e. "Yesterday 9:04 PM"
+#: libnemo-private/nemo-file.c:5171
+#, no-c-format
+msgid "Yesterday %l:%M %p"
+msgstr ""
+
+#: libnemo-private/nemo-file.c:5179
+#, no-c-format
+msgid "%A"
+msgstr ""
+
+#. Translators: this is the name of the week day followed by
+#. * a time in 24h format. i.e. "Monday 23:04"
+#: libnemo-private/nemo-file.c:5185
+#, no-c-format
+msgid "%A %H:%M"
+msgstr ""
+
+#. Translators: this is the week day name followed by
+#. * a time in 12h format. i.e. "Monday 9:04 PM"
+#: libnemo-private/nemo-file.c:5190
+#, no-c-format
+msgid "%A %l:%M %p"
+msgstr ""
+
+#. Translators: this is the day of the month followed
+#. * by the abbreviated month name i.e. "3 February"
+#: libnemo-private/nemo-file.c:5198
+#, no-c-format
+msgid "%-e %B"
+msgstr ""
+
+#. Translators: this is the day of the month followed
+#. * by the abbreviated month name followed by a time in
+#. * 24h format i.e. "3 February 23:04"
+#: libnemo-private/nemo-file.c:5205
+#, no-c-format
+msgid "%-e %B %H:%M"
+msgstr ""
+
+#. Translators: this is the day of the month followed
+#. * by the abbreviated month name followed by a time in
+#. * 12h format i.e. "3 February 9:04"
+#: libnemo-private/nemo-file.c:5211
+#, no-c-format
+msgid "%-e %B %l:%M %p"
+msgstr ""
+
+#. Translators: this is the day of the month followed by the abbreviated
+#. * month name followed by the year i.e. "3 Feb 2015"
+#: libnemo-private/nemo-file.c:5219
+#, no-c-format
+msgid "%-e %b %Y"
+msgstr ""
+
+#. Translators: this is the day number followed
+#. * by the abbreviated month name followed by the year followed
+#. * by a time in 24h format i.e. "3 Feb 2015 23:04"
+#: libnemo-private/nemo-file.c:5226
+#, no-c-format
+msgid "%-e %b %Y %H:%M"
+msgstr ""
+
+#. Translators: this is the day number followed
+#. * by the abbreviated month name followed by the year followed
+#. * by a time in 12h format i.e. "3 Feb 2015 9:04 PM"
+#: libnemo-private/nemo-file.c:5232
+#, no-c-format
+msgid "%-e %b %Y %l:%M %p"
+msgstr ""
+
+#: libnemo-private/nemo-file.c:5242
+#, no-c-format
+msgid "%c"
+msgstr ""
+
+#: libnemo-private/nemo-file.c:5690
+msgid "Not allowed to set permissions"
+msgstr "Рұқсаттарды орнату рұқсат етілмеген"
+
+#: libnemo-private/nemo-file.c:5985
+msgid "Not allowed to set owner"
+msgstr "Иесін орнату рұқсат етілмеген"
+
+#: libnemo-private/nemo-file.c:6003
+#, c-format
+msgid "Specified owner '%s' doesn't exist"
+msgstr "Көрсетілген '%s' иесі жоқ болып тұр"
+
+#: libnemo-private/nemo-file.c:6267
+msgid "Not allowed to set group"
+msgstr "Топты орнату рұқсат етілмеген"
+
+#: libnemo-private/nemo-file.c:6285
+#, c-format
+msgid "Specified group '%s' doesn't exist"
+msgstr "Көрсетілген '%s' бумасы жоқ болып тұр"
+
+#: libnemo-private/nemo-file.c:6443
+#, c-format
+msgid "%'u folder"
+msgid_plural "%'u folders"
+msgstr[0] ""
+msgstr[1] ""
+
+#: libnemo-private/nemo-file.c:6444
+#, c-format
+msgid "%'u file"
+msgid_plural "%'u files"
+msgstr[0] ""
+msgstr[1] ""
+
+#. This means no contents at all were readable
+#: libnemo-private/nemo-file.c:6887 libnemo-private/nemo-file.c:6903
+msgid "? items"
+msgstr "? нәрсе"
+
+#. This means no contents at all were readable
+#: libnemo-private/nemo-file.c:6893
+msgid "? bytes"
+msgstr "? байт"
+
+#: libnemo-private/nemo-file.c:6910
+msgid "Unknown"
+msgstr "Белгісіз"
+
+#: libnemo-private/nemo-file.c:6963 libnemo-private/nemo-file.c:6971
+#: libnemo-private/nemo-file.c:7019
+msgid "Program"
+msgstr "Бағдарлама"
+
+#: libnemo-private/nemo-file.c:6964
+msgid "Audio"
+msgstr "Аудио"
+
+#: libnemo-private/nemo-file.c:6965
+msgid "Font"
+msgstr "Қаріп"
+
+#: libnemo-private/nemo-file.c:6967
+msgid "Archive"
+msgstr "Мұрағат"
+
+#: libnemo-private/nemo-file.c:6968
+msgid "Markup"
+msgstr "Белгілеу"
+
+#: libnemo-private/nemo-file.c:6969 libnemo-private/nemo-file.c:6970
+#: eel/eel-editable-label.c:319
+msgid "Text"
+msgstr "Мәтін"
+
+#: libnemo-private/nemo-file.c:6972
+msgid "Video"
+msgstr "Бейнежазба"
+
+#: libnemo-private/nemo-file.c:6973
+msgid "Contacts"
+msgstr "Контакттар"
+
+#: libnemo-private/nemo-file.c:6974
+msgid "Calendar"
+msgstr "Күнтізбе"
+
+#: libnemo-private/nemo-file.c:6975
+msgid "Document"
+msgstr "Құжат"
+
+#: libnemo-private/nemo-file.c:6976
+msgid "Presentation"
+msgstr "Презентация"
+
+#: libnemo-private/nemo-file.c:6977
+msgid "Spreadsheet"
+msgstr "Электрондық кесте"
+
+#: libnemo-private/nemo-file.c:7021
+#: gresources/nemo-file-management-properties.glade:150
+msgid "Binary"
+msgstr "Екілік"
+
+#: libnemo-private/nemo-file.c:7025
+msgid "Folder"
+msgstr "Бума"
+
+#: libnemo-private/nemo-file.c:7060
+msgid "link"
+msgstr "сілтеме"
+
+#: libnemo-private/nemo-file.c:7082 libnemo-private/nemo-file.c:7096
+msgid "link (broken)"
+msgstr "сілтеме (сынық)"
+
+#: libnemo-private/nemo-file.c:8064
+#, c-format
+msgid "Name: %s"
+msgstr "Аты: %s"
+
+#: libnemo-private/nemo-file.c:8071
+#, c-format
+msgid "Type: %s"
+msgstr ""
+
+#: libnemo-private/nemo-file.c:8081
+#, c-format
+msgid "%s item"
+msgid_plural "%s items"
+msgstr[0] "%s нәрсе"
+msgstr[1] "%s нәрселер"
+
+#: libnemo-private/nemo-file.c:8083
+#, c-format
+msgid "Contains: %s"
+msgstr ""
+
+#: libnemo-private/nemo-file.c:8093
+#, c-format
+msgid "Size: %s"
+msgstr "Өлшемі: %s"
+
+#: libnemo-private/nemo-file.c:8101
+#, c-format
+msgid "Accessed: %s"
+msgstr ""
+
+#: libnemo-private/nemo-file.c:8109
+#, c-format
+msgid "Modified: %s"
+msgstr ""
+
+#: libnemo-private/nemo-file.c:8117
+#, c-format
+msgid "Created: %s"
+msgstr ""
+
+#: libnemo-private/nemo-file.c:8127
+#, c-format
+msgid "Location: %s"
+msgstr "Орналасуы: %s"
+
+#: libnemo-private/nemo-file-conflict-dialog.c:145
+#, c-format
+msgid "Merge folder \"%s\"?"
+msgstr ""
+
+#: libnemo-private/nemo-file-conflict-dialog.c:149
+msgid ""
+"Merging will ask for confirmation before replacing any files in the folder "
+"that conflict with the files being copied."
+msgstr ""
+"Біріктіру нәтижесінде көшірілетін файлдармен ерегісетін бумадағы кез-келген "
+"файлды алмастыру алдында растауды сұрайтын болады."
+
+#: libnemo-private/nemo-file-conflict-dialog.c:154
+#, c-format
+msgid "An older folder with the same name already exists in \"%s\"."
+msgstr ""
+
+#: libnemo-private/nemo-file-conflict-dialog.c:158
+#, c-format
+msgid "A newer folder with the same name already exists in \"%s\"."
+msgstr ""
+
+#: libnemo-private/nemo-file-conflict-dialog.c:162
+#, c-format
+msgid "Another folder with the same name already exists in \"%s\"."
+msgstr ""
+
+#: libnemo-private/nemo-file-conflict-dialog.c:167
+msgid "Replacing it will remove all files in the folder."
+msgstr "Оны алмастыру нәтижесінде ішіндегі барлық файлдар өшіріледі."
+
+#: libnemo-private/nemo-file-conflict-dialog.c:169
+#, c-format
+msgid "Replace folder \"%s\"?"
+msgstr ""
+
+#: libnemo-private/nemo-file-conflict-dialog.c:171
+#, c-format
+msgid "A folder with the same name already exists in \"%s\"."
+msgstr ""
+
+#: libnemo-private/nemo-file-conflict-dialog.c:176
+#, c-format
+msgid "Replace file \"%s\"?"
+msgstr "\"%s\" файлын алмастыру керек пе?"
+
+#: libnemo-private/nemo-file-conflict-dialog.c:178
+msgid "Replacing it will overwrite its content."
+msgstr "Оны алмастыру нәтижесінде барлық құрамасы үстінен жазылады."
+
+#: libnemo-private/nemo-file-conflict-dialog.c:182
+#, c-format
+msgid "An older file with the same name already exists in \"%s\"."
+msgstr ""
+
+#: libnemo-private/nemo-file-conflict-dialog.c:186
+#, c-format
+msgid "A newer file with the same name already exists in \"%s\"."
+msgstr ""
+
+#: libnemo-private/nemo-file-conflict-dialog.c:190
+#, c-format
+msgid "Another file with the same name already exists in \"%s\"."
+msgstr "\"%s\" ішінде аттас файл бар болып тұр."
+
+#: libnemo-private/nemo-file-conflict-dialog.c:268
+msgid "Original file"
+msgstr "Бастапқы файл"
+
+#: libnemo-private/nemo-file-conflict-dialog.c:275
+#: libnemo-private/nemo-file-conflict-dialog.c:307
+msgid "Last modified:"
+msgstr "Соңғы өзгертілген:"
+
+#: libnemo-private/nemo-file-conflict-dialog.c:300
+msgid "Replace with"
+msgstr "Ауыстырмасы"
+
+#: libnemo-private/nemo-file-conflict-dialog.c:329
+msgid "Merge"
+msgstr "Біріктіру"
+
+#. Setup the expander for the rename action
+#: libnemo-private/nemo-file-conflict-dialog.c:522
+msgid "_Select a new name for the destination"
+msgstr "_Мақсат файлы үшін жаңа атын көрсетіңіз"
+
+#: libnemo-private/nemo-file-conflict-dialog.c:536
+msgid "Reset"
+msgstr "Тастау"
+
+#. Setup the checkbox to apply the action to all files
+#: libnemo-private/nemo-file-conflict-dialog.c:548
+msgid "Apply this action to all files"
+msgstr "Бұл әрекетті барлық файлдарға іске асыру"
+
+#: libnemo-private/nemo-file-conflict-dialog.c:559
+#: libnemo-private/nemo-file-operations.c:198
+msgid "_Skip"
+msgstr "А_ттап кету"
+
+#: libnemo-private/nemo-file-conflict-dialog.c:570
+msgid "Re_name"
+msgstr "Аты_н ауыстыру"
+
+#: libnemo-private/nemo-file-conflict-dialog.c:576
+msgid "Replace"
+msgstr "Алмастыру"
+
+#: libnemo-private/nemo-file-conflict-dialog.c:648
+msgid "File conflict"
+msgstr "Файлдар бәсекелесі"
+
+#: libnemo-private/nemo-file-operations.c:199
+msgid "S_kip All"
+msgstr "Бар_лығын аттап кету"
+
+#: libnemo-private/nemo-file-operations.c:200
+msgid "_Retry"
+msgstr "Қа_йталау"
+
+#: libnemo-private/nemo-file-operations.c:201
+msgid "Delete _All"
+msgstr "Барлығын ө_шіру"
+
+#: libnemo-private/nemo-file-operations.c:202
+msgid "_Replace"
+msgstr "А_лмастыру"
+
+#: libnemo-private/nemo-file-operations.c:203
+msgid "Replace _All"
+msgstr "Барл_ығын алмастыру"
+
+#: libnemo-private/nemo-file-operations.c:204
+msgid "_Merge"
+msgstr "Бірі_ктіру"
+
+#: libnemo-private/nemo-file-operations.c:205
+msgid "Merge _All"
+msgstr "Б_арлығын біріктіру"
+
+#: libnemo-private/nemo-file-operations.c:206
+msgid "Copy _Anyway"
+msgstr "Со_нда да көшіру"
+
+#: libnemo-private/nemo-file-operations.c:297
+#, c-format
+msgid "%'d second"
+msgid_plural "%'d seconds"
+msgstr[0] "%'d секунд"
+msgstr[1] "%'d секунд"
+
+#: libnemo-private/nemo-file-operations.c:302
+#: libnemo-private/nemo-file-operations.c:313
+#, c-format
+msgid "%'d minute"
+msgid_plural "%'d minutes"
+msgstr[0] "%'d минут"
+msgstr[1] "%'d минуттар"
+
+#: libnemo-private/nemo-file-operations.c:312
+#, c-format
+msgid "%'d hour"
+msgid_plural "%'d hours"
+msgstr[0] "%'d сағат"
+msgstr[1] "%'d сағаттар"
+
+#: libnemo-private/nemo-file-operations.c:320
+#, c-format
+msgid "approximately %'d hour"
+msgid_plural "approximately %'d hours"
+msgstr[0] "шамамен %'d сағат"
+msgstr[1] "шамамен %'d сағаттар"
+
+#. appended to new link file
+#: libnemo-private/nemo-file-operations.c:400
+#, c-format
+msgid "Another link to %s"
+msgstr "%s үшін басқа сілтеме"
+
+#. Localizers: Feel free to leave out the "st" suffix
+#. * if there's no way to do that nicely for a
+#. * particular language.
+#. 
+#: libnemo-private/nemo-file-operations.c:416
+#, c-format
+msgid "%'dst link to %s"
+msgstr "%'d сілтеме %s үшін"
+
+#. appended to new link file
+#: libnemo-private/nemo-file-operations.c:420
+#, c-format
+msgid "%'dnd link to %s"
+msgstr "%'d сілтеме %s үшін"
+
+#. appended to new link file
+#: libnemo-private/nemo-file-operations.c:424
+#, c-format
+msgid "%'drd link to %s"
+msgstr "%'d сілтеме %s үшін"
+
+#. appended to new link file
+#: libnemo-private/nemo-file-operations.c:428
+#, c-format
+msgid "%'dth link to %s"
+msgstr "%'d сілтеме %s үшін"
+
+#. Localizers:
+#. * Feel free to leave out the st, nd, rd and th suffix or
+#. * make some or all of them match.
+#. 
+#. localizers: tag used to detect the first copy of a file
+#: libnemo-private/nemo-file-operations.c:467
+msgid " (copy)"
+msgstr " (көшірме)"
+
+#. localizers: tag used to detect the second copy of a file
+#: libnemo-private/nemo-file-operations.c:469
+msgid " (another copy)"
+msgstr " (басқа көшірме)"
+
+#. localizers: tag used to detect the x11th copy of a file
+#. localizers: tag used to detect the x12th copy of a file
+#. localizers: tag used to detect the x13th copy of a file
+#. localizers: tag used to detect the xxth copy of a file
+#: libnemo-private/nemo-file-operations.c:472
+#: libnemo-private/nemo-file-operations.c:474
+#: libnemo-private/nemo-file-operations.c:476
+#: libnemo-private/nemo-file-operations.c:486
+msgid "th copy)"
+msgstr "көшірме)"
+
+#. localizers: tag used to detect the x1st copy of a file
+#: libnemo-private/nemo-file-operations.c:479
+msgid "st copy)"
+msgstr "көшірме)"
+
+#. localizers: tag used to detect the x2nd copy of a file
+#: libnemo-private/nemo-file-operations.c:481
+msgid "nd copy)"
+msgstr "көшірме)"
+
+#. localizers: tag used to detect the x3rd copy of a file
+#: libnemo-private/nemo-file-operations.c:483
+msgid "rd copy)"
+msgstr "көшірме)"
+
+#. localizers: appended to first file copy
+#: libnemo-private/nemo-file-operations.c:500
+#, c-format
+msgid "%s (copy)%s"
+msgstr "%s (көшірме)%s"
+
+#. localizers: appended to second file copy
+#: libnemo-private/nemo-file-operations.c:502
+#, c-format
+msgid "%s (another copy)%s"
+msgstr "%s (басқа көшірме)%s"
+
+#. localizers: appended to x11th file copy
+#. localizers: appended to x12th file copy
+#. localizers: appended to x13th file copy
+#. localizers: appended to xxth file copy
+#: libnemo-private/nemo-file-operations.c:505
+#: libnemo-private/nemo-file-operations.c:507
+#: libnemo-private/nemo-file-operations.c:509
+#: libnemo-private/nemo-file-operations.c:523
+#, c-format
+msgid "%s (%'dth copy)%s"
+msgstr "%s (нөмірі %'d көшірме)%s"
+
+#. localizers: if in your language there's no difference between 1st, 2nd, 3rd and nth
+#. * plurals, you can leave the st, nd, rd suffixes out and just make all the translated
+#. * strings look like "%s (copy %'d)%s".
+#. 
+#. localizers: appended to x1st file copy
+#: libnemo-private/nemo-file-operations.c:517
+#, c-format
+msgid "%s (%'dst copy)%s"
+msgstr "%s (нөмірі %'d көшірме)%s"
+
+#. localizers: appended to x2nd file copy
+#: libnemo-private/nemo-file-operations.c:519
+#, c-format
+msgid "%s (%'dnd copy)%s"
+msgstr "%s (нөмірі %'d көшірме)%s"
+
+#. localizers: appended to x3rd file copy
+#: libnemo-private/nemo-file-operations.c:521
+#, c-format
+msgid "%s (%'drd copy)%s"
+msgstr "%s (нөмірі %'d көшірме)%s"
+
+#. localizers: opening parentheses to match the "th copy)" string
+#: libnemo-private/nemo-file-operations.c:622
+msgid " ("
+msgstr " ("
+
+#. localizers: opening parentheses of the "th copy)" string
+#: libnemo-private/nemo-file-operations.c:630
+#, c-format
+msgid " (%'d"
+msgstr " (%'d"
+
+#: libnemo-private/nemo-file-operations.c:1000
+#, c-format
+msgid "Error removing file: %s"
+msgstr ""
+
+#: libnemo-private/nemo-file-operations.c:1055
+#, c-format
+msgid "Waiting to copy a file from '%1$s' to '%2$s'"
+msgid_plural "Waiting to copy files from '%1$s' to '%2$s'"
+msgstr[0] ""
+msgstr[1] ""
+
+#: libnemo-private/nemo-file-operations.c:1064
+#, c-format
+msgid "Waiting to move a file from '%1$s' to '%2$s'"
+msgid_plural "Waiting to move files from '%1$s' to '%2$s'"
+msgstr[0] ""
+msgstr[1] ""
+
+#: libnemo-private/nemo-file-operations.c:1072
+#, c-format
+msgid "Waiting to permanently delete a file from '%s'"
+msgid_plural "Waiting to permanently delete files from '%s'"
+msgstr[0] "Файлдың '%s' ішінен жоюын күту"
+msgstr[1] "Файлдардың '%s' ішінен жоюын күту"
+
+#: libnemo-private/nemo-file-operations.c:1080
+#, c-format
+msgid "Waiting to trash a file in '%s'"
+msgid_plural "Waiting to trash files in '%s'"
+msgstr[0] "Файлдың '%s' себетке жоюын күту"
+msgstr[1] "Файлдардың '%s' себетке жоюын күту"
+
+#: libnemo-private/nemo-file-operations.c:1086
+msgid "Waiting to empty the trash"
+msgstr ""
+
+#: libnemo-private/nemo-file-operations.c:1092
+#, c-format
+msgid "Waiting to duplicate a file in '%s'"
+msgid_plural "Waiting to duplicate files in '%s'"
+msgstr[0] "файлдың '%s' ішіне көшірме жасауын күту"
+msgstr[1] "файлдардың '%s' ішіне көшірме жасауын күту"
+
+#: libnemo-private/nemo-file-operations.c:1100
+#, c-format
+msgid "Waiting to change permissions of files in '%s'"
+msgstr ""
+
+#: libnemo-private/nemo-file-operations.c:1106
+#, c-format
+msgid "Waiting to link a file from '%1$s' to '%2$s'"
+msgid_plural "Waiting to link files from '%1$s' to '%2$s'"
+msgstr[0] ""
+msgstr[1] ""
+
+#: libnemo-private/nemo-file-operations.c:1531
+msgid "Are you sure you want to move \"%B\" to the trash?"
+msgstr ""
+
+#. translators: the singular form here can be skipped.
+#: libnemo-private/nemo-file-operations.c:1535
+#, c-format
+msgid "unused %'d"
+msgid_plural ""
+"Are you sure you want to move the %'d selected items to the trash?"
+msgstr[0] ""
+msgstr[1] ""
+
+#: libnemo-private/nemo-file-operations.c:1544
+msgid ""
+"You can restore an item from the trash, if you later change your mind."
+msgstr ""
+
+#: libnemo-private/nemo-file-operations.c:1547
+msgid "Move to _Trash"
+msgstr ""
+
+#: libnemo-private/nemo-file-operations.c:1580
+msgid "Are you sure you want to permanently delete \"%B\" from the trash?"
+msgstr ""
+
+#: libnemo-private/nemo-file-operations.c:1583
+#, c-format
+msgid ""
+"Are you sure you want to permanently delete the %'d selected item from the "
+"trash?"
+msgid_plural ""
+"Are you sure you want to permanently delete the %'d selected items from the "
+"trash?"
+msgstr[0] "Қоқыс шелегінен %d нәрсені толығымен өшіруді шынымен қалайсыз ба?"
+msgstr[1] ""
+"Қоқыс шелегінен %d нәрселерді толығымен өшіруді шынымен қалайсыз ба?"
+
+#: libnemo-private/nemo-file-operations.c:1593
+#: libnemo-private/nemo-file-operations.c:1659
+msgid "If you delete an item, it will be permanently lost."
+msgstr "Нәрсені өшірсеңіз, ол толығымен жоғалады."
+
+#: libnemo-private/nemo-file-operations.c:1613
+msgid "Empty all items from Trash?"
+msgstr "Себеттен барлық нәрсені өшіру керек пе?"
+
+#: libnemo-private/nemo-file-operations.c:1617
+msgid "All items in the Trash will be permanently deleted."
+msgstr "Себеттен барлық нәрселер толығымен өшіріледі."
+
+#: libnemo-private/nemo-file-operations.c:1647
+msgid "Are you sure you want to permanently delete \"%B\"?"
+msgstr ""
+
+#: libnemo-private/nemo-file-operations.c:1650
+#, c-format
+msgid "Are you sure you want to permanently delete the %'d selected item?"
+msgid_plural ""
+"Are you sure you want to permanently delete the %'d selected items?"
+msgstr[0] ""
+msgstr[1] ""
+
+#: libnemo-private/nemo-file-operations.c:1693
+#, c-format
+msgid "%'d file left to delete"
+msgid_plural "%'d files left to delete"
+msgstr[0] ""
+msgstr[1] ""
+
+#: libnemo-private/nemo-file-operations.c:1699
+msgid "Deleting files"
+msgstr "Файлдарды өшіру"
+
+#. To translators: %T will expand to a time like "2 minutes".
+#. * The singular/plural form will be used depending on the remaining time (i.e. the %T argument).
+#. 
+#: libnemo-private/nemo-file-operations.c:1713
+msgid "%T left"
+msgid_plural "%T left"
+msgstr[0] ""
+msgstr[1] ""
+
+#: libnemo-private/nemo-file-operations.c:1780
+#: libnemo-private/nemo-file-operations.c:1814
+#: libnemo-private/nemo-file-operations.c:1853
+#: libnemo-private/nemo-file-operations.c:1947
+#: libnemo-private/nemo-file-operations.c:2824
+msgid "Error while deleting."
+msgstr "Өшіру кезіндегі қате."
+
+#: libnemo-private/nemo-file-operations.c:1784
+msgid ""
+"Files in the folder \"%B\" cannot be deleted because you do not have "
+"permissions to see them."
+msgstr ""
+
+#: libnemo-private/nemo-file-operations.c:1787
+#: libnemo-private/nemo-file-operations.c:2884
+#: libnemo-private/nemo-file-operations.c:3892
+msgid ""
+"There was an error getting information about the files in the folder \"%B\"."
+msgstr ""
+
+#: libnemo-private/nemo-file-operations.c:1796
+#: libnemo-private/nemo-file-operations.c:3901
+msgid "_Skip files"
+msgstr "Файлдарды аттап _кету"
+
+#: libnemo-private/nemo-file-operations.c:1817
+msgid ""
+"The folder \"%B\" cannot be deleted because you do not have permissions to "
+"read it."
+msgstr ""
+
+#: libnemo-private/nemo-file-operations.c:1820
+#: libnemo-private/nemo-file-operations.c:2923
+#: libnemo-private/nemo-file-operations.c:3937
+msgid "There was an error reading the folder \"%B\"."
+msgstr ""
+
+#: libnemo-private/nemo-file-operations.c:1854
+msgid "Could not remove the folder %B."
+msgstr "%B бумасын өшіру мүмкін емес."
+
+#: libnemo-private/nemo-file-operations.c:1948
+msgid "There was an error deleting %B."
+msgstr "%B өшіру кезінде қате орын алды."
+
+#: libnemo-private/nemo-file-operations.c:2028
+msgid "Moving files to trash"
+msgstr "Файлдарды себетке тастау"
+
+#: libnemo-private/nemo-file-operations.c:2030
+#, c-format
+msgid "%'d file left to trash"
+msgid_plural "%'d files left to trash"
+msgstr[0] "Себетке тастау үшін %d файл қалды"
+msgstr[1] "Себетке тастау үшін %d файл қалды"
+
+#: libnemo-private/nemo-file-operations.c:2081
+msgid "Cannot move file to trash, do you want to delete immediately?"
+msgstr ""
+
+#: libnemo-private/nemo-file-operations.c:2082
+msgid "The file \"%B\" cannot be moved to the trash."
+msgstr ""
+
+#: libnemo-private/nemo-file-operations.c:2301
+msgid "Trashing Files"
+msgstr "Файлдарды Себетке тастау"
+
+#: libnemo-private/nemo-file-operations.c:2303
+msgid "Deleting Files"
+msgstr "Файлдарды өшіру"
+
+#: libnemo-private/nemo-file-operations.c:2386
+msgid "Unable to eject %V"
+msgstr "%V шығару мүмкін емес"
+
+#: libnemo-private/nemo-file-operations.c:2388
+msgid "Unable to unmount %V"
+msgstr "%V тіркеуден босату мүмкін емес"
+
+#: libnemo-private/nemo-file-operations.c:2545
+msgid "Do you want to empty the trash before you unmount?"
+msgstr "Тіркеуден босату алдында себетті тазартуды қалайсыз ба?"
+
+#: libnemo-private/nemo-file-operations.c:2547
+msgid ""
+"In order to regain the free space on this volume the trash must be emptied. "
+"All trashed items on the volume will be permanently lost."
+msgstr ""
+"Бұл томдағы бос орынды алып қалу үшін себетті тазарту керек. Томның "
+"себеттегі барлық нәрселер қайтарылмайтындай жоғалады."
+
+#: libnemo-private/nemo-file-operations.c:2553
+msgid "Do _not Empty Trash"
+msgstr "Себетті та_зартпау"
+
+#: libnemo-private/nemo-file-operations.c:2683
+#, c-format
+msgid "Unable to mount %s"
+msgstr "%s тіркеу мүмкін емес"
+
+#: libnemo-private/nemo-file-operations.c:2765
+#, c-format
+msgid "Preparing to copy %'d file (%S)"
+msgid_plural "Preparing to copy %'d files (%S)"
+msgstr[0] "%'d файлды көшіруге дайындау (%S)"
+msgstr[1] "%'d файлдарды көшіруге дайындау (%S)"
+
+#: libnemo-private/nemo-file-operations.c:2771
+#, c-format
+msgid "Preparing to move %'d file (%S)"
+msgid_plural "Preparing to move %'d files (%S)"
+msgstr[0] "%'d файлды жылжытуға дайындау (%S)"
+msgstr[1] "%'d файлдарды жылжытуға дайындау (%S)"
+
+#: libnemo-private/nemo-file-operations.c:2777
+#, c-format
+msgid "Preparing to delete %'d file (%S)"
+msgid_plural "Preparing to delete %'d files (%S)"
+msgstr[0] "%'d файлды өшіруге дайындау (%S)"
+msgstr[1] "%'d файлдарды өшіруге дайындау (%S)"
+
+#: libnemo-private/nemo-file-operations.c:2784
+#, c-format
+msgid "Preparing to trash %'d file"
+msgid_plural "Preparing to trash %'d files"
+msgstr[0] "%d файлды себетке тастауға дайындау"
+msgstr[1] "%d файлдарды себетке тастауға дайындау"
+
+#: libnemo-private/nemo-file-operations.c:2820
+#: libnemo-private/nemo-file-operations.c:3752
+#: libnemo-private/nemo-file-operations.c:3884
+#: libnemo-private/nemo-file-operations.c:3929
+msgid "Error while copying."
+msgstr "Көшіру кезінде қате орын алды."
+
+#: libnemo-private/nemo-file-operations.c:2822
+#: libnemo-private/nemo-file-operations.c:3882
+#: libnemo-private/nemo-file-operations.c:3927
+msgid "Error while moving."
+msgstr "Жылжыту кезінде қате орын алды."
+
+#: libnemo-private/nemo-file-operations.c:2827
+msgid "Error while moving files to trash."
+msgstr "Себетке тастау кезінде қате орын алды."
+
+#: libnemo-private/nemo-file-operations.c:2881
+msgid ""
+"Files in the folder \"%B\" cannot be handled because you do not have "
+"permissions to see them."
+msgstr ""
+
+#: libnemo-private/nemo-file-operations.c:2920
+msgid ""
+"The folder \"%B\" cannot be handled because you do not have permissions to "
+"read it."
+msgstr ""
+
+#: libnemo-private/nemo-file-operations.c:3000
+msgid ""
+"The file \"%B\" cannot be handled because you do not have permissions to "
+"read it."
+msgstr ""
+
+#: libnemo-private/nemo-file-operations.c:3003
+msgid "There was an error getting information about \"%B\"."
+msgstr ""
+
+#: libnemo-private/nemo-file-operations.c:3104
+#: libnemo-private/nemo-file-operations.c:3146
+#: libnemo-private/nemo-file-operations.c:3180
+#: libnemo-private/nemo-file-operations.c:3210
+msgid "Error while copying to \"%B\"."
+msgstr ""
+
+#: libnemo-private/nemo-file-operations.c:3108
+msgid "You do not have permissions to access the destination folder."
+msgstr "Мақсат бумасына қатынау үшін керек рұқсаттарыңыз жоқ."
+
+#: libnemo-private/nemo-file-operations.c:3110
+msgid "There was an error getting information about the destination."
+msgstr "Мақсат орналасуы туралы ақпаратты алу кезінде қате орын алды."
+
+#: libnemo-private/nemo-file-operations.c:3147
+msgid "The destination is not a folder."
+msgstr "Мақсат орналасуы бума емес."
+
+#: libnemo-private/nemo-file-operations.c:3181
+msgid ""
+"There is not enough space on the destination. Try to remove files to make "
+"space."
+msgstr ""
+"Мақсат бумасында бос орын жеткіліксіз. Орынды босату үшін файлдарды өшіріп "
+"көріңіз."
+
+#: libnemo-private/nemo-file-operations.c:3183
+#, c-format
+msgid "%S more space is required to copy to the destination."
+msgstr "Көшірудің аяқталуына %S бос орын қажет етеді."
+
+#: libnemo-private/nemo-file-operations.c:3211
+msgid "The destination is read-only."
+msgstr "Мақсат орны тек оқу үшін қолжетерлік."
+
+#: libnemo-private/nemo-file-operations.c:3270
+msgid "Moving \"%B\" to \"%B\""
+msgstr ""
+
+#: libnemo-private/nemo-file-operations.c:3271
+msgid "Copying \"%B\" to \"%B\""
+msgstr ""
+
+#: libnemo-private/nemo-file-operations.c:3278
+msgid "Duplicating \"%B\""
+msgstr ""
+
+#: libnemo-private/nemo-file-operations.c:3286
+msgid "Moving file %'d of %'d (in \"%B\") to \"%B\""
+msgstr ""
+
+#: libnemo-private/nemo-file-operations.c:3288
+msgid "Copying file %'d of %'d (in \"%B\") to \"%B\""
+msgstr ""
+
+#: libnemo-private/nemo-file-operations.c:3295
+msgid "Duplicating file %'d of %'d (in \"%B\")"
+msgstr ""
+
+#: libnemo-private/nemo-file-operations.c:3304
+msgid "Moving file %'d of %'d to \"%B\""
+msgstr ""
+
+#: libnemo-private/nemo-file-operations.c:3306
+msgid "Copying file %'d of %'d to \"%B\""
+msgstr ""
+
+#: libnemo-private/nemo-file-operations.c:3312
+#, c-format
+msgid "Duplicating file %'d of %'d"
+msgstr "Көшірмені жасау: файл %'d, барлығы %'d"
+
+#. To translators: %S will expand to a size like "2 bytes" or "3 MB", so something like "4 kb of 4 MB"
+#: libnemo-private/nemo-file-operations.c:3331
+#, c-format
+msgid "%S of %S"
+msgstr "%S бар, барлығы %S"
+
+#. To translators: %S will expand to a size like "2 bytes" or "3 MB", %T to a time duration like
+#. * "2 minutes". So the whole thing will be something like "2 kb of 4 MB -- 2 hours left (4kb/sec)"
+#. *
+#. * The singular/plural form will be used depending on the remaining time (i.e. the %T argument).
+#. 
+#: libnemo-private/nemo-file-operations.c:3342
+msgid "%S of %S — %T left (%S/sec)"
+msgid_plural "%S of %S — %T left (%S/sec)"
+msgstr[0] "%S бар, барлығы %S — %T қалды (%S/сек)"
+msgstr[1] "%S бар, барлығы %S — %T қалды (%S/сек)"
+
+#: libnemo-private/nemo-file-operations.c:3756
+msgid ""
+"The folder \"%B\" cannot be copied because you do not have permissions to "
+"create it in the destination."
+msgstr ""
+
+#: libnemo-private/nemo-file-operations.c:3759
+msgid "There was an error creating the folder \"%B\"."
+msgstr ""
+
+#: libnemo-private/nemo-file-operations.c:3889
+msgid ""
+"Files in the folder \"%B\" cannot be copied because you do not have "
+"permissions to see them."
+msgstr ""
+
+#: libnemo-private/nemo-file-operations.c:3934
+msgid ""
+"The folder \"%B\" cannot be copied because you do not have permissions to "
+"read it."
+msgstr ""
+
+#: libnemo-private/nemo-file-operations.c:3979
+#: libnemo-private/nemo-file-operations.c:4711
+#: libnemo-private/nemo-file-operations.c:5361
+msgid "Error while moving \"%B\"."
+msgstr ""
+
+#: libnemo-private/nemo-file-operations.c:3980
+msgid "Could not remove the source folder."
+msgstr "Қайнар көз бумасын өшіру мүмкін емес."
+
+#: libnemo-private/nemo-file-operations.c:4065
+#: libnemo-private/nemo-file-operations.c:4106
+#: libnemo-private/nemo-file-operations.c:4713
+#: libnemo-private/nemo-file-operations.c:4784
+msgid "Error while copying \"%B\"."
+msgstr ""
+
+#: libnemo-private/nemo-file-operations.c:4066
+#, c-format
+msgid "Could not remove files from the already existing folder %F."
+msgstr "Бар болып тұрған %F бумасынан файлдарды өшіру мүмкін емес."
+
+#: libnemo-private/nemo-file-operations.c:4107
+#, c-format
+msgid "Could not remove the already existing file %F."
+msgstr "Бар болып тұрған %F файлын өшіру мүмкін емес."
+
+#. the run_warning() frees all strings passed in automatically
+#: libnemo-private/nemo-file-operations.c:4442
+#: libnemo-private/nemo-file-operations.c:5183
+msgid "You cannot move a folder into itself."
+msgstr "Буманы оның өзінің ішіне жылжытуға болмайды."
+
+#: libnemo-private/nemo-file-operations.c:4443
+#: libnemo-private/nemo-file-operations.c:5184
+msgid "You cannot copy a folder into itself."
+msgstr "Буманы оның өзінің ішіне көшіуге болмайды."
+
+#: libnemo-private/nemo-file-operations.c:4444
+#: libnemo-private/nemo-file-operations.c:5185
+msgid "The destination folder is inside the source folder."
+msgstr "Мақсат бумасы қайнар көз бумасының ішінде орналасқан."
+
+#. the run_warning() frees all strings passed in automatically
+#: libnemo-private/nemo-file-operations.c:4475
+msgid "You cannot move a file over itself."
+msgstr "Файлды оның өзінің үстіне жылжытуға болмайды."
+
+#: libnemo-private/nemo-file-operations.c:4476
+msgid "You cannot copy a file over itself."
+msgstr "Файлды оның өзінің үстіне көшіруге болмайды."
+
+#: libnemo-private/nemo-file-operations.c:4477
+msgid "The source file would be overwritten by the destination."
+msgstr "Қайнар көз файлы мақсат файлымен алмастырылады."
+
+#: libnemo-private/nemo-file-operations.c:4715
+#, c-format
+msgid "Could not remove the already existing file with the same name in %F."
+msgstr "%F ішінен дәл солай аталатын файлды өшіру мүмкін емес."
+
+#: libnemo-private/nemo-file-operations.c:4785
+#, c-format
+msgid "There was an error copying the file into %F."
+msgstr "Файлды %F ішіне көшіру кезінде қате орын алды."
+
+#: libnemo-private/nemo-file-operations.c:5017
+#: libnemo-private/nemo-file-operations.c:5049
+msgid "Copying Files"
+msgstr "Файлдарды көшіру"
+
+#: libnemo-private/nemo-file-operations.c:5075
+msgid "Preparing to Move to \"%B\""
+msgstr ""
+
+#: libnemo-private/nemo-file-operations.c:5079
+#, c-format
+msgid "Preparing to move %'d file"
+msgid_plural "Preparing to move %'d files"
+msgstr[0] ""
+msgstr[1] ""
+
+#: libnemo-private/nemo-file-operations.c:5362
+#, c-format
+msgid "There was an error moving the file into %F."
+msgstr "Файлды %F ішіне жылжыту кезінде қате орын алды."
+
+#: libnemo-private/nemo-file-operations.c:5625
+msgid "Moving Files"
+msgstr "Файлдарды жылжыту"
+
+#: libnemo-private/nemo-file-operations.c:5658
+msgid "Creating links in \"%B\""
+msgstr ""
+
+#: libnemo-private/nemo-file-operations.c:5662
+#, c-format
+msgid "Making link to %'d file"
+msgid_plural "Making links to %'d files"
+msgstr[0] ""
+msgstr[1] ""
+
+#: libnemo-private/nemo-file-operations.c:5800
+msgid "Error while creating link to %B."
+msgstr "%B үшін сілтеме жасау кезінде қате орын алды."
+
+#: libnemo-private/nemo-file-operations.c:5802
+msgid "Symbolic links only supported for local files"
+msgstr "Символдық сілтемелердің тек жергілікті файлдар үшін қолдауы бар"
+
+#: libnemo-private/nemo-file-operations.c:5805
+msgid "The target doesn't support symbolic links."
+msgstr "Мақсат орналасуы символдық сілтемелерді қолдамайды."
+
+#: libnemo-private/nemo-file-operations.c:5808
+#, c-format
+msgid "There was an error creating the symlink in %F."
+msgstr "%F жерінде символдық сілтемені жасау кезінде қате орын алды."
+
+#: libnemo-private/nemo-file-operations.c:6126
+msgid "Setting permissions"
+msgstr "Рұқсаттарды орнату"
+
+#. localizers: the initial name of a new folder
+#: libnemo-private/nemo-file-operations.c:6389
+msgid "Untitled Folder"
+msgstr "Атаусыз бума"
+
+#. localizers: the initial name of a new empty document
+#: libnemo-private/nemo-file-operations.c:6401
+msgid "Untitled Document"
+msgstr "Атаусыз құжат"
+
+#: libnemo-private/nemo-file-operations.c:6577
+msgid "Error while creating directory %B."
+msgstr "%B бумасын жасау кезінде қате орын алды."
+
+#: libnemo-private/nemo-file-operations.c:6579
+msgid "Error while creating file %B."
+msgstr "%B файлын жасау кезінде қате орын алды."
+
+#: libnemo-private/nemo-file-operations.c:6581
+#, c-format
+msgid "There was an error creating the directory in %F."
+msgstr "%F жерінде буманы жасау кезінде қате орын алды."
+
+#: libnemo-private/nemo-file-operations.c:6823
+#: libnemo-private/nemo-file-operations.c:6824
+#: libnemo-private/nemo-file-operations.c:6857
+msgid "Emptying Trash"
+msgstr "Себетті тазарту"
+
+#: libnemo-private/nemo-file-operations.c:6903
+#: libnemo-private/nemo-file-operations.c:6944
+#: libnemo-private/nemo-file-operations.c:6979
+#: libnemo-private/nemo-file-operations.c:7014
+msgid "Unable to mark launcher trusted (executable)"
+msgstr "Жөнелткішті сенімді (орындалатын) етіп белгілеу мүмкін емес"
+
+#: libnemo-private/nemo-file-undo-operations.c:378
+#, c-format
+msgid "Move %d item back to '%s'"
+msgid_plural "Move %d items back to '%s'"
+msgstr[0] "%d нәрсені кері '%s' жеріне жылжыту"
+msgstr[1] "%d нәрсені кері '%s' жеріне жылжыту"
+
+#: libnemo-private/nemo-file-undo-operations.c:381
+#, c-format
+msgid "Move %d item to '%s'"
+msgid_plural "Move %d items to '%s'"
+msgstr[0] "%d нәрсені '%s' ішіне жылжыту"
+msgstr[1] "%d нәрселерді '%s' ішіне жылжыту"
+
+#: libnemo-private/nemo-file-undo-operations.c:385
+#, c-format
+msgid "_Undo Move %d item"
+msgid_plural "_Undo Move %d items"
+msgstr[0] "%d нәрсені жылжытуды болд_ырмау"
+msgstr[1] "%d нәрселерді жылжытуды болд_ырмау"
+
+#: libnemo-private/nemo-file-undo-operations.c:388
+#, c-format
+msgid "_Redo Move %d item"
+msgid_plural "_Redo Move %d items"
+msgstr[0] "%d нәрсені жылжытуды қа_йталау"
+msgstr[1] "%d нәрселерді жылжытуды қа_йталау"
+
+#: libnemo-private/nemo-file-undo-operations.c:392
+#, c-format
+msgid "Move '%s' back to '%s'"
+msgstr "'%s' кері '%s' жеріне жылжыту"
+
+#: libnemo-private/nemo-file-undo-operations.c:393
+#, c-format
+msgid "Move '%s' to '%s'"
+msgstr "'%s' '%s' ішіне жылжыту"
+
+#: libnemo-private/nemo-file-undo-operations.c:395
+msgid "_Undo Move"
+msgstr "Жылжытуды бол_дырмау"
+
+#: libnemo-private/nemo-file-undo-operations.c:396
+msgid "_Redo Move"
+msgstr "Жы_лжытуды қайталау"
+
+#: libnemo-private/nemo-file-undo-operations.c:399
+msgid "_Undo Restore from Trash"
+msgstr "Себеттен қайтаруды болд_ырмау"
+
+#: libnemo-private/nemo-file-undo-operations.c:400
+msgid "_Redo Restore from Trash"
+msgstr "Себеттен қайтаруды қа_йталау"
+
+#: libnemo-private/nemo-file-undo-operations.c:403
+#, c-format
+msgid "Move %d item back to trash"
+msgid_plural "Move %d items back to trash"
+msgstr[0] "%d нәрсені себетке қайта тастау"
+msgstr[1] "%d нәрселерді себетке қайта тастау"
+
+#: libnemo-private/nemo-file-undo-operations.c:406
+#: libnemo-private/nemo-file-undo-operations.c:999
+#, c-format
+msgid "Restore %d item from trash"
+msgid_plural "Restore %d items from trash"
+msgstr[0] "%d нәрсені себеттен қайтару"
+msgstr[1] "%d нәрселерді себеттен қайтару"
+
+#: libnemo-private/nemo-file-undo-operations.c:410
+#, c-format
+msgid "Move '%s' back to trash"
+msgstr "'%s' қайта себетке жылжыту"
+
+#: libnemo-private/nemo-file-undo-operations.c:411
+#, c-format
+msgid "Restore '%s' from trash"
+msgstr "'%s' себеттен қайтару"
+
+#: libnemo-private/nemo-file-undo-operations.c:415
+#, c-format
+msgid "Delete %d copied item"
+msgid_plural "Delete %d copied items"
+msgstr[0] "%d көшірілген нәрсені өшіру"
+msgstr[1] "%d көшірілген нәрселерді өшіру"
+
+#: libnemo-private/nemo-file-undo-operations.c:418
+#, c-format
+msgid "Copy %d item to '%s'"
+msgid_plural "Copy %d items to '%s'"
+msgstr[0] "%d нәрсені '%s' ішіне көшіру"
+msgstr[1] "%d нәрселерді '%s' ішіне көшіру"
+
+#: libnemo-private/nemo-file-undo-operations.c:422
+#, c-format
+msgid "_Undo Copy %d item"
+msgid_plural "_Undo Copy %d items"
+msgstr[0] "%d нәрсені көшіруді болд_ырмау"
+msgstr[1] "%d нәрселерді көшіруді болд_ырмау"
+
+#: libnemo-private/nemo-file-undo-operations.c:425
+#, c-format
+msgid "_Redo Copy %d item"
+msgid_plural "_Redo Copy %d items"
+msgstr[0] "%d нәрсені көшіруді қа_йталау"
+msgstr[1] "%d нәрселерді көшіруді қа_йталау"
+
+#: libnemo-private/nemo-file-undo-operations.c:429
+#: libnemo-private/nemo-file-undo-operations.c:451
+#: libnemo-private/nemo-file-undo-operations.c:684
+#, c-format
+msgid "Delete '%s'"
+msgstr "'%s' өшіру"
+
+#: libnemo-private/nemo-file-undo-operations.c:430
+#, c-format
+msgid "Copy '%s' to '%s'"
+msgstr "'%s' '%s' ішіне көшіру"
+
+#: libnemo-private/nemo-file-undo-operations.c:432
+msgid "_Undo Copy"
+msgstr "Көшіруді бол_дырмау"
+
+#: libnemo-private/nemo-file-undo-operations.c:433
+msgid "_Redo Copy"
+msgstr "Көшіруді қа_йталау"
+
+#: libnemo-private/nemo-file-undo-operations.c:437
+#, c-format
+msgid "Delete %d duplicated item"
+msgid_plural "Delete %d duplicated items"
+msgstr[0] "%d көшірме жасалған нәрсені өшіру"
+msgstr[1] "%d көшірме жасалған нәрселерді өшіру"
+
+#: libnemo-private/nemo-file-undo-operations.c:440
+#, c-format
+msgid "Duplicate %d item in '%s'"
+msgid_plural "Duplicate %d items in '%s'"
+msgstr[0] "%d нәрсенің '%s' ішінде көшірмелерін жасау"
+msgstr[1] "%d нәрселердің '%s' ішінде көшірмелерін жасау"
+
+#: libnemo-private/nemo-file-undo-operations.c:444
+#, c-format
+msgid "_Undo Duplicate %d item"
+msgid_plural "_Undo Duplicate %d items"
+msgstr[0] "%d нәрсенің көшірмесін жасауды болд_ырмау"
+msgstr[1] "%d нәрселердің көшірмесін жасауды болд_ырмау"
+
+#: libnemo-private/nemo-file-undo-operations.c:447
+#, c-format
+msgid "_Redo Duplicate %d item"
+msgid_plural "_Redo Duplicate %d items"
+msgstr[0] "%d нәрсенің көшірмесін жасауды қа_йталау"
+msgstr[1] "%d нәрселердің көшірмесін жасауды қа_йталау"
+
+#: libnemo-private/nemo-file-undo-operations.c:452
+#, c-format
+msgid "Duplicate '%s' in '%s'"
+msgstr "'%s' үшін '%s' ішінде көшірмені жасау"
+
+#: libnemo-private/nemo-file-undo-operations.c:455
+msgid "_Undo Duplicate"
+msgstr "Көшірмені жасауды болд_ырмау"
+
+#: libnemo-private/nemo-file-undo-operations.c:456
+msgid "_Redo Duplicate"
+msgstr "Көшірмені жасауды қа_йталау"
+
+#: libnemo-private/nemo-file-undo-operations.c:460
+#, c-format
+msgid "Delete links to %d item"
+msgid_plural "Delete links to %d items"
+msgstr[0] "%d нәрсеге сілтеме жою"
+msgstr[1] "%d нәрселерге сілтеме жою"
+
+#: libnemo-private/nemo-file-undo-operations.c:463
+#, c-format
+msgid "Create links to %d item"
+msgid_plural "Create links to %d items"
+msgstr[0] "%d нәрсеге сілтеме жасау"
+msgstr[1] "%d нәрселерге сілтеме жасау"
+
+#: libnemo-private/nemo-file-undo-operations.c:467
+#, c-format
+msgid "Delete link to '%s'"
+msgstr "'%s' үшін сілтемені өшіру"
+
+#: libnemo-private/nemo-file-undo-operations.c:468
+#, c-format
+msgid "Create link to '%s'"
+msgstr "'%s' үшін сілтемені жасау"
+
+#: libnemo-private/nemo-file-undo-operations.c:470
+msgid "_Undo Create Link"
+msgstr "Сілтемені жасауды болд_ырмау"
+
+#: libnemo-private/nemo-file-undo-operations.c:471
+msgid "_Redo Create Link"
+msgstr "Сілтемені жасауды қа_йталау"
+
+#: libnemo-private/nemo-file-undo-operations.c:687
+#, c-format
+msgid "Create an empty file '%s'"
+msgstr "'%s' бос файлын жасау"
+
+#: libnemo-private/nemo-file-undo-operations.c:689
+msgid "_Undo Create Empty File"
+msgstr "Бос файлды жасауды болд_ырмау"
+
+#: libnemo-private/nemo-file-undo-operations.c:690
+msgid "_Redo Create Empty File"
+msgstr "Бос файлды жасауды қа_йталау"
+
+#: libnemo-private/nemo-file-undo-operations.c:692
+#, c-format
+msgid "Create a new folder '%s'"
+msgstr "Жаңа '%s' бумасын жасау"
+
+#: libnemo-private/nemo-file-undo-operations.c:694
+msgid "_Undo Create Folder"
+msgstr "Буманы жасауды б_олдырмау"
+
+#: libnemo-private/nemo-file-undo-operations.c:695
+msgid "_Redo Create Folder"
+msgstr "Буманы жасауды қа_йталау"
+
+#: libnemo-private/nemo-file-undo-operations.c:697
+#, c-format
+msgid "Create new file '%s' from template "
+msgstr "Жаңа '%s' құжатын үлгіден жасау "
+
+#: libnemo-private/nemo-file-undo-operations.c:699
+msgid "_Undo Create from Template"
+msgstr "Үлгіден жасауды болд_ырмау"
+
+#: libnemo-private/nemo-file-undo-operations.c:700
+msgid "_Redo Create from Template"
+msgstr "Үлгіден жасауды қа_йталау"
+
+#: libnemo-private/nemo-file-undo-operations.c:882
+#: libnemo-private/nemo-file-undo-operations.c:883
+#, c-format
+msgid "Rename '%s' as '%s'"
+msgstr "'%s' атауын '%s' етіп ауыстыру"
+
+#: libnemo-private/nemo-file-undo-operations.c:885
+msgid "_Undo Rename"
+msgstr "Атын ауыстыруды болд_ырмау"
+
+#: libnemo-private/nemo-file-undo-operations.c:886
+msgid "_Redo Rename"
+msgstr "Атын ауыстыруды қа_йталау"
+
+#: libnemo-private/nemo-file-undo-operations.c:1002
+#, c-format
+msgid "Move %d item to trash"
+msgid_plural "Move %d items to trash"
+msgstr[0] "%d нәрсені себетке жіберу"
+msgstr[1] "%d нәрселерді себетке жіберу"
+
+#: libnemo-private/nemo-file-undo-operations.c:1014
+#, c-format
+msgid "Restore '%s' to '%s'"
+msgstr "'%s' '%s' етіп қалпына келтіру"
+
+#: libnemo-private/nemo-file-undo-operations.c:1021
+#, c-format
+msgid "Move '%s' to trash"
+msgstr "'%s' себетке тастау"
+
+#: libnemo-private/nemo-file-undo-operations.c:1025
+msgid "_Undo Trash"
+msgstr "Себетке тастауды болд_ырмау"
+
+#: libnemo-private/nemo-file-undo-operations.c:1026
+msgid "_Redo Trash"
+msgstr "Себетке тастауды қа_йталау"
+
+#: libnemo-private/nemo-file-undo-operations.c:1318
+#, c-format
+msgid "Restore original permissions of items enclosed in '%s'"
+msgstr "'%s' ішіндегі нәрселердің бастапқы рұқсаттарын қалпына келтіру"
+
+#: libnemo-private/nemo-file-undo-operations.c:1319
+#, c-format
+msgid "Set permissions of items enclosed in '%s'"
+msgstr "'%s' ішіндегі нәрселердің рұқсаттарын орнату"
+
+#: libnemo-private/nemo-file-undo-operations.c:1321
+#: libnemo-private/nemo-file-undo-operations.c:1476
+msgid "_Undo Change Permissions"
+msgstr "Рұқсаттарды өзгертуді болд_ырмау"
+
+#: libnemo-private/nemo-file-undo-operations.c:1322
+#: libnemo-private/nemo-file-undo-operations.c:1477
+msgid "_Redo Change Permissions"
+msgstr "Рұқсаттарды өзгертуді қа_йталау"
+
+#: libnemo-private/nemo-file-undo-operations.c:1473
+#, c-format
+msgid "Restore original permissions of '%s'"
+msgstr "'%s' бастапқы рұқсаттарын қалпына келтіру"
+
+#: libnemo-private/nemo-file-undo-operations.c:1474
+#, c-format
+msgid "Set permissions of '%s'"
+msgstr "'%s' рұқсаттарын орнату"
+
+#: libnemo-private/nemo-file-undo-operations.c:1584
+#, c-format
+msgid "Restore group of '%s' to '%s'"
+msgstr "'%s' үшін топты '%s' етіп қалпына келтіру"
+
+#: libnemo-private/nemo-file-undo-operations.c:1586
+#, c-format
+msgid "Set group of '%s' to '%s'"
+msgstr "'%s' үшін топты '%s' етіп орнату"
+
+#: libnemo-private/nemo-file-undo-operations.c:1589
+msgid "_Undo Change Group"
+msgstr "Топты өзгертуді болд_ырмау"
+
+#: libnemo-private/nemo-file-undo-operations.c:1590
+msgid "_Redo Change Group"
+msgstr "Топты өзгертуді қа_йталау"
+
+#: libnemo-private/nemo-file-undo-operations.c:1592
+#, c-format
+msgid "Restore owner of '%s' to '%s'"
+msgstr "'%s' үшін иесін '%s' етіп қалпына келтіру"
+
+#: libnemo-private/nemo-file-undo-operations.c:1594
+#, c-format
+msgid "Set owner of '%s' to '%s'"
+msgstr "'%s' үшін иесін '%s' етіп орнату"
+
+#: libnemo-private/nemo-file-undo-operations.c:1597
+msgid "_Undo Change Owner"
+msgstr "Иесін өзгертуді болд_ырмау"
+
+#: libnemo-private/nemo-file-undo-operations.c:1598
+msgid "_Redo Change Owner"
+msgstr "Иесін өзгертуді қа_йталау"
+
+#: libnemo-private/nemo-file-utilities.c:1379
+#, c-format
+msgid "Could not determine original location of \"%s\" "
+msgstr ""
+
+#: libnemo-private/nemo-file-utilities.c:1383
+msgid "The item cannot be restored from trash"
+msgstr "Нәрсені себеттен қалпына келтіру мүмкін емес"
+
+#: libnemo-private/nemo-icon-container.c:1415
+msgid "The selection rectangle"
+msgstr "Таңдау төртбұрышы"
+
+#: libnemo-private/nemo-mime-application-chooser.c:113
+msgid "Could not forget association"
+msgstr "Сәйкестікті ұмыту мүмкін емес"
+
+#: libnemo-private/nemo-mime-application-chooser.c:137
+msgid "Forget association"
+msgstr "Сәйкестілікті ұмыту"
+
+#: libnemo-private/nemo-mime-application-chooser.c:277
+msgid "Valid executable."
+msgstr ""
+
+#: libnemo-private/nemo-mime-application-chooser.c:284
+msgid ""
+"Not a valid executable.  Spaces in the file path must be escaped with "
+"backslash (\\)."
+msgstr ""
+
+#. the %s here is a file extension
+#: libnemo-private/nemo-mime-application-chooser.c:419
+#: libnemo-private/nemo-mime-application-chooser.c:437
+#, c-format
+msgid "%s document"
+msgstr "%s құжаты"
+
+#: libnemo-private/nemo-mime-application-chooser.c:424
+#, c-format
+msgid "Open all files of type \"%s\" with"
+msgstr "\"%s\" түріндегі барлық файлдарды көмегімен ашу:"
+
+#: libnemo-private/nemo-mime-application-chooser.c:444
+#, c-format
+msgid ""
+"Select an application in the list to open %s and other files of type \"%s\""
+msgstr ""
+
+#: libnemo-private/nemo-mime-application-chooser.c:478
+msgid "Custom application"
+msgstr ""
+
+#: libnemo-private/nemo-mime-application-chooser.c:481
+msgid "_Cancel"
+msgstr ""
+
+#: libnemo-private/nemo-mime-application-chooser.c:498
+msgid "Executables"
+msgstr ""
+
+#: libnemo-private/nemo-mime-application-chooser.c:544
+msgid ""
+"You can also type or select a custom executable file to use to open this "
+"file type.  You can use this command just once, or set it as default for all "
+"files of this type."
+msgstr ""
+
+#: libnemo-private/nemo-mime-application-chooser.c:558
+msgid "Enter a custom command..."
+msgstr ""
+
+#: libnemo-private/nemo-mime-application-chooser.c:584
+msgid "Add to list"
+msgstr ""
+
+#: libnemo-private/nemo-mime-application-chooser.c:592
+msgid "Set as default"
+msgstr "Бастапқы ретінде орнату"
+
+#: libnemo-private/nemo-mime-application-chooser.c:601
+msgid "Reset to system defaults"
+msgstr ""
+
+#: libnemo-private/nemo-program-choosing.c:323
+msgid "Sorry, but you cannot execute commands from a remote site."
+msgstr "Кешіріңіз, қашықтағы жақтан командаларды орындай алмайсыз."
+
+#: libnemo-private/nemo-program-choosing.c:325
+msgid "This is disabled due to security considerations."
+msgstr "Бұл қауіпсіздік мақсатында сөндірілген."
+
+#: libnemo-private/nemo-program-choosing.c:336
+#: libnemo-private/nemo-program-choosing.c:397
+msgid "There was an error launching the application."
+msgstr "Қолданбаны жөнелту кезінде қате орын алды."
+
+#: libnemo-private/nemo-program-choosing.c:361
+#: libnemo-private/nemo-program-choosing.c:372
+msgid "This drop target only supports local files."
+msgstr "Бұл тастау мақсаты тек жергілікті файлдарды қолдайды."
+
+#: libnemo-private/nemo-program-choosing.c:362
+msgid ""
+"To open non-local files copy them to a local folder and then drop them again."
+msgstr ""
+"Жергілікті емес файлдарды тастау үшін, оларды жергілікті бумаға көшіріп "
+"алып, қайта апарып тастап көріңіз."
+
+#: libnemo-private/nemo-program-choosing.c:373
+msgid ""
+"To open non-local files copy them to a local folder and then drop them "
+"again. The local files you dropped have already been opened."
+msgstr ""
+"Жергілікті емес файлдарды тастау үшін, оларды жергілікті бумаға көшіріп "
+"алып, қайта апарып тастап көріңіз. Сіз тастаған жергілікті файлдар ашылды."
+
+#: libnemo-private/nemo-program-choosing.c:395
+msgid "Details: "
+msgstr "Көбірек: "
+
+#: libnemo-private/nemo-progress-info.c:205
+#: libnemo-private/nemo-progress-info.c:223
+#: libnemo-private/nemo-progress-info.c:241
+msgid "Preparing"
+msgstr "Дайындау"
+
+#: libnemo-private/nemo-query.c:197
+#, c-format
+msgid "Search in \"%s\""
+msgstr ""
+
+#: libnemo-private/nemo-undo-signal-handlers.c:173
+msgid "Edit"
+msgstr "Түзету"
+
+#: libnemo-private/nemo-undo-signal-handlers.c:174
+msgid "Undo Edit"
+msgstr "Түзетуді болдырмау"
+
+#: libnemo-private/nemo-undo-signal-handlers.c:175
+msgid "Undo the edit"
+msgstr "Түзетуді болдырмау"
+
+#: libnemo-private/nemo-undo-signal-handlers.c:176
+msgid "Redo Edit"
+msgstr "Түзетуді қайталау"
+
+#: libnemo-private/nemo-undo-signal-handlers.c:177
+msgid "Redo the edit"
+msgstr "Түзетуді қайталау"
+
+#: eel/eel-canvas.c:1255 eel/eel-canvas.c:1256
+msgid "X"
+msgstr "X"
+
+#: eel/eel-canvas.c:1262 eel/eel-canvas.c:1263
+msgid "Y"
+msgstr "Y"
+
+#: eel/eel-editable-label.c:320
+msgid "The text of the label."
+msgstr "Белгі мәтіні."
+
+#: eel/eel-editable-label.c:326
+msgid "Justification"
+msgstr "Туралауы"
+
+#: eel/eel-editable-label.c:327
+msgid ""
+"The alignment of the lines in the text of the label relative to each other. "
+"This does NOT affect the alignment of the label within its allocation. See "
+"GtkMisc::xalign for that."
+msgstr ""
+"Белгі мәтіні жолдарының өзара туралануы. Бұл баптау белгінің өз туралануына "
+"тиісПЕЙді, ол үшін GtkMisc::xalign қасиетін қолданыңыз."
+
+#: eel/eel-editable-label.c:335
+msgid "Line wrap"
+msgstr "Жолды тасымалдау"
+
+#: eel/eel-editable-label.c:336
+msgid "If set, wrap lines if the text becomes too wide."
+msgstr "Орнатылса, мәтін тым кең болған кезде жолдар тасымалданады."
+
+#: eel/eel-editable-label.c:343
+msgid "Cursor Position"
+msgstr "Курсор орны"
+
+#: eel/eel-editable-label.c:344
+msgid "The current position of the insertion cursor in chars."
+msgstr "Әріптер есебіндегі енгізу курсорының орны."
+
+#: eel/eel-editable-label.c:353
+msgid "Selection Bound"
+msgstr "Таңдау шекаралары"
+
+#: eel/eel-editable-label.c:354
+msgid ""
+"The position of the opposite end of the selection from the cursor in chars."
+msgstr ""
+"Әріптер есебіндегі таңдаудың қарама-қарсы шеттерінің курсордан орналасуы."
+
+#: eel/eel-editable-label.c:3106
+msgid "Select All"
+msgstr "Барлығын таңдау"
+
+#: eel/eel-editable-label.c:3117
+msgid "Input Methods"
+msgstr "Енгізу тәсілдері"
+
+#: eel/eel-gtk-extensions.c:328
+msgid "Show more _details"
+msgstr "_Көбірек ақпарат шығару"
+
+#: eel/eel-stock-dialogs.c:205
+msgid "You can stop this operation by clicking cancel."
+msgstr "Бұл әрекетті бас тарту батырмасына басу арқылы тоқтата аласыз."
+
+#: eel/eel-vfs-extensions.c:128
+msgid " (invalid Unicode)"
+msgstr " (қате Юникод)"
+
+#: data/nemo-actions/action_i18n_strings.py:8
+msgid "Set as Wallpaper..."
+msgstr ""
+
+#: data/nemo-actions/action_i18n_strings.py:9
+msgid "Set the selected image as your Cinnamon desktop wallpaper"
+msgstr ""
+
+#: data/nemo-actions/action_i18n_strings.py:10
+msgid "Add Desklets"
+msgstr ""
+
+#: data/nemo-actions/action_i18n_strings.py:11
+msgid "Add Cinamon desklets"
+msgstr ""
+
+#: data/nemo-actions/action_i18n_strings.py:12
+msgid "Mount archive"
+msgstr ""
+
+#: data/nemo-actions/action_i18n_strings.py:13
+#, python-format
+msgid "Mount %f to browse its contents"
+msgstr ""
+
+#: data/nemo-actions/action_i18n_strings.py:14
+msgid "Change Desktop _Background"
+msgstr "Ф_он суретін ауыстыру"
+
+#: data/nemo-actions/action_i18n_strings.py:15
+msgid "Change the Cinnamon desktop background"
+msgstr ""
+
+#: data/nemo-actions/action_i18n_strings.py:16
+msgid "Manage workspaces (Expo)"
+msgstr ""
+
+#: data/nemo-actions/action_i18n_strings.py:17
+msgid "Open Expo to add, remove, or organize workspaces"
+msgstr ""
+
+#: data/nemo-actions/action_i18n_strings.py:18
+msgid "Create a new l_auncher here..."
+msgstr ""
+
+#: data/nemo-actions/action_i18n_strings.py:19
+msgid "Create a new launcher in this folder"
+msgstr ""
+
+#: data/nemo-actions/action_i18n_strings.py:20
+msgid "Remove workspace"
+msgstr ""
+
+#: data/nemo-actions/action_i18n_strings.py:21
+msgid "Remove the currently active workspace"
+msgstr ""
+
+#: data/nemo-actions/action_i18n_strings.py:22
+msgid "Jump to new workspace"
+msgstr ""
+
+#: data/nemo-actions/action_i18n_strings.py:23
+msgid "Create a new workspace and activate it"
+msgstr ""
+
+#: generate_additional_file:33
+msgid "Files"
+msgstr ""
+
+#: generate_additional_file:33
+msgid "Access and organize files"
+msgstr ""
+
+#: gresources/nemo-bookmarks-window.glade:8
+msgid "Edit Bookmarks"
+msgstr "Бетбелгілерді түзету"
+
+#: gresources/nemo-bookmarks-window.glade:116
+msgid "<b>_Bookmarks</b>"
+msgstr "<b>_Бетбелгілер</b>"
+
+#: gresources/nemo-bookmarks-window.glade:205
+msgid "<b>_Name</b>"
+msgstr "<b>_Аты</b>"
+
+#: gresources/nemo-bookmarks-window.glade:272
+msgid "<b>_Location</b>"
+msgstr "<b>_Орналасуы</b>"
+
+#: gresources/nemo-desktop-overlay.glade:61
+msgctxt "Desktop icon size"
+msgid "Smaller"
+msgstr ""
+
+#: gresources/nemo-desktop-overlay.glade:66
+msgctxt "Desktop icon size"
+msgid "Small"
+msgstr ""
+
+#: gresources/nemo-desktop-overlay.glade:71
+msgctxt "Desktop icon size"
+msgid "Normal"
+msgstr ""
+
+#: gresources/nemo-desktop-overlay.glade:76
+msgctxt "Desktop icon size"
+msgid "Large"
+msgstr ""
+
+#: gresources/nemo-desktop-overlay.glade:81
+msgctxt "Desktop icon size"
+msgid "Larger"
+msgstr ""
+
+#: gresources/nemo-desktop-overlay.glade:95
+msgid "Vertical"
+msgstr ""
+
+#: gresources/nemo-desktop-overlay.glade:99
+msgid "Horizontal"
+msgstr ""
+
+#: gresources/nemo-desktop-overlay.glade:138
+msgid "Current Monitor Layout"
+msgstr ""
+
+#: gresources/nemo-desktop-overlay.glade:197
+msgid "Icon Size"
+msgstr ""
+
+#: gresources/nemo-desktop-overlay.glade:240
+msgid "Layout"
+msgstr ""
+
+#: gresources/nemo-desktop-overlay.glade:369
+msgid "Direction"
+msgstr ""
+
+#: gresources/nemo-desktop-overlay.glade:454
+msgid "Sort items by"
+msgstr ""
+
+#: gresources/nemo-desktop-overlay.glade:613
+msgid "Reset grid spacing"
+msgstr ""
+
+#: gresources/nemo-desktop-overlay.glade:680
+#: gresources/nemo-desktop-overlay.glade:870
+msgid "button"
+msgstr ""
+
+#: gresources/nemo-desktop-overlay.glade:746
+msgid "Adjust horizontal grid spacing"
+msgstr ""
+
+#: gresources/nemo-desktop-overlay.glade:801
+msgid "Adjust vertical grid spacing"
+msgstr ""
+
+#: gresources/nemo-desktop-overlay.glade:845
+msgid "page0"
+msgstr ""
+
+#: gresources/nemo-desktop-overlay.glade:859
+msgid ""
+"<b><big>Desktop icons are not currently enabled for this monitor.</big></b>"
+msgstr ""
+
+#: gresources/nemo-desktop-overlay.glade:887
+msgid "page1"
+msgstr ""
+
+#: gresources/nemo-desktop-preferences.glade:36
+msgid "Desktop Layout"
+msgstr ""
+
+#: gresources/nemo-desktop-preferences.glade:54
+msgid "No desktop icons"
+msgstr ""
+
+#: gresources/nemo-desktop-preferences.glade:55
+msgid "Show desktop icons on primary monitor only"
+msgstr ""
+
+#: gresources/nemo-desktop-preferences.glade:56
+msgid "Show desktop icons on non-primary monitor(s) only"
+msgstr ""
+
+#: gresources/nemo-desktop-preferences.glade:57
+msgid "Show desktop icons on all monitors"
+msgstr ""
+
+#: gresources/nemo-desktop-preferences.glade:77
+msgid "Desktop Icons"
+msgstr ""
+
+#: gresources/nemo-desktop-preferences.glade:367
+msgid "Mounted Drives"
+msgstr ""
+
+#: gresources/nemo-desktop-preferences.glade:503
+msgid "Options"
+msgstr ""
+
+#: gresources/nemo-desktop-preferences.glade:559
+msgid "Show icons from missing monitors"
+msgstr ""
+
+#: gresources/nemo-file-management-properties.glade:127
+#: gresources/nemo-file-management-properties.glade:330
+#: gresources/nemo-file-management-properties.glade:4180
+msgid "Always"
+msgstr "Әрқашан"
+
+#: gresources/nemo-file-management-properties.glade:130
+#: gresources/nemo-file-management-properties.glade:333
+#: gresources/nemo-file-management-properties.glade:350
+#: gresources/nemo-file-management-properties.glade:4183
+msgid "Local Files Only"
+msgstr "Тек жергілікті файлдар"
+
+#: gresources/nemo-file-management-properties.glade:133
+#: gresources/nemo-file-management-properties.glade:336
+#: gresources/nemo-file-management-properties.glade:4186
+msgid "Never"
+msgstr "Ешқашан"
+
+#: gresources/nemo-file-management-properties.glade:144
+msgid "Decimal"
+msgstr "Ондық"
+
+#: gresources/nemo-file-management-properties.glade:147
+msgid "Decimal (long format)"
+msgstr "Ондық (КБ, МБ)"
+
+#: gresources/nemo-file-management-properties.glade:153
+msgid "Binary (long format)"
+msgstr "Екілік (КиБ, МиБ)"
+
+#: gresources/nemo-file-management-properties.glade:164
+msgid "By Name"
+msgstr "Аты бойынша"
+
+#: gresources/nemo-file-management-properties.glade:167
+msgid "By Size"
+msgstr "Көлемі бойынша"
+
+#: gresources/nemo-file-management-properties.glade:170
+msgid "By Type"
+msgstr "Түрі бойынша"
+
+#: gresources/nemo-file-management-properties.glade:173
+msgid "By Detailed Type"
+msgstr ""
+
+#: gresources/nemo-file-management-properties.glade:176
+msgid "By Modification Date"
+msgstr "Түзету уақыты бойынша"
+
+#: gresources/nemo-file-management-properties.glade:179
+msgid "By Access Date"
+msgstr "Қатынау уақыты бойынша"
+
+#: gresources/nemo-file-management-properties.glade:182
+msgid "By Trashed Date"
+msgstr "Тасталу уақыты бойынша"
+
+#: gresources/nemo-file-management-properties.glade:193
+#: gresources/nemo-file-management-properties.glade:272
+#: gresources/nemo-file-management-properties.glade:301
+msgid "33%"
+msgstr "33%"
+
+#: gresources/nemo-file-management-properties.glade:196
+#: gresources/nemo-file-management-properties.glade:275
+#: gresources/nemo-file-management-properties.glade:304
+msgid "50%"
+msgstr "50%"
+
+#: gresources/nemo-file-management-properties.glade:199
+#: gresources/nemo-file-management-properties.glade:278
+#: gresources/nemo-file-management-properties.glade:307
+msgid "66%"
+msgstr "66%"
+
+#: gresources/nemo-file-management-properties.glade:202
+#: gresources/nemo-file-management-properties.glade:281
+#: gresources/nemo-file-management-properties.glade:310
+msgid "100%"
+msgstr "100%"
+
+#: gresources/nemo-file-management-properties.glade:205
+#: gresources/nemo-file-management-properties.glade:284
+#: gresources/nemo-file-management-properties.glade:313
+msgid "150%"
+msgstr "150%"
+
+#: gresources/nemo-file-management-properties.glade:208
+#: gresources/nemo-file-management-properties.glade:287
+#: gresources/nemo-file-management-properties.glade:316
+msgid "200%"
+msgstr "200%"
+
+#: gresources/nemo-file-management-properties.glade:211
+#: gresources/nemo-file-management-properties.glade:290
+#: gresources/nemo-file-management-properties.glade:319
+msgid "400%"
+msgstr "400%"
+
+#: gresources/nemo-file-management-properties.glade:222
+msgid "100 KB"
+msgstr "100 КБ"
+
+#: gresources/nemo-file-management-properties.glade:225
+msgid "500 KB"
+msgstr "500 КБ"
+
+#: gresources/nemo-file-management-properties.glade:228
+msgid "1 MB"
+msgstr "1 МБ"
+
+#: gresources/nemo-file-management-properties.glade:231
+msgid "3 MB"
+msgstr "3 МБ"
+
+#: gresources/nemo-file-management-properties.glade:234
+msgid "5 MB"
+msgstr "5 МБ"
+
+#: gresources/nemo-file-management-properties.glade:237
+msgid "10 MB"
+msgstr "10 МБ"
+
+#: gresources/nemo-file-management-properties.glade:240
+msgid "100 MB"
+msgstr "100 МБ"
+
+#: gresources/nemo-file-management-properties.glade:243
+msgid "1 GB"
+msgstr "1 ГБ"
+
+#: gresources/nemo-file-management-properties.glade:246
+msgid "2 GB"
+msgstr "2 ГБ"
+
+#: gresources/nemo-file-management-properties.glade:249
+msgid "4 GB"
+msgstr "4 ГБ"
+
+#: gresources/nemo-file-management-properties.glade:252
+msgid "8 GB"
+msgstr "8 ГБ"
+
+#: gresources/nemo-file-management-properties.glade:255
+msgid "16 GB"
+msgstr ""
+
+#: gresources/nemo-file-management-properties.glade:258
+msgid "32 GB"
+msgstr ""
+
+#: gresources/nemo-file-management-properties.glade:261
+msgid "64 GB"
+msgstr ""
+
+#: gresources/nemo-file-management-properties.glade:347
+msgid "Yes"
+msgstr ""
+
+#: gresources/nemo-file-management-properties.glade:353
+msgid "No"
+msgstr ""
+
+#: gresources/nemo-file-management-properties.glade:359
+msgid "File Management Preferences"
+msgstr "Файлдарды басқару баптаулары"
+
+#: gresources/nemo-file-management-properties.glade:417
+msgid "<b>Default View</b>"
+msgstr "<b>Бастапқы көрінісі</b>"
+
+#: gresources/nemo-file-management-properties.glade:447
+msgid "View _new folders using:"
+msgstr "Жаңа б_умаларды қалайша қарау:"
+
+#: gresources/nemo-file-management-properties.glade:485
+msgid "_Inherit view type from parent"
+msgstr ""
+
+#: gresources/nemo-file-management-properties.glade:508
+msgid "_Arrange items:"
+msgstr "_Құраманы реттеу:"
+
+#: gresources/nemo-file-management-properties.glade:562
+msgid "Sort _folders before files"
+msgstr "Бу_маларды файлдардың алдына қою"
+
+#: gresources/nemo-file-management-properties.glade:578
+msgid "Sort _favorites before other files"
+msgstr ""
+
+#: gresources/nemo-file-management-properties.glade:619
+msgid "<b>Icon View Defaults</b>"
+msgstr "<b>Таңбашалар көріністің бастапқы баптаулары</b>"
+
+#: gresources/nemo-file-management-properties.glade:649
+msgid "Default _zoom level:"
+msgstr "Баста_пқы масштабы:"
+
+#: gresources/nemo-file-management-properties.glade:687
+msgid "_Text beside icons"
+msgstr "Мә_тін таңбашалардың қасында"
+
+#: gresources/nemo-file-management-properties.glade:728
+msgid "<b>Compact View Defaults</b>"
+msgstr "<b>Ықшам көріністің бастапқы баптаулары</b>"
+
+#: gresources/nemo-file-management-properties.glade:758
+msgid "_Default zoom level:"
+msgstr "Бастапқы мас_штабы:"
+
+#: gresources/nemo-file-management-properties.glade:796
+msgid "A_ll columns have the same width"
+msgstr "Бар_лық бағандардың ендері бірдей"
+
+#: gresources/nemo-file-management-properties.glade:837
+msgid "<b>List View Defaults</b>"
+msgstr "<b>Тізім көріністің бастапқы баптаулары</b>"
+
+#: gresources/nemo-file-management-properties.glade:867
+msgid "D_efault zoom level:"
+msgstr "Бас_тапқы масштабы:"
+
+#: gresources/nemo-file-management-properties.glade:930
+msgid "<b>Tree View Defaults</b>"
+msgstr "<b>Ағаш көріністің баптаулары</b>"
+
+#: gresources/nemo-file-management-properties.glade:953
+msgid "Show _only folders"
+msgstr "Тек бу_маларды көрсету"
+
+#: gresources/nemo-file-management-properties.glade:990
+msgid "Views"
+msgstr "Көріністер"
+
+#: gresources/nemo-file-management-properties.glade:1018
+msgid "<b>Behavior</b>"
+msgstr "<b>Мінез-құлығы</b>"
+
+#: gresources/nemo-file-management-properties.glade:1040
+msgid "_Single click to open items"
+msgstr "Нәр_селерді ашу үшін бірлік шертуді қолдану"
+
+#: gresources/nemo-file-management-properties.glade:1057
+msgid "_Double click to open items"
+msgstr "Нәрселерді а_шу үшін қос шертуді қолдану"
+
+#: gresources/nemo-file-management-properties.glade:1075
+msgid "Click on a file's name twice to rename it"
+msgstr ""
+
+#: gresources/nemo-file-management-properties.glade:1092
+msgid "Open each _folder in its own window"
+msgstr "Әр буманы бөл_ек терезеде ашу"
+
+#: gresources/nemo-file-management-properties.glade:1109
+msgid "Always start in dual-pane view"
+msgstr ""
+
+#: gresources/nemo-file-management-properties.glade:1126
+msgid "Ignore per-folder view preferences"
+msgstr ""
+
+#: gresources/nemo-file-management-properties.glade:1143
+msgid "Disable file operation queueing"
+msgstr ""
+
+#: gresources/nemo-file-management-properties.glade:1160
+msgid "Double-click on a blank area to go to the parent folder"
+msgstr ""
+
+#: gresources/nemo-file-management-properties.glade:1202
+msgid "<b>Executable Text Files</b>"
+msgstr "<b>Орындалатын мәтіндік файлдары</b>"
+
+#: gresources/nemo-file-management-properties.glade:1225
+msgid "_Run executable text files when they are opened"
+msgstr "Орындалатын файлдар ашылған кезде оларды жө_нелту"
+
+#: gresources/nemo-file-management-properties.glade:1242
+msgid "_View executable text files when they are opened"
+msgstr "Орындалатын файлдар ашылған кезде оларды _көрсету"
+
+#: gresources/nemo-file-management-properties.glade:1259
+msgid "_Ask each time"
+msgstr "Әр р_ет сұрау"
+
+#: gresources/nemo-file-management-properties.glade:1301
+msgid "<b>Trash</b>"
+msgstr "<b>Себет</b>"
+
+#: gresources/nemo-file-management-properties.glade:1324
+msgid "Ask before moving files to the Trash"
+msgstr ""
+
+#: gresources/nemo-file-management-properties.glade:1340
+msgid "Ask before _emptying the Trash or deleting files"
+msgstr "С_ебетті тазарту не файлдарды өшіру алдында сұрау"
+
+#: gresources/nemo-file-management-properties.glade:1356
+msgid "I_nclude a Delete command that bypasses Trash"
+msgstr "Себетке апармайтын Ө_шіру командасын көрсету"
+
+#: gresources/nemo-file-management-properties.glade:1372
+msgid "Bypass the Trash when the Delete key is pressed"
+msgstr ""
+
+#: gresources/nemo-file-management-properties.glade:1412
+msgid "<b>Media Handling</b>"
+msgstr ""
+
+#: gresources/nemo-file-management-properties.glade:1435
+msgid "Automatically mount removeable media when inserted and on startup"
+msgstr ""
+
+#: gresources/nemo-file-management-properties.glade:1451
+msgid "Automatically open a folder for automounted media"
+msgstr ""
+
+#: gresources/nemo-file-management-properties.glade:1467
+msgid "Prompt or autorun/autostart programs when media are inserted"
+msgstr ""
+
+#: gresources/nemo-file-management-properties.glade:1483
+msgid ""
+"Automatically close the device's tab, pane, or window when a device is "
+"unmounted or ejected"
+msgstr ""
+
+#: gresources/nemo-file-management-properties.glade:1499
+msgid "Detect content of media and suggest application to open"
+msgstr ""
+
+#: gresources/nemo-file-management-properties.glade:1540
+msgid "<b>Bulk Rename</b>"
+msgstr ""
+
+#: gresources/nemo-file-management-properties.glade:1570
+msgid "Command to invoke when renaming multiple items:"
+msgstr ""
+
+#: gresources/nemo-file-management-properties.glade:1623
+msgid "Behavior"
+msgstr "Мінез-құлығы"
+
+#: gresources/nemo-file-management-properties.glade:1652
+msgid "<b>Icon Captions</b>"
+msgstr ""
+
+#: gresources/nemo-file-management-properties.glade:1677
+msgid ""
+"Choose the order of information to appear beneath icon names. More "
+"information will appear when zooming in closer."
+msgstr ""
+"Таңбашалардың астында көрсетілетін ақпарат ретін таңдаңыз. Масштабы үлкейген "
+"кезде көбірек ақпарат көрсетіледі."
+
+#: gresources/nemo-file-management-properties.glade:1814
+msgid "<b>Date</b>"
+msgstr "<b>Уақыты</b>"
+
+#: gresources/nemo-file-management-properties.glade:1838
+msgid "_Format:"
+msgstr "Пі_шімі:"
+
+#: gresources/nemo-file-management-properties.glade:1886
+msgid "<b>Window and Tab Titles</b>"
+msgstr ""
+
+#: gresources/nemo-file-management-properties.glade:1909
+msgid "Show the full p_ath in the title bar and tab bars"
+msgstr ""
+
+#: gresources/nemo-file-management-properties.glade:1950
+msgid "<b>File Size</b>"
+msgstr ""
+
+#: gresources/nemo-file-management-properties.glade:1974
+msgid "_Prefixes:"
+msgstr ""
+
+#: gresources/nemo-file-management-properties.glade:2029
+msgid "<b>File Properties</b>"
+msgstr ""
+
+#: gresources/nemo-file-management-properties.glade:2052
+msgid "Show advanced permissions in the file property dialog"
+msgstr ""
+
+#: gresources/nemo-file-management-properties.glade:2093
+msgid "<b>Move/Copy To Menu</b>"
+msgstr ""
+
+#: gresources/nemo-file-management-properties.glade:2116
+msgid "List bookmarks in the menu"
+msgstr ""
+
+#: gresources/nemo-file-management-properties.glade:2132
+msgid "List devices and network locations in the menu"
+msgstr ""
+
+#: gresources/nemo-file-management-properties.glade:2169
+msgid "Display"
+msgstr "Дисплей"
+
+#: gresources/nemo-file-management-properties.glade:2198
+msgid "<b>List Columns</b>"
+msgstr "<b>Тізім көріністің бағандары</b>"
+
+#: gresources/nemo-file-management-properties.glade:2223
+msgid "Choose the order of information to appear in the list view."
+msgstr "Тізім көрінісі үшін көрсетілетін ақпараттың ретін таңдаңыз."
+
+#: gresources/nemo-file-management-properties.glade:2259
+msgid "List Columns"
+msgstr "Тізім бағандары"
+
+#: gresources/nemo-file-management-properties.glade:2288
+msgid "<b>Previewable Files</b>"
+msgstr ""
+
+#: gresources/nemo-file-management-properties.glade:2318
+msgid "Show _thumbnails:"
+msgstr "Ү_лгілерін көрсету:"
+
+#: gresources/nemo-file-management-properties.glade:2356
+msgid "_Inherit thumbnail visibility from parent"
+msgstr ""
+
+#: gresources/nemo-file-management-properties.glade:2379
+msgid "_Only for files smaller than:"
+msgstr "Өл_шемі келесіден аз файлдар үшін ғана:"
+
+#: gresources/nemo-file-management-properties.glade:2442
+msgid "<b>Folders</b>"
+msgstr "<b>Бумалар</b>"
+
+#: gresources/nemo-file-management-properties.glade:2472
+msgid "Count _number of items:"
+msgstr "Нәрселер са_нын анықтау:"
+
+#: gresources/nemo-file-management-properties.glade:2535
+msgid "<b>Tooltips</b>"
+msgstr "<b>Көмек жазулары</b>"
+
+#: gresources/nemo-file-management-properties.glade:2558
+msgid "Show tooltips in icon and compact views"
+msgstr ""
+
+#: gresources/nemo-file-management-properties.glade:2575
+msgid "Show tooltips in list views"
+msgstr ""
+
+#: gresources/nemo-file-management-properties.glade:2592
+msgid "Show tooltips on the desktop"
+msgstr ""
+
+#: gresources/nemo-file-management-properties.glade:2611
+msgid ""
+"<i>By default, a folder tooltip shows the item count, and files display "
+"their size.\n"
+"    Select additional information to display in the tooltip:</i>"
+msgstr ""
+
+#: gresources/nemo-file-management-properties.glade:2636
+msgid "Detailed file type"
+msgstr ""
+
+#: gresources/nemo-file-management-properties.glade:2651
+msgid "Modified date"
+msgstr ""
+
+#: gresources/nemo-file-management-properties.glade:2666
+msgid "Created date"
+msgstr ""
+
+#: gresources/nemo-file-management-properties.glade:2682
+msgid "Accessed date"
+msgstr ""
+
+#: gresources/nemo-file-management-properties.glade:2698
+msgid "File or folder location"
+msgstr ""
+
+#: gresources/nemo-file-management-properties.glade:2744
+msgid "Preview"
+msgstr "Алдын-ала қарау"
+
+#: gresources/nemo-file-management-properties.glade:2773
+msgid "Visible Buttons"
+msgstr ""
+
+#: gresources/nemo-file-management-properties.glade:2818
+msgid "Previous"
+msgstr ""
+
+#: gresources/nemo-file-management-properties.glade:2855
+msgid "Next"
+msgstr ""
+
+#: gresources/nemo-file-management-properties.glade:2892
+msgid "Up"
+msgstr ""
+
+#: gresources/nemo-file-management-properties.glade:2929
+msgid "Refresh"
+msgstr ""
+
+#: gresources/nemo-file-management-properties.glade:3040
+msgid "Location entry toggle"
+msgstr ""
+
+#: gresources/nemo-file-management-properties.glade:3077
+msgid "Open in terminal"
+msgstr ""
+
+#: gresources/nemo-file-management-properties.glade:3188
+#: gresources/nemo-shortcuts.ui:308
+msgid "Icon view"
+msgstr ""
+
+#: gresources/nemo-file-management-properties.glade:3225
+msgid "List view"
+msgstr ""
+
+#: gresources/nemo-file-management-properties.glade:3262
+msgid "Compact view"
+msgstr ""
+
+#: gresources/nemo-file-management-properties.glade:3334
+msgid "Toolbar"
+msgstr "Құралдар"
+
+#: gresources/nemo-file-management-properties.glade:3357
+msgid "Visible Entries"
+msgstr ""
+
+#: gresources/nemo-file-management-properties.glade:3388
+msgid "Selection"
+msgstr ""
+
+#: gresources/nemo-file-management-properties.glade:3582
+msgid "Favorite"
+msgstr ""
+
+#: gresources/nemo-file-management-properties.glade:3783
+msgid "Background"
+msgstr ""
+
+#: gresources/nemo-file-management-properties.glade:4106
+msgid ""
+"Visible action and extension entries can be configured in the Plugins tab"
+msgstr ""
+
+#: gresources/nemo-file-management-properties.glade:4123
+msgid "Context Menus"
+msgstr ""
+
+#: gresources/nemo-search-bar.glade:46
+msgid "Search for files:"
+msgstr ""
+
+#: gresources/nemo-search-bar.glade:78 gresources/nemo-search-bar.glade:172
+msgid "Case sensitive"
+msgstr ""
+
+#: gresources/nemo-search-bar.glade:99
+msgid "Search folders recursively"
+msgstr ""
+
+#: gresources/nemo-search-bar.glade:140
+msgid "Search content:"
+msgstr ""
+
+#: gresources/nemo-search-bar.glade:193
+msgid "Regular expression"
+msgstr ""
+
+#: gresources/nemo-shortcuts.ui:13
+msgctxt "shortcut window"
+msgid "General"
+msgstr ""
+
+#: gresources/nemo-shortcuts.ui:17
+msgctxt "shortcut window"
+msgid "New window"
+msgstr ""
+
+#: gresources/nemo-shortcuts.ui:24
+msgctxt "shortcut window"
+msgid "Close window or tab"
+msgstr ""
+
+#: gresources/nemo-shortcuts.ui:31
+msgctxt "shortcut window"
+msgid "Close all windows"
+msgstr ""
+
+#: gresources/nemo-shortcuts.ui:38 gresources/nemo-shortcuts.ui:232
+msgctxt "shortcut window"
+msgid "Toggle extra pane"
+msgstr ""
+
+#: gresources/nemo-shortcuts.ui:45
+msgctxt "shortcut window"
+msgid "Search"
+msgstr ""
+
+#: gresources/nemo-shortcuts.ui:52
+msgctxt "shortcut window"
+msgid "Bookmark current location"
+msgstr ""
+
+#: gresources/nemo-shortcuts.ui:59
+msgctxt "shortcut window"
+msgid "Edit bookmarks"
+msgstr ""
+
+#: gresources/nemo-shortcuts.ui:66
+msgctxt "shortcut window"
+msgid "Make link"
+msgstr ""
+
+#: gresources/nemo-shortcuts.ui:73
+msgctxt "shortcut window"
+msgid "Pin/Unpin selection"
+msgstr ""
+
+#: gresources/nemo-shortcuts.ui:80
+msgctxt "shortcut window"
+msgid "Show help"
+msgstr ""
+
+#: gresources/nemo-shortcuts.ui:87
+msgctxt "shortcut window"
+msgid "Shortcuts"
+msgstr ""
+
+#: gresources/nemo-shortcuts.ui:96
+msgctxt "shortcut window"
+msgid "Opening"
+msgstr ""
+
+#: gresources/nemo-shortcuts.ui:100
+msgctxt "shortcut window"
+msgid "Open"
+msgstr ""
+
+#: gresources/nemo-shortcuts.ui:107
+msgctxt "shortcut window"
+msgid "Open in new tab"
+msgstr ""
+
+#: gresources/nemo-shortcuts.ui:114
+msgctxt "shortcut window"
+msgid "Open in new window"
+msgstr ""
+
+#: gresources/nemo-shortcuts.ui:121
+msgctxt "shortcut window"
+msgid "Open item location (recent files and search only)"
+msgstr ""
+
+#: gresources/nemo-shortcuts.ui:131
+msgctxt "shortcut window"
+msgid "Tabs"
+msgstr ""
+
+#: gresources/nemo-shortcuts.ui:135
+msgctxt "shortcut window"
+msgid "New tab"
+msgstr ""
+
+#: gresources/nemo-shortcuts.ui:142
+msgctxt "shortcut window"
+msgid "Go to previous tab"
+msgstr ""
+
+#: gresources/nemo-shortcuts.ui:149
+msgctxt "shortcut window"
+msgid "Go to next tab"
+msgstr ""
+
+#: gresources/nemo-shortcuts.ui:156
+msgctxt "shortcut window"
+msgid "Switch to tab"
+msgstr ""
+
+#: gresources/nemo-shortcuts.ui:163
+msgctxt "shortcut window"
+msgid "Move tab left"
+msgstr ""
+
+#: gresources/nemo-shortcuts.ui:170
+msgctxt "shortcut window"
+msgid "Move tab right"
+msgstr ""
+
+#: gresources/nemo-shortcuts.ui:179
+msgctxt "shortcut window"
+msgid "Navigation"
+msgstr ""
+
+#: gresources/nemo-shortcuts.ui:183
+msgctxt "shortcut window"
+msgid "Go back"
+msgstr ""
+
+#: gresources/nemo-shortcuts.ui:190
+msgctxt "shortcut window"
+msgid "Go forward"
+msgstr ""
+
+#: gresources/nemo-shortcuts.ui:197
+msgctxt "shortcut window"
+msgid "Go up"
+msgstr ""
+
+#: gresources/nemo-shortcuts.ui:204
+msgctxt "shortcut window"
+msgid "Go down"
+msgstr ""
+
+#: gresources/nemo-shortcuts.ui:211
+msgctxt "shortcut window"
+msgid "Go to home folder"
+msgstr ""
+
+#: gresources/nemo-shortcuts.ui:218
+msgctxt "shortcut window"
+msgid "Toggle location entry"
+msgstr ""
+
+#: gresources/nemo-shortcuts.ui:228
+msgctxt "shortcut window"
+msgid "Dual Pane"
+msgstr ""
+
+#: gresources/nemo-shortcuts.ui:239
+msgctxt "shortcut window"
+msgid "Go to other pane's location"
+msgstr ""
+
+#: gresources/nemo-shortcuts.ui:246
+msgctxt "shortcut window"
+msgid "Focus other pane"
+msgstr ""
+
+#: gresources/nemo-shortcuts.ui:255
+msgctxt "shortcut window"
+msgid "View"
+msgstr ""
+
+#: gresources/nemo-shortcuts.ui:259
+msgctxt "shortcut window"
+msgid "Zoom in"
+msgstr ""
+
+#: gresources/nemo-shortcuts.ui:266
+msgctxt "shortcut window"
+msgid "Zoom out"
+msgstr ""
+
+#: gresources/nemo-shortcuts.ui:273
+msgctxt "shortcut window"
+msgid "Reset zoom"
+msgstr ""
+
+#: gresources/nemo-shortcuts.ui:280
+msgctxt "shortcut window"
+msgid "Refresh view"
+msgstr ""
+
+#: gresources/nemo-shortcuts.ui:287
+msgctxt "shortcut window"
+msgid "Show/hide hidden files"
+msgstr ""
+
+#: gresources/nemo-shortcuts.ui:294
+msgctxt "shortcut window"
+msgid "Show/hide sidebar"
+msgstr ""
+
+#: gresources/nemo-shortcuts.ui:301
+msgctxt "shortcut window"
+msgid "Show/hide action menu"
+msgstr ""
+
+#: gresources/nemo-shortcuts.ui:314
+msgctxt "shortcut window"
+msgid "List view"
+msgstr ""
+
+#: gresources/nemo-shortcuts.ui:322
+msgctxt "shortcut window"
+msgid "Compact view"
+msgstr ""
+
+#: gresources/nemo-shortcuts.ui:331
+msgctxt "shortcut window"
+msgid "Editing"
+msgstr ""
+
+#: gresources/nemo-shortcuts.ui:335
+msgctxt "shortcut window"
+msgid "Create folder"
+msgstr ""
+
+#: gresources/nemo-shortcuts.ui:342
+msgctxt "shortcut window"
+msgid "Rename"
+msgstr ""
+
+#: gresources/nemo-shortcuts.ui:349
+msgctxt "shortcut window"
+msgid "Move to trash"
+msgstr ""
+
+#: gresources/nemo-shortcuts.ui:356
+msgctxt "shortcut window"
+msgid "Delete permanently"
+msgstr ""
+
+#: gresources/nemo-shortcuts.ui:363
+msgctxt "shortcut window"
+msgid "Cut"
+msgstr ""
+
+#: gresources/nemo-shortcuts.ui:370
+msgctxt "shortcut window"
+msgid "Copy"
+msgstr ""
+
+#: gresources/nemo-shortcuts.ui:377
+msgctxt "shortcut window"
+msgid "Paste"
+msgstr ""
+
+#: gresources/nemo-shortcuts.ui:384
+msgctxt "shortcut window"
+msgid "Select all"
+msgstr ""
+
+#: gresources/nemo-shortcuts.ui:391
+msgctxt "shortcut window"
+msgid "Invert selection"
+msgstr ""
+
+#: gresources/nemo-shortcuts.ui:398
+msgctxt "shortcut window"
+msgid "Select items matching"
+msgstr ""
+
+#: gresources/nemo-shortcuts.ui:405
+msgctxt "shortcut window"
+msgid "Undo"
+msgstr ""
+
+#: gresources/nemo-shortcuts.ui:412
+msgctxt "shortcut window"
+msgid "Redo"
+msgstr ""
+
+#: gresources/nemo-shortcuts.ui:419
+msgctxt "shortcut window"
+msgid "Show item properties"
+msgstr ""

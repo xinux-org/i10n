@@ -1,0 +1,1520 @@
+# translation of xviewer.HEAD.mk.po to Macedonian
+# translation of xviewer.HEAD.mk.po to
+# This file is distributed under the same license as the PACKAGE package.
+# Copyright (C) 2004 THE PACKAGE'S COPYRIGHT HOLDER.
+#
+# Bozidar Proevski <bobibobi@freemail.com.mk>, 2002.
+# Jovan Zdraveski <matrixat@freemail.com.mk>, 2003.
+# Ime Prezime <email@adresa.com>, 2003.
+# Arangel Angov <ufo@linux.net.mk>, 2003, 2005, 2006, 2007, 2008.
+# Tomislav Markovski <herrera@users.sourceforge.net>, 2004.
+# Арангел Ангов <ufo@linux.net.mk>, 2005, 2006, 2007.
+# Jovan Naumovski <jovan@lugola.net>, 2006, 2007, 2008.
+# Arangel Angov <arangel@linux.net.mk>, 2007.
+msgid ""
+msgstr ""
+"Project-Id-Version: xviewer.HEAD.mk\n"
+"Report-Msgid-Bugs-To: "
+"http://bugzilla.gnome.org/enter_bug.cgi?product=xviewer&keywords=I18N+L10N&co"
+"mponent=general\n"
+"POT-Creation-Date: 2021-11-29 10:03+0000\n"
+"PO-Revision-Date: 2016-02-05 08:12+0000\n"
+"Last-Translator: Launchpad Translations Administrators <Unknown>\n"
+"Language-Team: Macedonian <mkde-l10n@lists.sourceforge.net>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n % 10 == 1 && n % 100 != 11) ? 0 : 1;\n"
+"X-Launchpad-Export-Date: 2022-10-10 13:09+0000\n"
+"X-Generator: Launchpad (build 762fb15a975e8b23af6a1f86e44e46bfd0451459)\n"
+
+#. Translaters: This string is for a toggle to display a toolbar.
+#. * The name of the toolbar is automatically computed from the widgets
+#. * on the toolbar, and is placed at the %s. Note the _ before the %s
+#. * which is used to add mnemonics. We know that this is likely to
+#. * produce duplicates, but don't worry about it. If your language
+#. * normally has a mnemonic at the start, please use the _. If not,
+#. * please remove.
+#: ../cut-n-paste/toolbar-editor/egg-editable-toolbar.c:992
+#, c-format
+msgid "Show “_%s”"
+msgstr "Покажи „_%s”"
+
+#: ../cut-n-paste/toolbar-editor/egg-editable-toolbar.c:1485
+msgid "_Move on Toolbar"
+msgstr "_Премести на алатникот"
+
+#: ../cut-n-paste/toolbar-editor/egg-editable-toolbar.c:1486
+msgid "Move the selected item on the toolbar"
+msgstr "Премести го избраниот предмет на алатникот"
+
+#: ../cut-n-paste/toolbar-editor/egg-editable-toolbar.c:1487
+msgid "_Remove from Toolbar"
+msgstr "_Отстрани од алатникот"
+
+#: ../cut-n-paste/toolbar-editor/egg-editable-toolbar.c:1488
+msgid "Remove the selected item from the toolbar"
+msgstr "Отстрани го избраниот предмет од алатникот"
+
+#: ../cut-n-paste/toolbar-editor/egg-editable-toolbar.c:1489
+msgid "_Delete Toolbar"
+msgstr "_Избриши алатник"
+
+#: ../cut-n-paste/toolbar-editor/egg-editable-toolbar.c:1490
+msgid "Remove the selected toolbar"
+msgstr "Отстрани го избраниот алатник"
+
+#: ../cut-n-paste/toolbar-editor/egg-toolbar-editor.c:489
+msgid "Separator"
+msgstr "Разделувач"
+
+#: ../data/xviewer-app-menu.xml.h:1 ../src/xviewer-window.c:4234
+msgid "_View"
+msgstr "_Поглед"
+
+#: ../data/xviewer-app-menu.xml.h:2 ../src/xviewer-window.c:4259
+msgid "_Toolbar"
+msgstr "_Лента со алатки"
+
+#: ../data/xviewer-app-menu.xml.h:3 ../src/xviewer-window.c:4262
+msgid "_Statusbar"
+msgstr "_Статусна лента"
+
+#: ../data/xviewer-app-menu.xml.h:4 ../src/xviewer-window.c:4265
+#| msgid "_Image Collection"
+msgid "_Image Gallery"
+msgstr "_Галерија на слики"
+
+#: ../data/xviewer-app-menu.xml.h:5 ../src/xviewer-window.c:4268
+msgid "Side _Pane"
+msgstr "Страничен _простор"
+
+#: ../data/xviewer-app-menu.xml.h:6 ../src/xviewer-window.c:4247
+msgid "Prefere_nces"
+msgstr "Преферен_ци"
+
+#: ../data/xviewer-app-menu.xml.h:7 ../data/xviewer-preferences-dialog.ui.h:2
+#: ../src/xviewer-window.c:4237
+msgid "_Help"
+msgstr "_Помош"
+
+#: ../data/xviewer-app-menu.xml.h:8 ../src/xviewer-window.c:4253
+msgid "_About"
+msgstr "_За"
+
+#: ../data/xviewer-app-menu.xml.h:9
+msgid "_Quit"
+msgstr ""
+
+#: ../data/xviewer.appdata.xml.in.h:1
+msgid ""
+"Xviewer is an image viewer which supports many formats. It can be used to "
+"view single images or images in a collection."
+msgstr ""
+
+#: ../data/xviewer.appdata.xml.in.h:2
+msgid ""
+"Xviewer also allows to view the images in a fullscreen slideshow mode or set "
+"an image as the desktop wallpaper. It reads the camera tags to automatically "
+"rotate your images in the correct portrait or landscape orientation."
+msgstr ""
+
+#: ../data/xviewer.desktop.in.in.h:1 ../src/xviewer-application.c:293
+msgid "Image Viewer"
+msgstr "Прегледувач на слики"
+
+#: ../data/xviewer.desktop.in.in.h:2
+msgid "Browse and rotate images"
+msgstr "Разгледај и ротирај слики"
+
+#. Extra keywords that can be used to search for xviewer in GNOME Shell and Unity
+#: ../data/xviewer.desktop.in.in.h:4
+msgid "Picture;Slideshow;Graphics;"
+msgstr ""
+
+#: ../data/xviewer-image-properties-dialog.ui.h:1 ../src/xviewer-window.c:5375
+msgid "Image Properties"
+msgstr "Својства на слика"
+
+#: ../data/xviewer-image-properties-dialog.ui.h:2
+msgid "_Previous"
+msgstr "_Претходна"
+
+#: ../data/xviewer-image-properties-dialog.ui.h:3
+msgid "_Next"
+msgstr "_Следна"
+
+#: ../data/xviewer-image-properties-dialog.ui.h:4
+#: ../data/xviewer-preferences-dialog.ui.h:3 ../src/xviewer-window.c:4244
+msgid "_Close"
+msgstr "_Затвори"
+
+#: ../data/xviewer-image-properties-dialog.ui.h:5
+#: ../src/xviewer-metadata-sidebar.c:497
+msgid "Name:"
+msgstr "Име:"
+
+#: ../data/xviewer-image-properties-dialog.ui.h:6
+#: ../src/xviewer-metadata-sidebar.c:499
+#| msgid "_Width:"
+msgid "Width:"
+msgstr "Ширина:"
+
+#: ../data/xviewer-image-properties-dialog.ui.h:7
+#: ../src/xviewer-metadata-sidebar.c:501
+#| msgid "_Height:"
+msgid "Height:"
+msgstr "Височина:"
+
+#: ../data/xviewer-image-properties-dialog.ui.h:8
+#: ../src/xviewer-metadata-sidebar.c:503
+#| msgid "_Top:"
+msgid "Type:"
+msgstr "Тип:"
+
+#: ../data/xviewer-image-properties-dialog.ui.h:9
+#| msgid "<b>Bytes:</b>"
+msgid "Bytes:"
+msgstr "Бајти:"
+
+#: ../data/xviewer-image-properties-dialog.ui.h:10
+#: ../src/xviewer-metadata-sidebar.c:507
+#| msgid "Open Folder"
+msgid "Folder:"
+msgstr "Папка:"
+
+#: ../data/xviewer-image-properties-dialog.ui.h:11
+#: ../src/xviewer-metadata-sidebar.c:495
+msgid "General"
+msgstr "Општо"
+
+#: ../data/xviewer-image-properties-dialog.ui.h:12
+#: ../src/xviewer-metadata-sidebar.c:532
+#| msgid "<b>Aperture Value:</b>"
+msgid "Aperture Value:"
+msgstr "Вредност на апертура:"
+
+#: ../data/xviewer-image-properties-dialog.ui.h:13
+#: ../src/xviewer-metadata-sidebar.c:535
+#| msgid "<b>Exposure Time:</b>"
+msgid "Exposure Time:"
+msgstr "Време на изложеност:"
+
+#: ../data/xviewer-image-properties-dialog.ui.h:14
+#: ../src/xviewer-metadata-sidebar.c:538
+#| msgid "<b>Focal Length:</b>"
+msgid "Focal Length:"
+msgstr "Фокусна должина:"
+
+#: ../data/xviewer-image-properties-dialog.ui.h:15
+#: ../src/xviewer-metadata-sidebar.c:540
+#| msgid "<b>Flash:</b>"
+msgid "Flash:"
+msgstr "Блиц:"
+
+#: ../data/xviewer-image-properties-dialog.ui.h:16
+#: ../src/xviewer-metadata-sidebar.c:544
+#| msgid "<b>ISO Speed Rating:</b>"
+msgid "ISO Speed Rating:"
+msgstr "ISO рејтинг на брзина:"
+
+#: ../data/xviewer-image-properties-dialog.ui.h:17
+#: ../src/xviewer-metadata-sidebar.c:547
+#| msgid "<b>Metering Mode:</b>"
+msgid "Metering Mode:"
+msgstr "Режим на мерење:"
+
+#: ../data/xviewer-image-properties-dialog.ui.h:18
+#: ../src/xviewer-metadata-sidebar.c:550
+#| msgid "<b>Camera Model:</b>"
+msgid "Camera Model:"
+msgstr "Модел на фотоапарат:"
+
+#: ../data/xviewer-image-properties-dialog.ui.h:19
+#: ../src/xviewer-metadata-sidebar.c:552
+#| msgid "<b>Date/Time:</b>"
+msgid "Date/Time:"
+msgstr "Датум/Време:"
+
+#: ../data/xviewer-image-properties-dialog.ui.h:20
+#: ../src/xviewer-metadata-sidebar.c:557
+#| msgid "<b>Description:</b>"
+msgid "Description:"
+msgstr "Опис:"
+
+#: ../data/xviewer-image-properties-dialog.ui.h:21
+#: ../src/xviewer-metadata-sidebar.c:560
+#| msgid "<b>Location:</b>"
+msgid "Location:"
+msgstr "Локација:"
+
+#: ../data/xviewer-image-properties-dialog.ui.h:22
+#: ../src/xviewer-metadata-sidebar.c:563
+#| msgid "<b>Keywords:</b>"
+msgid "Keywords:"
+msgstr "Клучни зборови:"
+
+#: ../data/xviewer-image-properties-dialog.ui.h:23
+#: ../src/xviewer-metadata-sidebar.c:565
+#| msgid "<b>Author:</b>"
+msgid "Author:"
+msgstr "Автор:"
+
+#: ../data/xviewer-image-properties-dialog.ui.h:24
+#: ../src/xviewer-metadata-sidebar.c:568
+#| msgid "<b>Copyright:</b>"
+msgid "Copyright:"
+msgstr "Авторски права:"
+
+#: ../data/xviewer-image-properties-dialog.ui.h:25
+#: ../src/xviewer-metadata-sidebar.c:571
+#| msgid "<b>Details</b>"
+msgid "Details"
+msgstr "Детали"
+
+#: ../data/xviewer-image-properties-dialog.ui.h:26
+#: ../src/xviewer-metadata-sidebar.c:528
+msgid "Metadata"
+msgstr "Мета податоци"
+
+#: ../data/xviewer-multiple-save-as-dialog.ui.h:1
+msgid "Save As"
+msgstr "Зачувај како"
+
+#: ../data/xviewer-multiple-save-as-dialog.ui.h:2
+#: ../src/xviewer-close-confirmation-dialog.c:172
+#: ../src/xviewer-error-message-area.c:119 ../src/xviewer-file-chooser.c:456
+#: ../src/xviewer-file-chooser.c:464 ../src/xviewer-file-chooser.c:472
+#: ../src/xviewer-window.c:3464 ../src/xviewer-window.c:3468
+#: ../src/xviewer-window.c:3735
+msgid "_Cancel"
+msgstr "_Откажи"
+
+#: ../data/xviewer-multiple-save-as-dialog.ui.h:3
+#: ../src/xviewer-close-confirmation-dialog.c:184
+msgid "Save _As"
+msgstr ""
+
+#: ../data/xviewer-multiple-save-as-dialog.ui.h:5
+#, no-c-format
+#| msgid "<small><i><b>%f:</b> original filename</i></small>"
+msgid "<b>%f:</b> original filename"
+msgstr "<b>%f:</b> оригинално име на датотеката"
+
+#: ../data/xviewer-multiple-save-as-dialog.ui.h:7
+#, no-c-format
+#| msgid "<small><i><b>%n:</b> counter</i></small>"
+msgid "<b>%n:</b> counter"
+msgstr "<b>%n:</b> бројач"
+
+#: ../data/xviewer-multiple-save-as-dialog.ui.h:8
+msgid "_Filename format:"
+msgstr ""
+
+#: ../data/xviewer-multiple-save-as-dialog.ui.h:9
+msgid "_Destination folder:"
+msgstr ""
+
+#: ../data/xviewer-multiple-save-as-dialog.ui.h:10
+msgid "Choose a folder"
+msgstr "Изберете папка"
+
+#: ../data/xviewer-multiple-save-as-dialog.ui.h:11
+#| msgid "<b>File Path Specifications</b>"
+msgid "File Path Specifications"
+msgstr "Спецификации за патеката на датотеката"
+
+#: ../data/xviewer-multiple-save-as-dialog.ui.h:12
+msgid "_Start counter at:"
+msgstr ""
+
+#: ../data/xviewer-multiple-save-as-dialog.ui.h:13
+msgid "_Replace spaces with underscores"
+msgstr ""
+
+#: ../data/xviewer-multiple-save-as-dialog.ui.h:14
+#| msgid "<b>Options</b>"
+msgid "Options"
+msgstr "Опции"
+
+#: ../data/xviewer-multiple-save-as-dialog.ui.h:15
+msgid "Rename from:"
+msgstr "Преименувај од:"
+
+#: ../data/xviewer-multiple-save-as-dialog.ui.h:16
+msgid "To:"
+msgstr "До:"
+
+#: ../data/xviewer-multiple-save-as-dialog.ui.h:17
+#| msgid "<b>File Name Preview</b>"
+msgid "File Name Preview"
+msgstr "Преглед на името на датотеката"
+
+#: ../data/xviewer-preferences-dialog.ui.h:1
+#| msgid "Prefere_nces"
+msgid "Preferences"
+msgstr "Преференци"
+
+#: ../data/xviewer-preferences-dialog.ui.h:4
+#| msgid "<b>Image Enhancements</b>"
+msgid "Image Enhancements"
+msgstr "Подобрувања на сликата"
+
+#: ../data/xviewer-preferences-dialog.ui.h:5
+msgid "Smooth images when zoomed _out"
+msgstr ""
+
+#: ../data/xviewer-preferences-dialog.ui.h:6
+msgid "Smooth images when zoomed _in"
+msgstr ""
+
+#: ../data/xviewer-preferences-dialog.ui.h:7
+msgid "_Automatic orientation"
+msgstr "_Автоматска ориентација"
+
+#: ../data/xviewer-preferences-dialog.ui.h:8
+#| msgid "As _background"
+msgid "Background"
+msgstr "Позадина"
+
+#: ../data/xviewer-preferences-dialog.ui.h:9
+#| msgid "As custom c_olor:"
+msgid "As custom color:"
+msgstr "Како сопствена боја:"
+
+#: ../data/xviewer-preferences-dialog.ui.h:10
+#| msgid "As _background"
+msgid "Background Color"
+msgstr "Боја на позадина"
+
+#: ../data/xviewer-preferences-dialog.ui.h:11
+#| msgid "<b>Transparent Parts</b>"
+msgid "Transparent Parts"
+msgstr "Провидни делови"
+
+#: ../data/xviewer-preferences-dialog.ui.h:12
+msgid "As check _pattern"
+msgstr "Како шара"
+
+#: ../data/xviewer-preferences-dialog.ui.h:13
+msgid "As custom c_olor:"
+msgstr "Како сопствена б_оја:"
+
+#: ../data/xviewer-preferences-dialog.ui.h:14
+msgid "Color for Transparent Areas"
+msgstr "Боја за транспарентна околина"
+
+#: ../data/xviewer-preferences-dialog.ui.h:15
+msgid "As _background"
+msgstr "Како _позадина"
+
+#: ../data/xviewer-preferences-dialog.ui.h:16
+msgid "Image View"
+msgstr "Поглед на слика"
+
+#: ../data/xviewer-preferences-dialog.ui.h:17
+#| msgid "<b>Image Zoom</b>"
+msgid "Image Zoom"
+msgstr "Зумирање на слика"
+
+#: ../data/xviewer-preferences-dialog.ui.h:18
+msgid "E_xpand images to fit screen"
+msgstr "П_рошири ги сликите за да се вклопат на приказот"
+
+#: ../data/xviewer-preferences-dialog.ui.h:19
+#| msgid "<b>Sequence</b>"
+msgid "Sequence"
+msgstr "Секвенца"
+
+#. I18N: This sentence will be displayed above a horizonzal scale to select a number of seconds in xviewer
+#: ../data/xviewer-preferences-dialog.ui.h:21
+msgid "_Time between images:"
+msgstr ""
+
+#: ../data/xviewer-preferences-dialog.ui.h:22
+msgid "_Loop sequence"
+msgstr "Секвенца на _повторување"
+
+#: ../data/xviewer-preferences-dialog.ui.h:23
+msgid "Control"
+msgstr ""
+
+#: ../data/xviewer-preferences-dialog.ui.h:24
+msgid "Pause and resume with the spacebar"
+msgstr ""
+
+#: ../data/xviewer-preferences-dialog.ui.h:25
+msgid "Slideshow"
+msgstr "Слајд шоу"
+
+#: ../data/xviewer-preferences-dialog.ui.h:26
+msgid "Scroll Wheel"
+msgstr ""
+
+#: ../data/xviewer-preferences-dialog.ui.h:27
+msgid "Wheel"
+msgstr ""
+
+#: ../data/xviewer-preferences-dialog.ui.h:28
+msgid "Zoom"
+msgstr ""
+
+#: ../data/xviewer-preferences-dialog.ui.h:29
+msgid "Vertical Scrolling"
+msgstr ""
+
+#: ../data/xviewer-preferences-dialog.ui.h:30
+msgid "Horizontal Scrolling"
+msgstr ""
+
+#: ../data/xviewer-preferences-dialog.ui.h:31
+msgid "Previous/Next Image"
+msgstr ""
+
+#: ../data/xviewer-preferences-dialog.ui.h:32
+msgid "Rotate 90 degrees"
+msgstr ""
+
+#: ../data/xviewer-preferences-dialog.ui.h:33
+msgid "No Action"
+msgstr ""
+
+#: ../data/xviewer-preferences-dialog.ui.h:34
+msgid "Shift + Wheel"
+msgstr ""
+
+#: ../data/xviewer-preferences-dialog.ui.h:35
+msgid "Control + Wheel"
+msgstr ""
+
+#: ../data/xviewer-preferences-dialog.ui.h:36
+msgid "Shift + Control + Wheel"
+msgstr ""
+
+#: ../data/xviewer-preferences-dialog.ui.h:37
+msgid "Tilt Wheel"
+msgstr ""
+
+#: ../data/xviewer-preferences-dialog.ui.h:38
+msgid "Mouse"
+msgstr ""
+
+#: ../data/xviewer-preferences-dialog.ui.h:39
+msgid "Plugins"
+msgstr "Додатоци"
+
+#: ../src/xviewer-close-confirmation-dialog.c:166
+msgid "Close _without Saving"
+msgstr "Затвори _без зачувување"
+
+#: ../src/xviewer-close-confirmation-dialog.c:178
+#: ../src/xviewer-file-chooser.c:465 ../src/xviewer-window.c:4274
+msgid "_Save"
+msgstr "_Зачувај"
+
+#: ../src/xviewer-close-confirmation-dialog.c:212
+#| msgid "Position"
+msgid "Question"
+msgstr "Прашање"
+
+#: ../src/xviewer-close-confirmation-dialog.c:391
+msgid "If you don't save, your changes will be lost."
+msgstr "Ако не зачувате, Вашите промени ќе бидат изгубени."
+
+#: ../src/xviewer-close-confirmation-dialog.c:437
+#, c-format
+msgid "Save changes to image \"%s\" before closing?"
+msgstr "Да ги зачувам промените на сликата „%s“ пред затворање?"
+
+#: ../src/xviewer-close-confirmation-dialog.c:652
+#, c-format
+msgid "There is %d image with unsaved changes. Save changes before closing?"
+msgid_plural ""
+"There are %d images with unsaved changes. Save changes before closing?"
+msgstr[0] ""
+"Има %d слика со незачувани промени. Да ги зачувам промените пред да затворам?"
+msgstr[1] ""
+"Има %d слики со незачувани промени. Да ги зачувам промените пред да затворам?"
+
+#: ../src/xviewer-close-confirmation-dialog.c:669
+msgid "S_elect the images you want to save:"
+msgstr "И_зберете ги сликите кои што сакате да ги зачувате:"
+
+#. Secondary label
+#: ../src/xviewer-close-confirmation-dialog.c:688
+msgid "If you don't save, all your changes will be lost."
+msgstr "Ако не зачувате, сите Ваши промени ќе бидат изгубени."
+
+#: ../src/xviewer-error-message-area.c:124 ../src/xviewer-window.c:882
+#: ../src/xviewer-window.c:4334
+#| msgid "Reload Image"
+msgid "_Reload"
+msgstr "_Превчитај"
+
+#: ../src/xviewer-error-message-area.c:129 ../src/xviewer-window.c:4280
+#| msgid "Save As"
+msgid "Save _As…"
+msgstr "Зачувај _како..."
+
+#: ../src/xviewer-error-message-area.c:171
+#, c-format
+msgid "Could not load image '%s'."
+msgstr "Не можам да ја вчитам сликата „%s“."
+
+#: ../src/xviewer-error-message-area.c:213
+#, c-format
+#| msgid "Could not load image '%s'."
+msgid "Could not save image '%s'."
+msgstr "Не можам да ја зачувам сликата „%s“."
+
+#: ../src/xviewer-error-message-area.c:256
+#, c-format
+msgid "No images found in '%s'."
+msgstr "Не се пронајдени слики во „%s“."
+
+#: ../src/xviewer-error-message-area.c:263
+msgid "The given locations contain no images."
+msgstr "Дадените локации не содржат слики."
+
+#: ../src/xviewer-metadata-details.c:65
+msgid "Camera"
+msgstr "Камера"
+
+#: ../src/xviewer-metadata-details.c:66
+msgid "Image Data"
+msgstr "Податоци за сликата"
+
+#: ../src/xviewer-metadata-details.c:67
+msgid "Image Taking Conditions"
+msgstr "Услови за снимање на слика"
+
+#: ../src/xviewer-metadata-details.c:68
+msgid "GPS Data"
+msgstr "GPS податоци"
+
+#: ../src/xviewer-metadata-details.c:69
+msgid "Maker Note"
+msgstr "Забелешки од авторот"
+
+#: ../src/xviewer-metadata-details.c:70
+msgid "Other"
+msgstr "Друго"
+
+#: ../src/xviewer-metadata-details.c:72
+msgid "XMP Exif"
+msgstr "XMP Exif"
+
+#: ../src/xviewer-metadata-details.c:73
+msgid "XMP IPTC"
+msgstr "XMP IPTC"
+
+#: ../src/xviewer-metadata-details.c:74
+msgid "XMP Rights Management"
+msgstr "XMP менаџмент на права"
+
+#: ../src/xviewer-metadata-details.c:75
+msgid "XMP Other"
+msgstr "XMP друго"
+
+#: ../src/xviewer-metadata-details.c:251
+msgid "Tag"
+msgstr "Етикета"
+
+#: ../src/xviewer-metadata-details.c:258
+msgid "Value"
+msgstr "Вредност"
+
+#: ../src/xviewer-metadata-details.c:436
+#| msgid "Both"
+msgid "North"
+msgstr "Север"
+
+#: ../src/xviewer-metadata-details.c:439
+msgid "East"
+msgstr "Исток"
+
+#: ../src/xviewer-metadata-details.c:442
+msgid "West"
+msgstr "Запад"
+
+#: ../src/xviewer-metadata-details.c:445
+#| msgid "Both"
+msgid "South"
+msgstr "Југ"
+
+#. A strftime-formatted string, to display the date the image was taken.
+#: ../src/xviewer-exif-util.c:120 ../src/xviewer-exif-util.c:160
+msgid "%a, %d %B %Y  %X"
+msgstr "%a, %d %B %Y  %X"
+
+#. A strftime-formatted string, to display the date the image was taken, for the case we don't have the time.
+#: ../src/xviewer-exif-util.c:154
+msgid "%a, %d %B %Y"
+msgstr "%a, %d %B %Y"
+
+#. TRANSLATORS: This is the actual focal length used when
+#. the image was taken.
+#: ../src/xviewer-exif-util.c:251
+#, c-format
+msgid "%.1f (lens)"
+msgstr "%.1f (леќи)"
+
+#. Print as float to get a similar look as above.
+#. TRANSLATORS: This is the equivalent focal length assuming
+#. a 35mm film camera.
+#: ../src/xviewer-exif-util.c:262
+#, c-format
+msgid "%.1f (35mm film)"
+msgstr "%.1f (35mm филм)"
+
+#: ../src/xviewer-file-chooser.c:119
+msgid "File format is unknown or unsupported"
+msgstr "Форматот на датотеката е непознат или неподржан."
+
+#: ../src/xviewer-file-chooser.c:124
+#| msgid ""
+#| "Xviewer could not determine a supported writable file format based "
+#| "on the filename."
+msgid ""
+"Image Viewer could not determine a supported writable file format based on "
+"the filename."
+msgstr ""
+"Прегледувачот на слики не може да одреди поддржана датотека за запишување "
+"според името на датотеката."
+
+#: ../src/xviewer-file-chooser.c:125
+msgid "Please try a different file extension like .png or .jpg."
+msgstr "Ве молам пробајте со друга екстензија како .pnd или .jpg"
+
+#. Filter name: First description then file extension, eg. "The PNG-Format (*.png)".
+#: ../src/xviewer-file-chooser.c:160
+#, c-format
+msgid "%s (*.%s)"
+msgstr "%s (*.%s)"
+
+#: ../src/xviewer-file-chooser.c:212
+#| msgid "All Files"
+msgid "All files"
+msgstr "Сите датотеки"
+
+#: ../src/xviewer-file-chooser.c:217
+msgid "Supported image files"
+msgstr "Поддржани датотеки со слики"
+
+#. Pixel size of image: width x height in pixel
+#: ../src/xviewer-file-chooser.c:289 ../src/xviewer-metadata-sidebar.c:234
+#: ../src/xviewer-metadata-sidebar.c:238 ../src/xviewer-properties-dialog.c:139
+#: ../src/xviewer-properties-dialog.c:141 ../src/xviewer-thumb-view.c:516
+msgid "pixel"
+msgid_plural "pixels"
+msgstr[0] "пиксел"
+msgstr[1] "пиксели"
+
+#: ../src/xviewer-file-chooser.c:457 ../src/xviewer-file-chooser.c:473
+msgid "_Open"
+msgstr ""
+
+#: ../src/xviewer-file-chooser.c:459
+#| msgid "Save Image"
+msgid "Open Image"
+msgstr "Отвори слика"
+
+#: ../src/xviewer-file-chooser.c:467
+msgid "Save Image"
+msgstr "Зачувај слика"
+
+#: ../src/xviewer-file-chooser.c:475
+msgid "Open Folder"
+msgstr "Отвори папка"
+
+#: ../src/xviewer-image.c:613
+#, c-format
+msgid "Transformation on unloaded image."
+msgstr "Трансформација на невчитана слика."
+
+#: ../src/xviewer-image.c:641
+#, c-format
+msgid "Transformation failed."
+msgstr "Трансформација не успеа."
+
+#: ../src/xviewer-image.c:1261
+#, c-format
+msgid "EXIF not supported for this file format."
+msgstr "EXIF не е поддржан од страна на овој формат."
+
+#: ../src/xviewer-image.c:1410
+#, c-format
+msgid "Image loading failed."
+msgstr "Вчитувањето на сликата не успеа."
+
+#: ../src/xviewer-image.c:1991 ../src/xviewer-image.c:2111
+#, c-format
+msgid "No image loaded."
+msgstr "Нема внесено слика."
+
+#: ../src/xviewer-image.c:1999 ../src/xviewer-image.c:2120
+#, c-format
+msgid "You do not have the permissions necessary to save the file."
+msgstr "Немате дозвола да ја зачувате датотеката."
+
+#: ../src/xviewer-image.c:2009 ../src/xviewer-image.c:2131
+#, c-format
+msgid "Temporary file creation failed."
+msgstr "Правењето на привремена датотека е неуспешно."
+
+#: ../src/xviewer-image-jpeg.c:374
+#, c-format
+msgid "Couldn't create temporary file for saving: %s"
+msgstr "Не можам да креирам привремена датотека за зачувување: %s"
+
+#: ../src/xviewer-image-jpeg.c:393
+#, c-format
+msgid "Couldn't allocate memory for loading JPEG file"
+msgstr "Неможе да се алоцира меморија за вчитување на JPEG датотека"
+
+#: ../src/xviewer-metadata-sidebar.c:247 ../src/xviewer-properties-dialog.c:156
+msgid "Unknown"
+msgstr "Непознато"
+
+#: ../src/xviewer-metadata-sidebar.c:505
+msgid "File size:"
+msgstr "Големина на датотека:"
+
+#: ../src/xviewer-metadata-sidebar.c:521 ../src/xviewer-properties-dialog.c:737
+#: ../src/xviewer-window.c:4284
+msgid "Show the folder which contains this file in the file manager"
+msgstr "Покажи ја папката која ја содржи оваа слика во менаџерот на датотеки"
+
+#: ../src/xviewer-preferences-dialog.c:134
+#, c-format
+msgid "%lu second"
+msgid_plural "%lu seconds"
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../src/xviewer-print.c:371
+msgid "Image Settings"
+msgstr "Поставувања за слики"
+
+#: ../src/xviewer-print-image-setup.c:897
+msgid "Image"
+msgstr "Слика"
+
+#: ../src/xviewer-print-image-setup.c:898
+#| msgid "The image whose printing properties will be setup"
+msgid "The image whose printing properties will be set up"
+msgstr "Сликата чии својства за печатење ќе бидат поставени"
+
+#: ../src/xviewer-print-image-setup.c:904
+msgid "Page Setup"
+msgstr "Поставување на страница"
+
+#: ../src/xviewer-print-image-setup.c:905
+msgid "The information for the page where the image will be printed"
+msgstr "Информацијата за страната каде што ќе се печати сликата"
+
+#: ../src/xviewer-print-image-setup.c:931
+msgid "Position"
+msgstr "Позиција"
+
+#: ../src/xviewer-print-image-setup.c:935
+msgid "_Left:"
+msgstr "_Лево:"
+
+#: ../src/xviewer-print-image-setup.c:937
+msgid "_Right:"
+msgstr "_Десно:"
+
+#: ../src/xviewer-print-image-setup.c:938
+msgid "_Top:"
+msgstr "_Горе:"
+
+#: ../src/xviewer-print-image-setup.c:939
+msgid "_Bottom:"
+msgstr "_Дно:"
+
+#: ../src/xviewer-print-image-setup.c:942
+msgid "C_enter:"
+msgstr "Ц_ентар:"
+
+#: ../src/xviewer-print-image-setup.c:947
+msgid "None"
+msgstr "Ништо"
+
+#: ../src/xviewer-print-image-setup.c:949
+msgid "Horizontal"
+msgstr "Хоризонтално"
+
+#: ../src/xviewer-print-image-setup.c:951
+msgid "Vertical"
+msgstr "Вертикално"
+
+#: ../src/xviewer-print-image-setup.c:953
+msgid "Both"
+msgstr "И двете"
+
+#: ../src/xviewer-print-image-setup.c:969
+msgid "Size"
+msgstr "Големина"
+
+#: ../src/xviewer-print-image-setup.c:972
+msgid "_Width:"
+msgstr "_Ширина:"
+
+#: ../src/xviewer-print-image-setup.c:974
+msgid "_Height:"
+msgstr "_Височина:"
+
+#: ../src/xviewer-print-image-setup.c:977
+msgid "_Scaling:"
+msgstr "_Зголемување:"
+
+#: ../src/xviewer-print-image-setup.c:988
+msgid "_Unit:"
+msgstr "_Единица:"
+
+#: ../src/xviewer-print-image-setup.c:993
+msgid "Millimeters"
+msgstr "Милиметри"
+
+#: ../src/xviewer-print-image-setup.c:995
+msgid "Inches"
+msgstr "Инчи"
+
+#: ../src/xviewer-print-image-setup.c:1024
+msgid "Preview"
+msgstr "Преглед"
+
+#: ../src/xviewer-save-as-dialog-helper.c:162
+msgid "as is"
+msgstr "како што е"
+
+#. Translators: This string is displayed in the statusbar.
+#. * The first token is the image number, the second is total image
+#. * count.
+#. *
+#. * Translate to "%Id" if you want to use localized digits, or
+#. * translate to "%d" otherwise.
+#. *
+#. * Note that translating this doesn't guarantee that you get localized
+#. * digits. That needs support from your system and locale definition
+#. * too.
+#: ../src/xviewer-statusbar.c:126
+#, c-format
+msgid "%d / %d"
+msgstr "%d / %d"
+
+#: ../src/xviewer-thumb-view.c:544
+msgid "Taken on"
+msgstr "Земено"
+
+#: ../src/xviewer-uri-converter.c:982
+#, c-format
+msgid "At least two file names are equal."
+msgstr "Најмалку две имиња на датотеки се еднакви."
+
+#: ../src/xviewer-util.c:68
+#| msgid "Could not display help for Xviewer"
+msgid "Could not display help for Image Viewer"
+msgstr "Не може да се прикаже помош за прегледувачот на слики"
+
+#: ../src/xviewer-util.c:116
+msgid " (invalid Unicode)"
+msgstr " (невалиден уникод)"
+
+#. Translators: This is the string displayed in the statusbar
+#. * The tokens are from left to right:
+#. * - image width
+#. * - image height
+#. * - image size in bytes
+#. * - zoom in percent
+#: ../src/xviewer-window.c:547
+#, c-format
+msgid "%i × %i pixel  %s    %i%%"
+msgid_plural "%i × %i pixels  %s    %i%%"
+msgstr[0] "%i × %i пиксел  %s    %i%%"
+msgstr[1] "%i × %i пиксели  %s    %i%%"
+
+#: ../src/xviewer-window.c:884 ../src/xviewer-window.c:2880
+msgctxt "MessageArea"
+msgid "Hi_de"
+msgstr "Скр_иј"
+
+#. The newline character is currently necessary due to a problem
+#. * with the automatic line break.
+#: ../src/xviewer-window.c:894
+#, c-format
+msgid ""
+"The image \"%s\" has been modified by an external application.\n"
+"Would you like to reload it?"
+msgstr ""
+"Сликата „%s“ беше изменета од некоја надворешна апликација.\n"
+"Дали сакате да ја вчитам повторно?"
+
+#: ../src/xviewer-window.c:1071
+#, c-format
+msgid "Use \"%s\" to open the selected image"
+msgstr "Користете \"%s\" за отворање на избраната слика"
+
+#. Translators: This string is displayed in the statusbar
+#. * while saving images. The tokens are from left to right:
+#. * - the original filename
+#. * - the current image's position in the queue
+#. * - the total number of images queued for saving
+#: ../src/xviewer-window.c:1227
+#, c-format
+msgid "Saving image \"%s\" (%u/%u)"
+msgstr "Ја зачувувам сликата \"%s\" (%u/%u)"
+
+#: ../src/xviewer-window.c:1622
+#, c-format
+#| msgid "Loading image \"%s\""
+msgid "Opening image \"%s\""
+msgstr "Ја отворам сликата „%s“"
+
+#. L10N: This the reason why the screensaver is inhibited.
+#: ../src/xviewer-window.c:2208
+msgid "Viewing a slideshow"
+msgstr ""
+
+#: ../src/xviewer-window.c:2455
+#, c-format
+msgid ""
+"Error printing file:\n"
+"%s"
+msgstr ""
+"Грешка во печатењето на датотеката:\n"
+"%s"
+
+#: ../src/xviewer-window.c:2808 ../src/xviewer-window.c:2823
+msgid "Error launching System Settings: "
+msgstr "Грешка при пуштањето на системските поставувања: "
+
+#. I18N: When setting mnemonics for these strings, watch out to not
+#. clash with mnemonics from xviewer's menubar
+#: ../src/xviewer-window.c:2878
+msgid "_Open Background Preferences"
+msgstr "_Отвори ги преференците за позадината"
+
+#. The newline character is currently necessary due to a problem
+#. * with the automatic line break.
+#: ../src/xviewer-window.c:2894
+#, c-format
+msgid ""
+"The image \"%s\" has been set as Desktop Background.\n"
+"Would you like to modify its appearance?"
+msgstr ""
+"Сликата „%s“ беше поставена како позадина за работната површина.\n"
+"Дали сакате да го измените нејзиниот изглед?"
+
+#: ../src/xviewer-window.c:3361
+msgid "Saving image locally…"
+msgstr "Ја зачувувам сликата локално..."
+
+#: ../src/xviewer-window.c:3440
+#, c-format
+msgid ""
+"Are you sure you want to remove\n"
+"\"%s\" permanently?"
+msgstr ""
+
+#: ../src/xviewer-window.c:3443
+#, c-format
+msgid ""
+"Are you sure you want to remove\n"
+"the selected image permanently?"
+msgid_plural ""
+"Are you sure you want to remove\n"
+"the %d selected images permanently?"
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../src/xviewer-window.c:3465 ../src/xviewer-window.c:3746
+msgid "_Delete"
+msgstr ""
+
+#: ../src/xviewer-window.c:3469 ../src/xviewer-window.c:3748
+msgid "_Yes"
+msgstr ""
+
+#. add 'dont ask again' button
+#: ../src/xviewer-window.c:3474 ../src/xviewer-window.c:3740
+msgid "Do _not ask again during this session"
+msgstr ""
+
+#: ../src/xviewer-window.c:3519
+#, c-format
+msgid "Couldn't retrieve image file"
+msgstr ""
+
+#: ../src/xviewer-window.c:3535
+#, c-format
+msgid "Couldn't retrieve image file information"
+msgstr ""
+
+#: ../src/xviewer-window.c:3551 ../src/xviewer-window.c:3807
+#, c-format
+msgid "Couldn't delete file"
+msgstr "Не можев да ја избришам датотеката"
+
+#. set dialog error message
+#: ../src/xviewer-window.c:3601 ../src/xviewer-window.c:3903
+#, c-format
+msgid "Error on deleting image %s"
+msgstr "Грешка при зачувување на сликата %s"
+
+#: ../src/xviewer-window.c:3708
+#, c-format
+msgid ""
+"Are you sure you want to move\n"
+"\"%s\" to the trash?"
+msgstr ""
+"Дали сте сигурни дека сакате да го преместите\n"
+"\"%s\" во ѓубрето?"
+
+#: ../src/xviewer-window.c:3711
+#, c-format
+msgid ""
+"A trash for \"%s\" couldn't be found. Do you want to remove this image "
+"permanently?"
+msgstr ""
+"Не може да се пронајде ѓубре за „%s“. Дали сакате да ја отстраните оваа "
+"слика засекогаш?"
+
+#: ../src/xviewer-window.c:3716
+#, c-format
+msgid ""
+"Are you sure you want to move\n"
+"the selected image to the trash?"
+msgid_plural ""
+"Are you sure you want to move\n"
+"the %d selected images to the trash?"
+msgstr[0] ""
+"Дали сте сигурни дека сакате да ја преместите %d-та\n"
+"избрана слика во ѓубрето?"
+msgstr[1] ""
+"Дали сте сигурни дека сакате да ги преместите\n"
+"избраните %d слики во ѓубрето?"
+
+#: ../src/xviewer-window.c:3721
+msgid ""
+"Some of the selected images can't be moved to the trash and will be removed "
+"permanently. Are you sure you want to proceed?"
+msgstr ""
+"Некои од избраните датотеки не може да се преместат во ѓубрето и ќе бидат "
+"трајно избришани. Дали сакате да продолжите?"
+
+#: ../src/xviewer-window.c:3738 ../src/xviewer-window.c:4310
+#: ../src/xviewer-window.c:4349
+msgid "Move to _Trash"
+msgstr "Премести во _ѓубрето"
+
+#: ../src/xviewer-window.c:3785 ../src/xviewer-window.c:3799
+#, c-format
+msgid "Couldn't access trash."
+msgstr "Не можам да пристапам до ѓубрето."
+
+#: ../src/xviewer-window.c:4232
+msgid "_File"
+msgstr ""
+
+#: ../src/xviewer-window.c:4233
+msgid "_Edit"
+msgstr "_Уреди"
+
+#: ../src/xviewer-window.c:4235
+msgid "_Go"
+msgstr "_Оди"
+
+#: ../src/xviewer-window.c:4236
+msgid "_Tools"
+msgstr "_Алатки"
+
+#: ../src/xviewer-window.c:4238
+msgid "_Favorites"
+msgstr ""
+
+#: ../src/xviewer-window.c:4239
+msgid "_Recents"
+msgstr ""
+
+#: ../src/xviewer-window.c:4241
+#| msgid "_Open..."
+msgid "_Open…"
+msgstr "_Отвори..."
+
+#: ../src/xviewer-window.c:4242
+msgid "Open a file"
+msgstr "Отвори датотека"
+
+#: ../src/xviewer-window.c:4245
+msgid "Close window"
+msgstr "Затвори го прозорецот"
+
+#: ../src/xviewer-window.c:4248
+#| msgid "Preferences for Xviewer"
+msgid "Preferences for Image Viewer"
+msgstr "Преференции за прегледувачот на слики"
+
+#: ../src/xviewer-window.c:4250
+msgid "_Contents"
+msgstr "_Содржина"
+
+#: ../src/xviewer-window.c:4251
+msgid "Help on this application"
+msgstr "Помош за оваа апликација"
+
+#: ../src/xviewer-window.c:4254
+msgid "About this application"
+msgstr "За оваа апликација"
+
+#: ../src/xviewer-window.c:4260
+msgid "Changes the visibility of the toolbar in the current window"
+msgstr "Ја менува прегледноста на лентата со алатки во тековниот прозорец"
+
+#: ../src/xviewer-window.c:4263
+msgid "Changes the visibility of the statusbar in the current window"
+msgstr "Ја менува прегледноста на статусната лента во тековниот прозорец"
+
+#: ../src/xviewer-window.c:4266
+#| msgid ""
+#| "Changes the visibility of the image collection pane in the current window"
+msgid ""
+"Changes the visibility of the image gallery pane in the current window"
+msgstr ""
+"Ја менува прегледноста на површината на галеријата слики во тековниот "
+"прозорец"
+
+#: ../src/xviewer-window.c:4269
+msgid "Changes the visibility of the side pane in the current window"
+msgstr "Ја менува прегледноста на статусниот простор во тековниот прозорец"
+
+#: ../src/xviewer-window.c:4275
+msgid "Save changes in currently selected images"
+msgstr "Зачувај ги промените за избраните слики"
+
+#: ../src/xviewer-window.c:4277
+msgid "Open _with"
+msgstr "Отвори _со"
+
+#: ../src/xviewer-window.c:4278
+msgid "Open the selected image with a different application"
+msgstr "Отвори ја избраната слика со друга апликација"
+
+#: ../src/xviewer-window.c:4281
+msgid "Save the selected images with a different name"
+msgstr "Зачувај ги избраните слики со различни имиња"
+
+#: ../src/xviewer-window.c:4283
+msgid "Show Containing _Folder"
+msgstr "Покажи ја _папката која ја содржи датотеката"
+
+#: ../src/xviewer-window.c:4286
+#| msgid "_Print..."
+msgid "_Print…"
+msgstr "_Печати..."
+
+#: ../src/xviewer-window.c:4287
+msgid "Print the selected image"
+msgstr "Испечати ја избраната слика"
+
+#: ../src/xviewer-window.c:4289
+msgid "Prope_rties"
+msgstr "Својс_тва"
+
+#: ../src/xviewer-window.c:4290
+msgid "Show the properties and metadata of the selected image"
+msgstr "Покажи ги својствата и мета податоците за избраната слика"
+
+#: ../src/xviewer-window.c:4292
+msgid "_Undo"
+msgstr "_Врати"
+
+#: ../src/xviewer-window.c:4293
+msgid "Undo the last change in the image"
+msgstr "Врати ја последната промена на сликата"
+
+#: ../src/xviewer-window.c:4295
+msgid "Flip _Horizontal"
+msgstr "Преврти _хоризонтално"
+
+#: ../src/xviewer-window.c:4296
+msgid "Mirror the image horizontally"
+msgstr "Направи хоризонтално огледало"
+
+#: ../src/xviewer-window.c:4298
+msgid "Flip _Vertical"
+msgstr "Преврти _вертикално"
+
+#: ../src/xviewer-window.c:4299
+msgid "Mirror the image vertically"
+msgstr "Направи вертикално огледало"
+
+#: ../src/xviewer-window.c:4301
+msgid "_Rotate Clockwise"
+msgstr "_Ротирај на десно"
+
+#: ../src/xviewer-window.c:4302
+msgid "Rotate the image 90 degrees to the right"
+msgstr "Ротирај ја сликата за 90 степени на десно"
+
+#: ../src/xviewer-window.c:4304
+msgid "Rotate Counterc_lockwise"
+msgstr "Ротирај н_а лево"
+
+#: ../src/xviewer-window.c:4305
+msgid "Rotate the image 90 degrees to the left"
+msgstr "Ротирај ја сликата за 90 степени на лево"
+
+#: ../src/xviewer-window.c:4307
+msgid "Set as Wa_llpaper"
+msgstr ""
+
+#: ../src/xviewer-window.c:4308
+msgid "Set the selected image as the wallpaper"
+msgstr ""
+
+#: ../src/xviewer-window.c:4311
+msgid "Move the selected image to the trash folder"
+msgstr "Премести ја избраната слика во ѓубрето."
+
+#: ../src/xviewer-window.c:4313
+msgid "_Delete Image"
+msgstr ""
+
+#: ../src/xviewer-window.c:4314
+msgid "Delete the selected image"
+msgstr ""
+
+#: ../src/xviewer-window.c:4316
+#| msgid "_Top:"
+msgid "_Copy"
+msgstr "_Копирај:"
+
+#: ../src/xviewer-window.c:4317
+#| msgid "Move the selected item on the toolbar"
+msgid "Copy the selected image to the clipboard"
+msgstr "Копирај ја избраната слика на таблата со исечоци"
+
+#: ../src/xviewer-window.c:4319 ../src/xviewer-window.c:4337
+#: ../src/xviewer-window.c:4340
+msgid "_Zoom In"
+msgstr "_Зголеми"
+
+#: ../src/xviewer-window.c:4320 ../src/xviewer-window.c:4338
+msgid "Enlarge the image"
+msgstr "Зголеми ја сликата"
+
+#: ../src/xviewer-window.c:4322 ../src/xviewer-window.c:4343
+msgid "Zoom _Out"
+msgstr "Намали"
+
+#: ../src/xviewer-window.c:4323 ../src/xviewer-window.c:4341
+#: ../src/xviewer-window.c:4344
+msgid "Shrink the image"
+msgstr "Намали ја сликата"
+
+#: ../src/xviewer-window.c:4325 ../src/xviewer-window.c:4346
+msgid "_Normal Size"
+msgstr "_Нормална големина"
+
+#: ../src/xviewer-window.c:4326 ../src/xviewer-window.c:4347
+msgid "Show the image at its normal size"
+msgstr "Покажи ја сликата во нормалната големина"
+
+#: ../src/xviewer-window.c:4328
+msgid "Fit to _Height"
+msgstr ""
+
+#: ../src/xviewer-window.c:4329
+msgid "Fit to height"
+msgstr ""
+
+#: ../src/xviewer-window.c:4331
+msgid "Fit to _Width"
+msgstr ""
+
+#: ../src/xviewer-window.c:4332
+msgid "Fit to width"
+msgstr ""
+
+#: ../src/xviewer-window.c:4335
+msgid "Reload the image"
+msgstr ""
+
+#: ../src/xviewer-window.c:4355
+#| msgid "_Full Screen"
+msgid "_Fullscreen"
+msgstr "_Цел екран"
+
+#: ../src/xviewer-window.c:4356
+msgid "Show the current image in fullscreen mode"
+msgstr "Покажи ја тековната слика на цел екран"
+
+#: ../src/xviewer-window.c:4358
+#| msgid "Slideshow"
+msgid "Pause Slideshow"
+msgstr "Паузирај слајд шоу"
+
+#: ../src/xviewer-window.c:4359
+msgid "Pause or resume the slideshow"
+msgstr "Паузирај или продолжи со слајд шоу"
+
+#: ../src/xviewer-window.c:4361
+#| msgid "Best _Fit"
+msgid "_Best Fit"
+msgstr "Најдобро _собрано"
+
+#: ../src/xviewer-window.c:4362
+msgid "Fit the image to the window"
+msgstr "Собери ја сликата во прозорецот"
+
+#: ../src/xviewer-window.c:4367 ../src/xviewer-window.c:4382
+msgid "_Previous Image"
+msgstr "_Претходна слика"
+
+#: ../src/xviewer-window.c:4368
+#| msgid "Go to the previous image of the collection"
+msgid "Go to the previous image of the gallery"
+msgstr "Оди на претходната слика од галеријата"
+
+#: ../src/xviewer-window.c:4370
+msgid "_Next Image"
+msgstr "_Следна слика"
+
+#: ../src/xviewer-window.c:4371
+#| msgid "Go to the next image of the collection"
+msgid "Go to the next image of the gallery"
+msgstr "Оди на следната слика од галеријата"
+
+#: ../src/xviewer-window.c:4373 ../src/xviewer-window.c:4385
+msgid "_First Image"
+msgstr "_Прва слика"
+
+#: ../src/xviewer-window.c:4374
+#| msgid "Go to the first image of the collection"
+msgid "Go to the first image of the gallery"
+msgstr "Оди на правата слика од галеријата"
+
+#: ../src/xviewer-window.c:4376 ../src/xviewer-window.c:4388
+msgid "_Last Image"
+msgstr "_Последна слика"
+
+#: ../src/xviewer-window.c:4377
+#| msgid "Go to the last image of the collection"
+msgid "Go to the last image of the gallery"
+msgstr "Оди на последната слика од галеријата"
+
+#: ../src/xviewer-window.c:4379
+#| msgid "Reload Image"
+msgid "_Random Image"
+msgstr "_Произволна слика"
+
+#: ../src/xviewer-window.c:4380
+#| msgid "Go to the next image of the collection"
+msgid "Go to a random image of the gallery"
+msgstr "Оди на произволна слика од галеријата"
+
+#: ../src/xviewer-window.c:4538
+#| msgid "Slideshow"
+msgid "S_lideshow"
+msgstr "С_лајд шоу"
+
+#: ../src/xviewer-window.c:4539
+msgid "Start a slideshow view of the images"
+msgstr "Пушти слајд-шоу поглед на сликите"
+
+#: ../src/xviewer-window.c:4611
+msgid "Previous"
+msgstr "Претходна"
+
+#: ../src/xviewer-window.c:4616
+msgid "Next"
+msgstr "Следна"
+
+#: ../src/xviewer-window.c:4623
+msgid "Right"
+msgstr "Десно"
+
+#: ../src/xviewer-window.c:4626
+msgid "Left"
+msgstr "Лево"
+
+#: ../src/xviewer-window.c:4629
+#| msgid "Open Folder"
+msgid "Show Folder"
+msgstr "Покажи папка"
+
+#: ../src/xviewer-window.c:4632
+msgid "Out"
+msgstr "Намали"
+
+#: ../src/xviewer-window.c:4635
+msgid "In"
+msgstr "Зголеми"
+
+#: ../src/xviewer-window.c:4638
+msgid "Normal"
+msgstr "Нормално"
+
+#: ../src/xviewer-window.c:4641
+msgid "Height"
+msgstr ""
+
+#: ../src/xviewer-window.c:4644
+msgid "Width"
+msgstr ""
+
+#: ../src/xviewer-window.c:4647
+msgid "Fit"
+msgstr "Собрано"
+
+#: ../src/xviewer-window.c:4650
+msgid "Gallery"
+msgstr "Галерија"
+
+#: ../src/xviewer-window.c:4667
+msgctxt "action (to trash)"
+msgid "Trash"
+msgstr "Ѓубре"
+
+#: ../src/main.c:63
+msgid "Open in fullscreen mode"
+msgstr "Отвори во режим на цел екран"
+
+#: ../src/main.c:64
+#| msgid "Disable image collection"
+msgid "Disable image gallery"
+msgstr "Оневозможи ја галеријата на слики"
+
+#: ../src/main.c:65
+#| msgid "Open in slide show mode"
+msgid "Open in slideshow mode"
+msgstr "Отвори во слајд шоу режим"
+
+#: ../src/main.c:66
+msgid "Start a new instance instead of reusing an existing one"
+msgstr "Започни нова инстанца наместо да користиш постоечка"
+
+#: ../src/main.c:67
+msgid ""
+"Open in a single window, if multiple windows are open the first one is used"
+msgstr "Отвори во еден прозорец, а ако се отворат повеќе користи го првиот"
+
+#: ../src/main.c:69
+#| msgid "Edit the application toolbar"
+msgid "Show the application's version"
+msgstr "Покажи ја верзијата на апликацијата"
+
+#: ../src/main.c:99
+#| msgid "[FILE...]"
+msgid "[FILE…]"
+msgstr "[FILE…]"
+
+#. I18N: The '%s' is replaced with xviewer's command name.
+#: ../src/main.c:112
+#, c-format
+msgid "Run '%s --help' to see a full list of available command line options."
+msgstr ""
+"Извршете „%s --help“ за да видите листа на достапни опции на командната "
+"линија."

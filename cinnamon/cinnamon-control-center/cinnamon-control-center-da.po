@@ -1,0 +1,2816 @@
+# Danish translation of the Gnome Control Center.
+# Copyright (C) 1998-2012
+# This file is distributed under the same license as the cinnamon-control-center package.
+# Kenneth Christiansen <kenneth@ripen.dk>, 1998-2000.
+# Birger Langkjer <birger.langkjer@image.dk>
+# Keld Simonsen <keld@dkuug.dk>, 2000.
+# Ole Laursen <olau@hardworking.dk>, 2001, 02, 03, 04, 06.
+# Martin Willemoes Hansen <mwh@sysrq.dk>, 2004, 05.
+# Lasse Bang Mikkelsen <lbm@fatalerror.dk>, 2006.
+# flemming christensen <fc@stromata.dk>, 2011.
+# Ask Hjorth Larsen <asklarsen@gmail.com>, 2007, 08, 09, 10, 11, 12.
+#
+# Konventioner:
+#
+#   detach -> frigøre
+#   extension -> endelse (det refererer nemlig som regel til f.eks. '.html')
+#   GL -> 3d
+#   help browser -> hjælpefremviser
+#   properties -> indstillinger
+#   torn off -> frigøre
+#   typing break -> tastepause
+#   toggle key -> skiftetast
+#   modifier key -> modifikationstast
+#   universal access -> tilgængelighed (med mindre nogen kan finde grund til at der bør skelnes)
+#
+# Vær opmærksom på at ordet key bruges både i betydningen nøgle og (genvejs)tast
+#
+# Noter angående Xorg-begreber.
+# Se evt. http://www.x.org/archive/X11R6.8.0/doc/xorg.conf.5.html
+#
+# En monitor repræsenterer en fysisk skærm (som f.eks. har refresh rates og resolution).
+#
+# En screen repræsenterer en sammensætning af en device og en monitor.
+#
+# En screen kan have flere displays.  Som jeg forstår det, udgør et display bare en slags opsætning for en screen.  En samling af displays for samme screen kan så bruges til at skifte mellem manger faste kombinationer af indstillinger, velsagtens.  Dog er det mere omfattende end blot en "mode", som har at gøre med f.eks. opløsning.  Et display kan altså have flere modes.
+#
+# monitor -> monitor
+# screen -> skærm
+# display -> ? (indtil videre: display)
+#
+# Bemærk at disse konventioner bør anvendes for xrandr-appletten, men sandsynligvis ikke for capplet og andre ting der bruger de involverede gloser
+#
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: cinnamon-control-center\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-06-15 16:20+0200\n"
+"PO-Revision-Date: 2022-06-16 17:15+0000\n"
+"Last-Translator: Alan Mortensen <alanmortensen.am@gmail.com>\n"
+"Language-Team: Danish <dansk@dansk-gruppen.dk>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Launchpad-Export-Date: 2022-10-10 13:06+0000\n"
+"X-Generator: Launchpad (build 762fb15a975e8b23af6a1f86e44e46bfd0451459)\n"
+"Language: da\n"
+
+#. TRANSLATORS: this is where the user can click and import a profile
+#: panels/color/cc-color-panel.c:108
+msgid "Other profile…"
+msgstr "Anden profil …"
+
+#. TRANSLATORS: this is a profile prefix to signify the
+#. * profile has been auto-generated for this hardware
+#: panels/color/cc-color-panel.c:121
+msgid "Default: "
+msgstr "Standard: "
+
+#. TRANSLATORS: this is a profile prefix to signify the
+#. * profile his a standard space like AdobeRGB
+#: panels/color/cc-color-panel.c:127
+msgid "Colorspace: "
+msgstr "Farverum: "
+
+#. TRANSLATORS: this is a profile prefix to signify the
+#. * profile is a test profile
+#: panels/color/cc-color-panel.c:133
+msgid "Test profile: "
+msgstr "Testprofil: "
+
+#. TRANSLATORS: this is when the profile should be set for all users
+#: panels/color/cc-color-panel.c:185 panels/color/color.ui.h:9
+msgid "Set for all users"
+msgstr "Indstil for alle brugere"
+
+#. TRANSLATORS: this is when the profile should be set for all users
+#: panels/color/cc-color-panel.c:192
+msgid "Create virtual device"
+msgstr "Opret virtuel enhed"
+
+#. TRANSLATORS: an ICC profile is a file containing colorspace data
+#: panels/color/cc-color-panel.c:227
+msgid "Select ICC Profile File"
+msgstr "Vælg fil med ICC-profil"
+
+#: panels/color/cc-color-panel.c:230
+msgid "_Import"
+msgstr "_Importér"
+
+#. TRANSLATORS: filter name on the file->open dialog
+#: panels/color/cc-color-panel.c:241
+msgid "Supported ICC profiles"
+msgstr "Understøttede ICC-profiler"
+
+#. TRANSLATORS: filter name on the file->open dialog
+#: panels/color/cc-color-panel.c:248
+#: panels/network/wireless-security/eap-method-fast.c:417
+msgid "All files"
+msgstr "Alle filer"
+
+# ? Kunne være andet end skærme
+#. TRANSLATORS: this is the dialog title in the 'Add profile' UI
+#: panels/color/cc-color-panel.c:564
+msgid "Available Profiles for Displays"
+msgstr "Tilgængelige profiler for skærme"
+
+#. TRANSLATORS: this is the dialog title in the 'Add profile' UI
+#: panels/color/cc-color-panel.c:568
+msgid "Available Profiles for Scanners"
+msgstr "Tilgængelige profiler for scannere"
+
+#. TRANSLATORS: this is the dialog title in the 'Add profile' UI
+#: panels/color/cc-color-panel.c:572
+msgid "Available Profiles for Printers"
+msgstr "Tilgængelige profiler for printere"
+
+#. TRANSLATORS: this is the dialog title in the 'Add profile' UI
+#: panels/color/cc-color-panel.c:576
+msgid "Available Profiles for Cameras"
+msgstr "Tilgængelige profiler for kameraer"
+
+#. TRANSLATORS: this is the dialog title in the 'Add profile' UI
+#: panels/color/cc-color-panel.c:580
+msgid "Available Profiles for Webcams"
+msgstr "Tilgængelige profiler for webkameraer"
+
+#. TRANSLATORS: this is the dialog title in the 'Add profile' UI
+#. * where the device type is not recognised
+#. Profiles that can be added to the device
+#: panels/color/cc-color-panel.c:585 panels/color/color.ui.h:2
+msgid "Available Profiles"
+msgstr "Tilgængelige profiler"
+
+#. TRANSLATORS: column for device list
+#: panels/color/cc-color-panel.c:861
+msgid "Device"
+msgstr "Enhed"
+
+#. TRANSLATORS: column for device list
+#: panels/color/cc-color-panel.c:896
+msgid "Calibration"
+msgstr "Kalibrering"
+
+#. TRANSLATORS: this is when an auto-added profile cannot be removed
+#: panels/color/cc-color-panel.c:977
+msgid "Cannot remove automatically added profile"
+msgstr "Kan ikke slette automatisk tilføjet profil"
+
+#. TRANSLATORS: this is when there is no profile for the device
+#: panels/color/cc-color-panel.c:1307
+msgid "No profile"
+msgstr "Ingen profil"
+
+#: panels/color/cc-color-panel.c:1336
+#, c-format
+msgid "%i year"
+msgid_plural "%i years"
+msgstr[0] "%i år"
+msgstr[1] "%i år"
+
+#: panels/color/cc-color-panel.c:1347
+#, c-format
+msgid "%i month"
+msgid_plural "%i months"
+msgstr[0] "%i måned"
+msgstr[1] "%i måneder"
+
+#: panels/color/cc-color-panel.c:1358
+#, c-format
+msgid "%i week"
+msgid_plural "%i weeks"
+msgstr[0] "%i uge"
+msgstr[1] "%i uger"
+
+#. fallback
+#: panels/color/cc-color-panel.c:1365
+msgid "Less than 1 week"
+msgstr "Mindre end 1 uge"
+
+#: panels/color/cc-color-panel.c:1427
+msgctxt "Colorspace fallback"
+msgid "Default RGB"
+msgstr "Standard-RGB"
+
+#: panels/color/cc-color-panel.c:1432
+msgctxt "Colorspace fallback"
+msgid "Default CMYK"
+msgstr "Standard-CMYK"
+
+#: panels/color/cc-color-panel.c:1437
+msgctxt "Colorspace fallback"
+msgid "Default Gray"
+msgstr "Standardgrå"
+
+#: panels/color/cc-color-panel.c:1555 panels/color/cc-color-panel.c:1594
+#: panels/color/cc-color-panel.c:1605 panels/color/cc-color-panel.c:1616
+msgid "Uncalibrated"
+msgstr "Ukalibreret"
+
+#: panels/color/cc-color-panel.c:1558
+msgid "This device is not color managed."
+msgstr "Denne enhed anvender ikke farvekorrigering."
+
+# Eller hvad?
+#: panels/color/cc-color-panel.c:1597
+msgid "This device is using manufacturing calibrated data."
+msgstr "Denne enhed anvender producent-kalibrerede data."
+
+#: panels/color/cc-color-panel.c:1608
+msgid ""
+"This device does not have a profile suitable for whole-screen color "
+"correction."
+msgstr ""
+"Denne enhed har ikke en profil, der er egnet til fuldskærms-farvekorrigering."
+
+#: panels/color/cc-color-panel.c:1641
+msgid "This device has an old profile that may no longer be accurate."
+msgstr ""
+"Denne enhed har en gammel profil, der muligvis ikke længere er nøjagtig."
+
+#. TRANSLATORS: this is when the calibration profile age is not
+#. * specified as it has been autogenerated from the hardware
+#: panels/color/cc-color-panel.c:1669
+msgid "Not specified"
+msgstr "Ikke angivet"
+
+#. add the 'No devices detected' entry
+#: panels/color/cc-color-panel.c:1854
+msgid "No devices supporting color management detected"
+msgstr "Ingen enheder fundet, som understøtter farvehåndtering"
+
+#: panels/color/cc-color-panel.c:2083
+msgctxt "Device kind"
+msgid "Display"
+msgstr "Skærm"
+
+#: panels/color/cc-color-panel.c:2085
+msgctxt "Device kind"
+msgid "Scanner"
+msgstr "Scanner"
+
+#: panels/color/cc-color-panel.c:2087
+msgctxt "Device kind"
+msgid "Printer"
+msgstr "Printer"
+
+#: panels/color/cc-color-panel.c:2089
+msgctxt "Device kind"
+msgid "Camera"
+msgstr "Kamera"
+
+#: panels/color/cc-color-panel.c:2091
+msgctxt "Device kind"
+msgid "Webcam"
+msgstr "Webcam"
+
+#. Add some common languages first
+#: panels/common/cc-common-language.c:533
+msgid "English"
+msgstr "Engelsk"
+
+#: panels/common/cc-common-language.c:535
+msgid "British English"
+msgstr "Britisk engelsk"
+
+#: panels/common/cc-common-language.c:538
+msgid "German"
+msgstr "Tysk"
+
+#: panels/common/cc-common-language.c:541
+msgid "French"
+msgstr "Fransk"
+
+#: panels/common/cc-common-language.c:544
+msgid "Spanish"
+msgstr "Spansk"
+
+#: panels/common/cc-common-language.c:546
+msgid "Chinese (simplified)"
+msgstr "Kinesisk (forenklet)"
+
+#: panels/common/cc-common-language.c:549
+msgid "Russian"
+msgstr "Russisk"
+
+#: panels/common/cc-common-language.c:552
+msgid "Arabic"
+msgstr "Arabisk"
+
+#. Add some common regions
+#: panels/common/cc-common-language.c:580
+msgid "United States"
+msgstr "USA"
+
+#: panels/common/cc-common-language.c:581
+msgid "Germany"
+msgstr "Tyskland"
+
+#: panels/common/cc-common-language.c:582
+msgid "France"
+msgstr "Frankrig"
+
+#: panels/common/cc-common-language.c:583
+msgid "Spain"
+msgstr "Spanien"
+
+#: panels/common/cc-common-language.c:584
+msgid "China"
+msgstr "Kina"
+
+#: panels/common/cc-language-chooser.c:303
+msgid "Select a region"
+msgstr "Vælg en region"
+
+#: panels/common/gdm-languages.c:781
+msgid "Unspecified"
+msgstr "Ikke angivet"
+
+#. Translators:  this is the feature where what you see on your
+#. * laptop's screen is the same as your external projector.
+#. * Here, "Mirrored" is being used as an adjective.  For example,
+#. * the Spanish translation could be "Pantallas en Espejo".
+#. 
+#: panels/display/cc-display-labeler.c:408
+#: panels/display/cc-display-panel.c:625
+msgid "Mirrored Displays"
+msgstr "Klonede skærme"
+
+#: panels/display/cc-display-panel.c:995
+msgid "Confirm reset to defaults"
+msgstr "Bekræft nulstilling til standarder"
+
+#: panels/display/cc-display-panel.c:997
+msgid "Cancel"
+msgstr "Annullér"
+
+#: panels/display/cc-display-panel.c:997
+msgid "Continue"
+msgstr "Fortsæt"
+
+#: panels/display/cc-display-panel.c:1010
+msgid ""
+"This will remove all existing display configurations and reset the current "
+"layout."
+msgstr ""
+"Dette vil fjerne alle eksisterende skærmkonfigurationer og nulstille det "
+"nuværende layout."
+
+#: panels/display/cc-display-settings.c:107
+msgctxt "Display rotation"
+msgid "Landscape"
+msgstr "Landskab"
+
+#: panels/display/cc-display-settings.c:110
+msgctxt "Display rotation"
+msgid "Portrait Right"
+msgstr "Portræt højre"
+
+#: panels/display/cc-display-settings.c:113
+msgctxt "Display rotation"
+msgid "Portrait Left"
+msgstr "Portræt venstre"
+
+#: panels/display/cc-display-settings.c:116
+msgctxt "Display rotation"
+msgid "Landscape (flipped)"
+msgstr "Landskab (omvendt)"
+
+#: panels/display/cc-display-settings.c:190
+#, c-format
+msgid "%.2lf Hz"
+msgstr "%.2lf Hz"
+
+#: panels/display/cc-display-settings.c:469
+msgid "Monitor scale"
+msgstr "Skærmskalering"
+
+#: panels/display/cc-display-settings.c:473
+#: panels/display/cc-display-settings.ui.h:4
+msgid "User interface scale"
+msgstr "Skalering af brugerfladen"
+
+#: panels/network/cc-network-panel.c:906
+msgid "Network proxy"
+msgstr "Netværksproxy"
+
+#. Translators: this is the title of the connection details
+#. * window for vpn connections, it is also used to display
+#. * vpn connections in the device list.
+#. 
+#: panels/network/cc-network-panel.c:1085 panels/network/net-vpn.c:287
+#: panels/network/net-vpn.c:444
+#, c-format
+msgid "%s VPN"
+msgstr "%s VPN"
+
+#: panels/network/cc-network-panel.c:1152
+msgid "Oops, something has gone wrong. Please contact your software vendor."
+msgstr ""
+"Ups, der er gået noget galt. Kontakt venligst din softwareforhandler."
+
+#: panels/network/cc-network-panel.c:1158
+msgid "NetworkManager needs to be running."
+msgstr "Netværkshåndtering skal køre."
+
+#. Translators: network device speed
+#: panels/network/net-device-ethernet.c:50 panels/network/net-device-wifi.c:549
+#: panels/network/connection-editor/ce-page-details.c:153
+#, c-format
+msgid "%d Mb/s"
+msgstr "%d Mb/s"
+
+#: panels/network/net-device-ethernet.c:107
+#: panels/network/net-device-wifi.c:477
+msgid "never"
+msgstr "aldrig"
+
+#: panels/network/net-device-ethernet.c:117
+#: panels/network/net-device-wifi.c:487
+msgid "today"
+msgstr "i dag"
+
+#: panels/network/net-device-ethernet.c:119
+#: panels/network/net-device-wifi.c:489
+msgid "yesterday"
+msgstr "i går"
+
+#: panels/network/net-device-ethernet.c:121
+#: panels/network/net-device-wifi.c:491
+#: panels/network/connection-editor/ce-page-details.c:104
+#, c-format
+msgid "%i day ago"
+msgid_plural "%i days ago"
+msgstr[0] "%i dag siden"
+msgstr[1] "%i dage siden"
+
+#: panels/network/net-device-ethernet.c:158 panels/network/panel-common.c:679
+#: panels/network/network-simple.ui.h:3 panels/network/network-wifi.ui.h:7
+#: panels/network/connection-editor/details-page.ui.h:4
+msgid "IPv4 Address"
+msgstr "IPv4-adresse"
+
+#: panels/network/net-device-ethernet.c:159 panels/network/panel-common.c:680
+#: panels/network/network-mobile.ui.h:4 panels/network/network-simple.ui.h:4
+#: panels/network/network-wifi.ui.h:8
+#: panels/network/connection-editor/details-page.ui.h:5
+msgid "IPv6 Address"
+msgstr "IPv6-adresse"
+
+#: panels/network/net-device-ethernet.c:161
+#: panels/network/net-device-ethernet.c:163 panels/network/panel-common.c:682
+#: panels/network/panel-common.c:684 panels/network/network-mobile.ui.h:3
+msgid "IP Address"
+msgstr "IP-adresse"
+
+#: panels/network/net-device-ethernet.c:166
+#: panels/network/network-simple.ui.h:2 panels/network/network-wifi.ui.h:9
+#: panels/network/connection-editor/details-page.ui.h:6
+msgid "Hardware Address"
+msgstr "Hardwareadresse"
+
+#: panels/network/net-device-ethernet.c:171
+#: panels/network/net-device-ethernet.c:173
+#: panels/network/net-device-ethernet.c:175
+#: panels/network/network-mobile.ui.h:5 panels/network/network-simple.ui.h:5
+#: panels/network/network-wifi.ui.h:10
+#: panels/network/connection-editor/details-page.ui.h:7
+msgid "Default Route"
+msgstr "Standardrute"
+
+#: panels/network/net-device-ethernet.c:179 panels/network/panel-common.c:688
+#: panels/network/network-mobile.ui.h:6 panels/network/network-simple.ui.h:6
+#: panels/network/network-wifi.ui.h:11
+#: panels/network/connection-editor/details-page.ui.h:8
+msgid "DNS4"
+msgstr "DNS4"
+
+#: panels/network/net-device-ethernet.c:180 panels/network/panel-common.c:689
+#: panels/network/network-mobile.ui.h:7 panels/network/network-simple.ui.h:7
+#: panels/network/network-wifi.ui.h:12
+#: panels/network/connection-editor/details-page.ui.h:9
+msgid "DNS6"
+msgstr "DNS6"
+
+#: panels/network/net-device-ethernet.c:182
+#: panels/network/net-device-ethernet.c:184 panels/network/panel-common.c:691
+#: panels/network/panel-common.c:693
+#: panels/network/connection-editor/ip4-page.ui.h:3
+#: panels/network/connection-editor/ip6-page.ui.h:3
+msgid "DNS"
+msgstr "DNS"
+
+#: panels/network/net-device-ethernet.c:190 panels/network/network-wifi.ui.h:13
+msgid "Last used"
+msgstr "Sidst anvendt"
+
+#. Translators: This is used as the title of the connection
+#. * details window for ethernet, if there is only a single
+#. * profile. It is also used to display ethernet in the
+#. * device list.
+#. 
+#: panels/network/net-device-ethernet.c:299
+#: panels/network/network-ethernet.ui.h:1 panels/network/network-simple.ui.h:1
+msgid "Wired"
+msgstr "Kablet"
+
+#: panels/network/net-device-ethernet.c:367
+#: panels/network/net-device-wifi.c:1751 panels/network/network-ethernet.ui.h:3
+#: panels/network/network-mobile.ui.h:9 panels/network/network-simple.ui.h:9
+#: panels/network/network-vpn.ui.h:7
+msgid "Options…"
+msgstr "Indstillinger …"
+
+#: panels/network/net-device-mobile.c:238
+msgid "Add new connection"
+msgstr "Tilføj ny forbindelse"
+
+#. TRANSLATORS: this WEP WiFi security
+#: panels/network/net-device-wifi.c:215 panels/network/net-device-wifi.c:393
+#: panels/network/connection-editor/ce-page-details.c:50
+msgid "WEP"
+msgstr "WEP"
+
+#. TRANSLATORS: this WPA WiFi security
+#: panels/network/net-device-wifi.c:219 panels/network/net-device-wifi.c:398
+#: panels/network/connection-editor/ce-page-details.c:54
+#: panels/network/network-wifi.ui.h:20
+msgid "WPA"
+msgstr "WPA"
+
+#. TRANSLATORS: this WPA WiFi security
+#: panels/network/net-device-wifi.c:223
+#: panels/network/connection-editor/ce-page-details.c:58
+msgid "WPA2"
+msgstr "WPA2"
+
+# ?
+#. TRANSLATORS: this Enterprise WiFi security
+#: panels/network/net-device-wifi.c:228
+#: panels/network/connection-editor/ce-page-details.c:63
+msgid "Enterprise"
+msgstr "Enterprise"
+
+#: panels/network/net-device-wifi.c:233 panels/network/net-device-wifi.c:383
+#: panels/network/connection-editor/ce-page-details.c:68
+msgctxt "Wifi security"
+msgid "None"
+msgstr "Ingen"
+
+#: panels/network/net-device-wifi.c:578
+#: panels/network/connection-editor/ce-page-details.c:179
+msgctxt "Signal strength"
+msgid "None"
+msgstr "Ingen"
+
+#: panels/network/net-device-wifi.c:580
+#: panels/network/connection-editor/ce-page-details.c:181
+msgctxt "Signal strength"
+msgid "Weak"
+msgstr "Svag"
+
+#: panels/network/net-device-wifi.c:582
+#: panels/network/connection-editor/ce-page-details.c:183
+msgctxt "Signal strength"
+msgid "Ok"
+msgstr "OK"
+
+#: panels/network/net-device-wifi.c:584
+#: panels/network/connection-editor/ce-page-details.c:185
+msgctxt "Signal strength"
+msgid "Good"
+msgstr "God"
+
+#: panels/network/net-device-wifi.c:586
+#: panels/network/connection-editor/ce-page-details.c:187
+msgctxt "Signal strength"
+msgid "Excellent"
+msgstr "Fremragende"
+
+#: panels/network/net-device-wifi.c:1260
+msgid ""
+"If you have a connection to the Internet other than wireless, you can set up "
+"a wireless hotspot to share the connection with others."
+msgstr ""
+"Hvis du har en internetforbindelse, som ikke er trådløs, kan du indstille et "
+"trådløst hotspot til at dele forbindelsen med andre."
+
+#: panels/network/net-device-wifi.c:1264
+#, c-format
+msgid "Switching on the wireless hotspot will disconnect you from <b>%s</b>."
+msgstr ""
+"Hvis du tænder for det trådløse hotspot, vil du blive frakoblet <b>%s</b>."
+
+#: panels/network/net-device-wifi.c:1268
+msgid ""
+"It is not possible to access the Internet through your wireless while the "
+"hotspot is active."
+msgstr ""
+"Det er ikke muligt at tilgå internettet gennem din trådløse forbindelse, "
+"mens hotspottet er aktivt."
+
+#: panels/network/net-device-wifi.c:1350
+msgid "Stop hotspot and disconnect any users?"
+msgstr "Stop hotspot og afkobl eventuelle brugere?"
+
+#: panels/network/net-device-wifi.c:1352 panels/network/net-device-wifi.c:1592
+#: panels/network/connection-editor/vpn-helpers.c:181
+#: panels/network/connection-editor/vpn-helpers.c:310
+#: panels/common/language-chooser.ui.h:2 panels/network/network-wifi.ui.h:1
+#: panels/network/connection-editor/connection-editor.ui.h:1
+msgid "_Cancel"
+msgstr "_Annullér"
+
+#: panels/network/net-device-wifi.c:1353
+msgid "_Stop Hotspot"
+msgstr "_Stop hotspot"
+
+#: panels/network/net-device-wifi.c:1454
+msgid "System policy prohibits use as a Hotspot"
+msgstr "Systempolitikken forbyder brug som hotspot"
+
+#: panels/network/net-device-wifi.c:1457
+msgid "Wireless device does not support Hotspot mode"
+msgstr "Trådløs enhed understøtter ikke hotspot-tilstand"
+
+#: panels/network/net-device-wifi.c:1589
+msgid ""
+"Network details for the selected networks, including passwords and any "
+"custom configuration will be lost."
+msgstr ""
+"Netværksdetaljer for de valgte netværk inklusive adgangskoder og eventuelt "
+"brugertilpasset konfiguration vil gå tabt."
+
+#: panels/network/net-device-wifi.c:1593 panels/network/network-wifi.ui.h:43
+#: panels/network/connection-editor/reset-page.ui.h:2
+msgid "_Forget"
+msgstr "_Glem"
+
+#: panels/network/net-device-wifi.c:1899
+msgid "History"
+msgstr "Historik"
+
+#: panels/network/net-device-wifi.c:1903
+msgid "_Close"
+msgstr "_Luk"
+
+#. translators: This is the label for the "Forget wireless network" functionality
+#: panels/network/net-device-wifi.c:1911
+msgctxt "Wi-Fi Network"
+msgid "_Forget"
+msgstr "_Glem"
+
+#. TRANSLATORS: this is when the use leaves the PAC textbox blank
+#: panels/network/net-proxy.c:67
+msgid ""
+"Web Proxy Autodiscovery is used when a Configuration URL is not provided."
+msgstr ""
+"Der bruges autofinding af web-proxyer, når der ikke er givet en "
+"konfigurationsadresse."
+
+#. TRANSLATORS: WPAD is bad: if you enable it on an untrusted
+#. * network, then anyone else on that network can tell your
+#. * machine that it should proxy all of your web traffic
+#. * through them.
+#: panels/network/net-proxy.c:75
+msgid "This is not recommended for untrusted public networks."
+msgstr "Dette anbefales ikke for ubetroede offentlige netværk."
+
+#: panels/network/net-proxy.c:410
+msgid "Proxy"
+msgstr "Proxy"
+
+#. TRANSLATORS: AP type
+#: panels/network/panel-common.c:123
+msgid "Unknown"
+msgstr "Ukendt"
+
+#. TRANSLATORS: AP type
+#: panels/network/panel-common.c:127
+msgid "Ad-hoc"
+msgstr "Ad-hoc"
+
+#. TRANSLATORS: AP type
+#: panels/network/panel-common.c:131
+msgid "Infrastructure"
+msgstr "Infrastruktur"
+
+#. TRANSLATORS: device status
+#. TRANSLATORS: VPN status
+#: panels/network/panel-common.c:147 panels/network/panel-common.c:201
+msgid "Status unknown"
+msgstr "Status ukendt"
+
+#. TRANSLATORS: device status
+#: panels/network/panel-common.c:151
+msgid "Unmanaged"
+msgstr "Uhåndteret"
+
+#. TRANSLATORS: device status
+#: panels/network/panel-common.c:155
+msgid "Unavailable"
+msgstr "Utilgængelig"
+
+#. TRANSLATORS: device status
+#. TRANSLATORS: VPN status
+#: panels/network/panel-common.c:165 panels/network/panel-common.c:207
+msgid "Connecting"
+msgstr "Forbinder"
+
+#. TRANSLATORS: device status
+#. TRANSLATORS: VPN status
+#: panels/network/panel-common.c:169 panels/network/panel-common.c:211
+msgid "Authentication required"
+msgstr "Godkendelse påkrævet"
+
+#. TRANSLATORS: device status
+#. TRANSLATORS: VPN status
+#: panels/network/panel-common.c:173 panels/network/panel-common.c:215
+msgid "Connected"
+msgstr "Tilsluttet"
+
+#. TRANSLATORS: device status
+#: panels/network/panel-common.c:177
+msgid "Disconnecting"
+msgstr "Afbryder forbindelse"
+
+#. TRANSLATORS: device status
+#. TRANSLATORS: VPN status
+#: panels/network/panel-common.c:181 panels/network/panel-common.c:219
+msgid "Connection failed"
+msgstr "Forbindelse mislykkedes"
+
+#. TRANSLATORS: device status
+#. TRANSLATORS: VPN status
+#: panels/network/panel-common.c:185 panels/network/panel-common.c:227
+msgid "Status unknown (missing)"
+msgstr "Status ukendt (mangler)"
+
+#. TRANSLATORS: VPN status
+#: panels/network/panel-common.c:223
+msgid "Not connected"
+msgstr "Ikke tilsluttet"
+
+#. TRANSLATORS: device status reason
+#: panels/network/panel-common.c:248
+msgid "Configuration failed"
+msgstr "Konfiguration mislykkedes"
+
+#. TRANSLATORS: device status reason
+#: panels/network/panel-common.c:252
+msgid "IP configuration failed"
+msgstr "IP-konfiguration mislykkedes"
+
+#. TRANSLATORS: device status reason
+#: panels/network/panel-common.c:256
+msgid "IP configuration expired"
+msgstr "IP-konfiguration udløbet"
+
+#. TRANSLATORS: device status reason
+#: panels/network/panel-common.c:260
+msgid "Secrets were required, but not provided"
+msgstr "Hemmeligheder var påkrævede, men blev ikke angivet"
+
+#. TRANSLATORS: device status reason
+#: panels/network/panel-common.c:264
+msgid "802.1x supplicant disconnected"
+msgstr "802.1x-supplikant frakoblet"
+
+#. TRANSLATORS: device status reason
+#: panels/network/panel-common.c:268
+msgid "802.1x supplicant configuration failed"
+msgstr "Konfiguration af 802.1x-supplikant mislykkedes"
+
+#. TRANSLATORS: device status reason
+#: panels/network/panel-common.c:272
+msgid "802.1x supplicant failed"
+msgstr "802.1x-supplikant fejlede"
+
+#. TRANSLATORS: device status reason
+#: panels/network/panel-common.c:276
+msgid "802.1x supplicant took too long to authenticate"
+msgstr "802.1x-supplikant brugte for lang tid på at godkende"
+
+#. TRANSLATORS: device status reason
+#: panels/network/panel-common.c:280
+msgid "PPP service failed to start"
+msgstr "PPP-tjenesten kunne ikke starte"
+
+#. TRANSLATORS: device status reason
+#: panels/network/panel-common.c:284
+msgid "PPP service disconnected"
+msgstr "PPP-tjeneste frakoblet"
+
+#. TRANSLATORS: device status reason
+#: panels/network/panel-common.c:288
+msgid "PPP failed"
+msgstr "PPP fejlede"
+
+#. TRANSLATORS: device status reason
+#: panels/network/panel-common.c:292
+msgid "DHCP client failed to start"
+msgstr "DHCP-klienten kunne ikke starte"
+
+#. TRANSLATORS: device status reason
+#: panels/network/panel-common.c:296
+msgid "DHCP client error"
+msgstr "DHCP-klientfejl"
+
+#. TRANSLATORS: device status reason
+#: panels/network/panel-common.c:300
+msgid "DHCP client failed"
+msgstr "DHCP-klienten fejlede"
+
+#. TRANSLATORS: device status reason
+#: panels/network/panel-common.c:304
+msgid "Shared connection service failed to start"
+msgstr "Tjenesten for delt forbindelse kunne ikke starte"
+
+#. TRANSLATORS: device status reason
+#: panels/network/panel-common.c:308
+msgid "Shared connection service failed"
+msgstr "Tjenesten til delt forbindelse fejlede"
+
+#. TRANSLATORS: device status reason
+#: panels/network/panel-common.c:312
+msgid "AutoIP service failed to start"
+msgstr "AutoIP-tjenesten kunne ikke starte"
+
+#. TRANSLATORS: device status reason
+#: panels/network/panel-common.c:316
+msgid "AutoIP service error"
+msgstr "AutoIP-tjenestefejl"
+
+#. TRANSLATORS: device status reason
+#: panels/network/panel-common.c:320
+msgid "AutoIP service failed"
+msgstr "AutoIP-tjenesten fejlede"
+
+#. TRANSLATORS: device status reason
+#: panels/network/panel-common.c:324
+msgid "Line busy"
+msgstr "Linjen er optaget"
+
+#. TRANSLATORS: device status reason
+#: panels/network/panel-common.c:328
+msgid "No dial tone"
+msgstr "Ingen ringetone"
+
+#. TRANSLATORS: device status reason
+#: panels/network/panel-common.c:332
+msgid "No carrier could be established"
+msgstr "Opkobling kunne ikke etableres"
+
+#. TRANSLATORS: device status reason
+#: panels/network/panel-common.c:336
+msgid "Dialing request timed out"
+msgstr "Tidsudløb for opringningsforsøg"
+
+#. TRANSLATORS: device status reason
+#: panels/network/panel-common.c:340
+msgid "Dialing attempt failed"
+msgstr "Opringningsforsøg mislykkedes"
+
+#. TRANSLATORS: device status reason
+#: panels/network/panel-common.c:344
+msgid "Modem initialization failed"
+msgstr "Initialisering af modem mislykkedes"
+
+#. TRANSLATORS: device status reason
+#: panels/network/panel-common.c:348
+msgid "Failed to select the specified APN"
+msgstr "Kunne ikke vælge den angivne APN"
+
+#. TRANSLATORS: device status reason
+#: panels/network/panel-common.c:352
+msgid "Not searching for networks"
+msgstr "Søger ikke efter netværk"
+
+#. TRANSLATORS: device status reason
+#: panels/network/panel-common.c:356
+msgid "Network registration denied"
+msgstr "Netværksregistrering nægtet"
+
+#. TRANSLATORS: device status reason
+#: panels/network/panel-common.c:360
+msgid "Network registration timed out"
+msgstr "Tidsudløb ved netværksregistrering"
+
+#. TRANSLATORS: device status reason
+#: panels/network/panel-common.c:364
+msgid "Failed to register with the requested network"
+msgstr "Kunne ikke registreres på det forespurgte netværk"
+
+#. TRANSLATORS: device status reason
+#: panels/network/panel-common.c:368
+msgid "PIN check failed"
+msgstr "PIN-kontrol mislykkedes"
+
+#. TRANSLATORS: device status reason
+#: panels/network/panel-common.c:372
+msgid "Firmware for the device may be missing"
+msgstr "Firmware for enheden mangler måske"
+
+#. TRANSLATORS: device status reason
+#: panels/network/panel-common.c:376
+msgid "Connection disappeared"
+msgstr "Forbindelse forsvandt"
+
+# ?
+#. TRANSLATORS: device status reason
+#: panels/network/panel-common.c:380
+msgid "Existing connection was assumed"
+msgstr "Eksisterende forbindelse blev antaget"
+
+#. TRANSLATORS: device status reason
+#: panels/network/panel-common.c:384
+msgid "Modem not found"
+msgstr "Modem ikke fundet"
+
+#. TRANSLATORS: device status reason
+#: panels/network/panel-common.c:388
+msgid "Bluetooth connection failed"
+msgstr "Bluetooth-forbindelse mislykkedes"
+
+#. TRANSLATORS: device status reason
+#: panels/network/panel-common.c:392
+msgid "SIM Card not inserted"
+msgstr "SIM-kort ikke indsat"
+
+#. TRANSLATORS: device status reason
+#: panels/network/panel-common.c:396
+msgid "SIM Pin required"
+msgstr "SIM-pin påkrævet"
+
+#. TRANSLATORS: device status reason
+#: panels/network/panel-common.c:400
+msgid "SIM Puk required"
+msgstr "SIM-puk påkrævet"
+
+#. TRANSLATORS: device status reason
+#: panels/network/panel-common.c:404
+msgid "SIM wrong"
+msgstr "SIM forkert"
+
+# ???
+#. TRANSLATORS: device status reason
+#: panels/network/panel-common.c:408
+msgid "Connection dependency failed"
+msgstr "Forbindelsesforudsætning mislykkedes"
+
+#. TRANSLATORS: device status
+#: panels/network/panel-common.c:433
+msgid "Firmware missing"
+msgstr "Firmware mangler"
+
+#. TRANSLATORS: device status
+#: panels/network/panel-common.c:437
+msgid "Cable unplugged"
+msgstr "Kabel ikke tilsluttet"
+
+#: panels/online-accounts/cc-online-accounts-panel.c:148
+msgctxt "Online Account"
+msgid "Other"
+msgstr "Anden"
+
+#. translators: This is the title of the "Show Account" dialog. The
+#. * %s is the name of the provider. e.g., 'Google'.
+#: panels/online-accounts/cc-online-accounts-panel.c:593
+#, c-format
+msgid "%s Account"
+msgstr "%s-konto"
+
+#: panels/online-accounts/cc-online-accounts-panel.c:888
+msgid "Error removing account"
+msgstr "Fejl ved sletning af konto"
+
+#. Translators: The %s is the username (eg., debarshi.ray@gmail.com
+#. * or rishi).
+#. 
+#: panels/online-accounts/cc-online-accounts-panel.c:953
+#, c-format
+msgid "<b>%s</b> removed"
+msgstr "<b>%s</b> blev fjernet"
+
+#: panels/region/cinnamon-region-panel-xkblt.c:208
+msgid "Layout"
+msgstr "Layout"
+
+#: panels/region/cinnamon-region-panel-xkbot.c:227
+msgid "Default"
+msgstr "Standard"
+
+#: panels/wacom/cc-wacom-mapping-panel.c:298
+msgid "Output:"
+msgstr "Output:"
+
+#. Keep ratio switch
+#: panels/wacom/cc-wacom-mapping-panel.c:310
+msgid "Keep aspect ratio (letterbox):"
+msgstr "Bevar proportionerne (letterboxformat):"
+
+#. Apply screen rotation
+#: panels/wacom/cc-wacom-mapping-panel.c:321
+msgid "Rotate the tablet when the screen is rotated:"
+msgstr "Rotér tabletten, når skærmen er roteret:"
+
+#. Whole-desktop checkbox
+#: panels/wacom/cc-wacom-mapping-panel.c:332
+msgid "Map to single monitor"
+msgstr "Afbild på én skærm"
+
+#: panels/wacom/cc-wacom-nav-button.c:89
+#, c-format
+msgid "%d of %d"
+msgstr "%d af %d"
+
+#: panels/wacom/cc-wacom-page.c:118 panels/wacom/cc-wacom-page.c:385
+msgctxt "Wacom action-type"
+msgid "None"
+msgstr "Ingen"
+
+#: panels/wacom/cc-wacom-page.c:119
+msgctxt "Wacom action-type"
+msgid "Send Keystroke"
+msgstr "Send tastetryk"
+
+#: panels/wacom/cc-wacom-page.c:120
+msgctxt "Wacom action-type"
+msgid "Switch Monitor"
+msgstr "Skift skærm"
+
+#: panels/wacom/cc-wacom-page.c:121
+msgctxt "Wacom action-type"
+msgid "Show On-Screen Help"
+msgstr "Vis hjælp på skærmen"
+
+#: panels/wacom/cc-wacom-page.c:622
+msgctxt "Wacom tablet button"
+msgid "Up"
+msgstr "Op"
+
+#: panels/wacom/cc-wacom-page.c:622
+msgctxt "Wacom tablet button"
+msgid "Down"
+msgstr "Ned"
+
+#: panels/wacom/cc-wacom-page.c:663
+msgid "Switch Modes"
+msgstr "Skift tilstand"
+
+#: panels/wacom/cc-wacom-page.c:753 panels/wacom/cc-wacom-stylus-page.c:394
+msgid "Button"
+msgstr "Knap"
+
+#: panels/wacom/cc-wacom-page.c:790
+msgid "Type"
+msgstr "Type"
+
+#: panels/wacom/cc-wacom-page.c:811
+msgid "Action"
+msgstr "Handling"
+
+#: panels/wacom/cc-wacom-page.c:921
+msgid "Display Mapping"
+msgstr "Skærmafbildning"
+
+#. If no mode is available, we use "left-ring-mode-1" for backward compat
+#: panels/wacom/csd-wacom-device.c:1115
+msgid "Left Ring"
+msgstr "Venstre ring"
+
+#: panels/wacom/csd-wacom-device.c:1125
+#, c-format
+msgid "Left Ring Mode #%d"
+msgstr "Venstre ringtilstand #%d"
+
+#. If no mode is available, we use "right-ring-mode-1" for backward compat
+#: panels/wacom/csd-wacom-device.c:1144
+msgid "Right Ring"
+msgstr "Højre ring"
+
+#: panels/wacom/csd-wacom-device.c:1154
+#, c-format
+msgid "Right Ring Mode #%d"
+msgstr "Højre ringtilstand #%d"
+
+#. If no mode is available, we use "left-strip-mode-1" for backward compat
+#: panels/wacom/csd-wacom-device.c:1195
+msgid "Left Touchstrip"
+msgstr "Venstre berøringsstribe"
+
+#: panels/wacom/csd-wacom-device.c:1205
+#, c-format
+msgid "Left Touchstrip Mode #%d"
+msgstr "Venstre berøringsstribetilstand #%d"
+
+#. If no mode is available, we use "right-strip-mode-1" for backward compat
+#: panels/wacom/csd-wacom-device.c:1224
+msgid "Right Touchstrip"
+msgstr "Højre berøringsstribe"
+
+#: panels/wacom/csd-wacom-device.c:1234
+#, c-format
+msgid "Right Touchstrip Mode #%d"
+msgstr "Højre berøringsstribetilstand #%d"
+
+#: panels/wacom/csd-wacom-device.c:1259
+msgid "Left Touchring Mode Switch"
+msgstr "Tilstandsskift for venstre berøringsring"
+
+#: panels/wacom/csd-wacom-device.c:1261
+msgid "Right Touchring Mode Switch"
+msgstr "Tilstandsskift for højre berøringsring"
+
+#: panels/wacom/csd-wacom-device.c:1264
+msgid "Left Touchstrip Mode Switch"
+msgstr "Tilstandsskift for venstre berøringsstribe"
+
+#: panels/wacom/csd-wacom-device.c:1266
+msgid "Right Touchstrip Mode Switch"
+msgstr "Tilstandsskift for højre berøringsstribe"
+
+#: panels/wacom/csd-wacom-device.c:1271
+#, c-format
+msgid "Mode Switch #%d"
+msgstr "Tilstandsskift #%d"
+
+#: panels/wacom/csd-wacom-device.c:1375
+#, c-format
+msgid "Left Button #%d"
+msgstr "Venstre knap #%d"
+
+#: panels/wacom/csd-wacom-device.c:1378
+#, c-format
+msgid "Right Button #%d"
+msgstr "Højre knap #%d"
+
+#: panels/wacom/csd-wacom-device.c:1381
+#, c-format
+msgid "Top Button #%d"
+msgstr "Topknap #%d"
+
+#: panels/wacom/csd-wacom-device.c:1384
+#, c-format
+msgid "Bottom Button #%d"
+msgstr "Bundknap #%d"
+
+#: panels/network/connection-editor/ce-page-8021x-security.c:101
+#: panels/network/connection-editor/ce-page-security.c:459
+#: panels/network/network-wifi.ui.h:6
+#: panels/network/connection-editor/details-page.ui.h:3
+msgid "Security"
+msgstr "Sikkerhed"
+
+#: panels/network/connection-editor/ce-page.c:481
+msgid "automatic"
+msgstr "automatisk"
+
+#: panels/network/connection-editor/ce-page.c:521
+#, c-format
+msgid "Profile %d"
+msgstr "Profil %d"
+
+#: panels/network/connection-editor/ce-page-details.c:89
+msgid "Never"
+msgstr "Aldrig"
+
+#: panels/network/connection-editor/ce-page-details.c:100
+msgid "Today"
+msgstr "I dag"
+
+#: panels/network/connection-editor/ce-page-details.c:102
+msgid "Yesterday"
+msgstr "I går"
+
+#: panels/network/connection-editor/ce-page-details.c:225
+#: panels/network/network-wifi.ui.h:47
+msgid "Details"
+msgstr "Detaljer"
+
+#: panels/network/connection-editor/ce-page-ethernet.c:215
+#: panels/network/connection-editor/ce-page-vpn.c:221
+#: panels/network/connection-editor/ce-page-wifi.c:227
+#: panels/network/network-wifi.ui.h:48
+msgid "Identity"
+msgstr "Identitet"
+
+#: panels/network/connection-editor/ce-page-ip4.c:202
+#: panels/network/connection-editor/ce-page-ip4.c:461
+#: panels/network/connection-editor/ce-page-ip6.c:180
+#: panels/network/connection-editor/ce-page-ip6.c:427
+msgid "Address"
+msgstr "Adresse"
+
+#: panels/network/connection-editor/ce-page-ip4.c:215
+#: panels/network/connection-editor/ce-page-ip4.c:474
+msgid "Netmask"
+msgstr "Netmaske"
+
+#: panels/network/connection-editor/ce-page-ip4.c:229
+#: panels/network/connection-editor/ce-page-ip4.c:487
+#: panels/network/connection-editor/ce-page-ip6.c:206
+#: panels/network/connection-editor/ce-page-ip6.c:453
+#: panels/network/network-vpn.ui.h:2
+msgid "Gateway"
+msgstr "Adgangspunkt"
+
+#: panels/network/connection-editor/ce-page-ip4.c:250
+#: panels/network/connection-editor/ce-page-ip6.c:223
+msgid "Delete Address"
+msgstr "Slet adresse"
+
+#: panels/network/connection-editor/ce-page-ip4.c:305
+#: panels/network/connection-editor/ce-page-ip6.c:277
+msgid "Add"
+msgstr "Tilføj"
+
+#: panels/network/connection-editor/ce-page-ip4.c:368
+#: panels/network/connection-editor/ce-page-ip6.c:334
+msgid "Server"
+msgstr "Server"
+
+#: panels/network/connection-editor/ce-page-ip4.c:385
+#: panels/network/connection-editor/ce-page-ip6.c:351
+msgid "Delete DNS Server"
+msgstr "Slet DNS-server"
+
+#. Translators: Please see https://en.wikipedia.org/wiki/Metrics_(networking)
+#: panels/network/connection-editor/ce-page-ip4.c:501
+#: panels/network/connection-editor/ce-page-ip6.c:467
+msgctxt "network parameters"
+msgid "Metric"
+msgstr "Metrik"
+
+#: panels/network/connection-editor/ce-page-ip4.c:522
+#: panels/network/connection-editor/ce-page-ip6.c:484
+msgid "Delete Route"
+msgstr "Slet rute"
+
+#: panels/network/connection-editor/ce-page-ip4.c:626
+#: panels/network/network-wifi.ui.h:28
+msgid "Automatic (DHCP)"
+msgstr "Automatisk (DHCP)"
+
+#: panels/network/connection-editor/ce-page-ip4.c:630
+#: panels/network/connection-editor/ce-page-ip6.c:592
+#: panels/network/network-wifi.ui.h:27
+msgid "Manual"
+msgstr "Manuel"
+
+#: panels/network/connection-editor/ce-page-ip4.c:634
+#: panels/network/connection-editor/ce-page-ip6.c:596
+msgid "Link-Local Only"
+msgstr "Kun link-lokal"
+
+#: panels/network/connection-editor/ce-page-ip4.c:980
+#: panels/network/network-wifi.ui.h:49
+msgid "IPv4"
+msgstr "IPv4"
+
+#: panels/network/connection-editor/ce-page-ip6.c:193
+#: panels/network/connection-editor/ce-page-ip6.c:440
+msgid "Prefix"
+msgstr "Præfiks"
+
+#: panels/network/connection-editor/ce-page-ip6.c:584
+#: panels/network/connection-editor/ethernet-page.ui.h:1
+#: panels/network/connection-editor/ip4-page.ui.h:4
+#: panels/network/connection-editor/ip6-page.ui.h:4
+#: panels/network/wireless-security/eap-method-peap.ui.h:2
+msgid "Automatic"
+msgstr "Automatisk"
+
+#: panels/network/connection-editor/ce-page-ip6.c:588
+msgid "Automatic, DHCP only"
+msgstr "Automatisk, kun DHCP"
+
+#: panels/network/connection-editor/ce-page-ip6.c:898
+#: panels/network/network-wifi.ui.h:50
+msgid "IPv6"
+msgstr "IPv6"
+
+#: panels/network/connection-editor/ce-page-reset.c:78
+msgid "Reset"
+msgstr "Nulstil"
+
+#: panels/network/connection-editor/ce-page-security.c:248
+msgctxt "Wi-Fi/Ethernet security"
+msgid "None"
+msgstr "Ingen"
+
+#: panels/network/connection-editor/ce-page-security.c:271
+msgid "WEP 40/128-bit Key (Hex or ASCII)"
+msgstr "WEP 40/128-bit-nøgle (Hex eller ASCII)"
+
+#: panels/network/connection-editor/ce-page-security.c:281
+msgid "WEP 128-bit Passphrase"
+msgstr "WEP 128-bit-adgangskode"
+
+#: panels/network/connection-editor/ce-page-security.c:294
+#: panels/network/wireless-security/wireless-security.c:463
+msgid "LEAP"
+msgstr "LEAP"
+
+#: panels/network/connection-editor/ce-page-security.c:307
+msgid "Dynamic WEP (802.1x)"
+msgstr "Dynamisk WEP (802.1x)"
+
+#: panels/network/connection-editor/ce-page-security.c:321
+msgid "WPA & WPA2 Personal"
+msgstr "WPA & WPA2 Personal"
+
+#: panels/network/connection-editor/ce-page-security.c:335
+msgid "WPA & WPA2 Enterprise"
+msgstr "WPA & WPA2 Enterprise"
+
+#: panels/network/connection-editor/firewall-helpers.c:49
+#: panels/network/connection-editor/firewall-helpers.c:118
+msgctxt "Firewall zone"
+msgid "Default"
+msgstr "Standard"
+
+#: panels/network/connection-editor/firewall-helpers.c:50
+msgid "The zone defines the trust level of the connection"
+msgstr "Zonen definerer forbindelsens tillidsniveau"
+
+#: panels/network/connection-editor/net-connection-editor.c:295
+msgid "Unable to open connection editor"
+msgstr "Kan ikke åbne forbindelsesredigering"
+
+#: panels/network/connection-editor/net-connection-editor.c:313
+msgid "New Profile"
+msgstr "Ny profil"
+
+#: panels/network/connection-editor/net-connection-editor.c:545
+msgid "_Add"
+msgstr "_Tilføj"
+
+#: panels/network/connection-editor/net-connection-editor.c:634
+msgid "VPN"
+msgstr "VPN"
+
+#: panels/network/connection-editor/net-connection-editor.c:782
+msgid "Import from file…"
+msgstr "Importér fra fil …"
+
+#: panels/network/connection-editor/net-connection-editor.c:816
+msgid "Add VPN"
+msgstr "Tilføj VPN"
+
+#: panels/network/connection-editor/vpn-helpers.c:141
+msgid "Cannot import VPN connection"
+msgstr "Kan ikke importere VPN-forbindelse"
+
+#: panels/network/connection-editor/vpn-helpers.c:143
+#, c-format
+msgid ""
+"The file “%s” could not be read or does not contain recognized VPN "
+"connection information\n"
+"\n"
+"Error: %s."
+msgstr ""
+"Filen \"%s\" kunne ikke læses eller indeholder ikke genkendelige oplysninger "
+"om VPN-forbindelsen\n"
+"\n"
+"Fejl: %s."
+
+#: panels/network/connection-editor/vpn-helpers.c:178
+msgid "Select file to import"
+msgstr "Vælg fil, der skal importeres"
+
+#: panels/network/connection-editor/vpn-helpers.c:182
+msgid "_Open"
+msgstr "_Åbn"
+
+#: panels/network/connection-editor/vpn-helpers.c:230
+#, c-format
+msgid "A file named “%s” already exists."
+msgstr "Der findes allerede en fil med navnet \"%s\"."
+
+#: panels/network/connection-editor/vpn-helpers.c:232
+msgid "_Replace"
+msgstr "_Erstat"
+
+#: panels/network/connection-editor/vpn-helpers.c:234
+#, c-format
+msgid "Do you want to replace %s with the VPN connection you are saving?"
+msgstr "Vil du erstatte %s med den VPN-forbindelse, du er ved at gemme?"
+
+#: panels/network/connection-editor/vpn-helpers.c:270
+msgid "Cannot export VPN connection"
+msgstr "Kan ikke eksportere VPN-forbindelse"
+
+#: panels/network/connection-editor/vpn-helpers.c:272
+#, c-format
+msgid ""
+"The VPN connection “%s” could not be exported to %s.\n"
+"\n"
+"Error: %s."
+msgstr ""
+"VPN-forbindelsen \"%s\" kunne ikke eksporteres til %s.\n"
+"\n"
+"Fejl: %s."
+
+#: panels/network/connection-editor/vpn-helpers.c:307
+msgid "Export VPN connection"
+msgstr "Eksportér VPN-forbindelse"
+
+#: panels/network/connection-editor/vpn-helpers.c:311
+msgid "_Save"
+msgstr "_Gem"
+
+#: panels/network/wireless-security/eap-method.c:69
+msgid "undefined error in 802.1x security (wpa-eap)"
+msgstr "udefineret fejl i 802.1X-sikkerhed (wpa-eap)"
+
+#: panels/network/wireless-security/eap-method.c:245
+msgid "no file selected"
+msgstr "ingen fil valgt"
+
+#: panels/network/wireless-security/eap-method.c:276
+msgid "unspecified error validating eap-method file"
+msgstr "uspecificeret fejl ved kontrol af eap-metodefil"
+
+#: panels/network/wireless-security/eap-method.c:321
+msgid "DER, PEM, or PKCS#12 private keys (*.der, *.pem, *.p12, *.key)"
+msgstr "Private DER-, PEM- eller PKCS#12-nøgler (*.der, *.pem, *.p12, *.key)"
+
+#: panels/network/wireless-security/eap-method.c:324
+msgid "DER or PEM certificates (*.der, *.pem, *.crt, *.cer)"
+msgstr "DER- eller PEM-certifikater (*.der, *.pem, *.crt, *.cer)"
+
+#: panels/network/wireless-security/eap-method-fast.c:72
+msgid "missing EAP-FAST PAC file"
+msgstr "manglende EAP-FAST PAC-fil"
+
+#: panels/network/wireless-security/eap-method-fast.c:268
+#: panels/network/wireless-security/eap-method-peap.c:302
+#: panels/network/wireless-security/eap-method-ttls.c:333
+msgid "GTC"
+msgstr "GTC"
+
+#: panels/network/wireless-security/eap-method-fast.c:283
+#: panels/network/wireless-security/eap-method-peap.c:272
+#: panels/network/wireless-security/eap-method-ttls.c:288
+msgid "MSCHAPv2"
+msgstr "MSCHAPv2"
+
+#: panels/network/wireless-security/eap-method-fast.c:406
+msgid "Choose a PAC file"
+msgstr "Vælg en PAC-fil"
+
+#: panels/network/wireless-security/eap-method-fast.c:413
+msgid "PAC files (*.pac)"
+msgstr "PAC-filer (*.pac)"
+
+#: panels/network/wireless-security/eap-method-leap.c:65
+msgid "missing EAP-LEAP username"
+msgstr "manglende EAP-LEAP-brugernavn"
+
+#: panels/network/wireless-security/eap-method-leap.c:74
+msgid "missing EAP-LEAP password"
+msgstr "manglende EAP-LEAP-adgangskode"
+
+#: panels/network/wireless-security/eap-method-peap.c:63
+#, c-format
+msgid "invalid EAP-PEAP CA certificate: %s"
+msgstr "ugyldigt CA-certifikat til EAP-PEAP: %s"
+
+#: panels/network/wireless-security/eap-method-peap.c:68
+msgid "invalid EAP-PEAP CA certificate: no certificate specified"
+msgstr "ugyldigt CA-certifikat til EAP-PEAP: intet certifikat angivet"
+
+#: panels/network/wireless-security/eap-method-peap.c:287
+#: panels/network/wireless-security/eap-method-ttls.c:318
+#: panels/network/wireless-security/wireless-security.c:439
+msgid "MD5"
+msgstr "MD5"
+
+#: panels/network/wireless-security/eap-method-peap.c:381
+#: panels/network/wireless-security/eap-method-tls.c:501
+#: panels/network/wireless-security/eap-method-ttls.c:412
+msgid "Choose a Certificate Authority certificate"
+msgstr "Vælg certifikat fra certifikatautoritet"
+
+#: panels/network/wireless-security/eap-method-simple.c:74
+msgid "missing EAP username"
+msgstr "manglende EAP-brugernavn"
+
+#: panels/network/wireless-security/eap-method-simple.c:87
+msgid "missing EAP password"
+msgstr "manglende EAP-adgangskode"
+
+#: panels/network/wireless-security/eap-method-tls.c:68
+msgid "missing EAP-TLS identity"
+msgstr "manglende EAP-TLS-identitet"
+
+#: panels/network/wireless-security/eap-method-tls.c:77
+#, c-format
+msgid "invalid EAP-TLS CA certificate: %s"
+msgstr "ugyldigt CA-certifikat til EAP-TLS: %s"
+
+#: panels/network/wireless-security/eap-method-tls.c:84
+msgid "invalid EAP-TLS CA certificate: no certificate specified"
+msgstr "ugyldigt CA-certifikat til EAP-TLS: intet certifikat angivet"
+
+#: panels/network/wireless-security/eap-method-tls.c:95
+msgid "invalid EAP-TLS password: missing"
+msgstr "ugyldig EAP-TLS-adgangskode: mangler"
+
+#: panels/network/wireless-security/eap-method-tls.c:109
+#, c-format
+msgid "invalid EAP-TLS private-key: %s"
+msgstr "ugyldig privat nøgle til EAP-TLS: %s"
+
+#: panels/network/wireless-security/eap-method-tls.c:119
+#, c-format
+msgid "invalid EAP-TLS user-certificate: %s"
+msgstr "ugyldigt brugercertifikat til EAP-TLS: %s"
+
+#: panels/network/wireless-security/eap-method-tls.c:316
+msgid "Unencrypted private keys are insecure"
+msgstr "Ukrypterede private nøgler er usikre"
+
+#: panels/network/wireless-security/eap-method-tls.c:319
+msgid ""
+"The selected private key does not appear to be protected by a password.  "
+"This could allow your security credentials to be compromised.  Please select "
+"a password-protected private key.\n"
+"\n"
+"(You can password-protect your private key with openssl)"
+msgstr ""
+"Den valgte private nøgle lader ikke til at være beskyttet med adgangskode. "
+"Dette kan medføre, at dine legitimationsoplysninger kompromitteres. Vælg "
+"venligst en privat nøgle beskyttet med adgangskode.\n"
+"\n"
+"(Du kan bruge openssl til at beskytte din private nøgle med adgangskode)"
+
+#: panels/network/wireless-security/eap-method-tls.c:495
+msgid "Choose your personal certificate"
+msgstr "Vælg dit personlige certifikat"
+
+#: panels/network/wireless-security/eap-method-tls.c:507
+msgid "Choose your private key"
+msgstr "Vælg din private nøgle"
+
+#: panels/network/wireless-security/eap-method-ttls.c:63
+#, c-format
+msgid "invalid EAP-TTLS CA certificate: %s"
+msgstr "ugyldigt CA-certifikat til EAP-TTLS: %s"
+
+#: panels/network/wireless-security/eap-method-ttls.c:68
+msgid "invalid EAP-TTLS CA certificate: no certificate specified"
+msgstr "ugyldigt CA-certifikat til EAP-TTLS: intet certifikat angivet"
+
+#: panels/network/wireless-security/eap-method-ttls.c:258
+msgid "PAP"
+msgstr "PAP"
+
+#: panels/network/wireless-security/eap-method-ttls.c:273
+msgid "MSCHAP"
+msgstr "MSCHAP"
+
+#: panels/network/wireless-security/eap-method-ttls.c:303
+msgid "CHAP"
+msgstr "CHAP"
+
+#: panels/network/wireless-security/wireless-security.c:87
+msgid "Unknown error validating 802.1x security"
+msgstr "Ukendt fejl ved validering af 802.1X-sikkerhed"
+
+#: panels/network/wireless-security/wireless-security.c:451
+msgid "TLS"
+msgstr "TLS"
+
+#: panels/network/wireless-security/wireless-security.c:475
+msgid "PWD"
+msgstr "PWD"
+
+#: panels/network/wireless-security/wireless-security.c:486
+msgid "FAST"
+msgstr "FAST"
+
+#: panels/network/wireless-security/wireless-security.c:497
+msgid "Tunneled TLS"
+msgstr "TLS gennem tunnel"
+
+#: panels/network/wireless-security/wireless-security.c:508
+msgid "Protected EAP (PEAP)"
+msgstr "Beskyttet EAP (PEAP)"
+
+#: panels/network/wireless-security/ws-leap.c:63
+msgid "missing leap-username"
+msgstr "manglende leap-brugernavn"
+
+#: panels/network/wireless-security/ws-leap.c:74
+msgid "missing leap-password"
+msgstr "manglende leap-adgangskode"
+
+#: panels/network/wireless-security/ws-wep-key.c:107
+msgid "missing wep-key"
+msgstr "manglende web-nøgle"
+
+#: panels/network/wireless-security/ws-wep-key.c:116
+#, c-format
+msgid ""
+"invalid wep-key: key with a length of %zu must contain only hex-digits"
+msgstr "ugyldig wep-nøgle: nøgle med længde %zu må kun indeholde hex-cifre"
+
+#: panels/network/wireless-security/ws-wep-key.c:124
+#, c-format
+msgid ""
+"invalid wep-key: key with a length of %zu must contain only ascii characters"
+msgstr "ugyldig web-nøgle: nøgle med længde %zu må kun indeholde ascii-tegn"
+
+#: panels/network/wireless-security/ws-wep-key.c:130
+#, c-format
+msgid ""
+"invalid wep-key: wrong key length %zu. A key must be either of length 5/13 "
+"(ascii) or 10/26 (hex)"
+msgstr ""
+"ugyldig wep-nøgle: forkert nøglelængde %zu. En nøgle skal have længden 5/13 "
+"(ascii) eller 10/26 (hex)"
+
+#: panels/network/wireless-security/ws-wep-key.c:137
+msgid "invalid wep-key: passphrase must be non-empty"
+msgstr "ugyldig wep-nøgle: adgangskode må ikke være tom"
+
+#: panels/network/wireless-security/ws-wep-key.c:139
+msgid "invalid wep-key: passphrase must be shorter than 64 characters"
+msgstr "ugyldig wep-nøgle: adgangskode skal være kortere end 64 tegn"
+
+#: panels/network/wireless-security/ws-wpa-psk.c:70
+#, c-format
+msgid ""
+"invalid wpa-psk: invalid key-length %zu. Must be [8,63] bytes or 64 hex "
+"digits"
+msgstr ""
+"ugyldig wpa-psk: ugyldig nøglelængde %zu. Skal være [8, 63] byte eller 64 "
+"hex-cifre"
+
+#: panels/network/wireless-security/ws-wpa-psk.c:79
+msgid "invalid wpa-psk: cannot interpret key with 64 bytes as hex"
+msgstr "ugyldig wpa-psk: kan ikke fortolke nøgle med 64 byte som hex"
+
+#. Text printed on screen
+#: panels/wacom/calibrator/gui_gtk.c:78
+msgid "Screen Calibration"
+msgstr "Skærmkalibrering"
+
+#: panels/wacom/calibrator/gui_gtk.c:79
+msgid ""
+"Please tap the target markers as they appear on screen to calibrate the "
+"tablet."
+msgstr ""
+"Rør ved målmarkørerne, efterhånden som de vises på skærmen, for at kalibrere "
+"tegnepladen."
+
+#: panels/wacom/calibrator/gui_gtk.c:368
+msgid "Mis-click detected, restarting..."
+msgstr "Fejlklik detekteret, genstarter …"
+
+#: shell/cc-shell-nav-bar.c:117
+msgid "_All Settings"
+msgstr "_Alle indstillinger"
+
+#: shell/control-center.c:58
+msgid "Enable verbose mode"
+msgstr "Anvend uddybende tilstand"
+
+#: shell/control-center.c:59
+msgid "Show the overview"
+msgstr "Vis oversigten"
+
+#: shell/control-center.c:60 shell/control-center.c:61
+#: shell/control-center.c:62
+msgid "Show help options"
+msgstr "Vis flag for hjælp"
+
+#: shell/control-center.c:63
+msgid "Panel to display"
+msgstr "Panel der skal vises"
+
+#: shell/control-center.c:85
+msgid "- System Settings"
+msgstr "- Systemindstillinger"
+
+#: shell/control-center.c:93
+#, c-format
+msgid ""
+"%s\n"
+"Run '%s --help' to see a full list of available command line options.\n"
+msgstr ""
+"%s\n"
+"Kør \"%s --help\" for at se den fulde liste over tilgængelige "
+"kommandolinjetilvalg.\n"
+
+#: shell/control-center.c:222
+msgid "Help"
+msgstr "Hjælp"
+
+#: shell/control-center.c:223
+msgid "Quit"
+msgstr "Afslut"
+
+#. translators: This is the default hotspot name, need to be less than 32-bytes
+#: shell/hostname-helper.c:189
+msgctxt "hotspot"
+msgid "Hotspot"
+msgstr "Hotspot"
+
+#: panels/color/color.ui.h:3 generate_additional_files.py:20
+msgid "Color"
+msgstr "Farve"
+
+#: panels/color/color.ui.h:4
+msgid "Each device needs an up to date color profile to be color managed."
+msgstr "For at farvehåndteres skal hver enhed have en ajourført farveprofil."
+
+#: panels/color/color.ui.h:5
+msgid "Add device"
+msgstr "Tilføj enhed"
+
+#: panels/color/color.ui.h:6
+msgid "Add a virtual device"
+msgstr "Tilføj en virtuel enhed"
+
+#: panels/color/color.ui.h:7
+msgid "Delete device"
+msgstr "Slet enhed"
+
+#: panels/color/color.ui.h:8
+msgid "Remove a device"
+msgstr "Fjern en enhed"
+
+#: panels/color/color.ui.h:10
+msgid "Set this profile for all users on this computer"
+msgstr "Anvend denne profil for alle brugere på denne computer"
+
+#: panels/color/color.ui.h:11
+msgid "Add profile"
+msgstr "Tilføj profil"
+
+#: panels/color/color.ui.h:12
+msgid "Remove profile"
+msgstr "Slet profil"
+
+#: panels/color/color.ui.h:13
+msgid "View details"
+msgstr "Vis detaljer"
+
+#: panels/color/color.ui.h:14
+msgid "Device type:"
+msgstr "Enhedstype:"
+
+#: panels/color/color.ui.h:15
+msgid "Manufacturer:"
+msgstr "Producent:"
+
+#: panels/color/color.ui.h:16
+msgid "Model:"
+msgstr "Model:"
+
+#: panels/color/color.ui.h:17
+msgid ""
+"Image files can be dragged on this window to auto-complete the above fields."
+msgstr ""
+"Billedfiler kan trækkes hen på dette vindue for automatisk fuldførelse af "
+"ovenstående felter."
+
+#: panels/common/language-chooser.ui.h:1
+msgid "Select a language"
+msgstr "Vælg et sprog"
+
+#: panels/common/language-chooser.ui.h:3
+msgid "_Select"
+msgstr "_Vælg"
+
+#: panels/datetime/datetime.ui.h:1
+msgid "_Region:"
+msgstr "_Region:"
+
+#: panels/datetime/datetime.ui.h:2
+msgid "_City:"
+msgstr "_By:"
+
+#: panels/datetime/datetime.ui.h:3
+msgid "_Network Time"
+msgstr "_Netværkstid"
+
+#. Translator: this is the separator between hours and minutes, like in HH:MM
+#: panels/datetime/datetime.ui.h:5
+msgid ":"
+msgstr ":"
+
+#: panels/datetime/datetime.ui.h:6
+msgid "Set the time one hour ahead."
+msgstr "Stil tiden en time frem."
+
+#: panels/datetime/datetime.ui.h:7
+msgid "Set the time one hour back."
+msgstr "Stil tiden en time tilbage."
+
+#: panels/datetime/datetime.ui.h:8
+msgid "Set the time one minute ahead."
+msgstr "Stil tiden et minut frem."
+
+#: panels/datetime/datetime.ui.h:9
+msgid "Set the time one minute back."
+msgstr "Stil tiden et minut tilbage."
+
+#: panels/datetime/datetime.ui.h:10
+msgid "Month"
+msgstr "Måned"
+
+#: panels/datetime/datetime.ui.h:11
+msgid "Day"
+msgstr "Dag"
+
+#: panels/datetime/datetime.ui.h:12
+msgid "Year"
+msgstr "År"
+
+#: panels/datetime/datetime.ui.h:13
+msgid "January"
+msgstr "januar"
+
+#: panels/datetime/datetime.ui.h:14
+msgid "February"
+msgstr "februar"
+
+#: panels/datetime/datetime.ui.h:15
+msgid "March"
+msgstr "marts"
+
+#: panels/datetime/datetime.ui.h:16
+msgid "April"
+msgstr "april"
+
+#: panels/datetime/datetime.ui.h:17
+msgid "May"
+msgstr "maj"
+
+#: panels/datetime/datetime.ui.h:18
+msgid "June"
+msgstr "juni"
+
+#: panels/datetime/datetime.ui.h:19
+msgid "July"
+msgstr "juli"
+
+#: panels/datetime/datetime.ui.h:20
+msgid "August"
+msgstr "august"
+
+#: panels/datetime/datetime.ui.h:21
+msgid "September"
+msgstr "september"
+
+#: panels/datetime/datetime.ui.h:22
+msgid "October"
+msgstr "oktober"
+
+#: panels/datetime/datetime.ui.h:23
+msgid "November"
+msgstr "november"
+
+#: panels/datetime/datetime.ui.h:24
+msgid "December"
+msgstr "december"
+
+#: panels/display/cc-display-panel.ui.h:1
+msgid "Display Arrangement"
+msgstr "Placering af skærme"
+
+#: panels/display/cc-display-panel.ui.h:2
+msgid "Set as Primary"
+msgstr "Angiv som primær"
+
+#: panels/display/cc-display-panel.ui.h:3
+msgid "Display Configuration"
+msgstr "Skærmkonfiguration"
+
+#: panels/display/cc-display-panel.ui.h:4
+msgid "Join Displays"
+msgstr "Sammenføj skærme"
+
+#: panels/display/cc-display-panel.ui.h:5
+msgid "Mirror"
+msgstr "Klon"
+
+#: panels/display/cc-display-panel.ui.h:6
+msgid "Displays"
+msgstr "Skærme"
+
+#: panels/display/cc-display-panel.ui.h:7
+msgid "Reset to Defaults"
+msgstr "Nulstil til standarder"
+
+#: panels/display/cc-display-panel.ui.h:8
+msgid "Cancel changes"
+msgstr "Annullér ændringer"
+
+#: panels/display/cc-display-panel.ui.h:9
+msgid "Apply"
+msgstr "Anvend"
+
+#: panels/display/cc-display-settings.ui.h:1
+msgid "Resolution"
+msgstr "Opløsning"
+
+#: panels/display/cc-display-settings.ui.h:2
+msgid "Refresh Rate"
+msgstr "Opdateringsfrekvens"
+
+#: panels/display/cc-display-settings.ui.h:3
+msgid "Rotation"
+msgstr "Rotation"
+
+#: panels/display/cc-display-settings.ui.h:5
+msgid "Adjust for TV"
+msgstr "Tilpas til TV"
+
+#: panels/network/network-ethernet.ui.h:2
+msgid "_Add Profile…"
+msgstr "_Tilføj profil …"
+
+#: panels/network/network-mobile.ui.h:1
+msgid "IMEI"
+msgstr "IMEI"
+
+#: panels/network/network-mobile.ui.h:2
+msgid "Provider"
+msgstr "Udbyder"
+
+#: panels/network/network-mobile.ui.h:8 generate_additional_files.py:50
+msgid "Network"
+msgstr "Netværk"
+
+#: panels/network/network-proxy.ui.h:1
+msgctxt "proxy method"
+msgid "None"
+msgstr "Ingen"
+
+#: panels/network/network-proxy.ui.h:2
+msgctxt "proxy method"
+msgid "Manual"
+msgstr "Manuel"
+
+#: panels/network/network-proxy.ui.h:3
+msgctxt "proxy method"
+msgid "Automatic"
+msgstr "Automatisk"
+
+#: panels/network/network-proxy.ui.h:4
+msgid "_Method"
+msgstr "_Metode"
+
+#: panels/network/network-proxy.ui.h:5
+msgid "_Configuration URL"
+msgstr "_Konfigurationsadresse"
+
+#: panels/network/network-proxy.ui.h:6
+msgid "_HTTP Proxy"
+msgstr "_HTTP-proxy"
+
+#: panels/network/network-proxy.ui.h:7
+msgid "H_TTPS Proxy"
+msgstr "H_TTPS-proxy"
+
+#: panels/network/network-proxy.ui.h:8
+msgid "_FTP Proxy"
+msgstr "_FTP-proxy"
+
+#: panels/network/network-proxy.ui.h:9
+msgid "_Socks Host"
+msgstr "_Socks-vært"
+
+#: panels/network/network-proxy.ui.h:10
+msgid "_Ignore Hosts"
+msgstr "_Ignorér værter"
+
+#: panels/network/network-proxy.ui.h:11
+msgid "HTTP proxy port"
+msgstr "Port for HTTP-proxy"
+
+#: panels/network/network-proxy.ui.h:12
+msgid "HTTPS proxy port"
+msgstr "Port for HTTPS-proxy"
+
+#: panels/network/network-proxy.ui.h:13
+msgid "FTP proxy port"
+msgstr "Port for FTP-proxy"
+
+#: panels/network/network-proxy.ui.h:14
+msgid "Socks proxy port"
+msgstr "Port for socks-proxy"
+
+#: panels/network/network-simple.ui.h:8
+msgid "Turn device off"
+msgstr "Slå enhed fra"
+
+#: panels/network/network.ui.h:1
+msgid "Add Device"
+msgstr "Tilføj enhed"
+
+#: panels/network/network.ui.h:2
+msgid "Remove Device"
+msgstr "Fjern enhed"
+
+#: panels/network/network-vpn.ui.h:1
+msgid "VPN Type"
+msgstr "VPN-type"
+
+#: panels/network/network-vpn.ui.h:3
+msgid "Group Name"
+msgstr "Gruppenavn"
+
+#: panels/network/network-vpn.ui.h:4
+msgid "Group Password"
+msgstr "Gruppeadgangskode"
+
+#: panels/network/network-vpn.ui.h:5
+msgid "Username"
+msgstr "Brugernavn"
+
+#: panels/network/network-vpn.ui.h:6
+msgid "Turn VPN connection off"
+msgstr "Slå VPN-forbindelse fra"
+
+#: panels/network/network-wifi.ui.h:2
+#: panels/network/connection-editor/connection-editor.ui.h:2
+msgid "_Apply"
+msgstr "An_vend"
+
+#: panels/network/network-wifi.ui.h:3
+msgid "Automatic _Connect"
+msgstr "_Forbind automatisk"
+
+#: panels/network/network-wifi.ui.h:4
+#: panels/network/connection-editor/details-page.ui.h:1
+msgid "Signal Strength"
+msgstr "Signalstyrke"
+
+#: panels/network/network-wifi.ui.h:5
+#: panels/network/connection-editor/details-page.ui.h:2
+msgid "Link speed"
+msgstr "Forbindelseshastighed"
+
+#: panels/network/network-wifi.ui.h:14
+msgid "details"
+msgstr "detaljer"
+
+#: panels/network/network-wifi.ui.h:15
+#: panels/network/connection-editor/wifi-page.ui.h:1
+msgid "_SSID"
+msgstr "_SSID"
+
+#: panels/network/network-wifi.ui.h:16
+#: panels/network/connection-editor/wifi-page.ui.h:2
+msgid "_BSSID"
+msgstr "_BSSID"
+
+#: panels/network/network-wifi.ui.h:17
+#: panels/network/connection-editor/security-page.ui.h:1
+msgid "S_ecurity"
+msgstr "S_ikkerhed"
+
+#: panels/network/network-wifi.ui.h:18
+#: panels/network/wireless-security/eap-method-leap.ui.h:2
+#: panels/network/wireless-security/eap-method-simple.ui.h:2
+#: panels/network/wireless-security/ws-leap.ui.h:2
+#: panels/network/wireless-security/ws-wpa-psk.ui.h:1
+msgid "_Password"
+msgstr "A_dgangskode"
+
+#: panels/network/network-wifi.ui.h:19
+#: panels/network/connection-editor/wifi-page.ui.h:3
+msgid "My Home Network"
+msgstr "Mit hjemmenetværk"
+
+#: panels/network/network-wifi.ui.h:21
+msgid "None"
+msgstr "Ingen"
+
+#: panels/network/network-wifi.ui.h:22
+msgid "Show P_assword"
+msgstr "_Vis adgangskode"
+
+#: panels/network/network-wifi.ui.h:23
+msgid "Make available to other users"
+msgstr "Gør tilgængelig for andre brugere"
+
+#: panels/network/network-wifi.ui.h:24
+msgid "identity"
+msgstr "identitet"
+
+#: panels/network/network-wifi.ui.h:25
+#: panels/network/connection-editor/ip4-page.ui.h:1
+msgid "IPv_4"
+msgstr "IPv_4"
+
+#: panels/network/network-wifi.ui.h:26
+#: panels/network/connection-editor/ip4-page.ui.h:2
+#: panels/network/connection-editor/ip6-page.ui.h:2
+msgid "_Addresses"
+msgstr "A_dresser"
+
+#: panels/network/network-wifi.ui.h:29
+msgid "Automatic (DHCP) addresses only"
+msgstr "Kun automatiske adresser (DHCP)"
+
+#: panels/network/network-wifi.ui.h:30
+msgid "Link-local only"
+msgstr "Kun link-lokal"
+
+#: panels/network/network-wifi.ui.h:31
+msgid "Shared with other computers"
+msgstr "Delt med andre computere"
+
+#: panels/network/network-wifi.ui.h:32
+msgid "Disabled"
+msgstr "Deaktiveret"
+
+#: panels/network/network-wifi.ui.h:33
+#: panels/network/connection-editor/ip4-page.ui.h:6
+#: panels/network/connection-editor/ip6-page.ui.h:6
+msgid "Routes"
+msgstr "Ruter"
+
+#: panels/network/network-wifi.ui.h:34
+msgid "_Ignore automatically obtained routes"
+msgstr "_Ignorér automatisk fundne ruter"
+
+#: panels/network/network-wifi.ui.h:35
+#: panels/network/connection-editor/ip4-page.ui.h:8
+#: panels/network/connection-editor/ip6-page.ui.h:8
+msgid "Use this connection _only for resources on its network"
+msgstr "Brug _kun denne forbindelse til ressourcer på dens netværk"
+
+#: panels/network/network-wifi.ui.h:36
+msgid "ipv4"
+msgstr "ipv4"
+
+#: panels/network/network-wifi.ui.h:37
+#: panels/network/connection-editor/ip6-page.ui.h:1
+msgid "IPv_6"
+msgstr "IPv_6"
+
+#: panels/network/network-wifi.ui.h:38
+msgid "ipv6"
+msgstr "ipv6"
+
+#: panels/network/network-wifi.ui.h:39
+#: panels/network/connection-editor/ethernet-page.ui.h:11
+#: panels/network/connection-editor/wifi-page.ui.h:4
+msgid "_MAC Address"
+msgstr "_MAC-adresse"
+
+#: panels/network/network-wifi.ui.h:40
+msgid "_Cloned MAC Address"
+msgstr "_Klonet MAC-adresse"
+
+#: panels/network/network-wifi.ui.h:41
+msgid "hardware"
+msgstr "hardware"
+
+#: panels/network/network-wifi.ui.h:42
+#: panels/network/connection-editor/reset-page.ui.h:1
+msgid "_Reset"
+msgstr "_Nulstil"
+
+#: panels/network/network-wifi.ui.h:44
+msgid ""
+"Reset the settings for this connection to their defaults, but remember as a "
+"preferred connection."
+msgstr ""
+"Nulstil indstillingerne for denne forbindelse, men husk som foretrukken "
+"forbindelse."
+
+#: panels/network/network-wifi.ui.h:45
+msgid ""
+"Remove all details relating to this network and do not try to automatically "
+"connect to it."
+msgstr ""
+"Fjern alle detaljer vedrørende dette netværk, og prøv ikke automatisk at "
+"forbinde til det."
+
+#: panels/network/network-wifi.ui.h:46
+msgid "reset"
+msgstr "nulstil"
+
+#: panels/network/network-wifi.ui.h:51
+msgid "Hardware"
+msgstr "Hardware"
+
+#: panels/network/network-wifi.ui.h:52
+msgctxt "tab"
+msgid "Reset"
+msgstr "Nulstil"
+
+#: panels/network/network-wifi.ui.h:53
+msgid "Wi-Fi Hotspot"
+msgstr "Trådløst hotspot"
+
+#: panels/network/network-wifi.ui.h:54
+msgid "_Turn On"
+msgstr "_Tænd"
+
+#: panels/network/network-wifi.ui.h:55
+msgid "Wi-Fi"
+msgstr "Wi-Fi"
+
+#: panels/network/network-wifi.ui.h:56
+msgid "Turn Wi-Fi off"
+msgstr "Sluk wi-fi"
+
+#: panels/network/network-wifi.ui.h:57
+msgid "_Use as Hotspot…"
+msgstr "_Brug som hotspot …"
+
+#: panels/network/network-wifi.ui.h:58
+msgid "_Connect to Hidden Network…"
+msgstr "_Forbind til skjult netværk …"
+
+#: panels/network/network-wifi.ui.h:59
+msgid "_History"
+msgstr "_Historik"
+
+#: panels/network/network-wifi.ui.h:60
+msgid "Switch off to connect to a Wi-Fi network"
+msgstr "Slå fra for at forbinde til et trådløst netværk"
+
+#: panels/network/network-wifi.ui.h:61
+msgid "Network Name"
+msgstr "Netværksnavn"
+
+#: panels/network/network-wifi.ui.h:62
+msgid "Connected Devices"
+msgstr "Forbundne enheder"
+
+#: panels/network/network-wifi.ui.h:63
+msgid "Security type"
+msgstr "Sikkerhedstype"
+
+#: panels/network/network-wifi.ui.h:64
+msgid "Password"
+msgstr "Adgangskode"
+
+#: panels/online-accounts/online-accounts.ui.h:1
+msgid "Undo"
+msgstr "Fortryd"
+
+#: panels/online-accounts/online-accounts.ui.h:2
+msgid "No internet connection — connect to set up new online accounts"
+msgstr "Ingen internetforbindelse — forbind for at sætte nye onlinekonti op"
+
+#: panels/online-accounts/online-accounts.ui.h:3
+msgid "Add an account"
+msgstr "Tilføj en konto"
+
+#: panels/online-accounts/online-accounts.ui.h:4
+msgid "Remove Account"
+msgstr "Fjern kontoen"
+
+#: panels/region/cinnamon-region-panel-layout-chooser.ui.h:1
+msgid "Choose a Layout"
+msgstr "Vælg et layout"
+
+#: panels/region/cinnamon-region-panel-layout-chooser.ui.h:2
+msgid "Preview"
+msgstr "Forhåndsvisning"
+
+#: panels/region/cinnamon-region-panel-layout-chooser.ui.h:3
+msgid "Select an input source to add"
+msgstr "Vælg en inputkilde, der skal tilføjes"
+
+#: panels/region/cinnamon-region-panel-options-dialog.ui.h:1
+msgid "Keyboard Layout Options"
+msgstr "Indstillinger for tastaturlayout"
+
+#: panels/region/cinnamon-region-panel.ui.h:1
+msgid "Region and Language"
+msgstr "Region og sprog"
+
+#: panels/region/cinnamon-region-panel.ui.h:2
+msgid "Add Layout"
+msgstr "Tilføj layout"
+
+#: panels/region/cinnamon-region-panel.ui.h:3
+msgid "Remove Layout"
+msgstr "Fjern layout"
+
+#: panels/region/cinnamon-region-panel.ui.h:4
+msgid "Move Up"
+msgstr "Flyt op"
+
+#: panels/region/cinnamon-region-panel.ui.h:5
+msgid "Move Down"
+msgstr "Flyt ned"
+
+#: panels/region/cinnamon-region-panel.ui.h:6
+msgid "Preview Layout"
+msgstr "Forhåndsvisning af layout"
+
+#: panels/region/cinnamon-region-panel.ui.h:7
+msgid "Include less-common layouts in the selection list"
+msgstr "Medtag mindre almindelige layout i udvalgslisten"
+
+#: panels/region/cinnamon-region-panel.ui.h:8
+msgid "Use the same layout for all windows"
+msgstr "Brug samme layout i alle vinduer"
+
+#: panels/region/cinnamon-region-panel.ui.h:9
+msgid "Allow different layouts for individual windows"
+msgstr "Tillad forskellige layout for hvert vindue"
+
+#: panels/region/cinnamon-region-panel.ui.h:10
+msgid "New windows use the default layout"
+msgstr "Nye vinduer anvender standardlayout"
+
+#: panels/region/cinnamon-region-panel.ui.h:11
+msgid "New windows use the previous window's layout"
+msgstr "Nye vinduer anvender det foregående vindues layout"
+
+#: panels/region/cinnamon-region-panel.ui.h:12
+msgid "Display options"
+msgstr "Visningsmuligheder"
+
+#: panels/region/cinnamon-region-panel.ui.h:13
+msgid "Use a country flag, if available,  to represent keyboard layouts"
+msgstr ""
+"Anvend et landeflag, hvis tilgængeligt, til at repræsentere tastaturlayout"
+
+#: panels/region/cinnamon-region-panel.ui.h:14
+msgid ""
+"Show the layout name instead of the group name when using text to represent "
+"a layout"
+msgstr ""
+"Vis layoutnavnet i stedet for gruppenavnet, når der anvendes tekst til at "
+"repræsentere et layout"
+
+#: panels/region/cinnamon-region-panel.ui.h:15
+msgid "Prefer upper-case when using text to represent a layout"
+msgstr ""
+"Foretræk store bogstaver, når der anvendes tekst til at repræsentere et "
+"layout"
+
+#: panels/region/cinnamon-region-panel.ui.h:16
+msgid "_Options..."
+msgstr "_Indstillinger …"
+
+#: panels/region/cinnamon-region-panel.ui.h:17
+msgid "View and edit keyboard layout options"
+msgstr "Vis og redigér indstillinger for tastaturlayout"
+
+#: panels/region/cinnamon-region-panel.ui.h:18
+msgid "Reset to De_faults"
+msgstr "Gendan _standardværdier"
+
+#: panels/region/cinnamon-region-panel.ui.h:19
+msgid ""
+"Replace the current keyboard layout settings with the\n"
+"default settings"
+msgstr ""
+"Erstat de aktuelle indstillinger for tastaturlayout med\n"
+"standardindstillingerne"
+
+#: panels/wacom/button-mapping.ui.h:1
+msgid "Map Buttons"
+msgstr "Tildel knapper"
+
+#: panels/wacom/button-mapping.ui.h:2
+msgid "Map buttons to functions"
+msgstr "Tildel funktioner til knapper"
+
+#: panels/wacom/button-mapping.ui.h:3
+msgid ""
+"To edit a shortcut, click the row and hold down the new keys or press "
+"Backspace to clear."
+msgstr ""
+"En genvejstast ændres ved at klikke på rækken og trykke på de nye taster "
+"eller trykke tilbagetast for at rydde."
+
+#: panels/wacom/cinnamon-wacom-properties.ui.h:1
+msgid "Tablet (absolute)"
+msgstr "Tegneplade (absolut)"
+
+#: panels/wacom/cinnamon-wacom-properties.ui.h:2
+msgid "Touchpad (relative)"
+msgstr "Touchpad (relativ)"
+
+#: panels/wacom/cinnamon-wacom-properties.ui.h:3
+msgid "Tablet Preferences"
+msgstr "Indstillinger for tegneplade"
+
+#: panels/wacom/cinnamon-wacom-properties.ui.h:4
+msgid "No tablet detected"
+msgstr "Ingen tegneplade fundet"
+
+#: panels/wacom/cinnamon-wacom-properties.ui.h:5
+msgid "Please plug in or turn on your graphics tablet"
+msgstr "Tilslut eller tænd venligst din tegneplade"
+
+#: panels/wacom/cinnamon-wacom-properties.ui.h:6
+msgid "Bluetooth Settings"
+msgstr "Bluetooth-indstillinger"
+
+#: panels/wacom/cinnamon-wacom-properties.ui.h:7
+#: generate_additional_files.py:60
+msgid "Graphics Tablet"
+msgstr "Tegneplade"
+
+#: panels/wacom/cinnamon-wacom-properties.ui.h:8
+msgid "Map to Monitor…"
+msgstr "Afbild på skærm …"
+
+#: panels/wacom/cinnamon-wacom-properties.ui.h:9
+msgid "Map Buttons…"
+msgstr "Tildel knapper …"
+
+#: panels/wacom/cinnamon-wacom-properties.ui.h:10
+msgid "Calibrate…"
+msgstr "Kalibrér …"
+
+#: panels/wacom/cinnamon-wacom-properties.ui.h:11
+msgid "Adjust display resolution"
+msgstr "Justér skærmopløsning"
+
+#: panels/wacom/cinnamon-wacom-properties.ui.h:12
+msgid "Tracking Mode"
+msgstr "Sporingstilstand"
+
+#: panels/wacom/cinnamon-wacom-properties.ui.h:13
+msgid "Left-Handed Orientation"
+msgstr "Venstrehåndsorientering"
+
+#: panels/wacom/wacom-stylus-page.ui.h:1
+msgid "No Action"
+msgstr "Ingen handling"
+
+#: panels/wacom/wacom-stylus-page.ui.h:2
+msgid "Left Mouse Button Click"
+msgstr "Venstre museklik"
+
+#: panels/wacom/wacom-stylus-page.ui.h:3
+msgid "Middle Mouse Button Click"
+msgstr "Midtermuseklik"
+
+#: panels/wacom/wacom-stylus-page.ui.h:4
+msgid "Right Mouse Button Click"
+msgstr "Højre museklik"
+
+#: panels/wacom/wacom-stylus-page.ui.h:5
+msgid "Scroll Up"
+msgstr "Rul opad"
+
+#: panels/wacom/wacom-stylus-page.ui.h:6
+msgid "Scroll Down"
+msgstr "Rul nedad"
+
+#: panels/wacom/wacom-stylus-page.ui.h:7
+msgid "Scroll Left"
+msgstr "Rul til venstre"
+
+#: panels/wacom/wacom-stylus-page.ui.h:8
+msgid "Scroll Right"
+msgstr "Rul til højre"
+
+#: panels/wacom/wacom-stylus-page.ui.h:9
+msgid "Back"
+msgstr "Tilbage"
+
+#: panels/wacom/wacom-stylus-page.ui.h:10
+msgid "Forward"
+msgstr "Frem"
+
+#: panels/wacom/wacom-stylus-page.ui.h:11
+msgid "Stylus"
+msgstr "Pen"
+
+#: panels/wacom/wacom-stylus-page.ui.h:12
+msgid "Eraser Pressure Feel"
+msgstr "Følelsen af pres med viskelæder"
+
+#: panels/wacom/wacom-stylus-page.ui.h:13
+msgid "Soft"
+msgstr "Blød"
+
+#: panels/wacom/wacom-stylus-page.ui.h:14
+msgid "Firm"
+msgstr "Fast"
+
+#: panels/wacom/wacom-stylus-page.ui.h:15
+msgid "Top Button"
+msgstr "Øvre knap"
+
+#: panels/wacom/wacom-stylus-page.ui.h:16
+msgid "Lower Button"
+msgstr "Nedre knap"
+
+#: panels/wacom/wacom-stylus-page.ui.h:17
+msgid "Tip Pressure Feel"
+msgstr "Følelsen af pres med spidsen"
+
+#: panels/wacom/wacom-stylus-page.ui.h:18
+msgid "Lowest Button"
+msgstr "Underste knap"
+
+#: panels/network/connection-editor/8021x-security-page.ui.h:1
+msgid "802.1x _Security"
+msgstr "802.1_x-sikkerhed"
+
+#: panels/network/connection-editor/8021x-security-page.ui.h:2
+#: panels/network/connection-editor/security-page.ui.h:3
+msgid "page 1"
+msgstr "side 1"
+
+#: panels/network/connection-editor/8021x-security-page.ui.h:3
+#: panels/network/connection-editor/security-page.ui.h:4
+#: panels/network/wireless-security/eap-method-fast.ui.h:5
+#: panels/network/wireless-security/eap-method-peap.ui.h:5
+#: panels/network/wireless-security/eap-method-ttls.ui.h:2
+msgid "Anony_mous identity"
+msgstr "A_nonym identitet"
+
+#: panels/network/connection-editor/8021x-security-page.ui.h:4
+#: panels/network/connection-editor/security-page.ui.h:5
+msgid "Inner _authentication"
+msgstr "Indre _godkendelse"
+
+#: panels/network/connection-editor/8021x-security-page.ui.h:5
+#: panels/network/connection-editor/security-page.ui.h:6
+msgid "page 2"
+msgstr "side 2"
+
+#: panels/network/connection-editor/details-page.ui.h:10
+msgid "Last Used"
+msgstr "Senest anvendt"
+
+#: panels/network/connection-editor/ethernet-page.ui.h:2
+msgid "Twisted Pair (TP)"
+msgstr "Parsnoet kabel (TP)"
+
+#: panels/network/connection-editor/ethernet-page.ui.h:3
+msgid "Attachment Unit Interface (AUI)"
+msgstr "Tilslutningsenhedsgrænseflade (AUI)"
+
+#: panels/network/connection-editor/ethernet-page.ui.h:4
+msgid "BNC"
+msgstr "BNC"
+
+#: panels/network/connection-editor/ethernet-page.ui.h:5
+msgid "Media Independent Interface (MII)"
+msgstr "Medieuafhængig grænseflade (MII)"
+
+#: panels/network/connection-editor/ethernet-page.ui.h:6
+msgid "10 Mb/s"
+msgstr "10 Mb/s"
+
+#: panels/network/connection-editor/ethernet-page.ui.h:7
+msgid "100 Mb/s"
+msgstr "100 Mb/s"
+
+#: panels/network/connection-editor/ethernet-page.ui.h:8
+msgid "1 Gb/s"
+msgstr "1 Gb/s"
+
+#: panels/network/connection-editor/ethernet-page.ui.h:9
+msgid "10 Gb/s"
+msgstr "10 Gb/s"
+
+#: panels/network/connection-editor/ethernet-page.ui.h:10
+#: panels/network/connection-editor/vpn-page.ui.h:1
+msgid "_Name"
+msgstr "_Navn"
+
+#: panels/network/connection-editor/ethernet-page.ui.h:12
+msgid "M_TU"
+msgstr "M_TU"
+
+#: panels/network/connection-editor/ethernet-page.ui.h:13
+#: panels/network/connection-editor/wifi-page.ui.h:5
+msgid "_Cloned Address"
+msgstr "_Klonet adresse"
+
+#: panels/network/connection-editor/ethernet-page.ui.h:14
+msgid "bytes"
+msgstr "byte"
+
+#: panels/network/connection-editor/ethernet-page.ui.h:15
+#: panels/network/connection-editor/vpn-page.ui.h:3
+msgid "Make available to other _users"
+msgstr "Gør tilgængelig for andre _brugere"
+
+#: panels/network/connection-editor/ethernet-page.ui.h:16
+#: panels/network/connection-editor/wifi-page.ui.h:7
+msgid "Connect _automatically"
+msgstr "Forbind a_utomatisk"
+
+#: panels/network/connection-editor/ethernet-page.ui.h:17
+#: panels/network/connection-editor/security-page.ui.h:2
+#: panels/network/connection-editor/vpn-page.ui.h:2
+msgid "Firewall _Zone"
+msgstr "Firewall_zone"
+
+#: panels/network/connection-editor/ip4-page.ui.h:5
+#: panels/network/connection-editor/ip6-page.ui.h:5
+msgid "Automatic DNS"
+msgstr "Automatisk DNS"
+
+#: panels/network/connection-editor/ip4-page.ui.h:7
+#: panels/network/connection-editor/ip6-page.ui.h:7
+msgid "Automatic Routes"
+msgstr "Automatiske ruter"
+
+#: panels/network/connection-editor/reset-page.ui.h:3
+msgid ""
+"Reset the settings for this network, including passwords, but remember it as "
+"a preferred network"
+msgstr ""
+"Nulstil indstillinger for dette netværk inklusive adgangskoder, men husk det "
+"som et foretrukkent netværk"
+
+#: panels/network/connection-editor/reset-page.ui.h:4
+msgid ""
+"Remove all details relating to this network and do not try to automatically "
+"connect"
+msgstr ""
+"Fjern alle detaljer vedrørende dette netværk, og prøv ikke automatisk at "
+"forbinde"
+
+#: panels/network/connection-editor/vpn-page.ui.h:4
+msgid "(Error: unable to load VPN connection editor)"
+msgstr "(Fejl: kan ikke indlæse program til redigering af VPN-forbindelse)"
+
+#: panels/network/connection-editor/wifi-page.ui.h:6
+msgid "Make available to _other users"
+msgstr "Gør tilgængelig for _andre brugere"
+
+#: panels/network/wireless-security/eap-method-fast.ui.h:1
+#: panels/network/wireless-security/eap-method-peap.ui.h:1
+#: panels/network/wireless-security/eap-method-ttls.ui.h:1
+#: panels/network/wireless-security/ws-dynamic-wep.ui.h:1
+#: panels/network/wireless-security/ws-wpa-eap.ui.h:1
+msgid " "
+msgstr " "
+
+#: panels/network/wireless-security/eap-method-fast.ui.h:2
+msgid "Anonymous"
+msgstr "Anonym"
+
+#: panels/network/wireless-security/eap-method-fast.ui.h:3
+msgid "Authenticated"
+msgstr "Godkendt"
+
+#: panels/network/wireless-security/eap-method-fast.ui.h:4
+msgid "Both"
+msgstr "Begge"
+
+#: panels/network/wireless-security/eap-method-fast.ui.h:6
+msgid "PAC _file"
+msgstr "PAC-_fil"
+
+#: panels/network/wireless-security/eap-method-fast.ui.h:7
+#: panels/network/wireless-security/eap-method-peap.ui.h:8
+#: panels/network/wireless-security/eap-method-ttls.ui.h:5
+msgid "_Inner authentication"
+msgstr "_Indre godkendelse"
+
+#: panels/network/wireless-security/eap-method-fast.ui.h:8
+msgid "Allow automatic PAC pro_visioning"
+msgstr "Tillad automatisk PAC-pro_visionering"
+
+#: panels/network/wireless-security/eap-method-leap.ui.h:1
+#: panels/network/wireless-security/eap-method-simple.ui.h:1
+#: panels/network/wireless-security/ws-leap.ui.h:1
+msgid "_Username"
+msgstr "_Brugernavn"
+
+#: panels/network/wireless-security/eap-method-leap.ui.h:3
+#: panels/network/wireless-security/eap-method-simple.ui.h:3
+#: panels/network/wireless-security/eap-method-tls.ui.h:7
+#: panels/network/wireless-security/ws-leap.ui.h:3
+#: panels/network/wireless-security/ws-wpa-psk.ui.h:3
+msgid "Sho_w password"
+msgstr "Vi_s adgangskode"
+
+#: panels/network/wireless-security/eap-method-peap.ui.h:3
+msgid "Version 0"
+msgstr "Version 0"
+
+#: panels/network/wireless-security/eap-method-peap.ui.h:4
+msgid "Version 1"
+msgstr "Version 1"
+
+#: panels/network/wireless-security/eap-method-peap.ui.h:6
+#: panels/network/wireless-security/eap-method-tls.ui.h:3
+#: panels/network/wireless-security/eap-method-ttls.ui.h:3
+msgid "C_A certificate"
+msgstr "C_A-certifikat"
+
+#: panels/network/wireless-security/eap-method-peap.ui.h:7
+#: panels/network/wireless-security/eap-method-tls.ui.h:4
+#: panels/network/wireless-security/eap-method-ttls.ui.h:4
+msgid "No CA certificate is _required"
+msgstr "CA-certifikat er ikke _påkrævet"
+
+#: panels/network/wireless-security/eap-method-peap.ui.h:9
+msgid "PEAP _version"
+msgstr "PEAP-_version"
+
+#: panels/network/wireless-security/eap-method-tls.ui.h:1
+msgid "I_dentity"
+msgstr "I_dentitet"
+
+#: panels/network/wireless-security/eap-method-tls.ui.h:2
+msgid "_User certificate"
+msgstr "_Brugercertifikat"
+
+#: panels/network/wireless-security/eap-method-tls.ui.h:5
+msgid "Private _key"
+msgstr "Privat _nøgle"
+
+#: panels/network/wireless-security/eap-method-tls.ui.h:6
+msgid "_Private key password"
+msgstr "Adgangskode for _privat nøgle"
+
+#: panels/network/wireless-security/ws-dynamic-wep.ui.h:2
+#: panels/network/wireless-security/ws-wep-key.ui.h:9
+#: panels/network/wireless-security/ws-wpa-eap.ui.h:2
+msgid "Au_thentication"
+msgstr "_Godkendelse"
+
+#: panels/network/wireless-security/ws-wep-key.ui.h:1
+msgid "1 (Default)"
+msgstr "1 (standard)"
+
+#: panels/network/wireless-security/ws-wep-key.ui.h:2
+msgid "2"
+msgstr "2"
+
+#: panels/network/wireless-security/ws-wep-key.ui.h:3
+msgid "3"
+msgstr "3"
+
+#: panels/network/wireless-security/ws-wep-key.ui.h:4
+msgid "4"
+msgstr "4"
+
+#: panels/network/wireless-security/ws-wep-key.ui.h:5
+msgid "Open System"
+msgstr "Åbent system"
+
+#: panels/network/wireless-security/ws-wep-key.ui.h:6
+msgid "Shared Key"
+msgstr "Delt nøgle"
+
+#: panels/network/wireless-security/ws-wep-key.ui.h:7
+msgid "_Key"
+msgstr "_Nøgle"
+
+#: panels/network/wireless-security/ws-wep-key.ui.h:8
+msgid "Sho_w key"
+msgstr "_Vis nøgle"
+
+#: panels/network/wireless-security/ws-wep-key.ui.h:10
+msgid "WEP inde_x"
+msgstr "WEP-inde_ks"
+
+#: panels/network/wireless-security/ws-wpa-psk.ui.h:2
+msgid "_Type"
+msgstr "_Type"
+
+#: generate_additional_files.py:20
+msgid "Color management settings"
+msgstr "Farvestyringsindstillinger"
+
+#: generate_additional_files.py:30
+msgid "Region & Language"
+msgstr "Region og sprog"
+
+#: generate_additional_files.py:30
+msgid "Change your region and language settings"
+msgstr "Ændr indstillinger for sprog og region"
+
+#: generate_additional_files.py:40
+msgid "Display"
+msgstr "Skærm"
+
+#: generate_additional_files.py:40
+msgid "Change resolution and position of monitors and projectors"
+msgstr "Ændr opløsning og placering af skærme og projektorer"
+
+#: generate_additional_files.py:50
+msgid "Network settings"
+msgstr "Netværksindstillinger"
+
+#: generate_additional_files.py:60
+msgid ""
+"Set button mappings and adjust stylus sensitivity for graphics tablets"
+msgstr ""
+"Angiv tildeling af knapper og justér følsomhed for digital pen til "
+"tegneplader"

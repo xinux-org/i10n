@@ -1,0 +1,2329 @@
+# Vital Khilko <dojlid@mova.org>,2002, 2003.
+# Ales Nyakhaychyk <nab@mail.by>, 2003, 2006, 2008.
+# Ihar Hrachyshka <ihar.hrachyshka@gmail.com>, 2006, 2007, 2011, 2012, 2013.
+# Andrey Ladyko <fylh.if@gmail.com>, 2009.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: xplayer.master\n"
+"Report-Msgid-Bugs-To: "
+"http://bugzilla.gnome.org/enter_bug.cgi?product=xplayer&keywords=I18N+L10N&co"
+"mponent=general\n"
+"POT-Creation-Date: 2018-10-01 16:32+0100\n"
+"PO-Revision-Date: 2021-07-04 09:28+0000\n"
+"Last-Translator: Anton Hryb <Unknown>\n"
+"Language-Team: Belarusian <i18n-bel-gnome@googlegroups.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
+"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Launchpad-Export-Date: 2022-10-10 13:08+0000\n"
+"X-Generator: Launchpad (build 762fb15a975e8b23af6a1f86e44e46bfd0451459)\n"
+"Language: be\n"
+
+#: ../data/fullscreen.ui.h:1
+msgid "Leave fullscreen"
+msgstr "Выйсці з поўнаэкраннага рэжыму"
+
+#: ../data/fullscreen.ui.h:2
+msgid "Blank other monitors"
+msgstr "Ачысціць іншыя маніторы"
+
+#: ../data/org.x.player.gschema.xml.in.in.h:1
+msgid "Allow the screensaver to activate when playing audio"
+msgstr "Дазволіць запуск экраннай застаўкі пры прайграванні аўдыё"
+
+#: ../data/org.x.player.gschema.xml.in.in.h:2
+msgid ""
+"Allow the screensaver to activate when playing audio. Disable if you have "
+"monitor-powered speakers."
+msgstr ""
+"Дазвольце актывацыю экраннай застаўкі пры прайграванні аўдыё. Адключыце гэту "
+"опцыю, калі вашы калонкі сілкуюцца ад манітора."
+
+#: ../data/org.x.player.gschema.xml.in.in.h:3
+msgid "The brightness of the video"
+msgstr "Яркасць відэа"
+
+#: ../data/org.x.player.gschema.xml.in.in.h:4
+msgid "The contrast of the video"
+msgstr "Кантраснасць відэа"
+
+#: ../data/org.x.player.gschema.xml.in.in.h:5
+msgid "The hue of the video"
+msgstr "Тон відэа"
+
+#: ../data/org.x.player.gschema.xml.in.in.h:6
+msgid "The saturation of the video"
+msgstr "Насычанасць відэа"
+
+#: ../data/org.x.player.gschema.xml.in.in.h:7
+msgid "Resize the canvas automatically on file load"
+msgstr "Аўтаматычна змяняць памер акна пры адкрыцці файла"
+
+#: ../data/org.x.player.gschema.xml.in.in.h:8
+msgid "Repeat mode"
+msgstr "Рэжым паўтору"
+
+#: ../data/org.x.player.gschema.xml.in.in.h:9
+msgid "Shuffle mode"
+msgstr "Рэжым перамешвання"
+
+#: ../data/org.x.player.gschema.xml.in.in.h:10
+msgid "Whether to disable deinterlacing for interlaced movies"
+msgstr "Ці адключыць дэінтэрлэйсінг для празрадковага відэа"
+
+#: ../data/org.x.player.gschema.xml.in.in.h:11
+msgid "Whether to enable debug for the playback engine"
+msgstr "Ці ўключаць наладку рухавіка прайгравання"
+
+#: ../data/org.x.player.gschema.xml.in.in.h:12
+msgid "Type of audio output to use"
+msgstr "Тып аўдыёвываду"
+
+#: ../data/org.x.player.gschema.xml.in.in.h:13
+msgid "Network buffering threshold"
+msgstr "Парог сеткавага буферавання"
+
+#: ../data/org.x.player.gschema.xml.in.in.h:14
+msgid ""
+"Amount of data to buffer for network streams before starting to display the "
+"stream (in seconds)."
+msgstr ""
+"Колькасць сеткавых даных для буферавання, патрэбная для пачатку паказу (у "
+"секундах)."
+
+#: ../data/org.x.player.gschema.xml.in.in.h:15
+msgid "Subtitle font"
+msgstr "Шрыфт субцітраў"
+
+#: ../data/org.x.player.gschema.xml.in.in.h:16
+msgid "Pango font description for subtitle rendering."
+msgstr "Апісанне Pango-шрыфту для паказу субцітраў."
+
+#: ../data/org.x.player.gschema.xml.in.in.h:17
+msgid "Subtitle encoding"
+msgstr "Кадзіроўка субцітраў"
+
+#: ../data/org.x.player.gschema.xml.in.in.h:18
+msgid "Encoding character set for subtitle."
+msgstr "Кадзіраванне набору сімвалаў для субцітраў."
+
+#: ../data/org.x.player.gschema.xml.in.in.h:19
+msgid "Default location for the \"Open...\" dialogs"
+msgstr "Стандартнае месцазнаходжанне для дыялогаў \"Адкрыць...\""
+
+#: ../data/org.x.player.gschema.xml.in.in.h:20
+msgid ""
+"Default location for the \"Open...\" dialogs. Default is the current "
+"directory."
+msgstr ""
+"Прадвызначанае месцазнаходжанне для дыялогаў \"Адкрыць...\". Бягучы каталог "
+"па змаўчанні."
+
+#: ../data/org.x.player.gschema.xml.in.in.h:21
+msgid "Default location for the \"Take Screenshot\" dialogs"
+msgstr ""
+"Прадвызначанае месцазнаходжанне для дыялогаў \"Зрабіць экранны здымак\""
+
+#: ../data/org.x.player.gschema.xml.in.in.h:22
+msgid ""
+"Default location for the \"Take Screenshot\" dialogs. Default is the "
+"Pictures directory."
+msgstr ""
+"Прадвызначанае месцазнаходжанне для дыялогаў \"Зрабіць экранны здымак\". "
+"Каталог Малюнкі па змаўчанні."
+
+#: ../data/org.x.player.gschema.xml.in.in.h:23
+msgid "Whether to disable the plugins in the user's home directory"
+msgstr "Ці адключаць убудовы з хатняга каталога карыстальніка"
+
+#: ../data/org.x.player.gschema.xml.in.in.h:24
+msgid "Whether to disable the keyboard shortcuts"
+msgstr "Ці адключаць спалучэнні клавіш"
+
+#: ../data/org.x.player.gschema.xml.in.in.h:25
+msgid "Whether to autoload text subtitle files when a movie is loaded"
+msgstr "Ці загружаць субцітры разам з фільмам"
+
+#: ../data/org.x.player.gschema.xml.in.in.h:26
+msgid "Whether to autoload external chapter files when a movie is loaded"
+msgstr "Ці загружаць файлы раздзелаў аўтаматычна пры адкрыцці фільма"
+
+#: ../data/org.x.player.gschema.xml.in.in.h:27
+msgid ""
+"Whether to remember the position of played audio/video files when pausing or "
+"closing them"
+msgstr ""
+"Ці запамінаць пазіцыю ў аўдыё- ці відэафайле пры яго прыпыненні ці закрыцці"
+
+#: ../data/org.x.player.gschema.xml.in.in.h:28
+msgid "Active plugins list"
+msgstr "Спіс актыўных убудоў"
+
+#: ../data/org.x.player.gschema.xml.in.in.h:29
+msgid ""
+"A list of the names of the plugins which are currently active (loaded and "
+"running)."
+msgstr "Спіс назваў актыўных убудоў (загружаных і дзейных)."
+
+#: ../data/org.x.player.gschema.xml.in.in.h:30 ../data/preferences.ui.h:20
+msgid "Use dark theme variant (if available)."
+msgstr "Выкарыстоўваць цёмную тэму (калі даступна)."
+
+#: ../data/playlist.ui.h:1
+msgid "_Remove"
+msgstr "_Выдаліць"
+
+#: ../data/playlist.ui.h:2
+msgid "Remove file from playlist"
+msgstr "Выдаліць файл са спіса прайгравання"
+
+#: ../data/playlist.ui.h:3
+msgid "_Copy Location"
+msgstr "С_капіяваць адрас"
+
+#: ../data/playlist.ui.h:4
+msgid "Copy the location to the clipboard"
+msgstr "Скапіяваць месцазнаходжанне ў буфер абмену"
+
+#: ../data/playlist.ui.h:5 ../data/xplayer.ui.h:78
+msgid "_Select Text Subtitles..."
+msgstr "_Выбраць субцітры..."
+
+#: ../data/playlist.ui.h:6 ../data/xplayer.ui.h:79
+msgid "Select a file to use for text subtitles"
+msgstr "Выберыце файл з субцітрамі"
+
+#: ../data/playlist.ui.h:7
+msgid "Add..."
+msgstr "Дадаць..."
+
+#: ../data/playlist.ui.h:8
+msgid "Remove"
+msgstr "Выдаліць"
+
+#: ../data/playlist.ui.h:9
+msgid "Save Playlist..."
+msgstr "Захаваць спіс прайгравання..."
+
+#: ../data/playlist.ui.h:10
+msgid "Move Up"
+msgstr "Падняць"
+
+#: ../data/playlist.ui.h:11
+msgid "Move Down"
+msgstr "Апусціць"
+
+#: ../data/preferences.ui.h:1 ../src/backend/bacon-video-widget.c:5095
+msgid "Stereo"
+msgstr "Стэрэа"
+
+#: ../data/preferences.ui.h:2
+msgid "4-channel"
+msgstr "4-канальны"
+
+#: ../data/preferences.ui.h:3
+msgid "4.1-channel"
+msgstr "4.1-канальны"
+
+#: ../data/preferences.ui.h:4
+msgid "5.0-channel"
+msgstr "5.0-канальны"
+
+#: ../data/preferences.ui.h:5
+msgid "5.1-channel"
+msgstr "5.1-канальны"
+
+#: ../data/preferences.ui.h:6
+msgid "AC3 Passthrough"
+msgstr "AC3 праходжанне"
+
+#: ../data/preferences.ui.h:7
+msgid "Xplayer Preferences"
+msgstr "Налады Xplayer"
+
+#: ../data/preferences.ui.h:8
+msgid "Playback"
+msgstr "Прайграванне"
+
+#: ../data/preferences.ui.h:9
+msgid "Start playing files from last position"
+msgstr "Пачаць прайграваць файлы з мінулага месца"
+
+#: ../data/preferences.ui.h:10
+msgid "Text Subtitles"
+msgstr "Субцітры"
+
+#: ../data/preferences.ui.h:11
+msgid "_Load subtitle files when movie is loaded"
+msgstr "_Загружаць файлы субцітраў пры адкрыцці фільма"
+
+#: ../data/preferences.ui.h:12
+msgid "_Display subtitles when movie is loaded"
+msgstr "_Паказваць субцітры калі відэа загружана"
+
+#: ../data/preferences.ui.h:13
+msgid "_Font:"
+msgstr "_Шрыфт:"
+
+#: ../data/preferences.ui.h:14
+msgid "_Encoding:"
+msgstr "_Кадзіроўка:"
+
+#: ../data/preferences.ui.h:15
+msgid "External Chapters"
+msgstr "Вонкавыя раздзелы"
+
+#: ../data/preferences.ui.h:16
+msgid "Load _chapter files when movie is loaded"
+msgstr "_Загружаць файлы раздзелаў пры адкрыцці фільма"
+
+#: ../data/preferences.ui.h:17 ../data/properties.ui.h:1
+msgid "General"
+msgstr "Агульнае"
+
+#. Tab label in the Preferences dialogue
+#: ../data/preferences.ui.h:19
+msgid "Display"
+msgstr "Паказ"
+
+#: ../data/preferences.ui.h:21
+msgid "_Resize the window when a new video is loaded"
+msgstr "_Змяняць памер акна пры адкрыцці новага відэа"
+
+#: ../data/preferences.ui.h:22
+msgid "Disable _deinterlacing of interlaced videos"
+msgstr "Адключыць д_эінтэрлэйсінг для празрадковага відэа"
+
+#: ../data/preferences.ui.h:23
+msgid "Disable screensaver when playing"
+msgstr "Адключаць застаўкі экрана пры прайграванні"
+
+#. Translators: this is part of the sentence
+#: ../data/preferences.ui.h:25
+msgctxt "Screensaver disable"
+msgid "Video"
+msgstr "Відэа"
+
+#. Translators: this is part of the sentence
+#: ../data/preferences.ui.h:27
+msgid "Video or Audio"
+msgstr "Відэа ці гук"
+
+#: ../data/preferences.ui.h:28
+msgid "Color Balance"
+msgstr "Баланс колераў"
+
+#: ../data/preferences.ui.h:29
+msgid "_Brightness:"
+msgstr "_Яркасць:"
+
+#: ../data/preferences.ui.h:30
+msgid "Co_ntrast:"
+msgstr "_Кантраснасць:"
+
+#: ../data/preferences.ui.h:31
+msgid "Sat_uration:"
+msgstr "_Насычанасць:"
+
+#: ../data/preferences.ui.h:32
+msgid "_Hue:"
+msgstr "_Тон:"
+
+#: ../data/preferences.ui.h:33
+msgid "Reset to _Defaults"
+msgstr "Вярнуць _прадвызначаныя налады"
+
+#: ../data/preferences.ui.h:34
+msgid "Audio Output"
+msgstr "Вывад гуку"
+
+#: ../data/preferences.ui.h:35
+msgid "_Audio output type:"
+msgstr "_Тып вываду гуку:"
+
+#: ../data/preferences.ui.h:36 ../data/properties.ui.h:14
+msgid "Audio"
+msgstr "Гук"
+
+#. Audio visualization dimensions
+#: ../data/preferences.ui.h:38
+msgid "Normal"
+msgstr "Звычайны"
+
+#. Audio visualization dimensions
+#: ../data/preferences.ui.h:40
+msgid "Large"
+msgstr "Вялікі"
+
+#. Audio visualization dimensions
+#: ../data/preferences.ui.h:42
+msgid "Extra Large"
+msgstr "Вялізны"
+
+#: ../data/properties.ui.h:2
+msgid "Title:"
+msgstr "Назва:"
+
+#: ../data/properties.ui.h:3
+msgid "Artist:"
+msgstr "Выканаўца:"
+
+#: ../data/properties.ui.h:4
+msgid "Duration:"
+msgstr "Працягласць:"
+
+#: ../data/properties.ui.h:5
+msgid "Year:"
+msgstr "Год:"
+
+#: ../data/properties.ui.h:6
+msgid "Album:"
+msgstr "Альбом:"
+
+#: ../data/properties.ui.h:7
+msgid "Comment:"
+msgstr "Каментар:"
+
+#: ../data/properties.ui.h:8
+msgid "Container:"
+msgstr "Кантэйнер:"
+
+#: ../data/properties.ui.h:9
+msgid "Video"
+msgstr "Відэа"
+
+#: ../data/properties.ui.h:10
+msgid "Dimensions:"
+msgstr "Памеры:"
+
+#: ../data/properties.ui.h:11
+msgid "Codec:"
+msgstr "Кодэк:"
+
+#: ../data/properties.ui.h:12
+msgid "Framerate:"
+msgstr "Частата кадраў:"
+
+#: ../data/properties.ui.h:13
+msgid "Bitrate:"
+msgstr "Бітрэйт:"
+
+#: ../data/properties.ui.h:15
+msgid "Sample rate:"
+msgstr "Частата сэмплаў:"
+
+#: ../data/properties.ui.h:16
+msgid "Channels:"
+msgstr "Каналы:"
+
+#. Title
+#: ../data/xplayer.desktop.in.in.in.h:1 ../data/xplayer.ui.h:87
+#: ../src/xplayer.c:259 ../src/xplayer.c:267 ../src/xplayer-object.c:1720
+#: ../src/xplayer-object.c:1771
+msgid "Media Player"
+msgstr "Медыяплэер"
+
+#: ../data/xplayer.desktop.in.in.in.h:2
+msgid "Play movies"
+msgstr "Прайграванне фільмаў"
+
+#: ../data/xplayer.desktop.in.in.in.h:3
+msgid "Video;Movie;Film;Clip;Series;Player;DVD;TV;Disc;"
+msgstr "Відэа;Фільм;Кіно;Кліп;Серыял;Прайгравальнік;DVD;TV;ТВ;Дыск;"
+
+#: ../data/xplayer.desktop.in.in.in.h:4 ../src/xplayer-options.c:50
+msgid "Play/Pause"
+msgstr "Прайграць/Прыпыніць"
+
+#: ../data/xplayer.desktop.in.in.in.h:5 ../src/xplayer-options.c:53
+msgid "Next"
+msgstr "Наступны"
+
+#: ../data/xplayer.desktop.in.in.in.h:6 ../src/xplayer-options.c:54
+msgid "Previous"
+msgstr "Папярэдні"
+
+#: ../data/xplayer.desktop.in.in.in.h:7
+msgid "Mute"
+msgstr "Сцішыць"
+
+#. Translators: this is the tooltip text for the fullscreen button in the controls box in Xplayer's main window.
+#. Translators: this is the accessibility text for the fullscreen button in the controls box in Xplayer's main window.
+#: ../data/xplayer.desktop.in.in.in.h:8 ../src/xplayer-object.c:4210
+#: ../src/xplayer-object.c:4212
+msgid "Fullscreen"
+msgstr "На ўвесь экран"
+
+#: ../data/xplayer.ui.h:1
+msgid "_File"
+msgstr "_Файл"
+
+#: ../data/xplayer.ui.h:2
+msgid "_Open..."
+msgstr "_Адкрыць..."
+
+#: ../data/xplayer.ui.h:3
+msgid "Open a file"
+msgstr "Адкрыць файл"
+
+#: ../data/xplayer.ui.h:4
+msgid "Open _Location..."
+msgstr "Адкрыць _месца…"
+
+#: ../data/xplayer.ui.h:5
+msgid "Open a non-local file"
+msgstr "Адкрыць аддалены файл"
+
+#: ../data/xplayer.ui.h:6
+msgid "_Eject"
+msgstr "_Выняць"
+
+#: ../data/xplayer.ui.h:7
+msgid "Eject the current disc"
+msgstr "Выняць устаўлены дыск"
+
+#: ../data/xplayer.ui.h:8
+msgid "_Properties"
+msgstr "_Уласцівасці"
+
+#: ../data/xplayer.ui.h:9
+msgid "View the properties of the current stream"
+msgstr "Паказаць уласцівасці гэтай плыні"
+
+#: ../data/xplayer.ui.h:10
+msgid "Play / P_ause"
+msgstr "Граць / Пры_пыніць"
+
+#: ../data/xplayer.ui.h:11
+msgid "Play or pause the movie"
+msgstr "Граць ці прыпыніць фільм"
+
+#: ../data/xplayer.ui.h:12
+msgid "_Quit"
+msgstr "_Выйсці"
+
+#: ../data/xplayer.ui.h:13
+msgid "Quit the program"
+msgstr "Выйсці з праграмы"
+
+#: ../data/xplayer.ui.h:14
+msgid "_Edit"
+msgstr "_Змяніць"
+
+#: ../data/xplayer.ui.h:15
+msgid "_Clear Playlist"
+msgstr "А_чысціць спіс прайгравання"
+
+#: ../data/xplayer.ui.h:16
+msgid "Clear the playlist"
+msgstr "Ачысціць спіс прайгравання"
+
+#: ../data/xplayer.ui.h:17
+msgid "Prefere_nces"
+msgstr "_Параметры"
+
+#: ../data/xplayer.ui.h:18
+msgid "Configure the application"
+msgstr "Наладзіць праграму"
+
+#: ../data/xplayer.ui.h:19
+msgid "Plugins..."
+msgstr "Убудовы..."
+
+#: ../data/xplayer.ui.h:20
+msgid "Configure plugins to extend the application"
+msgstr "Наладзіць убудовы для пашырэння магчымасцей праграмы"
+
+#: ../data/xplayer.ui.h:21
+msgid "_View"
+msgstr "_Выгляд"
+
+#: ../data/xplayer.ui.h:22
+msgid "_Fullscreen"
+msgstr "_На ўвесь экран"
+
+#: ../data/xplayer.ui.h:23
+msgid "Switch to fullscreen"
+msgstr "Перайсці ў поўнаэкранны рэжым"
+
+#: ../data/xplayer.ui.h:24
+msgid "Fit Window to Movie"
+msgstr "Дапасаваць акно да памераў фільма"
+
+#: ../data/xplayer.ui.h:25
+msgid "_Resize 1∶2"
+msgstr "_Памер 1:2"
+
+#: ../data/xplayer.ui.h:26
+msgid "Resize to half the original video size"
+msgstr "Паменшыць памер відэа ў два разы"
+
+#: ../data/xplayer.ui.h:27
+msgid "Resize _1∶1"
+msgstr "Памер _1:1"
+
+#: ../data/xplayer.ui.h:28
+msgid "Resize to the original video size"
+msgstr "Вярнуць арыгінальны памер відэа"
+
+#: ../data/xplayer.ui.h:29
+msgid "Resize _2∶1"
+msgstr "Памер _2:1"
+
+#: ../data/xplayer.ui.h:30
+msgid "Resize to double the original video size"
+msgstr "Павялічыць памер відэа ў два разы"
+
+#: ../data/xplayer.ui.h:31
+msgid "_Aspect Ratio"
+msgstr "_Прапорцыі відэа"
+
+#: ../data/xplayer.ui.h:32
+msgid "Switch An_gles"
+msgstr "Змяніць _вугал"
+
+#: ../data/xplayer.ui.h:33
+msgid "Switch camera angles"
+msgstr "Змяніць вугал камеры"
+
+#: ../data/xplayer.ui.h:34
+msgid "_Go"
+msgstr "_Перайсці"
+
+#: ../data/xplayer.ui.h:35
+msgid "_DVD Menu"
+msgstr "Мен_ю DVD"
+
+#: ../data/xplayer.ui.h:36
+msgid "Go to the DVD menu"
+msgstr "Перайсці да меню DVD"
+
+#: ../data/xplayer.ui.h:37
+msgid "_Title Menu"
+msgstr "_Загалоўнае меню"
+
+#: ../data/xplayer.ui.h:38
+msgid "Go to the title menu"
+msgstr "Перайсці да загалоўнага меню"
+
+#: ../data/xplayer.ui.h:39
+msgid "A_udio Menu"
+msgstr "_Гукавое меню"
+
+#: ../data/xplayer.ui.h:40
+msgid "Go to the audio menu"
+msgstr "Перайсці да гукавога меню"
+
+#: ../data/xplayer.ui.h:41
+msgid "_Angle Menu"
+msgstr "Меню вуглоў"
+
+#: ../data/xplayer.ui.h:42
+msgid "Go to the angle menu"
+msgstr "Перайсці да меню вуглоў"
+
+#: ../data/xplayer.ui.h:43
+msgid "_Chapter Menu"
+msgstr "Меню _раздзелаў"
+
+#: ../data/xplayer.ui.h:44
+msgid "Go to the chapter menu"
+msgstr "Перайсці да меню раздзелаў"
+
+#: ../data/xplayer.ui.h:45
+msgid "_Next Chapter/Movie"
+msgstr "_Наступны раздзел ці фільм"
+
+#: ../data/xplayer.ui.h:46
+msgid "Next chapter or movie"
+msgstr "Наступны раздзел або фільм"
+
+#: ../data/xplayer.ui.h:47
+msgid "_Previous Chapter/Movie"
+msgstr "_Папярэдні раздзел ці фільм"
+
+#: ../data/xplayer.ui.h:48
+msgid "Previous chapter or movie"
+msgstr "Папярэдні раздзел або фільм"
+
+#: ../data/xplayer.ui.h:49
+msgid "_Sound"
+msgstr "_Гук"
+
+#: ../data/xplayer.ui.h:50
+msgid "Volume _Up"
+msgstr "Па_вялічыць гучнасць"
+
+#: ../data/xplayer.ui.h:51
+msgid "Increase volume"
+msgstr "Павялічыць гучнасць"
+
+#: ../data/xplayer.ui.h:52
+msgid "Volume _Down"
+msgstr "Па_меншыць гучнасць"
+
+#: ../data/xplayer.ui.h:53
+msgid "Decrease volume"
+msgstr "Паменшыць гучнасць"
+
+#: ../data/xplayer.ui.h:54
+msgid "_Help"
+msgstr "_Дапамога"
+
+#: ../data/xplayer.ui.h:55
+msgid "_Contents"
+msgstr "_Змест"
+
+#: ../data/xplayer.ui.h:56
+msgid "Help contents"
+msgstr "Змест даведкі"
+
+#: ../data/xplayer.ui.h:57
+msgid "_About"
+msgstr "_Аб праграме"
+
+#: ../data/xplayer.ui.h:58
+msgid "About this application"
+msgstr "Аб гэтай праграме"
+
+#: ../data/xplayer.ui.h:59
+msgid "_Repeat Mode"
+msgstr "_Рэжым паўтору"
+
+#: ../data/xplayer.ui.h:60
+msgid "Set the repeat mode"
+msgstr "Наладзіць рэжым паўтору"
+
+#: ../data/xplayer.ui.h:61
+msgid "Shuff_le Mode"
+msgstr "Рэжым _перамешвання"
+
+#: ../data/xplayer.ui.h:62
+msgid "Set the shuffle mode"
+msgstr "Наладзіць рэжым перамешвання"
+
+#: ../data/xplayer.ui.h:63
+msgid "Show _Controls"
+msgstr "Паказаць сродкі _кіравання"
+
+#: ../data/xplayer.ui.h:64
+msgid "Show controls"
+msgstr "Паказаць сродкі кіравання"
+
+#: ../data/xplayer.ui.h:65
+msgid "S_idebar"
+msgstr "_Бакавая панэль"
+
+#: ../data/xplayer.ui.h:66
+msgid "Show or hide the sidebar"
+msgstr "Паказаць ці схаваць бакавую панэль"
+
+#: ../data/xplayer.ui.h:67
+msgctxt "Aspect ratio"
+msgid "Auto"
+msgstr "Аўтаматычна"
+
+#: ../data/xplayer.ui.h:68
+msgid "Sets automatic aspect ratio"
+msgstr "Задаць прапорцыі відэа аўтаматычна"
+
+#: ../data/xplayer.ui.h:69
+msgid "Square"
+msgstr "Квадрат"
+
+#: ../data/xplayer.ui.h:70
+msgid "Sets square aspect ratio"
+msgstr "Ужыць квадратныя прапорцыі відэа"
+
+#: ../data/xplayer.ui.h:71
+msgid "4∶3 (TV)"
+msgstr "4:3 (TV)"
+
+#: ../data/xplayer.ui.h:72
+msgid "Sets 4∶3 (TV) aspect ratio"
+msgstr "Ужыць прапорцыі відэа 4:3 (TV)"
+
+#: ../data/xplayer.ui.h:73
+msgid "16∶9 (Widescreen)"
+msgstr "16:9 (шырокі экран)"
+
+#: ../data/xplayer.ui.h:74
+msgid "Sets 16∶9 (widescreen) aspect ratio"
+msgstr "Ужыць прапорцыі відэа 16:9 (для шырокага экрана)"
+
+#: ../data/xplayer.ui.h:75
+msgid "2.11∶1 (DVB)"
+msgstr "2.11:1 (DVB)"
+
+#: ../data/xplayer.ui.h:76
+msgid "Sets 2.11∶1 (DVB) aspect ratio"
+msgstr "Ужыць прапорцыі відэа 2.11:1 (DVB)"
+
+#: ../data/xplayer.ui.h:77
+msgid "S_ubtitles"
+msgstr "_Субцітры"
+
+#: ../data/xplayer.ui.h:80
+msgid "_Languages"
+msgstr "_Мовы"
+
+#: ../data/xplayer.ui.h:81
+msgid "Zoom In"
+msgstr "Наблізіць"
+
+#: ../data/xplayer.ui.h:82
+msgid "Zoom in"
+msgstr "Наблізіць"
+
+#: ../data/xplayer.ui.h:83
+msgid "Skip _Forward"
+msgstr "Пераскочыць _наперад"
+
+#: ../data/xplayer.ui.h:84
+msgid "Skip forward"
+msgstr "Пераскочыць наперад"
+
+#: ../data/xplayer.ui.h:85
+msgid "Skip _Backwards"
+msgstr "Пераскочыць на_зад"
+
+#: ../data/xplayer.ui.h:86
+msgid "Skip backwards"
+msgstr "Пераскочыць назад"
+
+#: ../data/xplayer.ui.h:88
+msgid "Time seek bar"
+msgstr "Стужка пракруткі часу"
+
+#: ../data/uri.ui.h:1
+msgid "Enter the _address of the file you would like to open:"
+msgstr "Упішыце _адрас файла, які трэба адкрыць:"
+
+#: ../src/backend/bacon-video-widget.c:1634
+msgid "Password requested for RTSP server"
+msgstr "Патрабуецца пароль для сервера RTSP"
+
+#: ../src/backend/bacon-video-widget.c:2888
+#, c-format
+msgid "Audio Track #%d"
+msgstr "Аўдыётрэк #%d"
+
+#: ../src/backend/bacon-video-widget.c:2892
+#, c-format
+msgid "Subtitle #%d"
+msgstr "Субцітры №%d"
+
+#: ../src/backend/bacon-video-widget.c:3276
+msgid "The server you are trying to connect to is not known."
+msgstr "Сервер, з якім вы спрабуеце злучыцца, невядомы."
+
+#: ../src/backend/bacon-video-widget.c:3279
+msgid "The connection to this server was refused."
+msgstr "Адмоўлена ў злучэнні з гэтым серверам."
+
+#: ../src/backend/bacon-video-widget.c:3282
+msgid "The specified movie could not be found."
+msgstr "Вызначаны фільм не знойдзены."
+
+#: ../src/backend/bacon-video-widget.c:3289
+msgid "The server refused access to this file or stream."
+msgstr "Сервэр забараніў доступ да гэтага файла ці плыні."
+
+#: ../src/backend/bacon-video-widget.c:3295
+msgid "Authentication is required to access this file or stream."
+msgstr "Для доступу да гэтай плыні патрабуецца аўтэнтыфікацыя."
+
+#: ../src/backend/bacon-video-widget.c:3302
+msgid "You are not allowed to open this file."
+msgstr "Вам не дазволена адкрываць гэты файл."
+
+#: ../src/backend/bacon-video-widget.c:3307
+msgid "This location is not a valid one."
+msgstr "Няправільнае месцазнаходжанне."
+
+#: ../src/backend/bacon-video-widget.c:3315
+msgid "The movie could not be read."
+msgstr "Не выйшла прачытаць гэты фільм."
+
+#. should be exactly one missing thing (source or converter)
+#: ../src/backend/bacon-video-widget.c:3338
+#: ../src/backend/bacon-video-widget.c:3346
+#, c-format
+msgid ""
+"The playback of this movie requires a %s plugin which is not installed."
+msgid_plural ""
+"The playback of this movie requires the following plugins which are not "
+"installed:\n"
+"\n"
+"%s"
+msgstr[0] ""
+"Каб прайграць гэты фільм, патрэбна ўбудова %s, але яна не ўсталявана."
+msgstr[1] ""
+"Каб прайграць гэты фільм, патрэбны наступныя ўбудовы, але яны не "
+"ўсталяваныя:\r\n"
+"\r\n"
+"%s"
+msgstr[2] ""
+"Каб прайграць гэты фільм, патрэбны наступныя ўбудовы, але яны не "
+"ўсталяваныя:\r\n"
+"\r\n"
+"%s"
+
+#: ../src/backend/bacon-video-widget.c:3357
+msgid ""
+"An audio or video stream is not handled due to missing codecs. You might "
+"need to install additional plugins to be able to play some types of movies"
+msgstr ""
+"Аўдыё- ці відэа-плынь не апрацавана з прычыны адсутнасці кодэкаў. Каб "
+"прайграваць пэўныя тыпы фільмаў, патрабуецца ўсталяваць дадатковыя ўбудовы."
+
+#: ../src/backend/bacon-video-widget.c:3367
+msgid ""
+"This file cannot be played over the network. Try downloading it locally "
+"first."
+msgstr ""
+"Гэты файл не даступны для прайгравання праз сетку. Паспрабуйце спачатку "
+"спампаваць яго на дыск."
+
+#: ../src/backend/bacon-video-widget.c:5091
+msgid "Surround"
+msgstr "Аб'ёмны гук"
+
+#: ../src/backend/bacon-video-widget.c:5093
+msgid "Mono"
+msgstr "Мона"
+
+#: ../src/backend/bacon-video-widget.c:5379
+msgid "Media contains no supported video streams."
+msgstr "Носьбіт ня ўтрымлівае падтрыманых відэаплыняў."
+
+#: ../src/backend/bacon-video-widget.c:5569
+msgid ""
+"Some necessary plug-ins are missing. Make sure that the program is correctly "
+"installed."
+msgstr ""
+"Адсутнічаюць некаторыя патрэбныя ўбудовы. Спраўдзіце карэктнасць усталявання "
+"праграмы."
+
+#: ../src/eggdesktopfile.c:165
+#, c-format
+msgid "File is not a valid .desktop file"
+msgstr "Няправільны .desktop-файл"
+
+#: ../src/eggdesktopfile.c:188
+#, c-format
+msgid "Unrecognized desktop file Version '%s'"
+msgstr "Невядомая версія .desktop-файла \"%s\""
+
+#: ../src/eggdesktopfile.c:968
+#, c-format
+msgid "Starting %s"
+msgstr "Запуск %s"
+
+#: ../src/eggdesktopfile.c:1110
+#, c-format
+msgid "Application does not accept documents on command line"
+msgstr "Праграма не прымае дакументы з каманднага радка"
+
+#: ../src/eggdesktopfile.c:1178
+#, c-format
+msgid "Unrecognized launch option: %d"
+msgstr "Невядомая опцыя запуску: %d"
+
+#: ../src/eggdesktopfile.c:1383
+#, c-format
+msgid "Can't pass document URIs to a 'Type=Link' desktop entry"
+msgstr ""
+"Немагчыма перадаць URI-адрасы дакументаў desktop-элементу з \"Type=Link\""
+
+#: ../src/eggdesktopfile.c:1404
+#, c-format
+msgid "Not a launchable item"
+msgstr "Незапускальны элемент"
+
+#: ../src/eggfileformatchooser.c:240
+#, c-format
+msgid "File _Format: %s"
+msgstr "_Фармат файла: %s"
+
+#: ../src/eggfileformatchooser.c:379
+msgid "All Files"
+msgstr "Усе файлы"
+
+#: ../src/eggfileformatchooser.c:380
+msgid "All Supported Files"
+msgstr "Усе падтрымліваемыя файлы"
+
+#: ../src/eggfileformatchooser.c:389
+msgid "By Extension"
+msgstr "Паводле пашырэнняў"
+
+#: ../src/eggfileformatchooser.c:404
+msgid "File Format"
+msgstr "Фармат файла"
+
+#: ../src/eggfileformatchooser.c:422
+msgid "Extension(s)"
+msgstr "Пашырэнні"
+
+#. Translators: the parameter is a filename
+#: ../src/eggfileformatchooser.c:657
+#, c-format
+msgid ""
+"The program was not able to find out the file format you want to use for "
+"`%s'. Please make sure to use a known extension for that file or manually "
+"choose a file format from the list below."
+msgstr ""
+"Праграма не здолела высветліць фармат файла, які трэба ўжыць для \"%s\". "
+"Выкарыстайце для файла вядомае пашырэнне або ўручную выберыце са спіса яго "
+"фармат."
+
+#: ../src/eggfileformatchooser.c:664
+msgid "File format not recognized"
+msgstr "Фармат файла не апазнаны"
+
+#: ../src/eggsmclient.c:226
+msgid "Disable connection to session manager"
+msgstr "Адключыць злучэнне з кіраўніком сеансаў"
+
+#: ../src/eggsmclient.c:229
+msgid "Specify file containing saved configuration"
+msgstr "Пазначце файл, што змяшчае захаваную канфігурацыю"
+
+#: ../src/eggsmclient.c:229
+msgid "FILE"
+msgstr "ФАЙЛ"
+
+#: ../src/eggsmclient.c:232
+msgid "Specify session management ID"
+msgstr "Задаць ID кіравання сеансам"
+
+#: ../src/eggsmclient.c:232
+msgid "ID"
+msgstr "ID"
+
+#: ../src/eggsmclient.c:253
+msgid "Session management options:"
+msgstr "Параметры кіравання сеансам:"
+
+#: ../src/eggsmclient.c:254
+msgid "Show session management options"
+msgstr "Паказаць параметры кіравання сеансам"
+
+#. hour:minutes:seconds
+#. Translators: This is a time format, like "9:05:02" for 9
+#. * hours, 5 minutes, and 2 seconds. You may change ":" to
+#. * the separator that your locale uses or use "%Id" instead
+#. * of "%d" if your locale uses localized digits.
+#. 
+#: ../src/gst/xplayer-time-helpers.c:56
+#: ../src/plugins/skipto/xplayer-time-entry.c:57
+#, c-format
+msgctxt "long time format"
+msgid "%d:%02d:%02d"
+msgstr "%d:%02d:%02d"
+
+#. minutes:seconds
+#. Translators: This is a time format, like "5:02" for 5
+#. * minutes and 2 seconds. You may change ":" to the
+#. * separator that your locale uses or use "%Id" instead of
+#. * "%d" if your locale uses localized digits.
+#. 
+#: ../src/gst/xplayer-time-helpers.c:65
+#, c-format
+msgctxt "short time format"
+msgid "%d:%02d"
+msgstr "%d:%02d"
+
+#. Title
+#. Artist
+#. Album
+#. Year
+#. Container
+#: ../src/properties/bacon-video-widget-properties.c:107
+#: ../src/properties/bacon-video-widget-properties.c:109
+#: ../src/properties/bacon-video-widget-properties.c:111
+#: ../src/properties/bacon-video-widget-properties.c:113
+#: ../src/properties/bacon-video-widget-properties.c:119
+#: ../src/xplayer-menu.c:148 ../src/xplayer-object.c:1384
+msgid "Unknown"
+msgstr "Невядома"
+
+#. Dimensions
+#: ../src/properties/bacon-video-widget-properties.c:122
+msgctxt "Dimensions"
+msgid "N/A"
+msgstr "Недаступна"
+
+#. Video Codec
+#: ../src/properties/bacon-video-widget-properties.c:124
+msgctxt "Video codec"
+msgid "N/A"
+msgstr "Недаступна"
+
+#: ../src/properties/bacon-video-widget-properties.c:127
+msgctxt "Video bit rate"
+msgid "N/A"
+msgstr "Недаступна"
+
+#: ../src/properties/bacon-video-widget-properties.c:130
+#: ../src/properties/bacon-video-widget-properties.c:240
+msgctxt "Frame rate"
+msgid "N/A"
+msgstr "Недаступна"
+
+#: ../src/properties/bacon-video-widget-properties.c:134
+msgctxt "Audio bit rate"
+msgid "N/A"
+msgstr "Недаступна"
+
+#. Audio Codec
+#: ../src/properties/bacon-video-widget-properties.c:136
+msgctxt "Audio codec"
+msgid "N/A"
+msgstr "Недаступна"
+
+#. Sample rate
+#: ../src/properties/bacon-video-widget-properties.c:138
+msgid "0 Hz"
+msgstr "0 Гц"
+
+#. Channels
+#: ../src/properties/bacon-video-widget-properties.c:140
+msgid "0 Channels"
+msgstr "0 каналаў"
+
+#: ../src/properties/bacon-video-widget-properties.c:156
+#, c-format
+msgid "%d hour"
+msgid_plural "%d hours"
+msgstr[0] "%d гадзіна"
+msgstr[1] "%d гадзіны"
+msgstr[2] "%d гадзін"
+
+#: ../src/properties/bacon-video-widget-properties.c:158
+#, c-format
+msgid "%d minute"
+msgid_plural "%d minutes"
+msgstr[0] "%d хвіліна"
+msgstr[1] "%d хвіліны"
+msgstr[2] "%d хвілін"
+
+#: ../src/properties/bacon-video-widget-properties.c:161
+#, c-format
+msgid "%d second"
+msgid_plural "%d seconds"
+msgstr[0] "%d секунда"
+msgstr[1] "%d секунды"
+msgstr[2] "%d секунд"
+
+#. 5 hours 2 minutes 12 seconds
+#: ../src/properties/bacon-video-widget-properties.c:167
+#, c-format
+msgctxt "time"
+msgid "%s %s %s"
+msgstr "%s %s %s"
+
+#. 2 minutes 12 seconds
+#: ../src/properties/bacon-video-widget-properties.c:170
+#, c-format
+msgctxt "time"
+msgid "%s %s"
+msgstr "%s %s"
+
+#. 0 seconds
+#: ../src/properties/bacon-video-widget-properties.c:176
+msgid "0 seconds"
+msgstr "0 секунд"
+
+#: ../src/properties/bacon-video-widget-properties.c:237
+#, c-format
+msgid "%d frame per second"
+msgid_plural "%d frames per second"
+msgstr[0] "%d кадр у секунду"
+msgstr[1] "%d кадры ў секунду"
+msgstr[2] "%d кадраў у секунду"
+
+#: ../src/xplayer-audio-preview.c:137
+msgid "Audio Preview"
+msgstr "Папярэдняе праслухоўванне"
+
+#: ../src/xplayer.c:260
+msgid "Could not initialize the thread-safe libraries."
+msgstr "Не ўдалося ініцыяваць бібліятэкі, сумяшчальныя з ніцямі."
+
+#: ../src/xplayer.c:260
+msgid "Verify your system installation. Xplayer will now exit."
+msgstr "Праверце правільнасць усталявання сістэмы. Xplayer скончыць працу."
+
+#: ../src/xplayer-dnd-menu.c:95
+msgid "_Play Now"
+msgstr "_Зайграць"
+
+#: ../src/xplayer-dnd-menu.c:98
+msgid "_Add to Playlist"
+msgstr "_Дадаць у спіс прайгравання"
+
+#: ../src/xplayer-dnd-menu.c:104
+msgid "Cancel"
+msgstr "Скасаваць"
+
+#: ../src/xplayer-fullscreen.c:553
+msgid "No File"
+msgstr "Няма файла"
+
+#: ../src/xplayer-interface.c:181 ../src/xplayer-interface.c:224
+#, c-format
+msgid "Couldn't load the '%s' interface. %s"
+msgstr "Не выйшла загрузіць інтэрфейс \"%s\". %s"
+
+#: ../src/xplayer-interface.c:181
+msgid "The file does not exist."
+msgstr "Такога файла не існуе."
+
+#: ../src/xplayer-interface.c:183 ../src/xplayer-interface.c:185
+#: ../src/xplayer-interface.c:226 ../src/xplayer-interface.c:228
+msgid "Make sure that Xplayer is properly installed."
+msgstr "Праверце правільнасць усталявання Xplayer."
+
+#: ../src/xplayer-interface.c:357
+msgid ""
+"Xplayer is free software; you can redistribute it and/or modify it under the "
+"terms of the GNU General Public License as published by the Free Software "
+"Foundation; either version 2 of the License, or (at your option) any later "
+"version."
+msgstr ""
+"Xplayer - свабодная праграма; яе можна распаўсюджваць і/ці змяняць паводле "
+"ўмоваў GNU General Public License версіі 2 ці пазнейшай (на ваш выбар), "
+"апублікаванай Free Software Foundation."
+
+#: ../src/xplayer-interface.c:361
+msgid ""
+"Xplayer is distributed in the hope that it will be useful, but WITHOUT ANY "
+"WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS "
+"FOR A PARTICULAR PURPOSE.  See the GNU General Public License for more "
+"details."
+msgstr ""
+"Xplayer распаўсюджваецца з надзеяй на тое, што ён будзе карысным, але БЕЗ "
+"АНІЯКІХ ГАРАНТЫЙ; нават без відавочных гарантый прыдатнасці да КАМЕРЦЫЙНАГА "
+"ПРОДАЖУ ці ПЭЎНАЙ МЭТЫ. Па падрабязнасці звяртайцеся да GNU General Public "
+"License."
+
+#: ../src/xplayer-interface.c:365
+msgid ""
+"You should have received a copy of the GNU General Public License along with "
+"Xplayer; if not, write to the Free Software Foundation, Inc., 59 Temple "
+"Place, Suite 330, Boston, MA  02111-1307  USA"
+msgstr ""
+"Вы мусілі атрымаць копію GNU General Public License разам з Xplayer; калі не "
+"атрымалі, лістуйце да Free Software Foundation, Inc., 59 Temple Place, Suite "
+"330, Boston, MA 02111-1307 USA"
+
+#: ../src/xplayer-interface.c:368
+msgid ""
+"Xplayer contains an exception to allow the use of proprietary GStreamer "
+"plugins."
+msgstr "Xplayer дазваляе выкарыстоўваць прапрыетарныя ўбудовы GStreamer."
+
+#. Translators: an entry in the "Languages" menu, used to choose the audio language of a DVD
+#: ../src/xplayer-menu.c:165 ../src/xplayer-menu.c:219
+#: ../src/xplayer-object.c:1458
+msgid "None"
+msgstr "Няма"
+
+#: ../src/xplayer-menu.c:760
+msgid "Configure Plugins"
+msgstr "Наладзіць убудовы"
+
+#: ../src/xplayer-object.c:165
+#, c-format
+msgid ""
+"%s\n"
+"Run '%s --help' to see a full list of available command line options.\n"
+msgstr ""
+"%s\n"
+"Каб убачыць поўны спіс наяўных опцый каманднага радка, выканайце \"%s --"
+"help\".\n"
+
+#. Translators: %s is the xplayer version number
+#: ../src/xplayer-object.c:593
+#, c-format
+msgid "Xplayer %s"
+msgstr "Xplayer %s"
+
+#: ../src/xplayer-object.c:1169 ../src/xplayer-options.c:52
+msgid "Pause"
+msgstr "Прыпыніць"
+
+#: ../src/xplayer-object.c:1174 ../src/xplayer-object.c:1180
+#: ../src/xplayer-options.c:51
+msgid "Play"
+msgstr "Зайграць"
+
+#: ../src/xplayer-object.c:1262 ../src/xplayer-object.c:1289
+#: ../src/xplayer-object.c:2051
+#, c-format
+msgid "Xplayer could not play '%s'."
+msgstr "Xplayer не здолеў зайграць \"%s\"."
+
+#: ../src/xplayer-object.c:2256
+msgid "Xplayer could not display the help contents."
+msgstr "Xplayer не здолеў паказаць змест даведкі."
+
+#: ../src/xplayer-object.c:2598
+msgid "An error occurred"
+msgstr "Адбылася памылка"
+
+#: ../src/xplayer-object.c:4169 ../src/xplayer-object.c:4170
+msgid "Previous Chapter/Movie"
+msgstr "Папярэдні раздзел ці фільм"
+
+#: ../src/xplayer-object.c:4181 ../src/xplayer-object.c:4182
+msgid "Play / Pause"
+msgstr "Граць / Прыпыніць"
+
+#: ../src/xplayer-object.c:4193 ../src/xplayer-object.c:4194
+msgid "Next Chapter/Movie"
+msgstr "Наступны раздзел ці фільм"
+
+#: ../src/xplayer-object.c:4345
+msgid "Xplayer could not startup."
+msgstr "Не выйшла запусціць Xplayer."
+
+#: ../src/xplayer-object.c:4345
+msgid "No reason."
+msgstr "Без падставы."
+
+#: ../src/xplayer-open-location.c:182
+msgid "Open Location..."
+msgstr "Адкрыць месца..."
+
+#: ../src/xplayer-options.c:49
+msgid "Enable debug"
+msgstr "Уключыць адладку"
+
+#: ../src/xplayer-options.c:55
+msgid "Seek Forwards"
+msgstr "Пракруціць наперад"
+
+#: ../src/xplayer-options.c:56
+msgid "Seek Backwards"
+msgstr "Пракруціць назад"
+
+#: ../src/xplayer-options.c:57
+msgid "Volume Up"
+msgstr "Гучней"
+
+#: ../src/xplayer-options.c:58
+msgid "Volume Down"
+msgstr "Цішэй"
+
+#: ../src/xplayer-options.c:59
+msgid "Mute sound"
+msgstr "Абязгучыць"
+
+#: ../src/xplayer-options.c:60
+msgid "Toggle Fullscreen"
+msgstr "Пераключыць поўнаэкранны рэжым"
+
+#: ../src/xplayer-options.c:61
+msgid "Show/Hide Controls"
+msgstr "Паказаць/схаваць сродкі кіравання"
+
+#: ../src/xplayer-options.c:62
+msgid "Quit"
+msgstr "Выйсці"
+
+#: ../src/xplayer-options.c:63
+msgid "Enqueue"
+msgstr "Дадаць у чаргу"
+
+#: ../src/xplayer-options.c:64
+msgid "Replace"
+msgstr "Замяніць"
+
+#: ../src/xplayer-options.c:65
+msgid "Seek"
+msgstr "Пракруціць"
+
+#. Translators: help for a (hidden) command line option to specify (the zero-based index of) a playlist entry to start playing once Xplayer's finished loading
+#: ../src/xplayer-options.c:67
+msgid "Playlist index"
+msgstr "Індэкс у спісе прайгравання"
+
+#: ../src/xplayer-options.c:69
+msgid "Movies to play"
+msgstr "Фільмы для прайгравання"
+
+#: ../src/xplayer-options.c:79
+msgid "- Play movies and songs"
+msgstr "- Прайгравальнік фільмаў і песень"
+
+#: ../src/xplayer-options.c:142
+msgid "Can't enqueue and replace at the same time"
+msgstr "Немагчыма адначасова дадаць у чаргу і замяніць"
+
+#. By extension entry
+#: ../src/xplayer-playlist.c:163
+msgid "MP3 ShoutCast playlist"
+msgstr "Спіс прайгравання MP3 ShoutCast"
+
+#: ../src/xplayer-playlist.c:164
+msgid "MP3 audio (streamed)"
+msgstr "Аўдыё MP3 (плынь)"
+
+#: ../src/xplayer-playlist.c:165
+msgid "MP3 audio (streamed, DOS format)"
+msgstr "Аўдыё MP3 (плынь, фармат DOS)"
+
+#: ../src/xplayer-playlist.c:166
+msgid "XML Shareable Playlist"
+msgstr "Спіс прайгравання XML Shareable"
+
+#. This is "Title 3", where title is a DVD title
+#. * Note: NOT a DVD chapter
+#: ../src/xplayer-playlist.c:349
+#, c-format
+msgid "Title %d"
+msgstr "Загаловак %d"
+
+#: ../src/xplayer-playlist.c:448
+msgid "Could not save the playlist"
+msgstr "Не ўдалося захаваць спіс прайгравання"
+
+#: ../src/xplayer-playlist.c:1023
+msgid "Save Playlist"
+msgstr "Захаваць спіс прайгравання"
+
+#. translators: Playlist is the default saved playlist filename,
+#. * without the suffix
+#: ../src/xplayer-playlist.c:1035 ../src/xplayer-playlist.c:1264
+#: ../src/xplayer-sidebar.c:145
+msgid "Playlist"
+msgstr "Плэйліст"
+
+#: ../src/xplayer-playlist.c:1862
+#, c-format
+msgid "The playlist '%s' could not be parsed. It might be damaged."
+msgstr ""
+"Не ўдалося разабраць структуру спіса прайгравання \"%s\". Відаць, ён "
+"пашкоджаны."
+
+#: ../src/xplayer-playlist.c:1863
+msgid "Playlist error"
+msgstr "Памылка ў спісе прайгравання"
+
+#: ../src/xplayer-preferences.c:237
+msgid "Preferences"
+msgstr "Параметры"
+
+#: ../src/xplayer-preferences.c:338
+msgid "Select Subtitle Font"
+msgstr "Выбраць шрыфт для субцітраў"
+
+#: ../src/xplayer-subtitle-encoding.c:156
+msgid "Current Locale"
+msgstr "Дзейная лакаль"
+
+#: ../src/xplayer-subtitle-encoding.c:159
+#: ../src/xplayer-subtitle-encoding.c:161
+#: ../src/xplayer-subtitle-encoding.c:163
+#: ../src/xplayer-subtitle-encoding.c:165
+msgid "Arabic"
+msgstr "Арабская"
+
+#: ../src/xplayer-subtitle-encoding.c:168
+msgid "Armenian"
+msgstr "Армянская"
+
+#: ../src/xplayer-subtitle-encoding.c:171
+#: ../src/xplayer-subtitle-encoding.c:173
+#: ../src/xplayer-subtitle-encoding.c:175
+msgid "Baltic"
+msgstr "Балцкая"
+
+#: ../src/xplayer-subtitle-encoding.c:178
+msgid "Celtic"
+msgstr "Кельцкая"
+
+#: ../src/xplayer-subtitle-encoding.c:181
+#: ../src/xplayer-subtitle-encoding.c:183
+#: ../src/xplayer-subtitle-encoding.c:185
+#: ../src/xplayer-subtitle-encoding.c:187
+msgid "Central European"
+msgstr "Цэнтральна-Еўрапейская"
+
+#: ../src/xplayer-subtitle-encoding.c:190
+#: ../src/xplayer-subtitle-encoding.c:192
+#: ../src/xplayer-subtitle-encoding.c:194
+#: ../src/xplayer-subtitle-encoding.c:196
+msgid "Chinese Simplified"
+msgstr "Кітайская спрошчаная"
+
+#: ../src/xplayer-subtitle-encoding.c:199
+#: ../src/xplayer-subtitle-encoding.c:201
+#: ../src/xplayer-subtitle-encoding.c:203
+msgid "Chinese Traditional"
+msgstr "Кітайская традыцыйная"
+
+#: ../src/xplayer-subtitle-encoding.c:206
+msgid "Croatian"
+msgstr "Харвацкая"
+
+#: ../src/xplayer-subtitle-encoding.c:209
+#: ../src/xplayer-subtitle-encoding.c:211
+#: ../src/xplayer-subtitle-encoding.c:213
+#: ../src/xplayer-subtitle-encoding.c:215
+#: ../src/xplayer-subtitle-encoding.c:217
+#: ../src/xplayer-subtitle-encoding.c:219
+msgid "Cyrillic"
+msgstr "Кірыліца"
+
+#: ../src/xplayer-subtitle-encoding.c:222
+msgid "Cyrillic/Russian"
+msgstr "Кірыліца/Руская"
+
+#: ../src/xplayer-subtitle-encoding.c:225
+#: ../src/xplayer-subtitle-encoding.c:227
+msgid "Cyrillic/Ukrainian"
+msgstr "Кірыліца/Украінская"
+
+#: ../src/xplayer-subtitle-encoding.c:230
+msgid "Georgian"
+msgstr "Грузінская"
+
+#: ../src/xplayer-subtitle-encoding.c:233
+#: ../src/xplayer-subtitle-encoding.c:235
+#: ../src/xplayer-subtitle-encoding.c:237
+msgid "Greek"
+msgstr "Грэцкая"
+
+#: ../src/xplayer-subtitle-encoding.c:240
+msgid "Gujarati"
+msgstr "Гуджараці"
+
+#: ../src/xplayer-subtitle-encoding.c:243
+msgid "Gurmukhi"
+msgstr "Гурмукхі"
+
+#: ../src/xplayer-subtitle-encoding.c:246
+#: ../src/xplayer-subtitle-encoding.c:248
+#: ../src/xplayer-subtitle-encoding.c:250
+#: ../src/xplayer-subtitle-encoding.c:252
+msgid "Hebrew"
+msgstr "Яўрэйская"
+
+#: ../src/xplayer-subtitle-encoding.c:255
+msgid "Hebrew Visual"
+msgstr "Яўрэйская візуальная"
+
+#: ../src/xplayer-subtitle-encoding.c:258
+msgid "Hindi"
+msgstr "Хіндзі"
+
+#: ../src/xplayer-subtitle-encoding.c:261
+msgid "Icelandic"
+msgstr "Ісландская"
+
+#: ../src/xplayer-subtitle-encoding.c:264
+#: ../src/xplayer-subtitle-encoding.c:266
+#: ../src/xplayer-subtitle-encoding.c:268
+msgid "Japanese"
+msgstr "Японская"
+
+#: ../src/xplayer-subtitle-encoding.c:271
+#: ../src/xplayer-subtitle-encoding.c:273
+#: ../src/xplayer-subtitle-encoding.c:275
+#: ../src/xplayer-subtitle-encoding.c:277
+msgid "Korean"
+msgstr "Карэйская"
+
+#: ../src/xplayer-subtitle-encoding.c:280
+msgid "Nordic"
+msgstr "Нардычная"
+
+#: ../src/xplayer-subtitle-encoding.c:283
+msgid "Persian"
+msgstr "Персідская"
+
+#: ../src/xplayer-subtitle-encoding.c:286
+#: ../src/xplayer-subtitle-encoding.c:288
+msgid "Romanian"
+msgstr "Румынская"
+
+#: ../src/xplayer-subtitle-encoding.c:291
+msgid "South European"
+msgstr "Паўднёва-Еўрапейская"
+
+#: ../src/xplayer-subtitle-encoding.c:294
+msgid "Thai"
+msgstr "Тайская"
+
+#: ../src/xplayer-subtitle-encoding.c:297
+#: ../src/xplayer-subtitle-encoding.c:299
+#: ../src/xplayer-subtitle-encoding.c:301
+#: ../src/xplayer-subtitle-encoding.c:303
+msgid "Turkish"
+msgstr "Турэцкая"
+
+#: ../src/xplayer-subtitle-encoding.c:306
+#: ../src/xplayer-subtitle-encoding.c:308
+#: ../src/xplayer-subtitle-encoding.c:310
+#: ../src/xplayer-subtitle-encoding.c:312
+#: ../src/xplayer-subtitle-encoding.c:314
+msgid "Unicode"
+msgstr "Unicode"
+
+#: ../src/xplayer-subtitle-encoding.c:317
+#: ../src/xplayer-subtitle-encoding.c:319
+#: ../src/xplayer-subtitle-encoding.c:321
+#: ../src/xplayer-subtitle-encoding.c:323
+#: ../src/xplayer-subtitle-encoding.c:325
+msgid "Western"
+msgstr "Заходняя"
+
+#: ../src/xplayer-subtitle-encoding.c:328
+#: ../src/xplayer-subtitle-encoding.c:330
+#: ../src/xplayer-subtitle-encoding.c:332
+msgid "Vietnamese"
+msgstr "В'етнамская"
+
+#. Elapsed / Total Length
+#: ../src/xplayer-time-label.c:27 ../src/xplayer-time-label.c:72
+#, c-format
+msgid "%s / %s"
+msgstr "%s / %s"
+
+#. Seeking to Time / Total Length
+#: ../src/xplayer-time-label.c:77
+#, c-format
+msgid "Seek to %s / %s"
+msgstr "Пракруціць да %s / %s"
+
+#: ../src/xplayer-uri.c:343 ../src/plugins/chapters/xplayer-chapters.c:984
+msgid "All files"
+msgstr "Усе файлы"
+
+#: ../src/xplayer-uri.c:348 ../src/plugins/chapters/xplayer-chapters.c:981
+msgid "Supported files"
+msgstr "Падтрымліваемыя файлы"
+
+#: ../src/xplayer-uri.c:360
+msgid "Audio files"
+msgstr "Аўдыяфайлы"
+
+#: ../src/xplayer-uri.c:368
+msgid "Video files"
+msgstr "Відэафайлы"
+
+#: ../src/xplayer-uri.c:378
+msgid "Subtitle files"
+msgstr "Файлы субцітраў"
+
+#: ../src/xplayer-uri.c:430
+msgid "Select Text Subtitles"
+msgstr "Выбар субцітраў"
+
+#: ../src/xplayer-uri.c:495
+msgid "Select Movies or Playlists"
+msgstr "Выбар фільмаў ці спісаў прайгравання"
+
+#: ../src/xplayer-uri.c:499
+msgid "Add Directory"
+msgstr "Дадаць каталог"
+
+#. Translators: The first string is "Filename" (as translated); the second is an actual filename.
+#. The third string is "Resolution" (as translated); the fourth and fifth are screenshot height and width, respectively.
+#. The sixth string is "Duration" (as translated); the seventh is the movie duration in words.
+#: ../src/xplayer-video-thumbnailer.c:878
+#, c-format
+msgid ""
+"<b>%s</b>: %s\n"
+"<b>%s</b>: %d×%d\n"
+"<b>%s</b>: %s"
+msgstr ""
+"<b>%s</b>: %s\n"
+"<b>%s</b>: %d×%d\n"
+"<b>%s</b>: %s"
+
+#: ../src/xplayer-video-thumbnailer.c:879
+msgid "Filename"
+msgstr "Назва файла"
+
+#: ../src/xplayer-video-thumbnailer.c:881
+msgid "Resolution"
+msgstr "Разрозненне"
+
+#: ../src/xplayer-video-thumbnailer.c:884
+msgid "Duration"
+msgstr "Працягласць"
+
+#: ../src/plugins/apple-trailers/apple-trailers.plugin.in.h:1
+msgid "Apple Trailers"
+msgstr "Трэйлеры Apple"
+
+#: ../src/plugins/apple-trailers/apple-trailers.plugin.in.h:2
+msgid "Sets the user agent for the Apple Trailers site"
+msgstr ""
+"Прызначае кліенцкага агента карыстальніка для пляцоўкі трэйлераў Apple"
+
+#: ../src/plugins/autoload-subtitles/autoload-subtitles.plugin.in.h:1
+msgid "Autoload Subtitles"
+msgstr "Аўтаматычная спампоўка субцітраў"
+
+#: ../src/plugins/autoload-subtitles/autoload-subtitles.plugin.in.h:2
+msgid "Autoloads text subtitles"
+msgstr "Аўтаматычная спампоўка субцітраў"
+
+#: ../src/plugins/brasero-disc-recorder/brasero-disc-recorder.plugin.in.h:1
+msgid "Video Disc Recorder"
+msgstr "Запіс відэадыскаў"
+
+#: ../src/plugins/brasero-disc-recorder/brasero-disc-recorder.plugin.in.h:2
+msgid "Records (S)VCDs or video DVDs"
+msgstr "Запіс (S)VCD ці відэа DVD"
+
+#: ../src/plugins/brasero-disc-recorder/xplayer-disc-recorder.c:65
+msgid "_Create Video Disc..."
+msgstr "_Стварыць відэадыск..."
+
+#: ../src/plugins/brasero-disc-recorder/xplayer-disc-recorder.c:66
+msgid "Create a video DVD or a (S)VCD from the currently opened movie"
+msgstr "Стварыць відэа DVD ці (S)VCD для адкрытага зараз фільма"
+
+#: ../src/plugins/brasero-disc-recorder/xplayer-disc-recorder.c:68
+msgid "Copy Vide_o DVD..."
+msgstr "Капіяваць відэа DVD..."
+
+#: ../src/plugins/brasero-disc-recorder/xplayer-disc-recorder.c:69
+msgid "Copy the currently playing video DVD"
+msgstr "Капіяваць відэа DVD, які зараз прайграецца"
+
+#: ../src/plugins/brasero-disc-recorder/xplayer-disc-recorder.c:71
+msgid "Copy (S)VCD..."
+msgstr "Капіяваць (S)VCD..."
+
+#: ../src/plugins/brasero-disc-recorder/xplayer-disc-recorder.c:72
+msgid "Copy the currently playing (S)VCD"
+msgstr "Капіяваць (S)VCD, які зараз прайграецца"
+
+#: ../src/plugins/brasero-disc-recorder/xplayer-disc-recorder.c:136
+msgid "The video disc could not be duplicated."
+msgstr "Не выйшла дубліраваць гэты відэадыск."
+
+#: ../src/plugins/brasero-disc-recorder/xplayer-disc-recorder.c:138
+#: ../src/plugins/brasero-disc-recorder/xplayer-disc-recorder.c:283
+msgid "The movie could not be recorded."
+msgstr "Не выйшла запісаць гэты фільм."
+
+#: ../src/plugins/brasero-disc-recorder/xplayer-disc-recorder.c:164
+#: ../src/plugins/brasero-disc-recorder/xplayer-disc-recorder.c:174
+#: ../src/plugins/brasero-disc-recorder/xplayer-disc-recorder.c:270
+msgid "Unable to write a project."
+msgstr "Не выйшла запісаць праект."
+
+#: ../src/plugins/chapters/chapters-edit.ui.h:1
+msgid "Name for new chapter:"
+msgstr "Назва новага раздзела:"
+
+#: ../src/plugins/chapters/chapters-list.ui.h:1
+msgid "_Remove Chapter"
+msgstr "_Выдаліць раздзел"
+
+#: ../src/plugins/chapters/chapters-list.ui.h:2
+msgid "Remove the chapter from the list"
+msgstr "Выдаліць раздзел са спісу"
+
+#: ../src/plugins/chapters/chapters-list.ui.h:3
+msgid "_Go to Chapter"
+msgstr "_Перайсці да раздзела"
+
+#: ../src/plugins/chapters/chapters-list.ui.h:4
+msgid "Go to the chapter in the movie"
+msgstr "Перайсці да раздзела фільма"
+
+#: ../src/plugins/chapters/chapters-list.ui.h:5
+msgid "Add Chapter..."
+msgstr "Дадаць раздзел..."
+
+#: ../src/plugins/chapters/chapters-list.ui.h:6
+msgid "Remove Chapter"
+msgstr "Выдаліць раздзел"
+
+#: ../src/plugins/chapters/chapters-list.ui.h:7
+msgid "Go to Chapter"
+msgstr "Перайсці да раздзела"
+
+#: ../src/plugins/chapters/chapters-list.ui.h:8
+msgid "Save Changes"
+msgstr "Захаваць змены"
+
+#: ../src/plugins/chapters/chapters-list.ui.h:9
+msgid "No chapter data"
+msgstr "Няма даных пра раздзелы"
+
+#: ../src/plugins/chapters/chapters-list.ui.h:10
+msgid "Load Chapters..."
+msgstr "Загрузіць раздзелы..."
+
+#: ../src/plugins/chapters/chapters-list.ui.h:11
+msgid "Load chapters from an external CMML file"
+msgstr "Загрузіць спіс раздзелаў з вонкавага CMML-файла"
+
+#: ../src/plugins/chapters/chapters-list.ui.h:12
+msgid "Add New Chapters"
+msgstr "Дадаць новыя раздзелы"
+
+#: ../src/plugins/chapters/chapters-list.ui.h:13
+msgid "Create a new chapter list for the movie"
+msgstr "Стварыць новы спіс раздзелаў для фільма"
+
+#: ../src/plugins/chapters/chapters.plugin.in.h:1
+#: ../src/plugins/chapters/xplayer-chapters.c:1125
+msgid "Chapters"
+msgstr "Раздзелы"
+
+#: ../src/plugins/chapters/chapters.plugin.in.h:2
+msgid "Support chapter markers in movies"
+msgstr "Падтрымка раздзелаў для фільмаў"
+
+#: ../src/plugins/chapters/xplayer-chapters.c:56
+#, c-format
+msgid ""
+"<b>Title: </b>%s\n"
+"<b>Start time: </b>%s"
+msgstr ""
+"<b>Назва: </b>%s\n"
+"<b>Пачатак: </b>%s"
+
+#: ../src/plugins/chapters/xplayer-chapters.c:323
+msgid "Error while reading file with chapters"
+msgstr "Узнікла памылка падчас чытання файла з раздзеламі"
+
+#: ../src/plugins/chapters/xplayer-chapters.c:542
+msgid "Chapter with the same time already exists"
+msgstr "Раздзел з такім часам ужо існуе"
+
+#: ../src/plugins/chapters/xplayer-chapters.c:543
+msgid "Try another name or remove an existing chapter."
+msgstr "Паспрабуйце іншую назву ці выдаліце наяўны раздзел."
+
+#: ../src/plugins/chapters/xplayer-chapters.c:703
+msgid "Error while writing file with chapters"
+msgstr "Узнікла памылка падчас запісу файла з раздзеламі"
+
+#: ../src/plugins/chapters/xplayer-chapters.c:828
+msgid "Error occurred while saving chapters"
+msgstr "Узнікла памылка падчас захавання раздзелаў"
+
+#: ../src/plugins/chapters/xplayer-chapters.c:829
+msgid ""
+"Please check you have permission to write to the folder containing the movie."
+msgstr "Праверце, ці маеце вы дазвол на запіс у папцы з фільмам."
+
+#: ../src/plugins/chapters/xplayer-chapters.c:962
+msgid "Open Chapter File"
+msgstr "Адкрыццё файла з раздзеламі"
+
+#: ../src/plugins/chapters/xplayer-chapters.c:1079
+msgid "Chapter Screenshot"
+msgstr "Кадр для раздзела фільма"
+
+#: ../src/plugins/chapters/xplayer-chapters.c:1090
+msgid "Chapter Title"
+msgstr "Назва раздзела"
+
+#: ../src/plugins/chapters/xplayer-chapters.c:1170
+msgid "Save changes to chapter list before closing?"
+msgstr "Захаваць змены ў спісе раздзелаў перад закрыццём?"
+
+#. Translators: close Xplayer without saving changes to the chapter list of the current movie.
+#: ../src/plugins/chapters/xplayer-chapters.c:1175
+msgid "Close without Saving"
+msgstr "Закрыць без захавання"
+
+#. Translators: save changes to the chapter list of the current movie before closing Xplayer.
+#: ../src/plugins/chapters/xplayer-chapters.c:1177
+msgid "Save"
+msgstr "Захаваць"
+
+#: ../src/plugins/chapters/xplayer-chapters.c:1180
+msgid "If you don't save, changes to the chapter list will be lost."
+msgstr ""
+"Калі вы не захаваеце змены для спіса раздзелаў, яны будуць незваротна "
+"страчаны."
+
+#: ../src/plugins/chapters/xplayer-edit-chapter.c:95
+msgid "Add Chapter"
+msgstr "Новы раздзел"
+
+#: ../src/plugins/dbusservice/dbusservice.plugin.in.h:1
+msgid "MPRIS Support"
+msgstr "Падтрымка MPRIS"
+
+#: ../src/plugins/dbusservice/dbusservice.plugin.in.h:2
+msgid "This plugin enables MPRIS support over DBUS."
+msgstr "Гэта ўбудова ўключае падтрымку MPRIS праз DBUS."
+
+#: ../src/plugins/dbusservice/dbusservice.py:213
+#: ../src/plugins/dbusservice/dbusservice.py:243
+#, python-format
+msgid "The MediaPlayer2 object does not implement the ‘%s’ interface"
+msgstr "Аб'ект MediaPlayer2 не мае рэалізацыі для інтэрфейсу \"%s\""
+
+#: ../src/plugins/dbusservice/dbusservice.py:222
+#, python-format
+msgid "The property ‘%s’ is not writeable."
+msgstr "Уласцівасць \"%s\" не можа быць запісана."
+
+#: ../src/plugins/dbusservice/dbusservice.py:238
+#, python-format
+msgid "Unknown property ‘%s’ requested of a MediaPlayer 2 object"
+msgstr "Для аб'екта MediaPlayer 2 запатрабавана невядомая ўласцівасць \"%s\""
+
+#: ../src/plugins/dbusservice/dbusservice.py:341
+#, python-format
+msgid "The URI ‘%s’ is not supported."
+msgstr "URI-адрас \"%s\" не падтрымліваецца."
+
+#: ../src/plugins/grilo/grilo.plugin.in.h:1
+msgid "Grilo Browser"
+msgstr "Браўзер Grilo"
+
+#: ../src/plugins/grilo/grilo.plugin.in.h:2
+msgid "A plugin to let you browse media content from various sources"
+msgstr ""
+"Убудова, якая дазваляе глядзець мультымедыйнае змесціва з разнастайных крыніц"
+
+#: ../src/plugins/grilo/grilo.ui.h:1
+msgid "Add to Playlist"
+msgstr "Дадаць у спіс прайгравання"
+
+#: ../src/plugins/grilo/grilo.ui.h:2
+msgid "Copy Location"
+msgstr "Скапіяваць адрас"
+
+#: ../src/plugins/grilo/grilo.ui.h:3 ../src/plugins/grilo/xplayer-grilo.c:1184
+msgid "Browse"
+msgstr "Аглядзець"
+
+#: ../src/plugins/grilo/grilo.ui.h:4 ../src/plugins/grilo/xplayer-grilo.c:1243
+msgid "Search"
+msgstr "Пошук"
+
+#: ../src/plugins/grilo/xplayer-grilo.c:446
+msgid "Browse Error"
+msgstr "Памылка агляду"
+
+#: ../src/plugins/grilo/xplayer-grilo.c:615
+msgid "Search Error"
+msgstr "Памылка пошуку"
+
+#: ../src/plugins/gromit/gromit.plugin.in.h:1
+msgid "Gromit Annotations"
+msgstr "Анатацыі Gromit"
+
+#: ../src/plugins/gromit/gromit.plugin.in.h:2
+msgid "Presentation helper to make annotations on screen"
+msgstr ""
+"Памочнік для правядзення прэзентацый, які дазваляе рабіць пазнакі на экране"
+
+#: ../src/plugins/gromit/xplayer-gromit.c:231
+msgid "The gromit binary was not found."
+msgstr "Выканальны файл gromit не знойдзены."
+
+#: ../src/plugins/im-status/xplayer-im-status.plugin.in.h:1
+msgid "Instant Messenger Status"
+msgstr "Статус сеціўнага камунікатара"
+
+#: ../src/plugins/im-status/xplayer-im-status.plugin.in.h:2
+msgid "Set your Instant Messenger status to away when a movie is playing"
+msgstr ""
+"Пераводзіць сеціўны камунікатар у стан адсутнасці, пакуль прайграецца фільм"
+
+#: ../src/plugins/lirc/lirc.plugin.in.h:1
+msgid "Infrared Remote Control"
+msgstr "Аддаленае кіраванне праз інфрачырвоны порт"
+
+#: ../src/plugins/lirc/lirc.plugin.in.h:2
+msgid "Support infrared remote control"
+msgstr "Падтрымка інфрачырвонага пульта дыстанцыйнага кіравання"
+
+#: ../src/plugins/lirc/xplayer-lirc.c:242
+msgid "Couldn't initialize lirc."
+msgstr "Не выйшла ініцыяваць lirc."
+
+#: ../src/plugins/lirc/xplayer-lirc.c:254
+msgid "Couldn't read lirc configuration."
+msgstr "Не выйшла прачытаць канфігурацыю lirc."
+
+#: ../src/plugins/media-player-keys/media-player-keys.plugin.in.h:1
+msgid "Media Player Keys"
+msgstr "Клавішы мэдыяплэера"
+
+#: ../src/plugins/media-player-keys/media-player-keys.plugin.in.h:2
+msgid "Support additional media player keys"
+msgstr "Падтрымка дадатковых клавіш медыяплэера"
+
+#: ../src/plugins/ontop/ontop.plugin.in.h:1
+msgid "Always On Top"
+msgstr "Заўсёды наверсе"
+
+#: ../src/plugins/ontop/ontop.plugin.in.h:2
+msgid "Keep the main window on top when playing a movie"
+msgstr "Трымаць асноўнае акно над астатнімі падчас прагляду фільма"
+
+#: ../src/plugins/opensubtitles/opensubtitles.plugin.in.h:1
+msgid "Subtitle Downloader"
+msgstr "Спампоўка субцітраў"
+
+#: ../src/plugins/opensubtitles/opensubtitles.plugin.in.h:2
+msgid "Look for subtitles for the currently playing movie"
+msgstr "Пошук субцітраў да адкрытага фільма"
+
+#: ../src/plugins/opensubtitles/opensubtitles.py:41
+msgid "Brazilian Portuguese"
+msgstr "Бразільская партугальская"
+
+#: ../src/plugins/opensubtitles/opensubtitles.py:177
+msgid "Searching for subtitles…"
+msgstr "Пошук субцітраў..."
+
+#: ../src/plugins/opensubtitles/opensubtitles.py:225
+#: ../src/plugins/opensubtitles/opensubtitles.py:636
+msgid "Downloading the subtitles…"
+msgstr "Спампоўка субцітраў..."
+
+#: ../src/plugins/opensubtitles/opensubtitles.py:290
+msgid "Could not contact the OpenSubtitles website"
+msgstr "Не выйшла звязацца з сайтам OpenSubtitles"
+
+#: ../src/plugins/opensubtitles/opensubtitles.py:323
+#: ../src/plugins/opensubtitles/opensubtitles.py:341
+msgid "Could not contact the OpenSubtitles website."
+msgstr "Не выйшла звязацца з сайтам OpenSubtitles."
+
+#: ../src/plugins/opensubtitles/opensubtitles.py:329
+msgid "No results found."
+msgstr "Нічога не знойдзена."
+
+#: ../src/plugins/opensubtitles/opensubtitles.py:476
+msgid "Subtitles"
+msgstr "Субцітры"
+
+#. translators comment:
+#. This is the file-type of the subtitle file detected
+#: ../src/plugins/opensubtitles/opensubtitles.py:482
+msgid "Format"
+msgstr "Фармат"
+
+#. translators comment:
+#. This is a rating of the quality of the subtitle
+#: ../src/plugins/opensubtitles/opensubtitles.py:487
+msgid "Rating"
+msgstr "Рэйтынг"
+
+#: ../src/plugins/opensubtitles/opensubtitles.py:523
+msgid "Download movie subtitles from OpenSubtitles"
+msgstr "Спампаваць субцітры да фільма з OpenSubtitles"
+
+#: ../src/plugins/opensubtitles/opensubtitles.py:525
+msgid "_Download Movie Subtitles…"
+msgstr "_Спампаваць субцітры да фільма..."
+
+#: ../src/plugins/opensubtitles/opensubtitles.py:587
+msgid "Searching subtitles…"
+msgstr "Пошук субцітраў..."
+
+#: ../src/plugins/opensubtitles/opensubtitles.ui.h:1
+msgid "Download Movie Subtitles"
+msgstr "Спампаваць субцітры да фільма"
+
+#: ../src/plugins/opensubtitles/opensubtitles.ui.h:2
+msgid "Subtitle _language:"
+msgstr "_Мова субцітраў:"
+
+#: ../src/plugins/opensubtitles/opensubtitles.ui.h:3
+msgid "_Play with Subtitle"
+msgstr "_Зайграць з субцітрамі"
+
+#: ../src/plugins/opensubtitles/org.x.player.plugins.opensubtitles.gschema.xml.in.in.h:1
+msgid "Subtitle language"
+msgstr "Мова субцітраў"
+
+#: ../src/plugins/opensubtitles/org.x.player.plugins.opensubtitles.gschema.xml.in.in.h:2
+msgid "The language to search for subtitles for movies in."
+msgstr "Мова для пошуку субцітраў да фільмаў."
+
+#: ../src/plugins/properties/movie-properties.plugin.in.h:1
+msgid "Movie Properties"
+msgstr "Уласцівасці фільма"
+
+#: ../src/plugins/properties/movie-properties.plugin.in.h:2
+msgid "Adds movie properties to the sidebar"
+msgstr "Дадае ўласцівасці фільма на бакавую панэль"
+
+#: ../src/plugins/properties/xplayer-movie-properties.c:149
+#, c-format
+msgid "%d x %d"
+msgstr "%d x %d"
+
+#: ../src/plugins/properties/xplayer-movie-properties.c:152
+#: ../src/plugins/properties/xplayer-movie-properties.c:163
+#, c-format
+msgid "%d kbps"
+msgstr "%d кбіт/с"
+
+#: ../src/plugins/properties/xplayer-movie-properties.c:152
+#: ../src/plugins/properties/xplayer-movie-properties.c:163
+msgctxt "Stream bit rate"
+msgid "N/A"
+msgstr "Недаступна"
+
+#: ../src/plugins/properties/xplayer-movie-properties.c:166
+#, c-format
+msgid "%d Hz"
+msgstr "%d Гц"
+
+#: ../src/plugins/properties/xplayer-movie-properties.c:166
+msgctxt "Sample rate"
+msgid "N/A"
+msgstr "Недаступна"
+
+#: ../src/plugins/properties/xplayer-movie-properties.c:246
+msgid "Properties"
+msgstr "Уласцівасці"
+
+#: ../src/plugins/pythonconsole/org.x.player.plugins.pythonconsole.gschema.xml.in.in.h:1
+msgid "rpdb2 password"
+msgstr "Пароль rpdb2"
+
+#: ../src/plugins/pythonconsole/org.x.player.plugins.pythonconsole.gschema.xml.in.in.h:2
+msgid ""
+"A password to protect the rpdb2 server for debugging Xplayer from "
+"unauthorized remote access. If this is empty, a default of 'xplayer' will be "
+"used."
+msgstr ""
+"Пароль для аховы наладачнага сервера rpdb2 для Xplayer ад неўпаўнаважанага "
+"адлеглага доступу. Калі не зададзена, выкарыстоўваецца стандартнае значэнне "
+"\"xplayer\"."
+
+#: ../src/plugins/pythonconsole/pythonconsole.plugin.in.h:1
+msgid "Python Console"
+msgstr "Кансоль Python"
+
+#: ../src/plugins/pythonconsole/pythonconsole.plugin.in.h:2
+msgid "Interactive Python console"
+msgstr "Інтэрактыўная кансоль Python"
+
+#: ../src/plugins/pythonconsole/pythonconsole.py:88
+msgid "Python Console Menu"
+msgstr "Меню кансолі Python"
+
+#: ../src/plugins/pythonconsole/pythonconsole.py:93
+msgid "_Python Console"
+msgstr "_Кансоль Python"
+
+#: ../src/plugins/pythonconsole/pythonconsole.py:94
+msgid "Show Xplayer's Python console"
+msgstr "Паказаць кансоль Python для Xplayer"
+
+#: ../src/plugins/pythonconsole/pythonconsole.py:100
+msgid "Python Debugger"
+msgstr "Адладчык Python"
+
+#: ../src/plugins/pythonconsole/pythonconsole.py:101
+msgid "Enable remote Python debugging with rpdb2"
+msgstr "Уключыць падтрымку аддаленай адладкі Python з дапамогай rpdb2"
+
+#. pylint: disable-msg=E1101
+#: ../src/plugins/pythonconsole/pythonconsole.py:123
+#, python-format
+msgid "You can access the Xplayer.Object through 'xplayer_object' :\\n%s"
+msgstr ""
+"Атрымаць доступ да Xplayer.Object можна праз \"xplayer_object\" :\\n%s"
+
+#: ../src/plugins/pythonconsole/pythonconsole.py:127
+msgid "Xplayer Python Console"
+msgstr "Кансоль Python для Xplayer"
+
+#: ../src/plugins/pythonconsole/pythonconsole.py:137
+msgid ""
+"After you press OK, Xplayer will wait until you connect to it with winpdb or "
+"rpdb2. If you have not set a debugger password in DConf, it will use the "
+"default password ('xplayer')."
+msgstr ""
+"Пасля націскання на кнопку Добра, Xplayer будзе чакаць злучэння з winpdb або "
+"rpdb2. Калі вы не задалі пароль наладчыка ў DConf, будзе ўжыты стандартны "
+"пароль (\"xplayer\")."
+
+#: ../src/plugins/recent/recent.plugin.in.h:1
+msgid "Recent files"
+msgstr "Нядаўнія файлы"
+
+#: ../src/plugins/recent/recent.plugin.in.h:2
+msgid "Adds files that have been played to recent files"
+msgstr "Дадае нядаўнія файлы ў адпаведны спіс"
+
+#: ../src/plugins/rotation/rotation.plugin.in.h:1
+msgid "Rotation Plugin"
+msgstr "Убудова павароту"
+
+#: ../src/plugins/rotation/rotation.plugin.in.h:2
+msgid "Allows videos to be rotated if they are in the wrong orientation"
+msgstr "Дазваляе паварочваць відэа з памылковай арыентацыяй"
+
+#: ../src/plugins/rotation/xplayer-rotation-plugin.vala:49
+msgid "_Rotate Clockwise"
+msgstr "Павярнуць па _ходу гадзіннікавай стрэлкі"
+
+#: ../src/plugins/rotation/xplayer-rotation-plugin.vala:51
+msgid "Rotate Counterc_lockwise"
+msgstr "Павярнуць супраць _гадзіннікавай стрэлкі"
+
+#: ../src/plugins/screensaver/screensaver.plugin.in.h:1
+msgid "Screen Saver"
+msgstr "Экранная застаўка"
+
+#: ../src/plugins/screensaver/screensaver.plugin.in.h:2
+msgid "Deactivates the screen saver when a movie is playing"
+msgstr "Адключэнне экраннай застаўкі пры прайграванні фільма"
+
+#: ../src/plugins/screensaver/xplayer-screensaver.c:97
+msgid "Playing a movie"
+msgstr "Прайграванне фільма"
+
+#: ../src/plugins/screenshot/gallery.ui.h:1
+msgid "Screenshot width (in pixels):"
+msgstr "Шырыня экраннага здымка (пікселаў):"
+
+#: ../src/plugins/screenshot/gallery.ui.h:2
+msgid "Calculate the number of screenshots"
+msgstr "Лічыць колькасць экранных здымкаў"
+
+#: ../src/plugins/screenshot/gallery.ui.h:3
+msgid "Number of screenshots:"
+msgstr "Колькасць экранных здымкаў:"
+
+#. translators: this is the name of the file that gets made up
+#. * with the screenshot if the entire screen is taken
+#: ../src/plugins/screenshot/screenshot-filename-builder.c:147
+#, c-format
+msgid "Screenshot from %s.png"
+msgstr "Экранны здымак з %s.png"
+
+#. translators: this is the name of the file that gets
+#. * made up with the screenshot if the entire screen is
+#. * taken
+#: ../src/plugins/screenshot/screenshot-filename-builder.c:154
+#, c-format
+msgid "Screenshot from %s - %d.png"
+msgstr "Экранны здымак з %s - %d.png"
+
+#: ../src/plugins/screenshot/screenshot.plugin.in.h:1
+msgid "Screenshot"
+msgstr "Экранны здымак"
+
+#: ../src/plugins/screenshot/screenshot.plugin.in.h:2
+msgid "Allows screenshots and galleries to be taken of videos"
+msgstr "Дазваляе ствараць экранныя здымкі і іх галерэі на аснове відэа"
+
+#: ../src/plugins/screenshot/xplayer-gallery.c:91
+msgid "Save Gallery"
+msgstr "Захаваць галерэю"
+
+#. Translators: The first argument is the movie title. The second
+#. * argument is a number which is used to prevent overwriting files.
+#. * Just translate "Gallery", and not the ".jpg". Example:
+#. * "Galerie-%s-%d.jpg".
+#: ../src/plugins/screenshot/xplayer-gallery.c:115
+#, c-format
+msgid "Gallery-%s-%d.jpg"
+msgstr "Галерэя-%s-%d.jpg"
+
+#. Set up the window
+#: ../src/plugins/screenshot/xplayer-gallery-progress.c:101
+msgid "Creating Gallery..."
+msgstr "Стварэнне галерэі..."
+
+#. Set the progress label
+#: ../src/plugins/screenshot/xplayer-gallery-progress.c:107
+#, c-format
+msgid "Saving gallery as \"%s\""
+msgstr "Захаванне галерэі \"%s\""
+
+#: ../src/plugins/screenshot/xplayer-screenshot-plugin.c:220
+#: ../src/plugins/screenshot/xplayer-screenshot-plugin.c:229
+msgid "Xplayer could not get a screenshot of the video."
+msgstr "Xplayer не здолеў зрабіць экранны здымак гэтага відэа."
+
+#: ../src/plugins/screenshot/xplayer-screenshot-plugin.c:229
+msgid "This is not supposed to happen; please file a bug report."
+msgstr ""
+"Гэта не павінна было адбыцца; паведаміце пра гэтую хібу распрацоўшчыкам."
+
+#: ../src/plugins/screenshot/xplayer-screenshot-plugin.c:334
+msgid "Take _Screenshot"
+msgstr "Зрабіць _экранны здымак"
+
+#: ../src/plugins/screenshot/xplayer-screenshot-plugin.c:334
+msgid "Take a screenshot"
+msgstr "Зрабіць экранны здымак"
+
+#: ../src/plugins/screenshot/xplayer-screenshot-plugin.c:335
+msgid "Create Screenshot _Gallery..."
+msgstr "Стварыць _галерэю экранных здымкаў..."
+
+#: ../src/plugins/screenshot/xplayer-screenshot-plugin.c:335
+msgid "Create a gallery of screenshots"
+msgstr "Стварыць галерэю экранных здымкаў"
+
+#: ../src/plugins/skipto/skipto.plugin.in.h:1
+#: ../src/plugins/skipto/xplayer-skipto.c:196
+msgid "Skip To"
+msgstr "Пераскочыць да..."
+
+#: ../src/plugins/skipto/skipto.plugin.in.h:2
+msgid "Provides the \"Skip to\" dialog"
+msgstr "Дадае дыялогавае акенца \"Пераскочыць да...\""
+
+#: ../src/plugins/skipto/skipto.ui.h:1
+msgid "_Skip to:"
+msgstr "_Пераскочыць да:"
+
+#. Update the "seconds" label so that it always has the correct singular/plural form
+#. Translators: label for the seconds selector in the "Skip to" dialogue
+#: ../src/plugins/skipto/xplayer-skipto.c:159
+msgid "second"
+msgid_plural "seconds"
+msgstr[0] "секунда"
+msgstr[1] "секунды"
+msgstr[2] "секунд"
+
+#. Fix the label width at the maximum necessary for the plural labels, to prevent it changing size when we change the spinner value
+#. Translators: you should translate this string to a number (written in digits) which corresponds to the longer character length of the
+#. * translations for "second" and "seconds", as translated elsewhere in this file. For example, in English, "second" is 6 characters long and
+#. * "seconds" is 7 characters long, so this string should be translated to "7". See: bgo#639398
+#: ../src/plugins/skipto/xplayer-skipto.c:189
+msgctxt "Skip To label length"
+msgid "7"
+msgstr "7"
+
+#: ../src/plugins/skipto/xplayer-skipto-plugin.c:182
+msgid "_Skip To..."
+msgstr "_Пераскочыць да..."
+
+#: ../src/plugins/skipto/xplayer-skipto-plugin.c:182
+msgid "Skip to a specific time"
+msgstr "Пераскочыць да пэўнага часу"
+
+#: ../src/plugins/zeitgeist-dp/zeitgeist-dp.plugin.in.h:1
+msgid "Zeitgeist Plugin"
+msgstr "Убудова Zeitgeist"
+
+#: ../src/plugins/zeitgeist-dp/zeitgeist-dp.plugin.in.h:2
+msgid "A plugin sending events to Zeitgeist"
+msgstr "Убудова для пасылкі падзей у Zeitgeist"

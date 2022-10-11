@@ -1,0 +1,1637 @@
+# Hebrew translation for linuxmint
+# Copyright (c) 2017 Rosetta Contributors and Canonical Ltd 2017
+# This file is distributed under the same license as the linuxmint package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2017.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: linuxmint\n"
+"Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
+"POT-Creation-Date: 2019-03-29 10:21+0000\n"
+"PO-Revision-Date: 2022-03-12 20:43+0000\n"
+"Last-Translator: Omer I.S. <Unknown>\n"
+"Language-Team: Hebrew <he@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Launchpad-Export-Date: 2022-10-10 13:11+0000\n"
+"X-Generator: Launchpad (build 762fb15a975e8b23af6a1f86e44e46bfd0451459)\n"
+"Language: he\n"
+
+#: ../../boot_options.rst:2
+msgid "Boot options"
+msgstr "אפשרויות אתחול"
+
+#: ../../boot_options.rst:4
+msgid ""
+"Some graphics cards and motherboards don't work well with the open-source "
+"drivers present in Linux Mint by default."
+msgstr ""
+"חלק מכרטיסי המסך ולוחות האם לא עובדים היטב עם מנהלי ההתקנים הפתוחים הקיימים "
+"בלינוקס מינט כברירת מחדל."
+
+#: ../../boot_options.rst:7
+msgid "Compatibility mode"
+msgstr "מצב תאימות"
+
+#: ../../boot_options.rst:9
+msgid ""
+"The easiest option is to select ``compatibility mode`` from the USB stick "
+"(or DVD) boot menu."
+msgstr ""
+"האפשרות הקלה ביותר היא בחירת „מצב התאימות” מתפריט האתחול מתוך ההחסן הנייד "
+"(או תקליטור ה־DVD)."
+
+#: ../../boot_options.rst:15
+msgid "Grub menu (EFI mode)"
+msgstr "תפריט GRUB (מצב EFI)"
+
+#: ../../boot_options.rst:21
+msgid "Isolinux menu (BIOS mode)"
+msgstr "תפריט Isolinux (מצב BIOS)"
+
+#: ../../boot_options.rst:23
+msgid "If that doesn't work, you can try the ``nomodeset`` boot option."
+msgstr "אם זה לא עובד, כדאי לנסות את אפשרות האתחול „nomodeset”."
+
+#: ../../boot_options.rst:26
+msgid "Nomodeset boot option"
+msgstr "אפשרות אתחול Nomodeset"
+
+#: ../../boot_options.rst:28
+msgid ""
+"In EFI mode, highlight the ``Start Linux Mint`` option and press :kbd:`e` to "
+"modify the boot options."
+msgstr ""
+"במצב EFI, יש לבחור „אתחול לינוקס מינט” וללחוץ על :kbd: 'e' כדי לשנות את "
+"אפשרויות האתחול."
+
+#: ../../boot_options.rst:34
+msgid ""
+"Replace ``quiet splash`` with ``nomodeset`` and press :kbd:`F10` to boot."
+msgstr "החלפת 'quiet splash' ב־'nomodeset' ולחיצה על :kbd:`F10`כדי לאתחל."
+
+#: ../../boot_options.rst:36
+msgid ""
+"In BIOS mode, highlight ``Start Linux Mint`` and press :kbd:`Tab` to modify "
+"the boot options."
+msgstr ""
+"במצב BOIS, יש לבחור „אתחול לינוקס מינט” וללחוץ על מקש  :kbd:`Tab` כדי לשנות "
+"אפשרות האתחול."
+
+#: ../../boot_options.rst:42
+msgid ""
+"Replace ``quiet splash`` with ``nomodeset`` and press :kbd:`Enter` to boot."
+msgstr ""
+"יש להחליף את „quiet splash” ב־„nomodeset” ואז ללחוץ על :kbd:`Enter` להפעלה."
+
+#: ../../boot_options.rst:45
+msgid ""
+"Repeat this operation post-install in your grub boot menu and read "
+":doc:`drivers` to install additional drivers."
+msgstr ""
+"נא לחזור על פעולה זו לאחר ההתקנה מתפריט האיתחול grub, נא לעיין ב־ "
+":doc:`drivers` להתקנת מנהלי התקנים נוספים."
+
+#: ../../boot_options.rst:48
+msgid "Other boot options"
+msgstr "אפשרויות אתחול אחרות"
+
+#: ../../boot_options.rst:50
+msgid "If you still cannot boot try one of the following solutions:"
+msgstr "אם אתחול המערכת לא מצליח כדאי לנסות את אחד מהפתרונות הבאים:"
+
+#: ../../boot_options.rst:52
+msgid "Try ``nouveau.noaccel=1`` instead of ``nomodeset``."
+msgstr "נא לנסות ``nouveau.noaccel=1`` במקום ``nomodeset``."
+
+#: ../../boot_options.rst:53
+msgid ""
+"After the installation, use :menuselection:`Advanced Options --> Recovery "
+"mode` from the boot menu and choose ``resume``."
+msgstr ""
+"לאחר ההתקנה, נא להשתמש ב־:menuselection: \"אפשרויות מתקדמות --> מצב שחזור\" "
+"מתפריט האיתחול ולבחור \"להמשיך\"."
+
+#: ../../boot_options.rst:56
+msgid "Install an older release"
+msgstr "התקנת גרסה ישנה יותר"
+
+#: ../../boot_options.rst:58
+msgid ""
+"If your computer has compatibility issues with the latest Linux Mint "
+"release, install a previous release from the same Linux Mint series."
+msgstr ""
+"אם יש למחשבך בעיות תאימות עם הגרסה האחרונה של לינוקס מינט, כדאי להתקין גרסה "
+"קודמת של לינוקס מינט מאותה סדרה."
+
+#: ../../boot_options.rst:60
+msgid ""
+"For instance, if you can't install Linux Mint 18.3 (which comes with a 4.10 "
+"kernel), install Linux Mint 18 (which comes with a 4.4 kernel) and upgrade "
+"to 18.3."
+msgstr ""
+"למשל, אם התקנת לינוקס מינט 18.3 (שבאה עם גרסת הליבה 4.10) לא צלחה, כדאי "
+"להתקין את לינוקס מינט 18 (שבאה עם גרסת הליבה 4.4) ואז לשדרג לגרסה 18.3 של "
+"לינוקס מינט."
+
+#: ../../boot_options.rst:63
+msgid ""
+"The first release in each series uses an LTS (Long Term Support) kernel. "
+"Upgrading from this release to the latest one in the series does not change "
+"your kernel."
+msgstr ""
+"השחרור הראשון בכל סדרה משתמש בליבת LTS (תמיכה לטווח ארוך). שדרוג שחרור זה "
+"לגרסה האחרונה בסדרה לא ישנו את הליבה."
+
+#: ../../boot.rst:2
+msgid "Boot Linux Mint"
+msgstr "אתחול לינוקס מינט"
+
+#: ../../boot.rst:4
+msgid ""
+"Now that you have Linux Mint on a USB stick (or DVD) boot the computer from "
+"it."
+msgstr ""
+"כעת, כשלינוקס מינט נמצא בהחסן הנייד (או DVD) נא לאתחל את המחשב מההחסן הנייד."
+
+#: ../../boot.rst:6
+msgid "Insert your USB stick (or DVD) into the computer."
+msgstr "נא להכניס את ההחסן הנייד (או תקליטור ה־DVD) שלך למחשב."
+
+#: ../../boot.rst:8 ../../drivers.rst:23 ../../efi.rst:61 ../../oem.rst:21
+msgid "Restart the computer."
+msgstr "הפעלת המחשב מחדש."
+
+#: ../../boot.rst:10
+msgid ""
+"Before your computer boots your current operating system (Windows, Mac, "
+"Linux) you should see your `BIOS <https://en.wikipedia.org/wiki/BIOS>`_ "
+"loading screen. Check the screen or your computer's documentation to know "
+"which key to press and instruct your computer to boot on USB (or DVD)."
+msgstr ""
+"לפני אתחול המחשב למערכת ההפעלה הנוכחית (Windows,‏ Mac, לינוקס) כדאי לבדוק את "
+"מסך טעינת ה־„BIOS <https://he.wikipedia.org/wiki/BIOS>”_ של מחשבך. כדאי "
+"לעיין בחוברת ההדרכה של הצג או של המחשב שלך כדי לדעת על איזה מקש ללחוץ בשביל "
+"לבצע אתחול מההחסן הנייד (או מתקליטור ה־DVD)."
+
+#: ../../boot.rst:13
+msgid ""
+"Most BIOS have a special key you can press to select the boot device and all "
+"of them have a special key to enter the BIOS configuration screen (from "
+"which you can define the boot order). Depending on the BIOS, these special "
+"keys can be :kbd:`Escape`, :kbd:`F1`, :kbd:`F2`, :kbd:`F8`, :kbd:`F10`, "
+":kbd:`F11`, :kbd:`F12`, or :kbd:`Delete`. That information is usually "
+"briefly written on the screen during the boot sequence."
+msgstr ""
+"לרוב ה־BIOS מוגדר מקש ייחודי עליו ניתן ללחוץ לבחירת התקן האיתחול, אך לכולם "
+"יש מקש ייחודי לכניסה למסך תצורת ה־BIOS (שם ניתן להגדיר את סדר האיתחול). "
+"בתלות ב־BIOS, המקשים המיוחדים הללו עשויים להיות אחד מהבאים:  :kbd:`יציאה`, "
+":kbd:`F1`, :kbd:`F2`, :kbd:`F8`, :kbd:`F10`, :kbd:`F11`, :kbd:`F12`, או "
+":kbd:`מחיקה`. מידע זה מופיע בדרך כלל בחטף על צג המחשב במהלך רצף האיתחול."
+
+#: ../../boot.rst:16
+msgid ""
+"On Macs, keep your finger pressed on the :kbd:`Alt` or :kbd:`Option` key "
+"after hearing the boot sound."
+msgstr ""
+"במחשבי מק, יש להחזיק את מקש: kbd: 'אלט' או: kbd: מקש 'אפשרויות' לחוץ מיד "
+"לאחר שצליל האיתחול נשמע."
+
+#: ../../boot.rst:18
+msgid ""
+"The Linux Mint ISO can be booted both in EFI or BIOS mode. In EFI mode it "
+"shows a grub menu. In BIOS mode it shows an isolinux menu."
+msgstr ""
+"ניתן לאתחל את ISO לינוקס מינט  גם במצב EFI וגם במצב BIOS. במצב EFI יוצג  "
+"תפריט גרוב. במצב BIOS יוצג תפריט isolinux."
+
+#: ../../boot.rst:24
+msgid "The isolinux menu in BIOS mode"
+msgstr "תפריט isolinux במצב BIOS"
+
+#: ../../boot.rst:30
+msgid "The grub menu in EFI mode"
+msgstr "תפריט GRUB במצב EFI"
+
+#: ../../boot.rst:32
+msgid ""
+"From one of these menu, press :kbd:`Enter` to start Linux Mint from your USB "
+"stick (or DVD)."
+msgstr ""
+"מתוך אחד התפריטים האלה, נא להקיש על מקש על: kbd: 'Enter' כדי להפעיל את "
+"לינוקס מינט מההחסן הנייד (או מתקליטור ה־DVD)."
+
+#: ../../burn.rst:2
+msgid "Create the bootable media"
+msgstr "יצירת מדיית אתחול"
+
+#: ../../burn.rst:4
+msgid "The easiest way to install Linux Mint is with a USB stick."
+msgstr "הדרך הקלה ביותר להתקנת לינוקס מינט היא בעזרת החסן נייד."
+
+#: ../../burn.rst:6
+msgid "If you cannot boot from USB, you can use a blank DVD."
+msgstr "אם לא ניתן לאתחל מהחסן נייד, ניתן לנסות עם תקליטור DVD ריק."
+
+#: ../../burn.rst:9
+msgid "How to make a bootable USB stick"
+msgstr "כיצד להכין החסן נייד בר־אתחול"
+
+#: ../../burn.rst:12
+msgid "In Linux Mint"
+msgstr "בלינוקס מינט"
+
+#: ../../burn.rst:14
+msgid ""
+"Right-click the ISO file and select :menuselection:`Make Bootable USB "
+"Stick`, or launch :menuselection:`Menu --> Accessories --> USB Image Writer`."
+msgstr ""
+"הקשה על לחצן העכבר הימני על קובץ ה־ISO ובחירת :menuselection: 'יצירת החסן "
+"נייד בר אתחול', או שיגור :menuselection: 'תפריט --> עזרים --> יוצר תמונת "
+"החסן נייד'."
+
+#: ../../burn.rst:20
+msgid "Select your USB device and click :guilabel:`Write`."
+msgstr "בחירת ההחסן נייד והקשה על :guilabel:`כתיבה`."
+
+#: ../../burn.rst:23
+msgid "In Windows, Mac OS, or other Linux distributions"
+msgstr "ב־Windows,‏ Mac OS, או הפצות לינוקס אחרות"
+
+#: ../../burn.rst:25
+msgid ""
+"Download `Etcher <https://www.balena.io/etcher/>`_, install it and run it."
+msgstr "יש להוריד `Etcher <https://www.balena.io/etcher/>`_, להתקין ולהפעיל."
+
+#: ../../burn.rst:31
+msgid "Using Etcher"
+msgstr "שימוש ב־Etcher"
+
+#: ../../burn.rst:33
+msgid "Click :guilabel:`Select image` and select your ISO file."
+msgstr "הקשה על :guilabel:`בחירת תמונה` ובחירת קובץ ה־ISO."
+
+#: ../../burn.rst:35
+msgid "Click :guilabel:`Select drive` and select your USB stick."
+msgstr "יש ללחוץ על :guilabel: „Select drive” ולבחור את ההחסן הנייד."
+
+#: ../../burn.rst:37
+msgid "Click :guilabel:`Flash!`."
+msgstr "יש ללחוץ על :guilabel:`Flash!`."
+
+#: ../../burn.rst:41
+msgid "How to make a bootable DVD"
+msgstr "כיצד ליצור תקליטור DVD בר־אתחול"
+
+#: ../../burn.rst:43
+msgid "Optical discs are slow and burning to disc is prone to errors."
+msgstr "תקליטורים אופטיים הם איטיים וצריבה לתקליטורים מועדת לשגיאות."
+
+#: ../../burn.rst:46
+msgid "To prevent issues, burn at the lowest possible speed."
+msgstr "כדי למנוע בעיות, כדאי לצרוב במהירות איטית ככל האפשר."
+
+#: ../../burn.rst:49
+msgid ""
+"Burn the content of the ISO onto the DVD, not the ISO file itself. When "
+"finished, your DVD should contain directories such as ``boot`` and "
+"``casper``, it shouldn't be an empty DVD containing an .iso file."
+msgstr ""
+"יש לצרוב את תוכן (הקבצים שחולצו) ה־ISO על גבי תקליטור ה־DVD, ולא את קובץ "
+"ה־ISO עצמו. בסיום הצריבה, תקליטור ה־DVD אמור להכיל תיקיות כגון „boot” "
+"ו־„casper”, ולא אמור להיות תקליטור DVD ריק המכיל רק את קובץ ה־iso."
+
+#: ../../burn.rst:52
+msgid "In Linux"
+msgstr "בלינוקס"
+
+#: ../../burn.rst:53
+msgid "Install and use ``xfburn``."
+msgstr "התקנה השימוש ב־„xfburn”."
+
+#: ../../burn.rst:56
+msgid "In Windows"
+msgstr "ב־Windows"
+
+#: ../../burn.rst:57
+msgid "Right-click the ISO file and select :menuselection:`Burn disk image`."
+msgstr ""
+"יש ללחוץ לחיצה ימנית על קובץ ה־ISO ולבחור את :menuselection: `צריבת תמונת "
+"תקליטור`."
+
+#: ../../burn.rst:59
+msgid ""
+"To make sure the ISO was burned without any errors, select "
+":menuselection:`Verify disc after burning`."
+msgstr ""
+"כדי לוודא שקובץ ה־ISO נצרב ללא שגיאות, יש לבחור את :menuselection:`אמת "
+"תקליטור לאחר צריבה`."
+
+#: ../../burn.rst:62
+msgid "In Mac OS"
+msgstr "ב־Mac OS"
+
+#: ../../burn.rst:63
+msgid ""
+"Right-click the ISO file and select :menuselection:`Burn Disk Image to Disc`."
+msgstr ""
+"הקשה ימנית על קובץ ה- ISO ובחירת:menuselection:'צריבת תמונת תקליטור לכונן'."
+
+#: ../../choose.rst:2
+msgid "Choose the right edition"
+msgstr "נא לבחור במהדורה הנכונה"
+
+#: ../../choose.rst:4
+msgid ""
+"You can download Linux Mint from the `Linux Mint website "
+"<https://linuxmint.com/download.php>`_."
+msgstr ""
+"ניתן להוריד את לינוקס מינט מ`האתר של לינוקס מינט "
+"<https://linuxmint.com/download.php>`_."
+
+#: ../../choose.rst:6
+msgid ""
+"Read below to choose which edition and architecture are right for you."
+msgstr "קרא/י למטה כדי לבחור את המהדורה והארכיטקטורה המתאימות לך."
+
+#: ../../choose.rst:9
+msgid "Cinnamon, MATE or Xfce?"
+msgstr "‏Cinnamon, ‏MATE או Xfce?"
+
+#: ../../choose.rst:11
+msgid ""
+"Linux Mint comes in 3 different flavours, each featuring a different desktop "
+"environment."
+msgstr ""
+"לינוקס מינט מגיעה ב-3 ניחוחות שונים, כל אחד מהם סביבת שולחן עבודה שונה."
+
+#: ../../choose.rst:14 ../../choose.rst:26
+msgid "Cinnamon"
+msgstr "Cinnamon"
+
+#: ../../choose.rst:14
+msgid "The most modern, innovative and full-featured desktop"
+msgstr "שולחן העבודה המודרני, החדשני והעשיר בתכונות"
+
+#: ../../choose.rst:15 ../../choose.rst:35
+msgid "MATE"
+msgstr "MATE"
+
+#: ../../choose.rst:15
+msgid "A more traditional, and faster desktop"
+msgstr "שולחן עבודה מסורתי ומהיר"
+
+#: ../../choose.rst:16 ../../choose.rst:44
+msgid "Xfce"
+msgstr "Xfce"
+
+#: ../../choose.rst:16
+msgid "The most lightweight desktop"
+msgstr "שולחן העבודה הקליל"
+
+#: ../../choose.rst:19
+msgid ""
+"The most popular version of Linux Mint is the Cinnamon edition. Cinnamon is "
+"primarily developed for and by Linux Mint. It is slick, beautiful, and full "
+"of new features."
+msgstr ""
+"המהדורה הנפוצה ביותר של לינקס מינט היא מהדורת Cinnamon.‏ Cinnamon פותחה "
+"בעיקר עבור ועל ידי צוות לינוקס מינט. היא מבריקה, יפהפייה ומלאה בתכונות חדשות."
+
+#: ../../choose.rst:28
+msgid ""
+"Linux Mint is also involved in the development of MATE, a classic desktop "
+"environment which is the continuation of GNOME 2, Linux Mint's default "
+"desktop between 2006 and 2011. Although it misses a few features and its "
+"development is slower than Cinnamon's, MATE uses less resources and can run "
+"faster on older computers."
+msgstr ""
+"לינוקס מינט מעורבים גם בפיתוח MATE, סביבת שולחן העבודה המסורתי המהווה המשך "
+"ל־GNOME 2, שולחן העבודה ברירת המחדל של לינוקס מינט משנת 2006 עד 2011. למרות "
+"שחסרות בה מספר תכונות ופיתוחה איטי משל Cinnamon,‏ MATE משתמשת בפחות משאבים "
+"ופועלת ומהר יותר על גבי מחשבים ישנים."
+
+#: ../../choose.rst:37
+msgid ""
+"Xfce is a lightweight desktop environment. It doesn't support as many "
+"features as Cinnamon or MATE, but it's extremely stable and very light on "
+"resource usage."
+msgstr ""
+"Xfce הוא שולחן עבודה קליל. ‏אין בו הרבה תכונות כמו ב־Cinnamon או MATE, אבל "
+"הוא יציב וצורך מעט מאוד משאבים."
+
+#: ../../choose.rst:46
+msgid ""
+"Of course, all three desktops are great and Linux Mint is extremely proud of "
+"each edition. Although there are more features and better support in some "
+"editions than others, and some do run faster and use less resources than "
+"others, they're all great alternatives and choosing the right edition is "
+"largely a matter of taste."
+msgstr ""
+"כמובן, כל שלושת שולחנות העבודה מעולות ולינוקס מינט גאה מאוד בכל המהדורות. "
+"למרות שיש יותר תכונות ותמיכה טובה יותר בחלק מהמהדורות מאשר באחרות, וחלקן "
+"רצות מהר יותר ומשתמשות בפחות משאבים מאחרות, כולן חלופות נהדרות ובחירת "
+"המהדורה הנכונה היא בעיקרה עניין של טעם."
+
+#: ../../choose.rst:48
+msgid ""
+"Other than their features and performance, Cinnamon, MATE and Xfce also "
+"represent three different desktop environments, with different menus, "
+"different panels and configuration tools. The right one for you is the one "
+"where you feel at home."
+msgstr ""
+"מלבד התכונות והביצועים שלהן, Cinnamon,‏ MATE ו־Xfce מייצגות שלוש סביבות "
+"שולחן עבודה שונות, בעלות תפריטים שונים, לוחות שונים וכלי תצורה שונים. סביבת "
+"שולחן העבודה המתאימה ביותר בשבילך היא האחת שמאפשרת לך \"להרגיש בבית\"."
+
+#: ../../choose.rst:50
+msgid ""
+"If you are unsure which desktop to choose start with the Cinnamon edition. "
+"Try them all eventually when you have the time. All three of them have their "
+"own audience within the Linux Mint community and they're all very popular."
+msgstr ""
+"אם קיים ספק לגבי שולחן־הבודה בו יש לבחור, כדאי להתחיל עם מהדורת סינמון. "
+"בסופו של דבר, שווה לנסות את כולן כשיהיה מעט זמן פנוי. לשלושתן קהל משלהן בקרב "
+"קהילת לינוקס מינט וכולן מאוד מקובלות."
+
+#: ../../choose.rst:54
+msgid "32-bit or 64-bit?"
+msgstr "32 סיביות או 64 סיביות?"
+
+#: ../../choose.rst:56
+msgid "From version 20 onward, only 64-bit is available."
+msgstr "החל מגרסה 20 ואילך, זמינה רק הגרסה ל־64 סיביות."
+
+#: ../../choose.rst:58
+msgid ""
+"The 32-bit ISO images on prior versions are provided for compatibility with "
+"older computers. 32-bit processors are extremely rare nowadays and most "
+"computers are able to run in 64-bit. If your computer was manufactured after "
+"2007, you probably have a 64-bit processor."
+msgstr ""
+"דמויות ה־ISO ל־32 סיביות בגרסאות הקודמות סופקו לצורך תאימות עם מחשבים ישנים "
+"יותר. מעבדי 32 הסיביות נדירים מאוד בימינו ורוב המחשבים יכולים להריץ מערכות "
+"הפעלה ל־64 סיביות. אם המחשב שלך נוצר אחרי שנת 2007, רוב הסיכויים שמותקן בו "
+"מעבד 64 סיביות."
+
+#: ../../choose.rst:60
+msgid ""
+"If you have an old computer and you are unsure whether or not it can run in "
+"64-bit, read `X86 Chronology "
+"<https://en.wikipedia.org/wiki/X86#Chronology>`_."
+msgstr ""
+"אם המחשב ישן ולא בטוח שהוא יכול לרוץ בתצורת 64 סיביות, נא לקרוא את 'X86 "
+"Chronology <https://en.wikipedia.org/wiki/X86#Chronology> `_."
+
+#: ../../choose.rst:63
+msgid ""
+"You can try to boot Linux Mint 64-bit on your computer. If it isn't "
+"compatible, nothing bad will happen. You will just get an error message."
+msgstr ""
+"אפשר לנסות להפעיל את הגרסה של לינוקס מינט ל־64 סיביות במחשבך. אם אין תאימות, "
+"לא יקרה שום דבר רע. רק תוצג הודעת שגיאה."
+
+#: ../../choose.rst:66
+msgid ""
+"If you cannot boot or install Linux Mint because your hardware is too recent "
+"and is not properly detected see the `Edge ISO Images <https://linuxmint-"
+"user-guide.readthedocs.io/en/latest/edge.html>`_ chapter in the Linux Mint "
+"User Guide for an alternative ISO."
+msgstr ""
+"אם לא ניתן להפעיל או להתקין את לינוקס מינט בגלל שהחומרה חדשה מדי ואינה מזוהה "
+"באופן תקין, נא לעיין בפרק `Edge ISO Images <https://linuxmint-user-"
+"guide.readthedocs.io/en/latest/edge.html>`_ במדריך המשתמש של לינוקס מינט "
+"ל־ISO חלופי."
+
+#: ../../codecs.rst:2
+msgid "Multimedia codecs"
+msgstr "מקודדי מולטימדיה"
+
+#: ../../codecs.rst:4
+msgid "Some multimedia content requires additional codecs to be installed."
+msgstr "תוכן מולטימדיה מסוים דורש מקודדים נוספים כדי להתקינו."
+
+#: ../../codecs.rst:7
+msgid ""
+"If you were online when installing Linux Mint and you ticked the option to "
+"install these codecs, they are already installed."
+msgstr ""
+"אם במהלך התקנת לינוקס מינט המחשב היה במצב מקוון והאפשרות 'התקנת מקודדים אלה' "
+"סומנה, הם כבר מותקנים."
+
+#: ../../codecs.rst:9
+msgid ""
+"Launch :menuselection:`Menu --> Sound & Video --> Install Multimedia Codecs`."
+msgstr ""
+"הפעל/י :menuselection:`תפריט --> שמע ווידאו --> התקנת מקודדי מולטימדיה`."
+
+#: ../../codecs.rst:14
+msgid "Click :guilabel:`Install`."
+msgstr "הקשה על :guilabel:`התקנה`."
+
+#: ../../codecs.rst:16
+msgid ""
+"Enter your password and wait for the codecs to be installed on your computer."
+msgstr "נא להזין סיסמה ולהמתין להתקנת המקודדים במחשב."
+
+#: ../../drivers.rst:2
+msgid "Hardware drivers"
+msgstr "מנהלי התקנים לחומרת המחשב"
+
+#: ../../drivers.rst:4
+msgid ""
+"One of the first things to do after installing Linux Mint is to check for "
+"available hardware drivers."
+msgstr ""
+"אחד הדברים הראשונים שיש לעשות לאחר התקנת לינוקס מינט הוא לבדוק אם יש מנהלי "
+"התקנים זמינים."
+
+#: ../../drivers.rst:6
+msgid "Launch :menuselection:`Menu --> Administration --> Driver Manager`."
+msgstr "הפעלת :menuselection:`תפריט --> ניהול --> מנהל ההתקנים`."
+
+#: ../../drivers.rst:13
+msgid ""
+"If you are offline, the Driver Manager will complain that it cannot connect "
+"to the Internet."
+msgstr "במצב לא מקוון, מנהל ההתקנים יודיע שאיננו יכול להתחבר לאינטרנט."
+
+#: ../../drivers.rst:19
+msgid ""
+"Insert your bootable Linux Mint USB stick (or DVD), wait for it to be "
+"mounted, and click :guilabel:`OK`."
+msgstr ""
+"נא להכניס הֶחְסֵן נַיָּד בר איתחול (או DVD), להמתין לעגינתו ולהקיש "
+":guilabel:`בסדר`."
+
+#: ../../drivers.rst:21
+msgid ""
+"Tick the appropriate checkboxes to select the available drivers and click "
+":guilabel:`Apply Changes`."
+msgstr ""
+"סמן/י את תיבות הסימון המתאימות כדי לבחור את מנהלי ההתקנים הזמינים ולחץ/י "
+":guilabel:`החל שינויים`."
+
+#: ../../efi.rst:2
+msgid "EFI"
+msgstr "EFI"
+
+#: ../../efi.rst:5
+msgid "SecureBoot"
+msgstr "אתחול בטוח"
+
+#: ../../efi.rst:7
+msgid ""
+"If after installing Linux Mint in EFI mode, you are unable to boot due to a "
+"``Secure Boot Violation``, you can try one of the following solutions:"
+msgstr ""
+"אם לאחר התקנת לינוקס מינט במצב EFI, המחשב לא מאתחל עקב 'הפרת איתחול מאובטח', "
+"נא לנסות את אחד הפתרונות הבאים:"
+
+#: ../../efi.rst:15
+msgid "Restart the installation:"
+msgstr "התחלת ההתקנה מחדש:"
+
+#: ../../efi.rst:14
+msgid "Connect to the Internet before the installation"
+msgstr "התחברות למרשתת לפני ההתקנה"
+
+#: ../../efi.rst:15
+msgid ""
+"**Do not** select ``Install third-party software for graphics and Wi-Fi "
+"hardware, Flash, MP3 and other media``."
+msgstr ""
+"** לא ** לבחור ``התקנת תכנת צד שלישי לחומרה גרפית ו- Wi-Fi, פלאש, MP3 ומדיה "
+"אחרת``."
+
+#: ../../efi.rst:17
+msgid "Disable ``SecureBoot`` in the ``BIOS`` settings of your computer."
+msgstr "השבתת ``SecureBoot`` בהגדרות ה-``BIOS`` במחשב."
+
+#: ../../efi.rst:20
+msgid ""
+"For examples of how to disable secure boot on various computers, read "
+"`Managing EFI Boot Loaders for Linux: Dealing with Secure Boot "
+"<http://www.rodsbooks.com/efi-bootloaders/secureboot.html>`_."
+msgstr ""
+"לדוגמאות על אופן השבתת איתחול מאובטח במחשבים שונים, נא לעיין ב'ניהול מנהלי "
+"איתחול EFI עבור לינוקס: טיפול באיתחול מאובטח <http://www.rodsbooks.com/efi-"
+"bootloaders/secureboot.html> `_."
+
+#: ../../efi.rst:23
+msgid "EFI boot order"
+msgstr "סדר אתחול EFI"
+
+#: ../../efi.rst:25
+msgid ""
+"If after installing Linux Mint in EFI mode, your computer skips the boot "
+"menu and boots straight into Windows (or another operating system), you "
+"probably have an issue with the boot order."
+msgstr ""
+"אם לאחר התקנת לינוקס מינט במצב EFI, המחשב מדלג על תפריט האתחול ומאתחל ישר "
+"ל־Windows (או למערכת הפעלה אחרת), כנראה יש בעיה בסדר האתחול."
+
+#: ../../efi.rst:27
+msgid "To modify the boot order:"
+msgstr "לשינוי סדר האתחול:"
+
+#: ../../efi.rst:29 ../../multiboot.rst:18
+msgid "Boot Linux Mint in ``live`` mode (with your USB stick or DVD)."
+msgstr "אתחול לינוקס מינט במצב „המחשה” (מתוך החסן נייד או תקליטור DVD)"
+
+#: ../../efi.rst:31 ../../multiboot.rst:20
+msgid "Open a terminal."
+msgstr "נא לפתוח מסוף."
+
+#: ../../efi.rst:33
+msgid "Type ``sudo efibootmgr`` and press :kbd:`Enter`."
+msgstr "נא להזן ``sudo efibootmgr`` וללחוף על :kbd:`אנטר`."
+
+#: ../../efi.rst:35
+msgid "This command lists the available boot options and the boot order."
+msgstr "פקודה זו מציגה את אפשרויות האתחול הזמינות ואת סדר האתחול."
+
+#: ../../efi.rst:41
+msgid "In the screenshot above, there are three boot options:"
+msgstr "בצילום המסך לעיל, קיימות שלוש אפשרויות אתחול:"
+
+#: ../../efi.rst:43
+msgid "``ubuntu`` at ``0000``"
+msgstr "``ubuntu`` at ``0000``"
+
+#: ../../efi.rst:44
+msgid "``linuxmint`` at ``0001``"
+msgstr "``linuxmint`` at ``0001``"
+
+#: ../../efi.rst:45
+msgid "``Mac OS X`` at ``0081``"
+msgstr "``Mac OS X`` at ``0081``"
+
+#: ../../efi.rst:47
+msgid ""
+"The boot order is ``0081``. This indicates that the computer only tries to "
+"boot Mac OS and not Linux Mint."
+msgstr ""
+"סדר האתחול הוא „0081”. המשמעות היא שהמחשב מנסה לאתחל רק את מערכת ההפעלה Mac "
+"OS ולא את לינוקס מינט."
+
+#: ../../efi.rst:50
+msgid ""
+"For technical reasons Linux Mint uses ``ubuntu`` as its EFI boot name."
+msgstr "מסיבות טכניות, לינוקס מינט משתמש בשם „ubuntu” כשם אתחול ה־EFI."
+
+#: ../../efi.rst:53
+msgid ""
+"To fix the boot order, type ``sudo efibootmgr --bootorder XXXX,YYYY`` (where "
+"``XXXX`` and ``YYYY`` are the operating system boot options you want to "
+"boot)."
+msgstr ""
+"לתיקון סדר האיתחול, נא להקליד ``sudo efibootmgr - bootorder XXXX, YYYY`` "
+"(כאשר ``XXXX`` ו־``YYYY`` הן אפשרויות האיתחול של מערכת ההפעלה אותה מעוניינים "
+"לאתחל)."
+
+#: ../../efi.rst:59
+msgid ""
+"In the screenshot above, ``sudo efibootmgr --bootorder 0000,0081`` instructs "
+"the computer to first try to boot Linux Mint (``ubuntu`` being the EFI boot "
+"name for Linux Mint), and then Mac OS."
+msgstr ""
+"בצילום המסך לעיל, 'sudo efibootmgr - bootorder 0000,0081' מורה למחשב לנסות "
+"ולאתחל קודם את לינוקס מינט ('אובונטו' הוא שם האתחול ב־EFI עבור לינוקס מינט), "
+"ואז את מק OS."
+
+#: ../../efi.rst:64
+msgid ""
+"In the screenshot above ``0000`` is the first boot option so the computer "
+"boots on the Linux Mint grub menu. If grub fails (or if it is dismissed with "
+"the ``exit`` command), the computer follows the boot order and then tries to "
+"boot ``0081``, which corresponds to Mac OS."
+msgstr ""
+"בצילום המסך מעלה, '0000' היא אפשרות האיתחול הראשונה, כך שהמחשב יתחיל מתפריט "
+"גרוב (grub) לינוקס מינט. אם גרוב כושל (או אם הופסק באמצעות פקודת 'exit'), "
+"המחשב עוקב אחר סדר האיתחול וינסה לאתחל את '0081', התואם למק OS."
+
+#: ../../help.rst:2
+msgid "Where to find help"
+msgstr "היכן למצוא עזרה"
+
+#: ../../help.rst:4
+msgid ""
+"Many users will be glad to help you and guide you through your first steps "
+"with Linux if you are nice and patient with them and if you give them the "
+"information they require to understand the issues you are facing."
+msgstr ""
+"משתמשים רבים ישמחו לספק עזרה והדרכה בצעדיכם הראשונים עם לינוקס, היו נחמדים "
+"וסבלניים כלפיהם וספקו את המידע הדרוש כדי להבין את הסוגיות איתן אתם מתמודדים."
+
+#: ../../help.rst:7
+msgid "The forums"
+msgstr "הפורומים"
+
+#: ../../help.rst:9
+msgid ""
+"The best place to find help is on the `Linux Mint Forums "
+"<https://forums.linuxmint.com>`_."
+msgstr ""
+"המקום המיטבי למציאת עזרה הוא ב'פורומי לינוקס מינט "
+"<https://forums.linuxmint.com>' _."
+
+#: ../../help.rst:12
+msgid ""
+"Search the forums before asking, in case someone else already asked the same "
+"question."
+msgstr ""
+"לפני ששואלים שאלות, נא לחפש בפורומים, למקרה שמישהו אחר כבר שאל את אותה שאלה."
+
+#: ../../help.rst:15
+msgid "The chat room"
+msgstr "חדר השיחוח"
+
+#: ../../help.rst:17
+msgid "Another great place to find help is in the IRC chat room."
+msgstr "מקום מצוין נוסף למציאת עזרה הוא בחדר השיחוח IRC."
+
+#: ../../help.rst:19
+msgid ""
+"To reach the chat room from within Linux Mint, launch :menuselection:`Menu --"
+"> Internet --> HexChat`."
+msgstr "מקום מצוין נוסף לקבלת עזרה הוא חדר השחוח IRC."
+
+#: ../../help.rst:21
+msgid ""
+"If you are using another operating system, you can use `Kiwiirc "
+"<https://kiwiirc.com/client/irc.spotchat.org/?i#linuxmint-help>`_ to connect "
+"to the chat room."
+msgstr ""
+"אם אתם משתמשים במערכת הפעלה אחרת, אתם יכולים להשתמש ב- 'קווירק "
+"<https://kiwiirc.com/client/irc.spotchat.org/?i#linuxmint-help>'_ כדי להתחבר "
+"לחדר השיחוח."
+
+#: ../../help.rst:24
+msgid ""
+"Many people are connected to the chat room but only look at it now and then. "
+"Be patient after asking a question. Don't repeat it and stay connected until "
+"you get an answer. It can sometimes take a few hours for somebody to see "
+"your question and reply to you. Don't quit after a few minutes. It is "
+"frustrating to you, but also to others who later see your question and are "
+"unable to reply because you already left."
+msgstr ""
+"אם אתם משתמשים ב- Hexchat, תוכלו למזער אותו למגש על ידי לחיצה על סמל המצב "
+"שלו. לעתים קרובות אנשים יזכירו את הכינוי שלכם כאשר הם עונים. כאשר הם עושים "
+"זאת, סמל המצב ב- Hexchat יהבהב כדי למשוך תשומת לב."
+
+#: ../../help.rst:27
+msgid ""
+"If you are using Hexchat, you can minimize it to tray by clicking its status "
+"icon. People will often mention your nickname when replying to you. When "
+"they do, your Hexchat status icon will blink to catch your attention."
+msgstr ""
+"אם משתמשים ב- Hexchat, הוא ניתן למזעור למגש בהקשה על סמל המצב שלו. לעתים "
+"קרובות אנשים יזכירו את הכינוי שלכם בתשובה אליכם. כאשר הם עושים זאת, סמל המצב "
+"של Hexchat יהבהב כדי למשוך את תשומת לב."
+
+#: ../../help.rst:30
+msgid "Community resources"
+msgstr "משאבי קהילה"
+
+#: ../../help.rst:32
+msgid ""
+"The `tutorials section <https://community.linuxmint.com/tutorial/search>`_ "
+"is useful to find tutorials about Linux Mint."
+msgstr ""
+"מקטע ה'מדריכים <https://community.linuxmint.com/tutorial/search> `_ שימושי "
+"למציאת הדרכה אודות לינוקס מינט."
+
+#: ../../help.rst:34
+msgid ""
+"The `hardware database <https://community.linuxmint.com/hardware/search>`_ "
+"is useful to find compatible hardware."
+msgstr ""
+"מסד נתוני החומרה <https://community.linuxmint.com/hardware/search> `_ שימושי "
+"למציאת חומרה תואמת."
+
+#: ../../help.rst:37
+msgid "Local communities"
+msgstr "קהילות מקומיות"
+
+#: ../../help.rst:39
+msgid ""
+"To find help in your language, use the `Local Communities "
+"<https://www.linuxmint.com/links.php>`_."
+msgstr ""
+"לקבלת עזרה בשפה שלכם, השתמשו ב'קהילות מקומיות "
+"<https://www.linuxmint.com/links.php>`_."
+
+#: ../../index.rst:2
+msgid "Linux Mint Installation Guide"
+msgstr "מדריך התקנה לינוקס מינט"
+
+#: ../../index.rst:8
+msgid ""
+"Linux Mint comes in the form of an ISO image (an .iso file) which can be "
+"used to make a bootable DVD or a bootable USB stick."
+msgstr ""
+"לינוקס מינט מגיעה בצורה של תמונת ISO (קובץ iso.) בה ניתן להשתמש ליצירת DVD "
+"או הֶחְסֵן נַיָּד ברי־איתחול."
+
+#: ../../index.rst:10
+msgid ""
+"This guide will help you download the right ISO image, create your bootable "
+"media and install Linux Mint on your computer."
+msgstr ""
+"מדריך זה יסייע בהורדת תמונת ה־ISO הנכונה, יצירת המדיה ברת האיתחול והתקנת "
+"לינוקס מינט על המחשב."
+
+#: ../../index.rst:12 ../../sections.rst:5
+msgid "Download"
+msgstr "הורדה"
+
+#: ../../index.rst:19 ../../sections.rst:7
+msgid "Live Boot"
+msgstr "הפעלה חיה"
+
+#: ../../index.rst:26 ../../sections.rst:9
+msgid "Installation"
+msgstr "התקנה"
+
+#: ../../index.rst:32 ../../sections.rst:11
+msgid "Post-installation"
+msgstr "לאחר-ההתקנה"
+
+#: ../../index.rst:41 ../../sections.rst:13
+msgid "Troubleshooting"
+msgstr "פתרון בעיות"
+
+#: ../../index.rst:48 ../../sections.rst:15
+msgid "Frequently Asked Questions"
+msgstr "שאלות נפוצות"
+
+#: ../../install.rst:2
+msgid "Install Linux Mint"
+msgstr "התקנת לינוקס מינט"
+
+#: ../../install.rst:5
+msgid "The live session"
+msgstr "ההפעלה החיה (\"live session\")"
+
+#: ../../install.rst:7
+msgid ""
+"When you boot the computer from the USB stick (or DVD), Linux Mint starts a "
+"``live session``. It logs you in automatically as a user called ``mint`` and "
+"shows you a desktop with the installer on it:"
+msgstr ""
+"באתחול המחשב מהחסן־נייד (או  DVD), לינוקס מינט תאתחל במצב ``מופע חי``. "
+"ההתחברות תהיה אוטומטית עם שם משתמש ``mint`` ועל שולחן עבודה יוצג משגר תוכנת "
+"ההתקנה:"
+
+#: ../../install.rst:13
+msgid "The Linux Mint live session"
+msgstr "מופע 'חי' של לינוקס מינט"
+
+#: ../../install.rst:15
+msgid ""
+"The ``live session`` is similar to a normal session (i.e. to Linux Mint once "
+"it is permanently installed on the computer), but with the following "
+"exceptions:"
+msgstr ""
+"ה``הפעלה החיה`` דומה להפעלה רגילה (כלומר אל Linux Mint כאשר הוא מותקן באופן "
+"קבוע על המחשב), אבל אם היוצאי מן הכלל האלה:"
+
+#: ../../install.rst:17
+msgid ""
+"The Live session is slower (it is loaded from a USB stick or DVD as opposed "
+"to a SSD or HDD)."
+msgstr ""
+"המופע החי אטי יותר ( נטען מהחסן-נייד או DVD בניגוד לטעינה מכונן קשיח SSD או "
+"HDD )."
+
+#: ../../install.rst:18
+msgid ""
+"Changes you make in the live session are not permanent. They are not written "
+"to the USB stick (or DVD) and they do not impact the system installed by the "
+"installer."
+msgstr ""
+"שינויים שאת/ה עושה להפעלה החיה לא קבועים. הם לא נכתבים לדיסק-און-קי (או די-"
+"וי-די) והם לא משפיעים על המערכת המותקנת ע\"י תוכנת ההתקנה."
+
+#: ../../install.rst:19
+msgid ""
+"Some applications work differently (or not at all) in the live session "
+"(Timeshift, Flatpak, Update Manager, Welcome Screen..etc.)."
+msgstr ""
+"חלק מהיישומים יעבדו שונה (או לא יעבדו בכלל) בהפעלה החיה (Timeshift, Flatpak, "
+"מנהל העדכונים, מסך ה-'ברוכים הבאים' וכו')."
+
+#: ../../install.rst:22
+msgid ""
+"The username for the live session is ``mint``. If asked for a password press "
+":kbd:`Enter`."
+msgstr "המשתמש בהפעלה החיה הוא ``mint``. אם נשאלת לססמה לחץ/י :kbd:`אנטר`."
+
+#: ../../install.rst:25
+msgid "Installing Linux Mint on the computer"
+msgstr "התקנת לינוקס מינט על המחשב"
+
+#: ../../install.rst:27
+msgid "To permanently install Linux Mint on your computer:"
+msgstr "כדי להתקין את לינוקס מינט התקנה קבוע על מחשב:"
+
+#: ../../install.rst:29
+msgid "Double-click :guilabel:`Install Linux Mint`."
+msgstr "הקשה  כפולה על :guilabel:`התקנת לינוקס מינט`."
+
+#: ../../install.rst:31
+msgid "Select your language."
+msgstr "בחירת שפה."
+
+#: ../../install.rst:37
+msgid "Connect to the Internet."
+msgstr "התחבר/י לאינטרנט."
+
+#: ../../install.rst:43
+msgid ""
+"If you are connected to the Internet, tick the box to install the multimedia "
+"codecs."
+msgstr "במידה וקיים חיבור מרשתת, נא לסמן את התיבה להתקנת מקודדי מולטימדיה."
+
+#: ../../install.rst:49
+msgid "Choose an installation type."
+msgstr "בחירת סוג התקנה."
+
+#: ../../install.rst:55
+msgid ""
+"If Linux Mint is the only operating system you want to run on this computer "
+"and all data can be lost on the hard drive, choose :guilabel:`Erase disk and "
+"install Linux Mint`."
+msgstr ""
+"אם Linux Mint הוא מערכת ההפעלה היחידה שהנך רוצה להריץ על מחשב זה וניתן לאבד "
+"את כל המידע בכונן, בחר/י choose :guilabel:`מחק כונן והתקן את Linux Mint`."
+
+#: ../../install.rst:58
+msgid ""
+":guilabel:`Encrypt the new Linux Mint installation for security` refers to "
+"full disk encryption. At this stage of the installation your keyboard layout "
+"wasn't yet selected so it is set to en_US. If you decide to use this option, "
+"keep this in mind when entering a password. Note that there are issues with "
+"this option and some NVIDIA drivers. If you are new to Linux use home "
+"directory encryption instead (you can select it later during the "
+"installation)."
+msgstr ""
+":guilabel:`לאבטחה, נא להצפין את התקנת לינוקס מינט החדשה` מתייחס להצפנה מלאה "
+"של הכונן הקשיח. בשלב זה של ההתקנה פריסת המקלדת טרם נבחרה ונקבעה כ-en_US. "
+"בבחירה לעשות שימוש באפשרות זו, יש להתחשב בכך בעת קביעת ססמה. לתשומת לב "
+"קיימות סוגיות  עם אפשרות זו ועם כמה הנעי-התקן NVIDIA. למשתמשי לינוקס חדשים, "
+"מומלץ להשתמש בהצפנת תיקיית הבית במקום (ניתן לבחור בכך בשלב מאוחר יותר "
+"בהתקנה)."
+
+#: ../../install.rst:60
+msgid ""
+"If another operating system is present on the computer, the installer shows "
+"you an option to install Linux Mint alongside it. If you choose this option, "
+"the installer automatically resizes your existing operating system, makes "
+"room and installs Linux Mint beside it. A boot menu is set up to choose "
+"between the two operating systems each time you start your computer."
+msgstr ""
+"אם מותקנת מערכת הפעלה נוספת במחשב, תוכנית ההתקנה תציג אפשרות להתקין את "
+"לינוקס מינט לצידה. בבחירה באפשרות זו, תכנית ההתקנה תשנה באופן אוטומטי את "
+"גודל מערכת ההפעלה הקיימת, תפנה מקום ותתקין את לינוקס מינט לצידה. מתפריט "
+"האיתחול שהוגדר במהלך ההתקנה, ניתן יהיה לבחור בין שתי מערכות ההפעלה, בכל פעם "
+"שהמחשב יאתחל."
+
+#: ../../install.rst:64
+msgid ""
+"If you want to manage the partitions or specify which partitions to use, "
+"select :guilabel:`Something else`."
+msgstr ""
+"לנהול המחיצות או להגדרת המחיצות לשימוש, נא לבחר: guilabel: 'משהו אחר'."
+
+#: ../../install.rst:70
+msgid ""
+"Linux Mint requires one partition to be mounted on the root ``/`` directory."
+msgstr "לינוקס מינט דורשת מחיצה אחת שתעוגן בספרית השורש ``/``."
+
+#: ../../install.rst:72
+msgid ""
+"The Linux Mint operating system (without additional software or personal "
+"data) takes roughly 15GB, so give this partition a decent size (100GB or "
+"more)."
+msgstr ""
+"מערכת ההפעלה Linux Mint (ללא תכנות נוספות או מידע אישי) לוקחת כ-15 ג\"ב, אז "
+"תקצה למחיצה זו גודל סביר (100 ג\"ב או יותר)."
+
+#: ../../install.rst:74
+msgid "``ext4`` is recommended. It is the most popular Linux filesystem."
+msgstr "מומלץ להשתמש ב-``ext4``. היא מערכת הקבצים הכי נפוצה בלינוקס."
+
+#: ../../install.rst:79
+msgid ""
+"Also create a ``swap`` partition. This partition is used for hibernation and "
+"as a safety buffer in case your computer runs out of RAM. Give this "
+"partition a size equal to the amount of RAM in your computer."
+msgstr ""
+"נא ליצור גם מחיצת ``swap``. מחיצה זו תשמש לתרדמת וכחוצץ בטיחות למקרה שזיכרון "
+"ה- RAM יאזל. גודל המחיצה צריך להיות זהה לגודל זיכרון ה-RAM במחשב."
+
+#: ../../install.rst:81
+msgid "Select your timezone"
+msgstr "בחירת אזור הזמן"
+
+#: ../../install.rst:87
+msgid "Select your keyboard layout"
+msgstr "בחירת פריסת מקלדת"
+
+#: ../../install.rst:93
+msgid "Enter your user details"
+msgstr "הזנת פרטי משתמש"
+
+#: ../../install.rst:99
+msgid ""
+"Your ``name`` can be your real name, but it doesn't have to be. It is only "
+"used locally, in the screensaver and on the login screen."
+msgstr ""
+"ה``שם``  יכול להיות השם האמיתי  אבל לא בהכרח. השם משמש לצרכים מקומיים בלבד, "
+"לשומר המסך ולמסך הכניסה."
+
+#: ../../install.rst:101
+msgid ""
+"Your ``username`` is what you log in as, and your ``hostname`` is the name "
+"of your computer on the network."
+msgstr ""
+"``שם המשתמש`` הוא השם שמשמש להתחברות ו``שם המארח``  הוא שם המחשב ברשת."
+
+#: ../../install.rst:103
+msgid ""
+"To prevent bugs only use lowercase characters, with no punctuation or "
+"accentuation."
+msgstr ""
+"כדי למנוע תקלים השתמש/י באותיות לטיניות קטנות בלבד, ללא איות או מבטאים."
+
+#: ../../install.rst:105
+msgid ""
+"To protect your personal data against local attacks (people around you, or "
+"in case your computer gets stolen), tick :guilabel:`Encrypt my home folder`."
+msgstr ""
+"להגנה על המידע האישי כנגד התקפות מקומיות (אנשים מסביב, או במקרה של אבדן או "
+"גנבת המחשב), נא להפעיל :guilabel:`הצפנת תיקיית הבית שלי`."
+
+#: ../../install.rst:107
+msgid "Choose a strong password."
+msgstr "בחירת ססמה חזקה."
+
+#: ../../install.rst:109
+msgid "Enjoy the slideshow while Linux Mint is installed on your computer."
+msgstr "אפשר להנות מהמצגת במהלך התקנת לינוקס מינט על המחשב."
+
+#: ../../install.rst:115
+msgid "When the installation is finished, click :guilabel:`Restart Now`."
+msgstr "כאשר ההתקנה הסתיימה, לחץ/י :guilabel:`אתחל עכשיו`."
+
+#: ../../install.rst:121
+msgid ""
+"The computer will then start to shut down and ask you to remove the USB disk "
+"(or DVD). Upon reboot, your computer should show you a boot menu or start "
+"your newly installed Linux Mint operating system."
+msgstr ""
+"המחשב יכבה ותתבקשו להסיר את ההחסן הנייד(או DVD). לאחר האתחול, המחשב אמור "
+"להציג תפריט אתחול או להתחיל את מערכת לינוקס מינט החדשה."
+
+#: ../../locales.rst:2
+msgid "Language support"
+msgstr "תמיכה בשפות"
+
+#: ../../locales.rst:4
+msgid ""
+"Language support includes translations but also packages related to spell-"
+"checking, synonyms, hyphenation and dictionaries which enhance your "
+"experience in software applications such as LibreOffice."
+msgstr ""
+"תמיכה בשפות כוללת תרגומים אך גם חבילות הקשורות לבדיקות איות, מילים נרדפות, "
+"מיקוף ומילונים שמשפרים את חווית השימוש בתוכנות כגון ליברה אופיס."
+
+#: ../../locales.rst:6
+msgid "Launch :menuselection:`Menu --> Preferences --> Languages`."
+msgstr "שיגור :menuselection:`תפריט --> העדפות --> שפות`."
+
+#: ../../locales.rst:12
+msgid "Click :guilabel:`Install / Remove Language`."
+msgstr "הקשה על :guilabel:`התקנת / הסרת שפה`."
+
+#: ../../locales.rst:18
+msgid ""
+"If beside your locale, you see a label saying ``Some language packs are "
+"missing``, select your locale and click :guilabel:`Install language packs`."
+msgstr ""
+"אם לצד המיקום מופיעה תווית שאומרת \"חסרות חבילות שפה\", נא לבחור את המיקום "
+"המבוקש ולהקיש על: guilabel: \"התקנת חבילות שפה\"."
+
+#: ../../multiboot.rst:2
+msgid "Multi-boot"
+msgstr "אתחול-מרובה"
+
+#: ../../multiboot.rst:5
+msgid "Always install Windows first"
+msgstr "להתקין תמיד ווינדוס תחילה"
+
+#: ../../multiboot.rst:7
+msgid ""
+"Windows does not detect other operating systems and does not feature a boot "
+"menu. When you install it, it overwrites your boot sequence and your "
+"computer then boots straight into Windows."
+msgstr ""
+"וינדוס אינו מזהה מערכות הפעלה אחרות ואינו כולל תפריט אתחול. כשמתקינם אותו, "
+"הוא מחליף את רצף האתחול והמחשב יאתחל ישירות עם וינדוס."
+
+#: ../../multiboot.rst:9
+msgid ""
+"Linux Mint (and most Linux distributions) detects other operating systems "
+"and builds a menu from which you can choose which system to boot."
+msgstr ""
+"לינוקס מינט (ורוב הפצות לינוקס) מזהה מערכות הפעלה אחרות ובונה תפריט שממנו "
+"ניתן לבחור את מערכת ההפעלה לאתחל."
+
+#: ../../multiboot.rst:11
+msgid ""
+"For this reason, if you want to dual-boot or multi-boot with Windows, it is "
+"easier and recommended to install Windows first, before you install Linux "
+"Mint."
+msgstr ""
+"מסיבה זו, במידה ומעוניינים באתחול כפול או בריבוי אתחול עם וינדוס, יהיה קל "
+"יותר ואף מומלץ להתקין את וינדוס תחילה, לפני התקנת לינוקס מינט."
+
+#: ../../multiboot.rst:14
+msgid "Fix the boot sequence"
+msgstr "תיקון רצף האתחול"
+
+#: ../../multiboot.rst:16
+msgid "If Windows overwrites your boot sequence:"
+msgstr "אם וינדוס דורס את רצף האתחול:"
+
+#: ../../multiboot.rst:22
+msgid "To list your partitions, type ``lsblk -f`` and press :kbd:`Enter`."
+msgstr "לרשימת המחיצות, נא להזין ``lsblk -f`` וללחוץ  :kbd:`אנטר`."
+
+#: ../../multiboot.rst:28
+msgid ""
+"Find the partition where Linux Mint is installed. On most systems this "
+"should be the only ``ext4`` partition."
+msgstr ""
+"נא למצוא את המחיצה שבה מותקן לינוקס מינט. ברוב המערכות זו צריכה להיות מחיצת "
+"\"ext4\" היחידה."
+
+#: ../../multiboot.rst:30
+msgid "In the screenshot above:"
+msgstr "בצלום המסך מעל:"
+
+#: ../../multiboot.rst:32
+msgid ""
+"``sdb`` is the USB stick (recognizable by its ``iso9660`` type which "
+"corresponds to an ISO image)."
+msgstr "``sdb`` הוא ההחסן-נייד (מזוהה כסוג ``iso9660``  המתאים לתמונת ISO)."
+
+#: ../../multiboot.rst:33
+msgid "``sda`` is the hard drive."
+msgstr "``sda`` הוא הכונן הקשיח."
+
+#: ../../multiboot.rst:34
+msgid ""
+"``sda4`` is the partition on the ``sda`` hard drive, where Linux Mint is "
+"installed."
+msgstr "\"sda4\" היא המחיצה בכונן הקשיח \"sda\", בו מותקן לינוקס מינט."
+
+#: ../../multiboot.rst:36
+msgid "To list partition sizes, type ``lsblk``:"
+msgstr "לרשימת נפח המחיצות, נא להקיש ``lsblk``:"
+
+#: ../../multiboot.rst:42
+msgid "To list partition labels, type ``blkid``:"
+msgstr "לרשימת תוויות מחיצה נא להקליד, ``blkid``:"
+
+#: ../../multiboot.rst:48
+msgid ""
+"Mount the Linux Mint partition and reinstall the grub menu with the "
+"following commands:"
+msgstr ""
+"עגינת מחיצת לינוקס מינט והתקנת תפריט גרוב מחדש באמצעות הפקודות הבאות:"
+
+#: ../../multiboot.rst:56
+msgid ""
+"In the commands above, replace /dev/sda4 and /dev/sda with the appropriate "
+"names for your Linux Mint partition and your hard drive device."
+msgstr ""
+"בפקודות מעלה, נא להחליף / dev / sda4 ו- dev / sda בשמות המתאימים למחיצת "
+"לינוקס מינט והתקן הכונן הקשיח."
+
+#: ../../oem.rst:2
+msgid "Pre-installing Linux Mint (OEM Installation)"
+msgstr "התקנת לינוקס מינט מראש (התקנת OEM)"
+
+#: ../../oem.rst:4
+msgid ""
+"In the ISO boot menu, ``OEM install`` is used to preinstall Linux Mint."
+msgstr ""
+"בתפריט אתחול ה- ISO, \"התקנת OEM\" משמשת להתקנה מוקדמת של לינוקס מינט."
+
+#: ../../oem.rst:6
+msgid "This option is useful to:"
+msgstr "אפשרות זו שימושית ל:"
+
+#: ../../oem.rst:8
+msgid ""
+"Manufacturers and resellers who want to install Linux Mint on computers they "
+"sell to their customers."
+msgstr ""
+"יצרנים ומשווקים המעוניינים להתקין לינוקס מינט במחשבים שהם מוכרים ללקוחות "
+"שלהם."
+
+#: ../../oem.rst:9
+msgid "People who want to sell or give their computer to somebody else."
+msgstr "אנשים שמעוניינים למסור את המחשב שלהם לאחרים."
+
+#: ../../oem.rst:11
+msgid ""
+"When you install Linux Mint in ``OEM`` mode, the operating system is "
+"installed with a temporary user account and prepared for the computer's "
+"future owner."
+msgstr ""
+"בעת התקנת לינוקס מינט במצב \"OEM\", מערכת ההפעלה מותקנת עם חשבון משתמש זמני "
+"והיא ערוכה ומוכנה לבעלים העתידי של המחשב."
+
+#: ../../oem.rst:13
+msgid "The user account is set up by the new owner."
+msgstr "חשבון המשתמש מוגדר על ידי הבעלים החדשים."
+
+#: ../../oem.rst:15
+msgid "To perform an OEM installation follow the steps below:"
+msgstr "לביצוע התקנת OEM (יצרן ציוד מקורי) נא לעקוב אחר הצעדים הבאים:"
+
+#: ../../oem.rst:17
+msgid "Select ``OEM Install`` from the USB stick (or DVD) menu."
+msgstr "בחירת  ``התקנת OEM``ממתפריט ההחסן הניד  (או DVD)"
+
+#: ../../oem.rst:19
+msgid "Launch the installer and follow the installation instructions."
+msgstr "שיגור ההתקנה ועקיבה אחר הוראות ההתקנה"
+
+#: ../../oem.rst:23
+msgid ""
+"Change any system settings or install additional software if you want."
+msgstr "ניתן לשנות הגדרות מערכת כלשהן או להתקין תכנה נוספת אם תרצו בכך."
+
+#: ../../oem.rst:25
+msgid ""
+"When ready, click :guilabel:`Prepare for shipping to end user`, enter the "
+"password you chose during the installation, click :guilabel:`OK` and shut "
+"down the computer."
+msgstr ""
+"הקשה על :guilabel:'ההכנה למשלוח למשתמשי הקצה', נא להזין את הססמה שנבחרה "
+"במהלך ההתקנה, הקשה על :guilabel:'אישור' וכבוי המחשב."
+
+#: ../../oem.rst:31
+msgid ""
+"When the new owner of the computer boots the computer the following screen "
+"appears:"
+msgstr "כאשר הבעלים החדשים של המחשב מאתחל אתו, המסך הבא יופיע:"
+
+#: ../../oem.rst:37
+msgid ""
+"The new owner selects his or her username, password, keyboard layout, "
+"language, timezone and all the details relevant to create his or her user "
+"account."
+msgstr ""
+"הבעלים החדשים בוחרים את, שם המשתמש, הססמה, פריסת המקלדת, השפה, אזור הזמן וכל "
+"הפרטים הרלוונטיים ליצירת חשבון המשתמש."
+
+#: ../../partitioning.rst:2
+msgid "Partitioning"
+msgstr "החצצה"
+
+#: ../../partitioning.rst:5
+msgid "Disks and partitions under Linux"
+msgstr "כוננים ומחיצות תחת לינוקס"
+
+#: ../../partitioning.rst:7
+msgid ""
+"If you are not familiar with the Linux naming scheme for devices and "
+"partitions, or the concept of filesystems and mount points, read:"
+msgstr ""
+"אם אינכם מכירים את סכמת השמות של לינוקס להתקנים ומחיצות, או את הרעיון של "
+"מערכות קבצים ונקודות עגינה, נא קראו:"
+
+#: ../../partitioning.rst:9
+msgid ""
+"`A beginner’s guide to disks and disk partitions in Linux "
+"<http://linuxbsdos.com/2014/11/08/a-beginners-guide-to-disks-and-disk-"
+"partitions-in-linux/>`_"
+msgstr ""
+"`מדריך למתחילים כוננים ומחיצות כוננים בלינוקס "
+"<http://linuxbsdos.com/2014/11/08/a-beginners-guide-to-disks-and-disk-"
+"partitions-in-linux/>` _"
+
+#: ../../partitioning.rst:10
+msgid ""
+"`Device Names in Linux "
+"<https://www.debian.org/releases/wheezy/amd64/apcs04.html.en>`_"
+msgstr ""
+"`שמות התקנים בלינוקס "
+"<https://www.debian.org/releases/wheezy/amd64/apcs04.html.en>`_"
+
+#: ../../partitioning.rst:11
+msgid ""
+"`Understanding the Linux File System "
+"<http://etutorials.org/Linux+systems/red+hat+linux+9+professional+secrets/Par"
+"t+II+Exploring+Red+Hat+Linux/Chapter+7+Red+Hat+Linux+Basics/Understanding+the"
+"+Linux+File+System/>`_"
+msgstr ""
+"`הבנת מערכת הקבצים בלינוקס "
+"<http://etutorials.org/Linux+systems/red+hat+linux+9+professional+secrets/Par"
+"t+II+Exploring+Red+Hat+Linux/Chapter+7+Red+Hat+Linux+Basics/Understanding+the"
+"+Linux+File+System/>`_"
+
+#: ../../partitioning.rst:14
+msgid "Dedicated /home partition"
+msgstr "ייעודי / מחיצת הבית"
+
+#: ../../partitioning.rst:16
+msgid ""
+"In Linux, the ``/home`` directory is used to store user data and preferences."
+msgstr "בלינוקס, המחיצה \"home/\" משמשת לאחסון נתוני משתמש והעדפות."
+
+#: ../../partitioning.rst:18
+msgid ""
+"This directory contains one subdirectoy for each user account. Say your "
+"username is ``john``, your home directory is ``/home/john``, your downloads "
+"are in ``/home/john/Downloads``, your documents in ``/home/john/Documents``, "
+"your Firefox bookmarks somewhere in ``/home/john/.mozilla`` and so on..."
+msgstr ""
+"מחיצה זו מכילה תת-מחיצה אחת לכל חשבון משתמש. נניח ששם המשתמש הוא \"דוד\", "
+"מחיצת הבית תקרא \"/דוד/home/\", תקיית ההורדות  תקרא \"/הורדות/דוד/home/\", "
+"המסמכים ימוקמו ב־\"/מסמכים/דוד/home/\". \"סימניות פיירפוקס ישמרו איפשהו "
+"ב־\".mozilla/דוד/home/\" וכן הלאה..."
+
+#: ../../partitioning.rst:20
+msgid ""
+"By giving ``/home`` its own dedicated partition, you separate the user data "
+"from the rest of the operating system."
+msgstr ""
+"הקצאת חיצה ייעודית ל־``home/``, למעשה מפרידים בין נתוני המשתמש ומערכת ההפעלה."
+
+#: ../../partitioning.rst:22
+msgid ""
+"The advantage is that you can wipe the operating system and replace it "
+"without affecting the user data."
+msgstr ""
+"היתרון בכך הוא שניתן למחוק את מערכת ההפעלה ולהחליף אותה מבלי להשפיע על נתוני "
+"המשתמש."
+
+#: ../../partitioning.rst:24
+msgid "When installing Linux Mint:"
+msgstr "בעת התקנת לינוקס מינט:"
+
+#: ../../partitioning.rst:26
+msgid ""
+"Assign the ``/`` mount point to the partition dedicated to the operating "
+"system, and tell the installer to format it."
+msgstr ""
+"הקצאת נקודת עגינה \"/\" למחיצה המוקדשת למערכת ההפעלה, והנחיית ההתקנה לביצוע "
+"תבנות."
+
+#: ../../partitioning.rst:28
+msgid ""
+"Assign the ``/home`` mount point to the partition dedicated to the user "
+"data, and if it contains user data already, make sure to tell the installer "
+"**not to format it**."
+msgstr ""
+"הקצאת נקודת העגינה \"/home\" למחיצה המיועדת לנתוני המשתמש, ואם היא מכילה כבר "
+"נתוני משתמשים, נא לדאוג להנחות את תכנת ההתקנה ** לא לתבנת אותה **."
+
+#: ../../partitioning.rst:31
+msgid ""
+"This is not recommended for novice users. A misstep during the installation "
+"could wipe all your data. Always make backups, make sure to select the right "
+"partitions and to carefully review formatting options."
+msgstr ""
+"לא מומלץ למשתמשים מתחילים. צעד שגוי בתהליך ההתקנה עלול לגרום למחיקת כל "
+"הנתונים בכונן. חשוב תמיד לבצע גיבויים, יש להקפיד לבחור את המחיצות הנכונות "
+"ולבדוק היטב את אפשרויות התבנות."
+
+#: ../../partitioning.rst:34
+msgid ""
+"A Linux Mint operating system takes about 15GB and grows as you install "
+"additional software. If you can spare the size, give it 100GB. Keep most of "
+"your free space for the home partition. User data (downloads, videos, "
+"pictures) takes a lot more space."
+msgstr ""
+"מערכת הפעלה לינוקס מינט צורכת כ־15ג\"ב נפח אחסון וצומחת ככל שמתקינים תכנה "
+"נוספת. אם יש לכם מספיק מקום פנוי בכונן הקשיח, הקצו למערכת 100ג\"ב.  את רוב "
+"המקום הפנוי, הקצו למחיצת הבית. נתוני משתמשים (הורדות, סרטונים, תמונות) "
+"מורכים הרבה יותר מקום."
+
+#: ../../timeshift.rst:2
+msgid "System snapshots"
+msgstr "תמונות-בזק מערכת"
+
+#: ../../timeshift.rst:4
+msgid ""
+"Before you start using your operating system, set up system snapshots. Then "
+"if anything goes wrong, you can restore your system from an earlier backup."
+msgstr ""
+"לפני תחילת השימוש במערכת ההפעלה, נא להגדיר תמונות־חטף מערכת. אם משהו משתבש, "
+"ניתן יהיה לשחזר את המערכת מגיבוי קודם."
+
+#: ../../timeshift.rst:6
+msgid "Launch :menuselection:`Menu --> Administration --> Timeshift`."
+msgstr "שיגור :menuselection:`תפריט --> ניהול --> טיימשיפט`."
+
+#: ../../timeshift.rst:8
+msgid "Select ``RSYNC`` and click :guilabel:`Next`."
+msgstr "בחירת ``RSYNC`` והקשה על :guilabel:`הבא`."
+
+#: ../../timeshift.rst:13
+msgid ""
+"Select the device where you want system snapshots to be saved and click "
+":guilabel:`Next`."
+msgstr "בחירת ההתקן עליו תשמר תמונות-חטף המערכת והקשה על :guilabel: 'הבא'."
+
+#: ../../timeshift.rst:19
+msgid ""
+"The selected device is not formatted and no data is lost. System snapshots "
+"are saved into a newly created ``timeshift`` directory on the root of the "
+"selected device."
+msgstr ""
+"ההתקן שנבחר אינו מתובנת, לכן לא אבדו נתונים. תמונות־חטף המערכת נשמרות במחיצת "
+"\"timeshift\" שזה עתה נוצרה בשורש ההתקן שנבחר."
+
+#: ../../timeshift.rst:21
+msgid "Select when system snapshots are saved."
+msgstr "בחירת תמונות-חטף מערכת לשמירה"
+
+#: ../../timeshift.rst:27
+msgid ""
+"System snapshots are incremental so although the first snapshot takes a "
+"significant amount of spaces, new snapshots only take additional space for "
+"files which have changed."
+msgstr ""
+"תמונת-חטף המערכת מתווספים ולכן למרות שתמונת-החטף הראשונה מאכלסת נפח אחסון "
+"משמעותי, תמונת-החטף הבאים יאכלסו נפח נוסף עבור קבצים שהשתנו בלבד."
+
+#: ../../timeshift.rst:30
+msgid ""
+"``Boot`` snapshots are performed in the background and do not impact the "
+"speed of the boot sequence."
+msgstr ""
+"תמונות-חטף \"אתחול\" מבוצעות ברקע ואינן משפיעות על מהירות רצף האתחול."
+
+#: ../../timeshift.rst:32
+msgid "Click :guilabel:`Finish`."
+msgstr "הקשה על :guilabel:`סיום`."
+
+#: ../../verify.rst:2
+msgid "Verify your ISO image"
+msgstr "אימות תמונת ה-ISO"
+
+#: ../../verify.rst:4
+msgid ""
+"It is important to verify the integrity and authenticity of your ISO image."
+msgstr "חשוב לאמת את השלמות והאמינות של תמונת ה-ISO."
+
+#: ../../verify.rst:6
+msgid ""
+"The integrity check confirms that your ISO image was properly downloaded and "
+"that your local file is an exact copy of the file present on the download "
+"servers. An error during the download could result in a corrupted file and "
+"trigger random issues during the installation."
+msgstr ""
+"בדיקת השלמות מאשרת שתמונת ה-ISO הורדה באופן תקין ושהקובץ המקומי  שירד הוא "
+"עותק מדויק של הקובץ שנמצא בשרתים. שגיאה בזמן ההורדה עלולה להסתיים בקובץ פגום "
+"ולגרום לבעיות אקראיות בזמן ההתקנה."
+
+#: ../../verify.rst:8
+msgid ""
+"The authenticity check confirms that the ISO image you downloaded was signed "
+"by Linux Mint, and thus that it isn't a modified or malicious copy made by "
+"somebody else."
+msgstr ""
+"בדיקת האמינות מאשרת שתמונת ה-ISO נחתמה על ידי לינוקס מינט, זאת אומרת שהיא לא "
+"נערכה והיא לא עותק זדוני שהוכן על ידי מישהו אחר."
+
+#: ../../verify.rst:11
+msgid "Download the SHA256 sums provided by Linux Mint"
+msgstr "הורדת סכומי SHA256 המסופקים ע\"י Linux Mint"
+
+#: ../../verify.rst:13
+msgid ""
+"All `download mirrors <https://www.linuxmint.com/mirrors.php>`_ provide the "
+"ISO images, a ``sha256sum.txt`` file and a ``sha256sum.txt.gpg`` file. You "
+"should be able to find these files in the same place you downloaded the ISO "
+"image from."
+msgstr ""
+"כל `המראות <https://www.linuxmint.com/mirrors.php>`_ מספקות תמונות ISO, קובץ "
+"``sha256sum.txt`` וקובץ ``sha256sum.txt.gpg``. את/ה אמור/ה למצוא את הקבצים "
+"האלה באותו המקום שממנו הורדת את תמונת ה-ISO."
+
+#: ../../verify.rst:15
+msgid ""
+"If you can't find them, browse the `Heanet download mirror "
+"<https://ftp.heanet.ie/mirrors/linuxmint.com/stable/>`_ and click the "
+"version of the Linux Mint release you downloaded."
+msgstr ""
+"אם את/ה לא מצליח/ה למצוא אותם, סייר/י ב` מראה Heanet "
+"<https://ftp.heanet.ie/mirrors/linuxmint.com/stable/>`_ ולחץ/י על הגרסה של "
+"Linux Mint שהורדת."
+
+#: ../../verify.rst:17
+msgid "Download both ``sha256sum.txt`` and ``sha256sum.txt.gpg``."
+msgstr "תוריד/י את ``sha256sum.txt`` וגם את ``sha256sum.txt.gpg``."
+
+#: ../../verify.rst:19
+msgid ""
+"Do not copy their content, use \"right-click->Save Link As...\" to download "
+"the files themselves and do not modify them in any way."
+msgstr ""
+"אל תעתיק/י את התוכן שלהם, השתמש/י ב-\"לחיצה ימנית->שמור בשם...\" כדי להוריד "
+"את הקבצים עצמם ואל תשנה/י אותם בשום דרך."
+
+#: ../../verify.rst:22
+msgid "Integrity check"
+msgstr "בדיקת שלמות"
+
+#: ../../verify.rst:24
+msgid ""
+"To check the integrity of your local ISO file, generate its SHA256 sum and "
+"compare it with the sum present in ``sha256sum.txt``."
+msgstr ""
+"על מנת לבדוק את שלמות קובץ ה-ISO המקומי, נא לחולל סיכום SHA256 שלו ולהשוותו "
+"לסיכום שנמצא בקובץ``sha256sum.txt``."
+
+#: ../../verify.rst:31
+msgid ""
+"If you are using Windows follow the tutorial `How to verify the ISO image on "
+"Windows <https://forums.linuxmint.com/viewtopic.php?f=42&t=291093>`_."
+msgstr ""
+"אם את/ה משתמש/ת בווינדוס, עקוב/י אחר המדריך `איך לאמת את תמונת ה-ISO "
+"בווינדוס <https://forums.linuxmint.com/viewtopic.php?f=42&t=291093>`_."
+
+#: ../../verify.rst:33
+msgid ""
+"If the sums match, your ISO image was successfully downloaded. If they "
+"don't, download it again."
+msgstr ""
+"אם הסכומים זהים, תמונת ה-ISO  הורדה בהצלחה. במידה ולא, נא להוריד שוב."
+
+#: ../../verify.rst:38
+msgid "Authenticity check"
+msgstr "בדיקת אמינות"
+
+#: ../../verify.rst:40
+msgid ""
+"To verify the authenticity of ``sha256sum.txt``, check the signature of "
+"``sha256sum.txt.gpg`` by following the steps below."
+msgstr ""
+"כדי לאמת את ``sha256sum.txt``, בדוק/י את החתימה של ``sha256sum.txt.gpg`` "
+"ע\"י מעקב אחר הצעדים למטה."
+
+#: ../../verify.rst:43
+msgid "Import the Linux Mint signing key:"
+msgstr "ייבא/י את מפתח החתימה של Linux Mint:"
+
+#: ../../verify.rst:49
+msgid ""
+"If gpg complains about the key ID, try the following commands instead:"
+msgstr "אם gpg מתלונן על ה-ID של המפתח, נסה/י את הפקודות הבאות במקום:"
+
+#: ../../verify.rst:56
+msgid ""
+"Check the output of the last command, to make sure the fingerprint is ``27DE "
+"B156 44C6 B3CF 3BD7 D291 300F 846B A25B AE09`` (with or without spaces)."
+msgstr ""
+"בדוק/י את הפלט של הפקודה האחרונה, כדי לוודא שהחתימה היא ``27DE B156 44C6 "
+"B3CF 3BD7 D291 300F 846B A25B AE09`` (עם או בלי רווחים)."
+
+#: ../../verify.rst:59
+msgid "Verify the authenticity of sha256sum.txt:"
+msgstr "אמת/י את האמינות של sha256sum.txt:"
+
+#: ../../verify.rst:64
+msgid ""
+"The output of the last command should tell you that the file signature is "
+"``good`` and that it was signed with the ``A25BAE09`` key."
+msgstr ""
+"הפלט של הפקודה האחרונה אמור להגיד שחתימת הקובץ היא ``good`` ושהוא נחתם עם "
+"מפתח ה-``A25BAE09``."
+
+#: ../../verify.rst:67
+msgid ""
+"GPG might warn you that the Linux Mint signature is not trusted by your "
+"computer. This is expected and perfectly normal."
+msgstr ""
+"GPG עשוי לזהיר שהמחשב אינו בוטח בחתימת לינוקס מינט. זה צפוי ותקין לחלוטין."
+
+#: ../../verify.rst:70
+msgid ""
+"For more information on ISO verification, or to verify BETA, LMDE or old "
+"releases, read `How to Verify ISO images "
+"<https://linuxmint.com/verify.php>`_."
+msgstr ""
+"למידע נוסף על אימות ISO, או כי לאמת BETA, LMDE או גרסאות ישנות, קרא/י `How "
+"to Verify ISO images <https://linuxmint.com/verify.php>`_."

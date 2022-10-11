@@ -1,0 +1,387 @@
+# Greek translation for linuxmint
+# Copyright (c) 2013 Rosetta Contributors and Canonical Ltd 2013
+# This file is distributed under the same license as the linuxmint package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2013.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: linuxmint\n"
+"Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
+"POT-Creation-Date: 2022-09-26 16:26+0100\n"
+"PO-Revision-Date: 2022-09-27 09:16+0000\n"
+"Last-Translator: Vasilis Kosmidis <Unknown>\n"
+"Language-Team: Greek <el@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Launchpad-Export-Date: 2022-10-10 13:06+0000\n"
+"X-Generator: Launchpad (build 762fb15a975e8b23af6a1f86e44e46bfd0451459)\n"
+"Language: el\n"
+
+#: lib/mintstick.py:192
+msgid "unknown"
+msgstr "άγνωστο"
+
+#: lib/mintstick.py:318
+msgid "The USB stick was formatted successfully."
+msgstr "Η μνήμη USB μορφοποιήθηκε επιτυχώς."
+
+#: lib/mintstick.py:321
+#, python-format
+msgid "An error occured while creating a partition on %s."
+msgstr "Προέκυψε σφάλμα κατά τη δημιουργία κατάτμησης στο %s."
+
+#: lib/mintstick.py:323 lib/mintstick.py:423
+msgid "Authentication Error."
+msgstr "Σφάλμα Ταυτοποίησης."
+
+#: lib/mintstick.py:325 lib/mintstick.py:425
+msgid "An error occurred."
+msgstr "Παρουσιάστηκε σφάλμα."
+
+#: lib/mintstick.py:416
+msgid "The image was successfully written."
+msgstr "Η εικόνα γράφτηκε επιτυχώς."
+
+#: lib/mintstick.py:419
+msgid "Not enough space on the USB stick."
+msgstr "Δεν υπάρχει επαρκής χώρος στη μνήμη USB."
+
+#: lib/mintstick.py:421
+msgid "An error occured while copying the image."
+msgstr "Σφάλμα κατά την εγγραφή της εικόνας."
+
+#: lib/verify.py:55
+msgid "bytes"
+msgstr "bytes"
+
+#: lib/verify.py:55
+msgid "KB"
+msgstr "KB"
+
+#: lib/verify.py:55
+msgid "MB"
+msgstr "ΜΒ"
+
+#: lib/verify.py:55
+msgid "GB"
+msgstr "GB"
+
+#: lib/verify.py:55
+msgid "TB"
+msgstr "TB"
+
+#: lib/verify.py:87
+msgid "ISO images"
+msgstr "Εικόνες ISO"
+
+#: lib/verify.py:91
+msgid "Checksum files"
+msgstr "Αρχεία αθροίσματος ελέγχου"
+
+#: lib/verify.py:95
+msgid "GPG signatures"
+msgstr "Υπογραφές GPG"
+
+#: lib/verify.py:107 lib/verify.py:108 lib/verify.py:109
+msgid "Calculating..."
+msgstr "Υπολογισμός..."
+
+#: lib/verify.py:164
+msgid "No volume ID found"
+msgstr "Δεν βρέθηκε αναγνωριστικό τόμου"
+
+#: lib/verify.py:189
+msgid "The checksum is correct"
+msgstr "Το άθροισμα ελέγχου είναι σωστό"
+
+#: lib/verify.py:190
+msgid ""
+"The checksum is correct but the authenticity of the sum was not verified."
+msgstr ""
+"Το άθροισμα ελέγχου είναι σωστό, αλλά η αυθεντικότητα του αθροίσματος δεν "
+"επαληθεύτηκε."
+
+#: lib/verify.py:192
+msgid "Checksum mismatch"
+msgstr "Ασυμφωνία αθροίσματος ελέγχου"
+
+#: lib/verify.py:193
+msgid "Download the ISO image again. Its checksum does not match."
+msgstr ""
+"Κατεβάστε ξανά την εικόνα ISO. Το άθροισμα ελέγχου του δεν ταιριάζει."
+
+#: lib/verify.py:204
+msgid "The sums file could not be downloaded. Check the URL."
+msgstr ""
+"Δεν ήταν δυνατή η λήψη του αρχείου αθροισμάτων. Ελέγξτε τη διεύθυνση URL."
+
+#: lib/verify.py:213
+msgid "The gpg file could not be downloaded. Check the URL."
+msgstr "Δεν ήταν δυνατή η λήψη του αρχείου gpg. Ελέγξτε τη διεύθυνση URL."
+
+#: lib/verify.py:224
+msgid "The sums file could not be checked."
+msgstr "Δεν ήταν δυνατός ο έλεγχος του αρχείου αθροισμάτων."
+
+#: lib/verify.py:231
+msgid "The gpg file could not be checked."
+msgstr "Δεν ήταν δυνατός ο έλεγχος του αρχείου gpg."
+
+#: lib/verify.py:241
+msgid "Integrity check failed"
+msgstr "Ο έλεγχος ακεραιότητας απέτυχε"
+
+#: lib/verify.py:250
+msgid "The SHA256 sums file is not signed."
+msgstr "Το αρχείο αθροισμάτων SHA256 δεν έχει υπογραφεί."
+
+#: lib/verify.py:254
+#, python-format
+msgid "Signed by: %s"
+msgstr "Υπογραφή από: %s"
+
+#: lib/verify.py:268
+msgid "Unknown signature"
+msgstr "Άγνωστη υπογραφή"
+
+#: lib/verify.py:269
+msgid "Key not found on keyserver."
+msgstr "Το κλειδί δεν βρέθηκε στον διακομιστή κλειδιών."
+
+#: lib/verify.py:280 lib/verify.py:286
+msgid "Everything looks good!"
+msgstr "Όλα φαίνονται καλά!"
+
+#: lib/verify.py:281
+msgid "This is an official ISO image."
+msgstr "Αυτή είναι μια επίσημη εικόνα ISO."
+
+#: lib/verify.py:287
+msgid "This ISO image is verified by a trusted signature."
+msgstr "Αυτή η εικόνα ISO επαληθεύεται από μια αξιόπιστη υπογραφή."
+
+#: lib/verify.py:290
+msgid "If you trust the signature you can trust the ISO."
+msgstr "Εάν εμπιστεύεστε την υπογραφή, μπορείτε να εμπιστευτείτε το ISO."
+
+#: lib/verify.py:291
+msgid "Untrusted signature"
+msgstr "Αναξιόπιστη υπογραφή"
+
+#: lib/verify.py:292
+msgid "This ISO image is verified by an untrusted signature."
+msgstr "Αυτή η εικόνα ISO επαληθεύεται από μια μη αξιόπιστη υπογραφή."
+
+#: lib/verify.py:297
+msgid "An error occurred"
+msgstr "Συνέβη ένα σφάλμα"
+
+#: lib/verify.py:309
+msgid "The SHA256 sum of the ISO image is incorrect."
+msgstr "Το άθροισμα SHA256 της εικόνας ISO είναι εσφαλμένο."
+
+#: lib/verify.py:310
+msgid "The SHA256 sums file does not contain sums for this ISO image."
+msgstr ""
+"Το αρχείο SHA256 sums δεν περιέχει αθροίσματα για αυτήν την εικόνα ISO."
+
+#: generate_additional_files.py:22 generate_additional_files.py:34
+#: share/mintstick/mintstick.ui.h:38
+msgid "USB Image Writer"
+msgstr "Εγγραφέας εικόνας USB"
+
+#: generate_additional_files.py:22 generate_additional_files.py:34
+#: generate_additional_files.py:67 share/mintstick/mintstick.ui.h:39
+msgid "Make a bootable USB stick"
+msgstr "Να είναι εκκινήσιμη η μνήμη USB"
+
+#: generate_additional_files.py:46 generate_additional_files.py:58
+#: share/mintstick/mintstick.ui.h:27
+msgid "USB Stick Formatter"
+msgstr "Μορφοποιητής μνήμης USB"
+
+#: generate_additional_files.py:46 generate_additional_files.py:58
+#: generate_additional_files.py:77 share/mintstick/mintstick.ui.h:28
+msgid "Format a USB stick"
+msgstr "Μορφοποίηση μνήμης USB"
+
+#: generate_additional_files.py:67
+msgid "Make bootable USB stick"
+msgstr "Να είναι εκκινήσιμη η μνήμη USB"
+
+#: generate_additional_files.py:77 share/mintstick/mintstick.ui.h:26
+msgid "Format"
+msgstr "Μορφοποίηση"
+
+#: generate_additional_files.py:86 share/mintstick/mintstick.ui.h:32
+#: share/mintstick/verify.ui.h:7
+msgid "Verify"
+msgstr "Επαλήθευση"
+
+#: generate_additional_files.py:86 share/mintstick/mintstick.ui.h:33
+msgid "Verify the authenticity and integrity of the image"
+msgstr "Επαληθεύστε τη γνησιότητα και την ακεραιότητα της εικόνας"
+
+#: generate_additional_files.py:117
+msgid ""
+"This will destroy all data on the USB stick, are you sure you want to "
+"proceed?"
+msgstr ""
+"Αυτό θα καταστράψει όλα τα δεδομένα πάνω στη μνήμη USB, είστε σίγουροι ότι "
+"θέλετε να συνεχίσετε;"
+
+#: share/mintstick/mintstick.ui.h:1
+msgid "USB stick:"
+msgstr "Μνήμη USB:"
+
+#: share/mintstick/mintstick.ui.h:2
+msgid "Filesystem:"
+msgstr "Σύστημα αρχείων:"
+
+#: share/mintstick/mintstick.ui.h:3
+msgid "Select a USB stick"
+msgstr "Επιλογή μνήμης USB"
+
+#: share/mintstick/mintstick.ui.h:4
+msgid ""
+"FAT32 \n"
+"  + Compatible everywhere.\n"
+"  -  Cannot handle files larger than 4GB.\n"
+"\n"
+"exFAT\n"
+"  + Compatible almost everywhere.\n"
+"  + Can handle files larger than 4GB.\n"
+"  -  Not as compatible as FAT32.\n"
+"\n"
+"NTFS \n"
+"  + Compatible with Windows.\n"
+"  -  Not compatible with Mac and most hardware devices.\n"
+"  -  Occasional compatibility problems with Linux (NTFS is proprietary and "
+"reverse engineered).\n"
+"\n"
+"EXT4 \n"
+"  + Modern, stable, fast, journalized.\n"
+"  + Supports Linux file permissions.\n"
+"  -  Not compatible with Windows, Mac and most hardware devices.\n"
+msgstr ""
+"FAT32 \n"
+"  + Συμβατό παντού.\n"
+"  -  Δεν μπορεί να χειριστεί αρχεία μεγαλύτερα από 4GB.\n"
+"\n"
+"exFAT\n"
+"  + Συμβατό σχεδόν παντού.\n"
+"  + Μπορεί να χειριστεί αρχεία μεγαλύτερα από 4GB.\n"
+"  -  Όχι τόσο συμβατό όσο το FAT32.\n"
+"\n"
+"NTFS \n"
+"  + Συμβατό με τα Windows.\n"
+"  -  Μη συμβατό με Mac και τις περισσότερες συσκευές υλικού.\n"
+"  -  Περιστασιακά προβλήματα συμβατότητας με το Linux (το NTFS είναι "
+"ιδιόκτητο και έχει σχεδιαστεί με αντίστροφη μηχανική).\n"
+"\n"
+"EXT4 \n"
+"  + Σύγχρονο, σταθερό, γρήγορο, journalized.\n"
+"  + Υποστηρίζει δικαιώματα αρχείων Linux.\n"
+"  -  Δεν είναι συμβατό με τα Windows, Mac και τις περισσότερες συσκευές "
+"υλικού.\n"
+
+#: share/mintstick/mintstick.ui.h:23
+msgid "Volume label:"
+msgstr "Ετικέτα τόμου:"
+
+#: share/mintstick/mintstick.ui.h:24
+msgid "Choose a name for your USB Stick"
+msgstr "Επιλέξτε όνομα για τη μνήμη USB"
+
+#: share/mintstick/mintstick.ui.h:25
+msgid "USB Stick"
+msgstr "Μνήμη USB"
+
+#: share/mintstick/mintstick.ui.h:29
+msgid "ISO image:"
+msgstr "Εικόνα ISO:"
+
+#: share/mintstick/mintstick.ui.h:30
+msgid "Select an image"
+msgstr "Επιλογή εικόνας"
+
+#: share/mintstick/mintstick.ui.h:31
+msgid "Select Image"
+msgstr "Επιλογή Εικόνας"
+
+#: share/mintstick/mintstick.ui.h:34
+msgid "Write"
+msgstr "Εγγραφή"
+
+#: share/mintstick/mintstick.ui.h:35
+msgid "This ISO looks like a Windows image."
+msgstr "Αυτό το ISO μοιάζει με εικόνα των Windows."
+
+#: share/mintstick/mintstick.ui.h:36
+msgid "Windows images require special processing."
+msgstr "Οι εικόνες των Windows απαιτούν ειδική επεξεργασία."
+
+#: share/mintstick/mintstick.ui.h:37
+msgid "More information"
+msgstr "Περισσότερες πληροφορίες"
+
+#: share/mintstick/verify.ui.h:1
+msgid "ISO:"
+msgstr "ISO:"
+
+#: share/mintstick/verify.ui.h:2
+msgid "Volume:"
+msgstr "Τόμος:"
+
+#: share/mintstick/verify.ui.h:3
+msgid "SHA256sum:"
+msgstr "Άθροισμα SHA256:"
+
+#: share/mintstick/verify.ui.h:4
+msgid "Size:"
+msgstr "Μέγεθος:"
+
+#: share/mintstick/verify.ui.h:5
+msgid "SHA256 sums file:"
+msgstr "Αρχείο αθροισμάτων SHA256:"
+
+#: share/mintstick/verify.ui.h:6
+msgid "GPG signed file:"
+msgstr "Αρχείο υπογεγραμμένο με GPG:"
+
+#: share/mintstick/verify.ui.h:8
+msgid "URLs"
+msgstr "URLs"
+
+#: share/mintstick/verify.ui.h:9
+msgid "SHA256 sums file"
+msgstr "Αρχείο αθροισμάτων SHA256"
+
+#: share/mintstick/verify.ui.h:10
+msgid "GPG signed file"
+msgstr "Αρχείο υπογεγραμμένο με GPG"
+
+#: share/mintstick/verify.ui.h:11
+msgid "Local files"
+msgstr "Τοπικά αρχεία"
+
+#: share/mintstick/verify.ui.h:12
+msgid "SHA256 sum"
+msgstr "Άθροισμα SHA256"
+
+#: share/mintstick/verify.ui.h:13
+msgid "Check"
+msgstr "Έλεγχος"
+
+#: share/mintstick/verify.ui.h:14
+msgid "Checksum"
+msgstr "Άθροισμα ελέγχου"
+
+#: share/mintstick/verify.ui.h:15
+msgid "Go back"
+msgstr "Μετάβαση πίσω"
+
+#: share/mintstick/verify.ui.h:16
+msgid "ISO Verification"
+msgstr "Επαλήθευση ISO"

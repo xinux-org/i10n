@@ -1,0 +1,4194 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+#
+# Translators:
+# Adolfo Jayme Barrientos, 2014
+# Emiliano Fascetti, 2015
+# Lluís Tusquellas <lutusq@gmail.com>, 2013-2014
+msgid ""
+msgstr ""
+"Project-Id-Version: MATE Desktop Environment\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-06-11 13:15+0200\n"
+"PO-Revision-Date: 2022-06-12 18:50+0000\n"
+"Last-Translator: Toni Estevez <toni.estevez@gmail.com>\n"
+"Language-Team: Spanish "
+"(http://www.transifex.com/projects/p/MATE/language/es/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Launchpad-Export-Date: 2022-10-10 13:08+0000\n"
+"X-Generator: Launchpad (build 762fb15a975e8b23af6a1f86e44e46bfd0451459)\n"
+"Language: es\n"
+
+#: ../data/xed.appdata.xml.in.h:1
+msgid "A Text Editor"
+msgstr "Un editor de texto"
+
+#: ../data/xed.appdata.xml.in.h:2
+msgid ""
+"<p> Xed is a small, but powerful text editor. It has most standard text "
+"editor functions and fully supports international text in Unicode. Advanced "
+"features include syntax highlighting and automatic indentation of source "
+"code, printing and editing of multiple documents in one window. </p> <p> Xed "
+"is extensible through a plugin system, which currently includes support for "
+"spell checking, comparing files, viewing CVS ChangeLogs, and adjusting "
+"indentation levels. </p>"
+msgstr ""
+"<p> Xed es un pequeño pero poderoso editor de texto. Tiene la mayoría de las "
+"funciones de un editor de texto estándar y es totalmente compatible con "
+"texto internacional en Unicode. Las características avanzadas incluyen el "
+"resaltado de la sintaxis y la sangría automática del código fuente, la "
+"impresión y la edición de varios documentos en una sola ventana. </p> <p> "
+"Xed es extensible a través de un sistema de complementos, que actualmente "
+"incluye la comprobación ortográfica, la comparación de archivos, la "
+"visualización de los registros de cambios del CVS y el ajuste de los niveles "
+"de sangría. </p>"
+
+#: ../data/xed.desktop.in.in.h:1 ../xed/xed-print-job.c:700
+msgid "Text Editor"
+msgstr "Editor de texto"
+
+#: ../data/xed.desktop.in.in.h:2
+msgid "Edit text files"
+msgstr "Editar archivos de texto"
+
+#: ../xed/xed-app.c:100
+msgid "Show the application's version"
+msgstr "Mostrar la versión de la aplicación"
+
+#: ../xed/xed-app.c:106
+msgid "Display list of possible values for the encoding option"
+msgstr ""
+"Mostrar la lista de los valores posibles para la opción de codificación"
+
+#: ../xed/xed-app.c:113
+msgid ""
+"Set the character encoding to be used to open the files listed on the "
+"command line"
+msgstr ""
+"Configurar la codificación de caracteres que se usará al abrir los archivos "
+"listados en la línea de órdenes"
+
+#: ../xed/xed-app.c:114
+msgid "ENCODING"
+msgstr "CODIFICACIÓN"
+
+#: ../xed/xed-app.c:120
+msgid "Create a new top-level window in an existing instance of xed"
+msgstr ""
+"Crear una ventana nueva de nivel superior en una instancia existente de Xed"
+
+#: ../xed/xed-app.c:127
+msgid "Create a new document in an existing instance of xed"
+msgstr "Crear un documento nuevo en una instancia existente de Xed"
+
+#: ../xed/xed-app.c:134
+msgid "Set the size and position of the window (WIDTHxHEIGHT+X+Y)"
+msgstr "Configurar el tamaño y la posición de la ventana (ANCHOxALTO+X+Y)"
+
+#: ../xed/xed-app.c:135
+msgid "GEOMETRY"
+msgstr "GEOMETRÍA"
+
+#: ../xed/xed-app.c:141
+msgid "Open files and block process until files are closed"
+msgstr ""
+"Abrir archivos y bloquear el proceso hasta que se cierren los archivos"
+
+#: ../xed/xed-app.c:148
+msgid "Run xed in standalone mode"
+msgstr "Ejecutar Xed en modo autónomo"
+
+#: ../xed/xed-app.c:155
+msgid "[FILE...] [+LINE]"
+msgstr "[ARCHIVO...] [+LÍNEA]"
+
+#: ../xed/xed-app.c:612
+#, c-format
+msgid "%s: invalid encoding."
+msgstr "%s: codificación no válida."
+
+#: ../xed/xed-app.c:1266
+msgid "There was an error displaying the help."
+msgstr "Se ha producido un error al mostrar la ayuda."
+
+#: ../xed/xed-close-confirmation-dialog.c:129
+msgid "Log Out _without Saving"
+msgstr "Cerrar sesión _sin guardar"
+
+#: ../xed/xed-close-confirmation-dialog.c:130
+msgid "_Cancel Logout"
+msgstr "_Cancelar el cierre de sesión"
+
+#: ../xed/xed-close-confirmation-dialog.c:134
+msgid "Close _without Saving"
+msgstr "Cerrar _sin guardar"
+
+#: ../xed/xed-close-confirmation-dialog.c:135 ../xed/xed-commands-file.c:399
+#: ../xed/xed-commands-file.c:502 ../xed/xed-commands-file.c:648
+#: ../xed/xed-commands-file.c:1333 ../xed/xed-encodings-dialog.c:330
+#: ../xed/xed-io-error-info-bar.c:147 ../xed/xed-io-error-info-bar.c:406
+#: ../xed/xed-io-error-info-bar.c:1051
+#: ../xed/resources/ui/xed-highlight-mode-dialog.ui.h:2
+#: ../plugins/filebrowser/xed-file-browser-utils.c:153
+msgid "_Cancel"
+msgstr "_Cancelar"
+
+#: ../xed/xed-close-confirmation-dialog.c:155
+msgid "_Save As..."
+msgstr "_Guardar como…"
+
+#. File menu
+#: ../xed/xed-close-confirmation-dialog.c:161 ../xed/xed-commands-file.c:649
+#: ../xed/xed-ui.h:81
+msgid "_Save"
+msgstr "_Guardar"
+
+#: ../xed/xed-close-confirmation-dialog.c:188
+msgid "Question"
+msgstr "Pregunta"
+
+#: ../xed/xed-close-confirmation-dialog.c:379
+#, c-format
+msgid ""
+"If you don't save, changes from the last %ld second will be permanently lost."
+msgid_plural ""
+"If you don't save, changes from the last %ld seconds will be permanently "
+"lost."
+msgstr[0] ""
+"Si no guarda, los cambios del último segundo se perderán para siempre."
+msgstr[1] ""
+"Si no guarda, los cambios de los últimos %ld segundos se perderán para "
+"siempre."
+
+#: ../xed/xed-close-confirmation-dialog.c:388
+msgid ""
+"If you don't save, changes from the last minute will be permanently lost."
+msgstr ""
+"Si no guarda, los cambios del último minuto se perderán para siempre."
+
+#: ../xed/xed-close-confirmation-dialog.c:393
+#, c-format
+msgid ""
+"If you don't save, changes from the last minute and %ld second will be "
+"permanently lost."
+msgid_plural ""
+"If you don't save, changes from the last minute and %ld seconds will be "
+"permanently lost."
+msgstr[0] ""
+"Si no guarda, los cambios del último minuto y %ld segundo se perderán para "
+"siempre."
+msgstr[1] ""
+"Si no los guarda, los cambios del último minuto y %ld segundos se perderán "
+"para siempre."
+
+#: ../xed/xed-close-confirmation-dialog.c:402
+#, c-format
+msgid ""
+"If you don't save, changes from the last %ld minute will be permanently lost."
+msgid_plural ""
+"If you don't save, changes from the last %ld minutes will be permanently "
+"lost."
+msgstr[0] ""
+"Si no guarda, los cambios del último minuto se perderán para siempre."
+msgstr[1] ""
+"Si no guarda, los cambios de los últimos %ld minutos se perderán para "
+"siempre."
+
+#: ../xed/xed-close-confirmation-dialog.c:417
+msgid ""
+"If you don't save, changes from the last hour will be permanently lost."
+msgstr ""
+"Si no guarda, los cambios de la última hora se perderán para siempre."
+
+#: ../xed/xed-close-confirmation-dialog.c:422
+#, c-format
+msgid ""
+"If you don't save, changes from the last hour and %d minute will be "
+"permanently lost."
+msgid_plural ""
+"If you don't save, changes from the last hour and %d minutes will be "
+"permanently lost."
+msgstr[0] ""
+"Si no guarda, los cambios de la última hora y %d minuto se perderán para "
+"siempre."
+msgstr[1] ""
+"Si no guarda, los cambios de la última hora y %d minutos se perderán para "
+"siempre."
+
+#: ../xed/xed-close-confirmation-dialog.c:436
+#, c-format
+msgid ""
+"If you don't save, changes from the last %d hour will be permanently lost."
+msgid_plural ""
+"If you don't save, changes from the last %d hours will be permanently lost."
+msgstr[0] ""
+"Si no guarda, los cambios de la última hora se perderán para siempre."
+msgstr[1] ""
+"Si no guarda, los cambios de la últimas %d horas se perderán para siempre."
+
+#: ../xed/xed-close-confirmation-dialog.c:477
+#, c-format
+msgid "Save changes to document \"%s\" before closing?"
+msgstr "¿Guardar los cambios del documento «%s» antes de cerrar?"
+
+#: ../xed/xed-close-confirmation-dialog.c:642
+#, c-format
+msgid ""
+"There is %d document with unsaved changes. Save changes before closing?"
+msgid_plural ""
+"There are %d documents with unsaved changes. Save changes before closing?"
+msgstr[0] ""
+"Hay %d documento con cambios sin guardar. ¿Quiere guardar los cambios antes "
+"de cerrar?"
+msgstr[1] ""
+"Hay %d documentos con cambios sin guardar. ¿Quiere guardar los cambios antes "
+"de cerrar?"
+
+#: ../xed/xed-close-confirmation-dialog.c:659
+msgid "S_elect the documents you want to save:"
+msgstr "S_eleccione los documentos que quiere guardar:"
+
+#. Secondary label
+#: ../xed/xed-close-confirmation-dialog.c:675
+msgid "If you don't save, all your changes will be permanently lost."
+msgstr "Si no guarda los cambios, se perderán para siempre."
+
+#: ../xed/xed-commands-file.c:229
+#, c-format
+msgid "Loading file '%s'…"
+msgstr "Cargando el archivo «%s»…"
+
+#: ../xed/xed-commands-file.c:238
+#, c-format
+msgid "Loading %d file…"
+msgid_plural "Loading %d files…"
+msgstr[0] "Cargando %d archivo…"
+msgstr[1] "Cargando %d archivos…"
+
+#. Translators: "Open Files" is the title of the file chooser window
+#: ../xed/xed-commands-file.c:395
+msgid "Open Files"
+msgstr "Abrir archivos"
+
+#: ../xed/xed-commands-file.c:400
+#: ../plugins/filebrowser/xed-file-browser-widget.c:764
+msgid "_Open"
+msgstr "_Abrir"
+
+#: ../xed/xed-commands-file.c:494
+#, c-format
+msgid "The file \"%s\" is read-only."
+msgstr "El archivo «%s» es de solo lectura."
+
+#: ../xed/xed-commands-file.c:499
+msgid "Do you want to try to replace it with the one you are saving?"
+msgstr "¿Quiere intentar reemplazarlo con el que está guardando ahora?"
+
+#: ../xed/xed-commands-file.c:503 ../xed/resources/ui/xed-searchbar.ui.h:2
+#: ../xed/xed-ui.h:124
+msgid "_Replace"
+msgstr "_Reemplazar"
+
+#: ../xed/xed-commands-file.c:564 ../xed/xed-commands-file.c:801
+#, c-format
+msgid "Saving file '%s'…"
+msgstr "Guardando el archivo «%s»…"
+
+#: ../xed/xed-commands-file.c:644
+msgid "Save As…"
+msgstr "Guardar como…"
+
+#: ../xed/xed-commands-file.c:1202
+#, c-format
+msgid "Reverting the document '%s'…"
+msgstr "Revirtiendo el documento «%s»…"
+
+#: ../xed/xed-commands-file.c:1249
+#, c-format
+msgid "Revert unsaved changes to document '%s'?"
+msgstr "¿Revertir los cambios no guardados en el documento «%s»?"
+
+#: ../xed/xed-commands-file.c:1256
+#, c-format
+msgid ""
+"Changes made to the document in the last %ld second will be permanently lost."
+msgid_plural ""
+"Changes made to the document in the last %ld seconds will be permanently "
+"lost."
+msgstr[0] ""
+"Los cambios realizados en el documento en el último segundo se perderán para "
+"siempre."
+msgstr[1] ""
+"Los cambios realizados en el documento en los últimos %ld segundos se "
+"perderán para siempre."
+
+#: ../xed/xed-commands-file.c:1265
+msgid ""
+"Changes made to the document in the last minute will be permanently lost."
+msgstr ""
+"Los cambios realizados en el documento en el último minuto se perderán para "
+"siempre."
+
+#: ../xed/xed-commands-file.c:1270
+#, c-format
+msgid ""
+"Changes made to the document in the last minute and %ld second will be "
+"permanently lost."
+msgid_plural ""
+"Changes made to the document in the last minute and %ld seconds will be "
+"permanently lost."
+msgstr[0] ""
+"Los cambios realizados en el documento en el último minuto y segundo se "
+"perderán para siempre."
+msgstr[1] ""
+"Los cambios realizados en el documento en el último minuto y %ld se perderán "
+"para siempre."
+
+#: ../xed/xed-commands-file.c:1279
+#, c-format
+msgid ""
+"Changes made to the document in the last %ld minute will be permanently lost."
+msgid_plural ""
+"Changes made to the document in the last %ld minutes will be permanently "
+"lost."
+msgstr[0] ""
+"Los cambios realizados en el documento en el último minuto se perderán para "
+"siempre."
+msgstr[1] ""
+"Los cambios realizados en el documento en los últimos %ld minutos se "
+"perderán para siempre."
+
+#: ../xed/xed-commands-file.c:1294
+msgid ""
+"Changes made to the document in the last hour will be permanently lost."
+msgstr ""
+"Los cambios realizados en el documento en la última hora se perderán "
+"permanentemente."
+
+#: ../xed/xed-commands-file.c:1299
+#, c-format
+msgid ""
+"Changes made to the document in the last hour and %d minute will be "
+"permanently lost."
+msgid_plural ""
+"Changes made to the document in the last hour and %d minutes will be "
+"permanently lost."
+msgstr[0] ""
+"Los cambios realizados en el documento en la última hora y %d minuto se "
+"perderán permanentemente."
+msgstr[1] ""
+"Los cambios realizados en el documento en la última hora y %d minutos se "
+"perderán para siempre."
+
+#: ../xed/xed-commands-file.c:1313
+#, c-format
+msgid ""
+"Changes made to the document in the last %d hour will be permanently lost."
+msgid_plural ""
+"Changes made to the document in the last %d hours will be permanently lost."
+msgstr[0] ""
+"Los cambios realizados en el documento en las última hora se perderán para "
+"siempre."
+msgstr[1] ""
+"Los cambios realizados en el documento en las últimas %d horas se perderán "
+"para siempre."
+
+#: ../xed/xed-commands-file.c:1334
+msgid "_Revert"
+msgstr "Re_vertir"
+
+#: ../xed/xed-commands-help.c:55
+msgid "A small and lightweight text editor"
+msgstr "Un editor de texto sencillo y ligero"
+
+#: ../xed/xed-document.c:973 ../xed/xed-document.c:1005
+#, c-format
+msgid "Unsaved Document %d"
+msgstr "Documento no guardado %d"
+
+#: ../xed/xed-documents-panel.c:88 ../xed/xed-documents-panel.c:99
+#: ../xed/xed-window.c:1906 ../xed/xed-window.c:1910
+msgid "Read-Only"
+msgstr "Solo lectura"
+
+#: ../xed/xed-documents-panel.c:650 ../xed/resources/ui/xed-shortcuts.ui.h:1
+#: ../xed/xed-window.c:3156
+msgid "Documents"
+msgstr "Documentos"
+
+#: ../xed/xed-encodings-combo-box.c:258
+msgid "Automatically Detected"
+msgstr "Detectar automáticamente"
+
+#: ../xed/xed-encodings-combo-box.c:277 ../xed/xed-encodings-combo-box.c:291
+#, c-format
+msgid "Current Locale (%s)"
+msgstr "Configuración regional actual (%s)"
+
+#: ../xed/xed-encodings-combo-box.c:338
+msgid "Add or Remove..."
+msgstr "Añadir o eliminar…"
+
+#: ../xed/xed-encodings-dialog.c:331 ../plugins/time/xed-time-plugin.c:786
+msgid "_OK"
+msgstr "_Aceptar"
+
+#: ../xed/xed-encodings-dialog.c:332 ../xed/xed-ui.h:50
+#: ../plugins/spell/xed-spell-plugin.c:435
+msgid "_Help"
+msgstr "Ay_uda"
+
+#: ../xed/xed-encodings-dialog.c:335
+msgid "Character Encodings"
+msgstr "Codificación de caracteres"
+
+#: ../xed/xed-encodings-dialog.c:368 ../xed/xed-encodings-dialog.c:405
+msgid "_Description"
+msgstr "_Descripción"
+
+#: ../xed/xed-encodings-dialog.c:376 ../xed/xed-encodings-dialog.c:413
+msgid "_Encoding"
+msgstr "_Codificación"
+
+#: ../xed/xed-file-chooser-dialog.c:44 ../xed/xed-preferences-dialog.c:783
+msgid "All Files"
+msgstr "Todos los archivos"
+
+#: ../xed/xed-file-chooser-dialog.c:45
+msgid "All Text Files"
+msgstr "Todos los archivos de texto"
+
+#: ../xed/xed-file-chooser-dialog.c:85
+msgid "C_haracter Encoding:"
+msgstr "Codificación de ca_racteres:"
+
+#: ../xed/xed-file-chooser-dialog.c:141
+msgid "L_ine Ending:"
+msgstr "_Final de línea:"
+
+#: ../xed/xed-file-chooser-dialog.c:152
+msgid "Unix/Linux"
+msgstr "Unix/Linux"
+
+#: ../xed/xed-file-chooser-dialog.c:153
+msgid "Mac OS Classic"
+msgstr "Mac OS clásico"
+
+#: ../xed/xed-file-chooser-dialog.c:154
+msgid "Windows"
+msgstr "Windows"
+
+#: ../xed/xed-highlight-mode-selector.c:297 ../xed/xed-window.c:2035
+msgid "Plain Text"
+msgstr "Texto sin formato"
+
+#: ../xed/xed-io-error-info-bar.c:154 ../xed/xed-io-error-info-bar.c:390
+msgid "_Retry"
+msgstr "_Reintentar"
+
+#: ../xed/xed-io-error-info-bar.c:173
+#, c-format
+msgid "Could not find the file %s."
+msgstr "No se ha podido encontrar el archivo %s."
+
+#: ../xed/xed-io-error-info-bar.c:174 ../xed/xed-io-error-info-bar.c:208
+#: ../xed/xed-io-error-info-bar.c:213
+msgid "Please check that you typed the location correctly and try again."
+msgstr ""
+"Compruebe que ha escrito la ubicación correctamente e inténtelo de nuevo."
+
+#. Translators: %s is a URI scheme (like for example http:, ftp:, etc.)
+#: ../xed/xed-io-error-info-bar.c:189
+#, c-format
+msgid "xed cannot handle %s locations."
+msgstr "Xed no puede manejar ubicaciones de %s."
+
+#: ../xed/xed-io-error-info-bar.c:194
+msgid "xed cannot handle this location."
+msgstr "Xed no puede manejar esta ubicación."
+
+#: ../xed/xed-io-error-info-bar.c:201
+msgid "The location of the file cannot be mounted."
+msgstr "No se puede montar la ubicación del archivo."
+
+#: ../xed/xed-io-error-info-bar.c:204
+msgid ""
+"The location of the file cannot be accessed because it is not mounted."
+msgstr ""
+"No se puede acceder a la ubicación del archivo porque no está montada."
+
+#: ../xed/xed-io-error-info-bar.c:207
+#, c-format
+msgid "%s is a directory."
+msgstr "%s es una carpeta."
+
+#: ../xed/xed-io-error-info-bar.c:212
+#, c-format
+msgid "%s is not a valid location."
+msgstr "%s no es una ubicación válida."
+
+#. Translators: %s is a host name
+#: ../xed/xed-io-error-info-bar.c:242
+#, c-format
+msgid ""
+"Host %s could not be found. Please check that your proxy settings are "
+"correct and try again."
+msgstr ""
+"No se ha podido encontrar el equipo remoto %s. Compruebe que la "
+"configuración del proxy sea correcta e inténtelo de nuevo."
+
+#. use the same string as INVALID_HOST
+#: ../xed/xed-io-error-info-bar.c:256
+#, c-format
+msgid ""
+"Hostname was invalid. Please check that you typed the location correctly and "
+"try again."
+msgstr ""
+"El nombre del servidor no es válido. Compruebe que ha escrito la ubicación "
+"correctamente e inténtelo de nuevo."
+
+#: ../xed/xed-io-error-info-bar.c:263
+#, c-format
+msgid "%s is not a regular file."
+msgstr "%s no es un archivo  válido."
+
+#: ../xed/xed-io-error-info-bar.c:266
+msgid "Connection timed out. Please try again."
+msgstr "Ha expirado la conexión. Inténtelo de nuevo."
+
+#: ../xed/xed-io-error-info-bar.c:293
+#, c-format
+msgid "Unexpected error: %s"
+msgstr "Error inesperado: %s"
+
+#: ../xed/xed-io-error-info-bar.c:326
+msgid "xed cannot find the file. Perhaps it has recently been deleted."
+msgstr ""
+"Xed no puede encontrar el archivo. Tal vez ha sido eliminado recientemente."
+
+#: ../xed/xed-io-error-info-bar.c:336
+#, c-format
+msgid "Could not revert the file %s."
+msgstr "No se ha podido revertir el archivo %s."
+
+#: ../xed/xed-io-error-info-bar.c:359
+msgid "Ch_aracter Encoding:"
+msgstr "Codificación de c_aracteres:"
+
+#. Translators: the access key chosen for this string should be
+#. different from other main menu access keys (Open, Edit, View...)
+#: ../xed/xed-io-error-info-bar.c:397 ../xed/xed-io-error-info-bar.c:654
+msgid "Edit Any_way"
+msgstr "Editar de todos _modos"
+
+#: ../xed/xed-io-error-info-bar.c:489
+msgid ""
+"The number of followed links is limited and the actual file could not be "
+"found within this limit."
+msgstr ""
+"El número de enlaces seguidos es limitado y no se ha podido encontrar el "
+"archivo actual dentro de ese límite."
+
+#: ../xed/xed-io-error-info-bar.c:493
+msgid "You do not have the permissions necessary to open the file."
+msgstr "No tiene los permisos necesarios para abrir el archivo."
+
+#: ../xed/xed-io-error-info-bar.c:499
+msgid "xed has not been able to detect the character encoding."
+msgstr "Xed no ha podido detectar la codificación de caracteres."
+
+#: ../xed/xed-io-error-info-bar.c:501 ../xed/xed-io-error-info-bar.c:524
+msgid "Please check that you are not trying to open a binary file."
+msgstr "Compruebe que no está intentando abrir un archivo binario."
+
+#: ../xed/xed-io-error-info-bar.c:502
+msgid "Select a character encoding from the menu and try again."
+msgstr ""
+"Seleccione una codificación de caracteres en el menú e inténtelo de nuevo."
+
+#: ../xed/xed-io-error-info-bar.c:508
+#, c-format
+msgid "There was a problem opening the file %s."
+msgstr "Se ha producido un problema al abrir el archivo %s."
+
+#: ../xed/xed-io-error-info-bar.c:509
+msgid ""
+"The file you opened has some invalid characters. If you continue editing "
+"this file you could corrupt this document."
+msgstr ""
+"El archivo que ha abierto contiene algunos caracteres no válidos. Si "
+"continúa la edición puede corromper el documento."
+
+#: ../xed/xed-io-error-info-bar.c:512
+msgid "You can also choose another character encoding and try again."
+msgstr ""
+"También puede elegir otra codificación de caracteres e intentarlo de nuevo."
+
+#: ../xed/xed-io-error-info-bar.c:521
+#, c-format
+msgid "Could not open the file %s using the %s character encoding."
+msgstr ""
+"No se ha podido abrir el archivo %s usando la codificación de caracteres %s."
+
+#: ../xed/xed-io-error-info-bar.c:525 ../xed/xed-io-error-info-bar.c:594
+msgid "Select a different character encoding from the menu and try again."
+msgstr ""
+"Seleccione una codificación de caracteres diferente en el menú e inténtelo "
+"de nuevo."
+
+#: ../xed/xed-io-error-info-bar.c:537
+#, c-format
+msgid "Could not open the file %s."
+msgstr "No se ha podido abrir el archivo %s."
+
+#: ../xed/xed-io-error-info-bar.c:589
+#, c-format
+msgid "Could not save the file %s using the %s character encoding."
+msgstr ""
+"No se ha podido guardar el archivo %s usando la codificación de caracteres "
+"%s."
+
+#: ../xed/xed-io-error-info-bar.c:592
+msgid ""
+"The document contains one or more characters that cannot be encoded using "
+"the specified character encoding."
+msgstr ""
+"El documento contiene uno o más caracteres que no se pueden codificar usando "
+"la codificación de caracteres especificada."
+
+#. Translators: the access key chosen for this string should be
+#. different from other main menu access keys (Open, Edit, View...)
+#: ../xed/xed-io-error-info-bar.c:659
+msgid "D_on't Edit"
+msgstr "N_o editar"
+
+#: ../xed/xed-io-error-info-bar.c:673
+#, c-format
+msgid "This file (%s) is already open in another xed window."
+msgstr "Este archivo (%s) ya está abierto en otra ventana de Xed."
+
+#: ../xed/xed-io-error-info-bar.c:687
+msgid ""
+"xed opened this instance of the file in a non-editable way. Do you want to "
+"edit it anyway?"
+msgstr ""
+"Xed ha abierto esta instancia del archivo de forma no editable. ¿Quiere "
+"editarlo de todas formas?"
+
+#: ../xed/xed-io-error-info-bar.c:742 ../xed/xed-io-error-info-bar.c:830
+#: ../xed/xed-io-error-info-bar.c:1092
+msgid "S_ave Anyway"
+msgstr "_Guardar de todos modos"
+
+#: ../xed/xed-io-error-info-bar.c:743 ../xed/xed-io-error-info-bar.c:831
+#: ../xed/xed-io-error-info-bar.c:1094
+msgid "D_on't Save"
+msgstr "_No guardar"
+
+#. FIXME: review this message, it's not clear since for the user the "modification"
+#. * could be interpreted as the changes he made in the document. beside "reading" is
+#. * not accurate (since last load/save)
+#. 
+#: ../xed/xed-io-error-info-bar.c:760
+#, c-format
+msgid "The file %s has been modified since reading it."
+msgstr "El archivo %s ha sido modificado desde su lectura."
+
+#: ../xed/xed-io-error-info-bar.c:774
+msgid ""
+"If you save it, all the external changes could be lost. Save it anyway?"
+msgstr ""
+"Si lo guarda, todos los cambios externos podrían perderse. ¿Quiere guardarlo "
+"de todas formas?"
+
+#: ../xed/xed-io-error-info-bar.c:851
+#, c-format
+msgid "Could not create a backup file while saving %s"
+msgstr "No se ha podido crear un archivo de copia de seguridad al guardar %s"
+
+#: ../xed/xed-io-error-info-bar.c:855
+#, c-format
+msgid "Could not create a temporary backup file while saving %s"
+msgstr ""
+"No se ha podido crear un archivo de copia de seguridad temporal al guardar %s"
+
+#: ../xed/xed-io-error-info-bar.c:871
+msgid ""
+"xed could not back up the old copy of the file before saving the new one. "
+"You can ignore this warning and save the file anyway, but if an error occurs "
+"while saving, you could lose the old copy of the file. Save anyway?"
+msgstr ""
+"Xed no ha podido hacer una copia de seguridad de la versión anterior del "
+"archivo antes de guardar la nueva. Puede ignorar esta advertencia y guardar "
+"el archivo de todas formas, pero si se produce un error, podría perder la "
+"versión anterior del archivo. ¿Quiere guardar el archivo de todos modos?"
+
+#. Translators: %s is a URI scheme (like for example http:, ftp:, etc.)
+#: ../xed/xed-io-error-info-bar.c:928
+#, c-format
+msgid ""
+"xed cannot handle %s locations in write mode. Please check that you typed "
+"the location correctly and try again."
+msgstr ""
+"Xed no puede manejar ubicaciones %s en modo de escritura. Compruebe que ha "
+"escrito la ubicación correctamente e inténtelo de nuevo."
+
+#: ../xed/xed-io-error-info-bar.c:936
+msgid ""
+"xed cannot handle this location in write mode. Please check that you typed "
+"the location correctly and try again."
+msgstr ""
+"Xed no puede manejar esta ubicación en modo de escritura. Compruebe que ha "
+"escrito la ubicación correctamente e inténtelo de nuevo."
+
+#: ../xed/xed-io-error-info-bar.c:945
+#, c-format
+msgid ""
+"%s is not a valid location. Please check that you typed the location "
+"correctly and try again."
+msgstr ""
+"%s no es una ubicación válida. Compruebe que ha escrito la ubicación "
+"correctamente e inténtelo de nuevo."
+
+#: ../xed/xed-io-error-info-bar.c:951
+msgid ""
+"You do not have the permissions necessary to save the file. Please check "
+"that you typed the location correctly and try again."
+msgstr ""
+"No tiene los permisos necesarios para guardar el archivo. Compruebe que ha "
+"escrito la ubicación correctamente e inténtelo de nuevo."
+
+#: ../xed/xed-io-error-info-bar.c:957
+msgid ""
+"There is not enough disk space to save the file. Please free some disk space "
+"and try again."
+msgstr ""
+"No hay suficiente espacio de disco para guardar el archivo. Libere algo de "
+"espacio en el disco e inténtelo de nuevo."
+
+#: ../xed/xed-io-error-info-bar.c:962
+msgid ""
+"You are trying to save the file on a read-only disk. Please check that you "
+"typed the location correctly and try again."
+msgstr ""
+"Está intentando guardar el archivo en un disco de solo lectura. Compruebe "
+"que ha escrito correctamente la ubicación e inténtelo de nuevo."
+
+#: ../xed/xed-io-error-info-bar.c:968
+msgid ""
+"A file with the same name already exists. Please use a different name."
+msgstr "Ya existe un archivo con el mismo nombre. Use un nombre diferente."
+
+#: ../xed/xed-io-error-info-bar.c:973
+msgid ""
+"The disk where you are trying to save the file has a limitation on length of "
+"the file names. Please use a shorter name."
+msgstr ""
+"El disco donde está intentando guardar el archivo tiene una limitación en la "
+"longitud del nombre de los archivos. Use un nombre de archivo más corto."
+
+#: ../xed/xed-io-error-info-bar.c:983
+msgid ""
+"The disk where you are trying to save the file has a limitation on file "
+"sizes. Please try saving a smaller file or saving it to a disk that does not "
+"have this limitation."
+msgstr ""
+"El disco donde está intentando guardar el archivo tiene una limitación en el "
+"tamaño de los archivos. Intente guardar un archivo más pequeño o guárdelo en "
+"un disco que no tenga esta limitación."
+
+#: ../xed/xed-io-error-info-bar.c:996
+#, c-format
+msgid "Could not save the file %s."
+msgstr "No se puede guardar el archivo %s."
+
+#. FIXME: review this message, it's not clear since for the user the "modification"
+#. could be interpreted as the changes he made in the document. beside "reading" is
+#. not accurate (since last load/save)
+#: ../xed/xed-io-error-info-bar.c:1036
+#, c-format
+msgid "The file %s changed on disk."
+msgstr "El archivo %s ha cambiado en el disco."
+
+#: ../xed/xed-io-error-info-bar.c:1041
+msgid "Do you want to drop your changes and reload the file?"
+msgstr "¿Quiere perder sus cambios y volver a cargar el archivo?"
+
+#: ../xed/xed-io-error-info-bar.c:1045
+msgid "Do you want to reload the file?"
+msgstr "¿Quiere volver a cargar el archivo?"
+
+#: ../xed/xed-io-error-info-bar.c:1050
+msgid "_Reload"
+msgstr "_Recargar"
+
+#: ../xed/xed-io-error-info-bar.c:1107
+#, c-format
+msgid "Some invalid chars have been detected while saving %s"
+msgstr "Se han detectado algunos caracteres no válidos al guardar %s"
+
+#: ../xed/xed-io-error-info-bar.c:1122
+msgid ""
+"If you continue saving this file you can corrupt the document.  Save anyway?"
+msgstr ""
+"Si guarda este archivo puede corromper el documento. ¿Quiere guardarlo de "
+"todos modos?"
+
+#: ../xed/xed-preferences-dialog.c:280
+#: ../xed/resources/ui/xed-preferences-dialog.ui.h:3
+#, no-c-format
+msgid "Use the system fixed width font (%s)"
+msgstr "Usar la tipografía de ancho fijo del sistema (%s)"
+
+#: ../xed/xed-preferences-dialog.c:436
+msgid "Editor"
+msgstr "Editor"
+
+#: ../xed/xed-preferences-dialog.c:474
+msgid "Save"
+msgstr "Guardar"
+
+#: ../xed/xed-preferences-dialog.c:587
+#, c-format
+msgid ""
+"Directory '%s' could not be created: g_mkdir_with_parents() failed: %s"
+msgstr ""
+"No se ha podido crear la carpeta «%s»: ha fallado g_mkdir_with_parents(): %s"
+
+#: ../xed/xed-preferences-dialog.c:741
+msgid "The selected color scheme cannot be installed."
+msgstr "No se puede instalar el estilo seleccionado."
+
+#: ../xed/xed-preferences-dialog.c:764 ../xed/xed-preferences-dialog.c:770
+msgid "Add Scheme"
+msgstr "Añadir un estilo"
+
+#: ../xed/xed-preferences-dialog.c:767 ../xed/xed-progress-info-bar.c:61
+msgid "Cancel"
+msgstr "Cancelar"
+
+#: ../xed/xed-preferences-dialog.c:776
+msgid "Color Scheme Files"
+msgstr "Archivos de estilo"
+
+#: ../xed/xed-preferences-dialog.c:848
+#, c-format
+msgid "Could not remove color scheme \"%s\"."
+msgstr "No se ha podido eliminar el estilo «%s»."
+
+#: ../xed/xed-preferences-dialog.c:880
+msgid "Theme"
+msgstr "Tema"
+
+#: ../xed/xed-preferences-dialog.c:897
+msgid "Plugins"
+msgstr "Complementos"
+
+#: ../xed/xed-preferences-dialog.c:905
+msgid "Help"
+msgstr "Ayuda"
+
+#: ../xed/xed-preferences-dialog.c:910
+#: ../xed/resources/ui/xed-searchbar.ui.h:11
+msgid "Close"
+msgstr "Cerrar"
+
+#: ../xed/xed-preferences-dialog.c:924
+msgid "Xed Preferences"
+msgstr "Preferencias de Xed"
+
+#: ../xed/xed-print-job.c:487
+#, c-format
+msgid "File: %s"
+msgstr "Archivo: %s"
+
+#: ../xed/xed-print-job.c:496
+msgid "Page %N of %Q"
+msgstr "Página %N de %Q"
+
+#: ../xed/xed-print-job.c:733
+msgid "Preparing..."
+msgstr "Preparando…"
+
+#: ../xed/xed-print-preview.c:580
+msgid "Show the previous page"
+msgstr "Mostrar la página anterior"
+
+#: ../xed/xed-print-preview.c:586
+msgid "Show the next page"
+msgstr "Mostrar la página siguiente"
+
+#: ../xed/xed-print-preview.c:600
+msgid "Current page (Alt+P)"
+msgstr "Página actual (Alt+P)"
+
+#. gtk_label_set_mnemonic_widget ((GtkLabel *) l, mp->priv->page_entry);
+#. We are displaying 'XXX of XXX'.
+#. Translators: the "of" from "1 of 19" in print preview.
+#: ../xed/xed-print-preview.c:614
+msgid "of"
+msgstr "de"
+
+#: ../xed/xed-print-preview.c:619
+msgid "Page total"
+msgstr "Total de páginas"
+
+#: ../xed/xed-print-preview.c:620
+msgid "The total number of pages in the document"
+msgstr "El número total de páginas del documento"
+
+#: ../xed/xed-print-preview.c:640
+msgid "Show multiple pages"
+msgstr "Mostrar varias páginas"
+
+#: ../xed/xed-print-preview.c:658
+msgid "Zoom 1:1"
+msgstr "Ampliación 1:1"
+
+#: ../xed/xed-print-preview.c:664
+msgid "Zoom to fit the whole page"
+msgstr "Mostrar toda la página"
+
+#: ../xed/xed-print-preview.c:670
+msgid "Zoom the page in"
+msgstr "Ampliar la página"
+
+#: ../xed/xed-print-preview.c:676
+msgid "Zoom the page out"
+msgstr "Reducir la página"
+
+#: ../xed/xed-print-preview.c:693 ../xed/resources/ui/xed-shortcuts.ui.h:33
+msgid "Print the document"
+msgstr "Imprimir el documento"
+
+#: ../xed/xed-print-preview.c:708
+msgid "_Close preview"
+msgstr "_Cerrar la vista previa"
+
+#: ../xed/xed-print-preview.c:710
+msgid "Close print preview"
+msgstr "Cerrar la vista previa de impresión"
+
+#: ../xed/xed-print-preview.c:788
+#, c-format
+msgid "Page %d of %d"
+msgstr "Página %d de %d"
+
+#: ../xed/xed-print-preview.c:970
+msgid "Page Preview"
+msgstr "Vista previa de la página"
+
+#: ../xed/xed-print-preview.c:971
+msgid "The preview of a page in the document to be printed"
+msgstr "Vista previa de una página del documento que se va a imprimir"
+
+#: ../xed/resources/ui/xed-highlight-mode-dialog.ui.h:1
+msgid "Highlight Mode"
+msgstr "Modo de resaltado"
+
+#: ../xed/resources/ui/xed-highlight-mode-dialog.ui.h:3
+msgid "_Select"
+msgstr "_Seleccionar"
+
+#: ../xed/resources/ui/xed-highlight-mode-selector.ui.h:1
+msgid "Search highlight mode…"
+msgstr "Buscar un resaltado..."
+
+#: ../xed/resources/ui/xed-encodings-dialog.ui.h:1
+msgid "Character encodings"
+msgstr "Codificación de caracteres"
+
+#: ../xed/resources/ui/xed-encodings-dialog.ui.h:2
+msgid "A_vailable encodings:"
+msgstr "Codificaciones dispo_nibles:"
+
+#: ../xed/resources/ui/xed-encodings-dialog.ui.h:3
+msgid "E_ncodings shown in menu:"
+msgstr "Co_dificaciones mostradas en el menú:"
+
+#: ../xed/resources/ui/xed-preferences-dialog.ui.h:1
+msgid "Font"
+msgstr "Tipografía"
+
+#: ../xed/resources/ui/xed-preferences-dialog.ui.h:4
+msgid "Display"
+msgstr "Visualización"
+
+#: ../xed/resources/ui/xed-preferences-dialog.ui.h:5
+msgid "Display line numbers"
+msgstr "Mostrar los números de línea"
+
+#: ../xed/resources/ui/xed-preferences-dialog.ui.h:6
+msgid "Display overview map"
+msgstr "Mostrar el mapa general"
+
+#: ../xed/resources/ui/xed-preferences-dialog.ui.h:7
+msgid "Display right margin"
+msgstr "Mostrar el margen derecho"
+
+#: ../xed/resources/ui/xed-preferences-dialog.ui.h:8
+msgid "Right margin at column"
+msgstr "Margen derecho en la columna"
+
+#: ../xed/resources/ui/xed-preferences-dialog.ui.h:9
+msgid "4"
+msgstr "4"
+
+#: ../xed/resources/ui/xed-preferences-dialog.ui.h:10
+msgid "Draw whitespace"
+msgstr "Mostrar los espacios en blanco"
+
+#: ../xed/resources/ui/xed-preferences-dialog.ui.h:11
+msgid "Leading whitespace"
+msgstr "Espacios en blanco iniciales"
+
+#: ../xed/resources/ui/xed-preferences-dialog.ui.h:12
+msgid "Trailing whitespace"
+msgstr "Espacios en blanco finales"
+
+#: ../xed/resources/ui/xed-preferences-dialog.ui.h:13
+msgid "Whitespace inside of text"
+msgstr "Espacios en blanco dentro del texto"
+
+#: ../xed/resources/ui/xed-preferences-dialog.ui.h:14
+msgid "Newline character"
+msgstr "Saltos de línea"
+
+#: ../xed/resources/ui/xed-preferences-dialog.ui.h:15
+msgid "Highlighting"
+msgstr "Resaltado"
+
+#: ../xed/resources/ui/xed-preferences-dialog.ui.h:16
+msgid "Highlight the current line"
+msgstr "Resaltar la línea actual"
+
+#: ../xed/resources/ui/xed-preferences-dialog.ui.h:17
+msgid "Highlight matching brackets"
+msgstr "Resaltar los corchetes correspondientes"
+
+#: ../xed/resources/ui/xed-preferences-dialog.ui.h:18
+msgid "Indentation"
+msgstr "Sangría"
+
+#: ../xed/resources/ui/xed-preferences-dialog.ui.h:19
+msgid "Tab width"
+msgstr "Anchura del tabulador"
+
+#: ../xed/resources/ui/xed-preferences-dialog.ui.h:20
+msgid "Use spaces instead of tabs"
+msgstr "Usar espacios en lugar de tabuladores"
+
+#: ../xed/resources/ui/xed-preferences-dialog.ui.h:21
+msgid "Automatic indentation"
+msgstr "Sangría automática"
+
+#: ../xed/resources/ui/xed-preferences-dialog.ui.h:22
+msgid "Word wrap"
+msgstr "Ajuste de línea"
+
+#: ../xed/resources/ui/xed-preferences-dialog.ui.h:23
+msgid "Split words over two lines"
+msgstr "Dividir palabras en dos líneas"
+
+#: ../xed/resources/ui/xed-preferences-dialog.ui.h:24
+msgid "Tab scrolling"
+msgstr "Desplazamiento de pestañas"
+
+#: ../xed/resources/ui/xed-preferences-dialog.ui.h:25
+msgid "Allow mouse wheel scrolling to change tabs"
+msgstr "Cambiar de pestaña con la rueda del ratón"
+
+#: ../xed/resources/ui/xed-preferences-dialog.ui.h:26
+msgid "File saving"
+msgstr "Guardado de archivos"
+
+#: ../xed/resources/ui/xed-preferences-dialog.ui.h:27
+msgid "Create a backup copy of files before saving"
+msgstr "Crear una copia de seguridad de los archivos antes de guardarlos"
+
+#: ../xed/resources/ui/xed-preferences-dialog.ui.h:28
+msgid "Autosave files"
+msgstr "Guardar automáticamente los archivos"
+
+#: ../xed/resources/ui/xed-preferences-dialog.ui.h:29
+msgid "Minutes between saving"
+msgstr "Minutos entre cada copia de seguridad"
+
+#: ../xed/resources/ui/xed-preferences-dialog.ui.h:30
+msgid "Ensure Trailing Newline"
+msgstr "Asegurar un salto de línea al final"
+
+#: ../xed/resources/ui/xed-preferences-dialog.ui.h:31
+msgid "Dark theme"
+msgstr "Tema oscuro"
+
+#: ../xed/resources/ui/xed-preferences-dialog.ui.h:32
+msgid "Use dark theme variant (if available)"
+msgstr "Usar la variante oscura del tema (si la hay)"
+
+#: ../xed/resources/ui/xed-preferences-dialog.ui.h:33
+msgid "Style scheme"
+msgstr "Estilo"
+
+#: ../xed/resources/ui/xed-preferences-dialog.ui.h:34
+msgid "Install scheme"
+msgstr "Instalar un estilo"
+
+#: ../xed/resources/ui/xed-preferences-dialog.ui.h:35
+msgid "Remove scheme"
+msgstr "Eliminar el estilo"
+
+#: ../xed/resources/ui/xed-print-preferences.ui.h:1
+msgid "Syntax Highlighting"
+msgstr "Resaltado de la sintaxis"
+
+#: ../xed/resources/ui/xed-print-preferences.ui.h:2
+msgid "Print synta_x highlighting"
+msgstr "Imprimir el resaltado de la sinta_xis"
+
+#: ../xed/resources/ui/xed-print-preferences.ui.h:3
+msgid "Line Numbers"
+msgstr "Números de línea"
+
+#: ../xed/resources/ui/xed-print-preferences.ui.h:4
+msgid "Print line nu_mbers"
+msgstr "Imprimir los nú_meros de línea"
+
+#. 
+#: ../xed/resources/ui/xed-print-preferences.ui.h:6
+msgid "_Number every"
+msgstr "_Numerar cada"
+
+#. 
+#: ../xed/resources/ui/xed-print-preferences.ui.h:8
+msgid "lines"
+msgstr "líneas"
+
+#: ../xed/resources/ui/xed-print-preferences.ui.h:9
+msgid "Text Wrapping"
+msgstr "Ajuste de línea"
+
+#: ../xed/resources/ui/xed-print-preferences.ui.h:10
+msgid "Enable text _wrapping"
+msgstr "Activar el a_juste de línea"
+
+#: ../xed/resources/ui/xed-print-preferences.ui.h:11
+msgid "Do not _split words over two lines"
+msgstr "No _dividir las palabras sobre dos líneas"
+
+#: ../xed/resources/ui/xed-print-preferences.ui.h:12
+msgid "Page header"
+msgstr "Cabecera de la página"
+
+#: ../xed/resources/ui/xed-print-preferences.ui.h:13
+msgid "Print page _headers"
+msgstr "Imprimir las ca_beceras de página"
+
+#: ../xed/resources/ui/xed-print-preferences.ui.h:14
+msgid "Fonts"
+msgstr "Tipografías"
+
+#: ../xed/resources/ui/xed-print-preferences.ui.h:15
+msgid "_Body:"
+msgstr "C_uerpo:"
+
+#: ../xed/resources/ui/xed-print-preferences.ui.h:16
+msgid "_Line numbers:"
+msgstr "Números de _línea:"
+
+#: ../xed/resources/ui/xed-print-preferences.ui.h:17
+msgid "He_aders and footers:"
+msgstr "C_abeceras y pies:"
+
+#: ../xed/resources/ui/xed-print-preferences.ui.h:18
+msgid "_Restore Default Fonts"
+msgstr "_Restaurar las tipografías predeterminadas"
+
+#: ../xed/resources/ui/xed-searchbar.ui.h:1
+msgid "Replace _All"
+msgstr "Reemplazar _todo"
+
+#: ../xed/resources/ui/xed-searchbar.ui.h:3
+msgid "_Search for: "
+msgstr "_Buscar: "
+
+#: ../xed/resources/ui/xed-searchbar.ui.h:4
+msgid "Replace _with: "
+msgstr "_Reemplazar por: "
+
+#: ../xed/resources/ui/xed-searchbar.ui.h:5
+msgid "Next"
+msgstr "Siguiente"
+
+#: ../xed/resources/ui/xed-searchbar.ui.h:6
+msgid "Previous"
+msgstr "Anterior"
+
+#: ../xed/resources/ui/xed-searchbar.ui.h:7
+msgid "Regular expression"
+msgstr "Expresión regular"
+
+#: ../xed/resources/ui/xed-searchbar.ui.h:8
+msgid "Case sensitive"
+msgstr "Distinguir mayúsculas y minúsculas"
+
+#: ../xed/resources/ui/xed-searchbar.ui.h:9
+msgid "Whole word"
+msgstr "Palabra completa"
+
+#: ../xed/resources/ui/xed-searchbar.ui.h:10
+msgid "Wrap"
+msgstr "En bucle"
+
+#: ../xed/resources/ui/xed-shortcuts.ui.h:2 ../xed/xed-ui.h:56
+msgid "Create a new document"
+msgstr "Crear un documento nuevo"
+
+#: ../xed/resources/ui/xed-shortcuts.ui.h:3
+msgid "Open a document"
+msgstr "Abrir un documento"
+
+#: ../xed/resources/ui/xed-shortcuts.ui.h:4
+msgid "Save the document"
+msgstr "Guardar el documento"
+
+#: ../xed/resources/ui/xed-shortcuts.ui.h:5
+msgid "Save the document with a new filename"
+msgstr "Guardar el documento con un nombre nuevo"
+
+#: ../xed/resources/ui/xed-shortcuts.ui.h:6
+msgid "Save all the documents"
+msgstr "Guardar todos los documentos"
+
+#: ../xed/resources/ui/xed-shortcuts.ui.h:7
+msgid "Close the document"
+msgstr "Cerrar el documento"
+
+#: ../xed/resources/ui/xed-shortcuts.ui.h:8
+msgid "Close all the documents"
+msgstr "Cerrar todos los documentos"
+
+#: ../xed/resources/ui/xed-shortcuts.ui.h:9
+msgid "Switch to the next document"
+msgstr "Ir al documento siguiente"
+
+#: ../xed/resources/ui/xed-shortcuts.ui.h:10
+msgid "Switch to the previous document"
+msgstr "Ir al documento anterior"
+
+#: ../xed/resources/ui/xed-shortcuts.ui.h:11
+msgid "Switch to the first - ninth document"
+msgstr "Cambiar al primer-noveno documento"
+
+#: ../xed/resources/ui/xed-shortcuts.ui.h:12
+msgid "Windows and Panes"
+msgstr "Ventanas y paneles"
+
+#: ../xed/resources/ui/xed-shortcuts.ui.h:13
+msgid "Show side pane"
+msgstr "Mostrar el panel lateral"
+
+#: ../xed/resources/ui/xed-shortcuts.ui.h:14
+msgid "Show bottom pane"
+msgstr "Mostrar el panel inferior"
+
+#: ../xed/resources/ui/xed-shortcuts.ui.h:15
+msgid "Fullscreen on / off"
+msgstr "Activar/desactivar la pantalla completa"
+
+#: ../xed/resources/ui/xed-shortcuts.ui.h:16
+msgid "Quit the application"
+msgstr "Salir de la aplicación"
+
+#: ../xed/resources/ui/xed-shortcuts.ui.h:17
+msgid "Find and Replace"
+msgstr "Buscar y reemplazar"
+
+#: ../xed/resources/ui/xed-shortcuts.ui.h:18
+msgid "Find"
+msgstr "Buscar"
+
+#: ../xed/resources/ui/xed-shortcuts.ui.h:19
+msgid "Find the next match"
+msgstr "Buscar la coincidencia siguiente"
+
+#: ../xed/resources/ui/xed-shortcuts.ui.h:20
+msgid "Find the previous match"
+msgstr "Buscar la coincidencia anterior"
+
+#: ../xed/resources/ui/xed-shortcuts.ui.h:21
+msgid "Go to line"
+msgstr "Ir a la línea"
+
+#: ../xed/resources/ui/xed-shortcuts.ui.h:22
+msgid "Copy and Paste"
+msgstr "Copiar y pegar"
+
+#: ../xed/resources/ui/xed-shortcuts.ui.h:23
+msgid "Copy selected text to clipboard"
+msgstr "Copiar el texto seleccionado al portapapeles"
+
+#: ../xed/resources/ui/xed-shortcuts.ui.h:24
+msgid "Cut selected text to clipboard"
+msgstr "Cortar el texto seleccionado al portapapeles"
+
+#: ../xed/resources/ui/xed-shortcuts.ui.h:25
+msgid "Paste text from clipboard"
+msgstr "Pegar el texto del portapapeles"
+
+#: ../xed/resources/ui/xed-shortcuts.ui.h:26
+msgid "Undo and Redo"
+msgstr "Deshacer y rehacer"
+
+#: ../xed/resources/ui/xed-shortcuts.ui.h:27
+msgid "Undo previous command"
+msgstr "Deshacer la orden anterior"
+
+#: ../xed/resources/ui/xed-shortcuts.ui.h:28
+msgid "Redo previous command"
+msgstr "Rehacer la orden anterior"
+
+#: ../xed/resources/ui/xed-shortcuts.ui.h:29 ../plugins/docinfo/docinfo.ui.h:11
+msgid "Selection"
+msgstr "Selección"
+
+#: ../xed/resources/ui/xed-shortcuts.ui.h:30
+msgid "Select all text"
+msgstr "Seleccionar todo el texto"
+
+#: ../xed/resources/ui/xed-shortcuts.ui.h:31
+msgid "Tools"
+msgstr "Herramientas"
+
+#: ../xed/resources/ui/xed-shortcuts.ui.h:32
+msgid "Check spelling"
+msgstr "Comprobar la ortografía"
+
+#: ../xed/resources/ui/xed-shortcuts.ui.h:34
+msgid "Layout"
+msgstr "Distribución"
+
+#: ../xed/resources/ui/xed-shortcuts.ui.h:35
+msgid "Toggle Word Wrap"
+msgstr "Activa/desactiva el ajuste de palabras"
+
+#: ../xed/resources/ui/xed-shortcuts.ui.h:36
+msgid "Editing"
+msgstr "Edición"
+
+#: ../xed/resources/ui/xed-shortcuts.ui.h:37
+msgid "Toggle insert / overwrite"
+msgstr "Insertar/sobrescribir"
+
+#: ../xed/resources/ui/xed-shortcuts.ui.h:38
+msgid "Delete current line"
+msgstr "Eliminar la línea actual"
+
+#: ../xed/resources/ui/xed-shortcuts.ui.h:39
+msgid "Move current line up"
+msgstr "Subir la línea actual"
+
+#: ../xed/resources/ui/xed-shortcuts.ui.h:40
+msgid "Move current line down"
+msgstr "Bajar la línea actual"
+
+#: ../xed/resources/ui/xed-shortcuts.ui.h:41
+msgid "Move current word left"
+msgstr "Mover a la izquierda la palabra actual"
+
+#: ../xed/resources/ui/xed-shortcuts.ui.h:42
+msgid "Move current word right"
+msgstr "Mover a la derecha la palabra actual"
+
+#: ../xed/resources/ui/xed-shortcuts.ui.h:43
+msgid "Convert to uppercase"
+msgstr "Convertir a mayúsculas"
+
+#: ../xed/resources/ui/xed-shortcuts.ui.h:44
+msgid "Convert to lowercase"
+msgstr "Convertir a minúsculas"
+
+#: ../xed/resources/ui/xed-shortcuts.ui.h:45
+msgid "Convert to title case"
+msgstr "Convertir a mayúsculas de título"
+
+#: ../xed/resources/ui/xed-shortcuts.ui.h:46
+msgid "Invert case"
+msgstr "Invertir mayúsculas/minúsculas"
+
+#: ../xed/resources/ui/xed-shortcuts.ui.h:47
+msgid "Increment number at cursor"
+msgstr "Incrementar el número en el cursor"
+
+#: ../xed/resources/ui/xed-shortcuts.ui.h:48
+msgid "Decrement number at cursor"
+msgstr "Reducir el número en el cursor"
+
+#: ../xed/resources/ui/xed-shortcuts.ui.h:49
+msgid "Toggle comment block"
+msgstr "Comentar/descomentar el bloque"
+
+#: ../xed/resources/ui/xed-shortcuts.ui.h:50
+msgid "Toggle comment"
+msgstr "Comentar/descomentar"
+
+#: ../xed/resources/ui/xed-shortcuts.ui.h:51
+#: ../plugins/joinlines/joinlines.plugin.desktop.in.h:1
+msgid "Join Lines"
+msgstr "Unir líneas"
+
+#: ../xed/xed-searchbar.c:88
+#, c-format
+msgid "Found and replaced %d occurrence"
+msgid_plural "Found and replaced %d occurrences"
+msgstr[0] "Se ha encontrado y reemplazado %d aparición"
+msgstr[1] "Se han encontrado y reemplazado %d apariciones"
+
+#: ../xed/xed-searchbar.c:98
+msgid "Found and replaced one occurrence"
+msgstr "Se ha encontrado y reemplazado una aparición"
+
+#: ../xed/xed-searchbar.c:120
+#, c-format
+msgid "\"%s\" not found"
+msgstr "No se ha encontrado «%s»"
+
+#: ../xed/xed-searchbar.c:298
+msgid "No matches found"
+msgstr "No hay coincidencias"
+
+#: ../xed/xed-searchbar.c:306
+#, c-format
+msgid "%d match"
+msgid_plural "%d matches"
+msgstr[0] "%d coincidencia"
+msgstr[1] "%d coincidencias"
+
+#: ../xed/xed-searchbar.c:312
+#, c-format
+msgid "%d of %d match"
+msgid_plural "%d of %d matches"
+msgstr[0] "%d de %d coincidencia"
+msgstr[1] "%d de %d coincidencias"
+
+#: ../xed/xed-statusbar.c:63 ../xed/xed-statusbar.c:69
+msgid "OVR"
+msgstr "SOB"
+
+#: ../xed/xed-statusbar.c:63 ../xed/xed-statusbar.c:69
+msgid "INS"
+msgstr "INS"
+
+#. Translators: "Ln" is an abbreviation for "Line", Col is an abbreviation for "Column". Please,
+#. use abbreviations if possible to avoid space problems.
+#: ../xed/xed-statusbar.c:222
+#, c-format
+msgid "  Ln %d, Col %d"
+msgstr "  Lín %d, col %d"
+
+#: ../xed/xed-statusbar.c:322
+#, c-format
+msgid "There is a tab with errors"
+msgid_plural "There are %d tabs with errors"
+msgstr[0] "Hay una pestaña con errores"
+msgstr[1] "Hay %d pestañas con errores"
+
+#: ../xed/xed-tab-label.c:267
+msgid "Close document"
+msgstr "Cerrar el documento"
+
+#. Translators: the first %s is a file name (e.g. test.txt) the second one
+#. is a directory (e.g. ssh://master.gnome.org/home/users/paolo)
+#: ../xed/xed-tab.c:717
+#, c-format
+msgid "Reverting %s from %s"
+msgstr "Revertiendo %s en %s"
+
+#: ../xed/xed-tab.c:722
+#, c-format
+msgid "Reverting %s"
+msgstr "Revertiendo %s"
+
+#. Translators: the first %s is a file name (e.g. test.txt) the second one
+#. is a directory (e.g. ssh://master.gnome.org/home/users/paolo)
+#: ../xed/xed-tab.c:735
+#, c-format
+msgid "Loading %s from %s"
+msgstr "Cargando %s en %s"
+
+#: ../xed/xed-tab.c:740
+#, c-format
+msgid "Loading %s"
+msgstr "Cargando %s"
+
+#. Translators: the first %s is a file name (e.g. test.txt) the second one
+#. is a directory (e.g. ssh://master.gnome.org/home/users/paolo)
+#: ../xed/xed-tab.c:821
+#, c-format
+msgid "Saving %s to %s"
+msgstr "Guardando %s en %s"
+
+#: ../xed/xed-tab.c:826
+#, c-format
+msgid "Saving %s"
+msgstr "Guardando %s"
+
+#. Read only
+#: ../xed/xed-tab.c:1320
+msgid "RO"
+msgstr "SL"
+
+#: ../xed/xed-tab.c:1368
+#, c-format
+msgid "Error opening file %s"
+msgstr "Error al abrir el archivo %s"
+
+#: ../xed/xed-tab.c:1372
+#, c-format
+msgid "Error reverting file %s"
+msgstr "Error al revertir el archivo %s"
+
+#: ../xed/xed-tab.c:1376
+#, c-format
+msgid "Error saving file %s"
+msgstr "Error al guardar el archivo %s"
+
+#: ../xed/xed-tab.c:1409
+msgid "Name:"
+msgstr "Nombre:"
+
+#: ../xed/xed-tab.c:1410
+msgid "MIME Type:"
+msgstr "Tipo MIME:"
+
+#: ../xed/xed-tab.c:1411
+msgid "Encoding:"
+msgstr "Codificación:"
+
+#. Toplevel
+#: ../xed/xed-ui.h:44
+msgid "_File"
+msgstr "_Archivo"
+
+#: ../xed/xed-ui.h:45
+msgid "_Edit"
+msgstr "_Editar"
+
+#: ../xed/xed-ui.h:46
+msgid "_View"
+msgstr "_Ver"
+
+#: ../xed/xed-ui.h:47
+msgid "_Search"
+msgstr "_Buscar"
+
+#: ../xed/xed-ui.h:48
+msgid "_Tools"
+msgstr "_Herramientas"
+
+#: ../xed/xed-ui.h:49
+msgid "_Documents"
+msgstr "_Documentos"
+
+#: ../xed/xed-ui.h:51
+msgid "Favorites"
+msgstr "Favoritos"
+
+#: ../xed/xed-ui.h:52
+msgid "Recents"
+msgstr "Recientes"
+
+#. File menu
+#: ../xed/xed-ui.h:55
+msgid "_New"
+msgstr "_Nuevo"
+
+#: ../xed/xed-ui.h:57
+msgid "_Open..."
+msgstr "_Abrir…"
+
+#: ../xed/xed-ui.h:58
+msgid "Open a file"
+msgstr "Abrir un archivo"
+
+#. Edit menu
+#: ../xed/xed-ui.h:61
+msgid "Pr_eferences"
+msgstr "Pre_ferencias"
+
+#: ../xed/xed-ui.h:62
+msgid "Configure the application"
+msgstr "Configurar la aplicación"
+
+#. Help menu
+#: ../xed/xed-ui.h:65
+msgid "_Contents"
+msgstr "Índ_ice"
+
+#: ../xed/xed-ui.h:66
+msgid "Open the xed manual"
+msgstr "Abrir el manual de Xed"
+
+#: ../xed/xed-ui.h:67
+msgid "_About"
+msgstr "Acerca _de"
+
+#: ../xed/xed-ui.h:68
+msgid "About this application"
+msgstr "Acerca de esta aplicación"
+
+#: ../xed/xed-ui.h:69
+msgid "_Keyboard Shortcuts"
+msgstr "_Atajos de teclado"
+
+#: ../xed/xed-ui.h:70
+msgid "Show the keyboard shortcuts dialog"
+msgstr "Mostrar el diálogo de atajos de teclado"
+
+#: ../xed/xed-ui.h:74
+msgid "Leave fullscreen mode"
+msgstr "Salir del modo a pantalla completa"
+
+#: ../xed/xed-ui.h:82
+msgid "Save the current file"
+msgstr "Guardar el archivo actual"
+
+#: ../xed/xed-ui.h:83
+msgid "Save _As..."
+msgstr "G_uardar como..."
+
+#: ../xed/xed-ui.h:84
+msgid "Save the current file with a different name"
+msgstr "Guardar el archivo actual con un nombre distinto"
+
+#: ../xed/xed-ui.h:85
+msgid "Revert"
+msgstr "Revertir"
+
+#: ../xed/xed-ui.h:86
+msgid "Revert to a saved version of the file"
+msgstr "Revertir a una versión guardada del archivo"
+
+#: ../xed/xed-ui.h:87
+msgid "Print Previe_w"
+msgstr "_Vista previa de impresión"
+
+#: ../xed/xed-ui.h:88
+msgid "Print preview"
+msgstr "Vista previa de impresión"
+
+#: ../xed/xed-ui.h:89
+msgid "_Print..."
+msgstr "_Imprimir…"
+
+#: ../xed/xed-ui.h:90
+msgid "Print the current page"
+msgstr "Imprimir la página actual"
+
+#. Edit menu
+#: ../xed/xed-ui.h:93
+msgid "_Undo"
+msgstr "_Deshacer"
+
+#: ../xed/xed-ui.h:94
+msgid "Undo the last action"
+msgstr "Deshacer la última acción"
+
+#: ../xed/xed-ui.h:95
+msgid "_Redo"
+msgstr "_Rehacer"
+
+#: ../xed/xed-ui.h:96
+msgid "Redo the last undone action"
+msgstr "Rehacer la última acción deshecha"
+
+#: ../xed/xed-ui.h:97
+msgid "C_ut"
+msgstr "Cor_tar"
+
+#: ../xed/xed-ui.h:98
+msgid "Cut the selection"
+msgstr "Cortar la selección"
+
+#: ../xed/xed-ui.h:99
+msgid "_Copy"
+msgstr "_Copiar"
+
+#: ../xed/xed-ui.h:100
+msgid "Copy the selection"
+msgstr "Copiar la selección"
+
+#: ../xed/xed-ui.h:101
+msgid "_Paste"
+msgstr "_Pegar"
+
+#: ../xed/xed-ui.h:102
+msgid "Paste the clipboard"
+msgstr "Pegar el portapapeles"
+
+#: ../xed/xed-ui.h:103 ../plugins/filebrowser/xed-file-browser-plugin.c:962
+#: ../plugins/filebrowser/xed-file-browser-plugin.c:997
+#: ../plugins/filebrowser/xed-file-browser-widget.c:758
+msgid "_Delete"
+msgstr "_Eliminar"
+
+#: ../xed/xed-ui.h:104
+msgid "Delete the selected text"
+msgstr "Eliminar el texto seleccionado"
+
+#: ../xed/xed-ui.h:105
+msgid "Select _All"
+msgstr "_Seleccionar todo"
+
+#: ../xed/xed-ui.h:106
+msgid "Select the entire document"
+msgstr "Seleccionar el documento completo"
+
+#: ../xed/xed-ui.h:107
+msgid "_Toggle Comment"
+msgstr "Co_mentar/descomentar"
+
+#: ../xed/xed-ui.h:108 ../plugins/taglist/HTML.tags.xml.in.h:41
+msgid "Comment"
+msgstr "Comentario"
+
+#: ../xed/xed-ui.h:109
+msgid "Toggle Comment _Block"
+msgstr "Comentar/descomentar el _bloque"
+
+#: ../xed/xed-ui.h:110
+msgid "Comment Block"
+msgstr "Bloque de comentarios"
+
+#. View menu
+#: ../xed/xed-ui.h:113
+msgid "_Highlight Mode"
+msgstr "Modo de _resaltado"
+
+#: ../xed/xed-ui.h:114
+msgid "Change syntax hightlight mode"
+msgstr "Cambiar el modo de resaltado de sintaxis"
+
+#. Search menu
+#: ../xed/xed-ui.h:118
+msgid "_Find"
+msgstr "_Buscar"
+
+#: ../xed/xed-ui.h:119
+msgid "Search for text"
+msgstr "Buscar texto"
+
+#: ../xed/xed-ui.h:120
+msgid "Find Ne_xt"
+msgstr "Buscar _siguiente"
+
+#: ../xed/xed-ui.h:121
+msgid "Search forwards for the same text"
+msgstr "Buscar hacia adelante el mismo texto"
+
+#: ../xed/xed-ui.h:122
+msgid "Find Pre_vious"
+msgstr "Buscar _anterior"
+
+#: ../xed/xed-ui.h:123
+msgid "Search backwards for the same text"
+msgstr "Buscar hacia atrás el mismo texto"
+
+#: ../xed/xed-ui.h:125
+msgid "Search for and replace text"
+msgstr "Buscar y reemplazar texto"
+
+#: ../xed/xed-ui.h:126
+msgid "Go to _Line..."
+msgstr "_Ir a la línea..."
+
+#: ../xed/xed-ui.h:127
+msgid "Go to a specific line"
+msgstr "Ir a una línea especifica"
+
+#. Documents menu
+#: ../xed/xed-ui.h:130
+msgid "_Save All"
+msgstr "_Guardar todo"
+
+#: ../xed/xed-ui.h:131
+msgid "Save all open files"
+msgstr "Guardar todos los archivos abiertos"
+
+#: ../xed/xed-ui.h:132
+msgid "_Close All"
+msgstr "_Cerrar todo"
+
+#: ../xed/xed-ui.h:133
+msgid "Close all open files"
+msgstr "Cerrar todos los archivos abiertos"
+
+#: ../xed/xed-ui.h:134
+msgid "_Previous Document"
+msgstr "Documento _anterior"
+
+#: ../xed/xed-ui.h:135
+msgid "Activate previous document"
+msgstr "Activar el documento anterior"
+
+#: ../xed/xed-ui.h:136
+msgid "_Next Document"
+msgstr "Documento _siguiente"
+
+#: ../xed/xed-ui.h:137
+msgid "Activate next document"
+msgstr "Activar el documento siguiente"
+
+#: ../xed/xed-ui.h:138
+msgid "_Move to New Window"
+msgstr "_Mover a una ventana nueva"
+
+#: ../xed/xed-ui.h:139
+msgid "Move the current document to a new window"
+msgstr "Mover el documento actual a una ventana nueva"
+
+#: ../xed/xed-ui.h:145
+msgid "_Close"
+msgstr "_Cerrar"
+
+#: ../xed/xed-ui.h:146
+msgid "Close the current file"
+msgstr "Cerrar el archivo actual"
+
+#: ../xed/xed-ui.h:152
+msgid "_Quit"
+msgstr "_Salir"
+
+#: ../xed/xed-ui.h:153
+msgid "Quit the program"
+msgstr "Salir del programa"
+
+#: ../xed/xed-ui.h:158
+msgid "_Toolbar"
+msgstr "Barra de _herramientas"
+
+#: ../xed/xed-ui.h:159
+msgid "Show or hide the toolbar in the current window"
+msgstr "Mostrar u ocultar la barra de herramientas en la ventana actual"
+
+#: ../xed/xed-ui.h:161
+msgid "_Menubar"
+msgstr "Barra de _menús"
+
+#: ../xed/xed-ui.h:162
+msgid "Show or hide the menubar in the current window"
+msgstr "Mostrar u ocultar la barra de menús en la ventana actual"
+
+#: ../xed/xed-ui.h:164
+msgid "_Statusbar"
+msgstr "Barra de _estado"
+
+#: ../xed/xed-ui.h:165
+msgid "Show or hide the statusbar in the current window"
+msgstr "Mostrar u ocultar la barra de estado en la ventana actual"
+
+#: ../xed/xed-ui.h:167
+msgid "Fullscreen"
+msgstr "Pantalla completa"
+
+#: ../xed/xed-ui.h:168
+msgid "Edit text in fullscreen"
+msgstr "Editar el texto a pantalla completa"
+
+#: ../xed/xed-ui.h:170
+msgid "_Word wrap"
+msgstr "_Ajuste de línea"
+
+#: ../xed/xed-ui.h:171
+msgid "Set word wrap for the current document"
+msgstr "Configurar el ajuste de línea para el documento actual"
+
+#: ../xed/xed-ui.h:173
+msgid "_Overview Map"
+msgstr "_Mapa general"
+
+#: ../xed/xed-ui.h:174
+msgid "Show or hide the overview map for the current view"
+msgstr "Mostrar u ocultar el mapa general de la vista actual"
+
+#: ../xed/xed-ui.h:181
+msgid "Side _Pane"
+msgstr "Panel _lateral"
+
+#: ../xed/xed-ui.h:182
+msgid "Show or hide the side pane in the current window"
+msgstr "Mostrar u ocultar el panel lateral en la ventana actual"
+
+#: ../xed/xed-ui.h:184
+msgid "_Bottom Pane"
+msgstr "Panel _inferior"
+
+#: ../xed/xed-ui.h:185
+msgid "Show or hide the bottom pane in the current window"
+msgstr "Mostrar u ocultar el panel inferior en la ventana actual"
+
+#: ../xed/xed-utils.c:830
+msgid "Please check your installation."
+msgstr "Compruebe su instalación."
+
+#: ../xed/xed-utils.c:898
+#, c-format
+msgid "Unable to open UI file %s. Error: %s"
+msgstr ""
+"No se ha podido abrir el archivo de interfaz de usuario %s. Error: %s"
+
+#: ../xed/xed-utils.c:918
+#, c-format
+msgid "Unable to find the object '%s' inside file %s."
+msgstr "No se ha podido encontrar el objeto «%s» en el archivo %s."
+
+#. Translators: '/ on <remote-share>'
+#: ../xed/xed-utils.c:1086
+#, c-format
+msgid "/ on %s"
+msgstr "/ en %s"
+
+#: ../xed/xed-view.c:388
+msgid "_Display line numbers"
+msgstr "_Mostrar los números de línea"
+
+#. Translators: %s is a URI
+#: ../xed/xed-window.c:944
+#, c-format
+msgid "Open '%s'"
+msgstr "Abrir «%s»"
+
+#. Translators: %s is a URI
+#: ../xed/xed-window.c:1295
+#, c-format
+msgid "Activate '%s'"
+msgstr "Activar «%s»"
+
+#: ../xed/xed-window.c:1483
+#, c-format
+msgid "Spaces: %u"
+msgstr "Espacios: %u"
+
+#: ../xed/xed-window.c:1487
+#, c-format
+msgid "Tabs: %u"
+msgstr "Tabuladores: %u"
+
+#: ../xed/xed-window.c:1564
+msgid "Use Spaces"
+msgstr "Usar espacios"
+
+#: ../xed/xed-window.c:2372
+msgid "There are unsaved documents"
+msgstr "Hay documentos sin guardar"
+
+#: ../xed/xed-window.c:3421
+msgid "Elevated Privileges"
+msgstr "Privilegios elevados"
+
+#: ../plugins/docinfo/docinfo.plugin.desktop.in.h:1
+#: ../plugins/docinfo/docinfo.ui.h:1
+msgid "Document Statistics"
+msgstr "Estadísticas del documento"
+
+#: ../plugins/docinfo/docinfo.plugin.desktop.in.h:2
+msgid ""
+"Analyzes the current document and reports the number of words, lines, "
+"characters and non-space characters in it."
+msgstr ""
+"Analiza el documento actual e informa del número de palabras, líneas, "
+"caracteres y caracteres sin espacios que contiene."
+
+#: ../plugins/docinfo/docinfo.ui.h:2
+msgid "_Update"
+msgstr "_Actualizar"
+
+#: ../plugins/docinfo/docinfo.ui.h:3
+msgid "File Name"
+msgstr "Nombre del archivo"
+
+#: ../plugins/docinfo/docinfo.ui.h:4 ../plugins/time/xed-time-dialog.ui.h:4
+#: ../plugins/time/xed-time-setup-dialog.ui.h:3
+msgid "    "
+msgstr "    "
+
+#: ../plugins/docinfo/docinfo.ui.h:5
+msgid "Bytes"
+msgstr "Bytes"
+
+#: ../plugins/docinfo/docinfo.ui.h:6
+msgid "Characters (no spaces)"
+msgstr "Caracteres (sin espacios)"
+
+#: ../plugins/docinfo/docinfo.ui.h:7
+msgid "Characters (with spaces)"
+msgstr "Caracteres (con espacios)"
+
+#: ../plugins/docinfo/docinfo.ui.h:8
+msgid "Words"
+msgstr "Palabras"
+
+#: ../plugins/docinfo/docinfo.ui.h:9
+msgid "Lines"
+msgstr "Líneas"
+
+#: ../plugins/docinfo/docinfo.ui.h:10
+msgid "Document"
+msgstr "Documento"
+
+#: ../plugins/docinfo/xed-docinfo-plugin.c:379
+msgid "_Document Statistics"
+msgstr "_Estadísticas del documento"
+
+#: ../plugins/docinfo/xed-docinfo-plugin.c:381
+msgid "Get statistical information on the current document"
+msgstr "Obtener información estadística del documento actual"
+
+#: ../plugins/filebrowser/filebrowser.plugin.desktop.in.h:1
+msgid "File Browser Pane"
+msgstr "Panel del navegador de archivos"
+
+#: ../plugins/filebrowser/filebrowser.plugin.desktop.in.h:2
+msgid "Easy file access from the side pane"
+msgstr "Acceso fácil a los archivos desde el panel lateral"
+
+#: ../plugins/filebrowser/org.x.editor.plugins.filebrowser.gschema.xml.h:1
+msgid "Set Location to First Document"
+msgstr "Configuarar la ubicación para el primer documento"
+
+#: ../plugins/filebrowser/org.x.editor.plugins.filebrowser.gschema.xml.h:2
+msgid ""
+"If TRUE the file browser plugin will view the directory of the first opened "
+"document given that the file browser hasn't been used yet. (Thus this "
+"generally applies to opening a document from the command line or opening it "
+"with Caja, etc.)"
+msgstr ""
+"Si se activa, el complemento del navegador de archivos verá la carpeta del "
+"primer documento abierto, dado que aún no se ha usado el navegador de "
+"archivos. Esta opción se aplica generalmente al abrir un documento desde la "
+"línea de órdenes o con un gestor de archivos."
+
+#: ../plugins/filebrowser/org.x.editor.plugins.filebrowser.gschema.xml.h:3
+msgid "File Browser Filter Mode"
+msgstr "Modo de filtro del navegador de archivos"
+
+#: ../plugins/filebrowser/org.x.editor.plugins.filebrowser.gschema.xml.h:4
+msgid ""
+"This value determines what files get filtered from the file browser. Valid "
+"values are: none (filter nothing), hidden (filter hidden files), binary "
+"(filter binary files) and hidden_and_binary (filter both hidden and binary "
+"files)."
+msgstr ""
+"Este valor determina qué archivos se filtran en el navegador de archivos. "
+"Los valores válidos son: «none» (no filtrar), «hidden» (filtrar archivos "
+"ocultos), «binary» (filtrar archivos binarios) y «hidden_and_binay» (filtrar "
+"archivos ocultos y binarios)."
+
+#: ../plugins/filebrowser/org.x.editor.plugins.filebrowser.gschema.xml.h:5
+msgid "File Browser Filter Pattern"
+msgstr "Patrón de filtro del navegador de archivos"
+
+#: ../plugins/filebrowser/org.x.editor.plugins.filebrowser.gschema.xml.h:6
+msgid ""
+"The filter pattern to filter the file browser with. This filter works on top "
+"of the filter_mode."
+msgstr ""
+"El patrón de filtro del navegador de archivos. Este filtro funciona por "
+"encima de «filter_mode»."
+
+#: ../plugins/filebrowser/org.x.editor.plugins.filebrowser.gschema.xml.h:7
+msgid "Terminal Command"
+msgstr "Orden del terminal"
+
+#: ../plugins/filebrowser/org.x.editor.plugins.filebrowser.gschema.xml.h:8
+msgid "The terminal command when using the \"Open terminal here\" command."
+msgstr "La orden del terminal al usar la orden «Abrir un terminal aquí»."
+
+#: ../plugins/filebrowser/org.x.editor.plugins.filebrowser.gschema.xml.h:9
+msgid "Open With Tree View"
+msgstr "Abrir con la vista de árbol"
+
+#: ../plugins/filebrowser/org.x.editor.plugins.filebrowser.gschema.xml.h:10
+msgid ""
+"Open the tree view when the file browser plugin gets loaded instead of the "
+"bookmarks view"
+msgstr ""
+"Abrir la vista de árbol al cargar el complemento del navegador de archivos "
+"en vez de la vista de marcadores"
+
+#: ../plugins/filebrowser/org.x.editor.plugins.filebrowser.gschema.xml.h:11
+msgid "File Browser Root Directory"
+msgstr "Carpeta raíz del navegador de archivos"
+
+#: ../plugins/filebrowser/org.x.editor.plugins.filebrowser.gschema.xml.h:12
+msgid ""
+"The file browser root directory to use when loading the file browser plugin "
+"and onload/tree_view is TRUE."
+msgstr ""
+"Carpeta raíz del navegador de archivos que se usará al cargar el complemento "
+"del navegador de archivos cuando se activa la opción «onload/tree_view»."
+
+#: ../plugins/filebrowser/org.x.editor.plugins.filebrowser.gschema.xml.h:13
+msgid "File Browser Virtual Root Directory"
+msgstr "Carpeta raíz virtual del navegador de archivos"
+
+#: ../plugins/filebrowser/org.x.editor.plugins.filebrowser.gschema.xml.h:14
+msgid ""
+"The file browser virtual root directory to use when loading the file browser "
+"plugin when onload/tree_view is TRUE. The virtual root must always be below "
+"the actual root."
+msgstr ""
+"La carpeta virtual del navegador de archivos que se usará al cargar el "
+"complemento del navegador de archivos cuando se activa la opción "
+"«onload/tree_view». La carpeta virtual debe ser siempre la raíz actual."
+
+#: ../plugins/filebrowser/org.x.editor.plugins.filebrowser.gschema.xml.h:15
+msgid "Enable Restore of Remote Locations"
+msgstr "Activar la restauración de ubicaciones remotas"
+
+#: ../plugins/filebrowser/org.x.editor.plugins.filebrowser.gschema.xml.h:16
+msgid "Sets whether to enable restoring of remote locations."
+msgstr "Configura si se debe activar la restauración de ubicaciones remotas."
+
+#: ../plugins/filebrowser/xed-file-bookmarks-store.c:254
+msgid "File System"
+msgstr "Sistema de archivos"
+
+#: ../plugins/filebrowser/xed-file-browser-plugin.c:439
+msgid "_Set root to active document"
+msgstr "Carpeta _raíz del documento activo"
+
+#: ../plugins/filebrowser/xed-file-browser-plugin.c:441
+msgid "Set the root to the active document location"
+msgstr "Configura la raíz en la ubicación del documento activo"
+
+#: ../plugins/filebrowser/xed-file-browser-plugin.c:446
+msgid "_Open terminal here"
+msgstr "Abrir un _terminal aquí"
+
+#: ../plugins/filebrowser/xed-file-browser-plugin.c:448
+msgid "Open a terminal at the currently opened directory"
+msgstr "Abrir un terminal en la carpeta abierta actualmente"
+
+#: ../plugins/filebrowser/xed-file-browser-plugin.c:558
+msgid "File Browser"
+msgstr "Navegador de archivos"
+
+#: ../plugins/filebrowser/xed-file-browser-plugin.c:667
+msgid "An error occurred while creating a new directory"
+msgstr "Se ha producido un error al crear una carpeta nueva"
+
+#: ../plugins/filebrowser/xed-file-browser-plugin.c:670
+msgid "An error occurred while creating a new file"
+msgstr "Se ha producido un error al crear un archivo nuevo"
+
+#: ../plugins/filebrowser/xed-file-browser-plugin.c:673
+msgid "An error occurred while renaming a file or directory"
+msgstr "Se ha producido un error al renombrar un archivo o una carpeta"
+
+#: ../plugins/filebrowser/xed-file-browser-plugin.c:676
+msgid "An error occurred while deleting a file or directory"
+msgstr "Se ha producido un error al eliminar un archivo o una carpeta"
+
+#: ../plugins/filebrowser/xed-file-browser-plugin.c:679
+msgid "An error occurred while opening a directory in the file manager"
+msgstr ""
+"Se ha producido un error al abrir una carpeta en el gestor de archivos"
+
+#: ../plugins/filebrowser/xed-file-browser-plugin.c:682
+msgid "An error occurred while setting a root directory"
+msgstr "Se ha producido un error al configurar la carpeta raíz"
+
+#: ../plugins/filebrowser/xed-file-browser-plugin.c:685
+msgid "An error occurred while loading a directory"
+msgstr "Se ha producido un error al cargar una carpeta"
+
+#: ../plugins/filebrowser/xed-file-browser-plugin.c:688
+msgid "An error occurred"
+msgstr "Se ha producido un error"
+
+#: ../plugins/filebrowser/xed-file-browser-plugin.c:945
+msgid ""
+"Cannot move file to trash, do you\n"
+"want to delete permanently?"
+msgstr ""
+"No se puede mover el archivo a\n"
+"la papelera. ¿Quiere eliminarlo\n"
+"permanentemente?"
+
+#: ../plugins/filebrowser/xed-file-browser-plugin.c:950
+#, c-format
+msgid "The file \"%s\" cannot be moved to the trash."
+msgstr "El archivo %s no se puede mover a la papelera."
+
+#: ../plugins/filebrowser/xed-file-browser-plugin.c:955
+msgid "The selected files cannot be moved to the trash."
+msgstr "Los archivos seleccionados no se pueden mover a la papelera."
+
+#: ../plugins/filebrowser/xed-file-browser-plugin.c:983
+#, c-format
+msgid "Are you sure you want to permanently delete \"%s\"?"
+msgstr "¿Seguro que quiere eliminar permanentemente «%s»?"
+
+#: ../plugins/filebrowser/xed-file-browser-plugin.c:988
+msgid "Are you sure you want to permanently delete the selected files?"
+msgstr ""
+"¿Seguro que quiere eliminar permanentemente los archivos seleccionados?"
+
+#: ../plugins/filebrowser/xed-file-browser-plugin.c:991
+msgid "If you delete an item, it is permanently lost."
+msgstr "Si elimina un elemento, se perderá permanentemente."
+
+#: ../plugins/filebrowser/xed-file-browser-store.c:1810
+msgid "(Empty)"
+msgstr "(Vacío)"
+
+#: ../plugins/filebrowser/xed-file-browser-store.c:3500
+msgid ""
+"The renamed file is currently filtered out. You need to adjust your filter "
+"settings to make the file visible"
+msgstr ""
+"Se ha filtrado el archivo renombrado. Debe configurar el filtro para hacerlo "
+"visible"
+
+#. Translators: This is the default name of new files created by the file browser pane.
+#: ../plugins/filebrowser/xed-file-browser-store.c:3766
+msgid "Untitled File"
+msgstr "Archivo sin nombre"
+
+#: ../plugins/filebrowser/xed-file-browser-store.c:3794
+msgid ""
+"The new file is currently filtered out. You need to adjust your filter "
+"settings to make the file visible"
+msgstr ""
+"Se ha filtrado el archivo nuevo. Debe configurar el filtro para hacerlo "
+"visible"
+
+#. Translators: This is the default name of new directories created by the file browser pane.
+#: ../plugins/filebrowser/xed-file-browser-store.c:3821
+msgid "Untitled Folder"
+msgstr "Carpeta sin nombre"
+
+#: ../plugins/filebrowser/xed-file-browser-store.c:3846
+msgid ""
+"The new directory is currently filtered out. You need to adjust your filter "
+"settings to make the directory visible"
+msgstr ""
+"Se ha filtrado la carpeta nueva. Debe configurar el filtro para hacerla "
+"visible"
+
+#: ../plugins/filebrowser/xed-file-browser-widget.c:714
+msgid "Bookmarks"
+msgstr "Marcadores"
+
+#: ../plugins/filebrowser/xed-file-browser-widget.c:751
+msgid "_Filter"
+msgstr "_Filtro"
+
+#: ../plugins/filebrowser/xed-file-browser-widget.c:756
+msgid "_Move to Trash"
+msgstr "_Mover a la papelera"
+
+#: ../plugins/filebrowser/xed-file-browser-widget.c:757
+msgid "Move selected file or folder to trash"
+msgstr "Mover la carpeta o el archivo seleccionado a la papelera"
+
+#: ../plugins/filebrowser/xed-file-browser-widget.c:759
+msgid "Delete selected file or folder"
+msgstr "Eliminar la carpeta o el archivo seleccionado"
+
+#: ../plugins/filebrowser/xed-file-browser-widget.c:765
+msgid "Open selected file"
+msgstr "Abrir el archivo seleccionado"
+
+#: ../plugins/filebrowser/xed-file-browser-widget.c:770
+msgid "Up"
+msgstr "Subir"
+
+#: ../plugins/filebrowser/xed-file-browser-widget.c:771
+msgid "Open the parent folder"
+msgstr "Abrir la carpeta contenedora"
+
+#: ../plugins/filebrowser/xed-file-browser-widget.c:776
+msgid "_New Folder"
+msgstr "_Carpeta nueva"
+
+#: ../plugins/filebrowser/xed-file-browser-widget.c:777
+msgid "Add new empty folder"
+msgstr "Añade una carpeta nueva vacía"
+
+#: ../plugins/filebrowser/xed-file-browser-widget.c:778
+msgid "New F_ile"
+msgstr "Archivo n_uevo"
+
+#: ../plugins/filebrowser/xed-file-browser-widget.c:779
+msgid "Add new empty file"
+msgstr "Añadir un archivo nuevo vacío"
+
+#: ../plugins/filebrowser/xed-file-browser-widget.c:784
+msgid "_Rename..."
+msgstr "Re_nombrar..."
+
+#: ../plugins/filebrowser/xed-file-browser-widget.c:785
+msgid "Rename selected file or folder"
+msgstr "Renombrar la carpeta o el archivo seleccionado"
+
+#: ../plugins/filebrowser/xed-file-browser-widget.c:790
+msgid "_Previous Location"
+msgstr "Ubicación _anterior"
+
+#: ../plugins/filebrowser/xed-file-browser-widget.c:791
+msgid "Go to the previous visited location"
+msgstr "Ir a la anterior ubicación visitada"
+
+#: ../plugins/filebrowser/xed-file-browser-widget.c:792
+msgid "_Next Location"
+msgstr "Ubicación _siguiente"
+
+#: ../plugins/filebrowser/xed-file-browser-widget.c:793
+msgid "Go to the next visited location"
+msgstr "Ir a la siguiente ubicación visitada"
+
+#: ../plugins/filebrowser/xed-file-browser-widget.c:794
+msgid "Re_fresh View"
+msgstr "Recargar la _vista"
+
+#: ../plugins/filebrowser/xed-file-browser-widget.c:795
+msgid "Refresh the view"
+msgstr "Recargar la vista"
+
+#: ../plugins/filebrowser/xed-file-browser-widget.c:796
+#: ../plugins/filebrowser/xed-file-browser-widget.c:810
+msgid "_View Folder"
+msgstr "E_xaminar la carpeta"
+
+#: ../plugins/filebrowser/xed-file-browser-widget.c:797
+#: ../plugins/filebrowser/xed-file-browser-widget.c:811
+msgid "View folder in file manager"
+msgstr "Mostrar la carpeta en el gestor de archivos"
+
+#: ../plugins/filebrowser/xed-file-browser-widget.c:802
+msgid "Show _Hidden"
+msgstr "Mostrar archivos _ocultos"
+
+#: ../plugins/filebrowser/xed-file-browser-widget.c:803
+msgid "Show hidden files and folders"
+msgstr "Mostrar archivos y carpetas ocultos"
+
+#: ../plugins/filebrowser/xed-file-browser-widget.c:804
+msgid "Show _Binary"
+msgstr "Mostrar archivos _binarios"
+
+#: ../plugins/filebrowser/xed-file-browser-widget.c:805
+msgid "Show binary files"
+msgstr "Mostrar archivos binarios"
+
+#: ../plugins/filebrowser/xed-file-browser-widget.c:1148
+msgid "_Match Filename"
+msgstr "_Patrón de nombre de archivo"
+
+#: ../plugins/filebrowser/xed-file-browser-widget.c:2012
+#, c-format
+msgid "No mount object for mounted volume: %s"
+msgstr "No hay ningún objeto montado en el volumen montado: %s"
+
+#: ../plugins/filebrowser/xed-file-browser-widget.c:2090
+#, c-format
+msgid "Could not open media: %s"
+msgstr "No se ha podido abrir el soporte: %s"
+
+#: ../plugins/filebrowser/xed-file-browser-widget.c:2139
+#, c-format
+msgid "Could not mount volume: %s"
+msgstr "No se ha podido abrir el volumen: %s"
+
+#: ../plugins/joinlines/joinlines.plugin.desktop.in.h:2
+msgid "Join several lines"
+msgstr "Unir varias líneas"
+
+#: ../plugins/joinlines/joinlines/__init__.py:26
+msgid "_Join Lines"
+msgstr "_Unir líneas"
+
+#: ../plugins/joinlines/joinlines/__init__.py:27
+msgid "Join the selected lines"
+msgstr "Unir las líneas seleccionadas"
+
+#. vi:ts=8
+#: ../plugins/modelines/modelines.plugin.desktop.in.h:1
+msgid "Modelines"
+msgstr "Líneas de modo"
+
+#: ../plugins/modelines/modelines.plugin.desktop.in.h:2
+msgid "Emacs, Kate and Vim-style modelines support for xed."
+msgstr ""
+"Compatibilidad con líneas de modo al estilo de Emacs, Kate y Vim para Xed."
+
+#: ../plugins/sort/sort.plugin.desktop.in.h:1
+msgid "Sort"
+msgstr "Ordenar"
+
+#: ../plugins/sort/sort.plugin.desktop.in.h:2
+msgid "Sorts a document or selected text."
+msgstr "Ordena un documento o el texto seleccionado."
+
+#: ../plugins/sort/xed-sort-plugin.c:75
+msgid "S_ort lines"
+msgstr "_Ordenar líneas"
+
+#: ../plugins/sort/xed-sort-plugin.c:77
+msgid "Sort the current document or selection"
+msgstr "Ordenar el documento actual o la selección"
+
+#: ../plugins/spell/org.x.editor.plugins.spell.gschema.xml.in.h:1
+msgid "Autocheck Type"
+msgstr "Tipo de comprobación automática"
+
+#: ../plugins/spell/spell.plugin.desktop.in.h:1
+msgid "Spell Checker"
+msgstr "Corrector ortográfico"
+
+#: ../plugins/spell/spell.plugin.desktop.in.h:2
+msgid "Checks the spelling of the current document."
+msgstr "Comprueba la ortografía del documento actual."
+
+#: ../plugins/spell/xed-spell-plugin.c:86
+msgid "_Check Spelling..."
+msgstr "Comprobar la _ortografía…"
+
+#: ../plugins/spell/xed-spell-plugin.c:88
+msgid "Check the current document for incorrect spelling"
+msgstr "Comprobar si el documento actual tiene errores de ortografía"
+
+#: ../plugins/spell/xed-spell-plugin.c:94
+msgid "Set _Language..."
+msgstr "_Configurar el idioma…"
+
+#: ../plugins/spell/xed-spell-plugin.c:96
+msgid "Set the language of the current document"
+msgstr "Configurar el idioma del documento actual"
+
+#: ../plugins/spell/xed-spell-plugin.c:105
+msgid "_Autocheck Spelling"
+msgstr "Comprobar la ortografía _automáticamente"
+
+#: ../plugins/spell/xed-spell-plugin.c:107
+msgid "Automatically spell-check the current document"
+msgstr "Comprobar automáticamente la ortografía del documento actual"
+
+#: ../plugins/spell/xed-spell-setup-dialog.ui.h:1
+msgid "button"
+msgstr "botón"
+
+#: ../plugins/spell/xed-spell-setup-dialog.ui.h:2
+msgid "Autocheck settings"
+msgstr "Configuración de la comprobación automática"
+
+#: ../plugins/spell/xed-spell-setup-dialog.ui.h:3
+msgid "Never"
+msgstr "Nunca"
+
+#: ../plugins/spell/xed-spell-setup-dialog.ui.h:4
+msgid "Never autocheck spelling on document load"
+msgstr "No comprobar la ortografía al cargar un documento"
+
+#: ../plugins/spell/xed-spell-setup-dialog.ui.h:5
+msgid "Remember by document"
+msgstr "Recordar para cada documento"
+
+#: ../plugins/spell/xed-spell-setup-dialog.ui.h:6
+msgid "Remembers the setting for each  document on load"
+msgstr "Recordar la configuración para cada documento cargado"
+
+#: ../plugins/spell/xed-spell-setup-dialog.ui.h:7
+msgid "Always"
+msgstr "Siempre"
+
+#: ../plugins/spell/xed-spell-setup-dialog.ui.h:8
+msgid "Always autocheck on document load"
+msgstr "Comprobar la ortografía al cargar un documento"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:1
+msgid "XHTML 1.0 - Tags"
+msgstr "XHTML 1.0: etiquetas"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:2
+msgid "Abbreviated form"
+msgstr "Forma abreviada"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:3
+msgid "Abbreviation"
+msgstr "Abreviatura"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:4
+msgid "Accessibility key character"
+msgstr "Carácter de la tecla de accesibilidad"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:5
+msgid "Acronym"
+msgstr "Acrónimo"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:6
+msgid "Align"
+msgstr "Alinear"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:7
+msgid "Alignment character"
+msgstr "Carácter de alineamiento"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:8
+msgid "Alternative"
+msgstr "Alternativa"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:9
+msgid "Anchor URI"
+msgstr "URI del anclaje"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:10
+msgid "Anchor"
+msgstr "Anclaje"
+
+#. Deprecated since HTML 4.01, not supported in XHTML 1.0 Strict DTD.
+#: ../plugins/taglist/HTML.tags.xml.in.h:12
+msgid "Applet class file code (deprecated)"
+msgstr "Código de la clase de miniaplicación (obsoleta)"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:13
+msgid "Associated information"
+msgstr "Información asociada"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:14
+msgid "Author info"
+msgstr "Información del autor"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:15
+msgid "Axis related headers"
+msgstr "Cabeceras relacionadas con el eje"
+
+#. Deprecated since HTML 4.01, not supported in XHTML 1.0 Strict DTD.
+#: ../plugins/taglist/HTML.tags.xml.in.h:17
+msgid "Background color (deprecated)"
+msgstr "Color de fondo (obsoleta)"
+
+#. Deprecated since HTML 4.01, not supported in XHTML 1.0 Strict DTD.
+#: ../plugins/taglist/HTML.tags.xml.in.h:19
+msgid "Background texture tile (deprecated)"
+msgstr "Textura del mosaico de fondo (obsoleta)"
+
+#. Deprecated since HTML 4.01, not supported in XHTML 1.0 Strict DTD.
+#: ../plugins/taglist/HTML.tags.xml.in.h:21
+msgid "Base font (deprecated)"
+msgstr "Tipografía base (obsoleta)"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:22
+msgid "Base URI"
+msgstr "URI base"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:23
+msgid "Bold"
+msgstr "Negrita"
+
+#. Deprecated since HTML 4.01, not supported in XHTML 1.0 Strict DTD.
+#: ../plugins/taglist/HTML.tags.xml.in.h:25
+msgid "Border (deprecated)"
+msgstr "Borde (obsoleta)"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:26
+msgid "Cell rowspan"
+msgstr "Expansión en columnas de la celda"
+
+#. Deprecated since HTML 4.01, not supported in XHTML 1.0 Strict DTD.
+#: ../plugins/taglist/HTML.tags.xml.in.h:28
+msgid "Center (deprecated)"
+msgstr "Centrar (obsoleta)"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:29
+msgid "Character encoding of linked resource"
+msgstr "Codificación de caracteres del recurso enlazado"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:30
+msgid "Checked state"
+msgstr "Estado marcado"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:31
+msgid "Citation"
+msgstr "Cita"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:32
+msgid "Cite reason for change"
+msgstr "Citar la razón del cambio"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:33
+msgid "Class implementation ID"
+msgstr "ID de implementación de clase"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:34
+msgid "Class list"
+msgstr "Lista de clases"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:35
+msgid "Clear text flow control"
+msgstr "Borrar el control de flujo del texto"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:36
+msgid "Code content type"
+msgstr "Tipo de contenido del código"
+
+#. Deprecated since HTML 4.01, not supported in XHTML 1.0 Strict DTD.
+#: ../plugins/taglist/HTML.tags.xml.in.h:38
+msgid "Color of selected links (deprecated)"
+msgstr "Color de los enlaces seleccionados (obsoleta)"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:39
+msgid "Column span"
+msgstr "Expansión en columnas"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:40
+msgid "Columns"
+msgstr "Columnas"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:42
+msgid "Computer code fragment"
+msgstr "Fragmento de código fuente"
+
+#. The "type" attribute is deprecated for the "ol" tag only,
+#. since HTML 4.01, not supported in XHTML 1.0 Strict DTD.
+#: ../plugins/taglist/HTML.tags.xml.in.h:45
+msgid "Content type (deprecated)"
+msgstr "Tipo de contenido (obsoleta)"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:46
+msgid "Coordinates"
+msgstr "Coordenadas"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:47
+msgid "Date and time of change"
+msgstr "Fecha y hora de cambio"
+
+#. NOTE: used in "object" tag
+#: ../plugins/taglist/HTML.tags.xml.in.h:49
+msgid "Declare flag"
+msgstr "Marca de declaración"
+
+#. Translators: DEFER is an optional attribute of the <script> tag.
+#. It indicates that the script is not going to generate any document
+#. content. The browser can continue parsing and drawing the page.
+#: ../plugins/taglist/HTML.tags.xml.in.h:53
+msgid "Defer attribute"
+msgstr "Atributo de aplazamiento"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:54
+msgid "Definition description"
+msgstr "Descripción de la definición"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:55
+msgid "Definition list"
+msgstr "Lista de definición"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:56
+msgid "Definition term"
+msgstr "Término de definición"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:57
+msgid "Deleted text"
+msgstr "Texto eliminado"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:58
+msgid "Directionality"
+msgstr "Direccionalidad"
+
+#. Deprecated since HTML 4.01, not supported in XHTML 1.0 Strict DTD.
+#: ../plugins/taglist/HTML.tags.xml.in.h:60
+msgid "Directionality (deprecated)"
+msgstr "Direccionalidad (obsoleta)"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:61
+msgid "Disabled"
+msgstr "Desactivado"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:62
+msgid "DIV container"
+msgstr "Contenedor DIV"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:63
+msgid "DIV Style container"
+msgstr "Contenedor de estilo DIV"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:64
+msgid "Document base"
+msgstr "Base del documento"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:65
+msgid "Document body"
+msgstr "Cuerpo del documento"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:66
+msgid "Document head"
+msgstr "Cabecera del documento"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:67
+msgid "Element ID"
+msgstr "ID del elemento"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:68
+msgid "Document title"
+msgstr "Título del documento"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:69
+msgid "Document type"
+msgstr "Tipo del documento"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:70
+#: ../plugins/taglist/Latex.tags.xml.in.h:72
+msgid "Emphasis"
+msgstr "Énfasis"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:71
+msgid "Encode type"
+msgstr "Tipo de codificación"
+
+#. Deprecated since HTML 4.01, not supported in XHTML 1.0 Strict DTD.
+#: ../plugins/taglist/HTML.tags.xml.in.h:73
+msgid "Font face (deprecated)"
+msgstr "Tipografía (obsoleta)"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:74
+msgid "For label"
+msgstr "Etiqueta para"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:75
+msgid "Forced line break"
+msgstr "Salto de línea forzado"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:76
+msgid "Form action handler"
+msgstr "Manipulador de acción del formulario"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:77
+msgid "Form control group"
+msgstr "Grupo de control del formulario"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:78
+msgid "Form field label text"
+msgstr "Texto de la etiqueta del campo del formulario"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:79
+msgid "Form input type"
+msgstr "Tipo de entrada del formulario"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:80
+msgid "Form input"
+msgstr "Entrada del formulario"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:81
+msgid "Form method"
+msgstr "Método del formulario"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:82
+msgid "Form"
+msgstr "Formulario"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:83
+msgid "Forward link"
+msgstr "Enlace de reenvío"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:84
+msgid "Frame render parts"
+msgstr "Partes de la representación del marco"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:85
+msgid "Frame source"
+msgstr "Fuente del marco"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:86
+msgid "Frame target"
+msgstr "Destino del marco"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:87
+msgid "Frame"
+msgstr "Marco"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:88
+msgid "Frame border"
+msgstr "Borde del marco"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:89
+msgid "Frameset columns"
+msgstr "Columnas del conjunto de marcos"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:90
+msgid "Frameset rows"
+msgstr "Filas del conjunto de marcos"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:91
+msgid "Frameset"
+msgstr "Conjunto de marcos"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:92
+msgid "Frame spacing"
+msgstr "Espaciado de los marcos"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:93
+msgid "Generic embedded object"
+msgstr "Objeto incrustado genérico"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:94
+msgid "Generic metainformation"
+msgstr "Metainformación genérica"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:95
+msgid "Generic span"
+msgstr "Expansión genérica"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:96
+msgid "Header cell IDs"
+msgstr "ID de las celdas de cabecera"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:97
+msgid "Heading 1"
+msgstr "Cabecera 1"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:98
+msgid "Heading 2"
+msgstr "Cabecera 2"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:99
+msgid "Heading 3"
+msgstr "Cabecera 3"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:100
+msgid "Heading 4"
+msgstr "Cabecera 4"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:101
+msgid "Heading 5"
+msgstr "Cabecera 5"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:102
+msgid "Heading 6"
+msgstr "Cabecera 6"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:103
+msgid "Height"
+msgstr "Altura"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:104
+msgid "Horizontal rule"
+msgstr "Regla horizontal"
+
+#. Deprecated since HTML 4.01, not supported in XHTML 1.0 Strict DTD.
+#: ../plugins/taglist/HTML.tags.xml.in.h:106
+msgid "Horizontal space (deprecated)"
+msgstr "Espacio horizontal (obsoleta)"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:107
+msgid "HREF URI"
+msgstr "URI HREF"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:108
+msgid "HTML root element"
+msgstr "Elemento raíz HTML"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:109
+msgid "HTTP header name"
+msgstr "Nombre de cabecera HTTP"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:110
+msgid "I18N BiDi override"
+msgstr "Anulación de BiDi i18n"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:111
+msgid "Image map area"
+msgstr "Área del mapa de imágenes"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:112
+msgid "Image map name"
+msgstr "Nombre del mapa de imágenes"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:113
+msgid "Image map"
+msgstr "Mapa de imágenes"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:114
+msgid "Image"
+msgstr "Imagen"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:115
+msgid "Inline frame"
+msgstr "Marco en línea"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:116
+msgid "Inserted text"
+msgstr "Texto insertado"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:117
+msgid "Instance definition"
+msgstr "Definición de la instancia"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:118
+msgid "Italic text"
+msgstr "Texto en cursiva"
+
+#. Deprecated since HTML 4.01, not supported in XHTML 1.0 Strict DTD.
+#: ../plugins/taglist/HTML.tags.xml.in.h:120
+msgid "Java applet (deprecated)"
+msgstr "Miniaplicación Java (obsoleta)"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:121
+msgid "Label"
+msgstr "Etiqueta"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:122
+msgid "Language code"
+msgstr "Código del idioma"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:123
+msgid "Large text style"
+msgstr "Estilo de texto grande"
+
+#. Deprecated since HTML 4.01, not supported in XHTML 1.0 Strict DTD.
+#: ../plugins/taglist/HTML.tags.xml.in.h:125
+msgid "Link color (deprecated)"
+msgstr "Color del enlace (obsoleta)"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:126
+msgid "List item"
+msgstr "Elemento de lista"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:127
+msgid "List of MIME types for file upload"
+msgstr "Lista de tipos MIME para la subida del archivo"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:128
+msgid "List of supported character sets"
+msgstr "Lista de los  juegos de caracteres compatibles"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:129
+msgid "Local change to font"
+msgstr "Cambio local para la tipografía"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:130
+msgid "Long description link"
+msgstr "Descripción larga del enlace"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:131
+msgid "Long quotation"
+msgstr "Cita larga"
+
+#. Supported in XHTML 1.0 Frameset DTD only.
+#: ../plugins/taglist/HTML.tags.xml.in.h:133
+msgid "Margin pixel height"
+msgstr "Altura en píxeles del margen"
+
+#. Supported in XHTML 1.0 Frameset DTD only.
+#: ../plugins/taglist/HTML.tags.xml.in.h:135
+msgid "Margin pixel width"
+msgstr "Anchura en píxeles del margen"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:136
+msgid "Maximum length of text field"
+msgstr "Longitud máxima del campo de texto"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:137
+msgid "Output media"
+msgstr "Soporte de salida"
+
+#. Here I take some liberties: There's no mandatory attributes,
+#. but those are most common, and will likely be used.
+#: ../plugins/taglist/HTML.tags.xml.in.h:140
+msgid "Media-independent link"
+msgstr "Enlace independiente del soporte"
+
+#. Deprecated since HTML 4.01, not supported in XHTML 1.0 Strict DTD.
+#: ../plugins/taglist/HTML.tags.xml.in.h:142
+msgid "Menu list (deprecated)"
+msgstr "Lista del menú (obsoleta)"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:143
+msgid "Multi-line text field"
+msgstr "Campo de texto multilínea"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:144
+msgid "Multiple"
+msgstr "Múltiple"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:145
+msgid "Name"
+msgstr "Nombre"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:146
+msgid "Named property value"
+msgstr "Valor de la propiedad con nombre"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:147
+msgid "No frames"
+msgstr "Sin marcos"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:148
+msgid "No resize"
+msgstr "Sin redimensión"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:149
+msgid "No script"
+msgstr "Sin script"
+
+#. Deprecated since HTML 4.01, not supported in XHTML 1.0 Strict DTD.
+#: ../plugins/taglist/HTML.tags.xml.in.h:151
+msgid "No shade (deprecated)"
+msgstr "Sin sombra (obsoleta)"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:152
+msgid "No URI"
+msgstr "Sin URI"
+
+#. Deprecated since HTML 4.01, not supported in XHTML 1.0 Strict DTD.
+#: ../plugins/taglist/HTML.tags.xml.in.h:154
+msgid "No word wrap (deprecated)"
+msgstr "Sin ajuste de línea (obsoleta)"
+
+#. Deprecated since HTML 4.01, not supported in XHTML 1.0 Strict DTD.
+#: ../plugins/taglist/HTML.tags.xml.in.h:156
+msgid "Object applet file (deprecated)"
+msgstr "Archivo objeto de la miniaplicación (obsoleta)"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:157
+msgid "Object data reference"
+msgstr "Referencia de datos del objeto"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:158
+msgid "Offset for alignment character"
+msgstr "Desplazamiento para el carácter de alineamiento"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:159
+msgid "OnBlur event"
+msgstr "Evento OnBlur"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:160
+msgid "OnChange event"
+msgstr "Evento OnChange"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:161
+msgid "OnClick event"
+msgstr "Evento OnClick"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:162
+msgid "OnDblClick event"
+msgstr "Evento OnDblClick"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:163
+msgid "OnFocus event"
+msgstr "Evento OnFocus"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:164
+msgid "OnKeyDown event"
+msgstr "Evento OnKeyDown"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:165
+msgid "OnKeyPress event"
+msgstr "Evento OnKeyPress"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:166
+msgid "OnKeyUp event"
+msgstr "Evento OnKeyUp"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:167
+msgid "OnLoad event"
+msgstr "Evento OnLoad"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:168
+msgid "OnMouseDown event"
+msgstr "Evento OnMouseDown"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:169
+msgid "OnMouseMove event"
+msgstr "Evento OnMouseMove"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:170
+msgid "OnMouseOut event"
+msgstr "Evento OnMouseOut"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:171
+msgid "OnMouseOver event"
+msgstr "Evento OnMouseOver"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:172
+msgid "OnMouseUp event"
+msgstr "Evento OnMouseUp"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:173
+msgid "OnReset event"
+msgstr "Evento OnReset"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:174
+msgid "OnSelect event"
+msgstr "Evento OnSelect"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:175
+msgid "OnSubmit event"
+msgstr "Evento OnSubmit"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:176
+msgid "OnUnload event"
+msgstr "Evento OnUnload"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:177
+msgid "Option group"
+msgstr "Grupo de opciones"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:178
+msgid "Option selector"
+msgstr "Selector de opciones"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:179
+msgid "Ordered list"
+msgstr "Lista ordenada"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:180
+msgid "Paragraph class"
+msgstr "Clase de párrafo"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:181
+msgid "Paragraph style"
+msgstr "Estilo de párrafo"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:182
+msgid "Paragraph"
+msgstr "Párrafo"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:183
+msgid "Preformatted text"
+msgstr "Texto preformateado"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:184
+msgid "Profile metainfo dictionary"
+msgstr "Diccionario de metainformación del perfil"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:185
+msgid "Push button"
+msgstr "Botón pulsable"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:186
+msgid "ReadOnly text and password"
+msgstr "Texto y contraseña de solo lectura"
+
+#. Deprecated since HTML 4.01, not supported in XHTML 1.0 Strict DTD.
+#: ../plugins/taglist/HTML.tags.xml.in.h:188
+msgid "Reduced spacing (deprecated)"
+msgstr "Espaciado reducido (obsoleta)"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:189
+msgid "Reverse link"
+msgstr "Enlace inverso"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:190
+msgid "Rows"
+msgstr "Filas"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:191
+msgid "Rulings between rows and columns"
+msgstr "Reglas entre filas y columnas"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:192
+msgid "Sample program output, scripts"
+msgstr "Salida de programas de ejemplo, scripts"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:193
+msgid "Scope covered by header cells"
+msgstr "Ámbito abarcado por las celdas de cabecera"
+
+#. Deprecated since HTML 4.01, not supported in XHTML 1.0 Strict DTD.
+#: ../plugins/taglist/HTML.tags.xml.in.h:195
+msgid "Script language name"
+msgstr "Nombre del lenguaje de script"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:196
+msgid "Script statements"
+msgstr "Sentencias de script"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:197
+msgid "Scrollbar"
+msgstr "Barra de desplazamiento"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:198
+msgid "Selectable option"
+msgstr "Opción seleccionable"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:199
+msgid "Selected"
+msgstr "Seleccionado"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:200
+msgid "Server-side image map"
+msgstr "Mapa de imágenes en el lado del servidor"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:201
+msgid "Shape"
+msgstr "Forma"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:202
+msgid "Short inline quotation"
+msgstr "Cita corta en línea"
+
+#. Deprecated since HTML 4.01, not supported in XHTML 1.0 Strict DTD.
+#: ../plugins/taglist/HTML.tags.xml.in.h:204
+msgid "Size (deprecated)"
+msgstr "Tamaño (obsoleta)"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:205
+msgid "Small text style"
+msgstr "Estilo de texto pequeño"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:206
+msgid "Source"
+msgstr "Fuente"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:207
+msgid "Space-separated archive list"
+msgstr "Lista de archivos separados por espacios"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:208
+msgid "Spacing between cells"
+msgstr "Espaciado entre celdas"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:209
+msgid "Spacing within cells"
+msgstr "Espaciado dentro de las celdas"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:210
+msgid "Span"
+msgstr "Expansión"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:211
+msgid "Standby load message"
+msgstr "Mensaje de espera durante la carga"
+
+#. Deprecated since HTML 4.01, not supported in XHTML 1.0 Strict DTD.
+#: ../plugins/taglist/HTML.tags.xml.in.h:213
+msgid "Starting sequence number (deprecated)"
+msgstr "Número de la secuencia de inicio (obsoleta)"
+
+#. Deprecated since HTML 4.01, not supported in XHTML 1.0 Strict DTD.
+#: ../plugins/taglist/HTML.tags.xml.in.h:215
+msgid "Strike-through text style (deprecated)"
+msgstr "Estilo de texto tachado (obsoleta)"
+
+#. Deprecated since HTML 4.01, not supported in XHTML 1.0 Strict DTD.
+#: ../plugins/taglist/HTML.tags.xml.in.h:217
+msgid "Strike-through text (deprecated)"
+msgstr "Estilo de texto tachado (obsoleta)"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:218
+msgid "Strong emphasis"
+msgstr "Énfasis fuerte"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:219
+msgid "Style info"
+msgstr "Información de estilo"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:220
+msgid "Subscript"
+msgstr "Subíndice"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:221
+msgid "Superscript"
+msgstr "Superíndice"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:222
+msgid "Table body"
+msgstr "Cuerpo de la tabla"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:223
+msgid "Table caption"
+msgstr "Descripción de la tabla"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:224
+msgid "Table column group properties"
+msgstr "Propiedades del grupo de columnas de la tabla"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:225
+msgid "Table column properties"
+msgstr "Propiedades de las columnas de la tabla"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:226
+msgid "Table data cell"
+msgstr "Celda de datos de la tabla"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:227
+msgid "Table footer"
+msgstr "Pie de la tabla"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:228
+msgid "Table header cell"
+msgstr "Celda de cabecera de la tabla"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:229
+msgid "Table header"
+msgstr "Cabecera de la tabla"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:230
+msgid "Table row"
+msgstr "Fila de tabla"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:231
+msgid "Table summary"
+msgstr "Resumen de la tabla"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:232
+msgid "Table"
+msgstr "Tabla"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:233
+msgid "Target - Blank"
+msgstr "Destino: nuevo"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:234
+msgid "Target - Parent"
+msgstr "Destino: principal"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:235
+msgid "Target - Self"
+msgstr "Destino: actual"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:236
+msgid "Target - Top"
+msgstr "Destino: superior"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:237
+msgid "Teletype or monospace text style"
+msgstr "Estilo de texto monoespaciado o teletipo"
+
+#. Deprecated since HTML 4.01, not supported in XHTML 1.0 Strict DTD.
+#: ../plugins/taglist/HTML.tags.xml.in.h:239
+msgid "Text color (deprecated)"
+msgstr "Color del texto (obsoleta)"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:240
+msgid "Text entered by user"
+msgstr "Texto introducido por el usuario"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:241
+msgid "Title"
+msgstr "Título"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:242
+msgid "Underlined text style"
+msgstr "Estilo de texto subrayado"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:243
+msgid "Unordered list"
+msgstr "Lista desordenada"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:244
+msgid "Use image map"
+msgstr "Usar un mapa de la imagen"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:245
+msgid "Value interpretation"
+msgstr "Interpretación del valor"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:246
+msgid "Value"
+msgstr "Valor"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:247
+msgid "Variable or program argument"
+msgstr "Variable o argumento de un programa"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:248
+msgid "Vertical cell alignment"
+msgstr "Alineamiento vertical de la celda"
+
+#. Deprecated since HTML 4.01, not supported in XHTML 1.0 Strict DTD.
+#: ../plugins/taglist/HTML.tags.xml.in.h:250
+msgid "Vertical space (deprecated)"
+msgstr "Espacio vertical (obsoleta)"
+
+#. Deprecated since HTML 4.01, not supported in XHTML 1.0 Strict DTD.
+#: ../plugins/taglist/HTML.tags.xml.in.h:252
+msgid "Visited link color (deprecated)"
+msgstr "Color del enlace visitado (obsoleta)"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:253
+msgid "Width"
+msgstr "Ancho"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:254
+msgid "HTML - Tags"
+msgstr "HTML: etiquetas"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:255
+msgid "Above"
+msgstr "Encima"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:256
+msgid "Applet class file code"
+msgstr "Código fuente de la clase de la miniaplicación"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:257
+msgid "Array"
+msgstr "Matriz"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:258
+msgid "Background color"
+msgstr "Color de fondo"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:259
+msgid "Background texture tile"
+msgstr "Mosaico de la textura del fondo"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:260
+msgid "Base font"
+msgstr "Tipografía base"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:261
+msgid "Border color"
+msgstr "Color del borde"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:262
+msgid "Border"
+msgstr "Borde"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:263
+msgid "Center"
+msgstr "Centrar"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:264
+msgid "Checked (state)"
+msgstr "Marcado (estado)"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:265
+msgid "Color of selected links"
+msgstr "Color de los enlaces seleccionados"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:266
+msgid "Content scheme"
+msgstr "Esquema del contenido"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:267
+msgid "Content type"
+msgstr "Tipo de contenido"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:268
+msgid "Direction"
+msgstr "Dirección"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:269
+msgid "Directory list"
+msgstr "Lista de carpetas"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:270
+msgid "HTML version"
+msgstr "Versión HTML"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:271
+msgid "Embedded object"
+msgstr "Objeto incrustado"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:272
+msgid "Figure"
+msgstr "Figura"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:273
+msgid "Font face"
+msgstr "Tipografía"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:274
+msgid "Frameborder"
+msgstr "Borde del marco"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:275
+msgid "Framespacing"
+msgstr "Espaciado entre marcos"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:276
+msgid "Heading"
+msgstr "Cabecera"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:277
+msgid "Horizontal space"
+msgstr "Espacio horizontal"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:278
+msgid "Image source"
+msgstr "Origen de la imagen"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:279
+msgid "Inline layer"
+msgstr "Capa en línea"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:280
+msgid "Java applet"
+msgstr "Miniaplicación Java"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:281
+msgid "Layer"
+msgstr "Capa"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:282
+msgid "Link color"
+msgstr "Color del enlace"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:283
+msgid "Listing"
+msgstr "Listado"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:284
+msgid "Mail link"
+msgstr "Enlace de correo"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:285
+msgid "Marquee"
+msgstr "Marquesina"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:286
+msgid "Menu list"
+msgstr "Lista de menú"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:287
+msgid "Multicolumn"
+msgstr "Multicolumna"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:288
+msgid "Next ID"
+msgstr "ID siguiente"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:289
+msgid "No embedded objects"
+msgstr "Sin objetos incrustados"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:290
+msgid "No layers"
+msgstr "Sin capas"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:291
+msgid "No line break"
+msgstr "Sin salto de línea"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:292
+msgid "No shade"
+msgstr "Sin sombra"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:293
+msgid "No word wrap"
+msgstr "Sin ajuste de línea"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:294
+msgid "Note"
+msgstr "Nota"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:295
+msgid "Object applet file"
+msgstr "Archivo objeto de la miniaplicación"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:296
+msgid "Preformatted listing"
+msgstr "Listado preformateado"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:297
+msgid "Prompt message"
+msgstr "Mensaje en pantalla"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:298
+msgid "Quote"
+msgstr "Cita"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:299
+msgid "Range"
+msgstr "Intervalo"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:300
+msgid "Reduced spacing"
+msgstr "Espaciado reducido"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:301
+msgid "Root"
+msgstr "Raíz"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:302
+msgid "Single line prompt"
+msgstr "Pregunta de una sola línea"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:303
+msgid "Size"
+msgstr "Tamaño"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:304
+msgid "Soft line break"
+msgstr "Salto de línea blando"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:305
+msgid "Sound"
+msgstr "Sonido"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:306
+msgid "Spacer"
+msgstr "Espaciador"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:307
+msgid "Square root"
+msgstr "Raíz cuadrada"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:308
+msgid "Starting sequence number"
+msgstr "Número de secuencia de inicio"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:309
+msgid "Strike-through text style"
+msgstr "Estilo de texto tachado"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:310
+msgid "Strike-through text"
+msgstr "Texto tachado"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:311
+msgid "Tab order position"
+msgstr "Orden de las pestañas"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:312
+msgid "Text color"
+msgstr "Color del texto"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:313
+msgid "Text"
+msgstr "Texto"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:314
+msgid "Top margin in pixels"
+msgstr "Margen superior en píxeles"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:315
+msgid "URL"
+msgstr "URL"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:316
+msgid "Vertical space"
+msgstr "Espacio vertical"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:317
+msgid "Visited link color"
+msgstr "Color del enlace visitado"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:318
+msgid "HTML - Special Characters"
+msgstr "HTML: caracteres especiales"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:319
+msgid "Non-breaking space"
+msgstr "Espacio duro"
+
+#: ../plugins/taglist/Latex.tags.xml.in.h:1
+msgid "Latex - Tags"
+msgstr "LaTeX: etiquetas"
+
+#: ../plugins/taglist/Latex.tags.xml.in.h:2
+msgid "Bibliography (cite)"
+msgstr "Bibliografía (cita)"
+
+#: ../plugins/taglist/Latex.tags.xml.in.h:3
+msgid "Bibliography (item)"
+msgstr "Bibliografía (elemento)"
+
+#: ../plugins/taglist/Latex.tags.xml.in.h:4
+msgid "Bibliography (shortcite)"
+msgstr "Bibliografía (cita breve)"
+
+#: ../plugins/taglist/Latex.tags.xml.in.h:5
+msgid "Bibliography (thebibliography)"
+msgstr "Bibliografía (thebibliography)"
+
+#: ../plugins/taglist/Latex.tags.xml.in.h:6
+msgid "Brackets ()"
+msgstr "Paréntesis ()"
+
+#: ../plugins/taglist/Latex.tags.xml.in.h:7
+msgid "Brackets []"
+msgstr "Corchetes []"
+
+#: ../plugins/taglist/Latex.tags.xml.in.h:8
+msgid "Brackets {}"
+msgstr "Llaves {}"
+
+#: ../plugins/taglist/Latex.tags.xml.in.h:9
+msgid "Brackets <>"
+msgstr "Paréntesis <>"
+
+#: ../plugins/taglist/Latex.tags.xml.in.h:10
+msgid "File input"
+msgstr "Archivo de entrada"
+
+#: ../plugins/taglist/Latex.tags.xml.in.h:11
+msgid "Function cosine"
+msgstr "Función coseno"
+
+#: ../plugins/taglist/Latex.tags.xml.in.h:12
+msgid "Function e^"
+msgstr "Función e^"
+
+#: ../plugins/taglist/Latex.tags.xml.in.h:13
+msgid "Function exp"
+msgstr "Función exp"
+
+#: ../plugins/taglist/Latex.tags.xml.in.h:14
+msgid "Function log"
+msgstr "Función log"
+
+#: ../plugins/taglist/Latex.tags.xml.in.h:15
+msgid "Function log10"
+msgstr "Función log10"
+
+#: ../plugins/taglist/Latex.tags.xml.in.h:16
+msgid "Function sine"
+msgstr "Función seno"
+
+#: ../plugins/taglist/Latex.tags.xml.in.h:17
+msgid "Greek alpha"
+msgstr "Alfa griega"
+
+#: ../plugins/taglist/Latex.tags.xml.in.h:18
+msgid "Greek beta"
+msgstr "Beta griega"
+
+#: ../plugins/taglist/Latex.tags.xml.in.h:19
+msgid "Greek epsilon"
+msgstr "Épsilon griega"
+
+#: ../plugins/taglist/Latex.tags.xml.in.h:20
+msgid "Greek gamma"
+msgstr "Gamma griega"
+
+#: ../plugins/taglist/Latex.tags.xml.in.h:21
+msgid "Greek lambda"
+msgstr "Lambda griega"
+
+#: ../plugins/taglist/Latex.tags.xml.in.h:22
+msgid "Greek rho"
+msgstr "Ro griega"
+
+#: ../plugins/taglist/Latex.tags.xml.in.h:23
+msgid "Greek tau"
+msgstr "Tau griega"
+
+#: ../plugins/taglist/Latex.tags.xml.in.h:24
+msgid "Header 0 (chapter)"
+msgstr "Cabecera 0 (capítulo)"
+
+#: ../plugins/taglist/Latex.tags.xml.in.h:25
+msgid "Header 0 (chapter*)"
+msgstr "Cabecera 0 (capítulo*)"
+
+#: ../plugins/taglist/Latex.tags.xml.in.h:26
+msgid "Header 1 (section)"
+msgstr "Cabecera 1 (sección)"
+
+#: ../plugins/taglist/Latex.tags.xml.in.h:27
+msgid "Header 1 (section*)"
+msgstr "Cabecera 1 (sección*)"
+
+#: ../plugins/taglist/Latex.tags.xml.in.h:28
+msgid "Header 2 (subsection)"
+msgstr "Cabecera 2 (subsección)"
+
+#: ../plugins/taglist/Latex.tags.xml.in.h:29
+msgid "Header 2 (subsection*)"
+msgstr "Cabecera 2 (subsección*)"
+
+#: ../plugins/taglist/Latex.tags.xml.in.h:30
+msgid "Header 3 (subsubsection)"
+msgstr "Cabecera 3 (subsubsección)"
+
+#: ../plugins/taglist/Latex.tags.xml.in.h:31
+msgid "Header 3 (subsubsection*)"
+msgstr "Cabecera 3 (subsubsección*)"
+
+#: ../plugins/taglist/Latex.tags.xml.in.h:32
+msgid "Header 4 (paragraph)"
+msgstr "Cabecera 4 (parágrafo)"
+
+#: ../plugins/taglist/Latex.tags.xml.in.h:33
+msgid "Header appendix"
+msgstr "Apéndice de la cabecera"
+
+#: ../plugins/taglist/Latex.tags.xml.in.h:34
+msgid "List description"
+msgstr "Lista de descripción"
+
+#: ../plugins/taglist/Latex.tags.xml.in.h:35
+msgid "List enumerate"
+msgstr "Lista de enumeración"
+
+#: ../plugins/taglist/Latex.tags.xml.in.h:36
+msgid "List itemize"
+msgstr "Lista de elementos"
+
+#: ../plugins/taglist/Latex.tags.xml.in.h:37
+msgid "Item with label"
+msgstr "Elemento con etiqueta"
+
+#: ../plugins/taglist/Latex.tags.xml.in.h:38
+msgid "Item"
+msgstr "Elemento"
+
+#: ../plugins/taglist/Latex.tags.xml.in.h:39
+msgid "Maths (display)"
+msgstr "Matemáticas (mostrar)"
+
+#: ../plugins/taglist/Latex.tags.xml.in.h:40
+msgid "Maths (inline)"
+msgstr "Matemáticas (en línea)"
+
+#: ../plugins/taglist/Latex.tags.xml.in.h:41
+msgid "Operator fraction"
+msgstr "Operador de fracción"
+
+#: ../plugins/taglist/Latex.tags.xml.in.h:42
+msgid "Operator integral (display)"
+msgstr "Operador integral (mostrar)"
+
+#: ../plugins/taglist/Latex.tags.xml.in.h:43
+msgid "Operator integral (inline)"
+msgstr "Operador integral (en línea)"
+
+#: ../plugins/taglist/Latex.tags.xml.in.h:44
+msgid "Operator sum (display)"
+msgstr "Operador sumatorio (mostrar)"
+
+#: ../plugins/taglist/Latex.tags.xml.in.h:45
+msgid "Operator sum (inline)"
+msgstr "Operador sumatorio (en línea)"
+
+#: ../plugins/taglist/Latex.tags.xml.in.h:46
+msgid "Reference label"
+msgstr "Etiqueta de referencia"
+
+#: ../plugins/taglist/Latex.tags.xml.in.h:47
+msgid "Reference ref"
+msgstr "Referencia de referencia"
+
+#: ../plugins/taglist/Latex.tags.xml.in.h:48
+msgid "Symbol <<"
+msgstr "Símbolo <<"
+
+#: ../plugins/taglist/Latex.tags.xml.in.h:49
+msgid "Symbol <="
+msgstr "Símbolo <="
+
+#: ../plugins/taglist/Latex.tags.xml.in.h:50
+msgid "Symbol >="
+msgstr "Símbolo >="
+
+#: ../plugins/taglist/Latex.tags.xml.in.h:51
+msgid "Symbol >>"
+msgstr "Símbolo >>"
+
+#: ../plugins/taglist/Latex.tags.xml.in.h:52
+msgid "Symbol and"
+msgstr "Símbolo y"
+
+#: ../plugins/taglist/Latex.tags.xml.in.h:53
+msgid "Symbol const"
+msgstr "Símbolo constante"
+
+#: ../plugins/taglist/Latex.tags.xml.in.h:54
+msgid "Symbol d2-by-dt2-partial"
+msgstr "Símbolo de derivada segunda parcial"
+
+#: ../plugins/taglist/Latex.tags.xml.in.h:55
+msgid "Symbol dagger"
+msgstr "Símbolo daga"
+
+#: ../plugins/taglist/Latex.tags.xml.in.h:56
+msgid "Symbol d-by-dt"
+msgstr "Símbolo derivada"
+
+#: ../plugins/taglist/Latex.tags.xml.in.h:57
+msgid "Symbol d-by-dt-partial"
+msgstr "Símbolo derivada parcial"
+
+#: ../plugins/taglist/Latex.tags.xml.in.h:58
+msgid "Symbol equiv"
+msgstr "Símbolo ≍"
+
+#: ../plugins/taglist/Latex.tags.xml.in.h:59
+msgid "Symbol en-dash --"
+msgstr "Símbolo guión --"
+
+#: ../plugins/taglist/Latex.tags.xml.in.h:60
+msgid "Symbol em-dash ---"
+msgstr "Símbolo guión largo ---"
+
+#: ../plugins/taglist/Latex.tags.xml.in.h:61
+msgid "Symbol infinity"
+msgstr "Símbolo ∞"
+
+#: ../plugins/taglist/Latex.tags.xml.in.h:62
+msgid "Symbol mathspace ,"
+msgstr "Símbolo espacio matemático ,"
+
+#: ../plugins/taglist/Latex.tags.xml.in.h:63
+msgid "Symbol mathspace ."
+msgstr "Símbolo espacio matemático ."
+
+#: ../plugins/taglist/Latex.tags.xml.in.h:64
+msgid "Symbol mathspace _"
+msgstr "Símbolo espacio matemático _"
+
+#: ../plugins/taglist/Latex.tags.xml.in.h:65
+msgid "Symbol mathspace __"
+msgstr "Símbolo espacio matemático __"
+
+#: ../plugins/taglist/Latex.tags.xml.in.h:66
+msgid "Symbol simeq"
+msgstr "Símbolo «simeq»"
+
+#: ../plugins/taglist/Latex.tags.xml.in.h:67
+msgid "Symbol star"
+msgstr "Símbolo estrella"
+
+#: ../plugins/taglist/Latex.tags.xml.in.h:68
+msgid "Typeface bold"
+msgstr "Tipografía negrita"
+
+#: ../plugins/taglist/Latex.tags.xml.in.h:69
+msgid "Typeface type"
+msgstr "Tipografía monoespaciada"
+
+#: ../plugins/taglist/Latex.tags.xml.in.h:70
+msgid "Typeface italic"
+msgstr "Tipografía itálica"
+
+#: ../plugins/taglist/Latex.tags.xml.in.h:71
+msgid "Typeface slanted"
+msgstr "Tipografía inclinada"
+
+#: ../plugins/taglist/Latex.tags.xml.in.h:73
+msgid "Unbreakable text"
+msgstr "Texto irrompible"
+
+#: ../plugins/taglist/Latex.tags.xml.in.h:74
+msgid "Footnote"
+msgstr "Nota a pie de página"
+
+#: ../plugins/taglist/taglist.plugin.desktop.in.h:1
+msgid "Tag list"
+msgstr "Lista de etiquetas"
+
+#: ../plugins/taglist/taglist.plugin.desktop.in.h:2
+msgid ""
+"Provides a method to easily insert commonly used tags/strings into a "
+"document without having to type them."
+msgstr ""
+"Proporciona un método para insertar fácilmente en un documento "
+"etiquetas/cadenas de uso común sin tener que escribirlas."
+
+#: ../plugins/taglist/xed-taglist-plugin-panel.c:605
+msgid "Select the group of tags you want to use"
+msgstr "Seleccione el grupo de etiquetas que quiere usar"
+
+#: ../plugins/taglist/xed-taglist-plugin-panel.c:624
+msgid "_Preview"
+msgstr "_Vista previa"
+
+#: ../plugins/taglist/xed-taglist-plugin-panel.c:700
+msgid "Available Tag Lists"
+msgstr "Listas de etiquetas disponibles"
+
+#: ../plugins/taglist/xed-taglist-plugin-panel.c:703
+#: ../plugins/taglist/xed-taglist-plugin-panel.c:718
+#: ../plugins/taglist/xed-taglist-plugin.c:110
+msgid "Tags"
+msgstr "Etiquetas"
+
+#: ../plugins/taglist/XSLT.tags.xml.in.h:1
+msgid "XSLT - Elements"
+msgstr "XSLT: elementos"
+
+#: ../plugins/taglist/XSLT.tags.xml.in.h:2
+msgid "XSLT - Functions"
+msgstr "XSLT: funciones"
+
+#: ../plugins/taglist/XSLT.tags.xml.in.h:3
+msgid "XSLT - Axes"
+msgstr "XSLT: ejes"
+
+#: ../plugins/taglist/XSLT.tags.xml.in.h:4
+msgid "ancestor"
+msgstr "ancestro"
+
+#: ../plugins/taglist/XSLT.tags.xml.in.h:5
+msgid "ancestor-or-self"
+msgstr "ancestro-o-propio"
+
+#: ../plugins/taglist/XSLT.tags.xml.in.h:6
+msgid "attribute"
+msgstr "atributo"
+
+#: ../plugins/taglist/XSLT.tags.xml.in.h:7
+msgid "child"
+msgstr "hijo"
+
+#: ../plugins/taglist/XSLT.tags.xml.in.h:8
+msgid "descendant"
+msgstr "descendiente"
+
+#: ../plugins/taglist/XSLT.tags.xml.in.h:9
+msgid "descendant-or-self"
+msgstr "descendiente-o-propio"
+
+#: ../plugins/taglist/XSLT.tags.xml.in.h:10
+msgid "following"
+msgstr "siguiente"
+
+#: ../plugins/taglist/XSLT.tags.xml.in.h:11
+msgid "following-sibling"
+msgstr "hermano-siguiente"
+
+#: ../plugins/taglist/XSLT.tags.xml.in.h:12
+msgid "namespace"
+msgstr "espacio de nombres"
+
+#: ../plugins/taglist/XSLT.tags.xml.in.h:13
+msgid "parent"
+msgstr "padre"
+
+#: ../plugins/taglist/XSLT.tags.xml.in.h:14
+msgid "preceding"
+msgstr "precedente"
+
+#: ../plugins/taglist/XSLT.tags.xml.in.h:15
+msgid "preceding-sibling"
+msgstr "hermano-precedente"
+
+#: ../plugins/taglist/XSLT.tags.xml.in.h:16
+msgid "self"
+msgstr "propio"
+
+#: ../plugins/taglist/XUL.tags.xml.in.h:1
+msgid "XUL - Tags"
+msgstr "XUL: etiquetas"
+
+#: ../plugins/textsize/textsize.plugin.desktop.in.h:1
+msgid "Text Size"
+msgstr "Tamaño del texto"
+
+#: ../plugins/textsize/textsize.plugin.desktop.in.h:2
+msgid "Allow controlling the zoom levels of the text"
+msgstr "Permitir el control de los niveles de ampliación del texto"
+
+#: ../plugins/textsize/textsize/__init__.py:123
+msgid "_Larger Text"
+msgstr "Texto más gra_nde"
+
+#: ../plugins/textsize/textsize/__init__.py:126
+msgid "S_maller Text"
+msgstr "Texto más peq_ueño"
+
+#: ../plugins/textsize/textsize/__init__.py:129
+msgid "_Normal size"
+msgstr "_Tamaño normal"
+
+#: ../plugins/time/org.x.editor.plugins.time.gschema.xml.in.h:1
+msgid "Prompt type"
+msgstr "Tipo de indicador"
+
+#: ../plugins/time/org.x.editor.plugins.time.gschema.xml.in.h:2
+msgid "Selected format"
+msgstr "Formato seleccionado"
+
+#: ../plugins/time/org.x.editor.plugins.time.gschema.xml.in.h:3
+msgid "Custom format"
+msgstr "Formato personalizado"
+
+#: ../plugins/time/time.plugin.desktop.in.h:1
+msgid "Insert Date/Time"
+msgstr "Insertar fecha/hora"
+
+#: ../plugins/time/time.plugin.desktop.in.h:2
+msgid "Inserts current date and time at the cursor position."
+msgstr "Inserta la fecha y hora actual en la posición del cursor."
+
+#: ../plugins/time/xed-time-dialog.ui.h:1
+msgid "Insert Date and Time"
+msgstr "Insertar fecha y hora"
+
+#: ../plugins/time/xed-time-dialog.ui.h:2
+msgid "_Insert"
+msgstr "_Insertar"
+
+#: ../plugins/time/xed-time-dialog.ui.h:3
+#: ../plugins/time/xed-time-setup-dialog.ui.h:5
+msgid "Use the _selected format"
+msgstr "Usar el formato _seleccionado"
+
+#: ../plugins/time/xed-time-dialog.ui.h:5
+#: ../plugins/time/xed-time-setup-dialog.ui.h:6
+msgid "_Use custom format"
+msgstr "_Usar un formato personalizado"
+
+#. Translators: Use the more common date format in your locale
+#: ../plugins/time/xed-time-dialog.ui.h:7
+#: ../plugins/time/xed-time-setup-dialog.ui.h:9
+#, no-c-format
+msgid "%d/%m/%Y %H:%M:%S"
+msgstr "%d/%m/%Y %H:%M:%S"
+
+#. Translators: This example should follow the date format defined in the entry above
+#: ../plugins/time/xed-time-dialog.ui.h:8
+#: ../plugins/time/xed-time-setup-dialog.ui.h:11
+msgid "01/11/2009 17:52:00"
+msgstr "01/11/2009 17:52:00"
+
+#: ../plugins/time/xed-time-plugin.c:176
+msgid "In_sert Date and Time..."
+msgstr "_Insertar fecha y hora…"
+
+#: ../plugins/time/xed-time-plugin.c:178
+msgid "Insert current date and time at the cursor position"
+msgstr "Inserta la fecha y la hora actuales en la posición del cursor"
+
+#: ../plugins/time/xed-time-plugin.c:454
+msgid "Available formats"
+msgstr "Formatos disponibles"
+
+#: ../plugins/time/xed-time-setup-dialog.ui.h:1
+msgid "Configure date/time plugin"
+msgstr "Configurar el complemento  de fecha/hora"
+
+#: ../plugins/time/xed-time-setup-dialog.ui.h:2
+msgid "When inserting date/time..."
+msgstr "Al insertar la fecha/hora…"
+
+#: ../plugins/time/xed-time-setup-dialog.ui.h:4
+msgid "_Prompt for a format"
+msgstr "_Preguntar por un formato"
+
+#: ../plugins/trailsave/trailsave.plugin.desktop.in.h:1
+msgid "Save Without Trailing Spaces"
+msgstr "Guardar sin espacios al final"
+
+#: ../plugins/trailsave/trailsave.plugin.desktop.in.h:2
+msgid "Removes trailing spaces from lines before saving."
+msgstr "Elimina los espacios al final de las líneas antes de guardar."
+
+#: ../plugins/wordcompletion/xed-wordcompletion-configure.ui.h:1
+msgid "Word Completion"
+msgstr "Completado de palabras"
+
+#: ../plugins/wordcompletion/xed-wordcompletion-configure.ui.h:2
+msgid "Use Ctrl+Space to manually trigger word completion."
+msgstr "Use Ctrl+Espacio para activar manualmente el completado de palabras."
+
+#: ../plugins/wordcompletion/xed-wordcompletion-configure.ui.h:3
+msgid "Automatic completion"
+msgstr "Completado automático"
+
+#: ../plugins/wordcompletion/xed-wordcompletion-configure.ui.h:4
+msgid "Minimum word size for auto-completion"
+msgstr "Tamaño mínimo de la palabra para el completado automático"
+
+#: ../plugins/wordcompletion/xed-wordcompletion-plugin.c:214
+msgid "Word completion"
+msgstr "Completado de palabras"

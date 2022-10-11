@@ -1,0 +1,402 @@
+# Danish translation for linuxmint
+# Copyright (c) 2009 Rosetta Contributors and Canonical Ltd 2009
+# This file is distributed under the same license as the linuxmint package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2009.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: linuxmint\n"
+"Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
+"POT-Creation-Date: 2019-02-27 13:57+0000\n"
+"PO-Revision-Date: 2019-02-27 18:21+0000\n"
+"Last-Translator: Alan Mortensen <alanmortensen.am@gmail.com>\n"
+"Language-Team: Danish <da@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Launchpad-Export-Date: 2022-10-10 13:02+0000\n"
+"X-Generator: Launchpad (build 762fb15a975e8b23af6a1f86e44e46bfd0451459)\n"
+
+#: usr/lib/linuxmint/mintbackup/mintbackup.py:41
+msgid "Backups"
+msgstr "Sikkerhedskopier"
+
+#: usr/lib/linuxmint/mintbackup/mintbackup.py:169
+#: usr/lib/linuxmint/mintbackup/mintbackup.py:209
+#: usr/lib/linuxmint/mintbackup/mintbackup.py:216 generate_desktop_files:24
+#: generate_desktop_files:39
+msgid "Backup Tool"
+msgstr "Værktøj til sikkerhedskopiering"
+
+#: usr/lib/linuxmint/mintbackup/mintbackup.py:232
+#, python-format
+msgid "%s is not located in your home directory."
+msgstr "%s er ikke placeret i din hjemmemappe."
+
+#: usr/lib/linuxmint/mintbackup/mintbackup.py:272
+msgid "Please choose a directory."
+msgstr "Vælg venligst en mappe."
+
+#: usr/lib/linuxmint/mintbackup/mintbackup.py:275
+msgid "You do not have the permission to write in the selected directory."
+msgstr "Du har ikke skriverettighed til den valgte mappe."
+
+#: usr/lib/linuxmint/mintbackup/mintbackup.py:335
+msgid "Please choose a backup file."
+msgstr "Vælg en sikkerhedskopi."
+
+#: usr/lib/linuxmint/mintbackup/mintbackup.py:343
+msgid ""
+"This backup file is either too old or it was created with a different tool. "
+"Please extract it manually."
+msgstr ""
+"Denne sikkerhedskopi er enten for gammel eller oprettet med et andet "
+"værktøj. Udpak den manuelt."
+
+#: usr/lib/linuxmint/mintbackup/mintbackup.py:352
+#, python-format
+msgid "An error occurred while opening the backup file: %s."
+msgstr "Der opstod en fejl under åbning af sikkerhedskopien: %s."
+
+#: usr/lib/linuxmint/mintbackup/mintbackup.py:366
+msgid "No packages need to be installed."
+msgstr "Det er ikke nødvendigt at installere pakker."
+
+#: usr/lib/linuxmint/mintbackup/mintbackup.py:373
+msgid "Please select packages to install."
+msgstr "Vælg venligst pakker, som skal installeres."
+
+#: usr/lib/linuxmint/mintbackup/mintbackup.py:427
+#, python-format
+msgid "Skipping %s because named pipes are not supported."
+msgstr "Springer %s over, fordi navngivne datakanaler ikke understøttes."
+
+#: usr/lib/linuxmint/mintbackup/mintbackup.py:452
+msgid "Backing up:"
+msgstr "Sikkerhedskopierer:"
+
+#: usr/lib/linuxmint/mintbackup/mintbackup.py:460
+msgid "Calculating..."
+msgstr "Beregner …"
+
+#: usr/lib/linuxmint/mintbackup/mintbackup.py:464
+#: usr/lib/linuxmint/mintbackup/mintbackup.py:568
+msgid "The following errors occurred:"
+msgstr "Følgende fejl opstod:"
+
+#: usr/lib/linuxmint/mintbackup/mintbackup.py:470
+msgid "The backup was aborted."
+msgstr "Sikkerhedskopieringen blev afbrudt."
+
+#: usr/lib/linuxmint/mintbackup/mintbackup.py:474
+#, python-format
+msgid "Your files were successfully saved in %s."
+msgstr "Dine filer blev gemt i %s."
+
+#: usr/lib/linuxmint/mintbackup/mintbackup.py:515
+msgid ""
+"Warning: The meta file could not be saved. This backup will not be accepted "
+"for restoration."
+msgstr ""
+"Advarsel: Metafilen kunne ikke gemmes. Denne sikkerhedskopi vil ikke blive "
+"godkendt til genskabelse."
+
+#: usr/lib/linuxmint/mintbackup/mintbackup.py:542
+#, python-format
+msgid ""
+"Warning: Some files were not saved. Only %(archived)d files were backed up "
+"out of %(total)d."
+msgstr ""
+"Advarsel: Nogle filer blev ikke gemt. Kun %(archived)d filer ud af %(total)d "
+"blev sikkerhedskopieret."
+
+#: usr/lib/linuxmint/mintbackup/mintbackup.py:557
+msgid "Restoring:"
+msgstr "Genskaber:"
+
+#: usr/lib/linuxmint/mintbackup/mintbackup.py:574
+msgid "The restoration was aborted."
+msgstr "Genskabelsen blev afbrudt."
+
+#: usr/lib/linuxmint/mintbackup/mintbackup.py:578
+msgid "Your files were successfully restored."
+msgstr "Dine filer blev genskabt."
+
+#: usr/lib/linuxmint/mintbackup/mintbackup.py:666
+#, python-format
+msgid "Warning: Only %(number)d files were restored out of %(total)d."
+msgstr "Advarsel: Kun%(number)d filer ud af %(total)d blev genskabt."
+
+#: usr/lib/linuxmint/mintbackup/mintbackup.py:691
+msgid "The list below shows the applications you installed."
+msgstr "Listen nedenfor viser de programmer, du har installeret."
+
+#: usr/lib/linuxmint/mintbackup/mintbackup.py:735
+#, python-format
+msgid "Your software selection was saved in %s"
+msgstr "Listen over valgte programmer blev gemt i %s"
+
+#: usr/lib/linuxmint/mintbackup/mintbackup.py:751
+msgid "The selected file is not a valid software selection."
+msgstr "Den valgte fil er ikke en gyldig liste over programmer."
+
+#: usr/lib/linuxmint/mintbackup/mintbackup.py:756
+#: usr/lib/linuxmint/mintbackup/mintbackup.py:794
+msgid "An error occurred while reading the file."
+msgstr "Der opstod en fejl under læsning af filen."
+
+#: usr/lib/linuxmint/mintbackup/mintbackup.py:779
+msgid "Could not locate the package."
+msgstr "Kunne ikke finde pakke."
+
+#: generate_desktop_files:24 generate_desktop_files:39
+msgid "Make a backup of your home directory"
+msgstr "Lav en sikkerhedskopi af din hjemmemappe"
+
+#: usr/share/linuxmint/mintbackup/mintbackup.ui.h:1
+msgid "Personal data"
+msgstr "Personlige data"
+
+#: usr/share/linuxmint/mintbackup/mintbackup.ui.h:2
+msgid "Your files, settings and the content of your home directory"
+msgstr "Dine filer, indstillinger og indholdet af din hjemmemappe"
+
+#: usr/share/linuxmint/mintbackup/mintbackup.ui.h:3
+msgid "Restore..."
+msgstr "Genskab …"
+
+#: usr/share/linuxmint/mintbackup/mintbackup.ui.h:4
+msgid "Back Up Now..."
+msgstr "Opret sikkerhedskopi nu …"
+
+#: usr/share/linuxmint/mintbackup/mintbackup.ui.h:5
+msgid "Software selection"
+msgstr "Programvalg"
+
+#: usr/share/linuxmint/mintbackup/mintbackup.ui.h:6
+msgid "The list of applications installed on your computer"
+msgstr "Listen over programmer som er installeret på din computer"
+
+#: usr/share/linuxmint/mintbackup/mintbackup.ui.h:7
+msgid "Please select where you want to save the backup file:"
+msgstr "Vælg hvor du vil gemme sikkerhedskopien:"
+
+#: usr/share/linuxmint/mintbackup/mintbackup.ui.h:8
+msgid ""
+"Please add files or directories to the list below to exclude them from the "
+"backup."
+msgstr ""
+"Tilføj filer eller mappe til listen nedenfor for at udelade dem fra "
+"sikkerhedskopien."
+
+#: usr/share/linuxmint/mintbackup/mintbackup.ui.h:9
+msgid "Exclude files"
+msgstr "Udelad filer"
+
+#: usr/share/linuxmint/mintbackup/mintbackup.ui.h:10
+msgid "Exclude directories"
+msgstr "Udelad mapper"
+
+#: usr/share/linuxmint/mintbackup/mintbackup.ui.h:11
+msgid "Remove"
+msgstr "Fjern"
+
+#: usr/share/linuxmint/mintbackup/mintbackup.ui.h:12
+msgid ""
+"Hidden files and hidden folders located at the root of your home directory "
+"are not included by default."
+msgstr ""
+"Skjulte filer og mapper placeret i roden på din hjemmemappe medtages som "
+"standard ikke."
+
+#: usr/share/linuxmint/mintbackup/mintbackup.ui.h:13
+msgid ""
+"If you want to include some of them in the backup, please add them to the "
+"list below."
+msgstr ""
+"Hvis du vil medtage nogle af dem i sikkerhedskopien, så tilføj dem til "
+"listen nedenfor."
+
+#: usr/share/linuxmint/mintbackup/mintbackup.ui.h:14
+msgid "Include files"
+msgstr "Medtag filer"
+
+#: usr/share/linuxmint/mintbackup/mintbackup.ui.h:15
+msgid "Include directories"
+msgstr "Medtag mapper"
+
+#: usr/share/linuxmint/mintbackup/mintbackup.ui.h:16
+msgid ""
+"These files and folders usually contain temporary data or preferences for "
+"your applications."
+msgstr ""
+"Disse filer og mapper indeholder sædvanligvis midlertidige data eller "
+"indstillinger for dine programmer."
+
+#: usr/share/linuxmint/mintbackup/mintbackup.ui.h:17
+msgid "Please wait while your files are being backed up."
+msgstr "Vent venligst, mens sikkerhedskopien oprettes."
+
+#: usr/share/linuxmint/mintbackup/mintbackup.ui.h:18
+msgid "Please select the backup to restore:"
+msgstr "Vælg sikkerhedskopien, som skal genskabes:"
+
+#: usr/share/linuxmint/mintbackup/mintbackup.ui.h:19
+msgid "Overwrite existing files?"
+msgstr "Overskriv eksisterende filer?"
+
+#: usr/share/linuxmint/mintbackup/mintbackup.ui.h:20
+msgid ""
+"No, only restore missing files.\n"
+"<small>This option is safe and does not affect your existing files.</small>"
+msgstr ""
+"Nej, genskab kun manglende filer.\n"
+"<small>Denne indstilling er sikker og påvirker ikke dine eksisterende "
+"filer.</small>"
+
+#: usr/share/linuxmint/mintbackup/mintbackup.ui.h:22
+msgid ""
+"Yes, overwrite changes and restore the content of any existing files.\n"
+"<small>Use this option with caution. The changes you made to the files since "
+"the backup will be lost.</small>"
+msgstr ""
+"Ja, overskriv ændringer og genskab indholdet af alle eksisterende filer.\n"
+"<small>Brug denne indstilling med forsigtighed. Ændringer, du har foretaget "
+"på filer siden sidste sikkerhedskopieringen, vil gå tabt.</small>"
+
+#: usr/share/linuxmint/mintbackup/mintbackup.ui.h:24
+msgid "Please wait while your files are being restored."
+msgstr "Vent venligst, mens dine filer genskabes."
+
+#: usr/share/linuxmint/mintbackup/mintbackup.ui.h:25
+msgid ""
+"The list below shows the applications you installed with the Software "
+"Manager."
+msgstr ""
+"Listen nedenfor viser programmer, som du har installeret med "
+"Programhåndtering."
+
+#: usr/share/linuxmint/mintbackup/mintbackup.ui.h:26
+msgid "Please select the applications you want to save."
+msgstr "Vælg de programmer, du vil gemme."
+
+#: usr/share/linuxmint/mintbackup/mintbackup.ui.h:27
+msgid "Select all"
+msgstr "Vælg alle"
+
+#: usr/share/linuxmint/mintbackup/mintbackup.ui.h:28
+msgid "Deselect all"
+msgstr "Fravælg alle"
+
+#: usr/share/linuxmint/mintbackup/mintbackup.ui.h:29
+msgid ""
+"Note: If you want to save the complete list of all installed packages on the "
+"system, please use the command 'dpkg --get-selections > mylist.list' in a "
+"terminal."
+msgstr ""
+"Bemærk: Hvis du vil gemme den fulde liste over alle pakker installeret på "
+"systemet, skal du bruge kommandoen \"dpkg --get-selections > mylist.list\" i "
+"en terminal."
+
+#: usr/share/linuxmint/mintbackup/mintbackup.ui.h:30
+msgid "Please select a saved software selection (.list file):"
+msgstr "Vælg en gemt liste over installerede programmer (.list-fil):"
+
+#: usr/share/linuxmint/mintbackup/mintbackup.ui.h:31
+msgid "Select the packages you want to install."
+msgstr "Vælg de pakker, du vil installere."
+
+#: usr/share/linuxmint/mintbackup/mintbackup.ui.h:32
+msgid "Refresh"
+msgstr "Genindlæs"
+
+#: usr/share/linuxmint/mintbackup/mintbackup.ui.h:33
+msgid "All the packages in your software selection are installed."
+msgstr "Alle pakkerne i listen over programmer blev installeret."
+
+#~ msgid "Archiving your home directory..."
+#~ msgstr "Arkiverer din hjemmemappe..."
+
+#~ msgid "Restoration successful"
+#~ msgstr "Gendannelse gennemført"
+
+#~ msgid "Your home directory was successfully backed-up into"
+#~ msgstr "Din hjemmemappe blev gemt i"
+
+#~ msgid "Backup successful"
+#~ msgstr "Sikkerhedskopiering gennemført uden problemer"
+
+#~ msgid "An error occurred during the backup:"
+#~ msgstr "Der skete en fejl under sikkerhedskopieringen:"
+
+#~ msgid "Backup failed"
+#~ msgstr "Sikkerhedskopieringen blev ikke gennemført"
+
+#~ msgid "Extracting the content of the backup into your home directory..."
+#~ msgstr "Pakker sikkerhedskopien ud i din hjemmemappe..."
+
+#~ msgid "Copying the backup file into your home directory..."
+#~ msgstr "Kopierer sikkerhedskopien til din hjemmemappe..."
+
+#~ msgid "Cleaning up..."
+#~ msgstr "Rydder op..."
+
+#~ msgid "Your backup was successfully restored"
+#~ msgstr "Din sikkerhedskopi blev gendannet"
+
+#~ msgid "Backup"
+#~ msgstr "Tag sikkerhedskopi"
+
+#~ msgid "An error occurred while restoring the backup archive:"
+#~ msgstr "Der skete en fejl under gendannelse af sikkerhedskopien:"
+
+#~ msgid "Exclude folders"
+#~ msgstr "Ignorerede mapper"
+
+#~ msgid "Opening the backup archive..."
+#~ msgstr "Åbner sikkerhedskopien..."
+
+#~ msgid "Read error"
+#~ msgstr "Fejl under læsning"
+
+#~ msgid "An error occurred while opening the backup:"
+#~ msgstr "Der skete en fejl under åbningen af sikkerhedskopien:"
+
+#~ msgid "Hidden paths"
+#~ msgstr "Skjulte stier"
+
+#~ msgid "Restore your personal data from this backup"
+#~ msgstr "Brug denne sikkerhedskopi til at gendanne dine personlige data"
+
+#~ msgid "is not located within your home directory. Not added."
+#~ msgstr "er ikke i din hjemmemappe og blev ikke tilføjet."
+
+#~ msgid "Invalid path"
+#~ msgstr "Ugyldig sti"
+
+#~ msgid "Included hidden directories"
+#~ msgstr "Inkluderede skjulte mapper"
+
+#~ msgid "Included"
+#~ msgstr "Inkluderet"
+
+#~ msgid "Excluded Files and Directories"
+#~ msgstr "Ignorerede filer og mapper"
+
+#~ msgid "Restore"
+#~ msgstr "Gendan"
+
+#~ msgid "Overwrite existing files"
+#~ msgstr "Overskriv eksisterende filer"
+
+#~ msgid "View content"
+#~ msgstr "Vis indhold"
+
+#~ msgid "<big><b>Load data into your home directory</b></big>"
+#~ msgstr "<big><b>Pak data ud til din hjemmemappe</b></big>"
+
+#~ msgid "Restoration failed"
+#~ msgstr "Gendannelse mislykkedes"
+
+#~ msgid "Excluded paths"
+#~ msgstr "Udeladte stier"

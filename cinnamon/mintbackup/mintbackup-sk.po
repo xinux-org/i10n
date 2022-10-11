@@ -1,0 +1,402 @@
+# Slovak translation for linuxmint
+# Copyright (c) 2009 Rosetta Contributors and Canonical Ltd 2009
+# This file is distributed under the same license as the linuxmint package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2009.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: linuxmint\n"
+"Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
+"POT-Creation-Date: 2019-02-27 13:57+0000\n"
+"PO-Revision-Date: 2020-10-08 08:40+0000\n"
+"Last-Translator: Vendelín Slezák <Unknown>\n"
+"Language-Team: Slovak <sk@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Launchpad-Export-Date: 2022-10-10 13:02+0000\n"
+"X-Generator: Launchpad (build 762fb15a975e8b23af6a1f86e44e46bfd0451459)\n"
+
+#: usr/lib/linuxmint/mintbackup/mintbackup.py:41
+msgid "Backups"
+msgstr "Zálohovanie"
+
+#: usr/lib/linuxmint/mintbackup/mintbackup.py:169
+#: usr/lib/linuxmint/mintbackup/mintbackup.py:209
+#: usr/lib/linuxmint/mintbackup/mintbackup.py:216 generate_desktop_files:24
+#: generate_desktop_files:39
+msgid "Backup Tool"
+msgstr "Zálohovací nástroj"
+
+#: usr/lib/linuxmint/mintbackup/mintbackup.py:232
+#, python-format
+msgid "%s is not located in your home directory."
+msgstr "%s nie je uložených vo Vašom domovskom adresári."
+
+#: usr/lib/linuxmint/mintbackup/mintbackup.py:272
+msgid "Please choose a directory."
+msgstr "Vyberte prosím adresár."
+
+#: usr/lib/linuxmint/mintbackup/mintbackup.py:275
+msgid "You do not have the permission to write in the selected directory."
+msgstr "Nemáte práva na zápis do zvoleného adresára."
+
+#: usr/lib/linuxmint/mintbackup/mintbackup.py:335
+msgid "Please choose a backup file."
+msgstr "Vyberte prosím súbor so zálohou"
+
+#: usr/lib/linuxmint/mintbackup/mintbackup.py:343
+msgid ""
+"This backup file is either too old or it was created with a different tool. "
+"Please extract it manually."
+msgstr ""
+"Táto záloha je buď príliš stará, alebo bola vytvorená pomocou iného "
+"nástroja. Rozbaľte ju prosím ručne."
+
+#: usr/lib/linuxmint/mintbackup/mintbackup.py:352
+#, python-format
+msgid "An error occurred while opening the backup file: %s."
+msgstr "Počas otvárania zálohovacieho súboru sa vyskytla chyba: %s"
+
+#: usr/lib/linuxmint/mintbackup/mintbackup.py:366
+msgid "No packages need to be installed."
+msgstr "NIe je potrebné inštalovať žiadne balíčky."
+
+#: usr/lib/linuxmint/mintbackup/mintbackup.py:373
+msgid "Please select packages to install."
+msgstr "Vyberte prosím balíček/čky na inštaláciu."
+
+#: usr/lib/linuxmint/mintbackup/mintbackup.py:427
+#, python-format
+msgid "Skipping %s because named pipes are not supported."
+msgstr "Preskakuje sa %s z dôvodu nepodporovaného pomenovania."
+
+#: usr/lib/linuxmint/mintbackup/mintbackup.py:452
+msgid "Backing up:"
+msgstr "Zálohuje sa:"
+
+#: usr/lib/linuxmint/mintbackup/mintbackup.py:460
+msgid "Calculating..."
+msgstr "Prebieha výpočet..."
+
+#: usr/lib/linuxmint/mintbackup/mintbackup.py:464
+#: usr/lib/linuxmint/mintbackup/mintbackup.py:568
+msgid "The following errors occurred:"
+msgstr "Došlo k nasledujúcim chybám:"
+
+#: usr/lib/linuxmint/mintbackup/mintbackup.py:470
+msgid "The backup was aborted."
+msgstr "Zálohovanie bolo prerušené."
+
+#: usr/lib/linuxmint/mintbackup/mintbackup.py:474
+#, python-format
+msgid "Your files were successfully saved in %s."
+msgstr "%s súborov úspešne uložených."
+
+#: usr/lib/linuxmint/mintbackup/mintbackup.py:515
+msgid ""
+"Warning: The meta file could not be saved. This backup will not be accepted "
+"for restoration."
+msgstr ""
+"Upozornenie: Meta súbor nie je možné uložiť. Túto zálohu nebude možné použiť "
+"na obnovu."
+
+#: usr/lib/linuxmint/mintbackup/mintbackup.py:542
+#, python-format
+msgid ""
+"Warning: Some files were not saved. Only %(archived)d files were backed up "
+"out of %(total)d."
+msgstr ""
+"Upozornenie: Niektoré súbory neboli uložené. %(archived)d súborov bolo "
+"zálohovaných z %(total)d."
+
+#: usr/lib/linuxmint/mintbackup/mintbackup.py:557
+msgid "Restoring:"
+msgstr "Obnovuje sa:"
+
+#: usr/lib/linuxmint/mintbackup/mintbackup.py:574
+msgid "The restoration was aborted."
+msgstr "Obnova bola prerušená."
+
+#: usr/lib/linuxmint/mintbackup/mintbackup.py:578
+msgid "Your files were successfully restored."
+msgstr "Vaše súbory boli úspešne obnovené."
+
+#: usr/lib/linuxmint/mintbackup/mintbackup.py:666
+#, python-format
+msgid "Warning: Only %(number)d files were restored out of %(total)d."
+msgstr ""
+"Upozornenie: %(number)d súborov bolo obnovených z celkovo %(total)d "
+"obnoviteľných."
+
+#: usr/lib/linuxmint/mintbackup/mintbackup.py:691
+msgid "The list below shows the applications you installed."
+msgstr "Zoznam nižšie ukazuje nainštalované aplikácie"
+
+#: usr/lib/linuxmint/mintbackup/mintbackup.py:735
+#, python-format
+msgid "Your software selection was saved in %s"
+msgstr "%s programov z Vášho výberu bolo uložených."
+
+#: usr/lib/linuxmint/mintbackup/mintbackup.py:751
+msgid "The selected file is not a valid software selection."
+msgstr "Vybraný súbor nie je platný program."
+
+#: usr/lib/linuxmint/mintbackup/mintbackup.py:756
+#: usr/lib/linuxmint/mintbackup/mintbackup.py:794
+msgid "An error occurred while reading the file."
+msgstr "Nastala chyba pri čítaní súboru."
+
+#: usr/lib/linuxmint/mintbackup/mintbackup.py:779
+msgid "Could not locate the package."
+msgstr "Nie je možné nájsť (lokalizovať) balíček."
+
+#: generate_desktop_files:24 generate_desktop_files:39
+msgid "Make a backup of your home directory"
+msgstr "Vytvorte zálohu Vášho domovského adresára"
+
+#: usr/share/linuxmint/mintbackup/mintbackup.ui.h:1
+msgid "Personal data"
+msgstr "Súkromné údaje."
+
+#: usr/share/linuxmint/mintbackup/mintbackup.ui.h:2
+msgid "Your files, settings and the content of your home directory"
+msgstr "Vaše súbory, nastavenia a obsah Vášho domovského adresára"
+
+#: usr/share/linuxmint/mintbackup/mintbackup.ui.h:3
+msgid "Restore..."
+msgstr "Obnoviť..."
+
+#: usr/share/linuxmint/mintbackup/mintbackup.ui.h:4
+msgid "Back Up Now..."
+msgstr "Zálohovať teraz..."
+
+#: usr/share/linuxmint/mintbackup/mintbackup.ui.h:5
+msgid "Software selection"
+msgstr "Výber softvéru"
+
+#: usr/share/linuxmint/mintbackup/mintbackup.ui.h:6
+msgid "The list of applications installed on your computer"
+msgstr "Zoznam programov nainštalovaných na tomto počítači"
+
+#: usr/share/linuxmint/mintbackup/mintbackup.ui.h:7
+msgid "Please select where you want to save the backup file:"
+msgstr "Prosím vyberte kam uložiť zalohovací súbor:"
+
+#: usr/share/linuxmint/mintbackup/mintbackup.ui.h:8
+msgid ""
+"Please add files or directories to the list below to exclude them from the "
+"backup."
+msgstr ""
+"Prosím pridajte súbory alebo adresáre, ktoré majú byť vylúčené zo zálohy."
+
+#: usr/share/linuxmint/mintbackup/mintbackup.ui.h:9
+msgid "Exclude files"
+msgstr "Vylúčiť súbory"
+
+#: usr/share/linuxmint/mintbackup/mintbackup.ui.h:10
+msgid "Exclude directories"
+msgstr "Vylúčiť adresáre"
+
+#: usr/share/linuxmint/mintbackup/mintbackup.ui.h:11
+msgid "Remove"
+msgstr "Odstrániť"
+
+#: usr/share/linuxmint/mintbackup/mintbackup.ui.h:12
+msgid ""
+"Hidden files and hidden folders located at the root of your home directory "
+"are not included by default."
+msgstr ""
+"Skryté súbory a adresáre nachádzajúce sa v stromovom adresári Vášho "
+"domovkého adresára štandardne nie sú obsiahnuté."
+
+#: usr/share/linuxmint/mintbackup/mintbackup.ui.h:13
+msgid ""
+"If you want to include some of them in the backup, please add them to the "
+"list below."
+msgstr ""
+"Ak chcete vybrať niektoré z nich pre zálohovanie, prosím pridajte ich do "
+"nasledujúceho zoznamu."
+
+#: usr/share/linuxmint/mintbackup/mintbackup.ui.h:14
+msgid "Include files"
+msgstr "Zahrnúť súbory"
+
+#: usr/share/linuxmint/mintbackup/mintbackup.ui.h:15
+msgid "Include directories"
+msgstr "Zahrnúť adresáre"
+
+#: usr/share/linuxmint/mintbackup/mintbackup.ui.h:16
+msgid ""
+"These files and folders usually contain temporary data or preferences for "
+"your applications."
+msgstr ""
+"Tieto súbory a adresáre obvykle obsahujú dočasné údaje alebo "
+"preferencie(nastavenia) Vašich aplikácií."
+
+#: usr/share/linuxmint/mintbackup/mintbackup.ui.h:17
+msgid "Please wait while your files are being backed up."
+msgstr "Prosím čakajte pokým sa zálahujú Vaše údaje."
+
+#: usr/share/linuxmint/mintbackup/mintbackup.ui.h:18
+msgid "Please select the backup to restore:"
+msgstr "Prosím vyberte zálohu na obnovenie:"
+
+#: usr/share/linuxmint/mintbackup/mintbackup.ui.h:19
+msgid "Overwrite existing files?"
+msgstr "Prepísať existujúce súbory ?"
+
+#: usr/share/linuxmint/mintbackup/mintbackup.ui.h:20
+msgid ""
+"No, only restore missing files.\n"
+"<small>This option is safe and does not affect your existing files.</small>"
+msgstr ""
+"Nie, obnoviť len chýbajúce súbory.\n"
+"<small>Táto voľba je bezpečná a nedotkne sa Vaších existujúcich "
+"súborov.</small>"
+
+#: usr/share/linuxmint/mintbackup/mintbackup.ui.h:22
+msgid ""
+"Yes, overwrite changes and restore the content of any existing files.\n"
+"<small>Use this option with caution. The changes you made to the files since "
+"the backup will be lost.</small>"
+msgstr ""
+"Áno, prepísať zmeny a obnoviť obsah existujúcich súborov.\n"
+"<small>Vyberte túto voľbu uvážene, pretože zmeny, ktoré ste urobili od "
+"poslednej zálohy budú týmto stratené a nahradené tými so zálohy.</small>"
+
+#: usr/share/linuxmint/mintbackup/mintbackup.ui.h:24
+msgid "Please wait while your files are being restored."
+msgstr "Prosím čakajte, Vaše súbory sa obnovujú."
+
+#: usr/share/linuxmint/mintbackup/mintbackup.ui.h:25
+msgid ""
+"The list below shows the applications you installed with the Software "
+"Manager."
+msgstr ""
+"Nasledújúci zoznam zobrazuje aplikácie, ktoré ste nainštalovali pomocou "
+"Správcu Programov (Software Manager)."
+
+#: usr/share/linuxmint/mintbackup/mintbackup.ui.h:26
+msgid "Please select the applications you want to save."
+msgstr "Prosím vyberte aplikácie, ktoré si želáte uložiť / uchovať."
+
+#: usr/share/linuxmint/mintbackup/mintbackup.ui.h:27
+msgid "Select all"
+msgstr "Vybrať všetko"
+
+#: usr/share/linuxmint/mintbackup/mintbackup.ui.h:28
+msgid "Deselect all"
+msgstr "Odznačiť všetko"
+
+#: usr/share/linuxmint/mintbackup/mintbackup.ui.h:29
+msgid ""
+"Note: If you want to save the complete list of all installed packages on the "
+"system, please use the command 'dpkg --get-selections > mylist.list' in a "
+"terminal."
+msgstr ""
+"Poznámka: Ak si želáte uchovať uplný zoznam nainštalovaných balíčkov v "
+"systéme, použite príkaz  'dpkg --get-selections > mylist.list' v terminále."
+
+#: usr/share/linuxmint/mintbackup/mintbackup.ui.h:30
+msgid "Please select a saved software selection (.list file):"
+msgstr "Prosím vyberte uložený výber programov (súbor s príponou  .list)"
+
+#: usr/share/linuxmint/mintbackup/mintbackup.ui.h:31
+msgid "Select the packages you want to install."
+msgstr "Vyberte balíčky, ktoré chcete nainštalovať."
+
+#: usr/share/linuxmint/mintbackup/mintbackup.ui.h:32
+msgid "Refresh"
+msgstr "Aktualizovať zoznam"
+
+#: usr/share/linuxmint/mintbackup/mintbackup.ui.h:33
+msgid "All the packages in your software selection are installed."
+msgstr "Všetky balíčky z Vášho vyberu programov sú nainštalované."
+
+#~ msgid "Your home directory was successfully backed-up into"
+#~ msgstr "Váš domovský adresár bol úspešne zálohovaný do"
+
+#~ msgid "Backup successful"
+#~ msgstr "Zálohovanie prebehlo úspešne"
+
+#~ msgid "An error occurred during the backup:"
+#~ msgstr "Pri zálohovaní nastala chyba:"
+
+#~ msgid "Backup failed"
+#~ msgstr "Zálohovanie zlyhalo"
+
+#~ msgid "Extracting the content of the backup into your home directory..."
+#~ msgstr "Obsah záložného súboru sa rozbaľuje do Vášho domovského adresára..."
+
+#~ msgid "Copying the backup file into your home directory..."
+#~ msgstr "Záložný súbor sa kopíruje sa do Vášho domovského adresára..."
+
+#~ msgid "Restoration successful"
+#~ msgstr "Obnova prebehla úspešne"
+
+#~ msgid "Cleaning up..."
+#~ msgstr "Prebieha čistenie..."
+
+#~ msgid "Your backup was successfully restored"
+#~ msgstr "Vaša záloha bola úspešne obnovená"
+
+#~ msgid "Restoration failed"
+#~ msgstr "Obnova zlyhala"
+
+#~ msgid "An error occurred while restoring the backup archive:"
+#~ msgstr "Pri obnove zálohy nastala chyba:"
+
+#~ msgid "Read error"
+#~ msgstr "Chyba pri čítaní"
+
+#~ msgid "Invalid path"
+#~ msgstr "Neplatná cesta"
+
+#~ msgid "Excluded Files and Directories"
+#~ msgstr "Vylúčené súbory a adresáre"
+
+#~ msgid "Backup"
+#~ msgstr "Zálohovať"
+
+#~ msgid "An error occurred while opening the backup:"
+#~ msgstr "Pri otváraní zálohy nastala chyba:"
+
+#~ msgid "Excluded paths"
+#~ msgstr "Vylúčené cesty"
+
+#~ msgid "Hidden paths"
+#~ msgstr "Skryté cesty"
+
+#~ msgid "Included hidden directories"
+#~ msgstr "Zahrnuté skryté adresáre"
+
+#~ msgid "is not located within your home directory. Not added."
+#~ msgstr "nie je umiestnený vo Vašom domovskom adresári. Nebol pridaný."
+
+#~ msgid "Restore"
+#~ msgstr "Obnoviť"
+
+#~ msgid "Overwrite existing files"
+#~ msgstr "Prepísať existujúce súbory (súbormi v zálohe)"
+
+#~ msgid "View content"
+#~ msgstr "Zobraziť obsah zálohy"
+
+#~ msgid "Opening the backup archive..."
+#~ msgstr "Otvára sa záložný archív..."
+
+#~ msgid "Included"
+#~ msgstr "Zahrnuté"
+
+#~ msgid "Archiving your home directory..."
+#~ msgstr "Zálohuje sa Váš domovský adresár..."
+
+#~ msgid "Exclude folders"
+#~ msgstr "Vylúčiť adresáre"
+
+#~ msgid "Restore your personal data from this backup"
+#~ msgstr "Obnovenie Vašich osobných dát z tejto zálohy"
+
+#~ msgid "<big><b>Load data into your home directory</b></big>"
+#~ msgstr "<big><b>Načítať dáta do Vášho domáceho adresára</b></big>"

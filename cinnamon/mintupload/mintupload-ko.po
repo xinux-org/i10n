@@ -1,0 +1,361 @@
+# Korean translation for linuxmint
+# Copyright (c) 2009 Rosetta Contributors and Canonical Ltd 2009
+# This file is distributed under the same license as the linuxmint package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2009.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: linuxmint\n"
+"Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
+"POT-Creation-Date: 2018-05-07 12:31+0100\n"
+"PO-Revision-Date: 2017-12-13 16:38+0000\n"
+"Last-Translator: Jung-Kyu Park <Unknown>\n"
+"Language-Team: Korean <ko@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Launchpad-Export-Date: 2022-10-10 13:01+0000\n"
+"X-Generator: Launchpad (build 762fb15a975e8b23af6a1f86e44e46bfd0451459)\n"
+
+#: usr/lib/linuxmint/mintupload/mintupload.py:28
+#: usr/lib/linuxmint/mintupload/upload-manager.py:28
+#: usr/lib/linuxmint/mintupload/upload-manager.py:82
+#: usr/lib/linuxmint/mintupload/upload-manager.py:117 generate_desktop_files:27
+#: generate_desktop_files:41
+msgid "Upload Manager"
+msgstr "업로드 매니저"
+
+#: usr/lib/linuxmint/mintupload/mintupload.py:43
+#: usr/lib/linuxmint/mintupload/mintupload.py:138
+#, python-format
+msgid "%(percentage)s of %(number)d files - Uploading to %(service)s"
+msgstr "%(number)d개 파일의 %(percentage)s - %(service)s(으)로 업로드 중"
+
+#: usr/lib/linuxmint/mintupload/mintupload.py:45
+#: usr/lib/linuxmint/mintupload/mintupload.py:141
+#, python-format
+msgid "%(percentage)s of 1 file - Uploading to %(service)s"
+msgstr "1개 파일의 %(percentage)s - %(service)s(으)로 업로드 중"
+
+#: usr/lib/linuxmint/mintupload/mintupload.py:81
+#, python-format
+msgid "The upload to '%(service)s' was cancelled"
+msgstr "'%(service)s'(으)로의 업데이트가 취소되었습니다"
+
+#: usr/lib/linuxmint/mintupload/mintupload.py:93
+#, python-format
+msgid "Upload to '%s' failed: "
+msgstr "'%s'(으)로 전송 실패: "
+
+#: usr/lib/linuxmint/mintupload/mintupload.py:99
+#, python-format
+msgid "Successfully uploaded %(number)d files to '%(service)s'"
+msgstr "%(number)d개의 파일을 '%(service)s'(으)로 전송하였습니다"
+
+#: usr/lib/linuxmint/mintupload/mintupload.py:101
+#, python-format
+msgid "Successfully uploaded 1 file to '%(service)s'"
+msgstr "1개의 파일을 '%(service)s'(으)로 전송하였습니다"
+
+#: usr/lib/linuxmint/mintupload/mintupload.py:112
+msgid "Do you want to cancel this upload?"
+msgstr "전송을 취소하시겠습니까?"
+
+#: usr/lib/linuxmint/mintupload/mintupload.py:113
+msgid "Cancel"
+msgstr "취소"
+
+#: usr/lib/linuxmint/mintupload/mintupload.py:114
+msgid "Run in the background"
+msgstr "백그라운드로 실행합니다."
+
+#: usr/lib/linuxmint/mintupload/mintupload.py:117
+msgid "Cancel upload?"
+msgstr "업로드를 취소하시겠습니까?"
+
+#: usr/lib/linuxmint/mintupload/mintupload.py:137
+#, python-format
+msgid "Uploading %(number)d files to %(service)s"
+msgstr "%(number)d개의 파일을 '%(service)s'으로 전송 중"
+
+#: usr/lib/linuxmint/mintupload/mintupload.py:140
+#, python-format
+msgid "Uploading 1 file to %(service)s"
+msgstr "1개의 파일을 %(service)s(으)로 전송 중"
+
+#: usr/lib/linuxmint/mintupload/mintupload.py:159
+#, python-format
+msgid ""
+"%(size_so_far)s of %(total_size)s - %(time_remaining)s left (%(speed)s/sec)"
+msgstr ""
+"전체 %(total_size)s 중 %(size_so_far)s - %(time_remaining)s 남음 (%(speed)s/초)"
+
+#: usr/lib/linuxmint/mintupload/mintupload.py:161
+#, python-format
+msgid "%(size_so_far)s of %(total_size)s"
+msgstr "전체 %(total_size)s 중 %(size_so_far)s"
+
+#: usr/lib/linuxmint/mintupload/mintupload.py:188
+#: usr/lib/linuxmint/mintupload/mintupload_core.py:93
+#: usr/lib/linuxmint/mintupload/mintupload_core.py:95
+msgid "B"
+msgstr "B"
+
+#: usr/lib/linuxmint/mintupload/mintupload.py:190
+#: usr/lib/linuxmint/mintupload/mintupload_core.py:95
+msgid "KB"
+msgstr "KB"
+
+#: usr/lib/linuxmint/mintupload/mintupload.py:192
+#: usr/lib/linuxmint/mintupload/mintupload_core.py:95
+msgid "MB"
+msgstr "MB"
+
+#: usr/lib/linuxmint/mintupload/mintupload.py:194
+#: usr/lib/linuxmint/mintupload/mintupload_core.py:95
+msgid "GB"
+msgstr "GB"
+
+#: usr/lib/linuxmint/mintupload/mintupload.py:201
+#, python-format
+msgid "%d hour"
+msgid_plural "%d hours"
+msgstr[0] "%d시간"
+
+#: usr/lib/linuxmint/mintupload/mintupload.py:202
+#: usr/lib/linuxmint/mintupload/mintupload.py:204
+#, python-format
+msgid "%d minute"
+msgid_plural "%d minutes"
+msgstr[0] "%d분"
+
+#: usr/lib/linuxmint/mintupload/mintupload.py:205
+#: usr/lib/linuxmint/mintupload/mintupload.py:207
+#, python-format
+msgid "%d second"
+msgid_plural "%d seconds"
+msgstr[0] "%d초"
+
+#: usr/lib/linuxmint/mintupload/mintupload.py:236
+#, python-format
+msgid "Unknown service: %s"
+msgstr "알 수 없는 서비스: %s"
+
+#: usr/lib/linuxmint/mintupload/mintupload_core.py:93
+msgid "KiB"
+msgstr "KiB"
+
+#: usr/lib/linuxmint/mintupload/mintupload_core.py:93
+msgid "MiB"
+msgstr "MiB"
+
+#: usr/lib/linuxmint/mintupload/mintupload_core.py:93
+msgid "GiB"
+msgstr "GiB"
+
+#: usr/lib/linuxmint/mintupload/mintupload_core.py:135
+msgid "File larger than service's maximum"
+msgstr "파일의 크기가 해당 서비스의 허용치보다 큽니다"
+
+#: usr/lib/linuxmint/mintupload/mintupload_core.py:145
+msgid "Could not get available space"
+msgstr "사용 가능한 용량을 얻지 못했습니다"
+
+#: usr/lib/linuxmint/mintupload/mintupload_core.py:148
+msgid "File larger than service's available space"
+msgstr "파일의 크기가 해당 서비스의 남은 용량보다 큽니다"
+
+#: usr/lib/linuxmint/mintupload/mintupload_core.py:173
+#: usr/lib/linuxmint/mintupload/mintupload_core.py:315
+msgid "File uploaded successfully."
+msgstr "파일 전송에 성공하였습니다."
+
+#: usr/lib/linuxmint/mintupload/mintupload_core.py:191
+#: usr/lib/linuxmint/mintupload/mintupload_core.py:267
+msgid "connection successfully established"
+msgstr "성공적으로 연결하였습니다"
+
+#: usr/lib/linuxmint/mintupload/mintupload_core.py:202
+#: usr/lib/linuxmint/mintupload/mintupload_core.py:233
+msgid "Uploading the file..."
+msgstr "파일을 전송하는 중입니다"
+
+#: usr/lib/linuxmint/mintupload/mintupload_core.py:275
+msgid "This service requires a password."
+msgstr "이 서비스는 암호를 필요로 합니다."
+
+#: usr/lib/linuxmint/mintupload/mintupload_core.py:308
+msgid "URL:"
+msgstr "주소:"
+
+#: usr/lib/linuxmint/mintupload/mintupload_core.py:348
+#: usr/lib/linuxmint/mintupload/mintupload_core.py:352
+#, python-format
+msgid "%(1)s is not set in the config file found under %(2)s or %(3)s"
+msgstr "%(2)s와(과) %(3)s의 설정 파일에서 %(1)s(을)를 찾을 수 없습니다"
+
+#: usr/lib/linuxmint/mintupload/file-uploader.py:27
+#: usr/lib/linuxmint/mintupload/file-uploader.py:30
+#: usr/lib/linuxmint/mintupload/upload-manager.py:35
+msgid "Upload services"
+msgstr "업로드 서비스"
+
+#: usr/lib/linuxmint/mintupload/file-uploader.py:50
+msgid "Services:"
+msgstr "서비스:"
+
+#: usr/lib/linuxmint/mintupload/file-uploader.py:64
+msgid "Upload manager..."
+msgstr "업로드 매니저..."
+
+#: usr/lib/linuxmint/mintupload/file-uploader.py:73
+msgid "Quit"
+msgstr "끝내기"
+
+#: usr/lib/linuxmint/mintupload/file-uploader.py:126
+#, python-format
+msgid "Drag &amp; Drop here to upload to %s"
+msgstr "여기로 파일을 끌어다 놓으면 %s(으)로 전송합니다"
+
+#: usr/lib/linuxmint/mintupload/upload-manager.py:53
+msgid "_File"
+msgstr "파일(_F)"
+
+#: usr/lib/linuxmint/mintupload/upload-manager.py:58
+msgid "Close"
+msgstr "닫기"
+
+#: usr/lib/linuxmint/mintupload/upload-manager.py:62
+msgid "_Help"
+msgstr "도움말(_H)"
+
+#: usr/lib/linuxmint/mintupload/upload-manager.py:67
+#: usr/lib/linuxmint/mintupload/upload-manager.py:78
+msgid "About"
+msgstr "정보"
+
+#: usr/lib/linuxmint/mintupload/upload-manager.py:120
+msgid "<b>Please enter a name for the new upload service:</b>"
+msgstr "<b>새로운 서비스의 이름을 입력하십시오:</b>"
+
+#: usr/lib/linuxmint/mintupload/upload-manager.py:124
+msgid "Service name:"
+msgstr "서비스 이름:"
+
+#: usr/lib/linuxmint/mintupload/upload-manager.py:127
+msgid "<i>Try to avoid spaces and special characters...</i>"
+msgstr "<i>띄어쓰기와 특수문자를 피해주세요...</i>"
+
+#: usr/lib/linuxmint/mintupload/upload-manager.py:204
+#, python-format
+msgid "%s Properties"
+msgstr "%s 속성"
+
+#: usr/lib/linuxmint/mintupload/upload-manager.py:207
+msgid "Check connection"
+msgstr "연결 확인"
+
+#: usr/lib/linuxmint/mintupload/upload-manager.py:212
+msgid "Type:"
+msgstr "유형:"
+
+#: usr/lib/linuxmint/mintupload/upload-manager.py:213
+msgid "Host:"
+msgstr "호스트:"
+
+#: usr/lib/linuxmint/mintupload/upload-manager.py:214
+msgid "Port:"
+msgstr "포트:"
+
+#: usr/lib/linuxmint/mintupload/upload-manager.py:215
+msgid "User:"
+msgstr "사용자:"
+
+#: usr/lib/linuxmint/mintupload/upload-manager.py:216
+msgid "Password:"
+msgstr "암호:"
+
+#: usr/lib/linuxmint/mintupload/upload-manager.py:217
+msgid "Timestamp:"
+msgstr "시간형식:"
+
+#: usr/lib/linuxmint/mintupload/upload-manager.py:218
+msgid "Path:"
+msgstr "경로:"
+
+#: usr/lib/linuxmint/mintupload/upload-manager.py:220
+#: usr/lib/linuxmint/mintupload/upload-manager.py:221
+msgid "Hostname or IP address, default: "
+msgstr "호스트명 또는 IP 주소. 기본값: "
+
+#: usr/lib/linuxmint/mintupload/upload-manager.py:224
+#: usr/lib/linuxmint/mintupload/upload-manager.py:225
+msgid "Remote port, default is 21 for FTP, 22 for SFTP and SCP"
+msgstr "원격지 포트. 기본값은 21 (FTP) 또는 22(SFTP, SCP)"
+
+#: usr/lib/linuxmint/mintupload/upload-manager.py:228
+#: usr/lib/linuxmint/mintupload/upload-manager.py:229
+msgid "Username, defaults to your local username"
+msgstr "사용자명. 기본값은 로컬 사용자명"
+
+#: usr/lib/linuxmint/mintupload/upload-manager.py:232
+#: usr/lib/linuxmint/mintupload/upload-manager.py:233
+msgid ""
+"Password, by default: password-less SCP connection, null-string FTP "
+"connection, ~/.ssh keys used for SFTP connections"
+msgstr "비밀번호. 기본값: 사용하지 않음(SCP), 빈 문자열(FTP) 혹은 ~/.ssh 키(SFTP)"
+
+#: usr/lib/linuxmint/mintupload/upload-manager.py:236
+#: usr/lib/linuxmint/mintupload/upload-manager.py:237
+msgid "Timestamp format (strftime). By default:"
+msgstr "시간 형식 (strftime). 기본값:"
+
+#: usr/lib/linuxmint/mintupload/upload-manager.py:240
+#: usr/lib/linuxmint/mintupload/upload-manager.py:241
+msgid ""
+"Directory to upload to. <TIMESTAMP> is replaced with the current timestamp, "
+"following the timestamp format given. By default: ."
+msgstr "업로드할 경로. <TIMESTAMP>는 현재 시간으로 대체됩니다. 기본값: ."
+
+#: usr/lib/linuxmint/mintupload/upload-manager.py:314
+msgid "Could not save configuration change"
+msgstr "변경된 사항을 저장하지 못했습니다"
+
+#: generate_desktop_files:27 generate_desktop_files:41
+msgid "Define upload services"
+msgstr "업로드 서비스 추가"
+
+#~ msgid "File Uploader"
+#~ msgstr "파일 업로더"
+
+#~ msgid "Hostname:"
+#~ msgstr "호스트명:"
+
+#~ msgid "Username:"
+#~ msgstr "사용자명:"
+
+#~ msgid "This service requires a password or private key."
+#~ msgstr "이 서비스는 비밀번호나 개인키를 필요로 합니다."
+
+#~ msgid "<i>Try to avoid spaces and funny characters...</i>"
+#~ msgstr "<i>특수문자나 공백의 사용은 피해주십시오.</i>"
+
+#~ msgid "Upload files on the Internet"
+#~ msgstr "파일을 인터넷에 업로드합니다"
+
+#, python-format
+#~ msgid "Uploading %(file)s to %(service)s"
+#~ msgstr "%(file)s을(를) %(service)s(으)로 전송 중입니다"
+
+#, python-format
+#~ msgid "Upload to %s successful"
+#~ msgstr "%s(으)로의 전송에 성공하였습니다"
+
+#, python-format
+#~ msgid "Uploading to %s"
+#~ msgstr "%s로 전송 중입니다"
+
+#, python-format
+#~ msgid "Upload to %s failed: "
+#~ msgstr "%s(으)로의 전송에 실패하였습니다: "

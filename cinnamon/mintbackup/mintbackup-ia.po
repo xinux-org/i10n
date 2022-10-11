@@ -1,0 +1,401 @@
+# Interlingua translation for linuxmint
+# Copyright (c) 2016 Rosetta Contributors and Canonical Ltd 2016
+# This file is distributed under the same license as the linuxmint package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2016.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: linuxmint\n"
+"Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
+"POT-Creation-Date: 2019-02-27 13:57+0000\n"
+"PO-Revision-Date: 2019-04-12 22:57+0000\n"
+"Last-Translator: karm <melo@carmu.com>\n"
+"Language-Team: Interlingua <ia@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Launchpad-Export-Date: 2022-10-10 13:02+0000\n"
+"X-Generator: Launchpad (build 762fb15a975e8b23af6a1f86e44e46bfd0451459)\n"
+
+#: usr/lib/linuxmint/mintbackup/mintbackup.py:41
+msgid "Backups"
+msgstr "Copias de reserva"
+
+#: usr/lib/linuxmint/mintbackup/mintbackup.py:169
+#: usr/lib/linuxmint/mintbackup/mintbackup.py:209
+#: usr/lib/linuxmint/mintbackup/mintbackup.py:216 generate_desktop_files:24
+#: generate_desktop_files:39
+msgid "Backup Tool"
+msgstr "Application pro reservar"
+
+#: usr/lib/linuxmint/mintbackup/mintbackup.py:232
+#, python-format
+msgid "%s is not located in your home directory."
+msgstr "%s non es locate in tu directorio casa."
+
+#: usr/lib/linuxmint/mintbackup/mintbackup.py:272
+msgid "Please choose a directory."
+msgstr "Elige un directorio per favor"
+
+#: usr/lib/linuxmint/mintbackup/mintbackup.py:275
+msgid "You do not have the permission to write in the selected directory."
+msgstr "Tu non ha permissiones a scriber in le directorio seligite."
+
+#: usr/lib/linuxmint/mintbackup/mintbackup.py:335
+msgid "Please choose a backup file."
+msgstr "Elige un file de reserva per favor."
+
+#: usr/lib/linuxmint/mintbackup/mintbackup.py:343
+msgid ""
+"This backup file is either too old or it was created with a different tool. "
+"Please extract it manually."
+msgstr ""
+"Iste file de reserva es tro vetere o illo esseva create per un application "
+"differente. Per favor extrahe lo manualmente."
+
+#: usr/lib/linuxmint/mintbackup/mintbackup.py:352
+#, python-format
+msgid "An error occurred while opening the backup file: %s."
+msgstr "Un error occurreva durante que era aperite le file de reserva: %s."
+
+#: usr/lib/linuxmint/mintbackup/mintbackup.py:366
+msgid "No packages need to be installed."
+msgstr "Il non es necesse installar ulle pacchetto."
+
+#: usr/lib/linuxmint/mintbackup/mintbackup.py:373
+msgid "Please select packages to install."
+msgstr "Elige per favor le pacchetto a installar."
+
+#: usr/lib/linuxmint/mintbackup/mintbackup.py:427
+#, python-format
+msgid "Skipping %s because named pipes are not supported."
+msgstr "Salto de %s pois que le tubos nominate non es supportate."
+
+#: usr/lib/linuxmint/mintbackup/mintbackup.py:452
+msgid "Backing up:"
+msgstr "Creation del copia de reserva:"
+
+#: usr/lib/linuxmint/mintbackup/mintbackup.py:460
+msgid "Calculating..."
+msgstr "Calculo..."
+
+#: usr/lib/linuxmint/mintbackup/mintbackup.py:464
+#: usr/lib/linuxmint/mintbackup/mintbackup.py:568
+msgid "The following errors occurred:"
+msgstr "Le errores sequente occurreva:"
+
+#: usr/lib/linuxmint/mintbackup/mintbackup.py:470
+msgid "The backup was aborted."
+msgstr "Le creation del copia de reserva abortava."
+
+#: usr/lib/linuxmint/mintbackup/mintbackup.py:474
+#, python-format
+msgid "Your files were successfully saved in %s."
+msgstr "Le files esseva salvate in %s con successo."
+
+#: usr/lib/linuxmint/mintbackup/mintbackup.py:515
+msgid ""
+"Warning: The meta file could not be saved. This backup will not be accepted "
+"for restoration."
+msgstr ""
+"Advertimento: le meta-file non pote ser salvate. Iste copia de reserva non "
+"sera acceptate pro le restauration."
+
+#: usr/lib/linuxmint/mintbackup/mintbackup.py:542
+#, python-format
+msgid ""
+"Warning: Some files were not saved. Only %(archived)d files were backed up "
+"out of %(total)d."
+msgstr ""
+"Advertimento: alcun files non esseva salvate. Esseva reservate solo "
+"%(archived)d files de %(total)d."
+
+#: usr/lib/linuxmint/mintbackup/mintbackup.py:557
+msgid "Restoring:"
+msgstr "Restauration:"
+
+#: usr/lib/linuxmint/mintbackup/mintbackup.py:574
+msgid "The restoration was aborted."
+msgstr "Le restauration abortava"
+
+#: usr/lib/linuxmint/mintbackup/mintbackup.py:578
+msgid "Your files were successfully restored."
+msgstr "Your files were successfully restored."
+
+#: usr/lib/linuxmint/mintbackup/mintbackup.py:666
+#, python-format
+msgid "Warning: Only %(number)d files were restored out of %(total)d."
+msgstr "Advertimento: esseva reservate solo %(number)d files de %(total)d."
+
+#: usr/lib/linuxmint/mintbackup/mintbackup.py:691
+msgid "The list below shows the applications you installed."
+msgstr "Le lista infra monstra le applicationes que tu ha installate."
+
+#: usr/lib/linuxmint/mintbackup/mintbackup.py:735
+#, python-format
+msgid "Your software selection was saved in %s"
+msgstr "Tu selection de software ha essite salvate in %s"
+
+#: usr/lib/linuxmint/mintbackup/mintbackup.py:751
+msgid "The selected file is not a valid software selection."
+msgstr "Le file seligite non es un selection de software valide."
+
+#: usr/lib/linuxmint/mintbackup/mintbackup.py:756
+#: usr/lib/linuxmint/mintbackup/mintbackup.py:794
+msgid "An error occurred while reading the file."
+msgstr "Un error occurreva durante le lectura del file."
+
+#: usr/lib/linuxmint/mintbackup/mintbackup.py:779
+msgid "Could not locate the package."
+msgstr "Impossibile locar le pacchetto."
+
+#: generate_desktop_files:24 generate_desktop_files:39
+msgid "Make a backup of your home directory"
+msgstr "Face un salvamento de tu directorio domo"
+
+#: usr/share/linuxmint/mintbackup/mintbackup.ui.h:1
+msgid "Personal data"
+msgstr "Datos personal"
+
+#: usr/share/linuxmint/mintbackup/mintbackup.ui.h:2
+msgid "Your files, settings and the content of your home directory"
+msgstr "Tu files, configurationes e le contento de tu directorio home"
+
+#: usr/share/linuxmint/mintbackup/mintbackup.ui.h:3
+msgid "Restore..."
+msgstr "Restauration..."
+
+#: usr/share/linuxmint/mintbackup/mintbackup.ui.h:4
+msgid "Back Up Now..."
+msgstr "Reservation ora..."
+
+#: usr/share/linuxmint/mintbackup/mintbackup.ui.h:5
+msgid "Software selection"
+msgstr "Selection del software"
+
+#: usr/share/linuxmint/mintbackup/mintbackup.ui.h:6
+msgid "The list of applications installed on your computer"
+msgstr "Le lista del applicationes installate sur tu computator"
+
+#: usr/share/linuxmint/mintbackup/mintbackup.ui.h:7
+msgid "Please select where you want to save the backup file:"
+msgstr "Per favor elige ubi tu desira salvar le file de reserva."
+
+#: usr/share/linuxmint/mintbackup/mintbackup.ui.h:8
+msgid ""
+"Please add files or directories to the list below to exclude them from the "
+"backup."
+msgstr ""
+"Per favor adde files o directorios al lista sequente pro excluder los ab le "
+"copia de reserva."
+
+#: usr/share/linuxmint/mintbackup/mintbackup.ui.h:9
+msgid "Exclude files"
+msgstr "Excluder files"
+
+#: usr/share/linuxmint/mintbackup/mintbackup.ui.h:10
+msgid "Exclude directories"
+msgstr "Excluder directorios"
+
+#: usr/share/linuxmint/mintbackup/mintbackup.ui.h:11
+msgid "Remove"
+msgstr "Remover"
+
+#: usr/share/linuxmint/mintbackup/mintbackup.ui.h:12
+msgid ""
+"Hidden files and hidden folders located at the root of your home directory "
+"are not included by default."
+msgstr ""
+"Le files e le plicas celate locate al radice de tu directorio home non es de "
+"norma includite."
+
+#: usr/share/linuxmint/mintbackup/mintbackup.ui.h:13
+msgid ""
+"If you want to include some of them in the backup, please add them to the "
+"list below."
+msgstr ""
+"Si tu vole includer unos de illos in le copia de reserva, per favor adde los "
+"in le lista sequente."
+
+#: usr/share/linuxmint/mintbackup/mintbackup.ui.h:14
+msgid "Include files"
+msgstr "Includer files"
+
+#: usr/share/linuxmint/mintbackup/mintbackup.ui.h:15
+msgid "Include directories"
+msgstr "Includer directorios"
+
+#: usr/share/linuxmint/mintbackup/mintbackup.ui.h:16
+msgid ""
+"These files and folders usually contain temporary data or preferences for "
+"your applications."
+msgstr ""
+"Iste files e plicas contine usualmente datos temporari o preferentias pro tu "
+"applicationes."
+
+#: usr/share/linuxmint/mintbackup/mintbackup.ui.h:17
+msgid "Please wait while your files are being backed up."
+msgstr "Attende per favor durante que tu files es reservate."
+
+#: usr/share/linuxmint/mintbackup/mintbackup.ui.h:18
+msgid "Please select the backup to restore:"
+msgstr "Per favor elige le copia de reserva a restaurar:"
+
+#: usr/share/linuxmint/mintbackup/mintbackup.ui.h:19
+msgid "Overwrite existing files?"
+msgstr "Supplantar le files existente?"
+
+#: usr/share/linuxmint/mintbackup/mintbackup.ui.h:20
+msgid ""
+"No, only restore missing files.\n"
+"<small>This option is safe and does not affect your existing files.</small>"
+msgstr ""
+"No, restaurar solo le files mancante.\n"
+"<small>Iste option es secur e non affice tu files existente.</small>"
+
+#: usr/share/linuxmint/mintbackup/mintbackup.ui.h:22
+msgid ""
+"Yes, overwrite changes and restore the content of any existing files.\n"
+"<small>Use this option with caution. The changes you made to the files since "
+"the backup will be lost.</small>"
+msgstr ""
+"Si, supplanta le cambios e restaura le contento de tote le files existente.\n"
+"<small>Usa iste option con caution. Le cambios que tu ha facite al files "
+"desde le copia de reserva sera perdite.</small>"
+
+#: usr/share/linuxmint/mintbackup/mintbackup.ui.h:24
+msgid "Please wait while your files are being restored."
+msgstr "Per favor attende durante que tu files es restaurate."
+
+#: usr/share/linuxmint/mintbackup/mintbackup.ui.h:25
+msgid ""
+"The list below shows the applications you installed with the Software "
+"Manager."
+msgstr ""
+"Le lista sequente monstra le applicationes installate per le Gestor de "
+"software."
+
+#: usr/share/linuxmint/mintbackup/mintbackup.ui.h:26
+msgid "Please select the applications you want to save."
+msgstr "Per favor elige le applicationes que tu vole salvar."
+
+#: usr/share/linuxmint/mintbackup/mintbackup.ui.h:27
+msgid "Select all"
+msgstr "Eliger toto"
+
+#: usr/share/linuxmint/mintbackup/mintbackup.ui.h:28
+msgid "Deselect all"
+msgstr "Deseliger toto"
+
+#: usr/share/linuxmint/mintbackup/mintbackup.ui.h:29
+msgid ""
+"Note: If you want to save the complete list of all installed packages on the "
+"system, please use the command 'dpkg --get-selections > mylist.list' in a "
+"terminal."
+msgstr ""
+"Nota: si tu vole salvar le lista complete de tote le pacchettos installate "
+"sur le systema, per favor usa le commando 'dpkg --get-selections > "
+"mylist.list' in un fenestra de terminal."
+
+#: usr/share/linuxmint/mintbackup/mintbackup.ui.h:30
+msgid "Please select a saved software selection (.list file):"
+msgstr "Per favor elige un selection de software salvate (file .list):"
+
+#: usr/share/linuxmint/mintbackup/mintbackup.ui.h:31
+msgid "Select the packages you want to install."
+msgstr "Elige le pacchettos que ti vole installar."
+
+#: usr/share/linuxmint/mintbackup/mintbackup.ui.h:32
+msgid "Refresh"
+msgstr "Refrescar"
+
+#: usr/share/linuxmint/mintbackup/mintbackup.ui.h:33
+msgid "All the packages in your software selection are installed."
+msgstr "Tote le pacchettos in le selection de tu software es installate."
+
+#~ msgid "Invalid path"
+#~ msgstr "Percurso non valide"
+
+#~ msgid "Excluded paths"
+#~ msgstr "Percursos excludite"
+
+#~ msgid "Archiving your home directory..."
+#~ msgstr "Archivation de tu directorio domo..."
+
+#~ msgid "Your home directory was successfully backed-up into"
+#~ msgstr "Tu directorio domo ha essite reservate con bon successo"
+
+#~ msgid "Backup successful"
+#~ msgstr "Backup con successo"
+
+#~ msgid "An error occurred during the backup:"
+#~ msgstr "Un error occurreva durante le backup:"
+
+#~ msgid "Backup failed"
+#~ msgstr "Backup fallite"
+
+#~ msgid "Copying the backup file into your home directory..."
+#~ msgstr "Copia de files de backup in tu directorio domo..."
+
+#~ msgid "Restoration successful"
+#~ msgstr "Restauration con bon successo"
+
+#~ msgid "Cleaning up..."
+#~ msgstr "Mundification ..."
+
+#~ msgid "Your backup was successfully restored"
+#~ msgstr "Tu backup ha essite restaurate con bon successo"
+
+#~ msgid "Excluded Files and Directories"
+#~ msgstr "Files e directorios excludite"
+
+#~ msgid "Backup"
+#~ msgstr "Backup"
+
+#~ msgid "Exclude folders"
+#~ msgstr "Excluder plicas"
+
+#~ msgid "Restoration failed"
+#~ msgstr "Restauration fallite"
+
+#~ msgid "An error occurred while restoring the backup archive:"
+#~ msgstr "Un error ha occurrite in le restauration del archivo de backup:"
+
+#~ msgid "Opening the backup archive..."
+#~ msgstr "Apertura del archivo de backup..."
+
+#~ msgid "Read error"
+#~ msgstr "Error de lectura"
+
+#~ msgid "An error occurred while opening the backup:"
+#~ msgstr "Un error ha occurrite in le apertura del backup:"
+
+#~ msgid "Hidden paths"
+#~ msgstr "Percursos celate"
+
+#~ msgid "Included"
+#~ msgstr "Includite"
+
+#~ msgid "Restore your personal data from this backup"
+#~ msgstr "Restaurar tu datos personal ex ce backup"
+
+#~ msgid "<big><b>Load data into your home directory</b></big>"
+#~ msgstr "<big><b>Cargar le datos in tu directorio domo</b></big>"
+
+#~ msgid "is not located within your home directory. Not added."
+#~ msgstr "non es ubicate in tu directorio domo. Non addite."
+
+#~ msgid "Included hidden directories"
+#~ msgstr "Directorios celate Includite"
+
+#~ msgid "Extracting the content of the backup into your home directory..."
+#~ msgstr "Extraction del contento del backup in tu directorio domo..."
+
+#~ msgid "Overwrite existing files"
+#~ msgstr "Supplantar le files ja existente"
+
+#~ msgid "Restore"
+#~ msgstr "Restaurar"
+
+#~ msgid "View content"
+#~ msgstr "Vider le contento"

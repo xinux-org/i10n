@@ -1,0 +1,1731 @@
+# Belarusian translation for linuxmint
+# Copyright (c) 2021 Rosetta Contributors and Canonical Ltd 2021
+# This file is distributed under the same license as the linuxmint package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: linuxmint\n"
+"Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
+"POT-Creation-Date: 2019-03-29 10:21+0000\n"
+"PO-Revision-Date: 2021-12-04 16:46+0000\n"
+"Last-Translator: Anton Hryb <Unknown>\n"
+"Language-Team: Belarusian <be@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Launchpad-Export-Date: 2022-10-10 13:12+0000\n"
+"X-Generator: Launchpad (build 762fb15a975e8b23af6a1f86e44e46bfd0451459)\n"
+
+#: ../../boot_options.rst:2
+msgid "Boot options"
+msgstr "Параметры загрузкі"
+
+#: ../../boot_options.rst:4
+msgid ""
+"Some graphics cards and motherboards don't work well with the open-source "
+"drivers present in Linux Mint by default."
+msgstr ""
+"Асобныя відэакарты і мацярынскія платы дрэнна працуюць з адкрытымі "
+"драйверамі, якія прысутнічаюць у Linux Mint па змаўчанні."
+
+#: ../../boot_options.rst:7
+msgid "Compatibility mode"
+msgstr "Рэжым сумяшчальнасці"
+
+#: ../../boot_options.rst:9
+msgid ""
+"The easiest option is to select ``compatibility mode`` from the USB stick "
+"(or DVD) boot menu."
+msgstr ""
+"Самы просты варыянт - выбраць рэжым сумяшчальнасці (``compatibility mode``) "
+"у меню загрузкі з USB / DVD."
+
+#: ../../boot_options.rst:15
+msgid "Grub menu (EFI mode)"
+msgstr "Меню Grub (рэжым EFI)"
+
+#: ../../boot_options.rst:21
+msgid "Isolinux menu (BIOS mode)"
+msgstr "Меню Isolinux (рэжым BIOS)"
+
+#: ../../boot_options.rst:23
+msgid "If that doesn't work, you can try the ``nomodeset`` boot option."
+msgstr ""
+"Калі гэта не працуе, можаце паспрабаваць варыянт загрузкі без адмысловага "
+"рэжыму (``nomodeset``)."
+
+#: ../../boot_options.rst:26
+msgid "Nomodeset boot option"
+msgstr "Варыянт загрузкі nomodeset"
+
+#: ../../boot_options.rst:28
+msgid ""
+"In EFI mode, highlight the ``Start Linux Mint`` option and press :kbd:`e` to "
+"modify the boot options."
+msgstr ""
+"У рэжыме EFI, выдзеліце опцыю ``Start Linux Mint`` і націсніце :kbd:`e` каб "
+"змяніць параметры загрузкі."
+
+#: ../../boot_options.rst:34
+msgid ""
+"Replace ``quiet splash`` with ``nomodeset`` and press :kbd:`F10` to boot."
+msgstr ""
+"Замяніце ``quiet splash`` на ``nomodeset`` і націсніце :kbd:`F10` для "
+"загрузкі."
+
+#: ../../boot_options.rst:36
+msgid ""
+"In BIOS mode, highlight ``Start Linux Mint`` and press :kbd:`Tab` to modify "
+"the boot options."
+msgstr ""
+"У рэжыме BIOS, выдзеліце ``Start Linux Mint`` і націсніце :kbd:`Tab` каб "
+"змяніць варыянты загрузкі."
+
+#: ../../boot_options.rst:42
+msgid ""
+"Replace ``quiet splash`` with ``nomodeset`` and press :kbd:`Enter` to boot."
+msgstr ""
+"Замяніце ``quiet splash`` на ``nomodeset`` і націсніце :kbd:`Enter` для "
+"загрузкі."
+
+#: ../../boot_options.rst:45
+msgid ""
+"Repeat this operation post-install in your grub boot menu and read "
+":doc:`drivers` to install additional drivers."
+msgstr ""
+"Паўтарыце гэту аперацыю пасля ўсталявання ў вашым загрузачным меню grub і "
+"пачытайце :doc:`drivers` каб усталяваць дадатковыя драйверы."
+
+#: ../../boot_options.rst:48
+msgid "Other boot options"
+msgstr "Іншыя варыянты загрузкі"
+
+#: ../../boot_options.rst:50
+msgid "If you still cannot boot try one of the following solutions:"
+msgstr "Калі ўсё яшчэ не можаце загрузіцца, паспрабуйце адно з рашэнняў:"
+
+#: ../../boot_options.rst:52
+msgid "Try ``nouveau.noaccel=1`` instead of ``nomodeset``."
+msgstr "Паспрабуйце ``nouveau.noaccel=1`` замест ``nomodeset``."
+
+#: ../../boot_options.rst:53
+msgid ""
+"After the installation, use :menuselection:`Advanced Options --> Recovery "
+"mode` from the boot menu and choose ``resume``."
+msgstr ""
+"Пасля ўсталявання, скарыстайцеся рэжымам аднаўлення: `Advanced Options --> "
+"Recovery mode` у меню загрузкі і выберыце аднавіць (``resume``)."
+
+#: ../../boot_options.rst:56
+msgid "Install an older release"
+msgstr "Усталяваць старэйшы рэліз"
+
+#: ../../boot_options.rst:58
+msgid ""
+"If your computer has compatibility issues with the latest Linux Mint "
+"release, install a previous release from the same Linux Mint series."
+msgstr ""
+"Калі ваш камп'ютар мае праблемы сумяшчальнасці з апошнім рэлізам Linux Mint, "
+"усталюйце папярэдні рэліз з той жа серыі Linux Mint."
+
+#: ../../boot_options.rst:60
+msgid ""
+"For instance, if you can't install Linux Mint 18.3 (which comes with a 4.10 "
+"kernel), install Linux Mint 18 (which comes with a 4.4 kernel) and upgrade "
+"to 18.3."
+msgstr ""
+"Напрыклад, калі вы не можаце ўсталяваць Linux Mint 18.3 (які пастаўляецца з "
+"ядром 4.10), усталюйце Linux Mint 18 (які пастаўляецца з ядром 4.4) і затым "
+"абнавіцеся да версіі 18.3."
+
+#: ../../boot_options.rst:63
+msgid ""
+"The first release in each series uses an LTS (Long Term Support) kernel. "
+"Upgrading from this release to the latest one in the series does not change "
+"your kernel."
+msgstr ""
+"Самы першы рэліз у кожнай серыі выкарыстоўвае ядро з доўгатэрміновай "
+"падтрымкай (LTS - Long Term Support). Абнаўленне з гэтага рэліза да "
+"пазнейшых не зменіць ваша ядро."
+
+#: ../../boot.rst:2
+msgid "Boot Linux Mint"
+msgstr "Загрузіць Linux Mint"
+
+#: ../../boot.rst:4
+msgid ""
+"Now that you have Linux Mint on a USB stick (or DVD) boot the computer from "
+"it."
+msgstr ""
+"Цяпер вы маеце Linux Mint на носьбіце USB (ці DVD), загрузіце камп'ютар "
+"адтуль."
+
+#: ../../boot.rst:6
+msgid "Insert your USB stick (or DVD) into the computer."
+msgstr "Устаўце носьбіт USB (ці DVD) у камп'ютар."
+
+#: ../../boot.rst:8 ../../drivers.rst:23 ../../efi.rst:61 ../../oem.rst:21
+msgid "Restart the computer."
+msgstr "Перазапусціце камп'ютар."
+
+#: ../../boot.rst:10
+msgid ""
+"Before your computer boots your current operating system (Windows, Mac, "
+"Linux) you should see your `BIOS <https://en.wikipedia.org/wiki/BIOS>`_ "
+"loading screen. Check the screen or your computer's documentation to know "
+"which key to press and instruct your computer to boot on USB (or DVD)."
+msgstr ""
+"Перад тым, як камп'ютар загрузіць вашу бягучую аперацыйную сістэму (Windows, "
+"Mac, Linux), вам трэба паглядзець ваш _экран загрузкі `BIOS "
+"<https://en.wikipedia.org/wiki/BIOS>`. Праверце экран ці дакументацыю на "
+"камп'ютар каб ведаць якія клавішы націскаць і наладзьце на камп'ютары "
+"загрузку з USB (ці DVD)."
+
+#: ../../boot.rst:13
+msgid ""
+"Most BIOS have a special key you can press to select the boot device and all "
+"of them have a special key to enter the BIOS configuration screen (from "
+"which you can define the boot order). Depending on the BIOS, these special "
+"keys can be :kbd:`Escape`, :kbd:`F1`, :kbd:`F2`, :kbd:`F8`, :kbd:`F10`, "
+":kbd:`F11`, :kbd:`F12`, or :kbd:`Delete`. That information is usually "
+"briefly written on the screen during the boot sequence."
+msgstr ""
+"Большасць BIOS маюць адмысловыя клавішы для выбару прылады загрузкі і ўсе "
+"маюць клавішу для ўваходу ў канфігурацыйны экран BIOS (дзе вы можаце выбраць "
+"прыярытэт носьбітаў для загрузкі). У залежнасці ад BIOS, гэтыя адмысловыя "
+"клавішы могуць быць: :kbd:`Escape`, :kbd:`F1`, :kbd:`F2`, :kbd:`F8`, "
+":kbd:`F10`, :kbd:`F11`, :kbd:`F12`, ці :kbd:`Delete`. Звычайна гэта "
+"інфармацыя хутка паказваецца на экране падчас загрузкі."
+
+#: ../../boot.rst:16
+msgid ""
+"On Macs, keep your finger pressed on the :kbd:`Alt` or :kbd:`Option` key "
+"after hearing the boot sound."
+msgstr ""
+"На Mac, працягвайце націскаць клавішу :kbd:`Alt` ці :kbd:`Option` пасля "
+"таго, як пачулі гук загрузкі."
+
+#: ../../boot.rst:18
+msgid ""
+"The Linux Mint ISO can be booted both in EFI or BIOS mode. In EFI mode it "
+"shows a grub menu. In BIOS mode it shows an isolinux menu."
+msgstr ""
+"Вобраз Linux Mint загружаецца ў абодвух рэжымах: EFI ці BIOS. У рэжыме EFI "
+"паказваецца меню grub. У рэжыме BIOS паказваецца меню isolinux."
+
+#: ../../boot.rst:24
+msgid "The isolinux menu in BIOS mode"
+msgstr "Меню isolinux у рэжыме BIOS"
+
+#: ../../boot.rst:30
+msgid "The grub menu in EFI mode"
+msgstr "Меню grub у рэжыме EFI"
+
+#: ../../boot.rst:32
+msgid ""
+"From one of these menu, press :kbd:`Enter` to start Linux Mint from your USB "
+"stick (or DVD)."
+msgstr ""
+"У любым з гэтых меню націсніце :kbd:`Enter` каб запусціць Linux Mint з "
+"носьбіта USB (ці DVD)."
+
+#: ../../burn.rst:2
+msgid "Create the bootable media"
+msgstr "Стварэнне загрузачнага носьбіта"
+
+#: ../../burn.rst:4
+msgid "The easiest way to install Linux Mint is with a USB stick."
+msgstr ""
+"Найпрасцейшы варыянт усталявання Linux Mint - з дапамогай USB носьбіта."
+
+#: ../../burn.rst:6
+msgid "If you cannot boot from USB, you can use a blank DVD."
+msgstr "Калі вы не можаце загрузіць з USB, вы можаце ўзяць чысты DVD."
+
+#: ../../burn.rst:9
+msgid "How to make a bootable USB stick"
+msgstr "Як зрабіць загрузачны дыск USB"
+
+#: ../../burn.rst:12
+msgid "In Linux Mint"
+msgstr "У Linux Mint"
+
+#: ../../burn.rst:14
+msgid ""
+"Right-click the ISO file and select :menuselection:`Make Bootable USB "
+"Stick`, or launch :menuselection:`Menu --> Accessories --> USB Image Writer`."
+msgstr ""
+"Націсніце правай кнопкай мышы на файле вобраза ISO і выберыце `Стварыць "
+"загрузачны дыск USB`, або запусціце праграму запісу вобразаў на USB (напр. "
+":menuselection:`Меню --> Інструменты --> Запісаць вобраз на USB`)."
+
+#: ../../burn.rst:20
+msgid "Select your USB device and click :guilabel:`Write`."
+msgstr "Выберыце вашу прыладу USB і націсніце :guilabel:`Запісаць`."
+
+#: ../../burn.rst:23
+msgid "In Windows, Mac OS, or other Linux distributions"
+msgstr "У Windows, Mac OS, або ў іншых дыстрыбутывах Linux"
+
+#: ../../burn.rst:25
+msgid ""
+"Download `Etcher <https://www.balena.io/etcher/>`_, install it and run it."
+msgstr ""
+"Спампуйце `Etcher <https://www.balena.io/etcher/>`_, усталюйце і запусціце."
+
+#: ../../burn.rst:31
+msgid "Using Etcher"
+msgstr "Выкарыстоўваючы Etcher"
+
+#: ../../burn.rst:33
+msgid "Click :guilabel:`Select image` and select your ISO file."
+msgstr ""
+"Націсніце 'Выбраць вобраз' (:guilabel:`Select image`) і выберыце ваш файл "
+"вобраза ISO."
+
+#: ../../burn.rst:35
+msgid "Click :guilabel:`Select drive` and select your USB stick."
+msgstr ""
+"Націсніце 'Выбраць носьбіт' (:guilabel:`Select drive`) і выберыце ваш "
+"носьбіт USB."
+
+#: ../../burn.rst:37
+msgid "Click :guilabel:`Flash!`."
+msgstr "Націсніце 'Хутка!' (:guilabel:`Flash!`)."
+
+#: ../../burn.rst:41
+msgid "How to make a bootable DVD"
+msgstr "Як зрабіць загрузачны DVD"
+
+#: ../../burn.rst:43
+msgid "Optical discs are slow and burning to disc is prone to errors."
+msgstr "Аптычныя дыскі марудныя і іх запіс схільны да памылак."
+
+#: ../../burn.rst:46
+msgid "To prevent issues, burn at the lowest possible speed."
+msgstr "Каб папярэдзіць памылкі, запісвайце на найменшай магчымай хуткасці."
+
+#: ../../burn.rst:49
+msgid ""
+"Burn the content of the ISO onto the DVD, not the ISO file itself. When "
+"finished, your DVD should contain directories such as ``boot`` and "
+"``casper``, it shouldn't be an empty DVD containing an .iso file."
+msgstr ""
+"Запішыце вобраз ISO на DVD, але не сам файл ISO. Пасля завяршэння запісу ваш "
+"DVD павінен утрымліваць каталогі кшталту ``boot`` і ``casper``, гэта не "
+"павінен быць пусты DVD з файлам .iso."
+
+#: ../../burn.rst:52
+msgid "In Linux"
+msgstr "У Linux"
+
+#: ../../burn.rst:53
+msgid "Install and use ``xfburn``."
+msgstr "Усталюйце і выкарыстоўвайце ``xfburn``."
+
+#: ../../burn.rst:56
+msgid "In Windows"
+msgstr "У Windows"
+
+#: ../../burn.rst:57
+msgid "Right-click the ISO file and select :menuselection:`Burn disk image`."
+msgstr ""
+"Націсніце правай кнопкай на файл  ISO і выберыце 'Запісаць вобраз на дыск' "
+"(:menuselection:`Burn disk image`)."
+
+#: ../../burn.rst:59
+msgid ""
+"To make sure the ISO was burned without any errors, select "
+":menuselection:`Verify disc after burning`."
+msgstr ""
+"Каб упэўніцца, што вобраз запісаны без памылак, праверце з дапамогай "
+"'Праверыць дыск пасля запісу' (:menuselection:`Verify disc after burning`)."
+
+#: ../../burn.rst:62
+msgid "In Mac OS"
+msgstr "У Mac OS"
+
+#: ../../burn.rst:63
+msgid ""
+"Right-click the ISO file and select :menuselection:`Burn Disk Image to Disc`."
+msgstr ""
+"Націсніце правай кнопкай на файл ISO і выберыце 'Запісаць дыскавы вобраз на "
+"дыск' (:menuselection:`Burn Disk Image to Disc`)."
+
+#: ../../choose.rst:2
+msgid "Choose the right edition"
+msgstr "Выберыце правільную версію"
+
+#: ../../choose.rst:4
+msgid ""
+"You can download Linux Mint from the `Linux Mint website "
+"<https://linuxmint.com/download.php>`_."
+msgstr ""
+"Вы можаце спампаваць Linux Mint з `сайта Linux Mint "
+"<https://linuxmint.com/download.php>`_."
+
+#: ../../choose.rst:6
+msgid ""
+"Read below to choose which edition and architecture are right for you."
+msgstr "Прачытайце ніжэй, якая версія і архітэктура вам падыдзе."
+
+#: ../../choose.rst:9
+msgid "Cinnamon, MATE or Xfce?"
+msgstr "Cinnamon, MATE або Xfce?"
+
+#: ../../choose.rst:11
+msgid ""
+"Linux Mint comes in 3 different flavours, each featuring a different desktop "
+"environment."
+msgstr ""
+"Linux Mint пастаўляецца ў 3 розных варыянтах, кожны адрозніваецца асяроддзем."
+
+#: ../../choose.rst:14 ../../choose.rst:26
+msgid "Cinnamon"
+msgstr "Cinnamon"
+
+#: ../../choose.rst:14
+msgid "The most modern, innovative and full-featured desktop"
+msgstr "Найбольш сучаснае, інавацыйнае і поўнафункцыянальнае асяроддзе"
+
+#: ../../choose.rst:15 ../../choose.rst:35
+msgid "MATE"
+msgstr "MATE"
+
+#: ../../choose.rst:15
+msgid "A more traditional, and faster desktop"
+msgstr "Больш традыцыйнае і хуткае асяроддзе"
+
+#: ../../choose.rst:16 ../../choose.rst:44
+msgid "Xfce"
+msgstr "Xfce"
+
+#: ../../choose.rst:16
+msgid "The most lightweight desktop"
+msgstr "Самае легкавеснае асяроддзе"
+
+#: ../../choose.rst:19
+msgid ""
+"The most popular version of Linux Mint is the Cinnamon edition. Cinnamon is "
+"primarily developed for and by Linux Mint. It is slick, beautiful, and full "
+"of new features."
+msgstr ""
+"Найбольш папулярная версія Linux Mint - Cinnamon, якая распрацавана "
+"пераважна для Linux Mint. Яна вылізаная, прыгожая і напоўнена новымі "
+"функцыямі."
+
+#: ../../choose.rst:28
+msgid ""
+"Linux Mint is also involved in the development of MATE, a classic desktop "
+"environment which is the continuation of GNOME 2, Linux Mint's default "
+"desktop between 2006 and 2011. Although it misses a few features and its "
+"development is slower than Cinnamon's, MATE uses less resources and can run "
+"faster on older computers."
+msgstr ""
+"Linux Mint таксама ўдзельнічае ў распрацоўцы MATE, класічнага асяроддзя, "
+"якое з'яўляецца працягам GNOME 2 і было асноўным для Linux Mint у 2006-2011 "
+"гадах. Нягледзячы на адсутнасць некаторых функцый і павольнейшую распрацоўку "
+"ў параўнанні з Cinnamon, MATE выкарыстоўвае менш рэсурсаў і працуе хутчэй на "
+"старых камп'ютарах."
+
+#: ../../choose.rst:37
+msgid ""
+"Xfce is a lightweight desktop environment. It doesn't support as many "
+"features as Cinnamon or MATE, but it's extremely stable and very light on "
+"resource usage."
+msgstr ""
+"Xfce - легкавеснае асяроддзе. Яно не падтрымлівае столькі функцый, як "
+"Cinnamon ці MATE, але яно надзвычайна стабільнае і выкарыстоўвае вельмі мала "
+"рэсурсаў."
+
+#: ../../choose.rst:46
+msgid ""
+"Of course, all three desktops are great and Linux Mint is extremely proud of "
+"each edition. Although there are more features and better support in some "
+"editions than others, and some do run faster and use less resources than "
+"others, they're all great alternatives and choosing the right edition is "
+"largely a matter of taste."
+msgstr ""
+"Канешне, усе тры асяроддзі выдатныя і Linux Mint ганарыцца кожнай версіяй. "
+"Хаця асобныя маюць лепшую падтрымку, чым іншыя, некаторыя працуюць хутчэй і "
+"выкарыстоўваюць менш рэсурсаў, усе яны цудоўныя альтэрнатывы і выбар "
+"правільнай версіі больш залежыць ад густу."
+
+#: ../../choose.rst:48
+msgid ""
+"Other than their features and performance, Cinnamon, MATE and Xfce also "
+"represent three different desktop environments, with different menus, "
+"different panels and configuration tools. The right one for you is the one "
+"where you feel at home."
+msgstr ""
+"Акрамя іх функцый і прадукцыйнасці, Cinnamon, MATE і Xfce таксама "
+"прадстаўляюць тры розныя асяроддзі працоўнага стала, з рознымі меню, "
+"панэлямі і інструментамі наладкі. Правільным для вас будзе тое асяроддзе, з "
+"якім будзеце пачувацца як дома."
+
+#: ../../choose.rst:50
+msgid ""
+"If you are unsure which desktop to choose start with the Cinnamon edition. "
+"Try them all eventually when you have the time. All three of them have their "
+"own audience within the Linux Mint community and they're all very popular."
+msgstr ""
+"Калі вы не ўпэўнены, якое асяроддзе выбраць, пачніце з Cinnamon. Паспрабуйце "
+"іх усе, калі маеце час. Усе тры маюць сваіх уласных прыхільнікаў сярод "
+"карыстальнікаў Linux Mint і ўсе яны вельмі папулярныя."
+
+#: ../../choose.rst:54
+msgid "32-bit or 64-bit?"
+msgstr "32-бітная ці 64-бітная?"
+
+#: ../../choose.rst:56
+msgid "From version 20 onward, only 64-bit is available."
+msgstr "Пачынаючы з версіі 20 даступна толькі 64-бітная сістэма."
+
+#: ../../choose.rst:58
+msgid ""
+"The 32-bit ISO images on prior versions are provided for compatibility with "
+"older computers. 32-bit processors are extremely rare nowadays and most "
+"computers are able to run in 64-bit. If your computer was manufactured after "
+"2007, you probably have a 64-bit processor."
+msgstr ""
+"32-бітныя вобразы асноўных версій забяспечваюць сумяшчальнасць са старымі "
+"камп'ютарамі. 32-бітныя працэсары ўжо вельмі рэдкія і большасць камп'ютараў "
+"працуюць з 64 бітамі. Калі ваш камп'ютар выраблены пасля 2007, вы верагодна "
+"маеце 64-бітны працэсар."
+
+#: ../../choose.rst:60
+msgid ""
+"If you have an old computer and you are unsure whether or not it can run in "
+"64-bit, read `X86 Chronology "
+"<https://en.wikipedia.org/wiki/X86#Chronology>`_."
+msgstr ""
+"Калі вы маеце стары камп'ютар і не ўпэўнены, ці зможа ён працаваць з 64-"
+"бітнай сістэмай, прачытайце `X86 Chronology "
+"<https://en.wikipedia.org/wiki/X86#Chronology>`_."
+
+#: ../../choose.rst:63
+msgid ""
+"You can try to boot Linux Mint 64-bit on your computer. If it isn't "
+"compatible, nothing bad will happen. You will just get an error message."
+msgstr ""
+"Вы можаце паспрабаваць загрузіць 64-бітны Linux Mint на вашым камп'ютары. "
+"Калі ён несумяшчальны, нічога дрэннага не здарыцца. Вы толькі атрымаеце "
+"паведамленне аб памылцы."
+
+#: ../../choose.rst:66
+msgid ""
+"If you cannot boot or install Linux Mint because your hardware is too recent "
+"and is not properly detected see the `Edge ISO Images <https://linuxmint-"
+"user-guide.readthedocs.io/en/latest/edge.html>`_ chapter in the Linux Mint "
+"User Guide for an alternative ISO."
+msgstr ""
+"Калі вы не можаце запусціць Linux Mint таму што ваша абсталяванне занадта "
+"новае і дрэнна вызначаецца, паглядзіце `Edge ISO Images <https://linuxmint-"
+"user-guide.readthedocs.io/en/latest/edge.html>`_ раздзел у Дапаможніку "
+"карыстальніка Linux Mint пра альтэрнатыўныя вобразы."
+
+#: ../../codecs.rst:2
+msgid "Multimedia codecs"
+msgstr "Мультымедыйныя кодэкі"
+
+#: ../../codecs.rst:4
+msgid "Some multimedia content requires additional codecs to be installed."
+msgstr ""
+"Некаторы мультымедыя кантэнт патрабуе ўсталявання дадатковых кодэкаў."
+
+#: ../../codecs.rst:7
+msgid ""
+"If you were online when installing Linux Mint and you ticked the option to "
+"install these codecs, they are already installed."
+msgstr ""
+"Калі вы былі ў сетцы падчас усталявання Linux Mint і пазначылі опцыю "
+"ўсталяваць гэтыя кодэкі, то яны ўжо ўсталяваныя."
+
+#: ../../codecs.rst:9
+msgid ""
+"Launch :menuselection:`Menu --> Sound & Video --> Install Multimedia Codecs`."
+msgstr ""
+"Запусціце :menuselection:'Меню  --> Гук і відэа --> Усталяваць "
+"мультымедыйныя кодэкі'."
+
+#: ../../codecs.rst:14
+msgid "Click :guilabel:`Install`."
+msgstr "Націсніце :guilabel:'Усталяваць'."
+
+#: ../../codecs.rst:16
+msgid ""
+"Enter your password and wait for the codecs to be installed on your computer."
+msgstr ""
+"Увядзіце ваш пароль і пачакайце пакуль кодэкі ўсталююцца на ваш камп'ютар."
+
+#: ../../drivers.rst:2
+msgid "Hardware drivers"
+msgstr "Драйверы абсталявання"
+
+#: ../../drivers.rst:4
+msgid ""
+"One of the first things to do after installing Linux Mint is to check for "
+"available hardware drivers."
+msgstr ""
+"Адна з першых рэчаў, якую варта зрабіць пасля ўсталявання Linux Mint - гэта "
+"праверыць даступныя драйверы абсталявання."
+
+#: ../../drivers.rst:6
+msgid "Launch :menuselection:`Menu --> Administration --> Driver Manager`."
+msgstr ""
+"Запусціце :menuselection:'Меню --> Адміністраванне --> Кіраўнік драйвераў'."
+
+#: ../../drivers.rst:13
+msgid ""
+"If you are offline, the Driver Manager will complain that it cannot connect "
+"to the Internet."
+msgstr ""
+"Калі вы па-за сеткай, кіраўнік драйвераў паскардзіцца, што ён не можа "
+"злучыцца з інтэрнэтам."
+
+#: ../../drivers.rst:19
+msgid ""
+"Insert your bootable Linux Mint USB stick (or DVD), wait for it to be "
+"mounted, and click :guilabel:`OK`."
+msgstr ""
+"Устаўце ваш загрузачны USB (ці DVD) дыск Linux Mint, пачакайце пакуль ён "
+"прымантуецца, затым націсніце :guilabel:'Добра'."
+
+#: ../../drivers.rst:21
+msgid ""
+"Tick the appropriate checkboxes to select the available drivers and click "
+":guilabel:`Apply Changes`."
+msgstr ""
+"Пазначце адпаведныя птушкі каб выбраць даступныя драйверы і націсніце "
+":guilabel:'Ужыць змены'."
+
+#: ../../efi.rst:2
+msgid "EFI"
+msgstr "EFI"
+
+#: ../../efi.rst:5
+msgid "SecureBoot"
+msgstr "SecureBoot"
+
+#: ../../efi.rst:7
+msgid ""
+"If after installing Linux Mint in EFI mode, you are unable to boot due to a "
+"``Secure Boot Violation``, you can try one of the following solutions:"
+msgstr ""
+"Калі пасля ўсталявання Linux Mint у рэжыме EFI вы не можаце загрузіцца з-за "
+"парушэння бяспекі загрузкі, вы можаце паспрабаваць адно з рашэнняў:"
+
+#: ../../efi.rst:15
+msgid "Restart the installation:"
+msgstr "Перазапусціць усталяванне:"
+
+#: ../../efi.rst:14
+msgid "Connect to the Internet before the installation"
+msgstr "Падлучыцеся да інтэрнэта перад усталяваннем"
+
+#: ../../efi.rst:15
+msgid ""
+"**Do not** select ``Install third-party software for graphics and Wi-Fi "
+"hardware, Flash, MP3 and other media``."
+msgstr ""
+"**Не выбірайце** ўсталяванне старонніх праграм для графікі і Wi-Fi, Flash, "
+"MP3 і іншых медыя."
+
+#: ../../efi.rst:17
+msgid "Disable ``SecureBoot`` in the ``BIOS`` settings of your computer."
+msgstr "Адключыце налады ``SecureBoot``у ``BIOS`` вашага камп'ютара."
+
+#: ../../efi.rst:20
+msgid ""
+"For examples of how to disable secure boot on various computers, read "
+"`Managing EFI Boot Loaders for Linux: Dealing with Secure Boot "
+"<http://www.rodsbooks.com/efi-bootloaders/secureboot.html>`_."
+msgstr ""
+"Каб удакладніць, як адключыць бяспечную загрузку на розных камп'ютарах, "
+"можна пачытаць `Managing EFI Boot Loaders for Linux: Dealing with Secure "
+"Boot <http://www.rodsbooks.com/efi-bootloaders/secureboot.html>`_."
+
+#: ../../efi.rst:23
+msgid "EFI boot order"
+msgstr "Прыярытэт загрузкі EFI"
+
+#: ../../efi.rst:25
+msgid ""
+"If after installing Linux Mint in EFI mode, your computer skips the boot "
+"menu and boots straight into Windows (or another operating system), you "
+"probably have an issue with the boot order."
+msgstr ""
+"Калі пасля ўсталявання Linux Mint у рэжыме EFI ваш камп'ютар прапускае меню "
+"загрузкі і адразу загружае Windows (ці іншую аперацыйную сістэму), вы "
+"магчыма маеце праблему з прыярытэтам загрузкі."
+
+#: ../../efi.rst:27
+msgid "To modify the boot order:"
+msgstr "Каб змяніць прыярытэт загрузкі:"
+
+#: ../../efi.rst:29 ../../multiboot.rst:18
+msgid "Boot Linux Mint in ``live`` mode (with your USB stick or DVD)."
+msgstr "Загрузіце Linux Mint у ``жывым`` рэжыме (з USB ці DVD дыска)."
+
+#: ../../efi.rst:31 ../../multiboot.rst:20
+msgid "Open a terminal."
+msgstr "Адкрыйце тэрмінал."
+
+#: ../../efi.rst:33
+msgid "Type ``sudo efibootmgr`` and press :kbd:`Enter`."
+msgstr "Набярыце ``sudo efibootmgr`` і націсніце :kbd:`Enter`."
+
+#: ../../efi.rst:35
+msgid "This command lists the available boot options and the boot order."
+msgstr ""
+"Гэта каманда пакажа спіс даступных варыянтаў загрузкі і прыярытэт загрузкі."
+
+#: ../../efi.rst:41
+msgid "In the screenshot above, there are three boot options:"
+msgstr "На скрыншоце вышэй паказаны тры варыянты загрузкі:"
+
+#: ../../efi.rst:43
+msgid "``ubuntu`` at ``0000``"
+msgstr "``ubuntu`` на ``0000``"
+
+#: ../../efi.rst:44
+msgid "``linuxmint`` at ``0001``"
+msgstr "``linuxmint`` на ``0001``"
+
+#: ../../efi.rst:45
+msgid "``Mac OS X`` at ``0081``"
+msgstr "``Mac OS X`` на ``0081``"
+
+#: ../../efi.rst:47
+msgid ""
+"The boot order is ``0081``. This indicates that the computer only tries to "
+"boot Mac OS and not Linux Mint."
+msgstr ""
+"Прыярытэт загрузкі ўсталяваны на ``0081``. Гэта паказвае, што камп'ютар "
+"спрабуе загрузіць толькі Mac OS, але не Linux Mint."
+
+#: ../../efi.rst:50
+msgid ""
+"For technical reasons Linux Mint uses ``ubuntu`` as its EFI boot name."
+msgstr ""
+"Па тэхнічных прычынах Linux Mint выкарыстоўвае ``ubuntu`` як імя загрузкі ў "
+"EFI."
+
+#: ../../efi.rst:53
+msgid ""
+"To fix the boot order, type ``sudo efibootmgr --bootorder XXXX,YYYY`` (where "
+"``XXXX`` and ``YYYY`` are the operating system boot options you want to "
+"boot)."
+msgstr ""
+"Каб выправіць прыярытэт загрузкі, увядзіце ``sudo efibootmgr --bootorder "
+"XXXX,YYYY`` (дзе ``XXXX`` і ``YYYY`` гэта аперацыйныя сістэмы, якія вы "
+"жадаеце загружаць)."
+
+#: ../../efi.rst:59
+msgid ""
+"In the screenshot above, ``sudo efibootmgr --bootorder 0000,0081`` instructs "
+"the computer to first try to boot Linux Mint (``ubuntu`` being the EFI boot "
+"name for Linux Mint), and then Mac OS."
+msgstr ""
+"На скрыншоце вышэй ``sudo efibootmgr --bootorder 0000,0081`` загадвае "
+"камп'ютару спачатку спрабаваць загрузіць Linux Mint (``ubuntu`` "
+"выкарыстоўваецца як імя загрузкі для Linux Mint у EFI), а затым Mac OS."
+
+#: ../../efi.rst:64
+msgid ""
+"In the screenshot above ``0000`` is the first boot option so the computer "
+"boots on the Linux Mint grub menu. If grub fails (or if it is dismissed with "
+"the ``exit`` command), the computer follows the boot order and then tries to "
+"boot ``0081``, which corresponds to Mac OS."
+msgstr ""
+"На скрыншоце вышэй, ``0000`` - першы варыянт, таму камп'ютар загружаецца з "
+"grub меню Linux Mint. Калі grub збіваецца (або адменены камандай ``exit``), "
+"камп'ютар выбірае наступны па прыярытэту варыянт і спрабуе загрузіць "
+"``0081``, што адпавядае Mac OS."
+
+#: ../../help.rst:2
+msgid "Where to find help"
+msgstr "Дзе знайсці дапамогу"
+
+#: ../../help.rst:4
+msgid ""
+"Many users will be glad to help you and guide you through your first steps "
+"with Linux if you are nice and patient with them and if you give them the "
+"information they require to understand the issues you are facing."
+msgstr ""
+"Многія карыстальнікі з задавальненнем дапамогуць вам і накіруюць падчас "
+"першых крокаў з Linux, калі вы будзеце мілымі і цярплівымі з імі і калі вы "
+"дадзіце ім інфармацыю, неабходную каб зразумець вашу праблему."
+
+#: ../../help.rst:7
+msgid "The forums"
+msgstr "Форумы"
+
+#: ../../help.rst:9
+msgid ""
+"The best place to find help is on the `Linux Mint Forums "
+"<https://forums.linuxmint.com>`_."
+msgstr ""
+"Лепшае месца каб знайсці дапамогу - `Linux Mint Forums "
+"<https://forums.linuxmint.com>`_."
+
+#: ../../help.rst:12
+msgid ""
+"Search the forums before asking, in case someone else already asked the same "
+"question."
+msgstr ""
+"Пашукайце на форумах перад тым, як запытацца, хутчэй за ўсё нехта ўжо "
+"задаваў такое ж пытанне."
+
+#: ../../help.rst:15
+msgid "The chat room"
+msgstr "Чат"
+
+#: ../../help.rst:17
+msgid "Another great place to find help is in the IRC chat room."
+msgstr "Іншае выдатнае месца каб знайсці дапамогу - чат IRC."
+
+#: ../../help.rst:19
+msgid ""
+"To reach the chat room from within Linux Mint, launch :menuselection:`Menu --"
+"> Internet --> HexChat`."
+msgstr ""
+"Каб увайсці ў чат у Linux Mint, запусціце :menuselection:`Меню --> Інтэрнэт -"
+"-> HexChat`."
+
+#: ../../help.rst:21
+msgid ""
+"If you are using another operating system, you can use `Kiwiirc "
+"<https://kiwiirc.com/client/irc.spotchat.org/?i#linuxmint-help>`_ to connect "
+"to the chat room."
+msgstr ""
+"Калі вы карыстаецеся іншай аперацыйнай сістэмай, можаце скарыстацца `Kiwiirc "
+"<https://kiwiirc.com/client/irc.spotchat.org/?i#linuxmint-help>`_ для "
+"далучэння да чата."
+
+#: ../../help.rst:24
+msgid ""
+"Many people are connected to the chat room but only look at it now and then. "
+"Be patient after asking a question. Don't repeat it and stay connected until "
+"you get an answer. It can sometimes take a few hours for somebody to see "
+"your question and reply to you. Don't quit after a few minutes. It is "
+"frustrating to you, but also to others who later see your question and are "
+"unable to reply because you already left."
+msgstr ""
+"Многія падлучаны да чата, але толькі раз-пораз глядзяць туды. Будзьце "
+"цярплівымі пасля таго, як зададзіце пытанне. Не паўтарайце яго і заставайце "
+"падлучанымі да таго, як атрымаеце адказ. Часам прыйдзецца пачакаць некалькі "
+"гадзін, перад тым як нехта ўбачыць ваша пытанне і адкажа на яго. Не "
+"сыходзьце пасля некалькіх хвілін. Гэта расчараванне як для вас, так і для "
+"тых, хто пазней убачыць ваша пытанне, але не зможа адказаць, таму што вы ўжо "
+"сышлі."
+
+#: ../../help.rst:27
+msgid ""
+"If you are using Hexchat, you can minimize it to tray by clicking its status "
+"icon. People will often mention your nickname when replying to you. When "
+"they do, your Hexchat status icon will blink to catch your attention."
+msgstr ""
+"Калі вы карыстаецеся Hexchat, вы можаце зменшыць яго да трэя, націснуўшы на "
+"значку статуса. Людзі будуць часта ўказваць ваша імя, калі адказваюць вам. "
+"Калі гэта адбудзецца, ваш значок статуса Hexchat блісне каб прыцягнуць вашу "
+"ўвагу."
+
+#: ../../help.rst:30
+msgid "Community resources"
+msgstr "Рэсурсы супольнасці"
+
+#: ../../help.rst:32
+msgid ""
+"The `tutorials section <https://community.linuxmint.com/tutorial/search>`_ "
+"is useful to find tutorials about Linux Mint."
+msgstr ""
+"`Секцыя дапаможнікаў <https://community.linuxmint.com/tutorial/search>`_ "
+"карысная каб знайсці дапаможнікі аб Linux Mint."
+
+#: ../../help.rst:34
+msgid ""
+"The `hardware database <https://community.linuxmint.com/hardware/search>`_ "
+"is useful to find compatible hardware."
+msgstr ""
+"`База даных абсталявання <https://community.linuxmint.com/hardware/search>`_ "
+"карысная каб знайсці сумяшчальнасць абсталявання."
+
+#: ../../help.rst:37
+msgid "Local communities"
+msgstr "Мясцовыя супольнасці"
+
+#: ../../help.rst:39
+msgid ""
+"To find help in your language, use the `Local Communities "
+"<https://www.linuxmint.com/links.php>`_."
+msgstr ""
+"Каб знайсці дапамогу на роднай мове, пашукайце `Мясцовыя супольнасці "
+"<https://www.linuxmint.com/links.php>`_."
+
+#: ../../index.rst:2
+msgid "Linux Mint Installation Guide"
+msgstr "Кіраўніцтва па ўсталяванні Linux Mint"
+
+#: ../../index.rst:8
+msgid ""
+"Linux Mint comes in the form of an ISO image (an .iso file) which can be "
+"used to make a bootable DVD or a bootable USB stick."
+msgstr ""
+"Linux Mint пастаўляецца ў выглядзе вобраза ISO (файл .iso), які можна "
+"выкарыстаць для стварэння загрузачнага DVD або USB дыска."
+
+#: ../../index.rst:10
+msgid ""
+"This guide will help you download the right ISO image, create your bootable "
+"media and install Linux Mint on your computer."
+msgstr ""
+"Гэта кіраўніцтва дапаможа вам спампаваць правільны вобраз ISO, стварыць ваш "
+"загрузачны носьбіт і ўсталяваць Linux Mint на ваш камп'ютар."
+
+#: ../../index.rst:12 ../../sections.rst:5
+msgid "Download"
+msgstr "Спампоўка"
+
+#: ../../index.rst:19 ../../sections.rst:7
+msgid "Live Boot"
+msgstr "Жывая загрузка"
+
+#: ../../index.rst:26 ../../sections.rst:9
+msgid "Installation"
+msgstr "Усталяванне"
+
+#: ../../index.rst:32 ../../sections.rst:11
+msgid "Post-installation"
+msgstr "Пасля ўсталявання"
+
+#: ../../index.rst:41 ../../sections.rst:13
+msgid "Troubleshooting"
+msgstr "Выпраўленне непаладак"
+
+#: ../../index.rst:48 ../../sections.rst:15
+msgid "Frequently Asked Questions"
+msgstr "Частыя пытанні"
+
+#: ../../install.rst:2
+msgid "Install Linux Mint"
+msgstr "Усталяваць Linux Mint"
+
+#: ../../install.rst:5
+msgid "The live session"
+msgstr "Жывая сесія"
+
+#: ../../install.rst:7
+msgid ""
+"When you boot the computer from the USB stick (or DVD), Linux Mint starts a "
+"``live session``. It logs you in automatically as a user called ``mint`` and "
+"shows you a desktop with the installer on it:"
+msgstr ""
+"Калі вы загружаеце камп'ютар з USB (ці DVD) дыска, Linux Mint запускае жывую "
+"сесію (``live session``). Яна аўтаматычна стварае для вас карыстальніка "
+"``mint`` і паказвае працоўны стол з усталёўшчыкам:"
+
+#: ../../install.rst:13
+msgid "The Linux Mint live session"
+msgstr "Жывая сесія Linux Mint"
+
+#: ../../install.rst:15
+msgid ""
+"The ``live session`` is similar to a normal session (i.e. to Linux Mint once "
+"it is permanently installed on the computer), but with the following "
+"exceptions:"
+msgstr ""
+"Жывая сесія падобна да звычайнай сесіі (калі Linux Mint пастаянна ўсталяваны "
+"на камп'ютар), але з некаторымі выключэннямі:"
+
+#: ../../install.rst:17
+msgid ""
+"The Live session is slower (it is loaded from a USB stick or DVD as opposed "
+"to a SSD or HDD)."
+msgstr ""
+"Жывая сесія маруднейшая (яна загружаецца з USB ці DVD дыска, а не з больш "
+"хуткіх SSD ці HDD)."
+
+#: ../../install.rst:18
+msgid ""
+"Changes you make in the live session are not permanent. They are not written "
+"to the USB stick (or DVD) and they do not impact the system installed by the "
+"installer."
+msgstr ""
+"Усе змены, якія вы робіце ў жывой сесіі, непастаянныя. Яны не запісваюцца на "
+"USB (ці DVD) дыск і яны не ўздзейнічаюць на сістэму, усталяваную з дапамогай "
+"усталёўшчыка."
+
+#: ../../install.rst:19
+msgid ""
+"Some applications work differently (or not at all) in the live session "
+"(Timeshift, Flatpak, Update Manager, Welcome Screen..etc.)."
+msgstr ""
+"Асобныя праграмы працуюць па-іншаму (або не працуюць зусім) у жывой сесіі "
+"(Timeshift, Flatpak, Кіраўнік абнаўленняў, Прывітальны экран..і інш.)."
+
+#: ../../install.rst:22
+msgid ""
+"The username for the live session is ``mint``. If asked for a password press "
+":kbd:`Enter`."
+msgstr ""
+"Імя карыстальніка для жывой сесіі - ``mint``. Калі запытваецца пароль - "
+"націсніце :kbd:`Enter`."
+
+#: ../../install.rst:25
+msgid "Installing Linux Mint on the computer"
+msgstr "Усталяванне Linux Mint на камп'ютар"
+
+#: ../../install.rst:27
+msgid "To permanently install Linux Mint on your computer:"
+msgstr "Каб пастаянна ўсталяваць Linux Mint на ваш камп'ютар:"
+
+#: ../../install.rst:29
+msgid "Double-click :guilabel:`Install Linux Mint`."
+msgstr "Двойчы націсніце на :guilabel:`Install Linux Mint`."
+
+#: ../../install.rst:31
+msgid "Select your language."
+msgstr "Выберыце вашу мову."
+
+#: ../../install.rst:37
+msgid "Connect to the Internet."
+msgstr "Падлучыцеся да інтэрнэта."
+
+#: ../../install.rst:43
+msgid ""
+"If you are connected to the Internet, tick the box to install the multimedia "
+"codecs."
+msgstr ""
+"Калі вы падлучаны да інтэрнэта, пазначце птушку каб усталяваць мультымедыя "
+"кодэкі."
+
+#: ../../install.rst:49
+msgid "Choose an installation type."
+msgstr "Выберыце тып усталёўкі."
+
+#: ../../install.rst:55
+msgid ""
+"If Linux Mint is the only operating system you want to run on this computer "
+"and all data can be lost on the hard drive, choose :guilabel:`Erase disk and "
+"install Linux Mint`."
+msgstr ""
+"Калі Linux Mint - адзіная аперацыйная сістэма, якую вы жадаеце запускаць на "
+"гэтым камп'ютары і ўсе даныя на жорсткім дыску могуць быць страчаны, "
+"выберыце :guilabel:'Сцерці дыск і ўсталяваць Linux Mint'."
+
+#: ../../install.rst:58
+msgid ""
+":guilabel:`Encrypt the new Linux Mint installation for security` refers to "
+"full disk encryption. At this stage of the installation your keyboard layout "
+"wasn't yet selected so it is set to en_US. If you decide to use this option, "
+"keep this in mind when entering a password. Note that there are issues with "
+"this option and some NVIDIA drivers. If you are new to Linux use home "
+"directory encryption instead (you can select it later during the "
+"installation)."
+msgstr ""
+":guilabel:'Зашыфраваць новую ўсталёўку для бяспекі' спасылаецца на поўнае "
+"шыфраванне дыска. На гэтай стадыі ўсталёўкі ваша раскладка клавіятуры яшчэ "
+"не выбрана, таму дзейнічае перадвызначаная en_US. Калі вы вырашыце "
+"скарыстацца опцыяй шыфравання, майце гэта на ўвазе падчас уводу пароля. "
+"Майце на ўвазе, што сустракаюцца праблемы з гэтай опцыяй і асобнымі "
+"драйверамі NVIDIA. Калі вы навічок у Linux, скарыстайцеся замест гэтага "
+"шыфраваннем хатняга каталога (вы зможаце выбраць гэта пазней падчас "
+"усталявання)."
+
+#: ../../install.rst:60
+msgid ""
+"If another operating system is present on the computer, the installer shows "
+"you an option to install Linux Mint alongside it. If you choose this option, "
+"the installer automatically resizes your existing operating system, makes "
+"room and installs Linux Mint beside it. A boot menu is set up to choose "
+"between the two operating systems each time you start your computer."
+msgstr ""
+"Калі іншая аперацыйная сістэма прысутнічае на камп'ютары, усталёўшчык пакажа "
+"вам варыянт усталяваць Linux Mint побач. Пры выбары гэтага варыянта "
+"ўсталёўшчык аўтаматычна зменіць памер існуючай аперацыйнай сістэмы, "
+"выдзеліць месца і ўсталюе Linux Mint побач. Меню загрузкі будзе наладжана "
+"каб выбіраць паміж дзвюма аперацыйнымі сістэмамі кожны раз пры запуску "
+"камп'ютара."
+
+#: ../../install.rst:64
+msgid ""
+"If you want to manage the partitions or specify which partitions to use, "
+"select :guilabel:`Something else`."
+msgstr ""
+"Калі жадаеце кіраваць падзеламі дыска і ўручную вызначыць якія падзелы "
+"выкарыстоўваць, выберыце :guilabel:'Іншы варыянт'."
+
+#: ../../install.rst:70
+msgid ""
+"Linux Mint requires one partition to be mounted on the root ``/`` directory."
+msgstr ""
+"Linux Mint патрабуе адзін падзел, каб прымантаваць каранёвы каталог ``/``."
+
+#: ../../install.rst:72
+msgid ""
+"The Linux Mint operating system (without additional software or personal "
+"data) takes roughly 15GB, so give this partition a decent size (100GB or "
+"more)."
+msgstr ""
+"Аперацыйная сістэма Linux Mint (без дадатковых праграм ці асабістых даных) "
+"займае каля 15 ГБ, таму выдзеліце на гэты падзел дастаткова прасторы (100 ГБ "
+"ці болей)."
+
+#: ../../install.rst:74
+msgid "``ext4`` is recommended. It is the most popular Linux filesystem."
+msgstr ""
+"Рэкамендуецца ``ext4``. Гэта найбольш папулярная файлавая сістэма для Linux."
+
+#: ../../install.rst:79
+msgid ""
+"Also create a ``swap`` partition. This partition is used for hibernation and "
+"as a safety buffer in case your computer runs out of RAM. Give this "
+"partition a size equal to the amount of RAM in your computer."
+msgstr ""
+"Таксама стварыце падзел ``swap``. Гэты падзел выкарыстоўваецца падчас "
+"гібернацыі і як бяспечны буфер, калі камп'ютару не хапае памяці. Задайце "
+"гэтаму падзелу памер роўны аперацыйнай памяці (RAM) вашага камп'ютара."
+
+#: ../../install.rst:81
+msgid "Select your timezone"
+msgstr "Выберыце часавы пояс"
+
+#: ../../install.rst:87
+msgid "Select your keyboard layout"
+msgstr "Выберыце вашу раскладку клавіятуры"
+
+#: ../../install.rst:93
+msgid "Enter your user details"
+msgstr "Увядзіце падрабязнасці пра вашага карыстальніка"
+
+#: ../../install.rst:99
+msgid ""
+"Your ``name`` can be your real name, but it doesn't have to be. It is only "
+"used locally, in the screensaver and on the login screen."
+msgstr ""
+"Ваша ``імя``можа быць ваша сапраўднае імя, але неабавязкова. Яно "
+"выкарыстоўваецца толькі тут, на застаўцы і на экране ўваходу ў сістэму."
+
+#: ../../install.rst:101
+msgid ""
+"Your ``username`` is what you log in as, and your ``hostname`` is the name "
+"of your computer on the network."
+msgstr ""
+"Ваша ``імя карыстальніка`` - імя для ўваходу ў сістэму (лагін), а ``імя "
+"хаста`` - імя вашага камп'ютара ў сетцы."
+
+#: ../../install.rst:103
+msgid ""
+"To prevent bugs only use lowercase characters, with no punctuation or "
+"accentuation."
+msgstr ""
+"Каб засцерагчыся ад памылак, выкарыстоўвайце толькі сімвалы ніжняга "
+"рэгістра, без знакаў пунктуацыі ці падкрэслівання."
+
+#: ../../install.rst:105
+msgid ""
+"To protect your personal data against local attacks (people around you, or "
+"in case your computer gets stolen), tick :guilabel:`Encrypt my home folder`."
+msgstr ""
+"Каб засцерагчы вашы асабістыя даныя ад мясцовых атак (людзей вакол вас, ці ў "
+"выпадку крадзяжу камп'ютара), выберыце :guilabel:'Зашыфраваць хатнюю папку'."
+
+#: ../../install.rst:107
+msgid "Choose a strong password."
+msgstr "Выберыце моцны пароль."
+
+#: ../../install.rst:109
+msgid "Enjoy the slideshow while Linux Mint is installed on your computer."
+msgstr ""
+"Насалоджвайцеся слайдамі пакуль Linux Mint усталёўваецца на ваш камп'ютар."
+
+#: ../../install.rst:115
+msgid "When the installation is finished, click :guilabel:`Restart Now`."
+msgstr ""
+"Калі ўсталяванне скончыцца, націсніце :guilabel:'Перазапусціць зараз'."
+
+#: ../../install.rst:121
+msgid ""
+"The computer will then start to shut down and ask you to remove the USB disk "
+"(or DVD). Upon reboot, your computer should show you a boot menu or start "
+"your newly installed Linux Mint operating system."
+msgstr ""
+"Затым камп'ютар пачне выключацца і папросіць вас выняць USB (ці DVD) дыск. "
+"Пасля перазагрузкі ваш камп'ютар павінен паказаць вам ваша меню загрузкі або "
+"запусціць вашу новую аперацыйную сістэму Linux Mint."
+
+#: ../../locales.rst:2
+msgid "Language support"
+msgstr "Моўная падтрымка"
+
+#: ../../locales.rst:4
+msgid ""
+"Language support includes translations but also packages related to spell-"
+"checking, synonyms, hyphenation and dictionaries which enhance your "
+"experience in software applications such as LibreOffice."
+msgstr ""
+"Моўная падтрымка ўключае пераклады, але таксама пакеты па праверцы "
+"напісання, сінонімаў, націскаў і слоўнікі, якія палепшаць ваш досвед працы з "
+"праграмамі кшталту LibreOffice."
+
+#: ../../locales.rst:6
+msgid "Launch :menuselection:`Menu --> Preferences --> Languages`."
+msgstr "Запусціце :menuselection:'Меню --> Налады --> Мовы'."
+
+#: ../../locales.rst:12
+msgid "Click :guilabel:`Install / Remove Language`."
+msgstr "Націсніце :guilabel:'Усталяваць / Выдаліць мовы'."
+
+#: ../../locales.rst:18
+msgid ""
+"If beside your locale, you see a label saying ``Some language packs are "
+"missing``, select your locale and click :guilabel:`Install language packs`."
+msgstr ""
+"Калі побач з мовай вы бачыце ярлык 'Некаторыя моўныя пакеты адсутнічаюць', "
+"выберыце мову і націсніце :guilabel:'Усталяваць моўныя пакеты'."
+
+#: ../../multiboot.rst:2
+msgid "Multi-boot"
+msgstr "Мультызагрузка"
+
+#: ../../multiboot.rst:5
+msgid "Always install Windows first"
+msgstr "Заўсёды ўсталёўвайце Windows першай"
+
+#: ../../multiboot.rst:7
+msgid ""
+"Windows does not detect other operating systems and does not feature a boot "
+"menu. When you install it, it overwrites your boot sequence and your "
+"computer then boots straight into Windows."
+msgstr ""
+"Windows не можа вызначыць іншыя аперацыйныя сістэмы і не падтрымлівае меню "
+"загрузкі. Калі вы ўсталёўваеце яе, яна перапісвае вашу паслядоўнасць "
+"загрузкі і ваш камп'ютар затым запускае толькі Windows."
+
+#: ../../multiboot.rst:9
+msgid ""
+"Linux Mint (and most Linux distributions) detects other operating systems "
+"and builds a menu from which you can choose which system to boot."
+msgstr ""
+"Linux Mint (і большасць іншых дыстрыбутываў Linux) вызначаюць іншыя "
+"аперацыйныя сістэмы і ствараюць меню, з якога вы можаце выбраць сістэму для "
+"загрузкі."
+
+#: ../../multiboot.rst:11
+msgid ""
+"For this reason, if you want to dual-boot or multi-boot with Windows, it is "
+"easier and recommended to install Windows first, before you install Linux "
+"Mint."
+msgstr ""
+"Па гэтай прычыне, калі вам патрэбна двайная ці мультызагрузка з Windows, "
+"рэкамендуецца ўсталяваць Windows першай, перад усталяваннем Linux Mint."
+
+#: ../../multiboot.rst:14
+msgid "Fix the boot sequence"
+msgstr "Выправіць паслядоўнасць загрузкі"
+
+#: ../../multiboot.rst:16
+msgid "If Windows overwrites your boot sequence:"
+msgstr "Калі Windows перапісвае вашу паслядоўнасць загрузкі:"
+
+#: ../../multiboot.rst:22
+msgid "To list your partitions, type ``lsblk -f`` and press :kbd:`Enter`."
+msgstr ""
+"Каб паглядзець спіс вашых падзелаў, набярыце ``lsblk -f`` і націсніце "
+":kbd:`Enter`."
+
+#: ../../multiboot.rst:28
+msgid ""
+"Find the partition where Linux Mint is installed. On most systems this "
+"should be the only ``ext4`` partition."
+msgstr ""
+"Знайдзіце падзел з усталяваным Linux Mint. У большасці сістэм гэта павінен "
+"быць толькі падзел ``ext4``."
+
+#: ../../multiboot.rst:30
+msgid "In the screenshot above:"
+msgstr "На здымку экрана вышэй:"
+
+#: ../../multiboot.rst:32
+msgid ""
+"``sdb`` is the USB stick (recognizable by its ``iso9660`` type which "
+"corresponds to an ISO image)."
+msgstr ""
+"``sdb`` - гэта USB дыск (распазнаны па яго тыпу ``iso9660``, які адпавядае "
+"вобразу ISO)."
+
+#: ../../multiboot.rst:33
+msgid "``sda`` is the hard drive."
+msgstr "``sda`` - гэта жорсткі дыск."
+
+#: ../../multiboot.rst:34
+msgid ""
+"``sda4`` is the partition on the ``sda`` hard drive, where Linux Mint is "
+"installed."
+msgstr ""
+"``sda4`` - гэта падзел на жорсткім дыску ``sda``, дзе ўсталяваны Linux Mint."
+
+#: ../../multiboot.rst:36
+msgid "To list partition sizes, type ``lsblk``:"
+msgstr "Каб паказаць памер падзелаў, увядзіце ``lsblk``:"
+
+#: ../../multiboot.rst:42
+msgid "To list partition labels, type ``blkid``:"
+msgstr "Каб паказаць ярлыкі падзелаў, увядзіце ``blkid``:"
+
+#: ../../multiboot.rst:48
+msgid ""
+"Mount the Linux Mint partition and reinstall the grub menu with the "
+"following commands:"
+msgstr ""
+"Прымантуйце падзел Linux Mint і пераўсталюйце меню grub наступнымі камандамі:"
+
+#: ../../multiboot.rst:56
+msgid ""
+"In the commands above, replace /dev/sda4 and /dev/sda with the appropriate "
+"names for your Linux Mint partition and your hard drive device."
+msgstr ""
+"У камандах вышэй, замяніце /dev/sda4 і /dev/sda на адпаведныя імёны вашага "
+"падзела Linux Mint і вашага жорсткага дыска."
+
+#: ../../oem.rst:2
+msgid "Pre-installing Linux Mint (OEM Installation)"
+msgstr "Перадусталёўка Linux Mint (усталёўка OEM)"
+
+#: ../../oem.rst:4
+msgid ""
+"In the ISO boot menu, ``OEM install`` is used to preinstall Linux Mint."
+msgstr ""
+"У меню загрузкі ISO, ``Усталёўка OEM`` выкарыстоўваецца для перадусталёўкі "
+"Linux Mint."
+
+#: ../../oem.rst:6
+msgid "This option is useful to:"
+msgstr "Гэта опцыя карысна для:"
+
+#: ../../oem.rst:8
+msgid ""
+"Manufacturers and resellers who want to install Linux Mint on computers they "
+"sell to their customers."
+msgstr ""
+"Вытворцаў і прадаўцоў, якія жадаюць усталяваць Linux Mint на камп'ютары, "
+"якія яны прадаюць сваім кліентам."
+
+#: ../../oem.rst:9
+msgid "People who want to sell or give their computer to somebody else."
+msgstr "Тых, хто жадае прадаць або перадаць іх камп'ютар камусьці яшчэ."
+
+#: ../../oem.rst:11
+msgid ""
+"When you install Linux Mint in ``OEM`` mode, the operating system is "
+"installed with a temporary user account and prepared for the computer's "
+"future owner."
+msgstr ""
+"Калі вы ўсталёўваеце Linux Mint у рэжыме ``OEM``, аперацыйная сістэма "
+"ўсталёўваецца з часовым уліковым запісам карыстальніка і падрыхтавана для "
+"будучага ўласніка камп'ютара."
+
+#: ../../oem.rst:13
+msgid "The user account is set up by the new owner."
+msgstr "Уліковы запіс задаецца новым уласнікам."
+
+#: ../../oem.rst:15
+msgid "To perform an OEM installation follow the steps below:"
+msgstr "Каб выканаць усталёўку OEM, выканайце наступныя крокі:"
+
+#: ../../oem.rst:17
+msgid "Select ``OEM Install`` from the USB stick (or DVD) menu."
+msgstr "Выберыце ``Усталёўка OEM`` з меню USB (ці DVD) дыска."
+
+#: ../../oem.rst:19
+msgid "Launch the installer and follow the installation instructions."
+msgstr "Запусціце ўсталёўшчык і ідзіце паводле інструкцыі."
+
+#: ../../oem.rst:23
+msgid ""
+"Change any system settings or install additional software if you want."
+msgstr ""
+"Змяняйце любыя сістэмныя налады або ўсталюйце дадатковыя праграмы, калі "
+"жадаеце"
+
+#: ../../oem.rst:25
+msgid ""
+"When ready, click :guilabel:`Prepare for shipping to end user`, enter the "
+"password you chose during the installation, click :guilabel:`OK` and shut "
+"down the computer."
+msgstr ""
+"Калі гатовыя, націсніце :guilabel:'Падрыхтавацца даставіць канчатковаму "
+"карыстальніку', увядзіце пароль, які выбралі падчас усталявання, націсніце "
+":guilabel:`OK` і выключыце камп'ютар."
+
+#: ../../oem.rst:31
+msgid ""
+"When the new owner of the computer boots the computer the following screen "
+"appears:"
+msgstr ""
+"Калі новы ўласнік камп'ютара загрузіць гэты камп'ютар, з'явіцца наступны "
+"экран:"
+
+#: ../../oem.rst:37
+msgid ""
+"The new owner selects his or her username, password, keyboard layout, "
+"language, timezone and all the details relevant to create his or her user "
+"account."
+msgstr ""
+"Новы ўласнік выбірае яго/яе імя карыстальніка, пароль, раскладку клавіятуры, "
+"мову, часавы пояс і ўсю патрэбную інфармацыю для яго/яе ўліковага запісу."
+
+#: ../../partitioning.rst:2
+msgid "Partitioning"
+msgstr "Падзел"
+
+#: ../../partitioning.rst:5
+msgid "Disks and partitions under Linux"
+msgstr "Дыскі і падзелы ў Linux"
+
+#: ../../partitioning.rst:7
+msgid ""
+"If you are not familiar with the Linux naming scheme for devices and "
+"partitions, or the concept of filesystems and mount points, read:"
+msgstr ""
+"Калі вы незнаёмы са схемай назваў прылад і падзелаў у Linux, або канцэпцыяй "
+"файлавых сістэм і пунктаў мантавання, можна пачытаць:"
+
+#: ../../partitioning.rst:9
+msgid ""
+"`A beginner’s guide to disks and disk partitions in Linux "
+"<http://linuxbsdos.com/2014/11/08/a-beginners-guide-to-disks-and-disk-"
+"partitions-in-linux/>`_"
+msgstr ""
+"`A beginner’s guide to disks and disk partitions in Linux "
+"<http://linuxbsdos.com/2014/11/08/a-beginners-guide-to-disks-and-disk-"
+"partitions-in-linux/>`_"
+
+#: ../../partitioning.rst:10
+msgid ""
+"`Device Names in Linux "
+"<https://www.debian.org/releases/wheezy/amd64/apcs04.html.en>`_"
+msgstr ""
+"`Device Names in Linux "
+"<https://www.debian.org/releases/wheezy/amd64/apcs04.html.en>`_"
+
+#: ../../partitioning.rst:11
+msgid ""
+"`Understanding the Linux File System "
+"<http://etutorials.org/Linux+systems/red+hat+linux+9+professional+secrets/Par"
+"t+II+Exploring+Red+Hat+Linux/Chapter+7+Red+Hat+Linux+Basics/Understanding+the"
+"+Linux+File+System/>`_"
+msgstr ""
+"`Understanding the Linux File System "
+"<http://etutorials.org/Linux+systems/red+hat+linux+9+professional+secrets/Par"
+"t+II+Exploring+Red+Hat+Linux/Chapter+7+Red+Hat+Linux+Basics/Understanding+the"
+"+Linux+File+System/>`_"
+
+#: ../../partitioning.rst:14
+msgid "Dedicated /home partition"
+msgstr "Выдзелены хатні падзел /home"
+
+#: ../../partitioning.rst:16
+msgid ""
+"In Linux, the ``/home`` directory is used to store user data and preferences."
+msgstr ""
+"У Linux, каталог ``/home`` выкарыстоўваецца для захавання даных і наладаў "
+"карыстальніка."
+
+#: ../../partitioning.rst:18
+msgid ""
+"This directory contains one subdirectoy for each user account. Say your "
+"username is ``john``, your home directory is ``/home/john``, your downloads "
+"are in ``/home/john/Downloads``, your documents in ``/home/john/Documents``, "
+"your Firefox bookmarks somewhere in ``/home/john/.mozilla`` and so on..."
+msgstr ""
+"Гэты каталог уключае па адным падкаталогу для кожнага ўліковага запісу. "
+"Напрыклад, ваша імя карыстальніка ``john``, ваш дамашні каталог будзе "
+"``/home/john``, вашы спампоўкі будуць у ``/home/john/Downloads``, вашы "
+"дакументы ў ``/home/john/Documents``, вашы закладкі Firefox недзе ў "
+"``/home/john/.mozilla`` і гэтак далей..."
+
+#: ../../partitioning.rst:20
+msgid ""
+"By giving ``/home`` its own dedicated partition, you separate the user data "
+"from the rest of the operating system."
+msgstr ""
+"Выдзяленне асобнага падзелу для ``/home`` аддзяляе даныя карыстальніка ад "
+"рэшты аперацыйнай сістэмы."
+
+#: ../../partitioning.rst:22
+msgid ""
+"The advantage is that you can wipe the operating system and replace it "
+"without affecting the user data."
+msgstr ""
+"Перавага ў тым, што вы можаце сцерці аперацыйную сістэму і замяніць яе без "
+"уплыву на даныя карыстальніка."
+
+#: ../../partitioning.rst:24
+msgid "When installing Linux Mint:"
+msgstr "Калі ўсталёўваеце Linux Mint:"
+
+#: ../../partitioning.rst:26
+msgid ""
+"Assign the ``/`` mount point to the partition dedicated to the operating "
+"system, and tell the installer to format it."
+msgstr ""
+"Прызначце кропку мантавання ``/`` на падзел, адведзены аперацыйнай сістэме, "
+"і загадайце ўсталёўшчыку фармаціраваць яго."
+
+#: ../../partitioning.rst:28
+msgid ""
+"Assign the ``/home`` mount point to the partition dedicated to the user "
+"data, and if it contains user data already, make sure to tell the installer "
+"**not to format it**."
+msgstr ""
+"Прызначце кропку мантавання ``/home`` на падзел, адведзены для даных "
+"карыстальніка, а калі ён ужо ўключае даныя карыстальніка, упэўніцеся ў "
+"загадзе ўсталёўшчыку **не фармаціраваць яго**."
+
+#: ../../partitioning.rst:31
+msgid ""
+"This is not recommended for novice users. A misstep during the installation "
+"could wipe all your data. Always make backups, make sure to select the right "
+"partitions and to carefully review formatting options."
+msgstr ""
+"Гэта не рэкамендуецца для навічкоў. Няправільны крок падчас усталявання можа "
+"сцерці ўсе вашы даныя. Заўсёды рабіце рэзервовыя копіі, упэўніцеся ў выбары "
+"правільнага падзела і ўважліва праглядайце налады фармаціравання."
+
+#: ../../partitioning.rst:34
+msgid ""
+"A Linux Mint operating system takes about 15GB and grows as you install "
+"additional software. If you can spare the size, give it 100GB. Keep most of "
+"your free space for the home partition. User data (downloads, videos, "
+"pictures) takes a lot more space."
+msgstr ""
+"Аперацыйная сістэма Linux Mint займае каля 15 ГБ і займе больш, калі вы "
+"ўсталюеце дадатковыя праграмы. Калі можаце выдзеліць больш прасторы, "
+"выдзеліце 100 ГБ. Пакіньце большую частку вольнай прасторы для хатняга "
+"падзела. Даныя карыстальніка (спампоўкі, відэа, выявы) займаюць больш месца."
+
+#: ../../timeshift.rst:2
+msgid "System snapshots"
+msgstr "Здымкі сістэмы"
+
+#: ../../timeshift.rst:4
+msgid ""
+"Before you start using your operating system, set up system snapshots. Then "
+"if anything goes wrong, you can restore your system from an earlier backup."
+msgstr ""
+"Перад пачаткам выкарыстання аперацыйнай сістэмы наладзьце здымкі сістэмы. "
+"Тады калі нешта пойдзе не так, вы зможаце аднавіць вашу сістэму з ранейшых "
+"копій."
+
+#: ../../timeshift.rst:6
+msgid "Launch :menuselection:`Menu --> Administration --> Timeshift`."
+msgstr "Запусціце :menuselection:'Меню --> Адміністраванне --> Timeshift'."
+
+#: ../../timeshift.rst:8
+msgid "Select ``RSYNC`` and click :guilabel:`Next`."
+msgstr "Выберыце ``RSYNC`` і націсніце :guilabel:`Далей`."
+
+#: ../../timeshift.rst:13
+msgid ""
+"Select the device where you want system snapshots to be saved and click "
+":guilabel:`Next`."
+msgstr ""
+"Выберыце прыладу, на якой жадаеце захоўваць здымкі сістэмы і націсніце "
+":guilabel:`Далей`."
+
+#: ../../timeshift.rst:19
+msgid ""
+"The selected device is not formatted and no data is lost. System snapshots "
+"are saved into a newly created ``timeshift`` directory on the root of the "
+"selected device."
+msgstr ""
+"Выбраная прылада не фармаціруецца і даныя не страчваюцца. Здымкі сістэмы "
+"захоўваюцца ў створаным каталозе ``timeshift`` у корані выбранай прылады."
+
+#: ../../timeshift.rst:21
+msgid "Select when system snapshots are saved."
+msgstr "Выберыце, калі здымкі сістэмы захоўваюцца."
+
+#: ../../timeshift.rst:27
+msgid ""
+"System snapshots are incremental so although the first snapshot takes a "
+"significant amount of spaces, new snapshots only take additional space for "
+"files which have changed."
+msgstr ""
+"Здымкі сістэмы прырастальныя, таму толькі першы здымак займае значную "
+"прастору, новыя здымкі займаюць дадатковую прастору для файлаў, якія былі "
+"зменены."
+
+#: ../../timeshift.rst:30
+msgid ""
+"``Boot`` snapshots are performed in the background and do not impact the "
+"speed of the boot sequence."
+msgstr ""
+"``Загрузачныя`` здымкі выконваюцца на заднім фоне і не ўплываюць на хуткасць "
+"загрузкі."
+
+#: ../../timeshift.rst:32
+msgid "Click :guilabel:`Finish`."
+msgstr "Націсніце :guilabel:`Скончыць`."
+
+#: ../../verify.rst:2
+msgid "Verify your ISO image"
+msgstr "Праверце ваш вобраз ISO"
+
+#: ../../verify.rst:4
+msgid ""
+"It is important to verify the integrity and authenticity of your ISO image."
+msgstr "Гэта важна праверыць цэласнасць і сапраўднасць вашага вобраза ISO."
+
+#: ../../verify.rst:6
+msgid ""
+"The integrity check confirms that your ISO image was properly downloaded and "
+"that your local file is an exact copy of the file present on the download "
+"servers. An error during the download could result in a corrupted file and "
+"trigger random issues during the installation."
+msgstr ""
+"Праверка цэласнасці пацвярджае, што ваш вобраз ISO быў спампаваны правільна "
+"і што ваш файл з'яўляецца дакладнай копіяй файла на серверах. Памылка падчас "
+"спампоўвання можа праявіцца ў пашкоджанні файла і выклікаць выпадковыя "
+"праблемы падчас усталявання."
+
+#: ../../verify.rst:8
+msgid ""
+"The authenticity check confirms that the ISO image you downloaded was signed "
+"by Linux Mint, and thus that it isn't a modified or malicious copy made by "
+"somebody else."
+msgstr ""
+"Праверка сапраўднасці пацвярджае, што спампаваны вобраз ISO быў падпісаны "
+"Linux Mint, і таму не быў зменены і не з'яўляецца шкоднаснай копіяй, "
+"зробленай кімсьці іншым."
+
+#: ../../verify.rst:11
+msgid "Download the SHA256 sums provided by Linux Mint"
+msgstr "Спампуйце SHA256 сумы, пастаўляемыя Linux Mint"
+
+#: ../../verify.rst:13
+msgid ""
+"All `download mirrors <https://www.linuxmint.com/mirrors.php>`_ provide the "
+"ISO images, a ``sha256sum.txt`` file and a ``sha256sum.txt.gpg`` file. You "
+"should be able to find these files in the same place you downloaded the ISO "
+"image from."
+msgstr ""
+"Усе `люстэркі для спампоўкі <https://www.linuxmint.com/mirrors.php>`_ "
+"пастаўляюць вобразы ISO, файл ``sha256sum.txt`` і файл "
+"``sha256sum.txt.gpg``. Вы павінны быць гатовыя знайсці гэтыя файлы ў тым жа "
+"месцы, адкуль спампоўваеце вобраз ISO."
+
+#: ../../verify.rst:15
+msgid ""
+"If you can't find them, browse the `Heanet download mirror "
+"<https://ftp.heanet.ie/mirrors/linuxmint.com/stable/>`_ and click the "
+"version of the Linux Mint release you downloaded."
+msgstr ""
+"Калі не можаце знайсці іх, паглядзіце `Heanet download mirror "
+"<https://ftp.heanet.ie/mirrors/linuxmint.com/stable/>`_ і націсніце "
+"спампаваную версію рэліза Linux Mint."
+
+#: ../../verify.rst:17
+msgid "Download both ``sha256sum.txt`` and ``sha256sum.txt.gpg``."
+msgstr "Спампуйце абодва файлы: ``sha256sum.txt`` і ``sha256sum.txt.gpg``."
+
+#: ../../verify.rst:19
+msgid ""
+"Do not copy their content, use \"right-click->Save Link As...\" to download "
+"the files themselves and do not modify them in any way."
+msgstr ""
+"Не капіюйце іх змесціва, выкарыстоўвайце \"націсканне правай кнопкай мышы-"
+">Захаваць спасылку як...\" каб спампаваць уласна файлы і не змяняць іх."
+
+#: ../../verify.rst:22
+msgid "Integrity check"
+msgstr "Праверка цэласнасці"
+
+#: ../../verify.rst:24
+msgid ""
+"To check the integrity of your local ISO file, generate its SHA256 sum and "
+"compare it with the sum present in ``sha256sum.txt``."
+msgstr ""
+"Каб праверыць цэласнасць вашага файла ISO, згенеруйце яго SHA256 суму і "
+"параўнайце яе з сумай у файле ``sha256sum.txt``."
+
+#: ../../verify.rst:31
+msgid ""
+"If you are using Windows follow the tutorial `How to verify the ISO image on "
+"Windows <https://forums.linuxmint.com/viewtopic.php?f=42&t=291093>`_."
+msgstr ""
+"Калі вы карыстаецеся Windows, рабіце па падручніку `How to verify the ISO "
+"image on Windows "
+"<https://forums.linuxmint.com/viewtopic.php?f=42&t=291093>`_."
+
+#: ../../verify.rst:33
+msgid ""
+"If the sums match, your ISO image was successfully downloaded. If they "
+"don't, download it again."
+msgstr ""
+"Калі сумы супадаюць, ваш вобраз ISO быў спампаваны паспяхова. Калі ж не "
+"супадаюць, спампуйце наноў."
+
+#: ../../verify.rst:38
+msgid "Authenticity check"
+msgstr "Праверка сапраўднасці"
+
+#: ../../verify.rst:40
+msgid ""
+"To verify the authenticity of ``sha256sum.txt``, check the signature of "
+"``sha256sum.txt.gpg`` by following the steps below."
+msgstr ""
+"Для паверкі сапраўднасці ``sha256sum.txt``, праверце подпіс "
+"``sha256sum.txt.gpg`` па наступных кроках."
+
+#: ../../verify.rst:43
+msgid "Import the Linux Mint signing key:"
+msgstr "Імпартуйце падпісны ключ Linux Mint:"
+
+#: ../../verify.rst:49
+msgid ""
+"If gpg complains about the key ID, try the following commands instead:"
+msgstr ""
+"Калі gpg скардзіцца аб ідэнтыфікатары ключа, паспрабуйце наступныя каманды "
+"ўзамен:"
+
+#: ../../verify.rst:56
+msgid ""
+"Check the output of the last command, to make sure the fingerprint is ``27DE "
+"B156 44C6 B3CF 3BD7 D291 300F 846B A25B AE09`` (with or without spaces)."
+msgstr ""
+"Праверце вывад апошняй каманды, каб упэўніцца што адбітак ``27DE B156 44C6 "
+"B3CF 3BD7 D291 300F 846B A25B AE09`` (з або без прабелаў)."
+
+#: ../../verify.rst:59
+msgid "Verify the authenticity of sha256sum.txt:"
+msgstr "Пацвердзіце сапраўднасць sha256sum.txt:"
+
+#: ../../verify.rst:64
+msgid ""
+"The output of the last command should tell you that the file signature is "
+"``good`` and that it was signed with the ``A25BAE09`` key."
+msgstr ""
+"Вывад апошняй каманды павінен казаць вам, што подпіс файла ``добры`` і што "
+"ён падпісаны ключом ``A25BAE09``."
+
+#: ../../verify.rst:67
+msgid ""
+"GPG might warn you that the Linux Mint signature is not trusted by your "
+"computer. This is expected and perfectly normal."
+msgstr ""
+"GPG можа папярэдзіць вас, што ваш камп'ютар не давярае подпісу Linux Mint. "
+"Гэта чакаема і нармальна."
+
+#: ../../verify.rst:70
+msgid ""
+"For more information on ISO verification, or to verify BETA, LMDE or old "
+"releases, read `How to Verify ISO images "
+"<https://linuxmint.com/verify.php>`_."
+msgstr ""
+"Каб даведацца больш пра пацвярджэнне ISO, BETA, LMDE або больш старых "
+"рэлізаў, можна пачытаць `How to Verify ISO images "
+"<https://linuxmint.com/verify.php>`_."

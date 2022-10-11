@@ -1,0 +1,1812 @@
+# German translation for linuxmint
+# Copyright (c) 2017 Rosetta Contributors and Canonical Ltd 2017
+# This file is distributed under the same license as the linuxmint package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2017.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: linuxmint\n"
+"Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
+"POT-Creation-Date: 2019-03-29 10:21+0000\n"
+"PO-Revision-Date: 2021-11-22 17:34+0000\n"
+"Last-Translator: Tobias Bannert <tobannert@gmail.com>\n"
+"Language-Team: German <de@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Launchpad-Export-Date: 2022-10-10 13:11+0000\n"
+"X-Generator: Launchpad (build 762fb15a975e8b23af6a1f86e44e46bfd0451459)\n"
+
+#: ../../boot_options.rst:2
+msgid "Boot options"
+msgstr "Startoptionen"
+
+#: ../../boot_options.rst:4
+msgid ""
+"Some graphics cards and motherboards don't work well with the open-source "
+"drivers present in Linux Mint by default."
+msgstr ""
+"Einige Grafikkarten und Hauptplatinen (engl.: Motherboards) funktionieren "
+"nicht so gut mit den quelloffenen Treibern, die in Linux Mint standardmäßig "
+"vorhanden sind."
+
+#: ../../boot_options.rst:7
+msgid "Compatibility mode"
+msgstr "Kompatibilitätsmodus"
+
+#: ../../boot_options.rst:9
+msgid ""
+"The easiest option is to select ``compatibility mode`` from the USB stick "
+"(or DVD) boot menu."
+msgstr ""
+"Die einfachste Option ist es, wenn Sie im Startmenü des USB-Sticks (oder der "
+"DVD) den ``Kompatibilitätsmodus`` auswählen."
+
+#: ../../boot_options.rst:15
+msgid "Grub menu (EFI mode)"
+msgstr "GRUB-Menü (EFI-Modus)"
+
+#: ../../boot_options.rst:21
+msgid "Isolinux menu (BIOS mode)"
+msgstr "ISOLINUX-Menü (BIOS-Modus)"
+
+#: ../../boot_options.rst:23
+msgid "If that doesn't work, you can try the ``nomodeset`` boot option."
+msgstr ""
+"Wenn das nicht funktioniert, können Sie die Startoption ``nomodeset`` "
+"ausprobieren."
+
+#: ../../boot_options.rst:26
+msgid "Nomodeset boot option"
+msgstr "Nomodeset-Startoption"
+
+#: ../../boot_options.rst:28
+msgid ""
+"In EFI mode, highlight the ``Start Linux Mint`` option and press :kbd:`e` to "
+"modify the boot options."
+msgstr ""
+"Im EFI-Modus: markieren Sie die Option ``Start Linux Mint`` und drücken Sie "
+":kbd:`e`, um die Startoptionen zu ändern."
+
+#: ../../boot_options.rst:34
+msgid ""
+"Replace ``quiet splash`` with ``nomodeset`` and press :kbd:`F10` to boot."
+msgstr ""
+"Ersetzen Sie ``quiet splash`` durch ``nomodeset`` und drücken Sie :kbd:`F10` "
+"zum Starten."
+
+#: ../../boot_options.rst:36
+msgid ""
+"In BIOS mode, highlight ``Start Linux Mint`` and press :kbd:`Tab` to modify "
+"the boot options."
+msgstr ""
+"Im BIOS-Modus: Markieren Sie ``Start Linux Mint`` und drücken Sie "
+":kbd:`Tab`, um die Startoptionen zu ändern."
+
+#: ../../boot_options.rst:42
+msgid ""
+"Replace ``quiet splash`` with ``nomodeset`` and press :kbd:`Enter` to boot."
+msgstr ""
+"Ersetzen Sie ``quiet splash`` durch ``nomodeset`` und drücken Sie "
+":kbd:`Eingabe` zum Starten."
+
+#: ../../boot_options.rst:45
+msgid ""
+"Repeat this operation post-install in your grub boot menu and read "
+":doc:`drivers` to install additional drivers."
+msgstr ""
+"Wiederholen Sie diesen Vorgang nach der Installation in Ihrem GRUB-Start-"
+"Menü und lesen Sie :doc:`drivers`, um zusätzliche Treiber zu installieren."
+
+#: ../../boot_options.rst:48
+msgid "Other boot options"
+msgstr "Weitere Startoptionen"
+
+#: ../../boot_options.rst:50
+msgid "If you still cannot boot try one of the following solutions:"
+msgstr ""
+"Wenn Sie immer noch nicht starten können, versuchen Sie eine der folgenden "
+"Lösungen:"
+
+#: ../../boot_options.rst:52
+msgid "Try ``nouveau.noaccel=1`` instead of ``nomodeset``."
+msgstr "Versuchen Sie ``nouveau.noaccel=1`` anstelle von ``nomodeset``."
+
+#: ../../boot_options.rst:53
+msgid ""
+"After the installation, use :menuselection:`Advanced Options --> Recovery "
+"mode` from the boot menu and choose ``resume``."
+msgstr ""
+"Nach der Installation :menuselection:`»Advanced Options« --> »Recovery "
+"mode«` aus dem Startmenü und wählen ``resume``."
+
+#: ../../boot_options.rst:56
+msgid "Install an older release"
+msgstr "Eine ältere Version installieren"
+
+#: ../../boot_options.rst:58
+msgid ""
+"If your computer has compatibility issues with the latest Linux Mint "
+"release, install a previous release from the same Linux Mint series."
+msgstr ""
+"Wenn auf Ihrem Rechner Kompatibilitätsprobleme mit der neuesten Version von "
+"Linux Mint auftreten, installieren Sie eine frühere Version aus derselben "
+"Linux-Mint-Reihe."
+
+#: ../../boot_options.rst:60
+msgid ""
+"For instance, if you can't install Linux Mint 18.3 (which comes with a 4.10 "
+"kernel), install Linux Mint 18 (which comes with a 4.4 kernel) and upgrade "
+"to 18.3."
+msgstr ""
+"Wenn Sie beispielsweise Linux Mint 18.3 (das mit einem 4.10-Kernel "
+"ausgeliefert wird) nicht installieren können, installieren Sie Linux Mint 18 "
+"(das mit einem 4.4-Kernel ausgeliefert wird) und aktualisieren Sie es auf "
+"18.3."
+
+#: ../../boot_options.rst:63
+msgid ""
+"The first release in each series uses an LTS (Long Term Support) kernel. "
+"Upgrading from this release to the latest one in the series does not change "
+"your kernel."
+msgstr ""
+"Die erste Version in jeder Reihe verwendet einen LTS-Kernel "
+"(Langzeitunterstützung; engl.: Long Term Support). Die Aktualisierung von "
+"dieser Version auf die neueste Version in dieser Reihe ändert Ihren Kernel "
+"nicht."
+
+#: ../../boot.rst:2
+msgid "Boot Linux Mint"
+msgstr "Linux Mint starten"
+
+#: ../../boot.rst:4
+msgid ""
+"Now that you have Linux Mint on a USB stick (or DVD) boot the computer from "
+"it."
+msgstr ""
+"Jetzt, da Sie Linux Mint auf einem USB-Stick (oder einer DVD) haben, starten "
+"Sie den Rechner davon."
+
+#: ../../boot.rst:6
+msgid "Insert your USB stick (or DVD) into the computer."
+msgstr "Stecken Sie den USB-Stick (oder die DVD) in den Rechner."
+
+#: ../../boot.rst:8 ../../drivers.rst:23 ../../efi.rst:61 ../../oem.rst:21
+msgid "Restart the computer."
+msgstr "Starten Sie den Rechner neu."
+
+#: ../../boot.rst:10
+msgid ""
+"Before your computer boots your current operating system (Windows, Mac, "
+"Linux) you should see your `BIOS <https://en.wikipedia.org/wiki/BIOS>`_ "
+"loading screen. Check the screen or your computer's documentation to know "
+"which key to press and instruct your computer to boot on USB (or DVD)."
+msgstr ""
+"Bevor der Rechner das aktuelle Betriebssystem startet (Windows, Mac, Linux), "
+"sollten Sie den `BIOS <https://de.wikipedia.org/wiki/BIOS>`_-Ladebildschirm "
+"sehen. Überprüfen Sie den Bildschirm oder die Unterlagen Ihres Rechners, um "
+"herauszufinden, welche Taste gedrückt werden soll, um den Rechner vom USB-"
+"Stick (oder von der DVD) zu starten."
+
+#: ../../boot.rst:13
+msgid ""
+"Most BIOS have a special key you can press to select the boot device and all "
+"of them have a special key to enter the BIOS configuration screen (from "
+"which you can define the boot order). Depending on the BIOS, these special "
+"keys can be :kbd:`Escape`, :kbd:`F1`, :kbd:`F2`, :kbd:`F8`, :kbd:`F10`, "
+":kbd:`F11`, :kbd:`F12`, or :kbd:`Delete`. That information is usually "
+"briefly written on the screen during the boot sequence."
+msgstr ""
+"Die meisten BIOS haben eine bestimmte Taste, die Sie drücken können, um das "
+"Start-Gerät auszuwählen, und alle haben eine bestimmte Taste, um den BIOS-"
+"Konfigurationsbildschirm aufzurufen (von dem aus Sie die Startreihenfolge "
+"definieren können). Je nach BIOS können diese bestimmten Tasten :kbd:`Esc`, "
+":kbd:`F1`, :kbd:`F2`, :kbd:`F8`, :kbd:`F10`, :kbd:`F11`, :kbd:`F12` oder "
+":kbd:`Entf` sein. Diese Information steht normalerweise während des "
+"Startvorgangs kurz auf dem Bildschirm."
+
+#: ../../boot.rst:16
+msgid ""
+"On Macs, keep your finger pressed on the :kbd:`Alt` or :kbd:`Option` key "
+"after hearing the boot sound."
+msgstr ""
+"Bei Macs: halten Sie die Taste :kbd:`Alt` oder :kbd:`Option` gedrückt, "
+"nachdem Sie den Startton gehört haben."
+
+#: ../../boot.rst:18
+msgid ""
+"The Linux Mint ISO can be booted both in EFI or BIOS mode. In EFI mode it "
+"shows a grub menu. In BIOS mode it shows an isolinux menu."
+msgstr ""
+"Das ISO-Abbild von Linux Mint kann sowohl im EFI- als auch im BIOS-Modus "
+"gestartet werden. Im EFI-Modus wird ein GRUB-Menü angezeigt. Im BIOS-Modus "
+"wird ein ISOLINUX-Menü angezeigt."
+
+#: ../../boot.rst:24
+msgid "The isolinux menu in BIOS mode"
+msgstr "Das ISOLINUX-Menü im BIOS-Modus"
+
+#: ../../boot.rst:30
+msgid "The grub menu in EFI mode"
+msgstr "Das GRUB-Menü im EFI-Modus"
+
+#: ../../boot.rst:32
+msgid ""
+"From one of these menu, press :kbd:`Enter` to start Linux Mint from your USB "
+"stick (or DVD)."
+msgstr ""
+"Drücken Sie in einem dieser Menüs :kbd:`Eingabe`, um Linux Mint von Ihrem "
+"USB-Stick (oder Ihrer DVD) zu starten."
+
+#: ../../burn.rst:2
+msgid "Create the bootable media"
+msgstr "Den startfähigen Datenträger erstellen"
+
+#: ../../burn.rst:4
+msgid "The easiest way to install Linux Mint is with a USB stick."
+msgstr ""
+"Der einfachste Weg, Linux Mint zu installieren, ist mit einem USB-Stick."
+
+#: ../../burn.rst:6
+msgid "If you cannot boot from USB, you can use a blank DVD."
+msgstr ""
+"Wenn das Starten vom USB-Stick nicht funktioniert, können Sie eine leere DVD "
+"benutzen."
+
+#: ../../burn.rst:9
+msgid "How to make a bootable USB stick"
+msgstr "Wie man einen startfähigen USB-Stick erstellt"
+
+#: ../../burn.rst:12
+msgid "In Linux Mint"
+msgstr "In Linux Mint"
+
+#: ../../burn.rst:14
+msgid ""
+"Right-click the ISO file and select :menuselection:`Make Bootable USB "
+"Stick`, or launch :menuselection:`Menu --> Accessories --> USB Image Writer`."
+msgstr ""
+"Rechtsklick auf die ISO-Datei und :menuselection:`»Startfähigen USB-Stick "
+"erstellen«` auswählen oder :menuselection:`Menü --> Zubehör --> USB-"
+"Abbilderstellung` öffnen."
+
+#: ../../burn.rst:20
+msgid "Select your USB device and click :guilabel:`Write`."
+msgstr ""
+"Wählen Sie Ihren USB-Stick aus und klicken Sie auf :guilabel:`Schreiben`."
+
+#: ../../burn.rst:23
+msgid "In Windows, Mac OS, or other Linux distributions"
+msgstr "In Windows, Mac OS oder anderen Linux-Distributionen"
+
+#: ../../burn.rst:25
+msgid ""
+"Download `Etcher <https://www.balena.io/etcher/>`_, install it and run it."
+msgstr ""
+"`Etcher` herunterladen `<https://www.balena.io/etcher/>`_, installieren und "
+"starten."
+
+#: ../../burn.rst:31
+msgid "Using Etcher"
+msgstr "Benutzung von Etcher"
+
+#: ../../burn.rst:33
+msgid "Click :guilabel:`Select image` and select your ISO file."
+msgstr ""
+"Klicken Sie auf :guilabel:`Select image` und wählen Sie Ihre ISO-Datei aus."
+
+#: ../../burn.rst:35
+msgid "Click :guilabel:`Select drive` and select your USB stick."
+msgstr ""
+"Klicken Sie auf :guilabel:`Select drive` und wählen Sie Ihren USB-Stick aus."
+
+#: ../../burn.rst:37
+msgid "Click :guilabel:`Flash!`."
+msgstr "Klicken Sie auf :guilabel:`Flash!`."
+
+#: ../../burn.rst:41
+msgid "How to make a bootable DVD"
+msgstr "Wie man eine automatisch startende DVD erstellt"
+
+#: ../../burn.rst:43
+msgid "Optical discs are slow and burning to disc is prone to errors."
+msgstr ""
+"Optische Datenträger sind langsam und das Brennen auf solche ist anfällig "
+"für Fehler."
+
+#: ../../burn.rst:46
+msgid "To prevent issues, burn at the lowest possible speed."
+msgstr ""
+"Um Fehler zu vermeiden, sollten Sie mit der niedrigsten Geschwindigkeit "
+"brennen."
+
+#: ../../burn.rst:49
+msgid ""
+"Burn the content of the ISO onto the DVD, not the ISO file itself. When "
+"finished, your DVD should contain directories such as ``boot`` and "
+"``casper``, it shouldn't be an empty DVD containing an .iso file."
+msgstr ""
+"Brennen Sie den Inhalt der ISO-Datei auf die DVD, nicht die ISO-Datei "
+"selbst. Wenn der Brennvorgang beendet ist, sollte Ihre DVD Verzeichnisse wie "
+"``boot`` und ``casper`` enthalten. Es sollte keine leere DVD sein, die nur "
+"eine ISO-Datei enthält."
+
+#: ../../burn.rst:52
+msgid "In Linux"
+msgstr "In Linux"
+
+#: ../../burn.rst:53
+msgid "Install and use ``xfburn``."
+msgstr "Bitte ``xfburn`` installieren und verwenden."
+
+#: ../../burn.rst:56
+msgid "In Windows"
+msgstr "In Windows"
+
+#: ../../burn.rst:57
+msgid "Right-click the ISO file and select :menuselection:`Burn disk image`."
+msgstr ""
+"Machen Sie einen Rechtsklick auf die ISO-Datei und wählen Sie "
+":menuselection:`DVD-Abbild erstellen`."
+
+#: ../../burn.rst:59
+msgid ""
+"To make sure the ISO was burned without any errors, select "
+":menuselection:`Verify disc after burning`."
+msgstr ""
+"Um sicherzustellen, dass die DVD erfolgreich ohne Fehler gebrannt wurde, "
+"wählen Sie :menuselection:`Datenträger nach dem Brennen überprüfen` aus."
+
+#: ../../burn.rst:62
+msgid "In Mac OS"
+msgstr "In Mac OS"
+
+#: ../../burn.rst:63
+msgid ""
+"Right-click the ISO file and select :menuselection:`Burn Disk Image to Disc`."
+msgstr ""
+"Machen Sie einen Rechtsklick auf die ISO-Datei und wählen Sie "
+":menuselection:`Abbild auf Datenträger schreiben`."
+
+#: ../../choose.rst:2
+msgid "Choose the right edition"
+msgstr "Die richtige Ausgabe auswählen"
+
+#: ../../choose.rst:4
+msgid ""
+"You can download Linux Mint from the `Linux Mint website "
+"<https://linuxmint.com/download.php>`_."
+msgstr ""
+"Sie können Linux Mint von der `Linux-Mint-Internetseite "
+"<https://linuxmint.com/download.php>`_ herunterladen."
+
+#: ../../choose.rst:6
+msgid ""
+"Read below to choose which edition and architecture are right for you."
+msgstr ""
+"Lesen Sie unten, welche Ausgabe und welche Architektur für Sie geeignet ist."
+
+#: ../../choose.rst:9
+msgid "Cinnamon, MATE or Xfce?"
+msgstr "Cinnamon, MATE oder Xfce?"
+
+#: ../../choose.rst:11
+msgid ""
+"Linux Mint comes in 3 different flavours, each featuring a different desktop "
+"environment."
+msgstr ""
+"Linux Mint gibt es in drei verschiedenen Geschmacksrichtungen, jede mit "
+"einer anderen Arbeitsumgebung."
+
+#: ../../choose.rst:14 ../../choose.rst:26
+msgid "Cinnamon"
+msgstr "Cinnamon"
+
+#: ../../choose.rst:14
+msgid "The most modern, innovative and full-featured desktop"
+msgstr "Der modernste, innovativste und voll ausgestattete Schreibtisch"
+
+#: ../../choose.rst:15 ../../choose.rst:35
+msgid "MATE"
+msgstr "MATE"
+
+#: ../../choose.rst:15
+msgid "A more traditional, and faster desktop"
+msgstr "Ein traditionellerer und schnellerer Schreibtisch"
+
+#: ../../choose.rst:16 ../../choose.rst:44
+msgid "Xfce"
+msgstr "Xfce"
+
+#: ../../choose.rst:16
+msgid "The most lightweight desktop"
+msgstr "Der leichteste Schreibtisch"
+
+#: ../../choose.rst:19
+msgid ""
+"The most popular version of Linux Mint is the Cinnamon edition. Cinnamon is "
+"primarily developed for and by Linux Mint. It is slick, beautiful, and full "
+"of new features."
+msgstr ""
+"Die beliebteste Version von Linux Mint ist die Cinnamon-Ausgabe. Cinnamon "
+"wird hauptsächlich für und von Linux Mint entwickelt. Es ist professionell, "
+"schön und voller neuer Funktionen."
+
+#: ../../choose.rst:28
+msgid ""
+"Linux Mint is also involved in the development of MATE, a classic desktop "
+"environment which is the continuation of GNOME 2, Linux Mint's default "
+"desktop between 2006 and 2011. Although it misses a few features and its "
+"development is slower than Cinnamon's, MATE uses less resources and can run "
+"faster on older computers."
+msgstr ""
+"Linux Mint ist auch an der Entwicklung von MATE beteiligt, einer klassischen "
+"Schreibtischumgebung, die die Fortsetzung von GNOME 2 ist, dem "
+"Vorgabeschreibtisch von Linux Mint zwischen 2006 und 2011. Obwohl ihm einige "
+"Funktionen fehlen und seine Entwicklung langsamer ist als die von Cinnamon, "
+"verbraucht MATE weniger Ressourcen und kann auf älteren Rechnern schneller "
+"laufen."
+
+#: ../../choose.rst:37
+msgid ""
+"Xfce is a lightweight desktop environment. It doesn't support as many "
+"features as Cinnamon or MATE, but it's extremely stable and very light on "
+"resource usage."
+msgstr ""
+"Xfce ist eine leichtgewichtige Schreibtisch-Umgebung. Es unterstützt nicht "
+"so viele Funktionen wie Cinnamon oder MATE, aber es ist extrem stabil und "
+"verbraucht sehr wenig Ressourcen."
+
+#: ../../choose.rst:46
+msgid ""
+"Of course, all three desktops are great and Linux Mint is extremely proud of "
+"each edition. Although there are more features and better support in some "
+"editions than others, and some do run faster and use less resources than "
+"others, they're all great alternatives and choosing the right edition is "
+"largely a matter of taste."
+msgstr ""
+"Natürlich sind alle drei Arbeitsumgebungen großartig und Linux Mint ist sehr "
+"stolz auf jede Ausgabe. Obwohl es in einigen Ausgaben mehr Funktionen und "
+"bessere Unterstützung als in anderen gibt und einige schneller laufen und "
+"weniger Ressourcen verbrauchen als andere, sind sie alle großartige "
+"Alternativen und die Wahl der richtigen Ausgabe ist weitgehend eine Frage "
+"des Geschmacks."
+
+#: ../../choose.rst:48
+msgid ""
+"Other than their features and performance, Cinnamon, MATE and Xfce also "
+"represent three different desktop environments, with different menus, "
+"different panels and configuration tools. The right one for you is the one "
+"where you feel at home."
+msgstr ""
+"Cinnamon, MATE und Xfce repräsentieren neben ihren Funktionen und Leistungen "
+"auch drei verschiedene Arbeitsumgebungen mit unterschiedlichen Menüs, "
+"verschiedenen Leisten und Konfigurationsprogrammen. Der richtige für Sie ist "
+"derjenige, in dem Sie sich Zuhause fühlen."
+
+#: ../../choose.rst:50
+msgid ""
+"If you are unsure which desktop to choose start with the Cinnamon edition. "
+"Try them all eventually when you have the time. All three of them have their "
+"own audience within the Linux Mint community and they're all very popular."
+msgstr ""
+"Wenn Sie sich nicht sicher sind, welche Arbeitsumgebung Sie wählen sollen, "
+"beginnen Sie mit der Cinnamon-Ausgabe. Probieren Sie sie alle irgendwann "
+"aus, wenn Sie Zeit haben. Alle drei haben ihr eigenes Publikum in der Linux-"
+"Mint-Gemeinschaft und sie sind alle sehr beliebt."
+
+#: ../../choose.rst:54
+msgid "32-bit or 64-bit?"
+msgstr "32-Bit oder 64-Bit?"
+
+#: ../../choose.rst:56
+msgid "From version 20 onward, only 64-bit is available."
+msgstr "Ab Version 20 ist nur noch 64-Bit verfügbar."
+
+#: ../../choose.rst:58
+msgid ""
+"The 32-bit ISO images on prior versions are provided for compatibility with "
+"older computers. 32-bit processors are extremely rare nowadays and most "
+"computers are able to run in 64-bit. If your computer was manufactured after "
+"2007, you probably have a 64-bit processor."
+msgstr ""
+"Die 32-Bit-ISO-Abbilder früherer Versionen sind für die Kompatibilität mit "
+"älteren Rechnern vorgesehen. 32-Bit-Prozessoren sind heutzutage äußerst "
+"selten, und die meisten Rechner sind in der Lage, mit 64-Bit zu arbeiten. "
+"Wenn Ihr Rechner nach 2007 hergestellt wurde, haben Sie wahrscheinlich einen "
+"64-Bit-Prozessor."
+
+#: ../../choose.rst:60
+msgid ""
+"If you have an old computer and you are unsure whether or not it can run in "
+"64-bit, read `X86 Chronology "
+"<https://en.wikipedia.org/wiki/X86#Chronology>`_."
+msgstr ""
+"Wenn Sie einen alten Rechner haben und unsicher sind, ob er in 64-Bit laufen "
+"kann, lesen Sie `X86 Chronology "
+"<https://en.wikipedia.org/wiki/X86#Chronology>`_."
+
+#: ../../choose.rst:63
+msgid ""
+"You can try to boot Linux Mint 64-bit on your computer. If it isn't "
+"compatible, nothing bad will happen. You will just get an error message."
+msgstr ""
+"Sie können versuchen, Linux Mint 64-Bit auf Ihrem Rechner zu starten. Wenn "
+"es inkompatibel ist, wird nichts schlimmes passieren. Sie werden lediglich "
+"eine Fehlermeldung erhalten."
+
+#: ../../choose.rst:66
+msgid ""
+"If you cannot boot or install Linux Mint because your hardware is too recent "
+"and is not properly detected see the `Edge ISO Images <https://linuxmint-"
+"user-guide.readthedocs.io/en/latest/edge.html>`_ chapter in the Linux Mint "
+"User Guide for an alternative ISO."
+msgstr ""
+"Wenn Sie Linux Mint nicht starten oder installieren können, weil Ihr Gerät "
+"zu neu ist und nicht richtig erkannt wird, finden Sie im Kapitel `Edge-ISO-"
+"Abbilder <https://linuxmint-user-guide.readthedocs.io/en/latest/edge.html>` "
+"im Linux-Mint-Benutzerhandbuch eine alternative ISO-Datei."
+
+#: ../../codecs.rst:2
+msgid "Multimedia codecs"
+msgstr "Multimedia-Codecs"
+
+#: ../../codecs.rst:4
+msgid "Some multimedia content requires additional codecs to be installed."
+msgstr ""
+"Für einige Multimedia-Inhalte müssen zusätzliche Codecs installiert werden."
+
+#: ../../codecs.rst:7
+msgid ""
+"If you were online when installing Linux Mint and you ticked the option to "
+"install these codecs, they are already installed."
+msgstr ""
+"Wenn Sie bei der Installation von Linux Mint mit dem Internet verbunden "
+"waren und die Option zum Installieren dieser Codecs aktiviert haben, sind "
+"diese bereits installiert."
+
+#: ../../codecs.rst:9
+msgid ""
+"Launch :menuselection:`Menu --> Sound & Video --> Install Multimedia Codecs`."
+msgstr ""
+"Öffnen Sie :menuselection:`Menü --> Multimedia --> Multimedia-Codecs "
+"installieren`."
+
+#: ../../codecs.rst:14
+msgid "Click :guilabel:`Install`."
+msgstr ":guilabel:`Installieren` klicken."
+
+#: ../../codecs.rst:16
+msgid ""
+"Enter your password and wait for the codecs to be installed on your computer."
+msgstr ""
+"Bitte Ihr Passwort eingeben und warten, bis die Codecs auf Ihrem Rechner "
+"installiert sind."
+
+#: ../../drivers.rst:2
+msgid "Hardware drivers"
+msgstr "Gerätetreiber"
+
+#: ../../drivers.rst:4
+msgid ""
+"One of the first things to do after installing Linux Mint is to check for "
+"available hardware drivers."
+msgstr ""
+"Nach der Installation von Linux Mint sollte zunächst nach verfügbaren "
+"Gerätetreibern gesucht werden."
+
+#: ../../drivers.rst:6
+msgid "Launch :menuselection:`Menu --> Administration --> Driver Manager`."
+msgstr ""
+"Öffnen Sie :menuselection:`Menü --> Systemverwaltung --> Treiberverwaltung`."
+
+#: ../../drivers.rst:13
+msgid ""
+"If you are offline, the Driver Manager will complain that it cannot connect "
+"to the Internet."
+msgstr ""
+"Wenn Sie offline sind, zeigt die Treiberverwaltung an, dass keine Verbindung "
+"zum Internet herstellt werden konnte."
+
+#: ../../drivers.rst:19
+msgid ""
+"Insert your bootable Linux Mint USB stick (or DVD), wait for it to be "
+"mounted, and click :guilabel:`OK`."
+msgstr ""
+"Stecken Sie Ihren startfähigen Linux Mint USB-Stick (oder DVD) ein, warten "
+"Sie, bis es eingehängt wurde, und klicken Sie auf :guilabel:`OK`."
+
+#: ../../drivers.rst:21
+msgid ""
+"Tick the appropriate checkboxes to select the available drivers and click "
+":guilabel:`Apply Changes`."
+msgstr ""
+"Markieren Sie die geeigneten Kontrollkästchen, um die verfügbaren Treiber "
+"auszuwählen, und klicken Sie auf :guilabel:`Änderungen anwenden`."
+
+#: ../../efi.rst:2
+msgid "EFI"
+msgstr "EFI"
+
+#: ../../efi.rst:5
+msgid "SecureBoot"
+msgstr "SecureBoot"
+
+#: ../../efi.rst:7
+msgid ""
+"If after installing Linux Mint in EFI mode, you are unable to boot due to a "
+"``Secure Boot Violation``, you can try one of the following solutions:"
+msgstr ""
+"Wenn Sie nach der Installation von Linux Mint im EFI-Modus aufgrund eines "
+"Secure-Boot-Verstoßes ``Secure Boot Violation`` nicht starten können, können "
+"Sie eine der folgenden Lösungen ausprobieren:"
+
+#: ../../efi.rst:15
+msgid "Restart the installation:"
+msgstr "Starten Sie die Installation neu:"
+
+#: ../../efi.rst:14
+msgid "Connect to the Internet before the installation"
+msgstr ""
+"Stellen Sie vor der Installation eine Verbindung mit dem Internet her"
+
+#: ../../efi.rst:15
+msgid ""
+"**Do not** select ``Install third-party software for graphics and Wi-Fi "
+"hardware, Flash, MP3 and other media``."
+msgstr ""
+"Wählen Sie **NICHT** die Option ``Drittanbieterprogramme für Grafikkarten, "
+"WLAN-Geräte, MP3 und andere Medien installieren``."
+
+#: ../../efi.rst:17
+msgid "Disable ``SecureBoot`` in the ``BIOS`` settings of your computer."
+msgstr ""
+"Deaktivieren Sie ``SecureBoot`` in den ``BIOS``-Einstellungen Ihres Rechners."
+
+#: ../../efi.rst:20
+msgid ""
+"For examples of how to disable secure boot on various computers, read "
+"`Managing EFI Boot Loaders for Linux: Dealing with Secure Boot "
+"<http://www.rodsbooks.com/efi-bootloaders/secureboot.html>`_."
+msgstr ""
+"Für Beispiele, wie Sie Secure-Boot auf verschiedenen Rechnern deaktivieren "
+"können: (Handhabung von EFI-Startprogrammen in Linux: der Umgang mit Secure-"
+"Boot)`Managing EFI Boot Loaders for Linux: Dealing with Secure Boot "
+"<http://www.rodsbooks.com/efi-bootloaders/secureboot.html>`_."
+
+#: ../../efi.rst:23
+msgid "EFI boot order"
+msgstr "EFI-Startreihenfolge"
+
+#: ../../efi.rst:25
+msgid ""
+"If after installing Linux Mint in EFI mode, your computer skips the boot "
+"menu and boots straight into Windows (or another operating system), you "
+"probably have an issue with the boot order."
+msgstr ""
+"Wenn Ihr Rechner nach der Installation von Linux Mint im EFI-Modus das "
+"Startmenü überspringt und direkt in Windows (oder ein anderes "
+"Betriebssystem) hochfährt, liegt wahrscheinlich ein Problem mit der "
+"Startreihenfolge vor."
+
+#: ../../efi.rst:27
+msgid "To modify the boot order:"
+msgstr "Um die Startreihenfolge zu ändern:"
+
+#: ../../efi.rst:29 ../../multiboot.rst:18
+msgid "Boot Linux Mint in ``live`` mode (with your USB stick or DVD)."
+msgstr ""
+"Starten Sie Linux Mint im ``Live``-Modus (mit Ihrem USB-Stick oder Ihrer "
+"DVD)."
+
+#: ../../efi.rst:31 ../../multiboot.rst:20
+msgid "Open a terminal."
+msgstr "Öffnen Sie ein Terminal."
+
+#: ../../efi.rst:33
+msgid "Type ``sudo efibootmgr`` and press :kbd:`Enter`."
+msgstr "Bitte ``sudo efibootmgr`` eingeben und :kbd:`Enter` drücken."
+
+#: ../../efi.rst:35
+msgid "This command lists the available boot options and the boot order."
+msgstr ""
+"Dieser Befehl listet die verfügbaren Startoptionen und die Startreihenfolge "
+"auf."
+
+#: ../../efi.rst:41
+msgid "In the screenshot above, there are three boot options:"
+msgstr "Im obigen Bildschirmfoto gibt es drei Startoptionen:"
+
+#: ../../efi.rst:43
+msgid "``ubuntu`` at ``0000``"
+msgstr "``ubuntu`` bei ``0000``"
+
+#: ../../efi.rst:44
+msgid "``linuxmint`` at ``0001``"
+msgstr "``linuxmint`` bei ``0001``"
+
+#: ../../efi.rst:45
+msgid "``Mac OS X`` at ``0081``"
+msgstr "``Mac OS X`` bei ``0081``"
+
+#: ../../efi.rst:47
+msgid ""
+"The boot order is ``0081``. This indicates that the computer only tries to "
+"boot Mac OS and not Linux Mint."
+msgstr ""
+"Die Startreihenfolge ist ``0081``. Dies bedeutet, dass der Rechner nur "
+"versucht, Mac OS zu starten und nicht Linux Mint."
+
+#: ../../efi.rst:50
+msgid ""
+"For technical reasons Linux Mint uses ``ubuntu`` as its EFI boot name."
+msgstr ""
+"Aus technischen Gründen verwendet Linux Mint ``ubuntu`` als seinen EFI-"
+"Startnamen."
+
+#: ../../efi.rst:53
+msgid ""
+"To fix the boot order, type ``sudo efibootmgr --bootorder XXXX,YYYY`` (where "
+"``XXXX`` and ``YYYY`` are the operating system boot options you want to "
+"boot)."
+msgstr ""
+"Um die Startreihenfolge zu reparieren, geben Sie ein ``sudo efibootmgr --"
+"bootorder XXXX,YYYY`` (wobei ``XXXX`` und ``YYYY`` die Startoptionen der "
+"Betriebssysteme sind, die Sie starten möchten)."
+
+#: ../../efi.rst:59
+msgid ""
+"In the screenshot above, ``sudo efibootmgr --bootorder 0000,0081`` instructs "
+"the computer to first try to boot Linux Mint (``ubuntu`` being the EFI boot "
+"name for Linux Mint), and then Mac OS."
+msgstr ""
+"Im obigen Bildschirmfoto sagt ``sudo efibootmgr --bootorder 0000,0081`` dem "
+"Rechner, dass zuerst versucht werden soll, Linux Mint zu starten (wobei "
+"``ubuntu`` der EFI-Startname für Linux Mint ist), und erst dann Mac OS."
+
+#: ../../efi.rst:64
+msgid ""
+"In the screenshot above ``0000`` is the first boot option so the computer "
+"boots on the Linux Mint grub menu. If grub fails (or if it is dismissed with "
+"the ``exit`` command), the computer follows the boot order and then tries to "
+"boot ``0081``, which corresponds to Mac OS."
+msgstr ""
+"Im obigen Bildschirmfoto ist ``0000`` die erste Startoption, so dass der "
+"Rechner über das Linux-Mint-GRUB-Menü startet. Wenn GRUB fehlschlägt (oder "
+"wenn es mit dem Befehl ``exit`` verlassen wird), folgt der Rechner der "
+"Startreihenfolge und versucht dann, ``0081`` zu starten, was Mac OS "
+"entspricht."
+
+#: ../../help.rst:2
+msgid "Where to find help"
+msgstr "Wo Sie Hilfe finden"
+
+#: ../../help.rst:4
+msgid ""
+"Many users will be glad to help you and guide you through your first steps "
+"with Linux if you are nice and patient with them and if you give them the "
+"information they require to understand the issues you are facing."
+msgstr ""
+"Viele Benutzer werden Ihnen gerne helfen und Sie durch die ersten Schritte "
+"mit Linux führen, wenn Sie nett und geduldig mit ihnen sind und wenn Sie "
+"ihnen die Informationen geben, die sie benötigen, um die Probleme zu "
+"verstehen, mit denen Sie konfrontiert sind."
+
+#: ../../help.rst:7
+msgid "The forums"
+msgstr "Die Foren"
+
+#: ../../help.rst:9
+msgid ""
+"The best place to find help is on the `Linux Mint Forums "
+"<https://forums.linuxmint.com>`_."
+msgstr ""
+"Der beste Anlaufpunkt, um Hilfe zu finden, ist das `Linux-Mint-Forum "
+"<https://forums.linuxmint.com>`_."
+
+#: ../../help.rst:12
+msgid ""
+"Search the forums before asking, in case someone else already asked the same "
+"question."
+msgstr ""
+"Durchsuchen Sie die Foren, bevor Sie eine Frage stellen, für den Fall, dass "
+"jemand anderes bereits die gleiche Frage gestellt hat."
+
+#: ../../help.rst:15
+msgid "The chat room"
+msgstr "Der Chatraum"
+
+#: ../../help.rst:17
+msgid "Another great place to find help is in the IRC chat room."
+msgstr ""
+"Ein weiterer guter Anlaufpunkt, um Hilfe zu finden, ist der IRC-Chatraum."
+
+#: ../../help.rst:19
+msgid ""
+"To reach the chat room from within Linux Mint, launch :menuselection:`Menu --"
+"> Internet --> HexChat`."
+msgstr ""
+"Um den Chatraum von Linux Mint zu erreichen, starten Sie "
+":menuselection:`Menü --> Internet --> HexChat`."
+
+#: ../../help.rst:21
+msgid ""
+"If you are using another operating system, you can use `Kiwiirc "
+"<https://kiwiirc.com/client/irc.spotchat.org/?i#linuxmint-help>`_ to connect "
+"to the chat room."
+msgstr ""
+"Wenn Sie ein anderes Betriebssystem verwenden, können Sie `Kiwiirc "
+"<https://kiwiirc.com/client/irc.spotchat.org/?i#linuxmint-help>`_ verwenden, "
+"um sich mit dem Chatraum zu verbinden."
+
+#: ../../help.rst:24
+msgid ""
+"Many people are connected to the chat room but only look at it now and then. "
+"Be patient after asking a question. Don't repeat it and stay connected until "
+"you get an answer. It can sometimes take a few hours for somebody to see "
+"your question and reply to you. Don't quit after a few minutes. It is "
+"frustrating to you, but also to others who later see your question and are "
+"unable to reply because you already left."
+msgstr ""
+"Viele Leute sind dauerhaft mit dem Chatraum verbunden, schauen ihn aber nur "
+"sporadisch an. Seien Sie geduldig, wenn Sie eine Frage gestellt haben. "
+"Wiederholen Sie sie nicht und bleiben Sie im Chat, bis Sie eine Antwort "
+"erhalten. Es kann manchmal einige Stunden dauern, bis jemand Ihre Frage "
+"sieht und Ihnen antwortet. Verlassen Sie den Chat nicht nach ein paar "
+"Minuten. Es ist frustrierend für Sie, aber auch für andere, die später Ihre "
+"Frage sehen und nicht antworten können, weil Sie bereits gegangen sind."
+
+#: ../../help.rst:27
+msgid ""
+"If you are using Hexchat, you can minimize it to tray by clicking its status "
+"icon. People will often mention your nickname when replying to you. When "
+"they do, your Hexchat status icon will blink to catch your attention."
+msgstr ""
+"Wenn Sie HexChat verwenden, können Sie es in das Benachrichtigungsfeld "
+"minimieren, indem Sie auf das Statussymbol klicken. Die Leute werden oft "
+"Ihren Nicknamen erwähnen, wenn Sie Ihnen antworten. Wenn dies geschieht, "
+"wird Ihr HexChat-Statussymbol blinken, um Ihre Aufmerksamkeit zu erregen."
+
+#: ../../help.rst:30
+msgid "Community resources"
+msgstr "Gemeinschaftsressourcen"
+
+#: ../../help.rst:32
+msgid ""
+"The `tutorials section <https://community.linuxmint.com/tutorial/search>`_ "
+"is useful to find tutorials about Linux Mint."
+msgstr ""
+"Der `Anleitungsbereich (Tutorials) "
+"<https://community.linuxmint.com/tutorial/search>`_ ist nützlich, um "
+"Anleitungen über Linux Mint zu finden."
+
+#: ../../help.rst:34
+msgid ""
+"The `hardware database <https://community.linuxmint.com/hardware/search>`_ "
+"is useful to find compatible hardware."
+msgstr ""
+"Die `Gerätedatenbank <https://community.linuxmint.com/hardware/search>`_ ist "
+"nützlich, um kompatible Geräte zu finden."
+
+#: ../../help.rst:37
+msgid "Local communities"
+msgstr "Lokale Gemeinschaften"
+
+#: ../../help.rst:39
+msgid ""
+"To find help in your language, use the `Local Communities "
+"<https://www.linuxmint.com/links.php>`_."
+msgstr ""
+"Um Hilfe in Ihrer Sprache zu finden, bitte die `lokalen Gemeinschaften "
+"<https://www.linuxmint.com/links.php>`_ verwenden."
+
+#: ../../index.rst:2
+msgid "Linux Mint Installation Guide"
+msgstr "Leitfaden für die Installation von Linux Mint"
+
+#: ../../index.rst:8
+msgid ""
+"Linux Mint comes in the form of an ISO image (an .iso file) which can be "
+"used to make a bootable DVD or a bootable USB stick."
+msgstr ""
+"Linux Mint kommt in Form eines ISO-Abbildes (einer .iso-Datei), mit dem eine "
+"startfähige DVD oder ein startfähiger USB-Stick erstellt werden kann."
+
+#: ../../index.rst:10
+msgid ""
+"This guide will help you download the right ISO image, create your bootable "
+"media and install Linux Mint on your computer."
+msgstr ""
+"Dieser Leitfaden wird Ihnen helfen das richtige ISO-Abbild herunterzuladen, "
+"startfähige Datenträger zu erstellen und Linux Mint auf Ihrem Rechner zu "
+"installieren."
+
+#: ../../index.rst:12 ../../sections.rst:5
+msgid "Download"
+msgstr "Herunterladen"
+
+#: ../../index.rst:19 ../../sections.rst:7
+msgid "Live Boot"
+msgstr "Live-Boot"
+
+#: ../../index.rst:26 ../../sections.rst:9
+msgid "Installation"
+msgstr "Installation"
+
+#: ../../index.rst:32 ../../sections.rst:11
+msgid "Post-installation"
+msgstr "Nach der Installation"
+
+#: ../../index.rst:41 ../../sections.rst:13
+msgid "Troubleshooting"
+msgstr "Fehlerbehandlung"
+
+#: ../../index.rst:48 ../../sections.rst:15
+msgid "Frequently Asked Questions"
+msgstr "Fragen und Antworten"
+
+#: ../../install.rst:2
+msgid "Install Linux Mint"
+msgstr "Linux Mint installieren"
+
+#: ../../install.rst:5
+msgid "The live session"
+msgstr "Die Live-Sitzung"
+
+#: ../../install.rst:7
+msgid ""
+"When you boot the computer from the USB stick (or DVD), Linux Mint starts a "
+"``live session``. It logs you in automatically as a user called ``mint`` and "
+"shows you a desktop with the installer on it:"
+msgstr ""
+"Wenn Sie den Rechner von einem USB-Stick (oder einer DVD) starten, startet "
+"Linux Mint eine ``Live-Sitzung``. Sie werden automatisch mit dem "
+"Benutzernamen ``mint`` angemeldet und es wird ein Schreibtisch mit dem "
+"Installationsassistenten angezeigt:"
+
+#: ../../install.rst:13
+msgid "The Linux Mint live session"
+msgstr "Die Linux-Mint-Live-Sitzung"
+
+#: ../../install.rst:15
+msgid ""
+"The ``live session`` is similar to a normal session (i.e. to Linux Mint once "
+"it is permanently installed on the computer), but with the following "
+"exceptions:"
+msgstr ""
+"Die ``Live-Sitzung`` ist ähnlich einer normalen Sitzung (d.h. ähnlich zu "
+"Linux Mint, sobald es dauerhaft auf dem Rechner installiert ist), aber mit "
+"den folgenden Ausnahmen:"
+
+#: ../../install.rst:17
+msgid ""
+"The Live session is slower (it is loaded from a USB stick or DVD as opposed "
+"to a SSD or HDD)."
+msgstr ""
+"Die Live-Sitzung ist langsamer, da sie von einem USB-Stick oder einer DVD "
+"anstatt von einer SSD- oder HDD-Festplatte geladen wird."
+
+#: ../../install.rst:18
+msgid ""
+"Changes you make in the live session are not permanent. They are not written "
+"to the USB stick (or DVD) and they do not impact the system installed by the "
+"installer."
+msgstr ""
+"Änderungen, die Sie in der Live-Sitzung vornehmen, sind nicht dauerhaft. Sie "
+"werden nicht auf den USB-Stick (oder die DVD) geschrieben und beeinflussen "
+"nicht das vom Installationsassistenten installierte System."
+
+#: ../../install.rst:19
+msgid ""
+"Some applications work differently (or not at all) in the live session "
+"(Timeshift, Flatpak, Update Manager, Welcome Screen..etc.)."
+msgstr ""
+"Einige Anwendungen funktionieren in der Live-Sitzung anders (oder überhaupt "
+"nicht) (wie z. B. Timeshift, Flatpak, Aktualisierungsverwaltung, "
+"Willkommensbildschirm, usw.)."
+
+#: ../../install.rst:22
+msgid ""
+"The username for the live session is ``mint``. If asked for a password press "
+":kbd:`Enter`."
+msgstr ""
+"Der Benutzername für die Live-Sitzung ist ``mint``. Wenn Sie nach einem "
+"Passwort gefragt werden, drücken Sie :kbd:`Eingabe`."
+
+#: ../../install.rst:25
+msgid "Installing Linux Mint on the computer"
+msgstr "Linux Mint auf dem Rechner installieren"
+
+#: ../../install.rst:27
+msgid "To permanently install Linux Mint on your computer:"
+msgstr "Um Linux Mint dauerhaft auf Ihrem Rechner zu installieren:"
+
+#: ../../install.rst:29
+msgid "Double-click :guilabel:`Install Linux Mint`."
+msgstr ":guilabel:`Install Linux Mint` doppelklicken."
+
+#: ../../install.rst:31
+msgid "Select your language."
+msgstr "Wählen Sie Ihre Sprache aus."
+
+#: ../../install.rst:37
+msgid "Connect to the Internet."
+msgstr "Stellen Sie eine Verbinung mit dem Internet her."
+
+#: ../../install.rst:43
+msgid ""
+"If you are connected to the Internet, tick the box to install the multimedia "
+"codecs."
+msgstr ""
+"Wenn Sie mit dem Internet verbunden sind, kreuzen Sie das Kästchen an, um "
+"die Multimedia-Codecs zu installieren."
+
+#: ../../install.rst:49
+msgid "Choose an installation type."
+msgstr "Wählen Sie eine Installationsart."
+
+#: ../../install.rst:55
+msgid ""
+"If Linux Mint is the only operating system you want to run on this computer "
+"and all data can be lost on the hard drive, choose :guilabel:`Erase disk and "
+"install Linux Mint`."
+msgstr ""
+"Wenn Linux Mint das einzige Betriebssystem ist, das auf diesem Rechner "
+"ausgeführt werden soll und alle Daten auf der Festplatte gelöscht werden "
+"können, wählen Sie :guilabel:`Festplatte löschen und Linux Mint "
+"installieren`."
+
+#: ../../install.rst:58
+msgid ""
+":guilabel:`Encrypt the new Linux Mint installation for security` refers to "
+"full disk encryption. At this stage of the installation your keyboard layout "
+"wasn't yet selected so it is set to en_US. If you decide to use this option, "
+"keep this in mind when entering a password. Note that there are issues with "
+"this option and some NVIDIA drivers. If you are new to Linux use home "
+"directory encryption instead (you can select it later during the "
+"installation)."
+msgstr ""
+":guilabel:`Die neue Linux Mint-Installation zur Sicherheit verschlüsseln` "
+"bezieht sich auf die vollständige Festplattenverschlüsselung. In diesem "
+"Stadium der Installation ist Ihre Tastaturbelegung noch nicht ausgewählt, "
+"daher ist sie auf en_US eingestellt. Wenn Sie sich entscheiden diese Option "
+"zu verwenden, beachten Sie dies bei der Eingabe eines Passworts. Beachten "
+"Sie außerdem, dass bei dieser Option mit einigen NVIDIA-Treibern Probleme "
+"auftreten. Wenn Sie mit Linux noch nicht vertraut sind, verwenden Sie "
+"stattdessen die Verschlüsselung des Home-Verzeichnisses (diese kann später "
+"während der Installation ausgewählt werden)."
+
+#: ../../install.rst:60
+msgid ""
+"If another operating system is present on the computer, the installer shows "
+"you an option to install Linux Mint alongside it. If you choose this option, "
+"the installer automatically resizes your existing operating system, makes "
+"room and installs Linux Mint beside it. A boot menu is set up to choose "
+"between the two operating systems each time you start your computer."
+msgstr ""
+"Wenn ein anderes Betriebssystem auf dem Rechner vorhanden ist, zeigt der "
+"Installationsassistent eine Option an, um Linux Mint daneben zu "
+"installieren. Wenn Sie diese Option wählen, ändert der "
+"Installationsassistent automatisch die Größe Ihres vorhandenen "
+"Betriebssystems, macht Platz und installiert Linux Mint daneben. Ein "
+"Startmenü wird eingerichtet, um bei jedem Start des Rechners zwischen den "
+"beiden Betriebssystemen auswählen zu können."
+
+#: ../../install.rst:64
+msgid ""
+"If you want to manage the partitions or specify which partitions to use, "
+"select :guilabel:`Something else`."
+msgstr ""
+"Wenn Sie die Partitionen selbst verwalten möchten oder bestimmen wollen, "
+"welche Partitionen verwendet werden sollen, wählen Sie :guilabel:`Etwas "
+"Anderes`."
+
+#: ../../install.rst:70
+msgid ""
+"Linux Mint requires one partition to be mounted on the root ``/`` directory."
+msgstr ""
+"Linux Mint benötigt eine Partition, die im Wurzelverzeichnis ``/``eingehängt "
+"wird."
+
+#: ../../install.rst:72
+msgid ""
+"The Linux Mint operating system (without additional software or personal "
+"data) takes roughly 15GB, so give this partition a decent size (100GB or "
+"more)."
+msgstr ""
+"Das Betriebssystem Linux Mint (ohne zusätzliche Anwendungen oder persönliche "
+"Daten) benötigt ungefähr 15 GB, also geben Sie dieser Partition eine "
+"angemessene Größe (100 GB oder mehr)."
+
+#: ../../install.rst:74
+msgid "``ext4`` is recommended. It is the most popular Linux filesystem."
+msgstr "``ext4`` wird empfohlen. Es ist das beliebteste Linux-Dateisystem."
+
+#: ../../install.rst:79
+msgid ""
+"Also create a ``swap`` partition. This partition is used for hibernation and "
+"as a safety buffer in case your computer runs out of RAM. Give this "
+"partition a size equal to the amount of RAM in your computer."
+msgstr ""
+"Erstellen Sie auch eine ``swap``-Partition. Diese Partition wird für den "
+"Ruhezustand verwendet und als ein Sicherheitspuffer für den Fall, dass Ihrem "
+"Rechner der zur Verfügung stehende Arbeitsspeicher (RAM) nicht ausreicht. "
+"Geben Sie dieser Partition eine Größe, welche der Größe des Arbeitsspeichers "
+"in Ihrem Rechner entspricht."
+
+#: ../../install.rst:81
+msgid "Select your timezone"
+msgstr "Wählen Sie Ihre Zeitzone"
+
+#: ../../install.rst:87
+msgid "Select your keyboard layout"
+msgstr "Wählen Sie Ihre Tastaturbelegung"
+
+#: ../../install.rst:93
+msgid "Enter your user details"
+msgstr "Geben Sie Ihre Benutzerdetails ein"
+
+#: ../../install.rst:99
+msgid ""
+"Your ``name`` can be your real name, but it doesn't have to be. It is only "
+"used locally, in the screensaver and on the login screen."
+msgstr ""
+"Ihr ``Name`` kann Ihr richtiger Name sein, aber muss es nicht sein. Er wird "
+"nur lokal, im Bildschirmschoner und auf dem Anmeldebildschirm verwendet."
+
+#: ../../install.rst:101
+msgid ""
+"Your ``username`` is what you log in as, and your ``hostname`` is the name "
+"of your computer on the network."
+msgstr ""
+"Ihr ``Benutzername`` ist derjenige, mit dem Sie sich auf dem Rechner "
+"anmelden, und der ``Rechnername`` ist der Name Ihres Rechners im Netzwerk."
+
+#: ../../install.rst:103
+msgid ""
+"To prevent bugs only use lowercase characters, with no punctuation or "
+"accentuation."
+msgstr ""
+"Um Fehler zu vermeiden, verwenden Sie nur Kleinbuchstaben ohne Interpunktion "
+"oder Akzentuierung."
+
+#: ../../install.rst:105
+msgid ""
+"To protect your personal data against local attacks (people around you, or "
+"in case your computer gets stolen), tick :guilabel:`Encrypt my home folder`."
+msgstr ""
+"Um Ihre persönlichen Daten vor lokalen Angriffen zu schützen (z. B. vor "
+"Personen in Ihrer Nähe oder falls Ihr Rechner gestohlen werden sollte), "
+"wählen Sie :guilabel:`Meine persönlichen Dateien verschlüsseln` aus."
+
+#: ../../install.rst:107
+msgid "Choose a strong password."
+msgstr "Wählen Sie ein starkes Passwort."
+
+#: ../../install.rst:109
+msgid "Enjoy the slideshow while Linux Mint is installed on your computer."
+msgstr ""
+"Genießen Sie die Diaschau, während Linux Mint auf Ihrem Rechner installiert "
+"wird."
+
+#: ../../install.rst:115
+msgid "When the installation is finished, click :guilabel:`Restart Now`."
+msgstr ""
+"Wenn die Installation abgeschlossen ist, klicken Sie auf :guilabel:`Jetzt "
+"neu starten`."
+
+#: ../../install.rst:121
+msgid ""
+"The computer will then start to shut down and ask you to remove the USB disk "
+"(or DVD). Upon reboot, your computer should show you a boot menu or start "
+"your newly installed Linux Mint operating system."
+msgstr ""
+"Der Rechner wird dann heruntergefahren und Sie werden aufgefordert, den USB-"
+"Stick (oder die DVD) zu entfernen. Nach dem Neustart sollte Ihr Rechner ein "
+"Startmenü anzeigen oder Ihr neu installiertes Linux-Mint-Betriebssystem "
+"starten."
+
+#: ../../locales.rst:2
+msgid "Language support"
+msgstr "Sprachunterstützung"
+
+#: ../../locales.rst:4
+msgid ""
+"Language support includes translations but also packages related to spell-"
+"checking, synonyms, hyphenation and dictionaries which enhance your "
+"experience in software applications such as LibreOffice."
+msgstr ""
+"Die Sprachunterstützung umfasst Übersetzungen, aber auch Pakete für die "
+"Rechtschreibprüfung, Synonyme, Silbentrennung und Wörterbücher, die Ihre "
+"Verwendung mit Softwareanwendungen wie LibreOffice verbessern."
+
+#: ../../locales.rst:6
+msgid "Launch :menuselection:`Menu --> Preferences --> Languages`."
+msgstr "Öffnen Sie :menuselection:`Menü --> Einstellungen --> Sprachen`."
+
+#: ../../locales.rst:12
+msgid "Click :guilabel:`Install / Remove Language`."
+msgstr "Klicken Sie auf :guilabel:`Sprachen hinzufügen/entfernen …`."
+
+#: ../../locales.rst:18
+msgid ""
+"If beside your locale, you see a label saying ``Some language packs are "
+"missing``, select your locale and click :guilabel:`Install language packs`."
+msgstr ""
+"Wenn neben Ihrer Sprache eine Beschriftung mit der Aufschrift ``Einige "
+"Sprachpakete fehlen`` angezeigt wird, wählen Sie Ihre Sprache aus und "
+"klicken Sie auf :guilabel:`Sprachpakete installieren`."
+
+#: ../../multiboot.rst:2
+msgid "Multi-boot"
+msgstr "Multi-Boot"
+
+#: ../../multiboot.rst:5
+msgid "Always install Windows first"
+msgstr "Windows immer zuerst installieren"
+
+#: ../../multiboot.rst:7
+msgid ""
+"Windows does not detect other operating systems and does not feature a boot "
+"menu. When you install it, it overwrites your boot sequence and your "
+"computer then boots straight into Windows."
+msgstr ""
+"Windows erkennt keine anderen Betriebssysteme und verfügt über kein "
+"Startmenü. Wenn Sie es installieren, überschreibt es Ihre Startsequenz und "
+"Ihr Rechner startet dann direkt in Windows."
+
+#: ../../multiboot.rst:9
+msgid ""
+"Linux Mint (and most Linux distributions) detects other operating systems "
+"and builds a menu from which you can choose which system to boot."
+msgstr ""
+"Linux Mint und die meisten Linux-Distributionen erkennen andere "
+"Betriebssysteme und erstellen ein Menü, aus dem Sie auswählen können, "
+"welches System gestartet werden soll."
+
+#: ../../multiboot.rst:11
+msgid ""
+"For this reason, if you want to dual-boot or multi-boot with Windows, it is "
+"easier and recommended to install Windows first, before you install Linux "
+"Mint."
+msgstr ""
+"Wenn Sie Dual-Boot oder Multi-Boot mit Windows durchführen möchten, ist es "
+"aus diesem Grund einfacher und empfohlen, zuerst Windows zu installieren, "
+"bevor Sie Linux Mint installieren."
+
+#: ../../multiboot.rst:14
+msgid "Fix the boot sequence"
+msgstr "Die Startsequenz reparieren"
+
+#: ../../multiboot.rst:16
+msgid "If Windows overwrites your boot sequence:"
+msgstr "Wenn Windows Ihre Startsequenz überschreibt:"
+
+#: ../../multiboot.rst:22
+msgid "To list your partitions, type ``lsblk -f`` and press :kbd:`Enter`."
+msgstr ""
+"Um Ihre Partitionen aufzulisten, bitte ``lsblk -f`` eingeben und "
+":kbd:`Enter` drücken."
+
+#: ../../multiboot.rst:28
+msgid ""
+"Find the partition where Linux Mint is installed. On most systems this "
+"should be the only ``ext4`` partition."
+msgstr ""
+"Suchen Sie die Partition, auf der Linux Mint installiert ist. Auf den "
+"meisten Systemen sollte das die einzige ``ext4``-Partition sein."
+
+#: ../../multiboot.rst:30
+msgid "In the screenshot above:"
+msgstr "Im obigen Bildschirmfoto:"
+
+#: ../../multiboot.rst:32
+msgid ""
+"``sdb`` is the USB stick (recognizable by its ``iso9660`` type which "
+"corresponds to an ISO image)."
+msgstr ""
+"``sdb`` ist der USB-Stick (erkennbar an seinem ``iso9660``-Typ, welcher "
+"einem ISO-Abbild entspricht)."
+
+#: ../../multiboot.rst:33
+msgid "``sda`` is the hard drive."
+msgstr "``sda`` ist die Festplatte."
+
+#: ../../multiboot.rst:34
+msgid ""
+"``sda4`` is the partition on the ``sda`` hard drive, where Linux Mint is "
+"installed."
+msgstr ""
+"``sda4`` ist die Partition auf der ``sda``-Festplatte, auf der Linux Mint "
+"installiert ist."
+
+#: ../../multiboot.rst:36
+msgid "To list partition sizes, type ``lsblk``:"
+msgstr "Um die Größen der Partitionen aufzulisten, geben Sie ``lsblk`` ein:"
+
+#: ../../multiboot.rst:42
+msgid "To list partition labels, type ``blkid``:"
+msgstr ""
+"Um die Bezeichnungen der Partitionen aufzulisten, geben Sie ``blkid`` ein:"
+
+#: ../../multiboot.rst:48
+msgid ""
+"Mount the Linux Mint partition and reinstall the grub menu with the "
+"following commands:"
+msgstr ""
+"Hängen Sie die Linux-Mint-Partition ein und installieren Sie das GRUB-Menü "
+"erneut mit den folgenden Befehlen:"
+
+#: ../../multiboot.rst:56
+msgid ""
+"In the commands above, replace /dev/sda4 and /dev/sda with the appropriate "
+"names for your Linux Mint partition and your hard drive device."
+msgstr ""
+"Ersetzen Sie in den obigen Befehlen /dev/sda4 und /dev/sda durch die "
+"entsprechenden Namen Ihrer Linux-Mint-Partition und Ihres "
+"Festplattenlaufwerks."
+
+#: ../../oem.rst:2
+msgid "Pre-installing Linux Mint (OEM Installation)"
+msgstr "Vorinstallation von Linux Mint (OEM-Installation)"
+
+#: ../../oem.rst:4
+msgid ""
+"In the ISO boot menu, ``OEM install`` is used to preinstall Linux Mint."
+msgstr ""
+"Verwenden Sie ``OEM-Installation`` im ISO-Startmenü zum Vorinstallieren von "
+"Linux Mint."
+
+#: ../../oem.rst:6
+msgid "This option is useful to:"
+msgstr "Diese Option ist nützlich für:"
+
+#: ../../oem.rst:8
+msgid ""
+"Manufacturers and resellers who want to install Linux Mint on computers they "
+"sell to their customers."
+msgstr ""
+"Hersteller und Verkäufer, die Linux Mint auf Rechnern installieren möchten, "
+"die sie an ihre Kunden verkaufen."
+
+#: ../../oem.rst:9
+msgid "People who want to sell or give their computer to somebody else."
+msgstr ""
+"Leute, die ihren Rechner an jemand anderen verkaufen oder verschenken wollen."
+
+#: ../../oem.rst:11
+msgid ""
+"When you install Linux Mint in ``OEM`` mode, the operating system is "
+"installed with a temporary user account and prepared for the computer's "
+"future owner."
+msgstr ""
+"Wenn Sie Linux Mint im ``OEM``-Modus installieren, wird das Betriebssystem "
+"mit einem temporären Benutzerkonto installiert und für den zukünftigen "
+"Besitzer des Rechners vorbereitet."
+
+#: ../../oem.rst:13
+msgid "The user account is set up by the new owner."
+msgstr "Das Benutzerkonto wird vom neuen Besitzer eingerichtet."
+
+#: ../../oem.rst:15
+msgid "To perform an OEM installation follow the steps below:"
+msgstr ""
+"Um eine OEM-Installation durchzuführen, führen Sie die folgenden Schritte "
+"aus:"
+
+#: ../../oem.rst:17
+msgid "Select ``OEM Install`` from the USB stick (or DVD) menu."
+msgstr ""
+"Wählen Sie ``OEM-Installation`` im Startmenü des USB-Sticks (oder der DVD)."
+
+#: ../../oem.rst:19
+msgid "Launch the installer and follow the installation instructions."
+msgstr ""
+"Starten Sie den Installationsassistenten und folgen Sie den "
+"Installationsanweisungen."
+
+#: ../../oem.rst:23
+msgid ""
+"Change any system settings or install additional software if you want."
+msgstr ""
+"Ändern Sie beliebige Systemeinstellungen oder installieren Sie zusätzliche "
+"Anwendungen, wenn Sie möchten."
+
+#: ../../oem.rst:25
+msgid ""
+"When ready, click :guilabel:`Prepare for shipping to end user`, enter the "
+"password you chose during the installation, click :guilabel:`OK` and shut "
+"down the computer."
+msgstr ""
+"Wenn Sie fertig sind, klicken Sie auf :guilabel:`Vorbereitung zur "
+"Auslieferung an den Endanwender`, geben Sie das Passwort ein, welches Sie "
+"während der Installation gewählt haben, klicken Sie auf :guilabel:`OK` und "
+"fahren Sie den Rechner herunter."
+
+#: ../../oem.rst:31
+msgid ""
+"When the new owner of the computer boots the computer the following screen "
+"appears:"
+msgstr ""
+"Wenn der neue Besitzer des Rechners den Rechner startet, erscheint der "
+"folgende Bildschirm:"
+
+#: ../../oem.rst:37
+msgid ""
+"The new owner selects his or her username, password, keyboard layout, "
+"language, timezone and all the details relevant to create his or her user "
+"account."
+msgstr ""
+"Der neue Besitzer wählt seinen Benutzernamen, sein Passwort, seine "
+"Tastaturbelegung, seine Sprache, seine Zeitzone und alle anderen Details "
+"aus, die für die Erstellung seines Benutzerkontos relevant sind."
+
+#: ../../partitioning.rst:2
+msgid "Partitioning"
+msgstr "Partitionierung"
+
+#: ../../partitioning.rst:5
+msgid "Disks and partitions under Linux"
+msgstr "Festplatten und Partitionen unter Linux"
+
+#: ../../partitioning.rst:7
+msgid ""
+"If you are not familiar with the Linux naming scheme for devices and "
+"partitions, or the concept of filesystems and mount points, read:"
+msgstr ""
+"Wenn Sie mit dem Namensschema für Geräte und Partitionen oder dem Konzept "
+"von Dateisystemen und Einhängepunkten in Linux nicht vertraut sind, lesen "
+"Sie:"
+
+#: ../../partitioning.rst:9
+msgid ""
+"`A beginner’s guide to disks and disk partitions in Linux "
+"<http://linuxbsdos.com/2014/11/08/a-beginners-guide-to-disks-and-disk-"
+"partitions-in-linux/>`_"
+msgstr ""
+"`Ein Einsteigerhandbuch zu Festplatten und Festplattenpartitionen in Linux "
+"<http://linuxbsdos.com/2014/11/08/a-beginners-guide-to-disks-and-disk-"
+"partitions-in-linux/>`_"
+
+#: ../../partitioning.rst:10
+msgid ""
+"`Device Names in Linux "
+"<https://www.debian.org/releases/wheezy/amd64/apcs04.html.en>`_"
+msgstr ""
+"`Gerätebezeichnungen unter Linux "
+"<https://www.debian.org/releases/wheezy/amd64/apcs04.html.de>`_"
+
+#: ../../partitioning.rst:11
+msgid ""
+"`Understanding the Linux File System "
+"<http://etutorials.org/Linux+systems/red+hat+linux+9+professional+secrets/Par"
+"t+II+Exploring+Red+Hat+Linux/Chapter+7+Red+Hat+Linux+Basics/Understanding+the"
+"+Linux+File+System/>`_"
+msgstr ""
+"`Das Linux-Dateisystem verstehen "
+"<http://etutorials.org/Linux+systems/red+hat+linux+9+professional+secrets/Par"
+"t+II+Exploring+Red+Hat+Linux/Chapter+7+Red+Hat+Linux+Basics/Understanding+the"
+"+Linux+File+System/>`_"
+
+#: ../../partitioning.rst:14
+msgid "Dedicated /home partition"
+msgstr "Eigene /home-Partition"
+
+#: ../../partitioning.rst:16
+msgid ""
+"In Linux, the ``/home`` directory is used to store user data and preferences."
+msgstr ""
+"Unter Linux dient das ``/home``-Verzeichnis dem Speichern von Daten und "
+"Einstellungen des Nutzers."
+
+#: ../../partitioning.rst:18
+msgid ""
+"This directory contains one subdirectoy for each user account. Say your "
+"username is ``john``, your home directory is ``/home/john``, your downloads "
+"are in ``/home/john/Downloads``, your documents in ``/home/john/Documents``, "
+"your Firefox bookmarks somewhere in ``/home/john/.mozilla`` and so on..."
+msgstr ""
+"Dieses Verzeichnis enthält einen Unterordner für jedes Benutzerkonto. Wenn "
+"Ihr Benutzername ``mustermann`` ist, dann ist Ihr persönlicher Ordner "
+"``/home/mustermann``, Ihre Downloads sind in ``/home/mustermann/Downloads``, "
+"Ihre Dokumente in ``/home/mustermann/Dokumente``, Ihre Firefox-Lesezeichen "
+"irgendwo in ``/home/mustermann/.mozilla`` und so weiter …"
+
+#: ../../partitioning.rst:20
+msgid ""
+"By giving ``/home`` its own dedicated partition, you separate the user data "
+"from the rest of the operating system."
+msgstr ""
+"Wenn Sie ``/home`` einer eigenen Partition zuordnen, trennen Sie die "
+"Benutzerdaten vom Rest des Betriebssystems."
+
+#: ../../partitioning.rst:22
+msgid ""
+"The advantage is that you can wipe the operating system and replace it "
+"without affecting the user data."
+msgstr ""
+"Der Vorteil ist, dass Sie das Betriebssystem löschen und ersetzen können, "
+"ohne Ihre Benutzerdaten zu beeinflussen."
+
+#: ../../partitioning.rst:24
+msgid "When installing Linux Mint:"
+msgstr "Während der Installation von Linux Mint:"
+
+#: ../../partitioning.rst:26
+msgid ""
+"Assign the ``/`` mount point to the partition dedicated to the operating "
+"system, and tell the installer to format it."
+msgstr ""
+"Weisen Sie den Einhängepunkt ``/`` derjenigen Partition zu, die dem "
+"Betriebssystem zugeordnet ist, und weisen Sie den Installationsassistenten "
+"an, diese zu formatieren."
+
+#: ../../partitioning.rst:28
+msgid ""
+"Assign the ``/home`` mount point to the partition dedicated to the user "
+"data, and if it contains user data already, make sure to tell the installer "
+"**not to format it**."
+msgstr ""
+"Weisen Sie den Einhängepunkt ``/home`` derjenigen Partition zu, die den "
+"Benutzerdaten zugeordnet ist, und wenn diese bereits Benutzerdaten enthält, "
+"teilen Sie dem Installationsassistenten mit, dass er **diese nicht "
+"formatieren** soll."
+
+#: ../../partitioning.rst:31
+msgid ""
+"This is not recommended for novice users. A misstep during the installation "
+"could wipe all your data. Always make backups, make sure to select the right "
+"partitions and to carefully review formatting options."
+msgstr ""
+"Dies ist für unerfahrene Benutzer nicht empfohlen. Ein Fehler während der "
+"Installation könnte alle Ihre Daten löschen. Machen Sie immer "
+"Sicherungskopien und stellen Sie sicher, dass Sie die Partitions- und "
+"Formatierungsoptionen gründlich überprüft haben."
+
+#: ../../partitioning.rst:34
+msgid ""
+"A Linux Mint operating system takes about 15GB and grows as you install "
+"additional software. If you can spare the size, give it 100GB. Keep most of "
+"your free space for the home partition. User data (downloads, videos, "
+"pictures) takes a lot more space."
+msgstr ""
+"Ein Linux-Mint-Betriebssystem benötigt ungefähr 15 GB und zunehmend mehr, "
+"wenn Sie zusätzliche Anwendungen installieren. Wenn Sie genügend Platz "
+"haben, geben Sie ihm 100 GB. Weisen Sie den meisten freien Speicherplatz der "
+"Home-Partition zu. Benutzerdaten (Downloads, Videos, Bilder, …) benötigen "
+"viel mehr Speicherplatz."
+
+#: ../../timeshift.rst:2
+msgid "System snapshots"
+msgstr "Systemschnappschüsse"
+
+#: ../../timeshift.rst:4
+msgid ""
+"Before you start using your operating system, set up system snapshots. Then "
+"if anything goes wrong, you can restore your system from an earlier backup."
+msgstr ""
+"Bevor Sie damit beginnen, Ihr Betriebssystem zu benutzen, richten Sie "
+"Systemschnappschüsse ein. Wenn danach etwas schiefläuft, können Sie Ihr "
+"System aus einer früheren Sicherungskopie wiederherstellen."
+
+#: ../../timeshift.rst:6
+msgid "Launch :menuselection:`Menu --> Administration --> Timeshift`."
+msgstr "Öffnen Sie :menuselection:`Menü --> Systemverwaltung --> Timeshift`."
+
+#: ../../timeshift.rst:8
+msgid "Select ``RSYNC`` and click :guilabel:`Next`."
+msgstr "Wählen Sie  ``rsync``  und klicken Sie auf :guilabel:`Weiter`."
+
+#: ../../timeshift.rst:13
+msgid ""
+"Select the device where you want system snapshots to be saved and click "
+":guilabel:`Next`."
+msgstr ""
+"Wählen Sie das Gerät, auf dem die Systemschnappschüsse gespeichert werden "
+"sollen und klicken Sie anschließend auf :guilabel:`Weiter`."
+
+#: ../../timeshift.rst:19
+msgid ""
+"The selected device is not formatted and no data is lost. System snapshots "
+"are saved into a newly created ``timeshift`` directory on the root of the "
+"selected device."
+msgstr ""
+"Das ausgewählte Gerät wird nicht formatiert und es gehen keine Daten "
+"verloren. Systemschnappschüsse werden im neu erstellten ``timeshift``-Ordner "
+"im Wurzelverzeichnis des gewählten Gerätes gespeichert."
+
+#: ../../timeshift.rst:21
+msgid "Select when system snapshots are saved."
+msgstr "Wählen Sie aus, wann Systemschnappschüsse erstellt werden sollen."
+
+#: ../../timeshift.rst:27
+msgid ""
+"System snapshots are incremental so although the first snapshot takes a "
+"significant amount of spaces, new snapshots only take additional space for "
+"files which have changed."
+msgstr ""
+"Systemschnappschüsse sind inkrementell. Das heißt obwohl der erste "
+"Schnappschuss eine beachtliche Menge an Speicherplatz benötigt, benötigen "
+"neue Schnappschüsse dagegen nur zusätzlichen Speicherplatz für Dateien, die "
+"sich geändert haben."
+
+#: ../../timeshift.rst:30
+msgid ""
+"``Boot`` snapshots are performed in the background and do not impact the "
+"speed of the boot sequence."
+msgstr ""
+"``Boot``-Schnappschüsse laufen im Hintergrund und haben keine Auswirkung auf "
+"die Schnelligkeit des Startvorgangs."
+
+#: ../../timeshift.rst:32
+msgid "Click :guilabel:`Finish`."
+msgstr "Klicken Sie auf :guilabel:`Beenden`."
+
+#: ../../verify.rst:2
+msgid "Verify your ISO image"
+msgstr "Das ISO-Abbild verifizieren"
+
+#: ../../verify.rst:4
+msgid ""
+"It is important to verify the integrity and authenticity of your ISO image."
+msgstr ""
+"Es ist wichtig, die Unversehrtheit und Echtheit Ihres ISO-Abbildes zu "
+"überprüfen."
+
+#: ../../verify.rst:6
+msgid ""
+"The integrity check confirms that your ISO image was properly downloaded and "
+"that your local file is an exact copy of the file present on the download "
+"servers. An error during the download could result in a corrupted file and "
+"trigger random issues during the installation."
+msgstr ""
+"Die Unversehrtheitsprüfung bestätigt, dass Ihr ISO-Abbild ohne Fehler "
+"heruntergeladen wurde und dass Ihre lokale Datei eine genaue Kopie der Datei "
+"auf den Downloadservern ist. Ein Fehler während des Herunterladens kann zu "
+"einer beschädigten Datei führen und zufällige Probleme während der "
+"Installation auslösen."
+
+#: ../../verify.rst:8
+msgid ""
+"The authenticity check confirms that the ISO image you downloaded was signed "
+"by Linux Mint, and thus that it isn't a modified or malicious copy made by "
+"somebody else."
+msgstr ""
+"Die Unversehrtheitsprüfung bestätigt, dass Ihr heruntergeladenes ISO-Abbild "
+"von Linux Mint signiert wurde und somit keine veränderte oder bösartige "
+"Kopie ist, die von irgendjemand anderem erstellt worden ist."
+
+#: ../../verify.rst:11
+msgid "Download the SHA256 sums provided by Linux Mint"
+msgstr "Die von Linux Mint bereitgestellten SHA256-Prüfsummen herunterladen"
+
+#: ../../verify.rst:13
+msgid ""
+"All `download mirrors <https://www.linuxmint.com/mirrors.php>`_ provide the "
+"ISO images, a ``sha256sum.txt`` file and a ``sha256sum.txt.gpg`` file. You "
+"should be able to find these files in the same place you downloaded the ISO "
+"image from."
+msgstr ""
+"Alle `Spiegelserver <https://www.linuxmint.com/mirrors.php>`_ stellen neben "
+"den ISO-Abbildern eine ``sha256sum.txt``-Datei und eine "
+"``sha256sum.txt.gpg``-Datei zur Verfügung. Sie sollten diese Dateien an "
+"derselben Stelle finden, von der Sie das ISO-Abbild heruntergeladen haben."
+
+#: ../../verify.rst:15
+msgid ""
+"If you can't find them, browse the `Heanet download mirror "
+"<https://ftp.heanet.ie/mirrors/linuxmint.com/stable/>`_ and click the "
+"version of the Linux Mint release you downloaded."
+msgstr ""
+"Wenn Sie sie nicht finden können, durchsuchen Sie den `Heanet-Spiegelserver "
+"<https://ftp.heanet.ie/mirrors/linuxmint.com/stable/>`_ und wählen Sie die "
+"Version der Linux-Mint-Ausgabe aus, die Sie heruntergeladen haben."
+
+#: ../../verify.rst:17
+msgid "Download both ``sha256sum.txt`` and ``sha256sum.txt.gpg``."
+msgstr ""
+"Laden Sie die beiden Dateien ``sha256sum.txt`` und ``sha256sum.txt.gpg`` "
+"herunter."
+
+#: ../../verify.rst:19
+msgid ""
+"Do not copy their content, use \"right-click->Save Link As...\" to download "
+"the files themselves and do not modify them in any way."
+msgstr ""
+"Den Inhalt bitte nicht kopieren, verwenden Sie \"Rechtsklick -> Ziel "
+"speichern unter …\", um die Dateien herunterzuladen und verändern Sie diese "
+"in keiner Weise."
+
+#: ../../verify.rst:22
+msgid "Integrity check"
+msgstr "Unversehrtheitsprüfung"
+
+#: ../../verify.rst:24
+msgid ""
+"To check the integrity of your local ISO file, generate its SHA256 sum and "
+"compare it with the sum present in ``sha256sum.txt``."
+msgstr ""
+"Um die Unversehrtheit Ihrer lokalen ISO-Datei zu überprüfen, erzeugen Sie "
+"dessen SHA256-Prüfsumme und vergleichen Sie diese mit der aus "
+"``sha256sum.txt``."
+
+#: ../../verify.rst:31
+msgid ""
+"If you are using Windows follow the tutorial `How to verify the ISO image on "
+"Windows <https://forums.linuxmint.com/viewtopic.php?f=42&t=291093>`_."
+msgstr ""
+"Wenn Sie Windows benutzen, folgen Sie der Anleitung `How to verify the ISO "
+"image on Windows "
+"<https://forums.linuxmint.com/viewtopic.php?f=42&t=291093>`_."
+
+#: ../../verify.rst:33
+msgid ""
+"If the sums match, your ISO image was successfully downloaded. If they "
+"don't, download it again."
+msgstr ""
+"Wenn die Prüfsummen übereinstimmen, wurde Ihre ISO-Abbild erfolgreich "
+"heruntergeladen. Wenn sie nicht übereinstimmen, laden sie die Datei erneut "
+"herunter."
+
+#: ../../verify.rst:38
+msgid "Authenticity check"
+msgstr "Echtheitsprüfung"
+
+#: ../../verify.rst:40
+msgid ""
+"To verify the authenticity of ``sha256sum.txt``, check the signature of "
+"``sha256sum.txt.gpg`` by following the steps below."
+msgstr ""
+"Um die Echtheit von ``sha256sum.txt`` zu überprüfen, prüfen Sie die Signatur "
+"von ``sha256sum.txt.gpg``, indem Sie die unten beschriebenen Schritte "
+"befolgen."
+
+#: ../../verify.rst:43
+msgid "Import the Linux Mint signing key:"
+msgstr "Den Linux Mint-Signaturschlüssel importieren:"
+
+#: ../../verify.rst:49
+msgid ""
+"If gpg complains about the key ID, try the following commands instead:"
+msgstr ""
+"Wenn sich GPG über die Schlüsselkennung beschwert, bitte stattdessen "
+"folgende Befehle versuchen:"
+
+#: ../../verify.rst:56
+msgid ""
+"Check the output of the last command, to make sure the fingerprint is ``27DE "
+"B156 44C6 B3CF 3BD7 D291 300F 846B A25B AE09`` (with or without spaces)."
+msgstr ""
+"Bitte überprüfen Sie die Ausgabe des letzten Befehls, um sicherzustellen, "
+"dass der Fingerabdruck ``27DE B156 44C6 B3CF 3BD7 D291 300F 846B A25B AE09`` "
+"ist (mit oder ohne Leerzeichen)."
+
+#: ../../verify.rst:59
+msgid "Verify the authenticity of sha256sum.txt:"
+msgstr "Die Echtheit von sha256sum.txt überprüfen:"
+
+#: ../../verify.rst:64
+msgid ""
+"The output of the last command should tell you that the file signature is "
+"``good`` and that it was signed with the ``A25BAE09`` key."
+msgstr ""
+"Die Ausgabe des letzten Befehls sollte Ihnen sagen, dass die Dateisignatur "
+"``gut`` ist und dass sie mit dem Schlüssel ``A25BAE09`` signiert wurde."
+
+#: ../../verify.rst:67
+msgid ""
+"GPG might warn you that the Linux Mint signature is not trusted by your "
+"computer. This is expected and perfectly normal."
+msgstr ""
+"GPG könnte Sie warnen, dass Ihr Rechner der Signatur von Linux Mint nicht "
+"vertraut. Das wird so erwartet und ist völlig normal."
+
+#: ../../verify.rst:70
+msgid ""
+"For more information on ISO verification, or to verify BETA, LMDE or old "
+"releases, read `How to Verify ISO images "
+"<https://linuxmint.com/verify.php>`_."
+msgstr ""
+"Für mehr Informationen zur ISO-Überprüfung oder um die BETA, LMDE oder "
+"ältere Veröffentlichungen zu überprüfen, lesen Sie `How to Verify ISO images "
+"<https://linuxmint.com/verify.php>`_."

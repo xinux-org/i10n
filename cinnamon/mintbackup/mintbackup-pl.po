@@ -1,0 +1,403 @@
+# Polish translation for linuxmint
+# Copyright (c) 2009 Rosetta Contributors and Canonical Ltd 2009
+# This file is distributed under the same license as the linuxmint package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2009.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: linuxmint\n"
+"Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
+"POT-Creation-Date: 2019-02-27 13:57+0000\n"
+"PO-Revision-Date: 2019-03-18 12:37+0000\n"
+"Last-Translator: Mariusz <wisniowy@g.pl>\n"
+"Language-Team: Polish <pl@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Launchpad-Export-Date: 2022-10-10 13:02+0000\n"
+"X-Generator: Launchpad (build 762fb15a975e8b23af6a1f86e44e46bfd0451459)\n"
+
+#: usr/lib/linuxmint/mintbackup/mintbackup.py:41
+msgid "Backups"
+msgstr "Kopie zapasowe"
+
+#: usr/lib/linuxmint/mintbackup/mintbackup.py:169
+#: usr/lib/linuxmint/mintbackup/mintbackup.py:209
+#: usr/lib/linuxmint/mintbackup/mintbackup.py:216 generate_desktop_files:24
+#: generate_desktop_files:39
+msgid "Backup Tool"
+msgstr "Narzędzie do tworzenia kopii zapasowych"
+
+#: usr/lib/linuxmint/mintbackup/mintbackup.py:232
+#, python-format
+msgid "%s is not located in your home directory."
+msgstr "%s nie jest umieszczony w Twoim katalogu domowym."
+
+#: usr/lib/linuxmint/mintbackup/mintbackup.py:272
+msgid "Please choose a directory."
+msgstr "Prosimy wybrać katalog."
+
+#: usr/lib/linuxmint/mintbackup/mintbackup.py:275
+msgid "You do not have the permission to write in the selected directory."
+msgstr "Nie posiadasz uprawnień, aby zapisywać w wybranym katalogu."
+
+#: usr/lib/linuxmint/mintbackup/mintbackup.py:335
+msgid "Please choose a backup file."
+msgstr "Prosimy wybrać plik kopii zapasowej."
+
+#: usr/lib/linuxmint/mintbackup/mintbackup.py:343
+msgid ""
+"This backup file is either too old or it was created with a different tool. "
+"Please extract it manually."
+msgstr ""
+"Ten plik kopii zapasowej jest zbyt stary, lub został utworzony przez inne "
+"narzędzie. Prosimy rozpakować go ręcznie."
+
+#: usr/lib/linuxmint/mintbackup/mintbackup.py:352
+#, python-format
+msgid "An error occurred while opening the backup file: %s."
+msgstr "Wystąpił błąd podczas otwierania pliku kopii zapasowej: %s."
+
+#: usr/lib/linuxmint/mintbackup/mintbackup.py:366
+msgid "No packages need to be installed."
+msgstr "Nie jest wymagana instalacja żadnych pakietów."
+
+#: usr/lib/linuxmint/mintbackup/mintbackup.py:373
+msgid "Please select packages to install."
+msgstr "Prosimy wybrać pakiety do zainstalowania."
+
+#: usr/lib/linuxmint/mintbackup/mintbackup.py:427
+#, python-format
+msgid "Skipping %s because named pipes are not supported."
+msgstr "Pomijanie %s ponieważ potoki nazwane nie są obsługiwane."
+
+#: usr/lib/linuxmint/mintbackup/mintbackup.py:452
+msgid "Backing up:"
+msgstr "Wykonywanie kopii zapasowej:"
+
+#: usr/lib/linuxmint/mintbackup/mintbackup.py:460
+msgid "Calculating..."
+msgstr "Obliczanie..."
+
+#: usr/lib/linuxmint/mintbackup/mintbackup.py:464
+#: usr/lib/linuxmint/mintbackup/mintbackup.py:568
+msgid "The following errors occurred:"
+msgstr "Wystąpiły następujące błędy:"
+
+#: usr/lib/linuxmint/mintbackup/mintbackup.py:470
+msgid "The backup was aborted."
+msgstr "Tworzenie kopii zapasowej zostało przerwane."
+
+#: usr/lib/linuxmint/mintbackup/mintbackup.py:474
+#, python-format
+msgid "Your files were successfully saved in %s."
+msgstr "Twoje pliki zostały pomyślnie zapisane w %s."
+
+#: usr/lib/linuxmint/mintbackup/mintbackup.py:515
+msgid ""
+"Warning: The meta file could not be saved. This backup will not be accepted "
+"for restoration."
+msgstr ""
+"Ostrzeżenie: Plik meta nie może zostać zapisany. Ta kopia zapasowa nie "
+"będzie akceptowana przy przywracaniu."
+
+#: usr/lib/linuxmint/mintbackup/mintbackup.py:542
+#, python-format
+msgid ""
+"Warning: Some files were not saved. Only %(archived)d files were backed up "
+"out of %(total)d."
+msgstr ""
+"Ostrzeżenie: Niektóre pliki nie zostały zapisane. Tylko dla %(archived)d "
+"plików utworzono kopię zapasową z łącznej liczby %(total)d."
+
+#: usr/lib/linuxmint/mintbackup/mintbackup.py:557
+msgid "Restoring:"
+msgstr "Przywracanie:"
+
+#: usr/lib/linuxmint/mintbackup/mintbackup.py:574
+msgid "The restoration was aborted."
+msgstr "Przywracanie z kopii zapasowej zostało przerwane."
+
+#: usr/lib/linuxmint/mintbackup/mintbackup.py:578
+msgid "Your files were successfully restored."
+msgstr "Pomyślnie przywrócono pliki."
+
+#: usr/lib/linuxmint/mintbackup/mintbackup.py:666
+#, python-format
+msgid "Warning: Only %(number)d files were restored out of %(total)d."
+msgstr ""
+"Ostrzeżenie: Tylko %(number)d plików zostało przywróconych z łącznej liczby "
+"%(total)d."
+
+#: usr/lib/linuxmint/mintbackup/mintbackup.py:691
+msgid "The list below shows the applications you installed."
+msgstr "Lista poniżej ukazuje aplikacje zainstalowane przez Ciebie."
+
+#: usr/lib/linuxmint/mintbackup/mintbackup.py:735
+#, python-format
+msgid "Your software selection was saved in %s"
+msgstr "Twój wybór oprogramowania został zapisany w %s"
+
+#: usr/lib/linuxmint/mintbackup/mintbackup.py:751
+msgid "The selected file is not a valid software selection."
+msgstr "Wybrany plik nie jest poprawnym wyborem oprogramowania."
+
+#: usr/lib/linuxmint/mintbackup/mintbackup.py:756
+#: usr/lib/linuxmint/mintbackup/mintbackup.py:794
+msgid "An error occurred while reading the file."
+msgstr "Wystąpił błąd podczas odczytywania pliku."
+
+#: usr/lib/linuxmint/mintbackup/mintbackup.py:779
+msgid "Could not locate the package."
+msgstr "Nie można odnaleźć pakietu."
+
+#: generate_desktop_files:24 generate_desktop_files:39
+msgid "Make a backup of your home directory"
+msgstr "Stwórz kopię zapasową swojego katalogu domowego"
+
+#: usr/share/linuxmint/mintbackup/mintbackup.ui.h:1
+msgid "Personal data"
+msgstr "Dane osobiste"
+
+#: usr/share/linuxmint/mintbackup/mintbackup.ui.h:2
+msgid "Your files, settings and the content of your home directory"
+msgstr "Twoje pliki, ustawienia i zawartość katalogu domowego"
+
+#: usr/share/linuxmint/mintbackup/mintbackup.ui.h:3
+msgid "Restore..."
+msgstr "Przywróć..."
+
+#: usr/share/linuxmint/mintbackup/mintbackup.ui.h:4
+msgid "Back Up Now..."
+msgstr "Utwórz kopię teraz..."
+
+#: usr/share/linuxmint/mintbackup/mintbackup.ui.h:5
+msgid "Software selection"
+msgstr "Wybór oprogramowania"
+
+#: usr/share/linuxmint/mintbackup/mintbackup.ui.h:6
+msgid "The list of applications installed on your computer"
+msgstr "Lista programów zainstalowanych na Twoim komputerze"
+
+#: usr/share/linuxmint/mintbackup/mintbackup.ui.h:7
+msgid "Please select where you want to save the backup file:"
+msgstr "Prosimy wskazać, gdzie chcesz zapisać plik kopii zapasowej:"
+
+#: usr/share/linuxmint/mintbackup/mintbackup.ui.h:8
+msgid ""
+"Please add files or directories to the list below to exclude them from the "
+"backup."
+msgstr ""
+"Prosimy dodać pliki lub katalogi do poniższej listy, aby wykluczyć je z "
+"kopii zapasowej."
+
+#: usr/share/linuxmint/mintbackup/mintbackup.ui.h:9
+msgid "Exclude files"
+msgstr "Wykluczone pliki"
+
+#: usr/share/linuxmint/mintbackup/mintbackup.ui.h:10
+msgid "Exclude directories"
+msgstr "Wyklucz katalogi"
+
+#: usr/share/linuxmint/mintbackup/mintbackup.ui.h:11
+msgid "Remove"
+msgstr "Usuń"
+
+#: usr/share/linuxmint/mintbackup/mintbackup.ui.h:12
+msgid ""
+"Hidden files and hidden folders located at the root of your home directory "
+"are not included by default."
+msgstr ""
+"Ukryte pliki i ukryte katalogi położone w katalogu głównym Twojego katalogu "
+"domowego nie są domyślnie dołączane."
+
+#: usr/share/linuxmint/mintbackup/mintbackup.ui.h:13
+msgid ""
+"If you want to include some of them in the backup, please add them to the "
+"list below."
+msgstr ""
+"Jeśli chcesz dołączyć niektóre z nich do kopii zapasowej, prosimy dodać je "
+"do poniższej listy."
+
+#: usr/share/linuxmint/mintbackup/mintbackup.ui.h:14
+msgid "Include files"
+msgstr "Dołącz pliki"
+
+#: usr/share/linuxmint/mintbackup/mintbackup.ui.h:15
+msgid "Include directories"
+msgstr "Dołącz katalogi"
+
+#: usr/share/linuxmint/mintbackup/mintbackup.ui.h:16
+msgid ""
+"These files and folders usually contain temporary data or preferences for "
+"your applications."
+msgstr ""
+"Te pliki i katalogi z reguły zawierają tymczasowe dane lub preferencje z "
+"Twoich programów."
+
+#: usr/share/linuxmint/mintbackup/mintbackup.ui.h:17
+msgid "Please wait while your files are being backed up."
+msgstr "Prosimy czekać, tworzona jest kopia zapasowa Twoich plików."
+
+#: usr/share/linuxmint/mintbackup/mintbackup.ui.h:18
+msgid "Please select the backup to restore:"
+msgstr "Prosimy wybrać kopię zapasową do przywrócenia:"
+
+#: usr/share/linuxmint/mintbackup/mintbackup.ui.h:19
+msgid "Overwrite existing files?"
+msgstr "Nadpisać istniejące pliki?"
+
+#: usr/share/linuxmint/mintbackup/mintbackup.ui.h:20
+msgid ""
+"No, only restore missing files.\n"
+"<small>This option is safe and does not affect your existing files.</small>"
+msgstr ""
+"Nie, przywróć tylko brakujące pliki.\n"
+"<small>Ta opcja jest bezpieczna i nie ma wpływu na istniejące pliki.</small>"
+
+#: usr/share/linuxmint/mintbackup/mintbackup.ui.h:22
+msgid ""
+"Yes, overwrite changes and restore the content of any existing files.\n"
+"<small>Use this option with caution. The changes you made to the files since "
+"the backup will be lost.</small>"
+msgstr ""
+"Tak, nadpisz zmiany i przywróć zawartość wszystkich istniejących plików.\n"
+"<small>Używaj tej opcji z rozwagą. Zmiany w plikach, których dokonałeś po "
+"kopii zapasowej, zostaną utracone.</small>"
+
+#: usr/share/linuxmint/mintbackup/mintbackup.ui.h:24
+msgid "Please wait while your files are being restored."
+msgstr "Prosimy czekać podczas przywracania Twoich plików."
+
+#: usr/share/linuxmint/mintbackup/mintbackup.ui.h:25
+msgid ""
+"The list below shows the applications you installed with the Software "
+"Manager."
+msgstr ""
+"Lista poniżej pokazuje programy, które zainstalowałeś poprzez menedżera "
+"oprogramowania."
+
+#: usr/share/linuxmint/mintbackup/mintbackup.ui.h:26
+msgid "Please select the applications you want to save."
+msgstr "Prosimy wybrać programy, które chcesz zachować."
+
+#: usr/share/linuxmint/mintbackup/mintbackup.ui.h:27
+msgid "Select all"
+msgstr "Zaznacz wszystko"
+
+#: usr/share/linuxmint/mintbackup/mintbackup.ui.h:28
+msgid "Deselect all"
+msgstr "Odznacz wszystko"
+
+#: usr/share/linuxmint/mintbackup/mintbackup.ui.h:29
+msgid ""
+"Note: If you want to save the complete list of all installed packages on the "
+"system, please use the command 'dpkg --get-selections > mylist.list' in a "
+"terminal."
+msgstr ""
+"Uwaga: Jeśli chcesz zachować kompletną listę wszystkich zainstalowanych w "
+"systemie pakietów, prosimy użyć w terminalu polecenia 'dpkg --get-selections "
+"> mylist.list'."
+
+#: usr/share/linuxmint/mintbackup/mintbackup.ui.h:30
+msgid "Please select a saved software selection (.list file):"
+msgstr "Prosimy wybrać zapisany wybór oprogramowania (plik .list):"
+
+#: usr/share/linuxmint/mintbackup/mintbackup.ui.h:31
+msgid "Select the packages you want to install."
+msgstr "Wybierz pakiety, które chcesz zainstalować."
+
+#: usr/share/linuxmint/mintbackup/mintbackup.ui.h:32
+msgid "Refresh"
+msgstr "Odśwież"
+
+#: usr/share/linuxmint/mintbackup/mintbackup.ui.h:33
+msgid "All the packages in your software selection are installed."
+msgstr "Wszystkie pakiety z Twojego wyboru oprogramowania są zainstalowane."
+
+#~ msgid "Archiving your home directory..."
+#~ msgstr "Archiwizacja katalogu domowego..."
+
+#~ msgid "Backup successful"
+#~ msgstr "Kopia zapasowa wykonana"
+
+#~ msgid "Your home directory was successfully backed-up into"
+#~ msgstr "Kopia zapasowa katalogu domowego została pomyślnie zapisana do"
+
+#~ msgid "An error occurred during the backup:"
+#~ msgstr "Wystąpił błąd podczas tworzenia kopii zapasowej"
+
+#~ msgid "Backup failed"
+#~ msgstr "Kopia zapasowa nie została wykonana"
+
+#~ msgid "Extracting the content of the backup into your home directory..."
+#~ msgstr "Wypakowywanie zawartość kopii zapasowej do katalogu domowego..."
+
+#~ msgid "Copying the backup file into your home directory..."
+#~ msgstr "Kopiowanie pliku kopii zapasowej do katalogu domowego..."
+
+#~ msgid "Exclude folders"
+#~ msgstr "Wykluczone katalogi"
+
+#~ msgid "Restoration failed"
+#~ msgstr "Przywracanie nieudane"
+
+#~ msgid "Excluded paths"
+#~ msgstr "Wykluczone ścieżki"
+
+#~ msgid "Hidden paths"
+#~ msgstr "Ukryte ścieżki"
+
+#~ msgid "Included hidden directories"
+#~ msgstr "Dołączone ukryte katalogi"
+
+#~ msgid "Excluded Files and Directories"
+#~ msgstr "Wykluczone pliki i katalogi"
+
+#~ msgid "Opening the backup archive..."
+#~ msgstr "Otwieranie archiwum kopii zapasowej..."
+
+#~ msgid "An error occurred while restoring the backup archive:"
+#~ msgstr "Wystąpił błąd podczas przywracania archiwum kopii zapasowej:"
+
+#~ msgid "Read error"
+#~ msgstr "Błąd odczytu"
+
+#~ msgid "<big><b>Load data into your home directory</b></big>"
+#~ msgstr "<big><b>Załaduj dane do katalogu domowego</b></big>"
+
+#~ msgid "is not located within your home directory. Not added."
+#~ msgstr "nie znajduje się w katalogu domowym. Nie dodano."
+
+#~ msgid "Included"
+#~ msgstr "Dołączone"
+
+#~ msgid "Restore"
+#~ msgstr "Przywróć"
+
+#~ msgid "Overwrite existing files"
+#~ msgstr "Nadpisz istniejące pliki"
+
+#~ msgid "View content"
+#~ msgstr "Zobacz zawartość"
+
+#~ msgid "Restoration successful"
+#~ msgstr "Przywrócenie zakończone powodzeniem"
+
+#~ msgid "Cleaning up..."
+#~ msgstr "Czyszczenie..."
+
+#~ msgid "Your backup was successfully restored"
+#~ msgstr "Kopia zapasowa została  pomyślnie przywrócona"
+
+#~ msgid "Backup"
+#~ msgstr "Kopia zapasowa"
+
+#~ msgid "Invalid path"
+#~ msgstr "Nieprawidłowa ścieżka"
+
+#~ msgid "An error occurred while opening the backup:"
+#~ msgstr "Wystąpił błąd podczas otwierania kopii zapasowej:"
+
+#~ msgid "Restore your personal data from this backup"
+#~ msgstr "Przywróć swoje osobiste dane z tej kopii zapasowej"

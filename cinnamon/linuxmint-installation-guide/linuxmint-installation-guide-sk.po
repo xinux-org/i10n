@@ -1,0 +1,1676 @@
+# Slovak translation for linuxmint
+# Copyright (c) 2018 Rosetta Contributors and Canonical Ltd 2018
+# This file is distributed under the same license as the linuxmint package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2018.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: linuxmint\n"
+"Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
+"POT-Creation-Date: 2019-03-29 10:21+0000\n"
+"PO-Revision-Date: 2022-02-10 19:20+0000\n"
+"Last-Translator: Adrián Bíro <biroadrian@protonmail.com>\n"
+"Language-Team: Slovak <sk@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Launchpad-Export-Date: 2022-10-10 13:12+0000\n"
+"X-Generator: Launchpad (build 762fb15a975e8b23af6a1f86e44e46bfd0451459)\n"
+"Language: sk\n"
+
+#: ../../boot_options.rst:2
+msgid "Boot options"
+msgstr "Nastavenie bootovania"
+
+#: ../../boot_options.rst:4
+msgid ""
+"Some graphics cards and motherboards don't work well with the open-source "
+"drivers present in Linux Mint by default."
+msgstr ""
+"Niektoré grafické karty a základné dosky nespolupracujú s open-source "
+"ovládačmi predvolene poskytovanými systémom Linux Mint."
+
+#: ../../boot_options.rst:7
+msgid "Compatibility mode"
+msgstr "Mód kompatibility"
+
+#: ../../boot_options.rst:9
+msgid ""
+"The easiest option is to select ``compatibility mode`` from the USB stick "
+"(or DVD) boot menu."
+msgstr ""
+"Najľahšou možnosťou je zvoliť ``compatibility mode`` v menu Live operačného "
+"systému."
+
+#: ../../boot_options.rst:15
+msgid "Grub menu (EFI mode)"
+msgstr "GRUB menu (EFI mód)"
+
+#: ../../boot_options.rst:21
+msgid "Isolinux menu (BIOS mode)"
+msgstr "Isolinux menu (mód BIOS)"
+
+#: ../../boot_options.rst:23
+msgid "If that doesn't work, you can try the ``nomodeset`` boot option."
+msgstr ""
+"Ak to nefunguje, skúste ``nomodeset`` v možnostiach zavedenia operačného "
+"systému."
+
+#: ../../boot_options.rst:26
+msgid "Nomodeset boot option"
+msgstr "Voľba Nomodeset"
+
+#: ../../boot_options.rst:28
+msgid ""
+"In EFI mode, highlight the ``Start Linux Mint`` option and press :kbd:`e` to "
+"modify the boot options."
+msgstr ""
+"V EFI móde vyberte možnosť ``Start Linux Mint`` a stlačte :kbd:`e` na "
+"upravenie nastavenia bootovania."
+
+#: ../../boot_options.rst:34
+msgid ""
+"Replace ``quiet splash`` with ``nomodeset`` and press :kbd:`F10` to boot."
+msgstr ""
+"Zmente ``quiet splash`` na ``nomodeset`` a stlačte :kbd:`F10` ktorým "
+"spustíte bootovanie."
+
+#: ../../boot_options.rst:36
+msgid ""
+"In BIOS mode, highlight ``Start Linux Mint`` and press :kbd:`Tab` to modify "
+"the boot options."
+msgstr ""
+"V BIOS móde vyberte ``Start Linux Mint`` a stlačte :kbd:`Tab` na upravenie "
+"nastavenia bootovania."
+
+#: ../../boot_options.rst:42
+msgid ""
+"Replace ``quiet splash`` with ``nomodeset`` and press :kbd:`Enter` to boot."
+msgstr ""
+"Zmente ``quiet splash`` na ``nomodeset`` a stlačte :kbd:`Enter` ktorým "
+"spustíte bootovanie."
+
+#: ../../boot_options.rst:45
+msgid ""
+"Repeat this operation post-install in your grub boot menu and read "
+":doc:`drivers` to install additional drivers."
+msgstr ""
+"Toto zopakujte aj po nainštalovaní vášho grub boot menu a prečítajte si "
+":doc:`drivers` na nainštalovanie ďaľších ovládačov."
+
+#: ../../boot_options.rst:48
+msgid "Other boot options"
+msgstr "Ostatné nastavenia bootovania"
+
+#: ../../boot_options.rst:50
+msgid "If you still cannot boot try one of the following solutions:"
+msgstr ""
+"Ak sa vám stále nedarí spustiť operačný systém, skúste niektorú z "
+"nasledujúcich možností:"
+
+#: ../../boot_options.rst:52
+msgid "Try ``nouveau.noaccel=1`` instead of ``nomodeset``."
+msgstr "Namiesto ``nomodeset`` napíšte ``nouveau.noaccel=1``."
+
+#: ../../boot_options.rst:53
+msgid ""
+"After the installation, use :menuselection:`Advanced Options --> Recovery "
+"mode` from the boot menu and choose ``resume``."
+msgstr ""
+"Po inštalácií použite :menuselection:`Advanced Options --> Recovery mode` z "
+"boot menu a zvoľte ``resume``."
+
+#: ../../boot_options.rst:56
+msgid "Install an older release"
+msgstr "Nainštalujte staršiu verziu"
+
+#: ../../boot_options.rst:58
+msgid ""
+"If your computer has compatibility issues with the latest Linux Mint "
+"release, install a previous release from the same Linux Mint series."
+msgstr ""
+"Ak má váš počítač problémy kompatibility s najnovším vydaním Linux Mint, "
+"nainštalujte predchádzajúce vydanie z tej istej Linux Mint série."
+
+#: ../../boot_options.rst:60
+msgid ""
+"For instance, if you can't install Linux Mint 18.3 (which comes with a 4.10 "
+"kernel), install Linux Mint 18 (which comes with a 4.4 kernel) and upgrade "
+"to 18.3."
+msgstr ""
+"Napríklad, ak nemôžete nainštalovať Linux Mint 18.3 (ktorý má kernel 4.10), "
+"nainštalujte Linux Mint 18 (s kernelom 4.4) a aktualizujte na 18.3."
+
+#: ../../boot_options.rst:63
+msgid ""
+"The first release in each series uses an LTS (Long Term Support) kernel. "
+"Upgrading from this release to the latest one in the series does not change "
+"your kernel."
+msgstr "Pri aktualizovaní verzie sa totiž jadro nemení."
+
+#: ../../boot.rst:2
+msgid "Boot Linux Mint"
+msgstr "Spustenie systému Linux Mint"
+
+#: ../../boot.rst:4
+msgid ""
+"Now that you have Linux Mint on a USB stick (or DVD) boot the computer from "
+"it."
+msgstr ""
+"Teraz, keď máte Linux Mint na USB kľúči (alebo DVD), nabootujte z neho "
+"počítač."
+
+#: ../../boot.rst:6
+msgid "Insert your USB stick (or DVD) into the computer."
+msgstr "Vložte váš USB kľúč alebo DVD do počítača."
+
+#: ../../boot.rst:8 ../../drivers.rst:23 ../../efi.rst:61 ../../oem.rst:21
+msgid "Restart the computer."
+msgstr "Reštartujte počítač."
+
+#: ../../boot.rst:10
+msgid ""
+"Before your computer boots your current operating system (Windows, Mac, "
+"Linux) you should see your `BIOS <https://en.wikipedia.org/wiki/BIOS>`_ "
+"loading screen. Check the screen or your computer's documentation to know "
+"which key to press and instruct your computer to boot on USB (or DVD)."
+msgstr ""
+"Po naštartovaní počítača uvidíte úvodnú obrazovku BIOS-u (`BIOS "
+"<https://en.wikipedia.org/wiki/BIOS>`_) Na tejto obrazovke býva zvyčajne "
+"kláves buď na otvorenie boot menu, alebo ak tam nie je, tak na otvorenie "
+"BIOS menu. Môže to byť napríklad F2, F9 alebo F12. Tento kláves si "
+"zapamätajte. Na niektorých počítačoch sa po stlačení tohto klávesu otvorí "
+"menu, v ktorom máte možnosť vybrať si, čo chcete ďalej robiť. V takom "
+"prípade vyberte možnosť boot menu."
+
+#: ../../boot.rst:13
+msgid ""
+"Most BIOS have a special key you can press to select the boot device and all "
+"of them have a special key to enter the BIOS configuration screen (from "
+"which you can define the boot order). Depending on the BIOS, these special "
+"keys can be :kbd:`Escape`, :kbd:`F1`, :kbd:`F2`, :kbd:`F8`, :kbd:`F10`, "
+":kbd:`F11`, :kbd:`F12`, or :kbd:`Delete`. That information is usually "
+"briefly written on the screen during the boot sequence."
+msgstr ""
+"BIOS počítača má priradenú špeciálnu klávesu, pomocou ktorej sa dostanete k "
+"možnosti výberu bootovaného zariadenia, a tiež klávesu na otvorenie "
+"nastavení BIOS-u, kde je možné zmeniť poradie bootovania. V závislosti od "
+"výrobcu to môžu byť klávesy :kbd:`Escape`, :kbd:`F1`, :kbd:`F2`, :kbd:`F8`, "
+":kbd:`F10`, :kbd:`F11`, :kbd:`F12` alebo :kbd:`Delete`."
+
+#: ../../boot.rst:16
+msgid ""
+"On Macs, keep your finger pressed on the :kbd:`Alt` or :kbd:`Option` key "
+"after hearing the boot sound."
+msgstr ""
+"Na Mac počítačoch podržte kláves :kbd:`Alt` alebo :kbd:`Option` po začutí "
+"boot zvuku."
+
+#: ../../boot.rst:18
+msgid ""
+"The Linux Mint ISO can be booted both in EFI or BIOS mode. In EFI mode it "
+"shows a grub menu. In BIOS mode it shows an isolinux menu."
+msgstr ""
+"ISO Linuxu Mint môže byť bootované v EFI alebo BIOS móde. V EFI sa zobrazí "
+"grub menu a v BIOS móde isolinux menu."
+
+#: ../../boot.rst:24
+msgid "The isolinux menu in BIOS mode"
+msgstr "Isolinux menu v BIOS móde"
+
+#: ../../boot.rst:30
+msgid "The grub menu in EFI mode"
+msgstr "Grub menu v EFI móde"
+
+#: ../../boot.rst:32
+msgid ""
+"From one of these menu, press :kbd:`Enter` to start Linux Mint from your USB "
+"stick (or DVD)."
+msgstr ""
+"V menu vyberte možnosť `Start Linux Mint` a stlačte :kbd:`Enter`. Tým sa "
+"Linux Mint naštartuje z USB alebo DVD."
+
+#: ../../burn.rst:2
+msgid "Create the bootable media"
+msgstr "Vytváranie bootovateľného hardvéru"
+
+#: ../../burn.rst:4
+msgid "The easiest way to install Linux Mint is with a USB stick."
+msgstr "Najjednoduchšie je nainštalovať Linux Mint cez USB kľúč."
+
+#: ../../burn.rst:6
+msgid "If you cannot boot from USB, you can use a blank DVD."
+msgstr "Ak nemôžete bootovať cez USB, môžete použiť aj čisté DVD."
+
+#: ../../burn.rst:9
+msgid "How to make a bootable USB stick"
+msgstr "Ako vytvoriť bootovateľné USB"
+
+#: ../../burn.rst:12
+msgid "In Linux Mint"
+msgstr "V Linuxe Mint"
+
+#: ../../burn.rst:14
+msgid ""
+"Right-click the ISO file and select :menuselection:`Make Bootable USB "
+"Stick`, or launch :menuselection:`Menu --> Accessories --> USB Image Writer`."
+msgstr ""
+"Kliknite pravým tlačidlom myši na ISO súbor a vyberte možnosť "
+":menuselection:`Make Bootable USB Stick` alebo :menuselection:`Menu --> "
+"Príslušenstvo --> Tvorca USB obrazu`."
+
+#: ../../burn.rst:20
+msgid "Select your USB device and click :guilabel:`Write`."
+msgstr "Vyberte zariadenie USB a stlačte :guilabel:`Zápis`."
+
+#: ../../burn.rst:23
+msgid "In Windows, Mac OS, or other Linux distributions"
+msgstr "Vo Windowse, Mac OS-e alebo v iných distribúciách Linuxu"
+
+#: ../../burn.rst:25
+msgid ""
+"Download `Etcher <https://www.balena.io/etcher/>`_, install it and run it."
+msgstr ""
+"Stiahnite `Etcher <https://www.balena.io/etcher/>`_, nainštalujte ho a "
+"spustite."
+
+#: ../../burn.rst:31
+msgid "Using Etcher"
+msgstr "Používanie Etcheru"
+
+#: ../../burn.rst:33
+msgid "Click :guilabel:`Select image` and select your ISO file."
+msgstr "Kliknite na :guilabel:`Select image` a vyberte svoj ISO súbor."
+
+#: ../../burn.rst:35
+msgid "Click :guilabel:`Select drive` and select your USB stick."
+msgstr "Kliknite na :guilabel:`Select drive` a vyberte USB."
+
+#: ../../burn.rst:37
+msgid "Click :guilabel:`Flash!`."
+msgstr "Kliknite na :guilebel:`Flash!`."
+
+#: ../../burn.rst:41
+msgid "How to make a bootable DVD"
+msgstr "Ako vytvoriť bootovateľné DVD"
+
+#: ../../burn.rst:43
+msgid "Optical discs are slow and burning to disc is prone to errors."
+msgstr ""
+"Optické disky sa dlho napaľujú a sú náchylné na chyby pri napaľovaní."
+
+#: ../../burn.rst:46
+msgid "To prevent issues, burn at the lowest possible speed."
+msgstr "Aby ste sa vyhli chybám, napaľujte na najnižšej možnej rýchlosti."
+
+#: ../../burn.rst:49
+msgid ""
+"Burn the content of the ISO onto the DVD, not the ISO file itself. When "
+"finished, your DVD should contain directories such as ``boot`` and "
+"``casper``, it shouldn't be an empty DVD containing an .iso file."
+msgstr ""
+"Nápáľte obsah ISO súboru, nie samotný ISO súbor. Keď skončíte, na DVD by "
+"mali byť súbory ako ``boot`` či ``casper`` a nie .iso súbor."
+
+#: ../../burn.rst:52
+msgid "In Linux"
+msgstr "V Linuxe"
+
+#: ../../burn.rst:53
+msgid "Install and use ``xfburn``."
+msgstr "Nainštalujte a použite ``xfburn``."
+
+#: ../../burn.rst:56
+msgid "In Windows"
+msgstr "Vo Windowse"
+
+#: ../../burn.rst:57
+msgid "Right-click the ISO file and select :menuselection:`Burn disk image`."
+msgstr ""
+"Kliknite pravým tlačidlom na ISO súbor a vyberte možnosť "
+":menuselection:`Burn disk image`."
+
+#: ../../burn.rst:59
+msgid ""
+"To make sure the ISO was burned without any errors, select "
+":menuselection:`Verify disc after burning`."
+msgstr ""
+"Aby ste zistili, či sa ISO súbor napálil správne, vyberte "
+":menuselection:`Verify disc after burning`."
+
+#: ../../burn.rst:62
+msgid "In Mac OS"
+msgstr "V Mac OS-e"
+
+#: ../../burn.rst:63
+msgid ""
+"Right-click the ISO file and select :menuselection:`Burn Disk Image to Disc`."
+msgstr ""
+"Kliknite pravým tlačidlom na ISO súbor a vyberte možnosť "
+":menuselection:`Burn disk image`."
+
+#: ../../choose.rst:2
+msgid "Choose the right edition"
+msgstr "Vyberte správnu verziu systému"
+
+#: ../../choose.rst:4
+msgid ""
+"You can download Linux Mint from the `Linux Mint website "
+"<https://linuxmint.com/download.php>`_."
+msgstr ""
+"Linux Mint si môžete stiahnuť z webstránky Linux Mint-u "
+"<https://linuxmint.com/download.php>`_."
+
+#: ../../choose.rst:6
+msgid ""
+"Read below to choose which edition and architecture are right for you."
+msgstr "Vyberte si, ktorá verzia a architektúra je tá správna pre vás."
+
+#: ../../choose.rst:9
+msgid "Cinnamon, MATE or Xfce?"
+msgstr "Cinnamon, MATE alebo Xfce?"
+
+#: ../../choose.rst:11
+msgid ""
+"Linux Mint comes in 3 different flavours, each featuring a different desktop "
+"environment."
+msgstr ""
+"Linux Mint vychádza v troch rôznych grafických užívateľských rozhraniach."
+
+#: ../../choose.rst:14 ../../choose.rst:26
+msgid "Cinnamon"
+msgstr "Cinnamon"
+
+#: ../../choose.rst:14
+msgid "The most modern, innovative and full-featured desktop"
+msgstr ""
+"Najmodernejšie, inovatívne a plnohodnotné grafické užívateľské prostredie"
+
+#: ../../choose.rst:15 ../../choose.rst:35
+msgid "MATE"
+msgstr "MATE"
+
+#: ../../choose.rst:15
+msgid "A more traditional, and faster desktop"
+msgstr "Tradičnejšie a rýchle pracovné prostredie"
+
+#: ../../choose.rst:16 ../../choose.rst:44
+msgid "Xfce"
+msgstr "Xfce"
+
+#: ../../choose.rst:16
+msgid "The most lightweight desktop"
+msgstr "Pracovné prostredie optimalizované na výkon."
+
+#: ../../choose.rst:19
+msgid ""
+"The most popular version of Linux Mint is the Cinnamon edition. Cinnamon is "
+"primarily developed for and by Linux Mint. It is slick, beautiful, and full "
+"of new features."
+msgstr ""
+"Najpopulárnejšie grafické užívateľské prostredie Linuxu Mint je Cinnamon. "
+"Cinnamon je vyvinutý priamo pre Linux Mint. Je prehľadné, elegantné a plné "
+"užitočných a profesionálnych funkcí."
+
+#: ../../choose.rst:28
+msgid ""
+"Linux Mint is also involved in the development of MATE, a classic desktop "
+"environment which is the continuation of GNOME 2, Linux Mint's default "
+"desktop between 2006 and 2011. Although it misses a few features and its "
+"development is slower than Cinnamon's, MATE uses less resources and can run "
+"faster on older computers."
+msgstr ""
+"Linux Mint sa podieľa aj na vývoji  klasického desktopového prostredia MATE, "
+"ktoré je pokračovaním GNOME 2. Toto bolo základným pracovným prostredím "
+"Linuxu Mint v rokoch 2006 až 2011. V porovnaní so Cinnamonom Mate obsahuje "
+"menej funkcií a jeho vývoj je konzervatívnejší. Vďaka tomu ale využíva menej "
+"zdrojov a je teda vhodný pre staršie a menej výkonné počítače."
+
+#: ../../choose.rst:37
+msgid ""
+"Xfce is a lightweight desktop environment. It doesn't support as many "
+"features as Cinnamon or MATE, but it's extremely stable and very light on "
+"resource usage."
+msgstr ""
+"Xfce je najľahšie grafické užívateľské prostredie. Nemá v sebe toľko funkcí "
+"ako Cinnamon a MATE, ale je extrémne stabilné a veľmi nenáročné na systémovú "
+"záťaž."
+
+#: ../../choose.rst:46
+msgid ""
+"Of course, all three desktops are great and Linux Mint is extremely proud of "
+"each edition. Although there are more features and better support in some "
+"editions than others, and some do run faster and use less resources than "
+"others, they're all great alternatives and choosing the right edition is "
+"largely a matter of taste."
+msgstr ""
+"Všetky grafické užívateľké prostredia sú skvelé a Linux Mint je na ne veľmi "
+"hrdý. Výber toho správneho prostredia je viac-menej vecou vkusu."
+
+#: ../../choose.rst:48
+msgid ""
+"Other than their features and performance, Cinnamon, MATE and Xfce also "
+"represent three different desktop environments, with different menus, "
+"different panels and configuration tools. The right one for you is the one "
+"where you feel at home."
+msgstr ""
+"Cinnamon, MATE a Xfce majú každé odlišný výzor pracovnej plochy, programov, "
+"menu a konfiguračných nástrojov. Vyberte si to, v ktorom sa cítite ako doma."
+
+#: ../../choose.rst:50
+msgid ""
+"If you are unsure which desktop to choose start with the Cinnamon edition. "
+"Try them all eventually when you have the time. All three of them have their "
+"own audience within the Linux Mint community and they're all very popular."
+msgstr "Ak sa neviete rozhodnúť, začnite s prostredím Cinnamon."
+
+#: ../../choose.rst:54
+msgid "32-bit or 64-bit?"
+msgstr "32-bit alebo 64-bit?"
+
+#: ../../choose.rst:56
+msgid "From version 20 onward, only 64-bit is available."
+msgstr "Od verzie 20 vyššie, je dostupná iba 64=bitová verzia."
+
+#: ../../choose.rst:58
+msgid ""
+"The 32-bit ISO images on prior versions are provided for compatibility with "
+"older computers. 32-bit processors are extremely rare nowadays and most "
+"computers are able to run in 64-bit. If your computer was manufactured after "
+"2007, you probably have a 64-bit processor."
+msgstr ""
+"32-bitové ISO bolo v predchádzajúcich verziách poskytované kvôli "
+"kompatibilite so staršími počítačmi. 32-bitové procesory sú v súčasnosti "
+"zriedkavé, nakoľko je dnes štandardom  64-bitová verzia. Pokiaľ bol váš "
+"počítač vyrobený po roku 2007, pravdepodobne máte 64-bitový procesor."
+
+#: ../../choose.rst:60
+msgid ""
+"If you have an old computer and you are unsure whether or not it can run in "
+"64-bit, read `X86 Chronology "
+"<https://en.wikipedia.org/wiki/X86#Chronology>`_."
+msgstr ""
+"Ak máte starší počítač a neviete, či môže pracovať v 64-bitovom móde, prosím "
+"prečítajte si `X86 Chronology "
+"<https://en.wikipedia.org/wiki/X86#Chronology>`_."
+
+#: ../../choose.rst:63
+msgid ""
+"You can try to boot Linux Mint 64-bit on your computer. If it isn't "
+"compatible, nothing bad will happen. You will just get an error message."
+msgstr ""
+"Skúste nabootovať 64-bitový Linux Mint na svojom počítači. Pokiaľ nie je "
+"kompatibilný, zobrazí sa chybová hláška. V tomto prípade počítač vypnite "
+"podržaním tlačidla napájania."
+
+#: ../../choose.rst:66
+msgid ""
+"If you cannot boot or install Linux Mint because your hardware is too recent "
+"and is not properly detected see the `Edge ISO Images <https://linuxmint-"
+"user-guide.readthedocs.io/en/latest/edge.html>`_ chapter in the Linux Mint "
+"User Guide for an alternative ISO."
+msgstr ""
+"Ak sa Vám nedá zapnúť či nainštalovať Linux Mint, pretože váš hardvér je "
+"nový a niektoré jeho časti niesu správne rozpoznané, pozrite sa na `Edge ISO "
+"Images <https://linuxmint-user-guide.readthedocs.io/en/latest/edge.html>`_ "
+"kapitola v užívateľskej príručke o alternatívnom Linux Mint  ISO."
+
+#: ../../codecs.rst:2
+msgid "Multimedia codecs"
+msgstr "Kodeky pre multimédiá"
+
+#: ../../codecs.rst:4
+msgid "Some multimedia content requires additional codecs to be installed."
+msgstr "Multimediálny obsah vyžaduje inštaláciu ďalších kodekov."
+
+#: ../../codecs.rst:7
+msgid ""
+"If you were online when installing Linux Mint and you ticked the option to "
+"install these codecs, they are already installed."
+msgstr ""
+"Ak ste boli pri inštalovaní Linuxu Mint pripojený na internet a zaškrtli ste "
+"možnosť na nainštalovanie týchto kodekov, tak sú nainštalované."
+
+#: ../../codecs.rst:9
+msgid ""
+"Launch :menuselection:`Menu --> Sound & Video --> Install Multimedia Codecs`."
+msgstr ""
+"Spustite :menuselection:`Menu --> Zvuk a video --> Nainštalovať "
+"multimediálne kodeky`."
+
+#: ../../codecs.rst:14
+msgid "Click :guilabel:`Install`."
+msgstr "Kliknite na :guilabel:`Install`."
+
+#: ../../codecs.rst:16
+msgid ""
+"Enter your password and wait for the codecs to be installed on your computer."
+msgstr ""
+"Zadajte svoje heslo a počkajte, kým sa kodeky nainštalujú na váš počítač."
+
+#: ../../drivers.rst:2
+msgid "Hardware drivers"
+msgstr "Ovládače hardvéru"
+
+#: ../../drivers.rst:4
+msgid ""
+"One of the first things to do after installing Linux Mint is to check for "
+"available hardware drivers."
+msgstr ""
+"Jedna z prvých vecí, ktoré treba urobiť po inštalácií Linuxu Mint, je "
+"kontrola ovládačov hardvéru."
+
+#: ../../drivers.rst:6
+msgid "Launch :menuselection:`Menu --> Administration --> Driver Manager`."
+msgstr "Spustite :menuselection:`Menu --> Správa --> Správca ovládačov`."
+
+#: ../../drivers.rst:13
+msgid ""
+"If you are offline, the Driver Manager will complain that it cannot connect "
+"to the Internet."
+msgstr ""
+"Ak nie ste pripojený na internet, Správca ovládačov oznámi, že sa nemôže "
+"pripojiť na internet."
+
+#: ../../drivers.rst:19
+msgid ""
+"Insert your bootable Linux Mint USB stick (or DVD), wait for it to be "
+"mounted, and click :guilabel:`OK`."
+msgstr ""
+"Vložte bootovateľné USB (alebo DVD) s Linuxom Mint, počkajte, kým sa "
+"pripojí, a stlačte :guilabel:`OK`."
+
+#: ../../drivers.rst:21
+msgid ""
+"Tick the appropriate checkboxes to select the available drivers and click "
+":guilabel:`Apply Changes`."
+msgstr "Zaškrtnite príslušné políčka a stlačte :guilabel:`Apply Changes`."
+
+#: ../../efi.rst:2
+msgid "EFI"
+msgstr "EFI"
+
+#: ../../efi.rst:5
+msgid "SecureBoot"
+msgstr "SecureBoot"
+
+#: ../../efi.rst:7
+msgid ""
+"If after installing Linux Mint in EFI mode, you are unable to boot due to a "
+"``Secure Boot Violation``, you can try one of the following solutions:"
+msgstr ""
+"Ak po inštalácií Linuxu Mint v EFI móde nie ste schopní bootovať kvôli "
+"``Secure Boot Violation``, môžete skúsiť jedno s nasledovných riešení:"
+
+#: ../../efi.rst:15
+msgid "Restart the installation:"
+msgstr "Reštartujte inštaláciu:"
+
+#: ../../efi.rst:14
+msgid "Connect to the Internet before the installation"
+msgstr "Pred inštaláciou sa pripojte na internet"
+
+#: ../../efi.rst:15
+msgid ""
+"**Do not** select ``Install third-party software for graphics and Wi-Fi "
+"hardware, Flash, MP3 and other media``."
+msgstr "**Nevyberte** možnosť ``Inštalovať softvér od tretích strán``."
+
+#: ../../efi.rst:17
+msgid "Disable ``SecureBoot`` in the ``BIOS`` settings of your computer."
+msgstr "V nastaveniach BIOS-u vypnite možnosť ``Secure Boot``."
+
+#: ../../efi.rst:20
+msgid ""
+"For examples of how to disable secure boot on various computers, read "
+"`Managing EFI Boot Loaders for Linux: Dealing with Secure Boot "
+"<http://www.rodsbooks.com/efi-bootloaders/secureboot.html>`_."
+msgstr ""
+"Príklady, ako vypnúť secure boot na rôznych počítačoch, nájdete na `Managing "
+"EFI Boot Loaders for Linux: Dealing with Secure Boot "
+"<http://www.rodsbooks.com/efi-bootloaders/secureboot.html>`_."
+
+#: ../../efi.rst:23
+msgid "EFI boot order"
+msgstr "Poradie EFI bootovania"
+
+#: ../../efi.rst:25
+msgid ""
+"If after installing Linux Mint in EFI mode, your computer skips the boot "
+"menu and boots straight into Windows (or another operating system), you "
+"probably have an issue with the boot order."
+msgstr ""
+"Ak po nainštalovaní Linuxu Mint v EFI móde počítač preskočí boot menu a "
+"nabootuje sa priamo do Windows-u alebo iného operačného systému, máte "
+"nesprávne nastavené poradie bootovania."
+
+#: ../../efi.rst:27
+msgid "To modify the boot order:"
+msgstr "Aby ste zmenili poradie bootovania:"
+
+#: ../../efi.rst:29 ../../multiboot.rst:18
+msgid "Boot Linux Mint in ``live`` mode (with your USB stick or DVD)."
+msgstr ""
+"Nabootujte Linux Mint z USB alebo DVD (pri štarte počítača otvorte "
+"príslušným klávesom boot menu BIOS-u  a zvoľte možnosť Linux Mint (príp. "
+"Ubuntu)."
+
+#: ../../efi.rst:31 ../../multiboot.rst:20
+msgid "Open a terminal."
+msgstr "Otvorte terminál."
+
+#: ../../efi.rst:33
+msgid "Type ``sudo efibootmgr`` and press :kbd:`Enter`."
+msgstr "Zadajte ``sudo efibootmgr`` a stlačte :kbd:`Enter`"
+
+#: ../../efi.rst:35
+msgid "This command lists the available boot options and the boot order."
+msgstr "Tento príkaz zobrazí možnosti bootovania a poradie bootovania."
+
+#: ../../efi.rst:41
+msgid "In the screenshot above, there are three boot options:"
+msgstr "Na obrázku vyššie sú tri možnosti bootovania:"
+
+#: ../../efi.rst:43
+msgid "``ubuntu`` at ``0000``"
+msgstr "``ubuntu`` na ``0000``"
+
+#: ../../efi.rst:44
+msgid "``linuxmint`` at ``0001``"
+msgstr "``linuxmint`` na ``0001``"
+
+#: ../../efi.rst:45
+msgid "``Mac OS X`` at ``0081``"
+msgstr "``Mac OS X`` na ``0081``"
+
+#: ../../efi.rst:47
+msgid ""
+"The boot order is ``0081``. This indicates that the computer only tries to "
+"boot Mac OS and not Linux Mint."
+msgstr ""
+"Poradie bootovania je predvolene nastavené na``0081``. To znamená, že po "
+"počítač sa bude bootovať do ``0081``, čiže do Mac OS X."
+
+#: ../../efi.rst:50
+msgid ""
+"For technical reasons Linux Mint uses ``ubuntu`` as its EFI boot name."
+msgstr ""
+"Z technických používa Linux Mint ``ubuntu`` ako svoje bootovacie meno."
+
+#: ../../efi.rst:53
+msgid ""
+"To fix the boot order, type ``sudo efibootmgr --bootorder XXXX,YYYY`` (where "
+"``XXXX`` and ``YYYY`` are the operating system boot options you want to "
+"boot)."
+msgstr ""
+"Aby ste zmenili poradie bootovania, napíšte ``sudo efibootmgr -o XXXX,YYYY`` "
+"(XXXX nahraďte číslom, ktoré je napísané pri Ubuntu a YYYY číslom aktuálne "
+"nainštalovaného operačného systému)."
+
+#: ../../efi.rst:59
+msgid ""
+"In the screenshot above, ``sudo efibootmgr --bootorder 0000,0081`` instructs "
+"the computer to first try to boot Linux Mint (``ubuntu`` being the EFI boot "
+"name for Linux Mint), and then Mac OS."
+msgstr ""
+"Ako ukazuje príklad, ``sudo efibootmgr --bootorder 0000,0081`` inštruuje "
+"počítač, aby sa najskôr pokúsil nabootovať do Linux Mint (s bootovacím menom "
+"Ubuntu) a až potom do Mac OS."
+
+#: ../../efi.rst:64
+msgid ""
+"In the screenshot above ``0000`` is the first boot option so the computer "
+"boots on the Linux Mint grub menu. If grub fails (or if it is dismissed with "
+"the ``exit`` command), the computer follows the boot order and then tries to "
+"boot ``0081``, which corresponds to Mac OS."
+msgstr ""
+"Na obrázku vyššie je ``0000`` prvá z možností bootovania, preto sa počítač "
+"nabootuje do GRUB menu Linuxu Mint. Ak načítanie GRUB-u z nejakých príčin "
+"zlyhá, prípadne je zamietnuté príkazom ``exit``, počítač sa pokúsi "
+"nabootovať do ďalšej možnosti v poradí - ``0081``, čo je Mac OS."
+
+#: ../../help.rst:2
+msgid "Where to find help"
+msgstr "Kde nájsť pomoc"
+
+#: ../../help.rst:4
+msgid ""
+"Many users will be glad to help you and guide you through your first steps "
+"with Linux if you are nice and patient with them and if you give them the "
+"information they require to understand the issues you are facing."
+msgstr ""
+"Veľa ľudí vám ochotne pomôže s inštaláciou a prácou s Linuxom, pokiaľ im "
+"poskytnete všetky informácie potrebné na to, aby pochopili váš problém."
+
+#: ../../help.rst:7
+msgid "The forums"
+msgstr "Fóra"
+
+#: ../../help.rst:9
+msgid ""
+"The best place to find help is on the `Linux Mint Forums "
+"<https://forums.linuxmint.com>`_."
+msgstr ""
+"Najlepšie miesto, kde nájsť pomoc, je `Linux Mint Forums "
+"<https://forums.linuxmint.com>`_, ale môžete navštíviť aj československé "
+"fórum `Linux Mint Czech <https://forum.linux-mint-czech.cz/index.php>`_."
+
+#: ../../help.rst:12
+msgid ""
+"Search the forums before asking, in case someone else already asked the same "
+"question."
+msgstr ""
+"Pred položením otázky prehľadajte fórum, či už niekto nepoložil tú istú "
+"otázku."
+
+#: ../../help.rst:15
+msgid "The chat room"
+msgstr "Chatovacia miestnosť"
+
+#: ../../help.rst:17
+msgid "Another great place to find help is in the IRC chat room."
+msgstr "Ďaľšie dobré miesto na získanie pomoci je IRC chatovacia miestnosť."
+
+#: ../../help.rst:19
+msgid ""
+"To reach the chat room from within Linux Mint, launch :menuselection:`Menu --"
+"> Internet --> HexChat`."
+msgstr ""
+"Na prístup do IRC chatovacej miestnosti použite predinštalovaný program "
+"Hexchat."
+
+#: ../../help.rst:21
+msgid ""
+"If you are using another operating system, you can use `Kiwiirc "
+"<https://kiwiirc.com/client/irc.spotchat.org/?i#linuxmint-help>`_ to connect "
+"to the chat room."
+msgstr ""
+"Ak používate iný operačný systém, na chatovanie môžete použiť napr. program "
+"`Kiwiirc <https://kiwiirc.com/client/irc.spotchat.org/?i#linuxmint-help>`_."
+
+#: ../../help.rst:24
+msgid ""
+"Many people are connected to the chat room but only look at it now and then. "
+"Be patient after asking a question. Don't repeat it and stay connected until "
+"you get an answer. It can sometimes take a few hours for somebody to see "
+"your question and reply to you. Don't quit after a few minutes. It is "
+"frustrating to you, but also to others who later see your question and are "
+"unable to reply because you already left."
+msgstr ""
+"Mnohí ľudia sa len pripoja na chat, položia otázku, chvíľu čakajú a keď "
+"nikto neodpovie hneď odídu preč. Môže sa stať, že kým vám niekto odpovie, "
+"bude to trvať aj niekoľko hodín. Odporúčame vám zostať pripojený, až kým "
+"nedostanete odpoveď, pretože ak sa odpojíte, na vašu otázku nebude možné "
+"odpovedať."
+
+#: ../../help.rst:27
+msgid ""
+"If you are using Hexchat, you can minimize it to tray by clicking its status "
+"icon. People will often mention your nickname when replying to you. When "
+"they do, your Hexchat status icon will blink to catch your attention."
+msgstr ""
+"Ak používate HexChat, môžete jeho okno minimalizovať do lišty nástrojov. Keď "
+"vám niekto odpovie, ikonka Hexchatu sa rozbliká."
+
+#: ../../help.rst:30
+msgid "Community resources"
+msgstr "Zdroje komunity"
+
+#: ../../help.rst:32
+msgid ""
+"The `tutorials section <https://community.linuxmint.com/tutorial/search>`_ "
+"is useful to find tutorials about Linux Mint."
+msgstr ""
+"Na `tutorials section <https://community.linuxmint.com/tutorial/search>`_ "
+"môžete násť mnoho dobrých návodov o Linuxe Mint."
+
+#: ../../help.rst:34
+msgid ""
+"The `hardware database <https://community.linuxmint.com/hardware/search>`_ "
+"is useful to find compatible hardware."
+msgstr ""
+"Na `hardware database <https://community.linuxmint.com/hardware/search>`_ "
+"môžete nájsť pomoc s hardvérom."
+
+#: ../../help.rst:37
+msgid "Local communities"
+msgstr "Lokálne komunity"
+
+#: ../../help.rst:39
+msgid ""
+"To find help in your language, use the `Local Communities "
+"<https://www.linuxmint.com/links.php>`_."
+msgstr ""
+"Ak chcete nájsť pomoc v svojom jazyku, navštívte `Local Communities "
+"<https://www.linuxmint.com/links.php>`_."
+
+#: ../../index.rst:2
+msgid "Linux Mint Installation Guide"
+msgstr "Inštalačná príručka Linuxu Mint"
+
+#: ../../index.rst:8
+msgid ""
+"Linux Mint comes in the form of an ISO image (an .iso file) which can be "
+"used to make a bootable DVD or a bootable USB stick."
+msgstr ""
+"Linux Mint sa sťahuje v podobe ISO súboru (.iso), z ktorého je možné urobiť "
+"bootovateľné DVD alebo USB."
+
+#: ../../index.rst:10
+msgid ""
+"This guide will help you download the right ISO image, create your bootable "
+"media and install Linux Mint on your computer."
+msgstr ""
+"Tento návod vám pomôže stiahnuť správny ISO súbor, vytvoriť bootovateľné USB "
+"alebo DVD a nainštalovať Linux Mint na váš počítač."
+
+#: ../../index.rst:12 ../../sections.rst:5
+msgid "Download"
+msgstr "Stiahnuť"
+
+#: ../../index.rst:19 ../../sections.rst:7
+msgid "Live Boot"
+msgstr "Bootovanie Live operačného systému"
+
+#: ../../index.rst:26 ../../sections.rst:9
+msgid "Installation"
+msgstr "Inštalácia"
+
+#: ../../index.rst:32 ../../sections.rst:11
+msgid "Post-installation"
+msgstr "Po inštalácii"
+
+#: ../../index.rst:41 ../../sections.rst:13
+msgid "Troubleshooting"
+msgstr "Riešenie problémov"
+
+#: ../../index.rst:48 ../../sections.rst:15
+msgid "Frequently Asked Questions"
+msgstr "Často kladené otázky"
+
+#: ../../install.rst:2
+msgid "Install Linux Mint"
+msgstr "Inštalácia Linuxu Mint"
+
+#: ../../install.rst:5
+msgid "The live session"
+msgstr "Live operačný systém"
+
+#: ../../install.rst:7
+msgid ""
+"When you boot the computer from the USB stick (or DVD), Linux Mint starts a "
+"``live session``. It logs you in automatically as a user called ``mint`` and "
+"shows you a desktop with the installer on it:"
+msgstr ""
+"Keď nabootujete počítač z USB alebo DVD, dostanete sa do Live operačného "
+"systému. Automaticky ste prihlásený ako používateľ ``mint``"
+
+#: ../../install.rst:13
+msgid "The Linux Mint live session"
+msgstr "Live operačný systém Linux Mint"
+
+#: ../../install.rst:15
+msgid ""
+"The ``live session`` is similar to a normal session (i.e. to Linux Mint once "
+"it is permanently installed on the computer), but with the following "
+"exceptions:"
+msgstr ""
+"Live operačný systém má oproti operačnému systému spúšťanému z pevnho disku "
+"tieto odlišnosti:"
+
+#: ../../install.rst:17
+msgid ""
+"The Live session is slower (it is loaded from a USB stick or DVD as opposed "
+"to a SSD or HDD)."
+msgstr ""
+"Live operačný systém je pomalší ako aktuálny operačný systém na pevnom "
+"disku, pretože sa bootuje z USB alebo DVD."
+
+#: ../../install.rst:18
+msgid ""
+"Changes you make in the live session are not permanent. They are not written "
+"to the USB stick (or DVD) and they do not impact the system installed by the "
+"installer."
+msgstr ""
+"Akékoľvek meny, ktoré vykonáte v Live operačnom systéme, budú po vypnutí "
+"počítača zresetované, pretože dáta Live systému sú ukladané do RAM. Live "
+"operačný systém nemá vplyv na systém aktuálne nainštalovaný na počítači."
+
+#: ../../install.rst:19
+msgid ""
+"Some applications work differently (or not at all) in the live session "
+"(Timeshift, Flatpak, Update Manager, Welcome Screen..etc.)."
+msgstr ""
+"Niektoré programy preacujú v Live systéme pracuje odlišne než po inštalácii "
+"(Timeshift, Flatpak, Správca softvéru, Uvítacia obrazovka...)."
+
+#: ../../install.rst:22
+msgid ""
+"The username for the live session is ``mint``. If asked for a password press "
+":kbd:`Enter`."
+msgstr ""
+"Používateľské meno v Live systéme je ``mint``. Heslom je reťazec nulovej "
+"dĺžky - ak sa vás systém pýta na heslo, jednoducho stlačte :kbd:`Enter`."
+
+#: ../../install.rst:25
+msgid "Installing Linux Mint on the computer"
+msgstr "Inštalácia Linuxu Mint na váš počítač"
+
+#: ../../install.rst:27
+msgid "To permanently install Linux Mint on your computer:"
+msgstr "Aby ste uskutočnili trvalú inštaláciu Linux Mint na váš počítač:"
+
+#: ../../install.rst:29
+msgid "Double-click :guilabel:`Install Linux Mint`."
+msgstr "Dvakrát kliknite na :guilabel:`Install Linux Mint`."
+
+#: ../../install.rst:31
+msgid "Select your language."
+msgstr "Vyberte svoj jazyk."
+
+#: ../../install.rst:37
+msgid "Connect to the Internet."
+msgstr "Pripojte sa na internet."
+
+#: ../../install.rst:43
+msgid ""
+"If you are connected to the Internet, tick the box to install the multimedia "
+"codecs."
+msgstr ""
+"Ak ste pripojený na internet, zaškrtnite políčko na inštalovanie "
+"multimediálnych kódekov."
+
+#: ../../install.rst:49
+msgid "Choose an installation type."
+msgstr "Zvoľte typ inštalácie."
+
+#: ../../install.rst:55
+msgid ""
+"If Linux Mint is the only operating system you want to run on this computer "
+"and all data can be lost on the hard drive, choose :guilabel:`Erase disk and "
+"install Linux Mint`."
+msgstr ""
+"Ak chcete vymazať všetky dáta z disku a nainštalovať naň Linux Mint, vyberte "
+":guilabel:`Vymazať disk a nainštalovať Linux Minť`."
+
+#: ../../install.rst:58
+msgid ""
+":guilabel:`Encrypt the new Linux Mint installation for security` refers to "
+"full disk encryption. At this stage of the installation your keyboard layout "
+"wasn't yet selected so it is set to en_US. If you decide to use this option, "
+"keep this in mind when entering a password. Note that there are issues with "
+"this option and some NVIDIA drivers. If you are new to Linux use home "
+"directory encryption instead (you can select it later during the "
+"installation)."
+msgstr ""
+"Možnosť :guilabel:`Encrypt the new Linux Mint installation for security` "
+"znamená, že pri inštalácii dôjde k zašifrovaniu celého pevného disku "
+"počítača. Operačný systém bude možné odomknúť zadaním hesla po výzve, ešte "
+"pred spustením systému. Upozornenie: V okamihu výzvy bude klávesnica "
+"nastavená na en_US (anglická). Niektoré NVIDIA ovládače nemusia pri výbere "
+"možnosti zašifrovania celého pevného disku fungovať správne. Odporúčame "
+"radšej zvoliť zašifrovanie vášho domovského priečinka (táto možnosť sa "
+"objaví až o niekoľko krokov neskôr)."
+
+#: ../../install.rst:60
+msgid ""
+"If another operating system is present on the computer, the installer shows "
+"you an option to install Linux Mint alongside it. If you choose this option, "
+"the installer automatically resizes your existing operating system, makes "
+"room and installs Linux Mint beside it. A boot menu is set up to choose "
+"between the two operating systems each time you start your computer."
+msgstr ""
+"Ak je v počítači nainštalovaný iný operačný systém a inštalátor ho detekuje, "
+"zobrazí možnosť nainštalovať Linux Mint popri pôvodnom OS. Pri výbere tejto "
+"možnosti sa pri štarte bude zobrazovať menu, v ktorom si vždy vyberiete, "
+"ktorý operačný systém sa má bootovať."
+
+#: ../../install.rst:64
+msgid ""
+"If you want to manage the partitions or specify which partitions to use, "
+"select :guilabel:`Something else`."
+msgstr ""
+"Ak máte špeciálne požiadavky na rozdelenie disku, vyberte :guilabel:`Niečo "
+"iné`."
+
+#: ../../install.rst:70
+msgid ""
+"Linux Mint requires one partition to be mounted on the root ``/`` directory."
+msgstr ""
+"Aby bolo možné bootovať do Linux Mint, je potrebný minimálne jeden bootovací "
+"oddiel, kde bude umiestnený koreňový adresár - ``/``"
+
+#: ../../install.rst:72
+msgid ""
+"The Linux Mint operating system (without additional software or personal "
+"data) takes roughly 15GB, so give this partition a decent size (100GB or "
+"more)."
+msgstr ""
+"Operačný systém Linux Mint sám o sebe zaberie asi 15 GB miesta na disku, "
+"preto systému prideľte dostatočne veľký oddiel (odporúča sa aspoň 100 GB)."
+
+#: ../../install.rst:74
+msgid "``ext4`` is recommended. It is the most popular Linux filesystem."
+msgstr ""
+"Odporúčaný typ súborového systému je ``ext4`` - najpopulárnejší vo svete "
+"Linuxu."
+
+#: ../../install.rst:79
+msgid ""
+"Also create a ``swap`` partition. This partition is used for hibernation and "
+"as a safety buffer in case your computer runs out of RAM. Give this "
+"partition a size equal to the amount of RAM in your computer."
+msgstr ""
+"Vytvorte tiež oddiel ``swap``, ktorý bude použitý pri hibernácii a pri "
+"nedodstatku miesta v RAM. Priedeľte mu dvojnásobnú veľkosť vašej RAM."
+
+#: ../../install.rst:81
+msgid "Select your timezone"
+msgstr "Vyberte svoju časovú zónu"
+
+#: ../../install.rst:87
+msgid "Select your keyboard layout"
+msgstr "Vyberte rozloženie vašej klávesnice"
+
+#: ../../install.rst:93
+msgid "Enter your user details"
+msgstr "Zadajte svoje používateľské údaje"
+
+#: ../../install.rst:99
+msgid ""
+"Your ``name`` can be your real name, but it doesn't have to be. It is only "
+"used locally, in the screensaver and on the login screen."
+msgstr ""
+"Zvolené ``meno`` môže, ale nemusí byť vaše skutočné meno. Nie je verejne "
+"viditeľné, používa sa iba na vašom počítači."
+
+#: ../../install.rst:101
+msgid ""
+"Your ``username`` is what you log in as, and your ``hostname`` is the name "
+"of your computer on the network."
+msgstr ""
+"Zvolené ``používateľské meno`` je meno vášho používateľského účtu, "
+"``hostname`` je identifikačné meno počítača pre potreby siete."
+
+#: ../../install.rst:103
+msgid ""
+"To prevent bugs only use lowercase characters, with no punctuation or "
+"accentuation."
+msgstr "Používajte iba malé písmená bez interpunkčných znamienok."
+
+#: ../../install.rst:105
+msgid ""
+"To protect your personal data against local attacks (people around you, or "
+"in case your computer gets stolen), tick :guilabel:`Encrypt my home folder`."
+msgstr ""
+"Ak zašktnete :guilabel:`Šifrovať môj domovský priečinok`, všetky vaše osobné "
+"súbory budú šifrované a chránené heslom vášho účtu."
+
+#: ../../install.rst:107
+msgid "Choose a strong password."
+msgstr "Zvoľte silnejšie heslo."
+
+#: ../../install.rst:109
+msgid "Enjoy the slideshow while Linux Mint is installed on your computer."
+msgstr ""
+"Kým sa váš systém inštaluje, zobrazuje sa vám prezentácia o Linux Mint."
+
+#: ../../install.rst:115
+msgid "When the installation is finished, click :guilabel:`Restart Now`."
+msgstr "Keď sa inštalácia dokončí, zvoľte :guilabel:`Reštartovať teraz`."
+
+#: ../../install.rst:121
+msgid ""
+"The computer will then start to shut down and ask you to remove the USB disk "
+"(or DVD). Upon reboot, your computer should show you a boot menu or start "
+"your newly installed Linux Mint operating system."
+msgstr ""
+"Potom z počítača vysuňte inštalačné USB alebo DVD. Počítač sa reštaruje a "
+"potom zobrazí boot menu, prípadne sa hneď nabootuje do nainštalovaného "
+"systému Linux Mint."
+
+#: ../../locales.rst:2
+msgid "Language support"
+msgstr "Jazyková podpora"
+
+#: ../../locales.rst:4
+msgid ""
+"Language support includes translations but also packages related to spell-"
+"checking, synonyms, hyphenation and dictionaries which enhance your "
+"experience in software applications such as LibreOffice."
+msgstr ""
+"Jazyková podpora zahŕňa preklady, ale i súčasti programov súvisiacich s "
+"kontrolou pravopisu, synoným a delením slov. Ako  aj slovníky, ktoré "
+"spríjemňujú a vylepšujú používanie aplikácií, ako je LibreOffice."
+
+#: ../../locales.rst:6
+msgid "Launch :menuselection:`Menu --> Preferences --> Languages`."
+msgstr "Spustite :menuselection:`Menu --> Nastavenia -->Jazyky`."
+
+#: ../../locales.rst:12
+msgid "Click :guilabel:`Install / Remove Language`."
+msgstr "Kliknite na :guilabel:`Inštalovať/Odstrániť jazyk`."
+
+#: ../../locales.rst:18
+msgid ""
+"If beside your locale, you see a label saying ``Some language packs are "
+"missing``, select your locale and click :guilabel:`Install language packs`."
+msgstr ""
+"Pokiaľ vedľa svojho jazyka vidíte napísané ``Niektoré jazyky chýbajú``, "
+"kliknite na :guilabel:`Inštalovať jazykové balíky`."
+
+#: ../../multiboot.rst:2
+msgid "Multi-boot"
+msgstr "Multi-boot"
+
+#: ../../multiboot.rst:5
+msgid "Always install Windows first"
+msgstr "Vždy nainštalujte Windows ako prvý"
+
+#: ../../multiboot.rst:7
+msgid ""
+"Windows does not detect other operating systems and does not feature a boot "
+"menu. When you install it, it overwrites your boot sequence and your "
+"computer then boots straight into Windows."
+msgstr ""
+"Inštalátor Windowsu nedetekuje iné operačné systémy a pri inštalácii prepíše "
+"bootovaciu sekvenciu."
+
+#: ../../multiboot.rst:9
+msgid ""
+"Linux Mint (and most Linux distributions) detects other operating systems "
+"and builds a menu from which you can choose which system to boot."
+msgstr ""
+"Linux Mint (a mnoho ďaľších Linuxových distribúcií) detekujú iné operačné "
+"systémy a vytvoria boot menu, kde je možné zvoliť, ktorý operačný systém sa "
+"má bootovať."
+
+#: ../../multiboot.rst:11
+msgid ""
+"For this reason, if you want to dual-boot or multi-boot with Windows, it is "
+"easier and recommended to install Windows first, before you install Linux "
+"Mint."
+msgstr ""
+"Ak chcete mať na počítači Windows aj Linux Mint, najprv nainštalujte Windows "
+"a potom Linux Mint."
+
+#: ../../multiboot.rst:14
+msgid "Fix the boot sequence"
+msgstr "Oprava bootovacej sekvencie"
+
+#: ../../multiboot.rst:16
+msgid "If Windows overwrites your boot sequence:"
+msgstr "Ak Windows prepíše bootovaciu sekvenciu:"
+
+#: ../../multiboot.rst:22
+msgid "To list your partitions, type ``lsblk -f`` and press :kbd:`Enter`."
+msgstr ""
+"Aby ste videli rozdelenie disku, napíšte ``lsblk -f`` a stlačte :kbd:`Enter`."
+
+#: ../../multiboot.rst:28
+msgid ""
+"Find the partition where Linux Mint is installed. On most systems this "
+"should be the only ``ext4`` partition."
+msgstr ""
+"Nájdite oddiel, v ktorom je nainštalovaný Linux Mint. Väčšinou to je oddiel "
+"so súborovým systémom ``ext4``."
+
+#: ../../multiboot.rst:30
+msgid "In the screenshot above:"
+msgstr "Na obrázku vyššie:"
+
+#: ../../multiboot.rst:32
+msgid ""
+"``sdb`` is the USB stick (recognizable by its ``iso9660`` type which "
+"corresponds to an ISO image)."
+msgstr ""
+"``sdb`` je USB (identifikovateľný svojím ``iso9660`` typom, ktorý "
+"korešponduje s ISO obrazom)."
+
+#: ../../multiboot.rst:33
+msgid "``sda`` is the hard drive."
+msgstr "``sda`` je pevný disk."
+
+#: ../../multiboot.rst:34
+msgid ""
+"``sda4`` is the partition on the ``sda`` hard drive, where Linux Mint is "
+"installed."
+msgstr ""
+"``sda4`` je oddiel na pevnom disku (``sda``), kde je nainštalovaný Linux "
+"Mint."
+
+#: ../../multiboot.rst:36
+msgid "To list partition sizes, type ``lsblk``:"
+msgstr "Aby ste zobrazili veľkosti oddielov, zadajte ``lsblk``:"
+
+#: ../../multiboot.rst:42
+msgid "To list partition labels, type ``blkid``:"
+msgstr "Aby ste zobrazili názvy oddielov, zadajte ``blkid``:"
+
+#: ../../multiboot.rst:48
+msgid ""
+"Mount the Linux Mint partition and reinstall the grub menu with the "
+"following commands:"
+msgstr ""
+"Pripojte oddiel Linux Mint a preinštalujte GRUB menu nasledovnými príkazmi:"
+
+#: ../../multiboot.rst:56
+msgid ""
+"In the commands above, replace /dev/sda4 and /dev/sda with the appropriate "
+"names for your Linux Mint partition and your hard drive device."
+msgstr ""
+"V príkazoch vyššie nahraďte /dev/sda4 a /dev/sda príslušnými názvami oddielu "
+"pre Linuxu Mint a pevného disku."
+
+#: ../../oem.rst:2
+msgid "Pre-installing Linux Mint (OEM Installation)"
+msgstr "Predinštalovanie Linux Mint výrobcom (OEM Installation)"
+
+#: ../../oem.rst:4
+msgid ""
+"In the ISO boot menu, ``OEM install`` is used to preinstall Linux Mint."
+msgstr "``OEM install``značí predinštalovanie Linux Mint výrobcom"
+
+#: ../../oem.rst:6
+msgid "This option is useful to:"
+msgstr "Táto voľba je vhodná pre:"
+
+#: ../../oem.rst:8
+msgid ""
+"Manufacturers and resellers who want to install Linux Mint on computers they "
+"sell to their customers."
+msgstr ""
+"Výrobcovia a predajcovia, ktorí chcú inštalovať Linux Mint na počítače, "
+"ktoré predávajú."
+
+#: ../../oem.rst:9
+msgid "People who want to sell or give their computer to somebody else."
+msgstr "Ľudia, ktorí chcú predať alebo dať svoj počítač niekomu inému."
+
+#: ../../oem.rst:11
+msgid ""
+"When you install Linux Mint in ``OEM`` mode, the operating system is "
+"installed with a temporary user account and prepared for the computer's "
+"future owner."
+msgstr ""
+"Pokiaľ systém inštalujete v ``OEM`` móde, nainštaluje sa systém s dočasným "
+"účtom, pripravený pre budúceho používateľa."
+
+#: ../../oem.rst:13
+msgid "The user account is set up by the new owner."
+msgstr "Užívateľký účet si nastaví sám používateľ."
+
+#: ../../oem.rst:15
+msgid "To perform an OEM installation follow the steps below:"
+msgstr "Na vykonanie OEM inštalácie postupujte podľa týchto krokov."
+
+#: ../../oem.rst:17
+msgid "Select ``OEM Install`` from the USB stick (or DVD) menu."
+msgstr "Zvoľte ``OEM Install`` v menu Live systému."
+
+#: ../../oem.rst:19
+msgid "Launch the installer and follow the installation instructions."
+msgstr "Spustite inštalátor a postupujte podľa inštrukcií."
+
+#: ../../oem.rst:23
+msgid ""
+"Change any system settings or install additional software if you want."
+msgstr ""
+"Podľa potreby zmeňte systémové nastavenia alebo doinštalujte softvér."
+
+#: ../../oem.rst:25
+msgid ""
+"When ready, click :guilabel:`Prepare for shipping to end user`, enter the "
+"password you chose during the installation, click :guilabel:`OK` and shut "
+"down the computer."
+msgstr ""
+"Po dokončení zvoľte :guilabel:`Prepare for shipping to end user`, zadajte "
+"heslo, ktoré ste vybrali počas inštalácie, kliknite na :guilabel:`OK` a "
+"vypnite počítač."
+
+#: ../../oem.rst:31
+msgid ""
+"When the new owner of the computer boots the computer the following screen "
+"appears:"
+msgstr "Keď používateľ zapne počítač, zobrazí sa mu táto obrazovka:"
+
+#: ../../oem.rst:37
+msgid ""
+"The new owner selects his or her username, password, keyboard layout, "
+"language, timezone and all the details relevant to create his or her user "
+"account."
+msgstr ""
+"Používateľ si vyberie svoje používateľské meno, heslo, rozloženie "
+"klávesnice, jazyk, časové pásmo a ostatné parametre."
+
+#: ../../partitioning.rst:2
+msgid "Partitioning"
+msgstr "Rozdelenie diskových oddielov"
+
+#: ../../partitioning.rst:5
+msgid "Disks and partitions under Linux"
+msgstr "Disky a oddily v Linuxe"
+
+#: ../../partitioning.rst:7
+msgid ""
+"If you are not familiar with the Linux naming scheme for devices and "
+"partitions, or the concept of filesystems and mount points, read:"
+msgstr ""
+"Ak sa nevyznáte v spôsobe pomenúvania zariadení a oddielov v Linuxe a v "
+"koncepte súborových systémov a prípojových oddielov, preštudujte si:"
+
+#: ../../partitioning.rst:9
+msgid ""
+"`A beginner’s guide to disks and disk partitions in Linux "
+"<http://linuxbsdos.com/2014/11/08/a-beginners-guide-to-disks-and-disk-"
+"partitions-in-linux/>`_"
+msgstr ""
+"`A beginner’s guide to disks and disk partitions in Linux "
+"<http://linuxbsdos.com/2014/11/08/a-beginners-guide-to-disks-and-disk-"
+"partitions-in-linux/>`_"
+
+#: ../../partitioning.rst:10
+msgid ""
+"`Device Names in Linux "
+"<https://www.debian.org/releases/wheezy/amd64/apcs04.html.en>`_"
+msgstr ""
+"`Device Names in Linux "
+"<https://www.debian.org/releases/wheezy/amd64/apcs04.html.en>`_"
+
+#: ../../partitioning.rst:11
+msgid ""
+"`Understanding the Linux File System "
+"<http://etutorials.org/Linux+systems/red+hat+linux+9+professional+secrets/Par"
+"t+II+Exploring+Red+Hat+Linux/Chapter+7+Red+Hat+Linux+Basics/Understanding+the"
+"+Linux+File+System/>`_"
+msgstr ""
+"`Understanding the Linux File System "
+"<http://etutorials.org/Linux+systems/red+hat+linux+9+professional+secrets/Par"
+"t+II+Exploring+Red+Hat+Linux/Chapter+7+Red+Hat+Linux+Basics/Understanding+the"
+"+Linux+File+System/>`_"
+
+#: ../../partitioning.rst:14
+msgid "Dedicated /home partition"
+msgstr "Oddiel /home"
+
+#: ../../partitioning.rst:16
+msgid ""
+"In Linux, the ``/home`` directory is used to store user data and preferences."
+msgstr ""
+"Oddiel ``/home`` poskytuje priestor pre osobné súbory používateľa a jeho "
+"nastavenia."
+
+#: ../../partitioning.rst:18
+msgid ""
+"This directory contains one subdirectoy for each user account. Say your "
+"username is ``john``, your home directory is ``/home/john``, your downloads "
+"are in ``/home/john/Downloads``, your documents in ``/home/john/Documents``, "
+"your Firefox bookmarks somewhere in ``/home/john/.mozilla`` and so on..."
+msgstr ""
+"Ak napríklad je vaše používateľské meno ``john``, váš domovský priečinok je "
+"umiestnený v ``/home/john``."
+
+#: ../../partitioning.rst:20
+msgid ""
+"By giving ``/home`` its own dedicated partition, you separate the user data "
+"from the rest of the operating system."
+msgstr ""
+"Ak poskynete priečinku ``/home`` vlastný oddiel, oddelíte osobné súbory od "
+"zvyšku operačného systému."
+
+#: ../../partitioning.rst:22
+msgid ""
+"The advantage is that you can wipe the operating system and replace it "
+"without affecting the user data."
+msgstr "Výhodou je ľahká manipulácia s OS bez dosahu na osobné súbory."
+
+#: ../../partitioning.rst:24
+msgid "When installing Linux Mint:"
+msgstr "Pri inštalácii Linux Mint:"
+
+#: ../../partitioning.rst:26
+msgid ""
+"Assign the ``/`` mount point to the partition dedicated to the operating "
+"system, and tell the installer to format it."
+msgstr ""
+"Oddielu, kde sa bude nachádzať OS, priraďte prípojný bod ``/`` a nezabudnite "
+"ho naformátovať."
+
+#: ../../partitioning.rst:28
+msgid ""
+"Assign the ``/home`` mount point to the partition dedicated to the user "
+"data, and if it contains user data already, make sure to tell the installer "
+"**not to format it**."
+msgstr ""
+"Oddielu, kde sa budú nachádzať, alebo sa už nachádzajú osobné súbory, "
+"priraďte prípojný bod ``/`` a pokiaľ už obsahuje osobné súbory, NEformátujte "
+"ho."
+
+#: ../../partitioning.rst:31
+msgid ""
+"This is not recommended for novice users. A misstep during the installation "
+"could wipe all your data. Always make backups, make sure to select the right "
+"partitions and to carefully review formatting options."
+msgstr ""
+"Táto možnosť nie je odporúčaná pre začiatočníkov. Drobná chyba pri "
+"inštalácii môže spôsobiť premazanie dát."
+
+#: ../../partitioning.rst:34
+msgid ""
+"A Linux Mint operating system takes about 15GB and grows as you install "
+"additional software. If you can spare the size, give it 100GB. Keep most of "
+"your free space for the home partition. User data (downloads, videos, "
+"pictures) takes a lot more space."
+msgstr ""
+"Operačný systém Linux Mint má sám o sbe veľkosť asi 15 GB. Poskytnite mu "
+"aspoň 100 GB, aby bolo dostatok miesta pre všetok softvér, ktorý budete "
+"inštalovať neskôr."
+
+#: ../../timeshift.rst:2
+msgid "System snapshots"
+msgstr "Zálohy systému"
+
+#: ../../timeshift.rst:4
+msgid ""
+"Before you start using your operating system, set up system snapshots. Then "
+"if anything goes wrong, you can restore your system from an earlier backup."
+msgstr ""
+"Predtým, ako začnete používať svoj OS, nastavte zálohovanie systému. Ak sa "
+"čokoľvek pokazí, budete schopní obnoviť svoj systém do predošlého stavu."
+
+#: ../../timeshift.rst:6
+msgid "Launch :menuselection:`Menu --> Administration --> Timeshift`."
+msgstr "Spustite :menuselection:`Menu --> Administration --> Timeshift`."
+
+#: ../../timeshift.rst:8
+msgid "Select ``RSYNC`` and click :guilabel:`Next`."
+msgstr "Vyberte ``RSYNC`` a kliknite na :guilabel:`Next`."
+
+#: ../../timeshift.rst:13
+msgid ""
+"Select the device where you want system snapshots to be saved and click "
+":guilabel:`Next`."
+msgstr ""
+"Vyberte zariadenie, kam sa majú ukladať zálohy systému a kliknite na "
+":guilabel:`Next`."
+
+#: ../../timeshift.rst:19
+msgid ""
+"The selected device is not formatted and no data is lost. System snapshots "
+"are saved into a newly created ``timeshift`` directory on the root of the "
+"selected device."
+msgstr ""
+"Vybraté zariadenie sa NEbude formátovať. Zálohy systému sa budú ukladať do "
+"novovytvoreného priečinka ``timeshift`` na vybratom zariadení."
+
+#: ../../timeshift.rst:21
+msgid "Select when system snapshots are saved."
+msgstr "Vyberte, či sa má záloha systému robiť automaticky."
+
+#: ../../timeshift.rst:27
+msgid ""
+"System snapshots are incremental so although the first snapshot takes a "
+"significant amount of spaces, new snapshots only take additional space for "
+"files which have changed."
+msgstr ""
+"Prvá záloha systému síce zaberie veľa miesta, ale každá ďalšia potrebuje už "
+"len priestor na súbory, ktoré sa zmenili."
+
+#: ../../timeshift.rst:30
+msgid ""
+"``Boot`` snapshots are performed in the background and do not impact the "
+"speed of the boot sequence."
+msgstr ""
+"``Boot`` zálohy sú vykonávané v pozadí a nemajú vplyv na rýchlosť bootovania."
+
+#: ../../timeshift.rst:32
+msgid "Click :guilabel:`Finish`."
+msgstr "Kliknite na :guilabel:`Finish`."
+
+#: ../../verify.rst:2
+msgid "Verify your ISO image"
+msgstr "Overte ISO obraz"
+
+#: ../../verify.rst:4
+msgid ""
+"It is important to verify the integrity and authenticity of your ISO image."
+msgstr "Je veľmi dôležité overiť neporušenosť ISO obrazu."
+
+#: ../../verify.rst:6
+msgid ""
+"The integrity check confirms that your ISO image was properly downloaded and "
+"that your local file is an exact copy of the file present on the download "
+"servers. An error during the download could result in a corrupted file and "
+"trigger random issues during the installation."
+msgstr ""
+"Pri overení neporušenosti ISO obrazu sa zisťuje, či ISO súbor nebol "
+"poškodený."
+
+#: ../../verify.rst:8
+msgid ""
+"The authenticity check confirms that the ISO image you downloaded was signed "
+"by Linux Mint, and thus that it isn't a modified or malicious copy made by "
+"somebody else."
+msgstr ""
+"Overenie autenticity ISO obrazu zisťuje, či je obraz elektronicky podpísaný "
+"Linuxom Mint a či sa nejedná o modifikovanú verziu od niekoho iného."
+
+#: ../../verify.rst:11
+msgid "Download the SHA256 sums provided by Linux Mint"
+msgstr "Stiahnite SHA256."
+
+#: ../../verify.rst:13
+msgid ""
+"All `download mirrors <https://www.linuxmint.com/mirrors.php>`_ provide the "
+"ISO images, a ``sha256sum.txt`` file and a ``sha256sum.txt.gpg`` file. You "
+"should be able to find these files in the same place you downloaded the ISO "
+"image from."
+msgstr ""
+"Všetky `download mirrors <https://www.linuxmint.com/mirrors.php>`_ poskytujú "
+"ISO obraz, súbor ``sha256sum.txt`` a súbor ``sha256sum.txt.gpg``."
+
+#: ../../verify.rst:15
+msgid ""
+"If you can't find them, browse the `Heanet download mirror "
+"<https://ftp.heanet.ie/mirrors/linuxmint.com/stable/>`_ and click the "
+"version of the Linux Mint release you downloaded."
+msgstr ""
+"Ak súbory neviete nájsť, prehľadajte `Heanet download mirror "
+"<https://ftp.heanet.ie/mirrors/linuxmint.com/stable/>`_. Zvoľte verziu "
+"Linuxu Mint, ktorú ste si stiahli."
+
+#: ../../verify.rst:17
+msgid "Download both ``sha256sum.txt`` and ``sha256sum.txt.gpg``."
+msgstr "Stiahnite súbor ``sha256sum.txt`` a súbor ``sha256sum.txt.gpg``."
+
+#: ../../verify.rst:19
+msgid ""
+"Do not copy their content, use \"right-click->Save Link As...\" to download "
+"the files themselves and do not modify them in any way."
+msgstr "Pri sťahovaní súborov nekopírujte ich obraz."
+
+#: ../../verify.rst:22
+msgid "Integrity check"
+msgstr "Overenie neporušenosti"
+
+#: ../../verify.rst:24
+msgid ""
+"To check the integrity of your local ISO file, generate its SHA256 sum and "
+"compare it with the sum present in ``sha256sum.txt``."
+msgstr ""
+"Aby ste overili neporušenosť ISO súboru, vygenerujte jeho SHA256 súčet a "
+"porovnajte ho so súčtom, ktorý sa nachádza v súbore ``sha256sum.txt``."
+
+#: ../../verify.rst:31
+msgid ""
+"If you are using Windows follow the tutorial `How to verify the ISO image on "
+"Windows <https://forums.linuxmint.com/viewtopic.php?f=42&t=291093>`_."
+msgstr ""
+"Ak používate Windows, pomôže vám návod `How to verify the ISO image on "
+"Windows <https://forums.linuxmint.com/viewtopic.php?f=42&t=291093>`_."
+
+#: ../../verify.rst:33
+msgid ""
+"If the sums match, your ISO image was successfully downloaded. If they "
+"don't, download it again."
+msgstr "Ak sa súčty zhodujú, ISO súbor je nepoškodený."
+
+#: ../../verify.rst:38
+msgid "Authenticity check"
+msgstr "Overenie autenticity"
+
+#: ../../verify.rst:40
+msgid ""
+"To verify the authenticity of ``sha256sum.txt``, check the signature of "
+"``sha256sum.txt.gpg`` by following the steps below."
+msgstr ""
+"Aby ste overili autenticitu súboru ``sha256sum.txt``, skontrolujte podpis "
+"``sha256sum.txt.gpg`` pomocou nasledujúcich krokov:"
+
+#: ../../verify.rst:43
+msgid "Import the Linux Mint signing key:"
+msgstr "Vložte podpisovací kľúč Linuxu Mint:"
+
+#: ../../verify.rst:49
+msgid ""
+"If gpg complains about the key ID, try the following commands instead:"
+msgstr "Ak sa GPG sťažuje na ID, skúste zadať tieto príkazy:"
+
+#: ../../verify.rst:56
+msgid ""
+"Check the output of the last command, to make sure the fingerprint is ``27DE "
+"B156 44C6 B3CF 3BD7 D291 300F 846B A25B AE09`` (with or without spaces)."
+msgstr ""
+"Skontrolujte výstup posledného príkazu. Uistite sa, že fingerprint je ``27DE "
+"B156 44C6 B3CF 3BD7 D291 300F 846B A25B AE09`` (s medzerami alebo bez "
+"medzier)."
+
+#: ../../verify.rst:59
+msgid "Verify the authenticity of sha256sum.txt:"
+msgstr "Overte autenticitu súboru sha256sum.txt:"
+
+#: ../../verify.rst:64
+msgid ""
+"The output of the last command should tell you that the file signature is "
+"``good`` and that it was signed with the ``A25BAE09`` key."
+msgstr ""
+"Výstup posledného príkazu by vám mal oznámiť, že podpis je ``good`` a že bol "
+"podpísaný reťazcom ``A25BAE09``."
+
+#: ../../verify.rst:67
+msgid ""
+"GPG might warn you that the Linux Mint signature is not trusted by your "
+"computer. This is expected and perfectly normal."
+msgstr ""
+"GPG vás môže varovať, že podpis Linuxu Mint nie je dôveryhodný, pretože ho "
+"počítač nepozná. Toto správanie je normálne a má svoje technické príčiny."
+
+#: ../../verify.rst:70
+msgid ""
+"For more information on ISO verification, or to verify BETA, LMDE or old "
+"releases, read `How to Verify ISO images "
+"<https://linuxmint.com/verify.php>`_."
+msgstr ""
+"Pre viac informácií o overení ISO obrazu (príp. overení BETA, LMDE alebo "
+"starších vydaní Linuxu Mint) si prečítajte `How to Verify ISO images "
+"<https://linuxmint.com/verify.php>`_."

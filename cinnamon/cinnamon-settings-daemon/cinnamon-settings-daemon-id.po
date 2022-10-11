@@ -1,0 +1,1357 @@
+# Indonesian translation of cinnamon-settings-daemon
+# Copyright (C) 2003 cinnamon-settings-daemon's copyright holder
+# This file is distributed under the same license as the cinnamon-settings-daemon package.
+#
+# Mohammad DAMT <mdamt@bisnisweb.com> 2003
+# Ahmad Riza H Nst  <rizahnst@gnome.org> 2006
+# Dirgita <dirgitadevina@yahoo.co.id>, 2011.
+# Andika Triwidada <andika@gmail.com>, 2011, 2012.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: cinnamon-settings-daemon master\n"
+"Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?product=gnome-"
+"settings-daemon&keywords=I18N+L10N&component=general\n"
+"POT-Creation-Date: 2022-06-10 13:33+0200\n"
+"PO-Revision-Date: 2021-10-16 11:05+0000\n"
+"Last-Translator: Andika Triwidada <andika@gmail.com>\n"
+"Language-Team: Indonesian <gnome@i15n.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Launchpad-Export-Date: 2022-10-10 13:11+0000\n"
+"X-Generator: Launchpad (build 762fb15a975e8b23af6a1f86e44e46bfd0451459)\n"
+"Language: id\n"
+
+#: plugins/a11y-settings/csd-a11y-settings-manager.c:268
+msgid "Screen reader not found."
+msgstr "Screen reader tidak ditemukan"
+
+#: plugins/a11y-settings/csd-a11y-settings-manager.c:269
+msgid "Please install the 'orca' package."
+msgstr "Instal paket 'orca'"
+
+#: plugins/a11y-settings/csd-a11y-settings-manager.c:276
+msgid "Open accessibility settings"
+msgstr "Buka pengaturan aksesibilitas"
+
+#: plugins/automount/csd-automount-manager.c:150
+#, c-format
+msgid "Unable to mount %s"
+msgstr "Tidak dapat mengaitkan %s"
+
+#: plugins/automount/csd-automount-manager.c:278
+#, c-format
+msgid "Unable to open a folder for %s"
+msgstr "Tidak dapat membuka folder untuk %s"
+
+#: plugins/automount/csd-autorun.c:346
+msgid "Ask what to do"
+msgstr "Tanya apa yang akan dilakukan"
+
+#: plugins/automount/csd-autorun.c:352 plugins/wacom/csd-wacom-osd-window.c:952
+#: plugins/wacom/csd-wacom-osd-window.c:972
+#: plugins/wacom/csd-wacom-osd-window.c:983
+msgid "Do Nothing"
+msgstr "Tak Melakukan Apapun"
+
+#: plugins/automount/csd-autorun.c:358
+msgid "Open Folder"
+msgstr "Buka Folder"
+
+#: plugins/automount/csd-autorun.c:501
+#, c-format
+msgid "Unable to eject %p"
+msgstr "Tak bisa mengeluarkan %p"
+
+#: plugins/automount/csd-autorun.c:503
+#, c-format
+msgid "Unable to unmount %p"
+msgstr "Tak bisa melepas kait %p"
+
+#: plugins/automount/csd-autorun.c:710
+msgid "You have just inserted an Audio CD."
+msgstr "Anda baru saja menyisipkan CD Audio."
+
+#: plugins/automount/csd-autorun.c:712
+msgid "You have just inserted an Audio DVD."
+msgstr "Anda baru saja menyisipkan DVD Audio."
+
+#: plugins/automount/csd-autorun.c:714
+msgid "You have just inserted a Video DVD."
+msgstr "Anda baru saja menyisipkan DVD Video."
+
+#: plugins/automount/csd-autorun.c:716
+msgid "You have just inserted a Video CD."
+msgstr "Anda baru saja menyisipkan CD Video."
+
+#: plugins/automount/csd-autorun.c:718
+msgid "You have just inserted a Super Video CD."
+msgstr "Anda baru saja menyisipkan CD Super Video."
+
+#: plugins/automount/csd-autorun.c:720
+msgid "You have just inserted a blank CD."
+msgstr "Anda baru saja menyisipkan CD kosong."
+
+#: plugins/automount/csd-autorun.c:722
+msgid "You have just inserted a blank DVD."
+msgstr "Anda baru saja menyisipkan DVD kosong."
+
+#: plugins/automount/csd-autorun.c:724
+msgid "You have just inserted a blank Blu-Ray disc."
+msgstr "Anda baru saja menyisipkan cakram Blu-Ray kosong."
+
+#: plugins/automount/csd-autorun.c:726
+msgid "You have just inserted a blank HD DVD."
+msgstr "Anda baru saja menyisipkan DVD HD kosong."
+
+#: plugins/automount/csd-autorun.c:728
+msgid "You have just inserted a Photo CD."
+msgstr "Anda baru saja menyisipkan CD Photo."
+
+#: plugins/automount/csd-autorun.c:730
+msgid "You have just inserted a Picture CD."
+msgstr "Anda baru saja menyisipkan CD Picture."
+
+#: plugins/automount/csd-autorun.c:732
+msgid "You have just inserted a medium with digital photos."
+msgstr "Anda baru saja menyisipkan medium dengan foto digital."
+
+#: plugins/automount/csd-autorun.c:734
+msgid "You have just inserted a digital audio player."
+msgstr "Anda baru saja menyisipkan pemutar audio digital."
+
+#: plugins/automount/csd-autorun.c:736
+msgid ""
+"You have just inserted a medium with software intended to be automatically "
+"started."
+msgstr ""
+"Anda baru saja menyisipkan medium dengan perangkat lunak yang dirancang "
+"untuk otomatis dimulai."
+
+#: plugins/automount/csd-autorun.c:739
+msgid "You have just inserted a medium."
+msgstr "Anda baru saja menyisipkan medium."
+
+#: plugins/automount/csd-autorun.c:741
+msgid "Choose what application to launch."
+msgstr "Pilih aplikasi mana yang akan diluncurkan."
+
+#: plugins/automount/csd-autorun.c:751
+#, c-format
+msgid ""
+"Select how to open \"%s\" and whether to perform this action in the future "
+"for other media of type \"%s\"."
+msgstr ""
+"Pilih bagaimana membuka \"%s\" dan apakah aksi ini dilakukan di masa "
+"mendatang untuk media lain berjenis \"%s\"."
+
+#: plugins/automount/csd-autorun.c:779
+msgid "_Always perform this action"
+msgstr "Selalu lakukan _aksi ini"
+
+#: plugins/automount/csd-autorun.c:788
+msgid "_Cancel"
+msgstr "_Batal"
+
+#: plugins/automount/csd-autorun.c:789
+msgid "_Ok"
+msgstr "_Ok"
+
+#: plugins/automount/csd-autorun.c:794
+msgid "_Eject"
+msgstr "K_eluarkan"
+
+#: plugins/automount/csd-autorun.c:797
+msgid "_Unmount"
+msgstr "_Lepas Kaitan"
+
+#: plugins/color/csd-color-manager.c:1837
+msgid "Color"
+msgstr "Warna"
+
+#: plugins/color/csd-color-manager.c:1842
+msgid "Recalibrate now"
+msgstr "Kalibrasi ulang sekarang"
+
+#: plugins/color/csd-color-manager.c:1885
+msgid "Recalibration required"
+msgstr "Perlu kalibrasi ulang"
+
+#: plugins/color/csd-color-manager.c:1897
+#, c-format
+msgid "The display '%s' should be recalibrated soon."
+msgstr "Tampilan '%s' mesti segera dikalibrasi ulang."
+
+#: plugins/color/csd-color-manager.c:1906
+#, c-format
+msgid "The printer '%s' should be recalibrated soon."
+msgstr "Pencetak '%s' mesti segera dikalibrasi ulang."
+
+#: plugins/color/csd-color-manager.c:2230
+#: plugins/color/csd-color-manager.c:2246
+msgid "Cinnamon Settings Daemon Color Plugin"
+msgstr "Plugin Warna Daemon Pengaturan Cinnamon"
+
+#: plugins/color/csd-color-manager.c:2232
+msgid "Color calibration device added"
+msgstr "Perangkat kalibrasi warna ditambahkan"
+
+#: plugins/color/csd-color-manager.c:2248
+msgid "Color calibration device removed"
+msgstr "Perangkat kalibrasi warna disingkirkan"
+
+#: plugins/housekeeping/csd-disk-space.c:334
+#, c-format
+msgid "Low Disk Space on \"%s\""
+msgstr "Sisa Ruang Disk pada \"%s\" Sedikit"
+
+#: plugins/housekeeping/csd-disk-space.c:336
+#, c-format
+msgid ""
+"The volume \"%s\" has only %s disk space remaining.  You may free up some "
+"space by emptying the trash."
+msgstr ""
+"Volume \"%s\" hanya memiliki %s ruang kosong. Anda dapat menambah ruang "
+"kosong tersebut dengan mengosongkan folder tempat sampah."
+
+#: plugins/housekeeping/csd-disk-space.c:340
+#: plugins/housekeeping/csd-ldsm-dialog.c:78
+#, c-format
+msgid "The volume \"%s\" has only %s disk space remaining."
+msgstr "Volume \"%s\" hanya memiliki %s ruang kosong."
+
+#: plugins/housekeeping/csd-disk-space.c:345
+#: plugins/housekeeping/csd-ldsm-dialog.c:202
+msgid "Low Disk Space"
+msgstr "Ruang Kosong Tinggal Sedikit"
+
+#: plugins/housekeeping/csd-disk-space.c:347
+#, c-format
+msgid ""
+"This computer has only %s disk space remaining.  You may free up some space "
+"by emptying the trash."
+msgstr ""
+"Komputer ini hanya memiliki %s ruang kosong pada diska. Anda dapat menambah "
+"ruang kosong tersebut dengan mengosongkan folder tempat sampah."
+
+#: plugins/housekeeping/csd-disk-space.c:350
+#: plugins/housekeeping/csd-ldsm-dialog.c:81
+#, c-format
+msgid "This computer has only %s disk space remaining."
+msgstr "Komputer ini hanya memiliki %s ruang kosong pada diska."
+
+#: plugins/housekeeping/csd-disk-space.c:365
+msgid "Disk space"
+msgstr "Ruang disk"
+
+#: plugins/housekeeping/csd-disk-space.c:372
+msgid "Examine"
+msgstr "Periksa"
+
+#: plugins/housekeeping/csd-disk-space.c:380
+#: plugins/housekeeping/csd-ldsm-dialog.c:434
+msgid "Empty Trash"
+msgstr "Kosongkan Tempat Sampah"
+
+#: plugins/housekeeping/csd-disk-space.c:387
+#: plugins/housekeeping/csd-ldsm-dialog.c:449
+msgid "Ignore"
+msgstr "Abaikan"
+
+#: plugins/housekeeping/csd-ldsm-dialog.c:63
+msgid "Don't show any warnings again for this file system"
+msgstr "Jangan tampilkan lagi peringatan untuk sistem berkas ini"
+
+#: plugins/housekeeping/csd-ldsm-dialog.c:65
+msgid "Don't show any warnings again"
+msgstr "Jangan tampilkan peringatan lagi"
+
+#: plugins/housekeeping/csd-ldsm-dialog.c:97
+msgid ""
+"You can free up disk space by emptying the Trash, removing unused programs "
+"or files, or moving files to another disk or partition."
+msgstr ""
+"Anda dapat membebaskan ruang disk dengan mengosongkan Tong Sampah, menghapus "
+"program atau berkas yang tak terpakai, atau dengan memindahkan berkas ke "
+"disk atau partisi lain."
+
+#: plugins/housekeeping/csd-ldsm-dialog.c:100
+msgid ""
+"You can free up disk space by removing unused programs or files, or by "
+"moving files to another disk or partition."
+msgstr ""
+"Anda dapat membebaskan ruang disk dengan menghapus program atau berkas yang "
+"tak terpakai, atau dengan memindahkan berkas ke disk atau partisi lain."
+
+#: plugins/housekeeping/csd-ldsm-dialog.c:105
+msgid ""
+"You can free up disk space by emptying the Trash, removing unused programs "
+"or files, or moving files to an external disk."
+msgstr ""
+"Anda dapat membebaskan ruang disk dengan mengosongkan Tong Sampah, menghapus "
+"program atau berkas yang tak terpakai, atau dengan memindahkan berkas ke "
+"disk eksternal."
+
+#: plugins/housekeeping/csd-ldsm-dialog.c:108
+msgid ""
+"You can free up disk space by removing unused programs or files, or by "
+"moving files to an external disk."
+msgstr ""
+"Anda dapat membebaskan ruang disk dengan menghapus program atau berkas yang "
+"tak terpakai, atau dengan memindahkan berkas ke disk eksternal."
+
+#: plugins/housekeeping/csd-ldsm-dialog.c:442
+msgid "Examine..."
+msgstr "Memeriksa"
+
+#: plugins/keyboard/csd-keyboard-xkb.c:87
+#, c-format
+msgid ""
+"Error activating XKB configuration.\n"
+"There can be various reasons for that.\n"
+"\n"
+"If you report this situation as a bug, include the results of\n"
+" <b>%s</b>\n"
+" <b>%s</b>\n"
+" <b>%s</b>\n"
+" <b>%s</b>"
+msgstr ""
+"Gagal mengaktifkan konfigurasi XKB.\n"
+"Ada beberapa alasan hal itu terjadi.\n"
+"\n"
+"Jika Anda melaporkan situasi ini sebagai bug (kesalahan sistem), sertakan "
+"hasil dari\n"
+"         <b>%s</b>\n"
+"         <b>%s</b>\n"
+"         <b>%s</b>\n"
+"         <b>%s</b>"
+
+#: plugins/keyboard/csd-keyboard-xkb.c:256
+msgid "_Layouts"
+msgstr "_Tata letak"
+
+#: plugins/keyboard/csd-keyboard-xkb.c:262
+msgid "Show _Keyboard Layout..."
+msgstr "Tampilkan _Tata letak papak ketik..."
+
+#: plugins/keyboard/csd-keyboard-xkb.c:269
+msgid "Region and Language Settings"
+msgstr "Pengaturan Wilayah dan Bahasa"
+
+#: plugins/power/csd-power-manager.c:1112
+msgid "UPS Discharging"
+msgstr "UPS Dikosongkan"
+
+#: plugins/power/csd-power-manager.c:1117
+#, c-format
+msgid "%s of UPS backup power remaining"
+msgstr "%s daya backup UPS tersisa"
+
+#: plugins/power/csd-power-manager.c:1138
+#: plugins/power/csd-power-manager.c:1358
+#: plugins/power/csd-power-manager.c:1536
+#: plugins/power/csd-power-manager.c:1685
+msgid "Power"
+msgstr "Daya"
+
+#: plugins/power/csd-power-manager.c:1270
+msgid "Battery low"
+msgstr "Baterai lemah"
+
+#: plugins/power/csd-power-manager.c:1273
+msgid "Laptop battery low"
+msgstr "Baterai laptop lemah"
+
+#: plugins/power/csd-power-manager.c:1280
+#, c-format
+msgid "Approximately %s remaining (%.0f%%)"
+msgstr "Kira-kira %s tersisa (%.0f%%)"
+
+#: plugins/power/csd-power-manager.c:1285
+msgid "UPS low"
+msgstr "UPS lemah"
+
+#: plugins/power/csd-power-manager.c:1291
+#, c-format
+msgid "Approximately %s of remaining UPS backup power (%.0f%%)"
+msgstr "Sekitar %s sisa daya cadangan UPS (%.0f%%)"
+
+#: plugins/power/csd-power-manager.c:1296
+#: plugins/power/csd-power-manager.c:1461
+msgid "Mouse battery low"
+msgstr "Baterai tetikus lemah"
+
+#: plugins/power/csd-power-manager.c:1299
+msgid "Wireless mouse is low in power"
+msgstr "Baterai tetikus nirkabel lemah"
+
+#: plugins/power/csd-power-manager.c:1303
+#: plugins/power/csd-power-manager.c:1468
+msgid "Keyboard battery low"
+msgstr "Baterai papan tik lemah"
+
+#: plugins/power/csd-power-manager.c:1306
+msgid "Wireless keyboard is low in power"
+msgstr "Baterai papan tik nirkabel lemah"
+
+#: plugins/power/csd-power-manager.c:1310
+#: plugins/power/csd-power-manager.c:1476
+msgid "PDA battery low"
+msgstr "Baterai PDA lemah"
+
+#: plugins/power/csd-power-manager.c:1313
+#, c-format
+msgid "PDA is low in power (%.0f%%)"
+msgstr "Baterai PDA lemah (%.0f%%)"
+
+#: plugins/power/csd-power-manager.c:1317
+#: plugins/power/csd-power-manager.c:1486
+#: plugins/power/csd-power-manager.c:1496
+msgid "Cell phone battery low"
+msgstr "Baterai telepon genggam nyaris habis"
+
+#: plugins/power/csd-power-manager.c:1320
+#, c-format
+msgid "Cell phone is low in power (%.0f%%)"
+msgstr "Baterai telepon genggam lemah (%.0f%%)"
+
+#: plugins/power/csd-power-manager.c:1324
+msgid "Media player battery low"
+msgstr "Baterai pemutar media nyaris habis"
+
+#: plugins/power/csd-power-manager.c:1327
+#, c-format
+msgid "Media player is low in power (%.0f%%)"
+msgstr "Baterai pemutar media lemah (%.0f%%)"
+
+#: plugins/power/csd-power-manager.c:1331
+#: plugins/power/csd-power-manager.c:1505
+msgid "Tablet battery low"
+msgstr "Baterai tablet nyaris habis"
+
+#: plugins/power/csd-power-manager.c:1334
+#, c-format
+msgid "Tablet is low in power (%.0f%%)"
+msgstr "Baterai tablet lemah (%.0f%%)"
+
+#: plugins/power/csd-power-manager.c:1338
+#: plugins/power/csd-power-manager.c:1514
+msgid "Attached computer battery low"
+msgstr "Baterai komputer yang tersambung lemah"
+
+#: plugins/power/csd-power-manager.c:1341
+#, c-format
+msgid "Attached computer is low in power (%.0f%%)"
+msgstr "Baterai komputer yang tersambung lemah (%.0f%%)"
+
+#: plugins/power/csd-power-manager.c:1375
+msgid "Battery is low"
+msgstr "Baterai lemah"
+
+#: plugins/power/csd-power-manager.c:1417
+msgid "Battery critically low"
+msgstr "Baterai nyaris habis"
+
+#: plugins/power/csd-power-manager.c:1420
+#: plugins/power/csd-power-manager.c:1601
+msgid "Laptop battery critically low"
+msgstr "Baterai laptop nyaris habis"
+
+#: plugins/power/csd-power-manager.c:1429
+msgid "Plug in your AC adapter to avoid losing data."
+msgstr "Tancapkan adaptor AC Anda untuk menghindari hilangnya data."
+
+#: plugins/power/csd-power-manager.c:1433
+msgid "Computer will suspend very soon unless it is plugged in."
+msgstr "Komputer akan segera disuspensi kecuali ditancapkan ke listrik."
+
+#: plugins/power/csd-power-manager.c:1437
+msgid "Computer will hibernate very soon unless it is plugged in."
+msgstr "Komputer akan segera hibernasi kecuali ditancapkan ke listrik."
+
+#: plugins/power/csd-power-manager.c:1441
+msgid "Computer will shutdown very soon unless it is plugged in."
+msgstr "Komputer akan segera dimatikan kecuali ditancapkan ke listrik."
+
+#: plugins/power/csd-power-manager.c:1449
+#: plugins/power/csd-power-manager.c:1637
+msgid "UPS critically low"
+msgstr "Baterai UPS nyaris habis"
+
+#: plugins/power/csd-power-manager.c:1455
+#, c-format
+msgid ""
+"Approximately %s of remaining UPS power (%.0f%%). Restore AC power to your "
+"computer to avoid losing data."
+msgstr ""
+"Sekitar %s sisa daya UPS (%.0f%%). Kembalikan daya listrik AC ke komputer "
+"Anda untuk menghindari kehilangan data."
+
+#: plugins/power/csd-power-manager.c:1464
+msgid ""
+"Wireless mouse is very low in power. This device will soon stop functioning "
+"if not charged."
+msgstr ""
+"Tetikus nirkabel nyaris kehabisan daya. Perangkat ini akan segera berhenti "
+"berfungsi bila tidak diisi ulang."
+
+#: plugins/power/csd-power-manager.c:1471
+msgid ""
+"Wireless keyboard is very low in power. This device will soon stop "
+"functioning if not charged."
+msgstr ""
+"Papan tik nirkabel nyaris kehabisan daya. Perangkat ini akan segera berhenti "
+"berfungsi bila tidak diisi ulang."
+
+#: plugins/power/csd-power-manager.c:1479
+#, c-format
+msgid ""
+"PDA is very low in power (%.0f%%). This device will soon stop functioning if "
+"not charged."
+msgstr ""
+"PDA nyaris kehabisan daya (%.0f%%). Perangkat ini akan segera berhenti "
+"berfungsi bila tidak diisi ulang."
+
+#: plugins/power/csd-power-manager.c:1489
+#, c-format
+msgid ""
+"Cell phone is very low in power (%.0f%%). This device will soon stop "
+"functioning if not charged."
+msgstr ""
+"Telepon genggam nyaris kehabisan daya (%.0f%%). Perangkat ini akan segera "
+"berhenti berfungsi bila tidak diisi ulang."
+
+#: plugins/power/csd-power-manager.c:1499
+#, c-format
+msgid ""
+"Media player is very low in power (%.0f%%). This device will soon stop "
+"functioning if not charged."
+msgstr ""
+"Pemutar media nyaris kehabisan daya (%.0f%%). Perangkat ini akan segera "
+"berhenti berfungsi bila tidak diisi ulang."
+
+#: plugins/power/csd-power-manager.c:1508
+#, c-format
+msgid ""
+"Tablet is very low in power (%.0f%%). This device will soon stop functioning "
+"if not charged."
+msgstr ""
+"Tablet nyaris kehabisan daya (%.0f%%). Perangkat ini akan segera berhenti "
+"berfungsi bila tidak diisi ulang."
+
+#: plugins/power/csd-power-manager.c:1517
+#, c-format
+msgid ""
+"Attached computer is very low in power (%.0f%%). The device will soon "
+"shutdown if not charged."
+msgstr ""
+"Komputer yang tersambung nyaris kehabisan daya (%.0f%%). Perangkat ini akan "
+"segera dimatikan bila tidak diisi ulang."
+
+#: plugins/power/csd-power-manager.c:1554
+#: plugins/power/csd-power-manager.c:1564
+#: plugins/power/csd-power-manager.c:1700
+msgid "Battery is critically low"
+msgstr "Baterai nyaris habis"
+
+#: plugins/power/csd-power-manager.c:1609
+msgid ""
+"The battery is below the critical level and this computer will <b>power-"
+"off</b> when the battery becomes completely empty."
+msgstr ""
+"Baterai berada pada tingkat kritis dan komputer ini akan <b>mati</b> ketika "
+"baterai sama sekali kosong."
+
+#: plugins/power/csd-power-manager.c:1615
+msgid ""
+"The battery is below the critical level and this computer is about to "
+"suspend.\n"
+"<b>NOTE:</b> A small amount of power is required to keep your computer in a "
+"suspended state."
+msgstr ""
+"Baterai berada di bawah tingkat kritis dan komputer ini akan disuspensi.\n"
+"<b>CATATAN:</b> Sejumlah kecil tenaga diperlukan untuk menjaga komputer Anda "
+"dalam kondisi tersuspensi."
+
+#: plugins/power/csd-power-manager.c:1622
+msgid ""
+"The battery is below the critical level and this computer is about to "
+"hibernate."
+msgstr ""
+"Baterai berada pada tingkat kritis dan komputer ini akan berhibernasi."
+
+#: plugins/power/csd-power-manager.c:1627
+msgid ""
+"The battery is below the critical level and this computer is about to "
+"shutdown."
+msgstr "Baterai di bawah tingkat kritis dan komputer ini akan mati."
+
+#: plugins/power/csd-power-manager.c:1645
+msgid ""
+"UPS is below the critical level and this computer will <b>power-off</b> when "
+"the UPS becomes completely empty."
+msgstr ""
+"Baterai UPS di bawah tingkat kritis dan komputer ini akan <b>dimatikan</b> "
+"ketika baterai UPS benar-benar habis."
+
+#: plugins/power/csd-power-manager.c:1651
+msgid ""
+"UPS is below the critical level and this computer is about to hibernate."
+msgstr ""
+"Baterai UPS di bawah tingkat kritis dan komputer ini akan berhibernasi."
+
+#: plugins/power/csd-power-manager.c:1656
+msgid ""
+"UPS is below the critical level and this computer is about to shutdown."
+msgstr "Baterai UPS di bawah tingkat kritis dan komputer ini akan dimatikan."
+
+#: plugins/power/csd-power-manager.c:2245
+msgid "Lid has been opened"
+msgstr "Lid telah dibuka"
+
+#: plugins/power/csd-power-manager.c:2390
+msgid "Lid has been closed"
+msgstr "Lid telah ditutup"
+
+#: plugins/power/csd-power-manager.c:4316
+msgid "Power Manager"
+msgstr "Manajer Daya"
+
+#: plugins/power/gpm-common.c:47
+msgid "Unknown time"
+msgstr "Waktu tak diketahui"
+
+#: plugins/power/gpm-common.c:52
+#, c-format
+msgid "%i minute"
+msgid_plural "%i minutes"
+msgstr[0] "%i menit"
+
+#: plugins/power/gpm-common.c:62
+#, c-format
+msgid "%i hour"
+msgid_plural "%i hours"
+msgstr[0] "%i jam"
+
+#: plugins/power/gpm-common.c:68
+#, c-format
+msgid "%i %s %i %s"
+msgstr "%i %s %i %s"
+
+#: plugins/power/gpm-common.c:69
+msgid "hour"
+msgid_plural "hours"
+msgstr[0] "jam"
+
+#: plugins/power/gpm-common.c:70
+msgid "minute"
+msgid_plural "minutes"
+msgstr[0] "menit"
+
+#: plugins/power/gpm-common.c:358
+#, c-format
+msgid "provides %s laptop runtime"
+msgstr "menyediakan waktu operasi laptop %s"
+
+#: plugins/power/gpm-common.c:369
+#, c-format
+msgid "%s %s remaining"
+msgstr "%s tersisa %s"
+
+#: plugins/power/gpm-common.c:390 plugins/power/gpm-common.c:407
+#, c-format
+msgid "%s %s until charged"
+msgstr "%s %s sampai terisi penuh"
+
+#: plugins/power/gpm-common.c:397
+#, c-format
+msgid "provides %s battery runtime"
+msgstr "menyediakan waktu operasi baterai %s"
+
+#: plugins/power/gpm-common.c:488
+msgid "Product:"
+msgstr "Produk:"
+
+#: plugins/power/gpm-common.c:492 plugins/power/gpm-common.c:495
+#: plugins/power/gpm-common.c:498 plugins/power/gpm-common.c:501
+msgid "Status:"
+msgstr "Status:"
+
+#: plugins/power/gpm-common.c:492
+msgid "Missing"
+msgstr "Hilang"
+
+#: plugins/power/gpm-common.c:495 plugins/power/gpm-common.c:780
+msgid "Charged"
+msgstr "Terisi"
+
+#: plugins/power/gpm-common.c:498 plugins/power/gpm-common.c:768
+msgid "Charging"
+msgstr "Mengisi"
+
+#: plugins/power/gpm-common.c:501 plugins/power/gpm-common.c:772
+msgid "Discharging"
+msgstr "Mengosongkan"
+
+#: plugins/power/gpm-common.c:506
+msgid "Percentage charge:"
+msgstr "Persentase muatan:"
+
+#: plugins/power/gpm-common.c:510
+msgid "Vendor:"
+msgstr "Vendor:"
+
+#: plugins/power/gpm-common.c:515
+msgid "Technology:"
+msgstr "Teknologi:"
+
+#: plugins/power/gpm-common.c:519
+msgid "Serial number:"
+msgstr "Nomor seri:"
+
+#: plugins/power/gpm-common.c:523
+msgid "Model:"
+msgstr "Model:"
+
+#: plugins/power/gpm-common.c:528
+msgid "Charge time:"
+msgstr "Waktu pengisian:"
+
+#: plugins/power/gpm-common.c:534
+msgid "Discharge time:"
+msgstr "Waktu pengosongan:"
+
+#: plugins/power/gpm-common.c:541
+msgid "Excellent"
+msgstr "Sempurna"
+
+#: plugins/power/gpm-common.c:543
+msgid "Good"
+msgstr "Baik"
+
+#: plugins/power/gpm-common.c:545
+msgid "Fair"
+msgstr "Sedang"
+
+#: plugins/power/gpm-common.c:547
+msgid "Poor"
+msgstr "Jelek"
+
+#: plugins/power/gpm-common.c:551
+msgid "Capacity:"
+msgstr "Kapasitas:"
+
+#: plugins/power/gpm-common.c:557 plugins/power/gpm-common.c:582
+msgid "Current charge:"
+msgstr "Muatan kini:"
+
+#: plugins/power/gpm-common.c:563
+msgid "Last full charge:"
+msgstr "Muatan penuh terakhir:"
+
+#: plugins/power/gpm-common.c:569 plugins/power/gpm-common.c:587
+msgid "Design charge:"
+msgstr "Muatan rancangan:"
+
+#: plugins/power/gpm-common.c:574
+msgid "Charge rate:"
+msgstr "Laju pengisian:"
+
+#: plugins/power/gpm-common.c:606
+msgid "AC adapter"
+msgid_plural "AC adapters"
+msgstr[0] "Adaptor AC"
+
+#: plugins/power/gpm-common.c:610
+msgid "Laptop battery"
+msgid_plural "Laptop batteries"
+msgstr[0] "Baterai laptop"
+
+#: plugins/power/gpm-common.c:614
+msgid "UPS"
+msgid_plural "UPSs"
+msgstr[0] "UPS"
+
+#: plugins/power/gpm-common.c:618
+msgid "Monitor"
+msgid_plural "Monitors"
+msgstr[0] "Alat Pemantau"
+
+#: plugins/power/gpm-common.c:622
+msgid "Mouse"
+msgid_plural "Mice"
+msgstr[0] "Tetikus"
+
+#: plugins/power/gpm-common.c:626
+msgid "Keyboard"
+msgid_plural "Keyboards"
+msgstr[0] "Papan tik"
+
+#: plugins/power/gpm-common.c:630
+msgid "PDA"
+msgid_plural "PDAs"
+msgstr[0] "PDA"
+
+#: plugins/power/gpm-common.c:634
+msgid "Cell phone"
+msgid_plural "Cell phones"
+msgstr[0] "Telepon genggam"
+
+#: plugins/power/gpm-common.c:638
+msgid "Media player"
+msgid_plural "Media players"
+msgstr[0] "Pemutar media"
+
+#: plugins/power/gpm-common.c:642
+msgid "Tablet"
+msgid_plural "Tablets"
+msgstr[0] "Tablet"
+
+#: plugins/power/gpm-common.c:646
+msgid "Computer"
+msgid_plural "Computers"
+msgstr[0] "Komputer"
+
+#: plugins/power/gpm-common.c:651
+msgid "Game controller"
+msgid_plural "Game controllers"
+msgstr[0] "Pengendali permainan"
+
+#: plugins/power/gpm-common.c:655
+msgid "Unknown device"
+msgid_plural "Unknown devices"
+msgstr[0] "Perangkat tidak dikenal"
+
+#: plugins/power/gpm-common.c:726
+msgid "Lithium Ion"
+msgstr "Ion Litium"
+
+#: plugins/power/gpm-common.c:730
+msgid "Lithium Polymer"
+msgstr "Polimer Litium"
+
+#: plugins/power/gpm-common.c:734
+msgid "Lithium Iron Phosphate"
+msgstr "Fosfat Besi Litium"
+
+#: plugins/power/gpm-common.c:738
+msgid "Lead acid"
+msgstr "Asam timbal"
+
+#: plugins/power/gpm-common.c:742
+msgid "Nickel Cadmium"
+msgstr "Kadmium Nikel"
+
+#: plugins/power/gpm-common.c:746
+msgid "Nickel metal hydride"
+msgstr "Hidrida logam nikel"
+
+#: plugins/power/gpm-common.c:750
+msgid "Unknown technology"
+msgstr "Teknologi tak diketahui"
+
+#: plugins/power/gpm-common.c:776
+msgid "Empty"
+msgstr "Kosong"
+
+#: plugins/power/gpm-common.c:784
+msgid "Waiting to charge"
+msgstr "Menunggu pengisian"
+
+#: plugins/power/gpm-common.c:788
+msgid "Waiting to discharge"
+msgstr "Menunggu pengosongan"
+
+#: plugins/power/gpm-common.c:792
+msgid "Unknown"
+msgstr "Tidak diketahui"
+
+#: plugins/power/gpm-common.c:821
+msgid "Laptop battery not present"
+msgstr "Baterai laptop tak ada"
+
+#: plugins/power/gpm-common.c:825
+msgid "Laptop battery is charging"
+msgstr "Baterai laptop sedang diisi"
+
+#: plugins/power/gpm-common.c:829
+msgid "Laptop battery is discharging"
+msgstr "Baterai laptop sedang dikosongkan"
+
+#: plugins/power/gpm-common.c:833
+msgid "Laptop battery is empty"
+msgstr "Baterai laptop kosong"
+
+#: plugins/power/gpm-common.c:837
+msgid "Laptop battery is charged"
+msgstr "Baterai laptop penuh"
+
+#: plugins/power/gpm-common.c:841
+msgid "Laptop battery is waiting to charge"
+msgstr "Baterai laptop sedang menunggu diisi"
+
+#: plugins/power/gpm-common.c:845
+msgid "Laptop battery is waiting to discharge"
+msgstr "Baterai laptop sedang menunggu dikosongkan"
+
+#: plugins/power/gpm-common.c:854
+msgid "UPS is charging"
+msgstr "Baterai UPS sedang diisi"
+
+#: plugins/power/gpm-common.c:858
+msgid "UPS is discharging"
+msgstr "Baterai UPS sedang dikosongkan"
+
+#: plugins/power/gpm-common.c:862
+msgid "UPS is empty"
+msgstr "Baterai UPS kosong"
+
+#: plugins/power/gpm-common.c:866
+msgid "UPS is charged"
+msgstr "Baterai UPS penuh"
+
+#: plugins/power/gpm-common.c:875
+msgid "Mouse is charging"
+msgstr "Baterai tetikus sedang diisi"
+
+#: plugins/power/gpm-common.c:879
+msgid "Mouse is discharging"
+msgstr "Baterai tetikus sedang dikosongkan"
+
+#: plugins/power/gpm-common.c:883
+msgid "Mouse is empty"
+msgstr "Baterai tetikus kosong"
+
+#: plugins/power/gpm-common.c:887
+msgid "Mouse is charged"
+msgstr "Baterai tetikus penuh"
+
+#: plugins/power/gpm-common.c:896
+msgid "Keyboard is charging"
+msgstr "Baterai papan tik sedang diisi"
+
+#: plugins/power/gpm-common.c:900
+msgid "Keyboard is discharging"
+msgstr "Baterai papan tik sedang dikosongkan"
+
+#: plugins/power/gpm-common.c:904
+msgid "Keyboard is empty"
+msgstr "Baterai papan tik kosong"
+
+#: plugins/power/gpm-common.c:908
+msgid "Keyboard is charged"
+msgstr "Baterai papan tik penuh"
+
+#: plugins/power/gpm-common.c:917
+msgid "PDA is charging"
+msgstr "Baterai PDA sedang diisi"
+
+#: plugins/power/gpm-common.c:921
+msgid "PDA is discharging"
+msgstr "Baterai PDA sedang dikosongkan"
+
+#: plugins/power/gpm-common.c:925
+msgid "PDA is empty"
+msgstr "Baterai PDA kosong"
+
+#: plugins/power/gpm-common.c:929
+msgid "PDA is charged"
+msgstr "Baterai PDA penuh"
+
+#: plugins/power/gpm-common.c:938
+msgid "Cell phone is charging"
+msgstr "Baterai telepon genggam sedang diisi"
+
+#: plugins/power/gpm-common.c:942
+msgid "Cell phone is discharging"
+msgstr "Baterai telepon genggam sedang dikosongkan"
+
+#: plugins/power/gpm-common.c:946
+msgid "Cell phone is empty"
+msgstr "Baterai telepon genggam habis"
+
+#: plugins/power/gpm-common.c:950
+msgid "Cell phone is charged"
+msgstr "Baterai telepon genggam penuh"
+
+#: plugins/power/gpm-common.c:959
+msgid "Media player is charging"
+msgstr "Baterai pemutar media sedang diisi"
+
+#: plugins/power/gpm-common.c:963
+msgid "Media player is discharging"
+msgstr "Baterai pemutar media sedang dikosongkan"
+
+#: plugins/power/gpm-common.c:967
+msgid "Media player is empty"
+msgstr "Baterai pemutar media habis"
+
+#: plugins/power/gpm-common.c:971
+msgid "Media player is charged"
+msgstr "Baterai pemutar media penuh"
+
+#: plugins/power/gpm-common.c:980
+msgid "Tablet is charging"
+msgstr "Baterai tablet sedang diisi"
+
+#: plugins/power/gpm-common.c:984
+msgid "Tablet is discharging"
+msgstr "Baterai tablet sedang dikosongkan"
+
+#: plugins/power/gpm-common.c:988
+msgid "Tablet is empty"
+msgstr "Baterai tablet habis"
+
+#: plugins/power/gpm-common.c:992
+msgid "Tablet is charged"
+msgstr "Baterai tablet penuh"
+
+#: plugins/power/gpm-common.c:1001
+msgid "Computer is charging"
+msgstr "Baterai komputer sedang diisi"
+
+#: plugins/power/gpm-common.c:1005
+msgid "Computer is discharging"
+msgstr "Baterai komputer sedang dikosongkan"
+
+#: plugins/power/gpm-common.c:1009
+msgid "Computer is empty"
+msgstr "Baterai komputer habis"
+
+#: plugins/power/gpm-common.c:1013
+msgid "Computer is charged"
+msgstr "Baterai komputer penuh"
+
+#: plugins/power/gpm-common.c:1023
+msgid "Game controller is charging"
+msgstr "Pengendali permainan sedang diisi"
+
+#: plugins/power/gpm-common.c:1027
+msgid "Game controller is discharging"
+msgstr "Pengendali permainan sedang mengosongkan"
+
+#: plugins/power/gpm-common.c:1031
+msgid "Game controller is empty"
+msgstr "Pengendali permainan kosong"
+
+#: plugins/power/gpm-common.c:1035
+msgid "Game controller is charged"
+msgstr "Pengendali permainan terisi penuh"
+
+#: plugins/print-notifications/csd-printer.c:890
+msgid "Configuring new printer"
+msgstr "Mengonfigurasi pencetak baru"
+
+#: plugins/print-notifications/csd-printer.c:892
+msgid "Please wait..."
+msgstr "Mohon tunggu..."
+
+#: plugins/print-notifications/csd-printer.c:919
+msgid "Missing printer driver"
+msgstr "Kehilangan pengandar pencetak"
+
+#: plugins/print-notifications/csd-printer.c:928
+#, c-format
+msgid "No printer driver for %s."
+msgstr "Tidak ada pengandar untuk pencetak %s."
+
+#: plugins/print-notifications/csd-printer.c:933
+msgid "No driver for this printer."
+msgstr "Tidak ada pengandar untuk pencetak ini."
+
+#: plugins/print-notifications/csd-printer.c:1031
+#: plugins/print-notifications/csd-print-notifications-manager.c:268
+#: plugins/print-notifications/csd-print-notifications-manager.c:746
+#: plugins/print-notifications/csd-print-notifications-manager.c:836
+#: plugins/print-notifications/csd-print-notifications-manager.c:879
+msgid "Printers"
+msgstr "Pencetak"
+
+#: plugins/print-notifications/csd-print-notifications-manager.c:344
+#, c-format
+msgid "Printer '%s' is low on toner."
+msgstr "Toner pencetak '%s' tinggal sedikit."
+
+#: plugins/print-notifications/csd-print-notifications-manager.c:348
+#, c-format
+msgid "Printer '%s' has no toner left."
+msgstr "Toner pencetak '%s' telah habis."
+
+#: plugins/print-notifications/csd-print-notifications-manager.c:352
+#, c-format
+msgid "Printer '%s' may not be connected."
+msgstr "Pencetak '%s' mungkin tidak terhubung."
+
+#: plugins/print-notifications/csd-print-notifications-manager.c:356
+#, c-format
+msgid "The cover is open on printer '%s'."
+msgstr "Pencetak '%s' kovernya terbuka."
+
+#: plugins/print-notifications/csd-print-notifications-manager.c:360
+#, c-format
+msgid "There is a missing print filter for printer '%s'."
+msgstr "Kehilangan penyaring untuk pencetak '%s'."
+
+#: plugins/print-notifications/csd-print-notifications-manager.c:365
+#, c-format
+msgid "The door is open on printer '%s'."
+msgstr "Pencetak '%s' pintunya terbuka."
+
+#: plugins/print-notifications/csd-print-notifications-manager.c:369
+#, c-format
+msgid "Printer '%s' is low on a marker supply."
+msgstr "Pencetak '%s' kekurangan tinta."
+
+#: plugins/print-notifications/csd-print-notifications-manager.c:373
+#, c-format
+msgid "Printer '%s' is out of a marker supply."
+msgstr "Pencetak '%s' kehabisan tinta."
+
+#: plugins/print-notifications/csd-print-notifications-manager.c:377
+#, c-format
+msgid "Printer '%s' is low on paper."
+msgstr "Kertas pencetak '%s' tinggal sedikit."
+
+#: plugins/print-notifications/csd-print-notifications-manager.c:381
+#, c-format
+msgid "Printer '%s' is out of paper."
+msgstr "Pencetak '%s' kehabisan kertas."
+
+#: plugins/print-notifications/csd-print-notifications-manager.c:385
+#, c-format
+msgid "Printer '%s' is currently off-line."
+msgstr "Pencetak '%s' sedang luring."
+
+#: plugins/print-notifications/csd-print-notifications-manager.c:389
+#, c-format
+msgid "There is a problem on printer '%s'."
+msgstr "Terjadi masalah pada pencetak '%s'."
+
+#: plugins/print-notifications/csd-print-notifications-manager.c:437
+msgid "Toner low"
+msgstr "Toner tinggal sedikit"
+
+#: plugins/print-notifications/csd-print-notifications-manager.c:439
+msgid "Toner empty"
+msgstr "Toner habis"
+
+#: plugins/print-notifications/csd-print-notifications-manager.c:441
+msgid "Not connected?"
+msgstr "Tidak terhubung?"
+
+#: plugins/print-notifications/csd-print-notifications-manager.c:443
+msgid "Cover open"
+msgstr "Kover terbuka"
+
+#: plugins/print-notifications/csd-print-notifications-manager.c:445
+msgid "Printer configuration error"
+msgstr "Galat konfigurasi pencetak"
+
+#: plugins/print-notifications/csd-print-notifications-manager.c:447
+msgid "Door open"
+msgstr "Pintu terbuka"
+
+#: plugins/print-notifications/csd-print-notifications-manager.c:449
+msgid "Marker supply low"
+msgstr "Tinta sedikit"
+
+#: plugins/print-notifications/csd-print-notifications-manager.c:451
+msgid "Out of a marker supply"
+msgstr "Kehabisan tinta"
+
+#: plugins/print-notifications/csd-print-notifications-manager.c:453
+msgid "Paper low"
+msgstr "Kertas tinggal sedikit"
+
+#: plugins/print-notifications/csd-print-notifications-manager.c:455
+msgid "Out of paper"
+msgstr "Kehabisan kertas"
+
+#: plugins/print-notifications/csd-print-notifications-manager.c:457
+msgid "Printer off-line"
+msgstr "Pencetak luring"
+
+#: plugins/print-notifications/csd-print-notifications-manager.c:459
+#: plugins/print-notifications/csd-print-notifications-manager.c:822
+msgid "Printer error"
+msgstr "Galat pencetak"
+
+#: plugins/print-notifications/csd-print-notifications-manager.c:507
+msgid "Printer added"
+msgstr "Pencetak ditambahkan"
+
+#: plugins/print-notifications/csd-print-notifications-manager.c:524
+#: plugins/print-notifications/csd-print-notifications-manager.c:562
+msgid "Printing stopped"
+msgstr "Pencetakan berhenti"
+
+#: plugins/print-notifications/csd-print-notifications-manager.c:526
+#: plugins/print-notifications/csd-print-notifications-manager.c:532
+#: plugins/print-notifications/csd-print-notifications-manager.c:538
+#: plugins/print-notifications/csd-print-notifications-manager.c:544
+#: plugins/print-notifications/csd-print-notifications-manager.c:556
+#: plugins/print-notifications/csd-print-notifications-manager.c:564
+#: plugins/print-notifications/csd-print-notifications-manager.c:572
+#: plugins/print-notifications/csd-print-notifications-manager.c:580
+#: plugins/print-notifications/csd-print-notifications-manager.c:588
+#: plugins/print-notifications/csd-print-notifications-manager.c:601
+#, c-format
+msgid "'%s' on %s"
+msgstr "'%s' di %s"
+
+#: plugins/print-notifications/csd-print-notifications-manager.c:530
+#: plugins/print-notifications/csd-print-notifications-manager.c:570
+msgid "Printing canceled"
+msgstr "Pencetakan dibatalkan"
+
+#: plugins/print-notifications/csd-print-notifications-manager.c:536
+#: plugins/print-notifications/csd-print-notifications-manager.c:578
+msgid "Printing aborted"
+msgstr "Pencetakan dibatalkan"
+
+#: plugins/print-notifications/csd-print-notifications-manager.c:542
+#: plugins/print-notifications/csd-print-notifications-manager.c:586
+msgid "Printing completed"
+msgstr "Pencetakan selesai"
+
+#: plugins/print-notifications/csd-print-notifications-manager.c:554
+#: plugins/print-notifications/csd-print-notifications-manager.c:599
+msgid "Printing"
+msgstr "Pencetakan"
+
+#: plugins/print-notifications/csd-print-notifications-manager.c:816
+msgid "Printer report"
+msgstr "Laporan pencetak"
+
+#: plugins/print-notifications/csd-print-notifications-manager.c:819
+msgid "Printer warning"
+msgstr "Peringatan pencetak"
+
+#: plugins/print-notifications/csd-print-notifications-manager.c:829
+#, c-format
+msgid "Printer '%s': '%s'."
+msgstr "Pencetak '%s': '%s'."
+
+#: plugins/smartcard/csd-smartcard-manager.c:529
+msgid "received error or hang up from event source"
+msgstr "menerima galat atau menggantung dari sumber kejadian"
+
+#: plugins/smartcard/csd-smartcard-manager.c:663
+msgid "NSS security system could not be initialized"
+msgstr "sistem keamanan NSS tak dapat diinisialisasi"
+
+#: plugins/smartcard/csd-smartcard-manager.c:791
+msgid "no suitable smartcard driver could be found"
+msgstr "tak ditemukan penggerak smartcard yang cocok"
+
+#: plugins/smartcard/csd-smartcard-manager.c:805
+#, c-format
+msgid "smartcard driver '%s' could not be loaded"
+msgstr "penggerak smartcard '%s' tak dapat dimuat"
+
+#: plugins/smartcard/csd-smartcard-manager.c:877
+#, c-format
+msgid "could not watch for incoming card events - %s"
+msgstr "tak bisa memantau kejadian kartu masuk - %s"
+
+#: plugins/smartcard/csd-smartcard-manager.c:1275
+msgid "encountered unexpected error while waiting for smartcard events"
+msgstr ""
+"menjumpai galat yang tak diharapkan ketika menunggu kejadian smartcard"
+
+#: plugins/wacom/csd-wacom-device.c:1082
+msgid "Left Ring"
+msgstr "Ring Kiri"
+
+#: plugins/wacom/csd-wacom-device.c:1092
+#, c-format
+msgid "Left Ring Mode #%d"
+msgstr "Mode Ring Kiri #%d"
+
+#: plugins/wacom/csd-wacom-device.c:1111
+msgid "Right Ring"
+msgstr "Ring Kanan"
+
+#: plugins/wacom/csd-wacom-device.c:1121
+#, c-format
+msgid "Right Ring Mode #%d"
+msgstr "Mode Ring Kanan #%d"
+
+#: plugins/wacom/csd-wacom-device.c:1162
+msgid "Left Touchstrip"
+msgstr "Lajur sentuh sebelah kiri"
+
+#: plugins/wacom/csd-wacom-device.c:1172
+#, c-format
+msgid "Left Touchstrip Mode #%d"
+msgstr "Mode Touchstrip Kiri #%d"
+
+#: plugins/wacom/csd-wacom-device.c:1191
+msgid "Right Touchstrip"
+msgstr "Lajur sentuh sebelah kanan"
+
+#: plugins/wacom/csd-wacom-device.c:1201
+#, c-format
+msgid "Right Touchstrip Mode #%d"
+msgstr "Mode Touchstrip Kanan #%d"
+
+#: plugins/wacom/csd-wacom-device.c:1226
+msgid "Left Touchring Mode Switch"
+msgstr "Penukaran Mode Touchring Kiri"
+
+#: plugins/wacom/csd-wacom-device.c:1228
+msgid "Right Touchring Mode Switch"
+msgstr "Penukaran Mode Touchring Kanan"
+
+#: plugins/wacom/csd-wacom-device.c:1231
+msgid "Left Touchstrip Mode Switch"
+msgstr "Penukaran Mode Touchstrip Kiri"
+
+#: plugins/wacom/csd-wacom-device.c:1233
+msgid "Right Touchstrip Mode Switch"
+msgstr "Penukaran Mode Touchstrip Kanan"
+
+#: plugins/wacom/csd-wacom-device.c:1238
+#, c-format
+msgid "Mode Switch #%d"
+msgstr "Penukaran Mode #%d"
+
+#: plugins/wacom/csd-wacom-device.c:1342
+#, c-format
+msgid "Left Button #%d"
+msgstr "Tombol Kiri #%d"
+
+#: plugins/wacom/csd-wacom-device.c:1345
+#, c-format
+msgid "Right Button #%d"
+msgstr "Tombol Kanan #%d"
+
+#: plugins/wacom/csd-wacom-device.c:1348
+#, c-format
+msgid "Top Button #%d"
+msgstr "Tombol Puncak #%d"
+
+#: plugins/wacom/csd-wacom-device.c:1351
+#, c-format
+msgid "Bottom Button #%d"
+msgstr "Tombol Dasar #%d"
+
+#: plugins/wacom/csd-wacom-osd-window.c:957
+#, c-format
+msgid "Send Keystroke %s"
+msgstr "Kirim Ketukan Tombol %s"
+
+#: plugins/wacom/csd-wacom-osd-window.c:975
+msgid "Show On-Screen Help"
+msgstr "Tampilkan Bantuan di Layar"
+
+#: plugins/wacom/csd-wacom-osd-window.c:978
+msgid "Switch Monitor"
+msgstr "Ganti Monitor"
+
+#: plugins/wacom/csd-wacom-osd-window.c:1016
+#, c-format
+msgid "Mode %d: %s"
+msgstr "Mode %d: %s"

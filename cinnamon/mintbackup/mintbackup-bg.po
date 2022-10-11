@@ -1,0 +1,404 @@
+# Bulgarian translation for linuxmint
+# Copyright (c) 2009 Rosetta Contributors and Canonical Ltd 2009
+# This file is distributed under the same license as the linuxmint package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2009.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: linuxmint\n"
+"Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
+"POT-Creation-Date: 2019-02-27 13:57+0000\n"
+"PO-Revision-Date: 2019-03-12 16:01+0000\n"
+"Last-Translator: spacy01 <Unknown>\n"
+"Language-Team: Bulgarian <bg@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Launchpad-Export-Date: 2022-10-10 13:02+0000\n"
+"X-Generator: Launchpad (build 762fb15a975e8b23af6a1f86e44e46bfd0451459)\n"
+
+#: usr/lib/linuxmint/mintbackup/mintbackup.py:41
+msgid "Backups"
+msgstr "Резервни копия"
+
+#: usr/lib/linuxmint/mintbackup/mintbackup.py:169
+#: usr/lib/linuxmint/mintbackup/mintbackup.py:209
+#: usr/lib/linuxmint/mintbackup/mintbackup.py:216 generate_desktop_files:24
+#: generate_desktop_files:39
+msgid "Backup Tool"
+msgstr "Инструмент за създаване на резервни копия"
+
+#: usr/lib/linuxmint/mintbackup/mintbackup.py:232
+#, python-format
+msgid "%s is not located in your home directory."
+msgstr "%s не е намерено в домашната директория."
+
+#: usr/lib/linuxmint/mintbackup/mintbackup.py:272
+msgid "Please choose a directory."
+msgstr "Моля, изберете директория."
+
+#: usr/lib/linuxmint/mintbackup/mintbackup.py:275
+msgid "You do not have the permission to write in the selected directory."
+msgstr "Нямате права да записвате в избраната директория."
+
+#: usr/lib/linuxmint/mintbackup/mintbackup.py:335
+msgid "Please choose a backup file."
+msgstr "Моля изберете бекъп файл."
+
+#: usr/lib/linuxmint/mintbackup/mintbackup.py:343
+msgid ""
+"This backup file is either too old or it was created with a different tool. "
+"Please extract it manually."
+msgstr ""
+"Бекъп файла е твърде стар или е създаден с различен инструмент. Моля "
+"извлечете го ръчно."
+
+#: usr/lib/linuxmint/mintbackup/mintbackup.py:352
+#, python-format
+msgid "An error occurred while opening the backup file: %s."
+msgstr "Настъпи грешка при отварянето на бекъп файла: %s"
+
+#: usr/lib/linuxmint/mintbackup/mintbackup.py:366
+msgid "No packages need to be installed."
+msgstr "Не е нужно да се инсталират пакети."
+
+#: usr/lib/linuxmint/mintbackup/mintbackup.py:373
+msgid "Please select packages to install."
+msgstr "Моля, изберете пакети за инсталация."
+
+#: usr/lib/linuxmint/mintbackup/mintbackup.py:427
+#, python-format
+msgid "Skipping %s because named pipes are not supported."
+msgstr "Пропускане на %s, защото не се поддържа поддръжка на named pipes."
+
+#: usr/lib/linuxmint/mintbackup/mintbackup.py:452
+msgid "Backing up:"
+msgstr "Архивиране на:"
+
+#: usr/lib/linuxmint/mintbackup/mintbackup.py:460
+msgid "Calculating..."
+msgstr "Изчисляване..."
+
+#: usr/lib/linuxmint/mintbackup/mintbackup.py:464
+#: usr/lib/linuxmint/mintbackup/mintbackup.py:568
+msgid "The following errors occurred:"
+msgstr "Настъпиха следните грешки:"
+
+#: usr/lib/linuxmint/mintbackup/mintbackup.py:470
+msgid "The backup was aborted."
+msgstr "Бекъпа е прекратен."
+
+#: usr/lib/linuxmint/mintbackup/mintbackup.py:474
+#, python-format
+msgid "Your files were successfully saved in %s."
+msgstr "Вашите файлове бяха успешно запазени в %s."
+
+#: usr/lib/linuxmint/mintbackup/mintbackup.py:515
+msgid ""
+"Warning: The meta file could not be saved. This backup will not be accepted "
+"for restoration."
+msgstr ""
+"Внимание: Мета файла не бе запазен. Този бекъп няма да бъде приет за "
+"възстановяване."
+
+#: usr/lib/linuxmint/mintbackup/mintbackup.py:542
+#, python-format
+msgid ""
+"Warning: Some files were not saved. Only %(archived)d files were backed up "
+"out of %(total)d."
+msgstr ""
+"Внимание: Някои файлове не бяха запазени. Само %(archived)d файла бяха "
+"запазени от %(total)d."
+
+#: usr/lib/linuxmint/mintbackup/mintbackup.py:557
+msgid "Restoring:"
+msgstr "Възстановяване:"
+
+#: usr/lib/linuxmint/mintbackup/mintbackup.py:574
+msgid "The restoration was aborted."
+msgstr "Възстановяването беше прекратено."
+
+#: usr/lib/linuxmint/mintbackup/mintbackup.py:578
+msgid "Your files were successfully restored."
+msgstr "Вашите файлове са възстановени успешно."
+
+#: usr/lib/linuxmint/mintbackup/mintbackup.py:666
+#, python-format
+msgid "Warning: Only %(number)d files were restored out of %(total)d."
+msgstr "Внимание: Само %(number)d файла бяха възстановени от %(total)d."
+
+#: usr/lib/linuxmint/mintbackup/mintbackup.py:691
+msgid "The list below shows the applications you installed."
+msgstr "Списъка по-долу съдържа приложенията, които сте инсталирали."
+
+#: usr/lib/linuxmint/mintbackup/mintbackup.py:735
+#, python-format
+msgid "Your software selection was saved in %s"
+msgstr "Вашата софтуерна селекция беше запазена в %s"
+
+#: usr/lib/linuxmint/mintbackup/mintbackup.py:751
+msgid "The selected file is not a valid software selection."
+msgstr "Избраният файл не е валидна софтуерна селекция."
+
+#: usr/lib/linuxmint/mintbackup/mintbackup.py:756
+#: usr/lib/linuxmint/mintbackup/mintbackup.py:794
+msgid "An error occurred while reading the file."
+msgstr "Настъпи грешка при четенето на файла."
+
+#: usr/lib/linuxmint/mintbackup/mintbackup.py:779
+msgid "Could not locate the package."
+msgstr "Пакета не е намерен."
+
+#: generate_desktop_files:24 generate_desktop_files:39
+msgid "Make a backup of your home directory"
+msgstr "Създаване на резервно копие на домашната Ви папка"
+
+#: usr/share/linuxmint/mintbackup/mintbackup.ui.h:1
+msgid "Personal data"
+msgstr "Лични данни"
+
+#: usr/share/linuxmint/mintbackup/mintbackup.ui.h:2
+msgid "Your files, settings and the content of your home directory"
+msgstr "Вашите файлове, настройки и съдържанието на домашната ви папка"
+
+#: usr/share/linuxmint/mintbackup/mintbackup.ui.h:3
+msgid "Restore..."
+msgstr "Възстановяване..."
+
+#: usr/share/linuxmint/mintbackup/mintbackup.ui.h:4
+msgid "Back Up Now..."
+msgstr "Създаване на бекъп..."
+
+#: usr/share/linuxmint/mintbackup/mintbackup.ui.h:5
+msgid "Software selection"
+msgstr "Софтуерна селекция"
+
+#: usr/share/linuxmint/mintbackup/mintbackup.ui.h:6
+msgid "The list of applications installed on your computer"
+msgstr "Списък с приложенията, инсталирани на вашия компютър"
+
+#: usr/share/linuxmint/mintbackup/mintbackup.ui.h:7
+msgid "Please select where you want to save the backup file:"
+msgstr "Моля, избере къде искате да запазите бекъп файла:"
+
+#: usr/share/linuxmint/mintbackup/mintbackup.ui.h:8
+msgid ""
+"Please add files or directories to the list below to exclude them from the "
+"backup."
+msgstr ""
+"Моля, добавете файлове или директории в списъка по-долу, за да ги изключите "
+"от бекъпа."
+
+#: usr/share/linuxmint/mintbackup/mintbackup.ui.h:9
+msgid "Exclude files"
+msgstr "Изключване на файловете"
+
+#: usr/share/linuxmint/mintbackup/mintbackup.ui.h:10
+msgid "Exclude directories"
+msgstr "Изключване на директориите"
+
+#: usr/share/linuxmint/mintbackup/mintbackup.ui.h:11
+msgid "Remove"
+msgstr "Премахване"
+
+#: usr/share/linuxmint/mintbackup/mintbackup.ui.h:12
+msgid ""
+"Hidden files and hidden folders located at the root of your home directory "
+"are not included by default."
+msgstr ""
+"Скрити файлове и папки, които са във вашата домашна директория не са "
+"включени по подразбиране."
+
+#: usr/share/linuxmint/mintbackup/mintbackup.ui.h:13
+msgid ""
+"If you want to include some of them in the backup, please add them to the "
+"list below."
+msgstr ""
+"Ако искате да ги включите в бекъпа, моля добавете ги в списъка по-долу."
+
+#: usr/share/linuxmint/mintbackup/mintbackup.ui.h:14
+msgid "Include files"
+msgstr "Включени файлове"
+
+#: usr/share/linuxmint/mintbackup/mintbackup.ui.h:15
+msgid "Include directories"
+msgstr "Включени папки"
+
+#: usr/share/linuxmint/mintbackup/mintbackup.ui.h:16
+msgid ""
+"These files and folders usually contain temporary data or preferences for "
+"your applications."
+msgstr ""
+"Файлове и папките обикновено съдържат временни данни или настройките на "
+"вашите приложения."
+
+#: usr/share/linuxmint/mintbackup/mintbackup.ui.h:17
+msgid "Please wait while your files are being backed up."
+msgstr "Моля изчакайте докато се създава бекъп на вашите файлове."
+
+#: usr/share/linuxmint/mintbackup/mintbackup.ui.h:18
+msgid "Please select the backup to restore:"
+msgstr "Моля, изберете бекъп за възстановяване:"
+
+#: usr/share/linuxmint/mintbackup/mintbackup.ui.h:19
+msgid "Overwrite existing files?"
+msgstr "Презапис на съществуващи файлове?"
+
+#: usr/share/linuxmint/mintbackup/mintbackup.ui.h:20
+msgid ""
+"No, only restore missing files.\n"
+"<small>This option is safe and does not affect your existing files.</small>"
+msgstr ""
+"Не, само възстанови липсващите файлове.\n"
+"<small>Тази опция е безопасна, няма да повлияе на съществуващите "
+"файлове.</small>"
+
+#: usr/share/linuxmint/mintbackup/mintbackup.ui.h:22
+msgid ""
+"Yes, overwrite changes and restore the content of any existing files.\n"
+"<small>Use this option with caution. The changes you made to the files since "
+"the backup will be lost.</small>"
+msgstr ""
+"Да, презапиши променените и възстанови съдържанието на всички съществуващи "
+"файлове.\n"
+"<small>Използвайте тази опция внимателно. Промените, които сте направили по "
+"файловете ще бъдат загубени.</small>"
+
+#: usr/share/linuxmint/mintbackup/mintbackup.ui.h:24
+msgid "Please wait while your files are being restored."
+msgstr "Моля изчакайте възстановяването на вашите файлове."
+
+#: usr/share/linuxmint/mintbackup/mintbackup.ui.h:25
+msgid ""
+"The list below shows the applications you installed with the Software "
+"Manager."
+msgstr ""
+"Списъка по-долу показва приложенията, инсталирани със софтуерния мениджър."
+
+#: usr/share/linuxmint/mintbackup/mintbackup.ui.h:26
+msgid "Please select the applications you want to save."
+msgstr "Моля изберете приложенията, които искате да запазите."
+
+#: usr/share/linuxmint/mintbackup/mintbackup.ui.h:27
+msgid "Select all"
+msgstr "Маркирай всички"
+
+#: usr/share/linuxmint/mintbackup/mintbackup.ui.h:28
+msgid "Deselect all"
+msgstr "Размаркирай всички"
+
+#: usr/share/linuxmint/mintbackup/mintbackup.ui.h:29
+msgid ""
+"Note: If you want to save the complete list of all installed packages on the "
+"system, please use the command 'dpkg --get-selections > mylist.list' in a "
+"terminal."
+msgstr ""
+"Бележка: Ако искате да допълните списъка с всички инсталирани пакети, моля "
+"отворете терминал и използвайте командата 'dpkg --get-selections > "
+"mylist.list'."
+
+#: usr/share/linuxmint/mintbackup/mintbackup.ui.h:30
+msgid "Please select a saved software selection (.list file):"
+msgstr "Моля изберете запазена софтуерна селекция (.list  файл):"
+
+#: usr/share/linuxmint/mintbackup/mintbackup.ui.h:31
+msgid "Select the packages you want to install."
+msgstr "Изберете пакетите, които искате да инсталирате."
+
+#: usr/share/linuxmint/mintbackup/mintbackup.ui.h:32
+msgid "Refresh"
+msgstr "Опресняване"
+
+#: usr/share/linuxmint/mintbackup/mintbackup.ui.h:33
+msgid "All the packages in your software selection are installed."
+msgstr "Всички пакети от софтуерната ви селекция са инсталирани."
+
+#~ msgid "Archiving your home directory..."
+#~ msgstr "Архивиране на домашната Ви директория..."
+
+#~ msgid "Your home directory was successfully backed-up into"
+#~ msgstr "Резервно копие на домашната Ви директория е успешно създадено в(ъв)"
+
+#~ msgid "Backup successful"
+#~ msgstr "Резервното копие е създадено успешно"
+
+#~ msgid "An error occurred during the backup:"
+#~ msgstr "Възникнала е грешка по време на създаването на резервно копие:"
+
+#~ msgid "Backup failed"
+#~ msgstr "Създаването на резервно копие е провалено"
+
+#~ msgid "Extracting the content of the backup into your home directory..."
+#~ msgstr ""
+#~ "Извличане на съдържанието на резервното копие в домашната Ви директория..."
+
+#~ msgid "Restoration successful"
+#~ msgstr "Възстановяването е успешно"
+
+#~ msgid "Cleaning up..."
+#~ msgstr "Почистване..."
+
+#~ msgid "Your backup was successfully restored"
+#~ msgstr "Резервното Ви копие е успешно възстановено"
+
+#~ msgid "Opening the backup archive..."
+#~ msgstr "Отваряне на архивираното резервно копие..."
+
+#~ msgid "Exclude folders"
+#~ msgstr "Изключени папки"
+
+#~ msgid "Restoration failed"
+#~ msgstr "Възстановяването е провалено"
+
+#~ msgid "An error occurred while restoring the backup archive:"
+#~ msgstr ""
+#~ "Възникнала е грешка по време на възстановяването на архивираното резервно "
+#~ "копие:"
+
+#~ msgid "Read error"
+#~ msgstr "Грешка при четенето"
+
+#~ msgid "An error occurred while opening the backup:"
+#~ msgstr "Възникнала е грешка при отваряне на резервното копие:"
+
+#~ msgid "Excluded paths"
+#~ msgstr "Изключени пътища"
+
+#~ msgid "Hidden paths"
+#~ msgstr "Скрити пътища"
+
+#~ msgid "Restore your personal data from this backup"
+#~ msgstr "Възстановяване на личните Ви данни от резервното копие"
+
+#~ msgid "<big><b>Load data into your home directory</b></big>"
+#~ msgstr "<big><b>Заредете данните в домашната си директория</b></big>"
+
+#~ msgid "is not located within your home directory. Not added."
+#~ msgstr "не се намира в домашната Ви директория. Не е включена."
+
+#~ msgid "Invalid path"
+#~ msgstr "Невалиден път"
+
+#~ msgid "Included hidden directories"
+#~ msgstr "Включени скрити директории"
+
+#~ msgid "Excluded Files and Directories"
+#~ msgstr "Файлове и директории, които да не се включват"
+
+#~ msgid "Restore"
+#~ msgstr "Възстановяване"
+
+#~ msgid "Overwrite existing files"
+#~ msgstr "Презапис на съществуващите файлове"
+
+#~ msgid "View content"
+#~ msgstr "Разглеждане на съдържанието"
+
+#~ msgid "Copying the backup file into your home directory..."
+#~ msgstr "Копиране на резервното копие в домашната Ви директория..."
+
+#~ msgid "Backup"
+#~ msgstr "Архивиране"
+
+#~ msgid "Included"
+#~ msgstr "Включени"

@@ -1,0 +1,406 @@
+# translation of mintbackup_mintbackup-is.po to Icelandic
+# translation of mintbackup_mintbackup-is.po to
+# Icelandic translation for linuxmint
+# Copyright (c) 2009 Rosetta Contributors and Canonical Ltd 2009
+# This file is distributed under the same license as the linuxmint package.
+#
+# Sveinn í Felli <sveinki@nett.is>, 2009, 2010, 2017.
+msgid ""
+msgstr ""
+"Project-Id-Version: mintbackup_mintbackup-is\n"
+"Report-Msgid-Bugs-To: Sveinn í Felli <sveinki@nett.is>\n"
+"POT-Creation-Date: 2019-02-27 13:57+0000\n"
+"PO-Revision-Date: 2019-04-02 15:43+0000\n"
+"Last-Translator: Sveinn í Felli <sv1@fellsnet.is>\n"
+"Language-Team: Icelandic <rglug@rglug.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Launchpad-Export-Date: 2022-10-10 13:02+0000\n"
+"X-Generator: Launchpad (build 762fb15a975e8b23af6a1f86e44e46bfd0451459)\n"
+"Language: is\n"
+
+#: usr/lib/linuxmint/mintbackup/mintbackup.py:41
+msgid "Backups"
+msgstr "Öryggisafrit"
+
+#: usr/lib/linuxmint/mintbackup/mintbackup.py:169
+#: usr/lib/linuxmint/mintbackup/mintbackup.py:209
+#: usr/lib/linuxmint/mintbackup/mintbackup.py:216 generate_desktop_files:24
+#: generate_desktop_files:39
+msgid "Backup Tool"
+msgstr "Öryggisafritun"
+
+#: usr/lib/linuxmint/mintbackup/mintbackup.py:232
+#, python-format
+msgid "%s is not located in your home directory."
+msgstr "%s er ekki í heimamöppunni þinni."
+
+#: usr/lib/linuxmint/mintbackup/mintbackup.py:272
+msgid "Please choose a directory."
+msgstr "Veldu möppu."
+
+#: usr/lib/linuxmint/mintbackup/mintbackup.py:275
+msgid "You do not have the permission to write in the selected directory."
+msgstr "Þú hefur ekki réttindi til að skrifa í valda möppu."
+
+#: usr/lib/linuxmint/mintbackup/mintbackup.py:335
+msgid "Please choose a backup file."
+msgstr "Veldu skrá með öryggisafriti."
+
+#: usr/lib/linuxmint/mintbackup/mintbackup.py:343
+msgid ""
+"This backup file is either too old or it was created with a different tool. "
+"Please extract it manually."
+msgstr ""
+"Þetta öryggisafrit er annað hvort of gamalt eða var útbúið með öðru "
+"verkfæri. Afþjappaðu því handvirkt."
+
+#: usr/lib/linuxmint/mintbackup/mintbackup.py:352
+#, python-format
+msgid "An error occurred while opening the backup file: %s."
+msgstr "Villa kom upp við að opna öryggisafritið: %s."
+
+#: usr/lib/linuxmint/mintbackup/mintbackup.py:366
+msgid "No packages need to be installed."
+msgstr "Ekki þarf að setja upp neina pakka að svo stöddu."
+
+#: usr/lib/linuxmint/mintbackup/mintbackup.py:373
+msgid "Please select packages to install."
+msgstr "Veldu pakka til að setja upp."
+
+#: usr/lib/linuxmint/mintbackup/mintbackup.py:427
+#, python-format
+msgid "Skipping %s because named pipes are not supported."
+msgstr "Sleppi %s því nefndar pípur eru ekki studdar."
+
+#: usr/lib/linuxmint/mintbackup/mintbackup.py:452
+msgid "Backing up:"
+msgstr "Öryggisafrita:"
+
+#: usr/lib/linuxmint/mintbackup/mintbackup.py:460
+msgid "Calculating..."
+msgstr "Reikna..."
+
+#: usr/lib/linuxmint/mintbackup/mintbackup.py:464
+#: usr/lib/linuxmint/mintbackup/mintbackup.py:568
+msgid "The following errors occurred:"
+msgstr "Eftirfarandi villur komu upp:"
+
+#: usr/lib/linuxmint/mintbackup/mintbackup.py:470
+msgid "The backup was aborted."
+msgstr "Hætt var við öryggisafritun."
+
+#: usr/lib/linuxmint/mintbackup/mintbackup.py:474
+#, python-format
+msgid "Your files were successfully saved in %s."
+msgstr "Skrárnar þínar voru vistaðar í %s."
+
+#: usr/lib/linuxmint/mintbackup/mintbackup.py:515
+msgid ""
+"Warning: The meta file could not be saved. This backup will not be accepted "
+"for restoration."
+msgstr ""
+"Aðvörun: Ekki tókst að vista lýsiskrána. Þetta öryggisafrit verður ekki "
+"nothæft við endurheimtingu."
+
+#: usr/lib/linuxmint/mintbackup/mintbackup.py:542
+#, python-format
+msgid ""
+"Warning: Some files were not saved. Only %(archived)d files were backed up "
+"out of %(total)d."
+msgstr ""
+"Aðvörun: Einhverjar skrár voru ekki vistaðar. Aðeins var tekið öryggisafrit "
+"af %(archived)d skrám, af %(total)d alls."
+
+#: usr/lib/linuxmint/mintbackup/mintbackup.py:557
+msgid "Restoring:"
+msgstr "Endurheimti:"
+
+#: usr/lib/linuxmint/mintbackup/mintbackup.py:574
+msgid "The restoration was aborted."
+msgstr "Hætt var við endurheimtingu."
+
+#: usr/lib/linuxmint/mintbackup/mintbackup.py:578
+msgid "Your files were successfully restored."
+msgstr "Skrárnar þínar voru endurheimtar."
+
+#: usr/lib/linuxmint/mintbackup/mintbackup.py:666
+#, python-format
+msgid "Warning: Only %(number)d files were restored out of %(total)d."
+msgstr ""
+"Aðvörun: Aðeins voru endurheimtar %(number)d skrár, af %(total)d alls."
+
+#: usr/lib/linuxmint/mintbackup/mintbackup.py:691
+msgid "The list below shows the applications you installed."
+msgstr "Listinn hér fyrir neðan sýnir forrit sem þú settir upp."
+
+#: usr/lib/linuxmint/mintbackup/mintbackup.py:735
+#, python-format
+msgid "Your software selection was saved in %s"
+msgstr "Val þítt á hugbúnaði var vistað í %s"
+
+#: usr/lib/linuxmint/mintbackup/mintbackup.py:751
+msgid "The selected file is not a valid software selection."
+msgstr "Valin skrá er ekki gild sem val á hugbúnaði."
+
+#: usr/lib/linuxmint/mintbackup/mintbackup.py:756
+#: usr/lib/linuxmint/mintbackup/mintbackup.py:794
+msgid "An error occurred while reading the file."
+msgstr "Villa kom upp við að lesa skrána."
+
+#: usr/lib/linuxmint/mintbackup/mintbackup.py:779
+msgid "Could not locate the package."
+msgstr "Gat ekki staðsett pakkann."
+
+#: generate_desktop_files:24 generate_desktop_files:39
+msgid "Make a backup of your home directory"
+msgstr "Taktu öryggisafrit af einkamöppunni þinni"
+
+#: usr/share/linuxmint/mintbackup/mintbackup.ui.h:1
+msgid "Personal data"
+msgstr "Einkagögn"
+
+#: usr/share/linuxmint/mintbackup/mintbackup.ui.h:2
+msgid "Your files, settings and the content of your home directory"
+msgstr "Skrárnar þínar, stillingar og innihald heimamöppunnar þinnar"
+
+#: usr/share/linuxmint/mintbackup/mintbackup.ui.h:3
+msgid "Restore..."
+msgstr "Endurheimta..."
+
+#: usr/share/linuxmint/mintbackup/mintbackup.ui.h:4
+msgid "Back Up Now..."
+msgstr "Taka öryggisafrit núna..."
+
+#: usr/share/linuxmint/mintbackup/mintbackup.ui.h:5
+msgid "Software selection"
+msgstr "Hugbúnaðarval"
+
+#: usr/share/linuxmint/mintbackup/mintbackup.ui.h:6
+msgid "The list of applications installed on your computer"
+msgstr "Listinn yfir forrit uppsett á þessari tölvu"
+
+#: usr/share/linuxmint/mintbackup/mintbackup.ui.h:7
+msgid "Please select where you want to save the backup file:"
+msgstr "Veldu hvar þú vilt vista öryggisafritið þitt:"
+
+#: usr/share/linuxmint/mintbackup/mintbackup.ui.h:8
+msgid ""
+"Please add files or directories to the list below to exclude them from the "
+"backup."
+msgstr ""
+"Bættu skrám eða möppum á listann hér fyrir neðan sem þú vilt undanskilja úr "
+"öryggisafritinu."
+
+#: usr/share/linuxmint/mintbackup/mintbackup.ui.h:9
+msgid "Exclude files"
+msgstr "Undanskilja skrár"
+
+#: usr/share/linuxmint/mintbackup/mintbackup.ui.h:10
+msgid "Exclude directories"
+msgstr "Undanskilja möppur"
+
+#: usr/share/linuxmint/mintbackup/mintbackup.ui.h:11
+msgid "Remove"
+msgstr "Fjarlægja"
+
+#: usr/share/linuxmint/mintbackup/mintbackup.ui.h:12
+msgid ""
+"Hidden files and hidden folders located at the root of your home directory "
+"are not included by default."
+msgstr ""
+"Faldar skrár og möppur sem staðsettar eru á rót heimamöppunnar þinnar eru "
+"sjálfgefið undanskildar."
+
+#: usr/share/linuxmint/mintbackup/mintbackup.ui.h:13
+msgid ""
+"If you want to include some of them in the backup, please add them to the "
+"list below."
+msgstr ""
+"Ef þú vilt hafa einhverjar þeirra með í öryggisafritinu, bættu þeim þá við á "
+"eftirfarandi lista."
+
+#: usr/share/linuxmint/mintbackup/mintbackup.ui.h:14
+msgid "Include files"
+msgstr "Hafa með skrár"
+
+#: usr/share/linuxmint/mintbackup/mintbackup.ui.h:15
+msgid "Include directories"
+msgstr "Hafa með möppur"
+
+#: usr/share/linuxmint/mintbackup/mintbackup.ui.h:16
+msgid ""
+"These files and folders usually contain temporary data or preferences for "
+"your applications."
+msgstr ""
+"Þessar skrár og möppur innihalda venjulega bráðabirgðagögn eða "
+"kjörstillingar fyrir forritin þín."
+
+#: usr/share/linuxmint/mintbackup/mintbackup.ui.h:17
+msgid "Please wait while your files are being backed up."
+msgstr "Bíddu á meðan skrárnar þínar eru öryggisafritaðar."
+
+#: usr/share/linuxmint/mintbackup/mintbackup.ui.h:18
+msgid "Please select the backup to restore:"
+msgstr "Veldu öryggisafrit til að endurheimta:"
+
+#: usr/share/linuxmint/mintbackup/mintbackup.ui.h:19
+msgid "Overwrite existing files?"
+msgstr "Skrifa yfir skrár sem fyrir eru?"
+
+#: usr/share/linuxmint/mintbackup/mintbackup.ui.h:20
+msgid ""
+"No, only restore missing files.\n"
+"<small>This option is safe and does not affect your existing files.</small>"
+msgstr ""
+"Nei, aðeins endurheimta skrár sem vantar.\n"
+"<small>Þessi valkostur er öruggur og hefur ekki áhrif á skrár sem fyrir "
+"eru.</small>"
+
+#: usr/share/linuxmint/mintbackup/mintbackup.ui.h:22
+msgid ""
+"Yes, overwrite changes and restore the content of any existing files.\n"
+"<small>Use this option with caution. The changes you made to the files since "
+"the backup will be lost.</small>"
+msgstr ""
+"Já, skrifa yfir breytingar og endurheimta innihald skráa sem fyrir eru.\n"
+"<small>Notaðu þennan möguleika með varúð. Breytingar sem gerðar hafa verið á "
+"skránum síðan öryggisafritun fór fram munu tapast.</small>"
+
+#: usr/share/linuxmint/mintbackup/mintbackup.ui.h:24
+msgid "Please wait while your files are being restored."
+msgstr "Bíddu á meðan skrárnar þínar eru endurheimtar."
+
+#: usr/share/linuxmint/mintbackup/mintbackup.ui.h:25
+msgid ""
+"The list below shows the applications you installed with the Software "
+"Manager."
+msgstr ""
+"Listinn hér fyrir neðan sýnir þau forrit sem þú settir upp með "
+"hugbúnaðarstjóranum."
+
+#: usr/share/linuxmint/mintbackup/mintbackup.ui.h:26
+msgid "Please select the applications you want to save."
+msgstr "Veldu forritin sem þú vilt vista."
+
+#: usr/share/linuxmint/mintbackup/mintbackup.ui.h:27
+msgid "Select all"
+msgstr "Velja allt"
+
+#: usr/share/linuxmint/mintbackup/mintbackup.ui.h:28
+msgid "Deselect all"
+msgstr "Afvelja allt"
+
+#: usr/share/linuxmint/mintbackup/mintbackup.ui.h:29
+msgid ""
+"Note: If you want to save the complete list of all installed packages on the "
+"system, please use the command 'dpkg --get-selections > mylist.list' in a "
+"terminal."
+msgstr ""
+"Athugaðu: Ef þú vilt vista heildarlista yfir alla uppsetta pakka á kerfinu, "
+"geturðu notað skipunina 'dpkg --get-selections > minn-listi.list' í "
+"skipanalínuglugga."
+
+#: usr/share/linuxmint/mintbackup/mintbackup.ui.h:30
+msgid "Please select a saved software selection (.list file):"
+msgstr "Veldu vistað val á hugbúnaði (.list skrá):"
+
+#: usr/share/linuxmint/mintbackup/mintbackup.ui.h:31
+msgid "Select the packages you want to install."
+msgstr "Veldu pakkana sem þú vilt setja inn."
+
+#: usr/share/linuxmint/mintbackup/mintbackup.ui.h:32
+msgid "Refresh"
+msgstr "Endurlesa"
+
+#: usr/share/linuxmint/mintbackup/mintbackup.ui.h:33
+msgid "All the packages in your software selection are installed."
+msgstr "Allir pakkarnir í hugbúnaðarvalinu þínu voru settir upp."
+
+#~ msgid "Cleaning up..."
+#~ msgstr "Hreinsa til..."
+
+#~ msgid "Backup"
+#~ msgstr "Afritun"
+
+#~ msgid "Read error"
+#~ msgstr "Lesvilla"
+
+#~ msgid "Restore"
+#~ msgstr "Endurheimta"
+
+#~ msgid "View content"
+#~ msgstr "Birta innihald"
+
+#~ msgid "Restoration failed"
+#~ msgstr "Endurheimt  mistókst"
+
+#~ msgid "Archiving your home directory..."
+#~ msgstr "Tek afrit af heimamöppunni þinni..."
+
+#~ msgid "Backup successful"
+#~ msgstr "Öryggisafritun tókst"
+
+#~ msgid "An error occurred during the backup:"
+#~ msgstr "Villa kom upp við öryggisafritun:"
+
+#~ msgid "Backup failed"
+#~ msgstr "Öryggisafritun mistókst"
+
+#~ msgid "Restoration successful"
+#~ msgstr "Endurheimt tókst"
+
+#~ msgid "Opening the backup archive..."
+#~ msgstr "Opna öryggisafritið..."
+
+#~ msgid "Your home directory was successfully backed-up into"
+#~ msgstr "Heimamappan þín var afrituð inn í"
+
+#~ msgid "Copying the backup file into your home directory..."
+#~ msgstr "Afrita skrána með öryggisafritinu inn í heimamöppuna þína..."
+
+#~ msgid "Extracting the content of the backup into your home directory..."
+#~ msgstr "Tek út innihald öryggisafritsins inni í heimamöppunni þinni..."
+
+#~ msgid "Your backup was successfully restored"
+#~ msgstr "Öryggisafritið þitt var endurheimt farsællega"
+
+#~ msgid "An error occurred while restoring the backup archive:"
+#~ msgstr "Villa kom upp við endurheimt öryggisafritsins:"
+
+#~ msgid "An error occurred while opening the backup:"
+#~ msgstr "Villa kom upp við opnun öryggisafritsins:"
+
+#~ msgid "Excluded paths"
+#~ msgstr "Hunsaðar slóðir"
+
+#~ msgid "Hidden paths"
+#~ msgstr "Faldar slóðir"
+
+#~ msgid "Exclude folders"
+#~ msgstr "Hunsa möppur"
+
+#~ msgid "Excluded Files and Directories"
+#~ msgstr "Hunsaðar skrár og möppur"
+
+#~ msgid "Included"
+#~ msgstr "Innifalið"
+
+#~ msgid "Included hidden directories"
+#~ msgstr "Faldar skrár sem taka á með"
+
+#~ msgid "Invalid path"
+#~ msgstr "Ógild slóð"
+
+#~ msgid "is not located within your home directory. Not added."
+#~ msgstr "er ekki í heimamöppunni þinni. Ekki tekið með."
+
+#~ msgid "<big><b>Load data into your home directory</b></big>"
+#~ msgstr "<big><b>Hlaða gögnum inn í heimamöppuna þína</b></big>"
+
+#~ msgid "Restore your personal data from this backup"
+#~ msgstr "Endurheimtu einkagögnin þín úr þessu öryggisafriti"
+
+#~ msgid "Overwrite existing files"
+#~ msgstr "Yfirrita fyrirliggjandi skrár"

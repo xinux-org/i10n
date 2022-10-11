@@ -1,0 +1,372 @@
+# Basque translation for linuxmint
+# Copyright (c) 2009 Rosetta Contributors and Canonical Ltd 2009
+# This file is distributed under the same license as the linuxmint package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2009.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: linuxmint\n"
+"Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
+"POT-Creation-Date: 2018-05-07 12:31+0100\n"
+"PO-Revision-Date: 2017-10-13 17:40+0000\n"
+"Last-Translator: Asier Iturralde Sarasola <Unknown>\n"
+"Language-Team: Basque <eu@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Launchpad-Export-Date: 2022-10-10 13:01+0000\n"
+"X-Generator: Launchpad (build 762fb15a975e8b23af6a1f86e44e46bfd0451459)\n"
+
+#: usr/lib/linuxmint/mintupload/mintupload.py:28
+#: usr/lib/linuxmint/mintupload/upload-manager.py:28
+#: usr/lib/linuxmint/mintupload/upload-manager.py:82
+#: usr/lib/linuxmint/mintupload/upload-manager.py:117 generate_desktop_files:27
+#: generate_desktop_files:41
+msgid "Upload Manager"
+msgstr "Karga-kudeatzailea"
+
+#: usr/lib/linuxmint/mintupload/mintupload.py:43
+#: usr/lib/linuxmint/mintupload/mintupload.py:138
+#, python-format
+msgid "%(percentage)s of %(number)d files - Uploading to %(service)s"
+msgstr "%(number)d fitxategitik %(percentage)s - %(service)s-(e)ra kargatzen"
+
+#: usr/lib/linuxmint/mintupload/mintupload.py:45
+#: usr/lib/linuxmint/mintupload/mintupload.py:141
+#, python-format
+msgid "%(percentage)s of 1 file - Uploading to %(service)s"
+msgstr "Fitxategi baten %(percentage)s - %(service)s-(e)ra kargatzen"
+
+#: usr/lib/linuxmint/mintupload/mintupload.py:81
+#, python-format
+msgid "The upload to '%(service)s' was cancelled"
+msgstr "'%(service)s'-(e)rako karga bertan behera utzi da"
+
+#: usr/lib/linuxmint/mintupload/mintupload.py:93
+#, python-format
+msgid "Upload to '%s' failed: "
+msgstr "'%s'-(e)rako kargak huts egin du: "
+
+#: usr/lib/linuxmint/mintupload/mintupload.py:99
+#, python-format
+msgid "Successfully uploaded %(number)d files to '%(service)s'"
+msgstr "%(number)d fitxategi behar bezala kargatu dira '%(service)s'-(e)ra"
+
+#: usr/lib/linuxmint/mintupload/mintupload.py:101
+#, python-format
+msgid "Successfully uploaded 1 file to '%(service)s'"
+msgstr "Fitxategi 1 behar bezala kargatu da '%(service)s'-(e)ra"
+
+#: usr/lib/linuxmint/mintupload/mintupload.py:112
+msgid "Do you want to cancel this upload?"
+msgstr "Karga hau bertan behera utzi nahi duzu?"
+
+#: usr/lib/linuxmint/mintupload/mintupload.py:113
+msgid "Cancel"
+msgstr "Bertan behera utzi"
+
+#: usr/lib/linuxmint/mintupload/mintupload.py:114
+msgid "Run in the background"
+msgstr "Atzeko planoan exekutatu"
+
+#: usr/lib/linuxmint/mintupload/mintupload.py:117
+msgid "Cancel upload?"
+msgstr "Karga bertan behera utzi?"
+
+#: usr/lib/linuxmint/mintupload/mintupload.py:137
+#, python-format
+msgid "Uploading %(number)d files to %(service)s"
+msgstr "%(number)d fitxategi %(service)s-(e)ra kargatzen"
+
+#: usr/lib/linuxmint/mintupload/mintupload.py:140
+#, python-format
+msgid "Uploading 1 file to %(service)s"
+msgstr "Fitxategi bat kargatzen %(service)s-(e)ra"
+
+#: usr/lib/linuxmint/mintupload/mintupload.py:159
+#, python-format
+msgid ""
+"%(size_so_far)s of %(total_size)s - %(time_remaining)s left (%(speed)s/sec)"
+msgstr ""
+"%(total_size)s-(e)tik %(size_so_far)s - %(time_remaining)s falta da "
+"(%(speed)s/sec)"
+
+#: usr/lib/linuxmint/mintupload/mintupload.py:161
+#, python-format
+msgid "%(size_so_far)s of %(total_size)s"
+msgstr "%(total_size)s-(e)tik %(size_so_far)s"
+
+#: usr/lib/linuxmint/mintupload/mintupload.py:188
+#: usr/lib/linuxmint/mintupload/mintupload_core.py:93
+#: usr/lib/linuxmint/mintupload/mintupload_core.py:95
+msgid "B"
+msgstr "B"
+
+#: usr/lib/linuxmint/mintupload/mintupload.py:190
+#: usr/lib/linuxmint/mintupload/mintupload_core.py:95
+msgid "KB"
+msgstr "KB"
+
+#: usr/lib/linuxmint/mintupload/mintupload.py:192
+#: usr/lib/linuxmint/mintupload/mintupload_core.py:95
+msgid "MB"
+msgstr "MB"
+
+#: usr/lib/linuxmint/mintupload/mintupload.py:194
+#: usr/lib/linuxmint/mintupload/mintupload_core.py:95
+msgid "GB"
+msgstr "GB"
+
+#: usr/lib/linuxmint/mintupload/mintupload.py:201
+#, python-format
+msgid "%d hour"
+msgid_plural "%d hours"
+msgstr[0] "Ordu %d"
+msgstr[1] "%d ordu"
+
+#: usr/lib/linuxmint/mintupload/mintupload.py:202
+#: usr/lib/linuxmint/mintupload/mintupload.py:204
+#, python-format
+msgid "%d minute"
+msgid_plural "%d minutes"
+msgstr[0] "Minutu %d"
+msgstr[1] "%d minutu"
+
+#: usr/lib/linuxmint/mintupload/mintupload.py:205
+#: usr/lib/linuxmint/mintupload/mintupload.py:207
+#, python-format
+msgid "%d second"
+msgid_plural "%d seconds"
+msgstr[0] "Segundo %d"
+msgstr[1] "%d segundo"
+
+#: usr/lib/linuxmint/mintupload/mintupload.py:236
+#, python-format
+msgid "Unknown service: %s"
+msgstr "Zerbitzu ezezaguna: %s"
+
+#: usr/lib/linuxmint/mintupload/mintupload_core.py:93
+msgid "KiB"
+msgstr "KiB"
+
+#: usr/lib/linuxmint/mintupload/mintupload_core.py:93
+msgid "MiB"
+msgstr "MiB"
+
+#: usr/lib/linuxmint/mintupload/mintupload_core.py:93
+msgid "GiB"
+msgstr "GiB"
+
+#: usr/lib/linuxmint/mintupload/mintupload_core.py:135
+msgid "File larger than service's maximum"
+msgstr "Zerbitzuak onartutakoa baino tamaina handiagoko fitxategia"
+
+#: usr/lib/linuxmint/mintupload/mintupload_core.py:145
+msgid "Could not get available space"
+msgstr "Ezin izan da erabilgarri dagoen lekua lortu"
+
+#: usr/lib/linuxmint/mintupload/mintupload_core.py:148
+msgid "File larger than service's available space"
+msgstr "Zerbitzuan erabilgarri dagoen lekua baino handiagoa da fitxategia"
+
+#: usr/lib/linuxmint/mintupload/mintupload_core.py:173
+#: usr/lib/linuxmint/mintupload/mintupload_core.py:315
+msgid "File uploaded successfully."
+msgstr "Fitxategia behar bezala kargatu da"
+
+#: usr/lib/linuxmint/mintupload/mintupload_core.py:191
+#: usr/lib/linuxmint/mintupload/mintupload_core.py:267
+msgid "connection successfully established"
+msgstr "Konexioa behar bezala ezarri da"
+
+#: usr/lib/linuxmint/mintupload/mintupload_core.py:202
+#: usr/lib/linuxmint/mintupload/mintupload_core.py:233
+msgid "Uploading the file..."
+msgstr "Fitxategia kargatzen..."
+
+#: usr/lib/linuxmint/mintupload/mintupload_core.py:275
+msgid "This service requires a password."
+msgstr "Zerbitzu honek pasahitza behar du."
+
+#: usr/lib/linuxmint/mintupload/mintupload_core.py:308
+msgid "URL:"
+msgstr "URL:"
+
+#: usr/lib/linuxmint/mintupload/mintupload_core.py:348
+#: usr/lib/linuxmint/mintupload/mintupload_core.py:352
+#, python-format
+msgid "%(1)s is not set in the config file found under %(2)s or %(3)s"
+msgstr ""
+"%(1)s ez dago ezarrita %(2)s edo %(3)s-(e)n aurkitzen den konfigurazio "
+"fitxategian"
+
+#: usr/lib/linuxmint/mintupload/file-uploader.py:27
+#: usr/lib/linuxmint/mintupload/file-uploader.py:30
+#: usr/lib/linuxmint/mintupload/upload-manager.py:35
+msgid "Upload services"
+msgstr "Karga-zerbitzuak"
+
+#: usr/lib/linuxmint/mintupload/file-uploader.py:50
+msgid "Services:"
+msgstr "Zerbitzuak:"
+
+#: usr/lib/linuxmint/mintupload/file-uploader.py:64
+msgid "Upload manager..."
+msgstr "Karga-kudeatzailea..."
+
+#: usr/lib/linuxmint/mintupload/file-uploader.py:73
+msgid "Quit"
+msgstr "Irten"
+
+#: usr/lib/linuxmint/mintupload/file-uploader.py:126
+#, python-format
+msgid "Drag &amp; Drop here to upload to %s"
+msgstr "Arrastatu eta jaregin hemen %s -(e)ra kargatzeko"
+
+#: usr/lib/linuxmint/mintupload/upload-manager.py:53
+msgid "_File"
+msgstr "_Fitxategia"
+
+#: usr/lib/linuxmint/mintupload/upload-manager.py:58
+msgid "Close"
+msgstr "Itxi"
+
+#: usr/lib/linuxmint/mintupload/upload-manager.py:62
+msgid "_Help"
+msgstr "_Laguntza"
+
+#: usr/lib/linuxmint/mintupload/upload-manager.py:67
+#: usr/lib/linuxmint/mintupload/upload-manager.py:78
+msgid "About"
+msgstr "Honi buruz"
+
+#: usr/lib/linuxmint/mintupload/upload-manager.py:120
+msgid "<b>Please enter a name for the new upload service:</b>"
+msgstr "<b>Mesedez, sartu izen bat karga-zerbitzu berriarentzat:</b>"
+
+#: usr/lib/linuxmint/mintupload/upload-manager.py:124
+msgid "Service name:"
+msgstr "Zerbitzuaren izena:"
+
+#: usr/lib/linuxmint/mintupload/upload-manager.py:127
+msgid "<i>Try to avoid spaces and special characters...</i>"
+msgstr "<i>Saiatu zuriuneak eta karaktere bereziak saihesten...</i>"
+
+#: usr/lib/linuxmint/mintupload/upload-manager.py:204
+#, python-format
+msgid "%s Properties"
+msgstr "%s-(r)en propietateak"
+
+#: usr/lib/linuxmint/mintupload/upload-manager.py:207
+msgid "Check connection"
+msgstr "Egiaztatu konexioa"
+
+#: usr/lib/linuxmint/mintupload/upload-manager.py:212
+msgid "Type:"
+msgstr "Mota:"
+
+#: usr/lib/linuxmint/mintupload/upload-manager.py:213
+msgid "Host:"
+msgstr "Ostalaria:"
+
+#: usr/lib/linuxmint/mintupload/upload-manager.py:214
+msgid "Port:"
+msgstr "Ataka:"
+
+#: usr/lib/linuxmint/mintupload/upload-manager.py:215
+msgid "User:"
+msgstr "Erabiltzailea:"
+
+#: usr/lib/linuxmint/mintupload/upload-manager.py:216
+msgid "Password:"
+msgstr "Pasahitza:"
+
+#: usr/lib/linuxmint/mintupload/upload-manager.py:217
+msgid "Timestamp:"
+msgstr "Data-zigilua:"
+
+#: usr/lib/linuxmint/mintupload/upload-manager.py:218
+msgid "Path:"
+msgstr "Bidea:"
+
+#: usr/lib/linuxmint/mintupload/upload-manager.py:220
+#: usr/lib/linuxmint/mintupload/upload-manager.py:221
+msgid "Hostname or IP address, default: "
+msgstr "Ostalari-izena edo IP helbidea, lehenetsia: "
+
+#: usr/lib/linuxmint/mintupload/upload-manager.py:224
+#: usr/lib/linuxmint/mintupload/upload-manager.py:225
+msgid "Remote port, default is 21 for FTP, 22 for SFTP and SCP"
+msgstr "Urruneko ataka, lehenetsia 21 da FTP-rako, 22 SFTP eta SCP-rako"
+
+#: usr/lib/linuxmint/mintupload/upload-manager.py:228
+#: usr/lib/linuxmint/mintupload/upload-manager.py:229
+msgid "Username, defaults to your local username"
+msgstr ""
+"Erabiltzaile-izena, balio lehenetsia zure erabiltzaile-izen lokala da"
+
+#: usr/lib/linuxmint/mintupload/upload-manager.py:232
+#: usr/lib/linuxmint/mintupload/upload-manager.py:233
+msgid ""
+"Password, by default: password-less SCP connection, null-string FTP "
+"connection, ~/.ssh keys used for SFTP connections"
+msgstr ""
+"Pasahitza, aukera lehenetsiak: pasahitzik gabeko SCP konexioa, kate nuluko "
+"FTP konexioa, ~/.ssh gakoak SFTP konexioetarako"
+
+#: usr/lib/linuxmint/mintupload/upload-manager.py:236
+#: usr/lib/linuxmint/mintupload/upload-manager.py:237
+msgid "Timestamp format (strftime). By default:"
+msgstr "Data-zigilu formatua (strftime). Lehenetsia:"
+
+#: usr/lib/linuxmint/mintupload/upload-manager.py:240
+#: usr/lib/linuxmint/mintupload/upload-manager.py:241
+msgid ""
+"Directory to upload to. <TIMESTAMP> is replaced with the current timestamp, "
+"following the timestamp format given. By default: ."
+msgstr ""
+"Kargarako direktorioa. <TIMESTAMP> uneko data-zigiluarekin ordezkatzen da, "
+"zehaztutako data-zigilu formatua erabiliz. Lehenetsia: ."
+
+#: usr/lib/linuxmint/mintupload/upload-manager.py:314
+msgid "Could not save configuration change"
+msgstr "Ezin izan da konfigurazio aldaketa gorde"
+
+#: generate_desktop_files:27 generate_desktop_files:41
+msgid "Define upload services"
+msgstr "Zehaztu karga-zerbitzuak"
+
+#~ msgid "Username:"
+#~ msgstr "Erabiltzailea:"
+
+#, python-format
+#~ msgid "Uploading %(file)s to %(service)s"
+#~ msgstr "%(file)s igotzen %(service)s -ra"
+
+#~ msgid "Upload files on the Internet"
+#~ msgstr "Internet-ra artxiboak igo"
+
+#, python-format
+#~ msgid "Upload to %s failed: "
+#~ msgstr "%s igotzean porrot egin du: "
+
+#, python-format
+#~ msgid "Upload to %s successful"
+#~ msgstr "%s -(e)ra ondo ego da"
+
+#, python-format
+#~ msgid "Uploading to %s"
+#~ msgstr "%s -(e)ra igotzen"
+
+#~ msgid "Hostname:"
+#~ msgstr "Makina izena:"
+
+#~ msgid "This service requires a password or private key."
+#~ msgstr "Zerbitzu honek pasahitz edo gako pribatua behar du."
+
+#~ msgid "File Uploader"
+#~ msgstr "Fitxategi kargatzailea"
+
+#~ msgid "<i>Try to avoid spaces and funny characters...</i>"
+#~ msgstr "<i>Saiatu zuriuneak eta ikur bitxiak saihesten...</i>"

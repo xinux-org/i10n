@@ -1,0 +1,1396 @@
+# Lithuanian translation of cinnamon-settings-daemon
+# Copyright © 2000-2008, 2010 Free Software Foundation, Inc.
+# Gediminas Paulauskas <menesis@chatsubo.lt>, 2000-2002.
+# Vaidotas Zemlys <mpiktas@delfi.lt>, 2003.
+# Justina Klingaitė <justina.klingaite@gmail.com>, 2005.
+# Žygimantas Beručka <zygis@gnome.org>, 2003-2007, 2010, 2012.
+# Gintautas Miliauskas <gintautas@miliauskas.lt>, 2006, 2007, 2008, 2009.
+# Vytautas Liuolia <vytautas.liuolia@gmail.com>, 2008.
+# Algimantas Margevičius <gymka@mail.ru>, 2011.
+msgid ""
+msgstr ""
+"Project-Id-Version: cinnamon-settings-daemon\n"
+"Report-Msgid-Bugs-To: "
+"http://bugzilla.gnome.org/enter_bug.cgi?product=cinnamon-settings-"
+"daemon&keywords=I18N+L10N&component=general\n"
+"POT-Creation-Date: 2022-06-10 13:33+0200\n"
+"PO-Revision-Date: 2021-04-28 10:12+0000\n"
+"Last-Translator: Launchpad Translations Administrators <Unknown>\n"
+"Language-Team: Lithuanian\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
+"(n%100<10 || n%100>=20) ? 1 : 2;\n"
+"X-Launchpad-Export-Date: 2022-10-10 13:11+0000\n"
+"X-Generator: Launchpad (build 762fb15a975e8b23af6a1f86e44e46bfd0451459)\n"
+"Language: lt\n"
+"X-Project-Style: gnome\n"
+
+#: plugins/a11y-settings/csd-a11y-settings-manager.c:268
+msgid "Screen reader not found."
+msgstr "Ekrano skaityklė nerasta."
+
+#: plugins/a11y-settings/csd-a11y-settings-manager.c:269
+msgid "Please install the 'orca' package."
+msgstr "Prašome įdiegti \"orca\" paketą."
+
+#: plugins/a11y-settings/csd-a11y-settings-manager.c:276
+msgid "Open accessibility settings"
+msgstr "Atverti pritaikymo neįgaliesiems nustatymus"
+
+#: plugins/automount/csd-automount-manager.c:150
+#, c-format
+msgid "Unable to mount %s"
+msgstr "Nepavyko prijungti %s"
+
+#: plugins/automount/csd-automount-manager.c:278
+#, c-format
+msgid "Unable to open a folder for %s"
+msgstr "Nepavyko atverti aplanko %s"
+
+#: plugins/automount/csd-autorun.c:346
+msgid "Ask what to do"
+msgstr "Klausti, ką daryti"
+
+#: plugins/automount/csd-autorun.c:352 plugins/wacom/csd-wacom-osd-window.c:952
+#: plugins/wacom/csd-wacom-osd-window.c:972
+#: plugins/wacom/csd-wacom-osd-window.c:983
+msgid "Do Nothing"
+msgstr "Nieko nedaryti"
+
+#: plugins/automount/csd-autorun.c:358
+msgid "Open Folder"
+msgstr "Atverti aplanką"
+
+#: plugins/automount/csd-autorun.c:501
+#, c-format
+msgid "Unable to eject %p"
+msgstr "Nepavyko išstumti %p"
+
+#: plugins/automount/csd-autorun.c:503
+#, c-format
+msgid "Unable to unmount %p"
+msgstr "Nepavyko atjungti %p"
+
+#: plugins/automount/csd-autorun.c:710
+msgid "You have just inserted an Audio CD."
+msgstr "Ką tik įdėjote garso CD."
+
+#: plugins/automount/csd-autorun.c:712
+msgid "You have just inserted an Audio DVD."
+msgstr "Ką tik įdėjote garso DVD."
+
+#: plugins/automount/csd-autorun.c:714
+msgid "You have just inserted a Video DVD."
+msgstr "Ką tik įdėjote vaizdo DVD."
+
+#: plugins/automount/csd-autorun.c:716
+msgid "You have just inserted a Video CD."
+msgstr "Ką tik įdėjote vaizdo CD."
+
+#: plugins/automount/csd-autorun.c:718
+msgid "You have just inserted a Super Video CD."
+msgstr "Ką tik įdėjote super vaizdo CD."
+
+#: plugins/automount/csd-autorun.c:720
+msgid "You have just inserted a blank CD."
+msgstr "Ką tik įdėjote tuščią CD."
+
+#: plugins/automount/csd-autorun.c:722
+msgid "You have just inserted a blank DVD."
+msgstr "Ką tik įdėjote tuščią DVD."
+
+#: plugins/automount/csd-autorun.c:724
+msgid "You have just inserted a blank Blu-Ray disc."
+msgstr "Ką tik įdėjote tuščią Blu-Ray diską."
+
+#: plugins/automount/csd-autorun.c:726
+msgid "You have just inserted a blank HD DVD."
+msgstr "Ką tik įdėjote tuščią HD DVD."
+
+#: plugins/automount/csd-autorun.c:728
+msgid "You have just inserted a Photo CD."
+msgstr "Ką tik įdėjote nuotraukų CD."
+
+#: plugins/automount/csd-autorun.c:730
+msgid "You have just inserted a Picture CD."
+msgstr "Ką tik įdėjote paveikslų CD."
+
+#: plugins/automount/csd-autorun.c:732
+msgid "You have just inserted a medium with digital photos."
+msgstr "Ką tik įdėjote laikmeną su skaitmeninėmis nuotraukomis."
+
+#: plugins/automount/csd-autorun.c:734
+msgid "You have just inserted a digital audio player."
+msgstr "Ką tik įdėjote skaitmeninį garso grotuvą."
+
+#: plugins/automount/csd-autorun.c:736
+msgid ""
+"You have just inserted a medium with software intended to be automatically "
+"started."
+msgstr ""
+"Ką tik įdėjote laikmeną su programine įranga, kurią reikėtų automatiškai "
+"paleisti."
+
+#: plugins/automount/csd-autorun.c:739
+msgid "You have just inserted a medium."
+msgstr "Ką tik įdėjote laikmeną."
+
+#: plugins/automount/csd-autorun.c:741
+msgid "Choose what application to launch."
+msgstr "Pasirinkite, kurią programą paleisti."
+
+#: plugins/automount/csd-autorun.c:751
+#, c-format
+msgid ""
+"Select how to open \"%s\" and whether to perform this action in the future "
+"for other media of type \"%s\"."
+msgstr ""
+"Pasirinkite, kaip atverti „%s“ ir ar ateityje vykdyti šį veiksmą kitoms „%s“ "
+"tipo laikmenoms."
+
+#: plugins/automount/csd-autorun.c:779
+msgid "_Always perform this action"
+msgstr "_Visada vykdyti šį veiksmą"
+
+#: plugins/automount/csd-autorun.c:788
+msgid "_Cancel"
+msgstr "_Atsisakyti"
+
+#: plugins/automount/csd-autorun.c:789
+msgid "_Ok"
+msgstr "_Gerai"
+
+#: plugins/automount/csd-autorun.c:794
+msgid "_Eject"
+msgstr "Iš_stumti"
+
+#: plugins/automount/csd-autorun.c:797
+msgid "_Unmount"
+msgstr "_Atjungti"
+
+#: plugins/color/csd-color-manager.c:1837
+msgid "Color"
+msgstr "Spalva"
+
+#: plugins/color/csd-color-manager.c:1842
+msgid "Recalibrate now"
+msgstr "Per-kalibruoti dabar"
+
+#: plugins/color/csd-color-manager.c:1885
+msgid "Recalibration required"
+msgstr "Reikia per-kalibruoti"
+
+#: plugins/color/csd-color-manager.c:1897
+#, c-format
+msgid "The display '%s' should be recalibrated soon."
+msgstr "Vaizduoklis „%s“ greitai turėtų būti per-kalibruotas."
+
+#: plugins/color/csd-color-manager.c:1906
+#, c-format
+msgid "The printer '%s' should be recalibrated soon."
+msgstr "Spausdintuvas „%s“ greitai turėtų būti per-kalibruotas."
+
+#: plugins/color/csd-color-manager.c:2230
+#: plugins/color/csd-color-manager.c:2246
+msgid "Cinnamon Settings Daemon Color Plugin"
+msgstr "Cinnamon nustatymų tarnybos spalvų įskiepis"
+
+#: plugins/color/csd-color-manager.c:2232
+msgid "Color calibration device added"
+msgstr "Pridėtas spalvų kalibravimo įrenginys"
+
+#: plugins/color/csd-color-manager.c:2248
+msgid "Color calibration device removed"
+msgstr "Pašalintas spalvų kalibravimo įrenginys"
+
+#: plugins/housekeeping/csd-disk-space.c:334
+#, c-format
+msgid "Low Disk Space on \"%s\""
+msgstr "Baigiasi vieta diske „%s“"
+
+#: plugins/housekeeping/csd-disk-space.c:336
+#, c-format
+msgid ""
+"The volume \"%s\" has only %s disk space remaining.  You may free up some "
+"space by emptying the trash."
+msgstr ""
+"Tome „%s“ liko tik %s vietos. Galite atlaisvinti šiek tiek vietos išvalydami "
+"šiukšlinę."
+
+#: plugins/housekeeping/csd-disk-space.c:340
+#: plugins/housekeeping/csd-ldsm-dialog.c:78
+#, c-format
+msgid "The volume \"%s\" has only %s disk space remaining."
+msgstr "Diske „%s“ liko tik %s vietos."
+
+#: plugins/housekeeping/csd-disk-space.c:345
+#: plugins/housekeeping/csd-ldsm-dialog.c:202
+msgid "Low Disk Space"
+msgstr "Baigiasi vieta diske"
+
+#: plugins/housekeeping/csd-disk-space.c:347
+#, c-format
+msgid ""
+"This computer has only %s disk space remaining.  You may free up some space "
+"by emptying the trash."
+msgstr ""
+"Kompiuteryje liko tik %s vietos diske. Galite atlaisvinti šiek tiek vietos "
+"išvalydami šiukšlinę."
+
+#: plugins/housekeeping/csd-disk-space.c:350
+#: plugins/housekeeping/csd-ldsm-dialog.c:81
+#, c-format
+msgid "This computer has only %s disk space remaining."
+msgstr "Kompiuteryje liko tik %s vietos."
+
+#: plugins/housekeeping/csd-disk-space.c:365
+msgid "Disk space"
+msgstr "Vieta diske"
+
+#: plugins/housekeeping/csd-disk-space.c:372
+msgid "Examine"
+msgstr "Ištirti"
+
+#: plugins/housekeeping/csd-disk-space.c:380
+#: plugins/housekeeping/csd-ldsm-dialog.c:434
+msgid "Empty Trash"
+msgstr "Išvalyti šiukšlinę"
+
+#: plugins/housekeeping/csd-disk-space.c:387
+#: plugins/housekeeping/csd-ldsm-dialog.c:449
+msgid "Ignore"
+msgstr "Nepaisyti"
+
+#: plugins/housekeeping/csd-ldsm-dialog.c:63
+msgid "Don't show any warnings again for this file system"
+msgstr "Daugiau nerodyti jokių įspėjimų šiai failų sistemai"
+
+#: plugins/housekeeping/csd-ldsm-dialog.c:65
+msgid "Don't show any warnings again"
+msgstr "Daugiau nerodyti jokių įspėjimų"
+
+#: plugins/housekeeping/csd-ldsm-dialog.c:97
+msgid ""
+"You can free up disk space by emptying the Trash, removing unused programs "
+"or files, or moving files to another disk or partition."
+msgstr ""
+"Galite atlaisvinti vietą diske išvalydami šiukšlinę, ištrindami nenaudojamas "
+"programas ir failus arba perkeldami failus į kitą kaupiklį ar skaidinį."
+
+#: plugins/housekeeping/csd-ldsm-dialog.c:100
+msgid ""
+"You can free up disk space by removing unused programs or files, or by "
+"moving files to another disk or partition."
+msgstr ""
+"Galite atlaisvinti vietą ištrindami nenaudojamas programas ir failus arba "
+"perkeldami failus į kitą kaupiklį ar skaidinį."
+
+#: plugins/housekeeping/csd-ldsm-dialog.c:105
+msgid ""
+"You can free up disk space by emptying the Trash, removing unused programs "
+"or files, or moving files to an external disk."
+msgstr ""
+"Galite atlaisvinti vietą diske išvalydami šiukšlinę, ištrindami nenaudojamas "
+"programas ir failus arba perkeldami failus į išorinį kaupiklį."
+
+#: plugins/housekeeping/csd-ldsm-dialog.c:108
+msgid ""
+"You can free up disk space by removing unused programs or files, or by "
+"moving files to an external disk."
+msgstr ""
+"Galite atlaisvinti vietą diske ištrindami nenaudojamas programas ir failus "
+"arba perkeldami failus į išorinį kaupiklį."
+
+#: plugins/housekeeping/csd-ldsm-dialog.c:442
+msgid "Examine..."
+msgstr "Ištirti..."
+
+#: plugins/keyboard/csd-keyboard-xkb.c:87
+#, c-format
+msgid ""
+"Error activating XKB configuration.\n"
+"There can be various reasons for that.\n"
+"\n"
+"If you report this situation as a bug, include the results of\n"
+" <b>%s</b>\n"
+" <b>%s</b>\n"
+" <b>%s</b>\n"
+" <b>%s</b>"
+msgstr ""
+"Klaida, aktyvuojant XKB konfigūraciją.\n"
+"Tam gali būti įvairios priežastys.\n"
+"\n"
+"Jeigu apie šią situaciją pranešite kaip apie klaidą, įtraukite šiuos "
+"rezultatus\n"
+" <b>%s</b>\n"
+" <b>%s</b>\n"
+" <b>%s</b>\n"
+" <b>%s</b>"
+
+#: plugins/keyboard/csd-keyboard-xkb.c:256
+msgid "_Layouts"
+msgstr "_Išdėstymai"
+
+#: plugins/keyboard/csd-keyboard-xkb.c:262
+msgid "Show _Keyboard Layout..."
+msgstr "Rodyti _klaviatūros išdėstymą..."
+
+#: plugins/keyboard/csd-keyboard-xkb.c:269
+msgid "Region and Language Settings"
+msgstr "Regiono ir kalbos nustatymai"
+
+#: plugins/power/csd-power-manager.c:1112
+msgid "UPS Discharging"
+msgstr "NSŠ iškraunamas"
+
+#: plugins/power/csd-power-manager.c:1117
+#, c-format
+msgid "%s of UPS backup power remaining"
+msgstr "Liko %s NSŠ atsarginės energijos"
+
+#: plugins/power/csd-power-manager.c:1138
+#: plugins/power/csd-power-manager.c:1358
+#: plugins/power/csd-power-manager.c:1536
+#: plugins/power/csd-power-manager.c:1685
+msgid "Power"
+msgstr "Energija"
+
+#: plugins/power/csd-power-manager.c:1270
+msgid "Battery low"
+msgstr "Senka akumuliatorius"
+
+#: plugins/power/csd-power-manager.c:1273
+msgid "Laptop battery low"
+msgstr "Nešiojamojo kompiuterio akumuliatorius išsikrauna"
+
+#: plugins/power/csd-power-manager.c:1280
+#, c-format
+#| msgid "Approximately <b>%s</b> remaining (%.0f%%)"
+msgid "Approximately %s remaining (%.0f%%)"
+msgstr "Liko maždaug %s (%.0f%%)"
+
+#: plugins/power/csd-power-manager.c:1285
+msgid "UPS low"
+msgstr "Senka NSŠ"
+
+#: plugins/power/csd-power-manager.c:1291
+#, c-format
+#| msgid "Approximately <b>%s</b> of remaining UPS backup power (%.0f%%)"
+msgid "Approximately %s of remaining UPS backup power (%.0f%%)"
+msgstr "NSŠ atsarginės energijos liko maždaug %s (%.0f%%)"
+
+#: plugins/power/csd-power-manager.c:1296
+#: plugins/power/csd-power-manager.c:1461
+msgid "Mouse battery low"
+msgstr "Senka pelės baterija"
+
+#: plugins/power/csd-power-manager.c:1299
+msgid "Wireless mouse is low in power"
+msgstr ""
+
+#: plugins/power/csd-power-manager.c:1303
+#: plugins/power/csd-power-manager.c:1468
+msgid "Keyboard battery low"
+msgstr "Senka klaviatūros energija"
+
+#: plugins/power/csd-power-manager.c:1306
+msgid "Wireless keyboard is low in power"
+msgstr ""
+
+#: plugins/power/csd-power-manager.c:1310
+#: plugins/power/csd-power-manager.c:1476
+msgid "PDA battery low"
+msgstr "Senka delninuko akumuliatorius"
+
+#: plugins/power/csd-power-manager.c:1313
+#, c-format
+msgid "PDA is low in power (%.0f%%)"
+msgstr "Baigiasi delninuko energija (%.0f%%)"
+
+#: plugins/power/csd-power-manager.c:1317
+#: plugins/power/csd-power-manager.c:1486
+#: plugins/power/csd-power-manager.c:1496
+msgid "Cell phone battery low"
+msgstr "Senka mobiliojo telefono akumuliatorius"
+
+#: plugins/power/csd-power-manager.c:1320
+#, c-format
+msgid "Cell phone is low in power (%.0f%%)"
+msgstr "Baigiasi mobiliojo telefono energija (%.0f%%)"
+
+#: plugins/power/csd-power-manager.c:1324
+msgid "Media player battery low"
+msgstr "Senka grotuvo akumuliatorius"
+
+#: plugins/power/csd-power-manager.c:1327
+#, c-format
+msgid "Media player is low in power (%.0f%%)"
+msgstr "Baigiasi grotuvo energija (%.0f%%)"
+
+#: plugins/power/csd-power-manager.c:1331
+#: plugins/power/csd-power-manager.c:1505
+msgid "Tablet battery low"
+msgstr "Senka planšetinio kompiuterio akumuliatorius"
+
+#: plugins/power/csd-power-manager.c:1334
+#, c-format
+msgid "Tablet is low in power (%.0f%%)"
+msgstr "Baigiasi planšetinio kompiuterio energija (%.0f%%)"
+
+#: plugins/power/csd-power-manager.c:1338
+#: plugins/power/csd-power-manager.c:1514
+msgid "Attached computer battery low"
+msgstr "Senka prijungto kompiuterio akumuliatorius"
+
+#: plugins/power/csd-power-manager.c:1341
+#, c-format
+msgid "Attached computer is low in power (%.0f%%)"
+msgstr "Baigiasi prijungto kompiuterio akumuliatoriaus energija (%.0f%%)"
+
+#: plugins/power/csd-power-manager.c:1375
+msgid "Battery is low"
+msgstr "Senka akumuliatorius"
+
+#: plugins/power/csd-power-manager.c:1417
+msgid "Battery critically low"
+msgstr "Akumuliatoriaus įkrova kritiškai maža"
+
+#: plugins/power/csd-power-manager.c:1420
+#: plugins/power/csd-power-manager.c:1601
+msgid "Laptop battery critically low"
+msgstr "Nešiojamojo kompiuterio akumuliatoriaus įkrova kritiškai maža"
+
+#: plugins/power/csd-power-manager.c:1429
+msgid "Plug in your AC adapter to avoid losing data."
+msgstr ""
+"Prijunkite kintamosios srovės adapterį, kad būtų išvengta duomenų praradimo."
+
+#: plugins/power/csd-power-manager.c:1433
+msgid "Computer will suspend very soon unless it is plugged in."
+msgstr ""
+"Kompiuteris labai greitai bus pristabdytas, nebent prijungsite jį prie "
+"srovės šaltinio."
+
+#: plugins/power/csd-power-manager.c:1437
+msgid "Computer will hibernate very soon unless it is plugged in."
+msgstr ""
+"Kompiuteris labai greitai bus užmigdytas, nebent prijungsite jį prie srovės "
+"šaltinio."
+
+#: plugins/power/csd-power-manager.c:1441
+msgid "Computer will shutdown very soon unless it is plugged in."
+msgstr ""
+"Kompiuteris labai greitai bus išjungtas, nebent prijungsite jį prie srovės "
+"šaltinio."
+
+#: plugins/power/csd-power-manager.c:1449
+#: plugins/power/csd-power-manager.c:1637
+msgid "UPS critically low"
+msgstr "NSŠ įkrovos lygis kritiškai mažas"
+
+#: plugins/power/csd-power-manager.c:1455
+#, c-format
+#| msgid ""
+#| "Approximately <b>%s</b> of remaining UPS power (%.0f%%). Restore AC power "
+#| "to your computer to avoid losing data."
+msgid ""
+"Approximately %s of remaining UPS power (%.0f%%). Restore AC power to your "
+"computer to avoid losing data."
+msgstr ""
+"NSŠ liko maždaug %s energijos (%.0f%%). Prijunkite kompiuterį prie "
+"kintamosios srovės, kad būtų išvengta duomenų praradimo."
+
+#: plugins/power/csd-power-manager.c:1464
+msgid ""
+"Wireless mouse is very low in power. This device will soon stop functioning "
+"if not charged."
+msgstr ""
+
+#: plugins/power/csd-power-manager.c:1471
+msgid ""
+"Wireless keyboard is very low in power. This device will soon stop "
+"functioning if not charged."
+msgstr ""
+
+#: plugins/power/csd-power-manager.c:1479
+#, c-format
+msgid ""
+"PDA is very low in power (%.0f%%). This device will soon stop functioning if "
+"not charged."
+msgstr ""
+
+#: plugins/power/csd-power-manager.c:1489
+#, c-format
+msgid ""
+"Cell phone is very low in power (%.0f%%). This device will soon stop "
+"functioning if not charged."
+msgstr ""
+
+#: plugins/power/csd-power-manager.c:1499
+#, c-format
+msgid ""
+"Media player is very low in power (%.0f%%). This device will soon stop "
+"functioning if not charged."
+msgstr ""
+
+#: plugins/power/csd-power-manager.c:1508
+#, c-format
+msgid ""
+"Tablet is very low in power (%.0f%%). This device will soon stop functioning "
+"if not charged."
+msgstr ""
+
+#: plugins/power/csd-power-manager.c:1517
+#, c-format
+msgid ""
+"Attached computer is very low in power (%.0f%%). The device will soon "
+"shutdown if not charged."
+msgstr ""
+"Prijungtas kompiuteris baigia išsikrauti (%.0f%%). Įrenginys tuoj nustos "
+"veikti, nebent bus įkrautas."
+
+#: plugins/power/csd-power-manager.c:1554
+#: plugins/power/csd-power-manager.c:1564
+#: plugins/power/csd-power-manager.c:1700
+msgid "Battery is critically low"
+msgstr "Akumuliatoriaus energijos lygis kritiškai mažas"
+
+#: plugins/power/csd-power-manager.c:1609
+msgid ""
+"The battery is below the critical level and this computer will <b>power-"
+"off</b> when the battery becomes completely empty."
+msgstr ""
+"Akumuliatoriaus įkrova yra žemiau kritinio lygio ir akumuliatoriui visiškai "
+"išsikrovus šis kompiuteris bus <b>išjungtas</b>."
+
+#: plugins/power/csd-power-manager.c:1615
+msgid ""
+"The battery is below the critical level and this computer is about to "
+"suspend.\n"
+"<b>NOTE:</b> A small amount of power is required to keep your computer in a "
+"suspended state."
+msgstr ""
+"Akumuliatoriaus įkrova yra žemiau kritinio lygio ir šis kompiuteris tuoj bus "
+"pristabdytas.\n"
+"<b>PASTABA:</b> norint laikyti kompiuterį pristabdytoje būsenoje jam "
+"reikalingas nedidelis energijos kiekis."
+
+#: plugins/power/csd-power-manager.c:1622
+msgid ""
+"The battery is below the critical level and this computer is about to "
+"hibernate."
+msgstr ""
+"Akumuliatoriaus įkrova yra žemiau kritinio lygio ir šis kompiuteris tuoj bus "
+"užmigdytas."
+
+#: plugins/power/csd-power-manager.c:1627
+msgid ""
+"The battery is below the critical level and this computer is about to "
+"shutdown."
+msgstr ""
+"Akumuliatoriaus įkrova yra žemiau kritinio lygio ir šis kompiuteris tuoj bus "
+"išjungtas."
+
+#: plugins/power/csd-power-manager.c:1645
+msgid ""
+"UPS is below the critical level and this computer will <b>power-off</b> when "
+"the UPS becomes completely empty."
+msgstr ""
+"NSŠ įkrova yra žemiau kritinės ribos ir šis kompiuteris bus "
+"<b>išjungtas</b>, kai NSŠ visiškai išsikraus."
+
+#: plugins/power/csd-power-manager.c:1651
+msgid ""
+"UPS is below the critical level and this computer is about to hibernate."
+msgstr ""
+"NSŠ įkrova yra žemiau kritinės ribos ir šis kompiuteris tuoj bus užmigdytas."
+
+#: plugins/power/csd-power-manager.c:1656
+msgid ""
+"UPS is below the critical level and this computer is about to shutdown."
+msgstr ""
+"NSŠ įkrova yra žemiau kritinės ribos ir šis kompiuteris tuoj bus išsijungtas."
+
+#: plugins/power/csd-power-manager.c:2245
+msgid "Lid has been opened"
+msgstr "Dangtis buvo atidarytas"
+
+#: plugins/power/csd-power-manager.c:2390
+msgid "Lid has been closed"
+msgstr "Dangtis buvo uždarytas"
+
+#: plugins/power/csd-power-manager.c:4316
+msgid "Power Manager"
+msgstr "Energijos valdymas"
+
+#: plugins/power/gpm-common.c:47
+msgid "Unknown time"
+msgstr "Nežinomas laikas"
+
+#: plugins/power/gpm-common.c:52
+#, c-format
+msgid "%i minute"
+msgid_plural "%i minutes"
+msgstr[0] "%i minutė"
+msgstr[1] "%i minutės"
+msgstr[2] "%i minučių"
+
+#: plugins/power/gpm-common.c:62
+#, c-format
+msgid "%i hour"
+msgid_plural "%i hours"
+msgstr[0] "%i valanda"
+msgstr[1] "%i valandos"
+msgstr[2] "%i valandų"
+
+#: plugins/power/gpm-common.c:68
+#, c-format
+msgid "%i %s %i %s"
+msgstr "%i %s %i %s"
+
+#: plugins/power/gpm-common.c:69
+msgid "hour"
+msgid_plural "hours"
+msgstr[0] "valanda"
+msgstr[1] "valandos"
+msgstr[2] "valandų"
+
+#: plugins/power/gpm-common.c:70
+msgid "minute"
+msgid_plural "minutes"
+msgstr[0] "minutė"
+msgstr[1] "minutės"
+msgstr[2] "minučių"
+
+#: plugins/power/gpm-common.c:358
+#, c-format
+msgid "provides %s laptop runtime"
+msgstr "leidžia naudotis nešiojamuoju kompiuteriu %s"
+
+#: plugins/power/gpm-common.c:369
+#, c-format
+msgid "%s %s remaining"
+msgstr "%s liko %s"
+
+#: plugins/power/gpm-common.c:390 plugins/power/gpm-common.c:407
+#, c-format
+msgid "%s %s until charged"
+msgstr "%s iki įkrovimo %s"
+
+#: plugins/power/gpm-common.c:397
+#, c-format
+msgid "provides %s battery runtime"
+msgstr "suteikia %s akumuliatoriaus laiko"
+
+#: plugins/power/gpm-common.c:488
+msgid "Product:"
+msgstr "Produktas:"
+
+#: plugins/power/gpm-common.c:492 plugins/power/gpm-common.c:495
+#: plugins/power/gpm-common.c:498 plugins/power/gpm-common.c:501
+msgid "Status:"
+msgstr "Būsena:"
+
+#: plugins/power/gpm-common.c:492
+msgid "Missing"
+msgstr "Trūksta"
+
+#: plugins/power/gpm-common.c:495 plugins/power/gpm-common.c:780
+msgid "Charged"
+msgstr "Įkrauta"
+
+#: plugins/power/gpm-common.c:498 plugins/power/gpm-common.c:768
+msgid "Charging"
+msgstr "Įkraunama"
+
+#: plugins/power/gpm-common.c:501 plugins/power/gpm-common.c:772
+msgid "Discharging"
+msgstr "Iškraunama"
+
+#: plugins/power/gpm-common.c:506
+msgid "Percentage charge:"
+msgstr "Įkrova procentais:"
+
+#: plugins/power/gpm-common.c:510
+msgid "Vendor:"
+msgstr "Gamintojas:"
+
+#: plugins/power/gpm-common.c:515
+msgid "Technology:"
+msgstr "Technologija:"
+
+#: plugins/power/gpm-common.c:519
+msgid "Serial number:"
+msgstr "Serijinis numeris:"
+
+#: plugins/power/gpm-common.c:523
+msgid "Model:"
+msgstr "Modelis:"
+
+#: plugins/power/gpm-common.c:528
+msgid "Charge time:"
+msgstr "Įkrovimo laikas:"
+
+#: plugins/power/gpm-common.c:534
+msgid "Discharge time:"
+msgstr "Iškrovimo laikas:"
+
+#: plugins/power/gpm-common.c:541
+msgid "Excellent"
+msgstr "Puiki"
+
+#: plugins/power/gpm-common.c:543
+msgid "Good"
+msgstr "Gera"
+
+#: plugins/power/gpm-common.c:545
+msgid "Fair"
+msgstr "Pakankama"
+
+#: plugins/power/gpm-common.c:547
+msgid "Poor"
+msgstr "Prasta"
+
+#: plugins/power/gpm-common.c:551
+msgid "Capacity:"
+msgstr "Talpa:"
+
+#: plugins/power/gpm-common.c:557 plugins/power/gpm-common.c:582
+msgid "Current charge:"
+msgstr "Dabartinė įkrova:"
+
+#: plugins/power/gpm-common.c:563
+msgid "Last full charge:"
+msgstr "Paskutinė pilna įkrova:"
+
+#: plugins/power/gpm-common.c:569 plugins/power/gpm-common.c:587
+msgid "Design charge:"
+msgstr "Projektinė įkrova:"
+
+#: plugins/power/gpm-common.c:574
+msgid "Charge rate:"
+msgstr "Įkrovos lygis:"
+
+#: plugins/power/gpm-common.c:606
+msgid "AC adapter"
+msgid_plural "AC adapters"
+msgstr[0] "KS adapteris"
+msgstr[1] "KS adapteriai"
+msgstr[2] "KS adapterių"
+
+#: plugins/power/gpm-common.c:610
+msgid "Laptop battery"
+msgid_plural "Laptop batteries"
+msgstr[0] "Nešiojamojo kompiuterio akumuliatorius"
+msgstr[1] "Nešiojamojo kompiuterio akumuliatoriai"
+msgstr[2] "Nešiojamojo kompiuterio akumuliatorių"
+
+#: plugins/power/gpm-common.c:614
+msgid "UPS"
+msgid_plural "UPSs"
+msgstr[0] "NSŠ"
+msgstr[1] "NSŠ"
+msgstr[2] "NSŠ"
+
+#: plugins/power/gpm-common.c:618
+msgid "Monitor"
+msgid_plural "Monitors"
+msgstr[0] "Vaizduoklis"
+msgstr[1] "Vaizduokliai"
+msgstr[2] "Vaizduoklių"
+
+#: plugins/power/gpm-common.c:622
+msgid "Mouse"
+msgid_plural "Mice"
+msgstr[0] "Pelė"
+msgstr[1] "Pelės"
+msgstr[2] "Pelių"
+
+#: plugins/power/gpm-common.c:626
+msgid "Keyboard"
+msgid_plural "Keyboards"
+msgstr[0] "Klaviatūra"
+msgstr[1] "Klaviatūros"
+msgstr[2] "Klaviatūrų"
+
+#: plugins/power/gpm-common.c:630
+msgid "PDA"
+msgid_plural "PDAs"
+msgstr[0] "Delninukas"
+msgstr[1] "Delninukai"
+msgstr[2] "Delninukų"
+
+#: plugins/power/gpm-common.c:634
+msgid "Cell phone"
+msgid_plural "Cell phones"
+msgstr[0] "Mobilusis telefonas"
+msgstr[1] "Mobilieji telefonai"
+msgstr[2] "Mobiliųjų telefonų"
+
+#: plugins/power/gpm-common.c:638
+msgid "Media player"
+msgid_plural "Media players"
+msgstr[0] "Grotuvas"
+msgstr[1] "Grotuvai"
+msgstr[2] "Grotuvų"
+
+#: plugins/power/gpm-common.c:642
+msgid "Tablet"
+msgid_plural "Tablets"
+msgstr[0] "Planšetinis kompiuteris"
+msgstr[1] "Planšetiniai kompiuteriai"
+msgstr[2] "Planšetinių kompiuterių"
+
+#: plugins/power/gpm-common.c:646
+msgid "Computer"
+msgid_plural "Computers"
+msgstr[0] "Kompiuteris"
+msgstr[1] "Kompiuteriai"
+msgstr[2] "Kompiuterių"
+
+#: plugins/power/gpm-common.c:651
+msgid "Game controller"
+msgid_plural "Game controllers"
+msgstr[0] "Žaidimų manipuliatorius"
+msgstr[1] "Žaidimų manipuliatoriai"
+msgstr[2] "Žaidimų manipuliatoriai"
+
+#: plugins/power/gpm-common.c:655
+msgid "Unknown device"
+msgid_plural "Unknown devices"
+msgstr[0] "Nežinomas įrenginys"
+msgstr[1] "Nežinomi įrenginiai"
+msgstr[2] "Nežinomi įrenginiai"
+
+#: plugins/power/gpm-common.c:726
+msgid "Lithium Ion"
+msgstr "Ličio jonų"
+
+#: plugins/power/gpm-common.c:730
+msgid "Lithium Polymer"
+msgstr "Ličio polimero"
+
+#: plugins/power/gpm-common.c:734
+msgid "Lithium Iron Phosphate"
+msgstr "Ličio geležies fosfato"
+
+#: plugins/power/gpm-common.c:738
+msgid "Lead acid"
+msgstr "Švino rūgšties"
+
+#: plugins/power/gpm-common.c:742
+msgid "Nickel Cadmium"
+msgstr "Nikelio kadmio"
+
+#: plugins/power/gpm-common.c:746
+msgid "Nickel metal hydride"
+msgstr "Nikelio metalo hibrido"
+
+#: plugins/power/gpm-common.c:750
+msgid "Unknown technology"
+msgstr "Nežinomos technologijos"
+
+#: plugins/power/gpm-common.c:776
+msgid "Empty"
+msgstr "Tuščia"
+
+#: plugins/power/gpm-common.c:784
+msgid "Waiting to charge"
+msgstr "Laukiama įkrovimo"
+
+#: plugins/power/gpm-common.c:788
+msgid "Waiting to discharge"
+msgstr "Laukiama iškrovimo"
+
+#: plugins/power/gpm-common.c:792
+msgid "Unknown"
+msgstr "Nežinoma"
+
+#: plugins/power/gpm-common.c:821
+msgid "Laptop battery not present"
+msgstr "Nešiojamojo kompiuterio akumuliatoriaus nėra"
+
+#: plugins/power/gpm-common.c:825
+msgid "Laptop battery is charging"
+msgstr "Nešiojamojo kompiuterio akumuliatorius įkraunamas"
+
+#: plugins/power/gpm-common.c:829
+msgid "Laptop battery is discharging"
+msgstr "Nešiojamojo kompiuterio akumuliatorius iškraunamas"
+
+#: plugins/power/gpm-common.c:833
+msgid "Laptop battery is empty"
+msgstr "Nešiojamojo kompiuterio akumuliatorius tuščias"
+
+#: plugins/power/gpm-common.c:837
+msgid "Laptop battery is charged"
+msgstr "Nešiojamojo kompiuterio akumuliatorius įkrautas"
+
+#: plugins/power/gpm-common.c:841
+msgid "Laptop battery is waiting to charge"
+msgstr "Nešiojamojo kompiuterio akumuliatorius laukia įkrovimo"
+
+#: plugins/power/gpm-common.c:845
+msgid "Laptop battery is waiting to discharge"
+msgstr "Nešiojamojo kompiuterio akumuliatorius laukia iškrovimo"
+
+#: plugins/power/gpm-common.c:854
+msgid "UPS is charging"
+msgstr "NSŠ įkraunamas"
+
+#: plugins/power/gpm-common.c:858
+msgid "UPS is discharging"
+msgstr "NSŠ iškraunamas"
+
+#: plugins/power/gpm-common.c:862
+msgid "UPS is empty"
+msgstr "NSŠ išsikrovė"
+
+#: plugins/power/gpm-common.c:866
+msgid "UPS is charged"
+msgstr "NSŠ įkrautas"
+
+#: plugins/power/gpm-common.c:875
+msgid "Mouse is charging"
+msgstr "Pelė įkraunama"
+
+#: plugins/power/gpm-common.c:879
+msgid "Mouse is discharging"
+msgstr "Pelė išsikrauna"
+
+#: plugins/power/gpm-common.c:883
+msgid "Mouse is empty"
+msgstr "Pelė išsikrovė"
+
+#: plugins/power/gpm-common.c:887
+msgid "Mouse is charged"
+msgstr "Palė įkrauta"
+
+#: plugins/power/gpm-common.c:896
+msgid "Keyboard is charging"
+msgstr "Klaviatūra įkraunama"
+
+#: plugins/power/gpm-common.c:900
+msgid "Keyboard is discharging"
+msgstr "Klaviatūra iškraunama"
+
+#: plugins/power/gpm-common.c:904
+msgid "Keyboard is empty"
+msgstr "Klaviatūra išsikrovė"
+
+#: plugins/power/gpm-common.c:908
+msgid "Keyboard is charged"
+msgstr "Klaviatūra įkrauta"
+
+#: plugins/power/gpm-common.c:917
+msgid "PDA is charging"
+msgstr "Delninukas įkraunamas"
+
+#: plugins/power/gpm-common.c:921
+msgid "PDA is discharging"
+msgstr "Delninukas iškraunamas"
+
+#: plugins/power/gpm-common.c:925
+msgid "PDA is empty"
+msgstr "Delninukas išsikrovė"
+
+#: plugins/power/gpm-common.c:929
+msgid "PDA is charged"
+msgstr "Delninukas įkrautas"
+
+#: plugins/power/gpm-common.c:938
+msgid "Cell phone is charging"
+msgstr "Mobilusis telefonas įkraunamas"
+
+#: plugins/power/gpm-common.c:942
+msgid "Cell phone is discharging"
+msgstr "Mobilusis telefonas iškraunamas"
+
+#: plugins/power/gpm-common.c:946
+msgid "Cell phone is empty"
+msgstr "Mobilusis telefonas išsikrovė"
+
+#: plugins/power/gpm-common.c:950
+msgid "Cell phone is charged"
+msgstr "Mobilusis telefonas įkrautas"
+
+#: plugins/power/gpm-common.c:959
+msgid "Media player is charging"
+msgstr "Grotuvas įkraunamas"
+
+#: plugins/power/gpm-common.c:963
+msgid "Media player is discharging"
+msgstr "Grotuvas iškraunamas"
+
+#: plugins/power/gpm-common.c:967
+msgid "Media player is empty"
+msgstr "Grotuvas išsikrovė"
+
+#: plugins/power/gpm-common.c:971
+msgid "Media player is charged"
+msgstr "Grotuvas įkrautas"
+
+#: plugins/power/gpm-common.c:980
+msgid "Tablet is charging"
+msgstr "Planšetinis kompiuteris įkraunamas"
+
+#: plugins/power/gpm-common.c:984
+msgid "Tablet is discharging"
+msgstr "Planšetinis kompiuteris iškraunamas"
+
+#: plugins/power/gpm-common.c:988
+msgid "Tablet is empty"
+msgstr "Planšetinis kompiuteris išsikrovė"
+
+#: plugins/power/gpm-common.c:992
+msgid "Tablet is charged"
+msgstr "Planšetinis kompiuteris įkrautas"
+
+#: plugins/power/gpm-common.c:1001
+msgid "Computer is charging"
+msgstr "Kompiuteris įkraunamas"
+
+#: plugins/power/gpm-common.c:1005
+msgid "Computer is discharging"
+msgstr "Kompiuteris iškraunamas"
+
+#: plugins/power/gpm-common.c:1009
+msgid "Computer is empty"
+msgstr "Kompiuteris išsikrovė"
+
+#: plugins/power/gpm-common.c:1013
+msgid "Computer is charged"
+msgstr "Kompiuteris įkrautas"
+
+#: plugins/power/gpm-common.c:1023
+msgid "Game controller is charging"
+msgstr "Žaidimų manipuliatorius yra įkraunamas"
+
+#: plugins/power/gpm-common.c:1027
+msgid "Game controller is discharging"
+msgstr "Žaidimų manipuliatorius išsikrauna"
+
+#: plugins/power/gpm-common.c:1031
+msgid "Game controller is empty"
+msgstr "Žaidimų manipuliatorius išsikrovė"
+
+#: plugins/power/gpm-common.c:1035
+msgid "Game controller is charged"
+msgstr "Žaidimų manipuliatorius yra įkrautas"
+
+#: plugins/print-notifications/csd-printer.c:890
+msgid "Configuring new printer"
+msgstr "Naujo spausdintuvo konfigūravimas"
+
+#: plugins/print-notifications/csd-printer.c:892
+msgid "Please wait..."
+msgstr "Palaukite..."
+
+#: plugins/print-notifications/csd-printer.c:919
+msgid "Missing printer driver"
+msgstr "Trūksta spausdintuvo tvarkyklės"
+
+#: plugins/print-notifications/csd-printer.c:928
+#, c-format
+msgid "No printer driver for %s."
+msgstr "Nėra spausdintuvo %s tvarkyklės."
+
+#: plugins/print-notifications/csd-printer.c:933
+msgid "No driver for this printer."
+msgstr "Nėra tvarkyklės šiam spausdintuvui."
+
+#: plugins/print-notifications/csd-printer.c:1031
+#: plugins/print-notifications/csd-print-notifications-manager.c:268
+#: plugins/print-notifications/csd-print-notifications-manager.c:746
+#: plugins/print-notifications/csd-print-notifications-manager.c:836
+#: plugins/print-notifications/csd-print-notifications-manager.c:879
+msgid "Printers"
+msgstr "Spausdintuvai"
+
+#: plugins/print-notifications/csd-print-notifications-manager.c:344
+#, c-format
+msgid "Printer '%s' is low on toner."
+msgstr "Spausdintuvui „%s“ baigiasi dažai."
+
+#: plugins/print-notifications/csd-print-notifications-manager.c:348
+#, c-format
+msgid "Printer '%s' has no toner left."
+msgstr "Spausdintuvui „%s“ baigėsi dažai."
+
+#: plugins/print-notifications/csd-print-notifications-manager.c:352
+#, c-format
+msgid "Printer '%s' may not be connected."
+msgstr "Spausdintuvas „%s“ gali būti neprijungtas."
+
+#: plugins/print-notifications/csd-print-notifications-manager.c:356
+#, c-format
+msgid "The cover is open on printer '%s'."
+msgstr "Atvertas spausdintuvo „%s“ dangtis."
+
+#: plugins/print-notifications/csd-print-notifications-manager.c:360
+#, c-format
+msgid "There is a missing print filter for printer '%s'."
+msgstr "Trūksta spausdinimo filtro spausdintuvui „%s“."
+
+#: plugins/print-notifications/csd-print-notifications-manager.c:365
+#, c-format
+msgid "The door is open on printer '%s'."
+msgstr "Atvertos spausdintuvo „%s“ durys."
+
+#: plugins/print-notifications/csd-print-notifications-manager.c:369
+#, c-format
+msgid "Printer '%s' is low on a marker supply."
+msgstr "Spausdintuvui „%s“ baigiasi spalvos tiekimas."
+
+#: plugins/print-notifications/csd-print-notifications-manager.c:373
+#, c-format
+msgid "Printer '%s' is out of a marker supply."
+msgstr "Spausdintuvui „%s“ baigėsi spalvos tiekimas."
+
+#: plugins/print-notifications/csd-print-notifications-manager.c:377
+#, c-format
+msgid "Printer '%s' is low on paper."
+msgstr "Spausdintuvui „%s“ baigiasi popierius."
+
+#: plugins/print-notifications/csd-print-notifications-manager.c:381
+#, c-format
+msgid "Printer '%s' is out of paper."
+msgstr "Spausdintuvui „%s“ baigėsi popierius."
+
+#: plugins/print-notifications/csd-print-notifications-manager.c:385
+#, c-format
+msgid "Printer '%s' is currently off-line."
+msgstr "Spausdintuvas „%s“ nepasiekiamas."
+
+#: plugins/print-notifications/csd-print-notifications-manager.c:389
+#, c-format
+msgid "There is a problem on printer '%s'."
+msgstr "Yra problema spausdintuve „%s“."
+
+#: plugins/print-notifications/csd-print-notifications-manager.c:437
+msgid "Toner low"
+msgstr "Baigiasi dažai"
+
+#: plugins/print-notifications/csd-print-notifications-manager.c:439
+msgid "Toner empty"
+msgstr "Nebėra dažų"
+
+#: plugins/print-notifications/csd-print-notifications-manager.c:441
+msgid "Not connected?"
+msgstr "Neprijungtas?"
+
+#: plugins/print-notifications/csd-print-notifications-manager.c:443
+msgid "Cover open"
+msgstr "Atvertas dangtis"
+
+#: plugins/print-notifications/csd-print-notifications-manager.c:445
+msgid "Printer configuration error"
+msgstr "Spausdintuvo konfigūracijos klaida"
+
+#: plugins/print-notifications/csd-print-notifications-manager.c:447
+msgid "Door open"
+msgstr "Atvertos durys"
+
+#: plugins/print-notifications/csd-print-notifications-manager.c:449
+msgid "Marker supply low"
+msgstr "Silpnas spalvos tiekimas"
+
+#: plugins/print-notifications/csd-print-notifications-manager.c:451
+msgid "Out of a marker supply"
+msgstr "Baigėsi spalvos tiekimas"
+
+#: plugins/print-notifications/csd-print-notifications-manager.c:453
+msgid "Paper low"
+msgstr "Baigiasi popierius"
+
+#: plugins/print-notifications/csd-print-notifications-manager.c:455
+msgid "Out of paper"
+msgstr "Baigėsi popierius"
+
+#: plugins/print-notifications/csd-print-notifications-manager.c:457
+msgid "Printer off-line"
+msgstr "Spausdintuvas nepasiekiamas"
+
+#: plugins/print-notifications/csd-print-notifications-manager.c:459
+#: plugins/print-notifications/csd-print-notifications-manager.c:822
+msgid "Printer error"
+msgstr "Spausdintuvo klaida"
+
+#: plugins/print-notifications/csd-print-notifications-manager.c:507
+msgid "Printer added"
+msgstr "Spausdintuvas pridėtas"
+
+#: plugins/print-notifications/csd-print-notifications-manager.c:524
+#: plugins/print-notifications/csd-print-notifications-manager.c:562
+msgid "Printing stopped"
+msgstr "Spausdinimas sustabdytas"
+
+#: plugins/print-notifications/csd-print-notifications-manager.c:526
+#: plugins/print-notifications/csd-print-notifications-manager.c:532
+#: plugins/print-notifications/csd-print-notifications-manager.c:538
+#: plugins/print-notifications/csd-print-notifications-manager.c:544
+#: plugins/print-notifications/csd-print-notifications-manager.c:556
+#: plugins/print-notifications/csd-print-notifications-manager.c:564
+#: plugins/print-notifications/csd-print-notifications-manager.c:572
+#: plugins/print-notifications/csd-print-notifications-manager.c:580
+#: plugins/print-notifications/csd-print-notifications-manager.c:588
+#: plugins/print-notifications/csd-print-notifications-manager.c:601
+#, c-format
+msgid "'%s' on %s"
+msgstr "\"%s\" ties %s"
+
+#: plugins/print-notifications/csd-print-notifications-manager.c:530
+#: plugins/print-notifications/csd-print-notifications-manager.c:570
+msgid "Printing canceled"
+msgstr "Spausdinimo atsisakyta"
+
+#: plugins/print-notifications/csd-print-notifications-manager.c:536
+#: plugins/print-notifications/csd-print-notifications-manager.c:578
+msgid "Printing aborted"
+msgstr "Spausdinimas nutrauktas"
+
+#: plugins/print-notifications/csd-print-notifications-manager.c:542
+#: plugins/print-notifications/csd-print-notifications-manager.c:586
+msgid "Printing completed"
+msgstr "Spausdinimas užbaigtas"
+
+#: plugins/print-notifications/csd-print-notifications-manager.c:554
+#: plugins/print-notifications/csd-print-notifications-manager.c:599
+msgid "Printing"
+msgstr "Spausdinama"
+
+#: plugins/print-notifications/csd-print-notifications-manager.c:816
+msgid "Printer report"
+msgstr "Spausdintuvo ataskaita"
+
+#: plugins/print-notifications/csd-print-notifications-manager.c:819
+msgid "Printer warning"
+msgstr "Spausdintuvo įspėjimas"
+
+#: plugins/print-notifications/csd-print-notifications-manager.c:829
+#, c-format
+msgid "Printer '%s': '%s'."
+msgstr "Spausdintuvas „%s“: „%s“."
+
+#: plugins/smartcard/csd-smartcard-manager.c:529
+msgid "received error or hang up from event source"
+msgstr "gauta klaida arba strigtis iš įvykio šaltinio"
+
+#: plugins/smartcard/csd-smartcard-manager.c:663
+msgid "NSS security system could not be initialized"
+msgstr "Nepavyko inicijuoti NSS saugumo sistemos"
+
+#: plugins/smartcard/csd-smartcard-manager.c:791
+msgid "no suitable smartcard driver could be found"
+msgstr "nepavyko rasti tinkamos lustinės kortelės tvarkyklės"
+
+#: plugins/smartcard/csd-smartcard-manager.c:805
+#, c-format
+msgid "smartcard driver '%s' could not be loaded"
+msgstr "nepavyko įkelti lustinės kortelės tvarkyklės „%s“"
+
+#: plugins/smartcard/csd-smartcard-manager.c:877
+#, c-format
+msgid "could not watch for incoming card events - %s"
+msgstr "nepavyko stebėti gaunamų kortelės įvykių – %s"
+
+#: plugins/smartcard/csd-smartcard-manager.c:1275
+msgid "encountered unexpected error while waiting for smartcard events"
+msgstr "laukiant lustinės kortelės įvykių aptikta netikėta klaida"
+
+#: plugins/wacom/csd-wacom-device.c:1082
+msgid "Left Ring"
+msgstr "Kairysis žiedas"
+
+#: plugins/wacom/csd-wacom-device.c:1092
+#, c-format
+msgid "Left Ring Mode #%d"
+msgstr "Kairiojo žiedo veiksena #%d"
+
+#: plugins/wacom/csd-wacom-device.c:1111
+msgid "Right Ring"
+msgstr "Dešinysis žiedas"
+
+#: plugins/wacom/csd-wacom-device.c:1121
+#, c-format
+msgid "Right Ring Mode #%d"
+msgstr "Dešiniojo žiedo veiksena #%d"
+
+#: plugins/wacom/csd-wacom-device.c:1162
+msgid "Left Touchstrip"
+msgstr "Kairiosios liečiamosios juostelės"
+
+#: plugins/wacom/csd-wacom-device.c:1172
+#, c-format
+msgid "Left Touchstrip Mode #%d"
+msgstr "Kairiųjų liečiamųjų juostelių veiksena #%d"
+
+#: plugins/wacom/csd-wacom-device.c:1191
+msgid "Right Touchstrip"
+msgstr "Dešiniosios liečiamosios juostelės"
+
+#: plugins/wacom/csd-wacom-device.c:1201
+#, c-format
+msgid "Right Touchstrip Mode #%d"
+msgstr "Dešiniųjų liečiamųjų juostelių veiksena #%d"
+
+#: plugins/wacom/csd-wacom-device.c:1226
+msgid "Left Touchring Mode Switch"
+msgstr "Kairiojo liečiamojo žiedo veiksenos perjungiklis"
+
+#: plugins/wacom/csd-wacom-device.c:1228
+msgid "Right Touchring Mode Switch"
+msgstr "Dešiniojo liečiamojo žiedo veiksenos perjungiklis"
+
+#: plugins/wacom/csd-wacom-device.c:1231
+msgid "Left Touchstrip Mode Switch"
+msgstr "Kairiųjų liečiamųjų juostelių veiksenos perjungiklis"
+
+#: plugins/wacom/csd-wacom-device.c:1233
+msgid "Right Touchstrip Mode Switch"
+msgstr "Dešiniųjų liečiamųjų juostelių veiksenos perjungiklis"
+
+#: plugins/wacom/csd-wacom-device.c:1238
+#, c-format
+msgid "Mode Switch #%d"
+msgstr "Veiksenos perjungiklis #%d"
+
+#: plugins/wacom/csd-wacom-device.c:1342
+#, c-format
+msgid "Left Button #%d"
+msgstr "Kairysis mygtukas #%d"
+
+#: plugins/wacom/csd-wacom-device.c:1345
+#, c-format
+msgid "Right Button #%d"
+msgstr "Dešinysis mygtukas #%d"
+
+#: plugins/wacom/csd-wacom-device.c:1348
+#, c-format
+msgid "Top Button #%d"
+msgstr "Viršutinis mygtukas #%d"
+
+#: plugins/wacom/csd-wacom-device.c:1351
+#, c-format
+msgid "Bottom Button #%d"
+msgstr "Apatinis mygtukas #%d"
+
+#: plugins/wacom/csd-wacom-osd-window.c:957
+#, c-format
+msgid "Send Keystroke %s"
+msgstr "Siųsti klavišų kombinaciją %s"
+
+#: plugins/wacom/csd-wacom-osd-window.c:975
+msgid "Show On-Screen Help"
+msgstr "Rodyti pagalbą ekrane"
+
+#: plugins/wacom/csd-wacom-osd-window.c:978
+msgid "Switch Monitor"
+msgstr "Perjungti vaizduoklį"
+
+#: plugins/wacom/csd-wacom-osd-window.c:1016
+#, c-format
+msgid "Mode %d: %s"
+msgstr "Veiksena %d: %s"

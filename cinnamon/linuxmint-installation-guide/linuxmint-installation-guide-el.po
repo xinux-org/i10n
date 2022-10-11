@@ -1,0 +1,1799 @@
+# Greek translation for linuxmint
+# Copyright (c) 2017 Rosetta Contributors and Canonical Ltd 2017
+# This file is distributed under the same license as the linuxmint package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2017.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: linuxmint\n"
+"Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
+"POT-Creation-Date: 2019-03-29 10:21+0000\n"
+"PO-Revision-Date: 2021-11-29 09:46+0000\n"
+"Last-Translator: Vasilis Kosmidis <Unknown>\n"
+"Language-Team: Greek <el@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Launchpad-Export-Date: 2022-10-10 13:11+0000\n"
+"X-Generator: Launchpad (build 762fb15a975e8b23af6a1f86e44e46bfd0451459)\n"
+
+#: ../../boot_options.rst:2
+msgid "Boot options"
+msgstr "Επιλογές εκκίνησης"
+
+#: ../../boot_options.rst:4
+msgid ""
+"Some graphics cards and motherboards don't work well with the open-source "
+"drivers present in Linux Mint by default."
+msgstr ""
+"Κάποιες κάρτες γραφικών και μητρικές πλακέτες δεν λειτουργούν σωστά με τον "
+"ανοιχτού κώδικα οδηγό ο οποίος υπάρχει από προεπιλογή στο Linux Mint."
+
+#: ../../boot_options.rst:7
+msgid "Compatibility mode"
+msgstr "Λειτουργία Συμβατότητας"
+
+#: ../../boot_options.rst:9
+msgid ""
+"The easiest option is to select ``compatibility mode`` from the USB stick "
+"(or DVD) boot menu."
+msgstr ""
+"Η πιο εύκολη εναλλακτική είναι να επιλέξετε τη ``λειτουργία συμβατότητας`` "
+"από το μενού εκκίνησης του USB ή του DVD."
+
+#: ../../boot_options.rst:15
+msgid "Grub menu (EFI mode)"
+msgstr "Μενού GRUB (λειτουργία EFI)"
+
+#: ../../boot_options.rst:21
+msgid "Isolinux menu (BIOS mode)"
+msgstr "Μενού Isolinux (λειτουργία BIOS)"
+
+#: ../../boot_options.rst:23
+msgid "If that doesn't work, you can try the ``nomodeset`` boot option."
+msgstr ""
+"Εάν αυτό δεν δουλέψει, μπορείτε να δοκιμάσετε επιλογή εκκίνησης ``nomodeset``"
+
+#: ../../boot_options.rst:26
+msgid "Nomodeset boot option"
+msgstr "Επιλογή εκκίνησης Nomodeset"
+
+#: ../../boot_options.rst:28
+msgid ""
+"In EFI mode, highlight the ``Start Linux Mint`` option and press :kbd:`e` to "
+"modify the boot options."
+msgstr ""
+"Στη λειτουργία EFI, επισημάνετε την επιλογή ``Εκκίνηση Linux Mint`` και "
+"πιέστε το πλήκτρο :kbd:`e` για να τροποποιήσετε τις επιλογές εκκίνησης."
+
+#: ../../boot_options.rst:34
+msgid ""
+"Replace ``quiet splash`` with ``nomodeset`` and press :kbd:`F10` to boot."
+msgstr ""
+"Αντικαταστήστε το ``quiet splash`` με το ``nomodeset`` και πιέστε το πλήκτρο "
+":kbd:`F10` για να εκκινήσετε."
+
+#: ../../boot_options.rst:36
+msgid ""
+"In BIOS mode, highlight ``Start Linux Mint`` and press :kbd:`Tab` to modify "
+"the boot options."
+msgstr ""
+"Στη λειτουργία BIOS, επισημάνετε το ``Start Linux Mint`` και πιέστε το "
+"πλήκτρο :kbd:`Tab` για να τροποποιήσετε τις επιλογές εκκίνησης."
+
+#: ../../boot_options.rst:42
+msgid ""
+"Replace ``quiet splash`` with ``nomodeset`` and press :kbd:`Enter` to boot."
+msgstr ""
+"Αντικαταστήστε το ``quiet splash`` με το ``nomodeset`` και πιέστε το πλήκτρο "
+":kbd:`Enter` για να εκκινήσετε."
+
+#: ../../boot_options.rst:45
+msgid ""
+"Repeat this operation post-install in your grub boot menu and read "
+":doc:`drivers` to install additional drivers."
+msgstr ""
+"Επαναλάβετε αυτή τη λειτουργία μετά την εγκατάσταση στο μενού του GRUB και "
+"διαβάστε το κεφάλαιο :doc:`οδηγοί` για να εγκαταστήσετε πρόσθετους οδηγούς."
+
+#: ../../boot_options.rst:48
+msgid "Other boot options"
+msgstr "Άλλες επιλογές εκκίνησης"
+
+#: ../../boot_options.rst:50
+msgid "If you still cannot boot try one of the following solutions:"
+msgstr ""
+"Αν εξακολουθείτε να μην μπορείτε να εκκινήσετε δοκιμάστε μια από τις "
+"ακόλουθες λύσεις:"
+
+#: ../../boot_options.rst:52
+msgid "Try ``nouveau.noaccel=1`` instead of ``nomodeset``."
+msgstr "Δοκιμάστε  ``nouveau.noaccel=1`` αντί του ``nomodeset``."
+
+#: ../../boot_options.rst:53
+msgid ""
+"After the installation, use :menuselection:`Advanced Options --> Recovery "
+"mode` from the boot menu and choose ``resume``."
+msgstr ""
+"Μετά την εγκατάσταση, χρησιμοποιήστε το :menuselection:`Advanced Options --> "
+"Recovery mode` από το μενού εκκίνησης και επιλέξτε ``resume``."
+
+#: ../../boot_options.rst:56
+msgid "Install an older release"
+msgstr "Κάντε εγκατάσταση μια παλαιότερη έκδοση"
+
+#: ../../boot_options.rst:58
+msgid ""
+"If your computer has compatibility issues with the latest Linux Mint "
+"release, install a previous release from the same Linux Mint series."
+msgstr ""
+"Αν ο υπολογιστής σας έχει προβλήματα συμβατότητας με την τελευταία έκδοση "
+"του Linux Mint, κάντε εγκατάσταση μια παλαιότερη έκδοση από την ίδια σειρά "
+"Linux Mint."
+
+#: ../../boot_options.rst:60
+msgid ""
+"For instance, if you can't install Linux Mint 18.3 (which comes with a 4.10 "
+"kernel), install Linux Mint 18 (which comes with a 4.4 kernel) and upgrade "
+"to 18.3."
+msgstr ""
+"Για παράδειγμα, αν δεν μπορείτε να κάνετε εγκατάσταση το Linux Mint 18.3 (το "
+"οποίο έρχεται με τον πυρήνα Linux 4.10), κάντε εγκατάσταση το Linux Mint 18 "
+"(το οποίο έρχεται με τον πυρήνα Linux 4.4) και μετά κάντε αναβάθμιση στο "
+"18.3."
+
+#: ../../boot_options.rst:63
+msgid ""
+"The first release in each series uses an LTS (Long Term Support) kernel. "
+"Upgrading from this release to the latest one in the series does not change "
+"your kernel."
+msgstr ""
+"Η πρώτη έκδοση σε κάθε σειρά χρησιμοποιεί έναν πυρήνα LTS (Υποστήριξη Μακράς "
+"Διάρκειας). Κάνοντας αναβάθμιση από αυτή τν έκδοση στην τελευταία της "
+"σειράς, αυτό δεν αλλάζει την έκδοση του πυρήνα."
+
+#: ../../boot.rst:2
+msgid "Boot Linux Mint"
+msgstr "Εκκίνηση Linux Mint"
+
+#: ../../boot.rst:4
+msgid ""
+"Now that you have Linux Mint on a USB stick (or DVD) boot the computer from "
+"it."
+msgstr ""
+"Τώρα που έχετε διαθέσιμο το Linux Mint στο USB (ή σε DVD) κάντε εκκίνηση τον "
+"υπολογιστή σας από αυτό."
+
+#: ../../boot.rst:6
+msgid "Insert your USB stick (or DVD) into the computer."
+msgstr "Εισάγετε το USB (ή το DVD) στον υπολογιστή σας."
+
+#: ../../boot.rst:8 ../../drivers.rst:23 ../../efi.rst:61 ../../oem.rst:21
+msgid "Restart the computer."
+msgstr "Κάντε επανεκκίνηση τον υπολογιστή."
+
+#: ../../boot.rst:10
+msgid ""
+"Before your computer boots your current operating system (Windows, Mac, "
+"Linux) you should see your `BIOS <https://en.wikipedia.org/wiki/BIOS>`_ "
+"loading screen. Check the screen or your computer's documentation to know "
+"which key to press and instruct your computer to boot on USB (or DVD)."
+msgstr ""
+"Πριν ο υπολογιστής σας εκκινήσει το τρέχων λειτουργικό σας σύστημα (Windows, "
+"Mac, Linux) θα πρέπει να δείτε την οθόνη εκκίνησης του `BIOS "
+"<https://en.wikipedia.org/wiki/BIOS>`_. Ελέγξτε την οθόνη του υπολογιστή σας "
+"ή τις οδηγίες χρήσης για να γνωρίσετε πιο πλήκτρο πρέπει να πατήσετε ώστε να "
+"εκκινήσει ο υπολογιστής σας από το USB (ή το DVD)."
+
+#: ../../boot.rst:13
+msgid ""
+"Most BIOS have a special key you can press to select the boot device and all "
+"of them have a special key to enter the BIOS configuration screen (from "
+"which you can define the boot order). Depending on the BIOS, these special "
+"keys can be :kbd:`Escape`, :kbd:`F1`, :kbd:`F2`, :kbd:`F8`, :kbd:`F10`, "
+":kbd:`F11`, :kbd:`F12`, or :kbd:`Delete`. That information is usually "
+"briefly written on the screen during the boot sequence."
+msgstr ""
+"Τα περισσότερα BIOS διαθέτουν ένα ειδικό πλήκτρο το οποίο μπορείτε να "
+"πατήσετε ώστε να επιλέξετε από ποια συσκευή θα γίνει η εκκίνηση του "
+"υπολογιστή, ενώ όλα τα BIOS διαθέτουν πλήκτρο για να μπείτε στην οθόνη "
+"ρυθμίσεων (από την οποία μπορείτε να καθορίσετε τη σειρά εκκίνησης). "
+"Αναλόγως το BIOS, αυτά τα ειδικά πλήκτρα μπορεί να είναι :kbd:`Escape`, "
+":kbd:`F1`, :kbd:`F2`, :kbd:`F8`, :kbd:`F10`, :kbd:`F11`, :kbd:`F12`, ή "
+":kbd:`Delete`. Αυτές οι πληροφορίες αναγράφονται συνήθως στην οθόνη κατά τη "
+"διάρκεια της εκκίνησης του υπολογιστή."
+
+#: ../../boot.rst:16
+msgid ""
+"On Macs, keep your finger pressed on the :kbd:`Alt` or :kbd:`Option` key "
+"after hearing the boot sound."
+msgstr ""
+"Σε υπολογιστές Mac, κρατήστε πατημένο τα πλήκτρα :kbd:`Alt` ή :kbd:`Option` "
+"αφού ακούσετε τον ήχο εκκίνησης."
+
+#: ../../boot.rst:18
+msgid ""
+"The Linux Mint ISO can be booted both in EFI or BIOS mode. In EFI mode it "
+"shows a grub menu. In BIOS mode it shows an isolinux menu."
+msgstr ""
+"Η εικόνα ISO του Linux Mint μπορεί να γίνει εκκίνηση είτε σε λειτουργία EFI "
+"είτε σε λειτουργία BIOS. Στη λειτουργία EFI δείχνει ένα μενού του GRUB. Στη "
+"λειτουργία BIOS δείχνει ένα μενού του isolinux."
+
+#: ../../boot.rst:24
+msgid "The isolinux menu in BIOS mode"
+msgstr "Το μενού του isolinux στη λειτουργία BIOS"
+
+#: ../../boot.rst:30
+msgid "The grub menu in EFI mode"
+msgstr "Το μενού του GRUB στη λειτουργία EFI"
+
+#: ../../boot.rst:32
+msgid ""
+"From one of these menu, press :kbd:`Enter` to start Linux Mint from your USB "
+"stick (or DVD)."
+msgstr ""
+"Σε ένα από αυτά τα μενού, πιέστε το :kbd:`Enter` για να εκκινήσετε το Linux "
+"Mint από το USB (ή το DVD)."
+
+#: ../../burn.rst:2
+msgid "Create the bootable media"
+msgstr "Δημιουργήστε το μέσο εκκίνησης"
+
+#: ../../burn.rst:4
+msgid "The easiest way to install Linux Mint is with a USB stick."
+msgstr ""
+"Ο πιο εύκολος τρόπος να κάνετε εγκατάσταση το Linux Mint είναι με ένα USB "
+"stick."
+
+#: ../../burn.rst:6
+msgid "If you cannot boot from USB, you can use a blank DVD."
+msgstr ""
+"Εάν δεν μπορείτε να κάνετε εκκίνηση από το USB, χρησιμοποιήστε ένα κενό DVD."
+
+#: ../../burn.rst:9
+msgid "How to make a bootable USB stick"
+msgstr "Πως να δημιουργήσετε ένα εκκινήσιμο USB stick"
+
+#: ../../burn.rst:12
+msgid "In Linux Mint"
+msgstr "Σε Linux Mint"
+
+#: ../../burn.rst:14
+msgid ""
+"Right-click the ISO file and select :menuselection:`Make Bootable USB "
+"Stick`, or launch :menuselection:`Menu --> Accessories --> USB Image Writer`."
+msgstr ""
+"Δεξί-κλικ στην εικόνα ISO και επιλέξτε :menuselection:`Make Bootable USB "
+"Stick`, ή εκκινήστε το :menuselection:`Menu --> Accessories --> USB Image "
+"Writer`."
+
+#: ../../burn.rst:20
+msgid "Select your USB device and click :guilabel:`Write`."
+msgstr "Επιλέξτε τη συσκευή USB και κάντε κλικ στο :guilabel:`Εγγραφή`."
+
+#: ../../burn.rst:23
+msgid "In Windows, Mac OS, or other Linux distributions"
+msgstr "Σε Windows, Mac OS, ή άλλες διανομές Linux."
+
+#: ../../burn.rst:25
+msgid ""
+"Download `Etcher <https://www.balena.io/etcher/>`_, install it and run it."
+msgstr ""
+"Λήψη `Etcher <https://www.balena.io/etcher/>`_, εγκατάσταση και εκκίνηση του."
+
+#: ../../burn.rst:31
+msgid "Using Etcher"
+msgstr "Χρησιμοποιώντας το Etcher"
+
+#: ../../burn.rst:33
+msgid "Click :guilabel:`Select image` and select your ISO file."
+msgstr "Κλίκ στο :guilabel:`Select image` και επιλέξτε την εικόνα ISO."
+
+#: ../../burn.rst:35
+msgid "Click :guilabel:`Select drive` and select your USB stick."
+msgstr "Κλικ στο :guilabel:`Select drive` και επιλέξτε το USB stick."
+
+#: ../../burn.rst:37
+msgid "Click :guilabel:`Flash!`."
+msgstr "Κλικ στο :guilabel:`Flash!`."
+
+#: ../../burn.rst:41
+msgid "How to make a bootable DVD"
+msgstr "Πως να δημιουργήσετε ένα εκκινήσιμο DVD"
+
+#: ../../burn.rst:43
+msgid "Optical discs are slow and burning to disc is prone to errors."
+msgstr ""
+"Οι οπτικοί δίσκοι (DVD) είναι αργοί και η εγγραφή σε έναν οπτικό δίσκο "
+"ενδέχεται να επιφέρει λάθη."
+
+#: ../../burn.rst:46
+msgid "To prevent issues, burn at the lowest possible speed."
+msgstr ""
+"Για να αποτρέψεται τυχόν λάθη, κάντε εγγραφή στη χαμηλότερη δυνατή ταχύτητα."
+
+#: ../../burn.rst:49
+msgid ""
+"Burn the content of the ISO onto the DVD, not the ISO file itself. When "
+"finished, your DVD should contain directories such as ``boot`` and "
+"``casper``, it shouldn't be an empty DVD containing an .iso file."
+msgstr ""
+"Κάντε εγγραφή τα περιεχόμενα του ISO στο DVD, όχι την εικόνα ISO αυτή καθ' "
+"εαυτή. Όταν ολοκληρωθεί η εγγραφή, το DVD πρέπει να περιέχει καταλόγους όπως "
+"``boot`` και ``casper``, δεν πρέπει να είναι ένα άδειο DVD το οποίο περιέχει "
+"ένα αρχείο .iso."
+
+#: ../../burn.rst:52
+msgid "In Linux"
+msgstr "Σε Linux"
+
+#: ../../burn.rst:53
+msgid "Install and use ``xfburn``."
+msgstr "Κάντε εγκατάσταση και χρησιμοποιήστε το ``xfburn``."
+
+#: ../../burn.rst:56
+msgid "In Windows"
+msgstr "Σε Windows"
+
+#: ../../burn.rst:57
+msgid "Right-click the ISO file and select :menuselection:`Burn disk image`."
+msgstr ""
+"Κάντε δεξί-κλικ στο αρχείο ISO και επιλέξτε :menuselection:`Burn disk image`."
+
+#: ../../burn.rst:59
+msgid ""
+"To make sure the ISO was burned without any errors, select "
+":menuselection:`Verify disc after burning`."
+msgstr ""
+"Για να επιβεβαιώσετε ότι το ISO εγγράφηκε χωρίς λάθη, επιλέξτε "
+":menuselection:`Verify disc after burning`."
+
+#: ../../burn.rst:62
+msgid "In Mac OS"
+msgstr "Σε Mac OS"
+
+#: ../../burn.rst:63
+msgid ""
+"Right-click the ISO file and select :menuselection:`Burn Disk Image to Disc`."
+msgstr ""
+"Κάντε δεξί-κλικ στο αρχείο ISO και επιλέξτε :menuselection:`Burn Disk Image "
+"to Disc`."
+
+#: ../../choose.rst:2
+msgid "Choose the right edition"
+msgstr "Επιλέξτε τη σωστή έκδοση"
+
+#: ../../choose.rst:4
+msgid ""
+"You can download Linux Mint from the `Linux Mint website "
+"<https://linuxmint.com/download.php>`_."
+msgstr ""
+"Μπορείτε να κάνετε λήψη το Linux Mint από τον ακόλουθο σύνδεσμο `Linux Mint "
+"website <https://linuxmint.com/download.php>`_."
+
+#: ../../choose.rst:6
+msgid ""
+"Read below to choose which edition and architecture are right for you."
+msgstr ""
+"Διαβάστε παρακάτω ώστε να επιλέξετε ποια έκδοση και αρχιτεκτονική είναι η "
+"σωστή για εσάς."
+
+#: ../../choose.rst:9
+msgid "Cinnamon, MATE or Xfce?"
+msgstr "Cinnamon, MATE or Xfce ;"
+
+#: ../../choose.rst:11
+msgid ""
+"Linux Mint comes in 3 different flavours, each featuring a different desktop "
+"environment."
+msgstr ""
+"Το Linux Mint έρχεται σε τρεις διαφορετικές \"γεύσεις\", με την κάθε μια από "
+"αυτές να παρουσιάζει ένα διαφορετικό γραφικό περιβάλλον."
+
+#: ../../choose.rst:14 ../../choose.rst:26
+msgid "Cinnamon"
+msgstr "Cinnamon"
+
+#: ../../choose.rst:14
+msgid "The most modern, innovative and full-featured desktop"
+msgstr "Η πιο μοντέρνα, καινοτόμα και πλήρης επιφάνεια εργασίας"
+
+#: ../../choose.rst:15 ../../choose.rst:35
+msgid "MATE"
+msgstr "MATE"
+
+#: ../../choose.rst:15
+msgid "A more traditional, and faster desktop"
+msgstr "Μια πιο παραδοσιακή και γρήγορη επιφάνεια εργασίας"
+
+#: ../../choose.rst:16 ../../choose.rst:44
+msgid "Xfce"
+msgstr "Xfce"
+
+#: ../../choose.rst:16
+msgid "The most lightweight desktop"
+msgstr "Η πιο ελαφριά επιφάνεια εργασίας"
+
+#: ../../choose.rst:19
+msgid ""
+"The most popular version of Linux Mint is the Cinnamon edition. Cinnamon is "
+"primarily developed for and by Linux Mint. It is slick, beautiful, and full "
+"of new features."
+msgstr ""
+"Η πιο δημοφιλής έκδοση του Linux Mint είναι η έκδοση Cinnamon. Το Cinnamon "
+"αναπτύσσεται αρχικώς από και για το Linux Mint. Είναι εξαιρετικό, όμορφο και "
+"γεμάτο με νέα χαρακτηριστικά."
+
+#: ../../choose.rst:28
+msgid ""
+"Linux Mint is also involved in the development of MATE, a classic desktop "
+"environment which is the continuation of GNOME 2, Linux Mint's default "
+"desktop between 2006 and 2011. Although it misses a few features and its "
+"development is slower than Cinnamon's, MATE uses less resources and can run "
+"faster on older computers."
+msgstr ""
+"Το Linux Mint συμμετέχει επίσης στην ανάπτυξη του MATE, ενός κλασικού "
+"περιβάλλοντος επιτραπέζιου υπολογιστή που είναι η συνέχεια του GNOME 2, της "
+"προεπιλεγμένης επιφάνειας εργασίας του Linux Mint μεταξύ 2006 και 2011. Αν "
+"και του λείπουν μερικά χαρακτηριστικά και η ανάπτυξή του είναι πιο αργή από "
+"του Cinnamon, το MATE χρησιμοποιεί λιγότερους πόρους και μπορεί να τρέξει "
+"πιο γρήγορα σε παλαιότερους υπολογιστές."
+
+#: ../../choose.rst:37
+msgid ""
+"Xfce is a lightweight desktop environment. It doesn't support as many "
+"features as Cinnamon or MATE, but it's extremely stable and very light on "
+"resource usage."
+msgstr ""
+"Το XFCE είναι ένα ελαφρύ γραφικό περιβάλλον. Δεν υποστηρίζει τόσα πολλά "
+"χαρακτηριστικά όσα το Cinnamon και το MATE, αλλά είναι εξαιρετικά σταθερό "
+"και πολύ ελαφρύ στη χρήση πόρων του συστήματος."
+
+#: ../../choose.rst:46
+msgid ""
+"Of course, all three desktops are great and Linux Mint is extremely proud of "
+"each edition. Although there are more features and better support in some "
+"editions than others, and some do run faster and use less resources than "
+"others, they're all great alternatives and choosing the right edition is "
+"largely a matter of taste."
+msgstr ""
+"Φυσικά και οι τρεις επιφάνειες εργασίας είναι εξαιρετικές και το Linux Mint "
+"είναι υπερήφανο για κάθε μια από αυτές. Αν και υπάρχουν περισσότερα "
+"χαρακτηριστικά και καλύτερη υποστήριξη σε μερικές εκδόσεις έναντι άλλων, και "
+"μερικές τρέχουν γρηγορότερα καταναλώνοντας λιγότερους πόρους συστήματος, "
+"είναι όλες υπέροχες και το ποια θα διαλέξετε είναι καθαρά θέμα γούστου."
+
+#: ../../choose.rst:48
+msgid ""
+"Other than their features and performance, Cinnamon, MATE and Xfce also "
+"represent three different desktop environments, with different menus, "
+"different panels and configuration tools. The right one for you is the one "
+"where you feel at home."
+msgstr ""
+"Εκτός από τα χαρακτηριστικά και την απόδοση, τα Cinnamon, MATE και XFCE "
+"αντιπροσωπεύουν τρία διαφορετικά περιβάλλοντα εργασίας, με διαφορετικά μενού "
+"και εργαλεία ρυθμίσεων. Το πιο κατάλληλο για εσάς είναι εκείνο που σας κάνει "
+"να αισθάνεστε οικεία μαζί του."
+
+#: ../../choose.rst:50
+msgid ""
+"If you are unsure which desktop to choose start with the Cinnamon edition. "
+"Try them all eventually when you have the time. All three of them have their "
+"own audience within the Linux Mint community and they're all very popular."
+msgstr ""
+"Αν δεν είστε σίγουροι πιο περιβάλλον εργασίας να επιλέξετε, ξεκινήστε με το "
+"Cinnamon. Δοκιμάστε τα όλα εν τέλει όταν θα έχετε χρόνο. Και τα τρία έχουν "
+"το δικό τους κοινό μέσα στην κοινότητα του Linux Mint και είναι εξίσου "
+"δημοφιλή."
+
+#: ../../choose.rst:54
+msgid "32-bit or 64-bit?"
+msgstr "32-bit ή 64-bit;"
+
+#: ../../choose.rst:56
+msgid "From version 20 onward, only 64-bit is available."
+msgstr "Από την έκδοση 20 και μετά, μόνο 64-bit είναι διαθέσιμο."
+
+#: ../../choose.rst:58
+msgid ""
+"The 32-bit ISO images on prior versions are provided for compatibility with "
+"older computers. 32-bit processors are extremely rare nowadays and most "
+"computers are able to run in 64-bit. If your computer was manufactured after "
+"2007, you probably have a 64-bit processor."
+msgstr ""
+"Οι εικόνες ISO 32-bit σε προηγούμενες εκδόσεις παρέχονται για συμβατότητα με "
+"παλαιότερους υπολογιστές. Οι επεξεργαστές 32 bit είναι εξαιρετικά σπάνιοι "
+"στις μέρες μας και οι περισσότεροι υπολογιστές μπορούν να λειτουργούν σε 64 "
+"bit. Εάν ο υπολογιστής σας κατασκευάστηκε μετά το 2007, πιθανότατα έχετε "
+"επεξεργαστή 64 bit."
+
+#: ../../choose.rst:60
+msgid ""
+"If you have an old computer and you are unsure whether or not it can run in "
+"64-bit, read `X86 Chronology "
+"<https://en.wikipedia.org/wiki/X86#Chronology>`_."
+msgstr ""
+"Αν έχετε ένα πολύ παλιό υπολογιστή και δεν είστε βέβαιοι εάν είναι ικανός να "
+"τρέξει 64-bit, διαβάστε το `X86 Chronology "
+"<https://en.wikipedia.org/wiki/X86#Chronology>`_."
+
+#: ../../choose.rst:63
+msgid ""
+"You can try to boot Linux Mint 64-bit on your computer. If it isn't "
+"compatible, nothing bad will happen. You will just get an error message."
+msgstr ""
+"Μπορείτε να δοκιμάσετε να εκκινήσετε το Linux Mint 64-bit στον υπολογιστή "
+"σας. Εάν δεν είναι συμβατό, δεν θα συμβεί κάτι κακό. Απλά θα σας επιστρέψει "
+"ένα μήνυμα σφάλματος."
+
+#: ../../choose.rst:66
+msgid ""
+"If you cannot boot or install Linux Mint because your hardware is too recent "
+"and is not properly detected see the `Edge ISO Images <https://linuxmint-"
+"user-guide.readthedocs.io/en/latest/edge.html>`_ chapter in the Linux Mint "
+"User Guide for an alternative ISO."
+msgstr ""
+"Εάν δεν μπορείτε να εκκινήσετε ή να εγκαταστήσετε το Linux Mint επειδή το "
+"υλικό σας είναι πολύ πρόσφατο και δεν έχει εντοπιστεί σωστά, δείτε τo "
+"κεφάλαιο `Εικόνες Edge ISO <https://linuxmint-user-"
+"guide.readthedocs.io/en/latest/edge.html>`_ στον Οδηγό Χρήσης του Linux Mint "
+"για εναλλακτική εικόνα ISO."
+
+#: ../../codecs.rst:2
+msgid "Multimedia codecs"
+msgstr "Κωδικοποιητές πολυμέσων"
+
+#: ../../codecs.rst:4
+msgid "Some multimedia content requires additional codecs to be installed."
+msgstr ""
+"Ορισμένο περιεχόμενο πολυμέσων απαιτεί την εγκατάσταση πρόσθετων "
+"κωδικοποιητών."
+
+#: ../../codecs.rst:7
+msgid ""
+"If you were online when installing Linux Mint and you ticked the option to "
+"install these codecs, they are already installed."
+msgstr ""
+"Εάν κατά τη διάρκεια της εγκατάστασης είχατε ενεργή σύνδεση στο Internet και "
+"επιλέξατε να γίνει εγκατάσταση αυτών των κωδικοποιητών, τότε είναι ήδη "
+"εγκατεστημένοι."
+
+#: ../../codecs.rst:9
+msgid ""
+"Launch :menuselection:`Menu --> Sound & Video --> Install Multimedia Codecs`."
+msgstr ""
+"Εκκινήστε :menuselection:`Menu --> Sound & Video --> Install Multimedia "
+"Codecs`."
+
+#: ../../codecs.rst:14
+msgid "Click :guilabel:`Install`."
+msgstr "Κλικ :guilabel:`Install`."
+
+#: ../../codecs.rst:16
+msgid ""
+"Enter your password and wait for the codecs to be installed on your computer."
+msgstr ""
+"Εισάγετε τον κωδικό σας και περιμένετε να ολοκληρωθεί η εγκατάσταση των "
+"κωδικοποιητών στον υπολογιστή σας."
+
+#: ../../drivers.rst:2
+msgid "Hardware drivers"
+msgstr "Προγράμματα οδήγησης υλικού"
+
+#: ../../drivers.rst:4
+msgid ""
+"One of the first things to do after installing Linux Mint is to check for "
+"available hardware drivers."
+msgstr ""
+"Ένα από τα πρώτα πράγματα που θα κάνετε αμέσως μετά την εγκατάσταση του "
+"Linux Mint είναι να ελέγξετε εάν υπάρχουν διαθέσιμα προγράμματα οδήγησης "
+"υλικού."
+
+#: ../../drivers.rst:6
+msgid "Launch :menuselection:`Menu --> Administration --> Driver Manager`."
+msgstr ""
+"Εκκινήστε :menuselection:`Menu --> Administration --> Driver Manager`."
+
+#: ../../drivers.rst:13
+msgid ""
+"If you are offline, the Driver Manager will complain that it cannot connect "
+"to the Internet."
+msgstr ""
+"Εάν είστε εκτός σύνδεσης ο Driver Manager θα παραπονεθεί ότι δεν μπορεί να "
+"συνδεθεί στο Internet."
+
+#: ../../drivers.rst:19
+msgid ""
+"Insert your bootable Linux Mint USB stick (or DVD), wait for it to be "
+"mounted, and click :guilabel:`OK`."
+msgstr ""
+"Εισάγετε το εκκινήσιμο USB stick (ή DVD) του Linux Mint και περιμένετε να "
+"προσαρτηθεί, μετά κάντε κλικ στο :guilabel:`OK`."
+
+#: ../../drivers.rst:21
+msgid ""
+"Tick the appropriate checkboxes to select the available drivers and click "
+":guilabel:`Apply Changes`."
+msgstr ""
+"Τικ στο κατάλληλο πλαίσιο ελέγχου για να επιλέξετε τους διαθέσιμους οδηγούς "
+"και κάντε κλικ στο :guilabel:`Apply Changes`."
+
+#: ../../efi.rst:2
+msgid "EFI"
+msgstr "EFI"
+
+#: ../../efi.rst:5
+msgid "SecureBoot"
+msgstr "SecureBoot"
+
+#: ../../efi.rst:7
+msgid ""
+"If after installing Linux Mint in EFI mode, you are unable to boot due to a "
+"``Secure Boot Violation``, you can try one of the following solutions:"
+msgstr ""
+"Εάν μετά την εγκατάσταση του Linux Mint στη λειτουργία EFI, δεν μπορείτε να "
+"εκκινήσετε λόγω ενός ``Secure Boot Violation``, μπορείτε να δοκιμάσετε τις "
+"ακόλουθες λύσεις:"
+
+#: ../../efi.rst:15
+msgid "Restart the installation:"
+msgstr "Επανεκκινήστε την εγκατάσταση:"
+
+#: ../../efi.rst:14
+msgid "Connect to the Internet before the installation"
+msgstr "Συνδεθείτε στο Internet πριν την εκκίνηση της εγκατάστασης"
+
+#: ../../efi.rst:15
+msgid ""
+"**Do not** select ``Install third-party software for graphics and Wi-Fi "
+"hardware, Flash, MP3 and other media``."
+msgstr ""
+"**Μην Επιλέξετε** το ``Install third-party software for graphics and Wi-Fi "
+"hardware, Flash, MP3 and other media``."
+
+#: ../../efi.rst:17
+msgid "Disable ``SecureBoot`` in the ``BIOS`` settings of your computer."
+msgstr ""
+"Απενεργοποιήστε το ``SecureBoot``από τις ρυθμίσεις του ``BIOS`` στον "
+"υπολογιστή σας."
+
+#: ../../efi.rst:20
+msgid ""
+"For examples of how to disable secure boot on various computers, read "
+"`Managing EFI Boot Loaders for Linux: Dealing with Secure Boot "
+"<http://www.rodsbooks.com/efi-bootloaders/secureboot.html>`_."
+msgstr ""
+"Για παραδείγματα του πως να απενεργοποιήσετε το secure boot σε διάφορους "
+"υπολογιστές, διαβάστε το `Managing EFI Boot Loaders for Linux: Dealing with "
+"Secure Boot <http://www.rodsbooks.com/efi-bootloaders/secureboot.html>`_."
+
+#: ../../efi.rst:23
+msgid "EFI boot order"
+msgstr "Σειρά Εκκίνησης EFI"
+
+#: ../../efi.rst:25
+msgid ""
+"If after installing Linux Mint in EFI mode, your computer skips the boot "
+"menu and boots straight into Windows (or another operating system), you "
+"probably have an issue with the boot order."
+msgstr ""
+"Εάν μετά την εγκατάσταση του Linux Mint σε λειτουργία EFI, ο υπολογιστής σας "
+"παραλείπει το μενού εκκίνησης και εκκινεί απευθείας σε Windows (ή κάποιο "
+"άλλο λειτουργικό σύστημα), πιθανότατα έχετε ζήτημα με την σειρά εκκίνησης."
+
+#: ../../efi.rst:27
+msgid "To modify the boot order:"
+msgstr "Για να αλλάξετε τη σειρά εκκίνησης:"
+
+#: ../../efi.rst:29 ../../multiboot.rst:18
+msgid "Boot Linux Mint in ``live`` mode (with your USB stick or DVD)."
+msgstr ""
+"Εκκινήστε το Linux Mint σε λειτουργία ``live`` (από το USB stick ή το DVD)."
+
+#: ../../efi.rst:31 ../../multiboot.rst:20
+msgid "Open a terminal."
+msgstr "Ανοίξτε ένα τερματικό."
+
+#: ../../efi.rst:33
+msgid "Type ``sudo efibootmgr`` and press :kbd:`Enter`."
+msgstr "Πληκτρολογείστε ``sudo efibootmgr`` και πατήστε :kbd:`Enter`."
+
+#: ../../efi.rst:35
+msgid "This command lists the available boot options and the boot order."
+msgstr ""
+"Αυτή η εντολή επιστρέφει τις διαθέσιμες επιλογές εκκίνησης και τη σειρά "
+"εκκίνησης."
+
+#: ../../efi.rst:41
+msgid "In the screenshot above, there are three boot options:"
+msgstr "Στο παραπάνω στιγμιότυπο οθόνης, υπάρχουν τρείς επιλογές εκκίνησης:"
+
+#: ../../efi.rst:43
+msgid "``ubuntu`` at ``0000``"
+msgstr "``ubuntu`` at ``0000``"
+
+#: ../../efi.rst:44
+msgid "``linuxmint`` at ``0001``"
+msgstr "``linuxmint`` at ``0001``"
+
+#: ../../efi.rst:45
+msgid "``Mac OS X`` at ``0081``"
+msgstr "``Mac OS X`` at ``0081``"
+
+#: ../../efi.rst:47
+msgid ""
+"The boot order is ``0081``. This indicates that the computer only tries to "
+"boot Mac OS and not Linux Mint."
+msgstr ""
+"Η σειρά εκκίνησης είναι ``0081``. Αυτό υποδεικνύει ότι ο υπολογιστής "
+"προσπαθεί να εκκινήσει μόνο στο Mac OS και όχι στο Linux Mint."
+
+#: ../../efi.rst:50
+msgid ""
+"For technical reasons Linux Mint uses ``ubuntu`` as its EFI boot name."
+msgstr ""
+"Για τεχνικούς λόγους το Linux Mint χρησιμοποιεί το ``ubuntu`` ως όνομα στη "
+"λειτουργία EFI."
+
+#: ../../efi.rst:53
+msgid ""
+"To fix the boot order, type ``sudo efibootmgr --bootorder XXXX,YYYY`` (where "
+"``XXXX`` and ``YYYY`` are the operating system boot options you want to "
+"boot)."
+msgstr ""
+"Για να διορθώσετε τη σειρά εκκίνησης, πληκτρολογήστε ``sudo efibootmgr --"
+"bootorder XXXX,YYYY`` (όπου ``XXXX`` και ``YYYY`` είναι οι επιλογές "
+"εκκίνησης του λειτουργικού συστήματος που θέλετε να εκκινήσετε.)"
+
+#: ../../efi.rst:59
+msgid ""
+"In the screenshot above, ``sudo efibootmgr --bootorder 0000,0081`` instructs "
+"the computer to first try to boot Linux Mint (``ubuntu`` being the EFI boot "
+"name for Linux Mint), and then Mac OS."
+msgstr ""
+"Στο στιγμιότυπο οθόνης παραπάνω, το ``sudo efibootmgr --bootorder "
+"0000,0081`` καθοδηγεί τον υπολογιστή να προσπαθήσει πρώτα να εκκινήσει στο "
+"Linux Mint (με το ``ubuntu`` να είναι το όνομα που χρησιμοποιείται στη "
+"λειτουργία EFI) και έπειτα στο Mac OS."
+
+#: ../../efi.rst:64
+msgid ""
+"In the screenshot above ``0000`` is the first boot option so the computer "
+"boots on the Linux Mint grub menu. If grub fails (or if it is dismissed with "
+"the ``exit`` command), the computer follows the boot order and then tries to "
+"boot ``0081``, which corresponds to Mac OS."
+msgstr ""
+"Στο στιγμιότυπο οθόνης παραπάνω, το ``0000`` είναι η πρώτη επιλογή εκκίνησης "
+"ώστε ο υπολογιστής να εκκινήσει στο μενού GRUB του Linux Mint. Αν ο GRUB "
+"αποτύχει (ή αν ματαιωθεί με την εντολή ``exit``), ο υπολογιστής ακολουθεί τη "
+"σειρά εκκίνησης και προσπαθεί να εκκινήσει στο ``0081``, που αντιστοιχεί στο "
+"Mac OS."
+
+#: ../../help.rst:2
+msgid "Where to find help"
+msgstr "Που να βρείτε βοήθεια"
+
+#: ../../help.rst:4
+msgid ""
+"Many users will be glad to help you and guide you through your first steps "
+"with Linux if you are nice and patient with them and if you give them the "
+"information they require to understand the issues you are facing."
+msgstr ""
+"Πολλοί χρήστες θα χαρούν να σας βοηθήσουν και να σας καθοδηγήσουν στα πρώτα "
+"σας βήματα με το Linux αν είστε υπομονετικοί μαζί τους και εάν τους δώσετε "
+"τις πληροφορίες που χρειάζονται για να κατανοήσουν τα ζητήματα που "
+"αντιμετωπίζετε."
+
+#: ../../help.rst:7
+msgid "The forums"
+msgstr "Τα Φόρουμ"
+
+#: ../../help.rst:9
+msgid ""
+"The best place to find help is on the `Linux Mint Forums "
+"<https://forums.linuxmint.com>`_."
+msgstr ""
+"Το καλύτερο μέρος για να βρείτε βοήθεια είναι το `Linux Mint Forums "
+"<https://forums.linuxmint.com>`_."
+
+#: ../../help.rst:12
+msgid ""
+"Search the forums before asking, in case someone else already asked the same "
+"question."
+msgstr ""
+"Αναζητήστε στα φόρουμ πριν ρωτήσετε, στη περίπτωση που κάποιος άλλος έχει "
+"ήδη κάνει την ίδια ερώτηση."
+
+#: ../../help.rst:15
+msgid "The chat room"
+msgstr "Το δωμάτιο συζήτησης"
+
+#: ../../help.rst:17
+msgid "Another great place to find help is in the IRC chat room."
+msgstr ""
+"Ένα άλλο εξαιρετικό μέρος για να βρείτε βοήθεια είναι το δωμάτιο συζήτησης "
+"του IRC."
+
+#: ../../help.rst:19
+msgid ""
+"To reach the chat room from within Linux Mint, launch :menuselection:`Menu --"
+"> Internet --> HexChat`."
+msgstr ""
+"Για να συνδεθείτε στο δωμάτιο συζήτησης από το Linux Mint, εκκινήστε "
+":menuselection:`Menu --> Internet --> HexChat`."
+
+#: ../../help.rst:21
+msgid ""
+"If you are using another operating system, you can use `Kiwiirc "
+"<https://kiwiirc.com/client/irc.spotchat.org/?i#linuxmint-help>`_ to connect "
+"to the chat room."
+msgstr ""
+"Αν χρησιμοποιείτε διαφορετικό λειτουργικό σύστημα, μπορείτε να "
+"χρησιμοποιήσετε το `Kiwiirc "
+"<https://kiwiirc.com/client/irc.spotchat.org/?i#linuxmint-help>`_ για να "
+"συνδεθείτε στο δωμάτιο συζήτησης."
+
+#: ../../help.rst:24
+msgid ""
+"Many people are connected to the chat room but only look at it now and then. "
+"Be patient after asking a question. Don't repeat it and stay connected until "
+"you get an answer. It can sometimes take a few hours for somebody to see "
+"your question and reply to you. Don't quit after a few minutes. It is "
+"frustrating to you, but also to others who later see your question and are "
+"unable to reply because you already left."
+msgstr ""
+"Πολλοί χρήστες συνδέονται στο δωμάτιο συζήτησης αραιά και που. Να είστε "
+"υπομονετικοί μετά από μια ερώτηση. Μην την επαναλαμβάνετε και να παραμένετε "
+"συνδεδεμένοι μέχρι να λάβετε απάντηση. Μπορεί μερικές φορές να χρειαστούν "
+"κάποιες ώρες ώστε να δουν την ερώτησή σας και να σας απαντήσουν. Μην φύγετε "
+"μετά από λίγα λεπτά. Είναι απογοητευτικό για σας, αλλά και για τους άλλους "
+"που βλέπουν αργότερα την ερώτησή σας και δεν  μπορούν να σας απαντήσουν "
+"επειδή έχετε ήδη φύγει."
+
+#: ../../help.rst:27
+msgid ""
+"If you are using Hexchat, you can minimize it to tray by clicking its status "
+"icon. People will often mention your nickname when replying to you. When "
+"they do, your Hexchat status icon will blink to catch your attention."
+msgstr ""
+"Εάν χρησιμοποιείτε το Hexchat, μπορείτε να το ελαχιστοποιήσετε κάνοντας κλικ "
+"στο εικονίδιο κατάστασης. Οι χρήστες συχνά αναφέρουν το ψευδώνυμό σας όταν "
+"σας απαντούν. Όταν το κάνουν, το εικονίδιο κατάστασης Hexchat θα αναβοσβήνει "
+"ώστε να το δείτε."
+
+#: ../../help.rst:30
+msgid "Community resources"
+msgstr "Πόροι Κοινότητας"
+
+#: ../../help.rst:32
+msgid ""
+"The `tutorials section <https://community.linuxmint.com/tutorial/search>`_ "
+"is useful to find tutorials about Linux Mint."
+msgstr ""
+"Η `ενότητα με τα tutorials "
+"<https://community.linuxmint.com/tutorial/search>`_ είναι χρήσιμη για να "
+"βρείτε οδηγούς εκμάθησης σχετικούς με το Linux Mint."
+
+#: ../../help.rst:34
+msgid ""
+"The `hardware database <https://community.linuxmint.com/hardware/search>`_ "
+"is useful to find compatible hardware."
+msgstr ""
+"Η `βάση δεδομένων υλικού <https://community.linuxmint.com/hardware/search>`_ "
+"είναι χρήσιμη ώστε να βρείτε συμβατό υλικό."
+
+#: ../../help.rst:37
+msgid "Local communities"
+msgstr "Τοπικές κοινότητες"
+
+#: ../../help.rst:39
+msgid ""
+"To find help in your language, use the `Local Communities "
+"<https://www.linuxmint.com/links.php>`_."
+msgstr ""
+"Για να βρείτε βοήθεια στη γλώσσα σας, χρησιμοποιήστε το `Local Communities "
+"<https://www.linuxmint.com/links.php>`_."
+
+#: ../../index.rst:2
+msgid "Linux Mint Installation Guide"
+msgstr "Οδηγός εγκατάστασης Linux Mint"
+
+#: ../../index.rst:8
+msgid ""
+"Linux Mint comes in the form of an ISO image (an .iso file) which can be "
+"used to make a bootable DVD or a bootable USB stick."
+msgstr ""
+"Το Linux Mint έρχεται στη μορφή μιας εικόνας ISO (ένα αρχείο .iso) η οποία "
+"μπορεί να χρησιμοποιηθεί για να δημιουργηθεί ένα εκκινήσιμο DVD ή USB stick."
+
+#: ../../index.rst:10
+msgid ""
+"This guide will help you download the right ISO image, create your bootable "
+"media and install Linux Mint on your computer."
+msgstr ""
+"Αυτός ο οδηγός θα σας βοηθήσει να κάνετε λήψη τη σωστή εικόνα ISO, να "
+"δημιουργήσετε ένα εκκινήσιμο μέσο και να εγκαταστήσετε το Linux Mint στον "
+"υπολογιστή σας."
+
+#: ../../index.rst:12 ../../sections.rst:5
+msgid "Download"
+msgstr "Λήψη"
+
+#: ../../index.rst:19 ../../sections.rst:7
+msgid "Live Boot"
+msgstr "Live Εκκίνηση"
+
+#: ../../index.rst:26 ../../sections.rst:9
+msgid "Installation"
+msgstr "Εγκατάσταση"
+
+#: ../../index.rst:32 ../../sections.rst:11
+msgid "Post-installation"
+msgstr "Μετά την Εγκατάσταση"
+
+#: ../../index.rst:41 ../../sections.rst:13
+msgid "Troubleshooting"
+msgstr "Αντιμετώπιση Προβλημάτων"
+
+#: ../../index.rst:48 ../../sections.rst:15
+msgid "Frequently Asked Questions"
+msgstr "Συχνές Ερωτήσεις"
+
+#: ../../install.rst:2
+msgid "Install Linux Mint"
+msgstr "Εγκατάσταση Linux Mint"
+
+#: ../../install.rst:5
+msgid "The live session"
+msgstr "Η Live συνεδρία"
+
+#: ../../install.rst:7
+msgid ""
+"When you boot the computer from the USB stick (or DVD), Linux Mint starts a "
+"``live session``. It logs you in automatically as a user called ``mint`` and "
+"shows you a desktop with the installer on it:"
+msgstr ""
+"Όταν κάνετε εκκίνηση τον υπολογιστή από το USB stick (ή το DVD), το Linux "
+"Mint ξεκινά μια ``live συνεδρία``. Σας συνδέει αυτόματα ως έναν χρήστη που "
+"ονομάζεται ``mint`` και σας δείχνει μια επιφάνεια εργασίας η οποία περιέχει "
+"και το πρόγραμμα εγκατάστασης:"
+
+#: ../../install.rst:13
+msgid "The Linux Mint live session"
+msgstr "Η Live συνεδρία του Linux Mint"
+
+#: ../../install.rst:15
+msgid ""
+"The ``live session`` is similar to a normal session (i.e. to Linux Mint once "
+"it is permanently installed on the computer), but with the following "
+"exceptions:"
+msgstr ""
+"Η ``live συνεδρία`` είναι παρόμοια με μια κανονική συνεδρία (π.χ. εκείνη του "
+"Linux Mint όταν γίνει εγκατάσταση μόνιμα στον υπολογιστή), αλλά με τις "
+"ακόλουθες εξαιρέσεις:"
+
+#: ../../install.rst:17
+msgid ""
+"The Live session is slower (it is loaded from a USB stick or DVD as opposed "
+"to a SSD or HDD)."
+msgstr ""
+"Έχει πιο αργή απόκριση (έχει φορτώσει από το USB stick ή το DVD αντί από "
+"έναν SSD ή HDD)."
+
+#: ../../install.rst:18
+msgid ""
+"Changes you make in the live session are not permanent. They are not written "
+"to the USB stick (or DVD) and they do not impact the system installed by the "
+"installer."
+msgstr ""
+"Οι αλλαγές που κάνετε σε μια live συνεδρία δεν είναι μόνιμες. Δεν "
+"εγγράφονται στο USB stick (ή το DVD) και δεν επηρεάζουν το λειτουργικό "
+"σύστημα που γίνεται εγκατάσταση από το πρόγραμμα εγκατάστασης."
+
+#: ../../install.rst:19
+msgid ""
+"Some applications work differently (or not at all) in the live session "
+"(Timeshift, Flatpak, Update Manager, Welcome Screen..etc.)."
+msgstr ""
+"Κάποιες εφαρμογές λειτουργούν διαφορετικά (ή δεν λειτουργούν καθόλου) στη "
+"live συνεδρία (Timeshift, Flatpak, Διαχειριστής Ενημερώσεων, Οθόνη "
+"Καλωσορίσματος ...κλπ.)."
+
+#: ../../install.rst:22
+msgid ""
+"The username for the live session is ``mint``. If asked for a password press "
+":kbd:`Enter`."
+msgstr ""
+"Το όνομα χρήστη για τη live συνεδρία είναι ``mint``. Εάν σας ζητηθεί κωδικός "
+"απλά πατήστε το :kbd:`Enter`."
+
+#: ../../install.rst:25
+msgid "Installing Linux Mint on the computer"
+msgstr "Κάνοντας εγκατάσταση το Linux Mint στον υπολογιστή"
+
+#: ../../install.rst:27
+msgid "To permanently install Linux Mint on your computer:"
+msgstr "Για να κάνετε μόνιμα εγκατάσταση το Linux Mint στον υπολογιστή σας:"
+
+#: ../../install.rst:29
+msgid "Double-click :guilabel:`Install Linux Mint`."
+msgstr "Διπλό-κλικ στο :guilabel:`Install Linux Mint`."
+
+#: ../../install.rst:31
+msgid "Select your language."
+msgstr "Επιλέξτε τη γλώσσα σας."
+
+#: ../../install.rst:37
+msgid "Connect to the Internet."
+msgstr "Συνδεθείτε στο Internet."
+
+#: ../../install.rst:43
+msgid ""
+"If you are connected to the Internet, tick the box to install the multimedia "
+"codecs."
+msgstr ""
+"Εάν είστε συνδεδεμένοι στο Internet, κάντε τικ στο κουτί εγκατάστασης των "
+"κωδικοποιητών πολυμέσων."
+
+#: ../../install.rst:49
+msgid "Choose an installation type."
+msgstr "Επιλέξετε έναν τύπο εγκατάστασης."
+
+#: ../../install.rst:55
+msgid ""
+"If Linux Mint is the only operating system you want to run on this computer "
+"and all data can be lost on the hard drive, choose :guilabel:`Erase disk and "
+"install Linux Mint`."
+msgstr ""
+"Εάν το Linux Mint είναι το μοναδικό λειτουργικό σύστημα που θέλετε να έχετε "
+"στον υπολογιστή σας διαγράφοντας όλα τα υπόλοιπα δεδομένα, επιλέξετε "
+":guilabel:`Erase disk and install Linux Mint`."
+
+#: ../../install.rst:58
+msgid ""
+":guilabel:`Encrypt the new Linux Mint installation for security` refers to "
+"full disk encryption. At this stage of the installation your keyboard layout "
+"wasn't yet selected so it is set to en_US. If you decide to use this option, "
+"keep this in mind when entering a password. Note that there are issues with "
+"this option and some NVIDIA drivers. If you are new to Linux use home "
+"directory encryption instead (you can select it later during the "
+"installation)."
+msgstr ""
+"Το :guilabel:`Encrypt the new Linux Mint installation for security` "
+"αναφέρεται στην πλήρη κρυπτογράφηση του δίσκου. Σε αυτό το στάδιο της "
+"εγκατάστασης η διάταξη πληκτρολογίου δεν έχει ακόμη επιλεγεί οπότε τίθεται "
+"αυτόματα σε en_US. Εάν αποφασίσετε να χρησιμοποιήσετε αυτή τη επιλογή, να το "
+"θυμάστε αυτό όταν εισάγετε τον κωδικό. Λάβετε επίσης υπόψη σας ότι υπάρχουν "
+"κάποια ζητήματα με αυτή τη επιλογή σε συνδυασμό με κάποια προγράμματα "
+"οδήγησης της NVIDIA. Εάν είστε νεοεισερχόμενος στο Linux καλύτερο είναι να "
+"χρησιμοποιήσετε την κρυπτογράφηση του προσωπικού σας καταλόγου (μπορείτε να "
+"την επιλέξετε αργότερα κατά τη διάρκεια της εγκατάστασης)."
+
+#: ../../install.rst:60
+msgid ""
+"If another operating system is present on the computer, the installer shows "
+"you an option to install Linux Mint alongside it. If you choose this option, "
+"the installer automatically resizes your existing operating system, makes "
+"room and installs Linux Mint beside it. A boot menu is set up to choose "
+"between the two operating systems each time you start your computer."
+msgstr ""
+"Εάν κάποιο άλλο λειτουργικό σύστημα υπάρχει στον υπολογιστή σας, το "
+"πρόγραμμα εγκατάστασης σας δείχνει μια επιλογή ώστε να κάνετε εγκατάσταση το "
+"Linux Mint παράλληλα με αυτό. Εάν το επιλέξετε, το πρόγραμμα εγκατάστασης "
+"αυτόματα θα αλλάξει το μέγεθος του υπάρχοντος λειτουργικού συστήματος, θα "
+"αφήσει χώρο και θα εγκαταστήσει το Linux Mint δίπλα του. Ένα μενού εκκίνησης "
+"θα ρυθμιστεί ώστε να μπορείτε να επιλέξετε ανάμεσα στα δυο λειτουργικά "
+"συστήματα κάθε φορά που εκκινείτε τον υπολογιστή σας."
+
+#: ../../install.rst:64
+msgid ""
+"If you want to manage the partitions or specify which partitions to use, "
+"select :guilabel:`Something else`."
+msgstr ""
+"Εάν επιθυμείτε να διαχειριστείτε μόνοι σας τις κατατμήσεις ή να καθορίσετε "
+"ποιες κατατμήσεις θα χρησιμοποιηθούν, επιλέξτε :guilabel:`Something else`."
+
+#: ../../install.rst:70
+msgid ""
+"Linux Mint requires one partition to be mounted on the root ``/`` directory."
+msgstr ""
+"Το Linux Mint απαιτεί μια κατάτμηση να προσαρτηθεί στον κατάλογο root ``/``."
+
+#: ../../install.rst:72
+msgid ""
+"The Linux Mint operating system (without additional software or personal "
+"data) takes roughly 15GB, so give this partition a decent size (100GB or "
+"more)."
+msgstr ""
+"Το λειτουργικό σύστημα Linux Mint (χωρίς πρόσθετο λογισμικό ή προσωπικά "
+"δεδομένα) απαιτεί χοντρικά περί τα 15GB, οπότε δώστε σε αυτή τη κατάτμηση "
+"ένα αξιοπρεπές μέγεθος (της τάξης των 100GB ή περισσότερα)."
+
+#: ../../install.rst:74
+msgid "``ext4`` is recommended. It is the most popular Linux filesystem."
+msgstr ""
+"Το ``ext4`` είναι το προτεινόμενο. Είναι το πιο δημοφιλές σύστημα αρχείων "
+"στο Linux."
+
+#: ../../install.rst:79
+msgid ""
+"Also create a ``swap`` partition. This partition is used for hibernation and "
+"as a safety buffer in case your computer runs out of RAM. Give this "
+"partition a size equal to the amount of RAM in your computer."
+msgstr ""
+"Επίσης δημιουργήστε μια κατάτμηση ``swap``. Αυτή η κατάτμηση χρησιμοποιείται "
+"για αδρανοποίηση και ως δικλείδα ασφαλείας σε περίπτωση που ο υπολογιστής "
+"σας ξεμείνει από μνήμη RAM. Δώστε σε αυτή τη κατάτμηση ένα μέγεθος ίσο με "
+"την ποσότητα της RAM στον υπολογιστή σας."
+
+#: ../../install.rst:81
+msgid "Select your timezone"
+msgstr "Επιλέξτε τη  Ζώνη Ώρας"
+
+#: ../../install.rst:87
+msgid "Select your keyboard layout"
+msgstr "Επιλέξτε τη διάταξη πληκτρολογίου"
+
+#: ../../install.rst:93
+msgid "Enter your user details"
+msgstr "Εισάγετε τα στοιχεία χρήστη"
+
+#: ../../install.rst:99
+msgid ""
+"Your ``name`` can be your real name, but it doesn't have to be. It is only "
+"used locally, in the screensaver and on the login screen."
+msgstr ""
+"Το ``όνομα`` μπορεί να είναι το πραγματικό σας όνομα, αλλά δεν είναι "
+"απαραίτητο. Χρησιμοποιείται μόνον τοπικά, στη προστασία οθόνης και στην "
+"οθόνη σύνδεσης."
+
+#: ../../install.rst:101
+msgid ""
+"Your ``username`` is what you log in as, and your ``hostname`` is the name "
+"of your computer on the network."
+msgstr ""
+"Το ``όνομα χρήστη`` είναι εκείνο με το οποίο συνδέεστε και το ``όνομα "
+"υπολογιστή`` είναι το όνομα του υπολογιστή σας στο δίκτυο."
+
+#: ../../install.rst:103
+msgid ""
+"To prevent bugs only use lowercase characters, with no punctuation or "
+"accentuation."
+msgstr ""
+"Για να αποφύγετε τυχόν σφάλματα χρησιμοποιείστε πεζούς χαρακτήρες, χωρίς "
+"σημεία στίξης ή τόνους."
+
+#: ../../install.rst:105
+msgid ""
+"To protect your personal data against local attacks (people around you, or "
+"in case your computer gets stolen), tick :guilabel:`Encrypt my home folder`."
+msgstr ""
+"Για να προστατεύσετε τα προσωπικά σας δεδομένα από τοπικές επιθέσεις (άτομα "
+"γύρω σας, ή στη περίπτωση που κλαπεί ο υπολογιστής σας), κάντε τικ στο "
+":guilabel:`Encrypt my home folder`."
+
+#: ../../install.rst:107
+msgid "Choose a strong password."
+msgstr "Επιλέξτε έναν ισχυρό κωδικό."
+
+#: ../../install.rst:109
+msgid "Enjoy the slideshow while Linux Mint is installed on your computer."
+msgstr ""
+"Απολαύστε την προβολή παρουσίασης έως ότου ολοκληρωθεί η εγκατάσταση του "
+"Linux Mint στον υπολογιστή σας."
+
+#: ../../install.rst:115
+msgid "When the installation is finished, click :guilabel:`Restart Now`."
+msgstr ""
+"Όταν ολοκληρωθεί η εγκατάσταση κάντε κλικ στο :guilabel:`Restart Now`."
+
+#: ../../install.rst:121
+msgid ""
+"The computer will then start to shut down and ask you to remove the USB disk "
+"(or DVD). Upon reboot, your computer should show you a boot menu or start "
+"your newly installed Linux Mint operating system."
+msgstr ""
+"Ο υπολογιστής θα εκκινήσει τη διαδικασία απενεργοποίησης και θα σας ζητήσει "
+"να απομακρύνεται το USB stick (ή το DVD). Κατά την επανεκκίνηση, ο "
+"υπολογιστής σας θα πρέπει να δείξει ένα μενού εκκίνησης ή θα εκκινήσει "
+"απευθείας στο νέο εγκατεστημένο Linux Mint."
+
+#: ../../locales.rst:2
+msgid "Language support"
+msgstr "Γλωσσική Υποστήριξη"
+
+#: ../../locales.rst:4
+msgid ""
+"Language support includes translations but also packages related to spell-"
+"checking, synonyms, hyphenation and dictionaries which enhance your "
+"experience in software applications such as LibreOffice."
+msgstr ""
+"Η υποστήριξη γλώσσας περιλαμβάνει μεταφράσεις αλλά και πακέτα που "
+"σχετίζονται με ορθογραφικό έλεγχο, συνώνυμα και λεξικά που βελτιώνουν την "
+"εμπειρία σας σε εφαρμογές όπως το LibreOffice."
+
+#: ../../locales.rst:6
+msgid "Launch :menuselection:`Menu --> Preferences --> Languages`."
+msgstr "Εκκινήστε :menuselection:`Menu --> Preferences --> Languages`."
+
+#: ../../locales.rst:12
+msgid "Click :guilabel:`Install / Remove Language`."
+msgstr "Κλικ :guilabel:`Install / Remove Language`."
+
+#: ../../locales.rst:18
+msgid ""
+"If beside your locale, you see a label saying ``Some language packs are "
+"missing``, select your locale and click :guilabel:`Install language packs`."
+msgstr ""
+"Αν εκτός από την Γλώσσα, δείτε ένα μήνυμα να λέει ``Some language packs are "
+"missing``, επιλέξτε τη γλώσσα σας και κάντε κλικ στο :guilabel:`Install "
+"language packs`."
+
+#: ../../multiboot.rst:2
+msgid "Multi-boot"
+msgstr "Πολλαπλή-εκκίνηση"
+
+#: ../../multiboot.rst:5
+msgid "Always install Windows first"
+msgstr "Πάντοντε να κάνετε εγκατάσταση πρώτα το λειτουργικό σύστημα Windows"
+
+#: ../../multiboot.rst:7
+msgid ""
+"Windows does not detect other operating systems and does not feature a boot "
+"menu. When you install it, it overwrites your boot sequence and your "
+"computer then boots straight into Windows."
+msgstr ""
+"Το λειτουργικό σύστημα Windows δεν εντοπίζει άλλα λειτουργικά συστήματα και "
+"δεν διαθέτει μενού εκκίνησης. Όταν το κάνετε εγκατάσταση αντικαθιστά την "
+"ακολουθία εκκίνησης και έπειτα κάνει εκκίνηση απευθείας σε Windows."
+
+#: ../../multiboot.rst:9
+msgid ""
+"Linux Mint (and most Linux distributions) detects other operating systems "
+"and builds a menu from which you can choose which system to boot."
+msgstr ""
+"Το Linux Mint (και οι περισσότερες διανομές Linux) εντοπίζουν άλλα "
+"λειτουργικά συστήματα και έπειτα χτίζουν ένα μενού εκκίνησης από το οποίο "
+"μπορείτε να επιλέξετε ποιο λειτουργικό σύστημα θέλετε να εκκινήσει."
+
+#: ../../multiboot.rst:11
+msgid ""
+"For this reason, if you want to dual-boot or multi-boot with Windows, it is "
+"easier and recommended to install Windows first, before you install Linux "
+"Mint."
+msgstr ""
+"Γι' αυτό το λόγο, εάν θέλετε ένα σύστημα διπλής ή πολλαπλής εκκίνησης με "
+"Windows, είναι ευκολότερο και προτείνεται να κάνετε πρώτα εγκατάσταση τα "
+"Windows, πριν κάνετε εγκατάσταση το Linux Mint."
+
+#: ../../multiboot.rst:14
+msgid "Fix the boot sequence"
+msgstr "Διορθώστε την ακολουθία εκκίνησης"
+
+#: ../../multiboot.rst:16
+msgid "If Windows overwrites your boot sequence:"
+msgstr ""
+"Εάν το λειτουργικό σύστημα Windows αντικαταστήσει την ακολουθία εκκίνησης:"
+
+#: ../../multiboot.rst:22
+msgid "To list your partitions, type ``lsblk -f`` and press :kbd:`Enter`."
+msgstr ""
+"Για εμφάνιση λίστας των κατατμήσεων σας πληκτρολογήστε ``lsblk -f`` και "
+"πατήστε :kbd:`Enter`."
+
+#: ../../multiboot.rst:28
+msgid ""
+"Find the partition where Linux Mint is installed. On most systems this "
+"should be the only ``ext4`` partition."
+msgstr ""
+"Βρείτε την κατάτμηση στην οποία είναι εγκατεστημένο το Linux Mint. Στα "
+"περισσότερα συστήματα πρέπει να είναι η μοναδική κατάτμηση με σύστημα "
+"αρχείων ``ext4``."
+
+#: ../../multiboot.rst:30
+msgid "In the screenshot above:"
+msgstr "Στο στιγμιότυπο οθόνης παραπάνω:"
+
+#: ../../multiboot.rst:32
+msgid ""
+"``sdb`` is the USB stick (recognizable by its ``iso9660`` type which "
+"corresponds to an ISO image)."
+msgstr ""
+"Το ``sdb`` είναι το USB stick (το αναγνωρίζουμε από τον τύπο ``iso9660`` ο "
+"οποίος αντιστοιχεί σε εικόνα ISO)."
+
+#: ../../multiboot.rst:33
+msgid "``sda`` is the hard drive."
+msgstr "Το ``sda`` είναι ο σκληρός δίσκος."
+
+#: ../../multiboot.rst:34
+msgid ""
+"``sda4`` is the partition on the ``sda`` hard drive, where Linux Mint is "
+"installed."
+msgstr ""
+"Η ``sda4`` είναι η κατάτμηση στον δίσκο ``sda``, όπου έχει γίνει εγκατάσταση "
+"το Linux Mint."
+
+#: ../../multiboot.rst:36
+msgid "To list partition sizes, type ``lsblk``:"
+msgstr ""
+"Για να δείτε τη λίστα με τα μεγέθη των κατατμήσεων, πληκτρολογείστε "
+"``lsblk``:"
+
+#: ../../multiboot.rst:42
+msgid "To list partition labels, type ``blkid``:"
+msgstr ""
+"Για να δείτε τη λίστα με τις ετικέτες των κατατμήσεων, πληκτρολογείστε "
+"``blkid``:"
+
+#: ../../multiboot.rst:48
+msgid ""
+"Mount the Linux Mint partition and reinstall the grub menu with the "
+"following commands:"
+msgstr ""
+"Κάντε προσάρτηση τη κατάτμηση του Linux Mint και εγκαταστήστε εκ νέου το "
+"μενού GRUB με τις ακόλουθες εντολές:"
+
+#: ../../multiboot.rst:56
+msgid ""
+"In the commands above, replace /dev/sda4 and /dev/sda with the appropriate "
+"names for your Linux Mint partition and your hard drive device."
+msgstr ""
+"Στις παραπάνω εντολές, αντικαταστήστε τα  /dev/sda4 και /dev/sda με τα "
+"κατάλληλα ονόματα για τη δική σας κατάτμηση Linux Mint και το σκληρό δίσκο."
+
+#: ../../oem.rst:2
+msgid "Pre-installing Linux Mint (OEM Installation)"
+msgstr "Προ-εγκατάσταση του Linux Mint (εγκατάσταση OEM)"
+
+#: ../../oem.rst:4
+msgid ""
+"In the ISO boot menu, ``OEM install`` is used to preinstall Linux Mint."
+msgstr ""
+"Στο μενού εκκίνησης του ISO, χρησιμοποιείται το ``OEM install`` για να γίνει "
+"προεγκατάσταση του Linux Mint."
+
+#: ../../oem.rst:6
+msgid "This option is useful to:"
+msgstr "Αυτή η επιλογή είναι χρήσιμη σε:"
+
+#: ../../oem.rst:8
+msgid ""
+"Manufacturers and resellers who want to install Linux Mint on computers they "
+"sell to their customers."
+msgstr ""
+"Κατασκευαστές και μεταπωλητές οι οποίοι θέλουν να κάνουν εγκατάσταση το "
+"Linux Mint σε υπολογιστές που πωλούν σε πελάτες τους."
+
+#: ../../oem.rst:9
+msgid "People who want to sell or give their computer to somebody else."
+msgstr ""
+"Σε ανθρώπους οι οποίοι θέλουν να πουλήσουν ή να δώσουν τον υπολογιστή τους "
+"σε κάποιον άλλο."
+
+#: ../../oem.rst:11
+msgid ""
+"When you install Linux Mint in ``OEM`` mode, the operating system is "
+"installed with a temporary user account and prepared for the computer's "
+"future owner."
+msgstr ""
+"Όταν κάνετε εγκατάσταση το Linux Mint στη λειτουργία ``OEM``, το λειτουργικό "
+"σύστημα γίνεται εγκατάσταση με έναν προσωρινό λογαριασμό χρήστη και είναι "
+"προετοιμασμένο για τον μελλοντικό του κάτοχο."
+
+#: ../../oem.rst:13
+msgid "The user account is set up by the new owner."
+msgstr "Ο λογαριασμός χρήστη ρυθμίζεται από τον νέο κάτοχο."
+
+#: ../../oem.rst:15
+msgid "To perform an OEM installation follow the steps below:"
+msgstr ""
+"Για να εκτελέσετε μια εγκατάσταση OEM ακολουθήστε τα παρακάτω βήματα:"
+
+#: ../../oem.rst:17
+msgid "Select ``OEM Install`` from the USB stick (or DVD) menu."
+msgstr "Επιλέξτε ``OEM Install`` από το μενού του USB stick (ή του DVD)"
+
+#: ../../oem.rst:19
+msgid "Launch the installer and follow the installation instructions."
+msgstr ""
+"Εκκινήστε το πρόγραμμα εγκατάστασης και ακολουθήστε τις οδηγίες εγκατάστασης."
+
+#: ../../oem.rst:23
+msgid ""
+"Change any system settings or install additional software if you want."
+msgstr ""
+"Αλλάξτε όποιες ρυθμίσεις συστήματος θέλετε ή κάντε εγκατάσταση πρόσθετο "
+"λογισμικό."
+
+#: ../../oem.rst:25
+msgid ""
+"When ready, click :guilabel:`Prepare for shipping to end user`, enter the "
+"password you chose during the installation, click :guilabel:`OK` and shut "
+"down the computer."
+msgstr ""
+"Όταν είστε έτοιμοι, κλικ στο :guilabel:`Prepare for shipping to end user` , "
+"εισάγετε τον κωδικό που επιλέξατε κατά τη διάρκεια της εγκατάστασης, κλικ "
+"στο :guilabel:`OK` και απενεργοποιήστε τον υπολογιστή."
+
+#: ../../oem.rst:31
+msgid ""
+"When the new owner of the computer boots the computer the following screen "
+"appears:"
+msgstr ""
+"Όταν ο νέος κάτοχος του υπολογιστή κάνει εκκίνηση θα εμφανιστεί η ακόλουθη "
+"εικόνα:"
+
+#: ../../oem.rst:37
+msgid ""
+"The new owner selects his or her username, password, keyboard layout, "
+"language, timezone and all the details relevant to create his or her user "
+"account."
+msgstr ""
+"Ο νέος κάτοχος επιλέγει όνομα χρήστη, κωδικό πρόσβασης, διάταξη "
+"πληκτρολογίου, γλώσσα, ζώνη ώρας και όλες τις λεπτομέρειες που χρειάζονται "
+"για τη δημιουργία του δικού του λογαριασμού."
+
+#: ../../partitioning.rst:2
+msgid "Partitioning"
+msgstr "Διαμερισμός"
+
+#: ../../partitioning.rst:5
+msgid "Disks and partitions under Linux"
+msgstr "Δίσκοι και κατατμήσεις στο Linux"
+
+#: ../../partitioning.rst:7
+msgid ""
+"If you are not familiar with the Linux naming scheme for devices and "
+"partitions, or the concept of filesystems and mount points, read:"
+msgstr ""
+"Αν δεν είστε εξοικειωμένοι με το σύστημα ονοματοδοσίας για τις συσκευές και "
+"τις κατατμήσεις στο Linux, ή την έννοια των συστημάτων αρχείων και των "
+"σημείων προσάρτησης, διαβάστε:"
+
+#: ../../partitioning.rst:9
+msgid ""
+"`A beginner’s guide to disks and disk partitions in Linux "
+"<http://linuxbsdos.com/2014/11/08/a-beginners-guide-to-disks-and-disk-"
+"partitions-in-linux/>`_"
+msgstr ""
+"`A beginner’s guide to disks and disk partitions in Linux "
+"<http://linuxbsdos.com/2014/11/08/a-beginners-guide-to-disks-and-disk-"
+"partitions-in-linux/>`_"
+
+#: ../../partitioning.rst:10
+msgid ""
+"`Device Names in Linux "
+"<https://www.debian.org/releases/wheezy/amd64/apcs04.html.en>`_"
+msgstr ""
+"`Device Names in Linux "
+"<https://www.debian.org/releases/wheezy/amd64/apcs04.html.en>`_"
+
+#: ../../partitioning.rst:11
+msgid ""
+"`Understanding the Linux File System "
+"<http://etutorials.org/Linux+systems/red+hat+linux+9+professional+secrets/Par"
+"t+II+Exploring+Red+Hat+Linux/Chapter+7+Red+Hat+Linux+Basics/Understanding+the"
+"+Linux+File+System/>`_"
+msgstr ""
+"`Understanding the Linux File System "
+"<http://etutorials.org/Linux+systems/red+hat+linux+9+professional+secrets/Par"
+"t+II+Exploring+Red+Hat+Linux/Chapter+7+Red+Hat+Linux+Basics/Understanding+the"
+"+Linux+File+System/>`_"
+
+#: ../../partitioning.rst:14
+msgid "Dedicated /home partition"
+msgstr "Ειδική κατάτμηση /home"
+
+#: ../../partitioning.rst:16
+msgid ""
+"In Linux, the ``/home`` directory is used to store user data and preferences."
+msgstr ""
+"Στο Linux, ο κατάλογος ``/home`` χρησιμοποιείται για να αποθηκεύει δεδομένα "
+"και προτιμήσεις του χρήστη."
+
+#: ../../partitioning.rst:18
+msgid ""
+"This directory contains one subdirectoy for each user account. Say your "
+"username is ``john``, your home directory is ``/home/john``, your downloads "
+"are in ``/home/john/Downloads``, your documents in ``/home/john/Documents``, "
+"your Firefox bookmarks somewhere in ``/home/john/.mozilla`` and so on..."
+msgstr ""
+"Αυτός ο κατάλογος περιέχει υποκαταλόγους για κάθε λογαριασμό χρήστη. Ας "
+"πούμε ότι το όνομα χρήστη είναι ``john``, ο κατάλογος χρήστη θα είναι "
+"``/home/john`` , ο κατάλογος λήψεων θα είναι στο ``/home/john/Downloads``, "
+"τα έγγραφα στο ``/home/john/Documents``, οι ρυθμίσεις του Firefox στο "
+"``/home/john/.mozilla`` ...κλπ."
+
+#: ../../partitioning.rst:20
+msgid ""
+"By giving ``/home`` its own dedicated partition, you separate the user data "
+"from the rest of the operating system."
+msgstr ""
+"Δίνοντας στον κατάλογο ``/home`` τη δική του ξεχωριστή κατάτμηση, "
+"διαχωρίζετε τα δεδομένα του χρήστη από το υπόλοιπο λειτουργικό σύστημα."
+
+#: ../../partitioning.rst:22
+msgid ""
+"The advantage is that you can wipe the operating system and replace it "
+"without affecting the user data."
+msgstr ""
+"Το πλεονέκτημα είναι ότι μπορείτε να σβήσετε το λειτουργικό σύστημα και να "
+"το αντικαταστήσετε χωρίς να επηρεαστούν τα δεδομένα του χρήστη."
+
+#: ../../partitioning.rst:24
+msgid "When installing Linux Mint:"
+msgstr "Όταν κάνετε εγκατάσταση το Linux Mint:"
+
+#: ../../partitioning.rst:26
+msgid ""
+"Assign the ``/`` mount point to the partition dedicated to the operating "
+"system, and tell the installer to format it."
+msgstr ""
+"Εκχωρήστε το σημείο προσάρτησης ``/`` στην ειδική κατάτμηση για το "
+"λειτουργικό σύστημα και πείτε στο πρόγραμμα εγκατάστασης να κάνει διαμόρφωση."
+
+#: ../../partitioning.rst:28
+msgid ""
+"Assign the ``/home`` mount point to the partition dedicated to the user "
+"data, and if it contains user data already, make sure to tell the installer "
+"**not to format it**."
+msgstr ""
+"Εκχωρήστε το σημείο προσάρτησης ``/home`` στην ειδική κατάτμηση για τα "
+"δεδομένα του χρήστη, και εάν περιέχει ήδη κάποια δεδομένα, σιγουρευτείτε ότι "
+"θα πείτε στο πρόγραμμα εγκατάστασης να **μην κάνει διαμόρφωση**."
+
+#: ../../partitioning.rst:31
+msgid ""
+"This is not recommended for novice users. A misstep during the installation "
+"could wipe all your data. Always make backups, make sure to select the right "
+"partitions and to carefully review formatting options."
+msgstr ""
+"Αυτή η μέθοδος δεν συνίσταται σε άπειρους χρήστες. Ένα λάθος κατά τη "
+"διάρκεια της εγκατάστασης μπορεί να διαγράψει όλα σας τα δεδομένα. Πάντα να "
+"έχετε αντίγραφα ασφαλείας, σιγουρευτείτε ότι έχετε επιλέξει τις σωστές "
+"κατατμήσεις και ότι έχετε εξετάσει προσεκτικά τις επιλογές διαμόρφωσης."
+
+#: ../../partitioning.rst:34
+msgid ""
+"A Linux Mint operating system takes about 15GB and grows as you install "
+"additional software. If you can spare the size, give it 100GB. Keep most of "
+"your free space for the home partition. User data (downloads, videos, "
+"pictures) takes a lot more space."
+msgstr ""
+"Μια τυπική εγκατάσταση του Linux Mint χρειάζεται περίπου 15GB και αυξάνει "
+"καθώς κάνετε εγκατάσταση πρόσθετο λογισμικό. Αν μπορείτε να διαθέσετε "
+"μέγεθος, δώστε του 100GB. Κρατήστε τον περισσότερο ελεύθερο χώρο για την "
+"κατάτμηση home. Τα δεδομένα χρήστη (λήψεις, βίντεο, εικόνες) καταλαμβάνουν "
+"περισσότερο χώρο."
+
+#: ../../timeshift.rst:2
+msgid "System snapshots"
+msgstr "Στιγμιότυπα Συστήματος"
+
+#: ../../timeshift.rst:4
+msgid ""
+"Before you start using your operating system, set up system snapshots. Then "
+"if anything goes wrong, you can restore your system from an earlier backup."
+msgstr ""
+"Πριν ξεκινήσετε να χρησιμοποιείτε το λειτουργικό σας σύστημα, ρυθμίστε τα "
+"στιγμιότυπα συστήματος. Έτσι εάν κάτι πάει στραβά, μπορείτε να επαναφέρετε "
+"το σύστημά σας από ένα προηγούμενο αντίγραφο ασφαλείας."
+
+#: ../../timeshift.rst:6
+msgid "Launch :menuselection:`Menu --> Administration --> Timeshift`."
+msgstr "Εκκινήστε το :menuselection:`Menu --> Administration --> Timeshift`."
+
+#: ../../timeshift.rst:8
+msgid "Select ``RSYNC`` and click :guilabel:`Next`."
+msgstr "Επιλέξτε ``RSYNC`` και κλικ στο :guilabel:`Next`."
+
+#: ../../timeshift.rst:13
+msgid ""
+"Select the device where you want system snapshots to be saved and click "
+":guilabel:`Next`."
+msgstr ""
+"Επιλέξετε τη συσκευή στην οποία θέλετε να αποθηκεύονται τα στιγμιότυπα και "
+"κάντε κλικ στο :guilabel:`Next`."
+
+#: ../../timeshift.rst:19
+msgid ""
+"The selected device is not formatted and no data is lost. System snapshots "
+"are saved into a newly created ``timeshift`` directory on the root of the "
+"selected device."
+msgstr ""
+"Η επιλεγμένη συσκευή δεν θα διαμορφωθεί και δεν θα χαθούν δεδομένα από αυτή. "
+"Τα στιγμιότυπα Συστήματος αποθηκεύονται σε ένα νέο κατάλογο που ονομάζεται "
+"``timeshift`` κάτω από τον κεντρικό κατάλογο της επιλεγμένης συσκευής."
+
+#: ../../timeshift.rst:21
+msgid "Select when system snapshots are saved."
+msgstr "Επιλέξτε κάθε πότε θα αποθηκεύονται τα στιγμιότυπα συστήματος."
+
+#: ../../timeshift.rst:27
+msgid ""
+"System snapshots are incremental so although the first snapshot takes a "
+"significant amount of spaces, new snapshots only take additional space for "
+"files which have changed."
+msgstr ""
+"Τα στιγμιότυπα Συστήματος γίνονται τμηματικά, έτσι αν και το πρώτο "
+"στιγμιότυπο καταλαμβάνει σημαντικό χώρο, όλα τα υπόλοιπα στιγμιότυπα "
+"καταλαμβάνουν επιπλέον χώρο μόνο για τα αρχεία που έχουν αλλάξει."
+
+#: ../../timeshift.rst:30
+msgid ""
+"``Boot`` snapshots are performed in the background and do not impact the "
+"speed of the boot sequence."
+msgstr ""
+"Το ``Boot`` των στιγμιοτύπων γίνεται στο παρασκήνιο και δεν επηρεάζει "
+"καθόλου την ταχύτητα της ακολουθίας εκκίνησης."
+
+#: ../../timeshift.rst:32
+msgid "Click :guilabel:`Finish`."
+msgstr "Κλικ στο :guilabel:`Finish`."
+
+#: ../../verify.rst:2
+msgid "Verify your ISO image"
+msgstr "Επαληθεύστε την εικόνα ISO"
+
+#: ../../verify.rst:4
+msgid ""
+"It is important to verify the integrity and authenticity of your ISO image."
+msgstr ""
+"Είναι σημαντικό να επαληθεύσετε την ακεραιότητα και την αυθεντικότητα της "
+"εικόνας ISO που έχετε."
+
+#: ../../verify.rst:6
+msgid ""
+"The integrity check confirms that your ISO image was properly downloaded and "
+"that your local file is an exact copy of the file present on the download "
+"servers. An error during the download could result in a corrupted file and "
+"trigger random issues during the installation."
+msgstr ""
+"Ο έλεγχος ακεραιότητας επιβεβαιώνει ότι η εικόνα ISO λήφθηκε σωστά και ότι "
+"το τοπικό σας αρχείο είναι ακριβές αντίγραφο του αρχείου που φιλοξενείται "
+"στους διακομιστές λήψεων. Ένα λάθος κατά τη διάρκεια της λήψης μπορεί να "
+"έχει ως αποτέλεσμα ένα κατεστραμμένο αρχείο και να προκαλέσει διάφορα "
+"ζητήματα κατά τη διάρκεια της εγκατάστασης."
+
+#: ../../verify.rst:8
+msgid ""
+"The authenticity check confirms that the ISO image you downloaded was signed "
+"by Linux Mint, and thus that it isn't a modified or malicious copy made by "
+"somebody else."
+msgstr ""
+"Ο έλεγχος αυθεντικότητας επιβεβαιώνει ότι η εικόνα ISO που έχετε κάνει λήψη "
+"είναι υπογεγραμμένη από το Linux Mint, και έτσι ότι δεν είναι τροποποιημένη "
+"από κάποιον άλλο ή ότι δεν είναι κάποιο κακόβουλο αντίγραφο."
+
+#: ../../verify.rst:11
+msgid "Download the SHA256 sums provided by Linux Mint"
+msgstr "Κάντε λήψη τα SHA256 sums τα οποία παρέχονται από το Linux Mint"
+
+#: ../../verify.rst:13
+msgid ""
+"All `download mirrors <https://www.linuxmint.com/mirrors.php>`_ provide the "
+"ISO images, a ``sha256sum.txt`` file and a ``sha256sum.txt.gpg`` file. You "
+"should be able to find these files in the same place you downloaded the ISO "
+"image from."
+msgstr ""
+"Όλοι οι `download mirrors <https://www.linuxmint.com/mirrors.php>`_ παρέχουν "
+"εικόνες ISO, ένα αρχείο ``sha256sum.txt`` και ένα αρχείο "
+"``sha256sum.txt.gpg``. Θα πρέπει να είστε σε θέση να βρείτε αυτά τα αρχεία "
+"στο ίδιο μέρος από όπου κάνατε λήψη την εικόνα ISO."
+
+#: ../../verify.rst:15
+msgid ""
+"If you can't find them, browse the `Heanet download mirror "
+"<https://ftp.heanet.ie/mirrors/linuxmint.com/stable/>`_ and click the "
+"version of the Linux Mint release you downloaded."
+msgstr ""
+"Αν δεν μπορείτε να τα εντοπίσετε, περιηγηθείτε στο `Heanet download mirror "
+"<https://ftp.heanet.ie/mirrors/linuxmint.com/stable/>`_  και κάντε κλικ στην "
+"έκδοση του Linux Mint που κάνατε λήψη."
+
+#: ../../verify.rst:17
+msgid "Download both ``sha256sum.txt`` and ``sha256sum.txt.gpg``."
+msgstr ""
+"Κάντε λήψη και των δυο αρχείων ``sha256sum.txt`` και ``sha256sum.txt.gpg``."
+
+#: ../../verify.rst:19
+msgid ""
+"Do not copy their content, use \"right-click->Save Link As...\" to download "
+"the files themselves and do not modify them in any way."
+msgstr ""
+"Μην αντιγράφετε το περιεχόμενό τους, χρησιμοποιήστε το \"δεξί κλικ-"
+">Αποθήκευση συνδέσμου ως ...\" για να κατεβάσετε τα αρχεία και να μην τα "
+"τροποποιήσετε με οποιονδήποτε τρόπο."
+
+#: ../../verify.rst:22
+msgid "Integrity check"
+msgstr "Έλεγχος Ακεραιότητας"
+
+#: ../../verify.rst:24
+msgid ""
+"To check the integrity of your local ISO file, generate its SHA256 sum and "
+"compare it with the sum present in ``sha256sum.txt``."
+msgstr ""
+"Για να ελέγξετε την ακεραιότητα του αρχείου ISO που διαθέτετε, δημιουργήστε "
+"το  SHA256 sum και συγκρίνετέ το με εκείνο που υπάρχει στο αρχείο "
+"``sha256sum.txt``."
+
+#: ../../verify.rst:31
+msgid ""
+"If you are using Windows follow the tutorial `How to verify the ISO image on "
+"Windows <https://forums.linuxmint.com/viewtopic.php?f=42&t=291093>`_."
+msgstr ""
+"Αν χρησιμοποιείτε Windows ακολουθήστε τον οδηγό `Πως να επαληθεύσετε την "
+"εικόνα ISO σε Windows "
+"<https://forums.linuxmint.com/viewtopic.php?f=42&t=291093>`_."
+
+#: ../../verify.rst:33
+msgid ""
+"If the sums match, your ISO image was successfully downloaded. If they "
+"don't, download it again."
+msgstr ""
+"Αν τα αθροίσματα (sums) ταιριάζουν, η εικόνα ISO έχει ληφθεί επιτυχώς. Αν "
+"όχι, κάντε εκ νέου λήψη."
+
+#: ../../verify.rst:38
+msgid "Authenticity check"
+msgstr "Έλεγχος Αυθεντικότητας"
+
+#: ../../verify.rst:40
+msgid ""
+"To verify the authenticity of ``sha256sum.txt``, check the signature of "
+"``sha256sum.txt.gpg`` by following the steps below."
+msgstr ""
+"Για να ελέγξετε την αυθεντικότητα του αρχείου ``sha256sum.txt``, ελέγξτε την "
+"υπογραφή στο αρχείο ``sha256sum.txt.gpg`` ακολουθώντας τα παρακάτω βήματα."
+
+#: ../../verify.rst:43
+msgid "Import the Linux Mint signing key:"
+msgstr "Εισάγετε το κλειδί υπογραφής του Linux Mint:"
+
+#: ../../verify.rst:49
+msgid ""
+"If gpg complains about the key ID, try the following commands instead:"
+msgstr "Αν το πρόγραμμα gpg παραπονιέται για το key ID, κάντε το παρακάτω:"
+
+#: ../../verify.rst:56
+msgid ""
+"Check the output of the last command, to make sure the fingerprint is ``27DE "
+"B156 44C6 B3CF 3BD7 D291 300F 846B A25B AE09`` (with or without spaces)."
+msgstr ""
+"Ελέγξτε την έξοδο της τελευταίας εντολής, για να βεβαιωθείτε ότι το "
+"δακτυλικό αποτύπωμα είναι ``27DE B156 44C6 B3CF 3BD7 D291 300F 846B A25B "
+"AE09`` (με ή χωρίς κενά)."
+
+#: ../../verify.rst:59
+msgid "Verify the authenticity of sha256sum.txt:"
+msgstr "Επαληθεύστε την αυθεντικότητα του sha256sum.txt:"
+
+#: ../../verify.rst:64
+msgid ""
+"The output of the last command should tell you that the file signature is "
+"``good`` and that it was signed with the ``A25BAE09`` key."
+msgstr ""
+"Η έξοδος της τελευταίας εντολής πρέπει να σας πει ότι η υπογραφή του αρχείου "
+"είναι ``good`` και ότι υπεγράφη με το κλειδί ``A25BAE09``."
+
+#: ../../verify.rst:67
+msgid ""
+"GPG might warn you that the Linux Mint signature is not trusted by your "
+"computer. This is expected and perfectly normal."
+msgstr ""
+"Το πρόγραμμα GPG ίσως σας προειδοποιήσει ότι η υπογραφή του Linux Mint δεν "
+"είναι αξιόπιστη από τον υπολογιστή σας. Αυτό είναι αναμενόμενο και απόλυτα "
+"φυσιολογικό."
+
+#: ../../verify.rst:70
+msgid ""
+"For more information on ISO verification, or to verify BETA, LMDE or old "
+"releases, read `How to Verify ISO images "
+"<https://linuxmint.com/verify.php>`_."
+msgstr ""
+"Για περισσότερες πληροφορίες σχετικά με την επαλήθευση ISO, ή για να "
+"επαληθεύσετε εκδόσεις BETA, LMDE ή παλαιότερες εκδόσεις, διαβάστε το `How to "
+"Verify ISO images <https://linuxmint.com/verify.php>`_."

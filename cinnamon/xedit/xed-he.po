@@ -1,0 +1,4100 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+#
+# Translators:
+# Yaron Shahrabani <sh.yaron@gmail.com>, 2013
+msgid ""
+msgstr ""
+"Project-Id-Version: MATE Desktop Environment\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-06-11 13:15+0200\n"
+"PO-Revision-Date: 2022-07-30 15:48+0000\n"
+"Last-Translator: Avi Markovitz <avi.markovitz@gmail.com>\n"
+"Language-Team: Hebrew "
+"(http://www.transifex.com/projects/p/MATE/language/he/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Launchpad-Export-Date: 2022-10-10 13:08+0000\n"
+"X-Generator: Launchpad (build 762fb15a975e8b23af6a1f86e44e46bfd0451459)\n"
+"Language: he\n"
+
+#: ../data/xed.appdata.xml.in.h:1
+msgid "A Text Editor"
+msgstr "עורך מלל"
+
+#: ../data/xed.appdata.xml.in.h:2
+msgid ""
+"<p> Xed is a small, but powerful text editor. It has most standard text "
+"editor functions and fully supports international text in Unicode. Advanced "
+"features include syntax highlighting and automatic indentation of source "
+"code, printing and editing of multiple documents in one window. </p> <p> Xed "
+"is extensible through a plugin system, which currently includes support for "
+"spell checking, comparing files, viewing CVS ChangeLogs, and adjusting "
+"indentation levels. </p>"
+msgstr ""
+"<p> ‏Xed הוא עורך מלל זעיר אך עוצמתי. הוא מכיל את כל התכונות השכיחות ביותר "
+"של עורך מלל ותומך באופן מלא במלל בינלאומי ביוניקוד. בין התכונות המתקדמות "
+"ניתן למצוא: הדגשת תחביר, הזחה אוטומטית של קוד המקור, הדפסה ועריכה של מספר "
+"מסמכים בחלון אחד. </p> <p> אפשר להרחיב את Xed בעזרת מערכת מתקעים, שכוללת "
+"כיום תמיכה בבדיקת איות, השוואת קבצים, צפייה ביומני שינויים CVS והתאמת רמות "
+"הזחה. </p>"
+
+#: ../data/xed.desktop.in.in.h:1 ../xed/xed-print-job.c:700
+msgid "Text Editor"
+msgstr "עורך מלל"
+
+#: ../data/xed.desktop.in.in.h:2
+msgid "Edit text files"
+msgstr "עריכת קובצי מלל"
+
+#: ../xed/xed-app.c:100
+msgid "Show the application's version"
+msgstr "הצגת גרסת היישומן"
+
+#: ../xed/xed-app.c:106
+msgid "Display list of possible values for the encoding option"
+msgstr "הצגת רשימת ערכים אפשריים לאפשרות קידוד"
+
+#: ../xed/xed-app.c:113
+msgid ""
+"Set the character encoding to be used to open the files listed on the "
+"command line"
+msgstr "הגדרת קידוד התווים שישמש לפתיחת הקבצים ברשימה שבשורת הפקודה"
+
+#: ../xed/xed-app.c:114
+msgid "ENCODING"
+msgstr "קידוד"
+
+#: ../xed/xed-app.c:120
+msgid "Create a new top-level window in an existing instance of xed"
+msgstr "יצירת חלון חדש, ברמה עלינה, באדגם xed הקיים"
+
+#: ../xed/xed-app.c:127
+msgid "Create a new document in an existing instance of xed"
+msgstr "יצירת מסמך חדש באדגם xed הקיים"
+
+#: ../xed/xed-app.c:134
+msgid "Set the size and position of the window (WIDTHxHEIGHT+X+Y)"
+msgstr "הגדרת מידת ומיקום החלון (רוחבXגובה+X+Y)"
+
+#: ../xed/xed-app.c:135
+msgid "GEOMETRY"
+msgstr "מֵמדים"
+
+#: ../xed/xed-app.c:141
+msgid "Open files and block process until files are closed"
+msgstr "פתיחת קבצים וחסימת תהליך עד סגירתם"
+
+#: ../xed/xed-app.c:148
+msgid "Run xed in standalone mode"
+msgstr "הפעלת xed במצב עצמאי"
+
+#: ../xed/xed-app.c:155
+msgid "[FILE...] [+LINE]"
+msgstr "[FILE...] [+LINE]"
+
+#: ../xed/xed-app.c:612
+#, c-format
+msgid "%s: invalid encoding."
+msgstr "%s: קידוד לא תקין."
+
+#: ../xed/xed-app.c:1266
+msgid "There was an error displaying the help."
+msgstr "ארעה שגיאה בהצגת העזרה."
+
+#: ../xed/xed-close-confirmation-dialog.c:129
+msgid "Log Out _without Saving"
+msgstr "יציאה _ללא שמירה"
+
+#: ../xed/xed-close-confirmation-dialog.c:130
+msgid "_Cancel Logout"
+msgstr "_ביטול התנתקות"
+
+#: ../xed/xed-close-confirmation-dialog.c:134
+msgid "Close _without Saving"
+msgstr "סגירה _ללא שמירה"
+
+#: ../xed/xed-close-confirmation-dialog.c:135 ../xed/xed-commands-file.c:399
+#: ../xed/xed-commands-file.c:502 ../xed/xed-commands-file.c:648
+#: ../xed/xed-commands-file.c:1333 ../xed/xed-encodings-dialog.c:330
+#: ../xed/xed-io-error-info-bar.c:147 ../xed/xed-io-error-info-bar.c:406
+#: ../xed/xed-io-error-info-bar.c:1051
+#: ../xed/resources/ui/xed-highlight-mode-dialog.ui.h:2
+#: ../plugins/filebrowser/xed-file-browser-utils.c:153
+msgid "_Cancel"
+msgstr "_ביטול"
+
+#: ../xed/xed-close-confirmation-dialog.c:155
+msgid "_Save As..."
+msgstr "_שמירה בשם..."
+
+#. File menu
+#: ../xed/xed-close-confirmation-dialog.c:161 ../xed/xed-commands-file.c:649
+#: ../xed/xed-ui.h:81
+msgid "_Save"
+msgstr "_שמירה"
+
+#: ../xed/xed-close-confirmation-dialog.c:188
+msgid "Question"
+msgstr "שאלה"
+
+#: ../xed/xed-close-confirmation-dialog.c:379
+#, c-format
+msgid ""
+"If you don't save, changes from the last %ld second will be permanently lost."
+msgid_plural ""
+"If you don't save, changes from the last %ld seconds will be permanently "
+"lost."
+msgstr[0] "אם לא תתבצע שמירה, שינויים משנייה אחרונה %ld  יאבדו לצמיתות."
+msgstr[1] "אם לא תתבצע שמירה, שינויים מ־%ld השניות האחרונות  יאבדו לצמיתות."
+
+#: ../xed/xed-close-confirmation-dialog.c:388
+msgid ""
+"If you don't save, changes from the last minute will be permanently lost."
+msgstr "אם לא תתבצע שמירה, שינויים מהדקה האחרונה יאבדו לצמיתות."
+
+#: ../xed/xed-close-confirmation-dialog.c:393
+#, c-format
+msgid ""
+"If you don't save, changes from the last minute and %ld second will be "
+"permanently lost."
+msgid_plural ""
+"If you don't save, changes from the last minute and %ld seconds will be "
+"permanently lost."
+msgstr[0] "אם לא תתבצע שמירה, שינויים מדקה ושנייה אחרונה %ld יאבדו לצמיתות."
+msgstr[1] ""
+"אם לא תתבצע שמירה, שינויים מהדקה ו־%ld השניות האחרונות יאבדו לצמיתות."
+
+#: ../xed/xed-close-confirmation-dialog.c:402
+#, c-format
+msgid ""
+"If you don't save, changes from the last %ld minute will be permanently lost."
+msgid_plural ""
+"If you don't save, changes from the last %ld minutes will be permanently "
+"lost."
+msgstr[0] "אם לא תתבצע שמירה, שינויים מדקה אחרונה %ld יאבדו לצמיתות."
+msgstr[1] "אם לא תתבצע שמירה, שינויים מ־%ld הדקות האחרונות יאבדו לצמיתות."
+
+#: ../xed/xed-close-confirmation-dialog.c:417
+msgid ""
+"If you don't save, changes from the last hour will be permanently lost."
+msgstr "אם לא תתבצע שמירה, שינויים מהשעה האחרונה יאבדו לצמיתות."
+
+#: ../xed/xed-close-confirmation-dialog.c:422
+#, c-format
+msgid ""
+"If you don't save, changes from the last hour and %d minute will be "
+"permanently lost."
+msgid_plural ""
+"If you don't save, changes from the last hour and %d minutes will be "
+"permanently lost."
+msgstr[0] "אם לא תתבצע שמירה, שינויים משעה ודקה האחרונה  %d יאבדו לצמיתות."
+msgstr[1] ""
+"אם לא תתבצע שמירה, שינויים מהשעה ו־%d הדקות האחרונות יאבדו לצמיתות."
+
+#: ../xed/xed-close-confirmation-dialog.c:436
+#, c-format
+msgid ""
+"If you don't save, changes from the last %d hour will be permanently lost."
+msgid_plural ""
+"If you don't save, changes from the last %d hours will be permanently lost."
+msgstr[0] "אם לא תתבצע שמירה, שינויים משעה אחרונה  %d יאבדו לצמיתות."
+msgstr[1] "אם לא תשמור, שינויים מ־%d השעות האחרונות יאבדו לצמיתות."
+
+#: ../xed/xed-close-confirmation-dialog.c:477
+#, c-format
+msgid "Save changes to document \"%s\" before closing?"
+msgstr "לשמור שינויים במסמך '%s' לפני סגירה?"
+
+#: ../xed/xed-close-confirmation-dialog.c:642
+#, c-format
+msgid ""
+"There is %d document with unsaved changes. Save changes before closing?"
+msgid_plural ""
+"There are %d documents with unsaved changes. Save changes before closing?"
+msgstr[0] "קיים מסמך %d עם שינויים שלא נשמרו. האם לשמור שינויים לפני סגירה?"
+msgstr[1] ""
+"קיימים %d מסמכים עם שינויים שלא נשמרו. האם לשמור שינויים לפני סגירה?"
+
+#: ../xed/xed-close-confirmation-dialog.c:659
+msgid "S_elect the documents you want to save:"
+msgstr "נא ל_בחור מסמך לשמירה:"
+
+#. Secondary label
+#: ../xed/xed-close-confirmation-dialog.c:675
+msgid "If you don't save, all your changes will be permanently lost."
+msgstr "אם לא תתבצע שמירה, כל השינויים יאבדו לצמיתות."
+
+#: ../xed/xed-commands-file.c:229
+#, c-format
+msgid "Loading file '%s'…"
+msgstr "טעינת קובץ  '%s'…"
+
+#: ../xed/xed-commands-file.c:238
+#, c-format
+msgid "Loading %d file…"
+msgid_plural "Loading %d files…"
+msgstr[0] "טעינת קובץ %d..."
+msgstr[1] "טעינת %d קבצים…"
+
+#. Translators: "Open Files" is the title of the file chooser window
+#: ../xed/xed-commands-file.c:395
+msgid "Open Files"
+msgstr "פתיחת קבצים"
+
+#: ../xed/xed-commands-file.c:400
+#: ../plugins/filebrowser/xed-file-browser-widget.c:764
+msgid "_Open"
+msgstr "_פתיחה"
+
+#: ../xed/xed-commands-file.c:494
+#, c-format
+msgid "The file \"%s\" is read-only."
+msgstr "הקובץ %s הוא לקריאה בלבד."
+
+#: ../xed/xed-commands-file.c:499
+msgid "Do you want to try to replace it with the one you are saving?"
+msgstr "האם לנסות להחליפו בקובץ שנשמר?"
+
+#: ../xed/xed-commands-file.c:503 ../xed/resources/ui/xed-searchbar.ui.h:2
+#: ../xed/xed-ui.h:124
+msgid "_Replace"
+msgstr "ה_חלפה"
+
+#: ../xed/xed-commands-file.c:564 ../xed/xed-commands-file.c:801
+#, c-format
+msgid "Saving file '%s'…"
+msgstr "שמירת קובץ  '%s'…"
+
+#: ../xed/xed-commands-file.c:644
+msgid "Save As…"
+msgstr "שמירה בשם…"
+
+#: ../xed/xed-commands-file.c:1202
+#, c-format
+msgid "Reverting the document '%s'…"
+msgstr "אחזור מסמך '%s'…"
+
+#: ../xed/xed-commands-file.c:1249
+#, c-format
+msgid "Revert unsaved changes to document '%s'?"
+msgstr "האם לאחזר שינויים שלא נשמרו במסמך '%s'?"
+
+#: ../xed/xed-commands-file.c:1256
+#, c-format
+msgid ""
+"Changes made to the document in the last %ld second will be permanently lost."
+msgid_plural ""
+"Changes made to the document in the last %ld seconds will be permanently "
+"lost."
+msgstr[0] "שינויים שנערכו במסמך בשניה אחרונה %ld יאבדו לצמיתות."
+msgstr[1] "שינויים שנערכו במסמך ב־%ld השניות האחרונות יאבדו לצמיתות."
+
+#: ../xed/xed-commands-file.c:1265
+msgid ""
+"Changes made to the document in the last minute will be permanently lost."
+msgstr "שינויים שנערכו במסמך בדקה האחרונה יאבדו לצמיתות."
+
+#: ../xed/xed-commands-file.c:1270
+#, c-format
+msgid ""
+"Changes made to the document in the last minute and %ld second will be "
+"permanently lost."
+msgid_plural ""
+"Changes made to the document in the last minute and %ld seconds will be "
+"permanently lost."
+msgstr[0] "שינויים שנערכו במסמך בדקה ושנייה אחרונה %ld  יאבדו לצמיתות."
+msgstr[1] "שינויים שנערכו במסמך בדקה ו־%ld השניות האחרונות יאבדו לצמיתות."
+
+#: ../xed/xed-commands-file.c:1279
+#, c-format
+msgid ""
+"Changes made to the document in the last %ld minute will be permanently lost."
+msgid_plural ""
+"Changes made to the document in the last %ld minutes will be permanently "
+"lost."
+msgstr[0] "שינויים שנערכו במסמך בדקה האחרונה %ld יאבדו לצמיתות."
+msgstr[1] "שינויים שנערכו במסמך ב־%ld הדקות האחרונות יאבדו לצמיתות."
+
+#: ../xed/xed-commands-file.c:1294
+msgid ""
+"Changes made to the document in the last hour will be permanently lost."
+msgstr "שינויים שנערכו במסמך בשעה האחרונה יאבדו לצמיתות."
+
+#: ../xed/xed-commands-file.c:1299
+#, c-format
+msgid ""
+"Changes made to the document in the last hour and %d minute will be "
+"permanently lost."
+msgid_plural ""
+"Changes made to the document in the last hour and %d minutes will be "
+"permanently lost."
+msgstr[0] "שינויים שנערכו במסמך בשעה ודקה אחרוננה %d יאבדו לצמיתות."
+msgstr[1] "שינויים שנערכו במסמך בשעה וב־%d הדקות האחרונות יאבדו לצמיתות."
+
+#: ../xed/xed-commands-file.c:1313
+#, c-format
+msgid ""
+"Changes made to the document in the last %d hour will be permanently lost."
+msgid_plural ""
+"Changes made to the document in the last %d hours will be permanently lost."
+msgstr[0] "שינויים שנערכו במסמך בשעה אחרונה %d יאבדו לצמיתות."
+msgstr[1] "שינויים שנערכו במסמך ב־%d השעות האחרונות יאבדו לצמיתות."
+
+#: ../xed/xed-commands-file.c:1334
+msgid "_Revert"
+msgstr "_אחזור"
+
+#: ../xed/xed-commands-help.c:55
+msgid "A small and lightweight text editor"
+msgstr "עורך מלל זעיר וקל משקל"
+
+#: ../xed/xed-document.c:973 ../xed/xed-document.c:1005
+#, c-format
+msgid "Unsaved Document %d"
+msgstr "מסמך  %d לא נשמר"
+
+#: ../xed/xed-documents-panel.c:88 ../xed/xed-documents-panel.c:99
+#: ../xed/xed-window.c:1906 ../xed/xed-window.c:1910
+msgid "Read-Only"
+msgstr "קריאה-בלבד"
+
+#: ../xed/xed-documents-panel.c:650 ../xed/resources/ui/xed-shortcuts.ui.h:1
+#: ../xed/xed-window.c:3156
+msgid "Documents"
+msgstr "מסמכים"
+
+#: ../xed/xed-encodings-combo-box.c:258
+msgid "Automatically Detected"
+msgstr "זוהו באופו אוטומטי"
+
+#: ../xed/xed-encodings-combo-box.c:277 ../xed/xed-encodings-combo-box.c:291
+#, c-format
+msgid "Current Locale (%s)"
+msgstr "מיקומי נוכחי (%s)"
+
+#: ../xed/xed-encodings-combo-box.c:338
+msgid "Add or Remove..."
+msgstr "הוספה או הסרה..."
+
+#: ../xed/xed-encodings-dialog.c:331 ../plugins/time/xed-time-plugin.c:786
+msgid "_OK"
+msgstr "_אישור"
+
+#: ../xed/xed-encodings-dialog.c:332 ../xed/xed-ui.h:50
+#: ../plugins/spell/xed-spell-plugin.c:435
+msgid "_Help"
+msgstr "_עזרה"
+
+#: ../xed/xed-encodings-dialog.c:335
+msgid "Character Encodings"
+msgstr "קידוד תווים"
+
+#: ../xed/xed-encodings-dialog.c:368 ../xed/xed-encodings-dialog.c:405
+msgid "_Description"
+msgstr "_תיאור"
+
+#: ../xed/xed-encodings-dialog.c:376 ../xed/xed-encodings-dialog.c:413
+msgid "_Encoding"
+msgstr "_קידוד"
+
+#: ../xed/xed-file-chooser-dialog.c:44 ../xed/xed-preferences-dialog.c:783
+msgid "All Files"
+msgstr "כל הקבצים"
+
+#: ../xed/xed-file-chooser-dialog.c:45
+msgid "All Text Files"
+msgstr "כל קובצי המלל"
+
+#: ../xed/xed-file-chooser-dialog.c:85
+msgid "C_haracter Encoding:"
+msgstr "קידוד _תווים:"
+
+#: ../xed/xed-file-chooser-dialog.c:141
+msgid "L_ine Ending:"
+msgstr "_סוף שורה:"
+
+#: ../xed/xed-file-chooser-dialog.c:152
+msgid "Unix/Linux"
+msgstr "לינוקס/יוניקס"
+
+#: ../xed/xed-file-chooser-dialog.c:153
+msgid "Mac OS Classic"
+msgstr "מאק  OS קלסי"
+
+#: ../xed/xed-file-chooser-dialog.c:154
+msgid "Windows"
+msgstr "ווינדוס"
+
+#: ../xed/xed-highlight-mode-selector.c:297 ../xed/xed-window.c:2035
+msgid "Plain Text"
+msgstr "מלל רגיל"
+
+#: ../xed/xed-io-error-info-bar.c:154 ../xed/xed-io-error-info-bar.c:390
+msgid "_Retry"
+msgstr "_ניסיון חוזר"
+
+#: ../xed/xed-io-error-info-bar.c:173
+#, c-format
+msgid "Could not find the file %s."
+msgstr "לא ניתן למצוא את הקובץ %s."
+
+#: ../xed/xed-io-error-info-bar.c:174 ../xed/xed-io-error-info-bar.c:208
+#: ../xed/xed-io-error-info-bar.c:213
+msgid "Please check that you typed the location correctly and try again."
+msgstr "נא לוודא שהמיקום הוזן נכון ולנסות שנית."
+
+#. Translators: %s is a URI scheme (like for example http:, ftp:, etc.)
+#: ../xed/xed-io-error-info-bar.c:189
+#, c-format
+msgid "xed cannot handle %s locations."
+msgstr "‏xed לא יכול לטפל במיקומים %s."
+
+#: ../xed/xed-io-error-info-bar.c:194
+msgid "xed cannot handle this location."
+msgstr "‏xed לא יכול לטפל במיקום זה."
+
+#: ../xed/xed-io-error-info-bar.c:201
+msgid "The location of the file cannot be mounted."
+msgstr "לא ניתן לעגון את מיקום הקובץ."
+
+#: ../xed/xed-io-error-info-bar.c:204
+msgid ""
+"The location of the file cannot be accessed because it is not mounted."
+msgstr "לא ניתן לגשת למיקום הקובץ מכיוון שהוא לא מעוגן."
+
+#: ../xed/xed-io-error-info-bar.c:207
+#, c-format
+msgid "%s is a directory."
+msgstr "%s היא מחיצה."
+
+#: ../xed/xed-io-error-info-bar.c:212
+#, c-format
+msgid "%s is not a valid location."
+msgstr "%s אינו מיקום תקין."
+
+#. Translators: %s is a host name
+#: ../xed/xed-io-error-info-bar.c:242
+#, c-format
+msgid ""
+"Host %s could not be found. Please check that your proxy settings are "
+"correct and try again."
+msgstr "מארח %s לא נמצא. נא לבדוק את הגדרות מתווך הרשת ולנסות שוב."
+
+#. use the same string as INVALID_HOST
+#: ../xed/xed-io-error-info-bar.c:256
+#, c-format
+msgid ""
+"Hostname was invalid. Please check that you typed the location correctly and "
+"try again."
+msgstr "שם המארח לא תקין. נא לבדוק שהמיקום הוזן נכון ולנסות שוב."
+
+#: ../xed/xed-io-error-info-bar.c:263
+#, c-format
+msgid "%s is not a regular file."
+msgstr "‏%s אינו קובץ רגיל."
+
+#: ../xed/xed-io-error-info-bar.c:266
+msgid "Connection timed out. Please try again."
+msgstr "תם־זמן חיבור. נא לנסות שוב."
+
+#: ../xed/xed-io-error-info-bar.c:293
+#, c-format
+msgid "Unexpected error: %s"
+msgstr "שגיאה בלתי צפויה: %s"
+
+#: ../xed/xed-io-error-info-bar.c:326
+msgid "xed cannot find the file. Perhaps it has recently been deleted."
+msgstr "‏xed לא מצא את הקובץ. ייתכן שהקובץ נמחק לאחרונה."
+
+#: ../xed/xed-io-error-info-bar.c:336
+#, c-format
+msgid "Could not revert the file %s."
+msgstr "לא ניתן לשחזר את הקובץ %s."
+
+#: ../xed/xed-io-error-info-bar.c:359
+msgid "Ch_aracter Encoding:"
+msgstr "קידוד _תווים:"
+
+#. Translators: the access key chosen for this string should be
+#. different from other main menu access keys (Open, Edit, View...)
+#: ../xed/xed-io-error-info-bar.c:397 ../xed/xed-io-error-info-bar.c:654
+msgid "Edit Any_way"
+msgstr "_לערוך בכל זאת"
+
+#: ../xed/xed-io-error-info-bar.c:489
+msgid ""
+"The number of followed links is limited and the actual file could not be "
+"found within this limit."
+msgstr ""
+"מספר הקישורים המזדנבים מוגבל ולא ניתן היה למצוא את הקובץ האמור במסגרת מגבלה "
+"זו."
+
+#: ../xed/xed-io-error-info-bar.c:493
+msgid "You do not have the permissions necessary to open the file."
+msgstr "חסרות ההרשאות ההכרחיות לפתיחת הקובץ."
+
+#: ../xed/xed-io-error-info-bar.c:499
+msgid "xed has not been able to detect the character encoding."
+msgstr "‏xed לא הצליח לזהות את קידוד התווים."
+
+#: ../xed/xed-io-error-info-bar.c:501 ../xed/xed-io-error-info-bar.c:524
+msgid "Please check that you are not trying to open a binary file."
+msgstr "נא לוודא שלא מתבצע ניסיון לפתיחת קובץ שניוני."
+
+#: ../xed/xed-io-error-info-bar.c:502
+msgid "Select a character encoding from the menu and try again."
+msgstr "נא לבחור קידוד תווים מהתפריט ולנסות שוב."
+
+#: ../xed/xed-io-error-info-bar.c:508
+#, c-format
+msgid "There was a problem opening the file %s."
+msgstr "ארעה שגיאה בפתיחת הקובץ %s."
+
+#: ../xed/xed-io-error-info-bar.c:509
+msgid ""
+"The file you opened has some invalid characters. If you continue editing "
+"this file you could corrupt this document."
+msgstr ""
+"לקובץ שנפתח,  כמה תווים לא תקינים. המשך עריכת הקובץ עלולה להשחית מסמך זה."
+
+#: ../xed/xed-io-error-info-bar.c:512
+msgid "You can also choose another character encoding and try again."
+msgstr "ניתן גם לבחור בקידוד תווים אחר ולנסות שוב."
+
+#: ../xed/xed-io-error-info-bar.c:521
+#, c-format
+msgid "Could not open the file %s using the %s character encoding."
+msgstr "לא ניתן לפתוח את קובץ %s באמצעות קידוד תווים %s."
+
+#: ../xed/xed-io-error-info-bar.c:525 ../xed/xed-io-error-info-bar.c:594
+msgid "Select a different character encoding from the menu and try again."
+msgstr "נא לבחור מהתפריט בקידוד תווים שונה ולנסות שוב."
+
+#: ../xed/xed-io-error-info-bar.c:537
+#, c-format
+msgid "Could not open the file %s."
+msgstr "לא ניתן לפתוח את הקובץ %s."
+
+#: ../xed/xed-io-error-info-bar.c:589
+#, c-format
+msgid "Could not save the file %s using the %s character encoding."
+msgstr "לא ניתן לשמור את הקובץ %s באמצעות קידוד התווים %s."
+
+#: ../xed/xed-io-error-info-bar.c:592
+msgid ""
+"The document contains one or more characters that cannot be encoded using "
+"the specified character encoding."
+msgstr ""
+"המסמך מכיל תו אחד או יותר שאינם ניתנים לקידוד באמצעות קידוד התווים שצוין."
+
+#. Translators: the access key chosen for this string should be
+#. different from other main menu access keys (Open, Edit, View...)
+#: ../xed/xed-io-error-info-bar.c:659
+msgid "D_on't Edit"
+msgstr "_לא לערוך"
+
+#: ../xed/xed-io-error-info-bar.c:673
+#, c-format
+msgid "This file (%s) is already open in another xed window."
+msgstr "הקובץ  (%s) פתוח כבר בחלון אחר של xed."
+
+#: ../xed/xed-io-error-info-bar.c:687
+msgid ""
+"xed opened this instance of the file in a non-editable way. Do you want to "
+"edit it anyway?"
+msgstr ""
+"‏קובץ שנפתח על ידי Xed באדגם זה, לא ניתנת לעריכה. האם לערוך את הקובץ בכל זאת?"
+
+#: ../xed/xed-io-error-info-bar.c:742 ../xed/xed-io-error-info-bar.c:830
+#: ../xed/xed-io-error-info-bar.c:1092
+msgid "S_ave Anyway"
+msgstr "_שמירה בכל זאת"
+
+#: ../xed/xed-io-error-info-bar.c:743 ../xed/xed-io-error-info-bar.c:831
+#: ../xed/xed-io-error-info-bar.c:1094
+msgid "D_on't Save"
+msgstr "לא לשמור"
+
+#. FIXME: review this message, it's not clear since for the user the "modification"
+#. * could be interpreted as the changes he made in the document. beside "reading" is
+#. * not accurate (since last load/save)
+#. 
+#: ../xed/xed-io-error-info-bar.c:760
+#, c-format
+msgid "The file %s has been modified since reading it."
+msgstr "קובץ %s הוסגל מאז שנקרא לאחרונה."
+
+#: ../xed/xed-io-error-info-bar.c:774
+msgid ""
+"If you save it, all the external changes could be lost. Save it anyway?"
+msgstr ""
+"אם תתבצע שמירה, כל השינויים החיצוניים עלולים לאובד. האם לשמור בכל זאת?"
+
+#: ../xed/xed-io-error-info-bar.c:851
+#, c-format
+msgid "Could not create a backup file while saving %s"
+msgstr "לא ניתן ליצור קובץ גיבוי בזמן שמירת %s"
+
+#: ../xed/xed-io-error-info-bar.c:855
+#, c-format
+msgid "Could not create a temporary backup file while saving %s"
+msgstr "לא ניתן ליצור קובץ גיבוי זמני בזמן שמירת %s"
+
+#: ../xed/xed-io-error-info-bar.c:871
+msgid ""
+"xed could not back up the old copy of the file before saving the new one. "
+"You can ignore this warning and save the file anyway, but if an error occurs "
+"while saving, you could lose the old copy of the file. Save anyway?"
+msgstr ""
+"‏xed לא הצליח לגבות את העותק הישן של הקובץ לפני שמירת הקובץ החדש. ניתן "
+"להתעלם מאזהרה זו ולשמור את הקובץ בכל מקרה, אך בקרות שגיאה בעת השמירה,  העותק "
+"הישן של הקובץ עלול לאובד.  האם לשמור בכל זאת?"
+
+#. Translators: %s is a URI scheme (like for example http:, ftp:, etc.)
+#: ../xed/xed-io-error-info-bar.c:928
+#, c-format
+msgid ""
+"xed cannot handle %s locations in write mode. Please check that you typed "
+"the location correctly and try again."
+msgstr ""
+"‏xed לא יכול להתמודד במיקומי %s במצב כתיבה. נא לבדוק שהמיקום הוזן נכון "
+"ולנסות שוב."
+
+#: ../xed/xed-io-error-info-bar.c:936
+msgid ""
+"xed cannot handle this location in write mode. Please check that you typed "
+"the location correctly and try again."
+msgstr ""
+"‏xed לא יכול להתמודד עם מיקום זה במצב כתיבה. נא לבדוק שהמיקום הוזן נכון "
+"ולנסות שוב."
+
+#: ../xed/xed-io-error-info-bar.c:945
+#, c-format
+msgid ""
+"%s is not a valid location. Please check that you typed the location "
+"correctly and try again."
+msgstr "‏%s אינו מיקום תקין. נא לוודא שהוזן מיקום נכון ולנסות שוב."
+
+#: ../xed/xed-io-error-info-bar.c:951
+msgid ""
+"You do not have the permissions necessary to save the file. Please check "
+"that you typed the location correctly and try again."
+msgstr ""
+"חסרות ההרשאות ההכרחיות לשמירת הקובץ. נא לבדוק שהמיקום הוזן נכון ולנסות שוב."
+
+#: ../xed/xed-io-error-info-bar.c:957
+msgid ""
+"There is not enough disk space to save the file. Please free some disk space "
+"and try again."
+msgstr ""
+"אין מספיק מקום פנוי בכונן לשמירת הקובץ. נא לפנות מעט מקום בכונן ולנסות שוב."
+
+#: ../xed/xed-io-error-info-bar.c:962
+msgid ""
+"You are trying to save the file on a read-only disk. Please check that you "
+"typed the location correctly and try again."
+msgstr ""
+"נעשה ניסיון לשמירת הקובץ על כונן לקריאה בלבד. נא לבדוק שהמיקום שהוזן נכון "
+"ולנסות שוב."
+
+#: ../xed/xed-io-error-info-bar.c:968
+msgid ""
+"A file with the same name already exists. Please use a different name."
+msgstr "קובץ בשם זהה כבר קיים. נא להשתמש בשם אחר."
+
+#: ../xed/xed-io-error-info-bar.c:973
+msgid ""
+"The disk where you are trying to save the file has a limitation on length of "
+"the file names. Please use a shorter name."
+msgstr ""
+"קיימת מגבלת אורך שמות קבצים בכונן עליו נעשה ניסיון שמירה. נא להשתמש בשם קובץ "
+"קצר יותר."
+
+#: ../xed/xed-io-error-info-bar.c:983
+msgid ""
+"The disk where you are trying to save the file has a limitation on file "
+"sizes. Please try saving a smaller file or saving it to a disk that does not "
+"have this limitation."
+msgstr ""
+"קיימת מגבלת גודל קבצים בכונן עליו נעשה ניסיון שמירה. נא לנסות לשמור קובץ קטן "
+"יותר, או לשמור את הקובץ לכונן ללא מגבלה זו."
+
+#: ../xed/xed-io-error-info-bar.c:996
+#, c-format
+msgid "Could not save the file %s."
+msgstr "לא ניתן לשמור את הקובץ %s."
+
+#. FIXME: review this message, it's not clear since for the user the "modification"
+#. could be interpreted as the changes he made in the document. beside "reading" is
+#. not accurate (since last load/save)
+#: ../xed/xed-io-error-info-bar.c:1036
+#, c-format
+msgid "The file %s changed on disk."
+msgstr "הקובץ '%s' השתנה בכונן."
+
+#: ../xed/xed-io-error-info-bar.c:1041
+msgid "Do you want to drop your changes and reload the file?"
+msgstr "האם לזנוח שינויים ולטען מחדש את הקובץ?"
+
+#: ../xed/xed-io-error-info-bar.c:1045
+msgid "Do you want to reload the file?"
+msgstr "האם לטעון את הקובץ מחדש?"
+
+#: ../xed/xed-io-error-info-bar.c:1050
+msgid "_Reload"
+msgstr "_טעינה מחדש"
+
+#: ../xed/xed-io-error-info-bar.c:1107
+#, c-format
+msgid "Some invalid chars have been detected while saving %s"
+msgstr "מספר תווים לא תקינים זוהו בעת שמירת %s"
+
+#: ../xed/xed-io-error-info-bar.c:1122
+msgid ""
+"If you continue saving this file you can corrupt the document.  Save anyway?"
+msgstr "המשך שמירת קובץ זה עשויה לפגום במסמך. האם להמשיך בכל זאת?"
+
+#: ../xed/xed-preferences-dialog.c:280
+#: ../xed/resources/ui/xed-preferences-dialog.ui.h:3
+#, no-c-format
+msgid "Use the system fixed width font (%s)"
+msgstr "שימוש בגופן רוחב קבוע של המערכת (%s)"
+
+#: ../xed/xed-preferences-dialog.c:436
+msgid "Editor"
+msgstr "עורך"
+
+#: ../xed/xed-preferences-dialog.c:474
+msgid "Save"
+msgstr "שמירה"
+
+#: ../xed/xed-preferences-dialog.c:587
+#, c-format
+msgid ""
+"Directory '%s' could not be created: g_mkdir_with_parents() failed: %s"
+msgstr "לא ניתן ליצור מחיצה '%s'‏:‏ ()g_mkdir_with_parents כשלה: %s"
+
+#: ../xed/xed-preferences-dialog.c:741
+msgid "The selected color scheme cannot be installed."
+msgstr "לא ניתן להתקין את סכימת הצבעים שנבחרה."
+
+#: ../xed/xed-preferences-dialog.c:764 ../xed/xed-preferences-dialog.c:770
+msgid "Add Scheme"
+msgstr "הוספת סכימה"
+
+#: ../xed/xed-preferences-dialog.c:767 ../xed/xed-progress-info-bar.c:61
+msgid "Cancel"
+msgstr "ביטול"
+
+#: ../xed/xed-preferences-dialog.c:776
+msgid "Color Scheme Files"
+msgstr "קובצי סכימת צבעים"
+
+#: ../xed/xed-preferences-dialog.c:848
+#, c-format
+msgid "Could not remove color scheme \"%s\"."
+msgstr "לא ניתן להסיר סכימת צבעים '%s'."
+
+#: ../xed/xed-preferences-dialog.c:880
+msgid "Theme"
+msgstr "ערכת נושא"
+
+#: ../xed/xed-preferences-dialog.c:897
+msgid "Plugins"
+msgstr "מתקעים"
+
+#: ../xed/xed-preferences-dialog.c:905
+msgid "Help"
+msgstr "עזרה"
+
+#: ../xed/xed-preferences-dialog.c:910
+#: ../xed/resources/ui/xed-searchbar.ui.h:11
+msgid "Close"
+msgstr "סגירה"
+
+#: ../xed/xed-preferences-dialog.c:924
+msgid "Xed Preferences"
+msgstr "העדפות Xed"
+
+#: ../xed/xed-print-job.c:487
+#, c-format
+msgid "File: %s"
+msgstr "קובץ: %s"
+
+#: ../xed/xed-print-job.c:496
+msgid "Page %N of %Q"
+msgstr "עמוד %N מתוך %Q"
+
+#: ../xed/xed-print-job.c:733
+msgid "Preparing..."
+msgstr "בהכנה..."
+
+#: ../xed/xed-print-preview.c:580
+msgid "Show the previous page"
+msgstr "הצגת העמוד הקודם"
+
+#: ../xed/xed-print-preview.c:586
+msgid "Show the next page"
+msgstr "הצגת העמוד הבא"
+
+#: ../xed/xed-print-preview.c:600
+msgid "Current page (Alt+P)"
+msgstr "עמוד נוכחי (Alt+P)"
+
+#. gtk_label_set_mnemonic_widget ((GtkLabel *) l, mp->priv->page_entry);
+#. We are displaying 'XXX of XXX'.
+#. Translators: the "of" from "1 of 19" in print preview.
+#: ../xed/xed-print-preview.c:614
+msgid "of"
+msgstr "מתוך"
+
+#: ../xed/xed-print-preview.c:619
+msgid "Page total"
+msgstr "סך־כל העמודים"
+
+#: ../xed/xed-print-preview.c:620
+msgid "The total number of pages in the document"
+msgstr "סך־כל העמודים במסמך"
+
+#: ../xed/xed-print-preview.c:640
+msgid "Show multiple pages"
+msgstr "הצגת עמודים מרובים"
+
+#: ../xed/xed-print-preview.c:658
+msgid "Zoom 1:1"
+msgstr "תקריב 1:1"
+
+#: ../xed/xed-print-preview.c:664
+msgid "Zoom to fit the whole page"
+msgstr "הצרה או הרחבה להתאמה לעמוד שלם"
+
+#: ../xed/xed-print-preview.c:670
+msgid "Zoom the page in"
+msgstr "הרחבת עמוד"
+
+#: ../xed/xed-print-preview.c:676
+msgid "Zoom the page out"
+msgstr "הצרת עמוד"
+
+#: ../xed/xed-print-preview.c:693 ../xed/resources/ui/xed-shortcuts.ui.h:33
+msgid "Print the document"
+msgstr "הדפסת המסמך"
+
+#: ../xed/xed-print-preview.c:708
+msgid "_Close preview"
+msgstr "_סגירת תצוגה מקדימה"
+
+#: ../xed/xed-print-preview.c:710
+msgid "Close print preview"
+msgstr "סגירת תצוגה מקדימה"
+
+#: ../xed/xed-print-preview.c:788
+#, c-format
+msgid "Page %d of %d"
+msgstr "עמוד %d מתוך %d"
+
+#: ../xed/xed-print-preview.c:970
+msgid "Page Preview"
+msgstr "תצוגה מקדימה"
+
+#: ../xed/xed-print-preview.c:971
+msgid "The preview of a page in the document to be printed"
+msgstr "תצוגת עמוד מקדימה מתוך המסמך שמיועד להדפסה"
+
+#: ../xed/resources/ui/xed-highlight-mode-dialog.ui.h:1
+msgid "Highlight Mode"
+msgstr "מצב הדגשה"
+
+#: ../xed/resources/ui/xed-highlight-mode-dialog.ui.h:3
+msgid "_Select"
+msgstr "_בחירה"
+
+#: ../xed/resources/ui/xed-highlight-mode-selector.ui.h:1
+msgid "Search highlight mode…"
+msgstr "חיפוש במצב הדגשה…"
+
+#: ../xed/resources/ui/xed-encodings-dialog.ui.h:1
+msgid "Character encodings"
+msgstr "קידוד תווים"
+
+#: ../xed/resources/ui/xed-encodings-dialog.ui.h:2
+msgid "A_vailable encodings:"
+msgstr "קידודים _זמינים:"
+
+#: ../xed/resources/ui/xed-encodings-dialog.ui.h:3
+msgid "E_ncodings shown in menu:"
+msgstr "ק_ידודים המופיעים בתפריט:"
+
+#: ../xed/resources/ui/xed-preferences-dialog.ui.h:1
+msgid "Font"
+msgstr "גופן"
+
+#: ../xed/resources/ui/xed-preferences-dialog.ui.h:4
+msgid "Display"
+msgstr "מצג"
+
+#: ../xed/resources/ui/xed-preferences-dialog.ui.h:5
+msgid "Display line numbers"
+msgstr "הצגת מספרי שורות"
+
+#: ../xed/resources/ui/xed-preferences-dialog.ui.h:6
+msgid "Display overview map"
+msgstr "הצגת מפת סקירה כללית"
+
+#: ../xed/resources/ui/xed-preferences-dialog.ui.h:7
+msgid "Display right margin"
+msgstr "הצגת שול ימני"
+
+#: ../xed/resources/ui/xed-preferences-dialog.ui.h:8
+msgid "Right margin at column"
+msgstr "שול ימני בעמודה"
+
+#: ../xed/resources/ui/xed-preferences-dialog.ui.h:9
+msgid "4"
+msgstr "4"
+
+#: ../xed/resources/ui/xed-preferences-dialog.ui.h:10
+msgid "Draw whitespace"
+msgstr "ציור רווח לבן"
+
+#: ../xed/resources/ui/xed-preferences-dialog.ui.h:11
+msgid "Leading whitespace"
+msgstr "רווח לבן מוביל"
+
+#: ../xed/resources/ui/xed-preferences-dialog.ui.h:12
+msgid "Trailing whitespace"
+msgstr "רווח לבן עוקב"
+
+#: ../xed/resources/ui/xed-preferences-dialog.ui.h:13
+msgid "Whitespace inside of text"
+msgstr "רווח לבן בתוך מלל"
+
+#: ../xed/resources/ui/xed-preferences-dialog.ui.h:14
+msgid "Newline character"
+msgstr "תו 'שורה חדשה'"
+
+#: ../xed/resources/ui/xed-preferences-dialog.ui.h:15
+msgid "Highlighting"
+msgstr "הדגשה"
+
+#: ../xed/resources/ui/xed-preferences-dialog.ui.h:16
+msgid "Highlight the current line"
+msgstr "הדגשת השורה הנוכחית"
+
+#: ../xed/resources/ui/xed-preferences-dialog.ui.h:17
+msgid "Highlight matching brackets"
+msgstr "הדגשת סוגריים תואמים"
+
+#: ../xed/resources/ui/xed-preferences-dialog.ui.h:18
+msgid "Indentation"
+msgstr "הזחה"
+
+#: ../xed/resources/ui/xed-preferences-dialog.ui.h:19
+msgid "Tab width"
+msgstr "רוחב טבלר"
+
+#: ../xed/resources/ui/xed-preferences-dialog.ui.h:20
+msgid "Use spaces instead of tabs"
+msgstr "שימוש ברווחים במקום בטבלרים"
+
+#: ../xed/resources/ui/xed-preferences-dialog.ui.h:21
+msgid "Automatic indentation"
+msgstr "הזחה אוטומטית"
+
+#: ../xed/resources/ui/xed-preferences-dialog.ui.h:22
+msgid "Word wrap"
+msgstr "גלישת מילים"
+
+#: ../xed/resources/ui/xed-preferences-dialog.ui.h:23
+msgid "Split words over two lines"
+msgstr "פיצול מילים על פני שתי שורות"
+
+#: ../xed/resources/ui/xed-preferences-dialog.ui.h:24
+msgid "Tab scrolling"
+msgstr "גלילת לשוניות"
+
+#: ../xed/resources/ui/xed-preferences-dialog.ui.h:25
+msgid "Allow mouse wheel scrolling to change tabs"
+msgstr "איפשור גלילת עכבר לשינוי לשוניות"
+
+#: ../xed/resources/ui/xed-preferences-dialog.ui.h:26
+msgid "File saving"
+msgstr "שמירת קבץ"
+
+#: ../xed/resources/ui/xed-preferences-dialog.ui.h:27
+msgid "Create a backup copy of files before saving"
+msgstr "יצירת גיבוי קבצים לפני שמירה"
+
+#: ../xed/resources/ui/xed-preferences-dialog.ui.h:28
+msgid "Autosave files"
+msgstr "שמירת קבצים אוטומטית"
+
+#: ../xed/resources/ui/xed-preferences-dialog.ui.h:29
+msgid "Minutes between saving"
+msgstr "דקות במרווחי השמירה"
+
+#: ../xed/resources/ui/xed-preferences-dialog.ui.h:30
+msgid "Ensure Trailing Newline"
+msgstr "אילוץ שורה חדשה נגררת"
+
+#: ../xed/resources/ui/xed-preferences-dialog.ui.h:31
+msgid "Dark theme"
+msgstr "ערכת נושא כהה"
+
+#: ../xed/resources/ui/xed-preferences-dialog.ui.h:32
+msgid "Use dark theme variant (if available)"
+msgstr "שימוש בערכת נושה כהה (אם זמינה)"
+
+#: ../xed/resources/ui/xed-preferences-dialog.ui.h:33
+msgid "Style scheme"
+msgstr "סכמת סגנון"
+
+#: ../xed/resources/ui/xed-preferences-dialog.ui.h:34
+msgid "Install scheme"
+msgstr "התקנת סכמה"
+
+#: ../xed/resources/ui/xed-preferences-dialog.ui.h:35
+msgid "Remove scheme"
+msgstr "הסרת סכמה"
+
+#: ../xed/resources/ui/xed-print-preferences.ui.h:1
+msgid "Syntax Highlighting"
+msgstr "הדגשת תחביר"
+
+#: ../xed/resources/ui/xed-print-preferences.ui.h:2
+msgid "Print synta_x highlighting"
+msgstr "הדפסת הדגשת ת_חביר"
+
+#: ../xed/resources/ui/xed-print-preferences.ui.h:3
+msgid "Line Numbers"
+msgstr "מספרי שורות"
+
+#: ../xed/resources/ui/xed-print-preferences.ui.h:4
+msgid "Print line nu_mbers"
+msgstr "הדפסת מס_פרי שורות"
+
+#. 
+#: ../xed/resources/ui/xed-print-preferences.ui.h:6
+msgid "_Number every"
+msgstr "_מספר בכול"
+
+#. 
+#: ../xed/resources/ui/xed-print-preferences.ui.h:8
+msgid "lines"
+msgstr "שורות"
+
+#: ../xed/resources/ui/xed-print-preferences.ui.h:9
+msgid "Text Wrapping"
+msgstr "גלישת מלל"
+
+#: ../xed/resources/ui/xed-print-preferences.ui.h:10
+msgid "Enable text _wrapping"
+msgstr "אפשור _גלישת מלל"
+
+#: ../xed/resources/ui/xed-print-preferences.ui.h:11
+msgid "Do not _split words over two lines"
+msgstr "לא ל_פצל מילים על פני שתי שורות"
+
+#: ../xed/resources/ui/xed-print-preferences.ui.h:12
+msgid "Page header"
+msgstr "כותרת עמוד"
+
+#: ../xed/resources/ui/xed-print-preferences.ui.h:13
+msgid "Print page _headers"
+msgstr "הדפסת _כותרות עמוד"
+
+#: ../xed/resources/ui/xed-print-preferences.ui.h:14
+msgid "Fonts"
+msgstr "גופנים"
+
+#: ../xed/resources/ui/xed-print-preferences.ui.h:15
+msgid "_Body:"
+msgstr "_גוף:"
+
+#: ../xed/resources/ui/xed-print-preferences.ui.h:16
+msgid "_Line numbers:"
+msgstr "מספרי _שורה:"
+
+#: ../xed/resources/ui/xed-print-preferences.ui.h:17
+msgid "He_aders and footers:"
+msgstr "כו_תרות עיליות ותחתונות:"
+
+#: ../xed/resources/ui/xed-print-preferences.ui.h:18
+msgid "_Restore Default Fonts"
+msgstr "_שחזור גופני ברירת מחדל"
+
+#: ../xed/resources/ui/xed-searchbar.ui.h:1
+msgid "Replace _All"
+msgstr "החלפת _הכל"
+
+#: ../xed/resources/ui/xed-searchbar.ui.h:3
+msgid "_Search for: "
+msgstr "_חיפוש אחר: "
+
+#: ../xed/resources/ui/xed-searchbar.ui.h:4
+msgid "Replace _with: "
+msgstr "החלפה _ב-: "
+
+#: ../xed/resources/ui/xed-searchbar.ui.h:5
+msgid "Next"
+msgstr "הבא"
+
+#: ../xed/resources/ui/xed-searchbar.ui.h:6
+msgid "Previous"
+msgstr "הקודם"
+
+#: ../xed/resources/ui/xed-searchbar.ui.h:7
+msgid "Regular expression"
+msgstr "ביטוי סדיר"
+
+#: ../xed/resources/ui/xed-searchbar.ui.h:8
+msgid "Case sensitive"
+msgstr "תלוי רישיות"
+
+#: ../xed/resources/ui/xed-searchbar.ui.h:9
+msgid "Whole word"
+msgstr "מילה שלמה"
+
+#: ../xed/resources/ui/xed-searchbar.ui.h:10
+msgid "Wrap"
+msgstr "גלישה"
+
+#: ../xed/resources/ui/xed-shortcuts.ui.h:2 ../xed/xed-ui.h:56
+msgid "Create a new document"
+msgstr "יצירת מסמך חדש"
+
+#: ../xed/resources/ui/xed-shortcuts.ui.h:3
+msgid "Open a document"
+msgstr "פתיחת מסמך"
+
+#: ../xed/resources/ui/xed-shortcuts.ui.h:4
+msgid "Save the document"
+msgstr "שמירת מסמך"
+
+#: ../xed/resources/ui/xed-shortcuts.ui.h:5
+msgid "Save the document with a new filename"
+msgstr "שמירת המסמך בשם חדש"
+
+#: ../xed/resources/ui/xed-shortcuts.ui.h:6
+msgid "Save all the documents"
+msgstr "שמירת כל המסמכים"
+
+#: ../xed/resources/ui/xed-shortcuts.ui.h:7
+msgid "Close the document"
+msgstr "סגירת המסמך"
+
+#: ../xed/resources/ui/xed-shortcuts.ui.h:8
+msgid "Close all the documents"
+msgstr "סגירת כל המסמכים"
+
+#: ../xed/resources/ui/xed-shortcuts.ui.h:9
+msgid "Switch to the next document"
+msgstr "מעבר למסמך הבא"
+
+#: ../xed/resources/ui/xed-shortcuts.ui.h:10
+msgid "Switch to the previous document"
+msgstr "מעבר למסמך הקודם"
+
+#: ../xed/resources/ui/xed-shortcuts.ui.h:11
+msgid "Switch to the first - ninth document"
+msgstr "מעבר למסמך הראשון - התשיעי"
+
+#: ../xed/resources/ui/xed-shortcuts.ui.h:12
+msgid "Windows and Panes"
+msgstr "חלונות וחלוניות"
+
+#: ../xed/resources/ui/xed-shortcuts.ui.h:13
+msgid "Show side pane"
+msgstr "הצגת חלונית צד"
+
+#: ../xed/resources/ui/xed-shortcuts.ui.h:14
+msgid "Show bottom pane"
+msgstr "הצגת חלונית תחתונה"
+
+#: ../xed/resources/ui/xed-shortcuts.ui.h:15
+msgid "Fullscreen on / off"
+msgstr "הפעלת / כיבוי מסך מלא"
+
+#: ../xed/resources/ui/xed-shortcuts.ui.h:16
+msgid "Quit the application"
+msgstr "יציאה מהיישומון"
+
+#: ../xed/resources/ui/xed-shortcuts.ui.h:17
+msgid "Find and Replace"
+msgstr "חיפוש והחלפה"
+
+#: ../xed/resources/ui/xed-shortcuts.ui.h:18
+msgid "Find"
+msgstr "חיפוש"
+
+#: ../xed/resources/ui/xed-shortcuts.ui.h:19
+msgid "Find the next match"
+msgstr "חיפוש ההתאמה הבאה"
+
+#: ../xed/resources/ui/xed-shortcuts.ui.h:20
+msgid "Find the previous match"
+msgstr "חיפוש ההתאמה הקודמת"
+
+#: ../xed/resources/ui/xed-shortcuts.ui.h:21
+msgid "Go to line"
+msgstr "מעבר לשורה"
+
+#: ../xed/resources/ui/xed-shortcuts.ui.h:22
+msgid "Copy and Paste"
+msgstr "העתקה והדבקה"
+
+#: ../xed/resources/ui/xed-shortcuts.ui.h:23
+msgid "Copy selected text to clipboard"
+msgstr "העתקת מלל שנבחר ללוח הגזירים"
+
+#: ../xed/resources/ui/xed-shortcuts.ui.h:24
+msgid "Cut selected text to clipboard"
+msgstr "גזירת מלל שנבחר ללוח הגזירים"
+
+#: ../xed/resources/ui/xed-shortcuts.ui.h:25
+msgid "Paste text from clipboard"
+msgstr "הדבקת מלל מלוח הגזירים"
+
+#: ../xed/resources/ui/xed-shortcuts.ui.h:26
+msgid "Undo and Redo"
+msgstr "ביטול והחלה חוזרת"
+
+#: ../xed/resources/ui/xed-shortcuts.ui.h:27
+msgid "Undo previous command"
+msgstr "ביטול הפקודה האחרונה"
+
+#: ../xed/resources/ui/xed-shortcuts.ui.h:28
+msgid "Redo previous command"
+msgstr "החלה חוזרת של הפקודה האחרונה"
+
+#: ../xed/resources/ui/xed-shortcuts.ui.h:29 ../plugins/docinfo/docinfo.ui.h:11
+msgid "Selection"
+msgstr "בחירה"
+
+#: ../xed/resources/ui/xed-shortcuts.ui.h:30
+msgid "Select all text"
+msgstr "בחירת כל המלל"
+
+#: ../xed/resources/ui/xed-shortcuts.ui.h:31
+msgid "Tools"
+msgstr "כלים"
+
+#: ../xed/resources/ui/xed-shortcuts.ui.h:32
+msgid "Check spelling"
+msgstr "בדיקת איות"
+
+#: ../xed/resources/ui/xed-shortcuts.ui.h:34
+msgid "Layout"
+msgstr "פריסה"
+
+#: ../xed/resources/ui/xed-shortcuts.ui.h:35
+msgid "Toggle Word Wrap"
+msgstr "בררת גלישת מילים"
+
+#: ../xed/resources/ui/xed-shortcuts.ui.h:36
+msgid "Editing"
+msgstr "עריכה"
+
+#: ../xed/resources/ui/xed-shortcuts.ui.h:37
+msgid "Toggle insert / overwrite"
+msgstr "בררת הוספה/שכתוב"
+
+#: ../xed/resources/ui/xed-shortcuts.ui.h:38
+msgid "Delete current line"
+msgstr "מחיקת שורה נוכחית"
+
+#: ../xed/resources/ui/xed-shortcuts.ui.h:39
+msgid "Move current line up"
+msgstr "העברת השורה הנוכחית מעלה"
+
+#: ../xed/resources/ui/xed-shortcuts.ui.h:40
+msgid "Move current line down"
+msgstr "העברת השורה הנוכחית מטה"
+
+#: ../xed/resources/ui/xed-shortcuts.ui.h:41
+msgid "Move current word left"
+msgstr "העברת המילה הנוכחית שמאלה"
+
+#: ../xed/resources/ui/xed-shortcuts.ui.h:42
+msgid "Move current word right"
+msgstr "העברת המילה הנוכחית ימינה"
+
+#: ../xed/resources/ui/xed-shortcuts.ui.h:43
+msgid "Convert to uppercase"
+msgstr "המרה לאותיות רישיות"
+
+#: ../xed/resources/ui/xed-shortcuts.ui.h:44
+msgid "Convert to lowercase"
+msgstr "המרה לאותיות קטנות"
+
+#: ../xed/resources/ui/xed-shortcuts.ui.h:45
+msgid "Convert to title case"
+msgstr "המרה לאותיות כותרת"
+
+#: ../xed/resources/ui/xed-shortcuts.ui.h:46
+msgid "Invert case"
+msgstr "היפוך גודל אות"
+
+#: ../xed/resources/ui/xed-shortcuts.ui.h:47
+msgid "Increment number at cursor"
+msgstr "הגדלת המספר בסמן"
+
+#: ../xed/resources/ui/xed-shortcuts.ui.h:48
+msgid "Decrement number at cursor"
+msgstr "הקטנת המספר בסמן"
+
+#: ../xed/resources/ui/xed-shortcuts.ui.h:49
+msgid "Toggle comment block"
+msgstr "בררת מקטע הערה"
+
+#: ../xed/resources/ui/xed-shortcuts.ui.h:50
+msgid "Toggle comment"
+msgstr "בררת הערה"
+
+#: ../xed/resources/ui/xed-shortcuts.ui.h:51
+#: ../plugins/joinlines/joinlines.plugin.desktop.in.h:1
+msgid "Join Lines"
+msgstr "חיבור שורות"
+
+#: ../xed/xed-searchbar.c:88
+#, c-format
+msgid "Found and replaced %d occurrence"
+msgid_plural "Found and replaced %d occurrences"
+msgstr[0] "היקרות %d נמצאה והוחלפה"
+msgstr[1] "נמצאו והוחלפו %d היקרויות"
+
+#: ../xed/xed-searchbar.c:98
+msgid "Found and replaced one occurrence"
+msgstr "היקרות אחת נמצאה והוחלפה"
+
+#: ../xed/xed-searchbar.c:120
+#, c-format
+msgid "\"%s\" not found"
+msgstr "‏ '%s' לא נמצא"
+
+#: ../xed/xed-searchbar.c:298
+msgid "No matches found"
+msgstr "לא נמצאו התאמות"
+
+#: ../xed/xed-searchbar.c:306
+#, c-format
+msgid "%d match"
+msgid_plural "%d matches"
+msgstr[0] "התאמה %d"
+msgstr[1] "%d התאמות"
+
+#: ../xed/xed-searchbar.c:312
+#, c-format
+msgid "%d of %d match"
+msgid_plural "%d of %d matches"
+msgstr[0] "%d מתוך התאמה %d"
+msgstr[1] "%d מתוך %d התאמות"
+
+#: ../xed/xed-statusbar.c:63 ../xed/xed-statusbar.c:69
+msgid "OVR"
+msgstr "OVR"
+
+#: ../xed/xed-statusbar.c:63 ../xed/xed-statusbar.c:69
+msgid "INS"
+msgstr "INS"
+
+#. Translators: "Ln" is an abbreviation for "Line", Col is an abbreviation for "Column". Please,
+#. use abbreviations if possible to avoid space problems.
+#: ../xed/xed-statusbar.c:222
+#, c-format
+msgid "  Ln %d, Col %d"
+msgstr "  שורה %d, עמודה %d"
+
+#: ../xed/xed-statusbar.c:322
+#, c-format
+msgid "There is a tab with errors"
+msgid_plural "There are %d tabs with errors"
+msgstr[0] "קיימת לשונית עם שגיאות"
+msgstr[1] "קיימות %d לשוניות עם שגיאות"
+
+#: ../xed/xed-tab-label.c:267
+msgid "Close document"
+msgstr "סגירת מסמך"
+
+#. Translators: the first %s is a file name (e.g. test.txt) the second one
+#. is a directory (e.g. ssh://master.gnome.org/home/users/paolo)
+#: ../xed/xed-tab.c:717
+#, c-format
+msgid "Reverting %s from %s"
+msgstr "‏%s שחזור מ־%s"
+
+#: ../xed/xed-tab.c:722
+#, c-format
+msgid "Reverting %s"
+msgstr "‏%s שוחזר"
+
+#. Translators: the first %s is a file name (e.g. test.txt) the second one
+#. is a directory (e.g. ssh://master.gnome.org/home/users/paolo)
+#: ../xed/xed-tab.c:735
+#, c-format
+msgid "Loading %s from %s"
+msgstr "‏%s טעינת מ־%s"
+
+#: ../xed/xed-tab.c:740
+#, c-format
+msgid "Loading %s"
+msgstr "טעינת %s"
+
+#. Translators: the first %s is a file name (e.g. test.txt) the second one
+#. is a directory (e.g. ssh://master.gnome.org/home/users/paolo)
+#: ../xed/xed-tab.c:821
+#, c-format
+msgid "Saving %s to %s"
+msgstr "שמירת %s אל %s"
+
+#: ../xed/xed-tab.c:826
+#, c-format
+msgid "Saving %s"
+msgstr "שמירת %s"
+
+#. Read only
+#: ../xed/xed-tab.c:1320
+msgid "RO"
+msgstr "ק\"ב"
+
+#: ../xed/xed-tab.c:1368
+#, c-format
+msgid "Error opening file %s"
+msgstr "שגיאה בפתיחת קובץ %s"
+
+#: ../xed/xed-tab.c:1372
+#, c-format
+msgid "Error reverting file %s"
+msgstr "שגיאה בשחזור קובץ %s"
+
+#: ../xed/xed-tab.c:1376
+#, c-format
+msgid "Error saving file %s"
+msgstr "שגיאה בשמירת קובץ %s"
+
+#: ../xed/xed-tab.c:1409
+msgid "Name:"
+msgstr "שם:"
+
+#: ../xed/xed-tab.c:1410
+msgid "MIME Type:"
+msgstr "סוג MIME:"
+
+#: ../xed/xed-tab.c:1411
+msgid "Encoding:"
+msgstr "קידוד:"
+
+#. Toplevel
+#: ../xed/xed-ui.h:44
+msgid "_File"
+msgstr "_קובץ"
+
+#: ../xed/xed-ui.h:45
+msgid "_Edit"
+msgstr "ע_ריכה"
+
+#: ../xed/xed-ui.h:46
+msgid "_View"
+msgstr "_תצוגה"
+
+#: ../xed/xed-ui.h:47
+msgid "_Search"
+msgstr "_חיפוש"
+
+#: ../xed/xed-ui.h:48
+msgid "_Tools"
+msgstr "_כלים"
+
+#: ../xed/xed-ui.h:49
+msgid "_Documents"
+msgstr "_מסמכים"
+
+#: ../xed/xed-ui.h:51
+msgid "Favorites"
+msgstr "מועדפים"
+
+#: ../xed/xed-ui.h:52
+msgid "Recents"
+msgstr "אחרונים"
+
+#. File menu
+#: ../xed/xed-ui.h:55
+msgid "_New"
+msgstr "_חדש"
+
+#: ../xed/xed-ui.h:57
+msgid "_Open..."
+msgstr "_פתיחה..."
+
+#: ../xed/xed-ui.h:58
+msgid "Open a file"
+msgstr "פתיחת קובץ"
+
+#. Edit menu
+#: ../xed/xed-ui.h:61
+msgid "Pr_eferences"
+msgstr "ה_עדפות"
+
+#: ../xed/xed-ui.h:62
+msgid "Configure the application"
+msgstr "תצור היישומון"
+
+#. Help menu
+#: ../xed/xed-ui.h:65
+msgid "_Contents"
+msgstr "_תוכן עניינים"
+
+#: ../xed/xed-ui.h:66
+msgid "Open the xed manual"
+msgstr "פתיחת המדריך למשתמש של xed"
+
+#: ../xed/xed-ui.h:67
+msgid "_About"
+msgstr "על _אודות"
+
+#: ../xed/xed-ui.h:68
+msgid "About this application"
+msgstr "על אודות יישומון זה"
+
+#: ../xed/xed-ui.h:69
+msgid "_Keyboard Shortcuts"
+msgstr "_קיצורי מקלדת"
+
+#: ../xed/xed-ui.h:70
+msgid "Show the keyboard shortcuts dialog"
+msgstr "הצגת דו־שיח קיצורי מקלדת"
+
+#: ../xed/xed-ui.h:74
+msgid "Leave fullscreen mode"
+msgstr "יציאה ממצב מסך מלא"
+
+#: ../xed/xed-ui.h:82
+msgid "Save the current file"
+msgstr "שמירת הקובץ הנוכחי"
+
+#: ../xed/xed-ui.h:83
+msgid "Save _As..."
+msgstr "שמירה _בשם..."
+
+#: ../xed/xed-ui.h:84
+msgid "Save the current file with a different name"
+msgstr "שמירת הקובץ הנוכחי בשם אחר"
+
+#: ../xed/xed-ui.h:85
+msgid "Revert"
+msgstr "שחזור"
+
+#: ../xed/xed-ui.h:86
+msgid "Revert to a saved version of the file"
+msgstr "חזרה לגרסה שמורה של הקובץ"
+
+#: ../xed/xed-ui.h:87
+msgid "Print Previe_w"
+msgstr "תצוגה _מקדימה"
+
+#: ../xed/xed-ui.h:88
+msgid "Print preview"
+msgstr "תצוגה מקדימה"
+
+#: ../xed/xed-ui.h:89
+msgid "_Print..."
+msgstr "ה_דפסה..."
+
+#: ../xed/xed-ui.h:90
+msgid "Print the current page"
+msgstr "הדפסת עמוד נוכחי"
+
+#. Edit menu
+#: ../xed/xed-ui.h:93
+msgid "_Undo"
+msgstr "_הסגה"
+
+#: ../xed/xed-ui.h:94
+msgid "Undo the last action"
+msgstr "הסגת הפעולה האחרונה"
+
+#: ../xed/xed-ui.h:95
+msgid "_Redo"
+msgstr "הח_זרה"
+
+#: ../xed/xed-ui.h:96
+msgid "Redo the last undone action"
+msgstr "החזרת הפעולה המוסגת האחרונה"
+
+#: ../xed/xed-ui.h:97
+msgid "C_ut"
+msgstr "_גזירה"
+
+#: ../xed/xed-ui.h:98
+msgid "Cut the selection"
+msgstr "גזירת הבחירה"
+
+#: ../xed/xed-ui.h:99
+msgid "_Copy"
+msgstr "_העתקה"
+
+#: ../xed/xed-ui.h:100
+msgid "Copy the selection"
+msgstr "העתקת הבחירה"
+
+#: ../xed/xed-ui.h:101
+msgid "_Paste"
+msgstr "_הדבקה"
+
+#: ../xed/xed-ui.h:102
+msgid "Paste the clipboard"
+msgstr "הדבקת לוח הגזירים"
+
+#: ../xed/xed-ui.h:103 ../plugins/filebrowser/xed-file-browser-plugin.c:962
+#: ../plugins/filebrowser/xed-file-browser-plugin.c:997
+#: ../plugins/filebrowser/xed-file-browser-widget.c:758
+msgid "_Delete"
+msgstr "_מחיקה"
+
+#: ../xed/xed-ui.h:104
+msgid "Delete the selected text"
+msgstr "מחיקת המלל שנבחר"
+
+#: ../xed/xed-ui.h:105
+msgid "Select _All"
+msgstr "בחירת _הכול"
+
+#: ../xed/xed-ui.h:106
+msgid "Select the entire document"
+msgstr "בחירת כל המסמך"
+
+#: ../xed/xed-ui.h:107
+msgid "_Toggle Comment"
+msgstr "_בררת הערה"
+
+#: ../xed/xed-ui.h:108 ../plugins/taglist/HTML.tags.xml.in.h:41
+msgid "Comment"
+msgstr "הערה"
+
+#: ../xed/xed-ui.h:109
+msgid "Toggle Comment _Block"
+msgstr "בררת מקטע הערה"
+
+#: ../xed/xed-ui.h:110
+msgid "Comment Block"
+msgstr "מקטע הערה"
+
+#. View menu
+#: ../xed/xed-ui.h:113
+msgid "_Highlight Mode"
+msgstr "מצב ה_דגשה"
+
+#: ../xed/xed-ui.h:114
+msgid "Change syntax hightlight mode"
+msgstr "שינוי מצב הדגשת תחביר"
+
+#. Search menu
+#: ../xed/xed-ui.h:118
+msgid "_Find"
+msgstr "_חיפוש"
+
+#: ../xed/xed-ui.h:119
+msgid "Search for text"
+msgstr "חיפוש מלל"
+
+#: ../xed/xed-ui.h:120
+msgid "Find Ne_xt"
+msgstr "חיפוש ה_בא"
+
+#: ../xed/xed-ui.h:121
+msgid "Search forwards for the same text"
+msgstr "חיפוש המלל זהה קדימה"
+
+#: ../xed/xed-ui.h:122
+msgid "Find Pre_vious"
+msgstr "חיפוש ה_קודם"
+
+#: ../xed/xed-ui.h:123
+msgid "Search backwards for the same text"
+msgstr "חיפוש מלל זהה אחורה"
+
+#: ../xed/xed-ui.h:125
+msgid "Search for and replace text"
+msgstr "חיפוש והחלפת מלל"
+
+#: ../xed/xed-ui.h:126
+msgid "Go to _Line..."
+msgstr "מעבר _לשורה..."
+
+#: ../xed/xed-ui.h:127
+msgid "Go to a specific line"
+msgstr "מעבר לשורה מסוימת"
+
+#. Documents menu
+#: ../xed/xed-ui.h:130
+msgid "_Save All"
+msgstr "_שמירת הכול"
+
+#: ../xed/xed-ui.h:131
+msgid "Save all open files"
+msgstr "שמירת כל הקבצים הפתוחים"
+
+#: ../xed/xed-ui.h:132
+msgid "_Close All"
+msgstr "_סגירת הכל"
+
+#: ../xed/xed-ui.h:133
+msgid "Close all open files"
+msgstr "סגירת כל הקבצים הפתוחים"
+
+#: ../xed/xed-ui.h:134
+msgid "_Previous Document"
+msgstr "ה_מסמך הקודם"
+
+#: ../xed/xed-ui.h:135
+msgid "Activate previous document"
+msgstr "הפעלת המסמך הקודם"
+
+#: ../xed/xed-ui.h:136
+msgid "_Next Document"
+msgstr "המסמך ה_בא"
+
+#: ../xed/xed-ui.h:137
+msgid "Activate next document"
+msgstr "הפעלת המסמך הבא"
+
+#: ../xed/xed-ui.h:138
+msgid "_Move to New Window"
+msgstr "ה_עברה לחלון חדש"
+
+#: ../xed/xed-ui.h:139
+msgid "Move the current document to a new window"
+msgstr "העברת המסמך הנוכחי לחלון חדש"
+
+#: ../xed/xed-ui.h:145
+msgid "_Close"
+msgstr "_סגירה"
+
+#: ../xed/xed-ui.h:146
+msgid "Close the current file"
+msgstr "סגירת הקובץ הנוכחי"
+
+#: ../xed/xed-ui.h:152
+msgid "_Quit"
+msgstr "_יציאה"
+
+#: ../xed/xed-ui.h:153
+msgid "Quit the program"
+msgstr "יציאה מהתכנית"
+
+#: ../xed/xed-ui.h:158
+msgid "_Toolbar"
+msgstr "_סרגל כלים"
+
+#: ../xed/xed-ui.h:159
+msgid "Show or hide the toolbar in the current window"
+msgstr "הצגת או הסתר סרגל הכלים בחלון הנוכחי"
+
+#: ../xed/xed-ui.h:161
+msgid "_Menubar"
+msgstr "_סרגל תפריט"
+
+#: ../xed/xed-ui.h:162
+msgid "Show or hide the menubar in the current window"
+msgstr "הצגת או הסתרת סרגל התפריט בחלון הנוכחי"
+
+#: ../xed/xed-ui.h:164
+msgid "_Statusbar"
+msgstr "_שורת מצב"
+
+#: ../xed/xed-ui.h:165
+msgid "Show or hide the statusbar in the current window"
+msgstr "הצגת או הסתרת שורת המצב בחלון הנוכחי"
+
+#: ../xed/xed-ui.h:167
+msgid "Fullscreen"
+msgstr "מסך מלא"
+
+#: ../xed/xed-ui.h:168
+msgid "Edit text in fullscreen"
+msgstr "עריכת מלל במסך מלא"
+
+#: ../xed/xed-ui.h:170
+msgid "_Word wrap"
+msgstr "_גלישת מילים"
+
+#: ../xed/xed-ui.h:171
+msgid "Set word wrap for the current document"
+msgstr "הגדרת גלישת מילים למסמך הנוכחי"
+
+#: ../xed/xed-ui.h:173
+msgid "_Overview Map"
+msgstr "מפת _סקירה כללית"
+
+#: ../xed/xed-ui.h:174
+msgid "Show or hide the overview map for the current view"
+msgstr "הצגת או הסתרת מפת הסקירה הכללית בתצוגה הנוכחית"
+
+#: ../xed/xed-ui.h:181
+msgid "Side _Pane"
+msgstr "_חלונית צד"
+
+#: ../xed/xed-ui.h:182
+msgid "Show or hide the side pane in the current window"
+msgstr "הצגת או הסתרת חלונית הצד בחלון הנוכחי"
+
+#: ../xed/xed-ui.h:184
+msgid "_Bottom Pane"
+msgstr "חלונית _תחתונה"
+
+#: ../xed/xed-ui.h:185
+msgid "Show or hide the bottom pane in the current window"
+msgstr "הצגת או הסתרת החלונית התחתונה בחלון הנוכחי"
+
+#: ../xed/xed-utils.c:830
+msgid "Please check your installation."
+msgstr "נא לבדוק את ההתקנה."
+
+#: ../xed/xed-utils.c:898
+#, c-format
+msgid "Unable to open UI file %s. Error: %s"
+msgstr "לא ניתן לפתוח את קובץ המנשק %s. שגיאה: %s"
+
+#: ../xed/xed-utils.c:918
+#, c-format
+msgid "Unable to find the object '%s' inside file %s."
+msgstr "לא ניתן למצוא עצם '%s' בתוך הקובץ %s."
+
+#. Translators: '/ on <remote-share>'
+#: ../xed/xed-utils.c:1086
+#, c-format
+msgid "/ on %s"
+msgstr "/ ב־%s"
+
+#: ../xed/xed-view.c:388
+msgid "_Display line numbers"
+msgstr "_הצגת מספרי שורות"
+
+#. Translators: %s is a URI
+#: ../xed/xed-window.c:944
+#, c-format
+msgid "Open '%s'"
+msgstr "פתיחת '%s'"
+
+#. Translators: %s is a URI
+#: ../xed/xed-window.c:1295
+#, c-format
+msgid "Activate '%s'"
+msgstr "הפעלת '%s'"
+
+#: ../xed/xed-window.c:1483
+#, c-format
+msgid "Spaces: %u"
+msgstr "מרווחים: %u"
+
+#: ../xed/xed-window.c:1487
+#, c-format
+msgid "Tabs: %u"
+msgstr "טבלרים: %u"
+
+#: ../xed/xed-window.c:1564
+msgid "Use Spaces"
+msgstr "שימוש ברווחים"
+
+#: ../xed/xed-window.c:2372
+msgid "There are unsaved documents"
+msgstr "ישנם מסמכים שלא נשמרו"
+
+#: ../xed/xed-window.c:3421
+msgid "Elevated Privileges"
+msgstr "הרשאות על"
+
+#: ../plugins/docinfo/docinfo.plugin.desktop.in.h:1
+#: ../plugins/docinfo/docinfo.ui.h:1
+msgid "Document Statistics"
+msgstr "סטטיסטיקות מסמך"
+
+#: ../plugins/docinfo/docinfo.plugin.desktop.in.h:2
+msgid ""
+"Analyzes the current document and reports the number of words, lines, "
+"characters and non-space characters in it."
+msgstr ""
+"ניתוח המסמך הנוכחי ודיווח על מספר המילים, השורות, התווים והתווים שאינם "
+"רווחים במסמך."
+
+#: ../plugins/docinfo/docinfo.ui.h:2
+msgid "_Update"
+msgstr "_עדכון"
+
+#: ../plugins/docinfo/docinfo.ui.h:3
+msgid "File Name"
+msgstr "שם הקובץ"
+
+#: ../plugins/docinfo/docinfo.ui.h:4 ../plugins/time/xed-time-dialog.ui.h:4
+#: ../plugins/time/xed-time-setup-dialog.ui.h:3
+msgid "    "
+msgstr "    "
+
+#: ../plugins/docinfo/docinfo.ui.h:5
+msgid "Bytes"
+msgstr "בתים"
+
+#: ../plugins/docinfo/docinfo.ui.h:6
+msgid "Characters (no spaces)"
+msgstr "תווים (ללא רווחים)"
+
+#: ../plugins/docinfo/docinfo.ui.h:7
+msgid "Characters (with spaces)"
+msgstr "תווים (כולל רווחים)"
+
+#: ../plugins/docinfo/docinfo.ui.h:8
+msgid "Words"
+msgstr "מילים"
+
+#: ../plugins/docinfo/docinfo.ui.h:9
+msgid "Lines"
+msgstr "שורות"
+
+#: ../plugins/docinfo/docinfo.ui.h:10
+msgid "Document"
+msgstr "מסמך"
+
+#: ../plugins/docinfo/xed-docinfo-plugin.c:379
+msgid "_Document Statistics"
+msgstr "סטטיסטיקת _מסמך"
+
+#: ../plugins/docinfo/xed-docinfo-plugin.c:381
+msgid "Get statistical information on the current document"
+msgstr "קבלת מידע סטטיסטי על המסמך הנוכחי"
+
+#: ../plugins/filebrowser/filebrowser.plugin.desktop.in.h:1
+msgid "File Browser Pane"
+msgstr "חלונית דפדפן קבצים"
+
+#: ../plugins/filebrowser/filebrowser.plugin.desktop.in.h:2
+msgid "Easy file access from the side pane"
+msgstr "גישה קלה לקבצים מחלונית הצד"
+
+#: ../plugins/filebrowser/org.x.editor.plugins.filebrowser.gschema.xml.h:1
+msgid "Set Location to First Document"
+msgstr "הגדרת מיקום למסמך ראשון"
+
+#: ../plugins/filebrowser/org.x.editor.plugins.filebrowser.gschema.xml.h:2
+msgid ""
+"If TRUE the file browser plugin will view the directory of the first opened "
+"document given that the file browser hasn't been used yet. (Thus this "
+"generally applies to opening a document from the command line or opening it "
+"with Caja, etc.)"
+msgstr ""
+"אם 'TRUE', מתקע דפדפן הקבצים יציג את מחיצת המסמך שנפתח ראשון, בהינתן שטרם "
+"נעשה שימוש בדפדפן הקבצים. (לכן זה חל בדרך כלל בפתיחת מסמך משורת הפקודה או "
+"פתיחתו באמצעות Caja ודומיהם.)"
+
+#: ../plugins/filebrowser/org.x.editor.plugins.filebrowser.gschema.xml.h:3
+msgid "File Browser Filter Mode"
+msgstr "מצב מסנן דפדפן קבצים"
+
+#: ../plugins/filebrowser/org.x.editor.plugins.filebrowser.gschema.xml.h:4
+msgid ""
+"This value determines what files get filtered from the file browser. Valid "
+"values are: none (filter nothing), hidden (filter hidden files), binary "
+"(filter binary files) and hidden_and_binary (filter both hidden and binary "
+"files)."
+msgstr ""
+"ערך זה קובע אילו קבצים יסוננו מדפדפן הקבצים. ערכים חוקיים הם: none (לא לסנן "
+"דבר), מוסתר (סינון קבצים מוסתרים), שיניוני (סינון קבצים שניוניים) "
+"ו־hidden_and_binary (סינון קבצים מוסתרים ושניוניים כאחד)."
+
+#: ../plugins/filebrowser/org.x.editor.plugins.filebrowser.gschema.xml.h:5
+msgid "File Browser Filter Pattern"
+msgstr "דפוס מסנן דפדפן קבצים"
+
+#: ../plugins/filebrowser/org.x.editor.plugins.filebrowser.gschema.xml.h:6
+msgid ""
+"The filter pattern to filter the file browser with. This filter works on top "
+"of the filter_mode."
+msgstr ""
+"דפוס המסנן איתו יסונן דפדפן הקבצים. מסנן זה פועל 'מעל' ה־filter_mode."
+
+#: ../plugins/filebrowser/org.x.editor.plugins.filebrowser.gschema.xml.h:7
+msgid "Terminal Command"
+msgstr "פקודת מסוף"
+
+#: ../plugins/filebrowser/org.x.editor.plugins.filebrowser.gschema.xml.h:8
+msgid "The terminal command when using the \"Open terminal here\" command."
+msgstr "פקודת המסוף בעת שימוש בפקודה \"פתיחת מסוף כאן\"."
+
+#: ../plugins/filebrowser/org.x.editor.plugins.filebrowser.gschema.xml.h:9
+msgid "Open With Tree View"
+msgstr "פתיחה במצג 'עץ'"
+
+#: ../plugins/filebrowser/org.x.editor.plugins.filebrowser.gschema.xml.h:10
+msgid ""
+"Open the tree view when the file browser plugin gets loaded instead of the "
+"bookmarks view"
+msgstr "נא לפתוח את מצג העץ בעת טעינת מתקע דפדפן הקבצים, במקום מצג הסימניות"
+
+#: ../plugins/filebrowser/org.x.editor.plugins.filebrowser.gschema.xml.h:11
+msgid "File Browser Root Directory"
+msgstr "מחיצת שורש דפדפן קבצים"
+
+#: ../plugins/filebrowser/org.x.editor.plugins.filebrowser.gschema.xml.h:12
+msgid ""
+"The file browser root directory to use when loading the file browser plugin "
+"and onload/tree_view is TRUE."
+msgstr ""
+"מחיצת השורש של דפדפן הקבצים בה יעשה שימוש בעת טעינת מתקע דפדפן הקבצים, וגם "
+"onload/tree_view שווה ל־'TRUE'."
+
+#: ../plugins/filebrowser/org.x.editor.plugins.filebrowser.gschema.xml.h:13
+msgid "File Browser Virtual Root Directory"
+msgstr "מחיצת שורש מדומה  דפדפן הקבצים"
+
+#: ../plugins/filebrowser/org.x.editor.plugins.filebrowser.gschema.xml.h:14
+msgid ""
+"The file browser virtual root directory to use when loading the file browser "
+"plugin when onload/tree_view is TRUE. The virtual root must always be below "
+"the actual root."
+msgstr ""
+"מחיצת השורש המדומה של דפדפן הקבצים, בה יעשה בעת טעינת מתקע דפדפן הקבצים, "
+"כאשר onload/tree_view שווה 'TRUE'. מחיצת השורש המדומה חייבת להמצא תמיד מתחת "
+"למחיצת השורש הממשית."
+
+#: ../plugins/filebrowser/org.x.editor.plugins.filebrowser.gschema.xml.h:15
+msgid "Enable Restore of Remote Locations"
+msgstr "אפשור שחזור מיקומים מרוחקים"
+
+#: ../plugins/filebrowser/org.x.editor.plugins.filebrowser.gschema.xml.h:16
+msgid "Sets whether to enable restoring of remote locations."
+msgstr "הגדרת האם לאפשר שחזור מיקומים מרוחקים."
+
+#: ../plugins/filebrowser/xed-file-bookmarks-store.c:254
+msgid "File System"
+msgstr "מערכת קבצים"
+
+#: ../plugins/filebrowser/xed-file-browser-plugin.c:439
+msgid "_Set root to active document"
+msgstr "ה_גדרת שורש למסמך פעיל"
+
+#: ../plugins/filebrowser/xed-file-browser-plugin.c:441
+msgid "Set the root to the active document location"
+msgstr "הגדרת השורש למיקום המסמך הפעיל"
+
+#: ../plugins/filebrowser/xed-file-browser-plugin.c:446
+msgid "_Open terminal here"
+msgstr "פתיחת _מסוף כאן"
+
+#: ../plugins/filebrowser/xed-file-browser-plugin.c:448
+msgid "Open a terminal at the currently opened directory"
+msgstr "פתיחת מסוף במחיצה הפתוחה הנוכחית"
+
+#: ../plugins/filebrowser/xed-file-browser-plugin.c:558
+msgid "File Browser"
+msgstr "דפדפן קבצים"
+
+#: ../plugins/filebrowser/xed-file-browser-plugin.c:667
+msgid "An error occurred while creating a new directory"
+msgstr "ארעה שגיאה בעת יצירת מחיצה חדשה"
+
+#: ../plugins/filebrowser/xed-file-browser-plugin.c:670
+msgid "An error occurred while creating a new file"
+msgstr "ארעה שגיאה בעת יצירת קובץ חדש"
+
+#: ../plugins/filebrowser/xed-file-browser-plugin.c:673
+msgid "An error occurred while renaming a file or directory"
+msgstr "ארעה שגיאה בעת החלפת שם קובץ או מחיצה"
+
+#: ../plugins/filebrowser/xed-file-browser-plugin.c:676
+msgid "An error occurred while deleting a file or directory"
+msgstr "ארעה שגיאה בעת מחיקת קובץ או מחיצה"
+
+#: ../plugins/filebrowser/xed-file-browser-plugin.c:679
+msgid "An error occurred while opening a directory in the file manager"
+msgstr "ארעה שגיאה בעת פתיחת מחיצה באמצעות מנהל הקבצים"
+
+#: ../plugins/filebrowser/xed-file-browser-plugin.c:682
+msgid "An error occurred while setting a root directory"
+msgstr "ארעה שגיאה בעת הגדרת מחיצת שורש"
+
+#: ../plugins/filebrowser/xed-file-browser-plugin.c:685
+msgid "An error occurred while loading a directory"
+msgstr "ארעה שגיאה בעת טעינת מחיצה"
+
+#: ../plugins/filebrowser/xed-file-browser-plugin.c:688
+msgid "An error occurred"
+msgstr "ארעה שגיאה"
+
+#: ../plugins/filebrowser/xed-file-browser-plugin.c:945
+msgid ""
+"Cannot move file to trash, do you\n"
+"want to delete permanently?"
+msgstr ""
+"לא ניתן להעביר לסל המחזור\n"
+"האם למחוק לצמיתות?"
+
+#: ../plugins/filebrowser/xed-file-browser-plugin.c:950
+#, c-format
+msgid "The file \"%s\" cannot be moved to the trash."
+msgstr "לא ניתן להעביר לסל המחזור את הקובץ '%s'."
+
+#: ../plugins/filebrowser/xed-file-browser-plugin.c:955
+msgid "The selected files cannot be moved to the trash."
+msgstr "לא ניתן להעביר את הקבצים שנבחרו לסל המחזור."
+
+#: ../plugins/filebrowser/xed-file-browser-plugin.c:983
+#, c-format
+msgid "Are you sure you want to permanently delete \"%s\"?"
+msgstr "האם למחוק את '%s' לצמיתות?"
+
+#: ../plugins/filebrowser/xed-file-browser-plugin.c:988
+msgid "Are you sure you want to permanently delete the selected files?"
+msgstr "האם למחוק את הקבצים המסומנים לצמיתות?"
+
+#: ../plugins/filebrowser/xed-file-browser-plugin.c:991
+msgid "If you delete an item, it is permanently lost."
+msgstr "אם פריט ימחק, הוא יאבד לצמיתות."
+
+#: ../plugins/filebrowser/xed-file-browser-store.c:1810
+msgid "(Empty)"
+msgstr "(ריק)"
+
+#: ../plugins/filebrowser/xed-file-browser-store.c:3500
+msgid ""
+"The renamed file is currently filtered out. You need to adjust your filter "
+"settings to make the file visible"
+msgstr ""
+"הקובץ ששמו שונה אינו נכלל עקב סינון. יהיה עליך להתאים את הגדרות המסנן שלך "
+"כדי שהקובץ יופיע"
+
+#. Translators: This is the default name of new files created by the file browser pane.
+#: ../plugins/filebrowser/xed-file-browser-store.c:3766
+msgid "Untitled File"
+msgstr "קובץ ללא שם"
+
+#: ../plugins/filebrowser/xed-file-browser-store.c:3794
+msgid ""
+"The new file is currently filtered out. You need to adjust your filter "
+"settings to make the file visible"
+msgstr ""
+"הקובץ החדש אינו נכלל עקב סינון. יהיה עליך להתאים את הגדרות המסנן שלך כדי "
+"הקובץ יופיע"
+
+#. Translators: This is the default name of new directories created by the file browser pane.
+#: ../plugins/filebrowser/xed-file-browser-store.c:3821
+msgid "Untitled Folder"
+msgstr "תיקייה ללא שם"
+
+#: ../plugins/filebrowser/xed-file-browser-store.c:3846
+msgid ""
+"The new directory is currently filtered out. You need to adjust your filter "
+"settings to make the directory visible"
+msgstr ""
+"המחיצה החדשה מסוננת כעת. נא להתאים את הגדרות המסנן כך שהמחיצה תהיה גלויה"
+
+#: ../plugins/filebrowser/xed-file-browser-widget.c:714
+msgid "Bookmarks"
+msgstr "סימניות"
+
+#: ../plugins/filebrowser/xed-file-browser-widget.c:751
+msgid "_Filter"
+msgstr "_מסנן"
+
+#: ../plugins/filebrowser/xed-file-browser-widget.c:756
+msgid "_Move to Trash"
+msgstr "_העברה לסל המחזור"
+
+#: ../plugins/filebrowser/xed-file-browser-widget.c:757
+msgid "Move selected file or folder to trash"
+msgstr "העברת הקובץ או התיקייה שנבחרו לבל המחזור"
+
+#: ../plugins/filebrowser/xed-file-browser-widget.c:759
+msgid "Delete selected file or folder"
+msgstr "מחיקת הקובץ או התיקייה שנבחרו"
+
+#: ../plugins/filebrowser/xed-file-browser-widget.c:765
+msgid "Open selected file"
+msgstr "פתיחת קובץ שנבחר"
+
+#: ../plugins/filebrowser/xed-file-browser-widget.c:770
+msgid "Up"
+msgstr "למעלה"
+
+#: ../plugins/filebrowser/xed-file-browser-widget.c:771
+msgid "Open the parent folder"
+msgstr "פתיחת תיקיית ההורה"
+
+#: ../plugins/filebrowser/xed-file-browser-widget.c:776
+msgid "_New Folder"
+msgstr "_תיקייה חדשה"
+
+#: ../plugins/filebrowser/xed-file-browser-widget.c:777
+msgid "Add new empty folder"
+msgstr "הוספת תיקייה ריקה"
+
+#: ../plugins/filebrowser/xed-file-browser-widget.c:778
+msgid "New F_ile"
+msgstr "_קובץ חדש"
+
+#: ../plugins/filebrowser/xed-file-browser-widget.c:779
+msgid "Add new empty file"
+msgstr "הוספת קובץ ריק"
+
+#: ../plugins/filebrowser/xed-file-browser-widget.c:784
+msgid "_Rename..."
+msgstr "_שינוי שם..."
+
+#: ../plugins/filebrowser/xed-file-browser-widget.c:785
+msgid "Rename selected file or folder"
+msgstr "שינוי שם קובץ או תיקייה שנבחרו"
+
+#: ../plugins/filebrowser/xed-file-browser-widget.c:790
+msgid "_Previous Location"
+msgstr "המיקום ה_קודם"
+
+#: ../plugins/filebrowser/xed-file-browser-widget.c:791
+msgid "Go to the previous visited location"
+msgstr "מעבר למיקום הקודם בו ביקרת"
+
+#: ../plugins/filebrowser/xed-file-browser-widget.c:792
+msgid "_Next Location"
+msgstr "המיקום ה_בא"
+
+#: ../plugins/filebrowser/xed-file-browser-widget.c:793
+msgid "Go to the next visited location"
+msgstr "מעבר למיקום הבא בו ביקרת"
+
+#: ../plugins/filebrowser/xed-file-browser-widget.c:794
+msgid "Re_fresh View"
+msgstr "ר_ענון התצוגה"
+
+#: ../plugins/filebrowser/xed-file-browser-widget.c:795
+msgid "Refresh the view"
+msgstr "רענון התצוגה"
+
+#: ../plugins/filebrowser/xed-file-browser-widget.c:796
+#: ../plugins/filebrowser/xed-file-browser-widget.c:810
+msgid "_View Folder"
+msgstr "_הצגת תיקייה"
+
+#: ../plugins/filebrowser/xed-file-browser-widget.c:797
+#: ../plugins/filebrowser/xed-file-browser-widget.c:811
+msgid "View folder in file manager"
+msgstr "הצגת תיקייה במנהל קבצים"
+
+#: ../plugins/filebrowser/xed-file-browser-widget.c:802
+msgid "Show _Hidden"
+msgstr "הצגת _נסתרים"
+
+#: ../plugins/filebrowser/xed-file-browser-widget.c:803
+msgid "Show hidden files and folders"
+msgstr "הצגת קבצים ותיקיות מוסתרים"
+
+#: ../plugins/filebrowser/xed-file-browser-widget.c:804
+msgid "Show _Binary"
+msgstr "הצגה _שניונית"
+
+#: ../plugins/filebrowser/xed-file-browser-widget.c:805
+msgid "Show binary files"
+msgstr "הצגת קבצים שניוניים"
+
+#: ../plugins/filebrowser/xed-file-browser-widget.c:1148
+msgid "_Match Filename"
+msgstr "הת_אמת שם קובץ"
+
+#: ../plugins/filebrowser/xed-file-browser-widget.c:2012
+#, c-format
+msgid "No mount object for mounted volume: %s"
+msgstr "אין עצם עגינה לכרך שעוגן: %s"
+
+#: ../plugins/filebrowser/xed-file-browser-widget.c:2090
+#, c-format
+msgid "Could not open media: %s"
+msgstr "לא ניתן לפתוח מדיה: %s"
+
+#: ../plugins/filebrowser/xed-file-browser-widget.c:2139
+#, c-format
+msgid "Could not mount volume: %s"
+msgstr "לא ניתן לעגון את הכרך: %s"
+
+#: ../plugins/joinlines/joinlines.plugin.desktop.in.h:2
+msgid "Join several lines"
+msgstr "איחוד מספר שורות"
+
+#: ../plugins/joinlines/joinlines/__init__.py:26
+msgid "_Join Lines"
+msgstr "_איחוד שורות"
+
+#: ../plugins/joinlines/joinlines/__init__.py:27
+msgid "Join the selected lines"
+msgstr "איחוד השורות שנבחרו"
+
+#. vi:ts=8
+#: ../plugins/modelines/modelines.plugin.desktop.in.h:1
+msgid "Modelines"
+msgstr "מצבי שורה"
+
+#: ../plugins/modelines/modelines.plugin.desktop.in.h:2
+msgid "Emacs, Kate and Vim-style modelines support for xed."
+msgstr "תמיכה בשורות מצב של Emacs,‏ Kate ו־Vim-style עבור xed."
+
+#: ../plugins/sort/sort.plugin.desktop.in.h:1
+msgid "Sort"
+msgstr "מיון"
+
+#: ../plugins/sort/sort.plugin.desktop.in.h:2
+msgid "Sorts a document or selected text."
+msgstr "מיון מסמך או מלל שנבחר."
+
+#: ../plugins/sort/xed-sort-plugin.c:75
+msgid "S_ort lines"
+msgstr "_מיון שורות"
+
+#: ../plugins/sort/xed-sort-plugin.c:77
+msgid "Sort the current document or selection"
+msgstr "מיון המסמך הבחירה הנוכחיים"
+
+#: ../plugins/spell/org.x.editor.plugins.spell.gschema.xml.in.h:1
+msgid "Autocheck Type"
+msgstr "סוג בדיקה אוטומטית"
+
+#: ../plugins/spell/spell.plugin.desktop.in.h:1
+msgid "Spell Checker"
+msgstr "איית"
+
+#: ../plugins/spell/spell.plugin.desktop.in.h:2
+msgid "Checks the spelling of the current document."
+msgstr "בדיקת האיות במסמך הנוכחי."
+
+#: ../plugins/spell/xed-spell-plugin.c:86
+msgid "_Check Spelling..."
+msgstr "_בדיקת איות..."
+
+#: ../plugins/spell/xed-spell-plugin.c:88
+msgid "Check the current document for incorrect spelling"
+msgstr "בדיקת המסמך הנוכחי לאיות שגוי"
+
+#: ../plugins/spell/xed-spell-plugin.c:94
+msgid "Set _Language..."
+msgstr "הגדרת _שפה..."
+
+#: ../plugins/spell/xed-spell-plugin.c:96
+msgid "Set the language of the current document"
+msgstr "הגדרת השפה של המסמך הנוכחי"
+
+#: ../plugins/spell/xed-spell-plugin.c:105
+msgid "_Autocheck Spelling"
+msgstr "איות _אוטומטי"
+
+#: ../plugins/spell/xed-spell-plugin.c:107
+msgid "Automatically spell-check the current document"
+msgstr "בדיקת איות אוטומטית במסמך הנוכחי"
+
+#: ../plugins/spell/xed-spell-setup-dialog.ui.h:1
+msgid "button"
+msgstr "לחצן"
+
+#: ../plugins/spell/xed-spell-setup-dialog.ui.h:2
+msgid "Autocheck settings"
+msgstr "הגדרות בדיקה אוטומטית"
+
+#: ../plugins/spell/xed-spell-setup-dialog.ui.h:3
+msgid "Never"
+msgstr "לעולם לא"
+
+#: ../plugins/spell/xed-spell-setup-dialog.ui.h:4
+msgid "Never autocheck spelling on document load"
+msgstr "לעולם לא לבצע בדיקת איות אוטומטית בעת טעינת מסמך"
+
+#: ../plugins/spell/xed-spell-setup-dialog.ui.h:5
+msgid "Remember by document"
+msgstr "זכירה לפי מסמך"
+
+#: ../plugins/spell/xed-spell-setup-dialog.ui.h:6
+msgid "Remembers the setting for each  document on load"
+msgstr "זכירת הגדרות כל מסמך בעת טעינה"
+
+#: ../plugins/spell/xed-spell-setup-dialog.ui.h:7
+msgid "Always"
+msgstr "תמיד"
+
+#: ../plugins/spell/xed-spell-setup-dialog.ui.h:8
+msgid "Always autocheck on document load"
+msgstr "תמיד לבצע בדיקה אוטומטית בעת טעינת מסמך"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:1
+msgid "XHTML 1.0 - Tags"
+msgstr "‏XHTML 1.0 — תגי"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:2
+msgid "Abbreviated form"
+msgstr "טופס מקוצר"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:3
+msgid "Abbreviation"
+msgstr "קיצור"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:4
+msgid "Accessibility key character"
+msgstr "תו מפתח נגישות"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:5
+msgid "Acronym"
+msgstr "ראשי תיבות"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:6
+msgid "Align"
+msgstr "יישור"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:7
+msgid "Alignment character"
+msgstr "תו ישור"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:8
+msgid "Alternative"
+msgstr "חלופי"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:9
+msgid "Anchor URI"
+msgstr "מען URI עוגן"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:10
+msgid "Anchor"
+msgstr "עוגן"
+
+#. Deprecated since HTML 4.01, not supported in XHTML 1.0 Strict DTD.
+#: ../plugins/taglist/HTML.tags.xml.in.h:12
+msgid "Applet class file code (deprecated)"
+msgstr "קוד קובץ מחלקת יישומון־לוח (הוצא משימוש)"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:13
+msgid "Associated information"
+msgstr "מידע משוייך"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:14
+msgid "Author info"
+msgstr "מידע על המחבר"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:15
+msgid "Axis related headers"
+msgstr "כותרות צירים"
+
+#. Deprecated since HTML 4.01, not supported in XHTML 1.0 Strict DTD.
+#: ../plugins/taglist/HTML.tags.xml.in.h:17
+msgid "Background color (deprecated)"
+msgstr "צבע רקע (הוצא משימוש)"
+
+#. Deprecated since HTML 4.01, not supported in XHTML 1.0 Strict DTD.
+#: ../plugins/taglist/HTML.tags.xml.in.h:19
+msgid "Background texture tile (deprecated)"
+msgstr "אריח מרקם רקע (הוצא משימוש)"
+
+#. Deprecated since HTML 4.01, not supported in XHTML 1.0 Strict DTD.
+#: ../plugins/taglist/HTML.tags.xml.in.h:21
+msgid "Base font (deprecated)"
+msgstr "גופן בסיסי (הוצא משימוש)"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:22
+msgid "Base URI"
+msgstr "מען URI בסיס"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:23
+msgid "Bold"
+msgstr "מודגש"
+
+#. Deprecated since HTML 4.01, not supported in XHTML 1.0 Strict DTD.
+#: ../plugins/taglist/HTML.tags.xml.in.h:25
+msgid "Border (deprecated)"
+msgstr "גבול (הוצא משימוש)"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:26
+msgid "Cell rowspan"
+msgstr "תא משרע־שורה"
+
+#. Deprecated since HTML 4.01, not supported in XHTML 1.0 Strict DTD.
+#: ../plugins/taglist/HTML.tags.xml.in.h:28
+msgid "Center (deprecated)"
+msgstr "מרכוז (הוצא משימוש)"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:29
+msgid "Character encoding of linked resource"
+msgstr "Character encoding of linked resource"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:30
+msgid "Checked state"
+msgstr "מצב בדיקה"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:31
+msgid "Citation"
+msgstr "מובאה"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:32
+msgid "Cite reason for change"
+msgstr "ציטות סיבת שינוי"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:33
+msgid "Class implementation ID"
+msgstr "מזהה מימוש מחלקה"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:34
+msgid "Class list"
+msgstr "רשימת מחלקות"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:35
+msgid "Clear text flow control"
+msgstr "ניקוי בקרת זרימת מלל"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:36
+msgid "Code content type"
+msgstr "סוג תוכן קוד"
+
+#. Deprecated since HTML 4.01, not supported in XHTML 1.0 Strict DTD.
+#: ../plugins/taglist/HTML.tags.xml.in.h:38
+msgid "Color of selected links (deprecated)"
+msgstr "צבע קישורים שנבחרו (הוצא משימוש)"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:39
+msgid "Column span"
+msgstr "משרע־עמודה"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:40
+msgid "Columns"
+msgstr "עמודות"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:42
+msgid "Computer code fragment"
+msgstr "קטע קוד מחשב"
+
+#. The "type" attribute is deprecated for the "ol" tag only,
+#. since HTML 4.01, not supported in XHTML 1.0 Strict DTD.
+#: ../plugins/taglist/HTML.tags.xml.in.h:45
+msgid "Content type (deprecated)"
+msgstr "סוג תוכן (הוצא משימוש)"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:46
+msgid "Coordinates"
+msgstr "נקודות ציון"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:47
+msgid "Date and time of change"
+msgstr "תאריך ושעת השינוי"
+
+#. NOTE: used in "object" tag
+#: ../plugins/taglist/HTML.tags.xml.in.h:49
+msgid "Declare flag"
+msgstr "דגל הכרזה"
+
+#. Translators: DEFER is an optional attribute of the <script> tag.
+#. It indicates that the script is not going to generate any document
+#. content. The browser can continue parsing and drawing the page.
+#: ../plugins/taglist/HTML.tags.xml.in.h:53
+msgid "Defer attribute"
+msgstr "דחיית תכונה"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:54
+msgid "Definition description"
+msgstr "תיאור אבחנה"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:55
+msgid "Definition list"
+msgstr "רשימת אבחנות"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:56
+msgid "Definition term"
+msgstr "מונח אבחנה"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:57
+msgid "Deleted text"
+msgstr "מלל שנמחק"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:58
+msgid "Directionality"
+msgstr "כיווניות"
+
+#. Deprecated since HTML 4.01, not supported in XHTML 1.0 Strict DTD.
+#: ../plugins/taglist/HTML.tags.xml.in.h:60
+msgid "Directionality (deprecated)"
+msgstr "כיווניות (הוצא משימוש)"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:61
+msgid "Disabled"
+msgstr "מושבת"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:62
+msgid "DIV container"
+msgstr "מיכל DIV"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:63
+msgid "DIV Style container"
+msgstr "מיכל סיגנון DIV"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:64
+msgid "Document base"
+msgstr "בסיס מסמך"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:65
+msgid "Document body"
+msgstr "גוף מסמך"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:66
+msgid "Document head"
+msgstr "ראש מסמך"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:67
+msgid "Element ID"
+msgstr "מזהה רכיב"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:68
+msgid "Document title"
+msgstr "כותרת מסמך"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:69
+msgid "Document type"
+msgstr "סוג מסמך"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:70
+#: ../plugins/taglist/Latex.tags.xml.in.h:72
+msgid "Emphasis"
+msgstr "דגש"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:71
+msgid "Encode type"
+msgstr "סוג קידוד"
+
+#. Deprecated since HTML 4.01, not supported in XHTML 1.0 Strict DTD.
+#: ../plugins/taglist/HTML.tags.xml.in.h:73
+msgid "Font face (deprecated)"
+msgstr "פני גופן (הוצא משימוש)"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:74
+msgid "For label"
+msgstr "תווית for"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:75
+msgid "Forced line break"
+msgstr "סיום שורה מאולץ"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:76
+msgid "Form action handler"
+msgstr "סדרן פעולת טופס"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:77
+msgid "Form control group"
+msgstr "קבוצת בקרת טופס"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:78
+msgid "Form field label text"
+msgstr "מלל תווית שדה טופס"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:79
+msgid "Form input type"
+msgstr "סוג קלט טופס"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:80
+msgid "Form input"
+msgstr "קלט טופס"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:81
+msgid "Form method"
+msgstr "שיטת טופס"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:82
+msgid "Form"
+msgstr "טופס"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:83
+msgid "Forward link"
+msgstr "ערוץ שידור"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:84
+msgid "Frame render parts"
+msgstr "תיצוג רכיבי מסגרת"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:85
+msgid "Frame source"
+msgstr "מקור מסגרת"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:86
+msgid "Frame target"
+msgstr "יעד מסגרת"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:87
+msgid "Frame"
+msgstr "מסגרת"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:88
+msgid "Frame border"
+msgstr "גבול מסגרת"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:89
+msgid "Frameset columns"
+msgstr "עמודות ערכת־מסגרות"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:90
+msgid "Frameset rows"
+msgstr "שורות ערכת־מסגרות"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:91
+msgid "Frameset"
+msgstr "ערכת־מסגרות"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:92
+msgid "Frame spacing"
+msgstr "ריווח מסגרת"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:93
+msgid "Generic embedded object"
+msgstr "עצם משובץ גנרי"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:94
+msgid "Generic metainformation"
+msgstr "מטה־מידע גנרי"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:95
+msgid "Generic span"
+msgstr "משרע כללי"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:96
+msgid "Header cell IDs"
+msgstr "מזהי כותרת תא"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:97
+msgid "Heading 1"
+msgstr "כותרת 1"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:98
+msgid "Heading 2"
+msgstr "כותרת 2"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:99
+msgid "Heading 3"
+msgstr "כותרת 3"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:100
+msgid "Heading 4"
+msgstr "כותרת 4"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:101
+msgid "Heading 5"
+msgstr "כותרת 5"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:102
+msgid "Heading 6"
+msgstr "כותרת 6"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:103
+msgid "Height"
+msgstr "גובה"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:104
+msgid "Horizontal rule"
+msgstr "כלל אופקי"
+
+#. Deprecated since HTML 4.01, not supported in XHTML 1.0 Strict DTD.
+#: ../plugins/taglist/HTML.tags.xml.in.h:106
+msgid "Horizontal space (deprecated)"
+msgstr "רווח אופקי (הוצא משימוש)"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:107
+msgid "HREF URI"
+msgstr "מען HREF URI"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:108
+msgid "HTML root element"
+msgstr "רכיב שורש HTML"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:109
+msgid "HTTP header name"
+msgstr "שם כותרת HTTP"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:110
+msgid "I18N BiDi override"
+msgstr "עקיפת I18N BiDi"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:111
+msgid "Image map area"
+msgstr "אזור מפת תמונה"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:112
+msgid "Image map name"
+msgstr "שם מפת תמונה"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:113
+msgid "Image map"
+msgstr "מפת תמונה"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:114
+msgid "Image"
+msgstr "תמונה"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:115
+msgid "Inline frame"
+msgstr "מסגרת תחובה"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:116
+msgid "Inserted text"
+msgstr "מלל הוכנס"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:117
+msgid "Instance definition"
+msgstr "מובחנות אדגם"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:118
+msgid "Italic text"
+msgstr "מלל באותיות נטוית"
+
+#. Deprecated since HTML 4.01, not supported in XHTML 1.0 Strict DTD.
+#: ../plugins/taglist/HTML.tags.xml.in.h:120
+msgid "Java applet (deprecated)"
+msgstr "יישומון־לוח Java (הוצא משימוש)"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:121
+msgid "Label"
+msgstr "תווית"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:122
+msgid "Language code"
+msgstr "קוד השפה"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:123
+msgid "Large text style"
+msgstr "סגנון מלל גדול"
+
+#. Deprecated since HTML 4.01, not supported in XHTML 1.0 Strict DTD.
+#: ../plugins/taglist/HTML.tags.xml.in.h:125
+msgid "Link color (deprecated)"
+msgstr "צבע קישור (הוצא משימוש)"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:126
+msgid "List item"
+msgstr "פריט רשימה"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:127
+msgid "List of MIME types for file upload"
+msgstr "רשימת סוגי MIME להאלעת קובצים"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:128
+msgid "List of supported character sets"
+msgstr "רשימת ערכות־תוים נתמכות"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:129
+msgid "Local change to font"
+msgstr "מקמום גופן"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:130
+msgid "Long description link"
+msgstr "קישור תאור־ארוך"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:131
+msgid "Long quotation"
+msgstr "ציטוט ארוך"
+
+#. Supported in XHTML 1.0 Frameset DTD only.
+#: ../plugins/taglist/HTML.tags.xml.in.h:133
+msgid "Margin pixel height"
+msgstr "גובה פיקסל שוליים"
+
+#. Supported in XHTML 1.0 Frameset DTD only.
+#: ../plugins/taglist/HTML.tags.xml.in.h:135
+msgid "Margin pixel width"
+msgstr "רוחב פיקסל שוליים"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:136
+msgid "Maximum length of text field"
+msgstr "אורך שדה מלל מירבי"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:137
+msgid "Output media"
+msgstr "מדיית פלט"
+
+#. Here I take some liberties: There's no mandatory attributes,
+#. but those are most common, and will likely be used.
+#: ../plugins/taglist/HTML.tags.xml.in.h:140
+msgid "Media-independent link"
+msgstr "קישור לא תלוי במדיה"
+
+#. Deprecated since HTML 4.01, not supported in XHTML 1.0 Strict DTD.
+#: ../plugins/taglist/HTML.tags.xml.in.h:142
+msgid "Menu list (deprecated)"
+msgstr "רשימת תפריט (הוצא משימוש)"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:143
+msgid "Multi-line text field"
+msgstr "שדה מלל עם רבוי שורות"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:144
+msgid "Multiple"
+msgstr "תג Multiple"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:145
+msgid "Name"
+msgstr "Name"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:146
+msgid "Named property value"
+msgstr "Named property value"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:147
+msgid "No frames"
+msgstr "ללא מסגרות"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:148
+msgid "No resize"
+msgstr "ללא שידוד מחדש"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:149
+msgid "No script"
+msgstr "אין תסריט"
+
+#. Deprecated since HTML 4.01, not supported in XHTML 1.0 Strict DTD.
+#: ../plugins/taglist/HTML.tags.xml.in.h:151
+msgid "No shade (deprecated)"
+msgstr "ללא הצללה (הוצא משימוש)"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:152
+msgid "No URI"
+msgstr "אין מען URI"
+
+#. Deprecated since HTML 4.01, not supported in XHTML 1.0 Strict DTD.
+#: ../plugins/taglist/HTML.tags.xml.in.h:154
+msgid "No word wrap (deprecated)"
+msgstr "ללא גלישת מילים (הוצא משימוש)"
+
+#. Deprecated since HTML 4.01, not supported in XHTML 1.0 Strict DTD.
+#: ../plugins/taglist/HTML.tags.xml.in.h:156
+msgid "Object applet file (deprecated)"
+msgstr "קובץ עצם יישומון־לוח (הוצא משימוש)"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:157
+msgid "Object data reference"
+msgstr "אזכור נתוני עצם"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:158
+msgid "Offset for alignment character"
+msgstr "היסט עבור תו יישור"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:159
+msgid "OnBlur event"
+msgstr "אירוע OnBlur"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:160
+msgid "OnChange event"
+msgstr "אירוע OnChange"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:161
+msgid "OnClick event"
+msgstr "אירוע OnClick"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:162
+msgid "OnDblClick event"
+msgstr "אירוע OnDblClick"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:163
+msgid "OnFocus event"
+msgstr "אירוע OnFocus"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:164
+msgid "OnKeyDown event"
+msgstr "OnKeyDown event"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:165
+msgid "OnKeyPress event"
+msgstr "אירוע OnKeyPress"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:166
+msgid "OnKeyUp event"
+msgstr "אירוע OnKeyUp"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:167
+msgid "OnLoad event"
+msgstr "אירוע OnLoad"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:168
+msgid "OnMouseDown event"
+msgstr "אירוע OnMouseDown"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:169
+msgid "OnMouseMove event"
+msgstr "אירוע OnMouseMove"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:170
+msgid "OnMouseOut event"
+msgstr "אירוע OnMouseOut"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:171
+msgid "OnMouseOver event"
+msgstr "אירוע OnMouseOver"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:172
+msgid "OnMouseUp event"
+msgstr "אירוע OnMouseUp"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:173
+msgid "OnReset event"
+msgstr "אירוע OnReset"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:174
+msgid "OnSelect event"
+msgstr "אירוע OnSelect"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:175
+msgid "OnSubmit event"
+msgstr "אירוע OnSubmit"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:176
+msgid "OnUnload event"
+msgstr "אירוע OnUnload"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:177
+msgid "Option group"
+msgstr "קבוצת אפשרויות"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:178
+msgid "Option selector"
+msgstr "ברר אפשרויות"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:179
+msgid "Ordered list"
+msgstr "רשימה ממוינת"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:180
+msgid "Paragraph class"
+msgstr "מחלקת פסקה"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:181
+msgid "Paragraph style"
+msgstr "Paragraph style"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:182
+msgid "Paragraph"
+msgstr "פסקה"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:183
+msgid "Preformatted text"
+msgstr "מלל מתובנת מראש"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:184
+msgid "Profile metainfo dictionary"
+msgstr "מיתאור מילון מטה־מידע"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:185
+msgid "Push button"
+msgstr "Push button"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:186
+msgid "ReadOnly text and password"
+msgstr "מלל וססמה לקריאה בלבד"
+
+#. Deprecated since HTML 4.01, not supported in XHTML 1.0 Strict DTD.
+#: ../plugins/taglist/HTML.tags.xml.in.h:188
+msgid "Reduced spacing (deprecated)"
+msgstr "מרווח מוקטן (הוצא משימוש)"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:189
+msgid "Reverse link"
+msgstr "ערוץ חוזר"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:190
+msgid "Rows"
+msgstr "שורות"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:191
+msgid "Rulings between rows and columns"
+msgstr "הכרעה בין שורות לעמודות"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:192
+msgid "Sample program output, scripts"
+msgstr "דוגמת פלט תוכנה, תסריט"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:193
+msgid "Scope covered by header cells"
+msgstr "מתחם כיסויי תאי כותרת"
+
+#. Deprecated since HTML 4.01, not supported in XHTML 1.0 Strict DTD.
+#: ../plugins/taglist/HTML.tags.xml.in.h:195
+msgid "Script language name"
+msgstr "שם שפת תסרוט"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:196
+msgid "Script statements"
+msgstr "הצהרות תסריט"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:197
+msgid "Scrollbar"
+msgstr "סרגל גלילה"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:198
+msgid "Selectable option"
+msgstr "אפשרות ניתנת לבררה"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:199
+msgid "Selected"
+msgstr "בחירה"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:200
+msgid "Server-side image map"
+msgstr "מפת תמונה צד־שרת"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:201
+msgid "Shape"
+msgstr "צורה"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:202
+msgid "Short inline quotation"
+msgstr "ציטוט פנימי קצר"
+
+#. Deprecated since HTML 4.01, not supported in XHTML 1.0 Strict DTD.
+#: ../plugins/taglist/HTML.tags.xml.in.h:204
+msgid "Size (deprecated)"
+msgstr "מידה (הוצא משימוש)"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:205
+msgid "Small text style"
+msgstr "סגנון מלל קטן"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:206
+msgid "Source"
+msgstr "מקור"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:207
+msgid "Space-separated archive list"
+msgstr "רשימת ארכיון מופרדת ב'רווח'"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:208
+msgid "Spacing between cells"
+msgstr "מרווח בין תאים"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:209
+msgid "Spacing within cells"
+msgstr "מרווח בתוך תאים"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:210
+msgid "Span"
+msgstr "משרע"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:211
+msgid "Standby load message"
+msgstr "הודעת המתנת טעינה"
+
+#. Deprecated since HTML 4.01, not supported in XHTML 1.0 Strict DTD.
+#: ../plugins/taglist/HTML.tags.xml.in.h:213
+msgid "Starting sequence number (deprecated)"
+msgstr "מספר תחילת רצף (הוצא משימוש)"
+
+#. Deprecated since HTML 4.01, not supported in XHTML 1.0 Strict DTD.
+#: ../plugins/taglist/HTML.tags.xml.in.h:215
+msgid "Strike-through text style (deprecated)"
+msgstr "סגנון מלל קו־חוצה (הוצא משימוש)"
+
+#. Deprecated since HTML 4.01, not supported in XHTML 1.0 Strict DTD.
+#: ../plugins/taglist/HTML.tags.xml.in.h:217
+msgid "Strike-through text (deprecated)"
+msgstr "מלל קו־חוצה (הוצא משימוש)"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:218
+msgid "Strong emphasis"
+msgstr "דגש חזק"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:219
+msgid "Style info"
+msgstr "מידע סיגנון"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:220
+msgid "Subscript"
+msgstr "כתב תחתי"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:221
+msgid "Superscript"
+msgstr "כתב עילי"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:222
+msgid "Table body"
+msgstr "גוף טבלה"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:223
+msgid "Table caption"
+msgstr "כיתוב טבלה"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:224
+msgid "Table column group properties"
+msgstr "מאפייני קבוצת עמודות טבלה"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:225
+msgid "Table column properties"
+msgstr "מאפייני עמודות טבלה"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:226
+msgid "Table data cell"
+msgstr "תא נתוני טבלה"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:227
+msgid "Table footer"
+msgstr "כותרת־תחתית טבלה"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:228
+msgid "Table header cell"
+msgstr "תא כותרת טבלה"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:229
+msgid "Table header"
+msgstr "כותרת טבלה"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:230
+msgid "Table row"
+msgstr "שורת טבלה"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:231
+msgid "Table summary"
+msgstr "תקציר טבלה"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:232
+msgid "Table"
+msgstr "טבלה"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:233
+msgid "Target - Blank"
+msgstr "יעד — ריק"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:234
+msgid "Target - Parent"
+msgstr "יעד — הורה"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:235
+msgid "Target - Self"
+msgstr "יעד — עצמי"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:236
+msgid "Target - Top"
+msgstr "יעד — עליון"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:237
+msgid "Teletype or monospace text style"
+msgstr "סגנון מלל טלטייפ או מונוספייס"
+
+#. Deprecated since HTML 4.01, not supported in XHTML 1.0 Strict DTD.
+#: ../plugins/taglist/HTML.tags.xml.in.h:239
+msgid "Text color (deprecated)"
+msgstr "צבע מלל (הוצא משימוש)"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:240
+msgid "Text entered by user"
+msgstr "מלל שהוזן על ידי משתמש"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:241
+msgid "Title"
+msgstr "כותרת"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:242
+msgid "Underlined text style"
+msgstr "סגנון מלל קו תחתון"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:243
+msgid "Unordered list"
+msgstr "רשימה לא ממוינת"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:244
+msgid "Use image map"
+msgstr "שימוש במפת תמונה"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:245
+msgid "Value interpretation"
+msgstr "פירוש ערך"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:246
+msgid "Value"
+msgstr "ערך"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:247
+msgid "Variable or program argument"
+msgstr "משתנה או ארגומנט תוכנית"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:248
+msgid "Vertical cell alignment"
+msgstr "יישור תאים אנכי"
+
+#. Deprecated since HTML 4.01, not supported in XHTML 1.0 Strict DTD.
+#: ../plugins/taglist/HTML.tags.xml.in.h:250
+msgid "Vertical space (deprecated)"
+msgstr "מרווח אנחי (הוצא משימוש)"
+
+#. Deprecated since HTML 4.01, not supported in XHTML 1.0 Strict DTD.
+#: ../plugins/taglist/HTML.tags.xml.in.h:252
+msgid "Visited link color (deprecated)"
+msgstr "צבע קישור שבוקר (הוצא משימוש)"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:253
+msgid "Width"
+msgstr "רוחב"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:254
+msgid "HTML - Tags"
+msgstr "‏HTML — תגי"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:255
+msgid "Above"
+msgstr "מעל"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:256
+msgid "Applet class file code"
+msgstr "קוד קובץ מחלקת יישומון־לוח"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:257
+msgid "Array"
+msgstr "מערך"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:258
+msgid "Background color"
+msgstr "צבע רקע"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:259
+msgid "Background texture tile"
+msgstr "אריח מרקם רקע"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:260
+msgid "Base font"
+msgstr "גופן בסיס"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:261
+msgid "Border color"
+msgstr "צבע גבול"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:262
+msgid "Border"
+msgstr "גבול"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:263
+msgid "Center"
+msgstr "מרכז"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:264
+msgid "Checked (state)"
+msgstr "בוצעה בדיקה (מצב)"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:265
+msgid "Color of selected links"
+msgstr "צבע קישורים שנבחרו"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:266
+msgid "Content scheme"
+msgstr "סכימת תוכן"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:267
+msgid "Content type"
+msgstr "סוג תוכן"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:268
+msgid "Direction"
+msgstr "כיוון"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:269
+msgid "Directory list"
+msgstr "רשימת מחיצות"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:270
+msgid "HTML version"
+msgstr "גירסת HTML"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:271
+msgid "Embedded object"
+msgstr "עצם משובץ"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:272
+msgid "Figure"
+msgstr "ציור"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:273
+msgid "Font face"
+msgstr "פני גופן"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:274
+msgid "Frameborder"
+msgstr "גבולות מסגרת"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:275
+msgid "Framespacing"
+msgstr "מרווח מסגרת"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:276
+msgid "Heading"
+msgstr "כותרת"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:277
+msgid "Horizontal space"
+msgstr "רווח אופקי"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:278
+msgid "Image source"
+msgstr "מקור תמונה"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:279
+msgid "Inline layer"
+msgstr "שכבה פנימית"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:280
+msgid "Java applet"
+msgstr "יישומון־לוח Java"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:281
+msgid "Layer"
+msgstr "שכבה"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:282
+msgid "Link color"
+msgstr "צבע קישור"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:283
+msgid "Listing"
+msgstr "רישום"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:284
+msgid "Mail link"
+msgstr "קישור דואר"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:285
+msgid "Marquee"
+msgstr "Marquee"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:286
+msgid "Menu list"
+msgstr "רשימת תפריט"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:287
+msgid "Multicolumn"
+msgstr "רבוי עמודות"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:288
+msgid "Next ID"
+msgstr "המזהה הבא"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:289
+msgid "No embedded objects"
+msgstr "ללא עצמים משובצים"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:290
+msgid "No layers"
+msgstr "אין שכבות"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:291
+msgid "No line break"
+msgstr "אין סיום שורה"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:292
+msgid "No shade"
+msgstr "ללא הצללה"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:293
+msgid "No word wrap"
+msgstr "ללא גלישת מילים"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:294
+msgid "Note"
+msgstr "הערה"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:295
+msgid "Object applet file"
+msgstr "קובץ עצם יישומון־לוח"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:296
+msgid "Preformatted listing"
+msgstr "רישום מתובנת מראש"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:297
+msgid "Prompt message"
+msgstr "מסר הנחיה"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:298
+msgid "Quote"
+msgstr "Quote"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:299
+msgid "Range"
+msgstr "טווח"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:300
+msgid "Reduced spacing"
+msgstr "מרווח מוקטן"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:301
+msgid "Root"
+msgstr "שורש"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:302
+msgid "Single line prompt"
+msgstr "הנחיית קו בודד"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:303
+msgid "Size"
+msgstr "מידה"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:304
+msgid "Soft line break"
+msgstr "סיום שורה רך"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:305
+msgid "Sound"
+msgstr "שמע"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:306
+msgid "Spacer"
+msgstr "מרווח"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:307
+msgid "Square root"
+msgstr "שורש ריבועי"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:308
+msgid "Starting sequence number"
+msgstr "מספר תחילת רצף"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:309
+msgid "Strike-through text style"
+msgstr "סגנון מלל קו חוצה"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:310
+msgid "Strike-through text"
+msgstr "מלל קו חוצה"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:311
+msgid "Tab order position"
+msgstr "Tab order position"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:312
+msgid "Text color"
+msgstr "צבע מלל"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:313
+msgid "Text"
+msgstr "מלל"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:314
+msgid "Top margin in pixels"
+msgstr "שול עליון בפיקסלים"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:315
+msgid "URL"
+msgstr "מען URL"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:316
+msgid "Vertical space"
+msgstr "רווח אנכי"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:317
+msgid "Visited link color"
+msgstr "צבע קישור שבוקר"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:318
+msgid "HTML - Special Characters"
+msgstr "‏HTML — תווים מיוחדים"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:319
+msgid "Non-breaking space"
+msgstr "מרווח לא נין לשבירה"
+
+#: ../plugins/taglist/Latex.tags.xml.in.h:1
+msgid "Latex - Tags"
+msgstr "Latex — תגי"
+
+#: ../plugins/taglist/Latex.tags.xml.in.h:2
+msgid "Bibliography (cite)"
+msgstr "רשימת מקורות (ציטוט)"
+
+#: ../plugins/taglist/Latex.tags.xml.in.h:3
+msgid "Bibliography (item)"
+msgstr "רשימת מקורות (פריט)"
+
+#: ../plugins/taglist/Latex.tags.xml.in.h:4
+msgid "Bibliography (shortcite)"
+msgstr "רשימת מקורות (ציטוט קצר)"
+
+#: ../plugins/taglist/Latex.tags.xml.in.h:5
+msgid "Bibliography (thebibliography)"
+msgstr "רשימת מקורות (thebibliography)"
+
+#: ../plugins/taglist/Latex.tags.xml.in.h:6
+msgid "Brackets ()"
+msgstr "סוגריים ()"
+
+#: ../plugins/taglist/Latex.tags.xml.in.h:7
+msgid "Brackets []"
+msgstr "סוגריים []"
+
+#: ../plugins/taglist/Latex.tags.xml.in.h:8
+msgid "Brackets {}"
+msgstr "סוגריים {}"
+
+#: ../plugins/taglist/Latex.tags.xml.in.h:9
+msgid "Brackets <>"
+msgstr "סוגריים <>"
+
+#: ../plugins/taglist/Latex.tags.xml.in.h:10
+msgid "File input"
+msgstr "קלט קובץ"
+
+#: ../plugins/taglist/Latex.tags.xml.in.h:11
+msgid "Function cosine"
+msgstr "פונקציות קוסינוס"
+
+#: ../plugins/taglist/Latex.tags.xml.in.h:12
+msgid "Function e^"
+msgstr "פונקציות e^"
+
+#: ../plugins/taglist/Latex.tags.xml.in.h:13
+msgid "Function exp"
+msgstr "פונקציות exp"
+
+#: ../plugins/taglist/Latex.tags.xml.in.h:14
+msgid "Function log"
+msgstr "פונקציות לוגריטמית"
+
+#: ../plugins/taglist/Latex.tags.xml.in.h:15
+msgid "Function log10"
+msgstr "פונקציות לוג10"
+
+#: ../plugins/taglist/Latex.tags.xml.in.h:16
+msgid "Function sine"
+msgstr "פונקציות סינוס"
+
+#: ../plugins/taglist/Latex.tags.xml.in.h:17
+msgid "Greek alpha"
+msgstr "אלפא יוונית"
+
+#: ../plugins/taglist/Latex.tags.xml.in.h:18
+msgid "Greek beta"
+msgstr "ביתא יוונית"
+
+#: ../plugins/taglist/Latex.tags.xml.in.h:19
+msgid "Greek epsilon"
+msgstr "אפסילון יווני"
+
+#: ../plugins/taglist/Latex.tags.xml.in.h:20
+msgid "Greek gamma"
+msgstr "גמה יוונית"
+
+#: ../plugins/taglist/Latex.tags.xml.in.h:21
+msgid "Greek lambda"
+msgstr "למבדה יוונית"
+
+#: ../plugins/taglist/Latex.tags.xml.in.h:22
+msgid "Greek rho"
+msgstr "רו יוונית"
+
+#: ../plugins/taglist/Latex.tags.xml.in.h:23
+msgid "Greek tau"
+msgstr "טאו יוונית"
+
+#: ../plugins/taglist/Latex.tags.xml.in.h:24
+msgid "Header 0 (chapter)"
+msgstr "כותרת 0 (פרק)"
+
+#: ../plugins/taglist/Latex.tags.xml.in.h:25
+msgid "Header 0 (chapter*)"
+msgstr "כותרת 0 (פרק*)"
+
+#: ../plugins/taglist/Latex.tags.xml.in.h:26
+msgid "Header 1 (section)"
+msgstr "כותרת 1 (מקטע)"
+
+#: ../plugins/taglist/Latex.tags.xml.in.h:27
+msgid "Header 1 (section*)"
+msgstr "כותרת 1 (מקטע*)"
+
+#: ../plugins/taglist/Latex.tags.xml.in.h:28
+msgid "Header 2 (subsection)"
+msgstr "כותרת 2 (תת־מקטע)"
+
+#: ../plugins/taglist/Latex.tags.xml.in.h:29
+msgid "Header 2 (subsection*)"
+msgstr "כותרת 2 (תת־מקטע*)"
+
+#: ../plugins/taglist/Latex.tags.xml.in.h:30
+msgid "Header 3 (subsubsection)"
+msgstr "כותרת 3 (תת־תת־מקטע)"
+
+#: ../plugins/taglist/Latex.tags.xml.in.h:31
+msgid "Header 3 (subsubsection*)"
+msgstr "כותרת 3 (תת־תת־מקטע*)"
+
+#: ../plugins/taglist/Latex.tags.xml.in.h:32
+msgid "Header 4 (paragraph)"
+msgstr "כותרת 4 (פסקה)"
+
+#: ../plugins/taglist/Latex.tags.xml.in.h:33
+msgid "Header appendix"
+msgstr "נספח כותרת"
+
+#: ../plugins/taglist/Latex.tags.xml.in.h:34
+msgid "List description"
+msgstr "תיאור רשימה"
+
+#: ../plugins/taglist/Latex.tags.xml.in.h:35
+msgid "List enumerate"
+msgstr "מונה רשימה"
+
+#: ../plugins/taglist/Latex.tags.xml.in.h:36
+msgid "List itemize"
+msgstr "רשימה מפורטת"
+
+#: ../plugins/taglist/Latex.tags.xml.in.h:37
+msgid "Item with label"
+msgstr "פריט עם תוית"
+
+#: ../plugins/taglist/Latex.tags.xml.in.h:38
+msgid "Item"
+msgstr "פריט"
+
+#: ../plugins/taglist/Latex.tags.xml.in.h:39
+msgid "Maths (display)"
+msgstr "Maths (תצוגה)"
+
+#: ../plugins/taglist/Latex.tags.xml.in.h:40
+msgid "Maths (inline)"
+msgstr "Maths (פנימי)"
+
+#: ../plugins/taglist/Latex.tags.xml.in.h:41
+msgid "Operator fraction"
+msgstr "אופרטור פונקציה"
+
+#: ../plugins/taglist/Latex.tags.xml.in.h:42
+msgid "Operator integral (display)"
+msgstr "אופרטור אינטגרלי (תצוגה)"
+
+#: ../plugins/taglist/Latex.tags.xml.in.h:43
+msgid "Operator integral (inline)"
+msgstr "אופרטור אינטגרלי (תחוב)"
+
+#: ../plugins/taglist/Latex.tags.xml.in.h:44
+msgid "Operator sum (display)"
+msgstr "אופרטור sum (תצוגה)"
+
+#: ../plugins/taglist/Latex.tags.xml.in.h:45
+msgid "Operator sum (inline)"
+msgstr "אופרטור sum (תחוב)"
+
+#: ../plugins/taglist/Latex.tags.xml.in.h:46
+msgid "Reference label"
+msgstr "תווית אזכור"
+
+#: ../plugins/taglist/Latex.tags.xml.in.h:47
+msgid "Reference ref"
+msgstr "אזכור ref"
+
+#: ../plugins/taglist/Latex.tags.xml.in.h:48
+msgid "Symbol <<"
+msgstr "סמל <<"
+
+#: ../plugins/taglist/Latex.tags.xml.in.h:49
+msgid "Symbol <="
+msgstr "סמל <=="
+
+#: ../plugins/taglist/Latex.tags.xml.in.h:50
+msgid "Symbol >="
+msgstr "סמל >="
+
+#: ../plugins/taglist/Latex.tags.xml.in.h:51
+msgid "Symbol >>"
+msgstr "סמל >>"
+
+#: ../plugins/taglist/Latex.tags.xml.in.h:52
+msgid "Symbol and"
+msgstr "סמל and"
+
+#: ../plugins/taglist/Latex.tags.xml.in.h:53
+msgid "Symbol const"
+msgstr "סמל const"
+
+#: ../plugins/taglist/Latex.tags.xml.in.h:54
+msgid "Symbol d2-by-dt2-partial"
+msgstr "סמל d2-by-dt2-partial"
+
+#: ../plugins/taglist/Latex.tags.xml.in.h:55
+msgid "Symbol dagger"
+msgstr "סמל dagger"
+
+#: ../plugins/taglist/Latex.tags.xml.in.h:56
+msgid "Symbol d-by-dt"
+msgstr "סמל d-by-dt"
+
+#: ../plugins/taglist/Latex.tags.xml.in.h:57
+msgid "Symbol d-by-dt-partial"
+msgstr "סמל d-by-dt-partial"
+
+#: ../plugins/taglist/Latex.tags.xml.in.h:58
+msgid "Symbol equiv"
+msgstr "סמל equiv"
+
+#: ../plugins/taglist/Latex.tags.xml.in.h:59
+msgid "Symbol en-dash --"
+msgstr "סמל en-dash --"
+
+#: ../plugins/taglist/Latex.tags.xml.in.h:60
+msgid "Symbol em-dash ---"
+msgstr "סמל em-dash ---"
+
+#: ../plugins/taglist/Latex.tags.xml.in.h:61
+msgid "Symbol infinity"
+msgstr "סמל infinity"
+
+#: ../plugins/taglist/Latex.tags.xml.in.h:62
+msgid "Symbol mathspace ,"
+msgstr "סמל mathspace ,"
+
+#: ../plugins/taglist/Latex.tags.xml.in.h:63
+msgid "Symbol mathspace ."
+msgstr "סמל mathspace ."
+
+#: ../plugins/taglist/Latex.tags.xml.in.h:64
+msgid "Symbol mathspace _"
+msgstr "סמל mathspace _"
+
+#: ../plugins/taglist/Latex.tags.xml.in.h:65
+msgid "Symbol mathspace __"
+msgstr "סמל mathspace __"
+
+#: ../plugins/taglist/Latex.tags.xml.in.h:66
+msgid "Symbol simeq"
+msgstr "סמל simeq"
+
+#: ../plugins/taglist/Latex.tags.xml.in.h:67
+msgid "Symbol star"
+msgstr "סמל star"
+
+#: ../plugins/taglist/Latex.tags.xml.in.h:68
+msgid "Typeface bold"
+msgstr "משפחת גופן מודגש"
+
+#: ../plugins/taglist/Latex.tags.xml.in.h:69
+msgid "Typeface type"
+msgstr "סוג משפחת גופן"
+
+#: ../plugins/taglist/Latex.tags.xml.in.h:70
+msgid "Typeface italic"
+msgstr "משפחת גופן נטוי"
+
+#: ../plugins/taglist/Latex.tags.xml.in.h:71
+msgid "Typeface slanted"
+msgstr "משפחת גופן משופע"
+
+#: ../plugins/taglist/Latex.tags.xml.in.h:73
+msgid "Unbreakable text"
+msgstr "מלל לא ניתן לשבירה"
+
+#: ../plugins/taglist/Latex.tags.xml.in.h:74
+msgid "Footnote"
+msgstr "הערת שוליים"
+
+#: ../plugins/taglist/taglist.plugin.desktop.in.h:1
+msgid "Tag list"
+msgstr "רשימת תגים"
+
+#: ../plugins/taglist/taglist.plugin.desktop.in.h:2
+msgid ""
+"Provides a method to easily insert commonly used tags/strings into a "
+"document without having to type them."
+msgstr "שיטה להוספת מחרוזות/תגים לתוך מסמך, בקלות וללא צורך בהקלדה."
+
+#: ../plugins/taglist/xed-taglist-plugin-panel.c:605
+msgid "Select the group of tags you want to use"
+msgstr "נא לבחור בקבוצת התגים בהם יעשהשימוש"
+
+#: ../plugins/taglist/xed-taglist-plugin-panel.c:624
+msgid "_Preview"
+msgstr "תצוגה _מקדימה"
+
+#: ../plugins/taglist/xed-taglist-plugin-panel.c:700
+msgid "Available Tag Lists"
+msgstr "רשימת תגים זמינים"
+
+#: ../plugins/taglist/xed-taglist-plugin-panel.c:703
+#: ../plugins/taglist/xed-taglist-plugin-panel.c:718
+#: ../plugins/taglist/xed-taglist-plugin.c:110
+msgid "Tags"
+msgstr "תגים"
+
+#: ../plugins/taglist/XSLT.tags.xml.in.h:1
+msgid "XSLT - Elements"
+msgstr "‏XSLT — רכיבים"
+
+#: ../plugins/taglist/XSLT.tags.xml.in.h:2
+msgid "XSLT - Functions"
+msgstr "‏XSLT — פונקציות"
+
+#: ../plugins/taglist/XSLT.tags.xml.in.h:3
+msgid "XSLT - Axes"
+msgstr "‏XSLT — צירים"
+
+#: ../plugins/taglist/XSLT.tags.xml.in.h:4
+msgid "ancestor"
+msgstr "ancestor"
+
+#: ../plugins/taglist/XSLT.tags.xml.in.h:5
+msgid "ancestor-or-self"
+msgstr "ancestor-or-self"
+
+#: ../plugins/taglist/XSLT.tags.xml.in.h:6
+msgid "attribute"
+msgstr "תכונה"
+
+#: ../plugins/taglist/XSLT.tags.xml.in.h:7
+msgid "child"
+msgstr "child"
+
+#: ../plugins/taglist/XSLT.tags.xml.in.h:8
+msgid "descendant"
+msgstr "descendant"
+
+#: ../plugins/taglist/XSLT.tags.xml.in.h:9
+msgid "descendant-or-self"
+msgstr "descendant-or-self"
+
+#: ../plugins/taglist/XSLT.tags.xml.in.h:10
+msgid "following"
+msgstr "following"
+
+#: ../plugins/taglist/XSLT.tags.xml.in.h:11
+msgid "following-sibling"
+msgstr "following-sibling"
+
+#: ../plugins/taglist/XSLT.tags.xml.in.h:12
+msgid "namespace"
+msgstr "namespace"
+
+#: ../plugins/taglist/XSLT.tags.xml.in.h:13
+msgid "parent"
+msgstr "parent"
+
+#: ../plugins/taglist/XSLT.tags.xml.in.h:14
+msgid "preceding"
+msgstr "preceding"
+
+#: ../plugins/taglist/XSLT.tags.xml.in.h:15
+msgid "preceding-sibling"
+msgstr "preceding-sibling"
+
+#: ../plugins/taglist/XSLT.tags.xml.in.h:16
+msgid "self"
+msgstr "self"
+
+#: ../plugins/taglist/XUL.tags.xml.in.h:1
+msgid "XUL - Tags"
+msgstr "‏XUL — תגי"
+
+#: ../plugins/textsize/textsize.plugin.desktop.in.h:1
+msgid "Text Size"
+msgstr "גודל מלל"
+
+#: ../plugins/textsize/textsize.plugin.desktop.in.h:2
+msgid "Allow controlling the zoom levels of the text"
+msgstr "אפשור שליטה ברמת הצרת או הרחבת המלל"
+
+#: ../plugins/textsize/textsize/__init__.py:123
+msgid "_Larger Text"
+msgstr "מלל _גדול יותר"
+
+#: ../plugins/textsize/textsize/__init__.py:126
+msgid "S_maller Text"
+msgstr "מלל _קטן יותר"
+
+#: ../plugins/textsize/textsize/__init__.py:129
+msgid "_Normal size"
+msgstr "_גודל תקני"
+
+#: ../plugins/time/org.x.editor.plugins.time.gschema.xml.in.h:1
+msgid "Prompt type"
+msgstr "סוג הנחיה"
+
+#: ../plugins/time/org.x.editor.plugins.time.gschema.xml.in.h:2
+msgid "Selected format"
+msgstr "מבנה שנבחר"
+
+#: ../plugins/time/org.x.editor.plugins.time.gschema.xml.in.h:3
+msgid "Custom format"
+msgstr "מבנה מותאם אישית"
+
+#: ../plugins/time/time.plugin.desktop.in.h:1
+msgid "Insert Date/Time"
+msgstr "הזנת תאריך/שעה"
+
+#: ../plugins/time/time.plugin.desktop.in.h:2
+msgid "Inserts current date and time at the cursor position."
+msgstr "הזנת תאריך ושעה נוכחיים במיקום הסמן."
+
+#: ../plugins/time/xed-time-dialog.ui.h:1
+msgid "Insert Date and Time"
+msgstr "הזנת תאריך ושעה"
+
+#: ../plugins/time/xed-time-dialog.ui.h:2
+msgid "_Insert"
+msgstr "_הזנה"
+
+#: ../plugins/time/xed-time-dialog.ui.h:3
+#: ../plugins/time/xed-time-setup-dialog.ui.h:5
+msgid "Use the _selected format"
+msgstr "שימוש ב_מבנה שנבחר"
+
+#: ../plugins/time/xed-time-dialog.ui.h:5
+#: ../plugins/time/xed-time-setup-dialog.ui.h:6
+msgid "_Use custom format"
+msgstr "שימוש במבנה _מותאם אישית"
+
+#. Translators: Use the more common date format in your locale
+#: ../plugins/time/xed-time-dialog.ui.h:7
+#: ../plugins/time/xed-time-setup-dialog.ui.h:9
+#, no-c-format
+msgid "%d/%m/%Y %H:%M:%S"
+msgstr "%d/%m/%Y %H:%M:%S"
+
+#. Translators: This example should follow the date format defined in the entry above
+#: ../plugins/time/xed-time-dialog.ui.h:8
+#: ../plugins/time/xed-time-setup-dialog.ui.h:11
+msgid "01/11/2009 17:52:00"
+msgstr "17:52:00 01/11/2009"
+
+#: ../plugins/time/xed-time-plugin.c:176
+msgid "In_sert Date and Time..."
+msgstr "ה_זנת תאריך ושעה..."
+
+#: ../plugins/time/xed-time-plugin.c:178
+msgid "Insert current date and time at the cursor position"
+msgstr "הזנת תאריך השעה נוכחיים במיקום הסמן"
+
+#: ../plugins/time/xed-time-plugin.c:454
+msgid "Available formats"
+msgstr "מבנים זמינים"
+
+#: ../plugins/time/xed-time-setup-dialog.ui.h:1
+msgid "Configure date/time plugin"
+msgstr "תצור מתקע תאריך/שעה"
+
+#: ../plugins/time/xed-time-setup-dialog.ui.h:2
+msgid "When inserting date/time..."
+msgstr "בעת הזנת תאריך/שעה..."
+
+#: ../plugins/time/xed-time-setup-dialog.ui.h:4
+msgid "_Prompt for a format"
+msgstr "_בקשת מבנה"
+
+#: ../plugins/trailsave/trailsave.plugin.desktop.in.h:1
+msgid "Save Without Trailing Spaces"
+msgstr "שמירה ללא רווחים עוקבים"
+
+#: ../plugins/trailsave/trailsave.plugin.desktop.in.h:2
+msgid "Removes trailing spaces from lines before saving."
+msgstr "הסרת רווחים עוקבים בעת השמירה."
+
+#: ../plugins/wordcompletion/xed-wordcompletion-configure.ui.h:1
+msgid "Word Completion"
+msgstr "השלמת מילים"
+
+#: ../plugins/wordcompletion/xed-wordcompletion-configure.ui.h:2
+msgid "Use Ctrl+Space to manually trigger word completion."
+msgstr "שימוש בקונטרול+ספייס להזנקת השלמת מילים ידנית."
+
+#: ../plugins/wordcompletion/xed-wordcompletion-configure.ui.h:3
+msgid "Automatic completion"
+msgstr "השלמה אוטומטית"
+
+#: ../plugins/wordcompletion/xed-wordcompletion-configure.ui.h:4
+msgid "Minimum word size for auto-completion"
+msgstr "אורך מילה מזערי להשלמה אוטומטית"
+
+#: ../plugins/wordcompletion/xed-wordcompletion-plugin.c:214
+msgid "Word completion"
+msgstr "השלמת מילים"

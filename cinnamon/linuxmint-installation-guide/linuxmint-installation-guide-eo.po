@@ -1,0 +1,1731 @@
+# Esperanto translation for linuxmint
+# Copyright (c) 2018 Rosetta Contributors and Canonical Ltd 2018
+# This file is distributed under the same license as the linuxmint package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2018.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: linuxmint\n"
+"Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
+"POT-Creation-Date: 2019-03-29 10:21+0000\n"
+"PO-Revision-Date: 2021-12-17 21:40+0000\n"
+"Last-Translator: Piet Coppens <Unknown>\n"
+"Language-Team: Esperanto <eo@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Launchpad-Export-Date: 2022-10-10 13:12+0000\n"
+"X-Generator: Launchpad (build 762fb15a975e8b23af6a1f86e44e46bfd0451459)\n"
+
+#: ../../boot_options.rst:2
+msgid "Boot options"
+msgstr "Praŝargaj opcioj"
+
+#: ../../boot_options.rst:4
+msgid ""
+"Some graphics cards and motherboards don't work well with the open-source "
+"drivers present in Linux Mint by default."
+msgstr ""
+"Iuj grafikaj kartoj kaj ĉefkartoj ne bone funkcias kun la malfermitkodaj "
+"peliloj, kiuj defaŭlte ĉeestas en Linukso Minto."
+
+#: ../../boot_options.rst:7
+msgid "Compatibility mode"
+msgstr "Kongrua reĝimo"
+
+#: ../../boot_options.rst:9
+msgid ""
+"The easiest option is to select ``compatibility mode`` from the USB stick "
+"(or DVD) boot menu."
+msgstr ""
+"La plej facila opcio estas elekti ``kongrua reĝimo (compatibility mode)`` en "
+"la praŝarga menuo de la USB-bastoneto (aŭ lumdisko)."
+
+#: ../../boot_options.rst:15
+msgid "Grub menu (EFI mode)"
+msgstr "Grub-menuo (EFI-reĝimo)"
+
+#: ../../boot_options.rst:21
+msgid "Isolinux menu (BIOS mode)"
+msgstr "Isolinuks-menuo (BIOS-reĝimo)"
+
+#: ../../boot_options.rst:23
+msgid "If that doesn't work, you can try the ``nomodeset`` boot option."
+msgstr "Se tio malsukcesas, tiam provu la praŝargan opcion ``nomodeset``."
+
+#: ../../boot_options.rst:26
+msgid "Nomodeset boot option"
+msgstr "Praŝarga opcio nomodeset"
+
+#: ../../boot_options.rst:28
+msgid ""
+"In EFI mode, highlight the ``Start Linux Mint`` option and press :kbd:`e` to "
+"modify the boot options."
+msgstr ""
+"En EFI-reĝimo marku la opcion ``Start Linux Mint`` kaj tajpu la literon "
+":kbd:`e` por modifi la praŝargajn opciojn."
+
+#: ../../boot_options.rst:34
+msgid ""
+"Replace ``quiet splash`` with ``nomodeset`` and press :kbd:`F10` to boot."
+msgstr ""
+"Poste anstataŭigu ``quiet splash`` per ``nomodeset`` kaj tajpu :kbd:`F10` "
+"por praŝargi la komputilon."
+
+#: ../../boot_options.rst:36
+msgid ""
+"In BIOS mode, highlight ``Start Linux Mint`` and press :kbd:`Tab` to modify "
+"the boot options."
+msgstr ""
+"En BIOS-reĝimo marku ``Start Linux Mint`` kaj enigu :kbd:`Tab` por modifi la "
+"praŝargajn opciojn."
+
+#: ../../boot_options.rst:42
+msgid ""
+"Replace ``quiet splash`` with ``nomodeset`` and press :kbd:`Enter` to boot."
+msgstr ""
+"Poste anstataŭigu ``quiet splash`` per ``nomodeset`` kaj tajpu :kbd:`Enter` "
+"por praŝargi la komputilon."
+
+#: ../../boot_options.rst:45
+msgid ""
+"Repeat this operation post-install in your grub boot menu and read "
+":doc:`drivers` to install additional drivers."
+msgstr ""
+"Ripetu ĉi tiun operacion post instalado en la grub-praŝarga menuo kaj legu "
+":doc:`drivers` por instali pliajn pelilojn."
+
+#: ../../boot_options.rst:48
+msgid "Other boot options"
+msgstr "Aliaj praŝargaj opcioj"
+
+#: ../../boot_options.rst:50
+msgid "If you still cannot boot try one of the following solutions:"
+msgstr ""
+"Se vi vi ankoraŭ malsukcesas praŝargi, tiam provu unu el jenaj solvoj:"
+
+#: ../../boot_options.rst:52
+msgid "Try ``nouveau.noaccel=1`` instead of ``nomodeset``."
+msgstr "Provu ``nouveau.noaccel=1`` anstataŭ ``nomodeset``."
+
+#: ../../boot_options.rst:53
+msgid ""
+"After the installation, use :menuselection:`Advanced Options --> Recovery "
+"mode` from the boot menu and choose ``resume``."
+msgstr ""
+"Post instalado uzu :menuselection:`Advanced Options --> Recovery mode` en la "
+"praŝarga menuo kaj poste elektu ``resume`` (pluigi)."
+
+#: ../../boot_options.rst:56
+msgid "Install an older release"
+msgstr "Instalu pli malnovan version"
+
+#: ../../boot_options.rst:58
+msgid ""
+"If your computer has compatibility issues with the latest Linux Mint "
+"release, install a previous release from the same Linux Mint series."
+msgstr ""
+"Se via komputilo havas kongruajn problemojn rilate la plej novan version de "
+"Linukso Minto, tiam instalu antaŭan version el la sama Linukso-Minto-serio."
+
+#: ../../boot_options.rst:60
+msgid ""
+"For instance, if you can't install Linux Mint 18.3 (which comes with a 4.10 "
+"kernel), install Linux Mint 18 (which comes with a 4.4 kernel) and upgrade "
+"to 18.3."
+msgstr ""
+"Ekzemple, se vi malsukcesas instali Linukson Minton 18.3 (kiu havas 4.10-"
+"kernon), tiam instalu Linukson Minton 18 (kiu havas 4.4-kernon) kaj promociu "
+"al 18.3. (dum kio vi konservos la 4.4-kernon)"
+
+#: ../../boot_options.rst:63
+msgid ""
+"The first release in each series uses an LTS (Long Term Support) kernel. "
+"Upgrading from this release to the latest one in the series does not change "
+"your kernel."
+msgstr ""
+"La unua versio en ĉiu serio uzas LTS-kernon (LTS = (angle) Long Term "
+"Support). Promocio de ĉi tiu versio al la plej nova el la serio ne ŝanĝas la "
+"kernon."
+
+#: ../../boot.rst:2
+msgid "Boot Linux Mint"
+msgstr "Startigi Linukson Minton"
+
+#: ../../boot.rst:4
+msgid ""
+"Now that you have Linux Mint on a USB stick (or DVD) boot the computer from "
+"it."
+msgstr ""
+"Kun Linukso Minto sur USB-bastoneto (aŭ lumdisko) startigu la komputilon de "
+"ĝi."
+
+#: ../../boot.rst:6
+msgid "Insert your USB stick (or DVD) into the computer."
+msgstr "Enmetu la USB-bastoneton (aŭ lumdiskon) en la komputilon."
+
+#: ../../boot.rst:8 ../../drivers.rst:23 ../../efi.rst:61 ../../oem.rst:21
+msgid "Restart the computer."
+msgstr "Restartigu la komputilon."
+
+#: ../../boot.rst:10
+msgid ""
+"Before your computer boots your current operating system (Windows, Mac, "
+"Linux) you should see your `BIOS <https://en.wikipedia.org/wiki/BIOS>`_ "
+"loading screen. Check the screen or your computer's documentation to know "
+"which key to press and instruct your computer to boot on USB (or DVD)."
+msgstr ""
+"Antaŭ ol la komputilo praŝargas la nunan operaciumon (Vindozo, Mac, Linukso) "
+"vi vidu la `BIOS <https://en.wikipedia.org/wiki/BIOS>`_ -ŝargan ekranon. "
+"Rigardu la ekranon aŭ la komputilan dokumentadon por ekscii, kiun klavon vi "
+"premu, kaj igu la komputilon starti de USB (aŭ lumdisko)."
+
+#: ../../boot.rst:13
+msgid ""
+"Most BIOS have a special key you can press to select the boot device and all "
+"of them have a special key to enter the BIOS configuration screen (from "
+"which you can define the boot order). Depending on the BIOS, these special "
+"keys can be :kbd:`Escape`, :kbd:`F1`, :kbd:`F2`, :kbd:`F8`, :kbd:`F10`, "
+":kbd:`F11`, :kbd:`F12`, or :kbd:`Delete`. That information is usually "
+"briefly written on the screen during the boot sequence."
+msgstr ""
+"Plej multaj BIOS havas specialan klavon vi premu por elekti la praŝargan "
+"aparaton kaj ĉiuj havas specialan klavon por eniri la BIOS-agordan ekranon "
+"(de kiu vi povas difini la praŝargan ordon). Depende de la BIOS ĉi tiuj "
+"specialaj klavaj povas esti :kbd:`Escape`, :kbd:`F1`, :kbd:`F2`, :kbd:`F8`, "
+":kbd:`F10`, :kbd:`F11`, :kbd:`F12`, aŭ :kbd:`Delete`. Tiu informo kutime "
+"mallonge aperas surekrane dum la praŝarga procezo."
+
+#: ../../boot.rst:16
+msgid ""
+"On Macs, keep your finger pressed on the :kbd:`Alt` or :kbd:`Option` key "
+"after hearing the boot sound."
+msgstr ""
+"Sur Mac-komputiloj tenu la fingron prematan sur la :kbd:`Alt` aŭ "
+":kbd:`Option` -klavo aŭdinte la praŝargan sonon."
+
+#: ../../boot.rst:18
+msgid ""
+"The Linux Mint ISO can be booted both in EFI or BIOS mode. In EFI mode it "
+"shows a grub menu. In BIOS mode it shows an isolinux menu."
+msgstr ""
+"La Linukso-Minto-ISO praŝargeblas laŭ EFI- aŭ BIOS-reĝimo. Laŭ EFI-reĝimo ĝi "
+"montras grub-menuon. Laŭ BIOS-reĝimo ĝi montras isolinuks-menuon."
+
+#: ../../boot.rst:24
+msgid "The isolinux menu in BIOS mode"
+msgstr "La isolinuks-menuo laŭ BIOS-reĝimo"
+
+#: ../../boot.rst:30
+msgid "The grub menu in EFI mode"
+msgstr "La grub-menuo laŭ EFI-reĝimo"
+
+#: ../../boot.rst:32
+msgid ""
+"From one of these menu, press :kbd:`Enter` to start Linux Mint from your USB "
+"stick (or DVD)."
+msgstr ""
+"Premu :kbd:`Enter` sur unu el ĉi tiuj menuoj por startigi Linukson Minton de "
+"la USB-bastoneto (aŭ lumdisko)."
+
+#: ../../burn.rst:2
+msgid "Create the bootable media"
+msgstr "Kreu la praŝargeblan datumportilon."
+
+#: ../../burn.rst:4
+msgid "The easiest way to install Linux Mint is with a USB stick."
+msgstr ""
+"La plej facila maniero instali Linukson Minton estas per USB-bastoneto."
+
+#: ../../burn.rst:6
+msgid "If you cannot boot from USB, you can use a blank DVD."
+msgstr ""
+"Se vi ne povas praŝargi de USB, vi povas uzi malplenan lumdiskon (DVD)."
+
+#: ../../burn.rst:9
+msgid "How to make a bootable USB stick"
+msgstr "Kiel fari praŝargeblan USB-bastoneton"
+
+#: ../../burn.rst:12
+msgid "In Linux Mint"
+msgstr "En Linukso Minto"
+
+#: ../../burn.rst:14
+msgid ""
+"Right-click the ISO file and select :menuselection:`Make Bootable USB "
+"Stick`, or launch :menuselection:`Menu --> Accessories --> USB Image Writer`."
+msgstr ""
+"Dekstre alklaku la ISO-dosieron kaj elektu :menuselection:`Fari praŝargeblan "
+"USB-bastoneton`, aŭ startigu :menuselection:`Menuo --> Utilaĵoj --> USB-"
+"bildo-skribilo`."
+
+#: ../../burn.rst:20
+msgid "Select your USB device and click :guilabel:`Write`."
+msgstr "Elektu vian USB-aparaton kaj alklaku :guilabel:`Skribi`."
+
+#: ../../burn.rst:23
+msgid "In Windows, Mac OS, or other Linux distributions"
+msgstr "En Vindozo, Mac OS aŭ aliaj Linuksaj distribuaĵoj"
+
+#: ../../burn.rst:25
+msgid ""
+"Download `Etcher <https://www.balena.io/etcher/>`_, install it and run it."
+msgstr ""
+"Elŝutu `Etcher <https://www.balena.io/etcher/>`_, instalu ĝin kaj rulu ĝin."
+
+#: ../../burn.rst:31
+msgid "Using Etcher"
+msgstr "Uzante Etcher"
+
+#: ../../burn.rst:33
+msgid "Click :guilabel:`Select image` and select your ISO file."
+msgstr "Alklaku :guilabel:`Select image` kaj elektu vian ISO-dosieron."
+
+#: ../../burn.rst:35
+msgid "Click :guilabel:`Select drive` and select your USB stick."
+msgstr ""
+"Alklaku :guilabel:`Select drive` kaj elektu la ingon de via USB-bastoneto."
+
+#: ../../burn.rst:37
+msgid "Click :guilabel:`Flash!`."
+msgstr "Alklaku :guilabel:`Flash!`."
+
+#: ../../burn.rst:41
+msgid "How to make a bootable DVD"
+msgstr "Kiel fari praŝargeblan lumdiskon"
+
+#: ../../burn.rst:43
+msgid "Optical discs are slow and burning to disc is prone to errors."
+msgstr "Lumdiskoj estas malrapidaj kaj skribado lumdiskon emas al eraroj."
+
+#: ../../burn.rst:46
+msgid "To prevent issues, burn at the lowest possible speed."
+msgstr "Por eviti malfacilaĵojn, skribu kun kiel eble plej malalta rapido."
+
+#: ../../burn.rst:49
+msgid ""
+"Burn the content of the ISO onto the DVD, not the ISO file itself. When "
+"finished, your DVD should contain directories such as ``boot`` and "
+"``casper``, it shouldn't be an empty DVD containing an .iso file."
+msgstr ""
+"Skribu la enhavon de la ISO-dosiero sur la lumdiskon, ne la ISO-dosieron "
+"mem. Kiam finite, via lumdisko enhavu dosierujojn kiel ``boot`` kaj "
+"``casper``, ĝi ne estu malplena lumdisko enhavanta .iso-dosieron."
+
+#: ../../burn.rst:52
+msgid "In Linux"
+msgstr "En Linukso"
+
+#: ../../burn.rst:53
+msgid "Install and use ``xfburn``."
+msgstr "Instalu kaj uzu ``xfburn``."
+
+#: ../../burn.rst:56
+msgid "In Windows"
+msgstr "En Vindozo"
+
+#: ../../burn.rst:57
+msgid "Right-click the ISO file and select :menuselection:`Burn disk image`."
+msgstr ""
+"Dekstre alklaku la ISO-dosieron kaj elektu :menuselection:`Disk-bildo-"
+"skribilo`."
+
+#: ../../burn.rst:59
+msgid ""
+"To make sure the ISO was burned without any errors, select "
+":menuselection:`Verify disc after burning`."
+msgstr ""
+"Por certiĝi, ke la ISO-dosiero estis skribita sen eraroj, elektu "
+":menuselection:`Kontroli diskon post skribado`."
+
+#: ../../burn.rst:62
+msgid "In Mac OS"
+msgstr "En Mac OS"
+
+#: ../../burn.rst:63
+msgid ""
+"Right-click the ISO file and select :menuselection:`Burn Disk Image to Disc`."
+msgstr ""
+"Dekstre alklaku la ISO-dosieron kaj elektu :menuselection:`Skribi diskbildon "
+"al disko`."
+
+#: ../../choose.rst:2
+msgid "Choose the right edition"
+msgstr "Elekti la ĝustan eldonon"
+
+#: ../../choose.rst:4
+msgid ""
+"You can download Linux Mint from the `Linux Mint website "
+"<https://linuxmint.com/download.php>`_."
+msgstr ""
+"Vi povas elŝuti Linukson Minton de la `LinuksoMinto-retejo  "
+"<https://linuxmint.com/download.php>`_."
+
+#: ../../choose.rst:6
+msgid ""
+"Read below to choose which edition and architecture are right for you."
+msgstr ""
+"Legu ĉi-sube por elekti kiuj eldono kaj arkitekturo estas bonaj por vi."
+
+#: ../../choose.rst:9
+msgid "Cinnamon, MATE or Xfce?"
+msgstr "Ĉu Cinnamon, MATE aŭ Xfce?"
+
+#: ../../choose.rst:11
+msgid ""
+"Linux Mint comes in 3 different flavours, each featuring a different desktop "
+"environment."
+msgstr ""
+"Linukso Minto havas tri malsamajn eldonojn, ĉiu kun malsama labortabla "
+"ĉirkaŭaĵo."
+
+#: ../../choose.rst:14 ../../choose.rst:26
+msgid "Cinnamon"
+msgstr "Cinnamon"
+
+#: ../../choose.rst:14
+msgid "The most modern, innovative and full-featured desktop"
+msgstr "La plej moderna, noviga kaj kompleta labortablo"
+
+#: ../../choose.rst:15 ../../choose.rst:35
+msgid "MATE"
+msgstr "MATE"
+
+#: ../../choose.rst:15
+msgid "A more traditional, and faster desktop"
+msgstr "Pli tradicia kaj pli rapida fenestrilo"
+
+#: ../../choose.rst:16 ../../choose.rst:44
+msgid "Xfce"
+msgstr "Xfce"
+
+#: ../../choose.rst:16
+msgid "The most lightweight desktop"
+msgstr "La plej plumpeza fenestrilo"
+
+#: ../../choose.rst:19
+msgid ""
+"The most popular version of Linux Mint is the Cinnamon edition. Cinnamon is "
+"primarily developed for and by Linux Mint. It is slick, beautiful, and full "
+"of new features."
+msgstr ""
+"La plej ŝatata versio de Linukso Minto estas la Cinnamon-eldono. Cinnamon "
+"estas ĉefe programita por kaj per Linukso Minto. Ĝi estas glata, bela kaj "
+"plena je novaj funkcioj."
+
+#: ../../choose.rst:28
+msgid ""
+"Linux Mint is also involved in the development of MATE, a classic desktop "
+"environment which is the continuation of GNOME 2, Linux Mint's default "
+"desktop between 2006 and 2011. Although it misses a few features and its "
+"development is slower than Cinnamon's, MATE uses less resources and can run "
+"faster on older computers."
+msgstr ""
+"Linukso Minto estas ankaŭ engaĝita en la programado de MATE, klasika "
+"fenestrilo, kiu estas la daŭrigo de GNOME 2, la defaŭlta fenestrilo de "
+"Linukso Minto inter 2006 kaj 2011. Kvankam mankas al ĝi kelkaj funkcioj kaj "
+"ĝia programado okazas pli malrapide ol tiu de Cinnamon, MATE uzas malpli da "
+"risurcoj kaj povas ruliĝi pli rapide sur pli malnovaj komputiloj."
+
+#: ../../choose.rst:37
+msgid ""
+"Xfce is a lightweight desktop environment. It doesn't support as many "
+"features as Cinnamon or MATE, but it's extremely stable and very light on "
+"resource usage."
+msgstr ""
+"Xfce estas malpeza labortabla ĉirkaŭaĵo. Ĝi ne subtenas tiom da funkcioj "
+"kiom Cinnamon aŭ MATE, sed ĝi estas ege stabila kaj tre malpeza pri rimeda "
+"uzado."
+
+#: ../../choose.rst:46
+msgid ""
+"Of course, all three desktops are great and Linux Mint is extremely proud of "
+"each edition. Although there are more features and better support in some "
+"editions than others, and some do run faster and use less resources than "
+"others, they're all great alternatives and choosing the right edition is "
+"largely a matter of taste."
+msgstr ""
+"Kompreneble, ĉiuj tri labortabloj estas bonegaj kaj Linukso Minto ege fieras "
+"pri ĉiu eldono. Kvankam estas pli da funkcioj kaj pli bona subteno en iuj "
+"eldonoj ol en aliaj, kaj iuj rulas pli rapide kaj uzas malpli da rimedoj ol "
+"aliaj, ĉiuj estas bonegaj alternativoj kaj elekto de la bona eldono por vi "
+"estas grandparte afero de gusto."
+
+#: ../../choose.rst:48
+msgid ""
+"Other than their features and performance, Cinnamon, MATE and Xfce also "
+"represent three different desktop environments, with different menus, "
+"different panels and configuration tools. The right one for you is the one "
+"where you feel at home."
+msgstr ""
+"Krom siaj funkcioj kaj rendimento, Cinnamon, MATE kaj Xfce reprezentas ankaŭ "
+"tri malsamajn labortablajn ĉirkaŭaĵojn, kun malsamaj menuoj, malsamaj "
+"paneloj kaj agordaj iloj. La bona eldono por vi estas tiu, en kiu vi sentas "
+"vin hejme."
+
+#: ../../choose.rst:50
+msgid ""
+"If you are unsure which desktop to choose start with the Cinnamon edition. "
+"Try them all eventually when you have the time. All three of them have their "
+"own audience within the Linux Mint community and they're all very popular."
+msgstr ""
+"Se vi necertas kiun labortablon elekti, komencu per la Cinnamon-eldono. "
+"Provu ĉiujn post kelka tempo, se vi havos la tempon. Ĉiuj tri havas sian "
+"propran uzantaron ene de la LinuksoMinto-komunumo kaj ĉiuj estas tre ŝatataj."
+
+#: ../../choose.rst:54
+msgid "32-bit or 64-bit?"
+msgstr "Ĉu 32-bita aŭ 64-bita?"
+
+#: ../../choose.rst:56
+msgid "From version 20 onward, only 64-bit is available."
+msgstr "Ekde versio 20 nur 64-bita disponeblas."
+
+#: ../../choose.rst:58
+msgid ""
+"The 32-bit ISO images on prior versions are provided for compatibility with "
+"older computers. 32-bit processors are extremely rare nowadays and most "
+"computers are able to run in 64-bit. If your computer was manufactured after "
+"2007, you probably have a 64-bit processor."
+msgstr ""
+"La 32-bitaj ekzaktaj kopioj de diskoj ĉe antaŭaj versioj estas provizataj "
+"por kongruo al pli malnovaj komputiloj. 32-bitaj procesoroj estas tre "
+"maloftaj nuntempe kaj plej multaj komputiloj kapablas ruliĝi 64-bite. Se via "
+"komputilo estis fabrikita post 2007, vi verŝajne havas 64-bitan  procesoron."
+
+#: ../../choose.rst:60
+msgid ""
+"If you have an old computer and you are unsure whether or not it can run in "
+"64-bit, read `X86 Chronology "
+"<https://en.wikipedia.org/wiki/X86#Chronology>`_."
+msgstr ""
+"Se vi havas malnovan komputilon kaj necertas ĉu ĝi povas ruli 64-bite, legu "
+"(angle) `X86 Kronologio <https://en.wikipedia.org/wiki/X86#Chronology>`_."
+
+#: ../../choose.rst:63
+msgid ""
+"You can try to boot Linux Mint 64-bit on your computer. If it isn't "
+"compatible, nothing bad will happen. You will just get an error message."
+msgstr ""
+"Vi povas provi startigi Linukson Minton en via komputilo. Se ĝi ne kongruos, "
+"nenio malbona okazos. Vi nur ekhavos eraran mesaĝon."
+
+#: ../../choose.rst:66
+msgid ""
+"If you cannot boot or install Linux Mint because your hardware is too recent "
+"and is not properly detected see the `Edge ISO Images <https://linuxmint-"
+"user-guide.readthedocs.io/en/latest/edge.html>`_ chapter in the Linux Mint "
+"User Guide for an alternative ISO."
+msgstr ""
+"Se vi ne povas praŝargi aŭ instali Linukson Minton pro tio, ke via aparataro "
+"estas tro freŝa kaj ne estas dece detektita, vidu la `Edge ISO Images "
+"<https://linuxmint-user-guide.readthedocs.io/en/latest/edge.html>`_ ĉapitro "
+"en la Poruzanta Manlibro de Linukso Minto por alternativa ekzakta kopio de "
+"disko."
+
+#: ../../codecs.rst:2
+msgid "Multimedia codecs"
+msgstr "Plurmediaj kodekoj"
+
+#: ../../codecs.rst:4
+msgid "Some multimedia content requires additional codecs to be installed."
+msgstr "Iu plurmedia enhavo postulas pliajn instalotajn kodekojn."
+
+#: ../../codecs.rst:7
+msgid ""
+"If you were online when installing Linux Mint and you ticked the option to "
+"install these codecs, they are already installed."
+msgstr ""
+"Se vi estis konektita instalante Linukson Minton kaj frapis la opcion pri "
+"instalado de ĉi tiuj kodekoj, tiam ili estas jam instalitaj."
+
+#: ../../codecs.rst:9
+msgid ""
+"Launch :menuselection:`Menu --> Sound & Video --> Install Multimedia Codecs`."
+msgstr ""
+"Lanĉu : :menuselection:`Menuo --> Sono kaj video --> Instali plurmediajn "
+"kodekojn`."
+
+#: ../../codecs.rst:14
+msgid "Click :guilabel:`Install`."
+msgstr "Alklaku :guilabel:`Instali`."
+
+#: ../../codecs.rst:16
+msgid ""
+"Enter your password and wait for the codecs to be installed on your computer."
+msgstr ""
+"Enigu vian pasvorton kaj atendas instaladon de la kodekoj sur via komputilo."
+
+#: ../../drivers.rst:2
+msgid "Hardware drivers"
+msgstr "Peliloj por aparataro"
+
+#: ../../drivers.rst:4
+msgid ""
+"One of the first things to do after installing Linux Mint is to check for "
+"available hardware drivers."
+msgstr ""
+"Plej grava farendaĵo post instalado de Linukso Minto estas esplori, ĉu "
+"(alternativaj) peliloj por la aparataro haveblas."
+
+#: ../../drivers.rst:6
+msgid "Launch :menuselection:`Menu --> Administration --> Driver Manager`."
+msgstr "Lanĉu :menuselection:`Menuo --> Administrado --> Pelila mastrumilo`."
+
+#: ../../drivers.rst:13
+msgid ""
+"If you are offline, the Driver Manager will complain that it cannot connect "
+"to the Internet."
+msgstr ""
+"Se vi estas senkonekta, tiam la pelila mastrumilo sciigos, ke ĝi ne povas "
+"konekti al interreto."
+
+#: ../../drivers.rst:19
+msgid ""
+"Insert your bootable Linux Mint USB stick (or DVD), wait for it to be "
+"mounted, and click :guilabel:`OK`."
+msgstr ""
+"Enmetu vian praŝargeblan Linukso-Minto-USB-bastoneton (aŭ lumdisko) en vian "
+"komputilon, atendu, ĝis kiam ĝi estos surmetita, kaj alklaku "
+":guilabel:`Preta`."
+
+#: ../../drivers.rst:21
+msgid ""
+"Tick the appropriate checkboxes to select the available drivers and click "
+":guilabel:`Apply Changes`."
+msgstr ""
+"Frapu la koncernajn markobutonojn por elekti la haveblajn pelilojn kaj "
+"alklaku :guilabel:`Apliki ŝanĝojn`."
+
+#: ../../efi.rst:2
+msgid "EFI"
+msgstr "EFI"
+
+#: ../../efi.rst:5
+msgid "SecureBoot"
+msgstr "SecureBoot"
+
+#: ../../efi.rst:7
+msgid ""
+"If after installing Linux Mint in EFI mode, you are unable to boot due to a "
+"``Secure Boot Violation``, you can try one of the following solutions:"
+msgstr ""
+"Se post instalado de Linukso Minto laŭ EFI-reĝimo, vi ne povas praŝargi pro "
+"``Secure Boot Violation``, tiam provu unu el jenaj solvoj:"
+
+#: ../../efi.rst:15
+msgid "Restart the installation:"
+msgstr "Restartigu la instaladon:"
+
+#: ../../efi.rst:14
+msgid "Connect to the Internet before the installation"
+msgstr "Konektu al interreto antaŭ instalado"
+
+#: ../../efi.rst:15
+msgid ""
+"**Do not** select ``Install third-party software for graphics and Wi-Fi "
+"hardware, Flash, MP3 and other media``."
+msgstr ""
+"**Ne** elektu ``Install third-party software for graphics and Wi-Fi "
+"hardware, Flash, MP3 and other media`` (instalado de peliloj kaj plurmedia "
+"subteno)."
+
+#: ../../efi.rst:17
+msgid "Disable ``SecureBoot`` in the ``BIOS`` settings of your computer."
+msgstr "Malebligu ``SecureBoot`` en la ``BIOS``-agordoj de la komputilo."
+
+#: ../../efi.rst:20
+msgid ""
+"For examples of how to disable secure boot on various computers, read "
+"`Managing EFI Boot Loaders for Linux: Dealing with Secure Boot "
+"<http://www.rodsbooks.com/efi-bootloaders/secureboot.html>`_."
+msgstr ""
+"Ekzemploj de malebligo de 'SecureBoot' sur diversaj komputiloj legeblas en "
+"la anglalingva artikolo `Managing EFI Boot Loaders for Linux: Dealing with "
+"Secure Boot <http://www.rodsbooks.com/efi-bootloaders/secureboot.html>`_."
+
+#: ../../efi.rst:23
+msgid "EFI boot order"
+msgstr "EFI-praŝarga ordo"
+
+#: ../../efi.rst:25
+msgid ""
+"If after installing Linux Mint in EFI mode, your computer skips the boot "
+"menu and boots straight into Windows (or another operating system), you "
+"probably have an issue with the boot order."
+msgstr ""
+"Se post instalado de Linukso Minto laŭ EFI-reĝimo, la komputilo preterpasas "
+"la praŝargan menuon kaj tuj startigas Vindozon (aŭ alian operaciumon), vi "
+"verŝajne havas problemon pri la praŝarga ordo."
+
+#: ../../efi.rst:27
+msgid "To modify the boot order:"
+msgstr "Por ŝanĝi la praŝargan ordon:"
+
+#: ../../efi.rst:29 ../../multiboot.rst:18
+msgid "Boot Linux Mint in ``live`` mode (with your USB stick or DVD)."
+msgstr ""
+"Startigu Linukson Minton laŭ ``prova-seanco``-reĝimo (per via USB-bastoneto "
+"aŭ lumdisko)."
+
+#: ../../efi.rst:31 ../../multiboot.rst:20
+msgid "Open a terminal."
+msgstr "Malfermu terminalfenestron."
+
+#: ../../efi.rst:33
+msgid "Type ``sudo efibootmgr`` and press :kbd:`Enter`."
+msgstr "Tajpu ``sudo efibootmgr`` kaj premu :kbd:`Eniga klavo`."
+
+#: ../../efi.rst:35
+msgid "This command lists the available boot options and the boot order."
+msgstr ""
+"Ĉi tiu komando listigas la haveblajn praŝargajn opciojn kaj la praŝargan "
+"ordon."
+
+#: ../../efi.rst:41
+msgid "In the screenshot above, there are three boot options:"
+msgstr "En ĉi-supra ekrankopio estas tri praŝargaj eblecoj:"
+
+#: ../../efi.rst:43
+msgid "``ubuntu`` at ``0000``"
+msgstr "``ubuntu`` sur ``0000``"
+
+#: ../../efi.rst:44
+msgid "``linuxmint`` at ``0001``"
+msgstr "``linuxmint`` sur ``0001``"
+
+#: ../../efi.rst:45
+msgid "``Mac OS X`` at ``0081``"
+msgstr "``Mac OS X`` sur ``0081``"
+
+#: ../../efi.rst:47
+msgid ""
+"The boot order is ``0081``. This indicates that the computer only tries to "
+"boot Mac OS and not Linux Mint."
+msgstr ""
+"La praŝarga ordo estas ``0081``. Ĉi tio indikas, ke la komputilo nur provas "
+"praŝargi Mac OS kaj ne Linukson Minton."
+
+#: ../../efi.rst:50
+msgid ""
+"For technical reasons Linux Mint uses ``ubuntu`` as its EFI boot name."
+msgstr ""
+"Pro teknikaj kialoj Linukso Minto uzas ``ubuntu`` kiel sian EFI-praŝargan "
+"nomon."
+
+#: ../../efi.rst:53
+msgid ""
+"To fix the boot order, type ``sudo efibootmgr --bootorder XXXX,YYYY`` (where "
+"``XXXX`` and ``YYYY`` are the operating system boot options you want to "
+"boot)."
+msgstr ""
+"Por repari la praŝargan ordon, tajpu ``sudo efibootmgr --bootorder "
+"XXXX,YYYY`` (kie ``XXXX`` kaj ``YYYY`` estas la praŝargaj opcioj de la "
+"operaciumoj, kiujn vi deziras praŝargi)."
+
+#: ../../efi.rst:59
+msgid ""
+"In the screenshot above, ``sudo efibootmgr --bootorder 0000,0081`` instructs "
+"the computer to first try to boot Linux Mint (``ubuntu`` being the EFI boot "
+"name for Linux Mint), and then Mac OS."
+msgstr ""
+"En supra ekrankopio ``sudo efibootmgr --bootorder 0000,0081`` instruas al la "
+"komputilo unue provi praŝargi Linukson Minton (``ubuntu`` estas la EFI-"
+"praŝarga nomo por Linukso Minto), kaj tiam Mac OS."
+
+#: ../../efi.rst:64
+msgid ""
+"In the screenshot above ``0000`` is the first boot option so the computer "
+"boots on the Linux Mint grub menu. If grub fails (or if it is dismissed with "
+"the ``exit`` command), the computer follows the boot order and then tries to "
+"boot ``0081``, which corresponds to Mac OS."
+msgstr ""
+"En supra ekrankopio ``0000`` estas la unua praŝarga opcio, do la komputilo "
+"praŝargas per la Linukso-Minto-grub-menuo. Se grub malsukcesas (aŭ se ĝi "
+"estis finita per la ``exit``-komando), la komputilo sekvos la praŝargan "
+"ordon kaj tiam provos praŝargi ``0081``, kio respondas al Mac OS."
+
+#: ../../help.rst:2
+msgid "Where to find help"
+msgstr "Kie trovi helpon"
+
+#: ../../help.rst:4
+msgid ""
+"Many users will be glad to help you and guide you through your first steps "
+"with Linux if you are nice and patient with them and if you give them the "
+"information they require to understand the issues you are facing."
+msgstr ""
+"Multaj uzantoj ĝojos helpi vin kaj gvidi vin tra la unuaj paŝoj kun Linukso, "
+"se vi estos afabla kaj pacienca al ili kaj se vi provizos al ili la "
+"informojn, kiujn ili bezonas por kompreni viajn problemojn."
+
+#: ../../help.rst:7
+msgid "The forums"
+msgstr "La forumoj"
+
+#: ../../help.rst:9
+msgid ""
+"The best place to find help is on the `Linux Mint Forums "
+"<https://forums.linuxmint.com>`_."
+msgstr ""
+"La plej bona loko por trovi helpon estas ĉe la `Linukso-Minto-forumoj "
+"<https://forums.linuxmint.com>`_."
+
+#: ../../help.rst:12
+msgid ""
+"Search the forums before asking, in case someone else already asked the same "
+"question."
+msgstr ""
+"Traserĉu la forumojn antaŭ ol demandi ion, eble iu alia jam starigis la "
+"saman demandon."
+
+#: ../../help.rst:15
+msgid "The chat room"
+msgstr "La babilejo"
+
+#: ../../help.rst:17
+msgid "Another great place to find help is in the IRC chat room."
+msgstr "Alia bona loko por trovi helpon estas en la IRC-babilejo."
+
+#: ../../help.rst:19
+msgid ""
+"To reach the chat room from within Linux Mint, launch :menuselection:`Menu --"
+"> Internet --> HexChat`."
+msgstr ""
+"Por atingi la babilejon ene de Linukso Minto, lanĉu :menuselection:`Menuo --"
+"> Interreto --> HexChat`."
+
+#: ../../help.rst:21
+msgid ""
+"If you are using another operating system, you can use `Kiwiirc "
+"<https://kiwiirc.com/client/irc.spotchat.org/?i#linuxmint-help>`_ to connect "
+"to the chat room."
+msgstr ""
+"Se vi uzadas alian operaciumon, uzu `Kiwiirc "
+"<https://kiwiirc.com/client/irc.spotchat.org/?i#linuxmint-help>`_ por "
+"konekti al tiu babilejo."
+
+#: ../../help.rst:24
+msgid ""
+"Many people are connected to the chat room but only look at it now and then. "
+"Be patient after asking a question. Don't repeat it and stay connected until "
+"you get an answer. It can sometimes take a few hours for somebody to see "
+"your question and reply to you. Don't quit after a few minutes. It is "
+"frustrating to you, but also to others who later see your question and are "
+"unable to reply because you already left."
+msgstr ""
+"Multaj uzantoj estas konektitaj al tiu babilejo, sed rigardas ĝin nur "
+"fojfoje. Paciencu post starigo de demando. Ne ripetu ĝin kaj restu konektite "
+"ĝis kiam vi ricevos respondon. Fojfoje nur post kelkaj horoj iu vidos vian "
+"demandon kaj respondos al vi. Ne forlasu la babilejon post kelkaj minutoj. "
+"Tio estas frustranta al vi, sed ankaŭ al aliaj, kiuj vidos vian demandon pli "
+"malfrue kaj ne kapablos respondi, ĉar vi jam foriris."
+
+#: ../../help.rst:27
+msgid ""
+"If you are using Hexchat, you can minimize it to tray by clicking its status "
+"icon. People will often mention your nickname when replying to you. When "
+"they do, your Hexchat status icon will blink to catch your attention."
+msgstr ""
+"Se vi uzas Hexchat, eblas ĝin minimumigi alklakante ties statan piktogramon. "
+"Uzantoj ofte mencias vian kromnomon por respondi al vi. Tiakaze via Hexchat-"
+"stata piktogramo lumpulsos por kapti vian atenton."
+
+#: ../../help.rst:30
+msgid "Community resources"
+msgstr "Komunumaj rimedoj"
+
+#: ../../help.rst:32
+msgid ""
+"The `tutorials section <https://community.linuxmint.com/tutorial/search>`_ "
+"is useful to find tutorials about Linux Mint."
+msgstr ""
+"La `sekcio pri manlibroj <https://community.linuxmint.com/tutorial/search>`_ "
+"utilas por trovi diversajn manlibrojn pri Linukso Minto."
+
+#: ../../help.rst:34
+msgid ""
+"The `hardware database <https://community.linuxmint.com/hardware/search>`_ "
+"is useful to find compatible hardware."
+msgstr ""
+"La `datumbazo pri aparataro "
+"<https://community.linuxmint.com/hardware/search>`_ utilas por trovi "
+"kongruan aparataron."
+
+#: ../../help.rst:37
+msgid "Local communities"
+msgstr "Lokaj komunumoj"
+
+#: ../../help.rst:39
+msgid ""
+"To find help in your language, use the `Local Communities "
+"<https://www.linuxmint.com/links.php>`_."
+msgstr ""
+"Por trovi helpon en via lingvo, uzu la `Lokaj Komunumoj "
+"<https://www.linuxmint.com/links.php>`_."
+
+#: ../../index.rst:2
+msgid "Linux Mint Installation Guide"
+msgstr "Manlibro Instalado de Linukso Minto"
+
+#: ../../index.rst:8
+msgid ""
+"Linux Mint comes in the form of an ISO image (an .iso file) which can be "
+"used to make a bootable DVD or a bootable USB stick."
+msgstr ""
+"Linukso Minto alvenas forme de ISO-bildo (.iso-dosiero), kiu uzeblas por "
+"fari praŝargeblan lumdiskon (DVD) aŭ praŝargeblan USB-bastoneton."
+
+#: ../../index.rst:10
+msgid ""
+"This guide will help you download the right ISO image, create your bootable "
+"media and install Linux Mint on your computer."
+msgstr ""
+"Ĉi tiu manlibro helpos vin elŝuti la ĝustan ISO-bildon, fari vian "
+"praŝargeblan datumportilon kaj instali Linukson Minton sur via komputilo."
+
+#: ../../index.rst:12 ../../sections.rst:5
+msgid "Download"
+msgstr "Elŝutado"
+
+#: ../../index.rst:19 ../../sections.rst:7
+msgid "Live Boot"
+msgstr "Prova seanco"
+
+#: ../../index.rst:26 ../../sections.rst:9
+msgid "Installation"
+msgstr "Instalado"
+
+#: ../../index.rst:32 ../../sections.rst:11
+msgid "Post-installation"
+msgstr "Post instalado"
+
+#: ../../index.rst:41 ../../sections.rst:13
+msgid "Troubleshooting"
+msgstr "Solvado de problemoj"
+
+#: ../../index.rst:48 ../../sections.rst:15
+msgid "Frequently Asked Questions"
+msgstr "Oftaj demandoj"
+
+#: ../../install.rst:2
+msgid "Install Linux Mint"
+msgstr "Instalado de Linukso Minto"
+
+#: ../../install.rst:5
+msgid "The live session"
+msgstr "La prova seanco"
+
+#: ../../install.rst:7
+msgid ""
+"When you boot the computer from the USB stick (or DVD), Linux Mint starts a "
+"``live session``. It logs you in automatically as a user called ``mint`` and "
+"shows you a desktop with the installer on it:"
+msgstr ""
+"Kiam vi praŝargas la komputilon de la USB-bastoneto (aŭ lumdisko), Linukso "
+"Minto startigas ``provan seancon``. Ĝi aŭtomate ensalutas vin kiel uzanto "
+"nomata ``mint`` kaj montras al vi labortablon kun la instalilo sur ĝi:"
+
+#: ../../install.rst:13
+msgid "The Linux Mint live session"
+msgstr "La Linuksa Minta prova seanco"
+
+#: ../../install.rst:15
+msgid ""
+"The ``live session`` is similar to a normal session (i.e. to Linux Mint once "
+"it is permanently installed on the computer), but with the following "
+"exceptions:"
+msgstr ""
+"La ``prova seanco`` similas al normala seanco (t.e. al Linukso Minto, kiam "
+"ĝi estos daŭre instalita sur la komputilo), sed kun jenaj esceptoj:"
+
+#: ../../install.rst:17
+msgid ""
+"The Live session is slower (it is loaded from a USB stick or DVD as opposed "
+"to a SSD or HDD)."
+msgstr ""
+"La prova seanco estas pli malrapida (ĝi estas ŝargata de USB-bastoneto aŭ "
+"lumdisko kontraŭe al solidstata aŭ fiksita diskoj)."
+
+#: ../../install.rst:18
+msgid ""
+"Changes you make in the live session are not permanent. They are not written "
+"to the USB stick (or DVD) and they do not impact the system installed by the "
+"installer."
+msgstr ""
+"Ŝanĝoj, kiujn vi faras dum prova seanco, ne estas daŭraj. Ili ne estas "
+"skribitaj al la  USB-bastoneto (aŭ lumdisko) kaj ne efikas sur la sistemo, "
+"instalota per la instalilo."
+
+#: ../../install.rst:19
+msgid ""
+"Some applications work differently (or not at all) in the live session "
+"(Timeshift, Flatpak, Update Manager, Welcome Screen..etc.)."
+msgstr ""
+"Kelkaj aplikaĵoj funkcias malsame (aŭ tute ne) en la prova seanco "
+"(Timeshift, Flatpak, Ĝisdatiga mastrumilo, Bonvena ekrano ktp.)."
+
+#: ../../install.rst:22
+msgid ""
+"The username for the live session is ``mint``. If asked for a password press "
+":kbd:`Enter`."
+msgstr ""
+"La uzantonomo por la prova seanco estas ``mint``. Kiam pasvorto estas "
+"demandata, tiam premu :kbd:`Enter`."
+
+#: ../../install.rst:25
+msgid "Installing Linux Mint on the computer"
+msgstr "Instalado de Linukso Minto sur la komputilo"
+
+#: ../../install.rst:27
+msgid "To permanently install Linux Mint on your computer:"
+msgstr "Por daŭra instalado de Linukso Minto sur via komputilo:"
+
+#: ../../install.rst:29
+msgid "Double-click :guilabel:`Install Linux Mint`."
+msgstr "Duoble alklaku :guilabel:`Instali Linukson Minton`."
+
+#: ../../install.rst:31
+msgid "Select your language."
+msgstr "Elektu vian lingvon."
+
+#: ../../install.rst:37
+msgid "Connect to the Internet."
+msgstr "Konekti al la interreto."
+
+#: ../../install.rst:43
+msgid ""
+"If you are connected to the Internet, tick the box to install the multimedia "
+"codecs."
+msgstr ""
+"Se vi estas konektita al la interreto, frapu la markobutonon por instali la "
+"plurmediajn kodekojn."
+
+#: ../../install.rst:49
+msgid "Choose an installation type."
+msgstr "Elektu instaladan tipon."
+
+#: ../../install.rst:55
+msgid ""
+"If Linux Mint is the only operating system you want to run on this computer "
+"and all data can be lost on the hard drive, choose :guilabel:`Erase disk and "
+"install Linux Mint`."
+msgstr ""
+"Se Linukso Minto estas nura operaciumo, kiun vi intencas ruli sur ĉi tiu "
+"komputilo, kaj se ĉiuj datumoj sur la fiksita diskilo povas perdiĝi, do "
+"elektu :guilabel:`Forviŝi diskon kaj instali Linukson Minton`."
+
+#: ../../install.rst:58
+msgid ""
+":guilabel:`Encrypt the new Linux Mint installation for security` refers to "
+"full disk encryption. At this stage of the installation your keyboard layout "
+"wasn't yet selected so it is set to en_US. If you decide to use this option, "
+"keep this in mind when entering a password. Note that there are issues with "
+"this option and some NVIDIA drivers. If you are new to Linux use home "
+"directory encryption instead (you can select it later during the "
+"installation)."
+msgstr ""
+":guilabel:`Ĉifri la novan Linuksan Mintan instalaĵon por sekurigi` koncernas "
+"ĉifradon de la plena disko. Ĉi-momente dum instalado via klavararanĝo "
+"ankoraŭ ne estis elektita, do ĝia agordo estas en_US. Se vi decidas uzi ĉi "
+"tiun opcion, atentu tiun fakton enigante iun ajn pasvorton. Notu, ke estas "
+"problemoj pri ĉi tiu opcio kaj kelkaj NVIDIA-peliloj. Se vi estas novo pri "
+"Linukso anstataŭ uzu ĉifradon de la hejma dosierujo (vi povos elekti ĝin "
+"poste dum instalado)."
+
+#: ../../install.rst:60
+msgid ""
+"If another operating system is present on the computer, the installer shows "
+"you an option to install Linux Mint alongside it. If you choose this option, "
+"the installer automatically resizes your existing operating system, makes "
+"room and installs Linux Mint beside it. A boot menu is set up to choose "
+"between the two operating systems each time you start your computer."
+msgstr ""
+"Se alia operaciumo ĉeestas sur la komputilo, la instalilo montros al vi "
+"opcion instali Linukson Minton apud ĝi. Se vi elektas ĉi tiun opcion, la "
+"instalilo aŭtomate  adaptos la grandon de la ekzistanta operaciumo, kreos "
+"spacon kaj instalos Linukson Minton apud ĝi. Iu praŝarga menuo estos "
+"agordata por elekti el la du operaciumoj ĉiufoje, kiam vi startigas la "
+"komputilon."
+
+#: ../../install.rst:64
+msgid ""
+"If you want to manage the partitions or specify which partitions to use, "
+"select :guilabel:`Something else`."
+msgstr ""
+"Se vi deziras administri la subdiskojn aŭ precizigi, kiujn subdiskojn uzi, "
+"elektu :guilabel:`Io alia`."
+
+#: ../../install.rst:70
+msgid ""
+"Linux Mint requires one partition to be mounted on the root ``/`` directory."
+msgstr ""
+"Linukso Minto postulas unu subdiskon surmetotan sur la radika dosierujo "
+"``/``."
+
+#: ../../install.rst:72
+msgid ""
+"The Linux Mint operating system (without additional software or personal "
+"data) takes roughly 15GB, so give this partition a decent size (100GB or "
+"more)."
+msgstr ""
+"Operaciumo Linukso Minto (krom pliaj programaroj aŭ personaj datumoj) prenas "
+"proksimume 15 GB, do donu al ĉi tiu subdisko taŭgan grandon (100 GB aŭ pli)."
+
+#: ../../install.rst:74
+msgid "``ext4`` is recommended. It is the most popular Linux filesystem."
+msgstr ""
+"``ext4`` estas rekomendata. Ĝi estas la plej ŝatata Linuksa dosiersistemo."
+
+#: ../../install.rst:79
+msgid ""
+"Also create a ``swap`` partition. This partition is used for hibernation and "
+"as a safety buffer in case your computer runs out of RAM. Give this "
+"partition a size equal to the amount of RAM in your computer."
+msgstr ""
+"Ankaŭ kreu ``swap``-subdiskon. Ĉi tiu subdisko estas uzata por pasivumigo "
+"kaj kiel sekureca bufro ĉe eventuala manko de ĉefmemoro de la komputilo. "
+"Donu al ĉi tiu subdisko grandon similan al la kiomo da ĉefmemoro de la "
+"komputilo."
+
+#: ../../install.rst:81
+msgid "Select your timezone"
+msgstr "Elektu vian horzonon"
+
+#: ../../install.rst:87
+msgid "Select your keyboard layout"
+msgstr "Elektu vian klavararanĝon"
+
+#: ../../install.rst:93
+msgid "Enter your user details"
+msgstr "Enigu viajn uzantajn detalojn"
+
+#: ../../install.rst:99
+msgid ""
+"Your ``name`` can be your real name, but it doesn't have to be. It is only "
+"used locally, in the screensaver and on the login screen."
+msgstr ""
+"Via ``nomo`` povas esti via vera nomo, sed tio ne devas. Ĝi estas uzata nur "
+"loke, en la ekrankurteno kaj sur la ensaluta ekrano."
+
+#: ../../install.rst:101
+msgid ""
+"Your ``username`` is what you log in as, and your ``hostname`` is the name "
+"of your computer on the network."
+msgstr ""
+"Via ``uzantonomo`` estas la nomo, per kiu vi ensalutas, kaj via ``nomo de "
+"gastiga komputilo`` estas la nomo de la komputilo en la reto."
+
+#: ../../install.rst:103
+msgid ""
+"To prevent bugs only use lowercase characters, with no punctuation or "
+"accentuation."
+msgstr ""
+"Por eviti cimojn uzu nur minusklajn signojn, sed ne interpunkciajn signojn "
+"aŭ supersignojn."
+
+#: ../../install.rst:105
+msgid ""
+"To protect your personal data against local attacks (people around you, or "
+"in case your computer gets stolen), tick :guilabel:`Encrypt my home folder`."
+msgstr ""
+"Por protekti viajn personajn datumojn kontraŭ lokaj atakoj (homoj ĉirkaŭ vi, "
+"aŭ ĉe eventuala ŝtelo de la komputilo), frapu :guilabel:`Ĉifri la hejmo-"
+"dosierujon`."
+
+#: ../../install.rst:107
+msgid "Choose a strong password."
+msgstr "Elektu fortan pasvorton."
+
+#: ../../install.rst:109
+msgid "Enjoy the slideshow while Linux Mint is installed on your computer."
+msgstr ""
+"Ĝuu la lumbildan prezentadon, dum Linukso Minto estas instalata sur la "
+"komputilo."
+
+#: ../../install.rst:115
+msgid "When the installation is finished, click :guilabel:`Restart Now`."
+msgstr "Kiam la instalado estos preta, alklaku :guilabel:`Nun restarti`."
+
+#: ../../install.rst:121
+msgid ""
+"The computer will then start to shut down and ask you to remove the USB disk "
+"(or DVD). Upon reboot, your computer should show you a boot menu or start "
+"your newly installed Linux Mint operating system."
+msgstr ""
+"La komputilo tiam komencos elŝalton kaj petos vin forpreni la USB-bastoneton "
+" (aŭ lumdiskon). Ĉe praŝargo la komputilo devus montri al vi praŝargan "
+"menuon aŭ startigi la ĵus instalitan operaciumon Linukson Minton."
+
+#: ../../locales.rst:2
+msgid "Language support"
+msgstr "Lingvosubteno"
+
+#: ../../locales.rst:4
+msgid ""
+"Language support includes translations but also packages related to spell-"
+"checking, synonyms, hyphenation and dictionaries which enhance your "
+"experience in software applications such as LibreOffice."
+msgstr ""
+"Lingva subteno inkluzivas tradukojn, sed ankaŭ pakojn pri literumada "
+"kontrolo, sinonimoj, vortdivido kaj vortaroj, kiuj plibonigas vian ĝuon de "
+"aplikaĵaroj kiel LibreOffice."
+
+#: ../../locales.rst:6
+msgid "Launch :menuselection:`Menu --> Preferences --> Languages`."
+msgstr "Lanĉu :menuselection:`Menuo --> Agordoj --> Lingvoj`."
+
+#: ../../locales.rst:12
+msgid "Click :guilabel:`Install / Remove Language`."
+msgstr "Alklaku :guilabel:`Instali / forigi lingvojn`."
+
+#: ../../locales.rst:18
+msgid ""
+"If beside your locale, you see a label saying ``Some language packs are "
+"missing``, select your locale and click :guilabel:`Install language packs`."
+msgstr ""
+"Se apud via lokaĵaro vi vidas tekston, kiu diras ``Kelkaj lingvaj pakaĵoj "
+"mankas``, elektu vian lokaĵaron kaj alklaku :guilabel:`Instali lingvajn "
+"pakaĵojn`."
+
+#: ../../multiboot.rst:2
+msgid "Multi-boot"
+msgstr "Plurŝargado"
+
+#: ../../multiboot.rst:5
+msgid "Always install Windows first"
+msgstr "Ĉiam instalu Vindozon unue"
+
+#: ../../multiboot.rst:7
+msgid ""
+"Windows does not detect other operating systems and does not feature a boot "
+"menu. When you install it, it overwrites your boot sequence and your "
+"computer then boots straight into Windows."
+msgstr ""
+"Vindozo ne malkovras aliajn operaciumojn kaj ne havas praŝargan menuon. Ĉe  "
+"sia instalado ĝi superskribas la praŝargan ordon kaj la komputilo tiam "
+"praŝargas tuj Vindozon."
+
+#: ../../multiboot.rst:9
+msgid ""
+"Linux Mint (and most Linux distributions) detects other operating systems "
+"and builds a menu from which you can choose which system to boot."
+msgstr ""
+"Linukso Minto (kaj plej multe da Linuksaj distribuaĵoj) malkovras aliajn "
+"operaciumojn kaj konstruas menuon, el kiu vi povas elekti la praŝargotan "
+"sistemon."
+
+#: ../../multiboot.rst:11
+msgid ""
+"For this reason, if you want to dual-boot or multi-boot with Windows, it is "
+"easier and recommended to install Windows first, before you install Linux "
+"Mint."
+msgstr ""
+"Tial, se vi deziras elekti inter Vindozon kaj ion alian, estas pli facile "
+"kaj rekomendite instali unue Vindozon antaŭ ol instali Linukson Minton."
+
+#: ../../multiboot.rst:14
+msgid "Fix the boot sequence"
+msgstr "Riparu la praŝargan ordon"
+
+#: ../../multiboot.rst:16
+msgid "If Windows overwrites your boot sequence:"
+msgstr "Se Vindozo superskribas la praŝargan ordon:"
+
+#: ../../multiboot.rst:22
+msgid "To list your partitions, type ``lsblk -f`` and press :kbd:`Enter`."
+msgstr ""
+"Por listigi viajn subdiskojn tajpu ``lsblk -f`` kaj premu :kbd:`Eniga klavo`."
+
+#: ../../multiboot.rst:28
+msgid ""
+"Find the partition where Linux Mint is installed. On most systems this "
+"should be the only ``ext4`` partition."
+msgstr ""
+"Serĉu la subdiskon, sur kiu Linukso Minto estas instalita. Ĉe plejparto de "
+"la sistemoj ĉi tio devus esti la sola ``ext4``-subdisko."
+
+#: ../../multiboot.rst:30
+msgid "In the screenshot above:"
+msgstr "En supra ekrankopio:"
+
+#: ../../multiboot.rst:32
+msgid ""
+"``sdb`` is the USB stick (recognizable by its ``iso9660`` type which "
+"corresponds to an ISO image)."
+msgstr ""
+"``sdb`` estas la USB-bastoneto (rekonebla per ties ``iso9660``-tipo, kiu "
+"respondas al ISO-bildo)."
+
+#: ../../multiboot.rst:33
+msgid "``sda`` is the hard drive."
+msgstr "``sda`` estas la fiksita disko."
+
+#: ../../multiboot.rst:34
+msgid ""
+"``sda4`` is the partition on the ``sda`` hard drive, where Linux Mint is "
+"installed."
+msgstr ""
+"``sda4`` estas la subdisko sur la ``sda``-fiksita disko, kie Linukso Minto "
+"estas instalita."
+
+#: ../../multiboot.rst:36
+msgid "To list partition sizes, type ``lsblk``:"
+msgstr "Por listigo de la subdiskaj grandoj, tajpu ``lsblk``:"
+
+#: ../../multiboot.rst:42
+msgid "To list partition labels, type ``blkid``:"
+msgstr "Por listigo de subdiskaj etikedoj, tajpu ``blkid``:"
+
+#: ../../multiboot.rst:48
+msgid ""
+"Mount the Linux Mint partition and reinstall the grub menu with the "
+"following commands:"
+msgstr ""
+"Surmetu la Linukso-Minto-subdiskon kaj reinstalu la grub-menuon per jenaj "
+"komandoj:"
+
+#: ../../multiboot.rst:56
+msgid ""
+"In the commands above, replace /dev/sda4 and /dev/sda with the appropriate "
+"names for your Linux Mint partition and your hard drive device."
+msgstr ""
+"En la supraj komandoj, anstataŭigu /dev/sda4 kaj /dev/sda per la taŭgaj "
+"nomoj de la Linukso-Minto-subdisko kaj la fiksita-disko-aparato."
+
+#: ../../oem.rst:2
+msgid "Pre-installing Linux Mint (OEM Installation)"
+msgstr "Antaŭinstalado de Linukso Minto (OEM-instalado)"
+
+#: ../../oem.rst:4
+msgid ""
+"In the ISO boot menu, ``OEM install`` is used to preinstall Linux Mint."
+msgstr ""
+"En la ISO-praŝarga menuo, ``OEM install`` estas uzata por antaŭinstali "
+"Linukson Minton."
+
+#: ../../oem.rst:6
+msgid "This option is useful to:"
+msgstr "Ĉi tiu opcio utilas por:"
+
+#: ../../oem.rst:8
+msgid ""
+"Manufacturers and resellers who want to install Linux Mint on computers they "
+"sell to their customers."
+msgstr ""
+"Fabrikantoj kaj vendistoj, kiuj deziras instali Linukson Minton sur "
+"komputiloj, kiujn ili vendas al siaj klientoj."
+
+#: ../../oem.rst:9
+msgid "People who want to sell or give their computer to somebody else."
+msgstr "Personoj, kiuj deziras vendi aŭ doni sian komputilon al alia."
+
+#: ../../oem.rst:11
+msgid ""
+"When you install Linux Mint in ``OEM`` mode, the operating system is "
+"installed with a temporary user account and prepared for the computer's "
+"future owner."
+msgstr ""
+"Kiam vi instalas Linukson Minton laŭ ``OEM``-reĝimo, tiam la operaciumo "
+"estas instalata kun portempa uzantokonto kaj preparata por la estonta "
+"proprulo de la komputilo."
+
+#: ../../oem.rst:13
+msgid "The user account is set up by the new owner."
+msgstr "La uzantokonto estas agordata de la nova proprulo."
+
+#: ../../oem.rst:15
+msgid "To perform an OEM installation follow the steps below:"
+msgstr "Por plenumi OEM-instaladon sekvu la subajn paŝojn:"
+
+#: ../../oem.rst:17
+msgid "Select ``OEM Install`` from the USB stick (or DVD) menu."
+msgstr ""
+"Elektu ``OEM Install`` el la menuo de la USB-bastoneto (aŭ lumdisko)."
+
+#: ../../oem.rst:19
+msgid "Launch the installer and follow the installation instructions."
+msgstr "Lanĉu la instalilon kaj sekvu la instaladajn instrukciojn."
+
+#: ../../oem.rst:23
+msgid ""
+"Change any system settings or install additional software if you want."
+msgstr ""
+"Ŝanĝu iujn ajn sistemajn agordojn aŭ instalu plian programaron laŭdezire."
+
+#: ../../oem.rst:25
+msgid ""
+"When ready, click :guilabel:`Prepare for shipping to end user`, enter the "
+"password you chose during the installation, click :guilabel:`OK` and shut "
+"down the computer."
+msgstr ""
+"Kiam pretas, alklaku :guilabel:`Prepari por distribuo al uzanto`, enigu la "
+"pasvorton, kiun vi elektis dum instalado, alklaku :guilabel:`Preta` kaj "
+"elŝaltu la komputilon."
+
+#: ../../oem.rst:31
+msgid ""
+"When the new owner of the computer boots the computer the following screen "
+"appears:"
+msgstr "Kiam la nova proprulo startigos la komputilon jena ekrano aperos:"
+
+#: ../../oem.rst:37
+msgid ""
+"The new owner selects his or her username, password, keyboard layout, "
+"language, timezone and all the details relevant to create his or her user "
+"account."
+msgstr ""
+"La nova proprulo elektas sian uzantonomon, pasvorton, klavararanĝon, "
+"lingvon, horzonon kaj ĉiujn detalojn, kiuj gravas por krei sian uzantokonton."
+
+#: ../../partitioning.rst:2
+msgid "Partitioning"
+msgstr "Subdiskoj"
+
+#: ../../partitioning.rst:5
+msgid "Disks and partitions under Linux"
+msgstr "Diskoj kaj subdiskoj sub Linukso"
+
+#: ../../partitioning.rst:7
+msgid ""
+"If you are not familiar with the Linux naming scheme for devices and "
+"partitions, or the concept of filesystems and mount points, read:"
+msgstr ""
+"Se vi ne estas konata al la Linuksa maniero nomi aparatojn kaj subdiskojn, "
+"aŭ al la koncepto pri dosiersistemoj kaj surmetaj punktoj, tiam legu:"
+
+#: ../../partitioning.rst:9
+msgid ""
+"`A beginner’s guide to disks and disk partitions in Linux "
+"<http://linuxbsdos.com/2014/11/08/a-beginners-guide-to-disks-and-disk-"
+"partitions-in-linux/>`_"
+msgstr ""
+"`Manlibro por komencantoj pri diskoj kaj subdiskoj sub Linukso "
+"<http://linuxbsdos.com/2014/11/08/a-beginners-guide-to-disks-and-disk-"
+"partitions-in-linux/>`_ (angle)"
+
+#: ../../partitioning.rst:10
+msgid ""
+"`Device Names in Linux "
+"<https://www.debian.org/releases/wheezy/amd64/apcs04.html.en>`_"
+msgstr ""
+"`Aparatnomoj sub Linukso "
+"<https://www.debian.org/releases/wheezy/amd64/apcs04.html.en>`_ (angle)"
+
+#: ../../partitioning.rst:11
+msgid ""
+"`Understanding the Linux File System "
+"<http://etutorials.org/Linux+systems/red+hat+linux+9+professional+secrets/Par"
+"t+II+Exploring+Red+Hat+Linux/Chapter+7+Red+Hat+Linux+Basics/Understanding+the"
+"+Linux+File+System/>`_"
+msgstr ""
+"`Kompreni la Linuksan dosiersistemon "
+"<http://etutorials.org/Linux+systems/red+hat+linux+9+professional+secrets/Par"
+"t+II+Exploring+Red+Hat+Linux/Chapter+7+Red+Hat+Linux+Basics/Understanding+the"
+"+Linux+File+System/>`_ (angle)"
+
+#: ../../partitioning.rst:14
+msgid "Dedicated /home partition"
+msgstr "Aparta subdisko por /hejmo"
+
+#: ../../partitioning.rst:16
+msgid ""
+"In Linux, the ``/home`` directory is used to store user data and preferences."
+msgstr ""
+"En Linukso la dosierujo ``/hejmo`` estas uzata por konservi datumojn kaj "
+"preferojn de la uzanto."
+
+#: ../../partitioning.rst:18
+msgid ""
+"This directory contains one subdirectoy for each user account. Say your "
+"username is ``john``, your home directory is ``/home/john``, your downloads "
+"are in ``/home/john/Downloads``, your documents in ``/home/john/Documents``, "
+"your Firefox bookmarks somewhere in ``/home/john/.mozilla`` and so on..."
+msgstr ""
+"Ĉi tiu dosierujo enhavas unu subdosierujon por ĉiu uzantokonto. Se via "
+"uzantonomo estas ``johano``, tiam via hejmo-dosierujo estas "
+"``/hejmo/johano``, viaj elŝutoj troviĝas en ``/hejmo/johano/elŝutoj``, viaj "
+"dokumentoj en ``/hejmo/johano/dokumentoj``, viaj Firefox-legosignoj ie en "
+"``/hejmo/johano/.mozilla`` ktp."
+
+#: ../../partitioning.rst:20
+msgid ""
+"By giving ``/home`` its own dedicated partition, you separate the user data "
+"from the rest of the operating system."
+msgstr ""
+"Donante al ``/hejmo`` ĝian propran, apartan subdiskon, vi apartigas la "
+"uzantajn datumojn disde la resto de la operaciumo."
+
+#: ../../partitioning.rst:22
+msgid ""
+"The advantage is that you can wipe the operating system and replace it "
+"without affecting the user data."
+msgstr ""
+"La avantaĝo estas, ke vi povas forviŝi la operaciumon kaj anstataŭigi ĝin "
+"sen tuŝi la uzantajn datumojn."
+
+#: ../../partitioning.rst:24
+msgid "When installing Linux Mint:"
+msgstr "Kiam vi instalas Linukson Minton:"
+
+#: ../../partitioning.rst:26
+msgid ""
+"Assign the ``/`` mount point to the partition dedicated to the operating "
+"system, and tell the installer to format it."
+msgstr ""
+"Atribuu la surmetan punkton ``/`` al la subdisko, dediĉita al la operaciumo, "
+"kaj igu la instalilon strukturi ĝin."
+
+#: ../../partitioning.rst:28
+msgid ""
+"Assign the ``/home`` mount point to the partition dedicated to the user "
+"data, and if it contains user data already, make sure to tell the installer "
+"**not to format it**."
+msgstr ""
+"Atribuu la surmetan punkton ``/hejmo`` al la subdisko, dediĉita al la "
+"datumoj de la uzanto, kaj se ĝi jam enhavas datumojn de la uzanto, zorgu, ke "
+"la instalilo   **NE ĜIN STRUKTURU**."
+
+#: ../../partitioning.rst:31
+msgid ""
+"This is not recommended for novice users. A misstep during the installation "
+"could wipe all your data. Always make backups, make sure to select the right "
+"partitions and to carefully review formatting options."
+msgstr ""
+"Ĉi tio ne estas rekomendata al komencantaj uzantoj. Iu ajn misago dum "
+"instalado eble forviŝus ĉiujn viajn datumojn. Do ĉiam faru sekurkopiojn, "
+"certigu vin elekti la bonajn subdiskojn kaj atente elektu opciojn pri "
+"strukturado."
+
+#: ../../partitioning.rst:34
+msgid ""
+"A Linux Mint operating system takes about 15GB and grows as you install "
+"additional software. If you can spare the size, give it 100GB. Keep most of "
+"your free space for the home partition. User data (downloads, videos, "
+"pictures) takes a lot more space."
+msgstr ""
+"Iu ajn Linukso-Minto-operaciumo postulas ĉirkaŭ 15GB kaj kreskas, kiam vi "
+"instalas plian programaron. Se vi povas disponi je la grando, atribuu al ĝi "
+"100GB. Prenu plejparton de la havebla spaco por la hejmo-dosierujo. Uzantaj "
+"datumoj (elŝutoj, videoj, bildoj) postulas multe pli da spaco."
+
+#: ../../timeshift.rst:2
+msgid "System snapshots"
+msgstr "Momentfotoj de la sistemo"
+
+#: ../../timeshift.rst:4
+msgid ""
+"Before you start using your operating system, set up system snapshots. Then "
+"if anything goes wrong, you can restore your system from an earlier backup."
+msgstr ""
+"Antaŭ ol ekuzi la operaciumon, agordu momentfotojn de la sistemo. Tiam ĉe "
+"fuŝaĵo, vi povos restaŭri la sistemon per pli frua sekurkopio."
+
+#: ../../timeshift.rst:6
+msgid "Launch :menuselection:`Menu --> Administration --> Timeshift`."
+msgstr "Lanĉu :menuselection:`Menuo --> Administrado --> Timeshift`."
+
+#: ../../timeshift.rst:8
+msgid "Select ``RSYNC`` and click :guilabel:`Next`."
+msgstr "Elektu ``RSYNC`` kaj alklaku :guilabel:`Sekva`."
+
+#: ../../timeshift.rst:13
+msgid ""
+"Select the device where you want system snapshots to be saved and click "
+":guilabel:`Next`."
+msgstr ""
+"Elektu la aparaton, sur kiu vi deziras konservi momentfotojn de la sistemo, "
+"kaj alklaku :guilabel:`Sekva`."
+
+#: ../../timeshift.rst:19
+msgid ""
+"The selected device is not formatted and no data is lost. System snapshots "
+"are saved into a newly created ``timeshift`` directory on the root of the "
+"selected device."
+msgstr ""
+"La elektita aparato ne strukturiĝos kaj ne datumoj perdiĝos. Momentfotoj de "
+"la sistemo estas konservataj en kreota dosierujo ``timeshift`` en la radika "
+"dosierujo de la elektita aparato."
+
+#: ../../timeshift.rst:21
+msgid "Select when system snapshots are saved."
+msgstr "Elektu kiam momentfotoj estos konservataj."
+
+#: ../../timeshift.rst:27
+msgid ""
+"System snapshots are incremental so although the first snapshot takes a "
+"significant amount of spaces, new snapshots only take additional space for "
+"files which have changed."
+msgstr ""
+"Momentfotoj de la sistemo estas alkrementaj, do kvankam la unua momentfoto "
+"postulas gravan kiomon da spaco, novaj momentfotoj nur postulos plian spacon "
+"por dosieroj, kiuj ŝanĝiĝis."
+
+#: ../../timeshift.rst:30
+msgid ""
+"``Boot`` snapshots are performed in the background and do not impact the "
+"speed of the boot sequence."
+msgstr ""
+"``Praŝargaj`` momentfotoj estas realigitaj fone kaj ne influas la praŝargan "
+"rapidon."
+
+#: ../../timeshift.rst:32
+msgid "Click :guilabel:`Finish`."
+msgstr "Alklaku :guilabel:`Fini`."
+
+#: ../../verify.rst:2
+msgid "Verify your ISO image"
+msgstr "Kontrolu vian ISO-bildon"
+
+#: ../../verify.rst:4
+msgid ""
+"It is important to verify the integrity and authenticity of your ISO image."
+msgstr "Gravas kontroli la integrecon kaj aŭtenton de via ISO-bildo."
+
+#: ../../verify.rst:6
+msgid ""
+"The integrity check confirms that your ISO image was properly downloaded and "
+"that your local file is an exact copy of the file present on the download "
+"servers. An error during the download could result in a corrupted file and "
+"trigger random issues during the installation."
+msgstr ""
+"La integreca kontrolo konfirmas, ke via ISO-bildo estis bone elŝutita kaj ke "
+"via loka dosiero estas ekzakta kopio de la dosiero, kiu ĉeestas sur la "
+"elŝutaj serviloj. Eraro dum elŝuto povus rezultigi difektitan dosieron kaj "
+"kaŭzi iujn ajn problemojn dum instalado."
+
+#: ../../verify.rst:8
+msgid ""
+"The authenticity check confirms that the ISO image you downloaded was signed "
+"by Linux Mint, and thus that it isn't a modified or malicious copy made by "
+"somebody else."
+msgstr ""
+"La aŭtentokontrolo konfirmas, ke la elŝutita ISO-bildo estis subskribita "
+"fare de Linukso Minto, kaj do ke ĝi ne estas ŝanĝita aŭ malbonintenca kopio, "
+"farita de alia."
+
+#: ../../verify.rst:11
+msgid "Download the SHA256 sums provided by Linux Mint"
+msgstr "Elŝutu la SHA256-kontrolsumojn, liveritajn de Linukso Minto"
+
+#: ../../verify.rst:13
+msgid ""
+"All `download mirrors <https://www.linuxmint.com/mirrors.php>`_ provide the "
+"ISO images, a ``sha256sum.txt`` file and a ``sha256sum.txt.gpg`` file. You "
+"should be able to find these files in the same place you downloaded the ISO "
+"image from."
+msgstr ""
+"Ĉiuj `elŝutaj spegulserviloj <https://www.linuxmint.com/mirrors.php>`_ "
+"enhavas la ISO-bildojn, ``sha256sum.txt``-dosieron kaj ``sha256sum.txt.gpg``-"
+"dosieron. Vi devus kapabli trovi ĉi tiujn dosierojn en la sama loko, el kiu "
+"vi elŝutis la ISO-bildon."
+
+#: ../../verify.rst:15
+msgid ""
+"If you can't find them, browse the `Heanet download mirror "
+"<https://ftp.heanet.ie/mirrors/linuxmint.com/stable/>`_ and click the "
+"version of the Linux Mint release you downloaded."
+msgstr ""
+"Se vi ne povas trovi ĉi tiujn dosierojn, tiam traserĉu la `Heanet-"
+"spegulservilo <https://ftp.heanet.ie/mirrors/linuxmint.com/stable/>`_ kaj "
+"alklaku la version de la LinuksoMinta eldono, kiun vi elŝutis."
+
+#: ../../verify.rst:17
+msgid "Download both ``sha256sum.txt`` and ``sha256sum.txt.gpg``."
+msgstr "Elŝutu kaj ``sha256sum.txt`` kaj ``sha256sum.txt.gpg``."
+
+#: ../../verify.rst:19
+msgid ""
+"Do not copy their content, use \"right-click->Save Link As...\" to download "
+"the files themselves and do not modify them in any way."
+msgstr ""
+"Ne kopiu ilian enhavon, uzu \"dekstre alklaku->Konservi ligilon kiel...\" "
+"por elŝuti la dosierojn mem kaj tute ne modifu ilin."
+
+#: ../../verify.rst:22
+msgid "Integrity check"
+msgstr "Integreca kontrolo"
+
+#: ../../verify.rst:24
+msgid ""
+"To check the integrity of your local ISO file, generate its SHA256 sum and "
+"compare it with the sum present in ``sha256sum.txt``."
+msgstr ""
+"Por kontroli la integrecon de via loka ISO-dosiero, generu ĝian SHA256-"
+"kontrolsumon kaj komparu ĝin kun la sumo, kiu ĉeestas en ``sha256sum.txt``."
+
+#: ../../verify.rst:31
+msgid ""
+"If you are using Windows follow the tutorial `How to verify the ISO image on "
+"Windows <https://forums.linuxmint.com/viewtopic.php?f=42&t=291093>`_."
+msgstr ""
+"Se vi uzadas Vindozon, sekvu la lernilon `How to verify the ISO image on "
+"Windows <https://forums.linuxmint.com/viewtopic.php?f=42&t=291093>`_."
+
+#: ../../verify.rst:33
+msgid ""
+"If the sums match, your ISO image was successfully downloaded. If they "
+"don't, download it again."
+msgstr ""
+"Se la sumoj kongruas, via ISO-bildo estis sukcese elŝutita. Se ne, tiam "
+"elŝutu ĝin denove."
+
+#: ../../verify.rst:38
+msgid "Authenticity check"
+msgstr "Aŭtentokontrolo"
+
+#: ../../verify.rst:40
+msgid ""
+"To verify the authenticity of ``sha256sum.txt``, check the signature of "
+"``sha256sum.txt.gpg`` by following the steps below."
+msgstr ""
+"Por kontroli la aŭtenton de ``sha256sum.txt`` kontrolu la subskribon de  "
+"``sha256sum.txt.gpg`` sekvante la subajn paŝojn."
+
+#: ../../verify.rst:43
+msgid "Import the Linux Mint signing key:"
+msgstr "Importu la subskriban ŝlosilon de Linukso Minto:"
+
+#: ../../verify.rst:49
+msgid ""
+"If gpg complains about the key ID, try the following commands instead:"
+msgstr ""
+"Se gpg plendas pri la ŝlosila identigilo, provu la jenajn komandojn anstataŭ:"
+
+#: ../../verify.rst:56
+msgid ""
+"Check the output of the last command, to make sure the fingerprint is ``27DE "
+"B156 44C6 B3CF 3BD7 D291 300F 846B A25B AE09`` (with or without spaces)."
+msgstr ""
+"Kontrolu la eligon de la lasta komando por certigi, ke la fingrospuro estu "
+"``27DE B156 44C6 B3CF 3BD7 D291 300F 846B A25B AE09`` (kun aŭ sen spacetoj)."
+
+#: ../../verify.rst:59
+msgid "Verify the authenticity of sha256sum.txt:"
+msgstr "Kontrolu la aŭtenton de 'sha256sum.txt':"
+
+#: ../../verify.rst:64
+msgid ""
+"The output of the last command should tell you that the file signature is "
+"``good`` and that it was signed with the ``A25BAE09`` key."
+msgstr ""
+"La eligo de la lasta komando devus diri al vi, ke la dosiera subskribo estas "
+"``bona`` kaj ke ĝi estis subskribita per la ``A25BAE09``-ŝlosilo."
+
+#: ../../verify.rst:67
+msgid ""
+"GPG might warn you that the Linux Mint signature is not trusted by your "
+"computer. This is expected and perfectly normal."
+msgstr ""
+"Eble GPG avertas vin, ke la LinuksoMinta subskribo ne estas fidata fare de "
+"via komputilo. Ĉi tio estas atendata kaj tute normala."
+
+#: ../../verify.rst:70
+msgid ""
+"For more information on ISO verification, or to verify BETA, LMDE or old "
+"releases, read `How to Verify ISO images "
+"<https://linuxmint.com/verify.php>`_."
+msgstr ""
+"Por pliaj informoj pri ISO-kontrolo, aŭ por kontroli BETA, LMDE aŭ malnovajn "
+"eldonojn, bonvolu legi (angle) `Kiel kontroli ISO-bildojn "
+"<https://linuxmint.com/verify.php>`_."

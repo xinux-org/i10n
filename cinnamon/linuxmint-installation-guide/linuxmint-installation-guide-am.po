@@ -1,0 +1,1602 @@
+# Amharic translation for linuxmint
+# Copyright (c) 2017 Rosetta Contributors and Canonical Ltd 2017
+# This file is distributed under the same license as the linuxmint package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2017.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: linuxmint\n"
+"Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
+"POT-Creation-Date: 2019-03-29 10:21+0000\n"
+"PO-Revision-Date: 2018-06-26 08:50+0000\n"
+"Last-Translator: Clement Lefebvre <root@linuxmint.com>\n"
+"Language-Team: Amharic <am@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Launchpad-Export-Date: 2022-10-10 13:12+0000\n"
+"X-Generator: Launchpad (build 762fb15a975e8b23af6a1f86e44e46bfd0451459)\n"
+
+#: ../../boot_options.rst:2
+msgid "Boot options"
+msgstr "የ ማስነሻ ምርጫ"
+
+#: ../../boot_options.rst:4
+msgid ""
+"Some graphics cards and motherboards don't work well with the open-source "
+"drivers present in Linux Mint by default."
+msgstr ""
+"አንዳንድ የ graphics cards እና motherboards በ ትክክል አይሰሩም በ open-source drivers በ "
+"ነባር በ ሊነክስ ሚንት ውስጥ በሚገኘው"
+
+#: ../../boot_options.rst:7
+msgid "Compatibility mode"
+msgstr "በ ተስማሚ ዘዴ"
+
+#: ../../boot_options.rst:9
+msgid ""
+"The easiest option is to select ``compatibility mode`` from the USB stick "
+"(or DVD) boot menu."
+msgstr ""
+"ቀላሉ መንገድ ይህን መምረጥ ነውt ``በ ተስማሚ ዘዴ`` ከ USB stick (ወይንም ዲቪዲ) ማስነሻ ዝርዝር ውስጥ"
+
+#: ../../boot_options.rst:15
+msgid "Grub menu (EFI mode)"
+msgstr "Grub menu (EFI mode)"
+
+#: ../../boot_options.rst:21
+msgid "Isolinux menu (BIOS mode)"
+msgstr "Isolinux menu (BIOS mode)"
+
+#: ../../boot_options.rst:23
+msgid "If that doesn't work, you can try the ``nomodeset`` boot option."
+msgstr "ይህ ካልሰራ: እርስዎ ይህን ይሞክሩ የ ``nomodeset`` ማስነሻ ምርጫ"
+
+#: ../../boot_options.rst:26
+msgid "Nomodeset boot option"
+msgstr "የ Nomodeset ማስነሻ ምርጫ"
+
+#: ../../boot_options.rst:28
+msgid ""
+"In EFI mode, highlight the ``Start Linux Mint`` option and press :kbd:`e` to "
+"modify the boot options."
+msgstr ""
+"ከ EFI ዘዴ ውስጥ: ያድምቁ የ ``Start Linux Mint`` ምርጫ እና ይጫኑ :kbd:`e` የ ማስነሻ ምርጫ ለ "
+"ማሻሻል"
+
+#: ../../boot_options.rst:34
+msgid ""
+"Replace ``quiet splash`` with ``nomodeset`` and press :kbd:`F10` to boot."
+msgstr "ይቀይሩ ``quiet splash`` በ ``nomodeset`` እና ይጫኑ :kbd:`F10` ለ ማስጀመር"
+
+#: ../../boot_options.rst:36
+msgid ""
+"In BIOS mode, highlight ``Start Linux Mint`` and press :kbd:`Tab` to modify "
+"the boot options."
+msgstr ""
+"በ BIOS ዘዴ: ያድምቁ ``ሊነክስ ሚንት ማስጀመሪያ`` እና ይጫኑ :kbd:`Tab` የ ማስነሻ ምርጫ ለ ማሻሻል"
+
+#: ../../boot_options.rst:42
+msgid ""
+"Replace ``quiet splash`` with ``nomodeset`` and press :kbd:`Enter` to boot."
+msgstr "ይቀይሩ ``quiet splash`` በ ``nomodeset`` እና ይጫኑ :kbd:`Enter` ለ ማስነሻ"
+
+#: ../../boot_options.rst:45
+msgid ""
+"Repeat this operation post-install in your grub boot menu and read "
+":doc:`drivers` to install additional drivers."
+msgstr ""
+"ይህን ተግባር ይደጋግሙ ከ ገጠሙ-በኋላ በ እርስዎ grub ማስነሻ ዝርዝር ውስጥ እና ያንብቡ :ሰነድ:`drivers` ለ "
+"መግጠም ተጨማሪ drivers."
+
+#: ../../boot_options.rst:48
+msgid "Other boot options"
+msgstr "ሌሎች የ ማስነሻ ምርጫዎች"
+
+#: ../../boot_options.rst:50
+msgid "If you still cannot boot try one of the following solutions:"
+msgstr "እርስዎ ማስነሳት ካልቻሉ: ከሚቀጥለው አንዱን ይሞክሩ"
+
+#: ../../boot_options.rst:52
+msgid "Try ``nouveau.noaccel=1`` instead of ``nomodeset``."
+msgstr "ይህን ይሞክሩ ``nouveau.noaccel=1`` ከዚህ ይልቅ ``nomodeset``."
+
+#: ../../boot_options.rst:53
+msgid ""
+"After the installation, use :menuselection:`Advanced Options --> Recovery "
+"mode` from the boot menu and choose ``resume``."
+msgstr ""
+"መግጠም ከ ጨረሱ በኋላ: ይጠቀሙ: ዝርዝር ምርጫ:`የ ረቀቀ ምርጫ --> እንደገና ማግኛ ዘዴ` ከ ማስነሻ ዝርዝር እና "
+"ይምረጡ ``ይቀጥሉ``."
+
+#: ../../boot_options.rst:56
+msgid "Install an older release"
+msgstr "አሮጌ እትም መግጠሚያ"
+
+#: ../../boot_options.rst:58
+msgid ""
+"If your computer has compatibility issues with the latest Linux Mint "
+"release, install a previous release from the same Linux Mint series."
+msgstr ""
+"የ እርስዎ ኮምፒዩተር የ መስማማት ችግር ከ ገጠመው ከ ዘመናዊው ሊነክስ ሚንት ጋር: ያለፈውን እትም ይግጠሙ ከ ተመሳሳይ "
+"ሊነክስ ሚንት ዝርያ ውስጥ"
+
+#: ../../boot_options.rst:60
+msgid ""
+"For instance, if you can't install Linux Mint 18.3 (which comes with a 4.10 "
+"kernel), install Linux Mint 18 (which comes with a 4.4 kernel) and upgrade "
+"to 18.3."
+msgstr ""
+"ለምሳሌ: እርስዎ መግጠም ካልቻሉ ሊነክስ ሚንት 18.3 (የሚመጣው ከ 4.10 ከረኔል ጋር ነው) ይግጠሙ ሊነክስ ሚንት "
+"18 (የሚመጣው ከ 4.4 ከረኔል ጋር ነው) እና ማሻሻያ ወደ 18.3."
+
+#: ../../boot_options.rst:63
+msgid ""
+"The first release in each series uses an LTS (Long Term Support) kernel. "
+"Upgrading from this release to the latest one in the series does not change "
+"your kernel."
+msgstr ""
+"በ መጀመሪያ የሚለቀቀው እትም የሚጠቀመው LTS (ለ ረጅም ጊዜ ድጋፍ) ከረኔል ነው: ይህን እትም ማሻሻል ወደ ዘመናዊው "
+"እትም ከረኔሉን አይቀይረውም"
+
+#: ../../boot.rst:2
+msgid "Boot Linux Mint"
+msgstr "ሊነክስ ሚንት ማስነሻ"
+
+#: ../../boot.rst:4
+msgid ""
+"Now that you have Linux Mint on a USB stick (or DVD) boot the computer from "
+"it."
+msgstr "እርስዎ አሁን ሊነክስ ሚንት በ USB stick (ወይንም ዲቪዲ) አለዎት: ኮምፒዩተሩን ያስነሱ"
+
+#: ../../boot.rst:6
+msgid "Insert your USB stick (or DVD) into the computer."
+msgstr "ያስገቡ የ እርስዎን USB stick (ወይንም ዲቪዲ) ወደ ኮምፒዩተር ውስጥ"
+
+#: ../../boot.rst:8 ../../drivers.rst:23 ../../efi.rst:61 ../../oem.rst:21
+msgid "Restart the computer."
+msgstr "ኮምፒዩተሩን እንደገና ያስጀምሩ"
+
+#: ../../boot.rst:10
+msgid ""
+"Before your computer boots your current operating system (Windows, Mac, "
+"Linux) you should see your `BIOS <https://en.wikipedia.org/wiki/BIOS>`_ "
+"loading screen. Check the screen or your computer's documentation to know "
+"which key to press and instruct your computer to boot on USB (or DVD)."
+msgstr ""
+"የ እርስዎ ኮምፒዩተር የ ነበረውን የ መስሪያ ስርአት ከ መጫኑ በፊት (Windows, Mac, Linux) አንዱን ለ "
+"እርስዎ መታየት አለበት ይህ `BIOS <https://en.wikipedia.org/wiki/BIOS>`_ loading "
+"screen. የ እርስዎን ኮምፒዩተር መመልከቻ ሰነድ ይመርምሩ የትኛውን ቁልፍ ሲጫኑ የ እርስዎን ኮምፒዩተር ማስነሻ "
+"እንደሚቀየር ወደ USB (ወይንም ዲቪዲ) ማስጀመሪያ"
+
+#: ../../boot.rst:13
+msgid ""
+"Most BIOS have a special key you can press to select the boot device and all "
+"of them have a special key to enter the BIOS configuration screen (from "
+"which you can define the boot order). Depending on the BIOS, these special "
+"keys can be :kbd:`Escape`, :kbd:`F1`, :kbd:`F2`, :kbd:`F8`, :kbd:`F10`, "
+":kbd:`F11`, :kbd:`F12`, or :kbd:`Delete`. That information is usually "
+"briefly written on the screen during the boot sequence."
+msgstr ""
+"በርካታ BIOS የ ተለየ ቁልፍ አላቸው: እርስዎ የሚጫኑት የ ማስነሻ አካል ለ መምረጥ: እና ሁሉም የ ተለየ መግቢያ "
+"ቁልፍ አላቸው ወደ BIOS ማሰናጃ መመልከቻ ለ መግባት (እርስዎ የ ማስነሻ ቅደም ተከተል የሚመርጡበት): ይህ ሁኔታ "
+"እንደ የ BIOS, አይነት ይለያያል: እነዚህ የ ተለዩ ቁልፎች መሆን ይችላሉ እንደ :kbd:`Escape`, "
+":kbd:`F1`, :kbd:`F2`, :kbd:`F8`, :kbd:`F10`, :kbd:`F11`, :kbd:`F12` ወይንም "
+":kbd:`Delete`. ይህ መረጃ አብዛኛውን ጊዜ ኮምፒዩተሩ በሚነሳበት ጊዜ በ መመልከቻው ላይ ይታያል:"
+
+#: ../../boot.rst:16
+msgid ""
+"On Macs, keep your finger pressed on the :kbd:`Alt` or :kbd:`Option` key "
+"after hearing the boot sound."
+msgstr ""
+"በ Macs, ተጭነው ይያዙ :kbd:`Alt` ወይንም :kbd:`Option` ቁልፍ የ ማስጀመሪያ ድምፅ ከ ሰሙ በኋላ"
+
+#: ../../boot.rst:18
+msgid ""
+"The Linux Mint ISO can be booted both in EFI or BIOS mode. In EFI mode it "
+"shows a grub menu. In BIOS mode it shows an isolinux menu."
+msgstr ""
+"የ ሊነክስ ሚንት ISO በ ሁለቱም መንገድ ማስጀመር ይቻላል በ EFI ወይንም BIOS ዘዴ: በ EFI ዘዴ ይህን የ "
+"grub ዝርዝር ያሳያል: በ BIOS ዘዴ የ isolinux ዝርዝር ያሳያል."
+
+#: ../../boot.rst:24
+msgid "The isolinux menu in BIOS mode"
+msgstr "የ isolinux ዝርዝር በ BIOS ዘዴ ውስጥ"
+
+#: ../../boot.rst:30
+msgid "The grub menu in EFI mode"
+msgstr "የ grub ዝርዝር በ EFI ዘዴ ውስጥ"
+
+#: ../../boot.rst:32
+msgid ""
+"From one of these menu, press :kbd:`Enter` to start Linux Mint from your USB "
+"stick (or DVD)."
+msgstr ""
+"ከ እነዚህ ዝርዝር አንዱን ይጫኑ :kbd:`Enter` ሊነክስ ሚንትን ለ ማስጀመረ ከ እርስዎ USB stick (ወይንም "
+"ዲቪዲ) ውስጥ"
+
+#: ../../burn.rst:2
+msgid "Create the bootable media"
+msgstr "የ ማስነሻ መገናኛ አካል ይፍጠሩ"
+
+#: ../../burn.rst:4
+msgid "The easiest way to install Linux Mint is with a USB stick."
+msgstr "ቀላሉ መንገድ ሊነክስ ሚንትን ለ መግጠም የ USB stick ይጠቀሙ"
+
+#: ../../burn.rst:6
+msgid "If you cannot boot from USB, you can use a blank DVD."
+msgstr "እርስዎ ከ USB ማስነሳት ካልቻሉ በ ዲቪዲ ይሞክሩ"
+
+#: ../../burn.rst:9
+msgid "How to make a bootable USB stick"
+msgstr "እንዴት ነው የ USB stick ማስነሻ የሚፈጥሩት"
+
+#: ../../burn.rst:12
+msgid "In Linux Mint"
+msgstr "በ ሊነክስ ሚንት ውስጥ"
+
+#: ../../burn.rst:14
+msgid ""
+"Right-click the ISO file and select :menuselection:`Make Bootable USB "
+"Stick`, or launch :menuselection:`Menu --> Accessories --> USB Image Writer`."
+msgstr ""
+"በ ቀኝ-ይጫኑ በ ISO ፋይል ላይ እና ይምረጡ :ዝርዝር መምረጫ:`የ ማስነሻ USB Stick መፍጠሪያ`: ወይንም ያስነሱ "
+":ዝርዝር መምረጫ:`ዝርዝር --> ተጨማሪዎች --> USB ምስል መጻፊያ`:"
+
+#: ../../burn.rst:20
+msgid "Select your USB device and click :guilabel:`Write`."
+msgstr "ይምረጡ የ እርስዎን USB አካል እና ይጫኑ :guilabel:`መጻፊያ`."
+
+#: ../../burn.rst:23
+msgid "In Windows, Mac OS, or other Linux distributions"
+msgstr "በ Windows, Mac OS, ወይንም ሌሎች የ ሊነክስ ስርጭቶች"
+
+#: ../../burn.rst:25
+msgid ""
+"Download `Etcher <https://www.balena.io/etcher/>`_, install it and run it."
+msgstr ""
+
+#: ../../burn.rst:31
+msgid "Using Etcher"
+msgstr "ይጠቀሙ Etcher"
+
+#: ../../burn.rst:33
+msgid "Click :guilabel:`Select image` and select your ISO file."
+msgstr "ይጫኑ :guilabel:`ምስል ይምረጡ` እና ይምረጡ የ እርስዎን ISO ፋይል"
+
+#: ../../burn.rst:35
+msgid "Click :guilabel:`Select drive` and select your USB stick."
+msgstr "ይጫኑ :guilabel:`ይምረጡ drive` እና ይምረጡ የ እርስዎን USB stick."
+
+#: ../../burn.rst:37
+msgid "Click :guilabel:`Flash!`."
+msgstr "ይጫኑ :guilabel:`Flash!`."
+
+#: ../../burn.rst:41
+msgid "How to make a bootable DVD"
+msgstr "የ ዲቪዲ ማስጀመሪያ እንዴት እንደሚፈጥሩ"
+
+#: ../../burn.rst:43
+msgid "Optical discs are slow and burning to disc is prone to errors."
+msgstr "ኦፕቲካል ዲስክ ዝግተኛ ነው: ወደ ዲስክ ማቃጠል ስህተት ሊያስከትል ይችላል"
+
+#: ../../burn.rst:46
+msgid "To prevent issues, burn at the lowest possible speed."
+msgstr "ችግር እንዳይፈጠር በ ዝግተኛ ፍጥነት ያቃጥሉ"
+
+#: ../../burn.rst:49
+msgid ""
+"Burn the content of the ISO onto the DVD, not the ISO file itself. When "
+"finished, your DVD should contain directories such as ``boot`` and "
+"``casper``, it shouldn't be an empty DVD containing an .iso file."
+msgstr ""
+"እርስዎ የ ISO ይዞታውን ወደ ዲቪዲ ያቃጥሉ: የ ISO ፋይል አይደለም: በሚጨርሱ ጊዜ: የ እርስዎ ዲቪዲ እነዚህን "
+"ዳይሬክቶሪስ መያዝ አለበት እንደ ``boot`` እና ``casper``: ባዶ ዲቪዲ መሆን የለበትም ይህን ያየዘ እንደ "
+".iso file."
+
+#: ../../burn.rst:52
+msgid "In Linux"
+msgstr "በ ሊነክስ ውስጥ"
+
+#: ../../burn.rst:53
+msgid "Install and use ``xfburn``."
+msgstr "ይግጠሙ እና ይጠቀሙ ``xfburn``."
+
+#: ../../burn.rst:56
+msgid "In Windows"
+msgstr "በ Windows ውስጥ"
+
+#: ../../burn.rst:57
+msgid "Right-click the ISO file and select :menuselection:`Burn disk image`."
+msgstr "በ ቀኝ-ይጫኑ በ ISO ፋይል ላይ እና ይምረጡ ዝርዝር ምርጫ: `የ ምስል ዲስክ ማቃጠያ`"
+
+#: ../../burn.rst:59
+msgid ""
+"To make sure the ISO was burned without any errors, select "
+":menuselection:`Verify disc after burning`."
+msgstr ""
+"እርግጠኛ ለ መሆን ISO ያለ ምንም ስህተት መቃጠሉን: ይምረጡ :ዝርዝር ምርጫ:`ዲስክ ማረጋገጫ ከ ተቃጠለ በኋላ`:"
+
+#: ../../burn.rst:62
+msgid "In Mac OS"
+msgstr "በ Mac OS ውስጥ"
+
+#: ../../burn.rst:63
+msgid ""
+"Right-click the ISO file and select :menuselection:`Burn Disk Image to Disc`."
+msgstr "በ ቀኝ-ይጫኑ በ ISO ፋይል ላይ እና ይምረጡ ዝርዝር ምርጫ: `የ ምስል ዲስክ ወደ ዲስክ ላይ ማቃጠያ`"
+
+#: ../../choose.rst:2
+msgid "Choose the right edition"
+msgstr "ይምረጡ ትክክለኛውን እትም"
+
+#: ../../choose.rst:4
+msgid ""
+"You can download Linux Mint from the `Linux Mint website "
+"<https://linuxmint.com/download.php>`_."
+msgstr ""
+"እርስዎ ማውረድ ይችላሊ ሊነክስ ሚንትን ከ `Linux Mint website "
+"<https://linuxmint.com/download.php>`_."
+
+#: ../../choose.rst:6
+msgid ""
+"Read below to choose which edition and architecture are right for you."
+msgstr "ያንብቡ ከ ታች በኩል ያለውን ለ መምረጥ የትኛው እትም ለ እርስዎ እንደሚስማማ"
+
+#: ../../choose.rst:9
+msgid "Cinnamon, MATE or Xfce?"
+msgstr "ሲናሞን: ሜት: ወይንም Xfce?"
+
+#: ../../choose.rst:11
+msgid ""
+"Linux Mint comes in 3 different flavours, each featuring a different desktop "
+"environment."
+msgstr "ሊነክስ ሚንት የሚመጣው በ 3 አይነቶች ነው: እያንዳንዱ የ ተለያየ የ ዴስክቶፕ ገጽታ አላቸው"
+
+#: ../../choose.rst:14 ../../choose.rst:26
+msgid "Cinnamon"
+msgstr "ሲናሞን"
+
+#: ../../choose.rst:14
+msgid "The most modern, innovative and full-featured desktop"
+msgstr "ዘመናዊ: እና ሙሉ-የ ዴስክቶፕ ገጽታ አለው"
+
+#: ../../choose.rst:15 ../../choose.rst:35
+msgid "MATE"
+msgstr "ሜት"
+
+#: ../../choose.rst:15
+msgid "A more traditional, and faster desktop"
+msgstr ""
+
+#: ../../choose.rst:16 ../../choose.rst:44
+msgid "Xfce"
+msgstr "Xfce"
+
+#: ../../choose.rst:16
+msgid "The most lightweight desktop"
+msgstr ""
+
+#: ../../choose.rst:19
+msgid ""
+"The most popular version of Linux Mint is the Cinnamon edition. Cinnamon is "
+"primarily developed for and by Linux Mint. It is slick, beautiful, and full "
+"of new features."
+msgstr ""
+"በጣም የ ተወደደው የ ሊነክስ ሚንት የ ሲናሞን እትም ነው: ሲናሞን የ ተዘጋጀው በ ሊነክስ ሚንት ነው: በጣም ቆንጆ እና "
+"ዘመናዊ ነው"
+
+#: ../../choose.rst:28
+msgid ""
+"Linux Mint is also involved in the development of MATE, a classic desktop "
+"environment which is the continuation of GNOME 2, Linux Mint's default "
+"desktop between 2006 and 2011. Although it misses a few features and its "
+"development is slower than Cinnamon's, MATE uses less resources and can run "
+"faster on older computers."
+msgstr ""
+
+#: ../../choose.rst:37
+msgid ""
+"Xfce is a lightweight desktop environment. It doesn't support as many "
+"features as Cinnamon or MATE, but it's extremely stable and very light on "
+"resource usage."
+msgstr ""
+"Xfce ቀለል ያለ የ ዴስክቶፕ አይነት ነው: በርካታ ገጽታዎችን እንደ ሲናሞን ወይንም ሜት አይደግፍም: ነገር ግን በጣም "
+"አስተማማኝ እና በ ምንጮች አጠቃቀም ቀለል ያለ ነው"
+
+#: ../../choose.rst:46
+msgid ""
+"Of course, all three desktops are great and Linux Mint is extremely proud of "
+"each edition. Although there are more features and better support in some "
+"editions than others, and some do run faster and use less resources than "
+"others, they're all great alternatives and choosing the right edition is "
+"largely a matter of taste."
+msgstr ""
+"ሶስቱም የ ዴስክቶፕ አይነቶች በጣም ጥሩ ናቸው: እና ሊነክስ ሚንት በ ሶስቱም ይኮራል: አንዳንዶቹ የ ተሻለ ድጋፍ እና "
+"ገጽታ አላቸው ከ ሌሎቹ: አንዳንዶቹ ፈጣን ናቸው ከ ሌሎቹ: ሶስቱም በጣም ጥሩ ናቸው: ተጠቃሚው የሚስማማውን መምረጥ "
+"ይችላል:"
+
+#: ../../choose.rst:48
+msgid ""
+"Other than their features and performance, Cinnamon, MATE and Xfce also "
+"represent three different desktop environments, with different menus, "
+"different panels and configuration tools. The right one for you is the one "
+"where you feel at home."
+msgstr ""
+"ከ ገጽታ እና አፈጻጸማቸው በስተቀር: ሲናሞን: ሜት: እና Xfce የሚወክሉት ሶስት አይነት የ ተለያየ የ ዴስክቶፕ "
+"አቀራረብ ነው: ከ ተለያየ ዝርዝር ጋር እና የ ተለያየ ክፍሎች እና አቀራረብ ማሰናጃ መሳሪያዎች ጋር: እርስዎ የሚወዱትን "
+"መርጠው መጠቀም ይችላሉ"
+
+#: ../../choose.rst:50
+msgid ""
+"If you are unsure which desktop to choose start with the Cinnamon edition. "
+"Try them all eventually when you have the time. All three of them have their "
+"own audience within the Linux Mint community and they're all very popular."
+msgstr ""
+"እርስዎ እርግጠኛ ካልሆኑ የትኛውን አይነት ዴስክቶፕ እንደሚመርጡ በ ሲናሞን ይጀምሩ: እና ሌሎቹንም ይሞክሩ: ሶስቱም "
+"የራሳቸው የሆኑ ደጋፊዎች አላቸው በ ሊነክስ ሚንት ሕብረተሰብ እና ሁሉም የ ተወደዱ ናቸው"
+
+#: ../../choose.rst:54
+msgid "32-bit or 64-bit?"
+msgstr "32-ቢት ወይንም 64-ቢት?"
+
+#: ../../choose.rst:56
+msgid "From version 20 onward, only 64-bit is available."
+msgstr ""
+
+#: ../../choose.rst:58
+msgid ""
+"The 32-bit ISO images on prior versions are provided for compatibility with "
+"older computers. 32-bit processors are extremely rare nowadays and most "
+"computers are able to run in 64-bit. If your computer was manufactured after "
+"2007, you probably have a 64-bit processor."
+msgstr ""
+
+#: ../../choose.rst:60
+msgid ""
+"If you have an old computer and you are unsure whether or not it can run in "
+"64-bit, read `X86 Chronology "
+"<https://en.wikipedia.org/wiki/X86#Chronology>`_."
+msgstr ""
+"እርስዎ አሮጌ ኮምፒዩተር ካለዎት እና እርግጠኛ ካልሆኑ ማስኬድ መቻሉን የ 64-ቢት: ይህን ያንብቡ `X86 "
+"Chronology <https://en.wikipedia.org/wiki/X86#Chronology>`_."
+
+#: ../../choose.rst:63
+msgid ""
+"You can try to boot Linux Mint 64-bit on your computer. If it isn't "
+"compatible, nothing bad will happen. You will just get an error message."
+msgstr ""
+"እርስዎ መሞከር ይችላሉ ሊነክስ ሚንት 64-ቢት በ እርስዎ ኮምፒዩተር ላይ: ተስማሚ ካልሆነ ምንም መጥፎ ነገር "
+"አይፈጠርም: ለ እርስዎ የ ስህተት መልእክት ይታያል"
+
+#: ../../choose.rst:66
+msgid ""
+"If you cannot boot or install Linux Mint because your hardware is too recent "
+"and is not properly detected see the `Edge ISO Images <https://linuxmint-"
+"user-guide.readthedocs.io/en/latest/edge.html>`_ chapter in the Linux Mint "
+"User Guide for an alternative ISO."
+msgstr ""
+
+#: ../../codecs.rst:2
+msgid "Multimedia codecs"
+msgstr "የ በርካታ መገናኛ codecs"
+
+#: ../../codecs.rst:4
+msgid "Some multimedia content requires additional codecs to be installed."
+msgstr "ለ አንዳንድ የ በርካታ መገናኛ ይዞታዎች ተጨማሪ ኮዶች መግጠም ያስፈልጋል"
+
+#: ../../codecs.rst:7
+msgid ""
+"If you were online when installing Linux Mint and you ticked the option to "
+"install these codecs, they are already installed."
+msgstr ""
+"እርስዎ ሊነክስ ሚንትን ሲገጥሙ ከ ኢንተርኔት ጋር የ ተገናኙ ከሆነ በ ምርጫው ላይ ምልክት ካደረጉ እነዚህ ኮዶች ይገጠማሉ"
+
+#: ../../codecs.rst:9
+msgid ""
+"Launch :menuselection:`Menu --> Sound & Video --> Install Multimedia Codecs`."
+msgstr "ማስጀመሪያ :ዝርዝር ምርጫ:`ዝርዝር --> ድምፅ & ቪዲዮ --> የ በርካታ መገናኛ ኮዶች መግጠሚያ`:"
+
+#: ../../codecs.rst:14
+msgid "Click :guilabel:`Install`."
+msgstr "ይጫኑ :guilabel:`መግጠሚያ`."
+
+#: ../../codecs.rst:16
+msgid ""
+"Enter your password and wait for the codecs to be installed on your computer."
+msgstr "የ እርስዎን የ መግቢያ ቃል ያስገቡ እና ይጠብቁ codecs በ እርስዎ ኮምፒዩተር ላይ እስኪገጠም ድረስ"
+
+#: ../../drivers.rst:2
+msgid "Hardware drivers"
+msgstr "የ ጠንካራ አካል drivers"
+
+#: ../../drivers.rst:4
+msgid ""
+"One of the first things to do after installing Linux Mint is to check for "
+"available hardware drivers."
+msgstr ""
+"ሊነክስ ሚንትን ከ ገጠሙ በኋላ በ መጀመሪያ ማድረግ ያለብዎት ነገር ዝግጁ የሆኑ የ ጠንካራ አካሎች drivers መመርመር "
+"ነው"
+
+#: ../../drivers.rst:6
+msgid "Launch :menuselection:`Menu --> Administration --> Driver Manager`."
+msgstr "ያስጀምሩ :ዝርዝር መምረጫ:`ዝርዝር --> አስተዳዳሪ --> የ Driver አስተዳዳሪ`"
+
+#: ../../drivers.rst:13
+msgid ""
+"If you are offline, the Driver Manager will complain that it cannot connect "
+"to the Internet."
+msgstr ""
+"እርስዎ ከ መስመር ውጪ ከሆኑ: የ Driver አስተዳዳሪ ወደ ኢንተርኔት መገናኘት እንዳልቻለ መልእክት ያሳይዎታል"
+
+#: ../../drivers.rst:19
+msgid ""
+"Insert your bootable Linux Mint USB stick (or DVD), wait for it to be "
+"mounted, and click :guilabel:`OK`."
+msgstr ""
+"እርስዎ የ ሊነክድ ሚንት ማስነሻ USB stick (ወይንም ዲቪዲ) ያስገቡ: ይጠብቁ እስከሚጫን እና ይጫኑ "
+":guilabel:`OK`."
+
+#: ../../drivers.rst:21
+msgid ""
+"Tick the appropriate checkboxes to select the available drivers and click "
+":guilabel:`Apply Changes`."
+msgstr ""
+"ተገቢው ምልክት ማድረጊያ ሳጥን ውስጥ ምልክት ያድርጉ ለ መምረጥ ዝግጁ የሆነ drivers እና ይጫኑ "
+":guilabel:`ለውጦች መፈጸሚያ`:"
+
+#: ../../efi.rst:2
+msgid "EFI"
+msgstr "EFI"
+
+#: ../../efi.rst:5
+msgid "SecureBoot"
+msgstr "አስተማማኝ ማስነሻ"
+
+#: ../../efi.rst:7
+msgid ""
+"If after installing Linux Mint in EFI mode, you are unable to boot due to a "
+"``Secure Boot Violation``, you can try one of the following solutions:"
+msgstr ""
+"እርስዎ ሊነክስ ሚንትን ከ ገጠሙ በኋላ በ EFI ዘዴ: እና እርስዎ ማስነሳት ካልቻሉ በ ``አስተማማኝ ማስነሻ ስምምነት "
+"በ መጣስ`` ምክንያት: እርስዎ ከ እነዚህ አንዱን መፍትሄ መሞከር ይችላሉ:"
+
+#: ../../efi.rst:15
+msgid "Restart the installation:"
+msgstr "መግጠሚያውን እንደገና ማስጀመሪያ:"
+
+#: ../../efi.rst:14
+msgid "Connect to the Internet before the installation"
+msgstr "ከ መግጠምዎት በፊት ከ ኢንተርኔት ጋር ይገናኙ"
+
+#: ../../efi.rst:15
+msgid ""
+"**Do not** select ``Install third-party software for graphics and Wi-Fi "
+"hardware, Flash, MP3 and other media``."
+msgstr ""
+"**እርስዎ** አይምረጡ ``መግጠሚያ ሶስተኛ-አካል ሶፍትዌር ለ graphics እና Wi-Fi hardware, Flash, "
+"MP3 እና ሌሎች media``."
+
+#: ../../efi.rst:17
+msgid "Disable ``SecureBoot`` in the ``BIOS`` settings of your computer."
+msgstr "ያሰናክሉ ``SecureBoot`` ከ ``BIOS`` ማሰናጃ ውስጥ በ እርስዎ ኮምፒዩተር ላይ"
+
+#: ../../efi.rst:20
+msgid ""
+"For examples of how to disable secure boot on various computers, read "
+"`Managing EFI Boot Loaders for Linux: Dealing with Secure Boot "
+"<http://www.rodsbooks.com/efi-bootloaders/secureboot.html>`_."
+msgstr ""
+"ለምሳሌ: የ አስተማማኝ ማስነሻ ለ ማሰናከል: ይህን ያንብቡ `Managing EFI Boot Loaders for Linux: "
+"የ አስተማማኝ ማስነሻ ማስተዳደር <http://www.rodsbooks.com/efi-"
+"bootloaders/secureboot.html>`_."
+
+#: ../../efi.rst:23
+msgid "EFI boot order"
+msgstr "EFI የ ማስነሻ ቅደም ተከተል"
+
+#: ../../efi.rst:25
+msgid ""
+"If after installing Linux Mint in EFI mode, your computer skips the boot "
+"menu and boots straight into Windows (or another operating system), you "
+"probably have an issue with the boot order."
+msgstr ""
+"እርስዎ ሊነክስ ሚንትን  በ EFI ዘዴ ከ ገጠሙ በኋላ: እና የ እርስዎ ኮምፒዩተር የ ማስነሻ ዝርዝሩን ከ ዘለለ እና በ "
+"ቀጥታ ወደ ሌላ Windows (ወይንም ሌላ የ መስሪያ ስርአት) ካስነሳ: የ እርስዎ ማስነሻ ቅደም ተከተል ችግር አለው "
+"ማለት ነው"
+
+#: ../../efi.rst:27
+msgid "To modify the boot order:"
+msgstr "የ ማስነሻ ቅደም ተከተል ለ መቀየር:"
+
+#: ../../efi.rst:29 ../../multiboot.rst:18
+msgid "Boot Linux Mint in ``live`` mode (with your USB stick or DVD)."
+msgstr "ሊነክስ ሚንት ማስነሻ በ ``live`` ዘዴ (በ እርስዎ USB stick ወይንም ዲቪዲ)."
+
+#: ../../efi.rst:31 ../../multiboot.rst:20
+msgid "Open a terminal."
+msgstr "ተርሚናል ይክፈቱ"
+
+#: ../../efi.rst:33
+msgid "Type ``sudo efibootmgr`` and press :kbd:`Enter`."
+msgstr ""
+
+#: ../../efi.rst:35
+msgid "This command lists the available boot options and the boot order."
+msgstr "ይህ ትእዛዝ ዝግጁ የሆኑ የ ማስነሻ ምርጫ እና የ ማስነሻ ደረጃ ዝርዝር ያሳያል"
+
+#: ../../efi.rst:41
+msgid "In the screenshot above, there are three boot options:"
+msgstr "በ መመልከቻው ፎቶ ከ ላይ በኩል  ሶስት አይነት የ ማስነሻ ምርጫዎች አሉ:"
+
+#: ../../efi.rst:43
+msgid "``ubuntu`` at ``0000``"
+msgstr "``ubuntu`` at ``0000``"
+
+#: ../../efi.rst:44
+msgid "``linuxmint`` at ``0001``"
+msgstr "``linuxmint`` at ``0001``"
+
+#: ../../efi.rst:45
+msgid "``Mac OS X`` at ``0081``"
+msgstr "``Mac OS X`` at ``0081``"
+
+#: ../../efi.rst:47
+msgid ""
+"The boot order is ``0081``. This indicates that the computer only tries to "
+"boot Mac OS and not Linux Mint."
+msgstr ""
+"ይህ የ ማስነሻ ደረጃ ``0081``: ይህ የሚያሳየው ኮምፒዩተሩ ለ ማስነሳት የሚሞክረው የ Mac OS ነው እና ሊነክሥ "
+"ሚንትን አይደለም"
+
+#: ../../efi.rst:50
+msgid ""
+"For technical reasons Linux Mint uses ``ubuntu`` as its EFI boot name."
+msgstr "በ ቴክኒካል ምክንያት ሊነክስ ሚንት የሚጠቀመው ``ኡቡንቱ`` ነው እንደ EFI ማስነሻ ስም"
+
+#: ../../efi.rst:53
+msgid ""
+"To fix the boot order, type ``sudo efibootmgr --bootorder XXXX,YYYY`` (where "
+"``XXXX`` and ``YYYY`` are the operating system boot options you want to "
+"boot)."
+msgstr ""
+"የ ማስነሻ ቅደም ተከተል ለ ማስተካከል: ይጻፉ: ``sudo efibootmgr --bootorder XXXX,YYYY`` (ይህ "
+"``XXXX`` እና ``YYYY`` የ መስሪያ ስርአት ማስነሻ ምርጫ ናቸው እርስዎ ማስነሳት የሚፈልጉት)"
+
+#: ../../efi.rst:59
+msgid ""
+"In the screenshot above, ``sudo efibootmgr --bootorder 0000,0081`` instructs "
+"the computer to first try to boot Linux Mint (``ubuntu`` being the EFI boot "
+"name for Linux Mint), and then Mac OS."
+msgstr ""
+"ከ ላይ የሚገኘው የ መመልከቻ ፎቶ ``sudo efibootmgr --bootorder 0000,0081`` ለ ኮምፒዩተሩ "
+"ትእዛዝ ይሰጠዋል ሊነክስ ሚንት መጀመሪያ እንዲነሳ (``ubuntu`` ይሆናል የ EFI ማስነሻ ስም ለ ሊነክስ ሚንት) "
+"እና ከዛ Mac OS."
+
+#: ../../efi.rst:64
+msgid ""
+"In the screenshot above ``0000`` is the first boot option so the computer "
+"boots on the Linux Mint grub menu. If grub fails (or if it is dismissed with "
+"the ``exit`` command), the computer follows the boot order and then tries to "
+"boot ``0081``, which corresponds to Mac OS."
+msgstr ""
+"ከ ላይ የሚታየው የ መመልከቻ ፎቶ``0000`` የ መጀመሪያው የ ማስነሻ ምርጫ ነው ስለዚህ ኮምፒዩተሩ የሚነሳው በ "
+"ሊነክስ ሚንት grub menu ነው: ይህ grub ካልተሳካ (ወይንም ከ ተወገደ በ ``መውጫ`` ትእዛዝ: ) ኮምፒዩተሩ "
+"የሚከተለው የ ማስነሻ ቅደም ተከተሉን ነው: እና ይህን ለ ማስነሳት ይሞክራል ``0081``: ይህ የሚያመለክተው ወደ "
+"Mac OS ነው:"
+
+#: ../../help.rst:2
+msgid "Where to find help"
+msgstr "እርዳታ የት እንደሚያገኙ"
+
+#: ../../help.rst:4
+msgid ""
+"Many users will be glad to help you and guide you through your first steps "
+"with Linux if you are nice and patient with them and if you give them the "
+"information they require to understand the issues you are facing."
+msgstr ""
+"ብርካታ ተጠቃሚዎ እርስዎን ለ መርዳት እና ለ መምራት ዝግጁ ናቸው: እርስዎ ትእግስተኛ ከሆኑ እና እርስዎ የሚያስፈልገውን "
+"መረጃ በሙሉ በ ትክክል ካቀረቡ"
+
+#: ../../help.rst:7
+msgid "The forums"
+msgstr "የ ውይይት መድረክ"
+
+#: ../../help.rst:9
+msgid ""
+"The best place to find help is on the `Linux Mint Forums "
+"<https://forums.linuxmint.com>`_."
+msgstr ""
+"እዚህ በጣም ጥሩ እርዳታ ማግኘት ይችላሉ `Linux Mint Forums "
+"<https://forums.linuxmint.com>`_."
+
+#: ../../help.rst:12
+msgid ""
+"Search the forums before asking, in case someone else already asked the same "
+"question."
+msgstr "በ መጀመሪያ በ መድረኩ ውስጥ ይፈልጉ: ሌላ ሰው ቀደም ብሎ ተመሳሳይ ጥያቄ ጠይቆ ከ ነበረ"
+
+#: ../../help.rst:15
+msgid "The chat room"
+msgstr "የ ውይይት ክፍል"
+
+#: ../../help.rst:17
+msgid "Another great place to find help is in the IRC chat room."
+msgstr "ሌላ በጣም ጥሩ እርዳታ እዚህ ማግኘት ይችላሉ በ IRC ውይይት ክፍል ውስጥ"
+
+#: ../../help.rst:19
+msgid ""
+"To reach the chat room from within Linux Mint, launch :menuselection:`Menu --"
+"> Internet --> HexChat`."
+msgstr ""
+"ወደ ሊነክስ ሚንት የ ውይይት ክፍል ለ መግባት ያስጀምሩ: ዝርዝር መምረጫ: `ዝርዝር --> ኢንተርኔት --> "
+"HexChat`."
+
+#: ../../help.rst:21
+msgid ""
+"If you are using another operating system, you can use `Kiwiirc "
+"<https://kiwiirc.com/client/irc.spotchat.org/?i#linuxmint-help>`_ to connect "
+"to the chat room."
+msgstr ""
+"እርስዎ ሌላ አይነት የ መስሪያ ስርአት የሚጠቀሙ ከሆነ ይህን ይጠቀሙ `Kiwiirc "
+"<https://kiwiirc.com/client/irc.spotchat.org/?i#linuxmint-help>`_  ወደ ውይይት "
+"ክፍል ለ መግባት"
+
+#: ../../help.rst:24
+msgid ""
+"Many people are connected to the chat room but only look at it now and then. "
+"Be patient after asking a question. Don't repeat it and stay connected until "
+"you get an answer. It can sometimes take a few hours for somebody to see "
+"your question and reply to you. Don't quit after a few minutes. It is "
+"frustrating to you, but also to others who later see your question and are "
+"unable to reply because you already left."
+msgstr ""
+"በርካታ ሰዎች በዚህ የ ውይይት ክፍል ይገናኛሉ እና እርስዎ ከ አለፍ ገደም ይመልከቱት: ጥያቄ የሚጠይቁ ከሆነ ትእግስተኛ "
+"መሆን በጣም አስፈላጊ ነው: ጥያቄውን አይደጋግሙ እና መልሱን እስከሚያገኙ ድረስ ይጠብቁ: አንዳንድ ጊዜ ጥቂት ሰአቶች "
+"ሊፈጅ ይችላል: የ እርስዎን ጥያቄ ለ መመልከት እና መልስ ለ መስጠት: ከ ጥቂት ደቂቆች በኋላ አያቋርጡ: የ እርስዎን "
+"ጥያቄ ተመልክተው እርስዎ ከሌሉ መልስ አይሰጥም"
+
+#: ../../help.rst:27
+msgid ""
+"If you are using Hexchat, you can minimize it to tray by clicking its status "
+"icon. People will often mention your nickname when replying to you. When "
+"they do, your Hexchat status icon will blink to catch your attention."
+msgstr ""
+"እርስዎ የ Hexchat የሚጠቀሙ ከሆነ: ወደ ትሪው ማሳነስ ይችላሉ: የ ማሰነሻውን ምልክት በ መጫን: ሰዎች የ እርስዎን "
+"የ ቅጽል ስም በ መጫን ከ እርስዎ ጋር ይገናኛሉ: ይህን ሲያደርጉ የ እርስዎ የ Hexchat ሁኔታ ምልክት ብልጭ ድርግም "
+"በማለት ለ እርስዎ ይታይል"
+
+#: ../../help.rst:30
+msgid "Community resources"
+msgstr "የ ሕብረተሰብ ምንጮች"
+
+#: ../../help.rst:32
+msgid ""
+"The `tutorials section <https://community.linuxmint.com/tutorial/search>`_ "
+"is useful to find tutorials about Linux Mint."
+msgstr ""
+"ይህ `ያለ አስተማሪ ክፍል <https://community.linuxmint.com/tutorial/search>`_ በጣም ጠቃሚ "
+"ነው ስለ ሊነክስ ሚንት በ በለጠ ለማወቅ"
+
+#: ../../help.rst:34
+msgid ""
+"The `hardware database <https://community.linuxmint.com/hardware/search>`_ "
+"is useful to find compatible hardware."
+msgstr ""
+"የ `ጠንካራ አካል ዳታቤዝ <https://community.linuxmint.com/hardware/search>`_ በጣም ጠቃሚ "
+"ነው ስለ ተስማሚ ጠንካራ አካል ለ ማወቅ"
+
+#: ../../help.rst:37
+msgid "Local communities"
+msgstr "የ አካባቢ ሕብረተሰብ"
+
+#: ../../help.rst:39
+msgid ""
+"To find help in your language, use the `Local Communities "
+"<https://www.linuxmint.com/links.php>`_."
+msgstr ""
+"እርዳት በ እርስዎ ቋንቋ ለማግኘት: ዝግጁ ከሆነ `የ አካባቢ ሕብረተሰብ "
+"<https://www.linuxmint.com/links.php>`_."
+
+#: ../../index.rst:2
+msgid "Linux Mint Installation Guide"
+msgstr "የ ሊነክስ ሚንት መግጠሚያ መምሪያ"
+
+#: ../../index.rst:8
+msgid ""
+"Linux Mint comes in the form of an ISO image (an .iso file) which can be "
+"used to make a bootable DVD or a bootable USB stick."
+msgstr ""
+"ሊነክስ ሚንት የሚመጣው በ ISO ምስል ነው: (an .iso file) እና የ ማስነሻ ዲቪዲ ወይንም USB stick "
+"መፍጠር ያስችላል"
+
+#: ../../index.rst:10
+msgid ""
+"This guide will help you download the right ISO image, create your bootable "
+"media and install Linux Mint on your computer."
+msgstr ""
+"እርስዎን ይህ መምሪያ ይረዳዎታል ትክክለኛውን የ ISO ምስል ለ ማውረድ: የ እርስዎን ማስነሻ መገናኛ ይፍጠሩ እና "
+"ሊነክስ ሚንትን በ እርስዎ ኮምፒዩተር ላይ ይግጠሙ"
+
+#: ../../index.rst:12 ../../sections.rst:5
+msgid "Download"
+msgstr "የ ወረዱ"
+
+#: ../../index.rst:19 ../../sections.rst:7
+msgid "Live Boot"
+msgstr "በ ቀጥታ ማስነሻ"
+
+#: ../../index.rst:26 ../../sections.rst:9
+msgid "Installation"
+msgstr "መግጠሚያ"
+
+#: ../../index.rst:32 ../../sections.rst:11
+msgid "Post-installation"
+msgstr "ከ ተገጠመ-በኋላ"
+
+#: ../../index.rst:41 ../../sections.rst:13
+msgid "Troubleshooting"
+msgstr "ችግሩን መፈለጊያ"
+
+#: ../../index.rst:48 ../../sections.rst:15
+msgid "Frequently Asked Questions"
+msgstr "ተዘውትረው የሚጠየቁ ጥያቄዎች"
+
+#: ../../install.rst:2
+msgid "Install Linux Mint"
+msgstr "ሊነክስ ሚንት መግጠሚያ"
+
+#: ../../install.rst:5
+msgid "The live session"
+msgstr "በ ቀጥታ ክፍል ጊዜ"
+
+#: ../../install.rst:7
+msgid ""
+"When you boot the computer from the USB stick (or DVD), Linux Mint starts a "
+"``live session``. It logs you in automatically as a user called ``mint`` and "
+"shows you a desktop with the installer on it:"
+msgstr ""
+"እርስዎ ከ USB stick በሚያስነሱ ጊዜ (ወይንም ዲቪዲ): ሊነክስ ሚንት የሚጀምረው በ ``በ ቀጥታ ክፍለ ጊዜ "
+"ነው``: እርስዎን ራሱ በራሱ በ ቀጥታ የሚያስገባው ወደ ተጠቃሚ ``ሊነክስ ሚንት`` ነው እና እርስዎን የሚያሳየው "
+"ዴስክቶፕ ከ መግጠሚያ ጋር ነው:"
+
+#: ../../install.rst:13
+msgid "The Linux Mint live session"
+msgstr "የ ሊነክስ ሚንት በ ቀጥታ ክፍለ ጊዜ"
+
+#: ../../install.rst:15
+msgid ""
+"The ``live session`` is similar to a normal session (i.e. to Linux Mint once "
+"it is permanently installed on the computer), but with the following "
+"exceptions:"
+msgstr ""
+"ይህ ``በ ቀጥታ ክፍለ ጊዜ`` ከ መደበኛ ክፍለ ጊዜ ጋር ተመሳሳይ ነው (ይህም ማለት: ሊነክስ ሚንት አንድ ጊዜ በ "
+"ቋሚነት በ ኮምፒዩተሩ ላይ እንደ ተገጠመ): ነገር ግን ከሚቀጥለው በስተቀር:"
+
+#: ../../install.rst:17
+msgid ""
+"The Live session is slower (it is loaded from a USB stick or DVD as opposed "
+"to a SSD or HDD)."
+msgstr ""
+"የ ቀጥታ ክፍለ ጊዜ ዝግተኛ ነው (የሚጫነው ከ USB stick ወይንም ዲቪዲ ነው: ሲወዳደር ከ SSD ወይንም HDD) ጋር"
+
+#: ../../install.rst:18
+msgid ""
+"Changes you make in the live session are not permanent. They are not written "
+"to the USB stick (or DVD) and they do not impact the system installed by the "
+"installer."
+msgstr ""
+"በ ቀጥታ ክፍለ ጊዜ ውስጥ እርስዎ የ ፈጸሙት ለውጥ ቋሚ አይደለም: እና ወደ USB stick (ወይንም ዲቪዲ) ውስጥ "
+"አይጻፉም: እና በ መግጠሚያው ላይ ምንም ተፅእኖ አይፈጥርም"
+
+#: ../../install.rst:19
+msgid ""
+"Some applications work differently (or not at all) in the live session "
+"(Timeshift, Flatpak, Update Manager, Welcome Screen..etc.)."
+msgstr ""
+"አንዳንድ መተግበሪያዎች የሚሰሩት በ ተለየ መንገድ ነው (ወይንም አይሰሩም) በ ቀጥታ ክፍለ ጊዜ ውስጥ (Timeshift, "
+"Flatpak, የ ማሻሻያ አስተዳዳሪ: እንኳን ደህና መጡ መመልከቻ..ወዘተ)"
+
+#: ../../install.rst:22
+msgid ""
+"The username for the live session is ``mint``. If asked for a password press "
+":kbd:`Enter`."
+msgstr ""
+"የ ተጠቃሚ ስም ለ ቀጥታ ክፍለ ጊዜ ``mint`` ነው: የ መግቢያ ቃል ከ ተጠየቁ ይጫኑ :kbd:`Enter`"
+
+#: ../../install.rst:25
+msgid "Installing Linux Mint on the computer"
+msgstr "ሊነክስ ሚንት በ ኮምፒዩተር ላይ መግጠሚያ"
+
+#: ../../install.rst:27
+msgid "To permanently install Linux Mint on your computer:"
+msgstr "እርስዎ በ ቋሚነት ሊነክስ ሚንትን በ ኮምፒዩተሩ ላይ ለ መግጠም"
+
+#: ../../install.rst:29
+msgid "Double-click :guilabel:`Install Linux Mint`."
+msgstr "ሁለት ጊዜ-ይጫኑ :guilabel:`ሊነክስ ሚንትን ለ መግጠም`"
+
+#: ../../install.rst:31
+msgid "Select your language."
+msgstr "የ እርስዎን ቋንቋ ይምረጡ"
+
+#: ../../install.rst:37
+msgid "Connect to the Internet."
+msgstr "ከ ኢንተርኔት ጋር ይገናኙ"
+
+#: ../../install.rst:43
+msgid ""
+"If you are connected to the Internet, tick the box to install the multimedia "
+"codecs."
+msgstr ""
+"እርስዎ ከ ኢንተርኔታ ጋር የ ተገናኙ ከሆነ በ ሳጥኑ ውስጥ ምልክት ያድርጉ የ በርካታ መገናኛ ኮዶች እንዲገጠም"
+
+#: ../../install.rst:49
+msgid "Choose an installation type."
+msgstr "የ መግጠሚያ አይነት ይምረጡ"
+
+#: ../../install.rst:55
+msgid ""
+"If Linux Mint is the only operating system you want to run on this computer "
+"and all data can be lost on the hard drive, choose :guilabel:`Erase disk and "
+"install Linux Mint`."
+msgstr ""
+"እርስዎ በዚህ ኮምፒዩተር ላይ የ ሊነክስ ሚንትን መስሪያ ስርአት ብቻ መግጠም እና መጠቀም ከ ፈለጉ ሁሉንም ዳታ ያጥፉ ከ "
+"ሀርድ ድራይቩ ላይ: እና ይምረጡ :guilabel:`ዲስክ ማጥፊያ እና ሊነክስ ሚንትን መግጠሚያ`"
+
+#: ../../install.rst:58
+msgid ""
+":guilabel:`Encrypt the new Linux Mint installation for security` refers to "
+"full disk encryption. At this stage of the installation your keyboard layout "
+"wasn't yet selected so it is set to en_US. If you decide to use this option, "
+"keep this in mind when entering a password. Note that there are issues with "
+"this option and some NVIDIA drivers. If you are new to Linux use home "
+"directory encryption instead (you can select it later during the "
+"installation)."
+msgstr ""
+":guilabel:`አዲስ የ ሊነክስ ሚንት መግጠሚያ መመስጠሪያ ለ ደህንነት ሲባል` ይህ የሚያሳየው የ ዲስክ መመስጠሪያ "
+"ነው: በዚህ ሁኔታ ውስጥ መግጠሚያው የ እርስዎን የ ፊደል ገበታ እቅድ ገና አልተመረጠም ስለዚህ የ ተሰናዳው ለ en_US "
+"ነው: እርስዎ ይህን ምርጫ ለ መጠቀም ከ ፈለጉ: የ መግቢያ ቃል ሲያስገቡ ይህን ያስታውሱ: ማስታወሻ: በዚህ ምርጫ "
+"አንዳንድ ችግር አለ ለ NVIDIA drivers. እርስዎ አዲስ ተጠቃሚ ከሆኑ የ ቤት ዳይሬክቶሪ መመስጠሪያ ይጠቀሙ: "
+"(እርስዎ በኋላ በ መግጠሚያ ውስጥ መምረጥ ይችላሉ)"
+
+#: ../../install.rst:60
+msgid ""
+"If another operating system is present on the computer, the installer shows "
+"you an option to install Linux Mint alongside it. If you choose this option, "
+"the installer automatically resizes your existing operating system, makes "
+"room and installs Linux Mint beside it. A boot menu is set up to choose "
+"between the two operating systems each time you start your computer."
+msgstr ""
+"በ ኮምፒዩተሩ ላይ ሌላ ተጨማሪ የ መስሪያ ስርአት ከ ነበረ: መግጠሚያው ምርጫ ያሳያል ሊነክስ ሚንት ከ ሌላው መስሪያ "
+"ስርአት ጎን ለ ጎን እንዲገጠም: እርስዎ ይህን ከ መረጡ መግጠሚያው ራሱ በራሱ የ ነበረውን የ መስሪያ ስርአት እንደገና "
+"ይመጥነዋል: እና አጠገቡ ጎን ለ ጎን ሊነክስ ሚንትን ይገጥማል: እርስዎ ኮምፒዩተሩን በሚያስጀምሩ ጊዜ የሚፈልጉትን "
+"እንዲመርጡ የ ማስነሻ ዝርዝር ይፈጠራል:"
+
+#: ../../install.rst:64
+msgid ""
+"If you want to manage the partitions or specify which partitions to use, "
+"select :guilabel:`Something else`."
+msgstr ""
+"እርስዎ ክፍልፋይ ማስተዳደር ከፈለጉ ወይንም የ ተወሰነ ክፍልፋይ መጠቀም ከ ፈለጉ: ይምረጡ :guilabel:`ሌላ ነገር`"
+
+#: ../../install.rst:70
+msgid ""
+"Linux Mint requires one partition to be mounted on the root ``/`` directory."
+msgstr "ሊነክስ ሚንት አንድ ክፍልፋይ ይፈልጋል እንዲጫን በ root ``/`` directory."
+
+#: ../../install.rst:72
+msgid ""
+"The Linux Mint operating system (without additional software or personal "
+"data) takes roughly 15GB, so give this partition a decent size (100GB or "
+"more)."
+msgstr ""
+"የ ሊነክስ ሚንት የ መስሪያ ስርአት (ያለ ተጨማሪ ሶፍትዌር ወይንም የ ግል ዳታ) በ ግምት የሚወስደው 15ጌባ ነው: "
+"ስለዚህ ለ ክፍልፋዩ ትንሽ ቦታ ይስጡ (100ጌባ ወይንም ከዚያ በላይ)"
+
+#: ../../install.rst:74
+msgid "``ext4`` is recommended. It is the most popular Linux filesystem."
+msgstr "``ext4`` እንመክራለን: በጣም የ ተወደደ የ ሊነክስ የ ፋይል ስርአት ነው"
+
+#: ../../install.rst:79
+msgid ""
+"Also create a ``swap`` partition. This partition is used for hibernation and "
+"as a safety buffer in case your computer runs out of RAM. Give this "
+"partition a size equal to the amount of RAM in your computer."
+msgstr ""
+"እንዲሁም ይፍጠሩ የ ``swap`` ክፍልፋይ: ይህ ክፍልፋይ የሚጠቅመው ለ hibernation እና አስተማማኝ መሰብሰቢያ "
+"ነው: በ ድንገት የ እርስዎ ኮምፒዩተር የ RAM እጥረት ቢገጥመው: ይህን ክፍልፋይ ከ እርስዎ ኮምፒዩተር RAM ጋር "
+"እኩል ያድርጉት"
+
+#: ../../install.rst:81
+msgid "Select your timezone"
+msgstr "የ እርስዎን የ ሰአት ክልል ይምረጡ"
+
+#: ../../install.rst:87
+msgid "Select your keyboard layout"
+msgstr "የ እርስዎን የ ፊደል ገበታ እቅድ ይምረጡ"
+
+#: ../../install.rst:93
+msgid "Enter your user details"
+msgstr "የ ተጠቃሚ ዝርዝር ያስገቡ"
+
+#: ../../install.rst:99
+msgid ""
+"Your ``name`` can be your real name, but it doesn't have to be. It is only "
+"used locally, in the screensaver and on the login screen."
+msgstr ""
+"የ እርስዎ ``ስም`` ትክክለኛው መሆን ይችላል: ነገር ግን ግዴታ አይደለም: የምንጠቀምበት ለ መመልከቻ ማዳኛ እና ለ "
+"መግቢያ መመልከቻ መስኮት ነው"
+
+#: ../../install.rst:101
+msgid ""
+"Your ``username`` is what you log in as, and your ``hostname`` is the name "
+"of your computer on the network."
+msgstr ""
+"የ እርስዎ ``የ ተጠቃሚ ስም`` የሚገቡበት ስም ይሆናል: እና የ እርስዎ ``ጋባዥ ስም`` በ ኔትዎርክ ውስጥ የ "
+"ኮምፒዩተሩ ስም ይሆናል"
+
+#: ../../install.rst:103
+msgid ""
+"To prevent bugs only use lowercase characters, with no punctuation or "
+"accentuation."
+msgstr "እርስው ችግር ለ ማስወገድ የ ዝቅተኛ ጉዳይ ፊደሎች ባህሪ ይጠቀሙ: ያለ ምንም ስርአተ ነጥብ እና ምልክት"
+
+#: ../../install.rst:105
+msgid ""
+"To protect your personal data against local attacks (people around you, or "
+"in case your computer gets stolen), tick :guilabel:`Encrypt my home folder`."
+msgstr ""
+"የ እርስዎን የ ግል ዳታ ከ ጥቃት ለ መጠበቅ (አካባቢዎ ካሉ ሰዎች: ወይንም የ እርስዎ ኮምፒዩተር ቢሰረቅ): ምልክት "
+"ያድርጉ :guilabel:`የ እኔን የ ቤት ፎልደር መመስጠሪያ` ላይ"
+
+#: ../../install.rst:107
+msgid "Choose a strong password."
+msgstr "ጠንካራ የ መግቢያ ቃል ይምረጡ"
+
+#: ../../install.rst:109
+msgid "Enjoy the slideshow while Linux Mint is installed on your computer."
+msgstr "በ እርስዎ ኮምፒዩተር ላይ ሊነክስ ሚንት እስከሚገጠም በ ተንሸራታች ትርኢት ይደሰቱ"
+
+#: ../../install.rst:115
+msgid "When the installation is finished, click :guilabel:`Restart Now`."
+msgstr "መግጠሙን በሚጨርስ ጊዜ: ይጫኑ :guilabel:`አሁን እንደገና ማስጀመሪያ`"
+
+#: ../../install.rst:121
+msgid ""
+"The computer will then start to shut down and ask you to remove the USB disk "
+"(or DVD). Upon reboot, your computer should show you a boot menu or start "
+"your newly installed Linux Mint operating system."
+msgstr ""
+"ኮምፒዩተሩ ማጥፋት ይጀምራል እና እርስዎን ይጠይቃል እንዲያስወግዱ የ USB stick (ወይንም ዲቪዲ ): እንደገና "
+"በሚጀምር ጊዜ: የ እርስዎ ኮምፒዩተር የ ማስጀመሪያ ዝርዝር ያሳይዎታል ወይንም የ እርስዎን መስሪያ ስርአት ሊነክስ "
+"ሚንትን ይጀምራል"
+
+#: ../../locales.rst:2
+msgid "Language support"
+msgstr "የ ቋንቋ ድጋፍ"
+
+#: ../../locales.rst:4
+msgid ""
+"Language support includes translations but also packages related to spell-"
+"checking, synonyms, hyphenation and dictionaries which enhance your "
+"experience in software applications such as LibreOffice."
+msgstr ""
+
+#: ../../locales.rst:6
+msgid "Launch :menuselection:`Menu --> Preferences --> Languages`."
+msgstr "ማስጀመሪያ :ዝርዝር መምረጫ:`ዝርዝር --> ምርጫዎች --> ቋንቋ`"
+
+#: ../../locales.rst:12
+msgid "Click :guilabel:`Install / Remove Language`."
+msgstr "ይጫኑ :guilabel:`ቋንቋ መግጠሚያ / ማስወገጃ`"
+
+#: ../../locales.rst:18
+msgid ""
+"If beside your locale, you see a label saying ``Some language packs are "
+"missing``, select your locale and click :guilabel:`Install language packs`."
+msgstr ""
+"ከ እርስዎ ቋንቋ አጠገብ ለ እርስዎ ምልክት የሚታይ ከሆነ ``የ አንዳንድ ቋንቋ ጥቅሎች ጎድለዋል`` ይምረጡ የ እርስዎን "
+"ቋንቋ እና ይጫኑ  :guilabel:`የ ቋንቋ ጥቅሎች መግጠሚያ`"
+
+#: ../../multiboot.rst:2
+msgid "Multi-boot"
+msgstr "በርካታ-ማስነሻ"
+
+#: ../../multiboot.rst:5
+msgid "Always install Windows first"
+msgstr "ሁል ጊዜ Windows በ መጀመሪያ ይግጠሙ"
+
+#: ../../multiboot.rst:7
+msgid ""
+"Windows does not detect other operating systems and does not feature a boot "
+"menu. When you install it, it overwrites your boot sequence and your "
+"computer then boots straight into Windows."
+msgstr ""
+"እርስዎ በሚገጥሙበት ጊዜ Windows ሌሎች የ መስሪያ ስርአቶችን ፈልጎ አያገኝም እና የ ማስነሻ ዝርዝር አይፈጥርም: በ "
+"እርስዎ የ ማስነሻ ዝርዝር ላይ ደርቦ ይጽፍበታል: እና የ እርስዎ ኮምፒዩተር በ ቀጥታ Windows ያስነሳል"
+
+#: ../../multiboot.rst:9
+msgid ""
+"Linux Mint (and most Linux distributions) detects other operating systems "
+"and builds a menu from which you can choose which system to boot."
+msgstr ""
+"ሊነክስ ሚንት (እና በርካታ የ ሊነክስ መስሪያ ስርአት) ሌሎች የ መስሪያ ስርአቶችን መለየት ይችላሉ እና ዝርዝር "
+"ይገነባሉ: እርስዎ የሚመርጡበት የትኛውን ስርአት እንደሚያስጀምሩ"
+
+#: ../../multiboot.rst:11
+msgid ""
+"For this reason, if you want to dual-boot or multi-boot with Windows, it is "
+"easier and recommended to install Windows first, before you install Linux "
+"Mint."
+msgstr ""
+"እርስዎ ድርብ-ማስነሻ ወይንም በርካታ-ማስነሻ ከ Windows ጋር መፍጠር ከ ፈለጉ: ቀላሉ መንገድ እና እኛ የምንመክረው "
+"በ መጀመሪያ Windows እንዲገጥሙ ነው: ሊነክስ ሚንትን ከ መግጠምዎት በፊት"
+
+#: ../../multiboot.rst:14
+msgid "Fix the boot sequence"
+msgstr "የ ማስነሻ ቅደም ተከተል መጠገኛ"
+
+#: ../../multiboot.rst:16
+msgid "If Windows overwrites your boot sequence:"
+msgstr "በ እርስዎ የ ማስነሻ ቅደም ተከተል ላይ Windows ደርቦ ከ ጻፈበት"
+
+#: ../../multiboot.rst:22
+msgid "To list your partitions, type ``lsblk -f`` and press :kbd:`Enter`."
+msgstr ""
+
+#: ../../multiboot.rst:28
+msgid ""
+"Find the partition where Linux Mint is installed. On most systems this "
+"should be the only ``ext4`` partition."
+msgstr ""
+"ሊነክስ ሚንት የ ተገጠመበትን ክፍልፋይ ፈልገው ያግኙ: በ በርካታ ስርአቶች ውስጥ የሚሆነው በ ``ext4`` ክፍልፋይ "
+"ውስጥ ብቻ ነው"
+
+#: ../../multiboot.rst:30
+msgid "In the screenshot above:"
+msgstr "በ መመልከቻ ፎቶ ከ ላይ በኩል:"
+
+#: ../../multiboot.rst:32
+msgid ""
+"``sdb`` is the USB stick (recognizable by its ``iso9660`` type which "
+"corresponds to an ISO image)."
+msgstr ""
+"``sdb`` የ USB stick ነው (የሚታወቀው በ ``iso9660`` ይጻፉ የሚመሳሰለውን ወደ ISO image)."
+
+#: ../../multiboot.rst:33
+msgid "``sda`` is the hard drive."
+msgstr "``sda`` ሀርድ ድራይቭ ነው"
+
+#: ../../multiboot.rst:34
+msgid ""
+"``sda4`` is the partition on the ``sda`` hard drive, where Linux Mint is "
+"installed."
+msgstr "``sda4`` ክፍልፋይ ነው በ ``sda`` ሀርድ ድራይቭ ውስጥ: ሊነክስ ሚንት የ ተገጠመበት"
+
+#: ../../multiboot.rst:36
+msgid "To list partition sizes, type ``lsblk``:"
+msgstr "የ ክፍልፋይ ዝርዝር መጠን ለ መመልከት: ይጻፉ ``lsblk``:"
+
+#: ../../multiboot.rst:42
+msgid "To list partition labels, type ``blkid``:"
+msgstr "የ ክፍልፋይ ዝርዝር ምልክት ለ መመልከት: ይጻፉ ``blkid``:"
+
+#: ../../multiboot.rst:48
+msgid ""
+"Mount the Linux Mint partition and reinstall the grub menu with the "
+"following commands:"
+msgstr "የ ሊነክስ ሚንትን ክፍልፋይ ይጫኑ እና የ grub ዝርዝርን እንደገና ይግጠሙ በሚቀጠልው ትእዛዝ መሰረት:"
+
+#: ../../multiboot.rst:56
+msgid ""
+"In the commands above, replace /dev/sda4 and /dev/sda with the appropriate "
+"names for your Linux Mint partition and your hard drive device."
+msgstr ""
+"ከ ላይ እንዳለው ትእዛዝ ይቀይሩ /dev/sda4 and /dev/sda በ ተገቢው ስም ለ ሊነክስ ሚንት ክፍልፋይ እና የ "
+"እርስዎ ሀርድ ዲስክ አካል መሰረት"
+
+#: ../../oem.rst:2
+msgid "Pre-installing Linux Mint (OEM Installation)"
+msgstr "ሊነክስ ሚንት በ ቅድሚያ-መግጠሚያ (በ OEM አገጣጠም)"
+
+#: ../../oem.rst:4
+msgid ""
+"In the ISO boot menu, ``OEM install`` is used to preinstall Linux Mint."
+msgstr "በ ISO ማስነሻ ዝርዝር ውስጥ: ``OEM መግጠሚያ`` ሊነክስ ሚንት በ ቅድሚያ ለ መግጠም ነው"
+
+#: ../../oem.rst:6
+msgid "This option is useful to:"
+msgstr "ይህ ምርጫ በጣም ጠቃሚ ነው:"
+
+#: ../../oem.rst:8
+msgid ""
+"Manufacturers and resellers who want to install Linux Mint on computers they "
+"sell to their customers."
+msgstr "ሊነክስ ሚንትን ገጥመው ለ ደንበኞቻቸው መሸጥ ለሚፈልጉ አምራቾች እና ሻጮች"
+
+#: ../../oem.rst:9
+msgid "People who want to sell or give their computer to somebody else."
+msgstr "ሰዎች ኮምፒዩተሩን ለ ሌላ ሰው መስጠት ወይንም መሸጥ ለሚፈልጉ"
+
+#: ../../oem.rst:11
+msgid ""
+"When you install Linux Mint in ``OEM`` mode, the operating system is "
+"installed with a temporary user account and prepared for the computer's "
+"future owner."
+msgstr ""
+"እርስዎ ሊነክስ ሚንትን በ ``OEM`` ዘዴ ሲገጥሙ: የ መስሪያ ስርአቱ የሚገጠመው በ ጊዚያዊ ተጠቃሚ መግለጫ ነው: እና "
+"ኮምፒዩተሩ ለ ወደፊቱ ባለቤት ይሰናዳል"
+
+#: ../../oem.rst:13
+msgid "The user account is set up by the new owner."
+msgstr "የ ተጠቃሚ መግለጫ የሚሰናዳው በ አዲሱ የ ኮምፒዩተር ባለቤት ነው"
+
+#: ../../oem.rst:15
+msgid "To perform an OEM installation follow the steps below:"
+msgstr "የ OEM አገጣጠም ለ መፈጸም የሚቀጥለውን ደረጃ ይከተሉ:"
+
+#: ../../oem.rst:17
+msgid "Select ``OEM Install`` from the USB stick (or DVD) menu."
+msgstr "ይምረጡ የ ``OEM መግጠሚያ`` ከ USB stick (ወይንም ዲቪዲ) ዝርዝር ውስጥ"
+
+#: ../../oem.rst:19
+msgid "Launch the installer and follow the installation instructions."
+msgstr "መግጠሚያውን ያስጀምሩ እና  የ መግጠሚያውን ትእዛዝ ይከተሉ:"
+
+#: ../../oem.rst:23
+msgid ""
+"Change any system settings or install additional software if you want."
+msgstr "እርስዎ ከ ፈለጉ የ ስርአቱን ማሰናጃ መቀየር ወይንም ተጨማሪ ሶፍትዌር መግጠም ይችላሉ"
+
+#: ../../oem.rst:25
+msgid ""
+"When ready, click :guilabel:`Prepare for shipping to end user`, enter the "
+"password you chose during the installation, click :guilabel:`OK` and shut "
+"down the computer."
+msgstr ""
+"ዝግጁ ሲሆኑ ይጫኑ :guilabel:`ለ መጨረሻ ተጠቃሚ ለ መላክ በ ዝግጅት ላይ`: እርስዎ የሚመርጡትን የ መግቢያ ቃል "
+"ያስገቡ በሚገጠም ጊዜ: ይጫኑ :guilabel:`እሺ` እና ኮምፒዩተሩን ያጥፉ"
+
+#: ../../oem.rst:31
+msgid ""
+"When the new owner of the computer boots the computer the following screen "
+"appears:"
+msgstr "አዲሱ የ ኮምፒዩተር ባለቤት ኮምፒዩተሩን በሚያስጀምር ጊዜ የሚቀጥለው መመልከቻ ይታያል:"
+
+#: ../../oem.rst:37
+msgid ""
+"The new owner selects his or her username, password, keyboard layout, "
+"language, timezone and all the details relevant to create his or her user "
+"account."
+msgstr ""
+"አዲሱ የ ኮምፒዩተር ባለቤት የ ተጠቃሚ ስም: የ መግቢያ ቃል: የ ፊደል ገበታ እቅድ: ቋንቋ: የ ሰአት ክልል: እና የ "
+"ራሳቸውን መግለጫ መፍጠር ይችላሉ"
+
+#: ../../partitioning.rst:2
+msgid "Partitioning"
+msgstr "በ መከፋፈል ላይ"
+
+#: ../../partitioning.rst:5
+msgid "Disks and partitions under Linux"
+msgstr "ዲስኮች እና ክፍልፋዮች በ ሊነክስ ውስጥ"
+
+#: ../../partitioning.rst:7
+msgid ""
+"If you are not familiar with the Linux naming scheme for devices and "
+"partitions, or the concept of filesystems and mount points, read:"
+msgstr ""
+"እርስዎ እርግጠኛ ካልሆኑ ለ ሊነክስ አካሎች ስም ገጽታ እና ክፍልፋዮች ወይንም ስለ ፋይል ስርአት እና መጫኛ ነጥብ: "
+"ይህን ያንብቡ:"
+
+#: ../../partitioning.rst:9
+msgid ""
+"`A beginner’s guide to disks and disk partitions in Linux "
+"<http://linuxbsdos.com/2014/11/08/a-beginners-guide-to-disks-and-disk-"
+"partitions-in-linux/>`_"
+msgstr ""
+"`ለ ጀማሪዎች’ መምሪያ ስለ ዲስኮች እና ስለ ዲስክ ክፍልፋይ መከፋፈያ በ ሊነክስ ውስጥ "
+"<http://linuxbsdos.com/2014/11/08/a-beginners-guide-to-disks-and-disk-"
+"partitions-in-linux/>`_"
+
+#: ../../partitioning.rst:10
+msgid ""
+"`Device Names in Linux "
+"<https://www.debian.org/releases/wheezy/amd64/apcs04.html.en>`_"
+msgstr ""
+"`የ አካሎች ስም በ ሊነክስ ውስጥ "
+"<https://www.debian.org/releases/wheezy/amd64/apcs04.html.en>`_"
+
+#: ../../partitioning.rst:11
+msgid ""
+"`Understanding the Linux File System "
+"<http://etutorials.org/Linux+systems/red+hat+linux+9+professional+secrets/Par"
+"t+II+Exploring+Red+Hat+Linux/Chapter+7+Red+Hat+Linux+Basics/Understanding+the"
+"+Linux+File+System/>`_"
+msgstr ""
+"`የ ሊነክስ ፋይል ስርአት መረጃ "
+"<http://etutorials.org/Linux+systems/red+hat+linux+9+professional+secrets/Par"
+"t+II+Exploring+Red+Hat+Linux/Chapter+7+Red+Hat+Linux+Basics/Understanding+the"
+"+Linux+File+System/>`_"
+
+#: ../../partitioning.rst:14
+msgid "Dedicated /home partition"
+msgstr "የ ተወሰነ /የ ቤት ክፍልፋይ"
+
+#: ../../partitioning.rst:16
+msgid ""
+"In Linux, the ``/home`` directory is used to store user data and preferences."
+msgstr "በ ሊነክስ ውስጥ የ ``/ቤት`` ዳይሬክቶሪ የሚጠቀሙት የ ተጠቃሚውን ዳታ እና ምርጫዎች ለ ማስቀመጥ ነው"
+
+#: ../../partitioning.rst:18
+msgid ""
+"This directory contains one subdirectoy for each user account. Say your "
+"username is ``john``, your home directory is ``/home/john``, your downloads "
+"are in ``/home/john/Downloads``, your documents in ``/home/john/Documents``, "
+"your Firefox bookmarks somewhere in ``/home/john/.mozilla`` and so on..."
+msgstr ""
+"ይህ ዳይሬክቶሪ የያዘው አንድ ንዑስ ዳይሬክቶሪ ነው ለ እያንዳንዱ ተጠቃሚ መግለጫ: ለምሳሌ እንበል የ እርስዎ ተጠቃሚ "
+"ስም ``john``ነው እንበል: የ እርስዎ ቤት ዳይሬክቶሪ ``/home/john`` ይሆናል: እርስዎ ያወረዱት "
+"``/home/john/Downloads`` ይሆናል: የ እርስዎ ሰነድ ``/home/john/Documents`` ይሆናል: የ "
+"እርስዎ Firefox bookmarks እዚህ ውስጥ በ ``/home/john/.mozilla`` ይሆናል ወዘተ..."
+
+#: ../../partitioning.rst:20
+msgid ""
+"By giving ``/home`` its own dedicated partition, you separate the user data "
+"from the rest of the operating system."
+msgstr ""
+"ለ ``/ቤት`` የ ተወሰነ ክፍልፋይ መስጠት የሚጠቅመው: እርስዎ የ ተጠቃሚውን ዳታ ከ መስሪያ ስርአቱ ጋር መለያየት ነው"
+
+#: ../../partitioning.rst:22
+msgid ""
+"The advantage is that you can wipe the operating system and replace it "
+"without affecting the user data."
+msgstr ""
+"ይህ የሚጠቅመው እርስዎ ጠቅላላ ስርአቱን ማጥፋት እና እንደገና መግጠም ይችላሉ ምንም የ ተጠቃሚውን ዳታ ሳይነኩ"
+
+#: ../../partitioning.rst:24
+msgid "When installing Linux Mint:"
+msgstr "ሊነክስ ሚንትን በሚገጥሙ ጊዜ:"
+
+#: ../../partitioning.rst:26
+msgid ""
+"Assign the ``/`` mount point to the partition dedicated to the operating "
+"system, and tell the installer to format it."
+msgstr ""
+"ይመድቡ የ ``/`` መጫኛ ነጥብ ለ መከፋፈያ የ ተወሰነ ለ መስሪያ ስርአቱ: እና መግጠሚያው አጥፍቶ እንዲያሰናዳው "
+"ይንገሩት"
+
+#: ../../partitioning.rst:28
+msgid ""
+"Assign the ``/home`` mount point to the partition dedicated to the user "
+"data, and if it contains user data already, make sure to tell the installer "
+"**not to format it**."
+msgstr ""
+"ይመድቡ የ ``/home`` መጫኛ ነጥብ ለ ክፍልፋይ ለ ተጠቃሚው ዳታ የ ተወሰነ: እና የ ተጠቃሚ ዳታ ቀደም ብሎ ይዞ ከ "
+"ነበረ እርግጠኛ ይሁኑ መግጠሚያው **እንዳያጠፋው**:"
+
+#: ../../partitioning.rst:31
+msgid ""
+"This is not recommended for novice users. A misstep during the installation "
+"could wipe all your data. Always make backups, make sure to select the right "
+"partitions and to carefully review formatting options."
+msgstr ""
+"ይህ ለ አዲስ ተጠቃሚዎች አይመከርም: አንዴ ከ ተሳሳቱ የ እርስዎን ዳታ ባጠቃላይ ያጠፋዋል:  ሁል ጊዜ ተተኪ ይፍጠሩ: "
+"እርግጠኛ ይሁኑ የሚመርጡትን ክፍልፋይ: እና የ አቀራረብ ምርጫዎችን ይመርምሩ"
+
+#: ../../partitioning.rst:34
+msgid ""
+"A Linux Mint operating system takes about 15GB and grows as you install "
+"additional software. If you can spare the size, give it 100GB. Keep most of "
+"your free space for the home partition. User data (downloads, videos, "
+"pictures) takes a lot more space."
+msgstr ""
+"የ ሊነክስ ሚንት መስሪያ ስርአት ቤ ግምት 15ጌባ ይፈልጋል: እና እርስዎ ተጨማሪ ሶፍትዌር ሲገጥሙ እያደገ ይሄዳል: "
+"እርስዎ ከቻሉ መጠኑን 100ጌባ ያድርጉት: የ እርስዎን በርካታ ነፃ ቦታ ለ ቤት ክፍልፋይ ያድርጉ: የ ተጠቃሚ ዳታ (የ "
+"ወረዱ: ሰነዶች: ቪዲዮ: ስእሎች) በርካታ ቦታ ይወስዳሉ"
+
+#: ../../timeshift.rst:2
+msgid "System snapshots"
+msgstr "ስርአት ፎቶ ማንሻ"
+
+#: ../../timeshift.rst:4
+msgid ""
+"Before you start using your operating system, set up system snapshots. Then "
+"if anything goes wrong, you can restore your system from an earlier backup."
+msgstr ""
+"የ እርስዎን የ መሥሪያ ስርአት ከ መጀመርዎት በፊት: የ ስርአት መመልከቻ ፎቶ ያሰናዱ: እና አንድ ችግር ከ ተፈጠረ: "
+"እርስዎ ይህን በ መጠቀም ወደ ነበረበት ሁኔታ ለ መመለስ ይችላሉ"
+
+#: ../../timeshift.rst:6
+msgid "Launch :menuselection:`Menu --> Administration --> Timeshift`."
+msgstr "ማስጀመሪያ :ዝርዝር ምርጫ:`ዝርዝር --> አስተዳዳሪ --> Timeshift`."
+
+#: ../../timeshift.rst:8
+msgid "Select ``RSYNC`` and click :guilabel:`Next`."
+msgstr "ይምረጡ ``RSYNC`` እና ይጫኑ :guilabel:`ይቀጥሉ`:"
+
+#: ../../timeshift.rst:13
+msgid ""
+"Select the device where you want system snapshots to be saved and click "
+":guilabel:`Next`."
+msgstr "እርስዎ የ መመልከቻ ፎቶ ማስቀመጥ የሚፈልጉበትን አካል ይምረጡ እና ይጫኑ :guilabel:`ይቀጥሉ`"
+
+#: ../../timeshift.rst:19
+msgid ""
+"The selected device is not formatted and no data is lost. System snapshots "
+"are saved into a newly created ``timeshift`` directory on the root of the "
+"selected device."
+msgstr ""
+"የ ተመረጠው አካል ምንም አልተሰናዳም እና ምንም ዳታ አልጠፋም: የ ስርአት መመልከቻ ፎቶ የሚቀመጠው አዲስ በ ተፈጠረው "
+"``timeshift`` በ root ዳይሬክቶሪ በ ተመረጠው አካል ውስጥ ነው"
+
+#: ../../timeshift.rst:21
+msgid "Select when system snapshots are saved."
+msgstr "የ ስርአት መመልከቻ ፎቶ መቼ እንደሚቀመጥ ይምረጡ"
+
+#: ../../timeshift.rst:27
+msgid ""
+"System snapshots are incremental so although the first snapshot takes a "
+"significant amount of spaces, new snapshots only take additional space for "
+"files which have changed."
+msgstr ""
+"የ ስርአት መመልከቻ ፎቶ ጭማሪ ነው: የ መጀመሪያው መመልከቻ ፎቶ ከፍተኛ ቦታ ይወስዳል: አዲስ የ መመልከቻ ፎቶ "
+"የሚወስደው ለ ተቀየረው ፋይል ትንሽ ተጨማሪ ቦታ ነው"
+
+#: ../../timeshift.rst:30
+msgid ""
+"``Boot`` snapshots are performed in the background and do not impact the "
+"speed of the boot sequence."
+msgstr ""
+"``ማስነሻ`` መመልከቻ ፎቶ የሚፈጠረው ከ በስተ ጀርባ ነው: እና ምንም ተፅእኖ አይፈጥርም በ ማስነሻ ቅደም ተከተል "
+"ፍጥነት ላይ"
+
+#: ../../timeshift.rst:32
+msgid "Click :guilabel:`Finish`."
+msgstr "ይጫኑ :guilabel:`መጨረሻ`:"
+
+#: ../../verify.rst:2
+msgid "Verify your ISO image"
+msgstr "የ እርስዎን የ ISO ምስል ያረጋግጡ"
+
+#: ../../verify.rst:4
+msgid ""
+"It is important to verify the integrity and authenticity of your ISO image."
+msgstr "የ እርስዎን ISO ምስል ትክክለኛነት ማረጋገጥ በጣም አስፈላጊ ነው."
+
+#: ../../verify.rst:6
+msgid ""
+"The integrity check confirms that your ISO image was properly downloaded and "
+"that your local file is an exact copy of the file present on the download "
+"servers. An error during the download could result in a corrupted file and "
+"trigger random issues during the installation."
+msgstr ""
+"ትክክለኛነት ማረጋገጫ የሚያረጋግጠው የ ISO ምስል በ ትክክል መውረዱን ነው: እና የ እርስዎ ፋይል ትክክለኛ መሆኑን "
+"ነው ከ ወረደበት ሰርቨር ውስጥ: እርስዎ በሚያወርዱ ጊዜ የ ተበላሸ ፋይል ወይንም የ ተሳሳተ ከሆነ በሚገጠም ጊዜ ችግር "
+"ሊፈጥር ይችላል"
+
+#: ../../verify.rst:8
+msgid ""
+"The authenticity check confirms that the ISO image you downloaded was signed "
+"by Linux Mint, and thus that it isn't a modified or malicious copy made by "
+"somebody else."
+msgstr ""
+"ማረጋገጫ መመርመር የሚጠቅመው እርስዎ ያወረዱት የ ISO ምስል በ ሊነክስ ሚንት መፈረሙን ለ ማረጋገጥ ነው: እና ምንም "
+"እንዳልተሻሻለ እና መጥፎ ኮፒ አለመሆኑን ለ ማረጋገጥ ነው:"
+
+#: ../../verify.rst:11
+msgid "Download the SHA256 sums provided by Linux Mint"
+msgstr "በ ሊነክስ ሚንት የሚቀርበውን የ SHA256 ድምር ያውርዱ"
+
+#: ../../verify.rst:13
+msgid ""
+"All `download mirrors <https://www.linuxmint.com/mirrors.php>`_ provide the "
+"ISO images, a ``sha256sum.txt`` file and a ``sha256sum.txt.gpg`` file. You "
+"should be able to find these files in the same place you downloaded the ISO "
+"image from."
+msgstr ""
+"ሁሉም `የ ማውረጃ አንፀባራቂዎች <https://www.linuxmint.com/mirrors.php>`_ የሚያቀርቡት የ ISO "
+"ምስል ነው: ከ ``sha256sum.txt`` ያይል እና ``sha256sum.txt.gpg`` ፋይል ጋር: እርስዎ እነዚህን "
+"ፋይሎች ይህን የ ISO ምስል ከሚያወርዱበት ቦታ ማግኘት ይችላሉ"
+
+#: ../../verify.rst:15
+msgid ""
+"If you can't find them, browse the `Heanet download mirror "
+"<https://ftp.heanet.ie/mirrors/linuxmint.com/stable/>`_ and click the "
+"version of the Linux Mint release you downloaded."
+msgstr ""
+"እርስዎ ሊያገኙት ካልቻሉ ይቃኙ በ `Heanet የ ማውረጃ ማንፀባረቂያ "
+"<https://ftp.heanet.ie/mirrors/linuxmint.com/stable/>`_ እና ይጫኑ የ ሊነክስ ሚንት "
+"እትም እርስዎ ያወረዱትን"
+
+#: ../../verify.rst:17
+msgid "Download both ``sha256sum.txt`` and ``sha256sum.txt.gpg``."
+msgstr "ሁለቱንም ያውርዱ ``sha256sum.txt`` እና ``sha256sum.txt.gpg``."
+
+#: ../../verify.rst:19
+msgid ""
+"Do not copy their content, use \"right-click->Save Link As...\" to download "
+"the files themselves and do not modify them in any way."
+msgstr ""
+
+#: ../../verify.rst:22
+msgid "Integrity check"
+msgstr "ትክክለኛነት ማረጋገጫ"
+
+#: ../../verify.rst:24
+msgid ""
+"To check the integrity of your local ISO file, generate its SHA256 sum and "
+"compare it with the sum present in ``sha256sum.txt``."
+msgstr ""
+"የ እርስዎን ISO file ትክክለኛነት ለማረጋገጥ: የ SHA256 sum ያመንጩ እና ድምሩን ከ ነበረው የ "
+"``sha256sum.txt`` ያወዳድሩ"
+
+#: ../../verify.rst:31
+msgid ""
+"If you are using Windows follow the tutorial `How to verify the ISO image on "
+"Windows <https://forums.linuxmint.com/viewtopic.php?f=42&t=291093>`_."
+msgstr ""
+
+#: ../../verify.rst:33
+msgid ""
+"If the sums match, your ISO image was successfully downloaded. If they "
+"don't, download it again."
+msgstr ""
+"የ እርስዎ ድምር ተመሳሳይ ከሆነ: የ እርስዎ ISO image በ ትክክል ወርዷል ማለት ነው: ድምሩ ተመሳሳይ ካልሆነ "
+"እንደገና ያውርዱ"
+
+#: ../../verify.rst:38
+msgid "Authenticity check"
+msgstr "ትክክለኛነት መመርመሪያ"
+
+#: ../../verify.rst:40
+msgid ""
+"To verify the authenticity of ``sha256sum.txt``, check the signature of "
+"``sha256sum.txt.gpg`` by following the steps below."
+msgstr ""
+"ትክክለኛነት ለ መመርመር የ ``sha256sum.txt``, ፊርማውን ይመርምሩ የ ``sha256sum.txt.gpg`` "
+"በሚቀጥሉት ደረጃዎች"
+
+#: ../../verify.rst:43
+msgid "Import the Linux Mint signing key:"
+msgstr "የ ሊነክስ ሚንት ፊርማ ቁልፍ ማምጫ:"
+
+#: ../../verify.rst:49
+msgid ""
+"If gpg complains about the key ID, try the following commands instead:"
+msgstr "ይህ gpg የ ቁልፍ መለያ ችግር ከ ፈጠረ: በሱ ፋንታ የሚቀጥለውን ትእዛዝ ይጠቀሙ:"
+
+#: ../../verify.rst:56
+msgid ""
+"Check the output of the last command, to make sure the fingerprint is ``27DE "
+"B156 44C6 B3CF 3BD7 D291 300F 846B A25B AE09`` (with or without spaces)."
+msgstr ""
+
+#: ../../verify.rst:59
+msgid "Verify the authenticity of sha256sum.txt:"
+msgstr "ትክክለኛነት መመርመሪያ ለ sha256sum.txt:"
+
+#: ../../verify.rst:64
+msgid ""
+"The output of the last command should tell you that the file signature is "
+"``good`` and that it was signed with the ``A25BAE09`` key."
+msgstr ""
+"የ መጨረሻውን ትእዛዝ ውጤት ለ እርስዎ የ ፋይል ፊርማውን ይነግርዎታል ``ጥሩ`` እና በ ትክክል መፈረሙን በ "
+"``A25BAE09`` ቁልፍ:"
+
+#: ../../verify.rst:67
+msgid ""
+"GPG might warn you that the Linux Mint signature is not trusted by your "
+"computer. This is expected and perfectly normal."
+msgstr ""
+"ምናልባት GPG የ እርስዎ ሊነክስ ሚንት ፊርማ በ እርስዎ ኮምፒዩተር የሚታመን አይደለም ሊል ይችላል: ይህ የሚጠበቅ እና "
+"በ ትክክል መደበኛ ነው"
+
+#: ../../verify.rst:70
+msgid ""
+"For more information on ISO verification, or to verify BETA, LMDE or old "
+"releases, read `How to Verify ISO images "
+"<https://linuxmint.com/verify.php>`_."
+msgstr ""
+"በ በለጠ ለ መረዳት ስለ ISO ማረጋገጫ: ወይንም BETA, LMDE ወይንም አሮጌ እትም ለ ማረጋገጥ: ይህን ያንብቡ `የ "
+"ISO ምስል እንደት እንደሚያረጋግጡ <https://linuxmint.com/verify.php>`_."

@@ -1,0 +1,1773 @@
+# Serbian Latin translation for linuxmint
+# Copyright (c) 2020 Rosetta Contributors and Canonical Ltd 2020
+# This file is distributed under the same license as the linuxmint package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2020.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: linuxmint\n"
+"Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
+"POT-Creation-Date: 2019-03-29 10:21+0000\n"
+"PO-Revision-Date: 2021-11-24 19:05+0000\n"
+"Last-Translator: Saša Marjanović <Unknown>\n"
+"Language-Team: Serbian Latin <sr@latin@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Launchpad-Export-Date: 2022-10-10 13:12+0000\n"
+"X-Generator: Launchpad (build 762fb15a975e8b23af6a1f86e44e46bfd0451459)\n"
+
+#: ../../boot_options.rst:2
+msgid "Boot options"
+msgstr "Opcije za pokretanje sistema"
+
+#: ../../boot_options.rst:4
+msgid ""
+"Some graphics cards and motherboards don't work well with the open-source "
+"drivers present in Linux Mint by default."
+msgstr ""
+"Neke grafičke kartice i matične ploče ne rade dobro sa drajverima pisanim u "
+"otvorenom kodu, koji su prisutni u Linuks Mintu"
+
+#: ../../boot_options.rst:7
+msgid "Compatibility mode"
+msgstr "Kompatibilni način rada"
+
+#: ../../boot_options.rst:9
+msgid ""
+"The easiest option is to select ``compatibility mode`` from the USB stick "
+"(or DVD) boot menu."
+msgstr ""
+"Najlakše je odabrati opciju \"kompatibilni način rada\" iz menija za "
+"pokretanje sistema sa USB memorijskog uređaja (ili DVD-a)"
+
+#: ../../boot_options.rst:15
+msgid "Grub menu (EFI mode)"
+msgstr "Grub meni (EFI režim)"
+
+#: ../../boot_options.rst:21
+msgid "Isolinux menu (BIOS mode)"
+msgstr "Isolinux meni (BIOS mod)"
+
+#: ../../boot_options.rst:23
+msgid "If that doesn't work, you can try the ``nomodeset`` boot option."
+msgstr ""
+"Ukoliko ovo ne funkcioniše, pokušajte sa ''nomodeset'' opcijom pri "
+"pokretanju sistema"
+
+#: ../../boot_options.rst:26
+msgid "Nomodeset boot option"
+msgstr "Nomodeset opcija za pokretanje sistema"
+
+#: ../../boot_options.rst:28
+msgid ""
+"In EFI mode, highlight the ``Start Linux Mint`` option and press :kbd:`e` to "
+"modify the boot options."
+msgstr ""
+"U EFI režimu, označite opciju ''Start Linux Mint'' i pritisnite :kbd:`e` da "
+"biste modifikovali opcije pri pokretanju sistema."
+
+#: ../../boot_options.rst:34
+msgid ""
+"Replace ``quiet splash`` with ``nomodeset`` and press :kbd:`F10` to boot."
+msgstr ""
+"Zamenite ``quiet splash`` sa ``nomodeset`` i pritisnite :kbd:`F10` da biste "
+"pokrenuli sistem."
+
+#: ../../boot_options.rst:36
+msgid ""
+"In BIOS mode, highlight ``Start Linux Mint`` and press :kbd:`Tab` to modify "
+"the boot options."
+msgstr ""
+"U BIOS režimu, označite ``Start Linux Mint`` i pritisnite :kbd:`Tab` da "
+"biste izmenili opcije prilikom podizanja sistema."
+
+#: ../../boot_options.rst:42
+msgid ""
+"Replace ``quiet splash`` with ``nomodeset`` and press :kbd:`Enter` to boot."
+msgstr ""
+"Zamenite ``quiet splash`` sa ``nomodeset`` i pritisnite :kbd:`Enter` da "
+"biste pokrenuli sistem."
+
+#: ../../boot_options.rst:45
+msgid ""
+"Repeat this operation post-install in your grub boot menu and read "
+":doc:`drivers` to install additional drivers."
+msgstr ""
+"Ponovite ovu radnju posle instalacije u Vašem grub meniju za podizanje "
+"sistema i pročitajte :doc:`drivers` da biste instalirali dodatne drajvere."
+
+#: ../../boot_options.rst:48
+msgid "Other boot options"
+msgstr "Ostale opcije za podizanje sistema"
+
+#: ../../boot_options.rst:50
+msgid "If you still cannot boot try one of the following solutions:"
+msgstr ""
+"Ukoliko još uvek ne možete da podignete sistem, pokušajte sa jednim od "
+"sledećih rešenja:"
+
+#: ../../boot_options.rst:52
+msgid "Try ``nouveau.noaccel=1`` instead of ``nomodeset``."
+msgstr "Pokušajte sa ``nouveau.noaccel=1`` umesto ``nomodeset``."
+
+#: ../../boot_options.rst:53
+msgid ""
+"After the installation, use :menuselection:`Advanced Options --> Recovery "
+"mode` from the boot menu and choose ``resume``."
+msgstr ""
+"Posle instalacije, izaberite :menuselection:`Advanced Options --> Recovery "
+"mode` iz menija za podizanje sistema, a zatim izaberite ``resume``."
+
+#: ../../boot_options.rst:56
+msgid "Install an older release"
+msgstr "Instalirajte neku od starijih verzija"
+
+#: ../../boot_options.rst:58
+msgid ""
+"If your computer has compatibility issues with the latest Linux Mint "
+"release, install a previous release from the same Linux Mint series."
+msgstr ""
+"Ukoliko Vаš rаčunаr imа problemа sа kompаtibilnošću sа nаjnovijim izdаnjem "
+"Linuks Mintа, instаlirаjte prethodnu verziju iz iste serije Linuks Minta."
+
+#: ../../boot_options.rst:60
+msgid ""
+"For instance, if you can't install Linux Mint 18.3 (which comes with a 4.10 "
+"kernel), install Linux Mint 18 (which comes with a 4.4 kernel) and upgrade "
+"to 18.3."
+msgstr ""
+"Na primer, ukoliko ne možete da instalirate Linuks Mint 18.3 (koji dolazi sa "
+"verzijom jezgra 4.10), instalirajte Linuks Mint 18 (koji dolazi sa verzijom "
+"jezgra 4.4) i nadogradite ga na verziju Linuks Mint 18.3."
+
+#: ../../boot_options.rst:63
+msgid ""
+"The first release in each series uses an LTS (Long Term Support) kernel. "
+"Upgrading from this release to the latest one in the series does not change "
+"your kernel."
+msgstr ""
+"Prvo izdanje u svakoj seriji koristi LTS (Long Term Support - Produžena "
+"podrška za) jezgro. Nadogradnjom sa ovog izdanja na najnovije u seriji, Vaše "
+"jezgro se neće promeniti."
+
+#: ../../boot.rst:2
+msgid "Boot Linux Mint"
+msgstr "Pokreni Linuks Mint"
+
+#: ../../boot.rst:4
+msgid ""
+"Now that you have Linux Mint on a USB stick (or DVD) boot the computer from "
+"it."
+msgstr ""
+"Sada kada imate Linuks Mint na USB memorijskom uređaju (ili DVD-u), "
+"pokrenite Vaš računar sa njega."
+
+#: ../../boot.rst:6
+msgid "Insert your USB stick (or DVD) into the computer."
+msgstr "Ubacite Vaš USB memorijski uređaj (ili DVD) u računar."
+
+#: ../../boot.rst:8 ../../drivers.rst:23 ../../efi.rst:61 ../../oem.rst:21
+msgid "Restart the computer."
+msgstr "Ponovo pokrenite računar."
+
+#: ../../boot.rst:10
+msgid ""
+"Before your computer boots your current operating system (Windows, Mac, "
+"Linux) you should see your `BIOS <https://en.wikipedia.org/wiki/BIOS>`_ "
+"loading screen. Check the screen or your computer's documentation to know "
+"which key to press and instruct your computer to boot on USB (or DVD)."
+msgstr ""
+"Pre nego što Vaš računar pokrene vaš trenutni operativni sistem (Windows, "
+"Mac, Linuks), trebalo bi da pogledate Vaš `BIOS "
+"<https://en.vikipedia.org/viki/BIOS>`_ prikaz na ekranu tokom učitavanja. "
+"Pogledajte na ekranu ili u dokumentaciji računara da biste znali koji taster "
+"da pritisnete i naložite računaru da se pokrene sa USB memorijskog uređaja "
+"(ili DVD-a)."
+
+#: ../../boot.rst:13
+msgid ""
+"Most BIOS have a special key you can press to select the boot device and all "
+"of them have a special key to enter the BIOS configuration screen (from "
+"which you can define the boot order). Depending on the BIOS, these special "
+"keys can be :kbd:`Escape`, :kbd:`F1`, :kbd:`F2`, :kbd:`F8`, :kbd:`F10`, "
+":kbd:`F11`, :kbd:`F12`, or :kbd:`Delete`. That information is usually "
+"briefly written on the screen during the boot sequence."
+msgstr ""
+"Većina BIOS-a ima poseban taster koji možete pritisnuti da biste izabrali "
+"uređaj sa koga će se sitem podići, a svi imaju poseban taster kojim se ulazi "
+"u konfiguracioni meni BIOS-a (odakle možete da podesite redosled uređaja sa "
+"kojih će se podizati sistem). U zavisnosti od BIOS-a, ovi posebni tasteri "
+"mogu biti :kbd:`Escape`, :kbd:`F1`, :kbd:`F2`, :kbd:`F8`, :kbd:`F10`, "
+":kbd:`F11`, :kbd:`F12`, ili :kbd:`Delete`.  Ova informacija se obično na "
+"kratko ispisuje na ekranu tokom sekvence podizanja sistema."
+
+#: ../../boot.rst:16
+msgid ""
+"On Macs, keep your finger pressed on the :kbd:`Alt` or :kbd:`Option` key "
+"after hearing the boot sound."
+msgstr ""
+"Na Mac računarima, zadržite pritisnut taster :kbd:`Alt` ili :kbd:`Option` "
+"pošto čujete zvuk kojim se označava podizanje sistema."
+
+#: ../../boot.rst:18
+msgid ""
+"The Linux Mint ISO can be booted both in EFI or BIOS mode. In EFI mode it "
+"shows a grub menu. In BIOS mode it shows an isolinux menu."
+msgstr ""
+"ISO Linuks Minta se može podići kako u EFI , tako i u BIOS režimu. U EFI "
+"režimu se prikazuje grub meni. U BIOS režimu se prikazuje isolinux meni."
+
+#: ../../boot.rst:24
+msgid "The isolinux menu in BIOS mode"
+msgstr "isolinux meni u BIOS režimu"
+
+#: ../../boot.rst:30
+msgid "The grub menu in EFI mode"
+msgstr "grub meni u EFI režimu"
+
+#: ../../boot.rst:32
+msgid ""
+"From one of these menu, press :kbd:`Enter` to start Linux Mint from your USB "
+"stick (or DVD)."
+msgstr ""
+"Iz jednog od ovih menija, pritisnite :kbd:`Enter` da biste pokrenuli Linuks "
+"Mint sa Vašeg USB memorijskog uređaja (ili DVD-a)."
+
+#: ../../burn.rst:2
+msgid "Create the bootable media"
+msgstr "Formirajte medij za pokretanje sistema"
+
+#: ../../burn.rst:4
+msgid "The easiest way to install Linux Mint is with a USB stick."
+msgstr ""
+"Najlakši način za instalaciju Linuks Minta je sa USB memorijskim uređajem."
+
+#: ../../burn.rst:6
+msgid "If you cannot boot from USB, you can use a blank DVD."
+msgstr ""
+"Ukoliko ne možete pokrenuti sistem sa USB-a, možete iskoristiti prazan DVD."
+
+#: ../../burn.rst:9
+msgid "How to make a bootable USB stick"
+msgstr "Kako napraviti USB memorijski uređaj za pokretanje sistema"
+
+#: ../../burn.rst:12
+msgid "In Linux Mint"
+msgstr "U Linuks Mintu"
+
+#: ../../burn.rst:14
+msgid ""
+"Right-click the ISO file and select :menuselection:`Make Bootable USB "
+"Stick`, or launch :menuselection:`Menu --> Accessories --> USB Image Writer`."
+msgstr ""
+"Kliknite desnim tasterom miša na ISO datoteku i izaberite "
+":menuselection:`Make Bootable USB Stick`, ili pokrenite :menuselection:`Menu "
+"--> Accessories --> USB Image Writer`."
+
+#: ../../burn.rst:20
+msgid "Select your USB device and click :guilabel:`Write`."
+msgstr "Izaberite Vaš USB memorijski uređaj i kliknite na :guilabel:`Write`."
+
+#: ../../burn.rst:23
+msgid "In Windows, Mac OS, or other Linux distributions"
+msgstr "U Windowsu, Mac OS-u, ili nekoj drugoj Linuks distribuciji"
+
+#: ../../burn.rst:25
+msgid ""
+"Download `Etcher <https://www.balena.io/etcher/>`_, install it and run it."
+msgstr ""
+"Preuzmite `Etcher <https://www.balena.io/etcher/>`_, instalirajte ga i "
+"pokrenite."
+
+#: ../../burn.rst:31
+msgid "Using Etcher"
+msgstr "Korišćenje Etchera"
+
+#: ../../burn.rst:33
+msgid "Click :guilabel:`Select image` and select your ISO file."
+msgstr "Kliknite na :guilabel:`Select image` i izaberite Vašu ISO datoteku."
+
+#: ../../burn.rst:35
+msgid "Click :guilabel:`Select drive` and select your USB stick."
+msgstr ""
+"Kliknite na :guilabel:`Select drive` i izaberite Vaš USB memorijski uređaj."
+
+#: ../../burn.rst:37
+msgid "Click :guilabel:`Flash!`."
+msgstr "Kliknite na :guilabel:`Flash!`."
+
+#: ../../burn.rst:41
+msgid "How to make a bootable DVD"
+msgstr "Kako napraviti DVD za pokretanje sistema"
+
+#: ../../burn.rst:43
+msgid "Optical discs are slow and burning to disc is prone to errors."
+msgstr ""
+"Optički diskovi su spori i narezivanje na disk ponekad može dovesti do "
+"grešaka."
+
+#: ../../burn.rst:46
+msgid "To prevent issues, burn at the lowest possible speed."
+msgstr ""
+"Da biste sprečili probleme, narezivanje vršite najmanjom mogućom brzinom."
+
+#: ../../burn.rst:49
+msgid ""
+"Burn the content of the ISO onto the DVD, not the ISO file itself. When "
+"finished, your DVD should contain directories such as ``boot`` and "
+"``casper``, it shouldn't be an empty DVD containing an .iso file."
+msgstr ""
+"Narežite sadržaj ISO datoteke na DVD, a ne samu ISO datoteku. Kada završite, "
+"na Vašem DVD-u bi se trebali nalaziti direktorijumi kao što su ``boot`` i "
+"``casper``, a ne prazan DVD na kome se nalazi jedna .iso datoteka."
+
+#: ../../burn.rst:52
+msgid "In Linux"
+msgstr "U Linuksu"
+
+#: ../../burn.rst:53
+msgid "Install and use ``xfburn``."
+msgstr "Instalirajte i pokrenite ``xfburn``."
+
+#: ../../burn.rst:56
+msgid "In Windows"
+msgstr "U Windowsu"
+
+#: ../../burn.rst:57
+msgid "Right-click the ISO file and select :menuselection:`Burn disk image`."
+msgstr ""
+"Kliknite desnim tasterom miša na ISO datoteku i izaberite "
+":menuselection:`Burn disk image`."
+
+#: ../../burn.rst:59
+msgid ""
+"To make sure the ISO was burned without any errors, select "
+":menuselection:`Verify disc after burning`."
+msgstr ""
+"Da biste bili sigurni da je ISO narezan bez grešaka, izaberite "
+":menuselection:`Verify disc after burning`."
+
+#: ../../burn.rst:62
+msgid "In Mac OS"
+msgstr "U Mac OS-u"
+
+#: ../../burn.rst:63
+msgid ""
+"Right-click the ISO file and select :menuselection:`Burn Disk Image to Disc`."
+msgstr ""
+"Kliknite desnim tasterom miša na ISO datoteku i izaberite "
+":menuselection:`Burn Disk Image to Disc`."
+
+#: ../../choose.rst:2
+msgid "Choose the right edition"
+msgstr "Izaberite izdanje koje je najprikladnije za Vas"
+
+#: ../../choose.rst:4
+msgid ""
+"You can download Linux Mint from the `Linux Mint website "
+"<https://linuxmint.com/download.php>`_."
+msgstr ""
+"Linuks Mint možete preuzeti sa `Linux Mint website "
+"<https://linuxmint.com/download.php>`_."
+
+#: ../../choose.rst:6
+msgid ""
+"Read below to choose which edition and architecture are right for you."
+msgstr ""
+"Pročitajte sadržaj u nastavku da biste izabrali koje izdanje i arhitektura "
+"su najprikladnije za Vas."
+
+#: ../../choose.rst:9
+msgid "Cinnamon, MATE or Xfce?"
+msgstr "Cinnamon, MATE ili Xfce?"
+
+#: ../../choose.rst:11
+msgid ""
+"Linux Mint comes in 3 different flavours, each featuring a different desktop "
+"environment."
+msgstr ""
+"Linuk Mint dolazi u 3 različite varijante, od kojih svaka sadrži drugačije "
+"radno okruženje."
+
+#: ../../choose.rst:14 ../../choose.rst:26
+msgid "Cinnamon"
+msgstr "Cinnamon"
+
+#: ../../choose.rst:14
+msgid "The most modern, innovative and full-featured desktop"
+msgstr ""
+"Najmodernija i najinovativnija radna površina, sa kompletnim opsegom "
+"funkcija."
+
+#: ../../choose.rst:15 ../../choose.rst:35
+msgid "MATE"
+msgstr "MATE"
+
+#: ../../choose.rst:15
+msgid "A more traditional, and faster desktop"
+msgstr "Tradicionalnija i brža radna površina"
+
+#: ../../choose.rst:16 ../../choose.rst:44
+msgid "Xfce"
+msgstr "Xfce"
+
+#: ../../choose.rst:16
+msgid "The most lightweight desktop"
+msgstr "Radna površina koja zahteva najmanje resursa"
+
+#: ../../choose.rst:19
+msgid ""
+"The most popular version of Linux Mint is the Cinnamon edition. Cinnamon is "
+"primarily developed for and by Linux Mint. It is slick, beautiful, and full "
+"of new features."
+msgstr ""
+"Najpopularnija verzija Linuks Minta je Cinnamon. Cinnamon je prevashodno "
+"razvijen za Linuks Mint, od strane našeg tima. Uglađen je, prelep i pun "
+"novih funkcija."
+
+#: ../../choose.rst:28
+msgid ""
+"Linux Mint is also involved in the development of MATE, a classic desktop "
+"environment which is the continuation of GNOME 2, Linux Mint's default "
+"desktop between 2006 and 2011. Although it misses a few features and its "
+"development is slower than Cinnamon's, MATE uses less resources and can run "
+"faster on older computers."
+msgstr ""
+"Linux Mint takođe učestvuje u razvoju MATE-a, klasičnog radnog okruženja "
+"koje je nastavak GNOME 2, podrazumevanog radnog okruženja u Linux Mintu "
+"između 2006. i 2011. godine. Premda nema nekoliko svojstvenih karakteristika "
+"i njegov razvoj se odvija sporije u poređenju sa Cinnamonom, MATE koristi "
+"manje resursa i može da se pokreće brže na starijim računarima."
+
+#: ../../choose.rst:37
+msgid ""
+"Xfce is a lightweight desktop environment. It doesn't support as many "
+"features as Cinnamon or MATE, but it's extremely stable and very light on "
+"resource usage."
+msgstr ""
+"Xfce je lаgаno rаdno okruženje. Ne podržаvа toliko funkcijа kаo Cinnamon ili "
+"MATE, аli je izuzetno stаbilаn i vrlo štedljiv u pogledu korišćenja resursа."
+
+#: ../../choose.rst:46
+msgid ""
+"Of course, all three desktops are great and Linux Mint is extremely proud of "
+"each edition. Although there are more features and better support in some "
+"editions than others, and some do run faster and use less resources than "
+"others, they're all great alternatives and choosing the right edition is "
+"largely a matter of taste."
+msgstr ""
+"Naravno, sva tri radna okruženja su sjajna i tim Linuks Minta je izuzetno "
+"ponosan na svako od njih. Premda neka izdanja imaju više funkcija i boje su "
+"podržana u odnosu na druga, a neka su brža i koriste manje resursa od "
+"drugih, sva imaju odlične mogućnosti, tako da je izbor pravog izdanja u "
+"glavnom stvar ličnog ukusa."
+
+#: ../../choose.rst:48
+msgid ""
+"Other than their features and performance, Cinnamon, MATE and Xfce also "
+"represent three different desktop environments, with different menus, "
+"different panels and configuration tools. The right one for you is the one "
+"where you feel at home."
+msgstr ""
+"Osim razlika u funkcijama i performansama, Cinnamon, MATE i Xfce takođe "
+"predstavljaju tri različita radna okruženja, sa različitim menijima, "
+"različitim panelima i alatima za podešavanja. Pravo radno okruženja za Vas "
+"je ono u kome se osećate kao kod kuće."
+
+#: ../../choose.rst:50
+msgid ""
+"If you are unsure which desktop to choose start with the Cinnamon edition. "
+"Try them all eventually when you have the time. All three of them have their "
+"own audience within the Linux Mint community and they're all very popular."
+msgstr ""
+"Ukoliko niste sigurni koju biste radnu površinu koristili, počnite sa "
+"izdanjem Cinnamon. Vremenom ih sve isprobajte, kada budete imali vremena. "
+"Sve tri radne površine imaju svoju publiku unutar zajednice Linuks Minta i "
+"sve su veoma popularne."
+
+#: ../../choose.rst:54
+msgid "32-bit or 64-bit?"
+msgstr "32-bitno ili 64-bitno?"
+
+#: ../../choose.rst:56
+msgid "From version 20 onward, only 64-bit is available."
+msgstr "Od verzije 20 nadalje, dostupna je samo 64-bitna verzija."
+
+#: ../../choose.rst:58
+msgid ""
+"The 32-bit ISO images on prior versions are provided for compatibility with "
+"older computers. 32-bit processors are extremely rare nowadays and most "
+"computers are able to run in 64-bit. If your computer was manufactured after "
+"2007, you probably have a 64-bit processor."
+msgstr ""
+"32-bitne ISO slike prethodnih verzija su dostupne zbog kompatibilnosti sa "
+"stariijim računarima. Danas su 32-bitni procesori izuzetno retki i većina "
+"računara može da radi na 64-bita. Ukoliko je Vaš računar proizveden posle "
+"2007. godine, verovatno imate 64-bitni procesor."
+
+#: ../../choose.rst:60
+msgid ""
+"If you have an old computer and you are unsure whether or not it can run in "
+"64-bit, read `X86 Chronology "
+"<https://en.wikipedia.org/wiki/X86#Chronology>`_."
+msgstr ""
+"Ukoliko imate stariji računar i niste sigurni da li može da radi u 64-bitnom "
+"režimu, pročitajte `X86 Chronology "
+"<https://en.wikipedia.org/wiki/X86#Chronology>`_."
+
+#: ../../choose.rst:63
+msgid ""
+"You can try to boot Linux Mint 64-bit on your computer. If it isn't "
+"compatible, nothing bad will happen. You will just get an error message."
+msgstr ""
+"Možete da pokušate da podignete 64-bitni Linuks Mint na Vašem računaru. "
+"Ukoliko nije kompatibilan, ništa se loše neće desiti. Samo ćete dobiti "
+"poruku o grešci."
+
+#: ../../choose.rst:66
+msgid ""
+"If you cannot boot or install Linux Mint because your hardware is too recent "
+"and is not properly detected see the `Edge ISO Images <https://linuxmint-"
+"user-guide.readthedocs.io/en/latest/edge.html>`_ chapter in the Linux Mint "
+"User Guide for an alternative ISO."
+msgstr ""
+"Ukoliko ne možete da pokrenete računar ili instalirate Linux Mint zato što "
+"je Vaš hardver isuviše nov i nije pravilno prepoznat, pogledajte u poglavlju "
+"`Edge ISO Images <https://linuxmint-user-"
+"guide.readthedocs.io/en/latest/edge.html>`_ u uputstvu za korišćenje Linux "
+"Minta kako da pronađete alternativni ISO."
+
+#: ../../codecs.rst:2
+msgid "Multimedia codecs"
+msgstr "Multimedijаlni kodeci"
+
+#: ../../codecs.rst:4
+msgid "Some multimedia content requires additional codecs to be installed."
+msgstr ""
+"Neki multimedijalni sadržaji zahtevaju da dodatni kodeci budu instalirani."
+
+#: ../../codecs.rst:7
+msgid ""
+"If you were online when installing Linux Mint and you ticked the option to "
+"install these codecs, they are already installed."
+msgstr ""
+"Ukoliko ste bili povezani na internet kada ste instalirali Linuks Mint i "
+"označili opciju da instalirate ove kodeke, oni su već instalirani."
+
+#: ../../codecs.rst:9
+msgid ""
+"Launch :menuselection:`Menu --> Sound & Video --> Install Multimedia Codecs`."
+msgstr ""
+"Pokrenite :menuselection:`Menu --> Sound & Video --> Install Multimedia "
+"Codecs`."
+
+#: ../../codecs.rst:14
+msgid "Click :guilabel:`Install`."
+msgstr "Kliknie na :guilabel:`Install`."
+
+#: ../../codecs.rst:16
+msgid ""
+"Enter your password and wait for the codecs to be installed on your computer."
+msgstr ""
+"Unesite Vašu lozinku i sačekajte da ovi kodeci budu instalirani na Vaš "
+"računar."
+
+#: ../../drivers.rst:2
+msgid "Hardware drivers"
+msgstr "Upravljački programi (drajveri) hardvera"
+
+#: ../../drivers.rst:4
+msgid ""
+"One of the first things to do after installing Linux Mint is to check for "
+"available hardware drivers."
+msgstr ""
+"Jedna od prvih stvari koje treba uraditi posle instalacije Linuks Minta je "
+"da proverite da li postoje dostupni upravljački programi za hardver."
+
+#: ../../drivers.rst:6
+msgid "Launch :menuselection:`Menu --> Administration --> Driver Manager`."
+msgstr ""
+"Pokrenite :menuselection:`Menu --> Administration --> Driver Manager`."
+
+#: ../../drivers.rst:13
+msgid ""
+"If you are offline, the Driver Manager will complain that it cannot connect "
+"to the Internet."
+msgstr ""
+"Ukoliko niste povezani na internet, Menadžer upravljačkih programa će se "
+"žaliti da se ne može povezati na internet."
+
+#: ../../drivers.rst:19
+msgid ""
+"Insert your bootable Linux Mint USB stick (or DVD), wait for it to be "
+"mounted, and click :guilabel:`OK`."
+msgstr ""
+"Uključite USB memorijski uređaj (ili DVD) za podizane Linuks Mint sistema, "
+"sačekajte da se podigne, i kliknite na :guilabel:`OK`."
+
+#: ../../drivers.rst:21
+msgid ""
+"Tick the appropriate checkboxes to select the available drivers and click "
+":guilabel:`Apply Changes`."
+msgstr ""
+"Označite odgovarajuća polja za potvrdu da biste izabrali dostupne "
+"upravljačke programe i kliknite na :guilabel:`Apply Changes`."
+
+#: ../../efi.rst:2
+msgid "EFI"
+msgstr "EFI"
+
+#: ../../efi.rst:5
+msgid "SecureBoot"
+msgstr "SecureBoot"
+
+#: ../../efi.rst:7
+msgid ""
+"If after installing Linux Mint in EFI mode, you are unable to boot due to a "
+"``Secure Boot Violation``, you can try one of the following solutions:"
+msgstr ""
+"Ukoliko posle instalacije Linuks Minta u EFI režimu ne možete da podignete "
+"sistem, uz prikaz greške ``Secure Boot Violation``, možete da probate jedno "
+"od sledećih rešenja:"
+
+#: ../../efi.rst:15
+msgid "Restart the installation:"
+msgstr "Ponovo pokrenite instalaciju:"
+
+#: ../../efi.rst:14
+msgid "Connect to the Internet before the installation"
+msgstr "Povežite se na internet pre pokretanja instalacije"
+
+#: ../../efi.rst:15
+msgid ""
+"**Do not** select ``Install third-party software for graphics and Wi-Fi "
+"hardware, Flash, MP3 and other media``."
+msgstr ""
+"**Nemojte** izabrati opciju ``Install third-party software for graphics and "
+"Wi-Fi hardware, Flash, MP3 and other media``."
+
+#: ../../efi.rst:17
+msgid "Disable ``SecureBoot`` in the ``BIOS`` settings of your computer."
+msgstr ""
+"Onemogućite opciju ``SecureBoot`` u podešavanjima BIOS-a Vašeg računara."
+
+#: ../../efi.rst:20
+msgid ""
+"For examples of how to disable secure boot on various computers, read "
+"`Managing EFI Boot Loaders for Linux: Dealing with Secure Boot "
+"<http://www.rodsbooks.com/efi-bootloaders/secureboot.html>`_."
+msgstr ""
+"Da biste videli primere kako isključiti opciju ``secure boot`` na raznim "
+"računarima, pročitajte `Managing EFI Boot Loaders for Linux: Dealing with "
+"Secure Boot <http://www.rodsbooks.com/efi-bootloaders/secureboot.html>`_."
+
+#: ../../efi.rst:23
+msgid "EFI boot order"
+msgstr "EFI boot order (redosled pokretanja uređaja u EFI režimu)"
+
+#: ../../efi.rst:25
+msgid ""
+"If after installing Linux Mint in EFI mode, your computer skips the boot "
+"menu and boots straight into Windows (or another operating system), you "
+"probably have an issue with the boot order."
+msgstr ""
+"Ukoliko posle instaliranja Linuks Minta u EFI režimu, Vaš račurar preskoči "
+"meni za pokretanje sistema i odmah pokrene Windows (ili neki drugi "
+"operativni sistem), verovatno imate problema sa redosledom pokretanja "
+"uređaja."
+
+#: ../../efi.rst:27
+msgid "To modify the boot order:"
+msgstr "Da biste izmenili redosled pokretanja uređaja:"
+
+#: ../../efi.rst:29 ../../multiboot.rst:18
+msgid "Boot Linux Mint in ``live`` mode (with your USB stick or DVD)."
+msgstr ""
+"Pokrenite Linuks Mint u ``live`` režimu (sa Vašeg USB memorijskog uređaja "
+"ili DVD-a)."
+
+#: ../../efi.rst:31 ../../multiboot.rst:20
+msgid "Open a terminal."
+msgstr "Pokrenite terminal."
+
+#: ../../efi.rst:33
+msgid "Type ``sudo efibootmgr`` and press :kbd:`Enter`."
+msgstr ""
+"Ukucajte ``sudo efibootmgr`` i pritisnite taster `Enter` na tastaturi."
+
+#: ../../efi.rst:35
+msgid "This command lists the available boot options and the boot order."
+msgstr ""
+"Ova komanda izlistava sve dostupne opcije za pokretanje sistema i redosled "
+"pokretanja uređaja."
+
+#: ../../efi.rst:41
+msgid "In the screenshot above, there are three boot options:"
+msgstr ""
+"Na slici ekrana iznad ovog teksta, prikazane su tri opcije za pokretanje "
+"sistema:"
+
+#: ../../efi.rst:43
+msgid "``ubuntu`` at ``0000``"
+msgstr "``ubuntu`` na ``0000``"
+
+#: ../../efi.rst:44
+msgid "``linuxmint`` at ``0001``"
+msgstr "``linuxmint`` na ``0001``"
+
+#: ../../efi.rst:45
+msgid "``Mac OS X`` at ``0081``"
+msgstr "``Mac OS X`` na ``0081``"
+
+#: ../../efi.rst:47
+msgid ""
+"The boot order is ``0081``. This indicates that the computer only tries to "
+"boot Mac OS and not Linux Mint."
+msgstr ""
+"Redosled pokretanja sistema je ``0081``.  Ovo označava da računar pokušava "
+"da pokrene jedino Mac OS, a ne Linuks Mint."
+
+#: ../../efi.rst:50
+msgid ""
+"For technical reasons Linux Mint uses ``ubuntu`` as its EFI boot name."
+msgstr ""
+"Iz tehničkih razloga, Linuks Mint koristi ``ubuntu`` kao svoj naziv za EFI "
+"pokretanje sistema."
+
+#: ../../efi.rst:53
+msgid ""
+"To fix the boot order, type ``sudo efibootmgr --bootorder XXXX,YYYY`` (where "
+"``XXXX`` and ``YYYY`` are the operating system boot options you want to "
+"boot)."
+msgstr ""
+"Da biste popravili redosled podizanja sistema, otkucajte ``sudo efibootmgr --"
+"bootorder XXXX,YYYY`` (gde su ``XXXX`` i ``YYYY`` opcije za podizanje "
+"operativnog sistema koji želite da podignete."
+
+#: ../../efi.rst:59
+msgid ""
+"In the screenshot above, ``sudo efibootmgr --bootorder 0000,0081`` instructs "
+"the computer to first try to boot Linux Mint (``ubuntu`` being the EFI boot "
+"name for Linux Mint), and then Mac OS."
+msgstr ""
+"Na slici ekrana iznad ovog teksta, ``sudo efibootmgr --bootorder 0000,0081`` "
+"nalaže računaru da prvo pokuša da podigne sistem Linuks Mint (pošto je "
+"``ubuntu`` naziv za EFI pokretanje sistema za Linuks Mint), a zatim Mac OS."
+
+#: ../../efi.rst:64
+msgid ""
+"In the screenshot above ``0000`` is the first boot option so the computer "
+"boots on the Linux Mint grub menu. If grub fails (or if it is dismissed with "
+"the ``exit`` command), the computer follows the boot order and then tries to "
+"boot ``0081``, which corresponds to Mac OS."
+msgstr ""
+"Na slici ekrana iznad ovog teksta, ``0000`` je prva opcija za pokretanje "
+"sistema, tako da računar pokreće grub meni Linuks Minta. Ukoliko grub ne "
+"uspe (ili ukoliko je obustavljen komandom ``exit``), računar sledi redosled "
+"pokretanja sistema i zatim pokušava da podigne sistem ``0081``, što odgovara "
+"Mac OS-u."
+
+#: ../../help.rst:2
+msgid "Where to find help"
+msgstr "Gde naći pomoć"
+
+#: ../../help.rst:4
+msgid ""
+"Many users will be glad to help you and guide you through your first steps "
+"with Linux if you are nice and patient with them and if you give them the "
+"information they require to understand the issues you are facing."
+msgstr ""
+"Mnogim korisnicima će biti drago da Vam pomognu i provedu Vas kroz prve "
+"korake u Linuksu ukoliko ste prijatni i strpljivi sa njima i ukoliko im "
+"pružite informacije koje su im potrebne kako bi shvatili problem sa kojim se "
+"suočavate."
+
+#: ../../help.rst:7
+msgid "The forums"
+msgstr "Forumi"
+
+#: ../../help.rst:9
+msgid ""
+"The best place to find help is on the `Linux Mint Forums "
+"<https://forums.linuxmint.com>`_."
+msgstr ""
+"Najbolje mesto za pronalaženje pomoći je na `Linux Mint Forums "
+"<https://forums.linuxmint.com>`_."
+
+#: ../../help.rst:12
+msgid ""
+"Search the forums before asking, in case someone else already asked the same "
+"question."
+msgstr ""
+"Pretražite forume pre nego što postavite pitanje, za slučaj da je neko već "
+"postavio isto to pitanje."
+
+#: ../../help.rst:15
+msgid "The chat room"
+msgstr "Pričaonica (``chat room``)"
+
+#: ../../help.rst:17
+msgid "Another great place to find help is in the IRC chat room."
+msgstr "Drugo sjajno mesto za pronalaženje pomoći je u IRC pričaonici."
+
+#: ../../help.rst:19
+msgid ""
+"To reach the chat room from within Linux Mint, launch :menuselection:`Menu --"
+"> Internet --> HexChat`."
+msgstr ""
+"Da biste dospeli do pričaonice iz Linuks Minta, pokrenite "
+":menuselection:`Menu --> Internet --> HexChat`."
+
+#: ../../help.rst:21
+msgid ""
+"If you are using another operating system, you can use `Kiwiirc "
+"<https://kiwiirc.com/client/irc.spotchat.org/?i#linuxmint-help>`_ to connect "
+"to the chat room."
+msgstr ""
+"Ukoliko koristite neki drugi operativni sistem, možete da koristite `Kiwiirc "
+"<https://kiwiirc.com/client/irc.spotchat.org/?i#linuxmint-help>`_  da biste "
+"se povezali sa pričaonicom."
+
+#: ../../help.rst:24
+msgid ""
+"Many people are connected to the chat room but only look at it now and then. "
+"Be patient after asking a question. Don't repeat it and stay connected until "
+"you get an answer. It can sometimes take a few hours for somebody to see "
+"your question and reply to you. Don't quit after a few minutes. It is "
+"frustrating to you, but also to others who later see your question and are "
+"unable to reply because you already left."
+msgstr ""
+"Mnogi su povezani na pričaonicu, ali samo je povremeno pregledaju. Budite "
+"strpljivi posle postavljanja pitanja. Nemojte ga ponavljati i ostanite "
+"povezani sve dok ne dobijete odgovor. Ponekad je potrebno i po nekoliko sati "
+"da bi neko video Vaše pitanje i odgovorio Vam. Nemojte napuštati pričaonicu "
+"posle nekoliko minuta. Za Vas je situacija frustrirajuća, ali je takođe i za "
+"one koji kasnije vide Vaše pitanje, ali Vam ne mogu odgovoriti jer ste već "
+"otišli."
+
+#: ../../help.rst:27
+msgid ""
+"If you are using Hexchat, you can minimize it to tray by clicking its status "
+"icon. People will often mention your nickname when replying to you. When "
+"they do, your Hexchat status icon will blink to catch your attention."
+msgstr ""
+"Ukoliko koristite Hexchat, možete ga umanjiti na sistemsku traku tako što "
+"ćete kliknuti na njegovu statusnu ikonu. Učesnici u pričaonici će Vam često "
+"odgovoriti pominjući Vaš nadimak (``nickname``). Kada to budu učinili, "
+"statusna ikona Vašeg Hexchata će zatreperiti da bi Vam privukla pažnju."
+
+#: ../../help.rst:30
+msgid "Community resources"
+msgstr "Resursi zajednice"
+
+#: ../../help.rst:32
+msgid ""
+"The `tutorials section <https://community.linuxmint.com/tutorial/search>`_ "
+"is useful to find tutorials about Linux Mint."
+msgstr ""
+"Odeljak `tutorials section "
+"<https://community.linuxmint.com/tutorial/search>`_ je koristan za "
+"pronalaženje uputstava za rad u Linuks Mintu."
+
+#: ../../help.rst:34
+msgid ""
+"The `hardware database <https://community.linuxmint.com/hardware/search>`_ "
+"is useful to find compatible hardware."
+msgstr ""
+"Baza podataka `hardware database "
+"<https://community.linuxmint.com/hardware/search>`_ je korisna za "
+"pronalaženje kompatibilnog hardvera."
+
+#: ../../help.rst:37
+msgid "Local communities"
+msgstr "Lokalne zajednice"
+
+#: ../../help.rst:39
+msgid ""
+"To find help in your language, use the `Local Communities "
+"<https://www.linuxmint.com/links.php>`_."
+msgstr ""
+"Da biste pronašli pomoć na Vašem jeziku, koristite `Local Communities "
+"<https://www.linuxmint.com/links.php>`_."
+
+#: ../../index.rst:2
+msgid "Linux Mint Installation Guide"
+msgstr "Vodič za instalaciju Linuks Minta"
+
+#: ../../index.rst:8
+msgid ""
+"Linux Mint comes in the form of an ISO image (an .iso file) which can be "
+"used to make a bootable DVD or a bootable USB stick."
+msgstr ""
+"Linuks Mint dolazi u obliku ISO kopije (.iso datoteke), koja se može "
+"iskoristiti za pravljenje DVD-a ili USB memorijskog uređaja za podizanje "
+"sistema."
+
+#: ../../index.rst:10
+msgid ""
+"This guide will help you download the right ISO image, create your bootable "
+"media and install Linux Mint on your computer."
+msgstr ""
+"Ovaj vodič će Vam pomoći da preuzmete odgovarajuću ISO kopiju, napravite Vaš "
+"medijum za podizanje sistema i instalirate Linuks Mint na Vašem računaru."
+
+#: ../../index.rst:12 ../../sections.rst:5
+msgid "Download"
+msgstr "Preuzimanje"
+
+#: ../../index.rst:19 ../../sections.rst:7
+msgid "Live Boot"
+msgstr "Podizanje živog sistema (``Live Boot``)"
+
+#: ../../index.rst:26 ../../sections.rst:9
+msgid "Installation"
+msgstr "Instalacija"
+
+#: ../../index.rst:32 ../../sections.rst:11
+msgid "Post-installation"
+msgstr "Posle instalacije"
+
+#: ../../index.rst:41 ../../sections.rst:13
+msgid "Troubleshooting"
+msgstr "Rešavanje problema"
+
+#: ../../index.rst:48 ../../sections.rst:15
+msgid "Frequently Asked Questions"
+msgstr "Često postavljana pitanja"
+
+#: ../../install.rst:2
+msgid "Install Linux Mint"
+msgstr "Instaliraj Linuks Mint"
+
+#: ../../install.rst:5
+msgid "The live session"
+msgstr "Živa sesija"
+
+#: ../../install.rst:7
+msgid ""
+"When you boot the computer from the USB stick (or DVD), Linux Mint starts a "
+"``live session``. It logs you in automatically as a user called ``mint`` and "
+"shows you a desktop with the installer on it:"
+msgstr ""
+"Kada pokrenete sistem na računaru sa USB memorijskog uređaja (ili DVD-a), "
+"Linuks Mint pokreće ``živu sesiju``. Bićete automatski prijavljeni kao "
+"korisnik pod imenom ``mint`` i biće Vam prikazana radna površina sa "
+"programom za instaliranje:"
+
+#: ../../install.rst:13
+msgid "The Linux Mint live session"
+msgstr "Živa sesija Linuks Minta"
+
+#: ../../install.rst:15
+msgid ""
+"The ``live session`` is similar to a normal session (i.e. to Linux Mint once "
+"it is permanently installed on the computer), but with the following "
+"exceptions:"
+msgstr ""
+"``Živa sesija`` je slična normalnoj sesiji (t.j. kada Linuks Mint bude "
+"trajno instaliran na Vašem računaru), ali uz sledeće izuzetke:"
+
+#: ../../install.rst:17
+msgid ""
+"The Live session is slower (it is loaded from a USB stick or DVD as opposed "
+"to a SSD or HDD)."
+msgstr ""
+"Živa sesija je sporija (učitava se sa USB memorijskog uređaja ili DVD-a, "
+"umesto sa SSD-a ili HDD-a)."
+
+#: ../../install.rst:18
+msgid ""
+"Changes you make in the live session are not permanent. They are not written "
+"to the USB stick (or DVD) and they do not impact the system installed by the "
+"installer."
+msgstr ""
+"Promene koje izvršite u živoj sesiji nisu trajne. One se ne upisuju na USB "
+"memorijski uređaj (ili DVD) i nemaju uticaja na sistem koji instalira "
+"program za instalaciju."
+
+#: ../../install.rst:19
+msgid ""
+"Some applications work differently (or not at all) in the live session "
+"(Timeshift, Flatpak, Update Manager, Welcome Screen..etc.)."
+msgstr ""
+"Neke aplikacije rade drugačije (ili uopšte ne rade) u živoj sesiji "
+"(Timeshift, Flatpak, Menadžer ažuriranja, Ekran dobrodošlice, .itd.)."
+
+#: ../../install.rst:22
+msgid ""
+"The username for the live session is ``mint``. If asked for a password press "
+":kbd:`Enter`."
+msgstr ""
+"Korisničko ime za živu sesiju je ``mint``. Ukoliko od Vas bude zatražena "
+"lozinka pritisnite :kbd:`Enter`."
+
+#: ../../install.rst:25
+msgid "Installing Linux Mint on the computer"
+msgstr "Instalacija Linuks Minta na Vaš računar"
+
+#: ../../install.rst:27
+msgid "To permanently install Linux Mint on your computer:"
+msgstr "Da biste trajno instalirali Linuks Mint na Vašem računaru:"
+
+#: ../../install.rst:29
+msgid "Double-click :guilabel:`Install Linux Mint`."
+msgstr "Dvoklik na :guilabel:`Install Linux Mint`."
+
+#: ../../install.rst:31
+msgid "Select your language."
+msgstr "Izaberite Vaš jezik"
+
+#: ../../install.rst:37
+msgid "Connect to the Internet."
+msgstr "Povežite se na internet."
+
+#: ../../install.rst:43
+msgid ""
+"If you are connected to the Internet, tick the box to install the multimedia "
+"codecs."
+msgstr ""
+"Ukoliko ste povezani na internet, označite u kućici za potvrdu da biste "
+"instalirali multimedijalne kodeke."
+
+#: ../../install.rst:49
+msgid "Choose an installation type."
+msgstr "Izaberite vrstu instalacije."
+
+#: ../../install.rst:55
+msgid ""
+"If Linux Mint is the only operating system you want to run on this computer "
+"and all data can be lost on the hard drive, choose :guilabel:`Erase disk and "
+"install Linux Mint`."
+msgstr ""
+"Ukoliko je Linuks Mint jedini operativni sistem koji želite da koristite na "
+"ovom računaru, a podaci koji su na hard disku mogu da budu obrisani, "
+"izaberite :guilabel:`Erase disk and install Linux Mint`."
+
+#: ../../install.rst:58
+msgid ""
+":guilabel:`Encrypt the new Linux Mint installation for security` refers to "
+"full disk encryption. At this stage of the installation your keyboard layout "
+"wasn't yet selected so it is set to en_US. If you decide to use this option, "
+"keep this in mind when entering a password. Note that there are issues with "
+"this option and some NVIDIA drivers. If you are new to Linux use home "
+"directory encryption instead (you can select it later during the "
+"installation)."
+msgstr ""
+":guilabel:`Encrypt the new Linux Mint installation for security` se odnosi "
+"na šifrovanje kompletnog diska. U ovoj fazi instalacije raspored slova na "
+"Vašoj tastaturi nije još uvek promenjen i podešen je na en_US. Ukoliko "
+"odlučite da izvršite promenu, imajte na umu da ste to učinili kada budete "
+"unosili vašu lozinku. Obratite pažnju na to da se javljaju problemi sa ovom "
+"opcijom i nekim pokretačkim programima za NVIDIA grafičke karte. Ukoliko ste "
+"početnik u Linuksu, izaberite šifrovanje samo ličnog direktorijuma (ovo "
+"možete izabrati kasnije u toku instalacije)."
+
+#: ../../install.rst:60
+msgid ""
+"If another operating system is present on the computer, the installer shows "
+"you an option to install Linux Mint alongside it. If you choose this option, "
+"the installer automatically resizes your existing operating system, makes "
+"room and installs Linux Mint beside it. A boot menu is set up to choose "
+"between the two operating systems each time you start your computer."
+msgstr ""
+"Ukoliko je neki drugi operativni sistem prisutan na Vašem računaru, "
+"instalacioni program Vam daje mogućnost da instalirate Linuks Mint pored "
+"njega. Ukoliko izaberete ovu mogućnost, instalacioni program automatski "
+"smanjuje veličinu Vašeg postojećeg operativnog sistema, oslobađa prostor i "
+"instalira Linuks Mint pored njega. Kreira se meni za pokretanje sistema sa "
+"mogućnostima za pokretanje jednog od dva postojeća operativna sistema svakog "
+"puta kada uključite Vaš računar."
+
+#: ../../install.rst:64
+msgid ""
+"If you want to manage the partitions or specify which partitions to use, "
+"select :guilabel:`Something else`."
+msgstr ""
+"Ukoliko želite da upravljate particijama ili da naznačite koja će se "
+"particija koristiti, izaberite :guilabel:`Something else`."
+
+#: ../../install.rst:70
+msgid ""
+"Linux Mint requires one partition to be mounted on the root ``/`` directory."
+msgstr ""
+"Linuks Mint zahteva da jedna particija bude montirana na osnovnom (``root``) "
+"``/`` direktorijumu."
+
+#: ../../install.rst:72
+msgid ""
+"The Linux Mint operating system (without additional software or personal "
+"data) takes roughly 15GB, so give this partition a decent size (100GB or "
+"more)."
+msgstr ""
+"Operativni sistem Linuks Mint (bez dodatnih programa ili ličnih podataka) "
+"zauzima prostor od oko 15GB, tako da za ovu particiju odredite pristojnu "
+"veličinu (100GB ili više)"
+
+#: ../../install.rst:74
+msgid "``ext4`` is recommended. It is the most popular Linux filesystem."
+msgstr ""
+"``ext4`` je preporučen. Ovo je najpopularniji sistem datoteka u Linuksu."
+
+#: ../../install.rst:79
+msgid ""
+"Also create a ``swap`` partition. This partition is used for hibernation and "
+"as a safety buffer in case your computer runs out of RAM. Give this "
+"partition a size equal to the amount of RAM in your computer."
+msgstr ""
+"Takođe, kreirajte i ``swap`` particiju. Ova particija se koristi za "
+"hibernaciju i kao sigurnosni međuspremnik u slučaju da Vaš računar ostane "
+"bez dovoljno RAM-a. Odredite veličinu ove particije jednaku količini RAM-a "
+"na Vašem računaru."
+
+#: ../../install.rst:81
+msgid "Select your timezone"
+msgstr "Izaberite Vašu vremensku zonu"
+
+#: ../../install.rst:87
+msgid "Select your keyboard layout"
+msgstr "Izaberite raspored slova na Vašoj tastaturi"
+
+#: ../../install.rst:93
+msgid "Enter your user details"
+msgstr "Unesite svoje korisničke podatke"
+
+#: ../../install.rst:99
+msgid ""
+"Your ``name`` can be your real name, but it doesn't have to be. It is only "
+"used locally, in the screensaver and on the login screen."
+msgstr ""
+"Vaše ``ime`` može biti Vaše stvarno ime, ali ne mora da bude. Ime se koristi "
+"samo lokalno, na čuvaru ekrana ili na ekranu za prijavu na sistem."
+
+#: ../../install.rst:101
+msgid ""
+"Your ``username`` is what you log in as, and your ``hostname`` is the name "
+"of your computer on the network."
+msgstr ""
+"Vaše ``korisničko ime`` je ono pod kojim se prijavljujete na sistem, a Vaše  "
+"``ime domaćina `` je ime Vašeg računara na mreži."
+
+#: ../../install.rst:103
+msgid ""
+"To prevent bugs only use lowercase characters, with no punctuation or "
+"accentuation."
+msgstr ""
+"Da biste sprečili bagove, koristite samo mala slova, bez znakova "
+"interpunkcije ili dijakritičkih znakova."
+
+#: ../../install.rst:105
+msgid ""
+"To protect your personal data against local attacks (people around you, or "
+"in case your computer gets stolen), tick :guilabel:`Encrypt my home folder`."
+msgstr ""
+"Da biste zaštitili Vaše lične podatke od lokalnih napada (ljudi oko Vas, ili "
+"u slučaju da Vaš računar bude ukraden), označite :guilabel:`Encrypt my home "
+"folder`."
+
+#: ../../install.rst:107
+msgid "Choose a strong password."
+msgstr "Izaberite jaku šifru."
+
+#: ../../install.rst:109
+msgid "Enjoy the slideshow while Linux Mint is installed on your computer."
+msgstr "Uživajte u prezentaciji dok se Linuks Mint instalira na Vaš računar."
+
+#: ../../install.rst:115
+msgid "When the installation is finished, click :guilabel:`Restart Now`."
+msgstr "Kada se instalacija završi, kliknite na :guilabel:`Restart Now`."
+
+#: ../../install.rst:121
+msgid ""
+"The computer will then start to shut down and ask you to remove the USB disk "
+"(or DVD). Upon reboot, your computer should show you a boot menu or start "
+"your newly installed Linux Mint operating system."
+msgstr ""
+"Računar će tada početi da se gasi i zatražiti od Vas da izvučete USB "
+"memorijski uređaj (ili DVD). Posle ponovnog pokretanja, Vaš računar bi "
+"trebao da prikaže meni za podizanje sistema ili pokrene Vaš novoinstalirani "
+"operativni sistem Linuks Mint."
+
+#: ../../locales.rst:2
+msgid "Language support"
+msgstr "Jezička podrška"
+
+#: ../../locales.rst:4
+msgid ""
+"Language support includes translations but also packages related to spell-"
+"checking, synonyms, hyphenation and dictionaries which enhance your "
+"experience in software applications such as LibreOffice."
+msgstr ""
+"Podrška za jezike uključuje prevode, ali i programske pakete koji su vezani "
+"za proveru pravopisa, rečnike sinonima, hifenaciju i rečnike koji obogaćuju "
+"vaše iskustvo u programskim aplikacijama, kao što je LibreOffice."
+
+#: ../../locales.rst:6
+msgid "Launch :menuselection:`Menu --> Preferences --> Languages`."
+msgstr "Pokrenite :menuselection:`Menu --> Preferences --> Languages`."
+
+#: ../../locales.rst:12
+msgid "Click :guilabel:`Install / Remove Language`."
+msgstr "Kliknite na :guilabel:`Install / Remove Language`."
+
+#: ../../locales.rst:18
+msgid ""
+"If beside your locale, you see a label saying ``Some language packs are "
+"missing``, select your locale and click :guilabel:`Install language packs`."
+msgstr ""
+"Ukoliko pored Vašeg lokalnog jezika vidite natpis ``Neki jezički paketi "
+"nedostaju``, izaberite Vaš lokalni jezik i kliknite na :guilabel:`Install "
+"language packs`."
+
+#: ../../multiboot.rst:2
+msgid "Multi-boot"
+msgstr "Višestruko pokretanje"
+
+#: ../../multiboot.rst:5
+msgid "Always install Windows first"
+msgstr "Uvek najpre instalirajte Windows"
+
+#: ../../multiboot.rst:7
+msgid ""
+"Windows does not detect other operating systems and does not feature a boot "
+"menu. When you install it, it overwrites your boot sequence and your "
+"computer then boots straight into Windows."
+msgstr ""
+"Windows ne otkriva druge operativne sisteme i nema meni podizanja sistema. "
+"Kada ga instalirate, on izbriše Vaš redosled uređaja za podizanje sistema i "
+"zatim Vaš kompjuter podigne sistem direktno u Windows."
+
+#: ../../multiboot.rst:9
+msgid ""
+"Linux Mint (and most Linux distributions) detects other operating systems "
+"and builds a menu from which you can choose which system to boot."
+msgstr ""
+"Linuks Mint (i većina Linuks distribucija) otkriva ostale operativne sisteme "
+"i osniva meni iz kojeg možete izabrati koji će se sistem podići."
+
+#: ../../multiboot.rst:11
+msgid ""
+"For this reason, if you want to dual-boot or multi-boot with Windows, it is "
+"easier and recommended to install Windows first, before you install Linux "
+"Mint."
+msgstr ""
+"Iz ovog razloga, ukoliko želite podizanje dvostrukih ili višestrukih sistema "
+"uz Windows, lakše je i preporučeno da najpre instalirate Windows, pre nego "
+"što instalirate Linuks Mint."
+
+#: ../../multiboot.rst:14
+msgid "Fix the boot sequence"
+msgstr "Popravi redosled uređaja za podizanje sistema"
+
+#: ../../multiboot.rst:16
+msgid "If Windows overwrites your boot sequence:"
+msgstr "Ukoliko Windows izbriše redosled uređaja za podizanje sistema"
+
+#: ../../multiboot.rst:22
+msgid "To list your partitions, type ``lsblk -f`` and press :kbd:`Enter`."
+msgstr ""
+"Za pregled Vaših particija, ukucajte ``lsblk -f`` i pritisnite taster "
+"`Enter` na tastaturi."
+
+#: ../../multiboot.rst:28
+msgid ""
+"Find the partition where Linux Mint is installed. On most systems this "
+"should be the only ``ext4`` partition."
+msgstr ""
+"Pronađite particiju na kojoj je instaliran Linuks Mint. Na većini sistema, "
+"ovo bi trebalo da je jedina ``ext4`` particija."
+
+#: ../../multiboot.rst:30
+msgid "In the screenshot above:"
+msgstr "Na snimku ekrana iznad:"
+
+#: ../../multiboot.rst:32
+msgid ""
+"``sdb`` is the USB stick (recognizable by its ``iso9660`` type which "
+"corresponds to an ISO image)."
+msgstr ""
+"``sdb`` je USB memorijski uređaj (prepoznatljiv po svom tipu ``iso9660``, "
+"koji odgovara ISO kopiji)."
+
+#: ../../multiboot.rst:33
+msgid "``sda`` is the hard drive."
+msgstr "``sda``je jedinica diska."
+
+#: ../../multiboot.rst:34
+msgid ""
+"``sda4`` is the partition on the ``sda`` hard drive, where Linux Mint is "
+"installed."
+msgstr ""
+"``sda4`` je particija na  ``sda`` jedinici diska, gde je instaliran Linuks "
+"Mint."
+
+#: ../../multiboot.rst:36
+msgid "To list partition sizes, type ``lsblk``:"
+msgstr "Da biste izlistali veličine particija, otkucajte ``lsblk``:"
+
+#: ../../multiboot.rst:42
+msgid "To list partition labels, type ``blkid``:"
+msgstr "Da biste izlistali nazive particija, otkucajte ``blkid``:"
+
+#: ../../multiboot.rst:48
+msgid ""
+"Mount the Linux Mint partition and reinstall the grub menu with the "
+"following commands:"
+msgstr ""
+"Montirajte particiju sa Linuks Mintom i ponovo instalirajte grub meni "
+"korišćenjem sledećih komandi:"
+
+#: ../../multiboot.rst:56
+msgid ""
+"In the commands above, replace /dev/sda4 and /dev/sda with the appropriate "
+"names for your Linux Mint partition and your hard drive device."
+msgstr ""
+"U gore navedenim komandama, zamenite /dev/sda4 i /dev/sda odgovarajućim "
+"nazivima Vaše particije sa Linuks Mintom i Vašeg hard disk uređaja."
+
+#: ../../oem.rst:2
+msgid "Pre-installing Linux Mint (OEM Installation)"
+msgstr "Predinstaliranje Linuks Minta (OEM instalacija)"
+
+#: ../../oem.rst:4
+msgid ""
+"In the ISO boot menu, ``OEM install`` is used to preinstall Linux Mint."
+msgstr ""
+"U ISO meniju za podizanje sistema, ``OEM install`` se koristi za "
+"predinstaliranje Linuks Minta."
+
+#: ../../oem.rst:6
+msgid "This option is useful to:"
+msgstr "Ova mogućnost je korisna za:"
+
+#: ../../oem.rst:8
+msgid ""
+"Manufacturers and resellers who want to install Linux Mint on computers they "
+"sell to their customers."
+msgstr ""
+"Proizvođače i prodavce koji žele da instaliraju Linuks Mint na računare koje "
+"prodaju svojim kupcima."
+
+#: ../../oem.rst:9
+msgid "People who want to sell or give their computer to somebody else."
+msgstr "Ljude koji žele da prodaju ili poklone svoj računar nekome."
+
+#: ../../oem.rst:11
+msgid ""
+"When you install Linux Mint in ``OEM`` mode, the operating system is "
+"installed with a temporary user account and prepared for the computer's "
+"future owner."
+msgstr ""
+"Kada instalirate Linuks Mint u ``OEM`` režimu, ovaj operativni sistem se "
+"instalira sa privremenim korisničkim nalogom i spreman je za budućeg "
+"vlasnika računara."
+
+#: ../../oem.rst:13
+msgid "The user account is set up by the new owner."
+msgstr "Novi vlasnik kreira korisnički nalog."
+
+#: ../../oem.rst:15
+msgid "To perform an OEM installation follow the steps below:"
+msgstr "Da biste izveli OEM instalaciju, pratite sledeće korake:"
+
+#: ../../oem.rst:17
+msgid "Select ``OEM Install`` from the USB stick (or DVD) menu."
+msgstr ""
+"Izaberite ``OEM Install`` iz menija USB memorijskog uređaja (ili DVD-a)."
+
+#: ../../oem.rst:19
+msgid "Launch the installer and follow the installation instructions."
+msgstr "Pokrenite instalacioni program i pratite uputstva za instalaciju."
+
+#: ../../oem.rst:23
+msgid ""
+"Change any system settings or install additional software if you want."
+msgstr ""
+"Izmenite bilo koja sistemska podešavanja ili instalirajte dodatne programe, "
+"ukoliko to želite."
+
+#: ../../oem.rst:25
+msgid ""
+"When ready, click :guilabel:`Prepare for shipping to end user`, enter the "
+"password you chose during the installation, click :guilabel:`OK` and shut "
+"down the computer."
+msgstr ""
+"Kada ste spremni, kliknite na :guilabel:`Prepare for shipping to end user`, "
+"ukucajte šifru koju ste koristili tokom instalacije, kliknite na "
+":guilabel:`OK` i isključite računar."
+
+#: ../../oem.rst:31
+msgid ""
+"When the new owner of the computer boots the computer the following screen "
+"appears:"
+msgstr ""
+"Kada novi vlasnik računara pokrene sistem na tom računaru, pojaviće se "
+"sledeći ekran:"
+
+#: ../../oem.rst:37
+msgid ""
+"The new owner selects his or her username, password, keyboard layout, "
+"language, timezone and all the details relevant to create his or her user "
+"account."
+msgstr ""
+"Novi vlasnik bira svoje korisničko ime, šifru, raspored slova na tastaturi, "
+"jezik, vremensku zonu i sve detalje bitne za kreiranje svog korisničkog "
+"naloga."
+
+#: ../../partitioning.rst:2
+msgid "Partitioning"
+msgstr "Particioniranje"
+
+#: ../../partitioning.rst:5
+msgid "Disks and partitions under Linux"
+msgstr "Diskovi i particije pod Linuksom"
+
+#: ../../partitioning.rst:7
+msgid ""
+"If you are not familiar with the Linux naming scheme for devices and "
+"partitions, or the concept of filesystems and mount points, read:"
+msgstr ""
+"Ukoliko nise upoznati sa šemom imenovanja uređaja i particija u Linuksu, ili "
+"koncepcijom sistema datoteka i tačakma montiranja, pročitajte:"
+
+#: ../../partitioning.rst:9
+msgid ""
+"`A beginner’s guide to disks and disk partitions in Linux "
+"<http://linuxbsdos.com/2014/11/08/a-beginners-guide-to-disks-and-disk-"
+"partitions-in-linux/>`_"
+msgstr ""
+"`A beginner’s guide to disks and disk partitions in Linux "
+"<http://linuxbsdos.com/2014/11/08/a-beginners-guide-to-disks-and-disk-"
+"partitions-in-linux/>`_"
+
+#: ../../partitioning.rst:10
+msgid ""
+"`Device Names in Linux "
+"<https://www.debian.org/releases/wheezy/amd64/apcs04.html.en>`_"
+msgstr ""
+"`Device Names in Linux "
+"<https://www.debian.org/releases/wheezy/amd64/apcs04.html.en>`_"
+
+#: ../../partitioning.rst:11
+msgid ""
+"`Understanding the Linux File System "
+"<http://etutorials.org/Linux+systems/red+hat+linux+9+professional+secrets/Par"
+"t+II+Exploring+Red+Hat+Linux/Chapter+7+Red+Hat+Linux+Basics/Understanding+the"
+"+Linux+File+System/>`_"
+msgstr ""
+"`Understanding the Linux File System "
+"<http://etutorials.org/Linux+systems/red+hat+linux+9+professional+secrets/Par"
+"t+II+Exploring+Red+Hat+Linux/Chapter+7+Red+Hat+Linux+Basics/Understanding+the"
+"+Linux+File+System/>`_"
+
+#: ../../partitioning.rst:14
+msgid "Dedicated /home partition"
+msgstr "Namenska /home particija"
+
+#: ../../partitioning.rst:16
+msgid ""
+"In Linux, the ``/home`` directory is used to store user data and preferences."
+msgstr ""
+"U Linuksu, ``/home`` direktorijum se koristi za skladištenje korisničkih "
+"podataka i preferenci."
+
+#: ../../partitioning.rst:18
+msgid ""
+"This directory contains one subdirectoy for each user account. Say your "
+"username is ``john``, your home directory is ``/home/john``, your downloads "
+"are in ``/home/john/Downloads``, your documents in ``/home/john/Documents``, "
+"your Firefox bookmarks somewhere in ``/home/john/.mozilla`` and so on..."
+msgstr ""
+"Ovaj direktorijum sadrži po jedan pod-direktorijum za svaki korisnički "
+"nalog. Recimo da je Vaše korisničko ime ``jovan``, Vaš lični direktorijum "
+"(``home directory``) je ``/home/jovan``, ono što preuzimate se nalazi u "
+"``/home/jovan/Downloads``, Vaši dokumenti u ``/home/jovan/Documents``, Vaši "
+"obeleživači iz Firefoxa su negde u ``/home/jovan/.mozilla``, i tako dalje..."
+
+#: ../../partitioning.rst:20
+msgid ""
+"By giving ``/home`` its own dedicated partition, you separate the user data "
+"from the rest of the operating system."
+msgstr ""
+"Time što dajete direktorijumu ``/home`` namensku particiju, odvajate "
+"korisničke podatke od ostatka operativnog sistema."
+
+#: ../../partitioning.rst:22
+msgid ""
+"The advantage is that you can wipe the operating system and replace it "
+"without affecting the user data."
+msgstr ""
+"Prednost ovoga je u tome da možete da obrišete operativni sistem i zamenite "
+"ga bez uticaja na korisničke podatke."
+
+#: ../../partitioning.rst:24
+msgid "When installing Linux Mint:"
+msgstr "Kada instalirate Linuks Mint:"
+
+#: ../../partitioning.rst:26
+msgid ""
+"Assign the ``/`` mount point to the partition dedicated to the operating "
+"system, and tell the installer to format it."
+msgstr ""
+"Dodelite tačku montiranja ``/`` particiji namenjenoj za operativni sistem, i "
+"recite instalacionom programu da je formatira."
+
+#: ../../partitioning.rst:28
+msgid ""
+"Assign the ``/home`` mount point to the partition dedicated to the user "
+"data, and if it contains user data already, make sure to tell the installer "
+"**not to format it**."
+msgstr ""
+"Dodelite tačku montiranja ``/home`` particiji namenjenoj korisničkim "
+"podacima i, ukoliko se na njoj već nalaze korisnički podaci, obavezno recite "
+" instalacionom programu da je **ne formatira**."
+
+#: ../../partitioning.rst:31
+msgid ""
+"This is not recommended for novice users. A misstep during the installation "
+"could wipe all your data. Always make backups, make sure to select the right "
+"partitions and to carefully review formatting options."
+msgstr ""
+"Ovo se ne preporučuje za korisnike koji su početnici. Jedan pogrešan korak "
+"tokom instalacije bi mogao rezultovati u brisanju svih Vaših podataka. Uvek "
+"napravite rezervnu kopiju, obavezno izaberite odgovarajuće particije i "
+"pažljivo ponovo pregledajte opcije za formatiranje."
+
+#: ../../partitioning.rst:34
+msgid ""
+"A Linux Mint operating system takes about 15GB and grows as you install "
+"additional software. If you can spare the size, give it 100GB. Keep most of "
+"your free space for the home partition. User data (downloads, videos, "
+"pictures) takes a lot more space."
+msgstr ""
+"Operativni sistem Linuks Mint zauzima oko 15GB prostora i uvećava se kako "
+"instalirate dodatne programe. Ukoliko imate na raspolaganju dovoljno "
+"prostora, dodelite mu 100GB. Zadržite najveći deo slobodnog prostora za home "
+"particiju. Korisnički podaci (preuzimanja, video datoteke, fotografije) "
+"zauzimaju mnogo više prostora."
+
+#: ../../timeshift.rst:2
+msgid "System snapshots"
+msgstr "Snimci stanja sistema"
+
+#: ../../timeshift.rst:4
+msgid ""
+"Before you start using your operating system, set up system snapshots. Then "
+"if anything goes wrong, you can restore your system from an earlier backup."
+msgstr ""
+"Pre nego što počnete da koristite Vaš operativni sistem, kreirajte snimke "
+"stanja sistema. Zatim, ukoliko nešto krene po zlu, možete vratiti Vaš sistem "
+"iz neke ranije rezervne kopije."
+
+#: ../../timeshift.rst:6
+msgid "Launch :menuselection:`Menu --> Administration --> Timeshift`."
+msgstr "Pokrenite :menuselection:`Menu --> Administration --> Timeshift`."
+
+#: ../../timeshift.rst:8
+msgid "Select ``RSYNC`` and click :guilabel:`Next`."
+msgstr "Izaberite ``RSYNC`` i klicknite na :guilabel:`Next`."
+
+#: ../../timeshift.rst:13
+msgid ""
+"Select the device where you want system snapshots to be saved and click "
+":guilabel:`Next`."
+msgstr ""
+"Izaberite uređaj na kome želite da sačuvate snimke stanja sistema i kliknite "
+"na :guilabel:`Next`."
+
+#: ../../timeshift.rst:19
+msgid ""
+"The selected device is not formatted and no data is lost. System snapshots "
+"are saved into a newly created ``timeshift`` directory on the root of the "
+"selected device."
+msgstr ""
+"Izabrani uređaj neće biti formatiran, tako da već postojeći podaci na njemu "
+"neće biti izgubljeni. Snimci stanja sistema se čuvaju u novostvorenom "
+"direktorijumu ``timeshift`` u osnovnom direktorijumu izabranog uređaja."
+
+#: ../../timeshift.rst:21
+msgid "Select when system snapshots are saved."
+msgstr "Izaberite kada će se snimci stanja sistema sačuvati."
+
+#: ../../timeshift.rst:27
+msgid ""
+"System snapshots are incremental so although the first snapshot takes a "
+"significant amount of spaces, new snapshots only take additional space for "
+"files which have changed."
+msgstr ""
+"Snimci stanja sistema su inkrementalni, tako da, premda prvi snimak stanja "
+"zauzima značajan prostor, novi snimci stanja zauzimaju dodatni prostor samo  "
+"za one datoteke koje su u međuvremenu izmenjene."
+
+#: ../../timeshift.rst:30
+msgid ""
+"``Boot`` snapshots are performed in the background and do not impact the "
+"speed of the boot sequence."
+msgstr ""
+"``Boot`` snimci stanja se vrše u pozadini i nemaju uticaja na brzinu "
+"sekvence pokretanja sistema."
+
+#: ../../timeshift.rst:32
+msgid "Click :guilabel:`Finish`."
+msgstr "Kliknite na :guilabel:`Finish`."
+
+#: ../../verify.rst:2
+msgid "Verify your ISO image"
+msgstr "Proverite Vašu ISO kopiju"
+
+#: ../../verify.rst:4
+msgid ""
+"It is important to verify the integrity and authenticity of your ISO image."
+msgstr "Važno je proveriti integritet i autentičnost Vaše ISO kopije."
+
+#: ../../verify.rst:6
+msgid ""
+"The integrity check confirms that your ISO image was properly downloaded and "
+"that your local file is an exact copy of the file present on the download "
+"servers. An error during the download could result in a corrupted file and "
+"trigger random issues during the installation."
+msgstr ""
+"Provera integriteta potvrđuje da je Vaša ISO kopija ispravno preuzeta i da "
+"je Vaša lokalna datoteka identična kopija datoteke koja se nalazi na "
+"serverima za preuzimanje. Neka greška prilikom preuzimanja bi mogla "
+"rezultovati oštećenom datotekom i pokrenuti razne probleme tokom instalacije."
+
+#: ../../verify.rst:8
+msgid ""
+"The authenticity check confirms that the ISO image you downloaded was signed "
+"by Linux Mint, and thus that it isn't a modified or malicious copy made by "
+"somebody else."
+msgstr ""
+"Provera autentičnosti potvrđuje da je ISO kopija koju ste preuzeli potpisana "
+"od strane tima Linuks Minta, odnosno da nije izmenjena i da niko nije "
+"napravio kopiju sa zlonamernim sadržajem."
+
+#: ../../verify.rst:11
+msgid "Download the SHA256 sums provided by Linux Mint"
+msgstr "Preuzmite SHA256 kontrolnu sumu koju pruža Linuks Mint"
+
+#: ../../verify.rst:13
+msgid ""
+"All `download mirrors <https://www.linuxmint.com/mirrors.php>`_ provide the "
+"ISO images, a ``sha256sum.txt`` file and a ``sha256sum.txt.gpg`` file. You "
+"should be able to find these files in the same place you downloaded the ISO "
+"image from."
+msgstr ""
+"Svi `download mirrors <https://www.linuxmint.com/mirrors.php>`_ pružaju ISO "
+"kopije, datoteku ``sha256sum.txt`` i datoteku ``sha256sum.txt.gpg``. Trebalo "
+"bi da možete da nađete obe datoteke na istom mestu odakle ste preuzeli ISO "
+"kopiju."
+
+#: ../../verify.rst:15
+msgid ""
+"If you can't find them, browse the `Heanet download mirror "
+"<https://ftp.heanet.ie/mirrors/linuxmint.com/stable/>`_ and click the "
+"version of the Linux Mint release you downloaded."
+msgstr ""
+"Ukoliko ne možete da ih nađete, pretražite `Heanet download mirror "
+"<https://ftp.heanet.ie/mirrors/linuxmint.com/stable/>`_ i kliknite na "
+"verziju izdanja Linuks Minta koju ste preuzeli."
+
+#: ../../verify.rst:17
+msgid "Download both ``sha256sum.txt`` and ``sha256sum.txt.gpg``."
+msgstr "Preuzmite obe datoteke, ``sha256sum.txt`` i ``sha256sum.txt.gpg``."
+
+#: ../../verify.rst:19
+msgid ""
+"Do not copy their content, use \"right-click->Save Link As...\" to download "
+"the files themselves and do not modify them in any way."
+msgstr ""
+"Nemojte kopirati njihov sadržaj, već koristite \"desni klik->Sačuvaj Link "
+"kao...\" da biste preuzeli same datoteke i nemojte ih ni na koji način "
+"izmenjivati."
+
+#: ../../verify.rst:22
+msgid "Integrity check"
+msgstr "Provera integriteta"
+
+#: ../../verify.rst:24
+msgid ""
+"To check the integrity of your local ISO file, generate its SHA256 sum and "
+"compare it with the sum present in ``sha256sum.txt``."
+msgstr ""
+"Da biste proverili integritet Vaše lokalne ISO datoteke, generišite njenu "
+"SHA256 kontrolnu sumu i uporedite je sa sumom koja se nalazi u datoteci "
+"``sha256sum.txt``."
+
+#: ../../verify.rst:31
+msgid ""
+"If you are using Windows follow the tutorial `How to verify the ISO image on "
+"Windows <https://forums.linuxmint.com/viewtopic.php?f=42&t=291093>`_."
+msgstr ""
+"Ukoliko koristite Windows, pratite uputstvo `How to verify the ISO image on "
+"Windows <https://forums.linuxmint.com/viewtopic.php?f=42&t=291093>`_."
+
+#: ../../verify.rst:33
+msgid ""
+"If the sums match, your ISO image was successfully downloaded. If they "
+"don't, download it again."
+msgstr ""
+"Ukoliko se kontrolne sume podudaraju, Vaša ISO kopija je uspešno preuzeta. U "
+"suprotnom, preuzmite je ponovo."
+
+#: ../../verify.rst:38
+msgid "Authenticity check"
+msgstr "Provera autentičnosti"
+
+#: ../../verify.rst:40
+msgid ""
+"To verify the authenticity of ``sha256sum.txt``, check the signature of "
+"``sha256sum.txt.gpg`` by following the steps below."
+msgstr ""
+"Da biste proverili autentičnost datoteke ``sha256sum.txt``, proverite potpis "
+"iz datoteke ``sha256sum.txt.gpg`` sledeći naredne korake."
+
+#: ../../verify.rst:43
+msgid "Import the Linux Mint signing key:"
+msgstr "Uvezite ključ za potpisivanje Linuks Minta:"
+
+#: ../../verify.rst:49
+msgid ""
+"If gpg complains about the key ID, try the following commands instead:"
+msgstr ""
+"Ukoliko se gpg žali na ID key, umesto prethodne pokušajte sa sledećom "
+"komandom:"
+
+#: ../../verify.rst:56
+msgid ""
+"Check the output of the last command, to make sure the fingerprint is ``27DE "
+"B156 44C6 B3CF 3BD7 D291 300F 846B A25B AE09`` (with or without spaces)."
+msgstr ""
+"Proverite izlazni rezultat poslednje komande, da biste bili sigurni da je "
+"otisak ``27DE B156 44C6 B3CF 3BD7 D291 300F 846B A25B AE09`` (sa ili bez "
+"razmaka)."
+
+#: ../../verify.rst:59
+msgid "Verify the authenticity of sha256sum.txt:"
+msgstr "Proverite autentičnost datoteke sha256sum.txt:"
+
+#: ../../verify.rst:64
+msgid ""
+"The output of the last command should tell you that the file signature is "
+"``good`` and that it was signed with the ``A25BAE09`` key."
+msgstr ""
+"Izlazni rezultat poslednje komande bi trebao da Vam kaže da je potpis "
+"datoteke dobar (``good``) i da je potpisana ključem ``A25BAE09``."
+
+#: ../../verify.rst:67
+msgid ""
+"GPG might warn you that the Linux Mint signature is not trusted by your "
+"computer. This is expected and perfectly normal."
+msgstr ""
+"GPG bi Vas mogao upozoriti da Vaš računar smatra da potpis Linuks Minta nije "
+"pouzdan. To je očekivano i savršeno normalno."
+
+#: ../../verify.rst:70
+msgid ""
+"For more information on ISO verification, or to verify BETA, LMDE or old "
+"releases, read `How to Verify ISO images "
+"<https://linuxmint.com/verify.php>`_."
+msgstr ""
+"Za više informacija o proveri ISO datoteka, ili za proveru BETA, LMDE ili "
+"starijih izdanja, pročitajte `How to Verify ISO images "
+"<https://linuxmint.com/verify.php>`_."

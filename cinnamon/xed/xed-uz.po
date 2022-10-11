@@ -1,0 +1,4137 @@
+# Uzbek translation for linuxmint
+# Copyright (c) 2022 Rosetta Contributors and Canonical Ltd 2022
+# This file is distributed under the same license as the linuxmint package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: linuxmint\n"
+"Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
+"POT-Creation-Date: 2022-06-11 13:15+0200\n"
+"PO-Revision-Date: 2022-06-12 13:25+0000\n"
+"Last-Translator: Umidjon Almasov <umidjon@almasov.uz>\n"
+"Language-Team: Uzbek <uz@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Launchpad-Export-Date: 2022-10-10 13:08+0000\n"
+"X-Generator: Launchpad (build 762fb15a975e8b23af6a1f86e44e46bfd0451459)\n"
+"Language: uz\n"
+
+#: ../data/xed.appdata.xml.in.h:1
+msgid "A Text Editor"
+msgstr "Matn muharriri"
+
+#: ../data/xed.appdata.xml.in.h:2
+msgid ""
+"<p> Xed is a small, but powerful text editor. It has most standard text "
+"editor functions and fully supports international text in Unicode. Advanced "
+"features include syntax highlighting and automatic indentation of source "
+"code, printing and editing of multiple documents in one window. </p> <p> Xed "
+"is extensible through a plugin system, which currently includes support for "
+"spell checking, comparing files, viewing CVS ChangeLogs, and adjusting "
+"indentation levels. </p>"
+msgstr ""
+"<p> Xed kichik, ammo kuchli matn muharriri. U koʻpgina standart matn "
+"muharriri funksiyalariga ega va Unicodeʼda xalqaro matnni toʻliq qoʻllab-"
+"quvvatlaydi. Kengaytirilgan funksiyalar sintaksisni ajratib ko‘rsatish va "
+"manba kodini avtomatik cheklash, bir oynada bir nechta hujjatlarni chop "
+"etish va tahrirlashni o‘z ichiga oladi. </p> <p> Xed plagin tizimi orqali "
+"kengaytirilishi mumkin, u hozirda imlo tekshiruvi, fayllarni taqqoslash, CVS "
+"ChangeLogs koʻrish va chekinish darajasini sozlashni oʻz ichiga oladi. </p>"
+
+#: ../data/xed.desktop.in.in.h:1 ../xed/xed-print-job.c:700
+msgid "Text Editor"
+msgstr "Matn muharriri"
+
+#: ../data/xed.desktop.in.in.h:2
+msgid "Edit text files"
+msgstr "Matn fayllarini tahrirlash"
+
+#: ../xed/xed-app.c:100
+msgid "Show the application's version"
+msgstr "Ilova versiyasini ko‘rsatish"
+
+#: ../xed/xed-app.c:106
+msgid "Display list of possible values for the encoding option"
+msgstr ""
+"Kodlash parametri uchun mumkin bo‘lgan qiymatlar ro‘yxatini ko‘rsatish"
+
+#: ../xed/xed-app.c:113
+msgid ""
+"Set the character encoding to be used to open the files listed on the "
+"command line"
+msgstr ""
+"Buyruqlar satrida ko‘rsatilgan fayllarni ochish uchun ishlatiladigan "
+"belgilar kodlashni o‘rnatish"
+
+#: ../xed/xed-app.c:114
+msgid "ENCODING"
+msgstr "KODLASH"
+
+#: ../xed/xed-app.c:120
+msgid "Create a new top-level window in an existing instance of xed"
+msgstr "Mavjud xed misolida yangi yuqori darajadagi oyna yaratish"
+
+#: ../xed/xed-app.c:127
+msgid "Create a new document in an existing instance of xed"
+msgstr "Mavjud xed misolida yangi hujjat yaratish"
+
+#: ../xed/xed-app.c:134
+msgid "Set the size and position of the window (WIDTHxHEIGHT+X+Y)"
+msgstr "Oynaning o‘lchami va joylashishini o‘rnating (WIDTHxHEIGHT+X+Y)"
+
+#: ../xed/xed-app.c:135
+msgid "GEOMETRY"
+msgstr "GEOMETRIYA"
+
+#: ../xed/xed-app.c:141
+msgid "Open files and block process until files are closed"
+msgstr "Fayllarni ochish va fayllar yopilguncha jarayonni bloklash"
+
+#: ../xed/xed-app.c:148
+msgid "Run xed in standalone mode"
+msgstr "Xedni mustaqil rejimda ishga tushirish"
+
+#: ../xed/xed-app.c:155
+msgid "[FILE...] [+LINE]"
+msgstr "[FAYL...] [+SATR]"
+
+#: ../xed/xed-app.c:612
+#, c-format
+msgid "%s: invalid encoding."
+msgstr "%s: yaroqsiz kodlash."
+
+#: ../xed/xed-app.c:1266
+msgid "There was an error displaying the help."
+msgstr "Yordamni ko‘rsatishda xatolik yuz berdi."
+
+#: ../xed/xed-close-confirmation-dialog.c:129
+msgid "Log Out _without Saving"
+msgstr "_Saqlamasdan chiqish"
+
+#: ../xed/xed-close-confirmation-dialog.c:130
+msgid "_Cancel Logout"
+msgstr "_Chiqishni bekor qilish"
+
+#: ../xed/xed-close-confirmation-dialog.c:134
+msgid "Close _without Saving"
+msgstr "Saqlamasdan _yopish"
+
+#: ../xed/xed-close-confirmation-dialog.c:135 ../xed/xed-commands-file.c:399
+#: ../xed/xed-commands-file.c:502 ../xed/xed-commands-file.c:648
+#: ../xed/xed-commands-file.c:1333 ../xed/xed-encodings-dialog.c:330
+#: ../xed/xed-io-error-info-bar.c:147 ../xed/xed-io-error-info-bar.c:406
+#: ../xed/xed-io-error-info-bar.c:1051
+#: ../xed/resources/ui/xed-highlight-mode-dialog.ui.h:2
+#: ../plugins/filebrowser/xed-file-browser-utils.c:153
+msgid "_Cancel"
+msgstr "_Bekor qilish"
+
+#: ../xed/xed-close-confirmation-dialog.c:155
+msgid "_Save As..."
+msgstr "_Boshqa saqlash..."
+
+#. File menu
+#: ../xed/xed-close-confirmation-dialog.c:161 ../xed/xed-commands-file.c:649
+#: ../xed/xed-ui.h:81
+msgid "_Save"
+msgstr "_Saqlash"
+
+#: ../xed/xed-close-confirmation-dialog.c:188
+msgid "Question"
+msgstr "Savol"
+
+#: ../xed/xed-close-confirmation-dialog.c:379
+#, c-format
+msgid ""
+"If you don't save, changes from the last %ld second will be permanently lost."
+msgid_plural ""
+"If you don't save, changes from the last %ld seconds will be permanently "
+"lost."
+msgstr[0] ""
+"Agar saqlamasangiz, oxirgi %ld soniyadagi oʻzgarishlar butunlay yoʻqoladi."
+
+#: ../xed/xed-close-confirmation-dialog.c:388
+msgid ""
+"If you don't save, changes from the last minute will be permanently lost."
+msgstr ""
+"Agar saqlamasangiz, oxirgi daqiqadagi oʻzgarishlar butunlay yoʻqoladi."
+
+#: ../xed/xed-close-confirmation-dialog.c:393
+#, c-format
+msgid ""
+"If you don't save, changes from the last minute and %ld second will be "
+"permanently lost."
+msgid_plural ""
+"If you don't save, changes from the last minute and %ld seconds will be "
+"permanently lost."
+msgstr[0] ""
+"Agar saqlamasangiz, oxirgi daqiqa va %ld soniyadagi oʻzgarishlar butunlay "
+"yoʻqoladi."
+
+#: ../xed/xed-close-confirmation-dialog.c:402
+#, c-format
+msgid ""
+"If you don't save, changes from the last %ld minute will be permanently lost."
+msgid_plural ""
+"If you don't save, changes from the last %ld minutes will be permanently "
+"lost."
+msgstr[0] ""
+"Agar saqlamasangiz, oxirgi %ld daqiqadagi oʻzgarishlar butunlay yoʻqoladi."
+
+#: ../xed/xed-close-confirmation-dialog.c:417
+msgid ""
+"If you don't save, changes from the last hour will be permanently lost."
+msgstr "Agar saqlamasangiz, oxirgi soatdagi oʻzgarishlar butunlay yoʻqoladi."
+
+#: ../xed/xed-close-confirmation-dialog.c:422
+#, c-format
+msgid ""
+"If you don't save, changes from the last hour and %d minute will be "
+"permanently lost."
+msgid_plural ""
+"If you don't save, changes from the last hour and %d minutes will be "
+"permanently lost."
+msgstr[0] ""
+"Agar saqlamasangiz, oxirgi soat va %d daqiqadagi oʻzgarishlar butunlay "
+"yoʻqoladi."
+
+#: ../xed/xed-close-confirmation-dialog.c:436
+#, c-format
+msgid ""
+"If you don't save, changes from the last %d hour will be permanently lost."
+msgid_plural ""
+"If you don't save, changes from the last %d hours will be permanently lost."
+msgstr[0] ""
+"Agar saqlamasangiz, oxirgi %d soatdagi oʻzgarishlar butunlay yoʻqoladi."
+
+#: ../xed/xed-close-confirmation-dialog.c:477
+#, c-format
+msgid "Save changes to document \"%s\" before closing?"
+msgstr "Yopishdan oldin “%s” hujjatidagi o‘zgarishlar saqlansinmi?"
+
+#: ../xed/xed-close-confirmation-dialog.c:642
+#, c-format
+msgid ""
+"There is %d document with unsaved changes. Save changes before closing?"
+msgid_plural ""
+"There are %d documents with unsaved changes. Save changes before closing?"
+msgstr[0] ""
+"Saqlanmagan oʻzgarishlarga ega %d ta hujjat mavjud. Yopishdan oldin "
+"o‘zgarishlar saqlansinmi?"
+
+#: ../xed/xed-close-confirmation-dialog.c:659
+msgid "S_elect the documents you want to save:"
+msgstr "_Saqlamoqchi bo‘lgan hujjatlarni tanlang:"
+
+#. Secondary label
+#: ../xed/xed-close-confirmation-dialog.c:675
+msgid "If you don't save, all your changes will be permanently lost."
+msgstr "Agar saqlamasangiz, barcha o‘zgarishlar butunlay yo‘qoladi."
+
+#: ../xed/xed-commands-file.c:229
+#, c-format
+msgid "Loading file '%s'…"
+msgstr "“%s” fayli yuklanmoqda…"
+
+#: ../xed/xed-commands-file.c:238
+#, c-format
+msgid "Loading %d file…"
+msgid_plural "Loading %d files…"
+msgstr[0] "%d fayl yuklanmoqda…"
+
+#. Translators: "Open Files" is the title of the file chooser window
+#: ../xed/xed-commands-file.c:395
+msgid "Open Files"
+msgstr "Fayllarni ochish"
+
+#: ../xed/xed-commands-file.c:400
+#: ../plugins/filebrowser/xed-file-browser-widget.c:764
+msgid "_Open"
+msgstr "_Ochish"
+
+#: ../xed/xed-commands-file.c:494
+#, c-format
+msgid "The file \"%s\" is read-only."
+msgstr "“%s” fayli faqat o‘qish uchun."
+
+#: ../xed/xed-commands-file.c:499
+msgid "Do you want to try to replace it with the one you are saving?"
+msgstr "Uni saqlayotganingiz bilan almashtirmoqchimisiz?"
+
+#: ../xed/xed-commands-file.c:503 ../xed/resources/ui/xed-searchbar.ui.h:2
+#: ../xed/xed-ui.h:124
+msgid "_Replace"
+msgstr "_Almashtirish"
+
+#: ../xed/xed-commands-file.c:564 ../xed/xed-commands-file.c:801
+#, c-format
+msgid "Saving file '%s'…"
+msgstr "“%s” fayli saqlanmoqda…"
+
+#: ../xed/xed-commands-file.c:644
+msgid "Save As…"
+msgstr "Boshqa saqlash…"
+
+#: ../xed/xed-commands-file.c:1202
+#, c-format
+msgid "Reverting the document '%s'…"
+msgstr "“%s” hujjati qaytarilmoqda…"
+
+#: ../xed/xed-commands-file.c:1249
+#, c-format
+msgid "Revert unsaved changes to document '%s'?"
+msgstr "“%s” hujjatiga saqlanmagan oʻzgarishlar qaytarilsinmi?"
+
+#: ../xed/xed-commands-file.c:1256
+#, c-format
+msgid ""
+"Changes made to the document in the last %ld second will be permanently lost."
+msgid_plural ""
+"Changes made to the document in the last %ld seconds will be permanently "
+"lost."
+msgstr[0] ""
+"Hujjatga oxirgi %ld soniyada kiritilgan o‘zgartirishlar butunlay yo‘qoladi."
+
+#: ../xed/xed-commands-file.c:1265
+msgid ""
+"Changes made to the document in the last minute will be permanently lost."
+msgstr ""
+"Hujjatga oxirgi daqiqada kiritilgan o‘zgartirishlar butunlay yo‘qoladi."
+
+#: ../xed/xed-commands-file.c:1270
+#, c-format
+msgid ""
+"Changes made to the document in the last minute and %ld second will be "
+"permanently lost."
+msgid_plural ""
+"Changes made to the document in the last minute and %ld seconds will be "
+"permanently lost."
+msgstr[0] ""
+"Hujjatga oxirgi daqiqada va %ld soniyada kiritilgan oʻzgartirishlar butunlay "
+"yoʻqoladi."
+
+#: ../xed/xed-commands-file.c:1279
+#, c-format
+msgid ""
+"Changes made to the document in the last %ld minute will be permanently lost."
+msgid_plural ""
+"Changes made to the document in the last %ld minutes will be permanently "
+"lost."
+msgstr[0] ""
+"Hujjatga oxirgi %ld daqiqada kiritilgan oʻzgartirishlar butunlay yoʻqoladi."
+
+#: ../xed/xed-commands-file.c:1294
+msgid ""
+"Changes made to the document in the last hour will be permanently lost."
+msgstr ""
+"Hujjatga oxirgi soatda kiritilgan o‘zgartirishlar butunlay yo‘qoladi."
+
+#: ../xed/xed-commands-file.c:1299
+#, c-format
+msgid ""
+"Changes made to the document in the last hour and %d minute will be "
+"permanently lost."
+msgid_plural ""
+"Changes made to the document in the last hour and %d minutes will be "
+"permanently lost."
+msgstr[0] ""
+"Hujjatga oxirgi soat va %d daqiqada kiritilgan oʻzgartirishlar butunlay "
+"yoʻqoladi."
+
+#: ../xed/xed-commands-file.c:1313
+#, c-format
+msgid ""
+"Changes made to the document in the last %d hour will be permanently lost."
+msgid_plural ""
+"Changes made to the document in the last %d hours will be permanently lost."
+msgstr[0] ""
+"Oxirgi %d soat ichida hujjatga kiritilgan oʻzgartirishlar butunlay yoʻqoladi."
+
+#: ../xed/xed-commands-file.c:1334
+msgid "_Revert"
+msgstr "_Tiklash"
+
+#: ../xed/xed-commands-help.c:55
+msgid "A small and lightweight text editor"
+msgstr "Kichik va engil matn muharriri"
+
+#: ../xed/xed-document.c:973 ../xed/xed-document.c:1005
+#, c-format
+msgid "Unsaved Document %d"
+msgstr "Saqlanmagan hujjat %d"
+
+#: ../xed/xed-documents-panel.c:88 ../xed/xed-documents-panel.c:99
+#: ../xed/xed-window.c:1906 ../xed/xed-window.c:1910
+msgid "Read-Only"
+msgstr "Faqat o‘qish"
+
+#: ../xed/xed-documents-panel.c:650 ../xed/resources/ui/xed-shortcuts.ui.h:1
+#: ../xed/xed-window.c:3156
+msgid "Documents"
+msgstr "Hujjatlar"
+
+#: ../xed/xed-encodings-combo-box.c:258
+msgid "Automatically Detected"
+msgstr "Avtomatik aniqlangan"
+
+#: ../xed/xed-encodings-combo-box.c:277 ../xed/xed-encodings-combo-box.c:291
+#, c-format
+msgid "Current Locale (%s)"
+msgstr "Joriy lokal (%s)"
+
+#: ../xed/xed-encodings-combo-box.c:338
+msgid "Add or Remove..."
+msgstr "Qo‘shish yoki olib tashlash..."
+
+#: ../xed/xed-encodings-dialog.c:331 ../plugins/time/xed-time-plugin.c:786
+msgid "_OK"
+msgstr "_OK"
+
+#: ../xed/xed-encodings-dialog.c:332 ../xed/xed-ui.h:50
+#: ../plugins/spell/xed-spell-plugin.c:435
+msgid "_Help"
+msgstr "_Yordam"
+
+#: ../xed/xed-encodings-dialog.c:335
+msgid "Character Encodings"
+msgstr "Belgilarni kodlash"
+
+#: ../xed/xed-encodings-dialog.c:368 ../xed/xed-encodings-dialog.c:405
+msgid "_Description"
+msgstr "_Ta'rif"
+
+#: ../xed/xed-encodings-dialog.c:376 ../xed/xed-encodings-dialog.c:413
+msgid "_Encoding"
+msgstr "_Kodlash"
+
+#: ../xed/xed-file-chooser-dialog.c:44 ../xed/xed-preferences-dialog.c:783
+msgid "All Files"
+msgstr "Barcha fayllar"
+
+#: ../xed/xed-file-chooser-dialog.c:45
+msgid "All Text Files"
+msgstr "Barcha matnli fayllar"
+
+#: ../xed/xed-file-chooser-dialog.c:85
+msgid "C_haracter Encoding:"
+msgstr "_Belgilarni kodlash:"
+
+#: ../xed/xed-file-chooser-dialog.c:141
+msgid "L_ine Ending:"
+msgstr "_Qator oxiri:"
+
+#: ../xed/xed-file-chooser-dialog.c:152
+msgid "Unix/Linux"
+msgstr "Unix/Linux"
+
+#: ../xed/xed-file-chooser-dialog.c:153
+msgid "Mac OS Classic"
+msgstr "Mac OS Classic"
+
+#: ../xed/xed-file-chooser-dialog.c:154
+msgid "Windows"
+msgstr "Windows"
+
+#: ../xed/xed-highlight-mode-selector.c:297 ../xed/xed-window.c:2035
+msgid "Plain Text"
+msgstr "Oddiy matn"
+
+#: ../xed/xed-io-error-info-bar.c:154 ../xed/xed-io-error-info-bar.c:390
+msgid "_Retry"
+msgstr "_Qayta urinish"
+
+#: ../xed/xed-io-error-info-bar.c:173
+#, c-format
+msgid "Could not find the file %s."
+msgstr "%s fayli topilmadi."
+
+#: ../xed/xed-io-error-info-bar.c:174 ../xed/xed-io-error-info-bar.c:208
+#: ../xed/xed-io-error-info-bar.c:213
+msgid "Please check that you typed the location correctly and try again."
+msgstr ""
+"Joylashuvni toʻgʻri kiritganingizni tekshiring va qaytadan urinib koʻring."
+
+#. Translators: %s is a URI scheme (like for example http:, ftp:, etc.)
+#: ../xed/xed-io-error-info-bar.c:189
+#, c-format
+msgid "xed cannot handle %s locations."
+msgstr "xed %s joylashuvlarini boshqara olmaydi."
+
+#: ../xed/xed-io-error-info-bar.c:194
+msgid "xed cannot handle this location."
+msgstr "xed ushbu joylashuvni boshqara olmaydi."
+
+#: ../xed/xed-io-error-info-bar.c:201
+msgid "The location of the file cannot be mounted."
+msgstr "Faylning joylashuvini ulab bo‘lmaydi."
+
+#: ../xed/xed-io-error-info-bar.c:204
+msgid ""
+"The location of the file cannot be accessed because it is not mounted."
+msgstr "Faylning joylashuviga kirish imkoni yo‘q, chunki u ulanmagan."
+
+#: ../xed/xed-io-error-info-bar.c:207
+#, c-format
+msgid "%s is a directory."
+msgstr "%s - bu katalog."
+
+#: ../xed/xed-io-error-info-bar.c:212
+#, c-format
+msgid "%s is not a valid location."
+msgstr "%s yaroqli joylashuv emas."
+
+#. Translators: %s is a host name
+#: ../xed/xed-io-error-info-bar.c:242
+#, c-format
+msgid ""
+"Host %s could not be found. Please check that your proxy settings are "
+"correct and try again."
+msgstr ""
+"%s xost topilmadi. Iltimos, proksi-serveringiz sozlamalari to‘g‘ri "
+"ekanligini tekshiring va qayta urinib ko‘ring."
+
+#. use the same string as INVALID_HOST
+#: ../xed/xed-io-error-info-bar.c:256
+#, c-format
+msgid ""
+"Hostname was invalid. Please check that you typed the location correctly and "
+"try again."
+msgstr ""
+"Xost nomi yaroqsiz. Joylashuvni toʻgʻri kiritganingizni tekshiring va "
+"qaytadan urinib koʻring."
+
+#: ../xed/xed-io-error-info-bar.c:263
+#, c-format
+msgid "%s is not a regular file."
+msgstr "%s oddiy fayl emas."
+
+#: ../xed/xed-io-error-info-bar.c:266
+msgid "Connection timed out. Please try again."
+msgstr "Ulanish vaqti tugadi. Iltimos, yana bir bor urinib ko‘ring."
+
+#: ../xed/xed-io-error-info-bar.c:293
+#, c-format
+msgid "Unexpected error: %s"
+msgstr "Kutilmagan xatolik: %s"
+
+#: ../xed/xed-io-error-info-bar.c:326
+msgid "xed cannot find the file. Perhaps it has recently been deleted."
+msgstr "xed faylni topa olmaydi. Ehtimol, u yaqinda o‘chirilgan."
+
+#: ../xed/xed-io-error-info-bar.c:336
+#, c-format
+msgid "Could not revert the file %s."
+msgstr "%s faylini qaytarib boʻlmadi."
+
+#: ../xed/xed-io-error-info-bar.c:359
+msgid "Ch_aracter Encoding:"
+msgstr "_Belgilarni kodlash:"
+
+#. Translators: the access key chosen for this string should be
+#. different from other main menu access keys (Open, Edit, View...)
+#: ../xed/xed-io-error-info-bar.c:397 ../xed/xed-io-error-info-bar.c:654
+msgid "Edit Any_way"
+msgstr "_Baribir tahrirlash"
+
+#: ../xed/xed-io-error-info-bar.c:489
+msgid ""
+"The number of followed links is limited and the actual file could not be "
+"found within this limit."
+msgstr ""
+"Kuzatilgan havolalar soni cheklangan va haqiqiy faylni bu chegarada topib "
+"boʻlmadi."
+
+#: ../xed/xed-io-error-info-bar.c:493
+msgid "You do not have the permissions necessary to open the file."
+msgstr "Sizda faylni ochish uchun zarur ruxsatlar mavjud emas."
+
+#: ../xed/xed-io-error-info-bar.c:499
+msgid "xed has not been able to detect the character encoding."
+msgstr "xed belgilar kodlashni aniqlay olmadi."
+
+#: ../xed/xed-io-error-info-bar.c:501 ../xed/xed-io-error-info-bar.c:524
+msgid "Please check that you are not trying to open a binary file."
+msgstr "Ikkilik faylni ochmoqchi emasligingizni tekshiring."
+
+#: ../xed/xed-io-error-info-bar.c:502
+msgid "Select a character encoding from the menu and try again."
+msgstr "Menyudan belgilar kodlashini tanlang va qayta urinib ko‘ring."
+
+#: ../xed/xed-io-error-info-bar.c:508
+#, c-format
+msgid "There was a problem opening the file %s."
+msgstr "%s faylini ochishda muammo yuz berdi."
+
+#: ../xed/xed-io-error-info-bar.c:509
+msgid ""
+"The file you opened has some invalid characters. If you continue editing "
+"this file you could corrupt this document."
+msgstr ""
+"Siz ochgan faylda yaroqsiz belgilar mavjud. Agar siz ushbu faylni "
+"tahrirlashni davom ettirsangiz, ushbu hujjatni buzishingiz mumkin."
+
+#: ../xed/xed-io-error-info-bar.c:512
+msgid "You can also choose another character encoding and try again."
+msgstr ""
+"Shuningdek, siz boshqa belgilar kodlashni tanlashingiz va qaytadan urinib "
+"ko‘rishingiz mumkin."
+
+#: ../xed/xed-io-error-info-bar.c:521
+#, c-format
+msgid "Could not open the file %s using the %s character encoding."
+msgstr "%s faylini %s belgilar kodlash yordamida ochib bo‘lmadi."
+
+#: ../xed/xed-io-error-info-bar.c:525 ../xed/xed-io-error-info-bar.c:594
+msgid "Select a different character encoding from the menu and try again."
+msgstr ""
+"Menyudan boshqa belgilar kodlashini tanlang va qaytadan urinib ko‘ring."
+
+#: ../xed/xed-io-error-info-bar.c:537
+#, c-format
+msgid "Could not open the file %s."
+msgstr "%s faylini ochib bo‘lmadi."
+
+#: ../xed/xed-io-error-info-bar.c:589
+#, c-format
+msgid "Could not save the file %s using the %s character encoding."
+msgstr "%s faylini %s belgilar kodlash yordamida saqlab bo‘lmadi."
+
+#: ../xed/xed-io-error-info-bar.c:592
+msgid ""
+"The document contains one or more characters that cannot be encoded using "
+"the specified character encoding."
+msgstr ""
+"Hujjatda belgilangan belgilar kodlash yordamida kodlash mumkin bo‘lmagan bir "
+"yoki bir nechta belgilar mavjud."
+
+#. Translators: the access key chosen for this string should be
+#. different from other main menu access keys (Open, Edit, View...)
+#: ../xed/xed-io-error-info-bar.c:659
+msgid "D_on't Edit"
+msgstr "_Tahrirlanmasin"
+
+#: ../xed/xed-io-error-info-bar.c:673
+#, c-format
+msgid "This file (%s) is already open in another xed window."
+msgstr "Bu fayl (%s) boshqa xed oynasida allaqachon ochilgan."
+
+#: ../xed/xed-io-error-info-bar.c:687
+msgid ""
+"xed opened this instance of the file in a non-editable way. Do you want to "
+"edit it anyway?"
+msgstr ""
+"xed faylning ushbu nusxasini tahrir qilib bo‘lmaydigan tarzda ochdi. Baribir "
+"uni tahrirlashni xohlaysizmi?"
+
+#: ../xed/xed-io-error-info-bar.c:742 ../xed/xed-io-error-info-bar.c:830
+#: ../xed/xed-io-error-info-bar.c:1092
+msgid "S_ave Anyway"
+msgstr "_Baribir saqlash"
+
+#: ../xed/xed-io-error-info-bar.c:743 ../xed/xed-io-error-info-bar.c:831
+#: ../xed/xed-io-error-info-bar.c:1094
+msgid "D_on't Save"
+msgstr "_Saqlanmasin"
+
+#. FIXME: review this message, it's not clear since for the user the "modification"
+#. * could be interpreted as the changes he made in the document. beside "reading" is
+#. * not accurate (since last load/save)
+#. 
+#: ../xed/xed-io-error-info-bar.c:760
+#, c-format
+msgid "The file %s has been modified since reading it."
+msgstr "%s fayli oʻqilganidan keyin oʻzgartirildi."
+
+#: ../xed/xed-io-error-info-bar.c:774
+msgid ""
+"If you save it, all the external changes could be lost. Save it anyway?"
+msgstr ""
+"Agar siz uni saqlasangiz, barcha tashqi o‘zgarishlar yo‘qolishi mumkin. "
+"Baribir saqlansinmi?"
+
+#: ../xed/xed-io-error-info-bar.c:851
+#, c-format
+msgid "Could not create a backup file while saving %s"
+msgstr "%s ni saqlashda zaxira fayl yaratib bo‘lmadi"
+
+#: ../xed/xed-io-error-info-bar.c:855
+#, c-format
+msgid "Could not create a temporary backup file while saving %s"
+msgstr "%s ni saqlashda vaqtinchalik zahira faylini yaratib bo‘lmadi"
+
+#: ../xed/xed-io-error-info-bar.c:871
+msgid ""
+"xed could not back up the old copy of the file before saving the new one. "
+"You can ignore this warning and save the file anyway, but if an error occurs "
+"while saving, you could lose the old copy of the file. Save anyway?"
+msgstr ""
+"xed yangisini saqlashdan oldin faylning eski nusxasini zaxiralay olmadi. Siz "
+"bu ogohlantirishni e'tiborsiz qoldirishingiz va baribir faylni saqlashingiz "
+"mumkin, lekin saqlash vaqtida xatolik yuzaga kelsa, faylning eski nusxasini "
+"yo‘qotishingiz mumkin. Baribir saqlansinmi?"
+
+#. Translators: %s is a URI scheme (like for example http:, ftp:, etc.)
+#: ../xed/xed-io-error-info-bar.c:928
+#, c-format
+msgid ""
+"xed cannot handle %s locations in write mode. Please check that you typed "
+"the location correctly and try again."
+msgstr ""
+"xed yozish rejimida %s joylashuvlarini boshqara olmaydi. Joylashuvni toʻgʻri "
+"kiritganingizni tekshiring va qaytadan urinib koʻring."
+
+#: ../xed/xed-io-error-info-bar.c:936
+msgid ""
+"xed cannot handle this location in write mode. Please check that you typed "
+"the location correctly and try again."
+msgstr ""
+"xed bu joylashuvni yozish rejimida boshqara olmaydi. Joylashuvni toʻgʻri "
+"kiritganingizni tekshiring va qaytadan urinib koʻring."
+
+#: ../xed/xed-io-error-info-bar.c:945
+#, c-format
+msgid ""
+"%s is not a valid location. Please check that you typed the location "
+"correctly and try again."
+msgstr ""
+"%s yaroqsiz joylashuv. Joylashuvni toʻgʻri kiritganingizni tekshiring va "
+"qaytadan urinib koʻring."
+
+#: ../xed/xed-io-error-info-bar.c:951
+msgid ""
+"You do not have the permissions necessary to save the file. Please check "
+"that you typed the location correctly and try again."
+msgstr ""
+"Sizda faylni saqlash uchun zarur ruxsatlar yo‘q. Joylashuvni toʻgʻri "
+"kiritganingizni tekshiring va qaytadan urinib koʻring."
+
+#: ../xed/xed-io-error-info-bar.c:957
+msgid ""
+"There is not enough disk space to save the file. Please free some disk space "
+"and try again."
+msgstr ""
+"Faylni saqlash uchun diskda joy yetarli emas. Iltimos, diskda biroz joy "
+"bo‘shating va qayta urinib ko‘ring."
+
+#: ../xed/xed-io-error-info-bar.c:962
+msgid ""
+"You are trying to save the file on a read-only disk. Please check that you "
+"typed the location correctly and try again."
+msgstr ""
+"Siz faylni faqat o‘qish uchun mo‘ljallangan diskda saqlashga harakat "
+"qilyapsiz. Joylashuvni toʻgʻri kiritganingizni tekshiring va qaytadan urinib "
+"koʻring."
+
+#: ../xed/xed-io-error-info-bar.c:968
+msgid ""
+"A file with the same name already exists. Please use a different name."
+msgstr ""
+"Xuddi shu nomdagi fayl allaqachon mavjud. Iltimos, boshqa nomdan foydalaning."
+
+#: ../xed/xed-io-error-info-bar.c:973
+msgid ""
+"The disk where you are trying to save the file has a limitation on length of "
+"the file names. Please use a shorter name."
+msgstr ""
+"Faylni saqlamoqchi bo‘lgan diskda fayl nomlari uzunligi bo‘yicha cheklov "
+"mavjud. Iltimos, qisqaroq nomdan foydalaning."
+
+#: ../xed/xed-io-error-info-bar.c:983
+msgid ""
+"The disk where you are trying to save the file has a limitation on file "
+"sizes. Please try saving a smaller file or saving it to a disk that does not "
+"have this limitation."
+msgstr ""
+"Faylni saqlamoqchi bo‘lgan diskda fayl hajmi bo‘yicha cheklovlar mavjud. "
+"Iltimos, kichikroq faylni yoki uni bunday cheklovga ega bo‘lmagan diskda "
+"saqlashga harakat qiling."
+
+#: ../xed/xed-io-error-info-bar.c:996
+#, c-format
+msgid "Could not save the file %s."
+msgstr "%s faylini saqlab bo‘lmadi."
+
+#. FIXME: review this message, it's not clear since for the user the "modification"
+#. could be interpreted as the changes he made in the document. beside "reading" is
+#. not accurate (since last load/save)
+#: ../xed/xed-io-error-info-bar.c:1036
+#, c-format
+msgid "The file %s changed on disk."
+msgstr "%s fayli diskda oʻzgartirildi."
+
+#: ../xed/xed-io-error-info-bar.c:1041
+msgid "Do you want to drop your changes and reload the file?"
+msgstr "O‘zgartirishlaringizni tashlab, faylni qayta yuklashni xohlaysizmi?"
+
+#: ../xed/xed-io-error-info-bar.c:1045
+msgid "Do you want to reload the file?"
+msgstr "Faylni qayta yuklamoqchimisiz?"
+
+#: ../xed/xed-io-error-info-bar.c:1050
+msgid "_Reload"
+msgstr "_Qayta yuklash"
+
+#: ../xed/xed-io-error-info-bar.c:1107
+#, c-format
+msgid "Some invalid chars have been detected while saving %s"
+msgstr "%s ni saqlashda yaroqsiz belgilar aniqlandi"
+
+#: ../xed/xed-io-error-info-bar.c:1122
+msgid ""
+"If you continue saving this file you can corrupt the document.  Save anyway?"
+msgstr ""
+"Agar siz ushbu faylni saqlashda davom etsangiz, hujjatni buzishingiz mumkin. "
+"Baribir saqlansinmi?"
+
+#: ../xed/xed-preferences-dialog.c:280
+#: ../xed/resources/ui/xed-preferences-dialog.ui.h:3
+#, no-c-format
+msgid "Use the system fixed width font (%s)"
+msgstr "Ruxsat etilgan kenglikdagi tizim shriftidan foydalanish (%s)"
+
+#: ../xed/xed-preferences-dialog.c:436
+msgid "Editor"
+msgstr "Muharrir"
+
+#: ../xed/xed-preferences-dialog.c:474
+msgid "Save"
+msgstr "Saqlash"
+
+#: ../xed/xed-preferences-dialog.c:587
+#, c-format
+msgid ""
+"Directory '%s' could not be created: g_mkdir_with_parents() failed: %s"
+msgstr ""
+"“%s” katalogini yaratib bo‘lmadi: g_mkdir_with_parents() bajarilmadi: %s"
+
+#: ../xed/xed-preferences-dialog.c:741
+msgid "The selected color scheme cannot be installed."
+msgstr "Tanlangan rang sxemasini o‘rnatib bo‘lmaydi."
+
+#: ../xed/xed-preferences-dialog.c:764 ../xed/xed-preferences-dialog.c:770
+msgid "Add Scheme"
+msgstr "Sxema qo‘shish"
+
+#: ../xed/xed-preferences-dialog.c:767 ../xed/xed-progress-info-bar.c:61
+msgid "Cancel"
+msgstr "Bekor qilish"
+
+#: ../xed/xed-preferences-dialog.c:776
+msgid "Color Scheme Files"
+msgstr "Rang sxemasi fayllari"
+
+#: ../xed/xed-preferences-dialog.c:848
+#, c-format
+msgid "Could not remove color scheme \"%s\"."
+msgstr "“%s” rang sxemasini olib tashlab bo‘lmadi."
+
+#: ../xed/xed-preferences-dialog.c:880
+msgid "Theme"
+msgstr "Mavzu"
+
+#: ../xed/xed-preferences-dialog.c:897
+msgid "Plugins"
+msgstr "Plaginlar"
+
+#: ../xed/xed-preferences-dialog.c:905
+msgid "Help"
+msgstr "Yordam"
+
+#: ../xed/xed-preferences-dialog.c:910
+#: ../xed/resources/ui/xed-searchbar.ui.h:11
+msgid "Close"
+msgstr "Yopish"
+
+#: ../xed/xed-preferences-dialog.c:924
+msgid "Xed Preferences"
+msgstr "Xed parametrlari"
+
+#: ../xed/xed-print-job.c:487
+#, c-format
+msgid "File: %s"
+msgstr "Fayl: %s"
+
+#: ../xed/xed-print-job.c:496
+msgid "Page %N of %Q"
+msgstr "Sahifa %N %Q dan"
+
+#: ../xed/xed-print-job.c:733
+msgid "Preparing..."
+msgstr "Tayyorlanmoqda..."
+
+#: ../xed/xed-print-preview.c:580
+msgid "Show the previous page"
+msgstr "Oldingi sahifani ko‘rsatish"
+
+#: ../xed/xed-print-preview.c:586
+msgid "Show the next page"
+msgstr "Keyingi sahifani ko‘rsatish"
+
+#: ../xed/xed-print-preview.c:600
+msgid "Current page (Alt+P)"
+msgstr "Joriy sahifa (Alt+P)"
+
+#. gtk_label_set_mnemonic_widget ((GtkLabel *) l, mp->priv->page_entry);
+#. We are displaying 'XXX of XXX'.
+#. Translators: the "of" from "1 of 19" in print preview.
+#: ../xed/xed-print-preview.c:614
+msgid "of"
+msgstr "jami"
+
+#: ../xed/xed-print-preview.c:619
+msgid "Page total"
+msgstr "Jami sahifa"
+
+#: ../xed/xed-print-preview.c:620
+msgid "The total number of pages in the document"
+msgstr "Hujjatdagi sahifalarning umumiy soni"
+
+#: ../xed/xed-print-preview.c:640
+msgid "Show multiple pages"
+msgstr "Bir nechta sahifalarni ko‘rsatish"
+
+#: ../xed/xed-print-preview.c:658
+msgid "Zoom 1:1"
+msgstr "Masshtab 1:1"
+
+#: ../xed/xed-print-preview.c:664
+msgid "Zoom to fit the whole page"
+msgstr "Butun sahifaga moslashish uchun kattalashtirish"
+
+#: ../xed/xed-print-preview.c:670
+msgid "Zoom the page in"
+msgstr "Sahifani kattalashtirish"
+
+#: ../xed/xed-print-preview.c:676
+msgid "Zoom the page out"
+msgstr "Sahifani kichraytirish"
+
+#: ../xed/xed-print-preview.c:693 ../xed/resources/ui/xed-shortcuts.ui.h:33
+msgid "Print the document"
+msgstr "Hujjatni chop etish"
+
+#: ../xed/xed-print-preview.c:708
+msgid "_Close preview"
+msgstr "_Ko‘rib chiqishni yopish"
+
+#: ../xed/xed-print-preview.c:710
+msgid "Close print preview"
+msgstr "Chop etishni oldindan koʻrishni yopish"
+
+#: ../xed/xed-print-preview.c:788
+#, c-format
+msgid "Page %d of %d"
+msgstr "Sahifa %d %d dan"
+
+#: ../xed/xed-print-preview.c:970
+msgid "Page Preview"
+msgstr "Sahifani oldindan ko‘rish"
+
+#: ../xed/xed-print-preview.c:971
+msgid "The preview of a page in the document to be printed"
+msgstr "Hujjatda chop etiladigan sahifani oldindan ko‘rish"
+
+#: ../xed/resources/ui/xed-highlight-mode-dialog.ui.h:1
+msgid "Highlight Mode"
+msgstr "Ajratish rejimi"
+
+#: ../xed/resources/ui/xed-highlight-mode-dialog.ui.h:3
+msgid "_Select"
+msgstr "_Tanlash"
+
+#: ../xed/resources/ui/xed-highlight-mode-selector.ui.h:1
+msgid "Search highlight mode…"
+msgstr "Ajratish rejimini qidirish…"
+
+#: ../xed/resources/ui/xed-encodings-dialog.ui.h:1
+msgid "Character encodings"
+msgstr "Belgilarni kodlash"
+
+#: ../xed/resources/ui/xed-encodings-dialog.ui.h:2
+msgid "A_vailable encodings:"
+msgstr "Mavjud kodlashlar:"
+
+#: ../xed/resources/ui/xed-encodings-dialog.ui.h:3
+msgid "E_ncodings shown in menu:"
+msgstr "_Menyuda ko‘rsatilgan kodlashlar:"
+
+#: ../xed/resources/ui/xed-preferences-dialog.ui.h:1
+msgid "Font"
+msgstr "Shrift"
+
+#: ../xed/resources/ui/xed-preferences-dialog.ui.h:4
+msgid "Display"
+msgstr "Ko‘rsatish"
+
+#: ../xed/resources/ui/xed-preferences-dialog.ui.h:5
+msgid "Display line numbers"
+msgstr "Satr raqamlarini ko‘rsatish"
+
+#: ../xed/resources/ui/xed-preferences-dialog.ui.h:6
+msgid "Display overview map"
+msgstr "Umumiy koʻrinish xaritasini koʻrsatish"
+
+#: ../xed/resources/ui/xed-preferences-dialog.ui.h:7
+msgid "Display right margin"
+msgstr "O‘ng chetini ko‘rsatish"
+
+#: ../xed/resources/ui/xed-preferences-dialog.ui.h:8
+msgid "Right margin at column"
+msgstr "Ustunning o‘ng cheti"
+
+#: ../xed/resources/ui/xed-preferences-dialog.ui.h:9
+msgid "4"
+msgstr "4"
+
+#: ../xed/resources/ui/xed-preferences-dialog.ui.h:10
+msgid "Draw whitespace"
+msgstr "Bo‘shliqni chizish"
+
+#: ../xed/resources/ui/xed-preferences-dialog.ui.h:11
+msgid "Leading whitespace"
+msgstr "Etakchi bo‘shliq"
+
+#: ../xed/resources/ui/xed-preferences-dialog.ui.h:12
+msgid "Trailing whitespace"
+msgstr "Keyingi bo‘shliq"
+
+#: ../xed/resources/ui/xed-preferences-dialog.ui.h:13
+msgid "Whitespace inside of text"
+msgstr "Matn ichidagi boʻshliq"
+
+#: ../xed/resources/ui/xed-preferences-dialog.ui.h:14
+msgid "Newline character"
+msgstr "Yangi qator belgisi"
+
+#: ../xed/resources/ui/xed-preferences-dialog.ui.h:15
+msgid "Highlighting"
+msgstr "Ajratish"
+
+#: ../xed/resources/ui/xed-preferences-dialog.ui.h:16
+msgid "Highlight the current line"
+msgstr "Joriy qatorni ajratish"
+
+#: ../xed/resources/ui/xed-preferences-dialog.ui.h:17
+msgid "Highlight matching brackets"
+msgstr "Mos keladigan qavslarni ajratib ko‘rsatish"
+
+#: ../xed/resources/ui/xed-preferences-dialog.ui.h:18
+msgid "Indentation"
+msgstr "Xatboshi"
+
+#: ../xed/resources/ui/xed-preferences-dialog.ui.h:19
+msgid "Tab width"
+msgstr "Xatboshi kengligi"
+
+#: ../xed/resources/ui/xed-preferences-dialog.ui.h:20
+msgid "Use spaces instead of tabs"
+msgstr "Xatboshi o‘rniga bo‘shliqlardan foydalanish"
+
+#: ../xed/resources/ui/xed-preferences-dialog.ui.h:21
+msgid "Automatic indentation"
+msgstr "Avtomatik xatboshi"
+
+#: ../xed/resources/ui/xed-preferences-dialog.ui.h:22
+msgid "Word wrap"
+msgstr "So‘zlarni o‘rash"
+
+#: ../xed/resources/ui/xed-preferences-dialog.ui.h:23
+msgid "Split words over two lines"
+msgstr "So‘zlarni ikki qatorga ajratish"
+
+#: ../xed/resources/ui/xed-preferences-dialog.ui.h:24
+msgid "Tab scrolling"
+msgstr "Varaqlarni aylantirish"
+
+#: ../xed/resources/ui/xed-preferences-dialog.ui.h:25
+msgid "Allow mouse wheel scrolling to change tabs"
+msgstr ""
+"Varaqlarni o‘zgartirish uchun sichqoncha g‘ildiragini aylantirishga ruxsat "
+"berish"
+
+#: ../xed/resources/ui/xed-preferences-dialog.ui.h:26
+msgid "File saving"
+msgstr "Faylni saqlash"
+
+#: ../xed/resources/ui/xed-preferences-dialog.ui.h:27
+msgid "Create a backup copy of files before saving"
+msgstr "Saqlashdan oldin fayllarning zaxira nusxasini yaratish"
+
+#: ../xed/resources/ui/xed-preferences-dialog.ui.h:28
+msgid "Autosave files"
+msgstr "Fayllarni avtomatik saqlash"
+
+#: ../xed/resources/ui/xed-preferences-dialog.ui.h:29
+msgid "Minutes between saving"
+msgstr "Saqlash orasidagi daqiqalar"
+
+#: ../xed/resources/ui/xed-preferences-dialog.ui.h:30
+msgid "Ensure Trailing Newline"
+msgstr "Yangi qatorni kuzatib borishga ishonch hosil qilish"
+
+#: ../xed/resources/ui/xed-preferences-dialog.ui.h:31
+msgid "Dark theme"
+msgstr "Qorong‘i mavzu"
+
+#: ../xed/resources/ui/xed-preferences-dialog.ui.h:32
+msgid "Use dark theme variant (if available)"
+msgstr "Qorongʻi mavzu variantidan foydalanish (agar mavjud boʻlsa)"
+
+#: ../xed/resources/ui/xed-preferences-dialog.ui.h:33
+msgid "Style scheme"
+msgstr "Uslub sxemasi"
+
+#: ../xed/resources/ui/xed-preferences-dialog.ui.h:34
+msgid "Install scheme"
+msgstr "Sxemani o‘rnatish"
+
+#: ../xed/resources/ui/xed-preferences-dialog.ui.h:35
+msgid "Remove scheme"
+msgstr "Sxemani olib tashlash"
+
+#: ../xed/resources/ui/xed-print-preferences.ui.h:1
+msgid "Syntax Highlighting"
+msgstr "Sintaksisni ajratish"
+
+#: ../xed/resources/ui/xed-print-preferences.ui.h:2
+msgid "Print synta_x highlighting"
+msgstr "Sintaksis ajratishini chop etish"
+
+#: ../xed/resources/ui/xed-print-preferences.ui.h:3
+msgid "Line Numbers"
+msgstr "Satr raqamlari"
+
+#: ../xed/resources/ui/xed-print-preferences.ui.h:4
+msgid "Print line nu_mbers"
+msgstr "Satr raqamlarini chop etish"
+
+#. 
+#: ../xed/resources/ui/xed-print-preferences.ui.h:6
+msgid "_Number every"
+msgstr "_Raqamlash"
+
+#. 
+#: ../xed/resources/ui/xed-print-preferences.ui.h:8
+msgid "lines"
+msgstr "satrlar"
+
+#: ../xed/resources/ui/xed-print-preferences.ui.h:9
+msgid "Text Wrapping"
+msgstr "Matnni oʻrash"
+
+#: ../xed/resources/ui/xed-print-preferences.ui.h:10
+msgid "Enable text _wrapping"
+msgstr "Matnni oʻrashni yoqish"
+
+#: ../xed/resources/ui/xed-print-preferences.ui.h:11
+msgid "Do not _split words over two lines"
+msgstr "So‘zlarni ikki qatorga ajratmaslik"
+
+#: ../xed/resources/ui/xed-print-preferences.ui.h:12
+msgid "Page header"
+msgstr "Sahifa sarlavhasi"
+
+#: ../xed/resources/ui/xed-print-preferences.ui.h:13
+msgid "Print page _headers"
+msgstr "Sahifa _sarlavhalarini chop etish"
+
+#: ../xed/resources/ui/xed-print-preferences.ui.h:14
+msgid "Fonts"
+msgstr "Shriftlar"
+
+#: ../xed/resources/ui/xed-print-preferences.ui.h:15
+msgid "_Body:"
+msgstr "_Tana:"
+
+#: ../xed/resources/ui/xed-print-preferences.ui.h:16
+msgid "_Line numbers:"
+msgstr "_Satr raqamlari:"
+
+#: ../xed/resources/ui/xed-print-preferences.ui.h:17
+msgid "He_aders and footers:"
+msgstr "Sarlavhalar va futerlar:"
+
+#: ../xed/resources/ui/xed-print-preferences.ui.h:18
+msgid "_Restore Default Fonts"
+msgstr "_Standart shriftlarni tiklash"
+
+#: ../xed/resources/ui/xed-searchbar.ui.h:1
+msgid "Replace _All"
+msgstr "_Hammasini almashtirish"
+
+#: ../xed/resources/ui/xed-searchbar.ui.h:3
+msgid "_Search for: "
+msgstr "_Qidirish: "
+
+#: ../xed/resources/ui/xed-searchbar.ui.h:4
+msgid "Replace _with: "
+msgstr "_almashtirish: "
+
+#: ../xed/resources/ui/xed-searchbar.ui.h:5
+msgid "Next"
+msgstr "Keyingi"
+
+#: ../xed/resources/ui/xed-searchbar.ui.h:6
+msgid "Previous"
+msgstr "Oldingi"
+
+#: ../xed/resources/ui/xed-searchbar.ui.h:7
+msgid "Regular expression"
+msgstr "Muntazam ifoda"
+
+#: ../xed/resources/ui/xed-searchbar.ui.h:8
+msgid "Case sensitive"
+msgstr "Harflar katta-kichikligiga sezgir"
+
+#: ../xed/resources/ui/xed-searchbar.ui.h:9
+msgid "Whole word"
+msgstr "Butun so‘z"
+
+#: ../xed/resources/ui/xed-searchbar.ui.h:10
+msgid "Wrap"
+msgstr "O‘rash"
+
+#: ../xed/resources/ui/xed-shortcuts.ui.h:2 ../xed/xed-ui.h:56
+msgid "Create a new document"
+msgstr "Yangi hujjat yaratish"
+
+#: ../xed/resources/ui/xed-shortcuts.ui.h:3
+msgid "Open a document"
+msgstr "Hujjatni ochish"
+
+#: ../xed/resources/ui/xed-shortcuts.ui.h:4
+msgid "Save the document"
+msgstr "Hujjatni saqlash"
+
+#: ../xed/resources/ui/xed-shortcuts.ui.h:5
+msgid "Save the document with a new filename"
+msgstr "Hujjatni yangi fayl nomi bilan saqlash"
+
+#: ../xed/resources/ui/xed-shortcuts.ui.h:6
+msgid "Save all the documents"
+msgstr "Barcha hujjatlarni saqlash"
+
+#: ../xed/resources/ui/xed-shortcuts.ui.h:7
+msgid "Close the document"
+msgstr "Hujjatni yopish"
+
+#: ../xed/resources/ui/xed-shortcuts.ui.h:8
+msgid "Close all the documents"
+msgstr "Barcha hujjatlarni yopish"
+
+#: ../xed/resources/ui/xed-shortcuts.ui.h:9
+msgid "Switch to the next document"
+msgstr "Keyingi hujjatga o‘tish"
+
+#: ../xed/resources/ui/xed-shortcuts.ui.h:10
+msgid "Switch to the previous document"
+msgstr "Oldingi hujjatga o‘tish"
+
+#: ../xed/resources/ui/xed-shortcuts.ui.h:11
+msgid "Switch to the first - ninth document"
+msgstr "Birinchi - to‘qqizinchi hujjatga o‘tish"
+
+#: ../xed/resources/ui/xed-shortcuts.ui.h:12
+msgid "Windows and Panes"
+msgstr "Oynalar va panellar"
+
+#: ../xed/resources/ui/xed-shortcuts.ui.h:13
+msgid "Show side pane"
+msgstr "Yon panelni ko‘rsatish"
+
+#: ../xed/resources/ui/xed-shortcuts.ui.h:14
+msgid "Show bottom pane"
+msgstr "Pastki panelni ko‘rsatish"
+
+#: ../xed/resources/ui/xed-shortcuts.ui.h:15
+msgid "Fullscreen on / off"
+msgstr "To‘liq ekranni yoqish/o‘chirish"
+
+#: ../xed/resources/ui/xed-shortcuts.ui.h:16
+msgid "Quit the application"
+msgstr "Ilovadan chiqish"
+
+#: ../xed/resources/ui/xed-shortcuts.ui.h:17
+msgid "Find and Replace"
+msgstr "Topish va almashtirish"
+
+#: ../xed/resources/ui/xed-shortcuts.ui.h:18
+msgid "Find"
+msgstr "Topish"
+
+#: ../xed/resources/ui/xed-shortcuts.ui.h:19
+msgid "Find the next match"
+msgstr "Keyingi moslikni topish"
+
+#: ../xed/resources/ui/xed-shortcuts.ui.h:20
+msgid "Find the previous match"
+msgstr "Oldingi moslikni topish"
+
+#: ../xed/resources/ui/xed-shortcuts.ui.h:21
+msgid "Go to line"
+msgstr "Satrga o‘tish"
+
+#: ../xed/resources/ui/xed-shortcuts.ui.h:22
+msgid "Copy and Paste"
+msgstr "Nusxalash va joylashtirish"
+
+#: ../xed/resources/ui/xed-shortcuts.ui.h:23
+msgid "Copy selected text to clipboard"
+msgstr "Tanlangan matnni buferga nusxalash"
+
+#: ../xed/resources/ui/xed-shortcuts.ui.h:24
+msgid "Cut selected text to clipboard"
+msgstr "Tanlangan matnni buferga kesish"
+
+#: ../xed/resources/ui/xed-shortcuts.ui.h:25
+msgid "Paste text from clipboard"
+msgstr "Buferdan matnni joylashtirish"
+
+#: ../xed/resources/ui/xed-shortcuts.ui.h:26
+msgid "Undo and Redo"
+msgstr "Ortga va oldinga qaytarish"
+
+#: ../xed/resources/ui/xed-shortcuts.ui.h:27
+msgid "Undo previous command"
+msgstr "Oldingi buyruqni ortga qaytarish"
+
+#: ../xed/resources/ui/xed-shortcuts.ui.h:28
+msgid "Redo previous command"
+msgstr "Oldingi buyruqni oldinga qaytarish"
+
+#: ../xed/resources/ui/xed-shortcuts.ui.h:29 ../plugins/docinfo/docinfo.ui.h:11
+msgid "Selection"
+msgstr "Tanlov"
+
+#: ../xed/resources/ui/xed-shortcuts.ui.h:30
+msgid "Select all text"
+msgstr "Barcha matnni tanlash"
+
+#: ../xed/resources/ui/xed-shortcuts.ui.h:31
+msgid "Tools"
+msgstr "Asboblar"
+
+#: ../xed/resources/ui/xed-shortcuts.ui.h:32
+msgid "Check spelling"
+msgstr "Imloni tekshirish"
+
+#: ../xed/resources/ui/xed-shortcuts.ui.h:34
+msgid "Layout"
+msgstr "Joylashuv"
+
+#: ../xed/resources/ui/xed-shortcuts.ui.h:35
+msgid "Toggle Word Wrap"
+msgstr "Soʻzlarni oʻrashni oʻzgartirish"
+
+#: ../xed/resources/ui/xed-shortcuts.ui.h:36
+msgid "Editing"
+msgstr "Tahrirlash"
+
+#: ../xed/resources/ui/xed-shortcuts.ui.h:37
+msgid "Toggle insert / overwrite"
+msgstr "Qo‘shish/qayta yozishni o‘zgartirish"
+
+#: ../xed/resources/ui/xed-shortcuts.ui.h:38
+msgid "Delete current line"
+msgstr "Joriy satrni o‘chirish"
+
+#: ../xed/resources/ui/xed-shortcuts.ui.h:39
+msgid "Move current line up"
+msgstr "Joriy satrni yuqoriga siljitish"
+
+#: ../xed/resources/ui/xed-shortcuts.ui.h:40
+msgid "Move current line down"
+msgstr "Joriy satrni pastga siljitish"
+
+#: ../xed/resources/ui/xed-shortcuts.ui.h:41
+msgid "Move current word left"
+msgstr "Joriy so‘zni chapga siljitish"
+
+#: ../xed/resources/ui/xed-shortcuts.ui.h:42
+msgid "Move current word right"
+msgstr "Joriy so‘zni o‘ngga siljitish"
+
+#: ../xed/resources/ui/xed-shortcuts.ui.h:43
+msgid "Convert to uppercase"
+msgstr "Katta harfga aylantirish"
+
+#: ../xed/resources/ui/xed-shortcuts.ui.h:44
+msgid "Convert to lowercase"
+msgstr "Kichik harfga aylantirish"
+
+#: ../xed/resources/ui/xed-shortcuts.ui.h:45
+msgid "Convert to title case"
+msgstr "Sarlavha kattaligiga aylantirish"
+
+#: ../xed/resources/ui/xed-shortcuts.ui.h:46
+msgid "Invert case"
+msgstr "Harflar o‘lchamini teskari aylantirish"
+
+#: ../xed/resources/ui/xed-shortcuts.ui.h:47
+msgid "Increment number at cursor"
+msgstr "Kursorda raqamni ko‘paytirish"
+
+#: ../xed/resources/ui/xed-shortcuts.ui.h:48
+msgid "Decrement number at cursor"
+msgstr "Kursorda raqamni kamaytirish"
+
+#: ../xed/resources/ui/xed-shortcuts.ui.h:49
+msgid "Toggle comment block"
+msgstr "Izoh blokini o‘zgartirish"
+
+#: ../xed/resources/ui/xed-shortcuts.ui.h:50
+msgid "Toggle comment"
+msgstr "Izohni yoqish/yopish"
+
+#: ../xed/resources/ui/xed-shortcuts.ui.h:51
+#: ../plugins/joinlines/joinlines.plugin.desktop.in.h:1
+msgid "Join Lines"
+msgstr "Satrlarni birlashtirish"
+
+#: ../xed/xed-searchbar.c:88
+#, c-format
+msgid "Found and replaced %d occurrence"
+msgid_plural "Found and replaced %d occurrences"
+msgstr[0] "%d ta hodisa topildi va almashtirildi"
+
+#: ../xed/xed-searchbar.c:98
+msgid "Found and replaced one occurrence"
+msgstr "Bir hodisa topildi va almashtirildi"
+
+#: ../xed/xed-searchbar.c:120
+#, c-format
+msgid "\"%s\" not found"
+msgstr "\"%s\" topilmadi"
+
+#: ../xed/xed-searchbar.c:298
+msgid "No matches found"
+msgstr "Hech qanday moslik topilmadi"
+
+#: ../xed/xed-searchbar.c:306
+#, c-format
+msgid "%d match"
+msgid_plural "%d matches"
+msgstr[0] "%d ta moslik"
+
+#: ../xed/xed-searchbar.c:312
+#, c-format
+msgid "%d of %d match"
+msgid_plural "%d of %d matches"
+msgstr[0] "%d %d dan moslik"
+
+#: ../xed/xed-statusbar.c:63 ../xed/xed-statusbar.c:69
+msgid "OVR"
+msgstr "OVR"
+
+#: ../xed/xed-statusbar.c:63 ../xed/xed-statusbar.c:69
+msgid "INS"
+msgstr "INS"
+
+#. Translators: "Ln" is an abbreviation for "Line", Col is an abbreviation for "Column". Please,
+#. use abbreviations if possible to avoid space problems.
+#: ../xed/xed-statusbar.c:222
+#, c-format
+msgid "  Ln %d, Col %d"
+msgstr "  Ln %d, Col %d"
+
+#: ../xed/xed-statusbar.c:322
+#, c-format
+msgid "There is a tab with errors"
+msgid_plural "There are %d tabs with errors"
+msgstr[0] "Xatolari boʻlgan %d ta varaq mavjud"
+
+#: ../xed/xed-tab-label.c:267
+msgid "Close document"
+msgstr "Hujjatni yopish"
+
+#. Translators: the first %s is a file name (e.g. test.txt) the second one
+#. is a directory (e.g. ssh://master.gnome.org/home/users/paolo)
+#: ../xed/xed-tab.c:717
+#, c-format
+msgid "Reverting %s from %s"
+msgstr "%s dan %s ga qaytarilmoqda"
+
+#: ../xed/xed-tab.c:722
+#, c-format
+msgid "Reverting %s"
+msgstr "%s qaytarilmoqda"
+
+#. Translators: the first %s is a file name (e.g. test.txt) the second one
+#. is a directory (e.g. ssh://master.gnome.org/home/users/paolo)
+#: ../xed/xed-tab.c:735
+#, c-format
+msgid "Loading %s from %s"
+msgstr "%s %s dan yuklanmoqda"
+
+#: ../xed/xed-tab.c:740
+#, c-format
+msgid "Loading %s"
+msgstr "%s yuklanmoqda"
+
+#. Translators: the first %s is a file name (e.g. test.txt) the second one
+#. is a directory (e.g. ssh://master.gnome.org/home/users/paolo)
+#: ../xed/xed-tab.c:821
+#, c-format
+msgid "Saving %s to %s"
+msgstr "%s %s ga saqlanmoqda"
+
+#: ../xed/xed-tab.c:826
+#, c-format
+msgid "Saving %s"
+msgstr "%s saqlanmoqda"
+
+#. Read only
+#: ../xed/xed-tab.c:1320
+msgid "RO"
+msgstr "RO"
+
+#: ../xed/xed-tab.c:1368
+#, c-format
+msgid "Error opening file %s"
+msgstr "%s faylini ochishda xatolik yuz berdi"
+
+#: ../xed/xed-tab.c:1372
+#, c-format
+msgid "Error reverting file %s"
+msgstr "%s faylini qaytarishda xatolik yuz berdi"
+
+#: ../xed/xed-tab.c:1376
+#, c-format
+msgid "Error saving file %s"
+msgstr "%s faylini saqlashda xatolik yuz berdi"
+
+#: ../xed/xed-tab.c:1409
+msgid "Name:"
+msgstr "Nomi:"
+
+#: ../xed/xed-tab.c:1410
+msgid "MIME Type:"
+msgstr "MIME turi:"
+
+#: ../xed/xed-tab.c:1411
+msgid "Encoding:"
+msgstr "Kodlash:"
+
+#. Toplevel
+#: ../xed/xed-ui.h:44
+msgid "_File"
+msgstr "_Fayl"
+
+#: ../xed/xed-ui.h:45
+msgid "_Edit"
+msgstr "_Tahrirlash"
+
+#: ../xed/xed-ui.h:46
+msgid "_View"
+msgstr "_Ko‘rinish"
+
+#: ../xed/xed-ui.h:47
+msgid "_Search"
+msgstr "_Qidirish"
+
+#: ../xed/xed-ui.h:48
+msgid "_Tools"
+msgstr "_Asboblar"
+
+#: ../xed/xed-ui.h:49
+msgid "_Documents"
+msgstr "_Hujjatlar"
+
+#: ../xed/xed-ui.h:51
+msgid "Favorites"
+msgstr "Sevimlilar"
+
+#: ../xed/xed-ui.h:52
+msgid "Recents"
+msgstr "Oxirgilar"
+
+#. File menu
+#: ../xed/xed-ui.h:55
+msgid "_New"
+msgstr "_Yangi"
+
+#: ../xed/xed-ui.h:57
+msgid "_Open..."
+msgstr "_Ochish..."
+
+#: ../xed/xed-ui.h:58
+msgid "Open a file"
+msgstr "Faylni ochish"
+
+#. Edit menu
+#: ../xed/xed-ui.h:61
+msgid "Pr_eferences"
+msgstr "_Parametrlar"
+
+#: ../xed/xed-ui.h:62
+msgid "Configure the application"
+msgstr "Ilovani sozlash"
+
+#. Help menu
+#: ../xed/xed-ui.h:65
+msgid "_Contents"
+msgstr "_Tarkibi"
+
+#: ../xed/xed-ui.h:66
+msgid "Open the xed manual"
+msgstr "Xed qo‘llanmasini ochish"
+
+#: ../xed/xed-ui.h:67
+msgid "_About"
+msgstr "_Haqida"
+
+#: ../xed/xed-ui.h:68
+msgid "About this application"
+msgstr "Ushbu ilova haqida"
+
+#: ../xed/xed-ui.h:69
+msgid "_Keyboard Shortcuts"
+msgstr "_Klaviatura yorliqlari"
+
+#: ../xed/xed-ui.h:70
+msgid "Show the keyboard shortcuts dialog"
+msgstr "Klaviatura yorliqlari dialog oynasini ko‘rsatish"
+
+#: ../xed/xed-ui.h:74
+msgid "Leave fullscreen mode"
+msgstr "Toʻliq ekran rejimidan chiqish"
+
+#: ../xed/xed-ui.h:82
+msgid "Save the current file"
+msgstr "Joriy faylni saqlash"
+
+#: ../xed/xed-ui.h:83
+msgid "Save _As..."
+msgstr "_Boshqa saqlash..."
+
+#: ../xed/xed-ui.h:84
+msgid "Save the current file with a different name"
+msgstr "Joriy faylni boshqa nom bilan saqlash"
+
+#: ../xed/xed-ui.h:85
+msgid "Revert"
+msgstr "Qaytarish"
+
+#: ../xed/xed-ui.h:86
+msgid "Revert to a saved version of the file"
+msgstr "Faylning saqlangan versiyasiga qaytish"
+
+#: ../xed/xed-ui.h:87
+msgid "Print Previe_w"
+msgstr "_Chop etishni oldindan ko‘rish"
+
+#: ../xed/xed-ui.h:88
+msgid "Print preview"
+msgstr "Chop etishni oldindan ko‘rish"
+
+#: ../xed/xed-ui.h:89
+msgid "_Print..."
+msgstr "_Chop etish..."
+
+#: ../xed/xed-ui.h:90
+msgid "Print the current page"
+msgstr "Joriy sahifani chop etish"
+
+#. Edit menu
+#: ../xed/xed-ui.h:93
+msgid "_Undo"
+msgstr "_Ortga qaytarish"
+
+#: ../xed/xed-ui.h:94
+msgid "Undo the last action"
+msgstr "Oxirgi harakatni ortga qaytarish"
+
+#: ../xed/xed-ui.h:95
+msgid "_Redo"
+msgstr "_Oldinga qaytarish"
+
+#: ../xed/xed-ui.h:96
+msgid "Redo the last undone action"
+msgstr "Oxirgi bekor qilingan harakatni oldinga qaytarish"
+
+#: ../xed/xed-ui.h:97
+msgid "C_ut"
+msgstr "_Kesish"
+
+#: ../xed/xed-ui.h:98
+msgid "Cut the selection"
+msgstr "Tanlanganni kesish"
+
+#: ../xed/xed-ui.h:99
+msgid "_Copy"
+msgstr "_Nusxalash"
+
+#: ../xed/xed-ui.h:100
+msgid "Copy the selection"
+msgstr "Tanlanganni nusxalash"
+
+#: ../xed/xed-ui.h:101
+msgid "_Paste"
+msgstr "_Joylashtirish"
+
+#: ../xed/xed-ui.h:102
+msgid "Paste the clipboard"
+msgstr "Buferdan joylashtirish"
+
+#: ../xed/xed-ui.h:103 ../plugins/filebrowser/xed-file-browser-plugin.c:962
+#: ../plugins/filebrowser/xed-file-browser-plugin.c:997
+#: ../plugins/filebrowser/xed-file-browser-widget.c:758
+msgid "_Delete"
+msgstr "_Oʻchirish"
+
+#: ../xed/xed-ui.h:104
+msgid "Delete the selected text"
+msgstr "Tanlangan matnni o‘chirish"
+
+#: ../xed/xed-ui.h:105
+msgid "Select _All"
+msgstr "_Hammasini tanlash"
+
+#: ../xed/xed-ui.h:106
+msgid "Select the entire document"
+msgstr "To‘liq hujjatni tanlash"
+
+#: ../xed/xed-ui.h:107
+msgid "_Toggle Comment"
+msgstr "_Izohni almashtirish"
+
+#: ../xed/xed-ui.h:108 ../plugins/taglist/HTML.tags.xml.in.h:41
+msgid "Comment"
+msgstr "Izoh"
+
+#: ../xed/xed-ui.h:109
+msgid "Toggle Comment _Block"
+msgstr "Izohlar _blokini almashtirish"
+
+#: ../xed/xed-ui.h:110
+msgid "Comment Block"
+msgstr "Izoh bloki"
+
+#. View menu
+#: ../xed/xed-ui.h:113
+msgid "_Highlight Mode"
+msgstr "_Ajratish rejimi"
+
+#: ../xed/xed-ui.h:114
+msgid "Change syntax hightlight mode"
+msgstr "Sintaksisni ajratish rejimini o‘zgartirish"
+
+#. Search menu
+#: ../xed/xed-ui.h:118
+msgid "_Find"
+msgstr "_Topish"
+
+#: ../xed/xed-ui.h:119
+msgid "Search for text"
+msgstr "Matnni qidirish"
+
+#: ../xed/xed-ui.h:120
+msgid "Find Ne_xt"
+msgstr "_Keyingisini topish"
+
+#: ../xed/xed-ui.h:121
+msgid "Search forwards for the same text"
+msgstr "Xuddi shu matnni oldinga qarab qidirish"
+
+#: ../xed/xed-ui.h:122
+msgid "Find Pre_vious"
+msgstr "_Oldingisini topish"
+
+#: ../xed/xed-ui.h:123
+msgid "Search backwards for the same text"
+msgstr "Xuddi shu matnni orqaga qarab qidirish"
+
+#: ../xed/xed-ui.h:125
+msgid "Search for and replace text"
+msgstr "Matnni qidirish va almashtirish"
+
+#: ../xed/xed-ui.h:126
+msgid "Go to _Line..."
+msgstr "_Satrga o‘tish..."
+
+#: ../xed/xed-ui.h:127
+msgid "Go to a specific line"
+msgstr "Muayyan qatorga o‘tish"
+
+#. Documents menu
+#: ../xed/xed-ui.h:130
+msgid "_Save All"
+msgstr "_Hammasini saqlash"
+
+#: ../xed/xed-ui.h:131
+msgid "Save all open files"
+msgstr "Barcha ochiq fayllarni saqlash"
+
+#: ../xed/xed-ui.h:132
+msgid "_Close All"
+msgstr "_Hammasini yopish"
+
+#: ../xed/xed-ui.h:133
+msgid "Close all open files"
+msgstr "Barcha ochiq fayllarni yopish"
+
+#: ../xed/xed-ui.h:134
+msgid "_Previous Document"
+msgstr "_Oldingi hujjat"
+
+#: ../xed/xed-ui.h:135
+msgid "Activate previous document"
+msgstr "Oldingi hujjatni faollashtirish"
+
+#: ../xed/xed-ui.h:136
+msgid "_Next Document"
+msgstr "_Keyingi hujjat"
+
+#: ../xed/xed-ui.h:137
+msgid "Activate next document"
+msgstr "Keyingi hujjatni faollashtirish"
+
+#: ../xed/xed-ui.h:138
+msgid "_Move to New Window"
+msgstr "_Yangi oynaga koʻchirish"
+
+#: ../xed/xed-ui.h:139
+msgid "Move the current document to a new window"
+msgstr "Joriy hujjatni yangi oynaga ko‘chirish"
+
+#: ../xed/xed-ui.h:145
+msgid "_Close"
+msgstr "_Yopish"
+
+#: ../xed/xed-ui.h:146
+msgid "Close the current file"
+msgstr "Joriy faylni yopish"
+
+#: ../xed/xed-ui.h:152
+msgid "_Quit"
+msgstr "_Chiqish"
+
+#: ../xed/xed-ui.h:153
+msgid "Quit the program"
+msgstr "Dasturdan chiqish"
+
+#: ../xed/xed-ui.h:158
+msgid "_Toolbar"
+msgstr "_Asboblar paneli"
+
+#: ../xed/xed-ui.h:159
+msgid "Show or hide the toolbar in the current window"
+msgstr "Joriy oynada asboblar panelini ko‘rsatish yoki yashirish"
+
+#: ../xed/xed-ui.h:161
+msgid "_Menubar"
+msgstr "_Menyu paneli"
+
+#: ../xed/xed-ui.h:162
+msgid "Show or hide the menubar in the current window"
+msgstr "Joriy oynada menyu panelini ko‘rsatish yoki yashirish"
+
+#: ../xed/xed-ui.h:164
+msgid "_Statusbar"
+msgstr "_Holat paneli"
+
+#: ../xed/xed-ui.h:165
+msgid "Show or hide the statusbar in the current window"
+msgstr "Joriy oynada holat panelini ko‘rsatish yoki yashirish"
+
+#: ../xed/xed-ui.h:167
+msgid "Fullscreen"
+msgstr "To‘liq ekran"
+
+#: ../xed/xed-ui.h:168
+msgid "Edit text in fullscreen"
+msgstr "Matnni toʻliq ekranda tahrirlash"
+
+#: ../xed/xed-ui.h:170
+msgid "_Word wrap"
+msgstr "_So‘zlarni o‘rash"
+
+#: ../xed/xed-ui.h:171
+msgid "Set word wrap for the current document"
+msgstr "Joriy hujjat uchun so‘zlarni o‘rashni sozlash"
+
+#: ../xed/xed-ui.h:173
+msgid "_Overview Map"
+msgstr "_Umumiy ko‘rinish xaritasi"
+
+#: ../xed/xed-ui.h:174
+msgid "Show or hide the overview map for the current view"
+msgstr ""
+"Joriy ko‘rinish uchun umumiy ko‘rinish xaritasini ko‘rsatish yoki yashirish"
+
+#: ../xed/xed-ui.h:181
+msgid "Side _Pane"
+msgstr "Yon _panel"
+
+#: ../xed/xed-ui.h:182
+msgid "Show or hide the side pane in the current window"
+msgstr "Joriy oynada yon panelni ko‘rsatish yoki yashirish"
+
+#: ../xed/xed-ui.h:184
+msgid "_Bottom Pane"
+msgstr "_ Pastki panel"
+
+#: ../xed/xed-ui.h:185
+msgid "Show or hide the bottom pane in the current window"
+msgstr "Joriy oynada pastki panelni ko‘rsatish yoki yashirish"
+
+#: ../xed/xed-utils.c:830
+msgid "Please check your installation."
+msgstr "Iltimos, o‘rnatishingizni tekshiring."
+
+#: ../xed/xed-utils.c:898
+#, c-format
+msgid "Unable to open UI file %s. Error: %s"
+msgstr "%s UI faylini ochib bo‘lmadi. Xato: %s"
+
+#: ../xed/xed-utils.c:918
+#, c-format
+msgid "Unable to find the object '%s' inside file %s."
+msgstr "%s obyektini “%s” fayli ichidan topib bo‘lmadi."
+
+#. Translators: '/ on <remote-share>'
+#: ../xed/xed-utils.c:1086
+#, c-format
+msgid "/ on %s"
+msgstr "/ %s da"
+
+#: ../xed/xed-view.c:388
+msgid "_Display line numbers"
+msgstr "_Satr raqamlarini ko‘rsatish"
+
+#. Translators: %s is a URI
+#: ../xed/xed-window.c:944
+#, c-format
+msgid "Open '%s'"
+msgstr "“%s”ni ochish"
+
+#. Translators: %s is a URI
+#: ../xed/xed-window.c:1295
+#, c-format
+msgid "Activate '%s'"
+msgstr "“%s”ni faollashtirish"
+
+#: ../xed/xed-window.c:1483
+#, c-format
+msgid "Spaces: %u"
+msgstr "Bo‘shliqlar: %u"
+
+#: ../xed/xed-window.c:1487
+#, c-format
+msgid "Tabs: %u"
+msgstr "Varaqlar: %u"
+
+#: ../xed/xed-window.c:1564
+msgid "Use Spaces"
+msgstr "Bo‘shliqlardan foydalanish"
+
+#: ../xed/xed-window.c:2372
+msgid "There are unsaved documents"
+msgstr "Saqlanmagan hujjatlar mavjud"
+
+#: ../xed/xed-window.c:3421
+msgid "Elevated Privileges"
+msgstr "Kengaytirilgan imtiyozlar"
+
+#: ../plugins/docinfo/docinfo.plugin.desktop.in.h:1
+#: ../plugins/docinfo/docinfo.ui.h:1
+msgid "Document Statistics"
+msgstr "Hujjat statistikasi"
+
+#: ../plugins/docinfo/docinfo.plugin.desktop.in.h:2
+msgid ""
+"Analyzes the current document and reports the number of words, lines, "
+"characters and non-space characters in it."
+msgstr ""
+"Joriy hujjatni tahlil qiladi va undagi so‘zlar, qatorlar, belgilar va bo‘sh "
+"joy bo‘lmagan belgilar soni haqida xabar beradi."
+
+#: ../plugins/docinfo/docinfo.ui.h:2
+msgid "_Update"
+msgstr "_Yangilash"
+
+#: ../plugins/docinfo/docinfo.ui.h:3
+msgid "File Name"
+msgstr "Fayl nomi"
+
+#: ../plugins/docinfo/docinfo.ui.h:4 ../plugins/time/xed-time-dialog.ui.h:4
+#: ../plugins/time/xed-time-setup-dialog.ui.h:3
+msgid "    "
+msgstr "    "
+
+#: ../plugins/docinfo/docinfo.ui.h:5
+msgid "Bytes"
+msgstr "Bayt"
+
+#: ../plugins/docinfo/docinfo.ui.h:6
+msgid "Characters (no spaces)"
+msgstr "Belgilar (bo‘shliqlarsiz)"
+
+#: ../plugins/docinfo/docinfo.ui.h:7
+msgid "Characters (with spaces)"
+msgstr "Belgilar (bo‘shliqlar bilan)"
+
+#: ../plugins/docinfo/docinfo.ui.h:8
+msgid "Words"
+msgstr "So‘zlar"
+
+#: ../plugins/docinfo/docinfo.ui.h:9
+msgid "Lines"
+msgstr "Satrlar"
+
+#: ../plugins/docinfo/docinfo.ui.h:10
+msgid "Document"
+msgstr "Hujjat"
+
+#: ../plugins/docinfo/xed-docinfo-plugin.c:379
+msgid "_Document Statistics"
+msgstr "_Hujjat statistikasi"
+
+#: ../plugins/docinfo/xed-docinfo-plugin.c:381
+msgid "Get statistical information on the current document"
+msgstr "Joriy hujjat bo‘yicha statistik ma'lumotlarni olish"
+
+#: ../plugins/filebrowser/filebrowser.plugin.desktop.in.h:1
+msgid "File Browser Pane"
+msgstr "Fayl brauzeri paneli"
+
+#: ../plugins/filebrowser/filebrowser.plugin.desktop.in.h:2
+msgid "Easy file access from the side pane"
+msgstr "Yon paneldan faylga oson kirish"
+
+#: ../plugins/filebrowser/org.x.editor.plugins.filebrowser.gschema.xml.h:1
+msgid "Set Location to First Document"
+msgstr "Birinchi hujjatning joylashuvini sozlash"
+
+#: ../plugins/filebrowser/org.x.editor.plugins.filebrowser.gschema.xml.h:2
+msgid ""
+"If TRUE the file browser plugin will view the directory of the first opened "
+"document given that the file browser hasn't been used yet. (Thus this "
+"generally applies to opening a document from the command line or opening it "
+"with Caja, etc.)"
+msgstr ""
+"Agar TRUE bo‘lsa, fayl brauzeri plagini fayl brauzeri hali ishlatilmagan "
+"bo‘lsa, birinchi ochilgan hujjatning katalogini ko‘radi. (Shunday qilib, bu "
+"odatda hujjatni buyruq satridan ochish yoki uni Caja bilan ochish va "
+"hokazolar uchun amal qiladi.)"
+
+#: ../plugins/filebrowser/org.x.editor.plugins.filebrowser.gschema.xml.h:3
+msgid "File Browser Filter Mode"
+msgstr "Fayl brauzerini filtrlash rejimi"
+
+#: ../plugins/filebrowser/org.x.editor.plugins.filebrowser.gschema.xml.h:4
+msgid ""
+"This value determines what files get filtered from the file browser. Valid "
+"values are: none (filter nothing), hidden (filter hidden files), binary "
+"(filter binary files) and hidden_and_binary (filter both hidden and binary "
+"files)."
+msgstr ""
+"Bu qiymat qaysi fayllar fayl brauzeridan filtrlanishini aniqlaydi. Yaroqli "
+"qiymatlar quyidagilardir: none (hech narsani filtrlamaslik), yashirin "
+"(yashirin fayllarni filtrlash), ikkilik (ikkilik fayllarni filtrlash) va "
+"hidden_and_binary (ham yashirin, ham ikkilik fayllarni filtrlash)."
+
+#: ../plugins/filebrowser/org.x.editor.plugins.filebrowser.gschema.xml.h:5
+msgid "File Browser Filter Pattern"
+msgstr "Fayl brauzeri filtri namunasi"
+
+#: ../plugins/filebrowser/org.x.editor.plugins.filebrowser.gschema.xml.h:6
+msgid ""
+"The filter pattern to filter the file browser with. This filter works on top "
+"of the filter_mode."
+msgstr ""
+"Fayl brauzerini filtrlash uchun filtr namunasi. Ushbu filtr filter_mode "
+"ustida ishlaydi."
+
+#: ../plugins/filebrowser/org.x.editor.plugins.filebrowser.gschema.xml.h:7
+msgid "Terminal Command"
+msgstr "Terminal buyrug‘i"
+
+#: ../plugins/filebrowser/org.x.editor.plugins.filebrowser.gschema.xml.h:8
+msgid "The terminal command when using the \"Open terminal here\" command."
+msgstr ""
+"\"Terminalni bu yerda ochish\" buyrug‘idan foydalanganda terminal buyrug‘i."
+
+#: ../plugins/filebrowser/org.x.editor.plugins.filebrowser.gschema.xml.h:9
+msgid "Open With Tree View"
+msgstr "Daraxt ko‘rinishi bilan ochish"
+
+#: ../plugins/filebrowser/org.x.editor.plugins.filebrowser.gschema.xml.h:10
+msgid ""
+"Open the tree view when the file browser plugin gets loaded instead of the "
+"bookmarks view"
+msgstr ""
+"Xatcho‘plar ko‘rinishi o‘rniga fayl brauzeri plagini yuklanganda daraxt "
+"ko‘rinishini ochish"
+
+#: ../plugins/filebrowser/org.x.editor.plugins.filebrowser.gschema.xml.h:11
+msgid "File Browser Root Directory"
+msgstr "Fayl brauzerining ildiz katalogi"
+
+#: ../plugins/filebrowser/org.x.editor.plugins.filebrowser.gschema.xml.h:12
+msgid ""
+"The file browser root directory to use when loading the file browser plugin "
+"and onload/tree_view is TRUE."
+msgstr ""
+"Fayl brauzeri plaginini va yuklash/tree_viewni yuklashda foydalaniladigan "
+"fayl brauzerining ildiz katalogi TRUE."
+
+#: ../plugins/filebrowser/org.x.editor.plugins.filebrowser.gschema.xml.h:13
+msgid "File Browser Virtual Root Directory"
+msgstr "Fayl brauzeri virtual ildiz katalogi"
+
+#: ../plugins/filebrowser/org.x.editor.plugins.filebrowser.gschema.xml.h:14
+msgid ""
+"The file browser virtual root directory to use when loading the file browser "
+"plugin when onload/tree_view is TRUE. The virtual root must always be below "
+"the actual root."
+msgstr ""
+"Onload/tree_view TRUE bo‘lganda fayl brauzeri plaginini yuklashda "
+"foydalaniladigan fayl brauzerining virtual ildiz katalogi. Virtual ildiz har "
+"doim haqiqiy ildiz ostida bo‘lishi kerak."
+
+#: ../plugins/filebrowser/org.x.editor.plugins.filebrowser.gschema.xml.h:15
+msgid "Enable Restore of Remote Locations"
+msgstr "Masofaviy joylashuvni tiklashni yoqish"
+
+#: ../plugins/filebrowser/org.x.editor.plugins.filebrowser.gschema.xml.h:16
+msgid "Sets whether to enable restoring of remote locations."
+msgstr "Masofaviy joylarni tiklashni yoqish yoki yo‘qligini o‘rnatadi."
+
+#: ../plugins/filebrowser/xed-file-bookmarks-store.c:254
+msgid "File System"
+msgstr "Fayl tizimi"
+
+#: ../plugins/filebrowser/xed-file-browser-plugin.c:439
+msgid "_Set root to active document"
+msgstr "_Faol hujjatga ildizni sozlash"
+
+#: ../plugins/filebrowser/xed-file-browser-plugin.c:441
+msgid "Set the root to the active document location"
+msgstr "Fol hujjat joylashuviga ildizni sozlash"
+
+#: ../plugins/filebrowser/xed-file-browser-plugin.c:446
+msgid "_Open terminal here"
+msgstr "_Bu yerda terminalni ochish"
+
+#: ../plugins/filebrowser/xed-file-browser-plugin.c:448
+msgid "Open a terminal at the currently opened directory"
+msgstr "Hozirda ochilgan katalogda terminalni ochish"
+
+#: ../plugins/filebrowser/xed-file-browser-plugin.c:558
+msgid "File Browser"
+msgstr "Fayl brauzeri"
+
+#: ../plugins/filebrowser/xed-file-browser-plugin.c:667
+msgid "An error occurred while creating a new directory"
+msgstr "Yangi katalog yaratishda xatolik yuz berdi"
+
+#: ../plugins/filebrowser/xed-file-browser-plugin.c:670
+msgid "An error occurred while creating a new file"
+msgstr "Yangi fayl yaratishda xatolik yuz berdi"
+
+#: ../plugins/filebrowser/xed-file-browser-plugin.c:673
+msgid "An error occurred while renaming a file or directory"
+msgstr "Fayl yoki katalog nomini oʻzgartirishda xatolik yuz berdi"
+
+#: ../plugins/filebrowser/xed-file-browser-plugin.c:676
+msgid "An error occurred while deleting a file or directory"
+msgstr "Fayl yoki katalogni oʻchirishda xatolik yuz berdi"
+
+#: ../plugins/filebrowser/xed-file-browser-plugin.c:679
+msgid "An error occurred while opening a directory in the file manager"
+msgstr "Fayl menejerida katalogni ochishda xatolik yuz berdi"
+
+#: ../plugins/filebrowser/xed-file-browser-plugin.c:682
+msgid "An error occurred while setting a root directory"
+msgstr "Ildiz katalogini sozlashda xatolik yuz berdi"
+
+#: ../plugins/filebrowser/xed-file-browser-plugin.c:685
+msgid "An error occurred while loading a directory"
+msgstr "Katalogni yuklashda xatolik yuz berdi"
+
+#: ../plugins/filebrowser/xed-file-browser-plugin.c:688
+msgid "An error occurred"
+msgstr "Xatolik yuz berdi"
+
+#: ../plugins/filebrowser/xed-file-browser-plugin.c:945
+msgid ""
+"Cannot move file to trash, do you\n"
+"want to delete permanently?"
+msgstr ""
+"Faylni chiqindiga ko‘chirib bo‘lmadi, \n"
+"butunlay o‘chirib tashlamoqchimisiz?"
+
+#: ../plugins/filebrowser/xed-file-browser-plugin.c:950
+#, c-format
+msgid "The file \"%s\" cannot be moved to the trash."
+msgstr "“%s” faylini chiqindiga ko‘chirib bo‘lmaydi."
+
+#: ../plugins/filebrowser/xed-file-browser-plugin.c:955
+msgid "The selected files cannot be moved to the trash."
+msgstr "Tanlangan fayllarni axlat qutisiga olib bo‘lmaydi."
+
+#: ../plugins/filebrowser/xed-file-browser-plugin.c:983
+#, c-format
+msgid "Are you sure you want to permanently delete \"%s\"?"
+msgstr "“%s”ni butunlay o‘chirishga ishonchingiz komilmi?"
+
+#: ../plugins/filebrowser/xed-file-browser-plugin.c:988
+msgid "Are you sure you want to permanently delete the selected files?"
+msgstr "Tanlangan fayllarni butunlay oʻchirishga ishonchingiz komilmi?"
+
+#: ../plugins/filebrowser/xed-file-browser-plugin.c:991
+msgid "If you delete an item, it is permanently lost."
+msgstr "Agar biror elementni o‘chirsangiz, u butunlay yo‘qoladi."
+
+#: ../plugins/filebrowser/xed-file-browser-store.c:1810
+msgid "(Empty)"
+msgstr "(Bo‘sh)"
+
+#: ../plugins/filebrowser/xed-file-browser-store.c:3500
+msgid ""
+"The renamed file is currently filtered out. You need to adjust your filter "
+"settings to make the file visible"
+msgstr ""
+"Nomi o‘zgartirilgan fayl hozirda filtrlangan. Faylni ko‘rinadigan qilish "
+"uchun filtr sozlamalarini o‘zgartirishingiz kerak"
+
+#. Translators: This is the default name of new files created by the file browser pane.
+#: ../plugins/filebrowser/xed-file-browser-store.c:3766
+msgid "Untitled File"
+msgstr "Sarlavhasiz fayl"
+
+#: ../plugins/filebrowser/xed-file-browser-store.c:3794
+msgid ""
+"The new file is currently filtered out. You need to adjust your filter "
+"settings to make the file visible"
+msgstr ""
+"Yangi fayl hozirda filtrlangan. Faylni ko‘rinadigan qilish uchun filtr "
+"sozlamalarini o‘zgartirishingiz kerak"
+
+#. Translators: This is the default name of new directories created by the file browser pane.
+#: ../plugins/filebrowser/xed-file-browser-store.c:3821
+msgid "Untitled Folder"
+msgstr "Sarlavhasiz jild"
+
+#: ../plugins/filebrowser/xed-file-browser-store.c:3846
+msgid ""
+"The new directory is currently filtered out. You need to adjust your filter "
+"settings to make the directory visible"
+msgstr ""
+"Yangi katalog hozirda filtrlangan. Katalogni ko‘rinadigan qilish uchun filtr "
+"sozlamalarini o‘zgartirishingiz kerak"
+
+#: ../plugins/filebrowser/xed-file-browser-widget.c:714
+msgid "Bookmarks"
+msgstr "Xatcho‘plar"
+
+#: ../plugins/filebrowser/xed-file-browser-widget.c:751
+msgid "_Filter"
+msgstr "_Filtr"
+
+#: ../plugins/filebrowser/xed-file-browser-widget.c:756
+msgid "_Move to Trash"
+msgstr "_Chiqindiga ko‘chirish"
+
+#: ../plugins/filebrowser/xed-file-browser-widget.c:757
+msgid "Move selected file or folder to trash"
+msgstr "Tanlangan fayl yoki jildni chiqindiga ko‘chirish"
+
+#: ../plugins/filebrowser/xed-file-browser-widget.c:759
+msgid "Delete selected file or folder"
+msgstr "Tanlangan fayl yoki jildni o‘chirish"
+
+#: ../plugins/filebrowser/xed-file-browser-widget.c:765
+msgid "Open selected file"
+msgstr "Tanlangan faylni ochinsh"
+
+#: ../plugins/filebrowser/xed-file-browser-widget.c:770
+msgid "Up"
+msgstr "Yuqoriga"
+
+#: ../plugins/filebrowser/xed-file-browser-widget.c:771
+msgid "Open the parent folder"
+msgstr "Yuqori jildni ochish"
+
+#: ../plugins/filebrowser/xed-file-browser-widget.c:776
+msgid "_New Folder"
+msgstr "_Yangi jild"
+
+#: ../plugins/filebrowser/xed-file-browser-widget.c:777
+msgid "Add new empty folder"
+msgstr "Yangi bo‘sh jild qo‘shish"
+
+#: ../plugins/filebrowser/xed-file-browser-widget.c:778
+msgid "New F_ile"
+msgstr "_Yangi fayl"
+
+#: ../plugins/filebrowser/xed-file-browser-widget.c:779
+msgid "Add new empty file"
+msgstr "Yangi bo‘sh fayl qo‘shish"
+
+#: ../plugins/filebrowser/xed-file-browser-widget.c:784
+msgid "_Rename..."
+msgstr "_Nomini o‘zgartirish..."
+
+#: ../plugins/filebrowser/xed-file-browser-widget.c:785
+msgid "Rename selected file or folder"
+msgstr "Tanlangan fayl yoki jild nomini o‘zgartirish"
+
+#: ../plugins/filebrowser/xed-file-browser-widget.c:790
+msgid "_Previous Location"
+msgstr "_Oldingi joylashuv"
+
+#: ../plugins/filebrowser/xed-file-browser-widget.c:791
+msgid "Go to the previous visited location"
+msgstr "Oldingi tashrif buyurilgan joyga o‘tish"
+
+#: ../plugins/filebrowser/xed-file-browser-widget.c:792
+msgid "_Next Location"
+msgstr "_Keyingi joylashuv"
+
+#: ../plugins/filebrowser/xed-file-browser-widget.c:793
+msgid "Go to the next visited location"
+msgstr "Keyingi tashrif buyurilgan joyga o‘tish"
+
+#: ../plugins/filebrowser/xed-file-browser-widget.c:794
+msgid "Re_fresh View"
+msgstr "_Ko‘rinishni yangilash"
+
+#: ../plugins/filebrowser/xed-file-browser-widget.c:795
+msgid "Refresh the view"
+msgstr "Ko‘rinishni yangilash"
+
+#: ../plugins/filebrowser/xed-file-browser-widget.c:796
+#: ../plugins/filebrowser/xed-file-browser-widget.c:810
+msgid "_View Folder"
+msgstr "_Jildni ko‘rish"
+
+#: ../plugins/filebrowser/xed-file-browser-widget.c:797
+#: ../plugins/filebrowser/xed-file-browser-widget.c:811
+msgid "View folder in file manager"
+msgstr "Fayl menejerida jildni ko‘rish"
+
+#: ../plugins/filebrowser/xed-file-browser-widget.c:802
+msgid "Show _Hidden"
+msgstr "_Yashirinni ko‘rsatish"
+
+#: ../plugins/filebrowser/xed-file-browser-widget.c:803
+msgid "Show hidden files and folders"
+msgstr "Yashirin fayl va jildlarni ko‘rsatish"
+
+#: ../plugins/filebrowser/xed-file-browser-widget.c:804
+msgid "Show _Binary"
+msgstr "_Ikkiliklarni ko‘rsatish"
+
+#: ../plugins/filebrowser/xed-file-browser-widget.c:805
+msgid "Show binary files"
+msgstr "Ikkilik fayllarni ko‘rsatish"
+
+#: ../plugins/filebrowser/xed-file-browser-widget.c:1148
+msgid "_Match Filename"
+msgstr "Fayl nomiga mos"
+
+#: ../plugins/filebrowser/xed-file-browser-widget.c:2012
+#, c-format
+msgid "No mount object for mounted volume: %s"
+msgstr "Ulangan disk qismi uchun ulash obyekti yoʻq: %s"
+
+#: ../plugins/filebrowser/xed-file-browser-widget.c:2090
+#, c-format
+msgid "Could not open media: %s"
+msgstr "Mediani ochib bo‘lmadi: %s"
+
+#: ../plugins/filebrowser/xed-file-browser-widget.c:2139
+#, c-format
+msgid "Could not mount volume: %s"
+msgstr "Disk qismini ulab bo‘lmadi: %s"
+
+#: ../plugins/joinlines/joinlines.plugin.desktop.in.h:2
+msgid "Join several lines"
+msgstr "Bir nechta satrlarni birlashtirish"
+
+#: ../plugins/joinlines/joinlines/__init__.py:26
+msgid "_Join Lines"
+msgstr "_Satrlarni birlashtirish"
+
+#: ../plugins/joinlines/joinlines/__init__.py:27
+msgid "Join the selected lines"
+msgstr "Tanlangan satrlarni birlashtirish"
+
+#. vi:ts=8
+#: ../plugins/modelines/modelines.plugin.desktop.in.h:1
+msgid "Modelines"
+msgstr "Rejim satrlari"
+
+#: ../plugins/modelines/modelines.plugin.desktop.in.h:2
+msgid "Emacs, Kate and Vim-style modelines support for xed."
+msgstr "Emacs, Kate va Vim rejim satrlari xedni qo‘llab-quvvatlaydi."
+
+#: ../plugins/sort/sort.plugin.desktop.in.h:1
+msgid "Sort"
+msgstr "Saralash"
+
+#: ../plugins/sort/sort.plugin.desktop.in.h:2
+msgid "Sorts a document or selected text."
+msgstr "Hujjat yoki tanlangan matnni saralaydi."
+
+#: ../plugins/sort/xed-sort-plugin.c:75
+msgid "S_ort lines"
+msgstr "_Satrlarni saralash"
+
+#: ../plugins/sort/xed-sort-plugin.c:77
+msgid "Sort the current document or selection"
+msgstr "Joriy hujjat yoki tanlovni saralash"
+
+#: ../plugins/spell/org.x.editor.plugins.spell.gschema.xml.in.h:1
+msgid "Autocheck Type"
+msgstr "Avtomatik tekshirish turi"
+
+#: ../plugins/spell/spell.plugin.desktop.in.h:1
+msgid "Spell Checker"
+msgstr "Imlo tekshiruvchisi"
+
+#: ../plugins/spell/spell.plugin.desktop.in.h:2
+msgid "Checks the spelling of the current document."
+msgstr "Joriy hujjatning imlosini tekshiradi."
+
+#: ../plugins/spell/xed-spell-plugin.c:86
+msgid "_Check Spelling..."
+msgstr "_Imloni tekshirish..."
+
+#: ../plugins/spell/xed-spell-plugin.c:88
+msgid "Check the current document for incorrect spelling"
+msgstr "Noto‘g‘ri imlo uchun joriy hujjatni tekshirish"
+
+#: ../plugins/spell/xed-spell-plugin.c:94
+msgid "Set _Language..."
+msgstr "_Tilni sozlash..."
+
+#: ../plugins/spell/xed-spell-plugin.c:96
+msgid "Set the language of the current document"
+msgstr "Joriy hujjat tilini sozlash"
+
+#: ../plugins/spell/xed-spell-plugin.c:105
+msgid "_Autocheck Spelling"
+msgstr "_Imloni avtomatik tekshirish"
+
+#: ../plugins/spell/xed-spell-plugin.c:107
+msgid "Automatically spell-check the current document"
+msgstr "Joriy hujjatning imlosini avtomatik tekshirish"
+
+#: ../plugins/spell/xed-spell-setup-dialog.ui.h:1
+msgid "button"
+msgstr "tugma"
+
+#: ../plugins/spell/xed-spell-setup-dialog.ui.h:2
+msgid "Autocheck settings"
+msgstr "Avtomatik tekshirish sozlamalari"
+
+#: ../plugins/spell/xed-spell-setup-dialog.ui.h:3
+msgid "Never"
+msgstr "Hech qachon"
+
+#: ../plugins/spell/xed-spell-setup-dialog.ui.h:4
+msgid "Never autocheck spelling on document load"
+msgstr "Hujjat yuklanganda imlo hech qachon avtomatik tekshirilmasin"
+
+#: ../plugins/spell/xed-spell-setup-dialog.ui.h:5
+msgid "Remember by document"
+msgstr "Hujjat orqali eslab qolish"
+
+#: ../plugins/spell/xed-spell-setup-dialog.ui.h:6
+msgid "Remembers the setting for each  document on load"
+msgstr "Yuklangan har bir hujjat uchun sozlamalarni eslab qoladi"
+
+#: ../plugins/spell/xed-spell-setup-dialog.ui.h:7
+msgid "Always"
+msgstr "Har doim"
+
+#: ../plugins/spell/xed-spell-setup-dialog.ui.h:8
+msgid "Always autocheck on document load"
+msgstr "Hujjat yuklanganda har doim avtomatik tekshirish"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:1
+msgid "XHTML 1.0 - Tags"
+msgstr "XHTML 1.0 - teglar"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:2
+msgid "Abbreviated form"
+msgstr "Qisqartirilgan shakl"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:3
+msgid "Abbreviation"
+msgstr "Qisqartma"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:4
+msgid "Accessibility key character"
+msgstr "Maxsus imkoniyatlar kaliti belgisi"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:5
+msgid "Acronym"
+msgstr "Akronim"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:6
+msgid "Align"
+msgstr "Tekislash"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:7
+msgid "Alignment character"
+msgstr "Tekislash belgisi"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:8
+msgid "Alternative"
+msgstr "Muqobil"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:9
+msgid "Anchor URI"
+msgstr "URI bog‘lash"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:10
+msgid "Anchor"
+msgstr "Bog‘lash"
+
+#. Deprecated since HTML 4.01, not supported in XHTML 1.0 Strict DTD.
+#: ../plugins/taglist/HTML.tags.xml.in.h:12
+msgid "Applet class file code (deprecated)"
+msgstr "Applet sinf fayl kodi (eskirgan)"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:13
+msgid "Associated information"
+msgstr "Aloqador ma'lumotlar"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:14
+msgid "Author info"
+msgstr "Muallif haqida ma'lumot"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:15
+msgid "Axis related headers"
+msgstr "O‘q bilan bog‘liq sarlavhalar"
+
+#. Deprecated since HTML 4.01, not supported in XHTML 1.0 Strict DTD.
+#: ../plugins/taglist/HTML.tags.xml.in.h:17
+msgid "Background color (deprecated)"
+msgstr "Fon rangi (eskirgan)"
+
+#. Deprecated since HTML 4.01, not supported in XHTML 1.0 Strict DTD.
+#: ../plugins/taglist/HTML.tags.xml.in.h:19
+msgid "Background texture tile (deprecated)"
+msgstr "Fon teksturasi plitkasi (eskirgan)"
+
+#. Deprecated since HTML 4.01, not supported in XHTML 1.0 Strict DTD.
+#: ../plugins/taglist/HTML.tags.xml.in.h:21
+msgid "Base font (deprecated)"
+msgstr "Asosiy shrift (eskirgan)"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:22
+msgid "Base URI"
+msgstr "Asosiy URI"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:23
+msgid "Bold"
+msgstr "Qalin"
+
+#. Deprecated since HTML 4.01, not supported in XHTML 1.0 Strict DTD.
+#: ../plugins/taglist/HTML.tags.xml.in.h:25
+msgid "Border (deprecated)"
+msgstr "Chegara (eskirgan)"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:26
+msgid "Cell rowspan"
+msgstr "Katakcha qatori"
+
+#. Deprecated since HTML 4.01, not supported in XHTML 1.0 Strict DTD.
+#: ../plugins/taglist/HTML.tags.xml.in.h:28
+msgid "Center (deprecated)"
+msgstr "Markaz (eskirgan)"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:29
+msgid "Character encoding of linked resource"
+msgstr "Bog‘langan resurs belgilarini kodlash"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:30
+msgid "Checked state"
+msgstr "Tekshirilgan holat"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:31
+msgid "Citation"
+msgstr "Iqtibos"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:32
+msgid "Cite reason for change"
+msgstr "O‘zgartirish sababini keltirish"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:33
+msgid "Class implementation ID"
+msgstr "Sinfni amalga oshirish identifikatori"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:34
+msgid "Class list"
+msgstr "Sinf ro‘yxati"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:35
+msgid "Clear text flow control"
+msgstr "Matn oqimini boshqarishni tozalash"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:36
+msgid "Code content type"
+msgstr "Kod tarkibi turi"
+
+#. Deprecated since HTML 4.01, not supported in XHTML 1.0 Strict DTD.
+#: ../plugins/taglist/HTML.tags.xml.in.h:38
+msgid "Color of selected links (deprecated)"
+msgstr "Tanlangan havolalar rangi (eskirgan)"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:39
+msgid "Column span"
+msgstr "Ustun oralig‘i"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:40
+msgid "Columns"
+msgstr "Ustunlar"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:42
+msgid "Computer code fragment"
+msgstr "Kompyuter kod qismi"
+
+#. The "type" attribute is deprecated for the "ol" tag only,
+#. since HTML 4.01, not supported in XHTML 1.0 Strict DTD.
+#: ../plugins/taglist/HTML.tags.xml.in.h:45
+msgid "Content type (deprecated)"
+msgstr "Kontent turi (eskirgan)"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:46
+msgid "Coordinates"
+msgstr "Koordinatalar"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:47
+msgid "Date and time of change"
+msgstr "O‘zgartirish sanasi va vaqti"
+
+#. NOTE: used in "object" tag
+#: ../plugins/taglist/HTML.tags.xml.in.h:49
+msgid "Declare flag"
+msgstr "Bayroqni e'lon qilish"
+
+#. Translators: DEFER is an optional attribute of the <script> tag.
+#. It indicates that the script is not going to generate any document
+#. content. The browser can continue parsing and drawing the page.
+#: ../plugins/taglist/HTML.tags.xml.in.h:53
+msgid "Defer attribute"
+msgstr "Atributni kechiktirish"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:54
+msgid "Definition description"
+msgstr "Ta'rifning tavsifi"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:55
+msgid "Definition list"
+msgstr "Ta'riflar ro‘yxati"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:56
+msgid "Definition term"
+msgstr "Ta'rif atamasi"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:57
+msgid "Deleted text"
+msgstr "Oʻchirilgan matn"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:58
+msgid "Directionality"
+msgstr "Yo‘nalishlilik"
+
+#. Deprecated since HTML 4.01, not supported in XHTML 1.0 Strict DTD.
+#: ../plugins/taglist/HTML.tags.xml.in.h:60
+msgid "Directionality (deprecated)"
+msgstr "Yo‘nalishlilik (eskirgan)"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:61
+msgid "Disabled"
+msgstr "O‘chirilgan"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:62
+msgid "DIV container"
+msgstr "DIV konteyneri"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:63
+msgid "DIV Style container"
+msgstr "DIV uslubidagi konteyner"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:64
+msgid "Document base"
+msgstr "Hujjat asosi"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:65
+msgid "Document body"
+msgstr "Hujjat tanasi"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:66
+msgid "Document head"
+msgstr "Hujjat boshi"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:67
+msgid "Element ID"
+msgstr "Element identifikatori"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:68
+msgid "Document title"
+msgstr "Hujjat sarlavhasi"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:69
+msgid "Document type"
+msgstr "Hujjat turi"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:70
+#: ../plugins/taglist/Latex.tags.xml.in.h:72
+msgid "Emphasis"
+msgstr "Ta'kidlash"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:71
+msgid "Encode type"
+msgstr "Kodlash turi"
+
+#. Deprecated since HTML 4.01, not supported in XHTML 1.0 Strict DTD.
+#: ../plugins/taglist/HTML.tags.xml.in.h:73
+msgid "Font face (deprecated)"
+msgstr "Shrift yuzi (eskirgan)"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:74
+msgid "For label"
+msgstr "Yorliq uchun"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:75
+msgid "Forced line break"
+msgstr "Majburiy satr uzilishi"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:76
+msgid "Form action handler"
+msgstr "Shakl harakatlarini ishlov beruvchi"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:77
+msgid "Form control group"
+msgstr "Shakl nazorat guruhi"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:78
+msgid "Form field label text"
+msgstr "Shakl maydoni yorlig‘i matni"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:79
+msgid "Form input type"
+msgstr "Shakl kiritish turi"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:80
+msgid "Form input"
+msgstr "Shakl kiritish"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:81
+msgid "Form method"
+msgstr "Shakl usuli"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:82
+msgid "Form"
+msgstr "Shakl"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:83
+msgid "Forward link"
+msgstr "Oldinga havola"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:84
+msgid "Frame render parts"
+msgstr "Freymlarni ko‘rsatish qismlari"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:85
+msgid "Frame source"
+msgstr "Freym manbai"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:86
+msgid "Frame target"
+msgstr "Freym mo‘ljali"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:87
+msgid "Frame"
+msgstr "Freym"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:88
+msgid "Frame border"
+msgstr "Freym chegarasi"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:89
+msgid "Frameset columns"
+msgstr "Frameset ustunlari"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:90
+msgid "Frameset rows"
+msgstr "Frameset qatorlari"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:91
+msgid "Frameset"
+msgstr "Frameset"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:92
+msgid "Frame spacing"
+msgstr "Freym oralig‘i"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:93
+msgid "Generic embedded object"
+msgstr "Umumiy o‘rnatilgan obyekt"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:94
+msgid "Generic metainformation"
+msgstr "Umumiy metama'lumot"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:95
+msgid "Generic span"
+msgstr "Umumiy oraliq"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:96
+msgid "Header cell IDs"
+msgstr "Sarlavha katakcha identifikatorlari"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:97
+msgid "Heading 1"
+msgstr "Sarlavha 1"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:98
+msgid "Heading 2"
+msgstr "Sarlavha 2"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:99
+msgid "Heading 3"
+msgstr "Sarlavha 3"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:100
+msgid "Heading 4"
+msgstr "Sarlavha 4"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:101
+msgid "Heading 5"
+msgstr "Sarlavha 5"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:102
+msgid "Heading 6"
+msgstr "Sarlavha 6"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:103
+msgid "Height"
+msgstr "Balandligi"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:104
+msgid "Horizontal rule"
+msgstr "Gorizontal o‘lchagich"
+
+#. Deprecated since HTML 4.01, not supported in XHTML 1.0 Strict DTD.
+#: ../plugins/taglist/HTML.tags.xml.in.h:106
+msgid "Horizontal space (deprecated)"
+msgstr "Gorizontal bo‘shliq (eskirgan)"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:107
+msgid "HREF URI"
+msgstr "HREF URI"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:108
+msgid "HTML root element"
+msgstr "HTML ildiz elementi"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:109
+msgid "HTTP header name"
+msgstr "HTTP sarlavhasi nomi"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:110
+msgid "I18N BiDi override"
+msgstr "I18N BiDi bekor qilish"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:111
+msgid "Image map area"
+msgstr "Rasm xaritasi maydoni"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:112
+msgid "Image map name"
+msgstr "Rasm xaritasi nomi"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:113
+msgid "Image map"
+msgstr "Rasm xaritasi"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:114
+msgid "Image"
+msgstr "Rasm"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:115
+msgid "Inline frame"
+msgstr "Ichki freym"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:116
+msgid "Inserted text"
+msgstr "Kiritilgan matn"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:117
+msgid "Instance definition"
+msgstr "Misol ta'rifi"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:118
+msgid "Italic text"
+msgstr "Kursiv matn"
+
+#. Deprecated since HTML 4.01, not supported in XHTML 1.0 Strict DTD.
+#: ../plugins/taglist/HTML.tags.xml.in.h:120
+msgid "Java applet (deprecated)"
+msgstr "Java appleti (eskirgan)"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:121
+msgid "Label"
+msgstr "Yorliq"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:122
+msgid "Language code"
+msgstr "Til kodi"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:123
+msgid "Large text style"
+msgstr "Katta matn uslubi"
+
+#. Deprecated since HTML 4.01, not supported in XHTML 1.0 Strict DTD.
+#: ../plugins/taglist/HTML.tags.xml.in.h:125
+msgid "Link color (deprecated)"
+msgstr "Havola rangi (eskirgan)"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:126
+msgid "List item"
+msgstr "Ro‘yxat elementi"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:127
+msgid "List of MIME types for file upload"
+msgstr "Fayl yuklash uchun MIME turlari ro‘yxati"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:128
+msgid "List of supported character sets"
+msgstr "Qo‘llab-quvvatlanadigan belgilar to‘plamining ro‘yxati"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:129
+msgid "Local change to font"
+msgstr "Shriftga mahalliy o‘zgartirish"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:130
+msgid "Long description link"
+msgstr "Uzoq tavsif havolasi"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:131
+msgid "Long quotation"
+msgstr "Uzoq iqtibos"
+
+#. Supported in XHTML 1.0 Frameset DTD only.
+#: ../plugins/taglist/HTML.tags.xml.in.h:133
+msgid "Margin pixel height"
+msgstr "Chegara piksel balandligi"
+
+#. Supported in XHTML 1.0 Frameset DTD only.
+#: ../plugins/taglist/HTML.tags.xml.in.h:135
+msgid "Margin pixel width"
+msgstr "Chegara piksel kengligi"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:136
+msgid "Maximum length of text field"
+msgstr "Matn maydonining maksimal uzunligi"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:137
+msgid "Output media"
+msgstr "Chiqarish media"
+
+#. Here I take some liberties: There's no mandatory attributes,
+#. but those are most common, and will likely be used.
+#: ../plugins/taglist/HTML.tags.xml.in.h:140
+msgid "Media-independent link"
+msgstr "Mediadan mustaqil havola"
+
+#. Deprecated since HTML 4.01, not supported in XHTML 1.0 Strict DTD.
+#: ../plugins/taglist/HTML.tags.xml.in.h:142
+msgid "Menu list (deprecated)"
+msgstr "Menyu ro‘yxati (eskirgan)"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:143
+msgid "Multi-line text field"
+msgstr "Ko‘p satrli matn maydoni"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:144
+msgid "Multiple"
+msgstr "Bir nechta"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:145
+msgid "Name"
+msgstr "Nomi"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:146
+msgid "Named property value"
+msgstr "Nomlangan xususiyat qiymati"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:147
+msgid "No frames"
+msgstr "Freymlar yo‘q"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:148
+msgid "No resize"
+msgstr "O‘lchami o‘zgartirilmagan"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:149
+msgid "No script"
+msgstr "Skript yo‘q"
+
+#. Deprecated since HTML 4.01, not supported in XHTML 1.0 Strict DTD.
+#: ../plugins/taglist/HTML.tags.xml.in.h:151
+msgid "No shade (deprecated)"
+msgstr "Soya yo‘q (eskirgan)"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:152
+msgid "No URI"
+msgstr "URI yo‘q"
+
+#. Deprecated since HTML 4.01, not supported in XHTML 1.0 Strict DTD.
+#: ../plugins/taglist/HTML.tags.xml.in.h:154
+msgid "No word wrap (deprecated)"
+msgstr "So‘zlarni o‘rash yo‘q (eskirgan)"
+
+#. Deprecated since HTML 4.01, not supported in XHTML 1.0 Strict DTD.
+#: ../plugins/taglist/HTML.tags.xml.in.h:156
+msgid "Object applet file (deprecated)"
+msgstr "Obyekt applet fayli (eskirgan)"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:157
+msgid "Object data reference"
+msgstr "Obyekt ma'lumotlariga havola"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:158
+msgid "Offset for alignment character"
+msgstr "Tekislash belgisi uchun siljish"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:159
+msgid "OnBlur event"
+msgstr "OnBlur hodisasi"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:160
+msgid "OnChange event"
+msgstr "OnChange hodisasi"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:161
+msgid "OnClick event"
+msgstr "OnClick hodisasi"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:162
+msgid "OnDblClick event"
+msgstr "OnDblClick hodisasi"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:163
+msgid "OnFocus event"
+msgstr "OnFocus hodisasi"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:164
+msgid "OnKeyDown event"
+msgstr "OnKeyDown hodisasi"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:165
+msgid "OnKeyPress event"
+msgstr "OnKeyPress hodisasi"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:166
+msgid "OnKeyUp event"
+msgstr "OnKeyUp hodisasi"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:167
+msgid "OnLoad event"
+msgstr "OnLoad hodisasi"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:168
+msgid "OnMouseDown event"
+msgstr "OnMouseDown hodisasi"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:169
+msgid "OnMouseMove event"
+msgstr "OnMouseMove hodisasi"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:170
+msgid "OnMouseOut event"
+msgstr "OnMouseOut hodisasi"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:171
+msgid "OnMouseOver event"
+msgstr "OnMouseOver hodisasi"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:172
+msgid "OnMouseUp event"
+msgstr "OnMouseUp hodisasi"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:173
+msgid "OnReset event"
+msgstr "OnReset hodisasi"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:174
+msgid "OnSelect event"
+msgstr "OnSelect hodisasi"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:175
+msgid "OnSubmit event"
+msgstr "OnSubmit hodisasi"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:176
+msgid "OnUnload event"
+msgstr "OnUnload hodisasi"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:177
+msgid "Option group"
+msgstr "Variantlar guruhi"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:178
+msgid "Option selector"
+msgstr "Variant selektori"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:179
+msgid "Ordered list"
+msgstr "Tartiga solingan ro‘yxat"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:180
+msgid "Paragraph class"
+msgstr "Xatboshi sinfi"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:181
+msgid "Paragraph style"
+msgstr "Xatboshi uslubi"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:182
+msgid "Paragraph"
+msgstr "Xatboshi"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:183
+msgid "Preformatted text"
+msgstr "Oldindan formatlangan matn"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:184
+msgid "Profile metainfo dictionary"
+msgstr "Profil metama'lumot lug‘ati"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:185
+msgid "Push button"
+msgstr "Tugmani bosish"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:186
+msgid "ReadOnly text and password"
+msgstr "Faqat o‘qish uchun matn va parol"
+
+#. Deprecated since HTML 4.01, not supported in XHTML 1.0 Strict DTD.
+#: ../plugins/taglist/HTML.tags.xml.in.h:188
+msgid "Reduced spacing (deprecated)"
+msgstr "Qisqartirilgan oraliq (eskirgan)"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:189
+msgid "Reverse link"
+msgstr "Teskari havola"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:190
+msgid "Rows"
+msgstr "Qatorlar"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:191
+msgid "Rulings between rows and columns"
+msgstr "Qator va ustunlar orasidagi qoidalar"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:192
+msgid "Sample program output, scripts"
+msgstr "Namuna dastur chiqishi, skriptlar"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:193
+msgid "Scope covered by header cells"
+msgstr "Sarlavha katakchalari bilan qoplangan doira"
+
+#. Deprecated since HTML 4.01, not supported in XHTML 1.0 Strict DTD.
+#: ../plugins/taglist/HTML.tags.xml.in.h:195
+msgid "Script language name"
+msgstr "Skript tili nomi"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:196
+msgid "Script statements"
+msgstr "Skript bayonotlari"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:197
+msgid "Scrollbar"
+msgstr "Aylantirish paneli"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:198
+msgid "Selectable option"
+msgstr "Tanlanadigan variant"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:199
+msgid "Selected"
+msgstr "Tanlangan"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:200
+msgid "Server-side image map"
+msgstr "Server tomonidagi rasm xaritasi"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:201
+msgid "Shape"
+msgstr "Shakl"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:202
+msgid "Short inline quotation"
+msgstr "Qisqa ichki iqtibos"
+
+#. Deprecated since HTML 4.01, not supported in XHTML 1.0 Strict DTD.
+#: ../plugins/taglist/HTML.tags.xml.in.h:204
+msgid "Size (deprecated)"
+msgstr "Oʻlcham (eskirgan)"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:205
+msgid "Small text style"
+msgstr "Kichik matn uslubi"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:206
+msgid "Source"
+msgstr "Manba"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:207
+msgid "Space-separated archive list"
+msgstr "Bo‘shliq bilan ajratilgan arxivlar ro‘yxati"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:208
+msgid "Spacing between cells"
+msgstr "Katakchalar orasidagi masofa"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:209
+msgid "Spacing within cells"
+msgstr "Katakcha ichidagi bo‘shliq"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:210
+msgid "Span"
+msgstr "Oraliq"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:211
+msgid "Standby load message"
+msgstr "Kutish rejimidagi yuklash xabari"
+
+#. Deprecated since HTML 4.01, not supported in XHTML 1.0 Strict DTD.
+#: ../plugins/taglist/HTML.tags.xml.in.h:213
+msgid "Starting sequence number (deprecated)"
+msgstr "Boshlanish tartib raqami (eskirgan)"
+
+#. Deprecated since HTML 4.01, not supported in XHTML 1.0 Strict DTD.
+#: ../plugins/taglist/HTML.tags.xml.in.h:215
+msgid "Strike-through text style (deprecated)"
+msgstr "Chizilgan matn uslubi (eskirgan)"
+
+#. Deprecated since HTML 4.01, not supported in XHTML 1.0 Strict DTD.
+#: ../plugins/taglist/HTML.tags.xml.in.h:217
+msgid "Strike-through text (deprecated)"
+msgstr "Chiziqli matn (eskirgan)"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:218
+msgid "Strong emphasis"
+msgstr "Kuchli urg‘u"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:219
+msgid "Style info"
+msgstr "Uslub haqida ma'lumot"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:220
+msgid "Subscript"
+msgstr "Pastki belgisi"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:221
+msgid "Superscript"
+msgstr "Yuqori belgisi"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:222
+msgid "Table body"
+msgstr "Jadval tanasi"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:223
+msgid "Table caption"
+msgstr "Jadval sarlavhasi"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:224
+msgid "Table column group properties"
+msgstr "Jadval ustunlari guruhining xususiyatlari"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:225
+msgid "Table column properties"
+msgstr "Jadval ustunining xususiyatlari"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:226
+msgid "Table data cell"
+msgstr "Jadval ma'lumotlar katakchasi"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:227
+msgid "Table footer"
+msgstr "Jadval futeri"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:228
+msgid "Table header cell"
+msgstr "Jadval sarlavhasi katakchasi"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:229
+msgid "Table header"
+msgstr "Jadval sarlavhasi"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:230
+msgid "Table row"
+msgstr "Jadval qatori"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:231
+msgid "Table summary"
+msgstr "Jadval xulosasi"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:232
+msgid "Table"
+msgstr "Jadval"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:233
+msgid "Target - Blank"
+msgstr "Mo‘ljal - bo‘sh"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:234
+msgid "Target - Parent"
+msgstr "Mo‘ljal - yuqoradagi"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:235
+msgid "Target - Self"
+msgstr "Mo‘ljal - o‘zida"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:236
+msgid "Target - Top"
+msgstr "Mo‘ljal - yuqori"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:237
+msgid "Teletype or monospace text style"
+msgstr "Teletayp yoki monospace matn uslubi"
+
+#. Deprecated since HTML 4.01, not supported in XHTML 1.0 Strict DTD.
+#: ../plugins/taglist/HTML.tags.xml.in.h:239
+msgid "Text color (deprecated)"
+msgstr "Matn rangi (eskirgan)"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:240
+msgid "Text entered by user"
+msgstr "Foydalanuvchi tomonidan kiritilgan matn"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:241
+msgid "Title"
+msgstr "Sarlavha"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:242
+msgid "Underlined text style"
+msgstr "Tagi chizilgan matn uslubi"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:243
+msgid "Unordered list"
+msgstr "Tartibsiz ro‘yxat"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:244
+msgid "Use image map"
+msgstr "Rasm xaritasidan foydalanish"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:245
+msgid "Value interpretation"
+msgstr "Qiymat talqini"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:246
+msgid "Value"
+msgstr "Qiymat"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:247
+msgid "Variable or program argument"
+msgstr "O‘zgaruvchi yoki dastur argumenti"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:248
+msgid "Vertical cell alignment"
+msgstr "Katakchalarni vertikal tekislash"
+
+#. Deprecated since HTML 4.01, not supported in XHTML 1.0 Strict DTD.
+#: ../plugins/taglist/HTML.tags.xml.in.h:250
+msgid "Vertical space (deprecated)"
+msgstr "Vertikal bo‘shliq (eskirgan)"
+
+#. Deprecated since HTML 4.01, not supported in XHTML 1.0 Strict DTD.
+#: ../plugins/taglist/HTML.tags.xml.in.h:252
+msgid "Visited link color (deprecated)"
+msgstr "Tashrif qilingan havola rangi (eskirgan)"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:253
+msgid "Width"
+msgstr "Kengligi"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:254
+msgid "HTML - Tags"
+msgstr "HTML - teglar"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:255
+msgid "Above"
+msgstr "Ustida"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:256
+msgid "Applet class file code"
+msgstr "Applet sinf fayl kodi"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:257
+msgid "Array"
+msgstr "Massiv"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:258
+msgid "Background color"
+msgstr "Fon rangi"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:259
+msgid "Background texture tile"
+msgstr "Fon teksturasi plitkasi"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:260
+msgid "Base font"
+msgstr "Asosiy shrift"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:261
+msgid "Border color"
+msgstr "Chegara rangi"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:262
+msgid "Border"
+msgstr "Chegara"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:263
+msgid "Center"
+msgstr "Markaz"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:264
+msgid "Checked (state)"
+msgstr "Belgilangan (holat)"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:265
+msgid "Color of selected links"
+msgstr "Tanlangan havolalar rangi"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:266
+msgid "Content scheme"
+msgstr "Tarkib sxemasi"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:267
+msgid "Content type"
+msgstr "Tarkib turi"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:268
+msgid "Direction"
+msgstr "Yo‘nalish"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:269
+msgid "Directory list"
+msgstr "Katalog ro‘yxati"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:270
+msgid "HTML version"
+msgstr "HTML versiyasi"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:271
+msgid "Embedded object"
+msgstr "Oʻrnatilgan obyekt"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:272
+msgid "Figure"
+msgstr "Shakl"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:273
+msgid "Font face"
+msgstr "Shrift yuzi"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:274
+msgid "Frameborder"
+msgstr "Freym chegarasi"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:275
+msgid "Framespacing"
+msgstr "Freym oralig‘i"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:276
+msgid "Heading"
+msgstr "Sarlavha"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:277
+msgid "Horizontal space"
+msgstr "Gorizontal bo‘shliq"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:278
+msgid "Image source"
+msgstr "Rasm manbai"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:279
+msgid "Inline layer"
+msgstr "Ichki qatlam"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:280
+msgid "Java applet"
+msgstr "Java appleti"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:281
+msgid "Layer"
+msgstr "Qatlam"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:282
+msgid "Link color"
+msgstr "Havola rangi"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:283
+msgid "Listing"
+msgstr "Listing"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:284
+msgid "Mail link"
+msgstr "Pochta havolasi"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:285
+msgid "Marquee"
+msgstr "Marquee"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:286
+msgid "Menu list"
+msgstr "Menyu ro‘yxati"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:287
+msgid "Multicolumn"
+msgstr "Ko‘p ustunli"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:288
+msgid "Next ID"
+msgstr "Keyingi identifikator"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:289
+msgid "No embedded objects"
+msgstr "Oʻrnatilgan obyektlar yoʻq"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:290
+msgid "No layers"
+msgstr "Qatlamlar yo‘q"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:291
+msgid "No line break"
+msgstr "Satr uzilishi yo‘q"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:292
+msgid "No shade"
+msgstr "Soya yo‘q"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:293
+msgid "No word wrap"
+msgstr "So‘zni o‘rash yo‘q"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:294
+msgid "Note"
+msgstr "Eslatma"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:295
+msgid "Object applet file"
+msgstr "Obyekt applet fayli"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:296
+msgid "Preformatted listing"
+msgstr "Oldindan formatlangan ro‘yxat"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:297
+msgid "Prompt message"
+msgstr "Tezkor xabar"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:298
+msgid "Quote"
+msgstr "Iqtibos"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:299
+msgid "Range"
+msgstr "Diapazon"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:300
+msgid "Reduced spacing"
+msgstr "Qisqartirilgan interval"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:301
+msgid "Root"
+msgstr "Ildiz"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:302
+msgid "Single line prompt"
+msgstr "Bir qatorli so‘rov"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:303
+msgid "Size"
+msgstr "O‘lcham"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:304
+msgid "Soft line break"
+msgstr "Yumshoq satr uzilishi"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:305
+msgid "Sound"
+msgstr "Ovoz"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:306
+msgid "Spacer"
+msgstr "Joy ajratgich"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:307
+msgid "Square root"
+msgstr "Kvadrat ildiz"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:308
+msgid "Starting sequence number"
+msgstr "Boshlanish tartib raqami"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:309
+msgid "Strike-through text style"
+msgstr "Chiziqli matn uslubi"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:310
+msgid "Strike-through text"
+msgstr "Chiziqli matn"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:311
+msgid "Tab order position"
+msgstr "Xatboshi tartibi joyi"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:312
+msgid "Text color"
+msgstr "Matn rangi"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:313
+msgid "Text"
+msgstr "Matn"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:314
+msgid "Top margin in pixels"
+msgstr "Yuqori chegara piksellarda"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:315
+msgid "URL"
+msgstr "URL"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:316
+msgid "Vertical space"
+msgstr "Vertikal bo‘shliq"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:317
+msgid "Visited link color"
+msgstr "Tashrif qilingan havola rangi"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:318
+msgid "HTML - Special Characters"
+msgstr "HTML - Maxsus belgilar"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:319
+msgid "Non-breaking space"
+msgstr "Buzilmaydigan bo‘shliq"
+
+#: ../plugins/taglist/Latex.tags.xml.in.h:1
+msgid "Latex - Tags"
+msgstr "Lateks - teglar"
+
+#: ../plugins/taglist/Latex.tags.xml.in.h:2
+msgid "Bibliography (cite)"
+msgstr "Bibliografiya (iqtibos)"
+
+#: ../plugins/taglist/Latex.tags.xml.in.h:3
+msgid "Bibliography (item)"
+msgstr "Bibliografiya (element)"
+
+#: ../plugins/taglist/Latex.tags.xml.in.h:4
+msgid "Bibliography (shortcite)"
+msgstr "Bibliografiya (qisqacha)"
+
+#: ../plugins/taglist/Latex.tags.xml.in.h:5
+msgid "Bibliography (thebibliography)"
+msgstr "Bibliografiya (bibliografiya)"
+
+#: ../plugins/taglist/Latex.tags.xml.in.h:6
+msgid "Brackets ()"
+msgstr "Qavslar ()"
+
+#: ../plugins/taglist/Latex.tags.xml.in.h:7
+msgid "Brackets []"
+msgstr "Qavslar []"
+
+#: ../plugins/taglist/Latex.tags.xml.in.h:8
+msgid "Brackets {}"
+msgstr "Qavslar {}"
+
+#: ../plugins/taglist/Latex.tags.xml.in.h:9
+msgid "Brackets <>"
+msgstr "Qavslar <>"
+
+#: ../plugins/taglist/Latex.tags.xml.in.h:10
+msgid "File input"
+msgstr "Fayl kiritilishi"
+
+#: ../plugins/taglist/Latex.tags.xml.in.h:11
+msgid "Function cosine"
+msgstr "Kosinus funksiyasi"
+
+#: ../plugins/taglist/Latex.tags.xml.in.h:12
+msgid "Function e^"
+msgstr "e^ funksiyasi"
+
+#: ../plugins/taglist/Latex.tags.xml.in.h:13
+msgid "Function exp"
+msgstr "exp funksiyasi"
+
+#: ../plugins/taglist/Latex.tags.xml.in.h:14
+msgid "Function log"
+msgstr "log funksiyasi"
+
+#: ../plugins/taglist/Latex.tags.xml.in.h:15
+msgid "Function log10"
+msgstr "log10 funksiyasi"
+
+#: ../plugins/taglist/Latex.tags.xml.in.h:16
+msgid "Function sine"
+msgstr "sinus funksiyasi"
+
+#: ../plugins/taglist/Latex.tags.xml.in.h:17
+msgid "Greek alpha"
+msgstr "Yunoncha alfa"
+
+#: ../plugins/taglist/Latex.tags.xml.in.h:18
+msgid "Greek beta"
+msgstr "Yunoncha beta"
+
+#: ../plugins/taglist/Latex.tags.xml.in.h:19
+msgid "Greek epsilon"
+msgstr "Yunoncha epsilon"
+
+#: ../plugins/taglist/Latex.tags.xml.in.h:20
+msgid "Greek gamma"
+msgstr "Yunoncha gamma"
+
+#: ../plugins/taglist/Latex.tags.xml.in.h:21
+msgid "Greek lambda"
+msgstr "Yunoncha lambda"
+
+#: ../plugins/taglist/Latex.tags.xml.in.h:22
+msgid "Greek rho"
+msgstr "Yunoncha ro"
+
+#: ../plugins/taglist/Latex.tags.xml.in.h:23
+msgid "Greek tau"
+msgstr "Yunoncha tau"
+
+#: ../plugins/taglist/Latex.tags.xml.in.h:24
+msgid "Header 0 (chapter)"
+msgstr "Sarlavha 0 (bob)"
+
+#: ../plugins/taglist/Latex.tags.xml.in.h:25
+msgid "Header 0 (chapter*)"
+msgstr "Sarlavha 0 (bob*)"
+
+#: ../plugins/taglist/Latex.tags.xml.in.h:26
+msgid "Header 1 (section)"
+msgstr "Sarlavha 1 (bo‘lim)"
+
+#: ../plugins/taglist/Latex.tags.xml.in.h:27
+msgid "Header 1 (section*)"
+msgstr "Sarlavha 1 (bo‘lim*)"
+
+#: ../plugins/taglist/Latex.tags.xml.in.h:28
+msgid "Header 2 (subsection)"
+msgstr "Sarlavha 2 (pastki bo‘lim)"
+
+#: ../plugins/taglist/Latex.tags.xml.in.h:29
+msgid "Header 2 (subsection*)"
+msgstr "Sarlavha 2 (pastki bo‘lim*)"
+
+#: ../plugins/taglist/Latex.tags.xml.in.h:30
+msgid "Header 3 (subsubsection)"
+msgstr "Sarlavha 3 (kichik bo‘lim)"
+
+#: ../plugins/taglist/Latex.tags.xml.in.h:31
+msgid "Header 3 (subsubsection*)"
+msgstr "Sarlavha 3 (kichik bo‘lim*)"
+
+#: ../plugins/taglist/Latex.tags.xml.in.h:32
+msgid "Header 4 (paragraph)"
+msgstr "Sarlavha 4 (xatboshi)"
+
+#: ../plugins/taglist/Latex.tags.xml.in.h:33
+msgid "Header appendix"
+msgstr "Sarlavha ilovasi"
+
+#: ../plugins/taglist/Latex.tags.xml.in.h:34
+msgid "List description"
+msgstr "Roʻyxat tavsifi"
+
+#: ../plugins/taglist/Latex.tags.xml.in.h:35
+msgid "List enumerate"
+msgstr "Ro‘yxatni sanab o‘tish"
+
+#: ../plugins/taglist/Latex.tags.xml.in.h:36
+msgid "List itemize"
+msgstr "Ro‘yxat bandi"
+
+#: ../plugins/taglist/Latex.tags.xml.in.h:37
+msgid "Item with label"
+msgstr "Yorliqli element"
+
+#: ../plugins/taglist/Latex.tags.xml.in.h:38
+msgid "Item"
+msgstr "Element"
+
+#: ../plugins/taglist/Latex.tags.xml.in.h:39
+msgid "Maths (display)"
+msgstr "Matematika (ko‘rsatish)"
+
+#: ../plugins/taglist/Latex.tags.xml.in.h:40
+msgid "Maths (inline)"
+msgstr "Matematika (ichki)"
+
+#: ../plugins/taglist/Latex.tags.xml.in.h:41
+msgid "Operator fraction"
+msgstr "Operator fraktsiyasi"
+
+#: ../plugins/taglist/Latex.tags.xml.in.h:42
+msgid "Operator integral (display)"
+msgstr "Operator integrali (ko‘rsatish)"
+
+#: ../plugins/taglist/Latex.tags.xml.in.h:43
+msgid "Operator integral (inline)"
+msgstr "Operator integrali (ichki)"
+
+#: ../plugins/taglist/Latex.tags.xml.in.h:44
+msgid "Operator sum (display)"
+msgstr "Operator summasi (ko‘rsatish)"
+
+#: ../plugins/taglist/Latex.tags.xml.in.h:45
+msgid "Operator sum (inline)"
+msgstr "Operator summasi (ichki)"
+
+#: ../plugins/taglist/Latex.tags.xml.in.h:46
+msgid "Reference label"
+msgstr "Ma'lumot yorlig‘i"
+
+#: ../plugins/taglist/Latex.tags.xml.in.h:47
+msgid "Reference ref"
+msgstr "Ma'lumotga havola"
+
+#: ../plugins/taglist/Latex.tags.xml.in.h:48
+msgid "Symbol <<"
+msgstr "<< belgisi"
+
+#: ../plugins/taglist/Latex.tags.xml.in.h:49
+msgid "Symbol <="
+msgstr "<= belgisi"
+
+#: ../plugins/taglist/Latex.tags.xml.in.h:50
+msgid "Symbol >="
+msgstr ">= belgisi"
+
+#: ../plugins/taglist/Latex.tags.xml.in.h:51
+msgid "Symbol >>"
+msgstr ">> belgisi"
+
+#: ../plugins/taglist/Latex.tags.xml.in.h:52
+msgid "Symbol and"
+msgstr "and belgisi"
+
+#: ../plugins/taglist/Latex.tags.xml.in.h:53
+msgid "Symbol const"
+msgstr "const belgisi"
+
+#: ../plugins/taglist/Latex.tags.xml.in.h:54
+msgid "Symbol d2-by-dt2-partial"
+msgstr "d2-by-dt2-partial belgisi"
+
+#: ../plugins/taglist/Latex.tags.xml.in.h:55
+msgid "Symbol dagger"
+msgstr "dagger belgisi"
+
+#: ../plugins/taglist/Latex.tags.xml.in.h:56
+msgid "Symbol d-by-dt"
+msgstr "d-by-dt belgisi"
+
+#: ../plugins/taglist/Latex.tags.xml.in.h:57
+msgid "Symbol d-by-dt-partial"
+msgstr "d-by-dt-partial belgisi"
+
+#: ../plugins/taglist/Latex.tags.xml.in.h:58
+msgid "Symbol equiv"
+msgstr "equiv belgisi"
+
+#: ../plugins/taglist/Latex.tags.xml.in.h:59
+msgid "Symbol en-dash --"
+msgstr "en-dash -- belgisi"
+
+#: ../plugins/taglist/Latex.tags.xml.in.h:60
+msgid "Symbol em-dash ---"
+msgstr "em-dash --- belgisi"
+
+#: ../plugins/taglist/Latex.tags.xml.in.h:61
+msgid "Symbol infinity"
+msgstr "infinity belgisi"
+
+#: ../plugins/taglist/Latex.tags.xml.in.h:62
+msgid "Symbol mathspace ,"
+msgstr "mathspace , belgisi"
+
+#: ../plugins/taglist/Latex.tags.xml.in.h:63
+msgid "Symbol mathspace ."
+msgstr "mathspace . belgisi"
+
+#: ../plugins/taglist/Latex.tags.xml.in.h:64
+msgid "Symbol mathspace _"
+msgstr "mathspace _ belgisi"
+
+#: ../plugins/taglist/Latex.tags.xml.in.h:65
+msgid "Symbol mathspace __"
+msgstr "mathspace __ belgisi"
+
+#: ../plugins/taglist/Latex.tags.xml.in.h:66
+msgid "Symbol simeq"
+msgstr "simeq belgisi"
+
+#: ../plugins/taglist/Latex.tags.xml.in.h:67
+msgid "Symbol star"
+msgstr "star belgisi"
+
+#: ../plugins/taglist/Latex.tags.xml.in.h:68
+msgid "Typeface bold"
+msgstr "Qalin shrift"
+
+#: ../plugins/taglist/Latex.tags.xml.in.h:69
+msgid "Typeface type"
+msgstr "Shrift turi"
+
+#: ../plugins/taglist/Latex.tags.xml.in.h:70
+msgid "Typeface italic"
+msgstr "Shrift kursiv"
+
+#: ../plugins/taglist/Latex.tags.xml.in.h:71
+msgid "Typeface slanted"
+msgstr "Shrift qiya"
+
+#: ../plugins/taglist/Latex.tags.xml.in.h:73
+msgid "Unbreakable text"
+msgstr "Buzilmas matn"
+
+#: ../plugins/taglist/Latex.tags.xml.in.h:74
+msgid "Footnote"
+msgstr "Izoh"
+
+#: ../plugins/taglist/taglist.plugin.desktop.in.h:1
+msgid "Tag list"
+msgstr "Teglar ro‘yxati"
+
+#: ../plugins/taglist/taglist.plugin.desktop.in.h:2
+msgid ""
+"Provides a method to easily insert commonly used tags/strings into a "
+"document without having to type them."
+msgstr ""
+"Hujjatga tez-tez ishlatib turadigan teglar/satrlarni ularni kiritmasdan "
+"osongina kiritish usulini taqdim etadi."
+
+#: ../plugins/taglist/xed-taglist-plugin-panel.c:605
+msgid "Select the group of tags you want to use"
+msgstr "Foydalanmoqchi bo‘lgan teglar guruhini tanlash"
+
+#: ../plugins/taglist/xed-taglist-plugin-panel.c:624
+msgid "_Preview"
+msgstr "_Ko‘rib chiqish"
+
+#: ../plugins/taglist/xed-taglist-plugin-panel.c:700
+msgid "Available Tag Lists"
+msgstr "Mavjud teglar ro‘yxati"
+
+#: ../plugins/taglist/xed-taglist-plugin-panel.c:703
+#: ../plugins/taglist/xed-taglist-plugin-panel.c:718
+#: ../plugins/taglist/xed-taglist-plugin.c:110
+msgid "Tags"
+msgstr "Teglar"
+
+#: ../plugins/taglist/XSLT.tags.xml.in.h:1
+msgid "XSLT - Elements"
+msgstr "XSLT - Elementlar"
+
+#: ../plugins/taglist/XSLT.tags.xml.in.h:2
+msgid "XSLT - Functions"
+msgstr "XSLT - Funksiyalar"
+
+#: ../plugins/taglist/XSLT.tags.xml.in.h:3
+msgid "XSLT - Axes"
+msgstr "XSLT - o‘qlar"
+
+#: ../plugins/taglist/XSLT.tags.xml.in.h:4
+msgid "ancestor"
+msgstr "ajdod"
+
+#: ../plugins/taglist/XSLT.tags.xml.in.h:5
+msgid "ancestor-or-self"
+msgstr "ajdod-yoki-o‘zi"
+
+#: ../plugins/taglist/XSLT.tags.xml.in.h:6
+msgid "attribute"
+msgstr "xususiyat"
+
+#: ../plugins/taglist/XSLT.tags.xml.in.h:7
+msgid "child"
+msgstr "bola"
+
+#: ../plugins/taglist/XSLT.tags.xml.in.h:8
+msgid "descendant"
+msgstr "avlod"
+
+#: ../plugins/taglist/XSLT.tags.xml.in.h:9
+msgid "descendant-or-self"
+msgstr "avlod-yoki-o‘zi"
+
+#: ../plugins/taglist/XSLT.tags.xml.in.h:10
+msgid "following"
+msgstr "ergashish"
+
+#: ../plugins/taglist/XSLT.tags.xml.in.h:11
+msgid "following-sibling"
+msgstr "ergashadigan-aka-uka"
+
+#: ../plugins/taglist/XSLT.tags.xml.in.h:12
+msgid "namespace"
+msgstr "nom maydoni"
+
+#: ../plugins/taglist/XSLT.tags.xml.in.h:13
+msgid "parent"
+msgstr "ota-ona"
+
+#: ../plugins/taglist/XSLT.tags.xml.in.h:14
+msgid "preceding"
+msgstr "oldingi"
+
+#: ../plugins/taglist/XSLT.tags.xml.in.h:15
+msgid "preceding-sibling"
+msgstr "oldingi aka-uka"
+
+#: ../plugins/taglist/XSLT.tags.xml.in.h:16
+msgid "self"
+msgstr "o‘zini"
+
+#: ../plugins/taglist/XUL.tags.xml.in.h:1
+msgid "XUL - Tags"
+msgstr "XUL - teglar"
+
+#: ../plugins/textsize/textsize.plugin.desktop.in.h:1
+msgid "Text Size"
+msgstr "Matn o‘lchami"
+
+#: ../plugins/textsize/textsize.plugin.desktop.in.h:2
+msgid "Allow controlling the zoom levels of the text"
+msgstr "Matnni kattalashtirish darajalarini boshqarishga ruxsat berish"
+
+#: ../plugins/textsize/textsize/__init__.py:123
+msgid "_Larger Text"
+msgstr "_Kattaroq matn"
+
+#: ../plugins/textsize/textsize/__init__.py:126
+msgid "S_maller Text"
+msgstr "_Kichikroq matn"
+
+#: ../plugins/textsize/textsize/__init__.py:129
+msgid "_Normal size"
+msgstr "_Normal o‘lcham"
+
+#: ../plugins/time/org.x.editor.plugins.time.gschema.xml.in.h:1
+msgid "Prompt type"
+msgstr "Tezkor turi"
+
+#: ../plugins/time/org.x.editor.plugins.time.gschema.xml.in.h:2
+msgid "Selected format"
+msgstr "Tanlangan format"
+
+#: ../plugins/time/org.x.editor.plugins.time.gschema.xml.in.h:3
+msgid "Custom format"
+msgstr "Maxsus format"
+
+#: ../plugins/time/time.plugin.desktop.in.h:1
+msgid "Insert Date/Time"
+msgstr "Sana/vaqtni kiritish"
+
+#: ../plugins/time/time.plugin.desktop.in.h:2
+msgid "Inserts current date and time at the cursor position."
+msgstr "Kursor joyiga joriy sana va vaqtni kiritadi."
+
+#: ../plugins/time/xed-time-dialog.ui.h:1
+msgid "Insert Date and Time"
+msgstr "Sana va vaqtni kiritinsh"
+
+#: ../plugins/time/xed-time-dialog.ui.h:2
+msgid "_Insert"
+msgstr "_Kiritish"
+
+#: ../plugins/time/xed-time-dialog.ui.h:3
+#: ../plugins/time/xed-time-setup-dialog.ui.h:5
+msgid "Use the _selected format"
+msgstr "_Tanlangan formatdan foydalanish"
+
+#: ../plugins/time/xed-time-dialog.ui.h:5
+#: ../plugins/time/xed-time-setup-dialog.ui.h:6
+msgid "_Use custom format"
+msgstr "_Maxsus formatdan foydalanish"
+
+#. Translators: Use the more common date format in your locale
+#: ../plugins/time/xed-time-dialog.ui.h:7
+#: ../plugins/time/xed-time-setup-dialog.ui.h:9
+#, no-c-format
+msgid "%d/%m/%Y %H:%M:%S"
+msgstr "%d/%m/%Y %H:%M:%S"
+
+#. Translators: This example should follow the date format defined in the entry above
+#: ../plugins/time/xed-time-dialog.ui.h:8
+#: ../plugins/time/xed-time-setup-dialog.ui.h:11
+msgid "01/11/2009 17:52:00"
+msgstr "01/11/2009 17:52:00"
+
+#: ../plugins/time/xed-time-plugin.c:176
+msgid "In_sert Date and Time..."
+msgstr "_Sana va vaqtni kiritish..."
+
+#: ../plugins/time/xed-time-plugin.c:178
+msgid "Insert current date and time at the cursor position"
+msgstr "Kursor joyiga joriy sana va vaqtni kiritish"
+
+#: ../plugins/time/xed-time-plugin.c:454
+msgid "Available formats"
+msgstr "Mavjud formatlar"
+
+#: ../plugins/time/xed-time-setup-dialog.ui.h:1
+msgid "Configure date/time plugin"
+msgstr "Sana/vaqt plaginini sozlash"
+
+#: ../plugins/time/xed-time-setup-dialog.ui.h:2
+msgid "When inserting date/time..."
+msgstr "Sana/vaqtni kiritishda..."
+
+#: ../plugins/time/xed-time-setup-dialog.ui.h:4
+msgid "_Prompt for a format"
+msgstr "_Formatni so‘rash"
+
+#: ../plugins/trailsave/trailsave.plugin.desktop.in.h:1
+msgid "Save Without Trailing Spaces"
+msgstr "Bo‘shliqlarni qoldirmasdan saqlash"
+
+#: ../plugins/trailsave/trailsave.plugin.desktop.in.h:2
+msgid "Removes trailing spaces from lines before saving."
+msgstr "Saqlashdan oldin qatorlardan keyingi bo‘shliqlarni olib tashlaydi."
+
+#: ../plugins/wordcompletion/xed-wordcompletion-configure.ui.h:1
+msgid "Word Completion"
+msgstr "So‘zni yakunlash"
+
+#: ../plugins/wordcompletion/xed-wordcompletion-configure.ui.h:2
+msgid "Use Ctrl+Space to manually trigger word completion."
+msgstr "Soʻzni qoʻlda yakunlash uchun Ctrl+Space tugmalaridan foydalanish."
+
+#: ../plugins/wordcompletion/xed-wordcompletion-configure.ui.h:3
+msgid "Automatic completion"
+msgstr "Avtomatik yakunlash"
+
+#: ../plugins/wordcompletion/xed-wordcompletion-configure.ui.h:4
+msgid "Minimum word size for auto-completion"
+msgstr "Avtomatik yakunlash uchun minimal so‘z hajmi"
+
+#: ../plugins/wordcompletion/xed-wordcompletion-plugin.c:214
+msgid "Word completion"
+msgstr "So‘zni yakunlash"

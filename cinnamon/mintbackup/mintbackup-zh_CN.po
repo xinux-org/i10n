@@ -1,0 +1,382 @@
+# Simplified Chinese translation for linuxmint
+# Copyright (c) 2009 Rosetta Contributors and Canonical Ltd 2009
+# This file is distributed under the same license as the linuxmint package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2009.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: linuxmint\n"
+"Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
+"POT-Creation-Date: 2019-02-27 13:57+0000\n"
+"PO-Revision-Date: 2019-02-27 14:13+0000\n"
+"Last-Translator: AlephAlpha <alephalpha911@gmail.com>\n"
+"Language-Team: Simplified Chinese <zh_CN@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Launchpad-Export-Date: 2022-10-10 13:02+0000\n"
+"X-Generator: Launchpad (build 762fb15a975e8b23af6a1f86e44e46bfd0451459)\n"
+
+#: usr/lib/linuxmint/mintbackup/mintbackup.py:41
+msgid "Backups"
+msgstr "备份"
+
+#: usr/lib/linuxmint/mintbackup/mintbackup.py:169
+#: usr/lib/linuxmint/mintbackup/mintbackup.py:209
+#: usr/lib/linuxmint/mintbackup/mintbackup.py:216 generate_desktop_files:24
+#: generate_desktop_files:39
+msgid "Backup Tool"
+msgstr "备份工具"
+
+#: usr/lib/linuxmint/mintbackup/mintbackup.py:232
+#, python-format
+msgid "%s is not located in your home directory."
+msgstr "%s没有位于主目录。"
+
+#: usr/lib/linuxmint/mintbackup/mintbackup.py:272
+msgid "Please choose a directory."
+msgstr "请选择一个目录。"
+
+#: usr/lib/linuxmint/mintbackup/mintbackup.py:275
+msgid "You do not have the permission to write in the selected directory."
+msgstr "您没有已选目录的写入权限。"
+
+#: usr/lib/linuxmint/mintbackup/mintbackup.py:335
+msgid "Please choose a backup file."
+msgstr "请选择一个备份文件。"
+
+#: usr/lib/linuxmint/mintbackup/mintbackup.py:343
+msgid ""
+"This backup file is either too old or it was created with a different tool. "
+"Please extract it manually."
+msgstr "此备份文件过于老旧或者它是由其他工具创建，请手动将其解压。"
+
+#: usr/lib/linuxmint/mintbackup/mintbackup.py:352
+#, python-format
+msgid "An error occurred while opening the backup file: %s."
+msgstr "在打开备份文件时发生了异常：%s。"
+
+#: usr/lib/linuxmint/mintbackup/mintbackup.py:366
+msgid "No packages need to be installed."
+msgstr "没有需要安装的软件包。"
+
+#: usr/lib/linuxmint/mintbackup/mintbackup.py:373
+msgid "Please select packages to install."
+msgstr "请选择要安装的软件包。"
+
+#: usr/lib/linuxmint/mintbackup/mintbackup.py:427
+#, python-format
+msgid "Skipping %s because named pipes are not supported."
+msgstr "跳过%s因为其命名管道不受支持。"
+
+#: usr/lib/linuxmint/mintbackup/mintbackup.py:452
+msgid "Backing up:"
+msgstr "正在备份："
+
+#: usr/lib/linuxmint/mintbackup/mintbackup.py:460
+msgid "Calculating..."
+msgstr "正在计算..."
+
+#: usr/lib/linuxmint/mintbackup/mintbackup.py:464
+#: usr/lib/linuxmint/mintbackup/mintbackup.py:568
+msgid "The following errors occurred:"
+msgstr "出现了以下错误："
+
+#: usr/lib/linuxmint/mintbackup/mintbackup.py:470
+msgid "The backup was aborted."
+msgstr "备份已取消。"
+
+#: usr/lib/linuxmint/mintbackup/mintbackup.py:474
+#, python-format
+msgid "Your files were successfully saved in %s."
+msgstr "您的文件已成功保存在%s."
+
+#: usr/lib/linuxmint/mintbackup/mintbackup.py:515
+msgid ""
+"Warning: The meta file could not be saved. This backup will not be accepted "
+"for restoration."
+msgstr "警告：无法保存元文件。此备份将不能用于恢复。"
+
+#: usr/lib/linuxmint/mintbackup/mintbackup.py:542
+#, python-format
+msgid ""
+"Warning: Some files were not saved. Only %(archived)d files were backed up "
+"out of %(total)d."
+msgstr "警告：有些文件没有被保存。仅备份了 %(total)d 个文件中的 %(archived)d 个。"
+
+#: usr/lib/linuxmint/mintbackup/mintbackup.py:557
+msgid "Restoring:"
+msgstr "正在恢复："
+
+#: usr/lib/linuxmint/mintbackup/mintbackup.py:574
+msgid "The restoration was aborted."
+msgstr "恢复已取消。"
+
+#: usr/lib/linuxmint/mintbackup/mintbackup.py:578
+msgid "Your files were successfully restored."
+msgstr "您的文件已成功恢复。"
+
+#: usr/lib/linuxmint/mintbackup/mintbackup.py:666
+#, python-format
+msgid "Warning: Only %(number)d files were restored out of %(total)d."
+msgstr "警告：仅恢复了 %(total)d 个文件中的 %(number)d 个。"
+
+#: usr/lib/linuxmint/mintbackup/mintbackup.py:691
+msgid "The list below shows the applications you installed."
+msgstr "以下的列表显示了您已安装的应用程序。"
+
+#: usr/lib/linuxmint/mintbackup/mintbackup.py:735
+#, python-format
+msgid "Your software selection was saved in %s"
+msgstr "您的软件集已保存在%s"
+
+#: usr/lib/linuxmint/mintbackup/mintbackup.py:751
+msgid "The selected file is not a valid software selection."
+msgstr "已选择的文件不是有效的软件集文件。"
+
+#: usr/lib/linuxmint/mintbackup/mintbackup.py:756
+#: usr/lib/linuxmint/mintbackup/mintbackup.py:794
+msgid "An error occurred while reading the file."
+msgstr "读取文件时出错。"
+
+#: usr/lib/linuxmint/mintbackup/mintbackup.py:779
+msgid "Could not locate the package."
+msgstr "找不到软件包的位置。"
+
+#: generate_desktop_files:24 generate_desktop_files:39
+msgid "Make a backup of your home directory"
+msgstr "备份您的主目录"
+
+#: usr/share/linuxmint/mintbackup/mintbackup.ui.h:1
+msgid "Personal data"
+msgstr "个人资料"
+
+#: usr/share/linuxmint/mintbackup/mintbackup.ui.h:2
+msgid "Your files, settings and the content of your home directory"
+msgstr "您的文件、设置以及主目录中的内容"
+
+#: usr/share/linuxmint/mintbackup/mintbackup.ui.h:3
+msgid "Restore..."
+msgstr "还原..."
+
+#: usr/share/linuxmint/mintbackup/mintbackup.ui.h:4
+msgid "Back Up Now..."
+msgstr "立即备份..."
+
+#: usr/share/linuxmint/mintbackup/mintbackup.ui.h:5
+msgid "Software selection"
+msgstr "软件集"
+
+#: usr/share/linuxmint/mintbackup/mintbackup.ui.h:6
+msgid "The list of applications installed on your computer"
+msgstr "在您的电脑上已安装的软件列表"
+
+#: usr/share/linuxmint/mintbackup/mintbackup.ui.h:7
+msgid "Please select where you want to save the backup file:"
+msgstr "请选择备份文件的存储位置："
+
+#: usr/share/linuxmint/mintbackup/mintbackup.ui.h:8
+msgid ""
+"Please add files or directories to the list below to exclude them from the "
+"backup."
+msgstr "将文件或目录添加到下面的列表中以便在备份中将其排除。"
+
+#: usr/share/linuxmint/mintbackup/mintbackup.ui.h:9
+msgid "Exclude files"
+msgstr "排除文件"
+
+#: usr/share/linuxmint/mintbackup/mintbackup.ui.h:10
+msgid "Exclude directories"
+msgstr "排除目录"
+
+#: usr/share/linuxmint/mintbackup/mintbackup.ui.h:11
+msgid "Remove"
+msgstr "移除"
+
+#: usr/share/linuxmint/mintbackup/mintbackup.ui.h:12
+msgid ""
+"Hidden files and hidden folders located at the root of your home directory "
+"are not included by default."
+msgstr "默认情况下不会包含位于主目录首层的隐藏文件和文件夹。"
+
+#: usr/share/linuxmint/mintbackup/mintbackup.ui.h:13
+msgid ""
+"If you want to include some of them in the backup, please add them to the "
+"list below."
+msgstr "如果您希望在备份中包含它们中的某项，请将其添加到下面的列表中。"
+
+#: usr/share/linuxmint/mintbackup/mintbackup.ui.h:14
+msgid "Include files"
+msgstr "包含文件"
+
+#: usr/share/linuxmint/mintbackup/mintbackup.ui.h:15
+msgid "Include directories"
+msgstr "包含目录"
+
+#: usr/share/linuxmint/mintbackup/mintbackup.ui.h:16
+msgid ""
+"These files and folders usually contain temporary data or preferences for "
+"your applications."
+msgstr "这些文件和文件夹中通常包含应用程序的临时数据或首选项设置。"
+
+#: usr/share/linuxmint/mintbackup/mintbackup.ui.h:17
+msgid "Please wait while your files are being backed up."
+msgstr "在文件备份时请耐心等待。"
+
+#: usr/share/linuxmint/mintbackup/mintbackup.ui.h:18
+msgid "Please select the backup to restore:"
+msgstr "请选择备份文件以进行还原："
+
+#: usr/share/linuxmint/mintbackup/mintbackup.ui.h:19
+msgid "Overwrite existing files?"
+msgstr "是否覆盖已存在的文件？"
+
+#: usr/share/linuxmint/mintbackup/mintbackup.ui.h:20
+msgid ""
+"No, only restore missing files.\n"
+"<small>This option is safe and does not affect your existing files.</small>"
+msgstr ""
+"否。只恢复丢失的文件。\n"
+"<small>此选项时安全的，不会影响已存在的文件。</small>"
+
+#: usr/share/linuxmint/mintbackup/mintbackup.ui.h:22
+msgid ""
+"Yes, overwrite changes and restore the content of any existing files.\n"
+"<small>Use this option with caution. The changes you made to the files since "
+"the backup will be lost.</small>"
+msgstr ""
+"是。覆盖所有的修改，恢复所有已存在的文件的内容。\n"
+"<small>请谨慎使用此选项。您在上次备份后作出的所有修改都会丢失。</small>"
+
+#: usr/share/linuxmint/mintbackup/mintbackup.ui.h:24
+msgid "Please wait while your files are being restored."
+msgstr "在文件还原时请耐心等待。"
+
+#: usr/share/linuxmint/mintbackup/mintbackup.ui.h:25
+msgid ""
+"The list below shows the applications you installed with the Software "
+"Manager."
+msgstr "下面的列表中显示了通过软件管理器安装的应用程序。"
+
+#: usr/share/linuxmint/mintbackup/mintbackup.ui.h:26
+msgid "Please select the applications you want to save."
+msgstr "请选择要保存的应用程序。"
+
+#: usr/share/linuxmint/mintbackup/mintbackup.ui.h:27
+msgid "Select all"
+msgstr "选择全部"
+
+#: usr/share/linuxmint/mintbackup/mintbackup.ui.h:28
+msgid "Deselect all"
+msgstr "取消选择全部"
+
+#: usr/share/linuxmint/mintbackup/mintbackup.ui.h:29
+msgid ""
+"Note: If you want to save the complete list of all installed packages on the "
+"system, please use the command 'dpkg --get-selections > mylist.list' in a "
+"terminal."
+msgstr ""
+"提示：如果希望保存系统中已安装的软件包的完整列表，请在终端中使用命令“dpkg --get-selections > mylist.list”。"
+
+#: usr/share/linuxmint/mintbackup/mintbackup.ui.h:30
+msgid "Please select a saved software selection (.list file):"
+msgstr "请选择一个软件集（.list文件）："
+
+#: usr/share/linuxmint/mintbackup/mintbackup.ui.h:31
+msgid "Select the packages you want to install."
+msgstr "选择要安装的软件包。"
+
+#: usr/share/linuxmint/mintbackup/mintbackup.ui.h:32
+msgid "Refresh"
+msgstr "刷新"
+
+#: usr/share/linuxmint/mintbackup/mintbackup.ui.h:33
+msgid "All the packages in your software selection are installed."
+msgstr "您的软件集中的所有软件包都已安装。"
+
+#~ msgid "Archiving your home directory..."
+#~ msgstr "正在归档你的主目录..."
+
+#~ msgid "Backup successful"
+#~ msgstr "备份成功"
+
+#~ msgid "Your home directory was successfully backed-up into"
+#~ msgstr "你的主目录成功备份到"
+
+#~ msgid "Backup failed"
+#~ msgstr "备份失败"
+
+#~ msgid "An error occurred during the backup:"
+#~ msgstr "备份时出错："
+
+#~ msgid "Copying the backup file into your home directory..."
+#~ msgstr "复制备份文件到你的主目录..."
+
+#~ msgid "Extracting the content of the backup into your home directory..."
+#~ msgstr "释放备份的内容到你的主目录..."
+
+#~ msgid "Cleaning up..."
+#~ msgstr "正在清理..."
+
+#~ msgid "Restoration successful"
+#~ msgstr "还原成功"
+
+#~ msgid "Your backup was successfully restored"
+#~ msgstr "你的备份已成功还原"
+
+#~ msgid "Restoration failed"
+#~ msgstr "还原失败"
+
+#~ msgid "An error occurred while restoring the backup archive:"
+#~ msgstr "从备份文档恢复时出错："
+
+#~ msgid "Opening the backup archive..."
+#~ msgstr "正在打开备份文档..."
+
+#~ msgid "Read error"
+#~ msgstr "读取错误"
+
+#~ msgid "An error occurred while opening the backup:"
+#~ msgstr "打开备份时出错："
+
+#~ msgid "Excluded paths"
+#~ msgstr "排除路径"
+
+#~ msgid "Hidden paths"
+#~ msgstr "隐藏路径"
+
+#~ msgid "Exclude folders"
+#~ msgstr "排除文件夹"
+
+#~ msgid "Backup"
+#~ msgstr "备份"
+
+#~ msgid "Excluded Files and Directories"
+#~ msgstr "排除文件和目录"
+
+#~ msgid "Included"
+#~ msgstr "包含"
+
+#~ msgid "Included hidden directories"
+#~ msgstr "包含隐藏目录"
+
+#~ msgid "is not located within your home directory. Not added."
+#~ msgstr "在你的主目录未找到。没有添加。"
+
+#~ msgid "<big><b>Load data into your home directory</b></big>"
+#~ msgstr "<big><b>载入数据到你的主目录</b></big>"
+
+#~ msgid "Restore your personal data from this backup"
+#~ msgstr "从这个备份还原你的私人数据"
+
+#~ msgid "Overwrite existing files"
+#~ msgstr "覆盖已存在的文件"
+
+#~ msgid "Restore"
+#~ msgstr "还原"
+
+#~ msgid "View content"
+#~ msgstr "查看内容"
+
+#~ msgid "Invalid path"
+#~ msgstr "无效路径"

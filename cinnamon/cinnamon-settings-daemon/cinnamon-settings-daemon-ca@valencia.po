@@ -1,0 +1,1365 @@
+# Traducció del mòdul cinnamon-settings-daemon de Softcatalà
+# Copyright © 1999-2010 Free Software Foundation, Inc.
+# This file is distributed under the same license as the cinnamon-settings-daemon package.
+# Ivan Vilata i Balaguer <ivan@selidor.net>, 1999, 2000.
+# Softcatalà <linux@softcatala.org>, 2000, 2001.
+# Jordi Mallach <jordi@sindominio.net>, 2002, 2003, 2004, 2005.
+# Xavier Conde Rueda <xavi.conde@gmail.com>, 2005
+# Josep Puigdemont i Casamajó <josep.puigdemont@gmail.com>, 2005, 2006, 2007.
+# Joan Duran <jodufi@gmail.com>, 2008-2012.
+# Jordi Serratosa <jordis@softcatala.cat>, 2012.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: cinnamon-settings-daemon\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-06-10 13:33+0200\n"
+"PO-Revision-Date: 2021-04-28 10:12+0000\n"
+"Last-Translator: Launchpad Translations Administrators <Unknown>\n"
+"Language-Team: Catalan <tradgnome@softcatala.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Launchpad-Export-Date: 2022-10-10 13:11+0000\n"
+"X-Generator: Launchpad (build 762fb15a975e8b23af6a1f86e44e46bfd0451459)\n"
+"Language: ca-XV\n"
+
+#: plugins/a11y-settings/csd-a11y-settings-manager.c:268
+msgid "Screen reader not found."
+msgstr ""
+
+#: plugins/a11y-settings/csd-a11y-settings-manager.c:269
+msgid "Please install the 'orca' package."
+msgstr ""
+
+#: plugins/a11y-settings/csd-a11y-settings-manager.c:276
+msgid "Open accessibility settings"
+msgstr ""
+
+#: plugins/automount/csd-automount-manager.c:150
+#, c-format
+msgid "Unable to mount %s"
+msgstr "No s'ha pogut muntar %s"
+
+#: plugins/automount/csd-automount-manager.c:278
+#, c-format
+msgid "Unable to open a folder for %s"
+msgstr "No s'ha pogut obrir una carpeta per a %s"
+
+#: plugins/automount/csd-autorun.c:346
+msgid "Ask what to do"
+msgstr "Pregunta què fer"
+
+#: plugins/automount/csd-autorun.c:352 plugins/wacom/csd-wacom-osd-window.c:952
+#: plugins/wacom/csd-wacom-osd-window.c:972
+#: plugins/wacom/csd-wacom-osd-window.c:983
+msgid "Do Nothing"
+msgstr "No faces res"
+
+#: plugins/automount/csd-autorun.c:358
+msgid "Open Folder"
+msgstr "Obri la carpeta"
+
+#: plugins/automount/csd-autorun.c:501
+#, c-format
+msgid "Unable to eject %p"
+msgstr "No s'ha pogut expulsar %p"
+
+#: plugins/automount/csd-autorun.c:503
+#, c-format
+msgid "Unable to unmount %p"
+msgstr "No s'ha pogut desmuntar %p"
+
+#: plugins/automount/csd-autorun.c:710
+msgid "You have just inserted an Audio CD."
+msgstr "Acabeu d'inserir un CD d'àudio."
+
+#: plugins/automount/csd-autorun.c:712
+msgid "You have just inserted an Audio DVD."
+msgstr "Acabeu d'inserir un DVD d'àudio."
+
+#: plugins/automount/csd-autorun.c:714
+msgid "You have just inserted a Video DVD."
+msgstr "Acabeu d'inserir un DVD de vídeo."
+
+#: plugins/automount/csd-autorun.c:716
+msgid "You have just inserted a Video CD."
+msgstr "Acabeu d'inserir un Vídeo CD."
+
+#: plugins/automount/csd-autorun.c:718
+msgid "You have just inserted a Super Video CD."
+msgstr "Acabeu d'inserir un Super Vídeo CD."
+
+#: plugins/automount/csd-autorun.c:720
+msgid "You have just inserted a blank CD."
+msgstr "Acabeu d'inserir un CD en blanc."
+
+#: plugins/automount/csd-autorun.c:722
+msgid "You have just inserted a blank DVD."
+msgstr "Acabeu d'inserir un DVD en blanc."
+
+#: plugins/automount/csd-autorun.c:724
+msgid "You have just inserted a blank Blu-Ray disc."
+msgstr "Acabeu d'inserir un disc Blu-Ray en blanc."
+
+#: plugins/automount/csd-autorun.c:726
+msgid "You have just inserted a blank HD DVD."
+msgstr "Acabeu d'inserir un HD DVD en blanc."
+
+#: plugins/automount/csd-autorun.c:728
+msgid "You have just inserted a Photo CD."
+msgstr "Acabeu d'inserir un Photo CD."
+
+#: plugins/automount/csd-autorun.c:730
+msgid "You have just inserted a Picture CD."
+msgstr "Acabeu d'inserir un Picture CD."
+
+#: plugins/automount/csd-autorun.c:732
+msgid "You have just inserted a medium with digital photos."
+msgstr "Acabeu d'inserir un suport amb fotografies digitals."
+
+#: plugins/automount/csd-autorun.c:734
+msgid "You have just inserted a digital audio player."
+msgstr "Acabeu d'inserir un reproductor d'àudio digital."
+
+#: plugins/automount/csd-autorun.c:736
+msgid ""
+"You have just inserted a medium with software intended to be automatically "
+"started."
+msgstr ""
+"Acabeu d'inserir un suport amb programari previst per iniciar-se "
+"automàticament."
+
+#: plugins/automount/csd-autorun.c:739
+msgid "You have just inserted a medium."
+msgstr "Acabeu d'inserir un suport."
+
+#: plugins/automount/csd-autorun.c:741
+msgid "Choose what application to launch."
+msgstr "Trieu quina aplicació executar."
+
+#: plugins/automount/csd-autorun.c:751
+#, c-format
+msgid ""
+"Select how to open \"%s\" and whether to perform this action in the future "
+"for other media of type \"%s\"."
+msgstr ""
+"Seleccioneu com obrir «%s» i si en el futur es realitzarà esta acció en "
+"altres suports de tipus «%s»."
+
+#: plugins/automount/csd-autorun.c:779
+msgid "_Always perform this action"
+msgstr "Realitza _sempre esta acció"
+
+#: plugins/automount/csd-autorun.c:788
+msgid "_Cancel"
+msgstr "_Cancel·lar"
+
+#: plugins/automount/csd-autorun.c:789
+msgid "_Ok"
+msgstr ""
+
+#: plugins/automount/csd-autorun.c:794
+msgid "_Eject"
+msgstr "_Expulsa"
+
+#: plugins/automount/csd-autorun.c:797
+msgid "_Unmount"
+msgstr "_Desmunta"
+
+#: plugins/color/csd-color-manager.c:1837
+msgid "Color"
+msgstr "Color"
+
+#: plugins/color/csd-color-manager.c:1842
+msgid "Recalibrate now"
+msgstr "Torna a calibrar-ho ara"
+
+#: plugins/color/csd-color-manager.c:1885
+msgid "Recalibration required"
+msgstr "Cal tornar a calibrar"
+
+#: plugins/color/csd-color-manager.c:1897
+#, c-format
+msgid "The display '%s' should be recalibrated soon."
+msgstr ""
+"S'hauria de tornar a calibrar la pantalla «%s» el més prompte possible."
+
+#: plugins/color/csd-color-manager.c:1906
+#, c-format
+msgid "The printer '%s' should be recalibrated soon."
+msgstr ""
+"S'hauria de tornar a calibrar la impressora «%s» el més prompte possible."
+
+#: plugins/color/csd-color-manager.c:2230
+#: plugins/color/csd-color-manager.c:2246
+msgid "Cinnamon Settings Daemon Color Plugin"
+msgstr "Connector de color del dimoni de paràmetres del Cinnamon"
+
+#: plugins/color/csd-color-manager.c:2232
+msgid "Color calibration device added"
+msgstr "S'ha afegit el dispositiu de calibratge del color"
+
+#: plugins/color/csd-color-manager.c:2248
+msgid "Color calibration device removed"
+msgstr "S'ha suprimit el dispositiu de calibratge del color"
+
+#: plugins/housekeeping/csd-disk-space.c:334
+#, c-format
+msgid "Low Disk Space on \"%s\""
+msgstr "Poc espai de disc lliure a «%s»"
+
+#: plugins/housekeeping/csd-disk-space.c:336
+#, c-format
+msgid ""
+"The volume \"%s\" has only %s disk space remaining.  You may free up some "
+"space by emptying the trash."
+msgstr ""
+"Al volum «%s» només li resta %s d'espai de disc. Podeu alliberar espai "
+"buidant la paperera."
+
+#: plugins/housekeeping/csd-disk-space.c:340
+#: plugins/housekeeping/csd-ldsm-dialog.c:78
+#, c-format
+msgid "The volume \"%s\" has only %s disk space remaining."
+msgstr "El volum «%s» només li resta %s d'espai de disc."
+
+#: plugins/housekeeping/csd-disk-space.c:345
+#: plugins/housekeeping/csd-ldsm-dialog.c:202
+msgid "Low Disk Space"
+msgstr "Espai del disc baix"
+
+#: plugins/housekeeping/csd-disk-space.c:347
+#, c-format
+msgid ""
+"This computer has only %s disk space remaining.  You may free up some space "
+"by emptying the trash."
+msgstr ""
+"Este ordinador només li resta %s d'espai de disc. Podeu alliberar espai "
+"buidant la paperera."
+
+#: plugins/housekeeping/csd-disk-space.c:350
+#: plugins/housekeeping/csd-ldsm-dialog.c:81
+#, c-format
+msgid "This computer has only %s disk space remaining."
+msgstr "Este ordinador només li resta %s d'espai de disc."
+
+#: plugins/housekeeping/csd-disk-space.c:365
+msgid "Disk space"
+msgstr "Espai del disc"
+
+#: plugins/housekeeping/csd-disk-space.c:372
+msgid "Examine"
+msgstr "Examina"
+
+#: plugins/housekeeping/csd-disk-space.c:380
+#: plugins/housekeeping/csd-ldsm-dialog.c:434
+msgid "Empty Trash"
+msgstr "Buida la paperera"
+
+#: plugins/housekeeping/csd-disk-space.c:387
+#: plugins/housekeeping/csd-ldsm-dialog.c:449
+msgid "Ignore"
+msgstr "Ignora"
+
+#: plugins/housekeeping/csd-ldsm-dialog.c:63
+msgid "Don't show any warnings again for this file system"
+msgstr "No tornes a mostrar més avisos per a este sistema de fitxers"
+
+#: plugins/housekeeping/csd-ldsm-dialog.c:65
+msgid "Don't show any warnings again"
+msgstr "No tornes a mostrar més avisos"
+
+#: plugins/housekeeping/csd-ldsm-dialog.c:97
+msgid ""
+"You can free up disk space by emptying the Trash, removing unused programs "
+"or files, or moving files to another disk or partition."
+msgstr ""
+"Podeu alliberar espai de disc buidant la paperera, suprimint programes o "
+"fitxers que no utilitzeu o movent fitxers a un altre disc o partició."
+
+#: plugins/housekeeping/csd-ldsm-dialog.c:100
+msgid ""
+"You can free up disk space by removing unused programs or files, or by "
+"moving files to another disk or partition."
+msgstr ""
+"Podeu alliberar espai de disc suprimint programes o fitxers que no utilitzeu "
+"o movent fitxers a un altre disc o partició."
+
+#: plugins/housekeeping/csd-ldsm-dialog.c:105
+msgid ""
+"You can free up disk space by emptying the Trash, removing unused programs "
+"or files, or moving files to an external disk."
+msgstr ""
+"Podeu alliberar espai de disc buidant la paperera, suprimint programes o "
+"fitxers que no utilitzeu o movent fitxers a un disc extern."
+
+#: plugins/housekeeping/csd-ldsm-dialog.c:108
+msgid ""
+"You can free up disk space by removing unused programs or files, or by "
+"moving files to an external disk."
+msgstr ""
+"Podeu alliberar espai de disc suprimint programes o fitxers que no utilitzeu "
+"o movent fitxers a un disc extern."
+
+#: plugins/housekeeping/csd-ldsm-dialog.c:442
+msgid "Examine..."
+msgstr ""
+
+#: plugins/keyboard/csd-keyboard-xkb.c:87
+#, c-format
+msgid ""
+"Error activating XKB configuration.\n"
+"There can be various reasons for that.\n"
+"\n"
+"If you report this situation as a bug, include the results of\n"
+" <b>%s</b>\n"
+" <b>%s</b>\n"
+" <b>%s</b>\n"
+" <b>%s</b>"
+msgstr ""
+
+#: plugins/keyboard/csd-keyboard-xkb.c:256
+msgid "_Layouts"
+msgstr "_Disposicions"
+
+#: plugins/keyboard/csd-keyboard-xkb.c:262
+msgid "Show _Keyboard Layout..."
+msgstr "Mostra la _disposició del teclat..."
+
+#: plugins/keyboard/csd-keyboard-xkb.c:269
+msgid "Region and Language Settings"
+msgstr "Paràmetres de regió i idioma"
+
+#: plugins/power/csd-power-manager.c:1112
+msgid "UPS Discharging"
+msgstr "S'està descarregant el SAI"
+
+#: plugins/power/csd-power-manager.c:1117
+#, c-format
+msgid "%s of UPS backup power remaining"
+msgstr "Queden %s d'energia de reserva del SAI"
+
+#: plugins/power/csd-power-manager.c:1138
+#: plugins/power/csd-power-manager.c:1358
+#: plugins/power/csd-power-manager.c:1536
+#: plugins/power/csd-power-manager.c:1685
+msgid "Power"
+msgstr "Energia"
+
+#: plugins/power/csd-power-manager.c:1270
+msgid "Battery low"
+msgstr "Bateria baixa"
+
+#: plugins/power/csd-power-manager.c:1273
+msgid "Laptop battery low"
+msgstr "Bateria del portàtil baixa"
+
+#: plugins/power/csd-power-manager.c:1280
+#, c-format
+msgid "Approximately %s remaining (%.0f%%)"
+msgstr "Queden aproximadament %s (%.0f%%)"
+
+#: plugins/power/csd-power-manager.c:1285
+msgid "UPS low"
+msgstr "SAI baix"
+
+#: plugins/power/csd-power-manager.c:1291
+#, c-format
+msgid "Approximately %s of remaining UPS backup power (%.0f%%)"
+msgstr "Queden aproximadament %s d'energia de reserva del SAI (%.0f%%)"
+
+#: plugins/power/csd-power-manager.c:1296
+#: plugins/power/csd-power-manager.c:1461
+msgid "Mouse battery low"
+msgstr "Bateria del ratolí baixa"
+
+#: plugins/power/csd-power-manager.c:1299
+msgid "Wireless mouse is low in power"
+msgstr ""
+
+#: plugins/power/csd-power-manager.c:1303
+#: plugins/power/csd-power-manager.c:1468
+msgid "Keyboard battery low"
+msgstr "Bateria del teclat baixa"
+
+#: plugins/power/csd-power-manager.c:1306
+msgid "Wireless keyboard is low in power"
+msgstr ""
+
+#: plugins/power/csd-power-manager.c:1310
+#: plugins/power/csd-power-manager.c:1476
+msgid "PDA battery low"
+msgstr "Bateria de la PDA baixa"
+
+#: plugins/power/csd-power-manager.c:1313
+#, c-format
+msgid "PDA is low in power (%.0f%%)"
+msgstr "La PDA té poca bateria (%.0f%%)"
+
+#: plugins/power/csd-power-manager.c:1317
+#: plugins/power/csd-power-manager.c:1486
+#: plugins/power/csd-power-manager.c:1496
+msgid "Cell phone battery low"
+msgstr "Bateria del telèfon mòbil baixa"
+
+#: plugins/power/csd-power-manager.c:1320
+#, c-format
+msgid "Cell phone is low in power (%.0f%%)"
+msgstr "El telèfon mòbil té poca bateria (%.0f%%)"
+
+#: plugins/power/csd-power-manager.c:1324
+msgid "Media player battery low"
+msgstr "Bateria del reproductor multimèdia baixa"
+
+#: plugins/power/csd-power-manager.c:1327
+#, c-format
+msgid "Media player is low in power (%.0f%%)"
+msgstr "El reproductor multimèdia té poca bateria (%.0f%%)"
+
+#: plugins/power/csd-power-manager.c:1331
+#: plugins/power/csd-power-manager.c:1505
+msgid "Tablet battery low"
+msgstr "Bateria de la tauleta gràfica baixa"
+
+#: plugins/power/csd-power-manager.c:1334
+#, c-format
+msgid "Tablet is low in power (%.0f%%)"
+msgstr "La tauleta gràfica té poca bateria (%.0f%%)"
+
+#: plugins/power/csd-power-manager.c:1338
+#: plugins/power/csd-power-manager.c:1514
+msgid "Attached computer battery low"
+msgstr "Bateria de l'ordinador adjunt baixa"
+
+#: plugins/power/csd-power-manager.c:1341
+#, c-format
+msgid "Attached computer is low in power (%.0f%%)"
+msgstr "L'ordinador adjunt té poca bateria (%.0f%%)"
+
+#: plugins/power/csd-power-manager.c:1375
+msgid "Battery is low"
+msgstr "Bateria baixa"
+
+#: plugins/power/csd-power-manager.c:1417
+msgid "Battery critically low"
+msgstr "Bateria críticament baixa"
+
+#: plugins/power/csd-power-manager.c:1420
+#: plugins/power/csd-power-manager.c:1601
+msgid "Laptop battery critically low"
+msgstr "Bateria del portàtil críticament baixa"
+
+#: plugins/power/csd-power-manager.c:1429
+msgid "Plug in your AC adapter to avoid losing data."
+msgstr ""
+"Connecteu l'adaptador de la xarxa elèctrica per evitar la pèrdua de dades."
+
+#: plugins/power/csd-power-manager.c:1433
+msgid "Computer will suspend very soon unless it is plugged in."
+msgstr "L'ordinador es pararà temporalment d'ací poc si no el connecteu."
+
+#: plugins/power/csd-power-manager.c:1437
+msgid "Computer will hibernate very soon unless it is plugged in."
+msgstr "L'ordinador hibernarà d'ací poc si no el connecteu."
+
+#: plugins/power/csd-power-manager.c:1441
+msgid "Computer will shutdown very soon unless it is plugged in."
+msgstr "L'ordinador es pararà d'ací poc si no el connecteu."
+
+#: plugins/power/csd-power-manager.c:1449
+#: plugins/power/csd-power-manager.c:1637
+msgid "UPS critically low"
+msgstr "SAI críticament baix"
+
+#: plugins/power/csd-power-manager.c:1455
+#, c-format
+msgid ""
+"Approximately %s of remaining UPS power (%.0f%%). Restore AC power to your "
+"computer to avoid losing data."
+msgstr ""
+"Queden aproximadament %s d'energia del SAI (%.0f%%). Connecteu l'ordinador a "
+"la xarxa elèctrica per evitar la pèrdua de dades."
+
+#: plugins/power/csd-power-manager.c:1464
+msgid ""
+"Wireless mouse is very low in power. This device will soon stop functioning "
+"if not charged."
+msgstr ""
+
+#: plugins/power/csd-power-manager.c:1471
+msgid ""
+"Wireless keyboard is very low in power. This device will soon stop "
+"functioning if not charged."
+msgstr ""
+
+#: plugins/power/csd-power-manager.c:1479
+#, c-format
+msgid ""
+"PDA is very low in power (%.0f%%). This device will soon stop functioning if "
+"not charged."
+msgstr ""
+
+#: plugins/power/csd-power-manager.c:1489
+#, c-format
+msgid ""
+"Cell phone is very low in power (%.0f%%). This device will soon stop "
+"functioning if not charged."
+msgstr ""
+
+#: plugins/power/csd-power-manager.c:1499
+#, c-format
+msgid ""
+"Media player is very low in power (%.0f%%). This device will soon stop "
+"functioning if not charged."
+msgstr ""
+
+#: plugins/power/csd-power-manager.c:1508
+#, c-format
+msgid ""
+"Tablet is very low in power (%.0f%%). This device will soon stop functioning "
+"if not charged."
+msgstr ""
+
+#: plugins/power/csd-power-manager.c:1517
+#, c-format
+msgid ""
+"Attached computer is very low in power (%.0f%%). The device will soon "
+"shutdown if not charged."
+msgstr ""
+"L'ordinador adjunt té molt poca bateria (%.0f%%). Este dispositiu deixarà de "
+"funcionar d'ací poc si no es carrega."
+
+#: plugins/power/csd-power-manager.c:1554
+#: plugins/power/csd-power-manager.c:1564
+#: plugins/power/csd-power-manager.c:1700
+msgid "Battery is critically low"
+msgstr "Bateria críticament baixa"
+
+#: plugins/power/csd-power-manager.c:1609
+msgid ""
+"The battery is below the critical level and this computer will <b>power-"
+"off</b> when the battery becomes completely empty."
+msgstr ""
+"La bateria està per sota del nivell crític i l'ordinador <b>s'apagarà</b> "
+"quan la bateria estiga completament buida."
+
+#: plugins/power/csd-power-manager.c:1615
+msgid ""
+"The battery is below the critical level and this computer is about to "
+"suspend.\n"
+"<b>NOTE:</b> A small amount of power is required to keep your computer in a "
+"suspended state."
+msgstr ""
+"La bateria està per sota del nivell crític i l'ordinador està a punt d'parar-"
+"se temporalment.\n"
+"<b>ATENCIÓ:</b> Cal una porció petita d'energia per mantindre l'ordinador en "
+"estat d'parada temporal."
+
+#: plugins/power/csd-power-manager.c:1622
+msgid ""
+"The battery is below the critical level and this computer is about to "
+"hibernate."
+msgstr ""
+"La bateria està per sota del nivell crític i l'ordinador està a punt "
+"d'hibernar."
+
+#: plugins/power/csd-power-manager.c:1627
+msgid ""
+"The battery is below the critical level and this computer is about to "
+"shutdown."
+msgstr ""
+"La bateria està per sota del nivell crític i l'ordinador està a punt d'parar-"
+"se."
+
+#: plugins/power/csd-power-manager.c:1645
+msgid ""
+"UPS is below the critical level and this computer will <b>power-off</b> when "
+"the UPS becomes completely empty."
+msgstr ""
+"El SAI està per sota del nivell crític i l'ordinador <b>s'apagarà</b> quan "
+"el SAI estiga completament buit."
+
+#: plugins/power/csd-power-manager.c:1651
+msgid ""
+"UPS is below the critical level and this computer is about to hibernate."
+msgstr ""
+"El SAI està per sota del nivell crític i l'ordinador està a punt d'hibernar."
+
+#: plugins/power/csd-power-manager.c:1656
+msgid ""
+"UPS is below the critical level and this computer is about to shutdown."
+msgstr ""
+"La bateria està per sota del nivell crític i l'ordinador està a punt d'parar-"
+"se."
+
+#: plugins/power/csd-power-manager.c:2245
+msgid "Lid has been opened"
+msgstr "S'ha obert la tapa"
+
+#: plugins/power/csd-power-manager.c:2390
+msgid "Lid has been closed"
+msgstr "S'ha tancat la tapa"
+
+#: plugins/power/csd-power-manager.c:4316
+msgid "Power Manager"
+msgstr "Gestor d'energia"
+
+#: plugins/power/gpm-common.c:47
+msgid "Unknown time"
+msgstr "Temps desconegut"
+
+#: plugins/power/gpm-common.c:52
+#, c-format
+msgid "%i minute"
+msgid_plural "%i minutes"
+msgstr[0] "%i minut"
+msgstr[1] "%i minuts"
+
+#: plugins/power/gpm-common.c:62
+#, c-format
+msgid "%i hour"
+msgid_plural "%i hours"
+msgstr[0] "%i hora"
+msgstr[1] "%i hores"
+
+#: plugins/power/gpm-common.c:68
+#, c-format
+msgid "%i %s %i %s"
+msgstr "%i %s i %i %s"
+
+#: plugins/power/gpm-common.c:69
+msgid "hour"
+msgid_plural "hours"
+msgstr[0] "hora"
+msgstr[1] "hores"
+
+#: plugins/power/gpm-common.c:70
+msgid "minute"
+msgid_plural "minutes"
+msgstr[0] "minut"
+msgstr[1] "minuts"
+
+#: plugins/power/gpm-common.c:358
+#, c-format
+msgid "provides %s laptop runtime"
+msgstr "proporciona %s de temps d'execució al portàtil"
+
+#: plugins/power/gpm-common.c:369
+#, c-format
+msgid "%s %s remaining"
+msgstr "%s: queden %s"
+
+#: plugins/power/gpm-common.c:390 plugins/power/gpm-common.c:407
+#, c-format
+msgid "%s %s until charged"
+msgstr "%s: queden %s fins estar carregat"
+
+#: plugins/power/gpm-common.c:397
+#, c-format
+msgid "provides %s battery runtime"
+msgstr "proporciona %s de temps d'execució a la bateria"
+
+#: plugins/power/gpm-common.c:488
+msgid "Product:"
+msgstr "Producte:"
+
+#: plugins/power/gpm-common.c:492 plugins/power/gpm-common.c:495
+#: plugins/power/gpm-common.c:498 plugins/power/gpm-common.c:501
+msgid "Status:"
+msgstr "Estat:"
+
+#: plugins/power/gpm-common.c:492
+msgid "Missing"
+msgstr "Manca"
+
+#: plugins/power/gpm-common.c:495 plugins/power/gpm-common.c:780
+msgid "Charged"
+msgstr "Carregada"
+
+#: plugins/power/gpm-common.c:498 plugins/power/gpm-common.c:768
+msgid "Charging"
+msgstr "S'està carregant"
+
+#: plugins/power/gpm-common.c:501 plugins/power/gpm-common.c:772
+msgid "Discharging"
+msgstr "S'està descarregant"
+
+#: plugins/power/gpm-common.c:506
+msgid "Percentage charge:"
+msgstr "Percentatge de càrrega:"
+
+#: plugins/power/gpm-common.c:510
+msgid "Vendor:"
+msgstr "Proveïdor:"
+
+#: plugins/power/gpm-common.c:515
+msgid "Technology:"
+msgstr "Tecnologia:"
+
+#: plugins/power/gpm-common.c:519
+msgid "Serial number:"
+msgstr "Número de sèrie:"
+
+#: plugins/power/gpm-common.c:523
+msgid "Model:"
+msgstr "Model:"
+
+#: plugins/power/gpm-common.c:528
+msgid "Charge time:"
+msgstr "Temps de càrrega:"
+
+#: plugins/power/gpm-common.c:534
+msgid "Discharge time:"
+msgstr "Temps de descàrrega:"
+
+#: plugins/power/gpm-common.c:541
+msgid "Excellent"
+msgstr "Excel·lent"
+
+#: plugins/power/gpm-common.c:543
+msgid "Good"
+msgstr "Bona"
+
+#: plugins/power/gpm-common.c:545
+msgid "Fair"
+msgstr "Normal"
+
+#: plugins/power/gpm-common.c:547
+msgid "Poor"
+msgstr "Dolenta"
+
+#: plugins/power/gpm-common.c:551
+msgid "Capacity:"
+msgstr "Capacitat:"
+
+#: plugins/power/gpm-common.c:557 plugins/power/gpm-common.c:582
+msgid "Current charge:"
+msgstr "Càrrega actual:"
+
+#: plugins/power/gpm-common.c:563
+msgid "Last full charge:"
+msgstr "Última càrrega completa:"
+
+#: plugins/power/gpm-common.c:569 plugins/power/gpm-common.c:587
+msgid "Design charge:"
+msgstr "Càrrega de disseny:"
+
+#: plugins/power/gpm-common.c:574
+msgid "Charge rate:"
+msgstr "Velocitat de càrrega:"
+
+#: plugins/power/gpm-common.c:606
+msgid "AC adapter"
+msgid_plural "AC adapters"
+msgstr[0] "Adaptador de la xarxa elèctrica"
+msgstr[1] "Adaptadors de la xarxa elèctrica"
+
+#: plugins/power/gpm-common.c:610
+msgid "Laptop battery"
+msgid_plural "Laptop batteries"
+msgstr[0] "Bateria del portàtil"
+msgstr[1] "Bateries del portàtil"
+
+#: plugins/power/gpm-common.c:614
+msgid "UPS"
+msgid_plural "UPSs"
+msgstr[0] "SAI"
+msgstr[1] "SAI"
+
+#: plugins/power/gpm-common.c:618
+msgid "Monitor"
+msgid_plural "Monitors"
+msgstr[0] "Monitor"
+msgstr[1] "Monitors"
+
+#: plugins/power/gpm-common.c:622
+msgid "Mouse"
+msgid_plural "Mice"
+msgstr[0] "Ratolí"
+msgstr[1] "Ratolins"
+
+#: plugins/power/gpm-common.c:626
+msgid "Keyboard"
+msgid_plural "Keyboards"
+msgstr[0] "Teclat"
+msgstr[1] "Teclats"
+
+#: plugins/power/gpm-common.c:630
+msgid "PDA"
+msgid_plural "PDAs"
+msgstr[0] "PDA"
+msgstr[1] "PDA"
+
+#: plugins/power/gpm-common.c:634
+msgid "Cell phone"
+msgid_plural "Cell phones"
+msgstr[0] "Telèfon mòbil"
+msgstr[1] "Telèfons mòbil"
+
+#: plugins/power/gpm-common.c:638
+msgid "Media player"
+msgid_plural "Media players"
+msgstr[0] "Reproductor multimèdia"
+msgstr[1] "Reproductors multimèdia"
+
+#: plugins/power/gpm-common.c:642
+msgid "Tablet"
+msgid_plural "Tablets"
+msgstr[0] "Tauleta gràfica"
+msgstr[1] "Tauletes gràfiques"
+
+#: plugins/power/gpm-common.c:646
+msgid "Computer"
+msgid_plural "Computers"
+msgstr[0] "Ordinador"
+msgstr[1] "Ordinadors"
+
+#: plugins/power/gpm-common.c:651
+msgid "Game controller"
+msgid_plural "Game controllers"
+msgstr[0] ""
+msgstr[1] ""
+
+#: plugins/power/gpm-common.c:655
+msgid "Unknown device"
+msgid_plural "Unknown devices"
+msgstr[0] "Dispositiu desconegut"
+msgstr[1] "Dispositius desconeguts"
+
+#: plugins/power/gpm-common.c:726
+msgid "Lithium Ion"
+msgstr "Ió liti"
+
+#: plugins/power/gpm-common.c:730
+msgid "Lithium Polymer"
+msgstr "Ió liti en polímer"
+
+#: plugins/power/gpm-common.c:734
+msgid "Lithium Iron Phosphate"
+msgstr "Fosfat de liti ferro"
+
+#: plugins/power/gpm-common.c:738
+msgid "Lead acid"
+msgstr "Plom i àcid"
+
+#: plugins/power/gpm-common.c:742
+msgid "Nickel Cadmium"
+msgstr "Níquel i cadmi"
+
+#: plugins/power/gpm-common.c:746
+msgid "Nickel metal hydride"
+msgstr "Níquel i hidrur metàl·lic"
+
+#: plugins/power/gpm-common.c:750
+msgid "Unknown technology"
+msgstr "Tecnologia desconeguda"
+
+#: plugins/power/gpm-common.c:776
+msgid "Empty"
+msgstr "Buida"
+
+#: plugins/power/gpm-common.c:784
+msgid "Waiting to charge"
+msgstr "S'està esperant per carregar"
+
+#: plugins/power/gpm-common.c:788
+msgid "Waiting to discharge"
+msgstr "S'està esperant per descarregar"
+
+#: plugins/power/gpm-common.c:792
+msgid "Unknown"
+msgstr ""
+
+#: plugins/power/gpm-common.c:821
+msgid "Laptop battery not present"
+msgstr "No hi ha la bateria del portàtil"
+
+#: plugins/power/gpm-common.c:825
+msgid "Laptop battery is charging"
+msgstr "S'està carregant la bateria del portàtil"
+
+#: plugins/power/gpm-common.c:829
+msgid "Laptop battery is discharging"
+msgstr "S'està descarregant la bateria del portàtil"
+
+#: plugins/power/gpm-common.c:833
+msgid "Laptop battery is empty"
+msgstr "La bateria del portàtil està descarregada"
+
+#: plugins/power/gpm-common.c:837
+msgid "Laptop battery is charged"
+msgstr "La bateria del portàtil està carregada"
+
+#: plugins/power/gpm-common.c:841
+msgid "Laptop battery is waiting to charge"
+msgstr "La bateria del portàtil està esperant per carregar-se"
+
+#: plugins/power/gpm-common.c:845
+msgid "Laptop battery is waiting to discharge"
+msgstr "La bateria del portàtil està esperant per descarregar-se"
+
+#: plugins/power/gpm-common.c:854
+msgid "UPS is charging"
+msgstr "S'està carregant el SAI"
+
+#: plugins/power/gpm-common.c:858
+msgid "UPS is discharging"
+msgstr "S'està descarregant el SAI"
+
+#: plugins/power/gpm-common.c:862
+msgid "UPS is empty"
+msgstr "El SAI està descarregat"
+
+#: plugins/power/gpm-common.c:866
+msgid "UPS is charged"
+msgstr "El SAI està carregat"
+
+#: plugins/power/gpm-common.c:875
+msgid "Mouse is charging"
+msgstr "S'està carregant el ratolí"
+
+#: plugins/power/gpm-common.c:879
+msgid "Mouse is discharging"
+msgstr "S'està descarregant el ratolí"
+
+#: plugins/power/gpm-common.c:883
+msgid "Mouse is empty"
+msgstr "El ratolí està descarregat"
+
+#: plugins/power/gpm-common.c:887
+msgid "Mouse is charged"
+msgstr "El ratolí està carregat"
+
+#: plugins/power/gpm-common.c:896
+msgid "Keyboard is charging"
+msgstr "S'està carregant el teclat"
+
+#: plugins/power/gpm-common.c:900
+msgid "Keyboard is discharging"
+msgstr "S'està descarregant el teclat"
+
+#: plugins/power/gpm-common.c:904
+msgid "Keyboard is empty"
+msgstr "El teclat està descarregat"
+
+#: plugins/power/gpm-common.c:908
+msgid "Keyboard is charged"
+msgstr "El teclat està carregat"
+
+#: plugins/power/gpm-common.c:917
+msgid "PDA is charging"
+msgstr "S'està carregant la PDA"
+
+#: plugins/power/gpm-common.c:921
+msgid "PDA is discharging"
+msgstr "S'està descarregant la PDA"
+
+#: plugins/power/gpm-common.c:925
+msgid "PDA is empty"
+msgstr "La PDA està carregada"
+
+#: plugins/power/gpm-common.c:929
+msgid "PDA is charged"
+msgstr "La PDA està carregada"
+
+#: plugins/power/gpm-common.c:938
+msgid "Cell phone is charging"
+msgstr "S'està carregant el telèfon mòbil"
+
+#: plugins/power/gpm-common.c:942
+msgid "Cell phone is discharging"
+msgstr "S'està descarregant el telèfon mòbil"
+
+#: plugins/power/gpm-common.c:946
+msgid "Cell phone is empty"
+msgstr "El telèfon mòbil està descarregat"
+
+#: plugins/power/gpm-common.c:950
+msgid "Cell phone is charged"
+msgstr "El telèfon mòbil està carregat"
+
+#: plugins/power/gpm-common.c:959
+msgid "Media player is charging"
+msgstr "S'està carregant el reproductor multimèdia"
+
+#: plugins/power/gpm-common.c:963
+msgid "Media player is discharging"
+msgstr "S'està descarregant el reproductor multimèdia"
+
+#: plugins/power/gpm-common.c:967
+msgid "Media player is empty"
+msgstr "El reproductor multimèdia està descarregat"
+
+#: plugins/power/gpm-common.c:971
+msgid "Media player is charged"
+msgstr "El reproductor multimèdia està carregat"
+
+#: plugins/power/gpm-common.c:980
+msgid "Tablet is charging"
+msgstr "S'està carregant la tauleta gràfica"
+
+#: plugins/power/gpm-common.c:984
+msgid "Tablet is discharging"
+msgstr "S'està descarregant la tauleta gràfica"
+
+#: plugins/power/gpm-common.c:988
+msgid "Tablet is empty"
+msgstr "La tauleta gràfica està descarregada"
+
+#: plugins/power/gpm-common.c:992
+msgid "Tablet is charged"
+msgstr "La tauleta gràfica està carregada"
+
+#: plugins/power/gpm-common.c:1001
+msgid "Computer is charging"
+msgstr "S'està carregant l'ordinador"
+
+#: plugins/power/gpm-common.c:1005
+msgid "Computer is discharging"
+msgstr "S'està descarregant l'ordinador"
+
+#: plugins/power/gpm-common.c:1009
+msgid "Computer is empty"
+msgstr "L'ordinador està descarregat"
+
+#: plugins/power/gpm-common.c:1013
+msgid "Computer is charged"
+msgstr "L'ordinador està carregat"
+
+#: plugins/power/gpm-common.c:1023
+msgid "Game controller is charging"
+msgstr ""
+
+#: plugins/power/gpm-common.c:1027
+msgid "Game controller is discharging"
+msgstr ""
+
+#: plugins/power/gpm-common.c:1031
+msgid "Game controller is empty"
+msgstr ""
+
+#: plugins/power/gpm-common.c:1035
+msgid "Game controller is charged"
+msgstr ""
+
+#: plugins/print-notifications/csd-printer.c:890
+msgid "Configuring new printer"
+msgstr "S'està configurant la impressora nova"
+
+#: plugins/print-notifications/csd-printer.c:892
+msgid "Please wait..."
+msgstr "Espereu..."
+
+#: plugins/print-notifications/csd-printer.c:919
+msgid "Missing printer driver"
+msgstr "Manca el controlador de la impressora"
+
+#: plugins/print-notifications/csd-printer.c:928
+#, c-format
+msgid "No printer driver for %s."
+msgstr "No hi ha cap controlador per a %s."
+
+#: plugins/print-notifications/csd-printer.c:933
+msgid "No driver for this printer."
+msgstr "No hi ha cap controlador per esta impressora."
+
+#: plugins/print-notifications/csd-printer.c:1031
+#: plugins/print-notifications/csd-print-notifications-manager.c:268
+#: plugins/print-notifications/csd-print-notifications-manager.c:746
+#: plugins/print-notifications/csd-print-notifications-manager.c:836
+#: plugins/print-notifications/csd-print-notifications-manager.c:879
+msgid "Printers"
+msgstr "Impressores"
+
+#: plugins/print-notifications/csd-print-notifications-manager.c:344
+#, c-format
+msgid "Printer '%s' is low on toner."
+msgstr "La impressora «%s» té poc tòner."
+
+#: plugins/print-notifications/csd-print-notifications-manager.c:348
+#, c-format
+msgid "Printer '%s' has no toner left."
+msgstr "La impressora «%s» no té tòner."
+
+#: plugins/print-notifications/csd-print-notifications-manager.c:352
+#, c-format
+msgid "Printer '%s' may not be connected."
+msgstr "Pot ser que la impressora «%s» no estiga connectada."
+
+#: plugins/print-notifications/csd-print-notifications-manager.c:356
+#, c-format
+msgid "The cover is open on printer '%s'."
+msgstr "La impressora «%s» té la tapa oberta."
+
+#: plugins/print-notifications/csd-print-notifications-manager.c:360
+#, c-format
+msgid "There is a missing print filter for printer '%s'."
+msgstr "Manca un filtre d'impressió per a la impressora «%s»."
+
+#: plugins/print-notifications/csd-print-notifications-manager.c:365
+#, c-format
+msgid "The door is open on printer '%s'."
+msgstr "La impressora «%s» té la porta oberta."
+
+#: plugins/print-notifications/csd-print-notifications-manager.c:369
+#, c-format
+msgid "Printer '%s' is low on a marker supply."
+msgstr "La impressora «%s» té poc subministrament en un marcador."
+
+#: plugins/print-notifications/csd-print-notifications-manager.c:373
+#, c-format
+msgid "Printer '%s' is out of a marker supply."
+msgstr "La impressora «%s» no té subministrament en un marcador."
+
+#: plugins/print-notifications/csd-print-notifications-manager.c:377
+#, c-format
+msgid "Printer '%s' is low on paper."
+msgstr "La impressora «%s» té poc paper."
+
+#: plugins/print-notifications/csd-print-notifications-manager.c:381
+#, c-format
+msgid "Printer '%s' is out of paper."
+msgstr "La impressora «%s» no té paper."
+
+#: plugins/print-notifications/csd-print-notifications-manager.c:385
+#, c-format
+msgid "Printer '%s' is currently off-line."
+msgstr "La impressora «%s» està fora de línia."
+
+#: plugins/print-notifications/csd-print-notifications-manager.c:389
+#, c-format
+msgid "There is a problem on printer '%s'."
+msgstr "Hi ha un problema amb la impressora «%s»."
+
+#: plugins/print-notifications/csd-print-notifications-manager.c:437
+msgid "Toner low"
+msgstr "Poc tòner"
+
+#: plugins/print-notifications/csd-print-notifications-manager.c:439
+msgid "Toner empty"
+msgstr "Tòner buit"
+
+#: plugins/print-notifications/csd-print-notifications-manager.c:441
+msgid "Not connected?"
+msgstr "Sense connectar?"
+
+#: plugins/print-notifications/csd-print-notifications-manager.c:443
+msgid "Cover open"
+msgstr "Tapa oberta"
+
+#: plugins/print-notifications/csd-print-notifications-manager.c:445
+msgid "Printer configuration error"
+msgstr "S'ha produït un error en la configuració de la impressora"
+
+#: plugins/print-notifications/csd-print-notifications-manager.c:447
+msgid "Door open"
+msgstr "Porta oberta"
+
+#: plugins/print-notifications/csd-print-notifications-manager.c:449
+msgid "Marker supply low"
+msgstr "Nivell baix del subministrament d'un marcador"
+
+#: plugins/print-notifications/csd-print-notifications-manager.c:451
+msgid "Out of a marker supply"
+msgstr "Sense subministrament d'un marcador"
+
+#: plugins/print-notifications/csd-print-notifications-manager.c:453
+msgid "Paper low"
+msgstr "Poc paper"
+
+#: plugins/print-notifications/csd-print-notifications-manager.c:455
+msgid "Out of paper"
+msgstr "Sense paper"
+
+#: plugins/print-notifications/csd-print-notifications-manager.c:457
+msgid "Printer off-line"
+msgstr "La impressora està fora de línia"
+
+#: plugins/print-notifications/csd-print-notifications-manager.c:459
+#: plugins/print-notifications/csd-print-notifications-manager.c:822
+msgid "Printer error"
+msgstr "S'ha produït un error en la impressora"
+
+#: plugins/print-notifications/csd-print-notifications-manager.c:507
+msgid "Printer added"
+msgstr "S'ha afegit la impressora"
+
+#: plugins/print-notifications/csd-print-notifications-manager.c:524
+#: plugins/print-notifications/csd-print-notifications-manager.c:562
+msgid "Printing stopped"
+msgstr ""
+
+#: plugins/print-notifications/csd-print-notifications-manager.c:526
+#: plugins/print-notifications/csd-print-notifications-manager.c:532
+#: plugins/print-notifications/csd-print-notifications-manager.c:538
+#: plugins/print-notifications/csd-print-notifications-manager.c:544
+#: plugins/print-notifications/csd-print-notifications-manager.c:556
+#: plugins/print-notifications/csd-print-notifications-manager.c:564
+#: plugins/print-notifications/csd-print-notifications-manager.c:572
+#: plugins/print-notifications/csd-print-notifications-manager.c:580
+#: plugins/print-notifications/csd-print-notifications-manager.c:588
+#: plugins/print-notifications/csd-print-notifications-manager.c:601
+#, c-format
+msgid "'%s' on %s"
+msgstr ""
+
+#: plugins/print-notifications/csd-print-notifications-manager.c:530
+#: plugins/print-notifications/csd-print-notifications-manager.c:570
+msgid "Printing canceled"
+msgstr ""
+
+#: plugins/print-notifications/csd-print-notifications-manager.c:536
+#: plugins/print-notifications/csd-print-notifications-manager.c:578
+msgid "Printing aborted"
+msgstr ""
+
+#: plugins/print-notifications/csd-print-notifications-manager.c:542
+#: plugins/print-notifications/csd-print-notifications-manager.c:586
+msgid "Printing completed"
+msgstr ""
+
+#: plugins/print-notifications/csd-print-notifications-manager.c:554
+#: plugins/print-notifications/csd-print-notifications-manager.c:599
+msgid "Printing"
+msgstr ""
+
+#: plugins/print-notifications/csd-print-notifications-manager.c:816
+msgid "Printer report"
+msgstr "Informe de la impressora"
+
+# FIXME
+#: plugins/print-notifications/csd-print-notifications-manager.c:819
+msgid "Printer warning"
+msgstr "Avís de la impressora"
+
+#: plugins/print-notifications/csd-print-notifications-manager.c:829
+#, c-format
+msgid "Printer '%s': '%s'."
+msgstr "Impressora «%s»: «%s»."
+
+#: plugins/smartcard/csd-smartcard-manager.c:529
+msgid "received error or hang up from event source"
+msgstr "s'ha rebut un error o s'ha penjat des de la font d'esdeveniments"
+
+#: plugins/smartcard/csd-smartcard-manager.c:663
+msgid "NSS security system could not be initialized"
+msgstr "no s'ha pogut inicialitzar el sistema de seguretat NSS"
+
+#: plugins/smartcard/csd-smartcard-manager.c:791
+msgid "no suitable smartcard driver could be found"
+msgstr ""
+"no s'ha pogut trobar cap controlador de targetes intel·ligents adequat"
+
+#: plugins/smartcard/csd-smartcard-manager.c:805
+#, c-format
+msgid "smartcard driver '%s' could not be loaded"
+msgstr "no s'ha pogut carregar el controlador de targetes intel·ligents «%s»"
+
+#: plugins/smartcard/csd-smartcard-manager.c:877
+#, c-format
+msgid "could not watch for incoming card events - %s"
+msgstr ""
+"no s'han pogut vigilar els esdeveniments d'entrada de la targeta - %s"
+
+#: plugins/smartcard/csd-smartcard-manager.c:1275
+msgid "encountered unexpected error while waiting for smartcard events"
+msgstr ""
+"s'ha produït un error inesperat mentre s'esperaven esdeveniments de la "
+"targeta intel·ligent"
+
+#: plugins/wacom/csd-wacom-device.c:1082
+msgid "Left Ring"
+msgstr ""
+
+#: plugins/wacom/csd-wacom-device.c:1092
+#, c-format
+msgid "Left Ring Mode #%d"
+msgstr "Mode de l'anell esquerre número %d"
+
+#: plugins/wacom/csd-wacom-device.c:1111
+msgid "Right Ring"
+msgstr ""
+
+#: plugins/wacom/csd-wacom-device.c:1121
+#, c-format
+msgid "Right Ring Mode #%d"
+msgstr "Mode de l'anell dret número %d"
+
+#: plugins/wacom/csd-wacom-device.c:1162
+msgid "Left Touchstrip"
+msgstr ""
+
+#: plugins/wacom/csd-wacom-device.c:1172
+#, c-format
+msgid "Left Touchstrip Mode #%d"
+msgstr "Mode de la banda tàctil esquerra número %d"
+
+#: plugins/wacom/csd-wacom-device.c:1191
+msgid "Right Touchstrip"
+msgstr ""
+
+#: plugins/wacom/csd-wacom-device.c:1201
+#, c-format
+msgid "Right Touchstrip Mode #%d"
+msgstr "Mode de la banda tàctil dreta número %d"
+
+#: plugins/wacom/csd-wacom-device.c:1226
+msgid "Left Touchring Mode Switch"
+msgstr "Mode de commutació de l'anell tàctil esquerre"
+
+#: plugins/wacom/csd-wacom-device.c:1228
+msgid "Right Touchring Mode Switch"
+msgstr "Mode de commutació de l'anell tàctil dret"
+
+#: plugins/wacom/csd-wacom-device.c:1231
+msgid "Left Touchstrip Mode Switch"
+msgstr "Mode de commutació de la banda tàctil esquerra"
+
+#: plugins/wacom/csd-wacom-device.c:1233
+msgid "Right Touchstrip Mode Switch"
+msgstr "Mode de commutació de la banda tàctil dreta"
+
+#: plugins/wacom/csd-wacom-device.c:1238
+#, c-format
+msgid "Mode Switch #%d"
+msgstr "Mode de commutació número %d"
+
+#: plugins/wacom/csd-wacom-device.c:1342
+#, c-format
+msgid "Left Button #%d"
+msgstr "Botó esquerre número %d"
+
+#: plugins/wacom/csd-wacom-device.c:1345
+#, c-format
+msgid "Right Button #%d"
+msgstr "Botó dret número %d"
+
+#: plugins/wacom/csd-wacom-device.c:1348
+#, c-format
+msgid "Top Button #%d"
+msgstr "Botó superior número %d"
+
+#: plugins/wacom/csd-wacom-device.c:1351
+#, c-format
+msgid "Bottom Button #%d"
+msgstr "Botó inferior número %d"
+
+#: plugins/wacom/csd-wacom-osd-window.c:957
+#, c-format
+msgid "Send Keystroke %s"
+msgstr ""
+
+#: plugins/wacom/csd-wacom-osd-window.c:975
+msgid "Show On-Screen Help"
+msgstr ""
+
+#: plugins/wacom/csd-wacom-osd-window.c:978
+msgid "Switch Monitor"
+msgstr ""
+
+#: plugins/wacom/csd-wacom-osd-window.c:1016
+#, c-format
+msgid "Mode %d: %s"
+msgstr ""

@@ -1,0 +1,1718 @@
+# Estonian translation for linuxmint
+# Copyright (c) 2019 Rosetta Contributors and Canonical Ltd 2019
+# This file is distributed under the same license as the linuxmint package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: linuxmint\n"
+"Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
+"POT-Creation-Date: 2019-03-29 10:21+0000\n"
+"PO-Revision-Date: 2021-11-25 11:45+0000\n"
+"Last-Translator: vaba <Unknown>\n"
+"Language-Team: Estonian <et@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Launchpad-Export-Date: 2022-10-10 13:12+0000\n"
+"X-Generator: Launchpad (build 762fb15a975e8b23af6a1f86e44e46bfd0451459)\n"
+
+#: ../../boot_options.rst:2
+msgid "Boot options"
+msgstr "Käivitusvalikud"
+
+#: ../../boot_options.rst:4
+msgid ""
+"Some graphics cards and motherboards don't work well with the open-source "
+"drivers present in Linux Mint by default."
+msgstr ""
+"Mõned graafikakaardid ja emaplaadid ei tööta korralikult Linux Mintis "
+"vaikimisi kasutusel olevate avatud lähtekoodi draiveritega."
+
+#: ../../boot_options.rst:7
+msgid "Compatibility mode"
+msgstr "Ühilduvusrežiim"
+
+#: ../../boot_options.rst:9
+msgid ""
+"The easiest option is to select ``compatibility mode`` from the USB stick "
+"(or DVD) boot menu."
+msgstr ""
+"Kõige lihtsam variant on valida ``Compatibility mode`` USB pulga (või DVD) "
+"alglaadimise menüüst."
+
+#: ../../boot_options.rst:15
+msgid "Grub menu (EFI mode)"
+msgstr "Grub menüü (EFI režiim)"
+
+#: ../../boot_options.rst:21
+msgid "Isolinux menu (BIOS mode)"
+msgstr "Isolinuxi menüü (BIOSi režiim)"
+
+#: ../../boot_options.rst:23
+msgid "If that doesn't work, you can try the ``nomodeset`` boot option."
+msgstr "Kui see ei toimi, võib proovida alglaaduri valikut ``nomodeset``."
+
+#: ../../boot_options.rst:26
+msgid "Nomodeset boot option"
+msgstr "Nomodeset alglaaduri valik"
+
+#: ../../boot_options.rst:28
+msgid ""
+"In EFI mode, highlight the ``Start Linux Mint`` option and press :kbd:`e` to "
+"modify the boot options."
+msgstr ""
+"EFI režiimis vali ``Start Linux Mint`` ja vajuta  :kbd:`e` klahvi, et muuta "
+"alglaadimise valikuid."
+
+#: ../../boot_options.rst:34
+msgid ""
+"Replace ``quiet splash`` with ``nomodeset`` and press :kbd:`F10` to boot."
+msgstr ""
+"Asenda ``quiet splash`` tekstiga ``nomodeset`` ja vajuta arvuti "
+"alglaadimiseks :kbd:`F10`."
+
+#: ../../boot_options.rst:36
+msgid ""
+"In BIOS mode, highlight ``Start Linux Mint`` and press :kbd:`Tab` to modify "
+"the boot options."
+msgstr ""
+"BIOSi režiimis vali ``Start Linux Mint`` and vajuta :kbd:`Tab` klahvi, et "
+"muuta alglaadimise valikuid."
+
+#: ../../boot_options.rst:42
+msgid ""
+"Replace ``quiet splash`` with ``nomodeset`` and press :kbd:`Enter` to boot."
+msgstr ""
+"Asenda ``quiet splash`` tekstiga ``nomodeset`` ja arvuti alglaadimiseks "
+"vajuta :kbd:`Enter`."
+
+#: ../../boot_options.rst:45
+msgid ""
+"Repeat this operation post-install in your grub boot menu and read "
+":doc:`drivers` to install additional drivers."
+msgstr ""
+"Korda seda tegevust pärast paigaldust enda grubi alglaadimise menüüs ja loe "
+"dokumentatsioonist  :doc:`draiverid` lisadraiverite paigaldamise kohta."
+
+#: ../../boot_options.rst:48
+msgid "Other boot options"
+msgstr "Muud alglaaduri valikud"
+
+#: ../../boot_options.rst:50
+msgid "If you still cannot boot try one of the following solutions:"
+msgstr ""
+"Kui ikka ei õnnestu arvutit käivitada, proovi ühte järgmistest lahendustest:"
+
+#: ../../boot_options.rst:52
+msgid "Try ``nouveau.noaccel=1`` instead of ``nomodeset``."
+msgstr "Proovi ``nomodeset`` asemel valikut ``nouveau.noaccel=1``."
+
+#: ../../boot_options.rst:53
+msgid ""
+"After the installation, use :menuselection:`Advanced Options --> Recovery "
+"mode` from the boot menu and choose ``resume``."
+msgstr ""
+"Pärast paigaldust liigu alglaadimise menüüs asukohta "
+":menuselection:`Advanced Options --> Recovery mode` ja vali ``resume`` "
+"(jätka)."
+
+#: ../../boot_options.rst:56
+msgid "Install an older release"
+msgstr "Vanema versiooni paigaldamine"
+
+#: ../../boot_options.rst:58
+msgid ""
+"If your computer has compatibility issues with the latest Linux Mint "
+"release, install a previous release from the same Linux Mint series."
+msgstr ""
+"Kui su arvutil on probleeme viimase Linux Minti väljalaskega, võib "
+"paigaldada Linux Minti sama seeria vanema väljalaske."
+
+#: ../../boot_options.rst:60
+msgid ""
+"For instance, if you can't install Linux Mint 18.3 (which comes with a 4.10 "
+"kernel), install Linux Mint 18 (which comes with a 4.4 kernel) and upgrade "
+"to 18.3."
+msgstr ""
+"Näiteks kui Linux Mint 18.3 paigaldamine ei õnnestu (see tuleb 4.10 "
+"kerneliga), võib paigaldada Linux Mint 18 (mis tuleb 4.4 kerneliga) ning "
+"uuendada 18.3 versioonile."
+
+#: ../../boot_options.rst:63
+msgid ""
+"The first release in each series uses an LTS (Long Term Support) kernel. "
+"Upgrading from this release to the latest one in the series does not change "
+"your kernel."
+msgstr ""
+"Iga seeria esimene väljaanne kasutab LTS (Long Term Support) kernelit. "
+"Uuendamisel sellelt versioonilt seeria viimasele versioonile ei uuendata "
+"kernelit."
+
+#: ../../boot.rst:2
+msgid "Boot Linux Mint"
+msgstr "Linux Minti käivitamine"
+
+#: ../../boot.rst:4
+msgid ""
+"Now that you have Linux Mint on a USB stick (or DVD) boot the computer from "
+"it."
+msgstr ""
+"Nüüd, kui sul on Linux Mint USB-mälupulgal (või DVD-l), käivita arvuti selle "
+"pealt."
+
+#: ../../boot.rst:6
+msgid "Insert your USB stick (or DVD) into the computer."
+msgstr "Sisesta USB-mälupulk (või DVD) arvutisse."
+
+#: ../../boot.rst:8 ../../drivers.rst:23 ../../efi.rst:61 ../../oem.rst:21
+msgid "Restart the computer."
+msgstr "Taaskäivita arvuti."
+
+#: ../../boot.rst:10
+msgid ""
+"Before your computer boots your current operating system (Windows, Mac, "
+"Linux) you should see your `BIOS <https://en.wikipedia.org/wiki/BIOS>`_ "
+"loading screen. Check the screen or your computer's documentation to know "
+"which key to press and instruct your computer to boot on USB (or DVD)."
+msgstr ""
+"Enne kui arvuti laadib senise operatsioonisüsteemi (Windows, Mac, Linux) "
+"peaksid nägema `BIOSi <https://en.wikipedia.org/wiki/BIOS>`_ laadimise "
+"ekraani. Otsi juhiseid ekraanilt või arvuti dokumentatsioonist, kuidas teha "
+"alglaadimine USB pulgalt (või DVDlt)."
+
+#: ../../boot.rst:13
+msgid ""
+"Most BIOS have a special key you can press to select the boot device and all "
+"of them have a special key to enter the BIOS configuration screen (from "
+"which you can define the boot order). Depending on the BIOS, these special "
+"keys can be :kbd:`Escape`, :kbd:`F1`, :kbd:`F2`, :kbd:`F8`, :kbd:`F10`, "
+":kbd:`F11`, :kbd:`F12`, or :kbd:`Delete`. That information is usually "
+"briefly written on the screen during the boot sequence."
+msgstr ""
+"Enamikul arvutitel on BIOSil eriklahv, mille vajutamisel saab valida "
+"alglaadimise seadme ning kõigil on klahv, mille vajutamisel pääseb BIOSi "
+"seadistamise ekraanile (kust saab omakorda määrata alglaadimise järjekorra). "
+"Sõltuvalt BIOSist võivad need eriklahvid olla :kbd:`Escape`, :kbd:`F1`, "
+":kbd:`F2`, :kbd:`F8`, :kbd:`F10`, :kbd:`F11`, :kbd:`F12`, või :kbd:`Delete`. "
+"Seda infot kuvatakse tavaliselt lühidalt arvuti alglaadimise käigus."
+
+#: ../../boot.rst:16
+msgid ""
+"On Macs, keep your finger pressed on the :kbd:`Alt` or :kbd:`Option` key "
+"after hearing the boot sound."
+msgstr ""
+"Mac arvutil vajuta alla :kbd:`Alt` või :kbd:`Option` klahv pärast "
+"alglaadimise heli kuulmist."
+
+#: ../../boot.rst:18
+msgid ""
+"The Linux Mint ISO can be booted both in EFI or BIOS mode. In EFI mode it "
+"shows a grub menu. In BIOS mode it shows an isolinux menu."
+msgstr ""
+"Linux Mint ISO saab käivitada nii EFI kui BIOS režiimis. EFI režiimis "
+"kuvatakse grub menüü. BIOSi režiimis kuvatakse isolinuxi menüü."
+
+#: ../../boot.rst:24
+msgid "The isolinux menu in BIOS mode"
+msgstr "Isolinuxi menüü BIOSi režiimis"
+
+#: ../../boot.rst:30
+msgid "The grub menu in EFI mode"
+msgstr "Grubi menüü EFI režiimis"
+
+#: ../../boot.rst:32
+msgid ""
+"From one of these menu, press :kbd:`Enter` to start Linux Mint from your USB "
+"stick (or DVD)."
+msgstr ""
+"Kummaski menüüs vajuta :kbd:`Enter`, et käivitada Linux Mint USB pulgalt "
+"(või DVDlt)."
+
+#: ../../burn.rst:2
+msgid "Create the bootable media"
+msgstr "Alglaaditava andmekandja loomine"
+
+#: ../../burn.rst:4
+msgid "The easiest way to install Linux Mint is with a USB stick."
+msgstr "Lihtsaim viis Linux Minti paigaldamiseks on USB-mälupulgaga."
+
+#: ../../burn.rst:6
+msgid "If you cannot boot from USB, you can use a blank DVD."
+msgstr ""
+"Kui sa ei saa arvutit USB pulgalt käivitada, kasuta tühja DVD plaati."
+
+#: ../../burn.rst:9
+msgid "How to make a bootable USB stick"
+msgstr "Kuidas teha USB pulk alglaaditavaks"
+
+#: ../../burn.rst:12
+msgid "In Linux Mint"
+msgstr "Linux Mintis"
+
+#: ../../burn.rst:14
+msgid ""
+"Right-click the ISO file and select :menuselection:`Make Bootable USB "
+"Stick`, or launch :menuselection:`Menu --> Accessories --> USB Image Writer`."
+msgstr ""
+"Tee ISO failil paremklõps ja vali :menuselection:`Tee alglaaditav USB pulk` "
+"või käivita :menuselection:`Menüü --> Tarvikud --> USB tõmmise kirjutaja`."
+
+#: ../../burn.rst:20
+msgid "Select your USB device and click :guilabel:`Write`."
+msgstr "Vali USB pulk ja klõpsa :guilabel:`Kirjuta`."
+
+#: ../../burn.rst:23
+msgid "In Windows, Mac OS, or other Linux distributions"
+msgstr "Windowsis, MacOSis või teistes Linuxi distributsioonides"
+
+#: ../../burn.rst:25
+msgid ""
+"Download `Etcher <https://www.balena.io/etcher/>`_, install it and run it."
+msgstr ""
+"Laadige alla `Etcher <https://www.balena.io/etcher/>`_, installige see ja "
+"käivitage."
+
+#: ../../burn.rst:31
+msgid "Using Etcher"
+msgstr "Etcheri kasutamine"
+
+#: ../../burn.rst:33
+msgid "Click :guilabel:`Select image` and select your ISO file."
+msgstr "Klõpsa :guilabel:`Select image` ning vali oma ISO fail."
+
+#: ../../burn.rst:35
+msgid "Click :guilabel:`Select drive` and select your USB stick."
+msgstr "Klõpsa :guilabel:`Select drive` ning vali oma USB pulk."
+
+#: ../../burn.rst:37
+msgid "Click :guilabel:`Flash!`."
+msgstr "Klõpsa :guilabel:`Flash!`."
+
+#: ../../burn.rst:41
+msgid "How to make a bootable DVD"
+msgstr "Kuidas luua alglaaditavat DVDd"
+
+#: ../../burn.rst:43
+msgid "Optical discs are slow and burning to disc is prone to errors."
+msgstr ""
+"Optilised kettad on aeglased ning kettale kirjutamisel juhtub kergesti vigu."
+
+#: ../../burn.rst:46
+msgid "To prevent issues, burn at the lowest possible speed."
+msgstr "Vigade vältimiseks kirjuta kõige aeglasema kiirusega."
+
+#: ../../burn.rst:49
+msgid ""
+"Burn the content of the ISO onto the DVD, not the ISO file itself. When "
+"finished, your DVD should contain directories such as ``boot`` and "
+"``casper``, it shouldn't be an empty DVD containing an .iso file."
+msgstr ""
+"DVD kettale kirjuta ISO faili sisu, mitte ISO fail ise. Pärast kirjutamise "
+"lõppu peaks DVD kettal olema muu hulgas kaustad nimedega ``boot`` ja "
+"``casper``, see ei tohiks sisaldada ainult ühte .iso faili."
+
+#: ../../burn.rst:52
+msgid "In Linux"
+msgstr "Linuxis"
+
+#: ../../burn.rst:53
+msgid "Install and use ``xfburn``."
+msgstr "Paigalda ja kasuta ``xfburn`` programmi."
+
+#: ../../burn.rst:56
+msgid "In Windows"
+msgstr "Windowsis"
+
+#: ../../burn.rst:57
+msgid "Right-click the ISO file and select :menuselection:`Burn disk image`."
+msgstr ""
+"Tee paremklõps ISO failil ning vali :menuselection:`Burn disk image`."
+
+#: ../../burn.rst:59
+msgid ""
+"To make sure the ISO was burned without any errors, select "
+":menuselection:`Verify disc after burning`."
+msgstr ""
+"Et veenduda, kas ISO kirjutati veatult, märgi :menuselection:`Verify disc "
+"after burning`."
+
+#: ../../burn.rst:62
+msgid "In Mac OS"
+msgstr "Mac OSis"
+
+#: ../../burn.rst:63
+msgid ""
+"Right-click the ISO file and select :menuselection:`Burn Disk Image to Disc`."
+msgstr ""
+"Tee ISO failil paremklõps ja vali :menuselection:`Burn Disk Image to Disc`."
+
+#: ../../choose.rst:2
+msgid "Choose the right edition"
+msgstr "Õige variandi valimine"
+
+#: ../../choose.rst:4
+msgid ""
+"You can download Linux Mint from the `Linux Mint website "
+"<https://linuxmint.com/download.php>`_."
+msgstr ""
+"Linux Minti saad alla laadida `Linux Minti kodulehelt "
+"<https://linuxmint.com/download.php>`_."
+
+#: ../../choose.rst:6
+msgid ""
+"Read below to choose which edition and architecture are right for you."
+msgstr "Loe edasi, et valida enda arvuti jaoks õige variant ja arhitektuur."
+
+#: ../../choose.rst:9
+msgid "Cinnamon, MATE or Xfce?"
+msgstr "Cinnamon, MATE või Xfce?"
+
+#: ../../choose.rst:11
+msgid ""
+"Linux Mint comes in 3 different flavours, each featuring a different desktop "
+"environment."
+msgstr ""
+"Linux Mint on saadaval kolmes erinevas variandis, igaühel on erinev töölaua "
+"keskkond."
+
+#: ../../choose.rst:14 ../../choose.rst:26
+msgid "Cinnamon"
+msgstr "Cinnamon"
+
+#: ../../choose.rst:14
+msgid "The most modern, innovative and full-featured desktop"
+msgstr "Kaasaegne, innovatiivne ja kõigi võimalustega töölaud"
+
+#: ../../choose.rst:15 ../../choose.rst:35
+msgid "MATE"
+msgstr "MATE"
+
+#: ../../choose.rst:15
+msgid "A more traditional, and faster desktop"
+msgstr "Traditsioonilisem ja kiirem töölaud"
+
+#: ../../choose.rst:16 ../../choose.rst:44
+msgid "Xfce"
+msgstr "Xfce"
+
+#: ../../choose.rst:16
+msgid "The most lightweight desktop"
+msgstr "Kõige kergem töölaud"
+
+#: ../../choose.rst:19
+msgid ""
+"The most popular version of Linux Mint is the Cinnamon edition. Cinnamon is "
+"primarily developed for and by Linux Mint. It is slick, beautiful, and full "
+"of new features."
+msgstr ""
+"Kõige populaarsem Linux Minti variant on Cinnamon. Cinnamoni töölauda "
+"arendatakse peamiselt Linux Minti meeskonna poolt ja Linux Minti jaoks. See "
+"on ilus ja uutest võimalustest pungil."
+
+#: ../../choose.rst:28
+msgid ""
+"Linux Mint is also involved in the development of MATE, a classic desktop "
+"environment which is the continuation of GNOME 2, Linux Mint's default "
+"desktop between 2006 and 2011. Although it misses a few features and its "
+"development is slower than Cinnamon's, MATE uses less resources and can run "
+"faster on older computers."
+msgstr ""
+"Linux Mint osaleb ka klassikalise töölauakeskkonna MATE arendamisel, mis on "
+"jätk GNOME 2-le, Linux Mint vaiketöölauale aastatel 2006–2011. Kuigi sellel "
+"puuduvad mõned funktsioonid ja selle arendamine on Cinnamoni omast aeglasem, "
+"kasutab MATE vähem ressursse ja suudab vanemates arvutites kiiremini töötada."
+
+#: ../../choose.rst:37
+msgid ""
+"Xfce is a lightweight desktop environment. It doesn't support as many "
+"features as Cinnamon or MATE, but it's extremely stable and very light on "
+"resource usage."
+msgstr ""
+"Xfce on väga kerge töölaua keskkond. See ei toeta nii palju võimalusi kui "
+"Cinnamon või MATE, kuid see on erakordselt stabiilne ning väga väikese "
+"ressursikasutusega."
+
+#: ../../choose.rst:46
+msgid ""
+"Of course, all three desktops are great and Linux Mint is extremely proud of "
+"each edition. Although there are more features and better support in some "
+"editions than others, and some do run faster and use less resources than "
+"others, they're all great alternatives and choosing the right edition is "
+"largely a matter of taste."
+msgstr ""
+"Loomulikult on kõik kolm töölauda suurepärased ning Linux Mint on nende "
+"kõigi üle väga uhke. Kuigi mõnel variandil on rohkem võimalusi kui teistel "
+"ning mõni on kiirem ning kasutab vähem ressursse kui teised, on kõik kolm "
+"väga head alternatiivid ning sobiva variandi valimine on suuresti maitse asi."
+
+#: ../../choose.rst:48
+msgid ""
+"Other than their features and performance, Cinnamon, MATE and Xfce also "
+"represent three different desktop environments, with different menus, "
+"different panels and configuration tools. The right one for you is the one "
+"where you feel at home."
+msgstr ""
+"Lisaks erinevatele võimalustele ja jõudlusele esindavad Cinnamon, MATE ja "
+"Xfce kolme erinevat töölaua keskkonda erinevate menüüde, paneelide ja "
+"seadistamise tööriistadega. Sinu jaoks kõige õigem on see, kus tunned ennast "
+"koduselt."
+
+#: ../../choose.rst:50
+msgid ""
+"If you are unsure which desktop to choose start with the Cinnamon edition. "
+"Try them all eventually when you have the time. All three of them have their "
+"own audience within the Linux Mint community and they're all very popular."
+msgstr ""
+"Kui sa ei tea, milline töölaud valida, alusta Cinnamonist. Kui sul on aega, "
+"proovi neid kõiki. Kõigil kolmel on erinev sihtrühm Linux Minti kogukonnas "
+"ning kõik on väga populaarsed."
+
+#: ../../choose.rst:54
+msgid "32-bit or 64-bit?"
+msgstr "Kas 32 või 64 bitti?"
+
+#: ../../choose.rst:56
+msgid "From version 20 onward, only 64-bit is available."
+msgstr "Alates versioonist 20 on saadaval ainult 64-bitine."
+
+#: ../../choose.rst:58
+msgid ""
+"The 32-bit ISO images on prior versions are provided for compatibility with "
+"older computers. 32-bit processors are extremely rare nowadays and most "
+"computers are able to run in 64-bit. If your computer was manufactured after "
+"2007, you probably have a 64-bit processor."
+msgstr ""
+"Varasemate versioonide 32-bitised ISO-kujutised on mõeldud ühildumiseks "
+"vanemate arvutitega. 32-bitised protsessorid on tänapäeval äärmiselt "
+"haruldased ja enamik arvuteid on võimelised töötama 64-bitises versioonis. "
+"Kui teie arvuti on toodetud pärast 2007. aastat, on teil tõenäoliselt 64-"
+"bitine protsessor."
+
+#: ../../choose.rst:60
+msgid ""
+"If you have an old computer and you are unsure whether or not it can run in "
+"64-bit, read `X86 Chronology "
+"<https://en.wikipedia.org/wiki/X86#Chronology>`_."
+msgstr ""
+"Kui sul on vana arvuti ja sa pole kindel, kas see suudab jooksutada 64-"
+"bitiseid programme, loe`X86 kronoloogiat "
+"<https://et.wikipedia.org/wiki/X86#Kronoloogia>`_."
+
+#: ../../choose.rst:63
+msgid ""
+"You can try to boot Linux Mint 64-bit on your computer. If it isn't "
+"compatible, nothing bad will happen. You will just get an error message."
+msgstr ""
+"Sa võid proovida käivitada 64-bitist Linux Minti oma arvutis. Kui see ei "
+"toimi, siis midagi halba ei juhtu, sulle näidatakse lihtsalt veateadet."
+
+#: ../../choose.rst:66
+msgid ""
+"If you cannot boot or install Linux Mint because your hardware is too recent "
+"and is not properly detected see the `Edge ISO Images <https://linuxmint-"
+"user-guide.readthedocs.io/en/latest/edge.html>`_ chapter in the Linux Mint "
+"User Guide for an alternative ISO."
+msgstr ""
+"Kui te ei saa Linux Mint buutida ega installida, kuna teie riistvara on "
+"liiga värske ja seda ei tuvastata korralikult, vaadake `Edge ISO Images "
+"<https://linuxmint-user-guide.readthedocs.io/en/latest/edge.html>`_ peatükis "
+"Linux Mint kasutusjuhendis alternatiivse ISO jaoks."
+
+#: ../../codecs.rst:2
+msgid "Multimedia codecs"
+msgstr "Multimeedia koodekid"
+
+#: ../../codecs.rst:4
+msgid "Some multimedia content requires additional codecs to be installed."
+msgstr "Osa multimeedia sisu jaoks on vajalik lisakoodekite paigaldamine."
+
+#: ../../codecs.rst:7
+msgid ""
+"If you were online when installing Linux Mint and you ticked the option to "
+"install these codecs, they are already installed."
+msgstr ""
+"Kui su arvuti oli Linux Minti paigaldamise ajal internetti ühendatud ja "
+"märkisid koodekite paigaldamise kasti ära, on need juba paigaldatud."
+
+#: ../../codecs.rst:9
+msgid ""
+"Launch :menuselection:`Menu --> Sound & Video --> Install Multimedia Codecs`."
+msgstr ""
+"Käivita :menuselection:`Menüü --> Heli & video --> Paigalda multimeedia "
+"koodekid`."
+
+#: ../../codecs.rst:14
+msgid "Click :guilabel:`Install`."
+msgstr "Klõpsa :guilabel:`Paigalda`."
+
+#: ../../codecs.rst:16
+msgid ""
+"Enter your password and wait for the codecs to be installed on your computer."
+msgstr ""
+"Sisesta oma parool ja oota, kuni koodekid paigaldatakse sinu arvutisse."
+
+#: ../../drivers.rst:2
+msgid "Hardware drivers"
+msgstr "Riistvara draiverid"
+
+#: ../../drivers.rst:4
+msgid ""
+"One of the first things to do after installing Linux Mint is to check for "
+"available hardware drivers."
+msgstr ""
+"Üks esimesi asju, mida pärast Linux Minti paigaldamist teha, on kontrollida "
+"saadaolevaid draivereid."
+
+#: ../../drivers.rst:6
+msgid "Launch :menuselection:`Menu --> Administration --> Driver Manager`."
+msgstr "Käivita :menuselection:`Menüü --> Haldus --> Draiverite haldur`."
+
+#: ../../drivers.rst:13
+msgid ""
+"If you are offline, the Driver Manager will complain that it cannot connect "
+"to the Internet."
+msgstr ""
+"Kui sa ei ole internetti ühendatud, siis kurdab draiverite haldur, et ei saa "
+"internetiga ühendust."
+
+#: ../../drivers.rst:19
+msgid ""
+"Insert your bootable Linux Mint USB stick (or DVD), wait for it to be "
+"mounted, and click :guilabel:`OK`."
+msgstr ""
+"Sisesta alglaaditav Linux Minti USB pulk (või DVD), oota kuni see haagitakse "
+"ja klõpsa :guilabel:`OK`."
+
+#: ../../drivers.rst:21
+msgid ""
+"Tick the appropriate checkboxes to select the available drivers and click "
+":guilabel:`Apply Changes`."
+msgstr ""
+"Märgi kohased kastid, et näidata milliseid draivereid soovid kasutada ja "
+"klõpsa :guilabel:`Rakenda muudatused`."
+
+#: ../../efi.rst:2
+msgid "EFI"
+msgstr "EFI"
+
+#: ../../efi.rst:5
+msgid "SecureBoot"
+msgstr "SecureBoot"
+
+#: ../../efi.rst:7
+msgid ""
+"If after installing Linux Mint in EFI mode, you are unable to boot due to a "
+"``Secure Boot Violation``, you can try one of the following solutions:"
+msgstr ""
+"Kui pärast Linux Minti paigaldamist EFI režiimis alglaadimine ei õnnestu ja "
+"näidatakse ``Secure Boot Violation`` veateadet, võid proovida järgmiseid "
+"lahendusi:"
+
+#: ../../efi.rst:15
+msgid "Restart the installation:"
+msgstr "Taaskäivita paigaldus:"
+
+#: ../../efi.rst:14
+msgid "Connect to the Internet before the installation"
+msgstr "Ühenda arvuti internetti enne paigaldust"
+
+#: ../../efi.rst:15
+msgid ""
+"**Do not** select ``Install third-party software for graphics and Wi-Fi "
+"hardware, Flash, MP3 and other media``."
+msgstr ""
+"**Ära** märgi valikut ``Paigalda kolmanda osapoole tarkvara graafika ja Wi-"
+"Fi riistvara ning Flash, MP3 ja muu meedia jaoks``."
+
+#: ../../efi.rst:17
+msgid "Disable ``SecureBoot`` in the ``BIOS`` settings of your computer."
+msgstr "Keela ``SecureBoot`` oma arvuti``BIOSi`` seadistustest."
+
+#: ../../efi.rst:20
+msgid ""
+"For examples of how to disable secure boot on various computers, read "
+"`Managing EFI Boot Loaders for Linux: Dealing with Secure Boot "
+"<http://www.rodsbooks.com/efi-bootloaders/secureboot.html>`_."
+msgstr ""
+"Näiteid selle kohta, kuidas keelata \"Secure Boot\" erinevatel arvutitel, "
+"loe artiklit `Managing EFI Boot Loaders for Linux: Dealing with Secure Boot "
+"<http://www.rodsbooks.com/efi-bootloaders/secureboot.html>`_."
+
+#: ../../efi.rst:23
+msgid "EFI boot order"
+msgstr "EFI alglaadimise järjekord"
+
+#: ../../efi.rst:25
+msgid ""
+"If after installing Linux Mint in EFI mode, your computer skips the boot "
+"menu and boots straight into Windows (or another operating system), you "
+"probably have an issue with the boot order."
+msgstr ""
+"Kui pärast Linux Minti paigaldamist sinu arvutisse EFI režiimis jätab arvuti "
+"alglaadimise menüü vahele ja läheb otse Windowsisse (või teise "
+"operatsioonisüsteemi), on probleem tõenäoliselt alglaadimise järjekorras."
+
+#: ../../efi.rst:27
+msgid "To modify the boot order:"
+msgstr "Et muuta alglaadimise järjekorda:"
+
+#: ../../efi.rst:29 ../../multiboot.rst:18
+msgid "Boot Linux Mint in ``live`` mode (with your USB stick or DVD)."
+msgstr "Käivita Linux Mint ``live`` režiimis (USB pulgalt või DVDlt)."
+
+#: ../../efi.rst:31 ../../multiboot.rst:20
+msgid "Open a terminal."
+msgstr "Ava terminal."
+
+#: ../../efi.rst:33
+msgid "Type ``sudo efibootmgr`` and press :kbd:`Enter`."
+msgstr "Tippige ``sudo efibootmgr`` ja vajutage :kbd:`Enter."
+
+#: ../../efi.rst:35
+msgid "This command lists the available boot options and the boot order."
+msgstr "See käsk näitab alglaadimise valikuid ja alglaadimise järjekorda."
+
+#: ../../efi.rst:41
+msgid "In the screenshot above, there are three boot options:"
+msgstr "Ülemisel ekraanipildil on kolm alglaadimise valikut:"
+
+#: ../../efi.rst:43
+msgid "``ubuntu`` at ``0000``"
+msgstr "``ubuntu`` kohal ``0000``"
+
+#: ../../efi.rst:44
+msgid "``linuxmint`` at ``0001``"
+msgstr "``linuxmint`` kohal ``0001``"
+
+#: ../../efi.rst:45
+msgid "``Mac OS X`` at ``0081``"
+msgstr "``Mac OS X`` kohal ``0081``"
+
+#: ../../efi.rst:47
+msgid ""
+"The boot order is ``0081``. This indicates that the computer only tries to "
+"boot Mac OS and not Linux Mint."
+msgstr ""
+"Alglaadimise järjekorras (BoodOrder) esimeseks on märgitud ``0081``. See "
+"tähendab, et arvuti püüab käivitada ainult Mac OSi ja mitte Linux Minti."
+
+#: ../../efi.rst:50
+msgid ""
+"For technical reasons Linux Mint uses ``ubuntu`` as its EFI boot name."
+msgstr ""
+"Linux Mint tähistab EFI alglaadimise nimena ``ubuntu``, seda tehnilistel "
+"põhjustel."
+
+#: ../../efi.rst:53
+msgid ""
+"To fix the boot order, type ``sudo efibootmgr --bootorder XXXX,YYYY`` (where "
+"``XXXX`` and ``YYYY`` are the operating system boot options you want to "
+"boot)."
+msgstr ""
+"Alglaadimise järjekorra parandamiseks kirjuta ``sudo efibootmgr --bootorder "
+"XXXX,YYYY`` (kus ``XXXX`` ja ``YYYY`` on operatsioonisüsteemi numbrid, mida "
+"soovid, et arvuti alglaadimisel kasutaks)."
+
+#: ../../efi.rst:59
+msgid ""
+"In the screenshot above, ``sudo efibootmgr --bootorder 0000,0081`` instructs "
+"the computer to first try to boot Linux Mint (``ubuntu`` being the EFI boot "
+"name for Linux Mint), and then Mac OS."
+msgstr ""
+"Ülemisel pildil käsk ``sudo efibootmgr --bootorder 0000,0081`` laseb arvutil "
+"esimesena üritada käivitada Linux Minti (``ubuntu`` on Linux Minti nimi EFI "
+"alglaadimise nimekirjas) ja seejärel Mac OSi."
+
+#: ../../efi.rst:64
+msgid ""
+"In the screenshot above ``0000`` is the first boot option so the computer "
+"boots on the Linux Mint grub menu. If grub fails (or if it is dismissed with "
+"the ``exit`` command), the computer follows the boot order and then tries to "
+"boot ``0081``, which corresponds to Mac OS."
+msgstr ""
+"Ülemisel ekraanipildil on ``0000`` esimene alglaadimise valik, seega arvuti "
+"käivitab Linux Minti GRUB menüü. Kui GRUBi käivitamine nurjub (või sellest "
+"väljutakse ``exit`` käsuga), jätkab arvuti järjekorras järgmise reaga ning "
+"püüab käivitada rida ``0081``, mis vastab Mac OSile."
+
+#: ../../help.rst:2
+msgid "Where to find help"
+msgstr "Kust leida abi?"
+
+#: ../../help.rst:4
+msgid ""
+"Many users will be glad to help you and guide you through your first steps "
+"with Linux if you are nice and patient with them and if you give them the "
+"information they require to understand the issues you are facing."
+msgstr ""
+"Paljud kasutajad aitavad meeleldi sind Linuxi kasutamise esimestel sammudel, "
+"kui sa oled nendega viisakas ja kannatlik ning annad piisavalt vajalikku "
+"infot, et nad mõistaksid, millise probleemiga sa silmitsi seisad."
+
+#: ../../help.rst:7
+msgid "The forums"
+msgstr "Foorum"
+
+#: ../../help.rst:9
+msgid ""
+"The best place to find help is on the `Linux Mint Forums "
+"<https://forums.linuxmint.com>`_."
+msgstr ""
+"Parim koht abi otsimiseks on `Linux Minti foorumid "
+"<https://forums.linuxmint.com>`_."
+
+#: ../../help.rst:12
+msgid ""
+"Search the forums before asking, in case someone else already asked the same "
+"question."
+msgstr ""
+"Enne foorumil küsimist, otsi foorumist, kas keegi teine on küsinud sama "
+"küsimust."
+
+#: ../../help.rst:15
+msgid "The chat room"
+msgstr "Jututuba"
+
+#: ../../help.rst:17
+msgid "Another great place to find help is in the IRC chat room."
+msgstr "Teine suurepärane koht abi küsimiseks on IRC jututuba."
+
+#: ../../help.rst:19
+msgid ""
+"To reach the chat room from within Linux Mint, launch :menuselection:`Menu --"
+"> Internet --> HexChat`."
+msgstr ""
+"Et siseneda jututuppa Linux Mintist, käivita :menuselection:`Menüü --> "
+"Internet --> HexChat`."
+
+#: ../../help.rst:21
+msgid ""
+"If you are using another operating system, you can use `Kiwiirc "
+"<https://kiwiirc.com/client/irc.spotchat.org/?i#linuxmint-help>`_ to connect "
+"to the chat room."
+msgstr ""
+"Kui kasutad mõnd muud operatsioonisüsteemi, võid jututuppa sisenemiseks "
+"kasutada `Kiwiirc <https://kiwiirc.com/client/irc.spotchat.org/?i#linuxmint-"
+"help>`_ veebilehte."
+
+#: ../../help.rst:24
+msgid ""
+"Many people are connected to the chat room but only look at it now and then. "
+"Be patient after asking a question. Don't repeat it and stay connected until "
+"you get an answer. It can sometimes take a few hours for somebody to see "
+"your question and reply to you. Don't quit after a few minutes. It is "
+"frustrating to you, but also to others who later see your question and are "
+"unable to reply because you already left."
+msgstr ""
+"Jututoas on palju inimesi, kuid nad vaatavad seda ainult aeg-ajalt. Küsimust "
+"küsides ole kannatlik. Ära korda seda ning püsi jututoas nii kaua, kuni "
+"keegi sulle vastab. See võtab mõnikord mitu tundi kui keegi su küsimust näeb "
+"ja vastab. Ära loobu paari minuti järel. See võib olla sinu jaoks häiriv, "
+"kuid see on häiriv ka teistele, kes hiljem näevad su küsimust ja tahaksid "
+"sulle vastata, kuid ei saa, kuna oled lahkunud."
+
+#: ../../help.rst:27
+msgid ""
+"If you are using Hexchat, you can minimize it to tray by clicking its status "
+"icon. People will often mention your nickname when replying to you. When "
+"they do, your Hexchat status icon will blink to catch your attention."
+msgstr ""
+"Kui kasutad Hexchat-i, võid selle teha väikseks klõpsates süsteemi salves "
+"selle ikoonil. Inimesed tihti mainivad sinu hüüdnime sulle vastates. Kui nad "
+"seda teevad, hakkab Hexchat-i ikoon vilkuma, et su tähelepanu tõmmata."
+
+#: ../../help.rst:30
+msgid "Community resources"
+msgstr "Kogukonna ressursid"
+
+#: ../../help.rst:32
+msgid ""
+"The `tutorials section <https://community.linuxmint.com/tutorial/search>`_ "
+"is useful to find tutorials about Linux Mint."
+msgstr ""
+"Kodulehel `juhendite sektsioonis "
+"<https://community.linuxmint.com/tutorial/search>`_ on kasulikke juhendeid "
+"Linux Minti kohta."
+
+#: ../../help.rst:34
+msgid ""
+"The `hardware database <https://community.linuxmint.com/hardware/search>`_ "
+"is useful to find compatible hardware."
+msgstr ""
+"Kodulehel `riistvara andmebaasis "
+"<https://community.linuxmint.com/hardware/search>`_ on kasulikku infot "
+"ühilduva riistvara kohta."
+
+#: ../../help.rst:37
+msgid "Local communities"
+msgstr "Kohalikud kogukonnad"
+
+#: ../../help.rst:39
+msgid ""
+"To find help in your language, use the `Local Communities "
+"<https://www.linuxmint.com/links.php>`_."
+msgstr ""
+"Et leida abi mõnes teises keeles, vaata `kohalike kogukondade nimekirja "
+"<https://www.linuxmint.com/links.php>`_."
+
+#: ../../index.rst:2
+msgid "Linux Mint Installation Guide"
+msgstr "Linux Minti paigaldusjuhend"
+
+#: ../../index.rst:8
+msgid ""
+"Linux Mint comes in the form of an ISO image (an .iso file) which can be "
+"used to make a bootable DVD or a bootable USB stick."
+msgstr ""
+"Linux Mint tuleb ISO tõmmisena (.iso fail), mida saab kasutada alglaaditava "
+"DVD või USB pulga loomiseks."
+
+#: ../../index.rst:10
+msgid ""
+"This guide will help you download the right ISO image, create your bootable "
+"media and install Linux Mint on your computer."
+msgstr ""
+"See juhend aitab sul alla laadida õige ISO tõmmise, luua alglaaditava "
+"meediumi ja paigaldada Linux Minti sinu arvutisse."
+
+#: ../../index.rst:12 ../../sections.rst:5
+msgid "Download"
+msgstr "Allalaadimine"
+
+#: ../../index.rst:19 ../../sections.rst:7
+msgid "Live Boot"
+msgstr "Andmekandjalt käivitamine"
+
+#: ../../index.rst:26 ../../sections.rst:9
+msgid "Installation"
+msgstr "Paigaldamine"
+
+#: ../../index.rst:32 ../../sections.rst:11
+msgid "Post-installation"
+msgstr "Pärast paigaldust"
+
+#: ../../index.rst:41 ../../sections.rst:13
+msgid "Troubleshooting"
+msgstr "Probleemide lahendamine"
+
+#: ../../index.rst:48 ../../sections.rst:15
+msgid "Frequently Asked Questions"
+msgstr "Korduma kippuvad küsimused"
+
+#: ../../install.rst:2
+msgid "Install Linux Mint"
+msgstr "Linux Minti paigaldamine"
+
+#: ../../install.rst:5
+msgid "The live session"
+msgstr "Andmekandjalt käivitamine"
+
+#: ../../install.rst:7
+msgid ""
+"When you boot the computer from the USB stick (or DVD), Linux Mint starts a "
+"``live session``. It logs you in automatically as a user called ``mint`` and "
+"shows you a desktop with the installer on it:"
+msgstr ""
+"Kui teed arvuti alglaadimise USB pulgalt (või DVD plaadilt), käivitub Linux "
+"Mint ``live seansina``. Sind logitakse automaatselt sisse kasutajanimega "
+"``mint`` ja kuvatakse töölauda, millel on paigaldaja:"
+
+#: ../../install.rst:13
+msgid "The Linux Mint live session"
+msgstr "Linux Minti live seanss"
+
+#: ../../install.rst:15
+msgid ""
+"The ``live session`` is similar to a normal session (i.e. to Linux Mint once "
+"it is permanently installed on the computer), but with the following "
+"exceptions:"
+msgstr ""
+"``Live seanss`` sarnaneb tavalisele Linux Minti seansile (ehk kui Linux Mint "
+"on jäädavalt arvutisse paigaldatud), aga on mõned erisused:"
+
+#: ../../install.rst:17
+msgid ""
+"The Live session is slower (it is loaded from a USB stick or DVD as opposed "
+"to a SSD or HDD)."
+msgstr ""
+"Live seanss on aeglasem (kuna on käivitatud USB pulgalt või DVDlt, mitte SSD "
+"või HDD kettalt)."
+
+#: ../../install.rst:18
+msgid ""
+"Changes you make in the live session are not permanent. They are not written "
+"to the USB stick (or DVD) and they do not impact the system installed by the "
+"installer."
+msgstr ""
+"Muudatused live seansis ei ole püsivad. Neid ei kirjutata USB pulgale (või "
+"DVDle) ning need ei mõjuta paigaldaja poolt koostatavat süsteemi."
+
+#: ../../install.rst:19
+msgid ""
+"Some applications work differently (or not at all) in the live session "
+"(Timeshift, Flatpak, Update Manager, Welcome Screen..etc.)."
+msgstr ""
+"Mõned rakendused töötavad live seansi jooksul teisiti või üldse mitte "
+"(Timeshift, Flatpak, Uuenduste haldur, tervituskuva jne)."
+
+#: ../../install.rst:22
+msgid ""
+"The username for the live session is ``mint``. If asked for a password press "
+":kbd:`Enter`."
+msgstr ""
+"Live seansis on kasutajanimi ``mint``. Kui arvuti küsib parooli, vajuta "
+":kbd:`Enter`."
+
+#: ../../install.rst:25
+msgid "Installing Linux Mint on the computer"
+msgstr "Linux Minti paigaldamine arvutisse"
+
+#: ../../install.rst:27
+msgid "To permanently install Linux Mint on your computer:"
+msgstr "Linux Minti jäädavaks paigaldamiseks oma arvutisse:"
+
+#: ../../install.rst:29
+msgid "Double-click :guilabel:`Install Linux Mint`."
+msgstr "Tee topeltklõps ikoonil :guilabel:`Install Linux Mint`."
+
+#: ../../install.rst:31
+msgid "Select your language."
+msgstr "Vali oma keel."
+
+#: ../../install.rst:37
+msgid "Connect to the Internet."
+msgstr "Ühendu internetti."
+
+#: ../../install.rst:43
+msgid ""
+"If you are connected to the Internet, tick the box to install the multimedia "
+"codecs."
+msgstr ""
+"Kui oled internetti ühendunud, märgi multimeedia koodekite paigaldamise "
+"kastike."
+
+#: ../../install.rst:49
+msgid "Choose an installation type."
+msgstr "Vali paigalduse viis."
+
+#: ../../install.rst:55
+msgid ""
+"If Linux Mint is the only operating system you want to run on this computer "
+"and all data can be lost on the hard drive, choose :guilabel:`Erase disk and "
+"install Linux Mint`."
+msgstr ""
+"Kui Linux Mint on ainus operatsioonisüsteem, mida soovid sellel arvutil "
+"kasutada ning kõik selles arvutis olevad andmed võib kustutada, vali "
+":guilabel:`Erase disk and install Linux Mint` (Kustuta ketas ja paigalda "
+"Linux Mint)."
+
+#: ../../install.rst:58
+msgid ""
+":guilabel:`Encrypt the new Linux Mint installation for security` refers to "
+"full disk encryption. At this stage of the installation your keyboard layout "
+"wasn't yet selected so it is set to en_US. If you decide to use this option, "
+"keep this in mind when entering a password. Note that there are issues with "
+"this option and some NVIDIA drivers. If you are new to Linux use home "
+"directory encryption instead (you can select it later during the "
+"installation)."
+msgstr ""
+":guilabel:`Encrypt the new Linux Mint installation for security` viitab kogu "
+"ketta krüpteerimisele. Selles paigalduse faasis ei ole klaviatuuri paigutus "
+"veel valitud, seega on kasutusel en_US paigutus, pea seda meeles parooli "
+"valikul. Selle valikuga esineb vahel probleeme mõnede NVIDIA draiveritega. "
+"Kui sa oled uus Linuxi kasutaja, soovitame hoopis kodukausta krüpteerimist "
+"(seda saab valida paigalduse hilisemas faasis)."
+
+#: ../../install.rst:60
+msgid ""
+"If another operating system is present on the computer, the installer shows "
+"you an option to install Linux Mint alongside it. If you choose this option, "
+"the installer automatically resizes your existing operating system, makes "
+"room and installs Linux Mint beside it. A boot menu is set up to choose "
+"between the two operating systems each time you start your computer."
+msgstr ""
+"Kui arvutis on mõni teine operatsioonisüsteem juba paigaldatud,  pakutakse "
+"valikut Linux Minti paigaldamiseks selle kõrvale. Kui sa valid selle valiku, "
+"muudetakse olemasoleva operatsioonisüsteemi suurust automaatselt, et teha "
+"Linux Minti jaoks selle kõrvale ruumi. Üles sätitakse alglaadimise menüü, "
+"kust arvuti käivitamisel saab valida, kumba operatsioonisüsteemi seekord "
+"kasutada."
+
+#: ../../install.rst:64
+msgid ""
+"If you want to manage the partitions or specify which partitions to use, "
+"select :guilabel:`Something else`."
+msgstr ""
+"Kui tahad ise partitsioone hallata, vali :guilabel:`Midagi muud` (Something "
+"else)."
+
+#: ../../install.rst:70
+msgid ""
+"Linux Mint requires one partition to be mounted on the root ``/`` directory."
+msgstr ""
+"Linux Mintil on vaja, et vähemalt üks partitsioon haagitaks asukohta ``/`` "
+"juurkaustana."
+
+#: ../../install.rst:72
+msgid ""
+"The Linux Mint operating system (without additional software or personal "
+"data) takes roughly 15GB, so give this partition a decent size (100GB or "
+"more)."
+msgstr ""
+"Linux Mint operatsioonisüsteem (ilma täiendava tarkvara ja kasutaja "
+"andmeteta) võtab umbes 15 GB ruumi, seega määra partitsioonile soliidne "
+"suurus (100 GB või rohkem)."
+
+#: ../../install.rst:74
+msgid "``ext4`` is recommended. It is the most popular Linux filesystem."
+msgstr ""
+"Soovitatav on ``ext4``, mis on kõige populaarsem Linuxi failisüsteem."
+
+#: ../../install.rst:79
+msgid ""
+"Also create a ``swap`` partition. This partition is used for hibernation and "
+"as a safety buffer in case your computer runs out of RAM. Give this "
+"partition a size equal to the amount of RAM in your computer."
+msgstr ""
+"Lisaks tuleb luua ``swap`` (saaleala) partitsioon. Seda partitsiooni "
+"kasutatakse talveuinaku jaoks ning turvapuhvrina juhul kui arvuil saab RAM "
+"otsa. Selle partitsiooni suurus võiks olla sama suur, kui palju on su "
+"arvutil RAMi."
+
+#: ../../install.rst:81
+msgid "Select your timezone"
+msgstr "Vali ajavöönd"
+
+#: ../../install.rst:87
+msgid "Select your keyboard layout"
+msgstr "Vali klaviatuuri paigutus"
+
+#: ../../install.rst:93
+msgid "Enter your user details"
+msgstr "Sisesta kasutaja andmed"
+
+#: ../../install.rst:99
+msgid ""
+"Your ``name`` can be your real name, but it doesn't have to be. It is only "
+"used locally, in the screensaver and on the login screen."
+msgstr ""
+"Sinu ``nimi`` võib olla päris nimi, kuid ei pruugi. Seda kasutatakse ainult "
+"selles arvutis, ekraanisäästja ja sisselogimise ekraanidel."
+
+#: ../../install.rst:101
+msgid ""
+"Your ``username`` is what you log in as, and your ``hostname`` is the name "
+"of your computer on the network."
+msgstr ""
+"Sinu ``kasutajanimi`` on nimi, millega sind sisse logitakse ja sinu arvuti "
+"``hostinimi`` on nimi, mille all arvuti esineb võrgus."
+
+#: ../../install.rst:103
+msgid ""
+"To prevent bugs only use lowercase characters, with no punctuation or "
+"accentuation."
+msgstr ""
+"Vigade vältimiseks kasuta ainult väikesed tähti ilma kirjavahemärkide ja "
+"täpitähtedeta."
+
+#: ../../install.rst:105
+msgid ""
+"To protect your personal data against local attacks (people around you, or "
+"in case your computer gets stolen), tick :guilabel:`Encrypt my home folder`."
+msgstr ""
+"Isiklike andmete kaitsmiseks kohalike rünnakute vastu (inimesed sinu ümber "
+"või näiteks kui arvuti varastatakse), märgi :guilabel:`Krüpteeri kodukaust` "
+"(Encrypt my home folder)."
+
+#: ../../install.rst:107
+msgid "Choose a strong password."
+msgstr "Kasuta tugevat parooli."
+
+#: ../../install.rst:109
+msgid "Enjoy the slideshow while Linux Mint is installed on your computer."
+msgstr ""
+"Naudi slaidiesitlust sel ajal, kui Linux Minti paigaldatakse sinu arvutisse."
+
+#: ../../install.rst:115
+msgid "When the installation is finished, click :guilabel:`Restart Now`."
+msgstr ""
+"Kui paigaldus on lõppenud, klõpsa :guilabel:`Taaskäivita kohe` (Restart Now)."
+
+#: ../../install.rst:121
+msgid ""
+"The computer will then start to shut down and ask you to remove the USB disk "
+"(or DVD). Upon reboot, your computer should show you a boot menu or start "
+"your newly installed Linux Mint operating system."
+msgstr ""
+"Seejärel lülitatakse arvuti välja ning palutakse eemaldada USB pulk (või "
+"DVD). Pärast taaskäivitust peaks sinu arvuti näitama kas alglaadimise menüüd "
+"või käivitama värskelt paigaldatud Linux Mint operatsioonisüsteemi."
+
+#: ../../locales.rst:2
+msgid "Language support"
+msgstr "Keeletugi"
+
+#: ../../locales.rst:4
+msgid ""
+"Language support includes translations but also packages related to spell-"
+"checking, synonyms, hyphenation and dictionaries which enhance your "
+"experience in software applications such as LibreOffice."
+msgstr ""
+"Keeletugi hõlmab tõlkeid aga ka pakette, mis on seotud õigekirjakontrolli, "
+"sünonüümide, sidekriipsutuste ja sõnaraamatutega, mis täiustavad teie "
+"kasutuskogemust tarkvararakendustes, nagu LibreOffice."
+
+#: ../../locales.rst:6
+msgid "Launch :menuselection:`Menu --> Preferences --> Languages`."
+msgstr "Käivita :menuselection:`Menüü --> Eelistused--> Keeled`."
+
+#: ../../locales.rst:12
+msgid "Click :guilabel:`Install / Remove Language`."
+msgstr ""
+"Klõpsa :guilabel:`Paigalda / eemalda keel` (Install / Remove Language)."
+
+#: ../../locales.rst:18
+msgid ""
+"If beside your locale, you see a label saying ``Some language packs are "
+"missing``, select your locale and click :guilabel:`Install language packs`."
+msgstr ""
+"Kui sinu keele kõrval näed kirja ``Mõned keelepaketid on puudu`` (Some "
+"language packs are missing), vali oma keel ja klõpsa :guilabel:`Paigalda "
+"keelepaketid` (Install language packs)."
+
+#: ../../multiboot.rst:2
+msgid "Multi-boot"
+msgstr "Mitu operatsioonisüsteemi"
+
+#: ../../multiboot.rst:5
+msgid "Always install Windows first"
+msgstr "Alati paigalda esimesena Windows"
+
+#: ../../multiboot.rst:7
+msgid ""
+"Windows does not detect other operating systems and does not feature a boot "
+"menu. When you install it, it overwrites your boot sequence and your "
+"computer then boots straight into Windows."
+msgstr ""
+"Windows ei tuvasta teisi operatsioonisüsteeme ning sel ei ole alglaadimise "
+"menüüd. Kui sa selle paigaldad, kirjutab see alglaadimise järjekorra üle "
+"ning sinu arvuti käivitab ilma küsimata Windowsi."
+
+#: ../../multiboot.rst:9
+msgid ""
+"Linux Mint (and most Linux distributions) detects other operating systems "
+"and builds a menu from which you can choose which system to boot."
+msgstr ""
+"Linux Mint (ja enamik Linuxi distributsioone) tuvastavad teised "
+"operatsioonisüsteemid ja koostavad alglaadimise menüü, kust saab valida, "
+"milline süsteem käivitada."
+
+#: ../../multiboot.rst:11
+msgid ""
+"For this reason, if you want to dual-boot or multi-boot with Windows, it is "
+"easier and recommended to install Windows first, before you install Linux "
+"Mint."
+msgstr ""
+"Sel põhjusel, kui tahad, et arvutis saaks kasutada vaheldumisi Windowsi ja "
+"Linuxit, on lihtsam ja soovituslik kõigepealt paigaldada Windows ja alles "
+"siis Linux Mint."
+
+#: ../../multiboot.rst:14
+msgid "Fix the boot sequence"
+msgstr "Alglaadimise järjekorra parandamine"
+
+#: ../../multiboot.rst:16
+msgid "If Windows overwrites your boot sequence:"
+msgstr "Kui Windows kirjutab sinu alglaadimise järjekorra üle, siis:"
+
+#: ../../multiboot.rst:22
+msgid "To list your partitions, type ``lsblk -f`` and press :kbd:`Enter`."
+msgstr ""
+"Partitsioonide loetlemiseks tippige ``lsblk -f`` ja vajutage :kbd:`Enter`."
+
+#: ../../multiboot.rst:28
+msgid ""
+"Find the partition where Linux Mint is installed. On most systems this "
+"should be the only ``ext4`` partition."
+msgstr ""
+"Leia partitsioon, millele on paigaldatud Linux Mint. Tavaliselt on see ainus "
+"``ext4``partitsioon."
+
+#: ../../multiboot.rst:30
+msgid "In the screenshot above:"
+msgstr "Ülemisel pildil:"
+
+#: ../../multiboot.rst:32
+msgid ""
+"``sdb`` is the USB stick (recognizable by its ``iso9660`` type which "
+"corresponds to an ISO image)."
+msgstr ""
+"``sdb`` on USB pulk (selle tunneb ära tüübi ``iso9660`` järgi, mis vastab "
+"ISO tõmmisele)."
+
+#: ../../multiboot.rst:33
+msgid "``sda`` is the hard drive."
+msgstr "``sda`` on kõvaketas."
+
+#: ../../multiboot.rst:34
+msgid ""
+"``sda4`` is the partition on the ``sda`` hard drive, where Linux Mint is "
+"installed."
+msgstr ""
+"``sda4`` on partitsioon ``sda`` kõvakettal, kuhu on paigaldatud Linux Mint."
+
+#: ../../multiboot.rst:36
+msgid "To list partition sizes, type ``lsblk``:"
+msgstr "Partitsioonide suuruste nägemiseks kirjuta ``lsblk``:"
+
+#: ../../multiboot.rst:42
+msgid "To list partition labels, type ``blkid``:"
+msgstr "Partitsioonide siltide nägemiseks kirjuta ``blkid``:"
+
+#: ../../multiboot.rst:48
+msgid ""
+"Mount the Linux Mint partition and reinstall the grub menu with the "
+"following commands:"
+msgstr ""
+"Linux Minti partitsiooni haakida ja GRUBi menüü saab uuesti paigaldada "
+"järgmiste käskudega:"
+
+#: ../../multiboot.rst:56
+msgid ""
+"In the commands above, replace /dev/sda4 and /dev/sda with the appropriate "
+"names for your Linux Mint partition and your hard drive device."
+msgstr ""
+"Ülemistes käskudes asenda /dev/sda4 ja /dev/sda sinu Linux Minti "
+"partitsioonile vastava nime ning kõvaketta seadmega."
+
+#: ../../oem.rst:2
+msgid "Pre-installing Linux Mint (OEM Installation)"
+msgstr "Linux Minti eelpaigaldus (OEM paigaldus)"
+
+#: ../../oem.rst:4
+msgid ""
+"In the ISO boot menu, ``OEM install`` is used to preinstall Linux Mint."
+msgstr ""
+"ISO alglaadimise menüüs vali ``OEM install``, et eelpaigaldada Linux Mint."
+
+#: ../../oem.rst:6
+msgid "This option is useful to:"
+msgstr "See valik on kasulik järgmistel juhtudel:"
+
+#: ../../oem.rst:8
+msgid ""
+"Manufacturers and resellers who want to install Linux Mint on computers they "
+"sell to their customers."
+msgstr ""
+"Tootjad ja edasimüüjad, kes tahavad paigaldada Linux Minti arvutitele, mille "
+"nad müüvad klientidele."
+
+#: ../../oem.rst:9
+msgid "People who want to sell or give their computer to somebody else."
+msgstr "Inimesed, kes tahavad arvuti müüa või anda kellelegi teisele."
+
+#: ../../oem.rst:11
+msgid ""
+"When you install Linux Mint in ``OEM`` mode, the operating system is "
+"installed with a temporary user account and prepared for the computer's "
+"future owner."
+msgstr ""
+"Kui sa paigadad Linux Minti ``OEM`` režiimis, paigaldatakse "
+"operatsioonisüsteem ajutise kasutajakontoga ning sätitakse tulevase kasutaja "
+"jaoks valmis."
+
+#: ../../oem.rst:13
+msgid "The user account is set up by the new owner."
+msgstr "Kasutajakonto seadistamine jääb uuele kasutajale."
+
+#: ../../oem.rst:15
+msgid "To perform an OEM installation follow the steps below:"
+msgstr "OEM paigalduse jaoks on vajalikud  järgmised sammud:"
+
+#: ../../oem.rst:17
+msgid "Select ``OEM Install`` from the USB stick (or DVD) menu."
+msgstr "Vali USB pulga (või DVD) menüüst ``OEM Install``."
+
+#: ../../oem.rst:19
+msgid "Launch the installer and follow the installation instructions."
+msgstr "Käivita paigaldaja ja järgi paigaldusjuhiseid."
+
+#: ../../oem.rst:23
+msgid ""
+"Change any system settings or install additional software if you want."
+msgstr "Muuda süsteemi seadistust või paigalda lisatarkvara nagu vaja."
+
+#: ../../oem.rst:25
+msgid ""
+"When ready, click :guilabel:`Prepare for shipping to end user`, enter the "
+"password you chose during the installation, click :guilabel:`OK` and shut "
+"down the computer."
+msgstr ""
+"Kui oled lõpetanud, klõpsa :guilabel:`Valmista ette lõppkasutajale "
+"saatmiseks` (Prepare for shipping to end user), sisesta parool, mille "
+"valisid paigalduse käigus, klõpsa :guilabel:`OK` ja lülita arvuti välja."
+
+#: ../../oem.rst:31
+msgid ""
+"When the new owner of the computer boots the computer the following screen "
+"appears:"
+msgstr "Kui arvuti uus omanik arvuti käima paneb, näeb ta järgmist ekraani:"
+
+#: ../../oem.rst:37
+msgid ""
+"The new owner selects his or her username, password, keyboard layout, "
+"language, timezone and all the details relevant to create his or her user "
+"account."
+msgstr ""
+"Uus kasutaja valib endale kasutajanime, klaviatuuri paigutuse, keele, "
+"ajavööndi ja sisestab kõik muud konto loomiseks vajalikud andmed."
+
+#: ../../partitioning.rst:2
+msgid "Partitioning"
+msgstr "Partitsioonid"
+
+#: ../../partitioning.rst:5
+msgid "Disks and partitions under Linux"
+msgstr "Kettad ja partitsioonid Linuxis"
+
+#: ../../partitioning.rst:7
+msgid ""
+"If you are not familiar with the Linux naming scheme for devices and "
+"partitions, or the concept of filesystems and mount points, read:"
+msgstr ""
+"Kui sa ei ole Linuxi seadmete ja partitsioonide nimetamisega kursis või pole "
+"tuttav failisüsteemide ja haakekohtade kontseptsiooniga, loe:"
+
+#: ../../partitioning.rst:9
+msgid ""
+"`A beginner’s guide to disks and disk partitions in Linux "
+"<http://linuxbsdos.com/2014/11/08/a-beginners-guide-to-disks-and-disk-"
+"partitions-in-linux/>`_"
+msgstr ""
+"`A beginner’s guide to disks and disk partitions in Linux "
+"<http://linuxbsdos.com/2014/11/08/a-beginners-guide-to-disks-and-disk-"
+"partitions-in-linux/>`_"
+
+#: ../../partitioning.rst:10
+msgid ""
+"`Device Names in Linux "
+"<https://www.debian.org/releases/wheezy/amd64/apcs04.html.en>`_"
+msgstr ""
+"`Device Names in Linux "
+"<https://www.debian.org/releases/wheezy/amd64/apcs04.html.en>`_"
+
+#: ../../partitioning.rst:11
+msgid ""
+"`Understanding the Linux File System "
+"<http://etutorials.org/Linux+systems/red+hat+linux+9+professional+secrets/Par"
+"t+II+Exploring+Red+Hat+Linux/Chapter+7+Red+Hat+Linux+Basics/Understanding+the"
+"+Linux+File+System/>`_"
+msgstr ""
+"`Understanding the Linux File System "
+"<http://etutorials.org/Linux+systems/red+hat+linux+9+professional+secrets/Par"
+"t+II+Exploring+Red+Hat+Linux/Chapter+7+Red+Hat+Linux+Basics/Understanding+the"
+"+Linux+File+System/>`_"
+
+#: ../../partitioning.rst:14
+msgid "Dedicated /home partition"
+msgstr "Eraldi /home partitsioon"
+
+#: ../../partitioning.rst:16
+msgid ""
+"In Linux, the ``/home`` directory is used to store user data and preferences."
+msgstr ""
+"Linuxis on ``/home`` kaust kasutusel kasutaja andmete ja eelistuste "
+"talletamiseks."
+
+#: ../../partitioning.rst:18
+msgid ""
+"This directory contains one subdirectoy for each user account. Say your "
+"username is ``john``, your home directory is ``/home/john``, your downloads "
+"are in ``/home/john/Downloads``, your documents in ``/home/john/Documents``, "
+"your Firefox bookmarks somewhere in ``/home/john/.mozilla`` and so on..."
+msgstr ""
+"Selles kasutas on üks kaust iga kasutajakonto jaoks. Kui su kasutajanimi on "
+"näiteks ``mart``, on sinu kodukaust ``/home/mart``, sinu allalaaditud failid "
+"on kaustas ``/home/mart/Allalaadimised``, sinu dokumendid kaustas "
+"``/home/mart/Dokumendid``, sinu Firefoxi järjehoidjad kusagil kaustas "
+"``/home/mart/.mozilla`` jne..."
+
+#: ../../partitioning.rst:20
+msgid ""
+"By giving ``/home`` its own dedicated partition, you separate the user data "
+"from the rest of the operating system."
+msgstr ""
+"Kui sa määrad ``/home`` kaustale spetsiaalse eraldi partitsiooni, hoitakse "
+"kasutaja andmeid ülejäänud operatsioonisüsteemist lahus."
+
+#: ../../partitioning.rst:22
+msgid ""
+"The advantage is that you can wipe the operating system and replace it "
+"without affecting the user data."
+msgstr ""
+"Selle eelis on, et operatsioonisüsteemi võib kustutada ja asendada ilma "
+"kasutaja andmeid mõjutamata."
+
+#: ../../partitioning.rst:24
+msgid "When installing Linux Mint:"
+msgstr "Linux Minti paigaldamisel:"
+
+#: ../../partitioning.rst:26
+msgid ""
+"Assign the ``/`` mount point to the partition dedicated to the operating "
+"system, and tell the installer to format it."
+msgstr ""
+"Määra ``/`` haakepunktile partitsioon, kuhu soovid operatsioonisüsteemi "
+"paigaldada, ja lase paigaldajal see vormindada."
+
+#: ../../partitioning.rst:28
+msgid ""
+"Assign the ``/home`` mount point to the partition dedicated to the user "
+"data, and if it contains user data already, make sure to tell the installer "
+"**not to format it**."
+msgstr ""
+"Määra ``/home`` haakepunktile partitsioon, mida kasutada ainult kasutaja "
+"andmete jaoks ning kui seal juba on kasutaja andmeid, veendu, et paigaldaja "
+"**seda ei vormindaks**."
+
+#: ../../partitioning.rst:31
+msgid ""
+"This is not recommended for novice users. A misstep during the installation "
+"could wipe all your data. Always make backups, make sure to select the right "
+"partitions and to carefully review formatting options."
+msgstr ""
+"Seda ei soovitata uutele kasutajatele. Üks vale samm paigalduse käigus võib "
+"kustutada kõik sinu andmed. Alati tee andmetest enne varukoopia, veendu, et "
+"märgid õiged partitsioonid ja vaata vormindamise valikud hoolikalt üle."
+
+#: ../../partitioning.rst:34
+msgid ""
+"A Linux Mint operating system takes about 15GB and grows as you install "
+"additional software. If you can spare the size, give it 100GB. Keep most of "
+"your free space for the home partition. User data (downloads, videos, "
+"pictures) takes a lot more space."
+msgstr ""
+"Linux Mint operatsioonisüsteem võtab kettal ruumi umbes 15 GB ja kasvab koos "
+"täiendava tarkvara paigaldamisega. Kui sul on nii palju ruumi, jäta Linux "
+"Mintile 100 GB. Enamik vaba ruumi jäta home partitsioonile. Kasutaja andmed "
+"(allalaadimised, videod, pildid) võtavad palju ruumi."
+
+#: ../../timeshift.rst:2
+msgid "System snapshots"
+msgstr "Süsteemi hetktõmmised"
+
+#: ../../timeshift.rst:4
+msgid ""
+"Before you start using your operating system, set up system snapshots. Then "
+"if anything goes wrong, you can restore your system from an earlier backup."
+msgstr ""
+"Enne operatsioonisüsteemi kasutamist seadista süsteemi hetktõmmised. Kui "
+"midagi läheb valesti, saad süsteemi taastada varasemast varukoopiast."
+
+#: ../../timeshift.rst:6
+msgid "Launch :menuselection:`Menu --> Administration --> Timeshift`."
+msgstr "Käivita :menuselection:`Menüü --> Haldus --> Timeshift`."
+
+#: ../../timeshift.rst:8
+msgid "Select ``RSYNC`` and click :guilabel:`Next`."
+msgstr "Vali ``RSYNC`` ja klõpsa :guilabel:`Edasi` (Next)."
+
+#: ../../timeshift.rst:13
+msgid ""
+"Select the device where you want system snapshots to be saved and click "
+":guilabel:`Next`."
+msgstr ""
+"Vali seade, kuhu soovid, et süsteemi hetktõmmised salvestatakse ja klõpsa "
+":guilabel:`Edasi`."
+
+#: ../../timeshift.rst:19
+msgid ""
+"The selected device is not formatted and no data is lost. System snapshots "
+"are saved into a newly created ``timeshift`` directory on the root of the "
+"selected device."
+msgstr ""
+"Valitud seadet ei vormindada ning andmed kaotsi ei lähe. Süsteemi "
+"hetktõmmised salvestatakse vastloodud kausta ``timeshift`` otse seadme kõige "
+"ülemises kaustas."
+
+#: ../../timeshift.rst:21
+msgid "Select when system snapshots are saved."
+msgstr "Vali hetktõmmiste tegemise sagedus."
+
+#: ../../timeshift.rst:27
+msgid ""
+"System snapshots are incremental so although the first snapshot takes a "
+"significant amount of spaces, new snapshots only take additional space for "
+"files which have changed."
+msgstr ""
+"Süsteemi hetktõmmised on täienevad, seega kuigi esimene tõmmis võtab palju "
+"ruumi, võtavad uued tõmmised ruumi ainult muutunud failide võrra."
+
+#: ../../timeshift.rst:30
+msgid ""
+"``Boot`` snapshots are performed in the background and do not impact the "
+"speed of the boot sequence."
+msgstr ""
+"``Alglaadimise`` tõmmiseid tehakse taustal ja need ei mõjuta arvuti "
+"käivitamise kiirust."
+
+#: ../../timeshift.rst:32
+msgid "Click :guilabel:`Finish`."
+msgstr "Klõpsa :guilabel:`Lõpeta` (Finish)."
+
+#: ../../verify.rst:2
+msgid "Verify your ISO image"
+msgstr "ISO tõmmise kontroll"
+
+#: ../../verify.rst:4
+msgid ""
+"It is important to verify the integrity and authenticity of your ISO image."
+msgstr "ISO tõmmise tervikluse ja autentsuse kontrollimine on oluline."
+
+#: ../../verify.rst:6
+msgid ""
+"The integrity check confirms that your ISO image was properly downloaded and "
+"that your local file is an exact copy of the file present on the download "
+"servers. An error during the download could result in a corrupted file and "
+"trigger random issues during the installation."
+msgstr ""
+"ISO tõmmise tervikluse kontroll kinnitab, et faili allalaadimisel ei "
+"tekkinud vigu ning sinu arvutis olev fail on täpne koopia failist, mis on "
+"allalaadimise serveris. Allalaadimisel tekkivad vead võivad rikkuda faili "
+"ning põhjustada juhuslikke vigu paigalduse käigus."
+
+#: ../../verify.rst:8
+msgid ""
+"The authenticity check confirms that the ISO image you downloaded was signed "
+"by Linux Mint, and thus that it isn't a modified or malicious copy made by "
+"somebody else."
+msgstr ""
+"Autentsuse kontrolli kinnitab, et sinu allalaaditud ISO fail on "
+"allkirjastatud Linux Minti meeskonna poolt ning seda ei ole muudetud ega ole "
+"kellegi teise tehtud pahatahtlik koopia."
+
+#: ../../verify.rst:11
+msgid "Download the SHA256 sums provided by Linux Mint"
+msgstr "Linux Minti avaldatud SHA256 kontrollsumma allalaadimine"
+
+#: ../../verify.rst:13
+msgid ""
+"All `download mirrors <https://www.linuxmint.com/mirrors.php>`_ provide the "
+"ISO images, a ``sha256sum.txt`` file and a ``sha256sum.txt.gpg`` file. You "
+"should be able to find these files in the same place you downloaded the ISO "
+"image from."
+msgstr ""
+"Kõik allalaadimise peegelsaidid `lehel "
+"<https://www.linuxmint.com/mirrors.php>`_ pakuvad ISO tõmmiseid ning "
+"``sha256sum.txt`` ja ``sha256sum.txt.gpg`` faile. Need failid peaksid olema "
+"samas kohas, kust sa ISO tõmmise alla laadisid."
+
+#: ../../verify.rst:15
+msgid ""
+"If you can't find them, browse the `Heanet download mirror "
+"<https://ftp.heanet.ie/mirrors/linuxmint.com/stable/>`_ and click the "
+"version of the Linux Mint release you downloaded."
+msgstr ""
+"Kui sa neid ei leia, vaata `Heanet allalaadimise peeglit "
+"<https://ftp.heanet.ie/mirrors/linuxmint.com/stable/>`_ ja klõpsa Linux "
+"Minti versioonile, mille alla laadisid."
+
+#: ../../verify.rst:17
+msgid "Download both ``sha256sum.txt`` and ``sha256sum.txt.gpg``."
+msgstr "Laadi alla ``sha256sum.txt`` ja ``sha256sum.txt.gpg``."
+
+#: ../../verify.rst:19
+msgid ""
+"Do not copy their content, use \"right-click->Save Link As...\" to download "
+"the files themselves and do not modify them in any way."
+msgstr ""
+"Failide sisu allalaadimiseks tee \"paremklõps->Salvesta link kui...\", et "
+"failid otse allalaadida ja nende sisu mitte mingil viisil muuta."
+
+#: ../../verify.rst:22
+msgid "Integrity check"
+msgstr "Tervikluse kontroll"
+
+#: ../../verify.rst:24
+msgid ""
+"To check the integrity of your local ISO file, generate its SHA256 sum and "
+"compare it with the sum present in ``sha256sum.txt``."
+msgstr ""
+"Kohaliku ISO faili terviklikkuse kontrolliks genereeri selle SHA256 "
+"kontrollsumma ning võrdle seda ``sha256sum.txt`` faili sisuga."
+
+#: ../../verify.rst:31
+msgid ""
+"If you are using Windows follow the tutorial `How to verify the ISO image on "
+"Windows <https://forums.linuxmint.com/viewtopic.php?f=42&t=291093>`_."
+msgstr ""
+"Kui kasutad Windowsi, järgi juhendit `How to verify the ISO image on Windows "
+"<https://forums.linuxmint.com/viewtopic.php?f=42&t=291093>`_."
+
+#: ../../verify.rst:33
+msgid ""
+"If the sums match, your ISO image was successfully downloaded. If they "
+"don't, download it again."
+msgstr ""
+"Kui kontrollsummad klapivad, oli ISO faili allalaadimine edukas. Kui ei "
+"klapi, laadi fail uuesti alla."
+
+#: ../../verify.rst:38
+msgid "Authenticity check"
+msgstr "Autentsuse kontroll"
+
+#: ../../verify.rst:40
+msgid ""
+"To verify the authenticity of ``sha256sum.txt``, check the signature of "
+"``sha256sum.txt.gpg`` by following the steps below."
+msgstr ""
+"Veendumaks ``sha256sum.txt`` faili autentsuses, kontrolli selle allkirja "
+"failis ``sha256sum.txt.gpg`` järgmiste sammudega."
+
+#: ../../verify.rst:43
+msgid "Import the Linux Mint signing key:"
+msgstr "Impordi Linux Minti allkirjastamise võti:"
+
+#: ../../verify.rst:49
+msgid ""
+"If gpg complains about the key ID, try the following commands instead:"
+msgstr "Kui gpg kurdab võtme ID üle, proovi järgmisi käske:"
+
+#: ../../verify.rst:56
+msgid ""
+"Check the output of the last command, to make sure the fingerprint is ``27DE "
+"B156 44C6 B3CF 3BD7 D291 300F 846B A25B AE09`` (with or without spaces)."
+msgstr ""
+"Kontrolli viimase käsu väljundit veendumaks, et sõrmejälg on ``27DE B156 "
+"44C6 B3CF 3BD7 D291 300F 846B A25B AE09`` (tühikutega või ilma)."
+
+#: ../../verify.rst:59
+msgid "Verify the authenticity of sha256sum.txt:"
+msgstr "Kontrolli sha256sum.txt faili autentsust:"
+
+#: ../../verify.rst:64
+msgid ""
+"The output of the last command should tell you that the file signature is "
+"``good`` and that it was signed with the ``A25BAE09`` key."
+msgstr ""
+"Viimase faili väljund peaks ütlema, et faili allkiri on ``hea`` (good) ning "
+"see allkirjastati võtmega ``A25BAE09``."
+
+#: ../../verify.rst:67
+msgid ""
+"GPG might warn you that the Linux Mint signature is not trusted by your "
+"computer. This is expected and perfectly normal."
+msgstr ""
+"GPG võib sind hoiatada, et Linux Minti allkiri ei ole sinu arvuti poolt "
+"usaldatud. See on ootuspärane ja normaalne."
+
+#: ../../verify.rst:70
+msgid ""
+"For more information on ISO verification, or to verify BETA, LMDE or old "
+"releases, read `How to Verify ISO images "
+"<https://linuxmint.com/verify.php>`_."
+msgstr ""
+"Rohkem infot ISO tõmmiste kontrolli kohta või beeta, LMDE või vanemate "
+"väljalasete kontrolli kohta leiad artiklist `How to Verify ISO images "
+"<https://linuxmint.com/verify.php>`_."

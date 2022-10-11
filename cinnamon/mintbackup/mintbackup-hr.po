@@ -1,0 +1,403 @@
+# Croatian translation for linuxmint
+# Copyright (c) 2009 Rosetta Contributors and Canonical Ltd 2009
+# This file is distributed under the same license as the linuxmint package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2009.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: linuxmint\n"
+"Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
+"POT-Creation-Date: 2019-02-27 13:57+0000\n"
+"PO-Revision-Date: 2019-02-27 14:38+0000\n"
+"Last-Translator: gogo <trebelnik2@gmail.com>\n"
+"Language-Team: Croatian <hr@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Launchpad-Export-Date: 2022-10-10 13:02+0000\n"
+"X-Generator: Launchpad (build 762fb15a975e8b23af6a1f86e44e46bfd0451459)\n"
+
+#: usr/lib/linuxmint/mintbackup/mintbackup.py:41
+msgid "Backups"
+msgstr "Sigurnosne kopije"
+
+#: usr/lib/linuxmint/mintbackup/mintbackup.py:169
+#: usr/lib/linuxmint/mintbackup/mintbackup.py:209
+#: usr/lib/linuxmint/mintbackup/mintbackup.py:216 generate_desktop_files:24
+#: generate_desktop_files:39
+msgid "Backup Tool"
+msgstr "Alat sigurnosnog kopiranja"
+
+#: usr/lib/linuxmint/mintbackup/mintbackup.py:232
+#, python-format
+msgid "%s is not located in your home directory."
+msgstr "%s se ne nalazi u vašoj osobnoj mapi."
+
+#: usr/lib/linuxmint/mintbackup/mintbackup.py:272
+msgid "Please choose a directory."
+msgstr "Odaberite mapu."
+
+#: usr/lib/linuxmint/mintbackup/mintbackup.py:275
+msgid "You do not have the permission to write in the selected directory."
+msgstr "Nemate dozvolu pisanja u odabranoj mapi."
+
+#: usr/lib/linuxmint/mintbackup/mintbackup.py:335
+msgid "Please choose a backup file."
+msgstr "Odaberite datoteku sigurnosne kopije."
+
+#: usr/lib/linuxmint/mintbackup/mintbackup.py:343
+msgid ""
+"This backup file is either too old or it was created with a different tool. "
+"Please extract it manually."
+msgstr ""
+"Ova datoteka sigurnosne kopije je prestara ili je stvorena nekim drugim "
+"alatom. Raspakirajte ju ručno."
+
+#: usr/lib/linuxmint/mintbackup/mintbackup.py:352
+#, python-format
+msgid "An error occurred while opening the backup file: %s."
+msgstr "Greška se dogodila pri otvaranju datoteke sigurnsne kopije: %s."
+
+#: usr/lib/linuxmint/mintbackup/mintbackup.py:366
+msgid "No packages need to be installed."
+msgstr "Nema paketa koje treba instalirati."
+
+#: usr/lib/linuxmint/mintbackup/mintbackup.py:373
+msgid "Please select packages to install."
+msgstr "Odaberite pakete za instalaciju."
+
+#: usr/lib/linuxmint/mintbackup/mintbackup.py:427
+#, python-format
+msgid "Skipping %s because named pipes are not supported."
+msgstr "Preskačem %s zato jer imenovani tokovi nisu podržani."
+
+#: usr/lib/linuxmint/mintbackup/mintbackup.py:452
+msgid "Backing up:"
+msgstr "Sigurnosno kopiranje:"
+
+#: usr/lib/linuxmint/mintbackup/mintbackup.py:460
+msgid "Calculating..."
+msgstr "Izračunavanje…"
+
+#: usr/lib/linuxmint/mintbackup/mintbackup.py:464
+#: usr/lib/linuxmint/mintbackup/mintbackup.py:568
+msgid "The following errors occurred:"
+msgstr "Nastale su sljedeće greške:"
+
+#: usr/lib/linuxmint/mintbackup/mintbackup.py:470
+msgid "The backup was aborted."
+msgstr "Sigurnosno kopiranje je prekinuto."
+
+#: usr/lib/linuxmint/mintbackup/mintbackup.py:474
+#, python-format
+msgid "Your files were successfully saved in %s."
+msgstr "Vaše datoteke uspješno su spremljene u %s."
+
+#: usr/lib/linuxmint/mintbackup/mintbackup.py:515
+msgid ""
+"Warning: The meta file could not be saved. This backup will not be accepted "
+"for restoration."
+msgstr ""
+"Upozorenje: Datoteka metapodataka se ne može spremiti. Ovo sigurnosno "
+"kopiranje neće biti prihvaćeno za obnovu."
+
+#: usr/lib/linuxmint/mintbackup/mintbackup.py:542
+#, python-format
+msgid ""
+"Warning: Some files were not saved. Only %(archived)d files were backed up "
+"out of %(total)d."
+msgstr ""
+"Upozorenje: Neke datoteke nisu spremljene. Samo je %(archived)d datoteka od "
+"ukupno %(total)d sigurnosno kopirano."
+
+#: usr/lib/linuxmint/mintbackup/mintbackup.py:557
+msgid "Restoring:"
+msgstr "Obnova:"
+
+#: usr/lib/linuxmint/mintbackup/mintbackup.py:574
+msgid "The restoration was aborted."
+msgstr "Obnova je prekinuta."
+
+#: usr/lib/linuxmint/mintbackup/mintbackup.py:578
+msgid "Your files were successfully restored."
+msgstr "Vaše datoteke su uspješno obnovljene."
+
+#: usr/lib/linuxmint/mintbackup/mintbackup.py:666
+#, python-format
+msgid "Warning: Only %(number)d files were restored out of %(total)d."
+msgstr ""
+"Upozorenje: Samo je %(number)d od ukupno %(total)d datoteka obnovljeno."
+
+#: usr/lib/linuxmint/mintbackup/mintbackup.py:691
+msgid "The list below shows the applications you installed."
+msgstr "Popis ispod prikazuje aplikacije koje ste instalirali."
+
+#: usr/lib/linuxmint/mintbackup/mintbackup.py:735
+#, python-format
+msgid "Your software selection was saved in %s"
+msgstr "Vaš odabir softvera je spremljen u %s"
+
+#: usr/lib/linuxmint/mintbackup/mintbackup.py:751
+msgid "The selected file is not a valid software selection."
+msgstr "Odabrana datoteka nije valjani odabir softvera."
+
+#: usr/lib/linuxmint/mintbackup/mintbackup.py:756
+#: usr/lib/linuxmint/mintbackup/mintbackup.py:794
+msgid "An error occurred while reading the file."
+msgstr "Greška se dogodila pri čitanju datoteke."
+
+#: usr/lib/linuxmint/mintbackup/mintbackup.py:779
+msgid "Could not locate the package."
+msgstr "Nemoguće lociranje paketa."
+
+#: generate_desktop_files:24 generate_desktop_files:39
+msgid "Make a backup of your home directory"
+msgstr "Napravite sigurnosnu kopiju vaše osobne mape"
+
+#: usr/share/linuxmint/mintbackup/mintbackup.ui.h:1
+msgid "Personal data"
+msgstr "Osobni podaci"
+
+#: usr/share/linuxmint/mintbackup/mintbackup.ui.h:2
+msgid "Your files, settings and the content of your home directory"
+msgstr "Vaše datoteke, postavke i sadržaj vaše osobne mape."
+
+#: usr/share/linuxmint/mintbackup/mintbackup.ui.h:3
+msgid "Restore..."
+msgstr "Obnovi..."
+
+#: usr/share/linuxmint/mintbackup/mintbackup.ui.h:4
+msgid "Back Up Now..."
+msgstr "Odmah sigurnosno kopiraj..."
+
+#: usr/share/linuxmint/mintbackup/mintbackup.ui.h:5
+msgid "Software selection"
+msgstr "Odabir softvera"
+
+#: usr/share/linuxmint/mintbackup/mintbackup.ui.h:6
+msgid "The list of applications installed on your computer"
+msgstr "Popis aplikacija instaliranih na vašem računalu"
+
+#: usr/share/linuxmint/mintbackup/mintbackup.ui.h:7
+msgid "Please select where you want to save the backup file:"
+msgstr "Odaberite gdje želite spremiti datoteku sigurnosne kopije:"
+
+#: usr/share/linuxmint/mintbackup/mintbackup.ui.h:8
+msgid ""
+"Please add files or directories to the list below to exclude them from the "
+"backup."
+msgstr ""
+"Dodajte datoteke ili mape na popis ispod kako bi ih izostavili iz "
+"sigurnosnog kopiranja."
+
+#: usr/share/linuxmint/mintbackup/mintbackup.ui.h:9
+msgid "Exclude files"
+msgstr "Izostavi datoteke"
+
+#: usr/share/linuxmint/mintbackup/mintbackup.ui.h:10
+msgid "Exclude directories"
+msgstr "Izostavi mape"
+
+#: usr/share/linuxmint/mintbackup/mintbackup.ui.h:11
+msgid "Remove"
+msgstr "Ukloni"
+
+#: usr/share/linuxmint/mintbackup/mintbackup.ui.h:12
+msgid ""
+"Hidden files and hidden folders located at the root of your home directory "
+"are not included by default."
+msgstr ""
+"Skrivene datoteke i mape smještene u korijenskoj osobnoj mapi nisu uključene "
+"po zadanome."
+
+#: usr/share/linuxmint/mintbackup/mintbackup.ui.h:13
+msgid ""
+"If you want to include some of them in the backup, please add them to the "
+"list below."
+msgstr ""
+"Ako želite uključiti neke od njih u sigurnosno kopiranje, dodajte ih na "
+"popis ispod."
+
+#: usr/share/linuxmint/mintbackup/mintbackup.ui.h:14
+msgid "Include files"
+msgstr "Uključi datoteke"
+
+#: usr/share/linuxmint/mintbackup/mintbackup.ui.h:15
+msgid "Include directories"
+msgstr "Uključi mape"
+
+#: usr/share/linuxmint/mintbackup/mintbackup.ui.h:16
+msgid ""
+"These files and folders usually contain temporary data or preferences for "
+"your applications."
+msgstr ""
+"Ove datoteke i mape uobičajeno sadržavaju privremene podatke ili osobitosti "
+"vaših aplikacija."
+
+#: usr/share/linuxmint/mintbackup/mintbackup.ui.h:17
+msgid "Please wait while your files are being backed up."
+msgstr "Pričekajte dok se vaše datoteke sigurnosno kopiraju."
+
+#: usr/share/linuxmint/mintbackup/mintbackup.ui.h:18
+msgid "Please select the backup to restore:"
+msgstr "Odaberite sigurnosno kopiranje za obnovu:"
+
+#: usr/share/linuxmint/mintbackup/mintbackup.ui.h:19
+msgid "Overwrite existing files?"
+msgstr "Prebriši postojeće datoteke?"
+
+#: usr/share/linuxmint/mintbackup/mintbackup.ui.h:20
+msgid ""
+"No, only restore missing files.\n"
+"<small>This option is safe and does not affect your existing files.</small>"
+msgstr ""
+"Ne, samo obnovi nedostajuće datoteke.\n"
+"<small>Ova mogućnost je sigurna i ne obuhvaća vaše postojeće "
+"datoteke.</small>"
+
+#: usr/share/linuxmint/mintbackup/mintbackup.ui.h:22
+msgid ""
+"Yes, overwrite changes and restore the content of any existing files.\n"
+"<small>Use this option with caution. The changes you made to the files since "
+"the backup will be lost.</small>"
+msgstr ""
+"Da, prebriši promjene i obnovi sadržaj svih postojećih datoteka.\n"
+"<small>Koristite ovu mogućnost uz oprez. Promjene koje učinite datotekama od "
+"izrade sigurnosne kopije bit će izgubljene.</small>"
+
+#: usr/share/linuxmint/mintbackup/mintbackup.ui.h:24
+msgid "Please wait while your files are being restored."
+msgstr "Pričekajte dok se vaše datoteke obnavljaju."
+
+#: usr/share/linuxmint/mintbackup/mintbackup.ui.h:25
+msgid ""
+"The list below shows the applications you installed with the Software "
+"Manager."
+msgstr ""
+"Popis ispod prikazuje aplikacije koje ste instalirali sa Upraviteljem "
+"softvera."
+
+#: usr/share/linuxmint/mintbackup/mintbackup.ui.h:26
+msgid "Please select the applications you want to save."
+msgstr "Odaberite aplikaciju koju želite spremiti."
+
+#: usr/share/linuxmint/mintbackup/mintbackup.ui.h:27
+msgid "Select all"
+msgstr "Odaberi sve"
+
+#: usr/share/linuxmint/mintbackup/mintbackup.ui.h:28
+msgid "Deselect all"
+msgstr "Ukloni odabir"
+
+#: usr/share/linuxmint/mintbackup/mintbackup.ui.h:29
+msgid ""
+"Note: If you want to save the complete list of all installed packages on the "
+"system, please use the command 'dpkg --get-selections > mylist.list' in a "
+"terminal."
+msgstr ""
+"Napomena: Ako želite spremiti potpuni popis svih instaliranih paketa na "
+"vašem sustavu, koristite naredbu 'dpkg --get-selections > mylist.list' u "
+"terminalu."
+
+#: usr/share/linuxmint/mintbackup/mintbackup.ui.h:30
+msgid "Please select a saved software selection (.list file):"
+msgstr "Odaberite odabir spremljenog softvera (.list datoteka):"
+
+#: usr/share/linuxmint/mintbackup/mintbackup.ui.h:31
+msgid "Select the packages you want to install."
+msgstr "Odaberite pakete koje želite instalirati."
+
+#: usr/share/linuxmint/mintbackup/mintbackup.ui.h:32
+msgid "Refresh"
+msgstr "Osvježi"
+
+#: usr/share/linuxmint/mintbackup/mintbackup.ui.h:33
+msgid "All the packages in your software selection are installed."
+msgstr "Svi paketi iz vašeg odabira softvera su instalirani."
+
+#~ msgid "Archiving your home directory..."
+#~ msgstr "Arhiviram tvoj home direktorij..."
+
+#~ msgid "Your home directory was successfully backed-up into"
+#~ msgstr "Sigurnosna kopija tvoga home direktorija je uspješno završena u"
+
+#~ msgid "Backup successful"
+#~ msgstr "Sigurnosna kopija završena uspješno"
+
+#~ msgid "An error occurred during the backup:"
+#~ msgstr "Greška se pojavila tjekom stvaranja sigurnosne kopije"
+
+#~ msgid "Backup failed"
+#~ msgstr "Sigurnosna kopija nije uspjela"
+
+#~ msgid "Extracting the content of the backup into your home directory..."
+#~ msgstr "Izvlačim sadržaj sigurnosne kopije u tvoj home direktorij..."
+
+#~ msgid "Copying the backup file into your home directory..."
+#~ msgstr "Kopiram datoteke sigurnosne kopije u tvoj home direktorij.."
+
+#~ msgid "Backup"
+#~ msgstr "Sigurnosna kopija"
+
+#~ msgid "Opening the backup archive..."
+#~ msgstr "Otvaram arhivu sigurnosne kopije"
+
+#~ msgid "Exclude folders"
+#~ msgstr "Izuzete mape"
+
+#~ msgid "An error occurred while opening the backup:"
+#~ msgstr "Greška se pojavila tjekom otvaranja sigurnosne kopije"
+
+#~ msgid "Hidden paths"
+#~ msgstr "Skriveni putevi"
+
+#~ msgid "Restore your personal data from this backup"
+#~ msgstr "Obnovi svoje osobne podatke iz ove sigurnosne kopije"
+
+#~ msgid "<big><b>Load data into your home directory</b></big>"
+#~ msgstr "<big><b>Učitaj podatke u svoj home direktorij</b></big>"
+
+#~ msgid "is not located within your home directory. Not added."
+#~ msgstr "nije smješten u tvome home direktoriju. Nije dodan."
+
+#~ msgid "Included hidden directories"
+#~ msgstr "Obuhvaćeni skriveni direktoriji"
+
+#~ msgid "Included"
+#~ msgstr "Obuhvaćeni"
+
+#~ msgid "Excluded Files and Directories"
+#~ msgstr "Izuzete datoteke i direktoriji"
+
+#~ msgid "Overwrite existing files"
+#~ msgstr "Piši preko postojećih datoteka"
+
+#~ msgid "View content"
+#~ msgstr "Pregledaj sadržaj"
+
+#~ msgid "Restoration successful"
+#~ msgstr "Obnova uspješna"
+
+#~ msgid "Your backup was successfully restored"
+#~ msgstr "Tvoja sigurnosna kopija je uspješno obnovljena"
+
+#~ msgid "Restoration failed"
+#~ msgstr "Obnova neuspješna"
+
+#~ msgid "An error occurred while restoring the backup archive:"
+#~ msgstr "Greška se pojavila tijekom obnavljanja sigurnosne kopije"
+
+#~ msgid "Cleaning up..."
+#~ msgstr "Pospremam..."
+
+#~ msgid "Read error"
+#~ msgstr "Greska upisa"
+
+#~ msgid "Restore"
+#~ msgstr "Obnovi"
+
+#~ msgid "Invalid path"
+#~ msgstr "Neispravna putanja"
+
+#~ msgid "Excluded paths"
+#~ msgstr "Odaberi putanje"

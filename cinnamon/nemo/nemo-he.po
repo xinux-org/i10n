@@ -1,0 +1,6735 @@
+# Hebrew translation for linuxmint
+# Copyright (c) 2013 Rosetta Contributors and Canonical Ltd 2013
+# This file is distributed under the same license as the linuxmint package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2013.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: linuxmintת Nemo\n"
+"Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
+"POT-Creation-Date: 2022-06-10 13:37+0200\n"
+"PO-Revision-Date: 2022-08-20 05:08+0000\n"
+"Last-Translator: Avi Markovitz <avi.markovitz@gmail.com>\n"
+"Language-Team: Hebrew <he@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Launchpad-Export-Date: 2022-10-10 13:05+0000\n"
+"X-Generator: Launchpad (build 762fb15a975e8b23af6a1f86e44e46bfd0451459)\n"
+"Language: he\n"
+
+#. (itstool) path: mime-type/_comment
+#: data/nemo.xml.in:5
+msgid "Saved search"
+msgstr "חיפוש שמור"
+
+#. (itstool) path: mime-type/_comment
+#: data/nemo.xml.in:10
+msgid "Nemo action definition"
+msgstr "הגדרות פעולת נמו"
+
+#. (itstool) path: mime-type/_comment
+#: data/nemo.xml.in:16
+msgid "Nemo search-helper definition"
+msgstr "הגדרת סייען חיפוש נמו"
+
+#: src/nemo-action-config-widget.c:237
+msgid "No actions found"
+msgstr "לא נמצאו פעולות"
+
+#: src/nemo-action-config-widget.c:447
+msgid "Actions"
+msgstr "פעולות"
+
+#: src/nemo-application.c:402
+#, c-format
+msgid "Nemo could not create the required folder \"%s\"."
+msgstr "נמו לא הצליח ליצור את התיקייה המבוקשת \"%s\"."
+
+#: src/nemo-application.c:404
+msgid ""
+"Before running Nemo, please create the following folder, or set permissions "
+"such that Nemo can create it."
+msgstr ""
+"לפני הפעלת נמו, נא ליצור את התיקייה הבאה, או לשנות את ההרשאות כך שנמו יוכל "
+"ליצור אותה."
+
+#: src/nemo-autorun-software.c:143 src/nemo-autorun-software.c:146
+#, c-format
+msgid "Error starting autorun program: %s"
+msgstr "שגיאה בהפעלת תכנית ההרצה האוטומטית: %s"
+
+#: src/nemo-autorun-software.c:149
+msgid "Cannot find the autorun program"
+msgstr "לא ניתן למצוא את תכנית ההרצה האוטומטית"
+
+#: src/nemo-autorun-software.c:171
+msgid "<big><b>Error autorunning software</b></big>"
+msgstr "<big><b>שגיאה בהרצת התכנית</b></big>"
+
+#: src/nemo-autorun-software.c:197
+msgid ""
+"<big><b>This medium contains software intended to be automatically started. "
+"Would you like to run it?</b></big>"
+msgstr ""
+"<big><b>מדיה זו מכילה תוכנה שאמורה לאתחל באופן אוטומט. האם להפעילה?</b></big>"
+
+#: src/nemo-autorun-software.c:199
+#, c-format
+msgid ""
+"The software will run directly from the medium \"%s\". You should never run "
+"software that you don't trust.\n"
+"\n"
+"If in doubt, press Cancel."
+msgstr ""
+"התוכנה תופעל הישר ממדיה \"%s\". אין להפעיל תוכנה בילתי מהימנה לחלוטין, "
+"לעולם.\n"
+"\n"
+"אם קיים ספק, יש ללחוץ על ביטול."
+
+#: src/nemo-autorun-software.c:234 src/nemo-mime-actions.c:732
+msgid "_Run"
+msgstr "_הרצה"
+
+#: src/nemo-blank-desktop-window.c:154
+msgid "Customize"
+msgstr "התאמה אישית"
+
+#. hardcode "Desktop"
+#: src/nemo-blank-desktop-window.c:230 src/nemo-desktop-window.c:125
+#: src/nemo-desktop-window.c:294 src/nemo-pathbar.c:1437
+#: src/nemo-places-sidebar.c:827 libnemo-private/nemo-action.c:1422
+#: gresources/nemo-file-management-properties.glade:4036
+msgid "Desktop"
+msgstr "שולחן העבודה"
+
+#: src/nemo-bookmarks-window.c:171
+msgid "No bookmarks defined"
+msgstr "לא הוגדרו סימניות"
+
+#: src/nemo-config-base-widget.c:70
+msgid "Disable all"
+msgstr "להשבית הכול"
+
+#: src/nemo-config-base-widget.c:73
+msgid "Enable all"
+msgstr "להפעיל הכול"
+
+#: src/nemo-connect-server-dialog.c:125
+msgid "SSH"
+msgstr "SSH"
+
+#: src/nemo-connect-server-dialog.c:128
+msgid "Public FTP"
+msgstr "‏FTP ציבורי"
+
+#: src/nemo-connect-server-dialog.c:130
+msgid "FTP (with login)"
+msgstr "FTP (עם התחברות)"
+
+#: src/nemo-connect-server-dialog.c:133
+msgid "Windows share"
+msgstr "שיתוף וינדוס"
+
+#: src/nemo-connect-server-dialog.c:135
+msgid "WebDAV (HTTP)"
+msgstr "WebDAV (HTTP)"
+
+#: src/nemo-connect-server-dialog.c:137
+msgid "Secure WebDAV (HTTPS)"
+msgstr "WebDAV מאובטח (HTTPS)"
+
+#: src/nemo-connect-server-dialog.c:184
+msgid "Connecting..."
+msgstr "בהליכי התחברות…"
+
+#: src/nemo-connect-server-dialog.c:208
+msgid ""
+"Can't load the supported server method list.\n"
+"Please check your gvfs installation."
+msgstr ""
+"לא ניתן לטעון את רשימת שיטות השרת הנתמכות.\n"
+"נא לבדוק את התקנת gvfs ."
+
+#: src/nemo-connect-server-dialog.c:286
+#, c-format
+msgid "The folder \"%s\" cannot be opened on \"%s\"."
+msgstr "לא ניתן לפתוח את התיקייה \"%s\" שב-\"%s\"."
+
+#: src/nemo-connect-server-dialog.c:296
+#, c-format
+msgid "The server at \"%s\" cannot be found."
+msgstr "לא ניתן לאתר את השרת בכתובת \"%s\"."
+
+#: src/nemo-connect-server-dialog.c:331
+msgid "Try Again"
+msgstr "ניסיון חוזר"
+
+#: src/nemo-connect-server-dialog.c:396
+msgid "Please verify your user details."
+msgstr "נא לוודא את תקינות פרטי המשתמש."
+
+#: src/nemo-connect-server-dialog.c:426
+msgid "Continue"
+msgstr "להמשיך"
+
+#: src/nemo-connect-server-dialog.c:700 src/nemo-connect-server-dialog.c:1094
+msgid "C_onnect"
+msgstr "ה_תחברות"
+
+#. set dialog properties
+#: src/nemo-connect-server-dialog.c:829
+msgid "Connect to Server"
+msgstr "התחברות לשרת"
+
+#: src/nemo-connect-server-dialog.c:847
+msgid "Server Details"
+msgstr "פרטי שרת"
+
+#. first row: server entry + port spinbutton
+#: src/nemo-connect-server-dialog.c:872
+msgid "_Server:"
+msgstr "_שרת:"
+
+#. port
+#: src/nemo-connect-server-dialog.c:892
+msgid "_Port:"
+msgstr "_פתחה:"
+
+#. second row: type combobox
+#: src/nemo-connect-server-dialog.c:910
+msgid "_Type:"
+msgstr "_סוג:"
+
+#. third row: share entry
+#: src/nemo-connect-server-dialog.c:980
+msgid "Sh_are:"
+msgstr "שיתו_ף:"
+
+#. fourth row: folder entry
+#: src/nemo-connect-server-dialog.c:995
+msgid "_Folder:"
+msgstr "_תיקייה:"
+
+#: src/nemo-connect-server-dialog.c:1013
+msgid "User Details"
+msgstr "פרטי משתמש"
+
+#. first row: domain entry
+#: src/nemo-connect-server-dialog.c:1037
+msgid "_Domain name:"
+msgstr "שם _תחום:"
+
+#. second row: username entry
+#: src/nemo-connect-server-dialog.c:1052
+msgid "_User name:"
+msgstr "שם _משתמש:"
+
+#. third row: password entry
+#: src/nemo-connect-server-dialog.c:1067
+msgid "Pass_word:"
+msgstr "סיס_מה:"
+
+#. fourth row: remember checkbox
+#: src/nemo-connect-server-dialog.c:1083
+msgid "_Remember this password"
+msgstr "ל_זכור סיסמה זו"
+
+#: src/nemo-connect-server-dialog.c:1180
+msgid "Operation cancelled"
+msgstr "הפעולה בוטלה"
+
+#: src/nemo-connect-server-dialog-main.c:120
+msgid "Print but do not open the URI"
+msgstr "הדפסה ללא פתיחת הכתובת"
+
+#. Translators: This is the --help description for the connect to server app,
+#. the initial newlines are between the command line arg and the description
+#: src/nemo-connect-server-dialog-main.c:131
+msgid ""
+"\n"
+"\n"
+"Add connect to server mount"
+msgstr ""
+"\n"
+"\n"
+"הוספת התחברות לעגינת שרת"
+
+#: src/nemo-desktop-application.c:258 src/nemo-main-application.c:669
+msgid "Show the version of the program."
+msgstr "הצגת גרסת התוכנית."
+
+#: src/nemo-desktop-application.c:262
+msgid "Quit Nemo Desktop."
+msgstr "יציאה משולחן־עבודה נמו."
+
+#: src/nemo-desktop-application.c:273
+msgid ""
+"\n"
+"\n"
+"Manage the desktop with the file manager"
+msgstr ""
+"\n"
+"\n"
+"ניהול שולחן העבודה באמצעות מנהל הקבצים"
+
+#. name, stock id
+#. label, accelerator
+#: src/nemo-desktop-icon-grid-view.c:917 src/nemo-desktop-icon-view.c:682
+#: src/nemo-view.c:8274 src/nemo-view.c:9907
+msgid "E_mpty Trash"
+msgstr "_ריקון סל־מחזור"
+
+#. name, stock id
+#. label, accelerator
+#: src/nemo-desktop-icon-grid-view.c:1027
+#: gresources/nemo-desktop-overlay.glade:293
+msgid "Auto-arrange"
+msgstr "ארגון אוטומטי"
+
+#. name, stock id
+#. label, accelerator
+#: src/nemo-desktop-icon-grid-view.c:1032
+#: gresources/nemo-desktop-overlay.glade:539
+#: gresources/nemo-file-management-properties.glade:546
+msgid "Reverse sort"
+msgstr "מיון הפוך"
+
+#: src/nemo-desktop-icon-grid-view.c:1040
+msgid "Smaller"
+msgstr "קטן יותר"
+
+#: src/nemo-desktop-icon-grid-view.c:1044
+msgid "Small"
+msgstr "קטן"
+
+#: src/nemo-desktop-icon-grid-view.c:1048
+msgid "Normal"
+msgstr "תקני"
+
+#: src/nemo-desktop-icon-grid-view.c:1052
+msgid "Large"
+msgstr "גדול"
+
+#: src/nemo-desktop-icon-grid-view.c:1056
+msgid "Larger"
+msgstr "גדול יותר"
+
+#: src/nemo-desktop-icon-grid-view.c:1063
+msgid "_Vertical"
+msgstr "א_נכי"
+
+#: src/nemo-desktop-icon-grid-view.c:1067
+msgid "_Horizontal"
+msgstr "_אופקי"
+
+#: src/nemo-desktop-icon-grid-view.c:1074 src/nemo-list-view.c:2498
+#: libnemo-private/nemo-column-utilities.c:43
+#: gresources/nemo-desktop-overlay.glade:116
+msgid "Name"
+msgstr "שם"
+
+#: src/nemo-desktop-icon-grid-view.c:1078
+#: libnemo-private/nemo-column-utilities.c:50
+#: gresources/nemo-desktop-overlay.glade:121
+msgid "Size"
+msgstr "גודל"
+
+#: src/nemo-desktop-icon-grid-view.c:1082
+#: libnemo-private/nemo-column-utilities.c:58
+#: gresources/nemo-desktop-overlay.glade:126
+msgid "Type"
+msgstr "סוג"
+
+#: src/nemo-desktop-icon-grid-view.c:1086
+#: gresources/nemo-desktop-overlay.glade:131
+msgid "Date"
+msgstr "תאריך"
+
+#. name, stock id, label
+#: src/nemo-desktop-icon-grid-view.c:1092
+msgid "_Sort"
+msgstr "_מיון"
+
+#. name, stock id, label
+#: src/nemo-desktop-icon-grid-view.c:1093
+msgid "_Icon Size"
+msgstr "_גודל סמל"
+
+#. label, accelerator
+#. name, stock id
+#. label, accelerator
+#: src/nemo-desktop-icon-grid-view.c:1097 src/nemo-desktop-icon-view.c:723
+msgid "Empty Trash"
+msgstr "ריקון סל־מחזור"
+
+#. tooltip
+#: src/nemo-desktop-icon-grid-view.c:1099 src/nemo-desktop-icon-view.c:724
+#: src/nemo-trash-bar.c:227 src/nemo-view.c:8275
+msgid "Delete all items in the Trash"
+msgstr "מחיקת כל הפריטים מסל־המחזור"
+
+#: src/nemo-desktop-icon-grid-view.c:1103
+#: gresources/nemo-file-management-properties.glade:4059
+msgid "_Customize"
+msgstr "_התאמה אישית"
+
+#: src/nemo-desktop-icon-grid-view.c:1104
+msgid "Adjust the desktop layout for this monitor"
+msgstr "_התאמת פריסת שולחן העבודה לצג זה"
+
+#: src/nemo-desktop-icon-grid-view.c:1195 src/nemo-desktop-icon-view.c:787
+msgid "The desktop view encountered an error."
+msgstr "אירעה שגיאה במצג שולחן העבודה."
+
+#: src/nemo-desktop-icon-grid-view.c:1196 src/nemo-desktop-icon-view.c:788
+msgid "The desktop view encountered an error while starting up."
+msgstr "בעת האיתחול, אירעה שגיאה במצג שולחן־העבודה."
+
+#. name, stock id
+#. label, accelerator
+#: src/nemo-desktop-icon-view.c:704 src/nemo-desktop-icon-view.c:719
+msgid "Restore Icons' Original Si_zes"
+msgstr "שחזור הגדלים ה_מקוריים של הסמלים"
+
+#: src/nemo-desktop-icon-view.c:705
+msgid "Restore Icon's Original Si_ze"
+msgstr "שחזור ל_גודל המקורי של הסמל"
+
+#. name, stock id
+#. label, accelerator
+#: src/nemo-desktop-icon-view.c:715
+msgid "Resize Icon..."
+msgstr "שינוי גודל סמל..."
+
+#. tooltip
+#: src/nemo-desktop-icon-view.c:716
+msgid "Make the selected icon resizable"
+msgstr "אפשור גודל משתנה לסמל שנבחר"
+
+#. tooltip
+#: src/nemo-desktop-icon-view.c:720
+msgid "Restore each selected icon to its original size"
+msgstr "שחזור כול סמל שנבחר לגודלו המקורי"
+
+#: src/nemo-desktop-item-properties.c:408
+#: src/nemo-desktop-item-properties.c:418 src/nemo-image-properties-page.c:368
+msgid "Comment"
+msgstr "הערה"
+
+#: src/nemo-desktop-item-properties.c:411
+msgid "URL"
+msgstr "מַעַן URL"
+
+#: src/nemo-desktop-item-properties.c:414
+#: src/nemo-desktop-item-properties.c:424 src/nemo-image-properties-page.c:361
+#: src/nemo-image-properties-page.c:414
+msgid "Description"
+msgstr "תיאור"
+
+#: src/nemo-desktop-item-properties.c:421
+msgid "Command"
+msgstr "פקודה"
+
+#: src/nemo-desktop-overlay.c:78
+#, c-format
+msgid "Current Monitor Layout (%s - %dx%d)"
+msgstr "פריסת צג נוכחית (%s - %dx%d)"
+
+#: src/nemo-desktop-overlay.c:90
+#, c-format
+msgid "Current Monitor Layout (%dx%d)"
+msgstr "פריסת צג נוכחית (%dx%d)"
+
+#: src/nemo-desktop-overlay.c:365 src/nemo-desktop-overlay.c:503
+#: src/nemo-desktop-overlay.c:506
+msgid "Desktop Settings"
+msgstr "הגדרות שולחן העבודה"
+
+#: src/nemo-desktop-overlay.c:469
+msgid "Current Monitor Preferences"
+msgstr "העדפות צג נוכחיות"
+
+#: src/nemo-desktop-overlay.c:493
+msgid "Show global desktop settings"
+msgstr "הצגת הגדרות כלליות של שולחן העבודה"
+
+#: src/nemo-error-reporting.c:68
+#, c-format
+msgid ""
+"You do not have the permissions necessary to view the contents of \"%s\"."
+msgstr "חסרות ההרשאות הדרושות לצפיה בתוכן של \"%s\"."
+
+#: src/nemo-error-reporting.c:72
+#, c-format
+msgid "\"%s\" could not be found. Perhaps it has recently been deleted."
+msgstr "לא ניתן למצוא את \"%s\". יתכן שהוא נמחק לאחרונה."
+
+#: src/nemo-error-reporting.c:76
+#, c-format
+msgid "Sorry, could not display all the contents of \"%s\": %s"
+msgstr "סליחה, אך לא ניתן להציג את כל תְּכוּלָת \"%s\" :‏ %s"
+
+#: src/nemo-error-reporting.c:83
+msgid "The folder contents could not be displayed."
+msgstr "לא ניתן להציג את תְּכוּלָת התיקייה."
+
+#: src/nemo-error-reporting.c:107
+#, c-format
+msgid ""
+"You do not have the permissions necessary to change the group of \"%s\"."
+msgstr "חסרות ההרשאות הדרושות לשינוי הקבוצה של \"%s\"."
+
+#. fall through
+#: src/nemo-error-reporting.c:120
+#, c-format
+msgid "Sorry, could not change the group of \"%s\": %s"
+msgstr "סליחה, אך לא ניתן לשנות את הקבוצה של \"%s\":‏ %s"
+
+#: src/nemo-error-reporting.c:125
+msgid "The group could not be changed."
+msgstr "לא ניתן לשנות את הקבוצה."
+
+#: src/nemo-error-reporting.c:145
+#, c-format
+msgid "Sorry, could not change the owner of \"%s\": %s"
+msgstr "סליחה, אך לא ניתן לשנות את הבעלים של \"%s\":‏ %s"
+
+#: src/nemo-error-reporting.c:147
+msgid "The owner could not be changed."
+msgstr "לא ניתן לשנות את הבעלים."
+
+#: src/nemo-error-reporting.c:167
+#, c-format
+msgid "Sorry, could not change the permissions of \"%s\": %s"
+msgstr "סליחה, אך לא ניתן לשנות את ההרשאות של \"%s\":‏ %s"
+
+#: src/nemo-error-reporting.c:169
+msgid "The permissions could not be changed."
+msgstr "לא ניתן לשנות את ההרשאות."
+
+#: src/nemo-error-reporting.c:204
+#, c-format
+msgid ""
+"The name \"%s\" is already used in this folder. Please use a different name."
+msgstr "השם \"%s\" כבר בשימוש בתיקייה הזו. נא לבחור שם אחר."
+
+#: src/nemo-error-reporting.c:209
+#, c-format
+msgid ""
+"There is no \"%s\" in this folder. Perhaps it was just moved or deleted?"
+msgstr "אין \"%s\" בתיקייה הזו. אולי הועבר או נמחק?"
+
+#: src/nemo-error-reporting.c:214
+#, c-format
+msgid "You do not have the permissions necessary to rename \"%s\"."
+msgstr "חסרות ההרשאות הדרושות לשינוי השם של \"%s\"."
+
+#: src/nemo-error-reporting.c:219
+#, c-format
+msgid ""
+"The name \"%s\" is not valid because it contains the character \"/\". Please "
+"use a different name."
+msgstr "השם \"%s\" לא תקין כיוון שהוא מכיל את התו \"/\". נא להשתמש בשם אחר."
+
+#: src/nemo-error-reporting.c:223
+#, c-format
+msgid "The name \"%s\" is not valid. Please use a different name."
+msgstr "השם \"%s\" לא תקין. נא להשתמש בשם אחר."
+
+#: src/nemo-error-reporting.c:229
+#, c-format
+msgid "The name \"%s\" is too long. Please use a different name."
+msgstr "השם \"%s\" ארוך מדי. נא להשתמש בשם אחר."
+
+#. fall through
+#: src/nemo-error-reporting.c:243
+#, c-format
+msgid "Sorry, could not rename \"%s\" to \"%s\": %s"
+msgstr "סליחה, אך לא ניתן לשנות את השם של \"%s\" ל-\"%s\": ‏%s"
+
+#: src/nemo-error-reporting.c:251
+msgid "The item could not be renamed."
+msgstr "לא ניתן לשנות את שם הפריט."
+
+#: src/nemo-error-reporting.c:348
+#, c-format
+msgid "Renaming \"%s\" to \"%s\"."
+msgstr "שינוישם מ-\"%s\" ל-\"%s\"."
+
+#: src/nemo-extension-config-widget.c:212
+msgid "No extensions found"
+msgstr "לא נמצאו הרחבות"
+
+#: src/nemo-extension-config-widget.c:277
+msgid "no information available"
+msgstr "אין מידע זמין"
+
+#: src/nemo-extension-config-widget.c:287
+msgid "Configure"
+msgstr "תיצור"
+
+#: src/nemo-extension-config-widget.c:398
+msgid "Extensions"
+msgstr "הרחבות"
+
+#: src/nemo-extension-config-widget.c:406
+msgid "Extensions changed.  Restart required."
+msgstr "הרחבות השתנו.  נדרש איתחול."
+
+#. Translators: this is referred to captions under icons.
+#. Translators: this is referred to the permissions
+#. * the user has in a directory.
+#. 
+#: src/nemo-file-management-properties.c:293 src/nemo-properties-window.c:3942
+#: src/nemo-properties-window.c:3953
+msgid "None"
+msgstr "ללא"
+
+#: src/nemo-file-management-properties.c:486 libnemo-private/nemo-file.c:5160
+#, no-c-format
+msgid "Yesterday"
+msgstr "אתמול"
+
+#: src/nemo-icon-view.c:137
+msgid "by _Name"
+msgstr "לפי _שם"
+
+#: src/nemo-icon-view.c:138 src/nemo-icon-view.c:1429
+msgid "Keep icons sorted by name in rows"
+msgstr "מיון סמלים בשורות לפי שם"
+
+#: src/nemo-icon-view.c:144
+msgid "by _Size"
+msgstr "לפי _גודל"
+
+#: src/nemo-icon-view.c:145 src/nemo-icon-view.c:1433
+msgid "Keep icons sorted by size in rows"
+msgstr "מיון סמלים בשורות לפי גודל"
+
+#: src/nemo-icon-view.c:151
+msgid "by _Type"
+msgstr "לפי _סוג"
+
+#: src/nemo-icon-view.c:152 src/nemo-icon-view.c:1437
+msgid "Keep icons sorted by type in rows"
+msgstr "מיון סמלים בשורות לפי סוג"
+
+#: src/nemo-icon-view.c:158
+msgid "by _Detailed Type"
+msgstr "לפי _סוג מפורט"
+
+#: src/nemo-icon-view.c:159 src/nemo-icon-view.c:1441
+msgid "Keep icons sorted by detailed type in rows"
+msgstr "מיון סמלים בשורות לפי סוג מפורט"
+
+#: src/nemo-icon-view.c:165
+msgid "by Modification _Date"
+msgstr "לפי _תאריך שינוי"
+
+#: src/nemo-icon-view.c:166 src/nemo-icon-view.c:1445
+msgid "Keep icons sorted by modification date in rows"
+msgstr "מיון סמלים בשורות לפי תאריך שיינוי"
+
+#: src/nemo-icon-view.c:172
+msgid "by T_rash Time"
+msgstr "לפי _זמן ההשלכה לסל־המחזור"
+
+#: src/nemo-icon-view.c:173 src/nemo-icon-view.c:1449
+msgid "Keep icons sorted by trash time in rows"
+msgstr "מיון סמלים בשורות לפי העברה לסל־המחזור"
+
+#: src/nemo-icon-view.c:607
+msgid "_Organize Desktop by Name"
+msgstr "ארגון שולחן העבודה לפי _שם"
+
+#. name, stock id, label
+#: src/nemo-icon-view.c:1401
+#: gresources/nemo-file-management-properties.glade:3979
+msgid "Arran_ge Items"
+msgstr "ארגון _פריטים"
+
+#. name, stock id
+#. label, accelerator
+#: src/nemo-icon-view.c:1403
+#: gresources/nemo-file-management-properties.glade:3998
+msgid "_Organize by Name"
+msgstr "ארגון לפי _שם"
+
+#. tooltip
+#: src/nemo-icon-view.c:1404
+msgid "Reposition icons to better fit in the window and avoid overlapping"
+msgstr "מיקום סמלים מחדש, להתאמה מיטבית לחלון ולמניעת חפיפה"
+
+#. name, stock id
+#. label, accelerator
+#: src/nemo-icon-view.c:1411
+msgid "Re_versed Order"
+msgstr "סדר ה_פוך"
+
+#. tooltip
+#: src/nemo-icon-view.c:1412
+msgid "Display icons in the opposite order"
+msgstr "הצגת סמלים בסדר הפוך"
+
+#. name, stock id
+#. label, accelerator
+#: src/nemo-icon-view.c:1416
+msgid "_Keep Aligned"
+msgstr "הש_ארת מיושר"
+
+#. tooltip
+#: src/nemo-icon-view.c:1417
+msgid "Keep icons lined up on a grid"
+msgstr "שמירה על הסמלים מיושרים לרשת"
+
+#: src/nemo-icon-view.c:1424
+msgid "_Manually"
+msgstr "_ידנית"
+
+#: src/nemo-icon-view.c:1425
+msgid "Leave icons wherever they are dropped"
+msgstr "השארת הסמלים איפה שהם הושלכו"
+
+#: src/nemo-icon-view.c:1428
+msgid "By _Name"
+msgstr "לפי _שם"
+
+#: src/nemo-icon-view.c:1432
+msgid "By _Size"
+msgstr "לפי גודל"
+
+#: src/nemo-icon-view.c:1436
+msgid "By _Type"
+msgstr "לפי סוג"
+
+#: src/nemo-icon-view.c:1440
+msgid "By _Detailed Type"
+msgstr "לפי _סוג מפורט"
+
+#: src/nemo-icon-view.c:1444
+msgid "By Modification _Date"
+msgstr "לפי _תאריך השינוי"
+
+#: src/nemo-icon-view.c:1448
+msgid "By T_rash Time"
+msgstr "לפי זמן ההשלכה לסל־המחזור"
+
+#. translators: this is used in the view selection dropdown
+#. * of navigation windows and in the preferences dialog
+#: src/nemo-icon-view.c:2851 src/nemo-icon-view-container.c:2173
+#: src/nemo-icon-view-grid-container.c:1611 src/nemo-window-menus.c:1553
+#: src/nemo-window-menus.c:1703
+#: gresources/nemo-file-management-properties.glade:110
+#: gresources/nemo-file-management-properties.glade:3956
+msgid "Icon View"
+msgstr "מצג סמלים"
+
+#. translators: this is used in the view menu
+#: src/nemo-icon-view.c:2853
+msgid "_Icons"
+msgstr "_סמלים"
+
+#: src/nemo-icon-view.c:2854
+msgid "The icon view encountered an error."
+msgstr "אירעה שגיאה במצג הסמלים."
+
+#: src/nemo-icon-view.c:2855
+msgid "The icon view encountered an error while starting up."
+msgstr "בעת האיתחול, אירעה שגיאה במצג הסמלים."
+
+#: src/nemo-icon-view.c:2856
+msgid "Display this location with the icon view."
+msgstr "הצגת מיקום זה בתצוגת הסמלים."
+
+#. translators: this is used in the view selection dropdown
+#. * of navigation windows and in the preferences dialog
+#: src/nemo-icon-view.c:2865 src/nemo-window-menus.c:1559
+#: src/nemo-window-menus.c:1726
+#: gresources/nemo-file-management-properties.glade:116
+msgid "Compact View"
+msgstr "מצג צמום"
+
+#. translators: this is used in the view menu
+#: src/nemo-icon-view.c:2867
+msgid "_Compact"
+msgstr "_צמום"
+
+#: src/nemo-icon-view.c:2868
+msgid "The compact view encountered an error."
+msgstr "אירעה שגיאה במצג צמום."
+
+#: src/nemo-icon-view.c:2869
+msgid "The compact view encountered an error while starting up."
+msgstr "בעת האיתחול,  אירעה שגיאה במצג הצמום."
+
+#: src/nemo-icon-view.c:2870
+msgid "Display this location with the compact view."
+msgstr "הצגת מיקום זה בבמצג צמום."
+
+#: src/nemo-image-properties-page.c:331
+msgid "Image Type"
+msgstr "סוג התמונה"
+
+#: src/nemo-image-properties-page.c:333 src/nemo-image-properties-page.c:339
+#, c-format
+msgid "%d pixel"
+msgid_plural "%d pixels"
+msgstr[0] "פיקסל %d"
+msgstr[1] "%d פיקסלים"
+
+#: src/nemo-image-properties-page.c:337
+msgid "Width"
+msgstr "רוחב"
+
+#: src/nemo-image-properties-page.c:343
+msgid "Height"
+msgstr "גובה"
+
+#: src/nemo-image-properties-page.c:356 src/nemo-image-properties-page.c:357
+msgid "Title"
+msgstr "כותרת"
+
+#: src/nemo-image-properties-page.c:358 src/nemo-image-properties-page.c:359
+msgid "Author"
+msgstr "מחבר"
+
+#: src/nemo-image-properties-page.c:362 src/nemo-image-properties-page.c:417
+msgid "Copyright"
+msgstr "זכויות יוצרים"
+
+#: src/nemo-image-properties-page.c:363
+msgid "Created On"
+msgstr "תאריך יצירה"
+
+#: src/nemo-image-properties-page.c:364
+msgid "Created By"
+msgstr "נוצר על-ידי"
+
+#: src/nemo-image-properties-page.c:365
+msgid "Disclaimer"
+msgstr "הַצְהָרַת אִי-אַחְרָיוּת"
+
+#: src/nemo-image-properties-page.c:366
+msgid "Warning"
+msgstr "אזהרה"
+
+#: src/nemo-image-properties-page.c:367
+msgid "Source"
+msgstr "מקור"
+
+#: src/nemo-image-properties-page.c:382
+msgid "Camera Brand"
+msgstr "מותג המצלמה"
+
+#: src/nemo-image-properties-page.c:383
+msgid "Camera Model"
+msgstr "דגם המצלמה"
+
+#. Choose which date to show in order of relevance
+#: src/nemo-image-properties-page.c:386
+msgid "Date Taken"
+msgstr "תאריך צילום"
+
+#: src/nemo-image-properties-page.c:387
+msgid "Date Digitized"
+msgstr "תאריך עיבוד דיגיטלי"
+
+#: src/nemo-image-properties-page.c:388
+#: libnemo-private/nemo-column-utilities.c:72
+msgid "Date Modified"
+msgstr "תאריך שינוי"
+
+#: src/nemo-image-properties-page.c:392
+msgid "Exposure Time"
+msgstr "זמן חשיפה"
+
+#: src/nemo-image-properties-page.c:393
+msgid "Aperture Value"
+msgstr "ערך מִפְתָּח"
+
+#: src/nemo-image-properties-page.c:394
+msgid "ISO Speed Rating"
+msgstr "דירוג מהירות ISO"
+
+#: src/nemo-image-properties-page.c:395
+msgid "Flash Fired"
+msgstr "הבזק נורה"
+
+#: src/nemo-image-properties-page.c:396
+msgid "Metering Mode"
+msgstr "שיטת מדידה"
+
+#: src/nemo-image-properties-page.c:397
+msgid "Exposure Program"
+msgstr "תכנית חשיפה"
+
+#: src/nemo-image-properties-page.c:398
+msgid "Focal Length"
+msgstr "אורך מוקד"
+
+#: src/nemo-image-properties-page.c:399
+msgid "Software"
+msgstr "תוכנה"
+
+#: src/nemo-image-properties-page.c:413 src/nemo-window-menus.c:1668
+#: libnemo-private/nemo-column-utilities.c:159
+msgid "Location"
+msgstr "מיקום"
+
+#: src/nemo-image-properties-page.c:415
+msgid "Keywords"
+msgstr "מילות מפתח"
+
+#: src/nemo-image-properties-page.c:416
+msgid "Creator"
+msgstr "יוצרים"
+
+#: src/nemo-image-properties-page.c:418
+msgid "Rating"
+msgstr "דירוג"
+
+#: src/nemo-image-properties-page.c:441
+msgid "Failed to load image information"
+msgstr "טעינת פרטי התמונה נכשלה"
+
+#: src/nemo-image-properties-page.c:706 src/nemo-list-model.c:461
+#: src/nemo-tree-sidebar-model.c:1270 src/nemo-window-manage-views.c:1228
+#: src/nemo-window-slot.c:346
+msgid "Loading..."
+msgstr "טוען..."
+
+#: src/nemo-image-properties-page.c:767 libnemo-private/nemo-file.c:6966
+msgid "Image"
+msgstr "תמונה"
+
+#: src/nemo-interesting-folder-bar.c:126
+msgid ""
+"Actions: Action files can be added to this folder and will appear in the "
+"menu."
+msgstr "פעולות: ניתן להוסיף קובצי פעולה לתקייה זו והם יופיעו בתפריט."
+
+#: src/nemo-interesting-folder-bar.c:128 src/nemo-interesting-folder-bar.c:136
+msgid "More info"
+msgstr "מידע נוסף"
+
+#: src/nemo-interesting-folder-bar.c:130
+msgid "View a sample action file with documentation"
+msgstr "הצגת קובץ פעולה לדוגמה בלווית תיעוד"
+
+#: src/nemo-interesting-folder-bar.c:133
+msgid ""
+"Scripts: All executable files in this folder will appear in the Scripts menu."
+msgstr ""
+"תסריטים: כול הקבצים הניתנים להפעלה בתיקייה זו יופיעו בתפריט התסריטים."
+
+#: src/nemo-interesting-folder-bar.c:138
+msgid "View additional information about creating scripts"
+msgstr "צפיה במידע נוסף אודות יצירת תסריטים"
+
+#: src/nemo-list-model.c:459 src/nemo-tree-sidebar-model.c:1270
+msgid "(Empty)"
+msgstr "(ריק)"
+
+#: src/nemo-list-view.c:2020
+msgid "Use Default"
+msgstr "שימוש בבררת המחדל"
+
+#: src/nemo-list-view.c:2031
+msgid "Temporarily disable auto-sort"
+msgstr "השבתת מיון אוטמטי באופן זמני"
+
+#. translators: this is used in the view selection dropdown
+#. * of navigation windows and in the preferences dialog
+#: src/nemo-list-view.c:2586 src/nemo-list-view.c:4268
+#: src/nemo-window-menus.c:1556 src/nemo-window-menus.c:1714
+#: gresources/nemo-file-management-properties.glade:113
+msgid "List View"
+msgstr "תצוגת רשימה"
+
+#. translators: this is used in the view menu
+#: src/nemo-list-view.c:4270
+msgid "_List"
+msgstr "_רשימה"
+
+#: src/nemo-list-view.c:4271
+msgid "The list view encountered an error."
+msgstr "אירעה שגיאה במצג הרשימה."
+
+#: src/nemo-list-view.c:4272
+msgid "The list view encountered an error while starting up."
+msgstr "בעת האיתחול, אירעה שגיאה במצג הרשימה."
+
+#: src/nemo-list-view.c:4273
+msgid "Display this location with the list view."
+msgstr "הצגת מיקום זה בתצוגת רשימה."
+
+#: src/nemo-location-bar.c:164
+#, c-format
+msgid "Do you want to view %d location?"
+msgid_plural "Do you want to view %d locations?"
+msgstr[0] "האם להציג מיקום %d?"
+msgstr[1] "האם להציג %d מיקומים?"
+
+#: src/nemo-location-bar.c:168 src/nemo-mime-actions.c:1064
+#, c-format
+msgid "This will open %d separate window."
+msgid_plural "This will open %d separate windows."
+msgstr[0] "פעולה זו תפתח חלון נפרד  %d."
+msgstr[1] "פעולה זו תפתח %d חלונות נפרדים."
+
+#: src/nemo-main-application.c:599
+msgid "--check cannot be used with other options."
+msgstr "לא ניתן להשתמש ב־check-- יחד עם אפשרויות אחרות."
+
+#: src/nemo-main-application.c:605
+msgid "--quit cannot be used with URIs."
+msgstr "לא ניתן להשתמש ב־quit-- עם URI."
+
+#: src/nemo-main-application.c:613
+msgid "--geometry cannot be used with more than one URI."
+msgstr "לא ניתן להשתמש ב־geometry-- עם יותר מ־URI אחד."
+
+#: src/nemo-main-application.c:663
+msgid "Perform a quick set of self-check tests."
+msgstr "בצוע סדרת בדיקות עצמיות מהירה."
+
+#: src/nemo-main-application.c:671
+msgid ""
+"Create the initial window with the given geometry. Examples: nemo --"
+"geometry=+100+100, nemo --geometry=600x400, nemo --geometry=600x400+100+100."
+msgstr ""
+"יצירת החלון הראשוני במימדים הנתונים. לדוגמה: nemo --geometry=+100+100, nemo -"
+"-geometry=600x400, nemonemo --geometry=+100+100, nemo --geometry=600x400, "
+"nemo --geometry=600x400+100+100."
+
+#: src/nemo-main-application.c:672
+msgid "GEOMETRY"
+msgstr "גאומטריה"
+
+#: src/nemo-main-application.c:674
+msgid "Only create windows for explicitly specified URIs."
+msgstr "יצירת חלונות רק ל־URI שצויינו מפורש."
+
+#: src/nemo-main-application.c:676
+msgid "Ignored argument - left for compatibility only."
+msgstr "התעלמות מהמשתנה - נותר לתאימות בלבד."
+
+#: src/nemo-main-application.c:678
+msgid "Open URIs in tabs."
+msgstr "פתיחת URI בלשוניות."
+
+#: src/nemo-main-application.c:680
+msgid "Open URIs in an existing window."
+msgstr "פתיחת URI בחלון קיים."
+
+#: src/nemo-main-application.c:682
+msgid ""
+"Repair the user thumbnail cache - this can be useful if you're having "
+"trouble with file thumbnails.  Must be run as root"
+msgstr ""
+"תיקון מטמון תמונות ממוזערות – עשוי להיות שימושי במידה והתגלו בעיות בתצוגת "
+"קבצים מקדימה. נדרש להרצה כ'שורש'"
+
+#: src/nemo-main-application.c:686
+msgid "Quit Nemo."
+msgstr "יציאה מנמו."
+
+#: src/nemo-main-application.c:687
+msgid "[URI...]"
+msgstr "[URI...]"
+
+#: src/nemo-main-application.c:698
+msgid ""
+"\n"
+"\n"
+"Browse the file system with the file manager"
+msgstr ""
+"\n"
+"\n"
+"סיור במערכת הקבצים באמצעות מנהל הקבצים"
+
+#: src/nemo-main-application.c:862
+msgid "Nemo's main menu is now hidden"
+msgstr "התפריט הראשי של נמו מוסתר כעת"
+
+#: src/nemo-main-application.c:865
+msgid ""
+"You have chosen to hide the main menu.  You can get it back temporarily by:\n"
+"\n"
+"- Tapping the <Alt> key\n"
+"- Right-clicking an empty region of the main toolbar\n"
+"- Right-clicking an empty region of the status bar.\n"
+"\n"
+"You can restore it permanently by selecting this option again from the View "
+"menu."
+msgstr ""
+"האפשרות להסתרת התפריט הראשי נבחרה. ניתן להציג את התפריט באופן זמני, על־ידי:\n"
+"\n"
+"לחיצה על מקש 'אלט'\n"
+"הקשה ימנית על אזור ריק בסרגל הכלים הראשי\n"
+"הקשה ימנית על אזור ריק בסרגל המצב.\n"
+"\n"
+"ניתן לשחזר את התפריט לצמיתות, על־ידי בחירת האפשרות הזו שוב, מתפריט תצוגה."
+
+#: src/nemo-main-application.c:876
+msgid "Don't show this message again."
+msgstr "לא להציג הודעה זו שוב."
+
+#: src/nemo-mime-actions.c:640
+#, c-format
+msgid "The Link \"%s\" is Broken."
+msgstr "הקישור \"%s\" שבור."
+
+#: src/nemo-mime-actions.c:642
+#, c-format
+msgid "The Link \"%s\" is Broken. Move it to Trash?"
+msgstr "הקישור \"%s\" שבור. האם להעבירו לסל־המחזור?"
+
+#: src/nemo-mime-actions.c:648
+msgid "This link cannot be used, because it has no target."
+msgstr "לא ניתן להשתמש בקישור זה, כיוון שאין לו מטרה."
+
+#: src/nemo-mime-actions.c:650
+#, c-format
+msgid "This link cannot be used, because its target \"%s\" doesn't exist."
+msgstr "לא ניתן להשתמש בקישור זה, כיוון שיעדו \"%s\" אינו קיים."
+
+#. name, stock id
+#. label, accelerator
+#: src/nemo-mime-actions.c:660 src/nemo-tree-sidebar.c:1453
+#: src/nemo-view.c:8326 src/nemo-view.c:8435 src/nemo-view.c:9492
+#: src/nemo-view.c:9829 gresources/nemo-file-management-properties.glade:3713
+msgid "Mo_ve to Trash"
+msgstr "העברה לסל־המחזור"
+
+#: src/nemo-mime-actions.c:720
+#, c-format
+msgid "Do you want to run \"%s\", or display its contents?"
+msgstr "האם להריץ את \"%s\", או להציג את תְּכוּלָתו?"
+
+#: src/nemo-mime-actions.c:722
+#, c-format
+msgid "\"%s\" is an executable text file."
+msgstr "\"%s\" הוא קובץ מלל הניתן להפעלה."
+
+#: src/nemo-mime-actions.c:728
+msgid "Run in _Terminal"
+msgstr "הפעלה ב_מסוף"
+
+#: src/nemo-mime-actions.c:729
+msgid "_Display"
+msgstr "_תצוגה"
+
+#: src/nemo-mime-actions.c:1059 src/nemo-mime-actions.c:1750
+#: src/nemo-view.c:1085
+msgid "Are you sure you want to open all files?"
+msgstr "האם לפתוח את כול הקבצים?"
+
+#: src/nemo-mime-actions.c:1061
+#, c-format
+msgid "This will open %d separate tab."
+msgid_plural "This will open %d separate tabs."
+msgstr[0] "פתיחת %d לשונית נפרדת."
+msgstr[1] "פתיחת %d לשוניות נפרדות."
+
+#: src/nemo-mime-actions.c:1163 src/nemo-open-with-main.c:151
+#: src/nemo-view.c:1371
+msgid "Open with"
+msgstr "פתיחה באמצעות"
+
+#: src/nemo-mime-actions.c:1240
+msgid "Unknown file type"
+msgstr "סוג קובץ לא ידוע"
+
+#: src/nemo-mime-actions.c:1248
+#, c-format
+msgid ""
+"The file \"%s\" has no known programs associated with it.  If you trust the "
+"source of this file, and have sufficient permissions, you can mark it "
+"executable and launch it.  Or, you can use the Open With dialog to pick a "
+"program to associate it with."
+msgstr ""
+"לקובץ \"%s\" לא משויכות תוכנות מוכרות. אם מקור הקובץ מהימן והרשאות מתאימות "
+"קיימות, ניתן לסמן אותו כקובץ הפעלה ולהשיק אותו, או להשתמש בדו־שיח 'פתיחה "
+"באמצעות' ולשייך אותו לתוכנה מהרשימה."
+
+#: src/nemo-mime-actions.c:1255
+msgid "Make executable and run"
+msgstr "הפיכה לקובץ הפעלה והרצה"
+
+#: src/nemo-mime-actions.c:1257
+#, c-format
+msgid ""
+"The file \"%s\" has no known programs associated with it.  Use the Open With "
+"dialog to pick a program to open it with."
+msgstr ""
+"לקובץ \"%s\" לא משויכת תוכנות מוכרות. לבחירת תוכנה, נא להשתמש בדו־שיח 'פתיחה "
+"באמצעות' ."
+
+#: src/nemo-mime-actions.c:1270
+msgid "Choose a program"
+msgstr "בחירת תוכנה"
+
+#: src/nemo-mime-actions.c:1351
+msgid "Untrusted application launcher"
+msgstr "משגר יישומונים בלתי מהימן"
+
+#: src/nemo-mime-actions.c:1354
+#, c-format
+msgid ""
+"The application launcher \"%s\" has not been marked as trusted (executable). "
+"If you do not know the source of this file, launching it may be unsafe."
+msgstr ""
+"משגר היישומון \"%s\" סומן כמהימן (ניתן להרצה). אם מקור הקובץ אינו וודאי, "
+"הפעלתו עשויה שלא להיות בטוחה."
+
+#: src/nemo-mime-actions.c:1370
+msgid "_Launch Anyway"
+msgstr "_להשיק בכל זאת"
+
+#: src/nemo-mime-actions.c:1373
+msgid "Mark as _Trusted"
+msgstr "_סמון כמהימן"
+
+#: src/nemo-mime-actions.c:1751
+#, c-format
+msgid "This will open %d separate application."
+msgid_plural "This will open %d separate applications."
+msgstr[0] "פעולה זו תפתח יישומון %d נפרד."
+msgstr[1] "פעולה זו תפתח %d יישומונים נפרדים."
+
+#: src/nemo-mime-actions.c:1829 src/nemo-mime-actions.c:2103
+#: src/nemo-view.c:7444
+msgid "Unable to mount location"
+msgstr "לא ניתן לעגון מיקום"
+
+#: src/nemo-mime-actions.c:2182 src/nemo-view.c:7591
+msgid "Unable to start location"
+msgstr "לא ניתן לאתחל את המיקום"
+
+#: src/nemo-mime-actions.c:2266
+#, c-format
+msgid "Opening \"%s\"."
+msgstr "פתיחת \"%s\"."
+
+#: src/nemo-mime-actions.c:2269
+#, c-format
+msgid "Opening %d item."
+msgid_plural "Opening %d items."
+msgstr[0] "פתיחת פריט %d."
+msgstr[1] "%d פריטים נפתחים."
+
+#: src/nemo-notebook.c:370
+msgid "Close tab"
+msgstr "סגירת לשונית"
+
+#. Translators: This is the --help description for the open-with app,
+#. the initial newlines are between the command line arg and the description
+#: src/nemo-open-with-main.c:104
+msgid ""
+"\n"
+"\n"
+"Show an open-with dialog given a uri, to allow the user to change the "
+"default mimetype handler."
+msgstr ""
+"\n"
+"\n"
+"הצגת דו־שיח 'פתחה באמצעות' עם נתוני uri, כדי לאפשר למשתמש לשנות את מטפל בררת "
+"המחדל – mimetype."
+
+#: src/nemo-places-sidebar.c:379
+msgid "Devices"
+msgstr "התקנים"
+
+#: src/nemo-places-sidebar.c:676 src/nemo-view.c:3153
+#, c-format
+msgid "Free space: %s"
+msgstr "מקום פנוי: %s"
+
+#: src/nemo-places-sidebar.c:795
+msgid "My Computer"
+msgstr "המחשב שלי"
+
+#: src/nemo-places-sidebar.c:806
+#, c-format
+msgid ""
+"Open your personal folder\n"
+"%s"
+msgstr ""
+"פתיחת התיקייה האישית שלי \n"
+"%s"
+
+#: src/nemo-places-sidebar.c:810 src/nemo-tree-sidebar.c:1592
+#: libnemo-private/nemo-bookmark.c:130 libnemo-private/nemo-desktop-link.c:118
+#: libnemo-private/nemo-file-utilities.c:67
+#: libnemo-private/nemo-file-utilities.c:115 generate_additional_file:41
+#: gresources/nemo-desktop-preferences.glade:211
+#: gresources/nemo-file-management-properties.glade:3003
+msgid "Home"
+msgstr "בית"
+
+#: src/nemo-places-sidebar.c:829
+msgid "Open the contents of your desktop in a folder"
+msgstr "פתיחת תְּכוּלָת שולחן העבודה בתיקייה"
+
+#: src/nemo-places-sidebar.c:882 src/nemo-tree-sidebar.c:1597
+msgid "Favorites"
+msgstr "מועדפים"
+
+#: src/nemo-places-sidebar.c:884
+msgid "Favorite files"
+msgstr "קצבים מועדפים"
+
+#: src/nemo-places-sidebar.c:899
+msgid "Recent"
+msgstr "בשימוש לאחרונה"
+
+#: src/nemo-places-sidebar.c:901
+msgid "Recent files"
+msgstr "קבצים אחרונים"
+
+#: src/nemo-places-sidebar.c:916
+#, c-format
+msgid ""
+"Open the contents of the File System\n"
+"%s"
+msgstr ""
+"פתיחת תְּכוּלָת מערכת הקבצים\n"
+"%s"
+
+#: src/nemo-places-sidebar.c:920 src/nemo-tree-sidebar.c:1601
+msgid "File System"
+msgstr "מערכת קבצים"
+
+#: src/nemo-places-sidebar.c:936 src/nemo-trash-bar.c:211
+#: libnemo-private/nemo-desktop-link.c:135 generate_additional_file:55
+#: gresources/nemo-desktop-preferences.glade:289
+msgid "Trash"
+msgstr "סל־מחזור"
+
+#: src/nemo-places-sidebar.c:938
+msgid "Open the trash"
+msgstr "פתיחת סל־המחזור"
+
+#: src/nemo-places-sidebar.c:944
+msgid "Bookmarks"
+msgstr "סימניות"
+
+#: src/nemo-places-sidebar.c:1071
+#, c-format
+msgid ""
+"%s (%s)\n"
+"%s"
+msgstr ""
+"%s (%s)\n"
+"%s"
+
+#: src/nemo-places-sidebar.c:1104
+#, c-format
+msgid "Mount and open %s (%s)"
+msgstr "עיגון ופתיחת %s (%s)"
+
+#: src/nemo-places-sidebar.c:1132 src/nemo-places-sidebar.c:1255
+#, c-format
+msgid "Mount and open %s"
+msgstr "עיגון ופתיחת %s"
+
+#: src/nemo-places-sidebar.c:1179
+#, c-format
+msgid ""
+"%s\n"
+"%s"
+msgstr ""
+"%s\n"
+"%s"
+
+#: src/nemo-places-sidebar.c:1242 src/nemo-places-sidebar.c:1297
+#: src/nemo-tree-sidebar.c:1605 libnemo-private/nemo-desktop-link.c:147
+#: gresources/nemo-desktop-preferences.glade:445
+msgid "Network"
+msgstr "רשת"
+
+#: src/nemo-places-sidebar.c:1299
+msgid "Browse the contents of the network"
+msgstr "דפדוף בתְּכוּלָת הרשת"
+
+#. Adjust start/stop items to reflect the type of the drive
+#. name, stock id
+#. label, accelerator
+#: src/nemo-places-sidebar.c:2395 src/nemo-places-sidebar.c:3673
+#: src/nemo-view.c:8372 src/nemo-view.c:8396 src/nemo-view.c:8459
+#: src/nemo-view.c:9113 src/nemo-view.c:9117 src/nemo-view.c:9200
+#: src/nemo-view.c:9204 src/nemo-view.c:9304 src/nemo-view.c:9308
+msgid "_Start"
+msgstr "א_יתחול"
+
+#. name, stock id
+#. label, accelerator
+#: src/nemo-places-sidebar.c:2396 src/nemo-places-sidebar.c:3680
+#: src/nemo-view.c:8376 src/nemo-view.c:8400 src/nemo-view.c:8463
+#: src/nemo-view.c:9142 src/nemo-view.c:9229 src/nemo-view.c:9333
+#: src/nemo-window-menus.c:1368
+msgid "_Stop"
+msgstr "_עצירה"
+
+#. start() for type G_DRIVE_START_STOP_TYPE_SHUTDOWN is normally not used
+#: src/nemo-places-sidebar.c:2401
+msgid "_Power On"
+msgstr "_הפעלה"
+
+#: src/nemo-places-sidebar.c:2402 src/nemo-view.c:9146 src/nemo-view.c:9233
+#: src/nemo-view.c:9337
+msgid "_Safely Remove Drive"
+msgstr "ה_סרת כונן בטוחה"
+
+#: src/nemo-places-sidebar.c:2405
+msgid "_Connect Drive"
+msgstr "הת_חברות לכונן"
+
+#: src/nemo-places-sidebar.c:2406
+msgid "_Disconnect Drive"
+msgstr "_ניתוק כונן"
+
+#: src/nemo-places-sidebar.c:2409
+msgid "_Start Multi-disk Device"
+msgstr "_איתחול התקן מרובה כוננים"
+
+#: src/nemo-places-sidebar.c:2410
+msgid "_Stop Multi-disk Device"
+msgstr "ע_צירת התקן מרובה כוננים"
+
+#. stop() for type G_DRIVE_START_STOP_TYPE_PASSWORD is normally not used
+#: src/nemo-places-sidebar.c:2414 src/nemo-view.c:9216 src/nemo-view.c:9320
+msgid "_Unlock Drive"
+msgstr "_שחרור נעילת כונן"
+
+#: src/nemo-places-sidebar.c:2415 src/nemo-view.c:9158 src/nemo-view.c:9245
+#: src/nemo-view.c:9349
+msgid "_Lock Drive"
+msgstr "_נעילת כונן"
+
+#: src/nemo-places-sidebar.c:2534 src/nemo-places-sidebar.c:3153
+#, c-format
+msgid "Unable to start %s"
+msgstr "לא ניתן לאתחל את %s"
+
+#: src/nemo-places-sidebar.c:2920 src/nemo-places-sidebar.c:2946
+#: src/nemo-places-sidebar.c:2972
+#, c-format
+msgid "Unable to eject %s"
+msgstr "לא ניתן לשלוף את %s"
+
+#: src/nemo-places-sidebar.c:3109
+#, c-format
+msgid "Unable to poll %s for media changes"
+msgstr "לא ניתן לתשאל את %s מהם השינויים במדיה"
+
+#: src/nemo-places-sidebar.c:3207
+#, c-format
+msgid "Unable to stop %s"
+msgstr "לא ניתן לעצור את %s"
+
+#. name, stock id
+#. label, accelerator
+#: src/nemo-places-sidebar.c:3585 src/nemo-tree-sidebar.c:1333
+#: src/nemo-view.c:8233 src/nemo-view.c:9761
+#: libnemo-private/nemo-mime-application-chooser.c:483
+#: gresources/nemo-file-management-properties.glade:3411
+msgid "_Open"
+msgstr "_פתיחה"
+
+#. add the "open in new tab" menu item
+#. name, stock id
+#. label, accelerator
+#: src/nemo-places-sidebar.c:3593 src/nemo-tree-sidebar.c:1344
+#: src/nemo-view.c:8245 src/nemo-view.c:8417 src/nemo-view.c:9439
+#: src/nemo-view.c:9807 gresources/nemo-file-management-properties.glade:3430
+msgid "Open in New _Tab"
+msgstr "פתיחה ב_לשונית חדשה"
+
+#. add the "open in new window" menu item
+#: src/nemo-places-sidebar.c:3603 src/nemo-tree-sidebar.c:1358
+#: src/nemo-view.c:9430 src/nemo-view.c:9787
+#: gresources/nemo-file-management-properties.glade:3449
+msgid "Open in New _Window"
+msgstr "פתיחה ב_חלון חדש"
+
+#. name, stock id, label
+#: src/nemo-places-sidebar.c:3614 src/nemo-window-menus.c:1478
+msgid "_Add Bookmark"
+msgstr "הוס_פת סימניה"
+
+#: src/nemo-places-sidebar.c:3620
+msgid "Remove"
+msgstr "הסרה"
+
+#. name, stock id
+#. label, accelerator
+#: src/nemo-places-sidebar.c:3629 src/nemo-view.c:8318
+#: gresources/nemo-file-management-properties.glade:3620
+msgid "_Rename..."
+msgstr "_שינוי שם..."
+
+#. name, stock id
+#. label, accelerator
+#: src/nemo-places-sidebar.c:3645 src/nemo-view.c:8360 src/nemo-view.c:8384
+#: src/nemo-view.c:8447
+msgid "_Mount"
+msgstr "_עיגון"
+
+#. add the "Unmount" menu item
+#. name, stock id
+#. label, accelerator
+#: src/nemo-places-sidebar.c:3652 src/nemo-tree-sidebar.c:1485
+#: src/nemo-view.c:8364 src/nemo-view.c:8388 src/nemo-view.c:8451
+msgid "_Unmount"
+msgstr "_ניתוק עגינה"
+
+#. add the "Eject" menu item
+#. name, stock id
+#. label, accelerator
+#: src/nemo-places-sidebar.c:3659 src/nemo-tree-sidebar.c:1494
+#: src/nemo-view.c:8368 src/nemo-view.c:8392 src/nemo-view.c:8455
+msgid "_Eject"
+msgstr "_שליפה"
+
+#. name, stock id
+#. label, accelerator
+#: src/nemo-places-sidebar.c:3666 src/nemo-view.c:8380 src/nemo-view.c:8404
+#: src/nemo-view.c:8467
+msgid "_Detect Media"
+msgstr "_זיהוי מדיה"
+
+#. Empty Trash menu item
+#: src/nemo-places-sidebar.c:3689 src/nemo-trash-bar.c:224
+#: libnemo-private/nemo-file-operations.c:1303
+#: libnemo-private/nemo-file-operations.c:1620
+#: libnemo-private/nemo-file-operations.c:2555
+msgid "Empty _Trash"
+msgstr "ריקון סל־המיחזור"
+
+#. name, stock id
+#. label, accelerator
+#: src/nemo-places-sidebar.c:3701 src/nemo-view.c:8215 src/nemo-view.c:8472
+#: gresources/nemo-file-management-properties.glade:3732
+#: gresources/nemo-file-management-properties.glade:3918
+msgid "_Properties"
+msgstr "_מאפיינים"
+
+#: src/nemo-progress-ui-handler.c:118
+#, c-format
+msgid "%1$s file operation active.  %2$d%% complete."
+msgid_plural "%1$s file operations active.  %2$d%% complete."
+msgstr[0] "%1$s פעולת קובץ פעילה.  %2$d%% הושלמו."
+msgstr[1] "%1$s פעולות קובץ פעילות.  %2$d%% הושלמו."
+
+#: src/nemo-progress-ui-handler.c:210 src/nemo-progress-ui-handler.c:267
+msgid "File Operations"
+msgstr "פעולות קבצים"
+
+#: src/nemo-progress-ui-handler.c:268
+msgid "All file operations have been successfully completed"
+msgstr "כל פעילויות הקבצים הושלמו בהצלחה"
+
+#: src/nemo-progress-ui-handler.c:320
+#, c-format
+msgid "%d%% %s"
+msgstr "%d%% %s"
+
+#: src/nemo-properties-window.c:500
+msgid "You cannot assign more than one custom icon at a time!"
+msgstr "לא ניתן לשייך יותר מסמל מותאם אישית אחד באותה העת!"
+
+#: src/nemo-properties-window.c:501
+msgid "Please drag just one image to set a custom icon."
+msgstr "נא לגרור תמונה אחת בלבד בהגדרת סמל מותאם אישית."
+
+#: src/nemo-properties-window.c:512
+msgid "The file that you dropped is not local."
+msgstr "הקובץ ששוחרר אינו מקומי."
+
+#: src/nemo-properties-window.c:513 src/nemo-properties-window.c:519
+msgid "You can only use local images as custom icons."
+msgstr "ניתן להשתמש רק בתמונות מקומיות כסמלים מותאמים אישית."
+
+#: src/nemo-properties-window.c:518
+msgid "The file that you dropped is not an image."
+msgstr "הקובץ שהשלכת אינו תמונה."
+
+#: src/nemo-properties-window.c:648
+msgid "_Name:"
+msgid_plural "_Names:"
+msgstr[0] "_שם:"
+msgstr[1] "שמו_ת:"
+
+#: src/nemo-properties-window.c:843
+msgid "Properties"
+msgstr "מאפיינים"
+
+#: src/nemo-properties-window.c:851
+#, c-format
+msgid "%s Properties"
+msgstr "מאפייני %s"
+
+#. Fallback, use for both unknown attributes and attributes
+#. * for which we have no more appropriate default.
+#. 
+#: src/nemo-properties-window.c:1125 libnemo-private/nemo-file.c:6924
+msgid "unknown"
+msgstr "לא ידוע"
+
+#: src/nemo-properties-window.c:1357
+msgid "Cancel Group Change?"
+msgstr "ביטול שינוי קבוצה?"
+
+#: src/nemo-properties-window.c:1772
+msgid "Cancel Owner Change?"
+msgstr "ביטול שינוי בעלים?"
+
+#: src/nemo-properties-window.c:2093
+msgid "nothing"
+msgstr "ללא"
+
+#: src/nemo-properties-window.c:2095
+msgid "unreadable"
+msgstr "בלתי קריא"
+
+#: src/nemo-properties-window.c:2110
+#, c-format
+msgid "%1$s item (and %2$s hidden), with size %3$s"
+msgid_plural "%1$s items (and %2$s hidden), totalling %3$s"
+msgstr[0] "%1$s פריט (ו - %2$s מוסתר), בגודל %3$s"
+msgstr[1] "%1$s פריטים (ו - %2$s מוסתר), בהיקף %3$s"
+
+#: src/nemo-properties-window.c:2115
+#, c-format
+msgid "%1$s item, with size %2$s"
+msgid_plural "%1$s items, totalling %2$s"
+msgstr[0] "%1$s פריט, בגודל %2$s"
+msgstr[1] "%1$s פריטים, בגודל %2$s"
+
+#: src/nemo-properties-window.c:2124
+msgid "(some contents unreadable)"
+msgstr "(חלק מהתְּכוּלָה אינו קריא)"
+
+#. Also set the title field here, with a trailing carriage return &
+#. * space if the value field has two lines. This is a hack to get the
+#. * "Contents:" title to line up with the first line of the
+#. * 2-line value. Maybe there's a better way to do this, but I
+#. * couldn't think of one.
+#. 
+#: src/nemo-properties-window.c:2141
+msgid "Contents:"
+msgstr "תְּכוּלָה:"
+
+#. Translators: "used" refers to the capacity of the filesystem
+#: src/nemo-properties-window.c:2927
+msgid "used"
+msgstr "בשימוש"
+
+#. Translators: "free" refers to the capacity of the filesystem
+#: src/nemo-properties-window.c:2934
+msgid "free"
+msgstr "חופשי"
+
+#: src/nemo-properties-window.c:2936
+msgid "Total capacity:"
+msgstr "סה״כ קיבולת:"
+
+#: src/nemo-properties-window.c:2945
+msgid "Filesystem type:"
+msgstr "סוג מערכת הקבצים:"
+
+#: src/nemo-properties-window.c:3030
+msgid "Basic"
+msgstr "מידע בסיסי"
+
+#: src/nemo-properties-window.c:3087
+#: libnemo-private/nemo-file-conflict-dialog.c:272
+#: libnemo-private/nemo-file-conflict-dialog.c:304
+msgid "Type:"
+msgstr "סוג:"
+
+#: src/nemo-properties-window.c:3096 libnemo-private/nemo-file.c:8135
+msgid "Link target:"
+msgstr "מקור קישור:"
+
+#: src/nemo-properties-window.c:3107
+#: libnemo-private/nemo-file-conflict-dialog.c:269
+#: libnemo-private/nemo-file-conflict-dialog.c:301
+msgid "Size:"
+msgstr "גודל:"
+
+#: src/nemo-properties-window.c:3116
+msgid "Location:"
+msgstr "מיקום:"
+
+#: src/nemo-properties-window.c:3123
+msgid "Volume:"
+msgstr "כרך:"
+
+#: src/nemo-properties-window.c:3136
+msgid "Accessed:"
+msgstr "תאריך גישה:"
+
+#: src/nemo-properties-window.c:3141
+msgid "Created:"
+msgstr "יצירה:"
+
+#: src/nemo-properties-window.c:3148
+msgid "Modified:"
+msgstr "תאריך שינוי:"
+
+#: src/nemo-properties-window.c:3157
+msgid "Free space:"
+msgstr "מקום פנוי:"
+
+#: src/nemo-properties-window.c:3578
+msgid "_Read"
+msgstr "_קריאה"
+
+#: src/nemo-properties-window.c:3580
+msgid "_Write"
+msgstr "_כתיבה"
+
+#: src/nemo-properties-window.c:3582
+msgid "E_xecute"
+msgstr "ה_פעלה"
+
+#. translators: this gets concatenated to "no read",
+#. * "no access", etc. (see following strings)
+#. 
+#: src/nemo-properties-window.c:3850 src/nemo-properties-window.c:3861
+#: src/nemo-properties-window.c:3873
+msgid "no "
+msgstr "ללא "
+
+#: src/nemo-properties-window.c:3853
+msgid "list"
+msgstr "רשימה"
+
+#: src/nemo-properties-window.c:3855
+msgid "read"
+msgstr "קריאה"
+
+#: src/nemo-properties-window.c:3864
+msgid "create/delete"
+msgstr "יצירה/מחיקה"
+
+#: src/nemo-properties-window.c:3866
+msgid "write"
+msgstr "כתיבה"
+
+#: src/nemo-properties-window.c:3875
+msgid "access"
+msgstr "גישה"
+
+#: src/nemo-properties-window.c:3923
+msgid "Access:"
+msgstr "גישה:"
+
+#: src/nemo-properties-window.c:3925
+msgid "Folder access:"
+msgstr "גישה לתיקייה:"
+
+#: src/nemo-properties-window.c:3927
+msgid "File access:"
+msgstr "גישה לקובץ:"
+
+#: src/nemo-properties-window.c:3945
+msgid "List files only"
+msgstr "הצגת רשימת קבצים בלבד"
+
+#: src/nemo-properties-window.c:3947
+msgid "Access files"
+msgstr "גישה לקבצים"
+
+#: src/nemo-properties-window.c:3949
+msgid "Create and delete files"
+msgstr "יצירת ומחיקת קבצים"
+
+#: src/nemo-properties-window.c:3956
+msgid "Read-only"
+msgstr "קריאה בלבד"
+
+#: src/nemo-properties-window.c:3958
+msgid "Read and write"
+msgstr "קריאה וכתיבה"
+
+#: src/nemo-properties-window.c:4023
+msgid "Special flags:"
+msgstr "דגלים מיוחדים:"
+
+#: src/nemo-properties-window.c:4025
+msgid "Set _user ID"
+msgstr "הגדרת מזהה _משתמש"
+
+#: src/nemo-properties-window.c:4026
+msgid "Set gro_up ID"
+msgstr "הגדרת מזהה ק_בוצה"
+
+#: src/nemo-properties-window.c:4027
+msgid "_Sticky"
+msgstr "_דביק"
+
+#: src/nemo-properties-window.c:4101 src/nemo-properties-window.c:4293
+msgid "_Owner:"
+msgstr "_בעלים:"
+
+#: src/nemo-properties-window.c:4109 src/nemo-properties-window.c:4198
+#: src/nemo-properties-window.c:4303
+msgid "Owner:"
+msgstr "בעלים:"
+
+#: src/nemo-properties-window.c:4131 src/nemo-properties-window.c:4315
+msgid "_Group:"
+msgstr "קבו_צה:"
+
+#: src/nemo-properties-window.c:4139 src/nemo-properties-window.c:4199
+#: src/nemo-properties-window.c:4323
+msgid "Group:"
+msgstr "קבוצה:"
+
+#: src/nemo-properties-window.c:4178
+msgid "Execute:"
+msgstr "הפעלה:"
+
+#: src/nemo-properties-window.c:4181
+msgid "Allow _executing file as program"
+msgstr "אפשור _להפעלת הקובץ כתכנית"
+
+#: src/nemo-properties-window.c:4200
+msgid "Others:"
+msgstr "אחרים:"
+
+#: src/nemo-properties-window.c:4339
+msgid "Folder Permissions:"
+msgstr "הרשאות תיקייה:"
+
+#: src/nemo-properties-window.c:4347
+msgid "File Permissions:"
+msgstr "הרשאות קובץ:"
+
+#: src/nemo-properties-window.c:4356
+msgid "Text view:"
+msgstr "מצג מלל:"
+
+#: src/nemo-properties-window.c:4490
+#: libnemo-private/nemo-column-utilities.c:127
+msgid "Permissions"
+msgstr "הרשאות"
+
+#: src/nemo-properties-window.c:4504
+msgid "You are not the owner, so you cannot change these permissions."
+msgstr "אינכם הבעלים, לכן אינכם יכול לשנות את ההרשאות."
+
+#: src/nemo-properties-window.c:4524
+msgid "SELinux context:"
+msgstr "הקשר SELinux:"
+
+#: src/nemo-properties-window.c:4529
+msgid "Last changed:"
+msgstr "שונה לאחרונה:"
+
+#: src/nemo-properties-window.c:4541
+msgid "Apply Permissions to Enclosed Files"
+msgstr "החלת הרשאות על כול הקבצים הרצופים"
+
+#: src/nemo-properties-window.c:4551
+#, c-format
+msgid "The permissions of \"%s\" could not be determined."
+msgstr "לא ניתן לתקף הרשאות של \"%s\"."
+
+#: src/nemo-properties-window.c:4554
+msgid "The permissions of the selected file could not be determined."
+msgstr "לא ניתן לתקף הרשאות של הקובץ שנבחר."
+
+#: src/nemo-properties-window.c:4794
+msgid "Open With"
+msgstr "פתיחה באמצעות"
+
+#: src/nemo-properties-window.c:4932
+msgid "Help"
+msgstr "עזרה"
+
+#: src/nemo-properties-window.c:4933
+msgid "Close"
+msgstr "סגירה"
+
+#: src/nemo-properties-window.c:5151
+msgid "Creating Properties window."
+msgstr "יצירת חלון מאפיינים."
+
+#: src/nemo-properties-window.c:5182 src/nemo-view.c:1705
+msgid "There was an error displaying help."
+msgstr "התרחשה שגיאה בהצגת העזרה."
+
+#: src/nemo-properties-window.c:5412
+msgid "Revert"
+msgstr "שחזור"
+
+#: src/nemo-query-editor.c:753
+msgid "Not supported in this location"
+msgstr "לא נתמך במיקום זה"
+
+#: src/nemo-script-config-widget.c:148
+msgid "No scripts found"
+msgstr "לא נמצאו תסריטים"
+
+#: src/nemo-script-config-widget.c:345
+msgid "Scripts"
+msgstr "תסריטים"
+
+#: src/nemo-statusbar.c:176
+msgid "Show Places"
+msgstr "הצגת מקומות"
+
+#: src/nemo-statusbar.c:185
+msgid "Show Treeview"
+msgstr "הצגת תצוגת עץ"
+
+#: src/nemo-statusbar.c:199
+msgid "Hide the Sidebar (F9)"
+msgstr "הסתרת סרגל הצד (F9)"
+
+#: src/nemo-statusbar.c:208
+msgid "Show the Sidebar (F9)"
+msgstr "הצגת סרגל הצד (F9)"
+
+#: src/nemo-statusbar.c:222
+msgid "Adjust zoom level"
+msgstr "התאם רמת תקריב"
+
+#: src/nemo-thumbnail-problem-bar.c:114
+msgid ""
+"A problem has been detected with your thumbnail cache.  Fixing it will "
+"require administrative privileges."
+msgstr "זוהתה בעיה במטמון תמונות ממוזערות. תיקון הבעיה ידרוש הרשאות מנהלן."
+
+#: src/nemo-thumbnail-problem-bar.c:118
+msgid "Fix now"
+msgstr "לתקן כעת"
+
+#: src/nemo-thumbnail-problem-bar.c:121
+msgid "Dismiss"
+msgstr "להתעלם"
+
+#: src/nemo-toolbar.c:197
+msgid "Elevated Privileges"
+msgstr "הרשאות על"
+
+#: src/nemo-trash-bar.c:218
+msgid "Restore Selected Items"
+msgstr "שחזור הפריטים שנבחרו"
+
+#: src/nemo-trash-bar.c:221
+msgid "Restore selected items to their original position"
+msgstr "שחזור הפריטים שנבחרו למקומם המקורי"
+
+#: src/nemo-tree-sidebar.c:994 src/nemo-view.c:6779
+#, c-format
+msgid "\"%s\" will be moved if you select the Paste command"
+msgstr "\"%s\" יועבר אם תיבחר פקודת ההדבקה"
+
+#: src/nemo-tree-sidebar.c:998 src/nemo-view.c:6783
+#, c-format
+msgid "\"%s\" will be copied if you select the Paste command"
+msgstr "הפריט \"%s\" יועתק אם פקודת ההדבקה תיבחר"
+
+#: src/nemo-tree-sidebar.c:1037 src/nemo-view.c:7033
+msgid "There is nothing on the clipboard to paste."
+msgstr "אין דבר בלוח הגזירים להדבקה."
+
+#. add the "create new folder" menu item
+#. name, stock id
+#. label, accelerator
+#: src/nemo-tree-sidebar.c:1374 src/nemo-view.c:8223
+#: gresources/nemo-file-management-properties.glade:3806
+msgid "Create New _Folder"
+msgstr "יצירת _תיקייה חדשה"
+
+#. name, stock id
+#. label, accelerator
+#: src/nemo-tree-sidebar.c:1387 src/nemo-view.c:8278 src/nemo-view.c:8422
+#: gresources/nemo-file-management-properties.glade:3487
+msgid "Cu_t"
+msgstr "ג_זירה"
+
+#. name, stock id
+#. label, accelerator
+#: src/nemo-tree-sidebar.c:1399 src/nemo-view.c:8282 src/nemo-view.c:8426
+#: gresources/nemo-file-management-properties.glade:3506
+msgid "_Copy"
+msgstr "ה_עתקה"
+
+#. We make accelerator "" instead of null here to not inherit the stock
+#. accelerator for paste
+#. name, stock id
+#. label, accelerator
+#: src/nemo-tree-sidebar.c:1411 src/nemo-view.c:8292 src/nemo-view.c:8430
+msgid "_Paste Into Folder"
+msgstr "ה_דבקה לתוך תקייה"
+
+#: src/nemo-tree-sidebar.c:1425 src/nemo-view.c:8507
+#: gresources/nemo-file-management-properties.glade:3563
+msgid "P_in"
+msgstr "_נעיצה"
+
+#: src/nemo-tree-sidebar.c:1437 src/nemo-view.c:8511
+msgid "Unp_in"
+msgstr "ביטול נעיצה"
+
+#. name, stock id
+#. label, accelerator
+#: src/nemo-tree-sidebar.c:1467 src/nemo-view.c:8330 src/nemo-view.c:8439
+#: src/nemo-view.c:9853
+msgid "_Delete"
+msgstr "_מחיקה"
+
+#: src/nemo-tree-sidebar.c:1509
+msgid "P_roperties"
+msgstr "מ_אפיינים"
+
+#: src/nemo-tree-sidebar.c:1587 libnemo-private/nemo-desktop-link.c:126
+#: generate_additional_file:48 gresources/nemo-desktop-preferences.glade:133
+#: gresources/nemo-file-management-properties.glade:2966
+msgid "Computer"
+msgstr "מחשב"
+
+#: src/nemo-view.c:1087
+#, c-format
+msgid "This will open %'d separate tab."
+msgid_plural "This will open %'d separate tabs."
+msgstr[0] "פעולה זו תפתח %'d לשונית נפרדת."
+msgstr[1] "פעולה זו תפתח %'d לשוניות נפרדות."
+
+#: src/nemo-view.c:1090
+#, c-format
+msgid "This will open %'d separate window."
+msgid_plural "This will open %'d separate windows."
+msgstr[0] "פעולה זו תפתח %'d חלון נפרד."
+msgstr[1] "זה יפתח %'d חלונות נפרדים."
+
+#: src/nemo-view.c:1725
+msgid "Select Items Matching"
+msgstr "בחירת פריטים התואמים לתבנית"
+
+#: src/nemo-view.c:1740
+msgid "_Pattern:"
+msgstr "ת_בנית:"
+
+#: src/nemo-view.c:1746
+msgid "Examples: "
+msgstr "דוגמאות: "
+
+#. Reset to default info
+#: src/nemo-view.c:2590 libnemo-private/nemo-file-undo-operations.c:147
+msgid "Undo"
+msgstr "החזרה לקדמות"
+
+#: src/nemo-view.c:2591 libnemo-private/nemo-file-undo-operations.c:150
+msgid "Undo last action"
+msgstr "החזרת הפעולה האחרונה לקדמותה"
+
+#. Reset to default info
+#: src/nemo-view.c:2609 libnemo-private/nemo-file-undo-operations.c:154
+msgid "Redo"
+msgstr "חזרה"
+
+#: src/nemo-view.c:2610 libnemo-private/nemo-file-undo-operations.c:157
+msgid "Redo last undone action"
+msgstr "החזרת הפעולה האחרונה שהוחזרה לקדמותה"
+
+#: src/nemo-view.c:2804
+msgid "Content View"
+msgstr "מצג תְּכוּלָה"
+
+#: src/nemo-view.c:2805
+msgid "View of the current folder"
+msgstr "מצג התיקייה הנוכחית"
+
+#: src/nemo-view.c:3076 src/nemo-view.c:3113
+#, c-format
+msgid "\"%s\" selected"
+msgstr "\"%s\" נבחר"
+
+#: src/nemo-view.c:3078
+#, c-format
+msgid "%'d folder selected"
+msgid_plural "%'d folders selected"
+msgstr[0] "תיקייה %'d נבחרה"
+msgstr[1] "%'d תיקיות נבחרו"
+
+#: src/nemo-view.c:3088
+#, c-format
+msgid " (containing %'d item)"
+msgid_plural " (containing %'d items)"
+msgstr[0] " (מכיל פריט %'d )"
+msgstr[1] " (מכיל %'d פריטים)"
+
+#. translators: this is preceded with a string of form 'N folders' (N more than 1)
+#: src/nemo-view.c:3099
+#, c-format
+msgid " (containing a total of %'d item)"
+msgid_plural " (containing a total of %'d items)"
+msgstr[0] " (מכיל סך-הכול פריט %'d)"
+msgstr[1] " (מכיל סך-הכול %'d פריטים)"
+
+#: src/nemo-view.c:3116
+#, c-format
+msgid "%'d item selected"
+msgid_plural "%'d items selected"
+msgstr[0] "פריט %'d נבחר"
+msgstr[1] "%'d פריטים נבחרו"
+
+#. Folders selected also, use "other" terminology
+#: src/nemo-view.c:3123
+#, c-format
+msgid "%'d other item selected"
+msgid_plural "%'d other items selected"
+msgstr[0] "פריט%'d אחר נבחר"
+msgstr[1] "%'d פריטים אחרים נבחרו"
+
+#. This is marked for translation in case a localiser
+#. * needs to use something other than parentheses. The
+#. * first message gives the number of items selected;
+#. * the message in parentheses the size of those items.
+#. 
+#: src/nemo-view.c:3140
+#, c-format
+msgid "%s (%s)"
+msgstr "%s (%s)"
+
+#: src/nemo-view.c:3161 libnemo-private/nemo-file.c:6442
+#, c-format
+msgid "%'u item"
+msgid_plural "%'u items"
+msgstr[0] "פריט %'u"
+msgstr[1] "%'u פריטים"
+
+#: src/nemo-view.c:3164
+#, c-format
+msgid "%s, Free space: %s"
+msgstr "%s, מקום פנוי: %s"
+
+#. Marking this for translation, since you
+#. * might want to change "," to something else.
+#. * After the comma the amount of free space will
+#. * be shown.
+#. 
+#: src/nemo-view.c:3179
+#, c-format
+msgid "%s, %s"
+msgstr "%s, %s"
+
+#. Marking this for translation, since you
+#. * might want to change "," to something else.
+#. * After the comma the amount of free space will
+#. * be shown.
+#. 
+#. This is marked for translation in case a localizer
+#. * needs to change ", " to something else. The comma
+#. * is between the message about the number of folders
+#. * and the number of items in those folders and the
+#. * message about the number of other items and the
+#. * total size of those items.
+#. 
+#: src/nemo-view.c:3198 src/nemo-view.c:3211
+#, c-format
+msgid "%s%s, %s"
+msgstr "%s%s, %s"
+
+#. This is marked for translation in case a localizer
+#. * needs to change ", " to something else. The first comma
+#. * is between the message about the number of folders
+#. * and the number of items in those folders and the
+#. * message about the number of other items and the
+#. * total size of those items. After the second comma
+#. * the free space is written.
+#. 
+#: src/nemo-view.c:3225
+#, c-format
+msgid "%s%s, %s, %s"
+msgstr "%s%s, %s, %s"
+
+#: src/nemo-view.c:4713
+#, c-format
+msgid "Open With %s"
+msgstr "פתיחה באמצעות %s"
+
+#: src/nemo-view.c:4715
+#, c-format
+msgid "Use \"%s\" to open the selected item"
+msgid_plural "Use \"%s\" to open the selected items"
+msgstr[0] "נא להשתמש ב־\"%s\" לפתיחת הפריט שנבחר"
+msgstr[1] "נא להשתמש ב־\"%s\" לפתיחת הפריטים שנבחרו"
+
+#: src/nemo-view.c:6081
+#, c-format
+msgid "Run \"%s\" on any selected items"
+msgstr "הפעלת \"%s\" על כול הפריטים שנבחרו"
+
+#: src/nemo-view.c:6486
+#, c-format
+msgid "Create a new document from template \"%s\""
+msgstr "יצירת מסמך חדש מהתבנית \"%s\""
+
+#: src/nemo-view.c:6790
+#, c-format
+msgid "The %'d selected item will be moved if you select the Paste command"
+msgid_plural ""
+"The %'d selected items will be moved if you select the Paste command"
+msgstr[0] "פריט %'d שנבחר יועבר אם בחירת פקודת 'הדבקה'"
+msgstr[1] "%'d פריטים שנבחרו יועברו אם בחירת פקודת 'הדבקה'"
+
+#: src/nemo-view.c:6797
+#, c-format
+msgid "The %'d selected item will be copied if you select the Paste command"
+msgid_plural ""
+"The %'d selected items will be copied if you select the Paste command"
+msgstr[0] "הפריט %'d שנבחר יועתק אם תיבחר הפקודה \"הדבקה\""
+msgstr[1] "%'d הפריטים שנבחרו יועתקו אם הפקודה \"הדבקה\" תיבחר"
+
+#: src/nemo-view.c:6967
+msgid "Select Target Folder For Move"
+msgstr "בחירת תיקיית יעד להעברה"
+
+#: src/nemo-view.c:6990
+msgid "Select Target Folder For Copy"
+msgstr "בחירת תיקיית יעד להעתקה"
+
+#: src/nemo-view.c:7464
+msgid "Unable to unmount location"
+msgstr "לא ניתן לנתק עגינת מיקום"
+
+#: src/nemo-view.c:7484
+msgid "Unable to eject location"
+msgstr "לא ניתן לשלוף מיקום"
+
+#: src/nemo-view.c:7499
+msgid "Unable to stop drive"
+msgstr "לא ניתן לעצור כונן"
+
+#: src/nemo-view.c:7985
+#, c-format
+msgid "Connect to Server %s"
+msgstr "התחברות לשרת %s"
+
+#: src/nemo-view.c:7990 src/nemo-view.c:9121 src/nemo-view.c:9208
+#: src/nemo-view.c:9312
+msgid "_Connect"
+msgstr "_התחברות"
+
+#: src/nemo-view.c:8004
+msgid "Link _name:"
+msgstr "_שם הקישור:"
+
+#. name, stock id, label
+#: src/nemo-view.c:8211
+msgid "Create New _Document"
+msgstr "יצירת מסמך _חדש"
+
+#. name, stock id, label
+#: src/nemo-view.c:8212
+msgid "Open Wit_h"
+msgstr "פתיחה ב_אמצעות"
+
+#: src/nemo-view.c:8213
+msgid "Choose a program with which to open the selected item"
+msgstr "נא לבחור בתוכנה שתפתח את הפריט שנבחר"
+
+#. tooltip
+#: src/nemo-view.c:8216 src/nemo-view.c:9894
+msgid "View or modify the properties of each selected item"
+msgstr "הצגת או שינוי מאפייני כול אחד מהפריטים שנבחרו"
+
+#. tooltip
+#: src/nemo-view.c:8224
+msgid "Create a new empty folder inside this folder"
+msgstr "יצירת תיקייה ריקה חדשה בתיקייה זו"
+
+#. name, stock id, label
+#: src/nemo-view.c:8226
+msgid "No templates installed"
+msgstr "לא מותקנות תבניות"
+
+#. name, stock id
+#. translators: this is used to indicate that a document doesn't contain anything
+#. label, accelerator
+#: src/nemo-view.c:8229
+msgid "_Empty Document"
+msgstr "מסמך _ריק"
+
+#. tooltip
+#: src/nemo-view.c:8230
+msgid "Create a new empty document inside this folder"
+msgstr "יצירת קובץ ריק חדש בתיקייה זו"
+
+#. tooltip
+#: src/nemo-view.c:8234
+msgid "Open the selected item in this window"
+msgstr "פתיחת הפריט שנבחר בחלון זה"
+
+#. name, stock id
+#. label, accelerator
+#. Location-specific actions
+#. name, stock id
+#. label, accelerator
+#: src/nemo-view.c:8241 src/nemo-view.c:8413
+msgid "Open in Navigation Window"
+msgstr "פתיחה בחלון ניווט"
+
+#. tooltip
+#: src/nemo-view.c:8242
+msgid "Open each selected item in a navigation window"
+msgstr "פתיחת כול פריט שנבחר בחלון ניווט"
+
+#. tooltip
+#: src/nemo-view.c:8246
+msgid "Open each selected item in a new tab"
+msgstr "פתיחת כול פריט שנבחר בלשונית חדשה"
+
+#. name, stock id
+#. label, accelerator
+#: src/nemo-view.c:8249 src/nemo-window-menus.c:1691
+#: gresources/nemo-file-management-properties.glade:3677
+#: gresources/nemo-file-management-properties.glade:3844
+msgid "Open in Terminal"
+msgstr "פתיחה במסוף"
+
+#. tooltip
+#: src/nemo-view.c:8250
+msgid "Open terminal in the selected folder"
+msgstr "פתיחת מסוף בתיקייה שנבחרה"
+
+#. name, stock id
+#. label, accelerator
+#: src/nemo-view.c:8253 gresources/nemo-file-management-properties.glade:3695
+#: gresources/nemo-file-management-properties.glade:3862
+msgid "Open as Root"
+msgstr "פתיחה כמשתמש על"
+
+#. tooltip
+#: src/nemo-view.c:8254
+msgid "Open the folder with administration privileges"
+msgstr "פתיחת התיקייה עם הרשאות מנהלן"
+
+#. name, stock id
+#. label, accelerator
+#: src/nemo-view.c:8258
+msgid "Follow link to original file"
+msgstr "מעקב אחר הקישור לקובץ המקורי"
+
+#. tooltip
+#: src/nemo-view.c:8259
+msgid "Navigate to the original file that this symbolic link points to"
+msgstr "ניווט לקובץ המקורי שהקישור מצביע אליו"
+
+#. name, stock id
+#. label, accelerator
+#: src/nemo-view.c:8262
+msgid "Open containing folder"
+msgstr "פתיחת התיקייה המכילה"
+
+#. tooltip
+#: src/nemo-view.c:8263
+msgid "Navigate to the folder that the selected item is stored in"
+msgstr "ניווט לתיקייה בה מאוחסן הפריט שנבחר"
+
+#. name, stock id
+#. label, accelerator
+#: src/nemo-view.c:8266
+msgid "Other _Application..."
+msgstr "_יישומון אחר..."
+
+#. tooltip
+#: src/nemo-view.c:8267 src/nemo-view.c:8271
+msgid "Choose another application with which to open the selected item"
+msgstr "נא לבחור יישמון אחר לפתיחת הפריט שנבחר"
+
+#. name, stock id
+#. label, accelerator
+#: src/nemo-view.c:8270
+msgid "Open With Other _Application..."
+msgstr "פתיחה באמצעות _יישומון אחר..."
+
+#. tooltip
+#: src/nemo-view.c:8279
+msgid "Prepare the selected files to be moved with a Paste command"
+msgstr "הכנת הקבצים שנבחרו להעברה באמצעות פקודת הדבקה"
+
+#. tooltip
+#: src/nemo-view.c:8283
+msgid "Prepare the selected files to be copied with a Paste command"
+msgstr "הכנת הקבצים שנבחרו להעתקה באמצעות פקודת הדבקה"
+
+#. name, stock id
+#. label, accelerator
+#: src/nemo-view.c:8286 gresources/nemo-file-management-properties.glade:3525
+#: gresources/nemo-file-management-properties.glade:3899
+msgid "_Paste"
+msgstr "_הדבקה"
+
+#. tooltip
+#: src/nemo-view.c:8287
+msgid "Move or copy files previously selected by a Cut or Copy command"
+msgstr "העברת או העתקת קבצים שנבחרו קודם, באמצעות פקודת גזירה או העתקה"
+
+#. tooltip
+#: src/nemo-view.c:8293
+msgid ""
+"Move or copy files previously selected by a Cut or Copy command into the "
+"selected folder"
+msgstr ""
+"העברת או העתקת קבצים שנבחרו קודם, באמצעות פקודת גזירה או העתקה לתיקייה שנבחרה"
+
+#. name, stock id, label
+#: src/nemo-view.c:8295 gresources/nemo-file-management-properties.glade:3639
+msgid "Cop_y to"
+msgstr "ה_עתקה אל"
+
+#. name, stock id, label
+#: src/nemo-view.c:8296 gresources/nemo-file-management-properties.glade:3658
+msgid "M_ove to"
+msgstr "הע_ברה אל"
+
+#. name, stock id
+#. label, accelerator
+#: src/nemo-view.c:8298 libnemo-private/nemo-clipboard.c:444
+msgid "Select _All"
+msgstr "בחירת ה_כול"
+
+#. tooltip
+#: src/nemo-view.c:8299
+msgid "Select all items in this window"
+msgstr "בחירת כול הקבצים בחלון זה"
+
+#. name, stock id
+#. label, accelerator
+#: src/nemo-view.c:8302
+msgid "Select I_tems Matching..."
+msgstr "בחירת _פריטים התואמים לתבנית..."
+
+#. tooltip
+#: src/nemo-view.c:8303
+msgid "Select items in this window matching a given pattern"
+msgstr "בחירת קבצים בחלון זה המתאימים לתבנית הנתונה"
+
+#. name, stock id
+#. label, accelerator
+#: src/nemo-view.c:8306
+msgid "_Invert Selection"
+msgstr "_היפוך בחירה"
+
+#. tooltip
+#: src/nemo-view.c:8307
+msgid "Select all and only the items that are not currently selected"
+msgstr "בחירת כול הפריטים שלא נבחרו בלבד"
+
+#. name, stock id
+#. label, accelerator
+#: src/nemo-view.c:8310 libnemo-private/nemo-file-conflict-dialog.c:565
+#: gresources/nemo-file-management-properties.glade:3544
+msgid "D_uplicate"
+msgstr "ש_כפול"
+
+#. tooltip
+#: src/nemo-view.c:8311
+msgid "Duplicate each selected item"
+msgstr "שכפול כול פריט שנבחר"
+
+#. name, stock id
+#. label, accelerator
+#: src/nemo-view.c:8314 src/nemo-view.c:9879
+#: gresources/nemo-file-management-properties.glade:3601
+msgid "Ma_ke Link"
+msgid_plural "Ma_ke Links"
+msgstr[0] "יצ_ירת קישור"
+msgstr[1] "י_צירת קישורים"
+
+#. tooltip
+#: src/nemo-view.c:8315
+msgid "Create a symbolic link for each selected item"
+msgstr "יצירת קישור סימבולי לכל פריט שנבחר"
+
+#. tooltip
+#: src/nemo-view.c:8319
+msgid "Rename selected item"
+msgstr "שינוי שם הפריט שנבחר"
+
+#. tooltip
+#: src/nemo-view.c:8327 src/nemo-view.c:9830
+msgid "Move each selected item to the Trash"
+msgstr "העברת כל אחד מהפריטים שנבחרו לסל־המחזור"
+
+#. tooltip
+#: src/nemo-view.c:8331 src/nemo-view.c:9854
+msgid "Delete each selected item, without moving to the Trash"
+msgstr "מחיקת כל אחד מהפריטים שנבחרו, מבלי להעבירם לסל־המחזור"
+
+#. name, stock id
+#. label, accelerator
+#: src/nemo-view.c:8334 src/nemo-view.c:8443
+msgid "_Restore"
+msgstr "_שחזור"
+
+#. name, stock id
+#. label, accelerator
+#. name, stock id, label
+#: src/nemo-view.c:8338 src/nemo-window-menus.c:1357
+msgid "_Undo"
+msgstr "_החזרה לקדמות"
+
+#. tooltip
+#: src/nemo-view.c:8339
+msgid "Undo the last action"
+msgstr "החזרת השינוי האחרון לקדמותו"
+
+#. name, stock id
+#. label, accelerator
+#: src/nemo-view.c:8342
+msgid "_Redo"
+msgstr "ח_זרה"
+
+#. tooltip
+#: src/nemo-view.c:8343
+msgid "Redo the last undone action"
+msgstr "החזרת הפעולה האחרונה שהוחזרה לקדמותה"
+
+#. 
+#. * multiview-TODO: decide whether "Reset to Defaults" should
+#. * be window-wide, and not just view-wide.
+#. * Since this also resets the "Show hidden files" mode,
+#. * it is a mixture of both ATM.
+#. 
+#. name, stock id
+#. label, accelerator
+#: src/nemo-view.c:8352
+msgid "Reset View to _Defaults"
+msgstr "השבת התצוגה _לבררת המחדל"
+
+#. tooltip
+#: src/nemo-view.c:8353
+msgid "Reset sorting order and zoom level to match preferences for this view"
+msgstr "שיצוב סדר מיון ורמת המיקוד כך שיתאימו להעדפות תצוגה זו"
+
+#. name, stock id
+#. label, accelerator
+#: src/nemo-view.c:8356
+msgid "Connect To This Server"
+msgstr "התחברות לשרת זה"
+
+#. tooltip
+#: src/nemo-view.c:8357
+msgid "Make a permanent connection to this server"
+msgstr "יצירת חיבור קבוע לשרת זה"
+
+#. tooltip
+#: src/nemo-view.c:8361
+msgid "Mount the selected volume"
+msgstr "נא לעגון את הכרך שנבחר"
+
+#. tooltip
+#: src/nemo-view.c:8365
+msgid "Unmount the selected volume"
+msgstr "נא לנתק עגינת הכרך שנבחר"
+
+#. tooltip
+#: src/nemo-view.c:8369
+msgid "Eject the selected volume"
+msgstr "שליפת הכרך שנבחר"
+
+#. tooltip
+#: src/nemo-view.c:8373
+msgid "Start the selected volume"
+msgstr "איתחול הכרך שנבחר"
+
+#. tooltip
+#: src/nemo-view.c:8377 src/nemo-view.c:9334
+msgid "Stop the selected volume"
+msgstr "עצירת הכרך שנבחר"
+
+#. tooltip
+#: src/nemo-view.c:8381 src/nemo-view.c:8405 src/nemo-view.c:8468
+msgid "Detect media in the selected drive"
+msgstr "זיהוי מדיה בכונן שנבחר"
+
+#. tooltip
+#: src/nemo-view.c:8385
+msgid "Mount the volume associated with the open folder"
+msgstr "עיגון הכרך המשויך לתיקייה הפתוחה"
+
+#. tooltip
+#: src/nemo-view.c:8389
+msgid "Unmount the volume associated with the open folder"
+msgstr "נא לנתק עגינת הכרך המשויך לתיקייה הפתוחה"
+
+#. tooltip
+#: src/nemo-view.c:8393
+msgid "Eject the volume associated with the open folder"
+msgstr "שליפת הכרך המשויך לתיקייה הפתוחה"
+
+#. tooltip
+#: src/nemo-view.c:8397
+msgid "Start the volume associated with the open folder"
+msgstr "איתחול הכרך המשויך לתיקייה הפתוחה"
+
+#. tooltip
+#: src/nemo-view.c:8401
+msgid "Stop the volume associated with the open folder"
+msgstr "עצירת הכרך המשויך לתיקייה הפתוחה"
+
+#. name, stock id
+#. label, accelerator
+#: src/nemo-view.c:8408
+msgid "Open File and Close window"
+msgstr "פתיחת קובץ וסגירת החלון"
+
+#. tooltip
+#: src/nemo-view.c:8414
+msgid "Open this folder in a navigation window"
+msgstr "פתיחת תיקייה זו בחלון ניווט"
+
+#. tooltip
+#: src/nemo-view.c:8418
+msgid "Open this folder in a new tab"
+msgstr "פתיחת תיקייה זו בלשונית חדשה"
+
+#. tooltip
+#: src/nemo-view.c:8423
+msgid "Prepare this folder to be moved with a Paste command"
+msgstr "הכנת תיקייה זו להעברה באמצעות פקודת הדבקה"
+
+#. tooltip
+#: src/nemo-view.c:8427
+msgid "Prepare this folder to be copied with a Paste command"
+msgstr "הכנת התיקייה להעתקה עם פקודת הדבקה"
+
+#. tooltip
+#: src/nemo-view.c:8431
+msgid ""
+"Move or copy files previously selected by a Cut or Copy command into this "
+"folder"
+msgstr ""
+"העברת או העתקת קבצים שנבחרו קודם, באמצעות פקודת גזירה או העתקה לתוך תיקייה "
+"זאת"
+
+#. tooltip
+#: src/nemo-view.c:8436
+msgid "Move this folder to the Trash"
+msgstr "העברת תיקייה זו לסל־המחזור"
+
+#. tooltip
+#: src/nemo-view.c:8440
+msgid "Delete this folder, without moving to the Trash"
+msgstr "מחיקת התיקייה, מבלי להעבירה לסל־המחזור"
+
+#. tooltip
+#: src/nemo-view.c:8448
+msgid "Mount the volume associated with this folder"
+msgstr "עיגון הכרך המשויך לתיקייה זאת"
+
+#. tooltip
+#: src/nemo-view.c:8452
+msgid "Unmount the volume associated with this folder"
+msgstr "נא לנתק עגינת הכרך המשויך לתיקייה זאת"
+
+#. tooltip
+#: src/nemo-view.c:8456
+msgid "Eject the volume associated with this folder"
+msgstr "שליפת הכרך המשויך לתיקייה זאת"
+
+#. tooltip
+#: src/nemo-view.c:8460
+msgid "Start the volume associated with this folder"
+msgstr "איתחול הכרך המשויך לתיקייה זאת"
+
+#. tooltip
+#: src/nemo-view.c:8464
+msgid "Stop the volume associated with this folder"
+msgstr "עצירת הכרך המשויך לתיקייה זאת"
+
+#. tooltip
+#: src/nemo-view.c:8473
+msgid "View or modify the properties of this folder"
+msgstr "הצגה או שינוי של המאפיינים של תיקייה זאת"
+
+#. name, stock id, label
+#: src/nemo-view.c:8476 src/nemo-view.c:8479
+msgid "_Other pane"
+msgstr "_חלונית אחרת"
+
+#: src/nemo-view.c:8477
+msgid "Copy the current selection to the other pane in the window"
+msgstr "העתקת הבחירה הנוכחית אל החלונית האחרת שבחלון"
+
+#: src/nemo-view.c:8480
+msgid "Move the current selection to the other pane in the window"
+msgstr "העברת הבחירה הנוכחית ללוח אחר בחלון"
+
+#. name, stock id, label
+#. name, stock id
+#. label, accelerator
+#: src/nemo-view.c:8483 src/nemo-view.c:8487 src/nemo-window-menus.c:1432
+#: src/nemo-window-menus.c:1641 src/nemo-window-menus.c:1897
+msgid "_Home"
+msgstr "_בית"
+
+#: src/nemo-view.c:8484
+msgid "Copy the current selection to the home folder"
+msgstr "העתקת הבחירה הנוכחית אל תיקיית הבית"
+
+#: src/nemo-view.c:8488
+msgid "Move the current selection to the home folder"
+msgstr "העברת הבחירה הנוכחית לתיקיית הבית"
+
+#. name, stock id, label
+#: src/nemo-view.c:8491 src/nemo-view.c:8495
+msgid "_Desktop"
+msgstr "_שולחן עבודה"
+
+#: src/nemo-view.c:8492
+msgid "Copy the current selection to the desktop"
+msgstr "העתקת הבחירה הנוכחית אל שולחן העבודה"
+
+#: src/nemo-view.c:8496
+msgid "Move the current selection to the desktop"
+msgstr "העברת הבחירה הנוכחית לשולחן העבודה"
+
+#: src/nemo-view.c:8499 src/nemo-view.c:8503
+msgid "Browse..."
+msgstr "דפדוף..."
+
+#: src/nemo-view.c:8500
+msgid "Browse for a folder to move the selection to"
+msgstr "דפדוף לאיתור תיקייה להעברת הבחירה לתוכה"
+
+#: src/nemo-view.c:8504
+msgid "Browse for a folder to copy the selection to"
+msgstr "דפדוף לאיתור תיקייה להעתקת הבחירה לתוכה"
+
+#: src/nemo-view.c:8508
+msgid ""
+"Pin the selected file so it always appears at the top of this location's "
+"file list"
+msgstr "נעיצת הקובץ שנבחר כך שתמיד יופיע בראש רשימת הקבצים במיקום זה"
+
+#: src/nemo-view.c:8512
+msgid "Unpin the selected file from the top of this location's file list"
+msgstr "ביטול נעיצת הקובץ לראש רשימת הקבצים במיקום זה"
+
+#: src/nemo-view.c:8515
+msgid "Add to favorites"
+msgstr "הוספה למועדפים"
+
+#: src/nemo-view.c:8516
+msgid "Add the selected file to your favorites"
+msgstr "הוספת הקובץ שנבחר למועדפים שלי"
+
+#: src/nemo-view.c:8519
+msgid "Remove from favorites"
+msgstr "הסרה ממועדפים"
+
+#: src/nemo-view.c:8520
+msgid "Remove the selected file from your favorites"
+msgstr "הסרת הקובץ שנבחר מהמועדפים שלי"
+
+#: src/nemo-view.c:8595
+msgid "Run scripts"
+msgstr "הפעלת תסריטים"
+
+#. Create a script action here specially because its tooltip is dynamic
+#: src/nemo-view.c:8597 gresources/nemo-file-management-properties.glade:3468
+#: gresources/nemo-file-management-properties.glade:3825
+msgid "_Scripts"
+msgstr "_תסריטים"
+
+#: src/nemo-view.c:8970
+#, c-format
+msgid "Move the open folder out of the trash to \"%s\""
+msgstr "העברת התיקייה הפתוחה סל־המחזור אל \"%s\""
+
+#: src/nemo-view.c:8973
+#, c-format
+msgid "Move the selected folder out of the trash to \"%s\""
+msgid_plural "Move the selected folders out of the trash to \"%s\""
+msgstr[0] "העברת התיקייה שנבחרה מסל־המחזור ל־\"%s\""
+msgstr[1] "העברת התיקיות שנבחרו, מסל המחזור אל \"%s\""
+
+#: src/nemo-view.c:8977
+msgid "Move the selected folder out of the trash"
+msgid_plural "Move the selected folders out of the trash"
+msgstr[0] "העברת התיקייה שנבחרה מסל־המחזור"
+msgstr[1] "העברת התיקיות שנבחרו, מסל־המחזור"
+
+#: src/nemo-view.c:8983
+#, c-format
+msgid "Move the selected file out of the trash to \"%s\""
+msgid_plural "Move the selected files out of the trash to \"%s\""
+msgstr[0] "העברת הקובץ שנבחר מסל־המחזור ל־\"%s\""
+msgstr[1] "העברת הקבצים שנבחרו מסל־המחזור ל־ \"%s\""
+
+#: src/nemo-view.c:8987
+msgid "Move the selected file out of the trash"
+msgid_plural "Move the selected files out of the trash"
+msgstr[0] "הוצאת הקובץ שנבחר מסל־המחזור"
+msgstr[1] "העברת הקבצים שנבחרו מסל־המחזור"
+
+#: src/nemo-view.c:8993
+#, c-format
+msgid "Move the selected item out of the trash to \"%s\""
+msgid_plural "Move the selected items out of the trash to \"%s\""
+msgstr[0] "העברת הפריט שנבחר מסל־המחזור ל־\"%s\""
+msgstr[1] "העברת הפריטים שנבחרו מסל־המחזור ל־\"%s\""
+
+#: src/nemo-view.c:8997
+msgid "Move the selected item out of the trash"
+msgid_plural "Move the selected items out of the trash"
+msgstr[0] "העברת הפריט שנבחר מסל־המחזור"
+msgstr[1] "העברת הפריטים שנבחרו סל־המחזור"
+
+#: src/nemo-view.c:9114 src/nemo-view.c:9118 src/nemo-view.c:9305
+#: src/nemo-view.c:9309
+msgid "Start the selected drive"
+msgstr "איתחול הכונן שנבחר"
+
+#: src/nemo-view.c:9122 src/nemo-view.c:9313
+msgid "Connect to the selected drive"
+msgstr "התחברות לכונן שנבחר"
+
+#: src/nemo-view.c:9125 src/nemo-view.c:9212 src/nemo-view.c:9316
+msgid "_Start Multi-disk Drive"
+msgstr "_איתחול התקן מרובה כוננים"
+
+#: src/nemo-view.c:9126 src/nemo-view.c:9317
+msgid "Start the selected multi-disk drive"
+msgstr "איתחול התקן מרובה הכוננים שנבחר"
+
+#: src/nemo-view.c:9129
+msgid "U_nlock Drive"
+msgstr "ש_חרור נעילת כונן"
+
+#: src/nemo-view.c:9130 src/nemo-view.c:9321
+msgid "Unlock the selected drive"
+msgstr "שחרור נעילת הכונן שנבחר"
+
+#: src/nemo-view.c:9143
+msgid "Stop the selected drive"
+msgstr "עצירת הכונן שנבחר"
+
+#: src/nemo-view.c:9147 src/nemo-view.c:9338
+msgid "Safely remove the selected drive"
+msgstr "הסרה בטוחה של הכונן שנבחר"
+
+#: src/nemo-view.c:9150 src/nemo-view.c:9237 src/nemo-view.c:9341
+msgid "_Disconnect"
+msgstr "_ניתוק"
+
+#: src/nemo-view.c:9151 src/nemo-view.c:9342
+msgid "Disconnect the selected drive"
+msgstr "ניתוק הכונן שנבחר"
+
+#: src/nemo-view.c:9154 src/nemo-view.c:9241 src/nemo-view.c:9345
+msgid "_Stop Multi-disk Drive"
+msgstr "_עצירת כונן מרובה כוננים"
+
+#: src/nemo-view.c:9155 src/nemo-view.c:9346
+msgid "Stop the selected multi-disk drive"
+msgstr "עצירת כונן מרובה כוננים שנבחר"
+
+#: src/nemo-view.c:9159 src/nemo-view.c:9350
+msgid "Lock the selected drive"
+msgstr "נעילת הכונן שנבחר"
+
+#: src/nemo-view.c:9201 src/nemo-view.c:9205
+msgid "Start the drive associated with the open folder"
+msgstr "איתחול ההתקן המשויך לתיקייה הפתוחה"
+
+#: src/nemo-view.c:9209
+msgid "Connect to the drive associated with the open folder"
+msgstr "התחברות לכונן המשויך לתיקייה הפתוחה"
+
+#: src/nemo-view.c:9213
+msgid "Start the multi-disk drive associated with the open folder"
+msgstr "איתחול הכונן מרובה הכוננים המשויך לתיקייה הפתוחה"
+
+#: src/nemo-view.c:9217
+msgid "Unlock the drive associated with the open folder"
+msgstr "שחרור הכונן המשויך לתיקייה הפתוחה"
+
+#: src/nemo-view.c:9230
+msgid "_Stop the drive associated with the open folder"
+msgstr "_עצירת הכונן המשויך לתיקייה הפתוחה"
+
+#: src/nemo-view.c:9234
+msgid "Safely remove the drive associated with the open folder"
+msgstr "הסרה בטוחה של הכונן המשויך לתיקייה הפתוחה"
+
+#: src/nemo-view.c:9238
+msgid "Disconnect the drive associated with the open folder"
+msgstr "ניתוק הכונן המשויך לתיקייה הפתוחה"
+
+#: src/nemo-view.c:9242
+msgid "Stop the multi-disk drive associated with the open folder"
+msgstr "עצירת הכונן מרובה הכוננים המשויך לתיקייה הפתוחה"
+
+#: src/nemo-view.c:9246
+msgid "Lock the drive associated with the open folder"
+msgstr "נעילת הכונן המשויך לתיקייה הפתוחה"
+
+#: src/nemo-view.c:9488 src/nemo-view.c:9825
+msgid "_Delete Permanently"
+msgstr "מחיקה _לצמיתות"
+
+#: src/nemo-view.c:9489
+msgid "Delete the open folder permanently"
+msgstr "מחיקת התיקייה הפתוחה לצמיתות"
+
+#: src/nemo-view.c:9493
+msgid "Move the open folder to the Trash"
+msgstr "העברת התיקייה הפתוחה לסל־המחזור"
+
+#: src/nemo-view.c:9740
+#, c-format
+msgid "_Open With %s"
+msgstr "_פתיחה באמצעות %s"
+
+#: src/nemo-view.c:9789
+#, c-format
+msgid "Open in %'d New _Window"
+msgid_plural "Open in %'d New _Windows"
+msgstr[0] "פתיחה ב_חלון חדש"
+msgstr[1] "פתיחה ב־%'d _חלונות חדשים"
+
+#: src/nemo-view.c:9809
+#, c-format
+msgid "Open in %'d New _Tab"
+msgid_plural "Open in %'d New _Tabs"
+msgstr[0] "פתיחת בלשונית חדשה %'d"
+msgstr[1] "פתיחה ב־%'d _לשוניות חדשות"
+
+#: src/nemo-view.c:9826
+msgid "Delete all selected items permanently"
+msgstr "מחיקת כל הפריטים שנבחרו לצמיתות"
+
+#: src/nemo-view.c:9850
+msgid "Remo_ve from Recent"
+msgstr "הסרה מה_פריטים האחרונים"
+
+#: src/nemo-view.c:9851
+msgid "Remove each selected item from the recently used list"
+msgstr "הסרת כל פריט שנבחר מרשימת 'בשימוש לאחרונה'"
+
+#: src/nemo-view.c:9892
+msgid "View or modify the properties of the open folder"
+msgstr "הצגה או עריכה של המאפיינים של התיקייה הפתוחה"
+
+#. Note to localizers: convert file type string for file
+#. * (e.g. "folder", "plain text") to file type for symbolic link
+#. * to that kind of file (e.g. "link to folder").
+#. 
+#. appended to new link file
+#: src/nemo-view-dnd.c:125 libnemo-private/nemo-file.c:7066
+#: libnemo-private/nemo-file-operations.c:396
+#, c-format
+msgid "Link to %s"
+msgstr "קישור אל %s"
+
+#: src/nemo-view-dnd.c:171 src/nemo-view-dnd.c:205 src/nemo-view-dnd.c:298
+msgid "Drag and drop is not supported."
+msgstr "גרירה והשלכה אינן נתמכות."
+
+#: src/nemo-view-dnd.c:172
+msgid "Drag and drop is only supported on local file systems."
+msgstr "גרירה והשלכה נתמכות רק במערכות קבצים מקומיות."
+
+#: src/nemo-view-dnd.c:206 src/nemo-view-dnd.c:299
+msgid "An invalid drag type was used."
+msgstr "נעשה שימוש בסוג גרירה לא תקין."
+
+#. Translator: This is the filename used for when you dnd text to a directory
+#: src/nemo-view-dnd.c:376
+msgid "dropped text.txt"
+msgstr "dropped text.txt"
+
+#. Translator: This is the filename used for when you dnd raw
+#. * data to a directory, if the source didn't supply a name.
+#. 
+#: src/nemo-view-dnd.c:421
+msgid "dropped data"
+msgstr "נתונים שנשמטו"
+
+#: src/nemo-window-bookmarks.c:83
+msgid ""
+"Do you want to remove any bookmarks with the non-existing location from your "
+"list?"
+msgstr "האם להסיר מהרשימה, סימניות ללא מיקום?"
+
+#: src/nemo-window-bookmarks.c:85
+#, c-format
+msgid "The location \"%s\" does not exist."
+msgstr "המיקום \"%s\" לא קיים."
+
+#: src/nemo-window-bookmarks.c:88
+msgid "Bookmark for Nonexistent Location"
+msgstr "סימנייה למיקום לא קיים"
+
+#: src/nemo-window-bookmarks.c:308
+msgid "Go to the location specified by this bookmark"
+msgstr "מעבר למיקום המצוין על-ידי הסימנייה"
+
+#: src/nemo-window.c:1387
+#, c-format
+msgid "%s - File Browser"
+msgstr "%s  - סייר קבצים"
+
+#. Set initial window title
+#: src/nemo-window.c:1998 src/nemo-window-menus.c:343
+msgid "Nemo"
+msgstr "נמו"
+
+#: src/nemo-window-manage-views.c:1228
+msgid "Searching..."
+msgstr "חיפוש..."
+
+#: src/nemo-window-manage-views.c:1717 src/nemo-window-manage-views.c:1723
+#: src/nemo-window-manage-views.c:1740 src/nemo-window-manage-views.c:1751
+#: src/nemo-window-manage-views.c:1757 src/nemo-window-manage-views.c:1783
+#, c-format
+msgid "Could not display \"%s\"."
+msgstr "לא ניתן להציג את \"%s\"."
+
+#: src/nemo-window-manage-views.c:1720
+msgid "Nemo has no installed viewer capable of displaying the folder."
+msgstr "אין לנמו משקף מותקן שמסוגל להציג את תוכן התיקייה."
+
+#: src/nemo-window-manage-views.c:1726
+msgid "The location is not a folder."
+msgstr "המיקום אינו תיקייה."
+
+#: src/nemo-window-manage-views.c:1732
+#, c-format
+msgid "Could not find \"%s\"."
+msgstr "לא ניתן למצוא את \"%s\"."
+
+#: src/nemo-window-manage-views.c:1735
+msgid "Please check the spelling and try again."
+msgstr "נא לבדוק איות ולנסות שוב."
+
+#: src/nemo-window-manage-views.c:1743
+#, c-format
+msgid "Nemo cannot handle \"%s\" locations."
+msgstr "‏נמו לא יכול לטפל ב־\"%s\" מיקומים."
+
+#: src/nemo-window-manage-views.c:1746
+msgid "Nemo cannot handle this kind of location."
+msgstr "‏נמו לא יכול לטפל בסוג מיקום זה."
+
+#: src/nemo-window-manage-views.c:1753
+msgid "Unable to mount the location."
+msgstr "לא ניתן לעגון מיקום."
+
+#: src/nemo-window-manage-views.c:1759
+msgid "Access was denied."
+msgstr "הגישה נדחתה."
+
+#. This case can be hit for user-typed strings like "foo" due to
+#. * the code that guesses web addresses when there's no initial "/".
+#. * But this case is also hit for legitimate web addresses when
+#. * the proxy is set up wrong.
+#. 
+#: src/nemo-window-manage-views.c:1768
+#, c-format
+msgid "Could not display \"%s\", because the host could not be found."
+msgstr "לא ניתן להציג את \"%s\", כיוון שהמארח לא נמצא."
+
+#: src/nemo-window-manage-views.c:1770
+msgid ""
+"Check that the spelling is correct and that your proxy settings are correct."
+msgstr "נא לבדוק איות ואת תקינות הגדרות המתווך."
+
+#: src/nemo-window-manage-views.c:1785
+#, c-format
+msgid ""
+"Error: %s\n"
+"Please select another viewer and try again."
+msgstr ""
+"שגיאה: %s\n"
+"נא לבחור במַשְׁקֵף אחר ולנסות שנית."
+
+#: src/nemo-window-menus.c:322
+msgid ""
+"Nemo is free software; you can redistribute it and/or modify it under the "
+"terms of the GNU General Public License as published by the Free Software "
+"Foundation; either version 2 of the License, or (at your option) any later "
+"version."
+msgstr ""
+"‏נמו היא תוכנה חופשית; ניתן להפיצה מחדש ו/או לשנותה בכפוף לתנאי הרישיון "
+"הציבורי הכללי של GNU כפי שפורסם על ידי קרן התוכנה החופשית; בין אם בגרסה 2 של "
+"הרישיון, או (לבחירה) בכל גרסה מאוחרת יותר."
+
+#: src/nemo-window-menus.c:326
+msgid ""
+"Nemo is distributed in the hope that it will be useful, but WITHOUT ANY "
+"WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS "
+"FOR A PARTICULAR PURPOSE.  See the GNU General Public License for more "
+"details."
+msgstr ""
+"‏נמו מופצת בתקווה שתהיה שימושית, אך ללא כל אחריות; אפילו ללא האחריות המשתמעת "
+"למסחריות או להתאמה לשימוש מסוים. לפרטים נוספים ניתן לעיין ברישיון הציבורי "
+"הכללי של GNU."
+
+#: src/nemo-window-menus.c:330
+msgid ""
+"You should have received a copy of the GNU General Public License along with "
+"Nemo; if not, write to the Free Software Foundation, Inc., 51 Franklin "
+"Street, Fifth Floor, Boston, MA 02110-1301 USA"
+msgstr ""
+"עותק של הרישיון הציבורי הכללי של גנו, אמור היה להתקבל יחד עם תוכנה זו. אם לא "
+"נתקבל, נא לכתוב לקרן התוכנה החופשית, רחוב פרנקלין 51, קומה חמישית, בוסטון, "
+"MA 02110-1301 ארה\"ב"
+
+#: src/nemo-window-menus.c:345
+msgid ""
+"Nemo lets you organize files and folders, both on your computer and online."
+msgstr "‏נמו מאפשר לארגן קבצים ותיקיות, הן במחשב והן ברשת."
+
+#: src/nemo-window-menus.c:406
+#, c-format
+msgid ""
+"There was an error displaying help: \n"
+"%s"
+msgstr ""
+"ארעה שגיאה בהצגת העזרה:  \n"
+"%s"
+
+#. name, stock id, label
+#: src/nemo-window-menus.c:1340
+msgid "_File"
+msgstr "_קובץ"
+
+#. name, stock id, label
+#: src/nemo-window-menus.c:1341
+msgid "_Edit"
+msgstr "_עריכה"
+
+#. name, stock id, label
+#: src/nemo-window-menus.c:1342
+msgid "_View"
+msgstr "_מצג"
+
+#. name, stock id, label
+#: src/nemo-window-menus.c:1343
+msgid "_Help"
+msgstr "_עזרה"
+
+#. name, stock id
+#. label, accelerator
+#: src/nemo-window-menus.c:1345
+msgid "_Close"
+msgstr "_סגירה"
+
+#. tooltip
+#: src/nemo-window-menus.c:1346
+msgid "Close this folder"
+msgstr "סגירת תיקייה זו"
+
+#: src/nemo-window-menus.c:1349
+msgid "Prefere_nces"
+msgstr "ה_עדפות"
+
+#: src/nemo-window-menus.c:1350
+msgid "Edit Nemo preferences"
+msgstr "עריכת העדפות נמו"
+
+#: src/nemo-window-menus.c:1353
+#: gresources/nemo-file-management-properties.glade:4151
+msgid "Plugins"
+msgstr "מתקעים"
+
+#: src/nemo-window-menus.c:1354
+msgid "Manage extensions, actions and scripts"
+msgstr "ניהול הרחבות, פעולות ותסריטים"
+
+#: src/nemo-window-menus.c:1358
+msgid "Undo the last text change"
+msgstr "החזרת שינוי מלל אחרון לקדמותו"
+
+#. name, stock id, label
+#: src/nemo-window-menus.c:1361
+msgid "Open _Parent"
+msgstr "פתיחת _אב"
+
+#: src/nemo-window-menus.c:1362
+msgid "Open the parent folder"
+msgstr "פתיחת תיקיית ההורה"
+
+#. tooltip
+#: src/nemo-window-menus.c:1369
+msgid "Stop loading the current location"
+msgstr "הפסקת טעינת המיקום הנוכחי"
+
+#. name, stock id
+#. label, accelerator
+#: src/nemo-window-menus.c:1372 src/nemo-window-menus.c:1627
+msgid "_Reload"
+msgstr "_טעינה מחודשת"
+
+#. tooltip
+#: src/nemo-window-menus.c:1373 src/nemo-window-menus.c:1629
+msgid "Reload the current location"
+msgstr "טעינה מחודשת של המיקום הנוכחי"
+
+#. name, stock id
+#. label, accelerator
+#: src/nemo-window-menus.c:1376
+msgid "_All Topics"
+msgstr "_כל הנושאים"
+
+#. tooltip
+#: src/nemo-window-menus.c:1377
+msgid "Display Nemo help"
+msgstr "הצגת עזרת נמו"
+
+#: src/nemo-window-menus.c:1380
+msgid "_Keyboard Shortcuts"
+msgstr "קיצורי _מקלדת"
+
+#: src/nemo-window-menus.c:1381
+msgid "Display keyboard shortcuts"
+msgstr "הצגת קיצורי מקלדת"
+
+#. * name, stock id          { "NemoHelpSearch", NULL,
+#. label, accelerator        N_("Search for files"), NULL,
+#. tooltip                   N_("Locate files based on file name and type. Save your searches for later use."),
+#. G_CALLBACK (action_nemo_manual_callback) },
+#. name, stock id          { "NemoHelpSort", NULL,
+#. label, accelerator        N_("Sort files and folders"), NULL,
+#. tooltip                   N_("Arrange files by name, size, type, or when they were changed."),
+#. G_CALLBACK (action_nemo_manual_callback) },
+#. name, stock id          { "NemoHelpLost", NULL,
+#. label, accelerator        N_("Find a lost file"), NULL,
+#. tooltip                   N_("Follow these tips if you can't find a file you created or downloaded."),
+#. G_CALLBACK (action_nemo_manual_callback) },
+#. name, stock id          { "NemoHelpShare", NULL,
+#. label, accelerator        N_("Share and transfer files"), NULL,
+#. tooltip                   N_("Easily transfer files to your contacts and devices from the file manager."),
+#. G_CALLBACK (action_nemo_manual_callback) }, *
+#. name, stock id
+#. label, accelerator
+#: src/nemo-window-menus.c:1400
+msgid "_About"
+msgstr "_אודות"
+
+#. tooltip
+#: src/nemo-window-menus.c:1401
+msgid "Display credits for the creators of Nemo"
+msgstr "הצגת מזכה ליוצרי נמו"
+
+#. name, stock id
+#. label, accelerator
+#: src/nemo-window-menus.c:1404
+msgid "Zoom _In"
+msgstr "התקרבות _לתצוגה"
+
+#. tooltip
+#: src/nemo-window-menus.c:1405
+msgid "Increase the view size"
+msgstr "הגדלת גודל התצוגה"
+
+#. name, stock id
+#. label, accelerator
+#: src/nemo-window-menus.c:1416
+msgid "Zoom _Out"
+msgstr "התרחקות _מהתצוגה"
+
+#. tooltip
+#: src/nemo-window-menus.c:1417
+msgid "Decrease the view size"
+msgstr "הקטנת גודל התצוגה"
+
+#. name, stock id
+#. label, accelerator
+#: src/nemo-window-menus.c:1424
+msgid "Normal Si_ze"
+msgstr "גודל ר_גיל"
+
+#. tooltip
+#: src/nemo-window-menus.c:1425
+msgid "Use the normal view size"
+msgstr "שימוש בגודל תצוגה רגיל"
+
+#. name, stock id
+#. label, accelerator
+#: src/nemo-window-menus.c:1428
+msgid "Connect to _Server..."
+msgstr "התחברות _לשרת..."
+
+#. tooltip
+#: src/nemo-window-menus.c:1429
+msgid "Connect to a remote computer or shared disk"
+msgstr "התחברות למחשב מרוחק או לכונן משותף"
+
+#. tooltip
+#: src/nemo-window-menus.c:1433
+msgid "Open your personal folder"
+msgstr "פתיחת התיקייה האישית שלי"
+
+#. name, stock id
+#. label, accelerator
+#: src/nemo-window-menus.c:1436 src/nemo-window-menus.c:1655
+msgid "_Computer"
+msgstr "_מחשב"
+
+#. tooltip
+#: src/nemo-window-menus.c:1437
+msgid ""
+"Browse all local and remote disks and folders accessible from this computer"
+msgstr "דפדוף בכל הכוננים והתיקיות המקומיים והמרוחקים הזמינים למחשב זה"
+
+#. name, stock id
+#. label, accelerator
+#: src/nemo-window-menus.c:1440
+msgid "_Network"
+msgstr "_רשת"
+
+#. tooltip
+#: src/nemo-window-menus.c:1441
+msgid "Browse bookmarked and local network locations"
+msgstr "דפדוף במיקומי רשת שבסימניות ומקומיים"
+
+#. name, stock id
+#. label, accelerator
+#: src/nemo-window-menus.c:1444
+msgid "T_emplates"
+msgstr "_תבניות"
+
+#. tooltip
+#: src/nemo-window-menus.c:1445
+msgid "Open your personal templates folder"
+msgstr "פתיחת תיקיית התבניות האישיות שלי"
+
+#. name, stock id
+#. label, accelerator
+#: src/nemo-window-menus.c:1448
+msgid "_Trash"
+msgstr "_סל־מחזור"
+
+#. tooltip
+#: src/nemo-window-menus.c:1449
+msgid "Open your personal trash folder"
+msgstr "פתיחת סל־המחזור האישי"
+
+#. name, stock id, label
+#: src/nemo-window-menus.c:1451
+msgid "_Go"
+msgstr "_מעבר"
+
+#. name, stock id, label
+#: src/nemo-window-menus.c:1452
+msgid "_Bookmarks"
+msgstr "_סימניות"
+
+#. name, stock id, label
+#: src/nemo-window-menus.c:1453
+msgid "_Tabs"
+msgstr "_לשוניות"
+
+#. name, stock id, label
+#: src/nemo-window-menus.c:1454
+msgid "New _Window"
+msgstr "_חלון חדש"
+
+#: src/nemo-window-menus.c:1455
+msgid "Open another Nemo window for the displayed location"
+msgstr "פתיחת חלון נמו נוסף למיקום המוצג"
+
+#. name, stock id, label
+#: src/nemo-window-menus.c:1457
+msgid "New _Tab"
+msgstr "_לשונית חדשה"
+
+#: src/nemo-window-menus.c:1458
+msgid "Open another tab for the displayed location"
+msgstr "פתיחת לשונית נוספת למיקום המוצג"
+
+#. name, stock id, label
+#: src/nemo-window-menus.c:1460
+msgid "Close _All Windows"
+msgstr "סגירת _כל החלונות"
+
+#: src/nemo-window-menus.c:1461
+msgid "Close all Navigation windows"
+msgstr "סגירת כל חלונות הניווט"
+
+#. name, stock id, label
+#: src/nemo-window-menus.c:1463 src/nemo-window-menus.c:1577
+msgid "_Back"
+msgstr "_אחורה"
+
+#: src/nemo-window-menus.c:1464 src/nemo-window-menus.c:1579
+msgid "Go to the previous visited location"
+msgstr "מעבר למיקום הקודם בו בקרתם"
+
+#. name, stock id, label
+#: src/nemo-window-menus.c:1466 src/nemo-window-menus.c:1593
+msgid "_Forward"
+msgstr "_קדימה"
+
+#: src/nemo-window-menus.c:1467 src/nemo-window-menus.c:1595
+msgid "Go to the next visited location"
+msgstr "מעבר למיקום הבא לביקור"
+
+#. name, stock id, label
+#: src/nemo-window-menus.c:1469
+msgid "Toggle _Location Entry"
+msgstr "חילוף _רשומת מיקום"
+
+# פירורי לחם או בשמו הלועזי breadcrumbs זהו מושג הנועד להגדיר צורת ניווט בתוך האתר, במילים אחרות אפשר להגדיר את זה כנתיב שגולש מסוים עבר עד שהגיע לדף שבו הוא נמצא, נהוג גם להשתמש במילה היסטוריית הגלישה באתר, אבל לדעתי זהו ביטוי מפוצץ מידי מכדי לעשות בו שימוש בהקשר הזה.
+# אם תהיתם מאיפה נלקח המושג "פירורי לחם" אז בהחלט מגיעות מחמאות למי שהטביע את הביטוי, כי אם התרגלנו למונחים טכניים ומשעממים, במקרה הזה הביטוי הגיע הישר מאגדת הילדים "עמי ותמי" שאם נחזיר אתכם קצת אחורה, הם בעצם יצרו לעצמם שביל של פירורי לחם במטרה לחזור הביתה לאחר שהאמא החורגת נטשה אותם ביער, במקרה שלהם זה פחות עבד וחיות היער אכלו את הפירורים, או שכן עבד כי כך הם הגיעו לבית הממתקים המפורסם.
+# '
+#: src/nemo-window-menus.c:1470
+msgid "Switch between location entry and breadcrumbs"
+msgstr "החלפה בין רשומת מיקום ל'פירורי לחם'"
+
+#. name, stock id, label
+#: src/nemo-window-menus.c:1472
+msgid "S_witch to Other Pane"
+msgstr "מעבר ל_חלונית אחרת"
+
+#: src/nemo-window-menus.c:1473
+msgid "Move focus to the other pane in a split view window"
+msgstr "העברת המיקוד לחלונית אחרת בחלון בתצוגה מפוצלת"
+
+#. name, stock id, label
+#: src/nemo-window-menus.c:1475
+msgid "Sa_me Location as Other Pane"
+msgstr "מיקום זהה לחלונית האחרת"
+
+#: src/nemo-window-menus.c:1476
+msgid "Go to the same location as in the extra pane"
+msgstr "מעבר לאותו המיקום כמו בחלונית הנוספת"
+
+#: src/nemo-window-menus.c:1479
+msgid "Add a bookmark for the current location to this menu"
+msgstr "הוספת סימניה למיקום הנוכחי לתפריט זה"
+
+#. name, stock id, label
+#: src/nemo-window-menus.c:1481
+msgid "_Edit Bookmarks..."
+msgstr "_עריכת סימניות..."
+
+#: src/nemo-window-menus.c:1482
+msgid "Display a window that allows editing the bookmarks in this menu"
+msgstr "הצגת חלון המאפשר לערוך את הסימניות בתפריט זה"
+
+#: src/nemo-window-menus.c:1484
+msgid "_Previous Tab"
+msgstr "לשונית _קודמת"
+
+#: src/nemo-window-menus.c:1485
+msgid "Activate previous tab"
+msgstr "שפעול לשונית קודמת"
+
+#: src/nemo-window-menus.c:1487
+msgid "_Next Tab"
+msgstr "לשונית _הבאה"
+
+#: src/nemo-window-menus.c:1488
+msgid "Activate next tab"
+msgstr "שפעול לשונית הבאה"
+
+#: src/nemo-window-menus.c:1490 src/nemo-window-pane.c:498
+msgid "Move Tab _Left"
+msgstr "העברת לשונית _שמאלה"
+
+#: src/nemo-window-menus.c:1491
+msgid "Move current tab to left"
+msgstr "העברת הלשונית הנוכחית שמאלה"
+
+#: src/nemo-window-menus.c:1493 src/nemo-window-pane.c:506
+msgid "Move Tab _Right"
+msgstr "העברת לשונית י_מינה"
+
+#: src/nemo-window-menus.c:1494
+msgid "Move current tab to right"
+msgstr "העברת הלשונית הנוכחית ימינה"
+
+#: src/nemo-window-menus.c:1496
+msgid "Sidebar"
+msgstr "סרגל צד"
+
+#. name, stock id
+#. label, accelerator
+#: src/nemo-window-menus.c:1501
+#: gresources/nemo-file-management-properties.glade:3880
+msgid "Show _Hidden Files"
+msgstr "הצגת קבצים _נסתרים"
+
+#. tooltip
+#: src/nemo-window-menus.c:1502
+msgid "Toggle the display of hidden files in the current window"
+msgstr "חילוף מצג קבצים מוסתרים בחלון הנוכחי"
+
+#. name, stock id
+#. label, accelerator
+#: src/nemo-window-menus.c:1506
+msgid "_Main Toolbar"
+msgstr "_סרגל כלים"
+
+#. tooltip
+#: src/nemo-window-menus.c:1507
+msgid "Change the visibility of this window's main toolbar"
+msgstr "שינוי נראות סרגל הכלים של חלון זה"
+
+#. is_active
+#. name, stock id
+#. label, accelerator
+#: src/nemo-window-menus.c:1511
+msgid "_Show Sidebar"
+msgstr "ה_צגת סרגל הצד"
+
+#. tooltip
+#: src/nemo-window-menus.c:1512
+msgid "Change the visibility of this window's side pane"
+msgstr "שינוי נראות החלונית בחלון צד זה"
+
+#. is_active
+#. name, stock id
+#. label, accelerator
+#: src/nemo-window-menus.c:1516
+msgid "St_atusbar"
+msgstr "שורת מ_צב"
+
+#. tooltip
+#: src/nemo-window-menus.c:1517
+msgid "Change the visibility of this window's statusbar"
+msgstr "שינוי נראות של סרגל המצב של חלון זה"
+
+#. is_active
+#. name, stock id
+#. label, accelerator
+#: src/nemo-window-menus.c:1521
+msgid "M_enubar"
+msgstr "ש_ורת תפריט"
+
+#. tooltip
+#: src/nemo-window-menus.c:1522
+msgid "Change the default visibility of the menubar"
+msgstr "שינוי נראות בררת המחדל של סרגל התפריטים"
+
+#. is_active
+#. name, stock id
+#. label, accelerator
+#: src/nemo-window-menus.c:1526
+msgid "_Search for Files..."
+msgstr "_חיפוש קבצים..."
+
+#. tooltip
+#: src/nemo-window-menus.c:1527 src/nemo-window-menus.c:1737
+msgid "Search documents and folders"
+msgstr "חיפוש מסמכים ותיקיות"
+
+#. is_active
+#. name, stock id
+#. label, accelerator
+#: src/nemo-window-menus.c:1531
+msgid "E_xtra Pane"
+msgstr "חלונית _נוספת"
+
+#. tooltip
+#: src/nemo-window-menus.c:1532
+msgid "Open an extra folder view side-by-side"
+msgstr "פתיחת תיקייה נוספת לצד הנוכחית"
+
+#. is_active
+#. name, stock id
+#. label, accelerator
+#: src/nemo-window-menus.c:1536
+msgid "Show _Thumbnails"
+msgstr "מצג _תמונות ממוזערות"
+
+#. tooltip
+#: src/nemo-window-menus.c:1537
+msgid "Toggle the display of thumbnails in the current directory"
+msgstr "הפעלת/כיבוי תצוגת התמונות הממוזערות בתיקייה הנוכחית"
+
+#: src/nemo-window-menus.c:1544
+msgid "Places"
+msgstr "מקומות"
+
+#: src/nemo-window-menus.c:1544
+msgid "Select Places as the default sidebar"
+msgstr "בחירת מיקומים כבררת המחדל לסרגל הצד"
+
+#: src/nemo-window-menus.c:1547
+msgid "Tree"
+msgstr "עץ"
+
+#: src/nemo-window-menus.c:1547
+msgid "Select Tree as the default sidebar"
+msgstr "בחירת העץ כבררת המחדל לסרגל הצד"
+
+#: src/nemo-window-menus.c:1580
+msgid "Back history"
+msgstr "היסטוריה קודמת"
+
+#: src/nemo-window-menus.c:1596 src/nemo-window-menus.c:1615
+msgid "Forward history"
+msgstr "היסטוריית קדימה"
+
+#: src/nemo-window-menus.c:1612 src/nemo-window-menus.c:1894
+msgid "_Up"
+msgstr "מ_עלה"
+
+#: src/nemo-window-menus.c:1614
+msgid "Go to parent folder"
+msgstr "מעבר לתיקיית האב"
+
+#: src/nemo-window-menus.c:1643
+msgid "Go to home directory"
+msgstr "מעבר לתיקיית הבית"
+
+#: src/nemo-window-menus.c:1657
+msgid "Go to Computer"
+msgstr "מעבר למחשב"
+
+#: src/nemo-window-menus.c:1669
+msgid "Toggle Location Entry"
+msgstr "חילוף רשומת מיקום"
+
+#: src/nemo-window-menus.c:1681
+#: gresources/nemo-file-management-properties.glade:3114
+msgid "New folder"
+msgstr "תיקייה חדשה"
+
+#: src/nemo-window-menus.c:1682
+msgid "Create a new folder"
+msgstr "יצירת תיקייה חדשה"
+
+#: src/nemo-window-menus.c:1692
+msgid "Open a terminal in the active folder"
+msgstr "פתיחת מסוף בתיקייה הפעילה"
+
+#: src/nemo-window-menus.c:1702
+msgid "Icons"
+msgstr "סמלים"
+
+#: src/nemo-window-menus.c:1713
+msgid "List"
+msgstr "רשימה"
+
+#: src/nemo-window-menus.c:1725
+msgid "Compact"
+msgstr "צמום"
+
+#: src/nemo-window-menus.c:1737 libnemo-private/nemo-query.c:189
+#: libnemo-private/nemo-search-directory-file.c:164
+#: libnemo-private/nemo-search-directory-file.c:190
+#: libnemo-private/nemo-search-directory-file.c:224
+#: gresources/nemo-file-management-properties.glade:3151
+msgid "Search"
+msgstr "חיפוש"
+
+#: src/nemo-window-menus.c:1746 src/nemo-window-menus.c:1747
+#: gresources/nemo-file-management-properties.glade:3299
+msgid "Show Thumbnails"
+msgstr "מצג תמונות ממוזערות"
+
+#: src/nemo-window-menus.c:1900
+msgid "_Location"
+msgstr "_מיקום"
+
+#: src/nemo-window-pane.c:481
+msgid "_New Tab"
+msgstr "_לשונית חדשה"
+
+#: src/nemo-window-pane.c:517
+msgid "_Close Tab"
+msgstr "_סגירת לשונית"
+
+#: src/nemo-window-slot.c:290
+msgid "No files found"
+msgstr "לא נמצאו קבצים"
+
+#: src/nemo-x-content-bar.c:97
+msgid "These files are on an Audio CD."
+msgstr "קבצים אלה הם על תקליטור שמע."
+
+#: src/nemo-x-content-bar.c:99
+msgid "These files are on an Audio DVD."
+msgstr "קבצים אלה הם על תקליטור DVD שמע."
+
+#: src/nemo-x-content-bar.c:101
+msgid "These files are on a Video DVD."
+msgstr "קבצים אלה הם על תקליטור DVD וידאו."
+
+#: src/nemo-x-content-bar.c:103
+msgid "These files are on a Video CD."
+msgstr "קבצים אלה הם על תקליטור וידאו."
+
+#: src/nemo-x-content-bar.c:105
+msgid "These files are on a Super Video CD."
+msgstr "קבצים אלה הם על תקליטור סופר-וידאו."
+
+#: src/nemo-x-content-bar.c:107
+msgid "These files are on a Photo CD."
+msgstr "קבצים אלה הם על תקליטור תמונות."
+
+#: src/nemo-x-content-bar.c:109
+msgid "These files are on a Picture CD."
+msgstr "קבצים אלו הם על CD תמונות."
+
+#: src/nemo-x-content-bar.c:111
+msgid "The media contains digital photos."
+msgstr "המדיה מכילה תמונות דיגיטליות."
+
+#: src/nemo-x-content-bar.c:113
+msgid "These files are on a digital audio player."
+msgstr "קבצים אילו הם על נגן שמע דיגיטלי."
+
+#: src/nemo-x-content-bar.c:115
+msgid "The media contains software."
+msgstr "המדיה מכילה תוכנה."
+
+#. fallback to generic greeting
+#: src/nemo-x-content-bar.c:118
+#, c-format
+msgid "The media has been detected as \"%s\"."
+msgstr "המדיה זוהתה כ-\"%s\"."
+
+#: src/nemo-x-content-bar.c:143
+#, c-format
+msgid "Open %s"
+msgstr "פתיחת %s"
+
+#. name, stock id
+#. label, accelerator
+#. tooltip
+#: libnemo-private/nemo-clipboard.c:433
+msgid "Cut the selected text to the clipboard"
+msgstr "גזירת המלל שנבחר ללוח הגזירים"
+
+#. name, stock id
+#. label, accelerator
+#. tooltip
+#: libnemo-private/nemo-clipboard.c:437
+msgid "Copy the selected text to the clipboard"
+msgstr "העתקת המלל שנבחר ללוח הגזירים"
+
+#. name, stock id
+#. label, accelerator
+#. tooltip
+#: libnemo-private/nemo-clipboard.c:441
+msgid "Paste the text stored on the clipboard"
+msgstr "הדבקת המלל השמור בלוח הגזירים"
+
+#. tooltip
+#: libnemo-private/nemo-clipboard.c:445
+msgid "Select all the text in a text field"
+msgstr "בחירת כול המלל בשדה מלל"
+
+#: libnemo-private/nemo-column-chooser.c:371
+msgid "Move _Up"
+msgstr "העברה _מעלה"
+
+#: libnemo-private/nemo-column-chooser.c:381
+msgid "Move Dow_n"
+msgstr "העברה מ_טה"
+
+#: libnemo-private/nemo-column-chooser.c:394
+msgid "Use De_fault"
+msgstr "שימוש _בבררת המחדל"
+
+#: libnemo-private/nemo-column-utilities.c:44
+msgid "The name and icon of the file."
+msgstr "שם וסמל הקובץ."
+
+#: libnemo-private/nemo-column-utilities.c:51
+msgid "The size of the file."
+msgstr "גודל הקובץ."
+
+#: libnemo-private/nemo-column-utilities.c:59
+msgid "The general type of the file."
+msgstr "הסוג הכללי של הקובץ."
+
+#: libnemo-private/nemo-column-utilities.c:65
+msgid "Detailed Type"
+msgstr "סוג מפורט"
+
+#: libnemo-private/nemo-column-utilities.c:66
+msgid "The specific type of the file."
+msgstr "הסוג היחודי של הקובץ."
+
+#: libnemo-private/nemo-column-utilities.c:73
+#: libnemo-private/nemo-column-utilities.c:80
+msgid "The date the file was modified."
+msgstr "תאריך שנוי הקובץ."
+
+#: libnemo-private/nemo-column-utilities.c:79
+msgid "Modified - Time"
+msgstr "זמן – שינוי"
+
+#: libnemo-private/nemo-column-utilities.c:88
+msgid "Date Created"
+msgstr "תאריך יצירה"
+
+#: libnemo-private/nemo-column-utilities.c:89
+#: libnemo-private/nemo-column-utilities.c:96
+msgid "The date the file was created."
+msgstr "תאריך יצירת הקובץ."
+
+#: libnemo-private/nemo-column-utilities.c:95
+msgid "Created - Time"
+msgstr "זמן – יצירה"
+
+#: libnemo-private/nemo-column-utilities.c:103
+msgid "Date Accessed"
+msgstr "תאריך גישה"
+
+#: libnemo-private/nemo-column-utilities.c:104
+msgid "The date the file was accessed."
+msgstr "התאריך בו ניגשו לקובץ."
+
+#: libnemo-private/nemo-column-utilities.c:111
+msgid "Owner"
+msgstr "בעלים"
+
+#: libnemo-private/nemo-column-utilities.c:112
+msgid "The owner of the file."
+msgstr "הבעלים של הקובץ."
+
+#: libnemo-private/nemo-column-utilities.c:119
+msgid "Group"
+msgstr "קבוצה"
+
+#: libnemo-private/nemo-column-utilities.c:120
+msgid "The group of the file."
+msgstr "הקבוצה של הקובץ."
+
+#: libnemo-private/nemo-column-utilities.c:128
+msgid "The permissions of the file."
+msgstr "ההרשאות הקובץ."
+
+#: libnemo-private/nemo-column-utilities.c:135
+msgid "Octal Permissions"
+msgstr "הרשאות אוקטליות"
+
+#: libnemo-private/nemo-column-utilities.c:136
+msgid "The permissions of the file, in octal notation."
+msgstr "ההרשאות קובץ, בסימן אוקטלי."
+
+#: libnemo-private/nemo-column-utilities.c:143
+msgid "MIME Type"
+msgstr "סוג MIME"
+
+#: libnemo-private/nemo-column-utilities.c:144
+msgid "The mime type of the file."
+msgstr "סוג MIME של הקובץ."
+
+#: libnemo-private/nemo-column-utilities.c:151
+msgid "SELinux Context"
+msgstr "הקשר SELinux"
+
+#: libnemo-private/nemo-column-utilities.c:152
+msgid "The SELinux security context of the file."
+msgstr "הקשר אבטחת SELinux של הקובץ."
+
+#: libnemo-private/nemo-column-utilities.c:160
+msgid "The location of the file."
+msgstr "מיקום הקובץ."
+
+#: libnemo-private/nemo-column-utilities.c:203
+msgid "Trashed On"
+msgstr "מועד העברה לסל־המחזור"
+
+#: libnemo-private/nemo-column-utilities.c:204
+msgid "Date when file was moved to the Trash"
+msgstr "תאריך העברת הקובץ לסל־המחזור"
+
+#: libnemo-private/nemo-column-utilities.c:210
+msgid "Original Location"
+msgstr "המיקום המקורי"
+
+#: libnemo-private/nemo-column-utilities.c:211
+msgid "Original location of file before moved to the Trash"
+msgstr "מיקום מקורי של הקובץ לפני שהועבר לסל־המחזור"
+
+#: libnemo-private/nemo-column-utilities.c:235
+msgid "Hits"
+msgstr "רמזים"
+
+#: libnemo-private/nemo-column-utilities.c:236
+msgid "How many times the search string appeared in the file"
+msgstr "מספר הפעמים שמחרוזת החיפוש הופיע בקובץ"
+
+#: libnemo-private/nemo-desktop-directory-file.c:459
+#: libnemo-private/nemo-desktop-icon-file.c:154
+msgid "on the desktop"
+msgstr "על שולחן העבודה"
+
+#: libnemo-private/nemo-desktop-link-monitor.c:89
+#, c-format
+msgid "You cannot move the volume \"%s\" to the trash."
+msgstr "לא ניתן להעביר כרך \"%s\" לסל־המחזור."
+
+#: libnemo-private/nemo-desktop-link-monitor.c:99
+msgid ""
+"If you want to eject the volume, please use \"Eject\" in the popup menu of "
+"the volume."
+msgstr "על מנת לשלוף את הכרך, נא להשתמש ב\"שליפה\" שבתפריט ההקשר של הכרך."
+
+#: libnemo-private/nemo-desktop-link-monitor.c:108
+msgid ""
+"If you want to unmount the volume, please use \"Unmount Volume\" in the "
+"popup menu of the volume."
+msgstr ""
+"על מנת לנתק את עגינת הכרך, נא להשתמש ב\"ניתוק עגינת כרך\" מתפריט ההקשר של "
+"הכרך."
+
+#: libnemo-private/nemo-dnd.c:869
+msgid "_Move Here"
+msgstr "_העברה לכאן"
+
+#: libnemo-private/nemo-dnd.c:874
+msgid "_Copy Here"
+msgstr "העתקה לכאן"
+
+#: libnemo-private/nemo-dnd.c:879
+msgid "_Link Here"
+msgstr "קישור לכאן"
+
+#: libnemo-private/nemo-dnd.c:886
+msgid "Cancel"
+msgstr "ביטול"
+
+#: libnemo-private/nemo-file.c:1253 libnemo-private/nemo-vfs-file.c:418
+msgid "This file cannot be mounted"
+msgstr "לא ניתן לעגון קובץ זה"
+
+#: libnemo-private/nemo-file.c:1298
+msgid "This file cannot be unmounted"
+msgstr "לא ניתן לנתק עגינת קובץ זה"
+
+#: libnemo-private/nemo-file.c:1332
+msgid "This file cannot be ejected"
+msgstr "לא ניתן לשלוף את הקובץ הזה"
+
+#: libnemo-private/nemo-file.c:1365 libnemo-private/nemo-vfs-file.c:596
+msgid "This file cannot be started"
+msgstr "לא ניתן לאתחל קובץ זה"
+
+#: libnemo-private/nemo-file.c:1417 libnemo-private/nemo-file.c:1448
+msgid "This file cannot be stopped"
+msgstr "לא ניתן לעצור קובץ זה"
+
+#: libnemo-private/nemo-file.c:1897
+msgid "Slashes are not allowed in filenames"
+msgstr "אין להשתמש בקו נטוי בשמות קבצים"
+
+#: libnemo-private/nemo-file.c:1915
+msgid "File not found"
+msgstr "קובץ לא נמצא"
+
+#: libnemo-private/nemo-file.c:1943
+msgid "Toplevel files cannot be renamed"
+msgstr "לא ניתן לשנות שם עבור קובצי רמה ראשונה"
+
+#: libnemo-private/nemo-file.c:1966
+msgid "Unable to rename desktop icon"
+msgstr "לא ניתן לשנות את שם סמל שולחן העבודה"
+
+#: libnemo-private/nemo-file.c:1995
+msgid "Unable to rename desktop file"
+msgstr "לא ניתן לשנות שם קובץ שולחן עבודה"
+
+#. Translators: Time in 24h format
+#: libnemo-private/nemo-file.c:5150
+msgid "%H:%M"
+msgstr "%H:%M"
+
+#. Translators: Time in 12h format
+#: libnemo-private/nemo-file.c:5153
+msgid "%l:%M %p"
+msgstr "%l:%M %p"
+
+#. Translators: this is the word Yesterday followed by
+#. * a time in 24h format. i.e. "Yesterday 23:04"
+#: libnemo-private/nemo-file.c:5166
+#, no-c-format
+msgid "Yesterday %H:%M"
+msgstr "אתמול ב־%H∶%M"
+
+#. Translators: this is the word Yesterday followed by
+#. * a time in 12h format. i.e. "Yesterday 9:04 PM"
+#: libnemo-private/nemo-file.c:5171
+#, no-c-format
+msgid "Yesterday %l:%M %p"
+msgstr "אתמול ב־%l∶%M %p"
+
+#: libnemo-private/nemo-file.c:5179
+#, no-c-format
+msgid "%A"
+msgstr "%A"
+
+#. Translators: this is the name of the week day followed by
+#. * a time in 24h format. i.e. "Monday 23:04"
+#: libnemo-private/nemo-file.c:5185
+#, no-c-format
+msgid "%A %H:%M"
+msgstr "%A %H:%M"
+
+#. Translators: this is the week day name followed by
+#. * a time in 12h format. i.e. "Monday 9:04 PM"
+#: libnemo-private/nemo-file.c:5190
+#, no-c-format
+msgid "%A %l:%M %p"
+msgstr "%A %l:%M %p"
+
+#. Translators: this is the day of the month followed
+#. * by the abbreviated month name i.e. "3 February"
+#: libnemo-private/nemo-file.c:5198
+#, no-c-format
+msgid "%-e %B"
+msgstr "%-e %B"
+
+#. Translators: this is the day of the month followed
+#. * by the abbreviated month name followed by a time in
+#. * 24h format i.e. "3 February 23:04"
+#: libnemo-private/nemo-file.c:5205
+#, no-c-format
+msgid "%-e %B %H:%M"
+msgstr "%-e %B %H:%M"
+
+#. Translators: this is the day of the month followed
+#. * by the abbreviated month name followed by a time in
+#. * 12h format i.e. "3 February 9:04"
+#: libnemo-private/nemo-file.c:5211
+#, no-c-format
+msgid "%-e %B %l:%M %p"
+msgstr "%-e %B %l:%M %p"
+
+#. Translators: this is the day of the month followed by the abbreviated
+#. * month name followed by the year i.e. "3 Feb 2015"
+#: libnemo-private/nemo-file.c:5219
+#, no-c-format
+msgid "%-e %b %Y"
+msgstr "%b %-e %Y"
+
+#. Translators: this is the day number followed
+#. * by the abbreviated month name followed by the year followed
+#. * by a time in 24h format i.e. "3 Feb 2015 23:04"
+#: libnemo-private/nemo-file.c:5226
+#, no-c-format
+msgid "%-e %b %Y %H:%M"
+msgstr "%-e %b %Y %H:%M"
+
+#. Translators: this is the day number followed
+#. * by the abbreviated month name followed by the year followed
+#. * by a time in 12h format i.e. "3 Feb 2015 9:04 PM"
+#: libnemo-private/nemo-file.c:5232
+#, no-c-format
+msgid "%-e %b %Y %l:%M %p"
+msgstr "%-e %b %Y %l:%M %p"
+
+#: libnemo-private/nemo-file.c:5242
+#, no-c-format
+msgid "%c"
+msgstr "%c"
+
+#: libnemo-private/nemo-file.c:5690
+msgid "Not allowed to set permissions"
+msgstr "אין רשות להגדרת הרשאות"
+
+#: libnemo-private/nemo-file.c:5985
+msgid "Not allowed to set owner"
+msgstr "אין הרשאה להגדרת הבעלים"
+
+#: libnemo-private/nemo-file.c:6003
+#, c-format
+msgid "Specified owner '%s' doesn't exist"
+msgstr "הבעלים שצוינו '%s' לא קיימים"
+
+#: libnemo-private/nemo-file.c:6267
+msgid "Not allowed to set group"
+msgstr "לא מורשה לקבוע את הקבוצה"
+
+#: libnemo-private/nemo-file.c:6285
+#, c-format
+msgid "Specified group '%s' doesn't exist"
+msgstr "הקבוצה '%s' שצוינה לא קיימת"
+
+#: libnemo-private/nemo-file.c:6443
+#, c-format
+msgid "%'u folder"
+msgid_plural "%'u folders"
+msgstr[0] "תיקייה %'u"
+msgstr[1] "%'u תיקיות"
+
+#: libnemo-private/nemo-file.c:6444
+#, c-format
+msgid "%'u file"
+msgid_plural "%'u files"
+msgstr[0] "קובץ %'u"
+msgstr[1] "%'u קבצים"
+
+#. This means no contents at all were readable
+#: libnemo-private/nemo-file.c:6887 libnemo-private/nemo-file.c:6903
+msgid "? items"
+msgstr "? פריטים"
+
+#. This means no contents at all were readable
+#: libnemo-private/nemo-file.c:6893
+msgid "? bytes"
+msgstr "? בתים"
+
+#: libnemo-private/nemo-file.c:6910
+msgid "Unknown"
+msgstr "לא ידוע"
+
+#: libnemo-private/nemo-file.c:6963 libnemo-private/nemo-file.c:6971
+#: libnemo-private/nemo-file.c:7019
+msgid "Program"
+msgstr "תכנית"
+
+#: libnemo-private/nemo-file.c:6964
+msgid "Audio"
+msgstr "שמע"
+
+#: libnemo-private/nemo-file.c:6965
+msgid "Font"
+msgstr "גופן"
+
+#: libnemo-private/nemo-file.c:6967
+msgid "Archive"
+msgstr "ארכיב"
+
+#: libnemo-private/nemo-file.c:6968
+msgid "Markup"
+msgstr "שפת סימון"
+
+#: libnemo-private/nemo-file.c:6969 libnemo-private/nemo-file.c:6970
+#: eel/eel-editable-label.c:319
+msgid "Text"
+msgstr "מלל"
+
+#: libnemo-private/nemo-file.c:6972
+msgid "Video"
+msgstr "וידאו"
+
+#: libnemo-private/nemo-file.c:6973
+msgid "Contacts"
+msgstr "אנשי קשר"
+
+#: libnemo-private/nemo-file.c:6974
+msgid "Calendar"
+msgstr "לוח שנה"
+
+#: libnemo-private/nemo-file.c:6975
+msgid "Document"
+msgstr "מסמך"
+
+#: libnemo-private/nemo-file.c:6976
+msgid "Presentation"
+msgstr "מצגת"
+
+#: libnemo-private/nemo-file.c:6977
+msgid "Spreadsheet"
+msgstr "גיליון נתונים"
+
+#: libnemo-private/nemo-file.c:7021
+#: gresources/nemo-file-management-properties.glade:150
+msgid "Binary"
+msgstr "בינארי"
+
+#: libnemo-private/nemo-file.c:7025
+msgid "Folder"
+msgstr "תיקייה"
+
+#: libnemo-private/nemo-file.c:7060
+msgid "link"
+msgstr "קישור"
+
+#: libnemo-private/nemo-file.c:7082 libnemo-private/nemo-file.c:7096
+msgid "link (broken)"
+msgstr "קישור (שבור)"
+
+#: libnemo-private/nemo-file.c:8064
+#, c-format
+msgid "Name: %s"
+msgstr "שם: %s"
+
+#: libnemo-private/nemo-file.c:8071
+#, c-format
+msgid "Type: %s"
+msgstr "סוג: %s"
+
+#: libnemo-private/nemo-file.c:8081
+#, c-format
+msgid "%s item"
+msgid_plural "%s items"
+msgstr[0] "פריט %s"
+msgstr[1] "פריטים %s"
+
+#: libnemo-private/nemo-file.c:8083
+#, c-format
+msgid "Contains: %s"
+msgstr "תְּכוּלָה: %s"
+
+#: libnemo-private/nemo-file.c:8093
+#, c-format
+msgid "Size: %s"
+msgstr "גודל: %s"
+
+#: libnemo-private/nemo-file.c:8101
+#, c-format
+msgid "Accessed: %s"
+msgstr "גישה: %s"
+
+#: libnemo-private/nemo-file.c:8109
+#, c-format
+msgid "Modified: %s"
+msgstr "שונה: %s"
+
+#: libnemo-private/nemo-file.c:8117
+#, c-format
+msgid "Created: %s"
+msgstr "יצירה: %s"
+
+#: libnemo-private/nemo-file.c:8127
+#, c-format
+msgid "Location: %s"
+msgstr "_מיקום: %s"
+
+#: libnemo-private/nemo-file-conflict-dialog.c:145
+#, c-format
+msgid "Merge folder \"%s\"?"
+msgstr "האם למזג את התיקייה \"%s\"?"
+
+#: libnemo-private/nemo-file-conflict-dialog.c:149
+msgid ""
+"Merging will ask for confirmation before replacing any files in the folder "
+"that conflict with the files being copied."
+msgstr ""
+"תהליך המיזוג יבקש אישור, לפני החלפת קבצים כלשהם בקבצים מועתקים מתנגשים."
+
+#: libnemo-private/nemo-file-conflict-dialog.c:154
+#, c-format
+msgid "An older folder with the same name already exists in \"%s\"."
+msgstr "תיקייה ישנה יותר בעלת שם זהה קיימת ב־\"%s\"."
+
+#: libnemo-private/nemo-file-conflict-dialog.c:158
+#, c-format
+msgid "A newer folder with the same name already exists in \"%s\"."
+msgstr "תיקייה חדשה יותר בעלת שם זהה קיימת ב־\"%s\"."
+
+#: libnemo-private/nemo-file-conflict-dialog.c:162
+#, c-format
+msgid "Another folder with the same name already exists in \"%s\"."
+msgstr "תיקייה אחרת בעלת שם זהה קיימת ב־\"%s\"."
+
+#: libnemo-private/nemo-file-conflict-dialog.c:167
+msgid "Replacing it will remove all files in the folder."
+msgstr "החלפה, תסיר את כל הקבצים בתיקייה."
+
+#: libnemo-private/nemo-file-conflict-dialog.c:169
+#, c-format
+msgid "Replace folder \"%s\"?"
+msgstr "האם להחליף את התיקייה \"%s\"?"
+
+#: libnemo-private/nemo-file-conflict-dialog.c:171
+#, c-format
+msgid "A folder with the same name already exists in \"%s\"."
+msgstr "תיקייה בעלת שם זהה קיימת ב־\"%s\"."
+
+#: libnemo-private/nemo-file-conflict-dialog.c:176
+#, c-format
+msgid "Replace file \"%s\"?"
+msgstr "האם להחליף את הקובץ \"%s\"?"
+
+#: libnemo-private/nemo-file-conflict-dialog.c:178
+msgid "Replacing it will overwrite its content."
+msgstr "החלפה תשכתב את התְּכוּלָה."
+
+#: libnemo-private/nemo-file-conflict-dialog.c:182
+#, c-format
+msgid "An older file with the same name already exists in \"%s\"."
+msgstr "קובץ ישן יותר בעל שם זהה קיים ב־\"%s\"."
+
+#: libnemo-private/nemo-file-conflict-dialog.c:186
+#, c-format
+msgid "A newer file with the same name already exists in \"%s\"."
+msgstr "קובץ חדש יותר בעל שם זהה קיים ב־\"%s\"."
+
+#: libnemo-private/nemo-file-conflict-dialog.c:190
+#, c-format
+msgid "Another file with the same name already exists in \"%s\"."
+msgstr "קובץ אחר בעל שם זהה קיים ב־\"%s\"."
+
+#: libnemo-private/nemo-file-conflict-dialog.c:268
+msgid "Original file"
+msgstr "הקובץ המקורי"
+
+#: libnemo-private/nemo-file-conflict-dialog.c:275
+#: libnemo-private/nemo-file-conflict-dialog.c:307
+msgid "Last modified:"
+msgstr "שונה לאחרונה:"
+
+#: libnemo-private/nemo-file-conflict-dialog.c:300
+msgid "Replace with"
+msgstr "החלפה ב־"
+
+#: libnemo-private/nemo-file-conflict-dialog.c:329
+msgid "Merge"
+msgstr "מיזוג"
+
+#. Setup the expander for the rename action
+#: libnemo-private/nemo-file-conflict-dialog.c:522
+msgid "_Select a new name for the destination"
+msgstr "יש ל_בחור בשם חדש עבור היעד"
+
+#: libnemo-private/nemo-file-conflict-dialog.c:536
+msgid "Reset"
+msgstr "איתחול"
+
+#. Setup the checkbox to apply the action to all files
+#: libnemo-private/nemo-file-conflict-dialog.c:548
+msgid "Apply this action to all files"
+msgstr "החלת הפעולה על כול הקבצים"
+
+#: libnemo-private/nemo-file-conflict-dialog.c:559
+#: libnemo-private/nemo-file-operations.c:198
+msgid "_Skip"
+msgstr "_דילוג"
+
+#: libnemo-private/nemo-file-conflict-dialog.c:570
+msgid "Re_name"
+msgstr "שינוי _שם"
+
+#: libnemo-private/nemo-file-conflict-dialog.c:576
+msgid "Replace"
+msgstr "החלפה"
+
+#: libnemo-private/nemo-file-conflict-dialog.c:648
+msgid "File conflict"
+msgstr "התנגשות קובץ"
+
+#: libnemo-private/nemo-file-operations.c:199
+msgid "S_kip All"
+msgstr "דילוג על ה_כול"
+
+#: libnemo-private/nemo-file-operations.c:200
+msgid "_Retry"
+msgstr "_ניסיון חוזר"
+
+#: libnemo-private/nemo-file-operations.c:201
+msgid "Delete _All"
+msgstr "מחיקת ה_כול"
+
+#: libnemo-private/nemo-file-operations.c:202
+msgid "_Replace"
+msgstr "ה_חלפה"
+
+#: libnemo-private/nemo-file-operations.c:203
+msgid "Replace _All"
+msgstr "החלפת ה_כול"
+
+#: libnemo-private/nemo-file-operations.c:204
+msgid "_Merge"
+msgstr "מי_זוג"
+
+#: libnemo-private/nemo-file-operations.c:205
+msgid "Merge _All"
+msgstr "למ_זג הכול"
+
+#: libnemo-private/nemo-file-operations.c:206
+msgid "Copy _Anyway"
+msgstr "להעתיק _בכל זאת"
+
+#: libnemo-private/nemo-file-operations.c:297
+#, c-format
+msgid "%'d second"
+msgid_plural "%'d seconds"
+msgstr[0] "שנייה %'d"
+msgstr[1] "%'d שניות"
+
+#: libnemo-private/nemo-file-operations.c:302
+#: libnemo-private/nemo-file-operations.c:313
+#, c-format
+msgid "%'d minute"
+msgid_plural "%'d minutes"
+msgstr[0] "דקה %'d"
+msgstr[1] "%'d דקות"
+
+#: libnemo-private/nemo-file-operations.c:312
+#, c-format
+msgid "%'d hour"
+msgid_plural "%'d hours"
+msgstr[0] "שעה %'d"
+msgstr[1] "%'d שעות"
+
+#: libnemo-private/nemo-file-operations.c:320
+#, c-format
+msgid "approximately %'d hour"
+msgid_plural "approximately %'d hours"
+msgstr[0] "שעה %'d בקירוב"
+msgstr[1] "בקירוב %'d שעות"
+
+#. appended to new link file
+#: libnemo-private/nemo-file-operations.c:400
+#, c-format
+msgid "Another link to %s"
+msgstr "קישור נוסף ל-%s"
+
+#. Localizers: Feel free to leave out the "st" suffix
+#. * if there's no way to do that nicely for a
+#. * particular language.
+#. 
+#: libnemo-private/nemo-file-operations.c:416
+#, c-format
+msgid "%'dst link to %s"
+msgstr "קישור מספר %'d ל-%s"
+
+#. appended to new link file
+#: libnemo-private/nemo-file-operations.c:420
+#, c-format
+msgid "%'dnd link to %s"
+msgstr "קישור מספר %'d ל-%s"
+
+#. appended to new link file
+#: libnemo-private/nemo-file-operations.c:424
+#, c-format
+msgid "%'drd link to %s"
+msgstr "קישור מספר %'d ל-%s"
+
+#. appended to new link file
+#: libnemo-private/nemo-file-operations.c:428
+#, c-format
+msgid "%'dth link to %s"
+msgstr "קישור מספר %'d ל-%s"
+
+#. Localizers:
+#. * Feel free to leave out the st, nd, rd and th suffix or
+#. * make some or all of them match.
+#. 
+#. localizers: tag used to detect the first copy of a file
+#: libnemo-private/nemo-file-operations.c:467
+msgid " (copy)"
+msgstr " (העתקה)"
+
+#. localizers: tag used to detect the second copy of a file
+#: libnemo-private/nemo-file-operations.c:469
+msgid " (another copy)"
+msgstr " (עותק נוסף)"
+
+#. localizers: tag used to detect the x11th copy of a file
+#. localizers: tag used to detect the x12th copy of a file
+#. localizers: tag used to detect the x13th copy of a file
+#. localizers: tag used to detect the xxth copy of a file
+#: libnemo-private/nemo-file-operations.c:472
+#: libnemo-private/nemo-file-operations.c:474
+#: libnemo-private/nemo-file-operations.c:476
+#: libnemo-private/nemo-file-operations.c:486
+msgid "th copy)"
+msgstr ")"
+
+#. localizers: tag used to detect the x1st copy of a file
+#: libnemo-private/nemo-file-operations.c:479
+msgid "st copy)"
+msgstr ")"
+
+#. localizers: tag used to detect the x2nd copy of a file
+#: libnemo-private/nemo-file-operations.c:481
+msgid "nd copy)"
+msgstr ")"
+
+#. localizers: tag used to detect the x3rd copy of a file
+#: libnemo-private/nemo-file-operations.c:483
+msgid "rd copy)"
+msgstr ")"
+
+#. localizers: appended to first file copy
+#: libnemo-private/nemo-file-operations.c:500
+#, c-format
+msgid "%s (copy)%s"
+msgstr "%s (עותק)%s"
+
+#. localizers: appended to second file copy
+#: libnemo-private/nemo-file-operations.c:502
+#, c-format
+msgid "%s (another copy)%s"
+msgstr "%s (עותק נוסף)%s"
+
+#. localizers: appended to x11th file copy
+#. localizers: appended to x12th file copy
+#. localizers: appended to x13th file copy
+#. localizers: appended to xxth file copy
+#: libnemo-private/nemo-file-operations.c:505
+#: libnemo-private/nemo-file-operations.c:507
+#: libnemo-private/nemo-file-operations.c:509
+#: libnemo-private/nemo-file-operations.c:523
+#, c-format
+msgid "%s (%'dth copy)%s"
+msgstr "%s (עותק מס׳ %'d)%s"
+
+#. localizers: if in your language there's no difference between 1st, 2nd, 3rd and nth
+#. * plurals, you can leave the st, nd, rd suffixes out and just make all the translated
+#. * strings look like "%s (copy %'d)%s".
+#. 
+#. localizers: appended to x1st file copy
+#: libnemo-private/nemo-file-operations.c:517
+#, c-format
+msgid "%s (%'dst copy)%s"
+msgstr "%s (עותק מס׳ %'d)%s"
+
+#. localizers: appended to x2nd file copy
+#: libnemo-private/nemo-file-operations.c:519
+#, c-format
+msgid "%s (%'dnd copy)%s"
+msgstr "%s (עותק מס׳ %'d)%s"
+
+#. localizers: appended to x3rd file copy
+#: libnemo-private/nemo-file-operations.c:521
+#, c-format
+msgid "%s (%'drd copy)%s"
+msgstr "%s (עותק מס׳ %'d)%s"
+
+#. localizers: opening parentheses to match the "th copy)" string
+#: libnemo-private/nemo-file-operations.c:622
+msgid " ("
+msgstr " ("
+
+#. localizers: opening parentheses of the "th copy)" string
+#: libnemo-private/nemo-file-operations.c:630
+#, c-format
+msgid " (%'d"
+msgstr " (%'d"
+
+#: libnemo-private/nemo-file-operations.c:1000
+#, c-format
+msgid "Error removing file: %s"
+msgstr "שגיאה במחיקת קובץ: %s"
+
+#: libnemo-private/nemo-file-operations.c:1055
+#, c-format
+msgid "Waiting to copy a file from '%1$s' to '%2$s'"
+msgid_plural "Waiting to copy files from '%1$s' to '%2$s'"
+msgstr[0] "המתנה להעתקת קובץ מ-'%1$s' אל '%2$s'"
+msgstr[1] "המתנה להעתיק קבצים מ-'%1$s' אל '%2$s'"
+
+#: libnemo-private/nemo-file-operations.c:1064
+#, c-format
+msgid "Waiting to move a file from '%1$s' to '%2$s'"
+msgid_plural "Waiting to move files from '%1$s' to '%2$s'"
+msgstr[0] "המתנה להעברת קובץ מ־'%1$s' אל '%2$s'"
+msgstr[1] "המתנה להעברת קבצים מ־'%1$s' אל '%2$s'"
+
+#: libnemo-private/nemo-file-operations.c:1072
+#, c-format
+msgid "Waiting to permanently delete a file from '%s'"
+msgid_plural "Waiting to permanently delete files from '%s'"
+msgstr[0] "המתנה למחיקת קובץ מ-'%s' לצמיתות"
+msgstr[1] "המתנה למחיקה לצמיתות של קבצים מ-'%s'"
+
+#: libnemo-private/nemo-file-operations.c:1080
+#, c-format
+msgid "Waiting to trash a file in '%s'"
+msgid_plural "Waiting to trash files in '%s'"
+msgstr[0] "המתנה להעברת קובץ לסל־המחזור ב־\"%s\""
+msgstr[1] "המתנה להעברת קבצים לסל־המחזור ב־\"%s\""
+
+#: libnemo-private/nemo-file-operations.c:1086
+msgid "Waiting to empty the trash"
+msgstr "המתנה לריקון סל־המחזור"
+
+#: libnemo-private/nemo-file-operations.c:1092
+#, c-format
+msgid "Waiting to duplicate a file in '%s'"
+msgid_plural "Waiting to duplicate files in '%s'"
+msgstr[0] "המתנה לשכפול קובץ ב־'%s'"
+msgstr[1] "המתנה לשכפול קבצים ב-'%s'"
+
+#: libnemo-private/nemo-file-operations.c:1100
+#, c-format
+msgid "Waiting to change permissions of files in '%s'"
+msgstr "המתנה לשינוי הרשאות גישה של קבצים ב־'%s'"
+
+#: libnemo-private/nemo-file-operations.c:1106
+#, c-format
+msgid "Waiting to link a file from '%1$s' to '%2$s'"
+msgid_plural "Waiting to link files from '%1$s' to '%2$s'"
+msgstr[0] "המתנה לקשור קובץ מ-'%1$s' אל '%2$s'"
+msgstr[1] "המתנה לקשר קבצים מ-'%1$s' אל '%2$s'"
+
+#: libnemo-private/nemo-file-operations.c:1531
+msgid "Are you sure you want to move \"%B\" to the trash?"
+msgstr "האם להעביר \"%B\" לסל־המחזור?"
+
+#. translators: the singular form here can be skipped.
+#: libnemo-private/nemo-file-operations.c:1535
+#, c-format
+msgid "unused %'d"
+msgid_plural ""
+"Are you sure you want to move the %'d selected items to the trash?"
+msgstr[0] "%'d לא בשימוש"
+msgstr[1] "האם להעביר את  %'d הפריטים שנבחרו לסל־המחזור?"
+
+#: libnemo-private/nemo-file-operations.c:1544
+msgid ""
+"You can restore an item from the trash, if you later change your mind."
+msgstr "ניתן להתחרט ולשחזר פריטים מסל־המחזור."
+
+#: libnemo-private/nemo-file-operations.c:1547
+msgid "Move to _Trash"
+msgstr "הע_ברה לסל־המחזור"
+
+#: libnemo-private/nemo-file-operations.c:1580
+msgid "Are you sure you want to permanently delete \"%B\" from the trash?"
+msgstr "למחוק את \"%B\" מסל־המחזור לצמיתות?"
+
+#: libnemo-private/nemo-file-operations.c:1583
+#, c-format
+msgid ""
+"Are you sure you want to permanently delete the %'d selected item from the "
+"trash?"
+msgid_plural ""
+"Are you sure you want to permanently delete the %'d selected items from the "
+"trash?"
+msgstr[0] "האם למחוק פריט %'d  שנבחר מסל־המחזור לצמיתות?"
+msgstr[1] "האם למחוק %'d פריטים שנבחרו מסל־המחזור לצמיתות?"
+
+#: libnemo-private/nemo-file-operations.c:1593
+#: libnemo-private/nemo-file-operations.c:1659
+msgid "If you delete an item, it will be permanently lost."
+msgstr "כאשר מוחקים פריט, הוא יאבד לצמיתות."
+
+#: libnemo-private/nemo-file-operations.c:1613
+msgid "Empty all items from Trash?"
+msgstr "האם לרוקן את כל הפריטים מסל־המחזור?"
+
+#: libnemo-private/nemo-file-operations.c:1617
+msgid "All items in the Trash will be permanently deleted."
+msgstr "כל הפריטים בסל־המחזור יימחקו לצמיתות."
+
+#: libnemo-private/nemo-file-operations.c:1647
+msgid "Are you sure you want to permanently delete \"%B\"?"
+msgstr "האם למחוק לצמיתות את \"%B\"?"
+
+#: libnemo-private/nemo-file-operations.c:1650
+#, c-format
+msgid "Are you sure you want to permanently delete the %'d selected item?"
+msgid_plural ""
+"Are you sure you want to permanently delete the %'d selected items?"
+msgstr[0] "האם למחוק לצמיתות את הפריט ה־%'d שנבחר?"
+msgstr[1] "האם למחוק לצמיתות את %'d הפריטים שנבחרו?"
+
+#: libnemo-private/nemo-file-operations.c:1693
+#, c-format
+msgid "%'d file left to delete"
+msgid_plural "%'d files left to delete"
+msgstr[0] "נשאר קובץ %'d למחיקה"
+msgstr[1] "נשארו %'d קבצים למחיקה"
+
+#: libnemo-private/nemo-file-operations.c:1699
+msgid "Deleting files"
+msgstr "מחיקת קבצים"
+
+#. To translators: %T will expand to a time like "2 minutes".
+#. * The singular/plural form will be used depending on the remaining time (i.e. the %T argument).
+#. 
+#: libnemo-private/nemo-file-operations.c:1713
+msgid "%T left"
+msgid_plural "%T left"
+msgstr[0] "נותרה %T"
+msgstr[1] "%T נותרו"
+
+#: libnemo-private/nemo-file-operations.c:1780
+#: libnemo-private/nemo-file-operations.c:1814
+#: libnemo-private/nemo-file-operations.c:1853
+#: libnemo-private/nemo-file-operations.c:1947
+#: libnemo-private/nemo-file-operations.c:2824
+msgid "Error while deleting."
+msgstr "שגיאה במהלך מחיקה."
+
+#: libnemo-private/nemo-file-operations.c:1784
+msgid ""
+"Files in the folder \"%B\" cannot be deleted because you do not have "
+"permissions to see them."
+msgstr "לא ניתן למחוק קבצים מתיקייה \"%B\" מאחר ואין הרשאות צפיה."
+
+#: libnemo-private/nemo-file-operations.c:1787
+#: libnemo-private/nemo-file-operations.c:2884
+#: libnemo-private/nemo-file-operations.c:3892
+msgid ""
+"There was an error getting information about the files in the folder \"%B\"."
+msgstr "ארעה שגיאה בקבלת מידע אודות הקבצים בתיקייה \"%B\"."
+
+#: libnemo-private/nemo-file-operations.c:1796
+#: libnemo-private/nemo-file-operations.c:3901
+msgid "_Skip files"
+msgstr "_דילוג על הקבצים"
+
+#: libnemo-private/nemo-file-operations.c:1817
+msgid ""
+"The folder \"%B\" cannot be deleted because you do not have permissions to "
+"read it."
+msgstr "לא ניתן למחוק את תיקייה \"%B\" מאחר ואין הרשאות קריאה."
+
+#: libnemo-private/nemo-file-operations.c:1820
+#: libnemo-private/nemo-file-operations.c:2923
+#: libnemo-private/nemo-file-operations.c:3937
+msgid "There was an error reading the folder \"%B\"."
+msgstr "חלה שגיאה בקריאת תיקיית \"%B\"."
+
+#: libnemo-private/nemo-file-operations.c:1854
+msgid "Could not remove the folder %B."
+msgstr "לא ניתן להסיר תיקייה \"%B\"."
+
+#: libnemo-private/nemo-file-operations.c:1948
+msgid "There was an error deleting %B."
+msgstr "ארעה שגיאה בעת מחיקת %B."
+
+#: libnemo-private/nemo-file-operations.c:2028
+msgid "Moving files to trash"
+msgstr "העברת קבצים לסל־המחזור"
+
+#: libnemo-private/nemo-file-operations.c:2030
+#, c-format
+msgid "%'d file left to trash"
+msgid_plural "%'d files left to trash"
+msgstr[0] "נותר קובץ %'d בסל־המחזור"
+msgstr[1] "נותרו %'d קבצים בסל־המחזור"
+
+#: libnemo-private/nemo-file-operations.c:2081
+msgid "Cannot move file to trash, do you want to delete immediately?"
+msgstr "לא ניתן להעביר קובץ לסל־המחזור, האם למחוק אותו מייד?"
+
+#: libnemo-private/nemo-file-operations.c:2082
+msgid "The file \"%B\" cannot be moved to the trash."
+msgstr "לא ניתן להעביר קובץ \"%B\" לסל־המחזור."
+
+#: libnemo-private/nemo-file-operations.c:2301
+msgid "Trashing Files"
+msgstr "הקבצים מועברים לסל־המחזור"
+
+#: libnemo-private/nemo-file-operations.c:2303
+msgid "Deleting Files"
+msgstr "מחיקת קבצים"
+
+#: libnemo-private/nemo-file-operations.c:2386
+msgid "Unable to eject %V"
+msgstr "לא ניתן לשלוף את %V"
+
+#: libnemo-private/nemo-file-operations.c:2388
+msgid "Unable to unmount %V"
+msgstr "לא ניתן לנתק עגינת %V"
+
+#: libnemo-private/nemo-file-operations.c:2545
+msgid "Do you want to empty the trash before you unmount?"
+msgstr "האם לרוקן את לסל־המחזור לפני ניתוק עגינה?"
+
+#: libnemo-private/nemo-file-operations.c:2547
+msgid ""
+"In order to regain the free space on this volume the trash must be emptied. "
+"All trashed items on the volume will be permanently lost."
+msgstr ""
+"כדי לפנות מקום בכרך זה יש לרוקן את האשפה. כל הפריטים שהושלכו לאשפה יימחקו "
+"לצמיתות."
+
+#: libnemo-private/nemo-file-operations.c:2553
+msgid "Do _not Empty Trash"
+msgstr "לא _לרוקן סל־מחזור"
+
+#: libnemo-private/nemo-file-operations.c:2683
+#, c-format
+msgid "Unable to mount %s"
+msgstr "לא ניתן לעגון את %s"
+
+#: libnemo-private/nemo-file-operations.c:2765
+#, c-format
+msgid "Preparing to copy %'d file (%S)"
+msgid_plural "Preparing to copy %'d files (%S)"
+msgstr[0] "הכנה להעתקת %'d קובץ (%S)"
+msgstr[1] "קבצים  %'d בהכנה להעתקה  (%S)"
+
+#: libnemo-private/nemo-file-operations.c:2771
+#, c-format
+msgid "Preparing to move %'d file (%S)"
+msgid_plural "Preparing to move %'d files (%S)"
+msgstr[0] "הכנה להעברת קובץ %'d (%S)"
+msgstr[1] "קבצי  %'d בהכנה להעברה  (%S)"
+
+#: libnemo-private/nemo-file-operations.c:2777
+#, c-format
+msgid "Preparing to delete %'d file (%S)"
+msgid_plural "Preparing to delete %'d files (%S)"
+msgstr[0] "הכנה להעתקת קובץ %'d בהכנה למחיקה (%S)"
+msgstr[1] "קבצי  %'d בהכנה למחיקה  (%S)"
+
+#: libnemo-private/nemo-file-operations.c:2784
+#, c-format
+msgid "Preparing to trash %'d file"
+msgid_plural "Preparing to trash %'d files"
+msgstr[0] "הכנות להעברת קובץ %d לסל־המחזור"
+msgstr[1] "הכנות להעברת %'d קבצים לסל־המחזור"
+
+#: libnemo-private/nemo-file-operations.c:2820
+#: libnemo-private/nemo-file-operations.c:3752
+#: libnemo-private/nemo-file-operations.c:3884
+#: libnemo-private/nemo-file-operations.c:3929
+msgid "Error while copying."
+msgstr "שגיאה במהלך ההעתקה."
+
+#: libnemo-private/nemo-file-operations.c:2822
+#: libnemo-private/nemo-file-operations.c:3882
+#: libnemo-private/nemo-file-operations.c:3927
+msgid "Error while moving."
+msgstr "שגיאה במהלך ההעברה."
+
+#: libnemo-private/nemo-file-operations.c:2827
+msgid "Error while moving files to trash."
+msgstr "שגיאה במהלך העברת הפריטים לסל־המחזור."
+
+#: libnemo-private/nemo-file-operations.c:2881
+msgid ""
+"Files in the folder \"%B\" cannot be handled because you do not have "
+"permissions to see them."
+msgstr "אין גישה לקבצים בתיקייה \"%B\" מאחר ואין הרשאות צפיה."
+
+#: libnemo-private/nemo-file-operations.c:2920
+msgid ""
+"The folder \"%B\" cannot be handled because you do not have permissions to "
+"read it."
+msgstr "אין גישה לקבצים בתיקייה \"%B\" מאחר ואין הרשאות קריאה."
+
+#: libnemo-private/nemo-file-operations.c:3000
+msgid ""
+"The file \"%B\" cannot be handled because you do not have permissions to "
+"read it."
+msgstr "אין גישה לקובץ \"%B\" מאחר ואין הרשאות צפיה."
+
+#: libnemo-private/nemo-file-operations.c:3003
+msgid "There was an error getting information about \"%B\"."
+msgstr "ארעה שגיאה בקבלת מידע אודות קובץ \"%B\"."
+
+#: libnemo-private/nemo-file-operations.c:3104
+#: libnemo-private/nemo-file-operations.c:3146
+#: libnemo-private/nemo-file-operations.c:3180
+#: libnemo-private/nemo-file-operations.c:3210
+msgid "Error while copying to \"%B\"."
+msgstr "שגיאה במהלך העתקת קובץ \"%B\"."
+
+#: libnemo-private/nemo-file-operations.c:3108
+msgid "You do not have permissions to access the destination folder."
+msgstr "חסרות הרשאות גישה לתיקיית היעד."
+
+#: libnemo-private/nemo-file-operations.c:3110
+msgid "There was an error getting information about the destination."
+msgstr "ארעה שגיאה בקבלת מידע על היעד."
+
+#: libnemo-private/nemo-file-operations.c:3147
+msgid "The destination is not a folder."
+msgstr "היעד אינו תיקייה."
+
+#: libnemo-private/nemo-file-operations.c:3181
+msgid ""
+"There is not enough space on the destination. Try to remove files to make "
+"space."
+msgstr "אין מספיק מקום פנוי ביעד. נא לנסות להסיר קבצים כדי לפנות מקום."
+
+#: libnemo-private/nemo-file-operations.c:3183
+#, c-format
+msgid "%S more space is required to copy to the destination."
+msgstr "נדרשים עוד %S של מקום פנוי כדי להעתיק אל היעד."
+
+#: libnemo-private/nemo-file-operations.c:3211
+msgid "The destination is read-only."
+msgstr "היעד לקריאה בלבד."
+
+#: libnemo-private/nemo-file-operations.c:3270
+msgid "Moving \"%B\" to \"%B\""
+msgstr "העברת \"%s\" אל \"%s\""
+
+#: libnemo-private/nemo-file-operations.c:3271
+msgid "Copying \"%B\" to \"%B\""
+msgstr "העתקת \"%s\" אל \"%s\""
+
+#: libnemo-private/nemo-file-operations.c:3278
+msgid "Duplicating \"%B\""
+msgstr "שכפול \"%B\""
+
+#: libnemo-private/nemo-file-operations.c:3286
+msgid "Moving file %'d of %'d (in \"%B\") to \"%B\""
+msgstr "העברת קובץ %'d מתוך %'d (ב-\"%B\") אל \"%B\""
+
+#: libnemo-private/nemo-file-operations.c:3288
+msgid "Copying file %'d of %'d (in \"%B\") to \"%B\""
+msgstr "העתקת קובץ %'d מתוך %'d (ב-\"%B\") אל \"%B\""
+
+#: libnemo-private/nemo-file-operations.c:3295
+msgid "Duplicating file %'d of %'d (in \"%B\")"
+msgstr "קובץ %'d מתוך %'d משוכפל (ב-\"%B\")"
+
+#: libnemo-private/nemo-file-operations.c:3304
+msgid "Moving file %'d of %'d to \"%B\""
+msgstr "העברת קובץ %'d מתוך %'d אל \"%B\""
+
+#: libnemo-private/nemo-file-operations.c:3306
+msgid "Copying file %'d of %'d to \"%B\""
+msgstr "העתקת קובץ %'d מתוך %'d אל \"%B\""
+
+#: libnemo-private/nemo-file-operations.c:3312
+#, c-format
+msgid "Duplicating file %'d of %'d"
+msgstr "קובץ %'d מתוך %'d משוכפל"
+
+#. To translators: %S will expand to a size like "2 bytes" or "3 MB", so something like "4 kb of 4 MB"
+#: libnemo-private/nemo-file-operations.c:3331
+#, c-format
+msgid "%S of %S"
+msgstr "%S מתוך %S"
+
+#. To translators: %S will expand to a size like "2 bytes" or "3 MB", %T to a time duration like
+#. * "2 minutes". So the whole thing will be something like "2 kb of 4 MB -- 2 hours left (4kb/sec)"
+#. *
+#. * The singular/plural form will be used depending on the remaining time (i.e. the %T argument).
+#. 
+#: libnemo-private/nemo-file-operations.c:3342
+msgid "%S of %S — %T left (%S/sec)"
+msgid_plural "%S of %S — %T left (%S/sec)"
+msgstr[0] "‏%S מתוך %S ‏— נותרה %T‏ (%S לשנייה)"
+msgstr[1] "‏%S מתוך %S ‏— %T נותרו (%S לשנייה)"
+
+#: libnemo-private/nemo-file-operations.c:3756
+msgid ""
+"The folder \"%B\" cannot be copied because you do not have permissions to "
+"create it in the destination."
+msgstr "לא ניתן להעתיק את התיקייה \"%B\" מאחר ואין הרשאות ליצור אותה ביעד."
+
+#: libnemo-private/nemo-file-operations.c:3759
+msgid "There was an error creating the folder \"%B\"."
+msgstr "ארעה שגיאה בעת יצירת התיקייה \"%B\"."
+
+#: libnemo-private/nemo-file-operations.c:3889
+msgid ""
+"Files in the folder \"%B\" cannot be copied because you do not have "
+"permissions to see them."
+msgstr "לא ניתן להעתיק את הקבצים שבתיקייה \"%B\" מאחר ואין הרשאות צפיה."
+
+#: libnemo-private/nemo-file-operations.c:3934
+msgid ""
+"The folder \"%B\" cannot be copied because you do not have permissions to "
+"read it."
+msgstr "לא ניתן להעתיק את התיקייה \"%B\" מאחר ואין הרשאות קריאה."
+
+#: libnemo-private/nemo-file-operations.c:3979
+#: libnemo-private/nemo-file-operations.c:4711
+#: libnemo-private/nemo-file-operations.c:5361
+msgid "Error while moving \"%B\"."
+msgstr "שגיאה במהלך העברת \"%B\"."
+
+#: libnemo-private/nemo-file-operations.c:3980
+msgid "Could not remove the source folder."
+msgstr "לא ניתן להסיר את תיקיית המקור."
+
+#: libnemo-private/nemo-file-operations.c:4065
+#: libnemo-private/nemo-file-operations.c:4106
+#: libnemo-private/nemo-file-operations.c:4713
+#: libnemo-private/nemo-file-operations.c:4784
+msgid "Error while copying \"%B\"."
+msgstr "שגיאה בהעתקת \"%B\"."
+
+#: libnemo-private/nemo-file-operations.c:4066
+#, c-format
+msgid "Could not remove files from the already existing folder %F."
+msgstr "לא ניתן להסיר קבצים מהתיקייה הקיימת %F."
+
+#: libnemo-private/nemo-file-operations.c:4107
+#, c-format
+msgid "Could not remove the already existing file %F."
+msgstr "לא ניתן להסיר את הקובץ הקיים %F."
+
+#. the run_warning() frees all strings passed in automatically
+#: libnemo-private/nemo-file-operations.c:4442
+#: libnemo-private/nemo-file-operations.c:5183
+msgid "You cannot move a folder into itself."
+msgstr "לא ניתן להעביר תיקייה לתוך עצמה."
+
+#: libnemo-private/nemo-file-operations.c:4443
+#: libnemo-private/nemo-file-operations.c:5184
+msgid "You cannot copy a folder into itself."
+msgstr "לא ניתן להעתיק תיקייה לתוך עצמה."
+
+#: libnemo-private/nemo-file-operations.c:4444
+#: libnemo-private/nemo-file-operations.c:5185
+msgid "The destination folder is inside the source folder."
+msgstr "תיקיית היעד היא בתוך תיקיית המקור."
+
+#. the run_warning() frees all strings passed in automatically
+#: libnemo-private/nemo-file-operations.c:4475
+msgid "You cannot move a file over itself."
+msgstr "לא ניתן להעתיק קובץ לתוך עצמו."
+
+#: libnemo-private/nemo-file-operations.c:4476
+msgid "You cannot copy a file over itself."
+msgstr "לא ניתן להעתיק קובץ לתוך עצמו."
+
+#: libnemo-private/nemo-file-operations.c:4477
+msgid "The source file would be overwritten by the destination."
+msgstr "קובץ היעד ייכתב־על קובץ המקור."
+
+#: libnemo-private/nemo-file-operations.c:4715
+#, c-format
+msgid "Could not remove the already existing file with the same name in %F."
+msgstr "לא ניתן להסיר את הקובץ, שכבר קיים בשם זהה, ב־%F."
+
+#: libnemo-private/nemo-file-operations.c:4785
+#, c-format
+msgid "There was an error copying the file into %F."
+msgstr "ארעה שגיאה בהעתקת הקובץ אל %F."
+
+#: libnemo-private/nemo-file-operations.c:5017
+#: libnemo-private/nemo-file-operations.c:5049
+msgid "Copying Files"
+msgstr "העתקת קבצים"
+
+#: libnemo-private/nemo-file-operations.c:5075
+msgid "Preparing to Move to \"%B\""
+msgstr "הכנה להעברה אל \"%B\""
+
+#: libnemo-private/nemo-file-operations.c:5079
+#, c-format
+msgid "Preparing to move %'d file"
+msgid_plural "Preparing to move %'d files"
+msgstr[0] "הכנה להעברת קובץ %'d"
+msgstr[1] "הכנה להעברת %'d קבצים"
+
+#: libnemo-private/nemo-file-operations.c:5362
+#, c-format
+msgid "There was an error moving the file into %F."
+msgstr "ארעה שגיאה בהעברת הקובץ אל %F."
+
+#: libnemo-private/nemo-file-operations.c:5625
+msgid "Moving Files"
+msgstr "העברת קבצים"
+
+#: libnemo-private/nemo-file-operations.c:5658
+msgid "Creating links in \"%B\""
+msgstr "יצירת קישורים ב־\"%B\""
+
+#: libnemo-private/nemo-file-operations.c:5662
+#, c-format
+msgid "Making link to %'d file"
+msgid_plural "Making links to %'d files"
+msgstr[0] "יצירת קישור לקובץ %'d"
+msgstr[1] "נוצר קישור ל-%'d קבצים"
+
+#: libnemo-private/nemo-file-operations.c:5800
+msgid "Error while creating link to %B."
+msgstr "שגיאה במהלך יצירת קישור ל-%B."
+
+#: libnemo-private/nemo-file-operations.c:5802
+msgid "Symbolic links only supported for local files"
+msgstr "קישורים סמליים נתמכים בקבצים מקומיים בלבד"
+
+#: libnemo-private/nemo-file-operations.c:5805
+msgid "The target doesn't support symbolic links."
+msgstr "היעד אינו תומך בקישורים סימבוליים."
+
+#: libnemo-private/nemo-file-operations.c:5808
+#, c-format
+msgid "There was an error creating the symlink in %F."
+msgstr "ארעה שגיאה ביצירת קישור סימלי ב־%F."
+
+#: libnemo-private/nemo-file-operations.c:6126
+msgid "Setting permissions"
+msgstr "הגדרת הרשאות"
+
+#. localizers: the initial name of a new folder
+#: libnemo-private/nemo-file-operations.c:6389
+msgid "Untitled Folder"
+msgstr "תיקייה ללא שם"
+
+#. localizers: the initial name of a new empty document
+#: libnemo-private/nemo-file-operations.c:6401
+msgid "Untitled Document"
+msgstr "מסמך ללא שם"
+
+#: libnemo-private/nemo-file-operations.c:6577
+msgid "Error while creating directory %B."
+msgstr "שגיאה ביצירת התיקייה %B."
+
+#: libnemo-private/nemo-file-operations.c:6579
+msgid "Error while creating file %B."
+msgstr "שגיאה ביצירת הקובץ %B."
+
+#: libnemo-private/nemo-file-operations.c:6581
+#, c-format
+msgid "There was an error creating the directory in %F."
+msgstr "ארעה שגיאה ביצירת התיקייה תחת %F."
+
+#: libnemo-private/nemo-file-operations.c:6823
+#: libnemo-private/nemo-file-operations.c:6824
+#: libnemo-private/nemo-file-operations.c:6857
+msgid "Emptying Trash"
+msgstr "ריקון סל־המחזור"
+
+#: libnemo-private/nemo-file-operations.c:6903
+#: libnemo-private/nemo-file-operations.c:6944
+#: libnemo-private/nemo-file-operations.c:6979
+#: libnemo-private/nemo-file-operations.c:7014
+msgid "Unable to mark launcher trusted (executable)"
+msgstr "לא ניתן לסמן את המשגר כמהימן (קובץ הפעלה)"
+
+#: libnemo-private/nemo-file-undo-operations.c:378
+#, c-format
+msgid "Move %d item back to '%s'"
+msgid_plural "Move %d items back to '%s'"
+msgstr[0] "החזרת פריט %d אל \"%s\""
+msgstr[1] "החזרת %d פריטים אל \"%s\""
+
+#: libnemo-private/nemo-file-undo-operations.c:381
+#, c-format
+msgid "Move %d item to '%s'"
+msgid_plural "Move %d items to '%s'"
+msgstr[0] "העברת פריט %d ל-'%s'"
+msgstr[1] "העברת %d פריטים ל-'%s'"
+
+#: libnemo-private/nemo-file-undo-operations.c:385
+#, c-format
+msgid "_Undo Move %d item"
+msgid_plural "_Undo Move %d items"
+msgstr[0] "החזרת העברת פריט %d לקדמותו"
+msgstr[1] "החזרת העברת %d פריטים לקדמותם"
+
+#: libnemo-private/nemo-file-undo-operations.c:388
+#, c-format
+msgid "_Redo Move %d item"
+msgid_plural "_Redo Move %d items"
+msgstr[0] "ה_עברת הפריט שוב"
+msgstr[1] "_החזרת העברת %d פריטים"
+
+#: libnemo-private/nemo-file-undo-operations.c:392
+#, c-format
+msgid "Move '%s' back to '%s'"
+msgstr "החזרת \"%s\" אל \"%s\""
+
+#: libnemo-private/nemo-file-undo-operations.c:393
+#, c-format
+msgid "Move '%s' to '%s'"
+msgstr "העברת '%s' ל '%s'"
+
+#: libnemo-private/nemo-file-undo-operations.c:395
+msgid "_Undo Move"
+msgstr "_החזרת ההעברה לקדמותה"
+
+#: libnemo-private/nemo-file-undo-operations.c:396
+msgid "_Redo Move"
+msgstr "ביצוע ההעברה _שוב"
+
+#: libnemo-private/nemo-file-undo-operations.c:399
+msgid "_Undo Restore from Trash"
+msgstr "ביטול _שחזור מסל־המחזור"
+
+#: libnemo-private/nemo-file-undo-operations.c:400
+msgid "_Redo Restore from Trash"
+msgstr "ש_חזור חוזר מסל־המחזור"
+
+#: libnemo-private/nemo-file-undo-operations.c:403
+#, c-format
+msgid "Move %d item back to trash"
+msgid_plural "Move %d items back to trash"
+msgstr[0] "העברת פריט %d חזרה לסל־המחזור"
+msgstr[1] "העברת %d פריטים חזרה לסל־המחזור"
+
+#: libnemo-private/nemo-file-undo-operations.c:406
+#: libnemo-private/nemo-file-undo-operations.c:999
+#, c-format
+msgid "Restore %d item from trash"
+msgid_plural "Restore %d items from trash"
+msgstr[0] "שחזור פריט %d מסל־המחזור"
+msgstr[1] "שחזור %d פריטים מסל־המחזור"
+
+#: libnemo-private/nemo-file-undo-operations.c:410
+#, c-format
+msgid "Move '%s' back to trash"
+msgstr "העברת '%s' חזרה לסל־המחזור"
+
+#: libnemo-private/nemo-file-undo-operations.c:411
+#, c-format
+msgid "Restore '%s' from trash"
+msgstr "שחזור '%s'  מסל־המחזור"
+
+#: libnemo-private/nemo-file-undo-operations.c:415
+#, c-format
+msgid "Delete %d copied item"
+msgid_plural "Delete %d copied items"
+msgstr[0] "מחיקת הפריט שהועתק"
+msgstr[1] "מחיקת %d פריטים שהועתקו"
+
+#: libnemo-private/nemo-file-undo-operations.c:418
+#, c-format
+msgid "Copy %d item to '%s'"
+msgid_plural "Copy %d items to '%s'"
+msgstr[0] "העתקת קובץ %d אל '%s'"
+msgstr[1] "העתקת %d קבצים אל '%s'"
+
+#: libnemo-private/nemo-file-undo-operations.c:422
+#, c-format
+msgid "_Undo Copy %d item"
+msgid_plural "_Undo Copy %d items"
+msgstr[0] "_החזרת העתקת פריט %d לקדמותו"
+msgstr[1] "_החזרת העתקת  %d פריטים לקדמותם"
+
+#: libnemo-private/nemo-file-undo-operations.c:425
+#, c-format
+msgid "_Redo Copy %d item"
+msgid_plural "_Redo Copy %d items"
+msgstr[0] "ה_עתקת הפריט שוב"
+msgstr[1] "ה_עתקת %d פריטים שוב"
+
+#: libnemo-private/nemo-file-undo-operations.c:429
+#: libnemo-private/nemo-file-undo-operations.c:451
+#: libnemo-private/nemo-file-undo-operations.c:684
+#, c-format
+msgid "Delete '%s'"
+msgstr "מחיקת '%s'"
+
+#: libnemo-private/nemo-file-undo-operations.c:430
+#, c-format
+msgid "Copy '%s' to '%s'"
+msgstr "העתקת  '%s' ל '%s'"
+
+#: libnemo-private/nemo-file-undo-operations.c:432
+msgid "_Undo Copy"
+msgstr "_החזרת ההעתקה לקדמותה"
+
+#: libnemo-private/nemo-file-undo-operations.c:433
+msgid "_Redo Copy"
+msgstr "_החזרת העתקה"
+
+#: libnemo-private/nemo-file-undo-operations.c:437
+#, c-format
+msgid "Delete %d duplicated item"
+msgid_plural "Delete %d duplicated items"
+msgstr[0] "מחיקת פריט כפול %d"
+msgstr[1] "מחיקת %d פריטים כפולים"
+
+#: libnemo-private/nemo-file-undo-operations.c:440
+#, c-format
+msgid "Duplicate %d item in '%s'"
+msgid_plural "Duplicate %d items in '%s'"
+msgstr[0] "שכפול פריט %d ב '%s'"
+msgstr[1] "שכפול %d פריטים ב '%s'"
+
+#: libnemo-private/nemo-file-undo-operations.c:444
+#, c-format
+msgid "_Undo Duplicate %d item"
+msgid_plural "_Undo Duplicate %d items"
+msgstr[0] "_החזרת שכפול קובץ %d לקדמותו"
+msgstr[1] "_החזרת שכפול %d קובצים לקדמותם"
+
+#: libnemo-private/nemo-file-undo-operations.c:447
+#, c-format
+msgid "_Redo Duplicate %d item"
+msgid_plural "_Redo Duplicate %d items"
+msgstr[0] "_שכפול פריט %d שוב"
+msgstr[1] "_שכפול %d פריטים שוב"
+
+#: libnemo-private/nemo-file-undo-operations.c:452
+#, c-format
+msgid "Duplicate '%s' in '%s'"
+msgstr "שכפול '%s' ב '%s'"
+
+#: libnemo-private/nemo-file-undo-operations.c:455
+msgid "_Undo Duplicate"
+msgstr "_החזרת השכפול לקדמותו"
+
+#: libnemo-private/nemo-file-undo-operations.c:456
+msgid "_Redo Duplicate"
+msgstr "שכפול מ_חדש"
+
+#: libnemo-private/nemo-file-undo-operations.c:460
+#, c-format
+msgid "Delete links to %d item"
+msgid_plural "Delete links to %d items"
+msgstr[0] "מחיקת קישורים לפריט %d"
+msgstr[1] "מחיקת קישורים ל-%d פריטים"
+
+#: libnemo-private/nemo-file-undo-operations.c:463
+#, c-format
+msgid "Create links to %d item"
+msgid_plural "Create links to %d items"
+msgstr[0] "יצירת קישורים לפריט אחד"
+msgstr[1] "יצירת קישורים ל-%d פריטים"
+
+#: libnemo-private/nemo-file-undo-operations.c:467
+#, c-format
+msgid "Delete link to '%s'"
+msgstr "מחיקת קישור ל '%s'"
+
+#: libnemo-private/nemo-file-undo-operations.c:468
+#, c-format
+msgid "Create link to '%s'"
+msgstr "יצירת קישור אל '%s'"
+
+#: libnemo-private/nemo-file-undo-operations.c:470
+msgid "_Undo Create Link"
+msgstr "_החזרת יצירת קישורים לקדמותם"
+
+#: libnemo-private/nemo-file-undo-operations.c:471
+msgid "_Redo Create Link"
+msgstr "_יצירת קישורים בחזרה"
+
+#: libnemo-private/nemo-file-undo-operations.c:687
+#, c-format
+msgid "Create an empty file '%s'"
+msgstr "יצירת קובץ ריק '%s'"
+
+#: libnemo-private/nemo-file-undo-operations.c:689
+msgid "_Undo Create Empty File"
+msgstr "ביטול יצירת קובץ ריק"
+
+#: libnemo-private/nemo-file-undo-operations.c:690
+msgid "_Redo Create Empty File"
+msgstr "_החזרת יצירת קובץ ריק"
+
+#: libnemo-private/nemo-file-undo-operations.c:692
+#, c-format
+msgid "Create a new folder '%s'"
+msgstr "יצירת תיקייה חדשה בשם '%s'"
+
+#: libnemo-private/nemo-file-undo-operations.c:694
+msgid "_Undo Create Folder"
+msgstr "_החזרת יצירת תיקייה לקדמותה"
+
+#: libnemo-private/nemo-file-undo-operations.c:695
+msgid "_Redo Create Folder"
+msgstr "_יצירת תיקייה בחזרה"
+
+#: libnemo-private/nemo-file-undo-operations.c:697
+#, c-format
+msgid "Create new file '%s' from template "
+msgstr "יצירת קובץ חדש '%s' מתבנית "
+
+#: libnemo-private/nemo-file-undo-operations.c:699
+msgid "_Undo Create from Template"
+msgstr "_החזרת יצירה מתבנית לקדמותה"
+
+#: libnemo-private/nemo-file-undo-operations.c:700
+msgid "_Redo Create from Template"
+msgstr "יצירה מתבנית מ_חדש"
+
+#: libnemo-private/nemo-file-undo-operations.c:882
+#: libnemo-private/nemo-file-undo-operations.c:883
+#, c-format
+msgid "Rename '%s' as '%s'"
+msgstr "שינוי השם '%s' ל '%s'"
+
+#: libnemo-private/nemo-file-undo-operations.c:885
+msgid "_Undo Rename"
+msgstr "_החזרת שינוי שם לקדמותו"
+
+#: libnemo-private/nemo-file-undo-operations.c:886
+msgid "_Redo Rename"
+msgstr "_שינוי שם שוב"
+
+#: libnemo-private/nemo-file-undo-operations.c:1002
+#, c-format
+msgid "Move %d item to trash"
+msgid_plural "Move %d items to trash"
+msgstr[0] "העברת פריט %d לסל־המחזור"
+msgstr[1] "העברת %d פריטים לסל־המחזור"
+
+#: libnemo-private/nemo-file-undo-operations.c:1014
+#, c-format
+msgid "Restore '%s' to '%s'"
+msgstr "שיחזור '%s' ל '%s'"
+
+#: libnemo-private/nemo-file-undo-operations.c:1021
+#, c-format
+msgid "Move '%s' to trash"
+msgstr "העברת '%s' לסל־המחזור"
+
+#: libnemo-private/nemo-file-undo-operations.c:1025
+msgid "_Undo Trash"
+msgstr "_ביטול העברה לסל־המחזור"
+
+#: libnemo-private/nemo-file-undo-operations.c:1026
+msgid "_Redo Trash"
+msgstr "_החזרת העברה לסל־המחזור"
+
+#: libnemo-private/nemo-file-undo-operations.c:1318
+#, c-format
+msgid "Restore original permissions of items enclosed in '%s'"
+msgstr "שיחזור הרשאות מקוריות של פריטים המצורפים ל '%s'"
+
+#: libnemo-private/nemo-file-undo-operations.c:1319
+#, c-format
+msgid "Set permissions of items enclosed in '%s'"
+msgstr "הגדרת הרשאות של פריטים המצורפים ל '%s'"
+
+#: libnemo-private/nemo-file-undo-operations.c:1321
+#: libnemo-private/nemo-file-undo-operations.c:1476
+msgid "_Undo Change Permissions"
+msgstr "_החזרת שינוי הרשאות לקדמותו"
+
+#: libnemo-private/nemo-file-undo-operations.c:1322
+#: libnemo-private/nemo-file-undo-operations.c:1477
+msgid "_Redo Change Permissions"
+msgstr "_החזרת שינוי ההרשאות"
+
+#: libnemo-private/nemo-file-undo-operations.c:1473
+#, c-format
+msgid "Restore original permissions of '%s'"
+msgstr "שחזור ההרשאות המקוריות של '%s'"
+
+#: libnemo-private/nemo-file-undo-operations.c:1474
+#, c-format
+msgid "Set permissions of '%s'"
+msgstr "הגדרת ההרשאות של '%s'"
+
+#: libnemo-private/nemo-file-undo-operations.c:1584
+#, c-format
+msgid "Restore group of '%s' to '%s'"
+msgstr "שחזור קבוצה של '%s' ל-'%s'"
+
+#: libnemo-private/nemo-file-undo-operations.c:1586
+#, c-format
+msgid "Set group of '%s' to '%s'"
+msgstr "הגדרת קבוצת '%s' ל-'%s'"
+
+#: libnemo-private/nemo-file-undo-operations.c:1589
+msgid "_Undo Change Group"
+msgstr "_החזרת שינוי הקבוצה לקדמותו"
+
+#: libnemo-private/nemo-file-undo-operations.c:1590
+msgid "_Redo Change Group"
+msgstr "_שינוי הקבוצה שוב"
+
+#: libnemo-private/nemo-file-undo-operations.c:1592
+#, c-format
+msgid "Restore owner of '%s' to '%s'"
+msgstr "שחזור הבעלות של '%s' לידי '%s'"
+
+#: libnemo-private/nemo-file-undo-operations.c:1594
+#, c-format
+msgid "Set owner of '%s' to '%s'"
+msgstr "הגדרת הבעלים של %s' כ-'%s'"
+
+#: libnemo-private/nemo-file-undo-operations.c:1597
+msgid "_Undo Change Owner"
+msgstr "_החזרת שינוי בעלות לקדמותו"
+
+#: libnemo-private/nemo-file-undo-operations.c:1598
+msgid "_Redo Change Owner"
+msgstr "_החזרת שינוי בעלות"
+
+#: libnemo-private/nemo-file-utilities.c:1379
+#, c-format
+msgid "Could not determine original location of \"%s\" "
+msgstr "לא ניתן להגדיר את המיקום המקורי של \"%s\" "
+
+#: libnemo-private/nemo-file-utilities.c:1383
+msgid "The item cannot be restored from trash"
+msgstr "לא ניתן לשחזר את הפריט מסל־המחזור"
+
+#: libnemo-private/nemo-icon-container.c:1415
+msgid "The selection rectangle"
+msgstr "ריבוע הבחירה"
+
+#: libnemo-private/nemo-mime-application-chooser.c:113
+msgid "Could not forget association"
+msgstr "לא ניתן לשכוח שיוך"
+
+#: libnemo-private/nemo-mime-application-chooser.c:137
+msgid "Forget association"
+msgstr "לשכוח את השיוך"
+
+#: libnemo-private/nemo-mime-application-chooser.c:277
+msgid "Valid executable."
+msgstr "קובץ הפעלה תקין."
+
+#: libnemo-private/nemo-mime-application-chooser.c:284
+msgid ""
+"Not a valid executable.  Spaces in the file path must be escaped with "
+"backslash (\\)."
+msgstr ""
+"קובץ הפעלה לא תקין.  רווחים בנתיב הקובץ, חייבים להיות מנוטרלים על־ידי לוכסן "
+"שמאלי (\\) ."
+
+#. the %s here is a file extension
+#: libnemo-private/nemo-mime-application-chooser.c:419
+#: libnemo-private/nemo-mime-application-chooser.c:437
+#, c-format
+msgid "%s document"
+msgstr "מסמך %s"
+
+#: libnemo-private/nemo-mime-application-chooser.c:424
+#, c-format
+msgid "Open all files of type \"%s\" with"
+msgstr "פתיחת כול הקבצים מסוג \"%s\" באמצעות"
+
+#: libnemo-private/nemo-mime-application-chooser.c:444
+#, c-format
+msgid ""
+"Select an application in the list to open %s and other files of type \"%s\""
+msgstr "בחירת יישומון מהרשימה לפתיחת %s וקבצים אחרים מסוג \"%s\""
+
+#: libnemo-private/nemo-mime-application-chooser.c:478
+msgid "Custom application"
+msgstr "יישומון מותאם אישית"
+
+#: libnemo-private/nemo-mime-application-chooser.c:481
+msgid "_Cancel"
+msgstr "_ביטול"
+
+#: libnemo-private/nemo-mime-application-chooser.c:498
+msgid "Executables"
+msgstr "ברי הפעלה"
+
+#: libnemo-private/nemo-mime-application-chooser.c:544
+msgid ""
+"You can also type or select a custom executable file to use to open this "
+"file type.  You can use this command just once, or set it as default for all "
+"files of this type."
+msgstr ""
+"ניתן גם להקליד או לבחור קובץ הפעלה מותאם אישית שישמש לפתיחת סוג קובץ זה.  "
+"ניתן להשתמש בפקודה זו פעם אחת בלבד, או להגדיר אותה כבררת מחדל עבור כל הקבצים "
+"מאותו המסוג."
+
+#: libnemo-private/nemo-mime-application-chooser.c:558
+msgid "Enter a custom command..."
+msgstr "הזנת פקודה מותאמת אישית..."
+
+#: libnemo-private/nemo-mime-application-chooser.c:584
+msgid "Add to list"
+msgstr "הוספה לרשימה"
+
+#: libnemo-private/nemo-mime-application-chooser.c:592
+msgid "Set as default"
+msgstr "הגדר כבררת מחדל"
+
+#: libnemo-private/nemo-mime-application-chooser.c:601
+msgid "Reset to system defaults"
+msgstr "שחזור לבררת המחדל"
+
+#: libnemo-private/nemo-program-choosing.c:323
+msgid "Sorry, but you cannot execute commands from a remote site."
+msgstr "סליחה, אך אין אפשרות להפעיל פקודות מאתר מרוחק."
+
+#: libnemo-private/nemo-program-choosing.c:325
+msgid "This is disabled due to security considerations."
+msgstr "תכונה זו כבויה מאילוצי אבטחה."
+
+#: libnemo-private/nemo-program-choosing.c:336
+#: libnemo-private/nemo-program-choosing.c:397
+msgid "There was an error launching the application."
+msgstr "ארעה שגיאה בהפעלת היישומון."
+
+#: libnemo-private/nemo-program-choosing.c:361
+#: libnemo-private/nemo-program-choosing.c:372
+msgid "This drop target only supports local files."
+msgstr "יעד ההשלכה תומך רק בקבצים מקומיים."
+
+#: libnemo-private/nemo-program-choosing.c:362
+msgid ""
+"To open non-local files copy them to a local folder and then drop them again."
+msgstr ""
+"כדי לפתוח קבצים לא מקומיים יש להעתיק אותם לתיקייה מקומית ואז לשחרר אותם שוב."
+
+#: libnemo-private/nemo-program-choosing.c:373
+msgid ""
+"To open non-local files copy them to a local folder and then drop them "
+"again. The local files you dropped have already been opened."
+msgstr ""
+"כדי לפתוח קבצים לא מקומיים יש להעתיק אותם לתיקייה מקומית ואז לשחרר אותם שוב. "
+"הקבצים המקומיים ששוחררו, כבר נפתחו."
+
+#: libnemo-private/nemo-program-choosing.c:395
+msgid "Details: "
+msgstr "פרטים: "
+
+#: libnemo-private/nemo-progress-info.c:205
+#: libnemo-private/nemo-progress-info.c:223
+#: libnemo-private/nemo-progress-info.c:241
+msgid "Preparing"
+msgstr "הכנה"
+
+#: libnemo-private/nemo-query.c:197
+#, c-format
+msgid "Search in \"%s\""
+msgstr "חיפוש ב־%s"
+
+#: libnemo-private/nemo-undo-signal-handlers.c:173
+msgid "Edit"
+msgstr "עריכה"
+
+#: libnemo-private/nemo-undo-signal-handlers.c:174
+msgid "Undo Edit"
+msgstr "החזרת עריכה לקדמותה"
+
+#: libnemo-private/nemo-undo-signal-handlers.c:175
+msgid "Undo the edit"
+msgstr "החזרת העריכה לקדמותה"
+
+#: libnemo-private/nemo-undo-signal-handlers.c:176
+msgid "Redo Edit"
+msgstr "עריכה חוזרת"
+
+#: libnemo-private/nemo-undo-signal-handlers.c:177
+msgid "Redo the edit"
+msgstr "ביצוע העריכה פעם נוספת"
+
+#: eel/eel-canvas.c:1255 eel/eel-canvas.c:1256
+msgid "X"
+msgstr "X"
+
+#: eel/eel-canvas.c:1262 eel/eel-canvas.c:1263
+msgid "Y"
+msgstr "Y"
+
+#: eel/eel-editable-label.c:320
+msgid "The text of the label."
+msgstr "מלל התווית."
+
+#: eel/eel-editable-label.c:326
+msgid "Justification"
+msgstr "יישור"
+
+#: eel/eel-editable-label.c:327
+msgid ""
+"The alignment of the lines in the text of the label relative to each other. "
+"This does NOT affect the alignment of the label within its allocation. See "
+"GtkMisc::xalign for that."
+msgstr ""
+"יישור שורות מלל תווית באופן יחסי זו לזו. אין השפעה על יישור התווית בתוך השטח "
+"המוקצה לה. למידע נוסף GtkMisc::xalign ."
+
+#: eel/eel-editable-label.c:335
+msgid "Line wrap"
+msgstr "גלישת שורות"
+
+#: eel/eel-editable-label.c:336
+msgid "If set, wrap lines if the text becomes too wide."
+msgstr "אם הוגדר והמלל רחב מידי, נא לשפעל גלישת שורות."
+
+#: eel/eel-editable-label.c:343
+msgid "Cursor Position"
+msgstr "מיקום הסמן"
+
+#: eel/eel-editable-label.c:344
+msgid "The current position of the insertion cursor in chars."
+msgstr "המיקום הנוכחי של סמן ההוספה בתווים."
+
+#: eel/eel-editable-label.c:353
+msgid "Selection Bound"
+msgstr "גבול הבחירה"
+
+#: eel/eel-editable-label.c:354
+msgid ""
+"The position of the opposite end of the selection from the cursor in chars."
+msgstr "המיקום של סוף הבחירה הנגדי מהסמן בתווים."
+
+#: eel/eel-editable-label.c:3106
+msgid "Select All"
+msgstr "בחירת הכל"
+
+#: eel/eel-editable-label.c:3117
+msgid "Input Methods"
+msgstr "שיטות קלט"
+
+#: eel/eel-gtk-extensions.c:328
+msgid "Show more _details"
+msgstr "הצגת _פרטים נוספים"
+
+#: eel/eel-stock-dialogs.c:205
+msgid "You can stop this operation by clicking cancel."
+msgstr "ניתן לעצור פעולה זו על-ידי הקשה על ביטול."
+
+#: eel/eel-vfs-extensions.c:128
+msgid " (invalid Unicode)"
+msgstr " (יוניקוד לא תקין)"
+
+#: data/nemo-actions/action_i18n_strings.py:8
+msgid "Set as Wallpaper..."
+msgstr "הגדר כרקע..."
+
+#: data/nemo-actions/action_i18n_strings.py:9
+msgid "Set the selected image as your Cinnamon desktop wallpaper"
+msgstr "קביעת התמונה שנבחרה כתמונת רקע לשולחן העבודה"
+
+#: data/nemo-actions/action_i18n_strings.py:10
+msgid "Add Desklets"
+msgstr "הוספת יישומונים"
+
+#: data/nemo-actions/action_i18n_strings.py:11
+msgid "Add Cinamon desklets"
+msgstr "הוספת יישומוני Cinnamon"
+
+#: data/nemo-actions/action_i18n_strings.py:12
+msgid "Mount archive"
+msgstr "עיגון ארכיון"
+
+#: data/nemo-actions/action_i18n_strings.py:13
+#, python-format
+msgid "Mount %f to browse its contents"
+msgstr "עיגון %f לסיור בתְּכוּלָתו"
+
+#: data/nemo-actions/action_i18n_strings.py:14
+msgid "Change Desktop _Background"
+msgstr "שינוי _רקע שולחן העבודה"
+
+#: data/nemo-actions/action_i18n_strings.py:15
+msgid "Change the Cinnamon desktop background"
+msgstr "שינוי רקע שולחן העבודה"
+
+#: data/nemo-actions/action_i18n_strings.py:16
+msgid "Manage workspaces (Expo)"
+msgstr "ניהול מרחבי עבודה (Expo)"
+
+#: data/nemo-actions/action_i18n_strings.py:17
+msgid "Open Expo to add, remove, or organize workspaces"
+msgstr "פתיחת Expo כדי להוסיף, למחוק ולנהל סביבות עבודה"
+
+#: data/nemo-actions/action_i18n_strings.py:18
+msgid "Create a new l_auncher here..."
+msgstr "יצירת מ_שגר חדש כאן.."
+
+#: data/nemo-actions/action_i18n_strings.py:19
+msgid "Create a new launcher in this folder"
+msgstr "יצירת משגר חדש בתיקייה זו"
+
+#: data/nemo-actions/action_i18n_strings.py:20
+msgid "Remove workspace"
+msgstr "הסרת סביבת עבודה"
+
+#: data/nemo-actions/action_i18n_strings.py:21
+msgid "Remove the currently active workspace"
+msgstr "מחיקת סביבת העבודה הפעילה הנוכחית"
+
+#: data/nemo-actions/action_i18n_strings.py:22
+msgid "Jump to new workspace"
+msgstr "דילוג לסביבת עבודה חדשה"
+
+#: data/nemo-actions/action_i18n_strings.py:23
+msgid "Create a new workspace and activate it"
+msgstr "יצירת סביבת עבודה חדשה והפעל אותה"
+
+#: generate_additional_file:33
+msgid "Files"
+msgstr "קבצים"
+
+#: generate_additional_file:33
+msgid "Access and organize files"
+msgstr "גישה לקבצים וארגונם"
+
+#: gresources/nemo-bookmarks-window.glade:8
+msgid "Edit Bookmarks"
+msgstr "עריכת הסימניות"
+
+#: gresources/nemo-bookmarks-window.glade:116
+msgid "<b>_Bookmarks</b>"
+msgstr "<b>_סימניות</b>"
+
+#: gresources/nemo-bookmarks-window.glade:205
+msgid "<b>_Name</b>"
+msgstr "<b>_שם</b>"
+
+#: gresources/nemo-bookmarks-window.glade:272
+msgid "<b>_Location</b>"
+msgstr "<b>_מיקום:</b>"
+
+#: gresources/nemo-desktop-overlay.glade:61
+msgctxt "Desktop icon size"
+msgid "Smaller"
+msgstr "קטן יותר"
+
+#: gresources/nemo-desktop-overlay.glade:66
+msgctxt "Desktop icon size"
+msgid "Small"
+msgstr "קטן"
+
+#: gresources/nemo-desktop-overlay.glade:71
+msgctxt "Desktop icon size"
+msgid "Normal"
+msgstr "תיקני"
+
+#: gresources/nemo-desktop-overlay.glade:76
+msgctxt "Desktop icon size"
+msgid "Large"
+msgstr "גדול"
+
+#: gresources/nemo-desktop-overlay.glade:81
+msgctxt "Desktop icon size"
+msgid "Larger"
+msgstr "גדול יותר"
+
+#: gresources/nemo-desktop-overlay.glade:95
+msgid "Vertical"
+msgstr "אנכי"
+
+#: gresources/nemo-desktop-overlay.glade:99
+msgid "Horizontal"
+msgstr "אופקי"
+
+#: gresources/nemo-desktop-overlay.glade:138
+msgid "Current Monitor Layout"
+msgstr "פריסת צג נוכחית"
+
+#: gresources/nemo-desktop-overlay.glade:197
+msgid "Icon Size"
+msgstr "גודל סמלים"
+
+#: gresources/nemo-desktop-overlay.glade:240
+msgid "Layout"
+msgstr "פריסה"
+
+#: gresources/nemo-desktop-overlay.glade:369
+msgid "Direction"
+msgstr "כיוון"
+
+#: gresources/nemo-desktop-overlay.glade:454
+msgid "Sort items by"
+msgstr "מיון פריטים לפי"
+
+#: gresources/nemo-desktop-overlay.glade:613
+msgid "Reset grid spacing"
+msgstr "איפוס מרווחי רשת"
+
+#: gresources/nemo-desktop-overlay.glade:680
+#: gresources/nemo-desktop-overlay.glade:870
+msgid "button"
+msgstr "לחצן"
+
+#: gresources/nemo-desktop-overlay.glade:746
+msgid "Adjust horizontal grid spacing"
+msgstr "התאמת מרווח רשת אופקיים"
+
+#: gresources/nemo-desktop-overlay.glade:801
+msgid "Adjust vertical grid spacing"
+msgstr "התאמת מרווחי רשת אנכייים"
+
+#: gresources/nemo-desktop-overlay.glade:845
+msgid "page0"
+msgstr "עמוד0"
+
+#: gresources/nemo-desktop-overlay.glade:859
+msgid ""
+"<b><big>Desktop icons are not currently enabled for this monitor.</big></b>"
+msgstr "<b><big>סמלי שולחן עבודה לא מאופשרים עבור צג זה.</big></b>"
+
+#: gresources/nemo-desktop-overlay.glade:887
+msgid "page1"
+msgstr "עמוד1"
+
+#: gresources/nemo-desktop-preferences.glade:36
+msgid "Desktop Layout"
+msgstr "פריסת שולחן עבודה"
+
+#: gresources/nemo-desktop-preferences.glade:54
+msgid "No desktop icons"
+msgstr "בלי סמלי שולחן עבודה"
+
+#: gresources/nemo-desktop-preferences.glade:55
+msgid "Show desktop icons on primary monitor only"
+msgstr "הצגת סמלים בצג הראשי בלבד"
+
+#: gresources/nemo-desktop-preferences.glade:56
+msgid "Show desktop icons on non-primary monitor(s) only"
+msgstr "הצגת סמלים בצגים המשניים"
+
+#: gresources/nemo-desktop-preferences.glade:57
+msgid "Show desktop icons on all monitors"
+msgstr "הצגת סמלים בכל הצגים"
+
+#: gresources/nemo-desktop-preferences.glade:77
+msgid "Desktop Icons"
+msgstr "סמלי שולחן עבודה"
+
+#: gresources/nemo-desktop-preferences.glade:367
+msgid "Mounted Drives"
+msgstr "כוננים מעוגנים"
+
+#: gresources/nemo-desktop-preferences.glade:503
+msgid "Options"
+msgstr "אפשרויות"
+
+#: gresources/nemo-desktop-preferences.glade:559
+msgid "Show icons from missing monitors"
+msgstr "הצגת סמלים לצגים חסרים"
+
+#: gresources/nemo-file-management-properties.glade:127
+#: gresources/nemo-file-management-properties.glade:330
+#: gresources/nemo-file-management-properties.glade:4180
+msgid "Always"
+msgstr "תמיד"
+
+#: gresources/nemo-file-management-properties.glade:130
+#: gresources/nemo-file-management-properties.glade:333
+#: gresources/nemo-file-management-properties.glade:350
+#: gresources/nemo-file-management-properties.glade:4183
+msgid "Local Files Only"
+msgstr "קבצים מקומיים בלבד"
+
+#: gresources/nemo-file-management-properties.glade:133
+#: gresources/nemo-file-management-properties.glade:336
+#: gresources/nemo-file-management-properties.glade:4186
+msgid "Never"
+msgstr "לעולם לא"
+
+#: gresources/nemo-file-management-properties.glade:144
+msgid "Decimal"
+msgstr "עשרוני"
+
+#: gresources/nemo-file-management-properties.glade:147
+msgid "Decimal (long format)"
+msgstr "עשרוני (בתבנית ארוכה)"
+
+#: gresources/nemo-file-management-properties.glade:153
+msgid "Binary (long format)"
+msgstr "בינארי (בתבנית ארוך)"
+
+#: gresources/nemo-file-management-properties.glade:164
+msgid "By Name"
+msgstr "לפי שם"
+
+#: gresources/nemo-file-management-properties.glade:167
+msgid "By Size"
+msgstr "לפי גודל"
+
+#: gresources/nemo-file-management-properties.glade:170
+msgid "By Type"
+msgstr "לפי סוג"
+
+#: gresources/nemo-file-management-properties.glade:173
+msgid "By Detailed Type"
+msgstr "לפי סוג מפורט"
+
+#: gresources/nemo-file-management-properties.glade:176
+msgid "By Modification Date"
+msgstr "לפי תאריך שינוי"
+
+#: gresources/nemo-file-management-properties.glade:179
+msgid "By Access Date"
+msgstr "לפי תאריך הגישה"
+
+#: gresources/nemo-file-management-properties.glade:182
+msgid "By Trashed Date"
+msgstr "לפי תאריך העברה לסל־המחזור"
+
+#: gresources/nemo-file-management-properties.glade:193
+#: gresources/nemo-file-management-properties.glade:272
+#: gresources/nemo-file-management-properties.glade:301
+msgid "33%"
+msgstr "33%"
+
+#: gresources/nemo-file-management-properties.glade:196
+#: gresources/nemo-file-management-properties.glade:275
+#: gresources/nemo-file-management-properties.glade:304
+msgid "50%"
+msgstr "50%"
+
+#: gresources/nemo-file-management-properties.glade:199
+#: gresources/nemo-file-management-properties.glade:278
+#: gresources/nemo-file-management-properties.glade:307
+msgid "66%"
+msgstr "66%"
+
+#: gresources/nemo-file-management-properties.glade:202
+#: gresources/nemo-file-management-properties.glade:281
+#: gresources/nemo-file-management-properties.glade:310
+msgid "100%"
+msgstr "100%"
+
+#: gresources/nemo-file-management-properties.glade:205
+#: gresources/nemo-file-management-properties.glade:284
+#: gresources/nemo-file-management-properties.glade:313
+msgid "150%"
+msgstr "150%"
+
+#: gresources/nemo-file-management-properties.glade:208
+#: gresources/nemo-file-management-properties.glade:287
+#: gresources/nemo-file-management-properties.glade:316
+msgid "200%"
+msgstr "200%"
+
+#: gresources/nemo-file-management-properties.glade:211
+#: gresources/nemo-file-management-properties.glade:290
+#: gresources/nemo-file-management-properties.glade:319
+msgid "400%"
+msgstr "400%"
+
+#: gresources/nemo-file-management-properties.glade:222
+msgid "100 KB"
+msgstr "100 ק״ב"
+
+#: gresources/nemo-file-management-properties.glade:225
+msgid "500 KB"
+msgstr "500 ק\"ב"
+
+#: gresources/nemo-file-management-properties.glade:228
+msgid "1 MB"
+msgstr "1 מ״ב"
+
+#: gresources/nemo-file-management-properties.glade:231
+msgid "3 MB"
+msgstr "3 מ״ב"
+
+#: gresources/nemo-file-management-properties.glade:234
+msgid "5 MB"
+msgstr "5 מ״ב"
+
+#: gresources/nemo-file-management-properties.glade:237
+msgid "10 MB"
+msgstr "10 מ״ב"
+
+#: gresources/nemo-file-management-properties.glade:240
+msgid "100 MB"
+msgstr "100 מ״ב"
+
+#: gresources/nemo-file-management-properties.glade:243
+msgid "1 GB"
+msgstr "1 ג״ב"
+
+#: gresources/nemo-file-management-properties.glade:246
+msgid "2 GB"
+msgstr "2 ג״ב"
+
+#: gresources/nemo-file-management-properties.glade:249
+msgid "4 GB"
+msgstr "4 ג״ב"
+
+#: gresources/nemo-file-management-properties.glade:252
+msgid "8 GB"
+msgstr "8 ג״ב"
+
+#: gresources/nemo-file-management-properties.glade:255
+msgid "16 GB"
+msgstr "16 ג״ב"
+
+#: gresources/nemo-file-management-properties.glade:258
+msgid "32 GB"
+msgstr "32 ג״ב"
+
+#: gresources/nemo-file-management-properties.glade:261
+msgid "64 GB"
+msgstr "64 ג\"ב"
+
+#: gresources/nemo-file-management-properties.glade:347
+msgid "Yes"
+msgstr "כן"
+
+#: gresources/nemo-file-management-properties.glade:353
+msgid "No"
+msgstr "לא"
+
+#: gresources/nemo-file-management-properties.glade:359
+msgid "File Management Preferences"
+msgstr "העדפות ניהול הקבצים"
+
+#: gresources/nemo-file-management-properties.glade:417
+msgid "<b>Default View</b>"
+msgstr "<b>מצג בררת מחדל</b>"
+
+#: gresources/nemo-file-management-properties.glade:447
+msgid "View _new folders using:"
+msgstr "הצגת תיקיות _חדשות באמצעות:"
+
+#: gresources/nemo-file-management-properties.glade:485
+msgid "_Inherit view type from parent"
+msgstr "_ירושת סוג מצג מההורה"
+
+#: gresources/nemo-file-management-properties.glade:508
+msgid "_Arrange items:"
+msgstr "_ארגון פריטים:"
+
+#: gresources/nemo-file-management-properties.glade:562
+msgid "Sort _folders before files"
+msgstr "מיון _תיקיות לפני קבצים"
+
+#: gresources/nemo-file-management-properties.glade:578
+msgid "Sort _favorites before other files"
+msgstr "מיון _מועדפים לפני קבצים אחרים"
+
+#: gresources/nemo-file-management-properties.glade:619
+msgid "<b>Icon View Defaults</b>"
+msgstr "<b>בררות המחדל למצג הסמלים</b>"
+
+#: gresources/nemo-file-management-properties.glade:649
+msgid "Default _zoom level:"
+msgstr "ת_קריב בררת מחדל:"
+
+#: gresources/nemo-file-management-properties.glade:687
+msgid "_Text beside icons"
+msgstr "_מלל לצד הסמלים"
+
+#: gresources/nemo-file-management-properties.glade:728
+msgid "<b>Compact View Defaults</b>"
+msgstr "<b>בררות המחדל למצג צמום</b>"
+
+#: gresources/nemo-file-management-properties.glade:758
+msgid "_Default zoom level:"
+msgstr "תקריב _בררת מחדל:"
+
+#: gresources/nemo-file-management-properties.glade:796
+msgid "A_ll columns have the same width"
+msgstr "רוחב אחיד ב_כל הטורים"
+
+#: gresources/nemo-file-management-properties.glade:837
+msgid "<b>List View Defaults</b>"
+msgstr "<b>בררות המחדל למצג רשימה</b>"
+
+#: gresources/nemo-file-management-properties.glade:867
+msgid "D_efault zoom level:"
+msgstr "תקריב _בררת מחדל:"
+
+#: gresources/nemo-file-management-properties.glade:930
+msgid "<b>Tree View Defaults</b>"
+msgstr "<b>בררות המחדל למצג עץ</b>"
+
+#: gresources/nemo-file-management-properties.glade:953
+msgid "Show _only folders"
+msgstr "הצגת תיקיות _בלבד"
+
+#: gresources/nemo-file-management-properties.glade:990
+msgid "Views"
+msgstr "תצוגות"
+
+#: gresources/nemo-file-management-properties.glade:1018
+msgid "<b>Behavior</b>"
+msgstr "<b>התנהגות</b>"
+
+#: gresources/nemo-file-management-properties.glade:1040
+msgid "_Single click to open items"
+msgstr "הקשה _בודדת לפתיחת פריטים"
+
+#: gresources/nemo-file-management-properties.glade:1057
+msgid "_Double click to open items"
+msgstr "_הקשה כפולה לפתיחת פריטים"
+
+#: gresources/nemo-file-management-properties.glade:1075
+msgid "Click on a file's name twice to rename it"
+msgstr "הקשה כפולה על שם קובץ כדי לשנותו"
+
+#: gresources/nemo-file-management-properties.glade:1092
+msgid "Open each _folder in its own window"
+msgstr "פתיחת כל _תיקייה בחלון עצמאי"
+
+#: gresources/nemo-file-management-properties.glade:1109
+msgid "Always start in dual-pane view"
+msgstr "לאתחל תמיד  עם מצג חלונית כפולה"
+
+#: gresources/nemo-file-management-properties.glade:1126
+msgid "Ignore per-folder view preferences"
+msgstr "להתעלם מהעדפות מצג על־פי תיקיות"
+
+#: gresources/nemo-file-management-properties.glade:1143
+msgid "Disable file operation queueing"
+msgstr "השבתת ניהול־תור פעולות קבצים"
+
+#: gresources/nemo-file-management-properties.glade:1160
+msgid "Double-click on a blank area to go to the parent folder"
+msgstr "הקשה כפולה באזור ריק כדי לעבור לתקיית האב"
+
+#: gresources/nemo-file-management-properties.glade:1202
+msgid "<b>Executable Text Files</b>"
+msgstr "<b>קובצי מלל הניתנים להפעלה</b>"
+
+#: gresources/nemo-file-management-properties.glade:1225
+msgid "_Run executable text files when they are opened"
+msgstr "ה_פעלת קובצי מלל הניתנים להפעלה בעת פתיחתם"
+
+#: gresources/nemo-file-management-properties.glade:1242
+msgid "_View executable text files when they are opened"
+msgstr "ה_צגת קובצי מלל הניתנים להפעלה בעת פתיחתם"
+
+#: gresources/nemo-file-management-properties.glade:1259
+msgid "_Ask each time"
+msgstr "_הצגת שאלה בכול פעם"
+
+#: gresources/nemo-file-management-properties.glade:1301
+msgid "<b>Trash</b>"
+msgstr "<b>סל־המחזור</b>"
+
+#: gresources/nemo-file-management-properties.glade:1324
+msgid "Ask before moving files to the Trash"
+msgstr "לשאול לפני העברת קבצים  לסל־המחזור"
+
+#: gresources/nemo-file-management-properties.glade:1340
+msgid "Ask before _emptying the Trash or deleting files"
+msgstr "לשאול לפני ריקון  סל־המחזור או מחיקת קבצים"
+
+#: gresources/nemo-file-management-properties.glade:1356
+msgid "I_nclude a Delete command that bypasses Trash"
+msgstr "ה_כללת פקודת מחיקה שעוקפת את  סל־המחזור"
+
+#: gresources/nemo-file-management-properties.glade:1372
+msgid "Bypass the Trash when the Delete key is pressed"
+msgstr "עקיפת  סל־המחזור בלחיצה על מקש המחיקה"
+
+#: gresources/nemo-file-management-properties.glade:1412
+msgid "<b>Media Handling</b>"
+msgstr "<b>טיפול במדיה</b>"
+
+#: gresources/nemo-file-management-properties.glade:1435
+msgid "Automatically mount removeable media when inserted and on startup"
+msgstr "עיגון מדיה שליפה באופן אוטומטי,  בעת הכנסתה ובעת איתחולה"
+
+#: gresources/nemo-file-management-properties.glade:1451
+msgid "Automatically open a folder for automounted media"
+msgstr "פתיחה אוטומטית של תיקייה עבור מדיה מעוגנת אוטומטית"
+
+#: gresources/nemo-file-management-properties.glade:1467
+msgid "Prompt or autorun/autostart programs when media are inserted"
+msgstr "ליזום או להריץ/להפעיל תוכניות באופן אוטומטי, בעת הכנסת מדיה"
+
+#: gresources/nemo-file-management-properties.glade:1483
+msgid ""
+"Automatically close the device's tab, pane, or window when a device is "
+"unmounted or ejected"
+msgstr ""
+"סגירה אוטומטית של לשונית, חלונית או חלון כאשר התקן מנותק מעגינה או נשלף"
+
+#: gresources/nemo-file-management-properties.glade:1499
+msgid "Detect content of media and suggest application to open"
+msgstr "זיהוי תוכן מדיה והצעת יישום לפתיחה"
+
+#: gresources/nemo-file-management-properties.glade:1540
+msgid "<b>Bulk Rename</b>"
+msgstr "<b>שינוי שם כללי</b>"
+
+#: gresources/nemo-file-management-properties.glade:1570
+msgid "Command to invoke when renaming multiple items:"
+msgstr "פקודה לביצוע בעת שינוי שם לפריטים מרובים:"
+
+#: gresources/nemo-file-management-properties.glade:1623
+msgid "Behavior"
+msgstr "התנהגות"
+
+#: gresources/nemo-file-management-properties.glade:1652
+msgid "<b>Icon Captions</b>"
+msgstr "<b>כיתוב סמלים</b>"
+
+#: gresources/nemo-file-management-properties.glade:1677
+msgid ""
+"Choose the order of information to appear beneath icon names. More "
+"information will appear when zooming in closer."
+msgstr ""
+"נא לבחור בסדר המידע שיופיע מתחת לשמות הסמלים.\n"
+"מידע רב יופיע ככל שרמת התקריב תגדל."
+
+#: gresources/nemo-file-management-properties.glade:1814
+msgid "<b>Date</b>"
+msgstr "<b>תאריך</b>"
+
+#: gresources/nemo-file-management-properties.glade:1838
+msgid "_Format:"
+msgstr "_תבנית:"
+
+#: gresources/nemo-file-management-properties.glade:1886
+msgid "<b>Window and Tab Titles</b>"
+msgstr "<b>כותרות לשוניות וחלונות</b>"
+
+#: gresources/nemo-file-management-properties.glade:1909
+msgid "Show the full p_ath in the title bar and tab bars"
+msgstr "הצגת ה_נתיב המלא בשורת הכותרת ובשורות הלשוניות"
+
+#: gresources/nemo-file-management-properties.glade:1950
+msgid "<b>File Size</b>"
+msgstr "<b>גודל קובץ</b>"
+
+#: gresources/nemo-file-management-properties.glade:1974
+msgid "_Prefixes:"
+msgstr "_קידומות:"
+
+#: gresources/nemo-file-management-properties.glade:2029
+msgid "<b>File Properties</b>"
+msgstr "<b>מאפייני קבצים</b>"
+
+#: gresources/nemo-file-management-properties.glade:2052
+msgid "Show advanced permissions in the file property dialog"
+msgstr "הצגת תפריט הרשאות מתקדמות בדו-שיח מאפייני הקובץ"
+
+#: gresources/nemo-file-management-properties.glade:2093
+msgid "<b>Move/Copy To Menu</b>"
+msgstr "<b>העברה/העתקה לתפריט</b>"
+
+#: gresources/nemo-file-management-properties.glade:2116
+msgid "List bookmarks in the menu"
+msgstr "רשימת הסימניות בתפריט"
+
+#: gresources/nemo-file-management-properties.glade:2132
+msgid "List devices and network locations in the menu"
+msgstr "הצגת רשימת התקנים ומיקומי רשת בתפריט"
+
+#: gresources/nemo-file-management-properties.glade:2169
+msgid "Display"
+msgstr "תצוגה"
+
+#: gresources/nemo-file-management-properties.glade:2198
+msgid "<b>List Columns</b>"
+msgstr "<b>רשימת עמודות</b>"
+
+#: gresources/nemo-file-management-properties.glade:2223
+msgid "Choose the order of information to appear in the list view."
+msgstr "נא לבחור בסדר המידע שיופיע בתצוגת הרשימה."
+
+#: gresources/nemo-file-management-properties.glade:2259
+msgid "List Columns"
+msgstr "רשימת עמודות"
+
+#: gresources/nemo-file-management-properties.glade:2288
+msgid "<b>Previewable Files</b>"
+msgstr "<b>קבצים הניתנים לתצוגה מקדימה</b>"
+
+#: gresources/nemo-file-management-properties.glade:2318
+msgid "Show _thumbnails:"
+msgstr "מצג _תמונות ממוזערות:"
+
+#: gresources/nemo-file-management-properties.glade:2356
+msgid "_Inherit thumbnail visibility from parent"
+msgstr "_ירושת תמונות ממוזערות גלויות מההורה"
+
+#: gresources/nemo-file-management-properties.glade:2379
+msgid "_Only for files smaller than:"
+msgstr "_רק לקבצים הקטנים מ:"
+
+#: gresources/nemo-file-management-properties.glade:2442
+msgid "<b>Folders</b>"
+msgstr "<b>תיקיות</b>"
+
+#: gresources/nemo-file-management-properties.glade:2472
+msgid "Count _number of items:"
+msgstr "ספירת _מספר פריטים:"
+
+#: gresources/nemo-file-management-properties.glade:2535
+msgid "<b>Tooltips</b>"
+msgstr "<b>רֶמֶז צָץ</b>"
+
+#: gresources/nemo-file-management-properties.glade:2558
+msgid "Show tooltips in icon and compact views"
+msgstr "הצגת רֶמֶז צָץ בתצוגת סמלים ותצוגה צמומה"
+
+#: gresources/nemo-file-management-properties.glade:2575
+msgid "Show tooltips in list views"
+msgstr "הצגת רֶמֶז צָץ בתצוגת רשימה"
+
+#: gresources/nemo-file-management-properties.glade:2592
+msgid "Show tooltips on the desktop"
+msgstr "הצגת רֶמֶז צָץ על גבי שולחן העבודה"
+
+#: gresources/nemo-file-management-properties.glade:2611
+msgid ""
+"<i>By default, a folder tooltip shows the item count, and files display "
+"their size.\n"
+"    Select additional information to display in the tooltip:</i>"
+msgstr ""
+"<i>כבררת מחדל, רֶמֶז־צָץ לתיקיות מציג מספר פריטים וגודל הקבצים.\n"
+"\tנא לבחור מידע נוסף להצגה ברמז־צץ:</i>"
+
+#: gresources/nemo-file-management-properties.glade:2636
+msgid "Detailed file type"
+msgstr "סוג קובץ מפורט"
+
+#: gresources/nemo-file-management-properties.glade:2651
+msgid "Modified date"
+msgstr "תאריך שינוי"
+
+#: gresources/nemo-file-management-properties.glade:2666
+msgid "Created date"
+msgstr "תאריך יצירה"
+
+#: gresources/nemo-file-management-properties.glade:2682
+msgid "Accessed date"
+msgstr "תאריך גישה"
+
+#: gresources/nemo-file-management-properties.glade:2698
+msgid "File or folder location"
+msgstr "מיקום קובץ או תיקייה"
+
+#: gresources/nemo-file-management-properties.glade:2744
+msgid "Preview"
+msgstr "תצוגה מקדימה"
+
+#: gresources/nemo-file-management-properties.glade:2773
+msgid "Visible Buttons"
+msgstr "לחצנים בתפריט"
+
+#: gresources/nemo-file-management-properties.glade:2818
+msgid "Previous"
+msgstr "מיקום קודם"
+
+#: gresources/nemo-file-management-properties.glade:2855
+msgid "Next"
+msgstr "מיקום הבא"
+
+#: gresources/nemo-file-management-properties.glade:2892
+msgid "Up"
+msgstr "מיקום אב"
+
+#: gresources/nemo-file-management-properties.glade:2929
+msgid "Refresh"
+msgstr "רענון"
+
+#: gresources/nemo-file-management-properties.glade:3040
+msgid "Location entry toggle"
+msgstr "חילוף רשומת מיקום"
+
+#: gresources/nemo-file-management-properties.glade:3077
+msgid "Open in terminal"
+msgstr "פתיחה במסוף"
+
+#: gresources/nemo-file-management-properties.glade:3188
+#: gresources/nemo-shortcuts.ui:308
+msgid "Icon view"
+msgstr "תצוגת סמלים"
+
+#: gresources/nemo-file-management-properties.glade:3225
+msgid "List view"
+msgstr "תצוגת רשימה"
+
+#: gresources/nemo-file-management-properties.glade:3262
+msgid "Compact view"
+msgstr "תצוגה צמומה"
+
+#: gresources/nemo-file-management-properties.glade:3334
+msgid "Toolbar"
+msgstr "סרגל הכלים"
+
+#: gresources/nemo-file-management-properties.glade:3357
+msgid "Visible Entries"
+msgstr "רשומות גלויות"
+
+#: gresources/nemo-file-management-properties.glade:3388
+msgid "Selection"
+msgstr "בחירה"
+
+#: gresources/nemo-file-management-properties.glade:3582
+msgid "Favorite"
+msgstr "מועדף"
+
+#: gresources/nemo-file-management-properties.glade:3783
+msgid "Background"
+msgstr "רקע"
+
+#: gresources/nemo-file-management-properties.glade:4106
+msgid ""
+"Visible action and extension entries can be configured in the Plugins tab"
+msgstr "פעולות נראות ורשומות הרחבות ניתנים להגדרה בלשונית המתקעים"
+
+#: gresources/nemo-file-management-properties.glade:4123
+msgid "Context Menus"
+msgstr "תפריטי הקשר"
+
+#: gresources/nemo-search-bar.glade:46
+msgid "Search for files:"
+msgstr "חיפוש קבצים:"
+
+#: gresources/nemo-search-bar.glade:78 gresources/nemo-search-bar.glade:172
+msgid "Case sensitive"
+msgstr "תלוי רישיות"
+
+#: gresources/nemo-search-bar.glade:99
+msgid "Search folders recursively"
+msgstr "חיפוש תקיות רקורסיבי"
+
+#: gresources/nemo-search-bar.glade:140
+msgid "Search content:"
+msgstr "תוכן חיפוש:"
+
+#: gresources/nemo-search-bar.glade:193
+msgid "Regular expression"
+msgstr "ביטוי סדיר"
+
+#: gresources/nemo-shortcuts.ui:13
+msgctxt "shortcut window"
+msgid "General"
+msgstr "כללי"
+
+#: gresources/nemo-shortcuts.ui:17
+msgctxt "shortcut window"
+msgid "New window"
+msgstr "חלון חדש"
+
+#: gresources/nemo-shortcuts.ui:24
+msgctxt "shortcut window"
+msgid "Close window or tab"
+msgstr "סגירת חלון או לשונית"
+
+#: gresources/nemo-shortcuts.ui:31
+msgctxt "shortcut window"
+msgid "Close all windows"
+msgstr "סגירת כל החלונות"
+
+#: gresources/nemo-shortcuts.ui:38 gresources/nemo-shortcuts.ui:232
+msgctxt "shortcut window"
+msgid "Toggle extra pane"
+msgstr "מחלף חלונית נוספת"
+
+#: gresources/nemo-shortcuts.ui:45
+msgctxt "shortcut window"
+msgid "Search"
+msgstr "חיפוש"
+
+#: gresources/nemo-shortcuts.ui:52
+msgctxt "shortcut window"
+msgid "Bookmark current location"
+msgstr "הוספת סימנייה למיקום הנוכחי"
+
+#: gresources/nemo-shortcuts.ui:59
+msgctxt "shortcut window"
+msgid "Edit bookmarks"
+msgstr "עריכת סימניות"
+
+#: gresources/nemo-shortcuts.ui:66
+msgctxt "shortcut window"
+msgid "Make link"
+msgstr "יצירת קישור"
+
+#: gresources/nemo-shortcuts.ui:73
+msgctxt "shortcut window"
+msgid "Pin/Unpin selection"
+msgstr "ניעצת/ביטול־נעיצת בחירה"
+
+#: gresources/nemo-shortcuts.ui:80
+msgctxt "shortcut window"
+msgid "Show help"
+msgstr "הצגת עזרה"
+
+#: gresources/nemo-shortcuts.ui:87
+msgctxt "shortcut window"
+msgid "Shortcuts"
+msgstr "קיצורי דרך"
+
+#: gresources/nemo-shortcuts.ui:96
+msgctxt "shortcut window"
+msgid "Opening"
+msgstr "פתיחה"
+
+#: gresources/nemo-shortcuts.ui:100
+msgctxt "shortcut window"
+msgid "Open"
+msgstr "פתיחה"
+
+#: gresources/nemo-shortcuts.ui:107
+msgctxt "shortcut window"
+msgid "Open in new tab"
+msgstr "פתיחה בלשונית חדשה"
+
+#: gresources/nemo-shortcuts.ui:114
+msgctxt "shortcut window"
+msgid "Open in new window"
+msgstr "פתיחה בחלון חדש"
+
+#: gresources/nemo-shortcuts.ui:121
+msgctxt "shortcut window"
+msgid "Open item location (recent files and search only)"
+msgstr "פתיחת מיקום פריט (קבצים אחרונים וחיפוש בלבד)"
+
+#: gresources/nemo-shortcuts.ui:131
+msgctxt "shortcut window"
+msgid "Tabs"
+msgstr "לשוניות"
+
+#: gresources/nemo-shortcuts.ui:135
+msgctxt "shortcut window"
+msgid "New tab"
+msgstr "לשונית חדשה"
+
+#: gresources/nemo-shortcuts.ui:142
+msgctxt "shortcut window"
+msgid "Go to previous tab"
+msgstr "מעבר ללשונית קודמת"
+
+#: gresources/nemo-shortcuts.ui:149
+msgctxt "shortcut window"
+msgid "Go to next tab"
+msgstr "מעבר ללשונית הבאה"
+
+#: gresources/nemo-shortcuts.ui:156
+msgctxt "shortcut window"
+msgid "Switch to tab"
+msgstr "החלפה ללשונית"
+
+#: gresources/nemo-shortcuts.ui:163
+msgctxt "shortcut window"
+msgid "Move tab left"
+msgstr "העברת לשונית שמאלה"
+
+#: gresources/nemo-shortcuts.ui:170
+msgctxt "shortcut window"
+msgid "Move tab right"
+msgstr "העברת לשונית ימינה"
+
+#: gresources/nemo-shortcuts.ui:179
+msgctxt "shortcut window"
+msgid "Navigation"
+msgstr "ניווט"
+
+#: gresources/nemo-shortcuts.ui:183
+msgctxt "shortcut window"
+msgid "Go back"
+msgstr "חזרה"
+
+#: gresources/nemo-shortcuts.ui:190
+msgctxt "shortcut window"
+msgid "Go forward"
+msgstr "קדימה"
+
+#: gresources/nemo-shortcuts.ui:197
+msgctxt "shortcut window"
+msgid "Go up"
+msgstr "מעלה"
+
+#: gresources/nemo-shortcuts.ui:204
+msgctxt "shortcut window"
+msgid "Go down"
+msgstr "מטה"
+
+#: gresources/nemo-shortcuts.ui:211
+msgctxt "shortcut window"
+msgid "Go to home folder"
+msgstr "מעבר לתיקיית הבית"
+
+#: gresources/nemo-shortcuts.ui:218
+msgctxt "shortcut window"
+msgid "Toggle location entry"
+msgstr "מחלף רשומת מיקום"
+
+#: gresources/nemo-shortcuts.ui:228
+msgctxt "shortcut window"
+msgid "Dual Pane"
+msgstr "חלונית כפולה"
+
+#: gresources/nemo-shortcuts.ui:239
+msgctxt "shortcut window"
+msgid "Go to other pane's location"
+msgstr "מעבר למיקום החלונית האחרת"
+
+#: gresources/nemo-shortcuts.ui:246
+msgctxt "shortcut window"
+msgid "Focus other pane"
+msgstr "מיקוד על החלונית האחרת"
+
+#: gresources/nemo-shortcuts.ui:255
+msgctxt "shortcut window"
+msgid "View"
+msgstr "מצג"
+
+#: gresources/nemo-shortcuts.ui:259
+msgctxt "shortcut window"
+msgid "Zoom in"
+msgstr "התקרבות"
+
+#: gresources/nemo-shortcuts.ui:266
+msgctxt "shortcut window"
+msgid "Zoom out"
+msgstr "התרחקות"
+
+#: gresources/nemo-shortcuts.ui:273
+msgctxt "shortcut window"
+msgid "Reset zoom"
+msgstr "איפוס תקריב"
+
+#: gresources/nemo-shortcuts.ui:280
+msgctxt "shortcut window"
+msgid "Refresh view"
+msgstr "רענון מצג"
+
+#: gresources/nemo-shortcuts.ui:287
+msgctxt "shortcut window"
+msgid "Show/hide hidden files"
+msgstr "הצגת/הסתרת קבצים מוסתרים"
+
+#: gresources/nemo-shortcuts.ui:294
+msgctxt "shortcut window"
+msgid "Show/hide sidebar"
+msgstr "הצגת/הסתרת סרגל הצד"
+
+#: gresources/nemo-shortcuts.ui:301
+msgctxt "shortcut window"
+msgid "Show/hide action menu"
+msgstr "הצגת/הסתרת תפריט פעולה"
+
+#: gresources/nemo-shortcuts.ui:314
+msgctxt "shortcut window"
+msgid "List view"
+msgstr "מצג רשימה"
+
+#: gresources/nemo-shortcuts.ui:322
+msgctxt "shortcut window"
+msgid "Compact view"
+msgstr "תצוגה צמומה"
+
+#: gresources/nemo-shortcuts.ui:331
+msgctxt "shortcut window"
+msgid "Editing"
+msgstr "עריכה"
+
+#: gresources/nemo-shortcuts.ui:335
+msgctxt "shortcut window"
+msgid "Create folder"
+msgstr "יצירת תיקייה"
+
+#: gresources/nemo-shortcuts.ui:342
+msgctxt "shortcut window"
+msgid "Rename"
+msgstr "שינוי שם"
+
+#: gresources/nemo-shortcuts.ui:349
+msgctxt "shortcut window"
+msgid "Move to trash"
+msgstr "העבר לסל־המיחזור"
+
+#: gresources/nemo-shortcuts.ui:356
+msgctxt "shortcut window"
+msgid "Delete permanently"
+msgstr "מחיקה לצמיתות"
+
+#: gresources/nemo-shortcuts.ui:363
+msgctxt "shortcut window"
+msgid "Cut"
+msgstr "גזירה"
+
+#: gresources/nemo-shortcuts.ui:370
+msgctxt "shortcut window"
+msgid "Copy"
+msgstr "העתקה"
+
+#: gresources/nemo-shortcuts.ui:377
+msgctxt "shortcut window"
+msgid "Paste"
+msgstr "הדבקה"
+
+#: gresources/nemo-shortcuts.ui:384
+msgctxt "shortcut window"
+msgid "Select all"
+msgstr "בחירת הכול"
+
+#: gresources/nemo-shortcuts.ui:391
+msgctxt "shortcut window"
+msgid "Invert selection"
+msgstr "היפוך הבחירה"
+
+#: gresources/nemo-shortcuts.ui:398
+msgctxt "shortcut window"
+msgid "Select items matching"
+msgstr "בחירת פריטים תואמים"
+
+#: gresources/nemo-shortcuts.ui:405
+msgctxt "shortcut window"
+msgid "Undo"
+msgstr "החזרה לקדמות"
+
+#: gresources/nemo-shortcuts.ui:412
+msgctxt "shortcut window"
+msgid "Redo"
+msgstr "חזרה"
+
+#: gresources/nemo-shortcuts.ui:419
+msgctxt "shortcut window"
+msgid "Show item properties"
+msgstr "הצגת מאפיני  פריט"

@@ -1,0 +1,401 @@
+# Lithuanian translation for linuxmint
+# Copyright (c) 2009 Rosetta Contributors and Canonical Ltd 2009
+# This file is distributed under the same license as the linuxmint package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2009.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: linuxmint\n"
+"Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
+"POT-Creation-Date: 2019-02-27 13:57+0000\n"
+"PO-Revision-Date: 2019-02-27 20:46+0000\n"
+"Last-Translator: Moo <hazap@hotmail.com>\n"
+"Language-Team: Lithuanian <lt@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Launchpad-Export-Date: 2022-10-10 13:02+0000\n"
+"X-Generator: Launchpad (build 762fb15a975e8b23af6a1f86e44e46bfd0451459)\n"
+
+#: usr/lib/linuxmint/mintbackup/mintbackup.py:41
+msgid "Backups"
+msgstr "Atsarginės kopijos"
+
+#: usr/lib/linuxmint/mintbackup/mintbackup.py:169
+#: usr/lib/linuxmint/mintbackup/mintbackup.py:209
+#: usr/lib/linuxmint/mintbackup/mintbackup.py:216 generate_desktop_files:24
+#: generate_desktop_files:39
+msgid "Backup Tool"
+msgstr "Atsarginių kopijų įrankis"
+
+#: usr/lib/linuxmint/mintbackup/mintbackup.py:232
+#, python-format
+msgid "%s is not located in your home directory."
+msgstr "%s nėra jūsų namų kataloge."
+
+#: usr/lib/linuxmint/mintbackup/mintbackup.py:272
+msgid "Please choose a directory."
+msgstr "Pasirinkite katalogą."
+
+#: usr/lib/linuxmint/mintbackup/mintbackup.py:275
+msgid "You do not have the permission to write in the selected directory."
+msgstr "Jūs neturite teisės rašyti į pasirinktą katalogą."
+
+#: usr/lib/linuxmint/mintbackup/mintbackup.py:335
+msgid "Please choose a backup file."
+msgstr "Pasirinkite atsarginės kopijos failą."
+
+#: usr/lib/linuxmint/mintbackup/mintbackup.py:343
+msgid ""
+"This backup file is either too old or it was created with a different tool. "
+"Please extract it manually."
+msgstr ""
+"Šis atsarginės kopijos failas yra arba per senas, arba jis buvo sukurtas "
+"naudojant kitą įrankį. Prašome išskleisti jį rankiniu būdu."
+
+#: usr/lib/linuxmint/mintbackup/mintbackup.py:352
+#, python-format
+msgid "An error occurred while opening the backup file: %s."
+msgstr "Atveriant atsarginės kopijos failą, įvyko klaida: %s."
+
+#: usr/lib/linuxmint/mintbackup/mintbackup.py:366
+msgid "No packages need to be installed."
+msgstr "Nereikia įdiegti jokių paketų."
+
+#: usr/lib/linuxmint/mintbackup/mintbackup.py:373
+msgid "Please select packages to install."
+msgstr "Pasirinkite paketus, kuriuos įdiegti."
+
+#: usr/lib/linuxmint/mintbackup/mintbackup.py:427
+#, python-format
+msgid "Skipping %s because named pipes are not supported."
+msgstr "Praleidžiama %s, kadangi kanalai su pavadinimais yra nepalaikomi."
+
+#: usr/lib/linuxmint/mintbackup/mintbackup.py:452
+msgid "Backing up:"
+msgstr "Kuriama atsarginė kopija:"
+
+#: usr/lib/linuxmint/mintbackup/mintbackup.py:460
+msgid "Calculating..."
+msgstr "Skaičiuojama..."
+
+#: usr/lib/linuxmint/mintbackup/mintbackup.py:464
+#: usr/lib/linuxmint/mintbackup/mintbackup.py:568
+msgid "The following errors occurred:"
+msgstr "Įvyko šios klaidos:"
+
+#: usr/lib/linuxmint/mintbackup/mintbackup.py:470
+msgid "The backup was aborted."
+msgstr "Atsarginės kopijos darymas buvo nutrauktas."
+
+#: usr/lib/linuxmint/mintbackup/mintbackup.py:474
+#, python-format
+msgid "Your files were successfully saved in %s."
+msgstr "Jūsų failai buvo sėkmingai įrašyti ties %s."
+
+#: usr/lib/linuxmint/mintbackup/mintbackup.py:515
+msgid ""
+"Warning: The meta file could not be saved. This backup will not be accepted "
+"for restoration."
+msgstr ""
+"Įspėjimas: Nepavyko įrašyti meta failo. Ši atsarginė kopija nebus priimta "
+"atkūrimui."
+
+#: usr/lib/linuxmint/mintbackup/mintbackup.py:542
+#, python-format
+msgid ""
+"Warning: Some files were not saved. Only %(archived)d files were backed up "
+"out of %(total)d."
+msgstr ""
+"Įspėjimas: Kai kurie failai nebuvo įrašyti. Iš %(total)d failų, į atsarginę "
+"kopiją buvo įtraukti tik %(archived)d."
+
+#: usr/lib/linuxmint/mintbackup/mintbackup.py:557
+msgid "Restoring:"
+msgstr "Atkuriama:"
+
+#: usr/lib/linuxmint/mintbackup/mintbackup.py:574
+msgid "The restoration was aborted."
+msgstr "Atkūrimas buvo nutrauktas."
+
+#: usr/lib/linuxmint/mintbackup/mintbackup.py:578
+msgid "Your files were successfully restored."
+msgstr "Jūsų failai buvo sėkmingai atkurti."
+
+#: usr/lib/linuxmint/mintbackup/mintbackup.py:666
+#, python-format
+msgid "Warning: Only %(number)d files were restored out of %(total)d."
+msgstr "Įspėjimas: Iš %(total)d failų buvo atkurti tik %(number)d."
+
+#: usr/lib/linuxmint/mintbackup/mintbackup.py:691
+msgid "The list below shows the applications you installed."
+msgstr "Sąrašas apačioje rodo jūsų įdiegtas programas."
+
+#: usr/lib/linuxmint/mintbackup/mintbackup.py:735
+#, python-format
+msgid "Your software selection was saved in %s"
+msgstr "Jūsų programinės įrangos pasirinkimas buvo įrašytas ties %s"
+
+#: usr/lib/linuxmint/mintbackup/mintbackup.py:751
+msgid "The selected file is not a valid software selection."
+msgstr "Pasirinktas failas nėra teisingas programinės įrangos pasirinkimas."
+
+#: usr/lib/linuxmint/mintbackup/mintbackup.py:756
+#: usr/lib/linuxmint/mintbackup/mintbackup.py:794
+msgid "An error occurred while reading the file."
+msgstr "Skaitant failą, įvyko klaida."
+
+#: usr/lib/linuxmint/mintbackup/mintbackup.py:779
+msgid "Could not locate the package."
+msgstr "Nepavyko nustatyti paketo vietos."
+
+#: generate_desktop_files:24 generate_desktop_files:39
+msgid "Make a backup of your home directory"
+msgstr "Kurti namų aplanko atsarginę kopiją"
+
+#: usr/share/linuxmint/mintbackup/mintbackup.ui.h:1
+msgid "Personal data"
+msgstr "Asmeniniai duomenys"
+
+#: usr/share/linuxmint/mintbackup/mintbackup.ui.h:2
+msgid "Your files, settings and the content of your home directory"
+msgstr "Jūsų failai, nustatymai ir namų katalogo turinys"
+
+#: usr/share/linuxmint/mintbackup/mintbackup.ui.h:3
+msgid "Restore..."
+msgstr "Atkurti..."
+
+#: usr/share/linuxmint/mintbackup/mintbackup.ui.h:4
+msgid "Back Up Now..."
+msgstr "Daryti atsarginę kopiją dabar..."
+
+#: usr/share/linuxmint/mintbackup/mintbackup.ui.h:5
+msgid "Software selection"
+msgstr "Programinės įrangos pasirinkimas"
+
+#: usr/share/linuxmint/mintbackup/mintbackup.ui.h:6
+msgid "The list of applications installed on your computer"
+msgstr "Jūsų kompiuteryje įdiegtų programų sąrašas"
+
+#: usr/share/linuxmint/mintbackup/mintbackup.ui.h:7
+msgid "Please select where you want to save the backup file:"
+msgstr "Pasirinkite kur norėtumėte įrašyti atsarginės kopijos failą:"
+
+#: usr/share/linuxmint/mintbackup/mintbackup.ui.h:8
+msgid ""
+"Please add files or directories to the list below to exclude them from the "
+"backup."
+msgstr ""
+"Norėdami išskirti failus ar katalogus iš atsarginės kopijos, pridėkite juos "
+"į sąrašą žemiau."
+
+#: usr/share/linuxmint/mintbackup/mintbackup.ui.h:9
+msgid "Exclude files"
+msgstr "Neįtraukti failų"
+
+#: usr/share/linuxmint/mintbackup/mintbackup.ui.h:10
+msgid "Exclude directories"
+msgstr "Išskirti aplankus"
+
+#: usr/share/linuxmint/mintbackup/mintbackup.ui.h:11
+msgid "Remove"
+msgstr "Pašalinti"
+
+#: usr/share/linuxmint/mintbackup/mintbackup.ui.h:12
+msgid ""
+"Hidden files and hidden folders located at the root of your home directory "
+"are not included by default."
+msgstr ""
+"Jūsų šakniniame namų kataloge esantys paslėpti failai ir paslėpti aplankai, "
+"pagal numatymą, nėra pridedami."
+
+#: usr/share/linuxmint/mintbackup/mintbackup.ui.h:13
+msgid ""
+"If you want to include some of them in the backup, please add them to the "
+"list below."
+msgstr ""
+"Jeigu kai kuriuos iš jų norite įtraukti į atsarginę kopiją, pridėkite juos į "
+"sąrašą žemiau."
+
+#: usr/share/linuxmint/mintbackup/mintbackup.ui.h:14
+msgid "Include files"
+msgstr "Įtraukti failus"
+
+#: usr/share/linuxmint/mintbackup/mintbackup.ui.h:15
+msgid "Include directories"
+msgstr "Įtraukti katalogus"
+
+#: usr/share/linuxmint/mintbackup/mintbackup.ui.h:16
+msgid ""
+"These files and folders usually contain temporary data or preferences for "
+"your applications."
+msgstr ""
+"Šiuose failuose ir aplankuose, dažniausiai, būna laikinieji duomenys arba "
+"jūsų programų nuostatos."
+
+#: usr/share/linuxmint/mintbackup/mintbackup.ui.h:17
+msgid "Please wait while your files are being backed up."
+msgstr "Palaukite, kol yra daroma jūsų failų atsarginė kopija."
+
+#: usr/share/linuxmint/mintbackup/mintbackup.ui.h:18
+msgid "Please select the backup to restore:"
+msgstr "Pasirinkite norimą atkurti atsarginę kopiją:"
+
+#: usr/share/linuxmint/mintbackup/mintbackup.ui.h:19
+msgid "Overwrite existing files?"
+msgstr "Perrašyti esamus failus?"
+
+#: usr/share/linuxmint/mintbackup/mintbackup.ui.h:20
+msgid ""
+"No, only restore missing files.\n"
+"<small>This option is safe and does not affect your existing files.</small>"
+msgstr ""
+"Ne, tik atkurti trūkstamus failus.\n"
+"<small>Šis parametras yra saugus ir nepaveikia jūsų esamų failų.</small>"
+
+#: usr/share/linuxmint/mintbackup/mintbackup.ui.h:22
+msgid ""
+"Yes, overwrite changes and restore the content of any existing files.\n"
+"<small>Use this option with caution. The changes you made to the files since "
+"the backup will be lost.</small>"
+msgstr ""
+"Taip, perrašyti pakeitimus ir atkurti bet kokių esamų failų turinį.\n"
+"<small>Naudokite šį parametrą apdairiai. Failų pakeitimai, kuriuos atlikote "
+"nuo atsarginės kopijos atkūrimo, bus prarasti.</small>"
+
+#: usr/share/linuxmint/mintbackup/mintbackup.ui.h:24
+msgid "Please wait while your files are being restored."
+msgstr "Palaukite, kol jūsų failai yra atkuriami."
+
+#: usr/share/linuxmint/mintbackup/mintbackup.ui.h:25
+msgid ""
+"The list below shows the applications you installed with the Software "
+"Manager."
+msgstr ""
+"Žemiau esančiame sąraše yra rodomos programos, kurias įdiegėte, naudodami "
+"Programinės įrangos tvarkytuvę."
+
+#: usr/share/linuxmint/mintbackup/mintbackup.ui.h:26
+msgid "Please select the applications you want to save."
+msgstr "Pasirinkite programas, kurias norite įrašyti."
+
+#: usr/share/linuxmint/mintbackup/mintbackup.ui.h:27
+msgid "Select all"
+msgstr "Žymėti visus"
+
+#: usr/share/linuxmint/mintbackup/mintbackup.ui.h:28
+msgid "Deselect all"
+msgstr "Nuimti žymėjimą nuo visų"
+
+#: usr/share/linuxmint/mintbackup/mintbackup.ui.h:29
+msgid ""
+"Note: If you want to save the complete list of all installed packages on the "
+"system, please use the command 'dpkg --get-selections > mylist.list' in a "
+"terminal."
+msgstr ""
+"Pastaba: Jeigu norite įrašyti pilną visų sistemoje įdiegtų paketų sąrašą, "
+"tuomet terminale naudokite komandą \"dpkg --get-selections > mylist.list\"."
+
+#: usr/share/linuxmint/mintbackup/mintbackup.ui.h:30
+msgid "Please select a saved software selection (.list file):"
+msgstr "Pasirinkite įrašytą programinės įrangos pasirinkimą (.list failą):"
+
+#: usr/share/linuxmint/mintbackup/mintbackup.ui.h:31
+msgid "Select the packages you want to install."
+msgstr "Pasirinkite programas, kurias norite įdiegti."
+
+#: usr/share/linuxmint/mintbackup/mintbackup.ui.h:32
+msgid "Refresh"
+msgstr "Atnaujinti"
+
+#: usr/share/linuxmint/mintbackup/mintbackup.ui.h:33
+msgid "All the packages in your software selection are installed."
+msgstr ""
+"Visi jūsų programinės įrangos pasirinkime esantys paketai yra įdiegti."
+
+#~ msgid "Backup successful"
+#~ msgstr "Atsarginė kopija padaryta"
+
+#~ msgid "Restoration successful"
+#~ msgstr "Atkūrimas sėkmingas"
+
+#~ msgid "Cleaning up..."
+#~ msgstr "Valoma..."
+
+#~ msgid "Backup"
+#~ msgstr "Kurti atsarginę kopiją"
+
+#~ msgid "Restoration failed"
+#~ msgstr "Atkurti nepavyko"
+
+#~ msgid "Read error"
+#~ msgstr "Skaitymo klaida"
+
+#~ msgid "Invalid path"
+#~ msgstr "Netinkamas kelias"
+
+#~ msgid "Included"
+#~ msgstr "Įtraukta"
+
+#~ msgid "Overwrite existing files"
+#~ msgstr "Perrašyti esamas bylas"
+
+#~ msgid "Restore"
+#~ msgstr "Atkurti"
+
+#~ msgid "View content"
+#~ msgstr "Peržiūrėti turinį"
+
+#~ msgid "Your home directory was successfully backed-up into"
+#~ msgstr "Jūsų namų katalogo atsarginė kopija buvo sėkmingai išsaugota"
+
+#~ msgid "Backup failed"
+#~ msgstr "Nepavyko padaryti atsarginės kopijos"
+
+#~ msgid "Extracting the content of the backup into your home directory..."
+#~ msgstr "Atsarginės kopijos turinys išskleidžiamas jūsų namų kataloge..."
+
+#~ msgid "Copying the backup file into your home directory..."
+#~ msgstr "Atsarginė kopija kopijuojama į jūsų namų katalogą..."
+
+#~ msgid "Your backup was successfully restored"
+#~ msgstr "Jūsų atsarginė kopija buvo sėkmingai atkurta"
+
+#~ msgid "An error occurred while restoring the backup archive:"
+#~ msgstr "Atkuriant atsarginės kopijos archyvą įvyko klaida:"
+
+#~ msgid "Opening the backup archive..."
+#~ msgstr "Atidaromas atsarginės kopijos archyvas..."
+
+#~ msgid "An error occurred while opening the backup:"
+#~ msgstr "Atidarant atsarginę kopiją įvyko klaida:"
+
+#~ msgid "Excluded paths"
+#~ msgstr "Neįtrauktos vietos"
+
+#~ msgid "An error occurred during the backup:"
+#~ msgstr "Darant atsarginę kopiją įvyko klaida:"
+
+#~ msgid "Restore your personal data from this backup"
+#~ msgstr "Atkurti asmeninius duomenis iš šios atsarginės kopijos"
+
+#~ msgid "<big><b>Load data into your home directory</b></big>"
+#~ msgstr "<big><b>Įkrauti duomenis į savo namų katalogą</b></big>"
+
+#~ msgid "is not located within your home directory. Not added."
+#~ msgstr "nėra jūsų namų kataloge. Neįtraukta."
+
+#~ msgid "Included hidden directories"
+#~ msgstr "Įtraukti paslėpti katalogai"
+
+#~ msgid "Excluded Files and Directories"
+#~ msgstr "Neįtrauktos bylos ir katalogai"
+
+#~ msgid "Exclude folders"
+#~ msgstr "Neįtraukti katalogų"
+
+#~ msgid "Hidden paths"
+#~ msgstr "Paslėptos vietos"
+
+#~ msgid "Archiving your home directory..."
+#~ msgstr "Glaudinamas jūsų namų katalogas..."

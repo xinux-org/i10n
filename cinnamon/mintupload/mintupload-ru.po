@@ -1,0 +1,373 @@
+# Russian translation for linuxmint
+# Copyright (c) 2009 Rosetta Contributors and Canonical Ltd 2009
+# This file is distributed under the same license as the linuxmint package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2009.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: linuxmint\n"
+"Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
+"POT-Creation-Date: 2018-05-07 12:31+0100\n"
+"PO-Revision-Date: 2017-10-14 09:05+0000\n"
+"Last-Translator: Dmitriy Kulikov <Unknown>\n"
+"Language-Team: Russian <ru@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
+"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
+"X-Launchpad-Export-Date: 2022-10-10 13:01+0000\n"
+"X-Generator: Launchpad (build 762fb15a975e8b23af6a1f86e44e46bfd0451459)\n"
+
+#: usr/lib/linuxmint/mintupload/mintupload.py:28
+#: usr/lib/linuxmint/mintupload/upload-manager.py:28
+#: usr/lib/linuxmint/mintupload/upload-manager.py:82
+#: usr/lib/linuxmint/mintupload/upload-manager.py:117 generate_desktop_files:27
+#: generate_desktop_files:41
+msgid "Upload Manager"
+msgstr "Менеджер загрузчика файлов"
+
+#: usr/lib/linuxmint/mintupload/mintupload.py:43
+#: usr/lib/linuxmint/mintupload/mintupload.py:138
+#, python-format
+msgid "%(percentage)s of %(number)d files - Uploading to %(service)s"
+msgstr "Загрузка %(number)d файлов на %(service)s - %(percentage)s"
+
+#: usr/lib/linuxmint/mintupload/mintupload.py:45
+#: usr/lib/linuxmint/mintupload/mintupload.py:141
+#, python-format
+msgid "%(percentage)s of 1 file - Uploading to %(service)s"
+msgstr "Загрузка файла на %(service)s - %(percentage)s"
+
+#: usr/lib/linuxmint/mintupload/mintupload.py:81
+#, python-format
+msgid "The upload to '%(service)s' was cancelled"
+msgstr "Загрузка на '%(service)s' отменена"
+
+#: usr/lib/linuxmint/mintupload/mintupload.py:93
+#, python-format
+msgid "Upload to '%s' failed: "
+msgstr "Загрузка на '%s' не удалась: "
+
+#: usr/lib/linuxmint/mintupload/mintupload.py:99
+#, python-format
+msgid "Successfully uploaded %(number)d files to '%(service)s'"
+msgstr "%(number)d файлов были успешно загружены на '%(service)s'"
+
+#: usr/lib/linuxmint/mintupload/mintupload.py:101
+#, python-format
+msgid "Successfully uploaded 1 file to '%(service)s'"
+msgstr "Файл успешно загружен на '%(service)s'"
+
+#: usr/lib/linuxmint/mintupload/mintupload.py:112
+msgid "Do you want to cancel this upload?"
+msgstr "Вы хотите прервать эту загрузку?"
+
+#: usr/lib/linuxmint/mintupload/mintupload.py:113
+msgid "Cancel"
+msgstr "Отменить"
+
+#: usr/lib/linuxmint/mintupload/mintupload.py:114
+msgid "Run in the background"
+msgstr "Запустить в фоновом режиме"
+
+#: usr/lib/linuxmint/mintupload/mintupload.py:117
+msgid "Cancel upload?"
+msgstr "Отменить загрузку?"
+
+#: usr/lib/linuxmint/mintupload/mintupload.py:137
+#, python-format
+msgid "Uploading %(number)d files to %(service)s"
+msgstr "Загрузка %(number)d файлов на %(service)s"
+
+#: usr/lib/linuxmint/mintupload/mintupload.py:140
+#, python-format
+msgid "Uploading 1 file to %(service)s"
+msgstr "Загрузка файла на %(service)s"
+
+#: usr/lib/linuxmint/mintupload/mintupload.py:159
+#, python-format
+msgid ""
+"%(size_so_far)s of %(total_size)s - %(time_remaining)s left (%(speed)s/sec)"
+msgstr ""
+"%(size_so_far)s из %(total_size)s - осталось %(time_remaining)s, скорость "
+"(%(speed)s/sec)"
+
+#: usr/lib/linuxmint/mintupload/mintupload.py:161
+#, python-format
+msgid "%(size_so_far)s of %(total_size)s"
+msgstr "%(size_so_far)s из %(total_size)s"
+
+#: usr/lib/linuxmint/mintupload/mintupload.py:188
+#: usr/lib/linuxmint/mintupload/mintupload_core.py:93
+#: usr/lib/linuxmint/mintupload/mintupload_core.py:95
+msgid "B"
+msgstr "байт"
+
+#: usr/lib/linuxmint/mintupload/mintupload.py:190
+#: usr/lib/linuxmint/mintupload/mintupload_core.py:95
+msgid "KB"
+msgstr "КБ"
+
+#: usr/lib/linuxmint/mintupload/mintupload.py:192
+#: usr/lib/linuxmint/mintupload/mintupload_core.py:95
+msgid "MB"
+msgstr "МБ"
+
+#: usr/lib/linuxmint/mintupload/mintupload.py:194
+#: usr/lib/linuxmint/mintupload/mintupload_core.py:95
+msgid "GB"
+msgstr "ГБ"
+
+#: usr/lib/linuxmint/mintupload/mintupload.py:201
+#, python-format
+msgid "%d hour"
+msgid_plural "%d hours"
+msgstr[0] "%d час"
+msgstr[1] "%d часа"
+msgstr[2] "%d часов"
+
+#: usr/lib/linuxmint/mintupload/mintupload.py:202
+#: usr/lib/linuxmint/mintupload/mintupload.py:204
+#, python-format
+msgid "%d minute"
+msgid_plural "%d minutes"
+msgstr[0] "%d минута"
+msgstr[1] "%d минуты"
+msgstr[2] "%d минут"
+
+#: usr/lib/linuxmint/mintupload/mintupload.py:205
+#: usr/lib/linuxmint/mintupload/mintupload.py:207
+#, python-format
+msgid "%d second"
+msgid_plural "%d seconds"
+msgstr[0] "%d секунда"
+msgstr[1] "%d секунды"
+msgstr[2] "%d секунд"
+
+#: usr/lib/linuxmint/mintupload/mintupload.py:236
+#, python-format
+msgid "Unknown service: %s"
+msgstr "Неизвестная служба: %s"
+
+#: usr/lib/linuxmint/mintupload/mintupload_core.py:93
+msgid "KiB"
+msgstr "КБ"
+
+#: usr/lib/linuxmint/mintupload/mintupload_core.py:93
+msgid "MiB"
+msgstr "МБ"
+
+#: usr/lib/linuxmint/mintupload/mintupload_core.py:93
+msgid "GiB"
+msgstr "ГБ"
+
+#: usr/lib/linuxmint/mintupload/mintupload_core.py:135
+msgid "File larger than service's maximum"
+msgstr "Размер файла превышает допустимый лимит службы"
+
+#: usr/lib/linuxmint/mintupload/mintupload_core.py:145
+msgid "Could not get available space"
+msgstr "Недостаточно свободного места"
+
+#: usr/lib/linuxmint/mintupload/mintupload_core.py:148
+msgid "File larger than service's available space"
+msgstr "Размер файла превышает объем, предоставляемый сервисом"
+
+#: usr/lib/linuxmint/mintupload/mintupload_core.py:173
+#: usr/lib/linuxmint/mintupload/mintupload_core.py:315
+msgid "File uploaded successfully."
+msgstr "Загрузка файла успешно завершена."
+
+#: usr/lib/linuxmint/mintupload/mintupload_core.py:191
+#: usr/lib/linuxmint/mintupload/mintupload_core.py:267
+msgid "connection successfully established"
+msgstr "соединение успешно установлено"
+
+#: usr/lib/linuxmint/mintupload/mintupload_core.py:202
+#: usr/lib/linuxmint/mintupload/mintupload_core.py:233
+msgid "Uploading the file..."
+msgstr "Загружается файл..."
+
+#: usr/lib/linuxmint/mintupload/mintupload_core.py:275
+msgid "This service requires a password."
+msgstr "Для данной службы необходим пароль."
+
+#: usr/lib/linuxmint/mintupload/mintupload_core.py:308
+msgid "URL:"
+msgstr "URL:"
+
+#: usr/lib/linuxmint/mintupload/mintupload_core.py:348
+#: usr/lib/linuxmint/mintupload/mintupload_core.py:352
+#, python-format
+msgid "%(1)s is not set in the config file found under %(2)s or %(3)s"
+msgstr "%(1)s не задан в файле настроек, находящемся в %(2)s или %(3)s"
+
+#: usr/lib/linuxmint/mintupload/file-uploader.py:27
+#: usr/lib/linuxmint/mintupload/file-uploader.py:30
+#: usr/lib/linuxmint/mintupload/upload-manager.py:35
+msgid "Upload services"
+msgstr "Службы загрузки"
+
+#: usr/lib/linuxmint/mintupload/file-uploader.py:50
+msgid "Services:"
+msgstr "Службы:"
+
+#: usr/lib/linuxmint/mintupload/file-uploader.py:64
+msgid "Upload manager..."
+msgstr "Менеджер загрузок..."
+
+#: usr/lib/linuxmint/mintupload/file-uploader.py:73
+msgid "Quit"
+msgstr "Выйти"
+
+#: usr/lib/linuxmint/mintupload/file-uploader.py:126
+#, python-format
+msgid "Drag &amp; Drop here to upload to %s"
+msgstr "Перетащите файлы сюда, чтобы загрузить их на %s"
+
+#: usr/lib/linuxmint/mintupload/upload-manager.py:53
+msgid "_File"
+msgstr "_Файл"
+
+#: usr/lib/linuxmint/mintupload/upload-manager.py:58
+msgid "Close"
+msgstr "Закрыть"
+
+#: usr/lib/linuxmint/mintupload/upload-manager.py:62
+msgid "_Help"
+msgstr "_Справка"
+
+#: usr/lib/linuxmint/mintupload/upload-manager.py:67
+#: usr/lib/linuxmint/mintupload/upload-manager.py:78
+msgid "About"
+msgstr "О программе"
+
+#: usr/lib/linuxmint/mintupload/upload-manager.py:120
+msgid "<b>Please enter a name for the new upload service:</b>"
+msgstr "<b>Пожалуйста задайте новое имя для службы загрузки:</b>"
+
+#: usr/lib/linuxmint/mintupload/upload-manager.py:124
+msgid "Service name:"
+msgstr "Название службы:"
+
+#: usr/lib/linuxmint/mintupload/upload-manager.py:127
+msgid "<i>Try to avoid spaces and special characters...</i>"
+msgstr "<i>Старайтесь избегать пробелов и нестандартных символов</i>"
+
+#: usr/lib/linuxmint/mintupload/upload-manager.py:204
+#, python-format
+msgid "%s Properties"
+msgstr "Свойства %s"
+
+#: usr/lib/linuxmint/mintupload/upload-manager.py:207
+msgid "Check connection"
+msgstr "Проверка соединения"
+
+#: usr/lib/linuxmint/mintupload/upload-manager.py:212
+msgid "Type:"
+msgstr "Тип:"
+
+#: usr/lib/linuxmint/mintupload/upload-manager.py:213
+msgid "Host:"
+msgstr "Хост:"
+
+#: usr/lib/linuxmint/mintupload/upload-manager.py:214
+msgid "Port:"
+msgstr "Порт:"
+
+#: usr/lib/linuxmint/mintupload/upload-manager.py:215
+msgid "User:"
+msgstr "Пользователь:"
+
+#: usr/lib/linuxmint/mintupload/upload-manager.py:216
+msgid "Password:"
+msgstr "Пароль:"
+
+#: usr/lib/linuxmint/mintupload/upload-manager.py:217
+msgid "Timestamp:"
+msgstr "Время:"
+
+#: usr/lib/linuxmint/mintupload/upload-manager.py:218
+msgid "Path:"
+msgstr "Путь:"
+
+#: usr/lib/linuxmint/mintupload/upload-manager.py:220
+#: usr/lib/linuxmint/mintupload/upload-manager.py:221
+msgid "Hostname or IP address, default: "
+msgstr "Имя или IP-адрес сервера по умолчанию: "
+
+#: usr/lib/linuxmint/mintupload/upload-manager.py:224
+#: usr/lib/linuxmint/mintupload/upload-manager.py:225
+msgid "Remote port, default is 21 for FTP, 22 for SFTP and SCP"
+msgstr "Удаленный порт, по умолчанию 21 для FTP, 22 для SFTP и SCP"
+
+#: usr/lib/linuxmint/mintupload/upload-manager.py:228
+#: usr/lib/linuxmint/mintupload/upload-manager.py:229
+msgid "Username, defaults to your local username"
+msgstr "Логин, по умолчанию - ваш логин в системе"
+
+#: usr/lib/linuxmint/mintupload/upload-manager.py:232
+#: usr/lib/linuxmint/mintupload/upload-manager.py:233
+msgid ""
+"Password, by default: password-less SCP connection, null-string FTP "
+"connection, ~/.ssh keys used for SFTP connections"
+msgstr ""
+"Пароль, по умолчанию: нет для SCP и FTP-соединений, для SFTP-соединений "
+"используются ключи из ~/.ssh"
+
+#: usr/lib/linuxmint/mintupload/upload-manager.py:236
+#: usr/lib/linuxmint/mintupload/upload-manager.py:237
+msgid "Timestamp format (strftime). By default:"
+msgstr "Формат метки времени (как в strftime). По умолчанию:"
+
+#: usr/lib/linuxmint/mintupload/upload-manager.py:240
+#: usr/lib/linuxmint/mintupload/upload-manager.py:241
+msgid ""
+"Directory to upload to. <TIMESTAMP> is replaced with the current timestamp, "
+"following the timestamp format given. By default: ."
+msgstr ""
+"Каталог для загрузки. <TIMESTAMP> заменяется текущим значением времени в "
+"заданном формате. По умолчанию:"
+
+#: usr/lib/linuxmint/mintupload/upload-manager.py:314
+msgid "Could not save configuration change"
+msgstr "Невозможно сохранить изменение настроек"
+
+#: generate_desktop_files:27 generate_desktop_files:41
+msgid "Define upload services"
+msgstr "Назначить службы загрузки"
+
+#~ msgid "File Uploader"
+#~ msgstr "Загрузчик файлов"
+
+#~ msgid "Username:"
+#~ msgstr "Имя пользователя:"
+
+#, python-format
+#~ msgid "Uploading %(file)s to %(service)s"
+#~ msgstr "Идет загрузка %(file)s на %(service)s"
+
+#~ msgid "Hostname:"
+#~ msgstr "Адрес сервера:"
+
+#~ msgid "Upload files on the Internet"
+#~ msgstr "Загрузка файлов в Интернет"
+
+#, python-format
+#~ msgid "Uploading to %s"
+#~ msgstr "Идет загрузка на %s"
+
+#~ msgid "<i>Try to avoid spaces and funny characters...</i>"
+#~ msgstr "<i>Старайтесь избегать пробелов и нестандартных символов...</i>"
+
+#, python-format
+#~ msgid "Upload to %s failed: "
+#~ msgstr "Загрузка на %s завершилась провалом: "
+
+#, python-format
+#~ msgid "Upload to %s successful"
+#~ msgstr "Загрузка на %s успешно завершена"
+
+#~ msgid "This service requires a password or private key."
+#~ msgstr "Для данной службы необходим пароль или закрытый ключ."

@@ -1,0 +1,400 @@
+# Turkish translation for linuxmint
+# Copyright (c) 2009 Rosetta Contributors and Canonical Ltd 2009
+# This file is distributed under the same license as the linuxmint package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2009.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: linuxmint\n"
+"Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
+"POT-Creation-Date: 2019-02-27 13:57+0000\n"
+"PO-Revision-Date: 2019-02-27 20:21+0000\n"
+"Last-Translator: Butterfly <Unknown>\n"
+"Language-Team: Turkish <tr@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Launchpad-Export-Date: 2022-10-10 13:02+0000\n"
+"X-Generator: Launchpad (build 762fb15a975e8b23af6a1f86e44e46bfd0451459)\n"
+
+#: usr/lib/linuxmint/mintbackup/mintbackup.py:41
+msgid "Backups"
+msgstr "Yedekler"
+
+#: usr/lib/linuxmint/mintbackup/mintbackup.py:169
+#: usr/lib/linuxmint/mintbackup/mintbackup.py:209
+#: usr/lib/linuxmint/mintbackup/mintbackup.py:216 generate_desktop_files:24
+#: generate_desktop_files:39
+msgid "Backup Tool"
+msgstr "Yedekleme Aracı"
+
+#: usr/lib/linuxmint/mintbackup/mintbackup.py:232
+#, python-format
+msgid "%s is not located in your home directory."
+msgstr "%s ev dizininizde bulunmuyor."
+
+#: usr/lib/linuxmint/mintbackup/mintbackup.py:272
+msgid "Please choose a directory."
+msgstr "Lütfen bir dizin seçiniz."
+
+#: usr/lib/linuxmint/mintbackup/mintbackup.py:275
+msgid "You do not have the permission to write in the selected directory."
+msgstr "Seçilen dizinde yazma iznine sahip değilsiniz."
+
+#: usr/lib/linuxmint/mintbackup/mintbackup.py:335
+msgid "Please choose a backup file."
+msgstr "Lütfen bir yedekleme dosyası seçin."
+
+#: usr/lib/linuxmint/mintbackup/mintbackup.py:343
+msgid ""
+"This backup file is either too old or it was created with a different tool. "
+"Please extract it manually."
+msgstr ""
+"Bu yedek dosyası ya çok eski ya da farklı bir araç ile oluşturulmuş. Lütfen "
+"bunu elle çıkartın."
+
+#: usr/lib/linuxmint/mintbackup/mintbackup.py:352
+#, python-format
+msgid "An error occurred while opening the backup file: %s."
+msgstr "Yedek dosyasını açarken bir hata oluştu: %s."
+
+#: usr/lib/linuxmint/mintbackup/mintbackup.py:366
+msgid "No packages need to be installed."
+msgstr "Hiçbir paketin kurulması gerekmiyor."
+
+#: usr/lib/linuxmint/mintbackup/mintbackup.py:373
+msgid "Please select packages to install."
+msgstr "Lütfen kurulacak paketleri seçiniz."
+
+#: usr/lib/linuxmint/mintbackup/mintbackup.py:427
+#, python-format
+msgid "Skipping %s because named pipes are not supported."
+msgstr "%s atlanıyor, çünkü adlandırılmış yöneltmeler destelenmiyor."
+
+#: usr/lib/linuxmint/mintbackup/mintbackup.py:452
+msgid "Backing up:"
+msgstr "Yedekleniyor:"
+
+#: usr/lib/linuxmint/mintbackup/mintbackup.py:460
+msgid "Calculating..."
+msgstr "Hesaplanıyor..."
+
+#: usr/lib/linuxmint/mintbackup/mintbackup.py:464
+#: usr/lib/linuxmint/mintbackup/mintbackup.py:568
+msgid "The following errors occurred:"
+msgstr "Aşağıdaki hatalar meydana geldi:"
+
+#: usr/lib/linuxmint/mintbackup/mintbackup.py:470
+msgid "The backup was aborted."
+msgstr "Yedekleme iptal edildi."
+
+#: usr/lib/linuxmint/mintbackup/mintbackup.py:474
+#, python-format
+msgid "Your files were successfully saved in %s."
+msgstr "Dosyalar %s içine başarıyla kaydedildi."
+
+#: usr/lib/linuxmint/mintbackup/mintbackup.py:515
+msgid ""
+"Warning: The meta file could not be saved. This backup will not be accepted "
+"for restoration."
+msgstr ""
+"Uyarı: Meta dosyası kaydedilemedi. Bu yedekleme geri yükleme için kabul "
+"edilmeyecektir."
+
+#: usr/lib/linuxmint/mintbackup/mintbackup.py:542
+#, python-format
+msgid ""
+"Warning: Some files were not saved. Only %(archived)d files were backed up "
+"out of %(total)d."
+msgstr ""
+"Uyarı: Bazı dosyalar kaydedilemedi. %(total)d dosyadan sadece %(archived)d "
+"adet yedeklendi."
+
+#: usr/lib/linuxmint/mintbackup/mintbackup.py:557
+msgid "Restoring:"
+msgstr "Geri yükleniyor:"
+
+#: usr/lib/linuxmint/mintbackup/mintbackup.py:574
+msgid "The restoration was aborted."
+msgstr "Geri yükleme iptal edildi."
+
+#: usr/lib/linuxmint/mintbackup/mintbackup.py:578
+msgid "Your files were successfully restored."
+msgstr "Dosyalarınız başarıyla geri yüklendi."
+
+#: usr/lib/linuxmint/mintbackup/mintbackup.py:666
+#, python-format
+msgid "Warning: Only %(number)d files were restored out of %(total)d."
+msgstr "Uyarı: %(total)d dosyadan sadece %(number)d adet geri yüklendi."
+
+#: usr/lib/linuxmint/mintbackup/mintbackup.py:691
+msgid "The list below shows the applications you installed."
+msgstr "Aşağıdaki liste yüklediğiniz uygulamaları gösterir."
+
+#: usr/lib/linuxmint/mintbackup/mintbackup.py:735
+#, python-format
+msgid "Your software selection was saved in %s"
+msgstr "Yazılım seçiminiz %s içine kaydedildi."
+
+#: usr/lib/linuxmint/mintbackup/mintbackup.py:751
+msgid "The selected file is not a valid software selection."
+msgstr "Seçilen dosya geçerli bir yazılım seçimi değil."
+
+#: usr/lib/linuxmint/mintbackup/mintbackup.py:756
+#: usr/lib/linuxmint/mintbackup/mintbackup.py:794
+msgid "An error occurred while reading the file."
+msgstr "Dosya okunurken bir hata oluştu."
+
+#: usr/lib/linuxmint/mintbackup/mintbackup.py:779
+msgid "Could not locate the package."
+msgstr "Paket bulunamadı."
+
+#: generate_desktop_files:24 generate_desktop_files:39
+msgid "Make a backup of your home directory"
+msgstr "Ev dizininin bir yedeğini alın"
+
+#: usr/share/linuxmint/mintbackup/mintbackup.ui.h:1
+msgid "Personal data"
+msgstr "Kişisel veri"
+
+#: usr/share/linuxmint/mintbackup/mintbackup.ui.h:2
+msgid "Your files, settings and the content of your home directory"
+msgstr "Sizin dosyalarınız, ayarlarınız ve ev dizininizin içindekiler"
+
+#: usr/share/linuxmint/mintbackup/mintbackup.ui.h:3
+msgid "Restore..."
+msgstr "Geri Yükle..."
+
+#: usr/share/linuxmint/mintbackup/mintbackup.ui.h:4
+msgid "Back Up Now..."
+msgstr "Şimdi Yedekle..."
+
+#: usr/share/linuxmint/mintbackup/mintbackup.ui.h:5
+msgid "Software selection"
+msgstr "Yazılım seçimi"
+
+#: usr/share/linuxmint/mintbackup/mintbackup.ui.h:6
+msgid "The list of applications installed on your computer"
+msgstr "Bilgisayarınızda kurulu uygulamaların listesi"
+
+#: usr/share/linuxmint/mintbackup/mintbackup.ui.h:7
+msgid "Please select where you want to save the backup file:"
+msgstr "Lütfen yedek dosyasını nereye kaydetmek istediğinizi seçiniz:"
+
+#: usr/share/linuxmint/mintbackup/mintbackup.ui.h:8
+msgid ""
+"Please add files or directories to the list below to exclude them from the "
+"backup."
+msgstr ""
+"Lütfen yedeklemeden çıkarmak isteğiniz dosya ya da dizinleri aşğıdaki "
+"listeye ekleyin."
+
+#: usr/share/linuxmint/mintbackup/mintbackup.ui.h:9
+msgid "Exclude files"
+msgstr "Dosyaları dahil etme"
+
+#: usr/share/linuxmint/mintbackup/mintbackup.ui.h:10
+msgid "Exclude directories"
+msgstr "Dizinleri hariç tut"
+
+#: usr/share/linuxmint/mintbackup/mintbackup.ui.h:11
+msgid "Remove"
+msgstr "Kaldır"
+
+#: usr/share/linuxmint/mintbackup/mintbackup.ui.h:12
+msgid ""
+"Hidden files and hidden folders located at the root of your home directory "
+"are not included by default."
+msgstr ""
+"Ev dizininiz ana dizinindeki gizli dosyalar ve gizli dizinler varsayılan "
+"olarak dahil edilmezler."
+
+#: usr/share/linuxmint/mintbackup/mintbackup.ui.h:13
+msgid ""
+"If you want to include some of them in the backup, please add them to the "
+"list below."
+msgstr ""
+"Eğer yedeklemenin bunlardan bazılarını içermesini istiyorsanız, lütfen "
+"onları aşağıdaki listeye ekleyin."
+
+#: usr/share/linuxmint/mintbackup/mintbackup.ui.h:14
+msgid "Include files"
+msgstr "Dosyaları dahil et"
+
+#: usr/share/linuxmint/mintbackup/mintbackup.ui.h:15
+msgid "Include directories"
+msgstr "Dizinleri dahil et"
+
+#: usr/share/linuxmint/mintbackup/mintbackup.ui.h:16
+msgid ""
+"These files and folders usually contain temporary data or preferences for "
+"your applications."
+msgstr ""
+"Bu dosya ya da dizinler genellikle geçici veri ya da uygulamalarınızın "
+"ayarlarını içerir."
+
+#: usr/share/linuxmint/mintbackup/mintbackup.ui.h:17
+msgid "Please wait while your files are being backed up."
+msgstr "Dosyalarınız yedeklenirken lütfen bekleyin."
+
+#: usr/share/linuxmint/mintbackup/mintbackup.ui.h:18
+msgid "Please select the backup to restore:"
+msgstr "Lütfen geri yüklenecek yedeklemeyi seçiniz:"
+
+#: usr/share/linuxmint/mintbackup/mintbackup.ui.h:19
+msgid "Overwrite existing files?"
+msgstr "Mevcut dosyaların üstüne yazılsın mı?"
+
+#: usr/share/linuxmint/mintbackup/mintbackup.ui.h:20
+msgid ""
+"No, only restore missing files.\n"
+"<small>This option is safe and does not affect your existing files.</small>"
+msgstr ""
+"Hayır, yalnızca eksik dosyaları geri yükleyin.\n"
+" <small>Bu seçenek güvenlidir ve mevcut dosyalarınızı etkilemez.</small>"
+
+#: usr/share/linuxmint/mintbackup/mintbackup.ui.h:22
+msgid ""
+"Yes, overwrite changes and restore the content of any existing files.\n"
+"<small>Use this option with caution. The changes you made to the files since "
+"the backup will be lost.</small>"
+msgstr ""
+"Evet, değişikliklerin üzerine yaz ve mevcut dosyaların içeriğini geri "
+"yükle.\n"
+"<small>Bu seçeneği dikkatli kullanın. Yedeklemeden bu yana yaptığınız "
+"değişiklikler kaybolacak./small>"
+
+#: usr/share/linuxmint/mintbackup/mintbackup.ui.h:24
+msgid "Please wait while your files are being restored."
+msgstr "Dosyalarınız geri yüklenirken lütfen bekleyin."
+
+#: usr/share/linuxmint/mintbackup/mintbackup.ui.h:25
+msgid ""
+"The list below shows the applications you installed with the Software "
+"Manager."
+msgstr ""
+"Aşağıdaki liste Yazılım Yöneticisi ile yüklediğiniz uygulamaları gösterir."
+
+#: usr/share/linuxmint/mintbackup/mintbackup.ui.h:26
+msgid "Please select the applications you want to save."
+msgstr "Lütfen kaydetmek istediğiniz uygulamaları seçin."
+
+#: usr/share/linuxmint/mintbackup/mintbackup.ui.h:27
+msgid "Select all"
+msgstr "Tümünü seç"
+
+#: usr/share/linuxmint/mintbackup/mintbackup.ui.h:28
+msgid "Deselect all"
+msgstr "Hiçbirini şeçme"
+
+#: usr/share/linuxmint/mintbackup/mintbackup.ui.h:29
+msgid ""
+"Note: If you want to save the complete list of all installed packages on the "
+"system, please use the command 'dpkg --get-selections > mylist.list' in a "
+"terminal."
+msgstr ""
+"Not: Eğer sistemde yüklü paketlerin tam listesini kaydetmek isterseniz, bir "
+"uçbirimde 'dpkg --get-selections> paket-listem.list' komutunu kullanınız."
+
+#: usr/share/linuxmint/mintbackup/mintbackup.ui.h:30
+msgid "Please select a saved software selection (.list file):"
+msgstr "Lütfen kaydedilmiş yazılım seçimini seçiniz (.list dosyası):"
+
+#: usr/share/linuxmint/mintbackup/mintbackup.ui.h:31
+msgid "Select the packages you want to install."
+msgstr "Kurulum yapılmasını istediğiniz paketleri seçin."
+
+#: usr/share/linuxmint/mintbackup/mintbackup.ui.h:32
+msgid "Refresh"
+msgstr "Yenile"
+
+#: usr/share/linuxmint/mintbackup/mintbackup.ui.h:33
+msgid "All the packages in your software selection are installed."
+msgstr "Yazılım seçiminizdeki tüm paketler yüklendi."
+
+#~ msgid "Backup successful"
+#~ msgstr "Yedekleme başarılı"
+
+#~ msgid "Your home directory was successfully backed-up into"
+#~ msgstr "......... içerisine ev dizininiz başarıyla yedeklenmiştir."
+
+#~ msgid "Backup failed"
+#~ msgstr "Yedekleme başarısız"
+
+#~ msgid "An error occurred during the backup:"
+#~ msgstr "Yedekleme sırasında bir hata oluştu :"
+
+#~ msgid "Cleaning up..."
+#~ msgstr "Temizleniyor..."
+
+#~ msgid "Your backup was successfully restored"
+#~ msgstr "Yedekleme başarıyla geri yüklendi"
+
+#~ msgid "An error occurred while restoring the backup archive:"
+#~ msgstr "Yedekleme arşivi geri yüklenirken bir hata oluştu :"
+
+#~ msgid "Opening the backup archive..."
+#~ msgstr "Yedekleme arşivi açılıyor..."
+
+#~ msgid "Read error"
+#~ msgstr "Okuma hatası"
+
+#~ msgid "An error occurred while opening the backup:"
+#~ msgstr "Yedekleme açılırken bir hata oluştu:"
+
+#~ msgid "Hidden paths"
+#~ msgstr "Gizli yollar"
+
+#~ msgid "Exclude folders"
+#~ msgstr "Klasörleri dahil etme"
+
+#~ msgid "Backup"
+#~ msgstr "Yedekle"
+
+#~ msgid "Excluded paths"
+#~ msgstr "Dahil edilmeyen yollar"
+
+#~ msgid "Excluded Files and Directories"
+#~ msgstr "Dahil edilmeyen Dosya ve Klasörler"
+
+#~ msgid "Included"
+#~ msgstr "Dahil edilen"
+
+#~ msgid "Included hidden directories"
+#~ msgstr "Dahil edilen gizli dizinler"
+
+#~ msgid "Invalid path"
+#~ msgstr "Geçersiz yol"
+
+#~ msgid "Restore your personal data from this backup"
+#~ msgstr "Kişisel bilgilerinizi bu yedekten geri yükleyin"
+
+#~ msgid "Overwrite existing files"
+#~ msgstr "Varolan dosyaların üzerine yaz"
+
+#~ msgid "Restore"
+#~ msgstr "Geri Yükle"
+
+#~ msgid "View content"
+#~ msgstr "İçeriği göster"
+
+#~ msgid "Archiving your home directory..."
+#~ msgstr "Ev dizini arşivleniyor..."
+
+#~ msgid "Extracting the content of the backup into your home directory..."
+#~ msgstr "Yedekleme dosyasının içeriği ev dizinine çıkarılıyor..."
+
+#~ msgid "Copying the backup file into your home directory..."
+#~ msgstr "Yedekleme dosyası ev dizinine kopyalanıyor..."
+
+#~ msgid "Restoration successful"
+#~ msgstr "Geri Yükleme başarılı"
+
+#~ msgid "Restoration failed"
+#~ msgstr "Geri Yükleme başarısız"
+
+#~ msgid "<big><b>Load data into your home directory</b></big>"
+#~ msgstr "<big><b>Ev dizinine veri yükle</b></big>"
+
+#~ msgid "is not located within your home directory. Not added."
+#~ msgstr "ev dizininde bulunmuyor. Eklenmemiş."

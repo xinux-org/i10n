@@ -1,0 +1,1789 @@
+# Dutch translation for linuxmint
+# Copyright (c) 2017 Rosetta Contributors and Canonical Ltd 2017
+# This file is distributed under the same license as the linuxmint package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2017.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: linuxmint\n"
+"Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
+"POT-Creation-Date: 2019-03-29 10:21+0000\n"
+"PO-Revision-Date: 2021-11-22 16:14+0000\n"
+"Last-Translator: Pjotr12345 <Unknown>\n"
+"Language-Team: Dutch <nl@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Launchpad-Export-Date: 2022-10-10 13:11+0000\n"
+"X-Generator: Launchpad (build 762fb15a975e8b23af6a1f86e44e46bfd0451459)\n"
+
+#: ../../boot_options.rst:2
+msgid "Boot options"
+msgstr "Opstartopties"
+
+#: ../../boot_options.rst:4
+msgid ""
+"Some graphics cards and motherboards don't work well with the open-source "
+"drivers present in Linux Mint by default."
+msgstr ""
+"Sommige videokaarten en moederborden werken niet goed met de open-bron-"
+"stuurprogramma's die standaard aanwezig zijn in Linux Mint."
+
+#: ../../boot_options.rst:7
+msgid "Compatibility mode"
+msgstr "Verenigbaarheidsmodus (compatibiliteitsmodus)"
+
+#: ../../boot_options.rst:9
+msgid ""
+"The easiest option is to select ``compatibility mode`` from the USB stick "
+"(or DVD) boot menu."
+msgstr ""
+"De makkelijkste manier is om te kiezen voor ``Verenigbaarheidsmodus "
+"(Compatibility mode)`` in het opstartmenu van de DVD of het USB-"
+"geheugenstaafje."
+
+#: ../../boot_options.rst:15
+msgid "Grub menu (EFI mode)"
+msgstr "Grubmenu (EFI-modus)"
+
+#: ../../boot_options.rst:21
+msgid "Isolinux menu (BIOS mode)"
+msgstr "Isolinux-menu (BIOS-modus)"
+
+#: ../../boot_options.rst:23
+msgid "If that doesn't work, you can try the ``nomodeset`` boot option."
+msgstr ""
+"Als dat niet werkt, kunt u proberen om op te starten met de optie "
+"``nomodeset``."
+
+#: ../../boot_options.rst:26
+msgid "Nomodeset boot option"
+msgstr "Opstartoptie 'nomodeset'"
+
+#: ../../boot_options.rst:28
+msgid ""
+"In EFI mode, highlight the ``Start Linux Mint`` option and press :kbd:`e` to "
+"modify the boot options."
+msgstr ""
+"In EFI-modus markeert u de optie ``Start Linux Mint`` en tikt u de letter "
+":kbd:`e` in om de opstartopties te wijzigen."
+
+#: ../../boot_options.rst:34
+msgid ""
+"Replace ``quiet splash`` with ``nomodeset`` and press :kbd:`F10` to boot."
+msgstr ""
+"Vervang daarna ``quiet splash`` door ``nomodeset`` en druk op :kbd:`F10` om "
+"op te starten."
+
+#: ../../boot_options.rst:36
+msgid ""
+"In BIOS mode, highlight ``Start Linux Mint`` and press :kbd:`Tab` to modify "
+"the boot options."
+msgstr ""
+"In BIOS-modus markeert u ``Start Linux Mint`` en tikt u op de :kbd:`Tab` om "
+"de opstartopties te wijzigen."
+
+#: ../../boot_options.rst:42
+msgid ""
+"Replace ``quiet splash`` with ``nomodeset`` and press :kbd:`Enter` to boot."
+msgstr ""
+"Vervang daarna ``quiet splash`` door ``nomodeset`` en druk op :kbd:`Enter` "
+"om op te starten."
+
+#: ../../boot_options.rst:45
+msgid ""
+"Repeat this operation post-install in your grub boot menu and read "
+":doc:`drivers` to install additional drivers."
+msgstr ""
+"Herhaal deze bewerking na de installatie in uw Grub-opstartmenu en lees "
+":doc:`drivers` om extra stuurprogramma's te installeren."
+
+#: ../../boot_options.rst:48
+msgid "Other boot options"
+msgstr "Andere opstartopties"
+
+#: ../../boot_options.rst:50
+msgid "If you still cannot boot try one of the following solutions:"
+msgstr ""
+"Indien u nog steeds niet kunt opstarten, probeer dan een van de volgende "
+"oplossingen:"
+
+#: ../../boot_options.rst:52
+msgid "Try ``nouveau.noaccel=1`` instead of ``nomodeset``."
+msgstr "Probeer ``nouveau.noaccel=1`` in plaats van ``nomodeset``."
+
+#: ../../boot_options.rst:53
+msgid ""
+"After the installation, use :menuselection:`Advanced Options --> Recovery "
+"mode` from the boot menu and choose ``resume``."
+msgstr ""
+"Na de installatie kiest u in het opstartmenu voor :menuselection:`Advanced "
+"Options --> Recovery mode` en daarna voor ``resume`` (hervatten)."
+
+#: ../../boot_options.rst:56
+msgid "Install an older release"
+msgstr "Installeer een oudere versie"
+
+#: ../../boot_options.rst:58
+msgid ""
+"If your computer has compatibility issues with the latest Linux Mint "
+"release, install a previous release from the same Linux Mint series."
+msgstr ""
+"Indien uw computer verenigbaarheidsproblemen heeft met de nieuwste versie "
+"van Linux Mint, dan kunt u een eerdere versie van dezelfde Linux Mint-serie "
+"installeren (als de nieuwste Mintversie niet de eerste van zijn serie is)."
+
+#: ../../boot_options.rst:60
+msgid ""
+"For instance, if you can't install Linux Mint 18.3 (which comes with a 4.10 "
+"kernel), install Linux Mint 18 (which comes with a 4.4 kernel) and upgrade "
+"to 18.3."
+msgstr ""
+"Bijvoorbeeld: als u Linux Mint 18.3 niet kunt installeren (die een 4.10-"
+"systeemkern heeft), installeer dan Linux Mint 18.1 (die een 4.4-systeemkern "
+"heeft) en waardeer die vervolgens op naar 18.3 (met behoud van de 4.4.x-"
+"systeemkern)."
+
+#: ../../boot_options.rst:63
+msgid ""
+"The first release in each series uses an LTS (Long Term Support) kernel. "
+"Upgrading from this release to the latest one in the series does not change "
+"your kernel."
+msgstr ""
+"De eerste versie in elke serie, en meestal ook de tweede, hebben een "
+"langdurig ondersteunde LTS-systeemkern. Opwaarderen van deze versie naar de "
+"nieuwste in de serie, verandert uw systeemkern niet."
+
+#: ../../boot.rst:2
+msgid "Boot Linux Mint"
+msgstr "Linux Mint opstarten"
+
+#: ../../boot.rst:4
+msgid ""
+"Now that you have Linux Mint on a USB stick (or DVD) boot the computer from "
+"it."
+msgstr ""
+"Nu u Linux Mint op een USB-staafje of DVD heeft gezet, kunt u de computer "
+"ermee opstarten."
+
+#: ../../boot.rst:6
+msgid "Insert your USB stick (or DVD) into the computer."
+msgstr "Steek uw USB-staafje (of DVD) in de computer."
+
+#: ../../boot.rst:8 ../../drivers.rst:23 ../../efi.rst:61 ../../oem.rst:21
+msgid "Restart the computer."
+msgstr "Start de computer opnieuw op."
+
+#: ../../boot.rst:10
+msgid ""
+"Before your computer boots your current operating system (Windows, Mac, "
+"Linux) you should see your `BIOS <https://en.wikipedia.org/wiki/BIOS>`_ "
+"loading screen. Check the screen or your computer's documentation to know "
+"which key to press and instruct your computer to boot on USB (or DVD)."
+msgstr ""
+"Voordat uw computer uw huidige besturingssysteem (Windows, Mac OS, Linux) "
+"start, zou u uw `BIOS <https://en.wikipedia.org/wiki/BIOS>`_ laadscherm "
+"moeten zien. Kijk op dat scherm of in de documentatie van uw computer, welke "
+"toets u moet indrukken en laat uw computer opstarten vanaf uw USB-staafje of "
+"DVD."
+
+#: ../../boot.rst:13
+msgid ""
+"Most BIOS have a special key you can press to select the boot device and all "
+"of them have a special key to enter the BIOS configuration screen (from "
+"which you can define the boot order). Depending on the BIOS, these special "
+"keys can be :kbd:`Escape`, :kbd:`F1`, :kbd:`F2`, :kbd:`F8`, :kbd:`F10`, "
+":kbd:`F11`, :kbd:`F12`, or :kbd:`Delete`. That information is usually "
+"briefly written on the screen during the boot sequence."
+msgstr ""
+"De meeste BIOS'en gebruiken een speciale toets waarmee u het opstartmedium "
+"kan kiezen, en waarmee u het BIOS-configuratiescherm kan kiezen (waarin u de "
+"opstartvolgorde kan selecteren).  Afhankelijk van het BIOS zijn deze "
+"toetsen: :kbd:`Escape`, :kbd:`F1`, :kbd:`F2`, :kbd:`F8`, :kbd:`F10`, "
+":kbd:`F11`, :kbd:`F12`, of :kbd:`Delete`.  Gewoonlijk wordt deze informatie "
+"kort getoond tijdens het opstarten."
+
+#: ../../boot.rst:16
+msgid ""
+"On Macs, keep your finger pressed on the :kbd:`Alt` or :kbd:`Option` key "
+"after hearing the boot sound."
+msgstr ""
+"Bij Macs houdt u de  toets :kbd:`Alt` of :kbd:`Option` ingedrukt nadat het "
+"opstartgeluid weerklonk."
+
+#: ../../boot.rst:18
+msgid ""
+"The Linux Mint ISO can be booted both in EFI or BIOS mode. In EFI mode it "
+"shows a grub menu. In BIOS mode it shows an isolinux menu."
+msgstr ""
+"De Linux Mint-ISO kan zowel worden opgestart in EFI- als in BIOS-modus.  In "
+"EFI-modus wordt er een grubmenu getoond; in BIOS-modus wordt er een isolinux-"
+"menu getoond."
+
+#: ../../boot.rst:24
+msgid "The isolinux menu in BIOS mode"
+msgstr "Het isolinux-menu in BIOS-modus"
+
+#: ../../boot.rst:30
+msgid "The grub menu in EFI mode"
+msgstr "Het Grubmenu in EFI-modus"
+
+#: ../../boot.rst:32
+msgid ""
+"From one of these menu, press :kbd:`Enter` to start Linux Mint from your USB "
+"stick (or DVD)."
+msgstr ""
+"Druk op de :kbd:`Enter`- toets bij één van deze menu's om Linux Mint op te "
+"starten vanaf USB-staafje (of DVD)."
+
+#: ../../burn.rst:2
+msgid "Create the bootable media"
+msgstr "Het opstartbaar medium maken"
+
+#: ../../burn.rst:4
+msgid "The easiest way to install Linux Mint is with a USB stick."
+msgstr ""
+"De makkelijkste manier om Linux Mint te installeren is met behulp van een "
+"USB-geheugenstaafje."
+
+#: ../../burn.rst:6
+msgid "If you cannot boot from USB, you can use a blank DVD."
+msgstr ""
+"Als u niet kunt opstarten vanaf een USB-geheugenstaafje, kunt u een DVD "
+"gebruiken."
+
+#: ../../burn.rst:9
+msgid "How to make a bootable USB stick"
+msgstr "Hoe een opstartbaar USB-staafje te maken"
+
+#: ../../burn.rst:12
+msgid "In Linux Mint"
+msgstr "In Linux Mint"
+
+#: ../../burn.rst:14
+msgid ""
+"Right-click the ISO file and select :menuselection:`Make Bootable USB "
+"Stick`, or launch :menuselection:`Menu --> Accessories --> USB Image Writer`."
+msgstr ""
+"Rechtsklik het ISO-bestand, en kies :menuselection:`Open met "
+"Schijfkopieschrijver`, of start :menuselection:`Menu --> Hulpmiddelen --> "
+"Schijfkopieschrijver voor USB`."
+
+#: ../../burn.rst:20
+msgid "Select your USB device and click :guilabel:`Write`."
+msgstr "Kies uw USB-apparaat en klik op :guilabel:`Schrijven`."
+
+#: ../../burn.rst:23
+msgid "In Windows, Mac OS, or other Linux distributions"
+msgstr "In Windows, Mac OS, of andere Linuxdistributies"
+
+#: ../../burn.rst:25
+msgid ""
+"Download `Etcher <https://www.balena.io/etcher/>`_, install it and run it."
+msgstr ""
+"Haal `Etcher <https://www.balena.io/etcher/>`_ binnen, installeer het en "
+"start het."
+
+#: ../../burn.rst:31
+msgid "Using Etcher"
+msgstr "Etcher gebruiken"
+
+#: ../../burn.rst:33
+msgid "Click :guilabel:`Select image` and select your ISO file."
+msgstr "Klik op :guilabel:`Kies beeldbestand` en kies uw ISO-bestand."
+
+#: ../../burn.rst:35
+msgid "Click :guilabel:`Select drive` and select your USB stick."
+msgstr "Klik op :guilabel:`Kies station` en kies uw USB-staafje."
+
+#: ../../burn.rst:37
+msgid "Click :guilabel:`Flash!`."
+msgstr "Klik op :guilabel:`Flash!`."
+
+#: ../../burn.rst:41
+msgid "How to make a bootable DVD"
+msgstr "Hoe een opstartbare DVD te maken"
+
+#: ../../burn.rst:43
+msgid "Optical discs are slow and burning to disc is prone to errors."
+msgstr "Optische schijven zijn traag en het branden is gevoelig voor fouten."
+
+#: ../../burn.rst:46
+msgid "To prevent issues, burn at the lowest possible speed."
+msgstr ""
+"Om problemen te voorkomen is het 't beste om te branden op de laagst "
+"mogelijke snelheid."
+
+#: ../../burn.rst:49
+msgid ""
+"Burn the content of the ISO onto the DVD, not the ISO file itself. When "
+"finished, your DVD should contain directories such as ``boot`` and "
+"``casper``, it shouldn't be an empty DVD containing an .iso file."
+msgstr ""
+"Brand de inhoud van het ISO-bestand op de DVD, niet het ISO-bestand zelf.  "
+"Wanneer dit gereed is, zouden er mappen op de DVD moeten staan als ``boot`` "
+"en ``casper``.  Het mag geen DVD zijn waarop enkel het .iso-bestand staat."
+
+#: ../../burn.rst:52
+msgid "In Linux"
+msgstr "In Linux"
+
+#: ../../burn.rst:53
+msgid "Install and use ``xfburn``."
+msgstr "Installeer en gebruik ``xfburn``."
+
+#: ../../burn.rst:56
+msgid "In Windows"
+msgstr "In Windows"
+
+#: ../../burn.rst:57
+msgid "Right-click the ISO file and select :menuselection:`Burn disk image`."
+msgstr ""
+"Rechtsklik het ISO-bestand en kies :menuselection:`Brand ISO-bestand`."
+
+#: ../../burn.rst:59
+msgid ""
+"To make sure the ISO was burned without any errors, select "
+":menuselection:`Verify disc after burning`."
+msgstr ""
+"Om zeker te maken  dat het ISO-bestand zonder fouten werd gebrand, kiest u  "
+":menuselection:`Verifieer schijf na branden`."
+
+#: ../../burn.rst:62
+msgid "In Mac OS"
+msgstr "In Mac OS"
+
+#: ../../burn.rst:63
+msgid ""
+"Right-click the ISO file and select :menuselection:`Burn Disk Image to Disc`."
+msgstr ""
+"Rechtsklik het ISO-bestand en kies :menuselection:`Brand ISO-bestand op "
+"schijf`."
+
+#: ../../choose.rst:2
+msgid "Choose the right edition"
+msgstr "Kies de juiste editie"
+
+#: ../../choose.rst:4
+msgid ""
+"You can download Linux Mint from the `Linux Mint website "
+"<https://linuxmint.com/download.php>`_."
+msgstr ""
+"U kunt Linux Mint binnenhalen vanaf de `Linux Mint website "
+"<https://linuxmint.com/download.php>`_."
+
+#: ../../choose.rst:6
+msgid ""
+"Read below to choose which edition and architecture are right for you."
+msgstr ""
+"Lees het onderstaande om te kiezen welke editie en architectuur het beste "
+"voor u zijn."
+
+#: ../../choose.rst:9
+msgid "Cinnamon, MATE or Xfce?"
+msgstr "Cinnamon, MATE of Xfce?"
+
+#: ../../choose.rst:11
+msgid ""
+"Linux Mint comes in 3 different flavours, each featuring a different desktop "
+"environment."
+msgstr ""
+"Linux Mint heeft drie verschillende edities, waarvan elk een eigen "
+"werkomgeving heeft."
+
+#: ../../choose.rst:14 ../../choose.rst:26
+msgid "Cinnamon"
+msgstr "Cinnamon"
+
+#: ../../choose.rst:14
+msgid "The most modern, innovative and full-featured desktop"
+msgstr "De modernste, vernieuwendste en functierijkste werkomgeving"
+
+#: ../../choose.rst:15 ../../choose.rst:35
+msgid "MATE"
+msgstr "MATE"
+
+#: ../../choose.rst:15
+msgid "A more traditional, and faster desktop"
+msgstr "Een traditionelere en snellere werkomgeving"
+
+#: ../../choose.rst:16 ../../choose.rst:44
+msgid "Xfce"
+msgstr "Xfce"
+
+#: ../../choose.rst:16
+msgid "The most lightweight desktop"
+msgstr "De lichtgewicht onder de werkomgevingen"
+
+#: ../../choose.rst:19
+msgid ""
+"The most popular version of Linux Mint is the Cinnamon edition. Cinnamon is "
+"primarily developed for and by Linux Mint. It is slick, beautiful, and full "
+"of new features."
+msgstr ""
+"De populairste editie van Linux Mint is de Cinnamon-editie.  Cinnamon werd "
+"oorspronkelijk ontworpen voor en door LInux Mint. Hij is handig, mooi en vol "
+"met nieuwe functies."
+
+#: ../../choose.rst:28
+msgid ""
+"Linux Mint is also involved in the development of MATE, a classic desktop "
+"environment which is the continuation of GNOME 2, Linux Mint's default "
+"desktop between 2006 and 2011. Although it misses a few features and its "
+"development is slower than Cinnamon's, MATE uses less resources and can run "
+"faster on older computers."
+msgstr ""
+"Linux Mint is ook betrokken bij de ontwikkeling van MATE, een klassieke "
+"werkomgeving die een voortzetting is van GNOME 2, de standaardwerkomgeving "
+"van Linux Mint in de periode 2006-2011. Hoewel het enkele functies mist en "
+"hoewel zijn ontwikkeling trager is dan die van Cinnamon, heeft het als "
+"voordeel dat het minder systeemkracht gebruikt en sneller kan draaien op "
+"oudere computers."
+
+#: ../../choose.rst:37
+msgid ""
+"Xfce is a lightweight desktop environment. It doesn't support as many "
+"features as Cinnamon or MATE, but it's extremely stable and very light on "
+"resource usage."
+msgstr ""
+"Xfce is een lichtgewicht-werkomgeving.  Hij ondersteunt niet zoveel "
+"eigenschappen als Cinnamon of MATE, maar hij is extreem stabiel en gebruikt "
+"erg weinig systeemkracht."
+
+#: ../../choose.rst:46
+msgid ""
+"Of course, all three desktops are great and Linux Mint is extremely proud of "
+"each edition. Although there are more features and better support in some "
+"editions than others, and some do run faster and use less resources than "
+"others, they're all great alternatives and choosing the right edition is "
+"largely a matter of taste."
+msgstr ""
+"Natuurlijk zijn alle drie werkomgevingen goed en is Linux Mint trots op elke "
+"editie.  Alhoewel er bij de ene editie meer functies en betere ondersteuning "
+"zijn dan bij de andere, en de ene sneller loopt dan de andere: het zijn "
+"allemaal goede alternatieven. De keuze van uw editie is eerder een kwestie "
+"van smaak."
+
+#: ../../choose.rst:48
+msgid ""
+"Other than their features and performance, Cinnamon, MATE and Xfce also "
+"represent three different desktop environments, with different menus, "
+"different panels and configuration tools. The right one for you is the one "
+"where you feel at home."
+msgstr ""
+"Afgezien van de functies en prestaties zijn Cinnamon, MATE en Xfce drie "
+"verschillende werkomgevingen met andere menu's, andere bedieningspanelen en "
+"ander instellingsgereedschap.  De goede keuze is die waarbij u zich thuis "
+"voelt."
+
+#: ../../choose.rst:50
+msgid ""
+"If you are unsure which desktop to choose start with the Cinnamon edition. "
+"Try them all eventually when you have the time. All three of them have their "
+"own audience within the Linux Mint community and they're all very popular."
+msgstr ""
+"Als u twijfelt bij het kiezen van de werkomgeving, begin dan met de Cinnamon-"
+"editie.  Probeer ze eventueel allemaal eens uit, als u daarvoor de tijd "
+"heeft.  Alle drie hebben ze hun eigen publiek binnen de Linux Mint-"
+"gemeenschap en ze zijn allemaal heel populair."
+
+#: ../../choose.rst:54
+msgid "32-bit or 64-bit?"
+msgstr "32-bits of 64-bits?"
+
+#: ../../choose.rst:56
+msgid "From version 20 onward, only 64-bit is available."
+msgstr "Met ingang van versie 20 is alleen 64-bits beschikbaar."
+
+#: ../../choose.rst:58
+msgid ""
+"The 32-bit ISO images on prior versions are provided for compatibility with "
+"older computers. 32-bit processors are extremely rare nowadays and most "
+"computers are able to run in 64-bit. If your computer was manufactured after "
+"2007, you probably have a 64-bit processor."
+msgstr ""
+"De 32-bits-ISO-schijfkopieën van oudere versies worden ter beschikking "
+"gesteld wegens de verenigbaarheid met oudere computers. 32-bits-processoren "
+"zijn tegenwoordig bijzonder zeldzaam en de meeste computers kunnen 64-bits "
+"aan. Als uw computer werd vervaardigd na 2007, hebt u waarschijnlijk een 64-"
+"bits-processor."
+
+#: ../../choose.rst:60
+msgid ""
+"If you have an old computer and you are unsure whether or not it can run in "
+"64-bit, read `X86 Chronology "
+"<https://en.wikipedia.org/wiki/X86#Chronology>`_."
+msgstr ""
+"Als u in het bezit bent van een oude computer, en u twijfelt of die in 64-"
+"bits kan draaien, lees dan `X86 Chronology "
+"<https://en.wikipedia.org/wiki/X86#Chronology>`_ (in het Engels)."
+
+#: ../../choose.rst:63
+msgid ""
+"You can try to boot Linux Mint 64-bit on your computer. If it isn't "
+"compatible, nothing bad will happen. You will just get an error message."
+msgstr ""
+"U kunt altijd proberen om op te starten met Linux Mint 64-bits.  Er kan "
+"niets ernstigs gebeuren als uw computer die niet ondersteunt: er volgt enkel "
+"een foutmelding."
+
+#: ../../choose.rst:66
+msgid ""
+"If you cannot boot or install Linux Mint because your hardware is too recent "
+"and is not properly detected see the `Edge ISO Images <https://linuxmint-"
+"user-guide.readthedocs.io/en/latest/edge.html>`_ chapter in the Linux Mint "
+"User Guide for an alternative ISO."
+msgstr ""
+"Als u Linux Mint niet kunt opstarten of installeren omdat uw apparatuur te "
+"nieuw is, waardoor die niet correct wordt herkend, zie dan het hoofdstuk "
+"`Edge ISO Images <https://linuxmint-user-"
+"guide.readthedocs.io/en/latest/edge.html>`_ in de Linux Mint Gebruikersgids "
+"inzake een alternatief ISO."
+
+#: ../../codecs.rst:2
+msgid "Multimedia codecs"
+msgstr "Multimedia-ondersteuning (codecs)"
+
+#: ../../codecs.rst:4
+msgid "Some multimedia content requires additional codecs to be installed."
+msgstr ""
+"Bepaalde multimedia-inhoud heeft bijkomende codecs nodig die moeten worden "
+"geïnstalleerd."
+
+#: ../../codecs.rst:7
+msgid ""
+"If you were online when installing Linux Mint and you ticked the option to "
+"install these codecs, they are already installed."
+msgstr ""
+"Als u verbonden was met het internet bij het installeren van LInux Mint, en "
+"u vinkte het vakje aan om deze codecs te installeren, dan werden deze al "
+"geïnstalleerd."
+
+#: ../../codecs.rst:9
+msgid ""
+"Launch :menuselection:`Menu --> Sound & Video --> Install Multimedia Codecs`."
+msgstr ""
+"Kies: :menuselection:`Menu --> Geluid & Beeld --> Installeer "
+"multimediacodecs`."
+
+#: ../../codecs.rst:14
+msgid "Click :guilabel:`Install`."
+msgstr "Klik op :guilabel:`Installeren`."
+
+#: ../../codecs.rst:16
+msgid ""
+"Enter your password and wait for the codecs to be installed on your computer."
+msgstr ""
+"Voer uw wachtwoord in en wacht terwijl de codecs worden geïnstalleerd op uw "
+"computer."
+
+#: ../../drivers.rst:2
+msgid "Hardware drivers"
+msgstr "Stuurprogramma's voor apparatuur"
+
+#: ../../drivers.rst:4
+msgid ""
+"One of the first things to do after installing Linux Mint is to check for "
+"available hardware drivers."
+msgstr ""
+"Eén van de belangrijkste dingen om te doen na het installeren van LInux Mint "
+"is controleren op beschikbare (alternatieve) stuurprogramma's voor uw "
+"apparatuur."
+
+#: ../../drivers.rst:6
+msgid "Launch :menuselection:`Menu --> Administration --> Driver Manager`."
+msgstr "Start :menuselection:`Menu --> Systeem --> Stuurprogrammabeheer`."
+
+#: ../../drivers.rst:13
+msgid ""
+"If you are offline, the Driver Manager will complain that it cannot connect "
+"to the Internet."
+msgstr ""
+"Als u geen internetverbinding heeft, zal het Stuurprogrammabeheer melden dat "
+"het niet kan verbinden met het internet."
+
+#: ../../drivers.rst:19
+msgid ""
+"Insert your bootable Linux Mint USB stick (or DVD), wait for it to be "
+"mounted, and click :guilabel:`OK`."
+msgstr ""
+"Steek uw opstartbare LInux Mint-USB-staafje (of de Mint-DVD) in uw computer, "
+"wacht tot het aangekoppeld is, en klik :guilabel:`OK`."
+
+#: ../../drivers.rst:21
+msgid ""
+"Tick the appropriate checkboxes to select the available drivers and click "
+":guilabel:`Apply Changes`."
+msgstr ""
+"Vink de desbetreffende vakjes aan om de beschikbare stuurprogramma's te "
+"kiezen en klik op :guilabel:`Wijzigingen toepassen`."
+
+#: ../../efi.rst:2
+msgid "EFI"
+msgstr "EFI"
+
+#: ../../efi.rst:5
+msgid "SecureBoot"
+msgstr "SecureBoot"
+
+#: ../../efi.rst:7
+msgid ""
+"If after installing Linux Mint in EFI mode, you are unable to boot due to a "
+"``Secure Boot Violation``, you can try one of the following solutions:"
+msgstr ""
+"Als u na het installeren van Linux Mint in EFI-modus niet kan opstarten door "
+"een ``Secure Boot Violation``, kunt u een van de volgende oplossingen "
+"proberen:"
+
+#: ../../efi.rst:15
+msgid "Restart the installation:"
+msgstr "Herstart de installatie:"
+
+#: ../../efi.rst:14
+msgid "Connect to the Internet before the installation"
+msgstr "Verbind met het internet voor de installatie"
+
+#: ../../efi.rst:15
+msgid ""
+"**Do not** select ``Install third-party software for graphics and Wi-Fi "
+"hardware, Flash, MP3 and other media``."
+msgstr ""
+"Vink **niet** de optie aan voor ``Install third-party software for graphics "
+"and Wi-Fi hardware, Flash, MP3 and other media`` (het installeren van "
+"stuurprogramma's en multimedia-ondersteuning)."
+
+#: ../../efi.rst:17
+msgid "Disable ``SecureBoot`` in the ``BIOS`` settings of your computer."
+msgstr ""
+"Schakel ``SecureBoot`` uit in de ``BIOS``-instellingen van uw computer."
+
+#: ../../efi.rst:20
+msgid ""
+"For examples of how to disable secure boot on various computers, read "
+"`Managing EFI Boot Loaders for Linux: Dealing with Secure Boot "
+"<http://www.rodsbooks.com/efi-bootloaders/secureboot.html>`_."
+msgstr ""
+"Voor voorbeelden van het uitschakelen van 'Secure Boot' in het BIOS / "
+"(U)EFI, kunt u `Managing EFI Boot Loaders for Linux: Dealing with Secure "
+"Boot <http://www.rodsbooks.com/efi-bootloaders/secureboot.html>`_ lezen (in "
+"het Engels)."
+
+#: ../../efi.rst:23
+msgid "EFI boot order"
+msgstr "EFI-opstartvolgorde"
+
+#: ../../efi.rst:25
+msgid ""
+"If after installing Linux Mint in EFI mode, your computer skips the boot "
+"menu and boots straight into Windows (or another operating system), you "
+"probably have an issue with the boot order."
+msgstr ""
+"Als na het installeren van LInux Mint in EFI-modus, uw computer het "
+"opstartmenu overslaat en direct met Windows (of een ander besturingssysteem) "
+"opstart, dan heeft u waarschijnlijk een probleem met de opstartvolgorde."
+
+#: ../../efi.rst:27
+msgid "To modify the boot order:"
+msgstr "Om de opstartvolgorde te veranderen:"
+
+#: ../../efi.rst:29 ../../multiboot.rst:18
+msgid "Boot Linux Mint in ``live`` mode (with your USB stick or DVD)."
+msgstr "Start Linux Mint op in ``Live`` modus (met uw USB-staafje of DVD)."
+
+#: ../../efi.rst:31 ../../multiboot.rst:20
+msgid "Open a terminal."
+msgstr "Open een terminalvenster."
+
+#: ../../efi.rst:33
+msgid "Type ``sudo efibootmgr`` and press :kbd:`Enter`."
+msgstr "Tik ``sudo efibootmgr`` in en druk op :kbd:`Enter`."
+
+#: ../../efi.rst:35
+msgid "This command lists the available boot options and the boot order."
+msgstr ""
+"Deze opdracht geeft een lijst weer van de mogelijke opstartopties en de "
+"opstartvolgorde."
+
+#: ../../efi.rst:41
+msgid "In the screenshot above, there are three boot options:"
+msgstr "In de schermafdruk hierboven zijn dit de drie opstartmogelijkheden:"
+
+#: ../../efi.rst:43
+msgid "``ubuntu`` at ``0000``"
+msgstr "``ubuntu`` op ``0000``"
+
+#: ../../efi.rst:44
+msgid "``linuxmint`` at ``0001``"
+msgstr "``linuxmint`` op ``0001``"
+
+#: ../../efi.rst:45
+msgid "``Mac OS X`` at ``0081``"
+msgstr "``Mac OS X`` op ``0081``"
+
+#: ../../efi.rst:47
+msgid ""
+"The boot order is ``0081``. This indicates that the computer only tries to "
+"boot Mac OS and not Linux Mint."
+msgstr ""
+"De opstartvolgorde is ``0081``.  Dit geeft aan dat de computer enkel Mac OS "
+"tracht op te starten en niet Linux Mint."
+
+#: ../../efi.rst:50
+msgid ""
+"For technical reasons Linux Mint uses ``ubuntu`` as its EFI boot name."
+msgstr ""
+"Om technische redenen heeft Linux Mint ``ubuntu`` als EFI-opstartnaam."
+
+#: ../../efi.rst:53
+msgid ""
+"To fix the boot order, type ``sudo efibootmgr --bootorder XXXX,YYYY`` (where "
+"``XXXX`` and ``YYYY`` are the operating system boot options you want to "
+"boot)."
+msgstr ""
+"Om de opstartvolgorde te corrigeren, type ``sudo efibootmgr --bootorder "
+"XXXX,YYYY`` (waarbij ``XXXX`` en ``YYYY`` de besturingssystemen zijn "
+"waartussen u wenst te kiezen)."
+
+#: ../../efi.rst:59
+msgid ""
+"In the screenshot above, ``sudo efibootmgr --bootorder 0000,0081`` instructs "
+"the computer to first try to boot Linux Mint (``ubuntu`` being the EFI boot "
+"name for Linux Mint), and then Mac OS."
+msgstr ""
+"In de schermafdruk hierboven vertelt  ``sudo efibootmgr --bootorder "
+"0000,0081`` de computer om eerst te proberen op te starten met Linux MInt "
+"(``ubuntu`` is de EFI-opstartnaam van Linux Mint), en daarna met Mac OS."
+
+#: ../../efi.rst:64
+msgid ""
+"In the screenshot above ``0000`` is the first boot option so the computer "
+"boots on the Linux Mint grub menu. If grub fails (or if it is dismissed with "
+"the ``exit`` command), the computer follows the boot order and then tries to "
+"boot ``0081``, which corresponds to Mac OS."
+msgstr ""
+"In de schermafdruk hierboven is ``0000`` de eerste opstartmogelijkheid, "
+"zodat de computer start met het Grubmenu van Linux Mint.  Als Grub faalt (of "
+"als het door de ``exit``-opdracht beëindigd werd), volgt de computer de "
+"opstartvolgorde en probeert hij om  ``0081`` op te starten, wat overeenkomt "
+"met Mac OS."
+
+#: ../../help.rst:2
+msgid "Where to find help"
+msgstr "Waar hulp te vinden"
+
+#: ../../help.rst:4
+msgid ""
+"Many users will be glad to help you and guide you through your first steps "
+"with Linux if you are nice and patient with them and if you give them the "
+"information they require to understand the issues you are facing."
+msgstr ""
+"Vele gebruikers zullen blij zijn om u te helpen en u te begeleiden in uw "
+"eerste stappen met Linux, als u vriendelijk en geduldig bent en hun de "
+"informatie geeft die zij vragen om uw probleem te begrijpen."
+
+#: ../../help.rst:7
+msgid "The forums"
+msgstr "De fora"
+
+#: ../../help.rst:9
+msgid ""
+"The best place to find help is on the `Linux Mint Forums "
+"<https://forums.linuxmint.com>`_."
+msgstr ""
+"Het beste adres om hulp te vinden is op de `Linux Mint Forums "
+"<https://forums.linuxmint.com>`_."
+
+#: ../../help.rst:12
+msgid ""
+"Search the forums before asking, in case someone else already asked the same "
+"question."
+msgstr ""
+"Doorzoek de fora alvorens uw vraag te stellen; iemand anders kan al eerder "
+"dezelfde vraag gesteld hebben."
+
+#: ../../help.rst:15
+msgid "The chat room"
+msgstr "De babbelruimte"
+
+#: ../../help.rst:17
+msgid "Another great place to find help is in the IRC chat room."
+msgstr "Een ander adres waar u hulp kan vinden is de IRC babbelruimte."
+
+#: ../../help.rst:19
+msgid ""
+"To reach the chat room from within Linux Mint, launch :menuselection:`Menu --"
+"> Internet --> HexChat`."
+msgstr ""
+"Om deze babbelruimte te bereiken vanuit Linux Mint, kies `Menu --> Internet -"
+"-> HexChat`."
+
+#: ../../help.rst:21
+msgid ""
+"If you are using another operating system, you can use `Kiwiirc "
+"<https://kiwiirc.com/client/irc.spotchat.org/?i#linuxmint-help>`_ to connect "
+"to the chat room."
+msgstr ""
+"Indien u een ander besturingssysteem gebruikt, kunt u dit gebruiken om de "
+"babbelruimte te bereiken: `Kiwiirc "
+"<https://kiwiirc.com/client/irc.spotchat.org/?i#linuxmint-help>`_."
+
+#: ../../help.rst:24
+msgid ""
+"Many people are connected to the chat room but only look at it now and then. "
+"Be patient after asking a question. Don't repeat it and stay connected until "
+"you get an answer. It can sometimes take a few hours for somebody to see "
+"your question and reply to you. Don't quit after a few minutes. It is "
+"frustrating to you, but also to others who later see your question and are "
+"unable to reply because you already left."
+msgstr ""
+"Veel gebruikers zijn verbonden met de babbelruimte, maar bekijken die "
+"slechts af en toe. Wees geduldig na het stellen van een vraag, en stel hem "
+"niet opnieuw.  Blijf wachten tot u een antwoord ontvangt. Het kan soms "
+"enkele uren duren eer iemand uw vraag ziet en erop kan antwoorden.  Verlaat "
+"de babbelruimte niet na een paar minuutjes.  Het is frustrerend voor u maar "
+"ook voor anderen die later uw vraag zien, maar er niet kunnen op antwoorden "
+"omdat u al weg bent."
+
+#: ../../help.rst:27
+msgid ""
+"If you are using Hexchat, you can minimize it to tray by clicking its status "
+"icon. People will often mention your nickname when replying to you. When "
+"they do, your Hexchat status icon will blink to catch your attention."
+msgstr ""
+"Als u Hexchat gebruikt, kunt u het minimaliseren door op het statuspictogram "
+"te klikken.  Gebruikers zullen uw bijnaam vermelden bij het beantwoorden.  "
+"Als dat gebeurt, dan zal het statuspictogram knipperen om uw aandacht te "
+"trekken."
+
+#: ../../help.rst:30
+msgid "Community resources"
+msgstr "Hulpbronnen van de gemeenschap"
+
+#: ../../help.rst:32
+msgid ""
+"The `tutorials section <https://community.linuxmint.com/tutorial/search>`_ "
+"is useful to find tutorials about Linux Mint."
+msgstr ""
+"De `handleidingensectie <https://community.linuxmint.com/tutorial/search>`_ "
+"is handig om handleidingen voor Linux Mint te vinden."
+
+#: ../../help.rst:34
+msgid ""
+"The `hardware database <https://community.linuxmint.com/hardware/search>`_ "
+"is useful to find compatible hardware."
+msgstr ""
+"De `apparatuurgegevensbank "
+"<https://community.linuxmint.com/hardware/search>`_ is handig voor het "
+"vinden van verenigbare apparatuur."
+
+#: ../../help.rst:37
+msgid "Local communities"
+msgstr "Lokale gemeenschappen"
+
+#: ../../help.rst:39
+msgid ""
+"To find help in your language, use the `Local Communities "
+"<https://www.linuxmint.com/links.php>`_."
+msgstr ""
+"Om hulp te vinden in uw taal, kunt u de `lokale gemeenschappen "
+"<https://www.linuxmint.com/links.php>`_ gebruiken."
+
+#: ../../index.rst:2
+msgid "Linux Mint Installation Guide"
+msgstr "Linux Mint-installatiegids"
+
+#: ../../index.rst:8
+msgid ""
+"Linux Mint comes in the form of an ISO image (an .iso file) which can be "
+"used to make a bootable DVD or a bootable USB stick."
+msgstr ""
+"LInux Mint bestaat in de vorm van een ISO-beeldbestand (een .iso-bestand), "
+"dat gebruikt kan worden voor een opstartbare DVD of een opstartbaar USB-"
+"staafje."
+
+#: ../../index.rst:10
+msgid ""
+"This guide will help you download the right ISO image, create your bootable "
+"media and install Linux Mint on your computer."
+msgstr ""
+"Deze gids zal u helpen om het juiste ISO-beeldbestand binnen te halen, uw "
+"opstartbaar medium te maken en Linux Mint te installeren op uw computer."
+
+#: ../../index.rst:12 ../../sections.rst:5
+msgid "Download"
+msgstr "Binnenhalen"
+
+#: ../../index.rst:19 ../../sections.rst:7
+msgid "Live Boot"
+msgstr "Uitprobeersessie"
+
+#: ../../index.rst:26 ../../sections.rst:9
+msgid "Installation"
+msgstr "Installatie"
+
+#: ../../index.rst:32 ../../sections.rst:11
+msgid "Post-installation"
+msgstr "Post-installatie (na installatie)"
+
+#: ../../index.rst:41 ../../sections.rst:13
+msgid "Troubleshooting"
+msgstr "Probleemoplossing"
+
+#: ../../index.rst:48 ../../sections.rst:15
+msgid "Frequently Asked Questions"
+msgstr "Veelgestelde vragen"
+
+#: ../../install.rst:2
+msgid "Install Linux Mint"
+msgstr "Linux Mint installeren"
+
+#: ../../install.rst:5
+msgid "The live session"
+msgstr "De uitprobeersessie"
+
+#: ../../install.rst:7
+msgid ""
+"When you boot the computer from the USB stick (or DVD), Linux Mint starts a "
+"``live session``. It logs you in automatically as a user called ``mint`` and "
+"shows you a desktop with the installer on it:"
+msgstr ""
+"Als u uw computer opstart vanaf USB-staafje (of DVD), dan start Linux Mint "
+"een ``uitprobeersessie``.  Het logt u automatisch in als een gebruiker met "
+"de naam ``mint``, en geeft u een werkomgeving met een snelkoppeling naar het "
+"installatieprogramma op het bureaublad:"
+
+#: ../../install.rst:13
+msgid "The Linux Mint live session"
+msgstr "De uitprobeersessie van Linux Mint"
+
+#: ../../install.rst:15
+msgid ""
+"The ``live session`` is similar to a normal session (i.e. to Linux Mint once "
+"it is permanently installed on the computer), but with the following "
+"exceptions:"
+msgstr ""
+"De ``uitprobeersessie`` is vergelijkbaar met een normale sessie (bijv. met "
+"Linux Mint wanneer die permanent geïnstalleerd werd op de computer), maar "
+"met de volgende uitzonderingen:"
+
+#: ../../install.rst:17
+msgid ""
+"The Live session is slower (it is loaded from a USB stick or DVD as opposed "
+"to a SSD or HDD)."
+msgstr ""
+"De uitprobeersessie is trager (hij wordt geladen vanaf een USB-staafje of "
+"DVD in tegenstelling tot vanaf SSD of HDD)."
+
+#: ../../install.rst:18
+msgid ""
+"Changes you make in the live session are not permanent. They are not written "
+"to the USB stick (or DVD) and they do not impact the system installed by the "
+"installer."
+msgstr ""
+"Veranderingen die u maakt in de uitprobeersessie zijn niet blijvend.  Ze "
+"worden niet weggeschreven naar het USB-staafje (of DVD) en hebben geen "
+"invloed op het systeem dat wordt geïnstalleerd door het installatieprogramma."
+
+#: ../../install.rst:19
+msgid ""
+"Some applications work differently (or not at all) in the live session "
+"(Timeshift, Flatpak, Update Manager, Welcome Screen..etc.)."
+msgstr ""
+"Bepaalde programma's zullen in de uitprobeersessie anders werken of helemaal "
+"niet (Timeshift, Flatpak, Bijwerkbeheer, Welkomstscherm, enz.)."
+
+#: ../../install.rst:22
+msgid ""
+"The username for the live session is ``mint``. If asked for a password press "
+":kbd:`Enter`."
+msgstr ""
+"De gebruikersnaam voor de uitprobeersessie is ``mint`` .  Als u om een "
+"wachtwoord gevraagd wordt, drukt u op :kbd:`Enter`."
+
+#: ../../install.rst:25
+msgid "Installing Linux Mint on the computer"
+msgstr "Installatie van Linux Mint op de computer"
+
+#: ../../install.rst:27
+msgid "To permanently install Linux Mint on your computer:"
+msgstr "Om Linux Mint permanent te installeren op uw computer:"
+
+#: ../../install.rst:29
+msgid "Double-click :guilabel:`Install Linux Mint`."
+msgstr "Dubbelklik :guilabel:`Installeer Linux Mint`."
+
+#: ../../install.rst:31
+msgid "Select your language."
+msgstr "Kies uw taal."
+
+#: ../../install.rst:37
+msgid "Connect to the Internet."
+msgstr "Verbind met het internet."
+
+#: ../../install.rst:43
+msgid ""
+"If you are connected to the Internet, tick the box to install the multimedia "
+"codecs."
+msgstr ""
+"Als u verbonden bent met het internet kunt u het vakje 'Multimedia-codecs "
+"installeren' aanvinken."
+
+#: ../../install.rst:49
+msgid "Choose an installation type."
+msgstr "Kies het installatietype."
+
+#: ../../install.rst:55
+msgid ""
+"If Linux Mint is the only operating system you want to run on this computer "
+"and all data can be lost on the hard drive, choose :guilabel:`Erase disk and "
+"install Linux Mint`."
+msgstr ""
+"Als u wilt dat Linux MInt het enige besturingssysteem is waarmee u de "
+"computer wilt opstarten, en alle gegevens van de harde schijf mogen gewist "
+"worden, dan kunt u :guilabel:`Wis harde schijf en installeer Linux Mint` "
+"kiezen."
+
+#: ../../install.rst:58
+msgid ""
+":guilabel:`Encrypt the new Linux Mint installation for security` refers to "
+"full disk encryption. At this stage of the installation your keyboard layout "
+"wasn't yet selected so it is set to en_US. If you decide to use this option, "
+"keep this in mind when entering a password. Note that there are issues with "
+"this option and some NVIDIA drivers. If you are new to Linux use home "
+"directory encryption instead (you can select it later during the "
+"installation)."
+msgstr ""
+":guilabel:`Versleutel de nieuwe LInux Mint-installatie voor veiligheid` "
+"verwijst naar volledige versleuteling van uw harde schijf.  In dit stadium "
+"van de installatie werd uw toetsenbordindeling nog niet gekozen, dus werd "
+"het ingesteld op 'en_US'.  Houd dit in het oog wanneer u een wachtwoord "
+"intikt. Merk ook op dat er problemen zijn met deze optie met sommige NVIDIA-"
+"stuurprogramma's.  Als u nieuw bent bij LInux, is het aangeraden om alleen "
+"de thuismap te versleutelen (wat u later kan aanvinken tijdens de "
+"installatie)."
+
+#: ../../install.rst:60
+msgid ""
+"If another operating system is present on the computer, the installer shows "
+"you an option to install Linux Mint alongside it. If you choose this option, "
+"the installer automatically resizes your existing operating system, makes "
+"room and installs Linux Mint beside it. A boot menu is set up to choose "
+"between the two operating systems each time you start your computer."
+msgstr ""
+"Als er een ander besturingssysteem aanwezig is op de computer, toont het "
+"installatieprogramma u een optie om Linux Mint ernaast te installeren.  Als "
+"u deze optie inschakelt, probeert het installatieprogramma uw "
+"besturingssysteem te verkleinen, maakt het plaats vrij en installeert LInux "
+"Mint ernaast.  Een opstartmenu wordt gemaakt om tussen de twee "
+"besturingssystemen te kiezen telkens wanneer u opstart."
+
+#: ../../install.rst:64
+msgid ""
+"If you want to manage the partitions or specify which partitions to use, "
+"select :guilabel:`Something else`."
+msgstr ""
+"Als u zelf de partities wenst te beheren, of aan wilt geven welke partities "
+"te gebruiken, kies dan  :guilabel:`Iets anders`."
+
+#: ../../install.rst:70
+msgid ""
+"Linux Mint requires one partition to be mounted on the root ``/`` directory."
+msgstr ""
+"Linux Mint heeft één partitie nodig die aangekoppeld wordt als hoofdmap "
+"``/``."
+
+#: ../../install.rst:72
+msgid ""
+"The Linux Mint operating system (without additional software or personal "
+"data) takes roughly 15GB, so give this partition a decent size (100GB or "
+"more)."
+msgstr ""
+"Het Linux Mint-besturingssysteem (zonder bijkomende programmatuur of "
+"persoonlijke bestanden) heeft ongeveer 15 gigabyte nodig. Geef dus een "
+"redelijke grootte op (100 GB of meer)."
+
+#: ../../install.rst:74
+msgid "``ext4`` is recommended. It is the most popular Linux filesystem."
+msgstr ""
+"``Ext4`` wordt aanbevolen. Het is  het meest gebruikte bestandssysteem van "
+"Linux."
+
+#: ../../install.rst:79
+msgid ""
+"Also create a ``swap`` partition. This partition is used for hibernation and "
+"as a safety buffer in case your computer runs out of RAM. Give this "
+"partition a size equal to the amount of RAM in your computer."
+msgstr ""
+"Maak ook een ``swap``-partitie.  Deze partitie wordt gebruikt voor de "
+"slaapstand en als een veilige buffer voor als uw computer te weinig RAM-"
+"geheugen heeft. Geef deze partitie een grootte die gelijk is aan de grootte "
+"van het RAM-geheugen in uw computer."
+
+#: ../../install.rst:81
+msgid "Select your timezone"
+msgstr "Kies uw tijdzone"
+
+#: ../../install.rst:87
+msgid "Select your keyboard layout"
+msgstr "Kies uw toetsenbordindeling"
+
+#: ../../install.rst:93
+msgid "Enter your user details"
+msgstr "Geef uw gebruikersgegevens in"
+
+#: ../../install.rst:99
+msgid ""
+"Your ``name`` can be your real name, but it doesn't have to be. It is only "
+"used locally, in the screensaver and on the login screen."
+msgstr ""
+"Uw ``naam`` kan uw echte naam zijn, maar dat hoeft niet. Hij wordt enkel "
+"lokaal gebruikt, in de schermbeveiliging en in het aanmeldscherm."
+
+#: ../../install.rst:101
+msgid ""
+"Your ``username`` is what you log in as, and your ``hostname`` is the name "
+"of your computer on the network."
+msgstr ""
+"Uw ``gebruikersnaam`` is waarmee u uzelf aanmeldt, en uw ``hostname`` "
+"(computernaam) is de naam van uw computer in het netwerk."
+
+#: ../../install.rst:103
+msgid ""
+"To prevent bugs only use lowercase characters, with no punctuation or "
+"accentuation."
+msgstr ""
+"Om problemen te voorkomen gebruikt u het beste alleen kleine letters, zonder "
+"punctuatie of accenten."
+
+#: ../../install.rst:105
+msgid ""
+"To protect your personal data against local attacks (people around you, or "
+"in case your computer gets stolen), tick :guilabel:`Encrypt my home folder`."
+msgstr ""
+"Om uw persoonlijke gegevens te beschermen tegen lokale aanvallen (personen "
+"in uw nabijheid, of in het geval van diefstal van uw computer), kunt u "
+":guilabel:`Versleutel mijn thuismap` aanvinken."
+
+#: ../../install.rst:107
+msgid "Choose a strong password."
+msgstr "Kies een lang wachtwoord."
+
+#: ../../install.rst:109
+msgid "Enjoy the slideshow while Linux Mint is installed on your computer."
+msgstr ""
+"Geniet van de diavoorstelling terwijl Linux Mint geïnstalleerd wordt op uw "
+"computer."
+
+#: ../../install.rst:115
+msgid "When the installation is finished, click :guilabel:`Restart Now`."
+msgstr ""
+"Wanneer de installatie beëindigd is, kunt u :guilabel:`Nu herstarten` "
+"aanklikken."
+
+#: ../../install.rst:121
+msgid ""
+"The computer will then start to shut down and ask you to remove the USB disk "
+"(or DVD). Upon reboot, your computer should show you a boot menu or start "
+"your newly installed Linux Mint operating system."
+msgstr ""
+"De computer zal dan beginnen met afsluiten en u vragen om het USB-staafje "
+"(of de DVD) te verwijderen.  Bij herstart zou de computer u een opstartmenu "
+"moeten tonen of meteen uw nieuw geïnstalleerde Linux Mint-besturingssysteem "
+"moeten opstarten."
+
+#: ../../locales.rst:2
+msgid "Language support"
+msgstr "Taalondersteuning"
+
+#: ../../locales.rst:4
+msgid ""
+"Language support includes translations but also packages related to spell-"
+"checking, synonyms, hyphenation and dictionaries which enhance your "
+"experience in software applications such as LibreOffice."
+msgstr ""
+"Taalondersteuning omvat vertalingen maar ook pakketten die te maken hebben "
+"met spellingscontrole, synoniemen, woordafbreking en woordenboeken die uw "
+"gebruikerservaring verbeteren in toepassingen als LibreOffice."
+
+#: ../../locales.rst:6
+msgid "Launch :menuselection:`Menu --> Preferences --> Languages`."
+msgstr "Kies `Menu --> Instellingen --> Talen`."
+
+#: ../../locales.rst:12
+msgid "Click :guilabel:`Install / Remove Language`."
+msgstr "Klik: :guilabel:`Talen installeren / verwijderen`."
+
+#: ../../locales.rst:18
+msgid ""
+"If beside your locale, you see a label saying ``Some language packs are "
+"missing``, select your locale and click :guilabel:`Install language packs`."
+msgstr ""
+"Als u naast uw regio een etiket ziet met als opschrift ``Some language packs "
+"are missing`` (enkele taalpakketten ontbreken), kies dan uw regio en "
+"selecteer :guilabel:`Installeer taalpakketten`."
+
+#: ../../multiboot.rst:2
+msgid "Multi-boot"
+msgstr "Meervoudige opstart"
+
+#: ../../multiboot.rst:5
+msgid "Always install Windows first"
+msgstr "Installeer Windows altijd eerst"
+
+#: ../../multiboot.rst:7
+msgid ""
+"Windows does not detect other operating systems and does not feature a boot "
+"menu. When you install it, it overwrites your boot sequence and your "
+"computer then boots straight into Windows."
+msgstr ""
+"Windows detecteert geen andere besturingssystemen, en heeft geen "
+"opstartmenu.  Als u het installeert, overschrijft het uw opstartvolgorde en "
+"start uw computer altijd met Windows."
+
+#: ../../multiboot.rst:9
+msgid ""
+"Linux Mint (and most Linux distributions) detects other operating systems "
+"and builds a menu from which you can choose which system to boot."
+msgstr ""
+"Linux Mint (en de meeste andere Linuxdistributies) detecteren andere "
+"besturingssystemen wel en maken een menu waarmee u kunt kiezen met welk "
+"besturingssysteem u wilt opstarten."
+
+#: ../../multiboot.rst:11
+msgid ""
+"For this reason, if you want to dual-boot or multi-boot with Windows, it is "
+"easier and recommended to install Windows first, before you install Linux "
+"Mint."
+msgstr ""
+"Daarom, als u wilt kiezen tussen Windows en iets anders, is het "
+"gemakkelijker om Windows eerst te installeren, alvorens u Linux Mint "
+"installeert."
+
+#: ../../multiboot.rst:14
+msgid "Fix the boot sequence"
+msgstr "Herstel de opstartvolgorde"
+
+#: ../../multiboot.rst:16
+msgid "If Windows overwrites your boot sequence:"
+msgstr "Als Windows uw opstartvolgorde overschrijft:"
+
+#: ../../multiboot.rst:22
+msgid "To list your partitions, type ``lsblk -f`` and press :kbd:`Enter`."
+msgstr ""
+"Voor het weergeven van uw partities tikt u ``lsblk -f`` in en drukt u op "
+":kbd:`Enter`."
+
+#: ../../multiboot.rst:28
+msgid ""
+"Find the partition where Linux Mint is installed. On most systems this "
+"should be the only ``ext4`` partition."
+msgstr ""
+"Vind de partitie waarop Linux Mint is geïnstalleerd.  Bij de meeste systemen "
+"zal dit de enige ``ext4``-partitie zijn."
+
+#: ../../multiboot.rst:30
+msgid "In the screenshot above:"
+msgstr "In de schermafdruk hierboven:"
+
+#: ../../multiboot.rst:32
+msgid ""
+"``sdb`` is the USB stick (recognizable by its ``iso9660`` type which "
+"corresponds to an ISO image)."
+msgstr ""
+"``sdb`` is het USB-staafje (herkenbaar door zijn ``iso9660``-type dat "
+"overeenkomt met een ISO-beeldbestand)."
+
+#: ../../multiboot.rst:33
+msgid "``sda`` is the hard drive."
+msgstr "``sda`` is de harde schijf."
+
+#: ../../multiboot.rst:34
+msgid ""
+"``sda4`` is the partition on the ``sda`` hard drive, where Linux Mint is "
+"installed."
+msgstr ""
+"``sda4`` is de partitie op de ``sda`` harde schijf, waarop Linux Mint is "
+"geïnstalleerd."
+
+#: ../../multiboot.rst:36
+msgid "To list partition sizes, type ``lsblk``:"
+msgstr "Om de partitiegroottes op te sommen, tikt u ``lsblk`` in:"
+
+#: ../../multiboot.rst:42
+msgid "To list partition labels, type ``blkid``:"
+msgstr "Om de partitie-etiketten op te sommen, tikt u ``blkid`` in:"
+
+#: ../../multiboot.rst:48
+msgid ""
+"Mount the Linux Mint partition and reinstall the grub menu with the "
+"following commands:"
+msgstr ""
+"Koppel de Linux Mint-partitie aan en herinstalleer het Grubmenu met de "
+"volgende opdrachten:"
+
+#: ../../multiboot.rst:56
+msgid ""
+"In the commands above, replace /dev/sda4 and /dev/sda with the appropriate "
+"names for your Linux Mint partition and your hard drive device."
+msgstr ""
+"Vervang in de opdrachten hierboven '/dev/sda4' en '/dev/sda' met de juiste "
+"namen voor uw Linux Mintpartitie en uw harde schijf."
+
+#: ../../oem.rst:2
+msgid "Pre-installing Linux Mint (OEM Installation)"
+msgstr "Voorinstallatie van Linux Mint (OEM-installatie)"
+
+#: ../../oem.rst:4
+msgid ""
+"In the ISO boot menu, ``OEM install`` is used to preinstall Linux Mint."
+msgstr ""
+"In het ISO-opstartmenu wordt ``OEM-installatie`` gebruikt voor "
+"voorinstallatie van Linux Mint."
+
+#: ../../oem.rst:6
+msgid "This option is useful to:"
+msgstr "Deze optie is aangewezen voor:"
+
+#: ../../oem.rst:8
+msgid ""
+"Manufacturers and resellers who want to install Linux Mint on computers they "
+"sell to their customers."
+msgstr ""
+"Fabrikanten en winkels die Linux Mint wensen te installeren voor hun klanten."
+
+#: ../../oem.rst:9
+msgid "People who want to sell or give their computer to somebody else."
+msgstr ""
+"Eigenaars die hun computer wensen te schenken of te verkopen aan iemand "
+"anders."
+
+#: ../../oem.rst:11
+msgid ""
+"When you install Linux Mint in ``OEM`` mode, the operating system is "
+"installed with a temporary user account and prepared for the computer's "
+"future owner."
+msgstr ""
+"Als u uw LInux Mint in ``OEM``-modus voorinstalleert, wordt het "
+"besturingssysteem geïnstalleerd met een tijdelijk gebruikersaccount en "
+"voorbereid op een onbekende toekomstige eigenaar van de computer."
+
+#: ../../oem.rst:13
+msgid "The user account is set up by the new owner."
+msgstr "Het gebruikersaccount wordt gemaakt door de nieuwe eigenaar."
+
+#: ../../oem.rst:15
+msgid "To perform an OEM installation follow the steps below:"
+msgstr ""
+"Om een OEM-installatie uit te voeren moet u de volgende stappen uitvoeren:"
+
+#: ../../oem.rst:17
+msgid "Select ``OEM Install`` from the USB stick (or DVD) menu."
+msgstr "Kies ``OEM-installatie`` in het menu van het USB-staafje (of DVD)."
+
+#: ../../oem.rst:19
+msgid "Launch the installer and follow the installation instructions."
+msgstr ""
+"Start het installatieprogramma op en volg de installatie-instructies."
+
+#: ../../oem.rst:23
+msgid ""
+"Change any system settings or install additional software if you want."
+msgstr ""
+"Verander de systeeminstellingen of installeer desgewenst bijkomende "
+"progranmatuur."
+
+#: ../../oem.rst:25
+msgid ""
+"When ready, click :guilabel:`Prepare for shipping to end user`, enter the "
+"password you chose during the installation, click :guilabel:`OK` and shut "
+"down the computer."
+msgstr ""
+"Als u klaar bent, kies dan :guilabel:`Maak klaar voor eindgebruiker`, voer "
+"het wachtwoord in dat u koos tijdens de installatie, klik :guilabel:`OK` en "
+"sluit de computer af."
+
+#: ../../oem.rst:31
+msgid ""
+"When the new owner of the computer boots the computer the following screen "
+"appears:"
+msgstr ""
+"Wanneer de nieuwe gebruiker de computer opstart, verschijnt het volgende "
+"scherm:"
+
+#: ../../oem.rst:37
+msgid ""
+"The new owner selects his or her username, password, keyboard layout, "
+"language, timezone and all the details relevant to create his or her user "
+"account."
+msgstr ""
+"De nieuwe gebruiker kiest zijn of haar gebruikersnaam, wachtwoord, "
+"toetsenbordindeling, taal, tijdzone en alle details die van belang zijn om "
+"zijn of haar gebruikersaccount te maken."
+
+#: ../../partitioning.rst:2
+msgid "Partitioning"
+msgstr "Schijfindeling"
+
+#: ../../partitioning.rst:5
+msgid "Disks and partitions under Linux"
+msgstr "Schijven en partities onder Linux"
+
+#: ../../partitioning.rst:7
+msgid ""
+"If you are not familiar with the Linux naming scheme for devices and "
+"partitions, or the concept of filesystems and mount points, read:"
+msgstr ""
+"Als u niet vertrouwd bent met hoe Linux apparaten en partities namen geeft, "
+"of met het concept van bestandssystemen en koppelpunten, lees dan:"
+
+#: ../../partitioning.rst:9
+msgid ""
+"`A beginner’s guide to disks and disk partitions in Linux "
+"<http://linuxbsdos.com/2014/11/08/a-beginners-guide-to-disks-and-disk-"
+"partitions-in-linux/>`_"
+msgstr ""
+"`A beginner’s guide to disks and disk partitions in Linux "
+"<http://linuxbsdos.com/2014/11/08/a-beginners-guide-to-disks-and-disk-"
+"partitions-in-linux/>`_ (in het Engels)"
+
+#: ../../partitioning.rst:10
+msgid ""
+"`Device Names in Linux "
+"<https://www.debian.org/releases/wheezy/amd64/apcs04.html.en>`_"
+msgstr ""
+"`Device Names in Linux "
+"<https://www.debian.org/releases/wheezy/amd64/apcs04.html.en>`_ (in het "
+"Engels)"
+
+#: ../../partitioning.rst:11
+msgid ""
+"`Understanding the Linux File System "
+"<http://etutorials.org/Linux+systems/red+hat+linux+9+professional+secrets/Par"
+"t+II+Exploring+Red+Hat+Linux/Chapter+7+Red+Hat+Linux+Basics/Understanding+the"
+"+Linux+File+System/>`_"
+msgstr ""
+"`Understanding the Linux File System "
+"<http://etutorials.org/Linux+systems/red+hat+linux+9+professional+secrets/Par"
+"t+II+Exploring+Red+Hat+Linux/Chapter+7+Red+Hat+Linux+Basics/Understanding+the"
+"+Linux+File+System/>`_ (in het Engels)"
+
+#: ../../partitioning.rst:14
+msgid "Dedicated /home partition"
+msgstr "Aparte partitie voor /home"
+
+#: ../../partitioning.rst:16
+msgid ""
+"In Linux, the ``/home`` directory is used to store user data and preferences."
+msgstr ""
+"In LInux wordt de ``/home``-map gebruikt om gebruikersgegevens en "
+"voorkeursinstellingen in op te slaan."
+
+#: ../../partitioning.rst:18
+msgid ""
+"This directory contains one subdirectoy for each user account. Say your "
+"username is ``john``, your home directory is ``/home/john``, your downloads "
+"are in ``/home/john/Downloads``, your documents in ``/home/john/Documents``, "
+"your Firefox bookmarks somewhere in ``/home/john/.mozilla`` and so on..."
+msgstr ""
+"Deze map bevat één submap voor elk gebruikersaccount.  Stel dat uw "
+"gebruikersnaam ``jan`` is, dan is uw thuismap ``/home/jan``, uw "
+"binnengehaalde bestanden komen standaard in ``/home/jan/Downloads``, uw "
+"documenten in ``/home/jan/Documenten``, uw bladwijzers van Firefox ergens in "
+"``/home/jan/.mozilla`` enzovoorts..."
+
+#: ../../partitioning.rst:20
+msgid ""
+"By giving ``/home`` its own dedicated partition, you separate the user data "
+"from the rest of the operating system."
+msgstr ""
+"Door ``/home`` zijn eigen aparte partitie te geven, scheidt u de "
+"gebruikersgegevens van de rest van het besturingssysteem."
+
+#: ../../partitioning.rst:22
+msgid ""
+"The advantage is that you can wipe the operating system and replace it "
+"without affecting the user data."
+msgstr ""
+"Het voordeel is dat u de partitie waarop het besturingssysteem staat, leeg "
+"kunt maken zonder dat u de gebruikersgegevens aantast."
+
+#: ../../partitioning.rst:24
+msgid "When installing Linux Mint:"
+msgstr "Wanneer u LInux Mint installeert:"
+
+#: ../../partitioning.rst:26
+msgid ""
+"Assign the ``/`` mount point to the partition dedicated to the operating "
+"system, and tell the installer to format it."
+msgstr ""
+"Wijs het koppelpunt ``/`` toe aan de partitie waarop het besturingssysteem "
+"geïnstalleerd moet worden, en laat het installatieprogramma deze formatteren."
+
+#: ../../partitioning.rst:28
+msgid ""
+"Assign the ``/home`` mount point to the partition dedicated to the user "
+"data, and if it contains user data already, make sure to tell the installer "
+"**not to format it**."
+msgstr ""
+"Wijs het koppelpunt ``/home`` toe aan de partitie van de gebruikersgegevens "
+"en zorg ervoor dat, als deze partitie al gegevens bevat, het "
+"installatieprogramma deze partitie ** NIET ** formatteert."
+
+#: ../../partitioning.rst:31
+msgid ""
+"This is not recommended for novice users. A misstep during the installation "
+"could wipe all your data. Always make backups, make sure to select the right "
+"partitions and to carefully review formatting options."
+msgstr ""
+"Dit is niet aanbevolen voor beginnende gebruikers.  Een misstap gedurende de "
+"installatie zou al uw gebruikersgegevens kunnen wissen.  Maak "
+"reservekopieën, en vergewis u ervan dat u de juiste partities kiest en "
+"vergewis u ook zeker van de juiste formatteeropties."
+
+#: ../../partitioning.rst:34
+msgid ""
+"A Linux Mint operating system takes about 15GB and grows as you install "
+"additional software. If you can spare the size, give it 100GB. Keep most of "
+"your free space for the home partition. User data (downloads, videos, "
+"pictures) takes a lot more space."
+msgstr ""
+"Een Linux Mint-besturingssysteem neemt ongeveer 15 GB in beslag, en groeit "
+"naarmate u bijkomende programmatuur installeert.  Als u zich het kan "
+"permitteren, wijs dan 100 GB toe.  Geef het meeste van de vrije ruimte aan "
+"de home-partitie.  Gebruikersgegevens (downloads, video's, foto's) nemen "
+"meestal veel meer plaats in dan het besturingssysteem."
+
+#: ../../timeshift.rst:2
+msgid "System snapshots"
+msgstr "Momentopnamen van systeem"
+
+#: ../../timeshift.rst:4
+msgid ""
+"Before you start using your operating system, set up system snapshots. Then "
+"if anything goes wrong, you can restore your system from an earlier backup."
+msgstr ""
+"Voordat u uw systeem gaat gebruiken, maakt u best een momentopname van uw "
+"systeem.  Als er dan iets misgaat, kunt u uw systeem herstellen vanuit een "
+"eerdere reservekopie."
+
+#: ../../timeshift.rst:6
+msgid "Launch :menuselection:`Menu --> Administration --> Timeshift`."
+msgstr "Start :menuselection:`Menu --> Beheer --> Timeshift`."
+
+#: ../../timeshift.rst:8
+msgid "Select ``RSYNC`` and click :guilabel:`Next`."
+msgstr "Kies ``RSYNC`` en klik :guilabel:`Volgende`."
+
+#: ../../timeshift.rst:13
+msgid ""
+"Select the device where you want system snapshots to be saved and click "
+":guilabel:`Next`."
+msgstr ""
+"Kies het apparaat waarop u de momentopnamen wilt bewaren en klik op "
+":guilabel:`Volgende`."
+
+#: ../../timeshift.rst:19
+msgid ""
+"The selected device is not formatted and no data is lost. System snapshots "
+"are saved into a newly created ``timeshift`` directory on the root of the "
+"selected device."
+msgstr ""
+"Het geselecteerde apparaat wordt niet geformatteerd en er gaan geen gegevens "
+"verloren. Systeemherstelpunten worden opgeslagen in een ``timeshift``-map "
+"binnen de hoofdmap van het geselecteerde apparaat."
+
+#: ../../timeshift.rst:21
+msgid "Select when system snapshots are saved."
+msgstr "Kies wanneer de momentopnamen van het systeem worden opgeslagen."
+
+#: ../../timeshift.rst:27
+msgid ""
+"System snapshots are incremental so although the first snapshot takes a "
+"significant amount of spaces, new snapshots only take additional space for "
+"files which have changed."
+msgstr ""
+"Momentopnamen zijn oplopend en incrementeel, zodat de eerste momentopname "
+"een zeer grote hoeveelheid ruimte inneemt. Maar aanvullende momentopnamen "
+"vragen enkel bijkomende plaats voor bestanden die zijn gewijzigd."
+
+#: ../../timeshift.rst:30
+msgid ""
+"``Boot`` snapshots are performed in the background and do not impact the "
+"speed of the boot sequence."
+msgstr ""
+"``Opstart``-momentopnamen worden uitgevoerd op de achtergrond en beïnvloeden "
+"de opstartsnelheid niet."
+
+#: ../../timeshift.rst:32
+msgid "Click :guilabel:`Finish`."
+msgstr "Klik op :guilabel:`Voltooien`."
+
+#: ../../verify.rst:2
+msgid "Verify your ISO image"
+msgstr "Verifieer uw ISO-beeldbestand"
+
+#: ../../verify.rst:4
+msgid ""
+"It is important to verify the integrity and authenticity of your ISO image."
+msgstr ""
+"Het is belangrijk om de juistheid, integriteit en authenticiteit van uw "
+"beeldbestand (ISO) te verifiëren."
+
+#: ../../verify.rst:6
+msgid ""
+"The integrity check confirms that your ISO image was properly downloaded and "
+"that your local file is an exact copy of the file present on the download "
+"servers. An error during the download could result in a corrupted file and "
+"trigger random issues during the installation."
+msgstr ""
+"De integriteitscontrole bevestigt dat uw ISO-bestand correct werd "
+"binnengehaald en dat uw lokale bestand een exacte kopie is van datzelfde "
+"bestand op de downloadservers.  Een fout tijdens het binnenhalen zou kunnen "
+"resulteren in een corrupt bestand en zou kunnen leiden tot willekeurige "
+"fouten tijdens de installatie."
+
+#: ../../verify.rst:8
+msgid ""
+"The authenticity check confirms that the ISO image you downloaded was signed "
+"by Linux Mint, and thus that it isn't a modified or malicious copy made by "
+"somebody else."
+msgstr ""
+"De authenticiteitscontrole bevestigt dat het beeldbestand (ISO) dat u "
+"binnenhaalde ondertekend werd door LInux Mint, en aldus dat het geen "
+"gewijzigde of kwaadwillige andere versie is, die is gemaakt door iemand "
+"anders."
+
+#: ../../verify.rst:11
+msgid "Download the SHA256 sums provided by Linux Mint"
+msgstr ""
+"Haal de SHA256-controlesommen binnen die aangeboden worden door Linux Mint"
+
+#: ../../verify.rst:13
+msgid ""
+"All `download mirrors <https://www.linuxmint.com/mirrors.php>`_ provide the "
+"ISO images, a ``sha256sum.txt`` file and a ``sha256sum.txt.gpg`` file. You "
+"should be able to find these files in the same place you downloaded the ISO "
+"image from."
+msgstr ""
+"Alle `spiegelservers <https://www.linuxmint.com/mirrors.php>`_ bevatten de "
+"ISO-beeldbestanden, een ``sha256sum.txt``-bestand en een "
+"``sha256sum.txt.gpg``-bestand.  U  zou deze bestanden moeten kunnen vinden "
+"op dezelfde plaats als de plaats waar u het ISO-beeldbestand van "
+"binnenhaalde."
+
+#: ../../verify.rst:15
+msgid ""
+"If you can't find them, browse the `Heanet download mirror "
+"<https://ftp.heanet.ie/mirrors/linuxmint.com/stable/>`_ and click the "
+"version of the Linux Mint release you downloaded."
+msgstr ""
+"Als u deze niet kan vinden, doorzoek dan de `Heanet-spiegelserver "
+"<https://ftp.heanet.ie/mirrors/linuxmint.com/stable/>`_ en klik op de Linux "
+"Mintversie die u binnenhaalde."
+
+#: ../../verify.rst:17
+msgid "Download both ``sha256sum.txt`` and ``sha256sum.txt.gpg``."
+msgstr "Haal zowel ``sha256sum.txt`` als ``sha256sum.txt.gpg`` binnen."
+
+#: ../../verify.rst:19
+msgid ""
+"Do not copy their content, use \"right-click->Save Link As...\" to download "
+"the files themselves and do not modify them in any way."
+msgstr ""
+"Kopieer hun inhoud niet, maar gebruik \"rechtsklik - Koppeling opslaan "
+"als...\" om de bestanden zelf binnen te halen. Wijzig ze op geen enkele "
+"manier."
+
+#: ../../verify.rst:22
+msgid "Integrity check"
+msgstr "Integriteitscontrole"
+
+#: ../../verify.rst:24
+msgid ""
+"To check the integrity of your local ISO file, generate its SHA256 sum and "
+"compare it with the sum present in ``sha256sum.txt``."
+msgstr ""
+"Om de integriteit te controleren van uw lokale ISO-bestand, genereert u "
+"daarvan de SHA256sum en vergelijkt u deze met de som in ``sha256sum.txt``."
+
+#: ../../verify.rst:31
+msgid ""
+"If you are using Windows follow the tutorial `How to verify the ISO image on "
+"Windows <https://forums.linuxmint.com/viewtopic.php?f=42&t=291093>`_."
+msgstr ""
+"Indien u Windows gebruikt, pas dan de Engelstalige handleiding `How to "
+"verify the ISO image on Windows "
+"<https://forums.linuxmint.com/viewtopic.php?f=42&t=291093>`_ toe."
+
+#: ../../verify.rst:33
+msgid ""
+"If the sums match, your ISO image was successfully downloaded. If they "
+"don't, download it again."
+msgstr ""
+"Als de controlesom overeenkomt, dan werd uw ISO-beeldbestand correct "
+"binnengehaald.  Als dat niet zo is, dan moet u het bestand opnieuw "
+"binnenhalen."
+
+#: ../../verify.rst:38
+msgid "Authenticity check"
+msgstr "Authenticiteitscontrole"
+
+#: ../../verify.rst:40
+msgid ""
+"To verify the authenticity of ``sha256sum.txt``, check the signature of "
+"``sha256sum.txt.gpg`` by following the steps below."
+msgstr ""
+"Om de authenticiteit te verifiëren van ``sha256sum.txt``, moet u de "
+"handtekening van  ``sha256sum.txt.gpg`` controleren door de onderstaande "
+"stappen uit te voeren."
+
+#: ../../verify.rst:43
+msgid "Import the Linux Mint signing key:"
+msgstr "Importeer de ondertekeningssleutel van Linux Mint:"
+
+#: ../../verify.rst:49
+msgid ""
+"If gpg complains about the key ID, try the following commands instead:"
+msgstr ""
+"Indien gpg klaagt over de key ID, probeer dan in plaats daarvan de volgende "
+"opdrachten:"
+
+#: ../../verify.rst:56
+msgid ""
+"Check the output of the last command, to make sure the fingerprint is ``27DE "
+"B156 44C6 B3CF 3BD7 D291 300F 846B A25B AE09`` (with or without spaces)."
+msgstr ""
+"Kijk de uitvoer na van de laatste opdracht, om er zeker van te zijn dat de "
+"vingerafdruk is: ``27DE B156 44C6 B3CF 3BD7 D291 300F 846B A25B AE09`` (met "
+"of zonder spaties)."
+
+#: ../../verify.rst:59
+msgid "Verify the authenticity of sha256sum.txt:"
+msgstr "Controleer de authenticiteit van 'sha256sum.txt':"
+
+#: ../../verify.rst:64
+msgid ""
+"The output of the last command should tell you that the file signature is "
+"``good`` and that it was signed with the ``A25BAE09`` key."
+msgstr ""
+"De uitvoer van de laatste opdracht zou u moeten vertellen dat de "
+"bestandshandtekening ``goed`` is en dat het was ondertekend met de "
+"``A25BAE09``-sleutel."
+
+#: ../../verify.rst:67
+msgid ""
+"GPG might warn you that the Linux Mint signature is not trusted by your "
+"computer. This is expected and perfectly normal."
+msgstr ""
+"GPG zou u kunnen waarschuwen dat de Linux Mint-handtekening niet wordt "
+"vertrouwd door uw computer.  Dit wordt verwacht en is volkomen normaal."
+
+#: ../../verify.rst:70
+msgid ""
+"For more information on ISO verification, or to verify BETA, LMDE or old "
+"releases, read `How to Verify ISO images "
+"<https://linuxmint.com/verify.php>`_."
+msgstr ""
+"Voor meer informatie over ISO-verificatie, of om bètaversies, LMDE of oude "
+"uitgaves te verifiëren kunt u  `How to Verify ISO images "
+"<https://linuxmint.com/verify.php>`_ lezen (in het Engels)."

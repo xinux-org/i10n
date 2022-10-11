@@ -1,0 +1,471 @@
+# Bulgarian translation for linuxmint
+# Copyright (c) 2017 Rosetta Contributors and Canonical Ltd 2017
+# This file is distributed under the same license as the linuxmint package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2017.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: linuxmint\n"
+"Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
+"POT-Creation-Date: 2022-05-24 17:21+0100\n"
+"PO-Revision-Date: 2022-09-21 18:39+0000\n"
+"Last-Translator: Nikolay Trifonov <trifonov88@gmail.com>\n"
+"Language-Team: Bulgarian <bg@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Launchpad-Export-Date: 2022-10-10 13:11+0000\n"
+"X-Generator: Launchpad (build 762fb15a975e8b23af6a1f86e44e46bfd0451459)\n"
+
+#: usr/lib/linuxmint/mintreport/app.py:84
+#: usr/lib/linuxmint/mintreport/app.py:245 generate_desktop_files:25
+#: generate_desktop_files:39 generate_desktop_files:53
+#: generate_desktop_files:67
+msgid "System Reports"
+msgstr "Системен отчет"
+
+#: usr/lib/linuxmint/mintreport/app.py:193
+msgid "_File"
+msgstr "_Файл"
+
+#: usr/lib/linuxmint/mintreport/app.py:198
+msgid "Refresh"
+msgstr "Опресни"
+
+#: usr/lib/linuxmint/mintreport/app.py:205
+msgid "Restore ignored reports"
+msgstr "Възстановяване на игнорираните отчети"
+
+#: usr/lib/linuxmint/mintreport/app.py:209
+#: usr/lib/linuxmint/mintreport/tray.py:58
+msgid "Quit"
+msgstr "Изход"
+
+#: usr/lib/linuxmint/mintreport/app.py:220
+msgid "_Help"
+msgstr "_Помощ"
+
+#: usr/lib/linuxmint/mintreport/app.py:226
+#: usr/lib/linuxmint/mintreport/app.py:243
+msgid "About"
+msgstr "Относно"
+
+#: usr/lib/linuxmint/mintreport/app.py:287
+msgid "An error occurred while gathering the system information."
+msgstr "Възникна грешка при събирането на системна информация."
+
+#: usr/lib/linuxmint/mintreport/app.py:301
+msgid "System information copied"
+msgstr "Системната информация е копирана."
+
+#: usr/lib/linuxmint/mintreport/app.py:301
+msgid ""
+"Your system information was copied into your clipboard so you can paste it "
+"on the forums."
+msgstr ""
+"Системната ви информация беше копирана в клипборда, за да може да я "
+"поставите във форумите."
+
+#: usr/lib/linuxmint/mintreport/app.py:310
+msgid "System information uploaded"
+msgstr "Системната информация е качена"
+
+#: usr/lib/linuxmint/mintreport/app.py:310
+#, python-format
+msgid ""
+"Your system information was uploaded to %s. This link was placed in your "
+"clipboard so you can paste it on IRC."
+msgstr ""
+"Вашата системна информация беше качена на %s. Линка ще бъде копиран в "
+"клипборда, за да може да го изпратите по IRC."
+
+#: usr/lib/linuxmint/mintreport/app.py:312
+msgid "An error occurred while uploading the system information"
+msgstr "Възникна грешка при качването на системната информация"
+
+#: usr/lib/linuxmint/mintreport/app.py:312
+msgid ""
+"Copy and paste the system information manually into a pastebin site like "
+"https://pastebin.com and share the link on IRC."
+msgstr ""
+"Копирайте системната информация ръчно и я поставете в сайт от типа на "
+"https://pastebin.com и споделете линка в IRC."
+
+#: usr/lib/linuxmint/mintreport/app.py:391
+msgid "Ignore this report"
+msgstr "Игнориране на този отчет"
+
+#: usr/lib/linuxmint/mintreport/app.py:407
+msgid "Are you sure you want to ignore this report?"
+msgstr "Сигурни ли сте, че искате да игнорирате този отчет"
+
+#: usr/lib/linuxmint/mintreport/app.py:408
+msgid "The report will be permanently ignored and will no longer be visible."
+msgstr "Този системен отчет ще бъде игнориран завинаги и няма да е видим."
+
+#: usr/lib/linuxmint/mintreport/app.py:500
+#, python-format
+msgid ""
+"The debug symbols are missing for %(program)s.\n"
+"Please install %(package)s."
+msgstr ""
+"Липсват дебъг символи за %(program)s.\n"
+"Моля инсталирайте %(package)s."
+
+#: usr/lib/linuxmint/mintreport/app.py:514
+#, python-format
+msgid ""
+"The package providing %s could not be found.\n"
+"If you want to generate a stack trace for this crash report, please "
+"reinstall it."
+msgstr ""
+"Пакета, съдържащ %s не може да бъде открит.\n"
+"Ако искате да генерирате проследяване за този отчет, моля преинсталирайте го."
+
+#: usr/lib/linuxmint/mintreport/app.py:542
+msgid ""
+"The headers or binaries installed on your system do not match the code which "
+"was executed during the crash.\n"
+"They probably got upgraded since.\n"
+"A stack trace is available in 'Local Files' but its content is probably "
+"inaccurate."
+msgstr ""
+"Хедърите или бинарните файлове, инсталирани на системата не съвпадат с кода, "
+"който се изпълняваше по врене на срива.\n"
+"Вероятно са били надстроени.\n"
+"Проследяването е налично в 'Локални файлове', но съдържанието му вероятно е "
+"неточно."
+
+#: usr/lib/linuxmint/mintreport/tray.py:54
+msgid "Show System Reports"
+msgstr "Показване на системните отчети"
+
+#: usr/lib/linuxmint/mintreport/tray.py:132
+msgid "Some system reports require your attention"
+msgstr "Системните отчети се нуждаят от вашето внимание"
+
+#: usr/lib/linuxmint/mintreport/tray.py:148
+msgid "System Snapshots"
+msgstr "Системни снимки"
+
+#: usr/lib/linuxmint/mintreport/tray.py:148
+msgid "A Timeshift system snapshot is being created."
+msgstr "Създава се Timeshift системна снимка."
+
+#: usr/lib/linuxmint/mintreport/tray.py:149
+msgid "Automatic Updates"
+msgstr "Автоматични актуализации"
+
+#: usr/lib/linuxmint/mintreport/tray.py:149
+msgid "Automatic updates are being installed."
+msgstr "Автоматичните обновления се инсталират."
+
+#: generate_desktop_files:25 generate_desktop_files:39
+#: generate_desktop_files:53 generate_desktop_files:67
+msgid "Troubleshoot problems"
+msgstr "Отстраняване на проблеми"
+
+#: generate_desktop_files:53
+msgid "Troubleshooting Tool"
+msgstr "Инструмент за отстраняване на проблеми"
+
+#: usr/share/linuxmint/mintreport/mintreport.ui.h:1
+msgid "Running system checks..."
+msgstr "Върви проверка на системата..."
+
+#: usr/share/linuxmint/mintreport/mintreport.ui.h:2
+msgid "No problems were detected"
+msgstr "Няма засечени проблеми"
+
+#: usr/share/linuxmint/mintreport/mintreport.ui.h:3
+msgid "System reports"
+msgstr "Системни отчети"
+
+#: usr/share/linuxmint/mintreport/mintreport.ui.h:4
+msgid "Copy"
+msgstr "Копирай"
+
+#: usr/share/linuxmint/mintreport/mintreport.ui.h:5
+msgid ""
+"Copy to clipboard (code tags are added to make it easy to paste the system "
+"information into the forums)"
+msgstr ""
+"Копирай в клипборда (добавени са кодови тагове, за да е по-лесно да "
+"поставите системната информация във форумите)"
+
+#: usr/share/linuxmint/mintreport/mintreport.ui.h:6
+msgid "Upload"
+msgstr "Качи"
+
+#: usr/share/linuxmint/mintreport/mintreport.ui.h:7
+msgid "Upload to a pastebin service (no personal information included)"
+msgstr "Качено в pastebin (лична информация не е включена)"
+
+#: usr/share/linuxmint/mintreport/mintreport.ui.h:8
+msgid "System information"
+msgstr "Системна информация"
+
+#: usr/share/linuxmint/mintreport/mintreport.ui.h:9
+msgid "Crash reports are not available"
+msgstr "Отчети за сривове не са налични"
+
+#: usr/share/linuxmint/mintreport/mintreport.ui.h:10
+msgid ""
+"To enable crash reporting, install systemd-coredump and reboot your computer."
+msgstr ""
+"За включване на отчета за срив, инсталирайте systemd-coredump и "
+"рестартирайте компютъра."
+
+#: usr/share/linuxmint/mintreport/mintreport.ui.h:11
+msgid "Crash reports:"
+msgstr "Отчети за сривове:"
+
+#: usr/share/linuxmint/mintreport/mintreport.ui.h:12
+msgid "Stack trace:"
+msgstr "Трасиране на стек:"
+
+#: usr/share/linuxmint/mintreport/mintreport.ui.h:13
+msgid ""
+"When seeking help, check for existing bug reports, pastebin the trace, share "
+"crash.tar.gz (from Local Files) and explain how to reproduce the crash."
+msgstr ""
+"Когато търсите помощ, проверете за съществуващи отчети за грешки, проверете "
+"в pastebin, споделете crash.tar.gz (от локалните файлове) и обяснете как да "
+"възпроизведем срива."
+
+#: usr/share/linuxmint/mintreport/mintreport.ui.h:14
+msgid "Local Files"
+msgstr "Локални файлове"
+
+#: usr/share/linuxmint/mintreport/mintreport.ui.h:15
+msgid "Open the directory containing crash.tar.gz and its content."
+msgstr "Отвори директорията, съдържаща crash.tar.gz и неговото съдържимо."
+
+#: usr/share/linuxmint/mintreport/mintreport.ui.h:16
+msgid "Bug Tracker"
+msgstr "Проследяване на бъг"
+
+#: usr/share/linuxmint/mintreport/mintreport.ui.h:17
+msgid "Find the most appropriate bug tracker."
+msgstr "Намери най-подходящия бъг тркер."
+
+#: usr/share/linuxmint/mintreport/mintreport.ui.h:18
+msgid "Pastebin"
+msgstr "Pastebin"
+
+#: usr/share/linuxmint/mintreport/mintreport.ui.h:19
+msgid "Upload the trace to the Internet."
+msgstr "Качи проследяването в интернет."
+
+#: usr/share/linuxmint/mintreport/mintreport.ui.h:20
+msgid ""
+"Developers need to know where the code fails or how to reproduce the issue. "
+"Always provide a trace and reliable instructions to trigger/observe the "
+"problem."
+msgstr ""
+"Разработчиците трябва да знаят, къде кода се е провалил или как да "
+"възпроизведат проблема. Винаги давайте следи и подходящи инструкции за "
+"отключване/изследване на проблема."
+
+#: usr/share/linuxmint/mintreport/mintreport.ui.h:21
+msgid "Crash reports"
+msgstr "Отчети за грешки"
+
+#: usr/share/linuxmint/mintreport/reports/045_xappstatusapplet-missing/MintReportInfo.py:17
+msgid "Add the XApp Status applet"
+msgstr "Добави аплете за състоянието на XApp"
+
+#: usr/share/linuxmint/mintreport/reports/045_xappstatusapplet-missing/MintReportInfo.py:37
+msgid ""
+"The XApp Status applet allows applications to provide a tray icon without "
+"rendering glitches and with support for HiDPI and symbolic icons."
+msgstr ""
+"Аплета за състоянието на XApp позволява на приложенията да имат иконка в "
+"панела, избягвайки проблеми с рендирането и с поддръжка на HiDPI и символни "
+"иконки."
+
+#: usr/share/linuxmint/mintreport/reports/045_xappstatusapplet-missing/MintReportInfo.py:39
+msgid "Right-click the panel and choose 'Add to Panel'."
+msgstr "Десен клик на панела и избери 'Добави към панела'."
+
+#: usr/share/linuxmint/mintreport/reports/045_xappstatusapplet-missing/MintReportInfo.py:46
+msgid "Add the XApp Status applet to the panel"
+msgstr "Добави аплета за състоянието на XApp в панела"
+
+#: usr/share/linuxmint/mintreport/reports/050_install-media-codecs/MintReportInfo.py:16
+msgid "Install multimedia codecs"
+msgstr "Инсталиране на мултимедийни кодеци"
+
+#: usr/share/linuxmint/mintreport/reports/050_install-media-codecs/MintReportInfo.py:30
+msgid ""
+"Multimedia codecs are required to play some video formats and to properly "
+"render some websites."
+msgstr ""
+"Мултимедийните кодеци са нужни за възпроизвеждането на някои видео формати и "
+"за да се показват правилно някои сайтове."
+
+#: usr/share/linuxmint/mintreport/reports/050_install-media-codecs/MintReportInfo.py:36
+msgid "Install the Multimedia Codecs"
+msgstr "Инсталиране на мултимедийни кодеци"
+
+#: usr/share/linuxmint/mintreport/reports/060_timeshift-no-setup/MintReportInfo.py:17
+msgid "Set up the system restore utility"
+msgstr "Настройка на инструмента са възстановяване на системата"
+
+#: usr/share/linuxmint/mintreport/reports/060_timeshift-no-setup/MintReportInfo.py:31
+msgid "Linux Mint provides a system restore utility called Timeshift."
+msgstr ""
+"Линукс Минт предоставя инструмент за възстановяване на системата, наречен "
+"Timeshift."
+
+#: usr/share/linuxmint/mintreport/reports/060_timeshift-no-setup/MintReportInfo.py:32
+msgid ""
+"Thanks to Timeshift you can take snapshots of the system, either manually or "
+"automatically."
+msgstr ""
+"Благодарение на Timeshift вие може да правите снимки на системата "
+"(snapshots), ръчно или автоматично."
+
+#: usr/share/linuxmint/mintreport/reports/060_timeshift-no-setup/MintReportInfo.py:33
+msgid ""
+"If something goes wrong you can then restore your operating system from a "
+"previously saved snapshot."
+msgstr ""
+"Ако нещо се обърка, може да възстановите операционната система от "
+"предварително запазена снимка."
+
+#: usr/share/linuxmint/mintreport/reports/060_timeshift-no-setup/MintReportInfo.py:39
+msgid "Launch Timeshift"
+msgstr "Стартиране на Timeshift"
+
+#: usr/share/linuxmint/mintreport/reports/070_new-release/MintReportInfo.py:17
+#: usr/share/linuxmint/mintreport/reports/071_new_major_release/MintReportInfo.py:17
+msgid "A new version of Linux Mint is available"
+msgstr "Налична е нова версия на Линукс Минт"
+
+#: usr/share/linuxmint/mintreport/reports/070_new-release/MintReportInfo.py:47
+#: usr/share/linuxmint/mintreport/reports/071_new_major_release/MintReportInfo.py:50
+#, python-format
+msgid "Visit %s for the latest announcements."
+msgstr "Посетете %s за новостите."
+
+#: usr/share/linuxmint/mintreport/reports/070_new-release/MintReportInfo.py:53
+#: usr/share/linuxmint/mintreport/reports/071_new_major_release/MintReportInfo.py:56
+#, python-format
+msgid "Upgrade to %s"
+msgstr "Надграждане до %s"
+
+#: usr/share/linuxmint/mintreport/reports/080_release-eol/MintReportInfo.py:49
+msgid "Your version of Linux Mint will soon reach End-Of-Life (EOL)"
+msgstr ""
+"Вашата версия на Линукс Минт скоро ще достигне до края на живота си (EOL)"
+
+#: usr/share/linuxmint/mintreport/reports/080_release-eol/MintReportInfo.py:50
+#, python-brace-format
+msgid "It will stop receiving support and updates in a day."
+msgid_plural "It will stop receiving support and updates in {num_days} days."
+msgstr[0] "Ще спрете да получавате поддръжка и актуализации след ден."
+msgstr[1] ""
+"Ще спрете да получавате поддръжка и актуализации след {num_days}  дни."
+
+#: usr/share/linuxmint/mintreport/reports/080_release-eol/MintReportInfo.py:54
+msgid "Your version of Linux Mint is no longer supported"
+msgstr "Вашата версия на Линукс Минт вече не се поддържа"
+
+#: usr/share/linuxmint/mintreport/reports/080_release-eol/MintReportInfo.py:55
+#, python-brace-format
+msgid "It reached End-Of-Life (EOL) yesterday."
+msgid_plural "It reached End-Of-Life (EOL) {num_days} days ago."
+msgstr[0] "Края на живота (EOL) беше достигнат вчера."
+msgstr[1] "Края на живота (EOL) беше достигнат преди {num_days} дни."
+
+#: usr/share/linuxmint/mintreport/reports/080_release-eol/MintReportInfo.py:66
+#, python-format
+msgid "Visit %s to find information about newer releases."
+msgstr "Посетете %s, за да намерите информация относно по-нови издания."
+
+#: usr/share/linuxmint/mintreport/reports/100_usrmerge-not-done/MintReportInfo.py:16
+msgid "Perform usrmerge conversion"
+msgstr "Извърши usrmerge преобразуване"
+
+#: usr/share/linuxmint/mintreport/reports/100_usrmerge-not-done/MintReportInfo.py:50
+msgid "We recommend you convert your system with usrmerge."
+msgstr "Препоръчваме ви да преобразувате вашата система с usrmerge"
+
+#: usr/share/linuxmint/mintreport/reports/100_usrmerge-not-done/MintReportInfo.py:51
+msgid ""
+"This is done already for new installations of Linux Mint, starting with 20.1."
+msgstr ""
+"Това вече е направено за нови инсталации на Linux Mint, започвайки от версия "
+"20.1."
+
+#: usr/share/linuxmint/mintreport/reports/100_usrmerge-not-done/MintReportInfo.py:52
+msgid "To convert your system, open a terminal and type:"
+msgstr "За да преобразувате вашата система отворете терминал и напишете:"
+
+#: usr/share/linuxmint/mintreport/reports/100_usrmerge-not-done/MintReportInfo.py:54
+msgid "You should reboot the computer once this completes."
+msgstr "Рестартирайте компютъра си когато това завърши."
+
+#: usr/share/linuxmint/mintreport/reports/100_usrmerge-not-done/MintReportInfo.py:60
+msgid "More information"
+msgstr "Повече информация"
+
+#: usr/share/linuxmint/mintreport/reports/200_xappstatusapplet-blocked/MintReportInfo.py:17
+msgid "Remove conflicting indicators"
+msgstr "Премахване на противоречивите индикатори"
+
+#: usr/share/linuxmint/mintreport/reports/200_xappstatusapplet-blocked/MintReportInfo.py:37
+msgid "The following packages prevent tray icons from working properly:"
+msgstr ""
+"Следните пакети пречат на на иконите в трея да работят както се очаква:"
+
+#: usr/share/linuxmint/mintreport/reports/200_xappstatusapplet-blocked/MintReportInfo.py:39
+msgid "Note: You will need to log out after removing them."
+msgstr ""
+"Забележка: Ще се наложи да излезете и отново да се логнете след като ги "
+"премахнете."
+
+#: usr/share/linuxmint/mintreport/reports/200_xappstatusapplet-blocked/MintReportInfo.py:45
+msgid "Remove the conflicting packages."
+msgstr "Премахване на противоречивите пакети"
+
+#: usr/share/linuxmint/mintreport/reports/500_install-language-packs/MintReportInfo.py:26
+msgid "Install language packs"
+msgstr "Инсталиране на езикови пакети"
+
+#: usr/share/linuxmint/mintreport/reports/500_install-language-packs/MintReportInfo.py:41
+msgid ""
+"The following localization packages are missing to properly support your "
+"language:"
+msgstr "За правилна езикова поддръжка са нужни следните пакети:"
+
+#: usr/share/linuxmint/mintreport/reports/500_install-language-packs/MintReportInfo.py:48
+msgid "Install the Language Packs"
+msgstr "Инсталиране на езикови пакети"
+
+#: usr/share/linuxmint/mintreport/reports/900_drivers/MintReportInfo.py:19
+msgid "Install hardware drivers"
+msgstr "Инсталиране на хардуерни драйвери"
+
+#: usr/share/linuxmint/mintreport/reports/900_drivers/MintReportInfo.py:28
+msgid "Processor"
+msgstr "Процесор"
+
+#: usr/share/linuxmint/mintreport/reports/900_drivers/MintReportInfo.py:41
+msgid "Unknown"
+msgstr "Неизвестно"
+
+#: usr/share/linuxmint/mintreport/reports/900_drivers/MintReportInfo.py:45
+#, python-format
+msgid "%s (unknown)"
+msgstr "%s (неизвестно)"
+
+#: usr/share/linuxmint/mintreport/reports/900_drivers/MintReportInfo.py:100
+msgid "Hardware drivers are available for the following devices:"
+msgstr "Налични за хардуерни драйвери за следните устройства:"
+
+#: usr/share/linuxmint/mintreport/reports/900_drivers/MintReportInfo.py:107
+msgid "Launch the Driver Manager"
+msgstr "Стартиране на управлението на драйвери"

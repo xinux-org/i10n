@@ -1,0 +1,2354 @@
+# -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+# Aviary.pl
+# Jeśli masz jakiekolwiek uwagi odnoszące się do tłumaczenia lub chcesz
+# pomóc w jego rozwijaniu i pielęgnowaniu, napisz do nas:
+# gnomepl@aviary.pl
+# -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+# Zbigniew Chyla <chyla@alice.ci.pwr.wroc.pl>, 2003.
+# Artur Flinta <aflinta@at.kernel.pl>, 2003-2004.
+# Bartosz Kosiorek <gang65@poczta.onet.pl>, 2005.
+# Artur Flinta <aflinta@at.kernel.pl>, 2006.
+# Stanisław Małolepszy <smalolepszy@aviary.pl>, 2007.
+# Tomasz Dominikowski <dominikowski@gmail.com>, 2007-2009.
+# Piotr Drąg <piotrdrag@gmail.com>, 2010-2013.
+# Asia Słowik <asiaslowik@gmail.com>, 2011.
+# Aviary.pl <gnomepl@aviary.pl>, 2007-2013.
+msgid ""
+msgstr ""
+"Project-Id-Version: xplayer\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-10-01 16:32+0100\n"
+"PO-Revision-Date: 2018-10-18 16:55+0000\n"
+"Last-Translator: Piotr Strębski <strebski@gmail.com>\n"
+"Language-Team: Polish <gnomepl@aviary.pl>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 "
+"|| n%100>=20) ? 1 : 2;\n"
+"X-Launchpad-Export-Date: 2022-10-10 13:08+0000\n"
+"X-Generator: Launchpad (build 762fb15a975e8b23af6a1f86e44e46bfd0451459)\n"
+"X-Poedit-Language: Polish\n"
+"Language: pl\n"
+"X-Poedit-Country: Poland\n"
+
+#: ../data/fullscreen.ui.h:1
+msgid "Leave fullscreen"
+msgstr "Opuść pełny ekran"
+
+#: ../data/fullscreen.ui.h:2
+msgid "Blank other monitors"
+msgstr "Wygaś pozostałe monitory"
+
+#: ../data/org.x.player.gschema.xml.in.in.h:1
+msgid "Allow the screensaver to activate when playing audio"
+msgstr "Umożliwia wygaszanie ekranu podczas odtwarzania dźwięku"
+
+#: ../data/org.x.player.gschema.xml.in.in.h:2
+msgid ""
+"Allow the screensaver to activate when playing audio. Disable if you have "
+"monitor-powered speakers."
+msgstr ""
+"Zezwolenie na włączenie wygaszacza ekranu podczas odtwarzania dźwięku. "
+"Przydatne w przypadku głośników wbudowanych w monitor."
+
+#: ../data/org.x.player.gschema.xml.in.in.h:3
+msgid "The brightness of the video"
+msgstr "Jasność obrazu wideo"
+
+#: ../data/org.x.player.gschema.xml.in.in.h:4
+msgid "The contrast of the video"
+msgstr "Kontrast obrazu wideo"
+
+#: ../data/org.x.player.gschema.xml.in.in.h:5
+msgid "The hue of the video"
+msgstr "Odcień obrazu wideo"
+
+#: ../data/org.x.player.gschema.xml.in.in.h:6
+msgid "The saturation of the video"
+msgstr "Nasycenie obrazu wideo"
+
+#: ../data/org.x.player.gschema.xml.in.in.h:7
+msgid "Resize the canvas automatically on file load"
+msgstr "Automatyczne dopasowanie rozmiaru okna programu po wczytaniu pliku"
+
+#: ../data/org.x.player.gschema.xml.in.in.h:8
+msgid "Repeat mode"
+msgstr "Tryb powtarzania"
+
+#: ../data/org.x.player.gschema.xml.in.in.h:9
+msgid "Shuffle mode"
+msgstr "Tryb losowy"
+
+#: ../data/org.x.player.gschema.xml.in.in.h:10
+msgid "Whether to disable deinterlacing for interlaced movies"
+msgstr ""
+"Określa, czy wyłączyć usuwanie przeplotu dla nagrań wideo z przeplotem"
+
+#: ../data/org.x.player.gschema.xml.in.in.h:11
+msgid "Whether to enable debug for the playback engine"
+msgstr "Określa, czy włączyć dodatkowe informacje dla mechanizmu odtwarzania"
+
+#: ../data/org.x.player.gschema.xml.in.in.h:12
+msgid "Type of audio output to use"
+msgstr "Typ użytego wyjścia dźwięku"
+
+#: ../data/org.x.player.gschema.xml.in.in.h:13
+msgid "Network buffering threshold"
+msgstr "Próg buforowania sieciowego"
+
+#: ../data/org.x.player.gschema.xml.in.in.h:14
+msgid ""
+"Amount of data to buffer for network streams before starting to display the "
+"stream (in seconds)."
+msgstr ""
+"Ilość buforowanych danych dla strumieni sieciowych przed rozpoczęciem "
+"wyświetlania strumienia (w sekundach)."
+
+#: ../data/org.x.player.gschema.xml.in.in.h:15
+msgid "Subtitle font"
+msgstr "Czcionka napisów"
+
+#: ../data/org.x.player.gschema.xml.in.in.h:16
+msgid "Pango font description for subtitle rendering."
+msgstr "Opis czcionki do wyświetlania napisów biblioteki Pango."
+
+#: ../data/org.x.player.gschema.xml.in.in.h:17
+msgid "Subtitle encoding"
+msgstr "Kodowanie napisów"
+
+#: ../data/org.x.player.gschema.xml.in.in.h:18
+msgid "Encoding character set for subtitle."
+msgstr "Strona kodowa napisów."
+
+#: ../data/org.x.player.gschema.xml.in.in.h:19
+msgid "Default location for the \"Open...\" dialogs"
+msgstr "Domyślne położenie dla okien dialogowych \"Otwórz...\""
+
+#: ../data/org.x.player.gschema.xml.in.in.h:20
+msgid ""
+"Default location for the \"Open...\" dialogs. Default is the current "
+"directory."
+msgstr ""
+"Domyślne położenie dla okien dialogowych \"Otwórz...\". Domyślnie jest to "
+"bieżący katalog."
+
+#: ../data/org.x.player.gschema.xml.in.in.h:21
+msgid "Default location for the \"Take Screenshot\" dialogs"
+msgstr "Domyślne położenie dla okien dialogowych \"Pobierz zrzut ekranu\""
+
+#: ../data/org.x.player.gschema.xml.in.in.h:22
+msgid ""
+"Default location for the \"Take Screenshot\" dialogs. Default is the "
+"Pictures directory."
+msgstr ""
+"Domyślne położenie dla okien dialogowych \"Pobierz zrzut ekranu\". Domyślnie "
+"jest to katalog Obrazy."
+
+#: ../data/org.x.player.gschema.xml.in.in.h:23
+msgid "Whether to disable the plugins in the user's home directory"
+msgstr ""
+"Określa, czy wyłączyć wtyczki znajdujące się w katalogu domowym użytkownika"
+
+#: ../data/org.x.player.gschema.xml.in.in.h:24
+msgid "Whether to disable the keyboard shortcuts"
+msgstr "Określa, czy wyłączyć skróty klawiszowe"
+
+#: ../data/org.x.player.gschema.xml.in.in.h:25
+msgid "Whether to autoload text subtitle files when a movie is loaded"
+msgstr ""
+"Określa, czy automatycznie wczytywać plik z napisami podczas wczytywania "
+"filmu"
+
+#: ../data/org.x.player.gschema.xml.in.in.h:26
+msgid "Whether to autoload external chapter files when a movie is loaded"
+msgstr ""
+"Określa, czy automatycznie wczytywać zewnętrzne pliki rozdziałów podczas "
+"wczytywania filmu"
+
+#: ../data/org.x.player.gschema.xml.in.in.h:27
+msgid ""
+"Whether to remember the position of played audio/video files when pausing or "
+"closing them"
+msgstr ""
+"Określa, czy zapamiętywać położenie plików dźwiękowych i nagrań wideo przy "
+"wstrzymaniu odtwarzania lub ich zamknięciu"
+
+#: ../data/org.x.player.gschema.xml.in.in.h:28
+msgid "Active plugins list"
+msgstr "Lista aktywnych wtyczek"
+
+#: ../data/org.x.player.gschema.xml.in.in.h:29
+msgid ""
+"A list of the names of the plugins which are currently active (loaded and "
+"running)."
+msgstr "Lista aktywnych wtyczek (wczytanych i uruchomionych)."
+
+#: ../data/org.x.player.gschema.xml.in.in.h:30 ../data/preferences.ui.h:20
+msgid "Use dark theme variant (if available)."
+msgstr "Używaj ciemnego motywu (jeśli dostępny)."
+
+#: ../data/playlist.ui.h:1
+msgid "_Remove"
+msgstr "_Usuń"
+
+#: ../data/playlist.ui.h:2
+msgid "Remove file from playlist"
+msgstr "Usuwa plik z listy odtwarzania"
+
+#: ../data/playlist.ui.h:3
+msgid "_Copy Location"
+msgstr "S_kopiuj położenie"
+
+#: ../data/playlist.ui.h:4
+msgid "Copy the location to the clipboard"
+msgstr "Kopiuje położenie do schowka"
+
+#: ../data/playlist.ui.h:5 ../data/xplayer.ui.h:78
+msgid "_Select Text Subtitles..."
+msgstr "_Wybierz plik napisów..."
+
+#: ../data/playlist.ui.h:6 ../data/xplayer.ui.h:79
+msgid "Select a file to use for text subtitles"
+msgstr "Wybór pliku napisów"
+
+#: ../data/playlist.ui.h:7
+msgid "Add..."
+msgstr "Dodaje do listy odtwarzania..."
+
+#: ../data/playlist.ui.h:8
+msgid "Remove"
+msgstr "Usuwa z listy odtwarzania"
+
+#: ../data/playlist.ui.h:9
+msgid "Save Playlist..."
+msgstr "Zapisuje listę odtwarzania..."
+
+#: ../data/playlist.ui.h:10
+msgid "Move Up"
+msgstr "Przesuwa w górę na liście odtwarzania"
+
+#: ../data/playlist.ui.h:11
+msgid "Move Down"
+msgstr "Przesuwa w dół na liście odtwarzania"
+
+#: ../data/preferences.ui.h:1 ../src/backend/bacon-video-widget.c:5095
+msgid "Stereo"
+msgstr "Stereo"
+
+#: ../data/preferences.ui.h:2
+msgid "4-channel"
+msgstr "4-kanałowy"
+
+#: ../data/preferences.ui.h:3
+msgid "4.1-channel"
+msgstr "4.1-kanałowy"
+
+#: ../data/preferences.ui.h:4
+msgid "5.0-channel"
+msgstr "5.0-kanałowy"
+
+#: ../data/preferences.ui.h:5
+msgid "5.1-channel"
+msgstr "5.1-kanałowy"
+
+#: ../data/preferences.ui.h:6
+msgid "AC3 Passthrough"
+msgstr "Przekazywanie AC3"
+
+#: ../data/preferences.ui.h:7
+msgid "Xplayer Preferences"
+msgstr "Preferencje programu Xplayer"
+
+#: ../data/preferences.ui.h:8
+msgid "Playback"
+msgstr "Odtwarzanie"
+
+#: ../data/preferences.ui.h:9
+msgid "Start playing files from last position"
+msgstr "Rozpoczęcie odtwarzania plików od ostatniej pozycji"
+
+#: ../data/preferences.ui.h:10
+msgid "Text Subtitles"
+msgstr "Napisy"
+
+#: ../data/preferences.ui.h:11
+msgid "_Load subtitle files when movie is loaded"
+msgstr "Wczytywanie pliku _napisów po wczytaniu filmu"
+
+#: ../data/preferences.ui.h:12
+msgid "_Display subtitles when movie is loaded"
+msgstr "_Wyświetlaj napisy gdy film jest wczytany"
+
+#: ../data/preferences.ui.h:13
+msgid "_Font:"
+msgstr "Czcion_ka:"
+
+#: ../data/preferences.ui.h:14
+msgid "_Encoding:"
+msgstr "_Kodowanie:"
+
+#: ../data/preferences.ui.h:15
+msgid "External Chapters"
+msgstr "Zewnętrzne rozdziały"
+
+#: ../data/preferences.ui.h:16
+msgid "Load _chapter files when movie is loaded"
+msgstr "W_czytywanie plików rozdziałów po wczytaniu filmu"
+
+#: ../data/preferences.ui.h:17 ../data/properties.ui.h:1
+msgid "General"
+msgstr "Ogólne"
+
+#. Tab label in the Preferences dialogue
+#: ../data/preferences.ui.h:19
+msgid "Display"
+msgstr "Wyświetlanie"
+
+#: ../data/preferences.ui.h:21
+msgid "_Resize the window when a new video is loaded"
+msgstr "_Skalowanie okna po wczytaniu nowego nagrania wideo"
+
+#: ../data/preferences.ui.h:22
+msgid "Disable _deinterlacing of interlaced videos"
+msgstr "Wyłączenie _usuwania przeplotu z nagrań wideo z przeplotem"
+
+#: ../data/preferences.ui.h:23
+msgid "Disable screensaver when playing"
+msgstr "Wyłączanie wygaszania ekranu podczas odtwarzania"
+
+#. Translators: this is part of the sentence
+#: ../data/preferences.ui.h:25
+msgctxt "Screensaver disable"
+msgid "Video"
+msgstr "Wideo"
+
+#. Translators: this is part of the sentence
+#: ../data/preferences.ui.h:27
+msgid "Video or Audio"
+msgstr "Wideo lub dźwięk"
+
+#: ../data/preferences.ui.h:28
+msgid "Color Balance"
+msgstr "Korekcja koloru"
+
+#: ../data/preferences.ui.h:29
+msgid "_Brightness:"
+msgstr "Jas_ność:"
+
+#: ../data/preferences.ui.h:30
+msgid "Co_ntrast:"
+msgstr "Ko_ntrast:"
+
+#: ../data/preferences.ui.h:31
+msgid "Sat_uration:"
+msgstr "Nasy_cenie:"
+
+#: ../data/preferences.ui.h:32
+msgid "_Hue:"
+msgstr "_Odcień:"
+
+#: ../data/preferences.ui.h:33
+msgid "Reset to _Defaults"
+msgstr "P_rzywróć domyślne"
+
+#: ../data/preferences.ui.h:34
+msgid "Audio Output"
+msgstr "Wyjście dźwięku"
+
+#: ../data/preferences.ui.h:35
+msgid "_Audio output type:"
+msgstr "_Typ wyjścia dźwięku:"
+
+#: ../data/preferences.ui.h:36 ../data/properties.ui.h:14
+msgid "Audio"
+msgstr "Dźwięk"
+
+#. Audio visualization dimensions
+#: ../data/preferences.ui.h:38
+msgid "Normal"
+msgstr "Normalny"
+
+#. Audio visualization dimensions
+#: ../data/preferences.ui.h:40
+msgid "Large"
+msgstr "Duży"
+
+#. Audio visualization dimensions
+#: ../data/preferences.ui.h:42
+msgid "Extra Large"
+msgstr "Bardzo duży"
+
+#: ../data/properties.ui.h:2
+msgid "Title:"
+msgstr "Tytuł:"
+
+#: ../data/properties.ui.h:3
+msgid "Artist:"
+msgstr "Wykonawca:"
+
+#: ../data/properties.ui.h:4
+msgid "Duration:"
+msgstr "Czas trwania:"
+
+#: ../data/properties.ui.h:5
+msgid "Year:"
+msgstr "Rok:"
+
+#: ../data/properties.ui.h:6
+msgid "Album:"
+msgstr "Album:"
+
+#: ../data/properties.ui.h:7
+msgid "Comment:"
+msgstr "Komentarz:"
+
+#: ../data/properties.ui.h:8
+msgid "Container:"
+msgstr "Kontener:"
+
+#: ../data/properties.ui.h:9
+msgid "Video"
+msgstr "Wideo"
+
+#: ../data/properties.ui.h:10
+msgid "Dimensions:"
+msgstr "Wymiary:"
+
+#: ../data/properties.ui.h:11
+msgid "Codec:"
+msgstr "Kodek:"
+
+#: ../data/properties.ui.h:12
+msgid "Framerate:"
+msgstr "Liczba klatek na sekundę:"
+
+#: ../data/properties.ui.h:13
+msgid "Bitrate:"
+msgstr "Gęstość bitowa:"
+
+#: ../data/properties.ui.h:15
+msgid "Sample rate:"
+msgstr "Częstotliwość próbkowania:"
+
+#: ../data/properties.ui.h:16
+msgid "Channels:"
+msgstr "Kanały:"
+
+#. Title
+#: ../data/xplayer.desktop.in.in.in.h:1 ../data/xplayer.ui.h:87
+#: ../src/xplayer.c:259 ../src/xplayer.c:267 ../src/xplayer-object.c:1720
+#: ../src/xplayer-object.c:1771
+msgid "Media Player"
+msgstr "Odtwarzacz multimediów"
+
+#: ../data/xplayer.desktop.in.in.in.h:2
+msgid "Play movies"
+msgstr "Odtwarzanie filmów"
+
+#: ../data/xplayer.desktop.in.in.in.h:3
+msgid "Video;Movie;Film;Clip;Series;Player;DVD;TV;Disc;"
+msgstr "Wideo;Video;Film;Klip;Serial;Odtwarzacz;DVD;TV;Telewizja;Płyta;"
+
+#: ../data/xplayer.desktop.in.in.in.h:4 ../src/xplayer-options.c:50
+msgid "Play/Pause"
+msgstr "Odtwarza/wstrzymuje"
+
+#: ../data/xplayer.desktop.in.in.in.h:5 ../src/xplayer-options.c:53
+msgid "Next"
+msgstr "Następny"
+
+#: ../data/xplayer.desktop.in.in.in.h:6 ../src/xplayer-options.c:54
+msgid "Previous"
+msgstr "Poprzedni"
+
+#: ../data/xplayer.desktop.in.in.in.h:7
+msgid "Mute"
+msgstr "Wycisz"
+
+#. Translators: this is the tooltip text for the fullscreen button in the controls box in Xplayer's main window.
+#. Translators: this is the accessibility text for the fullscreen button in the controls box in Xplayer's main window.
+#: ../data/xplayer.desktop.in.in.in.h:8 ../src/xplayer-object.c:4210
+#: ../src/xplayer-object.c:4212
+msgid "Fullscreen"
+msgstr "Pełny ekran"
+
+#: ../data/xplayer.ui.h:1
+msgid "_File"
+msgstr "_Plik"
+
+#: ../data/xplayer.ui.h:2
+msgid "_Open..."
+msgstr "_Otwórz..."
+
+#: ../data/xplayer.ui.h:3
+msgid "Open a file"
+msgstr "Otwórz plik"
+
+#: ../data/xplayer.ui.h:4
+msgid "Open _Location..."
+msgstr "_Otwórz położenie..."
+
+#: ../data/xplayer.ui.h:5
+msgid "Open a non-local file"
+msgstr "Otwórz plik zdalny"
+
+#: ../data/xplayer.ui.h:6
+msgid "_Eject"
+msgstr "Wy_suń płytę"
+
+#: ../data/xplayer.ui.h:7
+msgid "Eject the current disc"
+msgstr "Wysuwa bieżącą płytę"
+
+#: ../data/xplayer.ui.h:8
+msgid "_Properties"
+msgstr "_Właściwości"
+
+#: ../data/xplayer.ui.h:9
+msgid "View the properties of the current stream"
+msgstr "Wyświetla właściwości bieżącego strumienia"
+
+#: ../data/xplayer.ui.h:10
+msgid "Play / P_ause"
+msgstr "O_dtwarzaj/wstrzymaj"
+
+#: ../data/xplayer.ui.h:11
+msgid "Play or pause the movie"
+msgstr "Odtwarza lub wstrzymuje film"
+
+#: ../data/xplayer.ui.h:12
+msgid "_Quit"
+msgstr "Za_kończ"
+
+#: ../data/xplayer.ui.h:13
+msgid "Quit the program"
+msgstr "Zamknij program"
+
+#: ../data/xplayer.ui.h:14
+msgid "_Edit"
+msgstr "_Edycja"
+
+#: ../data/xplayer.ui.h:15
+msgid "_Clear Playlist"
+msgstr "_Wyczyść listę odtwarzania"
+
+#: ../data/xplayer.ui.h:16
+msgid "Clear the playlist"
+msgstr "Czyści listę odtwarzania"
+
+#: ../data/xplayer.ui.h:17
+msgid "Prefere_nces"
+msgstr "P_referencje"
+
+#: ../data/xplayer.ui.h:18
+msgid "Configure the application"
+msgstr "Konfiguracja programu"
+
+#: ../data/xplayer.ui.h:19
+msgid "Plugins..."
+msgstr "Wtyczki..."
+
+#: ../data/xplayer.ui.h:20
+msgid "Configure plugins to extend the application"
+msgstr "Konfiguruje wtyczki rozszerzające możliwości programu"
+
+#: ../data/xplayer.ui.h:21
+msgid "_View"
+msgstr "_Widok"
+
+#: ../data/xplayer.ui.h:22
+msgid "_Fullscreen"
+msgstr "_Pełny ekran"
+
+#: ../data/xplayer.ui.h:23
+msgid "Switch to fullscreen"
+msgstr "Tryb pełnego ekranu"
+
+#: ../data/xplayer.ui.h:24
+msgid "Fit Window to Movie"
+msgstr "Dopasowanie okna do obrazu"
+
+#: ../data/xplayer.ui.h:25
+msgid "_Resize 1∶2"
+msgstr "_Rozmiar 1∶2"
+
+#: ../data/xplayer.ui.h:26
+msgid "Resize to half the original video size"
+msgstr "Zmniejsza o połowę pierwotny rozmiar obrazu"
+
+#: ../data/xplayer.ui.h:27
+msgid "Resize _1∶1"
+msgstr "Rozmiar _1∶1"
+
+#: ../data/xplayer.ui.h:28
+msgid "Resize to the original video size"
+msgstr "Przywraca pierwotny rozmiar obrazu"
+
+#: ../data/xplayer.ui.h:29
+msgid "Resize _2∶1"
+msgstr "Rozmiar _2∶1"
+
+#: ../data/xplayer.ui.h:30
+msgid "Resize to double the original video size"
+msgstr "Zwiększa dwukrotnie pierwotny rozmiar obrazu"
+
+#: ../data/xplayer.ui.h:31
+msgid "_Aspect Ratio"
+msgstr "P_roporcje obrazu"
+
+#: ../data/xplayer.ui.h:32
+msgid "Switch An_gles"
+msgstr "Przełącz _kamerę"
+
+#: ../data/xplayer.ui.h:33
+msgid "Switch camera angles"
+msgstr "Przełącza kamerę"
+
+#: ../data/xplayer.ui.h:34
+msgid "_Go"
+msgstr "_Przejdź"
+
+#: ../data/xplayer.ui.h:35
+msgid "_DVD Menu"
+msgstr "Menu D_VD"
+
+#: ../data/xplayer.ui.h:36
+msgid "Go to the DVD menu"
+msgstr "Przechodzi do menu DVD"
+
+#: ../data/xplayer.ui.h:37
+msgid "_Title Menu"
+msgstr "Menu _tytułów"
+
+#: ../data/xplayer.ui.h:38
+msgid "Go to the title menu"
+msgstr "Przechodzi do menu tytułów"
+
+#: ../data/xplayer.ui.h:39
+msgid "A_udio Menu"
+msgstr "Menu _dźwięku"
+
+#: ../data/xplayer.ui.h:40
+msgid "Go to the audio menu"
+msgstr "Przechodzi do menu dźwięku"
+
+#: ../data/xplayer.ui.h:41
+msgid "_Angle Menu"
+msgstr "Menu _kamer"
+
+#: ../data/xplayer.ui.h:42
+msgid "Go to the angle menu"
+msgstr "Przechodzi do menu kamer"
+
+#: ../data/xplayer.ui.h:43
+msgid "_Chapter Menu"
+msgstr "Menu _rozdziałów"
+
+#: ../data/xplayer.ui.h:44
+msgid "Go to the chapter menu"
+msgstr "Przechodzi do menu rozdziałów"
+
+#: ../data/xplayer.ui.h:45
+msgid "_Next Chapter/Movie"
+msgstr "N_astępny rozdział/film"
+
+#: ../data/xplayer.ui.h:46
+msgid "Next chapter or movie"
+msgstr "Następny rozdział lub film"
+
+#: ../data/xplayer.ui.h:47
+msgid "_Previous Chapter/Movie"
+msgstr "_Poprzedni rozdział/film"
+
+#: ../data/xplayer.ui.h:48
+msgid "Previous chapter or movie"
+msgstr "Poprzedni rozdział lub film"
+
+#: ../data/xplayer.ui.h:49
+msgid "_Sound"
+msgstr "_Dźwięk"
+
+#: ../data/xplayer.ui.h:50
+msgid "Volume _Up"
+msgstr "Z_większ głośność"
+
+#: ../data/xplayer.ui.h:51
+msgid "Increase volume"
+msgstr "Zwiększa głośność"
+
+#: ../data/xplayer.ui.h:52
+msgid "Volume _Down"
+msgstr "Z_mniejsz głośność"
+
+#: ../data/xplayer.ui.h:53
+msgid "Decrease volume"
+msgstr "Zmniejsza głośność"
+
+#: ../data/xplayer.ui.h:54
+msgid "_Help"
+msgstr "Pomo_c"
+
+#: ../data/xplayer.ui.h:55
+msgid "_Contents"
+msgstr "_Spis treści"
+
+#: ../data/xplayer.ui.h:56
+msgid "Help contents"
+msgstr "Spis treści pomocy"
+
+#: ../data/xplayer.ui.h:57
+msgid "_About"
+msgstr "_O programie"
+
+#: ../data/xplayer.ui.h:58
+msgid "About this application"
+msgstr "O tym programie"
+
+#: ../data/xplayer.ui.h:59
+msgid "_Repeat Mode"
+msgstr "Tryb _powtarzania"
+
+#: ../data/xplayer.ui.h:60
+msgid "Set the repeat mode"
+msgstr "Ustaw tryb powtarzania"
+
+#: ../data/xplayer.ui.h:61
+msgid "Shuff_le Mode"
+msgstr "Tryb _losowy"
+
+#: ../data/xplayer.ui.h:62
+msgid "Set the shuffle mode"
+msgstr "Ustaw tryb losowy"
+
+#: ../data/xplayer.ui.h:63
+msgid "Show _Controls"
+msgstr "_Elementy sterujące"
+
+#: ../data/xplayer.ui.h:64
+msgid "Show controls"
+msgstr "Wyświetla lub ukrywa elementy sterujące"
+
+#: ../data/xplayer.ui.h:65
+msgid "S_idebar"
+msgstr "P_anel"
+
+#: ../data/xplayer.ui.h:66
+msgid "Show or hide the sidebar"
+msgstr "Wyświetla lub ukrywa boczny panel"
+
+#: ../data/xplayer.ui.h:67
+msgctxt "Aspect ratio"
+msgid "Auto"
+msgstr "Automatycznie"
+
+#: ../data/xplayer.ui.h:68
+msgid "Sets automatic aspect ratio"
+msgstr "Ustawia automatyczny współczynnik proporcji obrazu"
+
+#: ../data/xplayer.ui.h:69
+msgid "Square"
+msgstr "Kwadratowy"
+
+#: ../data/xplayer.ui.h:70
+msgid "Sets square aspect ratio"
+msgstr "Ustawia kwadratowy współczynnik proporcji obrazu"
+
+#: ../data/xplayer.ui.h:71
+msgid "4∶3 (TV)"
+msgstr "4∶3 (TV)"
+
+#: ../data/xplayer.ui.h:72
+msgid "Sets 4∶3 (TV) aspect ratio"
+msgstr "Ustawia współczynnik proporcji obrazu 4∶3 (TV)"
+
+#: ../data/xplayer.ui.h:73
+msgid "16∶9 (Widescreen)"
+msgstr "16∶9 (szeroki ekran)"
+
+#: ../data/xplayer.ui.h:74
+msgid "Sets 16∶9 (widescreen) aspect ratio"
+msgstr "Ustawia współczynnik proporcji obrazu 16∶9 (szeroki ekran)"
+
+#: ../data/xplayer.ui.h:75
+msgid "2.11∶1 (DVB)"
+msgstr "2,11∶1 (DVB)"
+
+#: ../data/xplayer.ui.h:76
+msgid "Sets 2.11∶1 (DVB) aspect ratio"
+msgstr "Ustawia współczynnik proporcji obrazu 2,11∶1 (DVB)"
+
+#: ../data/xplayer.ui.h:77
+msgid "S_ubtitles"
+msgstr "_Napisy"
+
+#: ../data/xplayer.ui.h:80
+msgid "_Languages"
+msgstr "Języ_ki"
+
+#: ../data/xplayer.ui.h:81
+msgid "Zoom In"
+msgstr "Powiększenie"
+
+#: ../data/xplayer.ui.h:82
+msgid "Zoom in"
+msgstr "Powiększa obraz"
+
+#: ../data/xplayer.ui.h:83
+msgid "Skip _Forward"
+msgstr "Przejdź _naprzód"
+
+#: ../data/xplayer.ui.h:84
+msgid "Skip forward"
+msgstr "Przechodzi naprzód"
+
+#: ../data/xplayer.ui.h:85
+msgid "Skip _Backwards"
+msgstr "Przejdź _wstecz"
+
+#: ../data/xplayer.ui.h:86
+msgid "Skip backwards"
+msgstr "Przechodzi wstecz"
+
+#: ../data/xplayer.ui.h:88
+msgid "Time seek bar"
+msgstr "Pasek czasu"
+
+#: ../data/uri.ui.h:1
+msgid "Enter the _address of the file you would like to open:"
+msgstr "Proszę wprowadzić adres p_liku do otwarcia:"
+
+#: ../src/backend/bacon-video-widget.c:1634
+msgid "Password requested for RTSP server"
+msgstr "Zażądano hasła dla serwera RTSP"
+
+#: ../src/backend/bacon-video-widget.c:2888
+#, c-format
+msgid "Audio Track #%d"
+msgstr "Ścieżka dźwiękowa #%d"
+
+#: ../src/backend/bacon-video-widget.c:2892
+#, c-format
+msgid "Subtitle #%d"
+msgstr "Napisy #%d"
+
+#: ../src/backend/bacon-video-widget.c:3276
+msgid "The server you are trying to connect to is not known."
+msgstr "Łączenie z nieznanym serwerem."
+
+#: ../src/backend/bacon-video-widget.c:3279
+msgid "The connection to this server was refused."
+msgstr "Odrzucono połączenie z tym serwerem."
+
+#: ../src/backend/bacon-video-widget.c:3282
+msgid "The specified movie could not be found."
+msgstr "Nie można odnaleźć podanego filmu."
+
+#: ../src/backend/bacon-video-widget.c:3289
+msgid "The server refused access to this file or stream."
+msgstr "Serwer odmówił dostępu do tego pliku lub strumienia."
+
+#: ../src/backend/bacon-video-widget.c:3295
+msgid "Authentication is required to access this file or stream."
+msgstr ""
+"Wymagane jest uwierzytelnienie, aby uzyskać dostęp do tego pliku lub "
+"strumienia."
+
+#: ../src/backend/bacon-video-widget.c:3302
+msgid "You are not allowed to open this file."
+msgstr "Brak uprawnień do otwarcia tego pliku."
+
+#: ../src/backend/bacon-video-widget.c:3307
+msgid "This location is not a valid one."
+msgstr "To położenie jest nieprawidłowe."
+
+#: ../src/backend/bacon-video-widget.c:3315
+msgid "The movie could not be read."
+msgstr "Nie można odczytać filmu."
+
+#. should be exactly one missing thing (source or converter)
+#: ../src/backend/bacon-video-widget.c:3338
+#: ../src/backend/bacon-video-widget.c:3346
+#, c-format
+msgid ""
+"The playback of this movie requires a %s plugin which is not installed."
+msgid_plural ""
+"The playback of this movie requires the following plugins which are not "
+"installed:\n"
+"\n"
+"%s"
+msgstr[0] ""
+"Odtworzenie tego nagrania wideo wymaga wtyczki %s, która nie jest "
+"zainstalowana."
+msgstr[1] ""
+"Odtworzenie tego nagrania wideo wymaga następujących wtyczek, które nie są "
+"zainstalowane:\n"
+"\n"
+"%s"
+msgstr[2] ""
+"Odtworzenie tego nagrania wideo wymaga następujących wtyczek, które nie są "
+"zainstalowane:\n"
+"\n"
+"%s"
+
+#: ../src/backend/bacon-video-widget.c:3357
+msgid ""
+"An audio or video stream is not handled due to missing codecs. You might "
+"need to install additional plugins to be able to play some types of movies"
+msgstr ""
+"Strumień dźwięku lub obrazu nie jest obsługiwany z powodu brakujących "
+"kodeków. Należy zainstalować dodatkowe wtyczki, aby odtwarzać niektóre "
+"rodzaje filmów"
+
+#: ../src/backend/bacon-video-widget.c:3367
+msgid ""
+"This file cannot be played over the network. Try downloading it locally "
+"first."
+msgstr ""
+"Ten plik nie może być odtwarzany przez sieć. Proszę spróbować najpierw "
+"pobrać plik na dysk."
+
+#: ../src/backend/bacon-video-widget.c:5091
+msgid "Surround"
+msgstr "Przestrzenny"
+
+#: ../src/backend/bacon-video-widget.c:5093
+msgid "Mono"
+msgstr "Mono"
+
+#: ../src/backend/bacon-video-widget.c:5379
+msgid "Media contains no supported video streams."
+msgstr "Plik multimediów zawiera nieobsługiwany strumień wideo."
+
+#: ../src/backend/bacon-video-widget.c:5569
+msgid ""
+"Some necessary plug-ins are missing. Make sure that the program is correctly "
+"installed."
+msgstr ""
+"Brak kilku wymaganych wtyczek. Proszę się upewnić, że program jest poprawnie "
+"zainstalowany."
+
+#: ../src/eggdesktopfile.c:165
+#, c-format
+msgid "File is not a valid .desktop file"
+msgstr "Nieprawidłowy plik .desktop"
+
+#: ../src/eggdesktopfile.c:188
+#, c-format
+msgid "Unrecognized desktop file Version '%s'"
+msgstr "Nierozpoznana wersja pliku .desktop \"%s\""
+
+#: ../src/eggdesktopfile.c:968
+#, c-format
+msgid "Starting %s"
+msgstr "Uruchamianie %s"
+
+#: ../src/eggdesktopfile.c:1110
+#, c-format
+msgid "Application does not accept documents on command line"
+msgstr "Program nie przyjmuje dokumentów w wierszu poleceń"
+
+#: ../src/eggdesktopfile.c:1178
+#, c-format
+msgid "Unrecognized launch option: %d"
+msgstr "Nierozpoznana opcja uruchamiania: %d"
+
+#: ../src/eggdesktopfile.c:1383
+#, c-format
+msgid "Can't pass document URIs to a 'Type=Link' desktop entry"
+msgstr ""
+"Nie można przekazać adresu URI dokumentu do wpisu \"Type=Link\" pliku "
+".desktop"
+
+#: ../src/eggdesktopfile.c:1404
+#, c-format
+msgid "Not a launchable item"
+msgstr "Nie można uruchomić elementu"
+
+#: ../src/eggfileformatchooser.c:240
+#, c-format
+msgid "File _Format: %s"
+msgstr "_Format pliku: %s"
+
+#: ../src/eggfileformatchooser.c:379
+msgid "All Files"
+msgstr "Wszystkie pliki"
+
+#: ../src/eggfileformatchooser.c:380
+msgid "All Supported Files"
+msgstr "Wszystkie obsługiwane pliki"
+
+#: ../src/eggfileformatchooser.c:389
+msgid "By Extension"
+msgstr "Według rozszerzenia"
+
+#: ../src/eggfileformatchooser.c:404
+msgid "File Format"
+msgstr "Format pliku"
+
+#: ../src/eggfileformatchooser.c:422
+msgid "Extension(s)"
+msgstr "Rozszerzenia"
+
+#. Translators: the parameter is a filename
+#: ../src/eggfileformatchooser.c:657
+#, c-format
+msgid ""
+"The program was not able to find out the file format you want to use for "
+"`%s'. Please make sure to use a known extension for that file or manually "
+"choose a file format from the list below."
+msgstr ""
+"Program nie mógł odnaleźć formatu pliku do użycia dla \"%s\". Proszę się "
+"upewnić, że używane jest znane rozszerzenie dla tego pliku lub wybrać format "
+"pliku ręcznie z poniższej listy."
+
+#: ../src/eggfileformatchooser.c:664
+msgid "File format not recognized"
+msgstr "Format pliku nie został rozpoznany"
+
+#: ../src/eggsmclient.c:226
+msgid "Disable connection to session manager"
+msgstr "Rozłącza połączenie z menedżerem sesji"
+
+#: ../src/eggsmclient.c:229
+msgid "Specify file containing saved configuration"
+msgstr "Określa plik zawierający zapisaną konfigurację"
+
+#: ../src/eggsmclient.c:229
+msgid "FILE"
+msgstr "PLIK"
+
+#: ../src/eggsmclient.c:232
+msgid "Specify session management ID"
+msgstr "Określa identyfikator zarządzania sesją"
+
+#: ../src/eggsmclient.c:232
+msgid "ID"
+msgstr "Identyfikator"
+
+#: ../src/eggsmclient.c:253
+msgid "Session management options:"
+msgstr "Opcje zarządzania sesją:"
+
+#: ../src/eggsmclient.c:254
+msgid "Show session management options"
+msgstr "Wyświetla opcje zarządzania sesją"
+
+#. hour:minutes:seconds
+#. Translators: This is a time format, like "9:05:02" for 9
+#. * hours, 5 minutes, and 2 seconds. You may change ":" to
+#. * the separator that your locale uses or use "%Id" instead
+#. * of "%d" if your locale uses localized digits.
+#. 
+#: ../src/gst/xplayer-time-helpers.c:56
+#: ../src/plugins/skipto/xplayer-time-entry.c:57
+#, c-format
+msgctxt "long time format"
+msgid "%d:%02d:%02d"
+msgstr "%d∶%02d∶%02d"
+
+#. minutes:seconds
+#. Translators: This is a time format, like "5:02" for 5
+#. * minutes and 2 seconds. You may change ":" to the
+#. * separator that your locale uses or use "%Id" instead of
+#. * "%d" if your locale uses localized digits.
+#. 
+#: ../src/gst/xplayer-time-helpers.c:65
+#, c-format
+msgctxt "short time format"
+msgid "%d:%02d"
+msgstr "%d∶%02d"
+
+#. Title
+#. Artist
+#. Album
+#. Year
+#. Container
+#: ../src/properties/bacon-video-widget-properties.c:107
+#: ../src/properties/bacon-video-widget-properties.c:109
+#: ../src/properties/bacon-video-widget-properties.c:111
+#: ../src/properties/bacon-video-widget-properties.c:113
+#: ../src/properties/bacon-video-widget-properties.c:119
+#: ../src/xplayer-menu.c:148 ../src/xplayer-object.c:1384
+msgid "Unknown"
+msgstr "Nieznany"
+
+#. Dimensions
+#: ../src/properties/bacon-video-widget-properties.c:122
+msgctxt "Dimensions"
+msgid "N/A"
+msgstr "Brak danych"
+
+#. Video Codec
+#: ../src/properties/bacon-video-widget-properties.c:124
+msgctxt "Video codec"
+msgid "N/A"
+msgstr "Brak danych"
+
+#: ../src/properties/bacon-video-widget-properties.c:127
+msgctxt "Video bit rate"
+msgid "N/A"
+msgstr "Brak danych"
+
+#: ../src/properties/bacon-video-widget-properties.c:130
+#: ../src/properties/bacon-video-widget-properties.c:240
+msgctxt "Frame rate"
+msgid "N/A"
+msgstr "Brak danych"
+
+#: ../src/properties/bacon-video-widget-properties.c:134
+msgctxt "Audio bit rate"
+msgid "N/A"
+msgstr "Brak danych"
+
+#. Audio Codec
+#: ../src/properties/bacon-video-widget-properties.c:136
+msgctxt "Audio codec"
+msgid "N/A"
+msgstr "Brak danych"
+
+#. Sample rate
+#: ../src/properties/bacon-video-widget-properties.c:138
+msgid "0 Hz"
+msgstr "0 Hz"
+
+#. Channels
+#: ../src/properties/bacon-video-widget-properties.c:140
+msgid "0 Channels"
+msgstr "0 kanałów"
+
+#: ../src/properties/bacon-video-widget-properties.c:156
+#, c-format
+msgid "%d hour"
+msgid_plural "%d hours"
+msgstr[0] "%d godzina"
+msgstr[1] "%d godziny"
+msgstr[2] "%d godzin"
+
+#: ../src/properties/bacon-video-widget-properties.c:158
+#, c-format
+msgid "%d minute"
+msgid_plural "%d minutes"
+msgstr[0] "%d minuta"
+msgstr[1] "%d minuty"
+msgstr[2] "%d minut"
+
+#: ../src/properties/bacon-video-widget-properties.c:161
+#, c-format
+msgid "%d second"
+msgid_plural "%d seconds"
+msgstr[0] "%d sekunda"
+msgstr[1] "%d sekundy"
+msgstr[2] "%d sekund"
+
+#. 5 hours 2 minutes 12 seconds
+#: ../src/properties/bacon-video-widget-properties.c:167
+#, c-format
+msgctxt "time"
+msgid "%s %s %s"
+msgstr "%s %s %s"
+
+#. 2 minutes 12 seconds
+#: ../src/properties/bacon-video-widget-properties.c:170
+#, c-format
+msgctxt "time"
+msgid "%s %s"
+msgstr "%s %s"
+
+#. 0 seconds
+#: ../src/properties/bacon-video-widget-properties.c:176
+msgid "0 seconds"
+msgstr "0 sekund"
+
+#: ../src/properties/bacon-video-widget-properties.c:237
+#, c-format
+msgid "%d frame per second"
+msgid_plural "%d frames per second"
+msgstr[0] "%d klatka na sekundę"
+msgstr[1] "%d klatki na sekundę"
+msgstr[2] "%d klatek na sekundę"
+
+#: ../src/xplayer-audio-preview.c:137
+msgid "Audio Preview"
+msgstr "Podgląd dźwięku"
+
+#: ../src/xplayer.c:260
+msgid "Could not initialize the thread-safe libraries."
+msgstr "Nie można zainicjować bibliotek bezpiecznych dla wątków."
+
+#: ../src/xplayer.c:260
+msgid "Verify your system installation. Xplayer will now exit."
+msgstr ""
+"Proszę sprawdzić poprawność instalacji systemu. Działanie programu Xplayer "
+"zostanie teraz zakończone."
+
+#: ../src/xplayer-dnd-menu.c:95
+msgid "_Play Now"
+msgstr "_Odtwarzaj teraz"
+
+#: ../src/xplayer-dnd-menu.c:98
+msgid "_Add to Playlist"
+msgstr "_Dodaj do listy odtwarzania"
+
+#: ../src/xplayer-dnd-menu.c:104
+msgid "Cancel"
+msgstr "Anuluj"
+
+#: ../src/xplayer-fullscreen.c:553
+msgid "No File"
+msgstr "Brak pliku"
+
+#: ../src/xplayer-interface.c:181 ../src/xplayer-interface.c:224
+#, c-format
+msgid "Couldn't load the '%s' interface. %s"
+msgstr "Nie można wczytać interfejsu \"%s\". %s"
+
+#: ../src/xplayer-interface.c:181
+msgid "The file does not exist."
+msgstr "Plik nie istnieje."
+
+#: ../src/xplayer-interface.c:183 ../src/xplayer-interface.c:185
+#: ../src/xplayer-interface.c:226 ../src/xplayer-interface.c:228
+msgid "Make sure that Xplayer is properly installed."
+msgstr ""
+"Proszę się upewnić, że program Xplayer został poprawnie zainstalowany."
+
+#: ../src/xplayer-interface.c:357
+msgid ""
+"Xplayer is free software; you can redistribute it and/or modify it under the "
+"terms of the GNU General Public License as published by the Free Software "
+"Foundation; either version 2 of the License, or (at your option) any later "
+"version."
+msgstr ""
+"Program Xplayer jest wolnym oprogramowaniem; można go rozprowadzać dalej "
+"i/lub modyfikować na warunkach Powszechnej Licencji Publicznej GNU, wydanej "
+"przez Fundację Wolnego Oprogramowania (Free Software Foundation) - według "
+"wersji drugiej tej Licencji lub którejś z późniejszych wersji."
+
+#: ../src/xplayer-interface.c:361
+msgid ""
+"Xplayer is distributed in the hope that it will be useful, but WITHOUT ANY "
+"WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS "
+"FOR A PARTICULAR PURPOSE.  See the GNU General Public License for more "
+"details."
+msgstr ""
+"Program Xplayer rozpowszechniany jest z nadzieją, iż będzie on użyteczny - "
+"jednak BEZ JAKIEJKOLWIEK GWARANCJI, nawet domyślnej gwarancji PRZYDATNOŚCI "
+"HANDLOWEJ albo PRZYDATNOŚCI DO OKREŚLONYCH ZASTOSOWAŃ. W celu uzyskania "
+"bliższych informacji należy zapoznać się z Powszechną Licencją Publiczną GNU."
+
+#: ../src/xplayer-interface.c:365
+msgid ""
+"You should have received a copy of the GNU General Public License along with "
+"Xplayer; if not, write to the Free Software Foundation, Inc., 59 Temple "
+"Place, Suite 330, Boston, MA  02111-1307  USA"
+msgstr ""
+"Z pewnością wraz z programem Xplayer dostarczono także egzemplarz "
+"Powszechnej Licencji Publicznej GNU (GNU General Public License); jeśli nie -"
+" proszę napisać do Free Software Foundation, Inc., 51 Franklin Street, Fifth "
+"Floor, Boston, MA 02110-130159 USA."
+
+#: ../src/xplayer-interface.c:368
+msgid ""
+"Xplayer contains an exception to allow the use of proprietary GStreamer "
+"plugins."
+msgstr ""
+"Program Xplayer zawiera wyjątek pozwalający na używanie własnościowych "
+"wtyczek biblioteki GStreamer."
+
+#. Translators: an entry in the "Languages" menu, used to choose the audio language of a DVD
+#: ../src/xplayer-menu.c:165 ../src/xplayer-menu.c:219
+#: ../src/xplayer-object.c:1458
+msgid "None"
+msgstr "Brak"
+
+#: ../src/xplayer-menu.c:760
+msgid "Configure Plugins"
+msgstr "Konfiguracja wtyczek"
+
+#: ../src/xplayer-object.c:165
+#, c-format
+msgid ""
+"%s\n"
+"Run '%s --help' to see a full list of available command line options.\n"
+msgstr ""
+"%s\n"
+"Wykonanie polecenia \"%s --help\" wyświetli pełną listę dostępnych opcji "
+"wiersza poleceń.\n"
+
+#. Translators: %s is the xplayer version number
+#: ../src/xplayer-object.c:593
+#, c-format
+msgid "Xplayer %s"
+msgstr "Xplayer %s"
+
+#: ../src/xplayer-object.c:1169 ../src/xplayer-options.c:52
+msgid "Pause"
+msgstr "Wstrzymuje"
+
+#: ../src/xplayer-object.c:1174 ../src/xplayer-object.c:1180
+#: ../src/xplayer-options.c:51
+msgid "Play"
+msgstr "Odtwarza"
+
+#: ../src/xplayer-object.c:1262 ../src/xplayer-object.c:1289
+#: ../src/xplayer-object.c:2051
+#, c-format
+msgid "Xplayer could not play '%s'."
+msgstr "Program Xplayer nie może odtworzyć \"%s\"."
+
+#: ../src/xplayer-object.c:2256
+msgid "Xplayer could not display the help contents."
+msgstr "Nie można wyświetlić spisu treści pomocy programu Xplayer."
+
+#: ../src/xplayer-object.c:2598
+msgid "An error occurred"
+msgstr "Wystąpił błąd"
+
+#: ../src/xplayer-object.c:4169 ../src/xplayer-object.c:4170
+msgid "Previous Chapter/Movie"
+msgstr "Poprzedni rozdział/film"
+
+#: ../src/xplayer-object.c:4181 ../src/xplayer-object.c:4182
+msgid "Play / Pause"
+msgstr "Odtwarza/wstrzymuje"
+
+#: ../src/xplayer-object.c:4193 ../src/xplayer-object.c:4194
+msgid "Next Chapter/Movie"
+msgstr "Następny rozdział/film"
+
+#: ../src/xplayer-object.c:4345
+msgid "Xplayer could not startup."
+msgstr "Nie można uruchomić programu Xplayer."
+
+#: ../src/xplayer-object.c:4345
+msgid "No reason."
+msgstr "Brak powodu."
+
+#: ../src/xplayer-open-location.c:182
+msgid "Open Location..."
+msgstr "Otwarcie położenia..."
+
+#: ../src/xplayer-options.c:49
+msgid "Enable debug"
+msgstr "Włącza debugowanie"
+
+#: ../src/xplayer-options.c:55
+msgid "Seek Forwards"
+msgstr "Przechodzi naprzód"
+
+#: ../src/xplayer-options.c:56
+msgid "Seek Backwards"
+msgstr "Przechodzi wstecz"
+
+#: ../src/xplayer-options.c:57
+msgid "Volume Up"
+msgstr "Zwiększa głośność"
+
+#: ../src/xplayer-options.c:58
+msgid "Volume Down"
+msgstr "Zmniejsza głośność"
+
+#: ../src/xplayer-options.c:59
+msgid "Mute sound"
+msgstr "Wycisza dźwięk"
+
+#: ../src/xplayer-options.c:60
+msgid "Toggle Fullscreen"
+msgstr "Przełącza tryb pełnoekranowy"
+
+#: ../src/xplayer-options.c:61
+msgid "Show/Hide Controls"
+msgstr "Wyświetla/ukrywa elementy sterujące"
+
+#: ../src/xplayer-options.c:62
+msgid "Quit"
+msgstr "Kończy działanie"
+
+#: ../src/xplayer-options.c:63
+msgid "Enqueue"
+msgstr "Dodaje do kolejki"
+
+#: ../src/xplayer-options.c:64
+msgid "Replace"
+msgstr "Zastępuje"
+
+#: ../src/xplayer-options.c:65
+msgid "Seek"
+msgstr "Wyszukuje"
+
+#. Translators: help for a (hidden) command line option to specify (the zero-based index of) a playlist entry to start playing once Xplayer's finished loading
+#: ../src/xplayer-options.c:67
+msgid "Playlist index"
+msgstr "Spis listy odtwarzania"
+
+#: ../src/xplayer-options.c:69
+msgid "Movies to play"
+msgstr "Filmy do odtworzenia"
+
+#: ../src/xplayer-options.c:79
+msgid "- Play movies and songs"
+msgstr "- odtwarzanie filmów i muzyki"
+
+#: ../src/xplayer-options.c:142
+msgid "Can't enqueue and replace at the same time"
+msgstr "Nie można równocześnie dodać do kolejki i zamienić pliku"
+
+#. By extension entry
+#: ../src/xplayer-playlist.c:163
+msgid "MP3 ShoutCast playlist"
+msgstr "Lista odtwarzania ShoutCast MP3"
+
+#: ../src/xplayer-playlist.c:164
+msgid "MP3 audio (streamed)"
+msgstr "Dźwięk MP3 (strumień)"
+
+#: ../src/xplayer-playlist.c:165
+msgid "MP3 audio (streamed, DOS format)"
+msgstr "Dźwięk MP3 (strumień, format DOS)"
+
+#: ../src/xplayer-playlist.c:166
+msgid "XML Shareable Playlist"
+msgstr "Współdzielona lista odtwarzania XML"
+
+#. This is "Title 3", where title is a DVD title
+#. * Note: NOT a DVD chapter
+#: ../src/xplayer-playlist.c:349
+#, c-format
+msgid "Title %d"
+msgstr "Tytuł %d"
+
+#: ../src/xplayer-playlist.c:448
+msgid "Could not save the playlist"
+msgstr "Nie można zapisać listy odtwarzania"
+
+#: ../src/xplayer-playlist.c:1023
+msgid "Save Playlist"
+msgstr "Zapis listy odtwarzania"
+
+#. translators: Playlist is the default saved playlist filename,
+#. * without the suffix
+#: ../src/xplayer-playlist.c:1035 ../src/xplayer-playlist.c:1264
+#: ../src/xplayer-sidebar.c:145
+msgid "Playlist"
+msgstr "Lista odtwarzania"
+
+#: ../src/xplayer-playlist.c:1862
+#, c-format
+msgid "The playlist '%s' could not be parsed. It might be damaged."
+msgstr "Nie można przetworzyć listy odtwarzania \"%s\". Może być uszkodzona."
+
+#: ../src/xplayer-playlist.c:1863
+msgid "Playlist error"
+msgstr "Błąd listy odtwarzania"
+
+#: ../src/xplayer-preferences.c:237
+msgid "Preferences"
+msgstr "Preferencje"
+
+#: ../src/xplayer-preferences.c:338
+msgid "Select Subtitle Font"
+msgstr "Wybór czcionki napisów"
+
+#: ../src/xplayer-subtitle-encoding.c:156
+msgid "Current Locale"
+msgstr "Bieżące ustawienia lokalne"
+
+#: ../src/xplayer-subtitle-encoding.c:159
+#: ../src/xplayer-subtitle-encoding.c:161
+#: ../src/xplayer-subtitle-encoding.c:163
+#: ../src/xplayer-subtitle-encoding.c:165
+msgid "Arabic"
+msgstr "arabskie"
+
+#: ../src/xplayer-subtitle-encoding.c:168
+msgid "Armenian"
+msgstr "armeńskie"
+
+#: ../src/xplayer-subtitle-encoding.c:171
+#: ../src/xplayer-subtitle-encoding.c:173
+#: ../src/xplayer-subtitle-encoding.c:175
+msgid "Baltic"
+msgstr "bałtyckie"
+
+#: ../src/xplayer-subtitle-encoding.c:178
+msgid "Celtic"
+msgstr "celtyckie"
+
+#: ../src/xplayer-subtitle-encoding.c:181
+#: ../src/xplayer-subtitle-encoding.c:183
+#: ../src/xplayer-subtitle-encoding.c:185
+#: ../src/xplayer-subtitle-encoding.c:187
+msgid "Central European"
+msgstr "środkowoeuropejskie"
+
+#: ../src/xplayer-subtitle-encoding.c:190
+#: ../src/xplayer-subtitle-encoding.c:192
+#: ../src/xplayer-subtitle-encoding.c:194
+#: ../src/xplayer-subtitle-encoding.c:196
+msgid "Chinese Simplified"
+msgstr "chińskie uproszczone"
+
+#: ../src/xplayer-subtitle-encoding.c:199
+#: ../src/xplayer-subtitle-encoding.c:201
+#: ../src/xplayer-subtitle-encoding.c:203
+msgid "Chinese Traditional"
+msgstr "chińskie tradycyjne"
+
+#: ../src/xplayer-subtitle-encoding.c:206
+msgid "Croatian"
+msgstr "chorwackie"
+
+#: ../src/xplayer-subtitle-encoding.c:209
+#: ../src/xplayer-subtitle-encoding.c:211
+#: ../src/xplayer-subtitle-encoding.c:213
+#: ../src/xplayer-subtitle-encoding.c:215
+#: ../src/xplayer-subtitle-encoding.c:217
+#: ../src/xplayer-subtitle-encoding.c:219
+msgid "Cyrillic"
+msgstr "cyrylica"
+
+#: ../src/xplayer-subtitle-encoding.c:222
+msgid "Cyrillic/Russian"
+msgstr "cyrylica/rosyjskie"
+
+#: ../src/xplayer-subtitle-encoding.c:225
+#: ../src/xplayer-subtitle-encoding.c:227
+msgid "Cyrillic/Ukrainian"
+msgstr "cyrylica/ukraińskie"
+
+#: ../src/xplayer-subtitle-encoding.c:230
+msgid "Georgian"
+msgstr "gruzińskie"
+
+#: ../src/xplayer-subtitle-encoding.c:233
+#: ../src/xplayer-subtitle-encoding.c:235
+#: ../src/xplayer-subtitle-encoding.c:237
+msgid "Greek"
+msgstr "greckie"
+
+#: ../src/xplayer-subtitle-encoding.c:240
+msgid "Gujarati"
+msgstr "gudżarati"
+
+#: ../src/xplayer-subtitle-encoding.c:243
+msgid "Gurmukhi"
+msgstr "gurmukhi"
+
+#: ../src/xplayer-subtitle-encoding.c:246
+#: ../src/xplayer-subtitle-encoding.c:248
+#: ../src/xplayer-subtitle-encoding.c:250
+#: ../src/xplayer-subtitle-encoding.c:252
+msgid "Hebrew"
+msgstr "hebrajskie"
+
+#: ../src/xplayer-subtitle-encoding.c:255
+msgid "Hebrew Visual"
+msgstr "hebrajskie wizualne"
+
+#: ../src/xplayer-subtitle-encoding.c:258
+msgid "Hindi"
+msgstr "hindi"
+
+#: ../src/xplayer-subtitle-encoding.c:261
+msgid "Icelandic"
+msgstr "islandzkie"
+
+#: ../src/xplayer-subtitle-encoding.c:264
+#: ../src/xplayer-subtitle-encoding.c:266
+#: ../src/xplayer-subtitle-encoding.c:268
+msgid "Japanese"
+msgstr "japońskie"
+
+#: ../src/xplayer-subtitle-encoding.c:271
+#: ../src/xplayer-subtitle-encoding.c:273
+#: ../src/xplayer-subtitle-encoding.c:275
+#: ../src/xplayer-subtitle-encoding.c:277
+msgid "Korean"
+msgstr "koreańskie"
+
+#: ../src/xplayer-subtitle-encoding.c:280
+msgid "Nordic"
+msgstr "nordyckie"
+
+#: ../src/xplayer-subtitle-encoding.c:283
+msgid "Persian"
+msgstr "perskie"
+
+#: ../src/xplayer-subtitle-encoding.c:286
+#: ../src/xplayer-subtitle-encoding.c:288
+msgid "Romanian"
+msgstr "rumuńskie"
+
+#: ../src/xplayer-subtitle-encoding.c:291
+msgid "South European"
+msgstr "południowoeuropejskie"
+
+#: ../src/xplayer-subtitle-encoding.c:294
+msgid "Thai"
+msgstr "tajskie"
+
+#: ../src/xplayer-subtitle-encoding.c:297
+#: ../src/xplayer-subtitle-encoding.c:299
+#: ../src/xplayer-subtitle-encoding.c:301
+#: ../src/xplayer-subtitle-encoding.c:303
+msgid "Turkish"
+msgstr "tureckie"
+
+#: ../src/xplayer-subtitle-encoding.c:306
+#: ../src/xplayer-subtitle-encoding.c:308
+#: ../src/xplayer-subtitle-encoding.c:310
+#: ../src/xplayer-subtitle-encoding.c:312
+#: ../src/xplayer-subtitle-encoding.c:314
+msgid "Unicode"
+msgstr "unikod"
+
+#: ../src/xplayer-subtitle-encoding.c:317
+#: ../src/xplayer-subtitle-encoding.c:319
+#: ../src/xplayer-subtitle-encoding.c:321
+#: ../src/xplayer-subtitle-encoding.c:323
+#: ../src/xplayer-subtitle-encoding.c:325
+msgid "Western"
+msgstr "zachodnie"
+
+#: ../src/xplayer-subtitle-encoding.c:328
+#: ../src/xplayer-subtitle-encoding.c:330
+#: ../src/xplayer-subtitle-encoding.c:332
+msgid "Vietnamese"
+msgstr "wietnamskie"
+
+#. Elapsed / Total Length
+#: ../src/xplayer-time-label.c:27 ../src/xplayer-time-label.c:72
+#, c-format
+msgid "%s / %s"
+msgstr "%s/%s"
+
+#. Seeking to Time / Total Length
+#: ../src/xplayer-time-label.c:77
+#, c-format
+msgid "Seek to %s / %s"
+msgstr "Przechodzenie do %s/%s"
+
+#: ../src/xplayer-uri.c:343 ../src/plugins/chapters/xplayer-chapters.c:984
+msgid "All files"
+msgstr "Wszystkie pliki"
+
+#: ../src/xplayer-uri.c:348 ../src/plugins/chapters/xplayer-chapters.c:981
+msgid "Supported files"
+msgstr "Obsługiwane pliki"
+
+#: ../src/xplayer-uri.c:360
+msgid "Audio files"
+msgstr "Pliki dźwiękowe"
+
+#: ../src/xplayer-uri.c:368
+msgid "Video files"
+msgstr "Pliki wideo"
+
+#: ../src/xplayer-uri.c:378
+msgid "Subtitle files"
+msgstr "Pliki napisów"
+
+#: ../src/xplayer-uri.c:430
+msgid "Select Text Subtitles"
+msgstr "Wybór pliku napisów"
+
+#: ../src/xplayer-uri.c:495
+msgid "Select Movies or Playlists"
+msgstr "Wybór filmów lub list odtwarzania"
+
+#: ../src/xplayer-uri.c:499
+msgid "Add Directory"
+msgstr "Dodaj katalog"
+
+#. Translators: The first string is "Filename" (as translated); the second is an actual filename.
+#. The third string is "Resolution" (as translated); the fourth and fifth are screenshot height and width, respectively.
+#. The sixth string is "Duration" (as translated); the seventh is the movie duration in words.
+#: ../src/xplayer-video-thumbnailer.c:878
+#, c-format
+msgid ""
+"<b>%s</b>: %s\n"
+"<b>%s</b>: %d×%d\n"
+"<b>%s</b>: %s"
+msgstr ""
+"<b>%s</b>: %s\n"
+"<b>%s</b>: %d×%d\n"
+"<b>%s</b>: %s"
+
+#: ../src/xplayer-video-thumbnailer.c:879
+msgid "Filename"
+msgstr "Nazwa pliku"
+
+#: ../src/xplayer-video-thumbnailer.c:881
+msgid "Resolution"
+msgstr "Rozdzielczość"
+
+#: ../src/xplayer-video-thumbnailer.c:884
+msgid "Duration"
+msgstr "Czas trwania"
+
+#: ../src/plugins/apple-trailers/apple-trailers.plugin.in.h:1
+msgid "Apple Trailers"
+msgstr "Zwiastuny Apple"
+
+#: ../src/plugins/apple-trailers/apple-trailers.plugin.in.h:2
+msgid "Sets the user agent for the Apple Trailers site"
+msgstr "Ustawia agenta użytkownika dla witryny zwiastunów firmy Apple"
+
+#: ../src/plugins/autoload-subtitles/autoload-subtitles.plugin.in.h:1
+msgid "Autoload Subtitles"
+msgstr "Automatyczne wczytywanie napisów"
+
+#: ../src/plugins/autoload-subtitles/autoload-subtitles.plugin.in.h:2
+msgid "Autoloads text subtitles"
+msgstr "Automatycznie wczytuje napisy tekstowe"
+
+#: ../src/plugins/brasero-disc-recorder/brasero-disc-recorder.plugin.in.h:1
+msgid "Video Disc Recorder"
+msgstr "Nagrywarka płyt wideo"
+
+#: ../src/plugins/brasero-disc-recorder/brasero-disc-recorder.plugin.in.h:2
+msgid "Records (S)VCDs or video DVDs"
+msgstr "Nagrywa płyty (S)VCD lub DVD-Video"
+
+#: ../src/plugins/brasero-disc-recorder/xplayer-disc-recorder.c:65
+msgid "_Create Video Disc..."
+msgstr "_Utwórz płytę wideo..."
+
+#: ../src/plugins/brasero-disc-recorder/xplayer-disc-recorder.c:66
+msgid "Create a video DVD or a (S)VCD from the currently opened movie"
+msgstr ""
+"Tworzenie płyt DVD-Video lub (S)VCD z obecnie otwartego nagrania wideo"
+
+#: ../src/plugins/brasero-disc-recorder/xplayer-disc-recorder.c:68
+msgid "Copy Vide_o DVD..."
+msgstr "Sk_opiuj DVD-Video..."
+
+#: ../src/plugins/brasero-disc-recorder/xplayer-disc-recorder.c:69
+msgid "Copy the currently playing video DVD"
+msgstr "Kopiuje bieżąco odtwarzaną płytę DVD-Video"
+
+#: ../src/plugins/brasero-disc-recorder/xplayer-disc-recorder.c:71
+msgid "Copy (S)VCD..."
+msgstr "Skopiuj (S)VCD..."
+
+#: ../src/plugins/brasero-disc-recorder/xplayer-disc-recorder.c:72
+msgid "Copy the currently playing (S)VCD"
+msgstr "Kopiuje bieżąco odtwarzaną płytę (S)VCD"
+
+#: ../src/plugins/brasero-disc-recorder/xplayer-disc-recorder.c:136
+msgid "The video disc could not be duplicated."
+msgstr "Płyta wideo nie mogła zostać powielona."
+
+#: ../src/plugins/brasero-disc-recorder/xplayer-disc-recorder.c:138
+#: ../src/plugins/brasero-disc-recorder/xplayer-disc-recorder.c:283
+msgid "The movie could not be recorded."
+msgstr "Nagranie wideo nie mogło zostać nagrane."
+
+#: ../src/plugins/brasero-disc-recorder/xplayer-disc-recorder.c:164
+#: ../src/plugins/brasero-disc-recorder/xplayer-disc-recorder.c:174
+#: ../src/plugins/brasero-disc-recorder/xplayer-disc-recorder.c:270
+msgid "Unable to write a project."
+msgstr "Nie można zapisać projektu."
+
+#: ../src/plugins/chapters/chapters-edit.ui.h:1
+msgid "Name for new chapter:"
+msgstr "Nazwa nowego rozdziału:"
+
+#: ../src/plugins/chapters/chapters-list.ui.h:1
+msgid "_Remove Chapter"
+msgstr "_Usuń rozdział"
+
+#: ../src/plugins/chapters/chapters-list.ui.h:2
+msgid "Remove the chapter from the list"
+msgstr "Usuwa rozdział z listy"
+
+#: ../src/plugins/chapters/chapters-list.ui.h:3
+msgid "_Go to Chapter"
+msgstr "_Przejdź do rozdziału"
+
+#: ../src/plugins/chapters/chapters-list.ui.h:4
+msgid "Go to the chapter in the movie"
+msgstr "Przechodzi do rozdziału filmu"
+
+#: ../src/plugins/chapters/chapters-list.ui.h:5
+msgid "Add Chapter..."
+msgstr "Dodaj rozdział..."
+
+#: ../src/plugins/chapters/chapters-list.ui.h:6
+msgid "Remove Chapter"
+msgstr "Usuń rozdział"
+
+#: ../src/plugins/chapters/chapters-list.ui.h:7
+msgid "Go to Chapter"
+msgstr "Przejdź do rozdziału"
+
+#: ../src/plugins/chapters/chapters-list.ui.h:8
+msgid "Save Changes"
+msgstr "Zapisz zmiany"
+
+#: ../src/plugins/chapters/chapters-list.ui.h:9
+msgid "No chapter data"
+msgstr "Brak danych o rozdziałach"
+
+#: ../src/plugins/chapters/chapters-list.ui.h:10
+msgid "Load Chapters..."
+msgstr "Wczytaj rozdziały..."
+
+#: ../src/plugins/chapters/chapters-list.ui.h:11
+msgid "Load chapters from an external CMML file"
+msgstr "Wczytuje rozdziały z zewnętrznego pliku CMML"
+
+#: ../src/plugins/chapters/chapters-list.ui.h:12
+msgid "Add New Chapters"
+msgstr "Dodaj rozdziały"
+
+#: ../src/plugins/chapters/chapters-list.ui.h:13
+msgid "Create a new chapter list for the movie"
+msgstr "Tworzy nową listę rozdziałów filmu"
+
+#: ../src/plugins/chapters/chapters.plugin.in.h:1
+#: ../src/plugins/chapters/xplayer-chapters.c:1125
+msgid "Chapters"
+msgstr "Rozdziały"
+
+#: ../src/plugins/chapters/chapters.plugin.in.h:2
+msgid "Support chapter markers in movies"
+msgstr "Obsługa znaczników rozdziałów w filmach"
+
+#: ../src/plugins/chapters/xplayer-chapters.c:56
+#, c-format
+msgid ""
+"<b>Title: </b>%s\n"
+"<b>Start time: </b>%s"
+msgstr ""
+"<b>Tytuł: </b>%s\n"
+"<b>Czas rozpoczęcia: </b>%s"
+
+#: ../src/plugins/chapters/xplayer-chapters.c:323
+msgid "Error while reading file with chapters"
+msgstr "Błąd podczas odczytywania pliku z rozdziałami"
+
+#: ../src/plugins/chapters/xplayer-chapters.c:542
+msgid "Chapter with the same time already exists"
+msgstr "Rozdział o tym samym czasie już istnieje"
+
+#: ../src/plugins/chapters/xplayer-chapters.c:543
+msgid "Try another name or remove an existing chapter."
+msgstr "Należy wprowadzić inną nazwę lub usunąć istniejący rozdział."
+
+#: ../src/plugins/chapters/xplayer-chapters.c:703
+msgid "Error while writing file with chapters"
+msgstr "Błąd podczas zapisywania pliku z rozdziałami"
+
+#: ../src/plugins/chapters/xplayer-chapters.c:828
+msgid "Error occurred while saving chapters"
+msgstr "Wystąpił błąd podczas zapisywania rozdziałów"
+
+#: ../src/plugins/chapters/xplayer-chapters.c:829
+msgid ""
+"Please check you have permission to write to the folder containing the movie."
+msgstr ""
+"Proszę sprawdzić, czy użytkownik ma uprawnienia do zapisu w katalogu "
+"zawierającym film."
+
+#: ../src/plugins/chapters/xplayer-chapters.c:962
+msgid "Open Chapter File"
+msgstr "Otwórz plik rozdziałów"
+
+#: ../src/plugins/chapters/xplayer-chapters.c:1079
+msgid "Chapter Screenshot"
+msgstr "Zrzut ekranu rozdziału"
+
+#: ../src/plugins/chapters/xplayer-chapters.c:1090
+msgid "Chapter Title"
+msgstr "Tytuł rozdziału"
+
+#: ../src/plugins/chapters/xplayer-chapters.c:1170
+msgid "Save changes to chapter list before closing?"
+msgstr "Zapisać zmiany przed zamknięciem?"
+
+#. Translators: close Xplayer without saving changes to the chapter list of the current movie.
+#: ../src/plugins/chapters/xplayer-chapters.c:1175
+msgid "Close without Saving"
+msgstr "Zamknij bez zapisywania"
+
+#. Translators: save changes to the chapter list of the current movie before closing Xplayer.
+#: ../src/plugins/chapters/xplayer-chapters.c:1177
+msgid "Save"
+msgstr "Zapisz"
+
+#: ../src/plugins/chapters/xplayer-chapters.c:1180
+msgid "If you don't save, changes to the chapter list will be lost."
+msgstr ""
+"Jeśli nie zostanie zapisane, to zmiany w liście rozdziałów zostaną utracone."
+
+#: ../src/plugins/chapters/xplayer-edit-chapter.c:95
+msgid "Add Chapter"
+msgstr "Dodanie rozdziału"
+
+#: ../src/plugins/dbusservice/dbusservice.plugin.in.h:1
+msgid "MPRIS Support"
+msgstr "Obsługa MPRIS"
+
+#: ../src/plugins/dbusservice/dbusservice.plugin.in.h:2
+msgid "This plugin enables MPRIS support over DBUS."
+msgstr "Ta wtyczka umożliwia obsługę MPRIS poprzez DBUS."
+
+#: ../src/plugins/dbusservice/dbusservice.py:213
+#: ../src/plugins/dbusservice/dbusservice.py:243
+#, python-format
+msgid "The MediaPlayer2 object does not implement the ‘%s’ interface"
+msgstr "Obiekt MediaPlayer2 nie implementuje interfejsu \"%s\""
+
+#: ../src/plugins/dbusservice/dbusservice.py:222
+#, python-format
+msgid "The property ‘%s’ is not writeable."
+msgstr "Właściwość \"%s\" nie jest zapisywalna."
+
+#: ../src/plugins/dbusservice/dbusservice.py:238
+#, python-format
+msgid "Unknown property ‘%s’ requested of a MediaPlayer 2 object"
+msgstr "Zażądano nieznanej właściwości \"%s\" zamiast obiektu MediaPlayer2"
+
+#: ../src/plugins/dbusservice/dbusservice.py:341
+#, python-format
+msgid "The URI ‘%s’ is not supported."
+msgstr "Adres URI \"%s\" nie jest obsługiwany."
+
+#: ../src/plugins/grilo/grilo.plugin.in.h:1
+msgid "Grilo Browser"
+msgstr "Przeglądarka Grilo"
+
+#: ../src/plugins/grilo/grilo.plugin.in.h:2
+msgid "A plugin to let you browse media content from various sources"
+msgstr "Wtyczka umożliwiająca przeglądania nagrań wideo z różnych źródeł"
+
+#: ../src/plugins/grilo/grilo.ui.h:1
+msgid "Add to Playlist"
+msgstr "Dodaj do listy odtwarzania"
+
+#: ../src/plugins/grilo/grilo.ui.h:2
+msgid "Copy Location"
+msgstr "Skopiuj położenie"
+
+#: ../src/plugins/grilo/grilo.ui.h:3 ../src/plugins/grilo/xplayer-grilo.c:1184
+msgid "Browse"
+msgstr "Przeglądaj"
+
+#: ../src/plugins/grilo/grilo.ui.h:4 ../src/plugins/grilo/xplayer-grilo.c:1243
+msgid "Search"
+msgstr "Wyszukaj"
+
+#: ../src/plugins/grilo/xplayer-grilo.c:446
+msgid "Browse Error"
+msgstr "Błąd przeglądania"
+
+#: ../src/plugins/grilo/xplayer-grilo.c:615
+msgid "Search Error"
+msgstr "Błąd wyszukiwania"
+
+#: ../src/plugins/gromit/gromit.plugin.in.h:1
+msgid "Gromit Annotations"
+msgstr "Adnotacje Gromit"
+
+#: ../src/plugins/gromit/gromit.plugin.in.h:2
+msgid "Presentation helper to make annotations on screen"
+msgstr "Pomocnik prezentacji do tworzenia adnotacji na ekranie"
+
+#: ../src/plugins/gromit/xplayer-gromit.c:231
+msgid "The gromit binary was not found."
+msgstr "Plik wykonywalny gromit nie został odnaleziony."
+
+#: ../src/plugins/im-status/xplayer-im-status.plugin.in.h:1
+msgid "Instant Messenger Status"
+msgstr "Stan komunikatora"
+
+#: ../src/plugins/im-status/xplayer-im-status.plugin.in.h:2
+msgid "Set your Instant Messenger status to away when a movie is playing"
+msgstr "Ustawia stan komunikatora na \"Zajęty\" podczas odtwarzania filmu"
+
+#: ../src/plugins/lirc/lirc.plugin.in.h:1
+msgid "Infrared Remote Control"
+msgstr "Zdalne sterowanie przez podczerwień"
+
+#: ../src/plugins/lirc/lirc.plugin.in.h:2
+msgid "Support infrared remote control"
+msgstr "Obsługa zdalnego sterowania przez podczerwień"
+
+#: ../src/plugins/lirc/xplayer-lirc.c:242
+msgid "Couldn't initialize lirc."
+msgstr "Nie można zainicjować biblioteki lirc."
+
+#: ../src/plugins/lirc/xplayer-lirc.c:254
+msgid "Couldn't read lirc configuration."
+msgstr "Nie można odczytać konfiguracji biblioteki lirc."
+
+#: ../src/plugins/media-player-keys/media-player-keys.plugin.in.h:1
+msgid "Media Player Keys"
+msgstr "Klawisze odtwarzacza multimedialnego"
+
+#: ../src/plugins/media-player-keys/media-player-keys.plugin.in.h:2
+msgid "Support additional media player keys"
+msgstr "Obsługuje dodatkowe klawisze odtwarzacza multimedialnego"
+
+#: ../src/plugins/ontop/ontop.plugin.in.h:1
+msgid "Always On Top"
+msgstr "Zawsze na wierzchu"
+
+#: ../src/plugins/ontop/ontop.plugin.in.h:2
+msgid "Keep the main window on top when playing a movie"
+msgstr "Utrzymuje główne okno ponad innymi podczas odtwarzania filmu"
+
+#: ../src/plugins/opensubtitles/opensubtitles.plugin.in.h:1
+msgid "Subtitle Downloader"
+msgstr "Pobieranie napisów"
+
+#: ../src/plugins/opensubtitles/opensubtitles.plugin.in.h:2
+msgid "Look for subtitles for the currently playing movie"
+msgstr "Wyszukuje napisy do obecnie odtwarzanego filmu"
+
+#: ../src/plugins/opensubtitles/opensubtitles.py:41
+msgid "Brazilian Portuguese"
+msgstr "Portugalski brazylijski"
+
+#: ../src/plugins/opensubtitles/opensubtitles.py:177
+msgid "Searching for subtitles…"
+msgstr "Wyszukiwanie napisów…"
+
+#: ../src/plugins/opensubtitles/opensubtitles.py:225
+#: ../src/plugins/opensubtitles/opensubtitles.py:636
+msgid "Downloading the subtitles…"
+msgstr "Pobieranie napisów…"
+
+#: ../src/plugins/opensubtitles/opensubtitles.py:290
+msgid "Could not contact the OpenSubtitles website"
+msgstr "Nie można połączyć się ze stroną OpenSubtitles"
+
+#: ../src/plugins/opensubtitles/opensubtitles.py:323
+#: ../src/plugins/opensubtitles/opensubtitles.py:341
+msgid "Could not contact the OpenSubtitles website."
+msgstr "Nie można połączyć się z witryną OpenSubtitles."
+
+#: ../src/plugins/opensubtitles/opensubtitles.py:329
+msgid "No results found."
+msgstr "Brak wyników."
+
+#: ../src/plugins/opensubtitles/opensubtitles.py:476
+msgid "Subtitles"
+msgstr "Napisy"
+
+#. translators comment:
+#. This is the file-type of the subtitle file detected
+#: ../src/plugins/opensubtitles/opensubtitles.py:482
+msgid "Format"
+msgstr "Format"
+
+#. translators comment:
+#. This is a rating of the quality of the subtitle
+#: ../src/plugins/opensubtitles/opensubtitles.py:487
+msgid "Rating"
+msgstr "Ocena"
+
+#: ../src/plugins/opensubtitles/opensubtitles.py:523
+msgid "Download movie subtitles from OpenSubtitles"
+msgstr "Pobiera napisy do filmów z serwisu OpenSubtitles"
+
+#: ../src/plugins/opensubtitles/opensubtitles.py:525
+msgid "_Download Movie Subtitles…"
+msgstr "_Pobierz napisy do filmu…"
+
+#: ../src/plugins/opensubtitles/opensubtitles.py:587
+msgid "Searching subtitles…"
+msgstr "Wyszukiwanie napisów…"
+
+#: ../src/plugins/opensubtitles/opensubtitles.ui.h:1
+msgid "Download Movie Subtitles"
+msgstr "Napisy do filmów"
+
+#: ../src/plugins/opensubtitles/opensubtitles.ui.h:2
+msgid "Subtitle _language:"
+msgstr "Język n_apisów:"
+
+#: ../src/plugins/opensubtitles/opensubtitles.ui.h:3
+msgid "_Play with Subtitle"
+msgstr "_Wczytaj napisy"
+
+#: ../src/plugins/opensubtitles/org.x.player.plugins.opensubtitles.gschema.xml.in.in.h:1
+msgid "Subtitle language"
+msgstr "Język napisów"
+
+#: ../src/plugins/opensubtitles/org.x.player.plugins.opensubtitles.gschema.xml.in.in.h:2
+msgid "The language to search for subtitles for movies in."
+msgstr "Język wyszukiwanych napisów."
+
+#: ../src/plugins/properties/movie-properties.plugin.in.h:1
+msgid "Movie Properties"
+msgstr "Właściwości filmu"
+
+#: ../src/plugins/properties/movie-properties.plugin.in.h:2
+msgid "Adds movie properties to the sidebar"
+msgstr "Dodaje właściwości filmu do bocznego panelu"
+
+#: ../src/plugins/properties/xplayer-movie-properties.c:149
+#, c-format
+msgid "%d x %d"
+msgstr "%d x %d"
+
+#: ../src/plugins/properties/xplayer-movie-properties.c:152
+#: ../src/plugins/properties/xplayer-movie-properties.c:163
+#, c-format
+msgid "%d kbps"
+msgstr "%d kb/s"
+
+#: ../src/plugins/properties/xplayer-movie-properties.c:152
+#: ../src/plugins/properties/xplayer-movie-properties.c:163
+msgctxt "Stream bit rate"
+msgid "N/A"
+msgstr "Brak danych"
+
+#: ../src/plugins/properties/xplayer-movie-properties.c:166
+#, c-format
+msgid "%d Hz"
+msgstr "%d Hz"
+
+#: ../src/plugins/properties/xplayer-movie-properties.c:166
+msgctxt "Sample rate"
+msgid "N/A"
+msgstr "Brak danych"
+
+#: ../src/plugins/properties/xplayer-movie-properties.c:246
+msgid "Properties"
+msgstr "Właściwości"
+
+#: ../src/plugins/pythonconsole/org.x.player.plugins.pythonconsole.gschema.xml.in.in.h:1
+msgid "rpdb2 password"
+msgstr "hasło rpdb2"
+
+#: ../src/plugins/pythonconsole/org.x.player.plugins.pythonconsole.gschema.xml.in.in.h:2
+msgid ""
+"A password to protect the rpdb2 server for debugging Xplayer from "
+"unauthorized remote access. If this is empty, a default of 'xplayer' will be "
+"used."
+msgstr ""
+"Hasło ochrony serwera rpdb2 podczas nieupoważnionego zdalnego debugowania "
+"programu Xplayer. W przypadku opuszczenia pola użyte zostanie hasło domyślne "
+"\"xplayer\"."
+
+#: ../src/plugins/pythonconsole/pythonconsole.plugin.in.h:1
+msgid "Python Console"
+msgstr "Konsola języka Python"
+
+#: ../src/plugins/pythonconsole/pythonconsole.plugin.in.h:2
+msgid "Interactive Python console"
+msgstr "Interaktywna konsola języka Python"
+
+#: ../src/plugins/pythonconsole/pythonconsole.py:88
+msgid "Python Console Menu"
+msgstr "Menu konsoli języka Python"
+
+#: ../src/plugins/pythonconsole/pythonconsole.py:93
+msgid "_Python Console"
+msgstr "_Konsola języka Python"
+
+#: ../src/plugins/pythonconsole/pythonconsole.py:94
+msgid "Show Xplayer's Python console"
+msgstr "Wyświetla konsolę języka Python programu Xplayer"
+
+#: ../src/plugins/pythonconsole/pythonconsole.py:100
+msgid "Python Debugger"
+msgstr "Debuger języka Python"
+
+#: ../src/plugins/pythonconsole/pythonconsole.py:101
+msgid "Enable remote Python debugging with rpdb2"
+msgstr ""
+"Włączenie zdalnego debugowania języka Python za pomocą biblioteki rpdb2"
+
+#. pylint: disable-msg=E1101
+#: ../src/plugins/pythonconsole/pythonconsole.py:123
+#, python-format
+msgid "You can access the Xplayer.Object through 'xplayer_object' :\\n%s"
+msgstr ""
+"Dostęp do obiektu Xplayer.Object można uzyskać przez \"xplayer_object\":\\n%s"
+
+#: ../src/plugins/pythonconsole/pythonconsole.py:127
+msgid "Xplayer Python Console"
+msgstr "Konsola języka Python dla programu Xplayer"
+
+#: ../src/plugins/pythonconsole/pythonconsole.py:137
+msgid ""
+"After you press OK, Xplayer will wait until you connect to it with winpdb or "
+"rpdb2. If you have not set a debugger password in DConf, it will use the "
+"default password ('xplayer')."
+msgstr ""
+"Po naciśnięciu przycisku OK program Xplayer poczeka na połączenie z winpdb "
+"lub rpdb2. Jeśli hasło debugowania nie zostało ustawione w DConf, to "
+"zostanie użyte domyślne hasło (\"xplayer\")."
+
+#: ../src/plugins/recent/recent.plugin.in.h:1
+msgid "Recent files"
+msgstr "Ostatnie pliki"
+
+#: ../src/plugins/recent/recent.plugin.in.h:2
+msgid "Adds files that have been played to recent files"
+msgstr "Dodaje odtworzone filmy do listy ostatnich plików"
+
+#: ../src/plugins/rotation/rotation.plugin.in.h:1
+msgid "Rotation Plugin"
+msgstr "Wtyczka obracania"
+
+#: ../src/plugins/rotation/rotation.plugin.in.h:2
+msgid "Allows videos to be rotated if they are in the wrong orientation"
+msgstr "Umożliwia obracanie nagrań wideo, jeśli mają błędną orientację"
+
+#: ../src/plugins/rotation/xplayer-rotation-plugin.vala:49
+msgid "_Rotate Clockwise"
+msgstr "_Obróć zgodnie z ruchem wskazówek zegara"
+
+#: ../src/plugins/rotation/xplayer-rotation-plugin.vala:51
+msgid "Rotate Counterc_lockwise"
+msgstr "O_bróć przeciwnie do ruchu wskazówek zegara"
+
+#: ../src/plugins/screensaver/screensaver.plugin.in.h:1
+msgid "Screen Saver"
+msgstr "Wygaszacz ekranu"
+
+#: ../src/plugins/screensaver/screensaver.plugin.in.h:2
+msgid "Deactivates the screen saver when a movie is playing"
+msgstr "Wyłącza wygaszacz ekranu podczas odtwarzania filmu"
+
+#: ../src/plugins/screensaver/xplayer-screensaver.c:97
+msgid "Playing a movie"
+msgstr "Odtwarzanie filmu"
+
+#: ../src/plugins/screenshot/gallery.ui.h:1
+msgid "Screenshot width (in pixels):"
+msgstr "Szerokość zrzutu ekranu (w pikselach):"
+
+#: ../src/plugins/screenshot/gallery.ui.h:2
+msgid "Calculate the number of screenshots"
+msgstr "Automatyczne dobranie liczby zrzutów ekranu"
+
+#: ../src/plugins/screenshot/gallery.ui.h:3
+msgid "Number of screenshots:"
+msgstr "Liczba zrzutów ekranu:"
+
+#. translators: this is the name of the file that gets made up
+#. * with the screenshot if the entire screen is taken
+#: ../src/plugins/screenshot/screenshot-filename-builder.c:147
+#, c-format
+msgid "Screenshot from %s.png"
+msgstr "Zrzut ekranu z %s.png"
+
+#. translators: this is the name of the file that gets
+#. * made up with the screenshot if the entire screen is
+#. * taken
+#: ../src/plugins/screenshot/screenshot-filename-builder.c:154
+#, c-format
+msgid "Screenshot from %s - %d.png"
+msgstr "Zrzut ekranu z %s - %d.png"
+
+#: ../src/plugins/screenshot/screenshot.plugin.in.h:1
+msgid "Screenshot"
+msgstr "Zrzut ekranu"
+
+#: ../src/plugins/screenshot/screenshot.plugin.in.h:2
+msgid "Allows screenshots and galleries to be taken of videos"
+msgstr "Umożliwia pobieranie zrzutów ekranu i galerii filmów"
+
+#: ../src/plugins/screenshot/xplayer-gallery.c:91
+msgid "Save Gallery"
+msgstr "Zapis galerii"
+
+#. Translators: The first argument is the movie title. The second
+#. * argument is a number which is used to prevent overwriting files.
+#. * Just translate "Gallery", and not the ".jpg". Example:
+#. * "Galerie-%s-%d.jpg".
+#: ../src/plugins/screenshot/xplayer-gallery.c:115
+#, c-format
+msgid "Gallery-%s-%d.jpg"
+msgstr "Galeria-%s-%d.jpg"
+
+#. Set up the window
+#: ../src/plugins/screenshot/xplayer-gallery-progress.c:101
+msgid "Creating Gallery..."
+msgstr "Tworzenie galerii..."
+
+#. Set the progress label
+#: ../src/plugins/screenshot/xplayer-gallery-progress.c:107
+#, c-format
+msgid "Saving gallery as \"%s\""
+msgstr "Zapisywanie galerii jako \"%s\""
+
+#: ../src/plugins/screenshot/xplayer-screenshot-plugin.c:220
+#: ../src/plugins/screenshot/xplayer-screenshot-plugin.c:229
+msgid "Xplayer could not get a screenshot of the video."
+msgstr "Program Xplayer nie może pobrać zrzutu ekranu tego wideo."
+
+#: ../src/plugins/screenshot/xplayer-screenshot-plugin.c:229
+msgid "This is not supposed to happen; please file a bug report."
+msgstr ""
+"Ta sytuacja nie powinna mieć miejsca. Proszę wypełnić zgłoszenie błędu."
+
+#: ../src/plugins/screenshot/xplayer-screenshot-plugin.c:334
+msgid "Take _Screenshot"
+msgstr "_Zrzut ekranu"
+
+#: ../src/plugins/screenshot/xplayer-screenshot-plugin.c:334
+msgid "Take a screenshot"
+msgstr "Wykonuje zrzut ekranu"
+
+#: ../src/plugins/screenshot/xplayer-screenshot-plugin.c:335
+msgid "Create Screenshot _Gallery..."
+msgstr "_Utwórz galerię zrzutów ekranu..."
+
+#: ../src/plugins/screenshot/xplayer-screenshot-plugin.c:335
+msgid "Create a gallery of screenshots"
+msgstr "Tworzy galerię zrzutów ekranu"
+
+#: ../src/plugins/skipto/skipto.plugin.in.h:1
+#: ../src/plugins/skipto/xplayer-skipto.c:196
+msgid "Skip To"
+msgstr "Przejście do"
+
+#: ../src/plugins/skipto/skipto.plugin.in.h:2
+msgid "Provides the \"Skip to\" dialog"
+msgstr "Dostarcza okno dialogowe \"Przejdź do\""
+
+#: ../src/plugins/skipto/skipto.ui.h:1
+msgid "_Skip to:"
+msgstr "_Przejście do:"
+
+#. Update the "seconds" label so that it always has the correct singular/plural form
+#. Translators: label for the seconds selector in the "Skip to" dialogue
+#: ../src/plugins/skipto/xplayer-skipto.c:159
+msgid "second"
+msgid_plural "seconds"
+msgstr[0] "sekunda"
+msgstr[1] "sekundy"
+msgstr[2] "sekund"
+
+#. Fix the label width at the maximum necessary for the plural labels, to prevent it changing size when we change the spinner value
+#. Translators: you should translate this string to a number (written in digits) which corresponds to the longer character length of the
+#. * translations for "second" and "seconds", as translated elsewhere in this file. For example, in English, "second" is 6 characters long and
+#. * "seconds" is 7 characters long, so this string should be translated to "7". See: bgo#639398
+#: ../src/plugins/skipto/xplayer-skipto.c:189
+msgctxt "Skip To label length"
+msgid "7"
+msgstr "7"
+
+#: ../src/plugins/skipto/xplayer-skipto-plugin.c:182
+msgid "_Skip To..."
+msgstr "P_rzejdź do..."
+
+#: ../src/plugins/skipto/xplayer-skipto-plugin.c:182
+msgid "Skip to a specific time"
+msgstr "Przechodzi do podanego czasu"
+
+#: ../src/plugins/zeitgeist-dp/zeitgeist-dp.plugin.in.h:1
+msgid "Zeitgeist Plugin"
+msgstr "Wtyczka Zeitgeist"
+
+#: ../src/plugins/zeitgeist-dp/zeitgeist-dp.plugin.in.h:2
+msgid "A plugin sending events to Zeitgeist"
+msgstr "Wtyczka wysyłająca zdarzenia do usługi Zeitgeist"

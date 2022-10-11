@@ -1,0 +1,1766 @@
+# Uzbek translation for linuxmint
+# Copyright (c) 2022 Rosetta Contributors and Canonical Ltd 2022
+# This file is distributed under the same license as the linuxmint package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: linuxmint\n"
+"Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
+"POT-Creation-Date: 2019-03-29 10:21+0000\n"
+"PO-Revision-Date: 2022-06-18 17:34+0000\n"
+"Last-Translator: Umidjon Almasov <umidjon@almasov.uz>\n"
+"Language-Team: Uzbek <uz@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Launchpad-Export-Date: 2022-10-10 13:12+0000\n"
+"X-Generator: Launchpad (build 762fb15a975e8b23af6a1f86e44e46bfd0451459)\n"
+"Language: uz\n"
+
+#: ../../boot_options.rst:2
+msgid "Boot options"
+msgstr "Yuklash parametrlari"
+
+#: ../../boot_options.rst:4
+msgid ""
+"Some graphics cards and motherboards don't work well with the open-source "
+"drivers present in Linux Mint by default."
+msgstr ""
+"Ba’zi grafik kartalar va tizim platalari standart bo‘yicha Linux Mintda "
+"mavjud bo‘lgan ochiq manba drayverlari bilan yaxshi ishlamaydi."
+
+#: ../../boot_options.rst:7
+msgid "Compatibility mode"
+msgstr "Moslik rejimi"
+
+#: ../../boot_options.rst:9
+msgid ""
+"The easiest option is to select ``compatibility mode`` from the USB stick "
+"(or DVD) boot menu."
+msgstr ""
+"Eng oson variant USB flesh-diski (yoki DVD) yuklash menyusidan  ``moslik "
+"rejimi``ni tanlashdir."
+
+#: ../../boot_options.rst:15
+msgid "Grub menu (EFI mode)"
+msgstr "Grub menyusi (EFI rejimi)"
+
+#: ../../boot_options.rst:21
+msgid "Isolinux menu (BIOS mode)"
+msgstr "Isolinux menyusi (BIOS rejimi)"
+
+#: ../../boot_options.rst:23
+msgid "If that doesn't work, you can try the ``nomodeset`` boot option."
+msgstr ""
+"Agar bu ishlamasa,  ``nomodeset `` yuklash parametrini sinab ko‘rishingiz "
+"mumkin."
+
+#: ../../boot_options.rst:26
+msgid "Nomodeset boot option"
+msgstr "Nomodeset yuklash parametri"
+
+#: ../../boot_options.rst:28
+msgid ""
+"In EFI mode, highlight the ``Start Linux Mint`` option and press :kbd:`e` to "
+"modify the boot options."
+msgstr ""
+"EFI rejimida  ``Linux Mintni ishga tushirish`` variantini belgilang va "
+"yuklash parametrlarini o‘zgartirish uchun :kbd:`e` tugmasini bosing."
+
+#: ../../boot_options.rst:34
+msgid ""
+"Replace ``quiet splash`` with ``nomodeset`` and press :kbd:`F10` to boot."
+msgstr ""
+"``quiet splash``ni ``nomodeset`` bilan almashtiring va yuklash uchun "
+":kbd:`F10` tugmasini bosing."
+
+#: ../../boot_options.rst:36
+msgid ""
+"In BIOS mode, highlight ``Start Linux Mint`` and press :kbd:`Tab` to modify "
+"the boot options."
+msgstr ""
+"BIOS rejimida ``Linux Mintni ishga tushirish``ni belgilang va yuklash "
+"parametrlarini o‘zgartirish uchun :kbd:`Tab` tugmasini bosing."
+
+#: ../../boot_options.rst:42
+msgid ""
+"Replace ``quiet splash`` with ``nomodeset`` and press :kbd:`Enter` to boot."
+msgstr ""
+"``quiet splash`` ni ``nomodeset`` bilan almashtiring va yuklash uchun "
+":kbd:`Enter` tugmasini bosing."
+
+#: ../../boot_options.rst:45
+msgid ""
+"Repeat this operation post-install in your grub boot menu and read "
+":doc:`drivers` to install additional drivers."
+msgstr ""
+"O‘rnatishdan so‘ng ushbu amalni grub yuklash menyusida takrorlang va "
+"qo‘shimcha drayverlarni o‘rnatish uchun :doc:`drivers`ni o‘qing."
+
+#: ../../boot_options.rst:48
+msgid "Other boot options"
+msgstr "Boshqa yuklash variantlari"
+
+#: ../../boot_options.rst:50
+msgid "If you still cannot boot try one of the following solutions:"
+msgstr ""
+"Agar siz hali ham yuklay olmasangiz, quyidagi echimlardan birini sinab "
+"ko‘ring:"
+
+#: ../../boot_options.rst:52
+msgid "Try ``nouveau.noaccel=1`` instead of ``nomodeset``."
+msgstr "``nomodeset`` o‘rniga ``nouveau.noaccel=1``ni sinab ko‘ring."
+
+#: ../../boot_options.rst:53
+msgid ""
+"After the installation, use :menuselection:`Advanced Options --> Recovery "
+"mode` from the boot menu and choose ``resume``."
+msgstr ""
+"O‘rnatishdan so‘ng, yuklash menyusidagi :menuselection:`Kengaytirilgan "
+"parametrlar --> Qayta tiklash rejimi`dan foydalaning va ``resume``ni tanlang."
+
+#: ../../boot_options.rst:56
+msgid "Install an older release"
+msgstr "Eski versiyani o‘rnating"
+
+#: ../../boot_options.rst:58
+msgid ""
+"If your computer has compatibility issues with the latest Linux Mint "
+"release, install a previous release from the same Linux Mint series."
+msgstr ""
+"Agar kompyuteringizda Linux Mintning so‘nggi versiyasi bilan moslik muammosi "
+"bo‘lsa, xuddi shu Linux Mint seriyasidan oldingi versiyani o‘rnating."
+
+#: ../../boot_options.rst:60
+msgid ""
+"For instance, if you can't install Linux Mint 18.3 (which comes with a 4.10 "
+"kernel), install Linux Mint 18 (which comes with a 4.4 kernel) and upgrade "
+"to 18.3."
+msgstr ""
+"Masalan, agar siz Linux Mint 18.3 ni (4.10 yadrosi bilan birga keladi) "
+"oʻrnatolmasangiz, Linux Mint 18 ni (4.4 yadrosi bilan birga keladi) "
+"oʻrnating va 18.3 ga yangilang."
+
+#: ../../boot_options.rst:63
+msgid ""
+"The first release in each series uses an LTS (Long Term Support) kernel. "
+"Upgrading from this release to the latest one in the series does not change "
+"your kernel."
+msgstr ""
+"Har bir seriyadagi birinchi versiya LTS (Uzoq muddatli qo‘llab-quvvatlash) "
+"yadrosidan foydalanadi. Ushbu relizdan seriyaning eng so‘nggi versiyasiga "
+"yangilash yadroingizni o‘zgartirmaydi."
+
+#: ../../boot.rst:2
+msgid "Boot Linux Mint"
+msgstr "Linux Mintni ishga tushiring"
+
+#: ../../boot.rst:4
+msgid ""
+"Now that you have Linux Mint on a USB stick (or DVD) boot the computer from "
+"it."
+msgstr ""
+"Endi sizda USB flesh-diskida (yoki DVD) Linux Mint mavjud bo‘lsa, "
+"kompyuterni undan yuklang."
+
+#: ../../boot.rst:6
+msgid "Insert your USB stick (or DVD) into the computer."
+msgstr "USB flesh-diskini (yoki DVD) kompyuterga joylashtiring."
+
+#: ../../boot.rst:8 ../../drivers.rst:23 ../../efi.rst:61 ../../oem.rst:21
+msgid "Restart the computer."
+msgstr "Kompyuterni qayta ishga tushiring."
+
+#: ../../boot.rst:10
+msgid ""
+"Before your computer boots your current operating system (Windows, Mac, "
+"Linux) you should see your `BIOS <https://en.wikipedia.org/wiki/BIOS>`_ "
+"loading screen. Check the screen or your computer's documentation to know "
+"which key to press and instruct your computer to boot on USB (or DVD)."
+msgstr ""
+"Kompyuteringiz joriy operatsion tizimingizni (Windows, Mac, Linux) "
+"yuklashdan oldin siz `BIOS <https://en.wikipedia.org/wiki/BIOS>`_ yuklash "
+"ekranini ko‘rishingiz kerak. Qaysi tugmani bosish kerakligini bilish uchun "
+"ekranni yoki kompyuteringiz hujjatlarini tekshiring va kompyuteringizga USB "
+"(yoki DVD) orqali yuklashni buyuring."
+
+#: ../../boot.rst:13
+msgid ""
+"Most BIOS have a special key you can press to select the boot device and all "
+"of them have a special key to enter the BIOS configuration screen (from "
+"which you can define the boot order). Depending on the BIOS, these special "
+"keys can be :kbd:`Escape`, :kbd:`F1`, :kbd:`F2`, :kbd:`F8`, :kbd:`F10`, "
+":kbd:`F11`, :kbd:`F12`, or :kbd:`Delete`. That information is usually "
+"briefly written on the screen during the boot sequence."
+msgstr ""
+"Ko‘pgina BIOS-da yuklash moslamasini tanlash uchun bosishingiz mumkin "
+"bo‘lgan maxsus kalit mavjud va ularning barchasida BIOS konfiguratsiya "
+"ekraniga kirish uchun maxsus kalit mavjud (ulardan yuklash tartibini "
+"belgilashingiz mumkin). BIOS-ga qarab, bu maxsus kalitlar :kbd:`Escape`, "
+":kbd:`F1`, :kbd:`F2`, :kbd:`F8`, :kbd:`F10`, :kbd:`F11 bo‘lishi mumkin. `, "
+":kbd:`F12` yoki :kbd:`Delete`. Ushbu ma'lumot odatda yuklash ketma-ketligi "
+"paytida ekranda qisqacha yoziladi."
+
+#: ../../boot.rst:16
+msgid ""
+"On Macs, keep your finger pressed on the :kbd:`Alt` or :kbd:`Option` key "
+"after hearing the boot sound."
+msgstr ""
+"Mac kompyuterlarida yuklash ovozini eshitgandan so‘ng barmog‘ingizni "
+":kbd:`Alt` yoki :kbd:`Option` tugmachasini bosib turing."
+
+#: ../../boot.rst:18
+msgid ""
+"The Linux Mint ISO can be booted both in EFI or BIOS mode. In EFI mode it "
+"shows a grub menu. In BIOS mode it shows an isolinux menu."
+msgstr ""
+"Linux Mint ISO ham EFI, ham BIOS rejimida yuklanishi mumkin. EFI rejimida u "
+"grub menyusini ko‘rsatadi. BIOS rejimida u isolinux menyusini ko‘rsatadi."
+
+#: ../../boot.rst:24
+msgid "The isolinux menu in BIOS mode"
+msgstr "BIOS rejimida isolinux menyusi"
+
+#: ../../boot.rst:30
+msgid "The grub menu in EFI mode"
+msgstr "EFI rejimida grub menyusi"
+
+#: ../../boot.rst:32
+msgid ""
+"From one of these menu, press :kbd:`Enter` to start Linux Mint from your USB "
+"stick (or DVD)."
+msgstr ""
+"USB flesh-diskidan (yoki DVD) Linux Mint dasturini ishga tushirish uchun "
+"ushbu menyulardan birida :kbd:`Enter` tugmasini bosing."
+
+#: ../../burn.rst:2
+msgid "Create the bootable media"
+msgstr "Yuklanadigan media yaratish"
+
+#: ../../burn.rst:4
+msgid "The easiest way to install Linux Mint is with a USB stick."
+msgstr "Linux Mintni o‘rnatishning eng oson yo‘li USB flesh-diskidir."
+
+#: ../../burn.rst:6
+msgid "If you cannot boot from USB, you can use a blank DVD."
+msgstr ""
+"Agar USB dan yuklay olmasangiz, bo‘sh DVD dan foydalanishingiz mumkin."
+
+#: ../../burn.rst:9
+msgid "How to make a bootable USB stick"
+msgstr "Yuklanadigan USB flesh-diskini qanday yaratish kerak"
+
+#: ../../burn.rst:12
+msgid "In Linux Mint"
+msgstr "Linux Mintda"
+
+#: ../../burn.rst:14
+msgid ""
+"Right-click the ISO file and select :menuselection:`Make Bootable USB "
+"Stick`, or launch :menuselection:`Menu --> Accessories --> USB Image Writer`."
+msgstr ""
+"ISO faylini sichqonchaning o‘ng tugmasi bilan bosing va "
+":menuselection:`Bootable USB Stick yaratish`-ni tanlang yoki "
+":menuselection:`Menyu --> Aksessuarlar --> USB Image Writer`ni ishga "
+"tushiring."
+
+#: ../../burn.rst:20
+msgid "Select your USB device and click :guilabel:`Write`."
+msgstr "USB qurilmangizni tanlang va :guilabel:`Write` tugmasini bosing."
+
+#: ../../burn.rst:23
+msgid "In Windows, Mac OS, or other Linux distributions"
+msgstr "Windows, Mac OS yoki boshqa Linux distributivlarida"
+
+#: ../../burn.rst:25
+msgid ""
+"Download `Etcher <https://www.balena.io/etcher/>`_, install it and run it."
+msgstr ""
+"`Etcher <https://www.balena.io/etcher/>`_ yuklab oling, oʻrnating va ishga "
+"tushiring."
+
+#: ../../burn.rst:31
+msgid "Using Etcher"
+msgstr "Etcherdan foydalanish"
+
+#: ../../burn.rst:33
+msgid "Click :guilabel:`Select image` and select your ISO file."
+msgstr ""
+":guilabel:`Select image` tugmasini bosing va ISO faylingizni tanlang."
+
+#: ../../burn.rst:35
+msgid "Click :guilabel:`Select drive` and select your USB stick."
+msgstr ""
+":guilabel:`Select drive` tugmasini bosing va USB flesh-diskini tanlang."
+
+#: ../../burn.rst:37
+msgid "Click :guilabel:`Flash!`."
+msgstr ":guilabel:`Flash!` tugmasini bosing."
+
+#: ../../burn.rst:41
+msgid "How to make a bootable DVD"
+msgstr "Yuklanadigan DVDni qanday yaratish kerak"
+
+#: ../../burn.rst:43
+msgid "Optical discs are slow and burning to disc is prone to errors."
+msgstr "Optik disklar sekin va diskka yozish xatolarga moyil."
+
+#: ../../burn.rst:46
+msgid "To prevent issues, burn at the lowest possible speed."
+msgstr "Muammolarning oldini olish uchun iloji boricha past tezlikda yozing."
+
+#: ../../burn.rst:49
+msgid ""
+"Burn the content of the ISO onto the DVD, not the ISO file itself. When "
+"finished, your DVD should contain directories such as ``boot`` and "
+"``casper``, it shouldn't be an empty DVD containing an .iso file."
+msgstr ""
+"ISO faylining o‘ziga emas, balki DVDga ISO tarkibini yozing. Tugatgandan "
+"so‘ng, DVD diskingizda \"boot\" va \"casper\" kabi kataloglar bo‘lishi "
+"kerak, u .iso fayli bo‘lgan bo‘sh DVD bo‘lmasligi kerak."
+
+#: ../../burn.rst:52
+msgid "In Linux"
+msgstr "Linuxda"
+
+#: ../../burn.rst:53
+msgid "Install and use ``xfburn``."
+msgstr "``xfburn``ni o‘rnating va foydalaning."
+
+#: ../../burn.rst:56
+msgid "In Windows"
+msgstr "Windowsda"
+
+#: ../../burn.rst:57
+msgid "Right-click the ISO file and select :menuselection:`Burn disk image`."
+msgstr ""
+"ISO faylini o‘ng tugmasini bosing va :menuselection:`Disk tasvirini "
+"yozish`ni tanlang."
+
+#: ../../burn.rst:59
+msgid ""
+"To make sure the ISO was burned without any errors, select "
+":menuselection:`Verify disc after burning`."
+msgstr ""
+"ISO hech qanday xatosiz yozilganligiga ishonch hosil qilish uchun "
+":menuselection:`Yozgandan keyin diskni tekshirish`-ni tanlang."
+
+#: ../../burn.rst:62
+msgid "In Mac OS"
+msgstr "Mac OSda"
+
+#: ../../burn.rst:63
+msgid ""
+"Right-click the ISO file and select :menuselection:`Burn Disk Image to Disc`."
+msgstr ""
+"ISO faylini sichqonchaning o‘ng tugmasi bilan bosing va :menuselection:`Disk "
+"tasvirini diskka yozish`ni tanlang."
+
+#: ../../choose.rst:2
+msgid "Choose the right edition"
+msgstr "To‘g‘ri versiyani tanlang"
+
+#: ../../choose.rst:4
+msgid ""
+"You can download Linux Mint from the `Linux Mint website "
+"<https://linuxmint.com/download.php>`_."
+msgstr ""
+"Linux Mintni `Linux Mint <https://linuxmint.com/download.php>`_ veb-saytidan "
+"yuklab olishingiz mumkin."
+
+#: ../../choose.rst:6
+msgid ""
+"Read below to choose which edition and architecture are right for you."
+msgstr ""
+"Qaysi versiya va arxitektura sizga mos kelishini tanlash uchun quyida o‘qing."
+
+#: ../../choose.rst:9
+msgid "Cinnamon, MATE or Xfce?"
+msgstr "Cinnamon, MATE yoki Xfce?"
+
+#: ../../choose.rst:11
+msgid ""
+"Linux Mint comes in 3 different flavours, each featuring a different desktop "
+"environment."
+msgstr ""
+"Linux Mint 3 xil turga ega bo‘lib, ularning har biri boshqa ish stoli "
+"muhitiga ega."
+
+#: ../../choose.rst:14 ../../choose.rst:26
+msgid "Cinnamon"
+msgstr "Cinnamon"
+
+#: ../../choose.rst:14
+msgid "The most modern, innovative and full-featured desktop"
+msgstr "Eng zamonaviy, innovatsion va to‘liq xususiyatli ish stoli"
+
+#: ../../choose.rst:15 ../../choose.rst:35
+msgid "MATE"
+msgstr "MATE"
+
+#: ../../choose.rst:15
+msgid "A more traditional, and faster desktop"
+msgstr "An'anaviyroq va tezroq ish stoli"
+
+#: ../../choose.rst:16 ../../choose.rst:44
+msgid "Xfce"
+msgstr "Xfce"
+
+#: ../../choose.rst:16
+msgid "The most lightweight desktop"
+msgstr "Eng yengil ish stoli"
+
+#: ../../choose.rst:19
+msgid ""
+"The most popular version of Linux Mint is the Cinnamon edition. Cinnamon is "
+"primarily developed for and by Linux Mint. It is slick, beautiful, and full "
+"of new features."
+msgstr ""
+"Linux Mint ning eng mashhur versiyasi Cinnamon nashridir. Cinnamon asosan "
+"Linux Mint uchun ishlab chiqilgan. Bu silliq, chiroyli va yangi xususiyatlar "
+"bilan to‘la."
+
+#: ../../choose.rst:28
+msgid ""
+"Linux Mint is also involved in the development of MATE, a classic desktop "
+"environment which is the continuation of GNOME 2, Linux Mint's default "
+"desktop between 2006 and 2011. Although it misses a few features and its "
+"development is slower than Cinnamon's, MATE uses less resources and can run "
+"faster on older computers."
+msgstr ""
+"Linux Mint 2006 va 2011 yillar oralig‘ida Linux Mintning standart ish stoli "
+"bo‘lgan GNOME 2 ning davomi bo‘lgan klassik ish stoli muhiti bo‘lgan MATEni "
+"ishlab chiqishda ham ishtirok etadi. Garchi u bir nechta funksiyalarni "
+"o‘tkazib yuborsa va rivojlanishi Cinnamonnikiga qaraganda sekinroq bo‘lsa-"
+"da, MATE kamroq resurslardan foydalanadi. va eski kompyuterlarda tezroq "
+"ishlashi mumkin."
+
+#: ../../choose.rst:37
+msgid ""
+"Xfce is a lightweight desktop environment. It doesn't support as many "
+"features as Cinnamon or MATE, but it's extremely stable and very light on "
+"resource usage."
+msgstr ""
+"Xfce - bu engil ish stoli muhiti. U Cinnamon yoki MATE kabi ko‘plab "
+"funksiyalarni qo‘llab-quvvatlamaydi, lekin u juda barqaror va resurslardan "
+"foydalanishda juda yengil."
+
+#: ../../choose.rst:46
+msgid ""
+"Of course, all three desktops are great and Linux Mint is extremely proud of "
+"each edition. Although there are more features and better support in some "
+"editions than others, and some do run faster and use less resources than "
+"others, they're all great alternatives and choosing the right edition is "
+"largely a matter of taste."
+msgstr ""
+"Albatta, uchta ish stoli ham ajoyib va Linux Mint har bir versiyasi bilan "
+"juda faxrlanadi. Garchi ba'zi versiyalarda boshqalarga qaraganda ko‘proq "
+"xususiyatlar va yaxshi qo‘llab-quvvatlash mavjud bo‘lsa va ba'zilari tezroq "
+"ishlaydi va boshqalarga qaraganda kamroq resurslardan foydalanadi, ularning "
+"barchasi ajoyib alternativ va to‘g‘ri nashrni tanlash asosan didga bog‘liq."
+
+#: ../../choose.rst:48
+msgid ""
+"Other than their features and performance, Cinnamon, MATE and Xfce also "
+"represent three different desktop environments, with different menus, "
+"different panels and configuration tools. The right one for you is the one "
+"where you feel at home."
+msgstr ""
+"Xususiyatlari va ishlashidan tashqari, Cinnamon, MATE va Xfce turli "
+"menyular, turli panellar va konfiguratsiya vositalariga ega uchta turli ish "
+"stoli muhitini ifodalaydi. Siz uchun to‘g‘risi - bu o‘zingizni uyda his "
+"qiladigandek joy."
+
+#: ../../choose.rst:50
+msgid ""
+"If you are unsure which desktop to choose start with the Cinnamon edition. "
+"Try them all eventually when you have the time. All three of them have their "
+"own audience within the Linux Mint community and they're all very popular."
+msgstr ""
+"Qaysi ish stolini tanlashni bilmasangiz, Cinnamon nashridan boshlang. "
+"Vaqtingiz bo‘lganda hammasini sinab ko‘ring. Ularning uchtasi ham Linux Mint "
+"hamjamiyatida o‘z auditoriyasiga ega va ularning barchasi juda mashhur."
+
+#: ../../choose.rst:54
+msgid "32-bit or 64-bit?"
+msgstr "32-bit yoki 64-bit?"
+
+#: ../../choose.rst:56
+msgid "From version 20 onward, only 64-bit is available."
+msgstr "20-versiyadan boshlab faqat 64-bitli versiya mavjud."
+
+#: ../../choose.rst:58
+msgid ""
+"The 32-bit ISO images on prior versions are provided for compatibility with "
+"older computers. 32-bit processors are extremely rare nowadays and most "
+"computers are able to run in 64-bit. If your computer was manufactured after "
+"2007, you probably have a 64-bit processor."
+msgstr ""
+"Oldingi versiyalardagi 32 bitli ISO tasvirlari eski kompyuterlar bilan mos "
+"kelishi uchun taqdim etilgan. 32-bitli protsessorlar bugungi kunda juda kam "
+"uchraydi va aksariyat kompyuterlar 64-bitli protsessorlarda ishlay oladi. "
+"Agar sizning kompyuteringiz 2007 yildan keyin ishlab chiqarilgan bo‘lsa, "
+"ehtimol sizda 64 bitli protsessor mavjud."
+
+#: ../../choose.rst:60
+msgid ""
+"If you have an old computer and you are unsure whether or not it can run in "
+"64-bit, read `X86 Chronology "
+"<https://en.wikipedia.org/wiki/X86#Chronology>`_."
+msgstr ""
+"Agar sizda eski kompyuteringiz bo‘lsa va uning 64-bitli ishlay olishiga "
+"ishonchingiz komil bo‘lmasa, `X86 Xronologiyasi "
+"<https://en.wikipedia.org/wiki/X86#Chronology>`_ ni o‘qing."
+
+#: ../../choose.rst:63
+msgid ""
+"You can try to boot Linux Mint 64-bit on your computer. If it isn't "
+"compatible, nothing bad will happen. You will just get an error message."
+msgstr ""
+"Kompyuteringizda Linux Mint 64-bitni yuklashga urinib ko‘rishingiz mumkin. "
+"Agar u mos kelmasa, hech qanday yomon narsa bo‘lmaydi. Siz shunchaki xato "
+"xabarini olasiz."
+
+#: ../../choose.rst:66
+msgid ""
+"If you cannot boot or install Linux Mint because your hardware is too recent "
+"and is not properly detected see the `Edge ISO Images <https://linuxmint-"
+"user-guide.readthedocs.io/en/latest/edge.html>`_ chapter in the Linux Mint "
+"User Guide for an alternative ISO."
+msgstr ""
+"Agar siz Linux Mint-ni yuklay olmasangiz yoki o‘rnatolmasangiz, uskunangiz "
+"juda yangi va to‘g‘ri aniqlanmagan bo‘lsa, `Edge ISO Images "
+"<https://linuxmint-user-guide.readthedocs.io/en/latest/edge.html>`_ ga "
+"qarang. muqobil ISO uchun Linux Mint foydalanuvchi qo‘llanmasi bo‘limi."
+
+#: ../../codecs.rst:2
+msgid "Multimedia codecs"
+msgstr "Multimedia kodeklari"
+
+#: ../../codecs.rst:4
+msgid "Some multimedia content requires additional codecs to be installed."
+msgstr ""
+"Ba'zi multimedia kontenti qo‘shimcha kodeklarni o‘rnatishni talab qiladi."
+
+#: ../../codecs.rst:7
+msgid ""
+"If you were online when installing Linux Mint and you ticked the option to "
+"install these codecs, they are already installed."
+msgstr ""
+"Agar siz Linux Mintni o‘rnatayotganda onlayn bo‘lsangiz va ushbu kodeklarni "
+"o‘rnatish opsiyasini belgilagan bo‘lsangiz, ular allaqachon o‘rnatilgan."
+
+#: ../../codecs.rst:9
+msgid ""
+"Launch :menuselection:`Menu --> Sound & Video --> Install Multimedia Codecs`."
+msgstr ""
+"Ishga tushirish:menuselection:`Menyu --> Ovoz va video --> Multimedia "
+"kodeklarini o‘rnatish`."
+
+#: ../../codecs.rst:14
+msgid "Click :guilabel:`Install`."
+msgstr ":guilabel:`o‘rnatish` tugmasini bosing."
+
+#: ../../codecs.rst:16
+msgid ""
+"Enter your password and wait for the codecs to be installed on your computer."
+msgstr ""
+"Parolingizni kiriting va kodeklar kompyuteringizga o‘rnatilishini kuting."
+
+#: ../../drivers.rst:2
+msgid "Hardware drivers"
+msgstr "Uskuna drayverlari"
+
+#: ../../drivers.rst:4
+msgid ""
+"One of the first things to do after installing Linux Mint is to check for "
+"available hardware drivers."
+msgstr ""
+"Linux Mintni o‘rnatgandan so‘ng qilinadigan birinchi ishlardan biri mavjud "
+"apparat drayverlarini tekshirishdir."
+
+#: ../../drivers.rst:6
+msgid "Launch :menuselection:`Menu --> Administration --> Driver Manager`."
+msgstr ""
+"Ishga tushirish :menuselection:`Menyu --> Boshqaruv --> Drayver menejeri`."
+
+#: ../../drivers.rst:13
+msgid ""
+"If you are offline, the Driver Manager will complain that it cannot connect "
+"to the Internet."
+msgstr ""
+"Agar siz oflayn bo‘lsangiz, Driver Manager Internetga ulana olmaganidan "
+"shikoyat qiladi."
+
+#: ../../drivers.rst:19
+msgid ""
+"Insert your bootable Linux Mint USB stick (or DVD), wait for it to be "
+"mounted, and click :guilabel:`OK`."
+msgstr ""
+"Yuklanadigan Linux Mint USB flesh-diskini (yoki DVD-ni) joylashtiring, "
+"ulanishini kuting va :guilabel:`OK` tugmasini bosing."
+
+#: ../../drivers.rst:21
+msgid ""
+"Tick the appropriate checkboxes to select the available drivers and click "
+":guilabel:`Apply Changes`."
+msgstr ""
+"Mavjud drayverlarni tanlash uchun tegishli katakchalarni belgilang va "
+":guilabel:`o‘zgarishlarni qo‘llash`ni bosing."
+
+#: ../../efi.rst:2
+msgid "EFI"
+msgstr "EFI"
+
+#: ../../efi.rst:5
+msgid "SecureBoot"
+msgstr "SecureBoot"
+
+#: ../../efi.rst:7
+msgid ""
+"If after installing Linux Mint in EFI mode, you are unable to boot due to a "
+"``Secure Boot Violation``, you can try one of the following solutions:"
+msgstr ""
+"Agar Linux Mint-ni EFI rejimida o‘rnatganingizdan so‘ng, ``Xavfsiz yuklash "
+"buzilishi`` tufayli yuklay olmasangiz, quyidagi echimlardan birini sinab "
+"ko‘rishingiz mumkin:"
+
+#: ../../efi.rst:15
+msgid "Restart the installation:"
+msgstr "O‘rnatishni qayta ishga tushiring:"
+
+#: ../../efi.rst:14
+msgid "Connect to the Internet before the installation"
+msgstr "O‘rnatishdan oldin Internetga ulaning"
+
+#: ../../efi.rst:15
+msgid ""
+"**Do not** select ``Install third-party software for graphics and Wi-Fi "
+"hardware, Flash, MP3 and other media``."
+msgstr ""
+"``IGrafika va Wi-Fi qurilmalari, Flash, MP3 va boshqa media uchun uchinchi "
+"tomon dasturiy taʼminotini oʻrnatmang`` **tanlamang**."
+
+#: ../../efi.rst:17
+msgid "Disable ``SecureBoot`` in the ``BIOS`` settings of your computer."
+msgstr ""
+"Kompyuteringizning ``BIOS`` sozlamalarida ``Secure Boot``ni o‘chirib qo‘ying."
+
+#: ../../efi.rst:20
+msgid ""
+"For examples of how to disable secure boot on various computers, read "
+"`Managing EFI Boot Loaders for Linux: Dealing with Secure Boot "
+"<http://www.rodsbooks.com/efi-bootloaders/secureboot.html>`_."
+msgstr ""
+"Turli xil kompyuterlarda xavfsiz yuklashni qanday o‘chirishga misollar uchun "
+"\"Linux uchun EFI yuklash vositalarini boshqarish: xavfsiz yuklash bilan "
+"ishlash <http://www.rodsbooks.com/efi-bootloaders/secureboot.html>`_\" "
+"bo‘limini o‘qing."
+
+#: ../../efi.rst:23
+msgid "EFI boot order"
+msgstr "EFI yuklash tartibi"
+
+#: ../../efi.rst:25
+msgid ""
+"If after installing Linux Mint in EFI mode, your computer skips the boot "
+"menu and boots straight into Windows (or another operating system), you "
+"probably have an issue with the boot order."
+msgstr ""
+"Agar Linux Mintni EFI rejimida o‘rnatganingizdan so‘ng, kompyuteringiz "
+"yuklash menyusini o‘tkazib yuborsa va to‘g‘ridan-to‘g‘ri Windows (yoki "
+"boshqa operatsion tizim) ga yuklansa, sizda yuklash tartibida muammo "
+"bo‘lishi mumkin."
+
+#: ../../efi.rst:27
+msgid "To modify the boot order:"
+msgstr "Yuklash tartibini o‘zgartirish uchun:"
+
+#: ../../efi.rst:29 ../../multiboot.rst:18
+msgid "Boot Linux Mint in ``live`` mode (with your USB stick or DVD)."
+msgstr ""
+"Linux Mintni ``jonli`` rejimida yuklang (USB flesh-disk yoki DVDdan)."
+
+#: ../../efi.rst:31 ../../multiboot.rst:20
+msgid "Open a terminal."
+msgstr "Terminalni oching."
+
+#: ../../efi.rst:33
+msgid "Type ``sudo efibootmgr`` and press :kbd:`Enter`."
+msgstr "``sudo efibootmgr`` kiriting va :kbd:`Enter` tugmasini bosing."
+
+#: ../../efi.rst:35
+msgid "This command lists the available boot options and the boot order."
+msgstr ""
+"Bu buyruq mavjud yuklash opsiyalari va yuklash tartibini sanab o‘tadi."
+
+#: ../../efi.rst:41
+msgid "In the screenshot above, there are three boot options:"
+msgstr "Yuqoridagi skrinshotda uchta yuklash opsiyasi mavjud:"
+
+#: ../../efi.rst:43
+msgid "``ubuntu`` at ``0000``"
+msgstr "``ubuntu`` at ``0000``"
+
+#: ../../efi.rst:44
+msgid "``linuxmint`` at ``0001``"
+msgstr "``linuxmint`` at ``0001``"
+
+#: ../../efi.rst:45
+msgid "``Mac OS X`` at ``0081``"
+msgstr "``Mac OS X`` at ``0081``"
+
+#: ../../efi.rst:47
+msgid ""
+"The boot order is ``0081``. This indicates that the computer only tries to "
+"boot Mac OS and not Linux Mint."
+msgstr ""
+"Yuklash tartibi ``0081``. Bu shuni ko‘rsatadiki, kompyuter faqat Mac OS-ni "
+"yuklashga harakat qiladi, Linux Mint emas."
+
+#: ../../efi.rst:50
+msgid ""
+"For technical reasons Linux Mint uses ``ubuntu`` as its EFI boot name."
+msgstr ""
+"Texnik sabablarga ko‘ra Linux Mint o‘zining EFI yuklash nomi sifatida "
+"``ubuntu``dan foydalanadi."
+
+#: ../../efi.rst:53
+msgid ""
+"To fix the boot order, type ``sudo efibootmgr --bootorder XXXX,YYYY`` (where "
+"``XXXX`` and ``YYYY`` are the operating system boot options you want to "
+"boot)."
+msgstr ""
+"Yuklash tartibini tuzatish uchun ``sudo efibootmgr --bootorder XXXX,YYYY`` "
+"kiriting (bu yerda ``XXXX`` va ``YYYY`` siz yuklamoqchi bo‘lgan operatsion "
+"tizimni yuklash opsiyalari)."
+
+#: ../../efi.rst:59
+msgid ""
+"In the screenshot above, ``sudo efibootmgr --bootorder 0000,0081`` instructs "
+"the computer to first try to boot Linux Mint (``ubuntu`` being the EFI boot "
+"name for Linux Mint), and then Mac OS."
+msgstr ""
+"Yuqoridagi skrinshotda ``sudo efibootmgr --bootorder 0000,0081`` kompyuterga "
+"avval Linux Mint (``ubuntu`` Linux Mint uchun EFI yuklash nomi), so‘ngra Mac "
+"OS ni yuklashga urinib ko‘rishni buyuradi."
+
+#: ../../efi.rst:64
+msgid ""
+"In the screenshot above ``0000`` is the first boot option so the computer "
+"boots on the Linux Mint grub menu. If grub fails (or if it is dismissed with "
+"the ``exit`` command), the computer follows the boot order and then tries to "
+"boot ``0081``, which corresponds to Mac OS."
+msgstr ""
+"Yuqoridagi skrinshotda ``0000`` birinchi yuklash variantidir, shuning uchun "
+"kompyuter Linux Mint grub menyusida ishga tushadi. Grub ishlamay qolsa (yoki "
+"``exit`` buyrug`i bilan o‘chirilgan bo‘lsa), kompyuter yuklash tartibiga "
+"amal qiladi va keyin Mac OS ga mos keladigan ``0081`` yuklashga harakat "
+"qiladi."
+
+#: ../../help.rst:2
+msgid "Where to find help"
+msgstr "Yordamni qayerdan topish mumkin"
+
+#: ../../help.rst:4
+msgid ""
+"Many users will be glad to help you and guide you through your first steps "
+"with Linux if you are nice and patient with them and if you give them the "
+"information they require to understand the issues you are facing."
+msgstr ""
+"Agar siz ularga yaxshi munosabatda bo‘lsangiz va sabr-toqatli bo‘lsangiz va "
+"ularga duch kelayotgan muammolarni tushunish uchun zarur bo‘lgan "
+"ma'lumotlarni bersangiz, ko‘plab foydalanuvchilar sizga yordam berishdan va "
+"Linux bilan birinchi qadamlaringizni yo‘naltirishdan xursand bo‘lishadi."
+
+#: ../../help.rst:7
+msgid "The forums"
+msgstr "Forumlar"
+
+#: ../../help.rst:9
+msgid ""
+"The best place to find help is on the `Linux Mint Forums "
+"<https://forums.linuxmint.com>`_."
+msgstr ""
+"Yordam olish uchun eng yaxshi joy `Linux Mint Forumlari "
+"<https://forums.linuxmint.com>`_."
+
+#: ../../help.rst:12
+msgid ""
+"Search the forums before asking, in case someone else already asked the same "
+"question."
+msgstr ""
+"So‘rashdan oldin forumlarni qidiring, agar kimdir xuddi shu savolni bergan "
+"bo‘lsa."
+
+#: ../../help.rst:15
+msgid "The chat room"
+msgstr "Suhbat xonasi"
+
+#: ../../help.rst:17
+msgid "Another great place to find help is in the IRC chat room."
+msgstr "Yordam topishning yana bir ajoyib joyi bu IRC suhbat xonasidir."
+
+#: ../../help.rst:19
+msgid ""
+"To reach the chat room from within Linux Mint, launch :menuselection:`Menu --"
+"> Internet --> HexChat`."
+msgstr ""
+"Linux Mint ichidan chat xonasiga kirish uchun :menuselection:`Menyu -> "
+"Internet -> HexChat`ni ishga tushiring."
+
+#: ../../help.rst:21
+msgid ""
+"If you are using another operating system, you can use `Kiwiirc "
+"<https://kiwiirc.com/client/irc.spotchat.org/?i#linuxmint-help>`_ to connect "
+"to the chat room."
+msgstr ""
+"Agar siz boshqa operatsion tizimdan foydalansangiz, suhbat xonasiga ulanish "
+"uchun `Kiwiirc <https://kiwiirc.com/client/irc.spotchat.org/?i#linuxmint-"
+"help>`_ dan foydalanishingiz mumkin."
+
+#: ../../help.rst:24
+msgid ""
+"Many people are connected to the chat room but only look at it now and then. "
+"Be patient after asking a question. Don't repeat it and stay connected until "
+"you get an answer. It can sometimes take a few hours for somebody to see "
+"your question and reply to you. Don't quit after a few minutes. It is "
+"frustrating to you, but also to others who later see your question and are "
+"unable to reply because you already left."
+msgstr ""
+"Ko‘p odamlar suhbat xonasiga ulangan, lekin faqat hozir va keyin qarash. "
+"Savol bergandan keyin sabr qiling. Buni takrorlamang va javob "
+"olmaguningizcha aloqada qoling. Ba'zan kimdir sizning savolingizni ko‘rishi "
+"va sizga javob berishi uchun bir necha soat vaqt ketishi mumkin. Bir necha "
+"daqiqadan so‘ng tashlamang. Bu sizni, balki sizning savolingizni keyinroq "
+"ko‘rgan va siz allaqachon ketganingiz uchun javob bera olmaydigan "
+"boshqalarni ham xafa qiladi."
+
+#: ../../help.rst:27
+msgid ""
+"If you are using Hexchat, you can minimize it to tray by clicking its status "
+"icon. People will often mention your nickname when replying to you. When "
+"they do, your Hexchat status icon will blink to catch your attention."
+msgstr ""
+"Agar siz Hexchat dan foydalanayotgan bo‘lsangiz, uning holati belgisini "
+"bosish orqali uni lagandaga kamaytirishingiz mumkin. Odamlar sizga javob "
+"berishda sizning taxallusingizni tez-tez eslatib turadi. Ular qilganda, "
+"sizning e'tiboringizni jalb qilish uchun Hexchat status belgisi miltillaydi."
+
+#: ../../help.rst:30
+msgid "Community resources"
+msgstr "Hamjamiyat resurslari"
+
+#: ../../help.rst:32
+msgid ""
+"The `tutorials section <https://community.linuxmint.com/tutorial/search>`_ "
+"is useful to find tutorials about Linux Mint."
+msgstr ""
+"Linux Mint haqida darsliklarni topish uchun `qo‘llanmalar bo‘limi "
+"<https://community.linuxmint.com/tutorial/search>`_ foydalidir."
+
+#: ../../help.rst:34
+msgid ""
+"The `hardware database <https://community.linuxmint.com/hardware/search>`_ "
+"is useful to find compatible hardware."
+msgstr ""
+"`Uskuna ma'lumotlar bazasi "
+"<https://community.linuxmint.com/hardware/search>`_ mos keluvchi uskunani "
+"topish uchun foydalidir."
+
+#: ../../help.rst:37
+msgid "Local communities"
+msgstr "Mahalliy hamjamiyatlar"
+
+#: ../../help.rst:39
+msgid ""
+"To find help in your language, use the `Local Communities "
+"<https://www.linuxmint.com/links.php>`_."
+msgstr ""
+"O‘z tilingizda yordam topish uchun `Mahalliy hamjamiyatlar "
+"<https://www.linuxmint.com/links.php>`_ dan foydalaning."
+
+#: ../../index.rst:2
+msgid "Linux Mint Installation Guide"
+msgstr "Linux Mint o‘rnatish bo‘yicha qo‘llanma"
+
+#: ../../index.rst:8
+msgid ""
+"Linux Mint comes in the form of an ISO image (an .iso file) which can be "
+"used to make a bootable DVD or a bootable USB stick."
+msgstr ""
+"Linux Mint yuklanadigan DVD yoki yuklanadigan USB flesh-diskini yaratish "
+"uchun ishlatilishi mumkin bo‘lgan ISO tasviri (.iso fayli) shaklida keladi."
+
+#: ../../index.rst:10
+msgid ""
+"This guide will help you download the right ISO image, create your bootable "
+"media and install Linux Mint on your computer."
+msgstr ""
+"Ushbu qo‘llanma to‘g‘ri ISO tasvirini yuklab olishga, yuklanadigan media "
+"yaratishga va Linux Mint dasturini kompyuteringizga o‘rnatishga yordam "
+"beradi."
+
+#: ../../index.rst:12 ../../sections.rst:5
+msgid "Download"
+msgstr "Yuklab olish"
+
+#: ../../index.rst:19 ../../sections.rst:7
+msgid "Live Boot"
+msgstr "Jonli yuklash"
+
+#: ../../index.rst:26 ../../sections.rst:9
+msgid "Installation"
+msgstr "O‘rnatish"
+
+#: ../../index.rst:32 ../../sections.rst:11
+msgid "Post-installation"
+msgstr "O‘rnatishdan keyin"
+
+#: ../../index.rst:41 ../../sections.rst:13
+msgid "Troubleshooting"
+msgstr "Muammolarni bartaraf qilish"
+
+#: ../../index.rst:48 ../../sections.rst:15
+msgid "Frequently Asked Questions"
+msgstr "Tez-tez beriladigan savollar"
+
+#: ../../install.rst:2
+msgid "Install Linux Mint"
+msgstr "Linux Mintni o‘rnatish"
+
+#: ../../install.rst:5
+msgid "The live session"
+msgstr "Jonli sessiya"
+
+#: ../../install.rst:7
+msgid ""
+"When you boot the computer from the USB stick (or DVD), Linux Mint starts a "
+"``live session``. It logs you in automatically as a user called ``mint`` and "
+"shows you a desktop with the installer on it:"
+msgstr ""
+"Kompyuterni USB flesh-diskidan (yoki DVD-dan) yuklaganingizda, Linux Mint "
+"``jonli sessiya``ni boshlaydi. U sizni avtomatik ravishda ``mint`` deb "
+"nomlangan foydalanuvchi sifatida tizimga kiritadi va o‘rnatuvchisi bo‘lgan "
+"ish stolini ko‘rsatadi:"
+
+#: ../../install.rst:13
+msgid "The Linux Mint live session"
+msgstr "Linux Mint jonli sessiyasi"
+
+#: ../../install.rst:15
+msgid ""
+"The ``live session`` is similar to a normal session (i.e. to Linux Mint once "
+"it is permanently installed on the computer), but with the following "
+"exceptions:"
+msgstr ""
+"``Jonli sessiya`` oddiy sessiyaga o‘xshaydi (ya'ni, Linux Mint kompyuterda "
+"doimiy o‘rnatilgandan so‘ng), lekin quyidagi istisnolardan tashqari:"
+
+#: ../../install.rst:17
+msgid ""
+"The Live session is slower (it is loaded from a USB stick or DVD as opposed "
+"to a SSD or HDD)."
+msgstr ""
+"Jonli sessiya sekinroq (SSD yoki HDDdan farqli o‘laroq, USB flesh-disk yoki "
+"DVD-dan yuklanadi)."
+
+#: ../../install.rst:18
+msgid ""
+"Changes you make in the live session are not permanent. They are not written "
+"to the USB stick (or DVD) and they do not impact the system installed by the "
+"installer."
+msgstr ""
+"Jonli sessiyada siz kiritgan o‘zgarishlar doimiy emas. Ular USB flesh-"
+"diskiga (yoki DVD) yozilmagan va o‘rnatuvchi tomonidan o‘rnatilgan tizimga "
+"ta'sir qilmaydi."
+
+#: ../../install.rst:19
+msgid ""
+"Some applications work differently (or not at all) in the live session "
+"(Timeshift, Flatpak, Update Manager, Welcome Screen..etc.)."
+msgstr ""
+"Ba'zi ilovalar jonli sessiyada boshqacha ishlaydi (yoki umuman ishlamaydi) "
+"(Timeshift, Flatpak, Update Manager, Welcome Screen va hokazo)."
+
+#: ../../install.rst:22
+msgid ""
+"The username for the live session is ``mint``. If asked for a password press "
+":kbd:`Enter`."
+msgstr ""
+"Jonli sessiya uchun foydalanuvchi nomi ``mint``. Agar parol so‘ralsa "
+":kbd:`Enter` tugmasini bosing."
+
+#: ../../install.rst:25
+msgid "Installing Linux Mint on the computer"
+msgstr "Linux Mintni kompyuterga o‘rnatish"
+
+#: ../../install.rst:27
+msgid "To permanently install Linux Mint on your computer:"
+msgstr "Linux Mint dasturini kompyuteringizga doimiy oʻrnatish uchun:"
+
+#: ../../install.rst:29
+msgid "Double-click :guilabel:`Install Linux Mint`."
+msgstr "Ikki marta bosing:guilabel:`Linux Mintni o‘rnatish`."
+
+#: ../../install.rst:31
+msgid "Select your language."
+msgstr "Tilingizni tanlang."
+
+#: ../../install.rst:37
+msgid "Connect to the Internet."
+msgstr "Internetga ulaning."
+
+#: ../../install.rst:43
+msgid ""
+"If you are connected to the Internet, tick the box to install the multimedia "
+"codecs."
+msgstr ""
+"Agar siz Internetga ulangan bo‘lsangiz, multimedia kodeklarini o‘rnatish "
+"uchun katakchani belgilang."
+
+#: ../../install.rst:49
+msgid "Choose an installation type."
+msgstr "O‘rnatish turini tanlang."
+
+#: ../../install.rst:55
+msgid ""
+"If Linux Mint is the only operating system you want to run on this computer "
+"and all data can be lost on the hard drive, choose :guilabel:`Erase disk and "
+"install Linux Mint`."
+msgstr ""
+"Agar Linux Mint ushbu kompyuterda ishlamoqchi boʻlgan yagona operatsion "
+"tizim boʻlsa va qattiq diskda barcha maʼlumotlar yoʻqolishi mumkin boʻlsa, "
+":guilabel:`Diskni oʻchirish va Linux Mintni oʻrnatish` ni tanlang."
+
+#: ../../install.rst:58
+msgid ""
+":guilabel:`Encrypt the new Linux Mint installation for security` refers to "
+"full disk encryption. At this stage of the installation your keyboard layout "
+"wasn't yet selected so it is set to en_US. If you decide to use this option, "
+"keep this in mind when entering a password. Note that there are issues with "
+"this option and some NVIDIA drivers. If you are new to Linux use home "
+"directory encryption instead (you can select it later during the "
+"installation)."
+msgstr ""
+":guilabel:`Xavfsizlik uchun yangi Linux Mint oʻrnatilishini shifrlash` "
+"diskni toʻliq shifrlashga ishora qiladi. o‘rnatishning ushbu bosqichida "
+"klaviatura tartibi hali tanlanmagan, shuning uchun u en_US ga o‘rnatildi. "
+"Agar siz ushbu parametrdan foydalanishga qaror qilsangiz, parolni kiritishda "
+"buni yodda saqlang. Ushbu parametr va ba'zi NVIDIA drayverlari bilan bog‘liq "
+"muammolar mavjudligini unutmang. Agar siz Linuxda yangi bo‘lsangiz, uning "
+"o‘rniga uy katalogini shifrlashdan foydalaning (o‘rnatish vaqtida uni "
+"keyinroq tanlashingiz mumkin)."
+
+#: ../../install.rst:60
+msgid ""
+"If another operating system is present on the computer, the installer shows "
+"you an option to install Linux Mint alongside it. If you choose this option, "
+"the installer automatically resizes your existing operating system, makes "
+"room and installs Linux Mint beside it. A boot menu is set up to choose "
+"between the two operating systems each time you start your computer."
+msgstr ""
+"Agar kompyuterda boshqa operatsion tizim mavjud bo‘lsa, o‘rnatuvchi sizga "
+"Linux Mint-ni o‘rnatish imkoniyatini ko‘rsatadi. Agar siz ushbu parametrni "
+"tanlasangiz, o‘rnatuvchi avtomatik ravishda mavjud operatsion tizimingiz "
+"hajmini o‘zgartiradi, joy ajratadi va uning yonida Linux Mint-ni o‘rnatadi. "
+"Har safar kompyuterni ishga tushirganingizda ikkita operatsion tizimdan "
+"birini tanlash uchun yuklash menyusi o‘rnatiladi."
+
+#: ../../install.rst:64
+msgid ""
+"If you want to manage the partitions or specify which partitions to use, "
+"select :guilabel:`Something else`."
+msgstr ""
+"Agar siz bo‘limlarni boshqarmoqchi bo‘lsangiz yoki qaysi bo‘limlardan "
+"foydalanishni belgilasangiz, :guilabel:`Something another`-ni tanlang."
+
+#: ../../install.rst:70
+msgid ""
+"Linux Mint requires one partition to be mounted on the root ``/`` directory."
+msgstr ""
+"Linux Mint ildiz ``/`` katalogiga bitta bo‘lim ulanishini talab qiladi."
+
+#: ../../install.rst:72
+msgid ""
+"The Linux Mint operating system (without additional software or personal "
+"data) takes roughly 15GB, so give this partition a decent size (100GB or "
+"more)."
+msgstr ""
+"Linux Mint operatsion tizimi (qo‘shimcha dasturiy ta'minot yoki shaxsiy "
+"ma'lumotlarsiz) taxminan 15 Gb joy oladi, shuning uchun bu bo‘limga munosib "
+"hajm bering (100 Gb yoki undan ko‘p)."
+
+#: ../../install.rst:74
+msgid "``ext4`` is recommended. It is the most popular Linux filesystem."
+msgstr "``ext4`` tavsiya etiladi. Bu eng mashhur Linux fayl tizimi."
+
+#: ../../install.rst:79
+msgid ""
+"Also create a ``swap`` partition. This partition is used for hibernation and "
+"as a safety buffer in case your computer runs out of RAM. Give this "
+"partition a size equal to the amount of RAM in your computer."
+msgstr ""
+"Shuningdek, \"almashtirish\" bo‘limini yarating. Ushbu bo‘lim kutish "
+"rejimida va kompyuteringizda operativ xotira tugashi uchun xavfsizlik buferi "
+"sifatida ishlatiladi. Ushbu bo‘limga kompyuteringizdagi RAM miqdoriga teng "
+"hajmni bering."
+
+#: ../../install.rst:81
+msgid "Select your timezone"
+msgstr "Vaqt mintaqangizni tanlang"
+
+#: ../../install.rst:87
+msgid "Select your keyboard layout"
+msgstr "Klaviatura tartibini tanlang"
+
+#: ../../install.rst:93
+msgid "Enter your user details"
+msgstr "Foydalanuvchi ma'lumotlarini kiriting"
+
+#: ../../install.rst:99
+msgid ""
+"Your ``name`` can be your real name, but it doesn't have to be. It is only "
+"used locally, in the screensaver and on the login screen."
+msgstr ""
+"Sizning ``ismingiz`` haqiqiy ismingiz bo‘lishi mumkin, lekin shunday "
+"bo‘lishi shart emas. U faqat mahalliy sifatida, ekran pardasida va kirish "
+"ekranida ishlatiladi."
+
+#: ../../install.rst:101
+msgid ""
+"Your ``username`` is what you log in as, and your ``hostname`` is the name "
+"of your computer on the network."
+msgstr ""
+"Sizning ``foydalanuvchi nomingiz`` siz tizimga kirganingiz va ``hostname`` "
+"tarmoqdagi kompyuteringiz nomidir."
+
+#: ../../install.rst:103
+msgid ""
+"To prevent bugs only use lowercase characters, with no punctuation or "
+"accentuation."
+msgstr ""
+"Xatolarning oldini olish uchun faqat kichik harflardan foydalaning, tinish "
+"belgilari yoki urg‘u qo‘yilmaydi."
+
+#: ../../install.rst:105
+msgid ""
+"To protect your personal data against local attacks (people around you, or "
+"in case your computer gets stolen), tick :guilabel:`Encrypt my home folder`."
+msgstr ""
+"Shaxsiy ma'lumotlaringizni mahalliy hujumlardan himoya qilish uchun "
+"(atrofingizdagi odamlar yoki kompyuteringiz o‘g‘irlangan taqdirda) "
+":guilabel:`Uy jildimni shifrlash` belgisini qo‘ying."
+
+#: ../../install.rst:107
+msgid "Choose a strong password."
+msgstr "Kuchli parolni tanlang."
+
+#: ../../install.rst:109
+msgid "Enjoy the slideshow while Linux Mint is installed on your computer."
+msgstr ""
+"Kompyuteringizda Linux Mint o‘rnatilganda slayd-shoudan bahramand bo‘ling."
+
+#: ../../install.rst:115
+msgid "When the installation is finished, click :guilabel:`Restart Now`."
+msgstr ""
+"O‘rnatish tugagach, :guilabel:`Endi qayta ishga tushiring` tugmasini bosing."
+
+#: ../../install.rst:121
+msgid ""
+"The computer will then start to shut down and ask you to remove the USB disk "
+"(or DVD). Upon reboot, your computer should show you a boot menu or start "
+"your newly installed Linux Mint operating system."
+msgstr ""
+"Shundan so‘ng kompyuter o‘chadi va sizdan USB diskini (yoki DVD) olib "
+"tashlashingizni so‘raydi. Qayta ishga tushirilgandan so‘ng, kompyuteringiz "
+"yuklash menyusini ko‘rsatishi yoki yangi o‘rnatilgan Linux Mint operatsion "
+"tizimini ishga tushirishi kerak."
+
+#: ../../locales.rst:2
+msgid "Language support"
+msgstr "Tilni qo‘llab-quvvatlash"
+
+#: ../../locales.rst:4
+msgid ""
+"Language support includes translations but also packages related to spell-"
+"checking, synonyms, hyphenation and dictionaries which enhance your "
+"experience in software applications such as LibreOffice."
+msgstr ""
+"Tilni qoʻllab-quvvatlashga tarjimalar, shuningdek, imlo tekshiruvi, "
+"sinonimlar, defislar va LibreOffice kabi dasturiy taʼminot ilovalaridagi "
+"tajribangizni oshiruvchi lugʻatlar bilan bogʻliq paketlar kiradi."
+
+#: ../../locales.rst:6
+msgid "Launch :menuselection:`Menu --> Preferences --> Languages`."
+msgstr "Ishga tushirish :menuselection:`Menyu --> Parametrlar --> Tillar`."
+
+#: ../../locales.rst:12
+msgid "Click :guilabel:`Install / Remove Language`."
+msgstr ":guilabel:`Tilni o‘rnatish/o‘chirish` tugmasini bosing."
+
+#: ../../locales.rst:18
+msgid ""
+"If beside your locale, you see a label saying ``Some language packs are "
+"missing``, select your locale and click :guilabel:`Install language packs`."
+msgstr ""
+"Mahalliy tilingiz yonida ``Ba'zi til paketlari yo‘q`` degan yorliqni "
+"ko‘rsangiz, mahalliy tilingizni tanlang va :guilabel:`Til paketlarini "
+"o‘rnatish` tugmasini bosing."
+
+#: ../../multiboot.rst:2
+msgid "Multi-boot"
+msgstr "Multi-yuklash"
+
+#: ../../multiboot.rst:5
+msgid "Always install Windows first"
+msgstr "Har doim avval Windowsni o‘rnating"
+
+#: ../../multiboot.rst:7
+msgid ""
+"Windows does not detect other operating systems and does not feature a boot "
+"menu. When you install it, it overwrites your boot sequence and your "
+"computer then boots straight into Windows."
+msgstr ""
+"Windows boshqa operatsion tizimlarni aniqlamaydi va yuklash menyusiga ega "
+"emas. Uni o‘rnatganingizda, u yuklash ketma-ketligini qayta yozadi va "
+"kompyuteringiz to‘g‘ridan-to‘g‘ri Windowsga yuklanadi."
+
+#: ../../multiboot.rst:9
+msgid ""
+"Linux Mint (and most Linux distributions) detects other operating systems "
+"and builds a menu from which you can choose which system to boot."
+msgstr ""
+"Linux Mint (va ko‘pgina Linux distributivlari) boshqa operatsion tizimlarni "
+"aniqlaydi va qaysi tizimni yuklashni tanlashingiz mumkin bo‘lgan menyuni "
+"yaratadi."
+
+#: ../../multiboot.rst:11
+msgid ""
+"For this reason, if you want to dual-boot or multi-boot with Windows, it is "
+"easier and recommended to install Windows first, before you install Linux "
+"Mint."
+msgstr ""
+"Shu sababli, agar siz Windows bilan ikkilamchi yoki ko‘p yuklashni "
+"xohlasangiz, Linux Mint-ni o‘rnatishdan oldin Windows-ni o‘rnatish osonroq "
+"va tavsiya etiladi."
+
+#: ../../multiboot.rst:14
+msgid "Fix the boot sequence"
+msgstr "Yuklash ketma-ketligini tuzating"
+
+#: ../../multiboot.rst:16
+msgid "If Windows overwrites your boot sequence:"
+msgstr "Agar Windows yuklash ketma-ketligini qayta yozsa:"
+
+#: ../../multiboot.rst:22
+msgid "To list your partitions, type ``lsblk -f`` and press :kbd:`Enter`."
+msgstr ""
+"Bo‘limlaringizni ro‘yxatga olish uchun ``lsblk -f`` yozing va :kbd:`Enter` "
+"tugmasini bosing."
+
+#: ../../multiboot.rst:28
+msgid ""
+"Find the partition where Linux Mint is installed. On most systems this "
+"should be the only ``ext4`` partition."
+msgstr ""
+"Linux Mint o‘rnatilgan bo‘limni toping. Aksariyat tizimlarda bu yagona "
+"``ext4`` bo‘limi bo‘lishi kerak."
+
+#: ../../multiboot.rst:30
+msgid "In the screenshot above:"
+msgstr "Yuqoridagi skrinshotda:"
+
+#: ../../multiboot.rst:32
+msgid ""
+"``sdb`` is the USB stick (recognizable by its ``iso9660`` type which "
+"corresponds to an ISO image)."
+msgstr ""
+"``sdb`` - USB flesh-diski (ISO tasviriga mos keladigan ``iso9660`` turi "
+"bilan tanib olinadi)."
+
+#: ../../multiboot.rst:33
+msgid "``sda`` is the hard drive."
+msgstr "``sda`` - bu qattiq disk."
+
+#: ../../multiboot.rst:34
+msgid ""
+"``sda4`` is the partition on the ``sda`` hard drive, where Linux Mint is "
+"installed."
+msgstr "``sda4`` - Linux Mint o‘rnatilgan ``sda`` qattiq diskidagi bo‘lim."
+
+#: ../../multiboot.rst:36
+msgid "To list partition sizes, type ``lsblk``:"
+msgstr "Bo‘lim o‘lchamlari ro‘yxatini ko‘rish uchun ``lsblk`` kiriting:"
+
+#: ../../multiboot.rst:42
+msgid "To list partition labels, type ``blkid``:"
+msgstr "Bo‘lim yorliqlarini ro‘yxatini ko‘rish uchun ``blkid`` kiriting:"
+
+#: ../../multiboot.rst:48
+msgid ""
+"Mount the Linux Mint partition and reinstall the grub menu with the "
+"following commands:"
+msgstr ""
+"Linux Mint bo‘limini ulang va grub menyusini quyidagi buyruqlar bilan qayta "
+"o‘rnating:"
+
+#: ../../multiboot.rst:56
+msgid ""
+"In the commands above, replace /dev/sda4 and /dev/sda with the appropriate "
+"names for your Linux Mint partition and your hard drive device."
+msgstr ""
+"Yuqoridagi buyruqlarda /dev/sda4 va /dev/sda ni Linux Mint bo‘limi va qattiq "
+"disk qurilmangiz uchun mos nomlar bilan almashtiring."
+
+#: ../../oem.rst:2
+msgid "Pre-installing Linux Mint (OEM Installation)"
+msgstr "Linux Mintni oldindan o‘rnatish (OEM o‘rnatish)"
+
+#: ../../oem.rst:4
+msgid ""
+"In the ISO boot menu, ``OEM install`` is used to preinstall Linux Mint."
+msgstr ""
+"ISO yuklash menyusida ``OEM o‘rnatish`` Linux Mintni oldindan o‘rnatish "
+"uchun ishlatiladi."
+
+#: ../../oem.rst:6
+msgid "This option is useful to:"
+msgstr "Ushbu parametr quyidagilar uchun foydalidir:"
+
+#: ../../oem.rst:8
+msgid ""
+"Manufacturers and resellers who want to install Linux Mint on computers they "
+"sell to their customers."
+msgstr ""
+"Linux Mintni o‘z mijozlariga sotadigan kompyuterlarga o‘rnatmoqchi bo‘lgan "
+"ishlab chiqaruvchilar va sotuvchilar."
+
+#: ../../oem.rst:9
+msgid "People who want to sell or give their computer to somebody else."
+msgstr "Kompyuterlarini sotmoqchi yoki boshqa birovga bermoqchi bo‘lganlar."
+
+#: ../../oem.rst:11
+msgid ""
+"When you install Linux Mint in ``OEM`` mode, the operating system is "
+"installed with a temporary user account and prepared for the computer's "
+"future owner."
+msgstr ""
+"Linux Mintni ``OEM`` rejimida o‘rnatganingizda, operatsion tizim "
+"vaqtinchalik foydalanuvchi hisobi bilan o‘rnatiladi va kompyuterning "
+"kelajakdagi egasi uchun tayyorlanadi."
+
+#: ../../oem.rst:13
+msgid "The user account is set up by the new owner."
+msgstr "Foydalanuvchi hisobi yangi egasi tomonidan o‘rnatiladi."
+
+#: ../../oem.rst:15
+msgid "To perform an OEM installation follow the steps below:"
+msgstr "OEMni o‘rnatish uchun quyidagi amallarni bajaring:"
+
+#: ../../oem.rst:17
+msgid "Select ``OEM Install`` from the USB stick (or DVD) menu."
+msgstr "USB flesh (yoki DVD) menyusidan ``OEM Install``ni tanlang."
+
+#: ../../oem.rst:19
+msgid "Launch the installer and follow the installation instructions."
+msgstr ""
+"O‘rnatuvchini ishga tushiring va o‘rnatish ko‘rsatmalariga amal qiling."
+
+#: ../../oem.rst:23
+msgid ""
+"Change any system settings or install additional software if you want."
+msgstr ""
+"Agar xohlasangiz, har qanday tizim sozlamalarini o‘zgartiring yoki "
+"qo‘shimcha dasturlarni o‘rnating."
+
+#: ../../oem.rst:25
+msgid ""
+"When ready, click :guilabel:`Prepare for shipping to end user`, enter the "
+"password you chose during the installation, click :guilabel:`OK` and shut "
+"down the computer."
+msgstr ""
+"Tayyor bo‘lgach, :guilabel:`Oxirgi foydalanuvchiga jo‘natish uchun "
+"tayyorgarlik` tugmasini bosing, o‘rnatish vaqtida tanlagan parolni kiriting, "
+":guilabel:`OK` tugmasini bosing va kompyuterni o‘chiring."
+
+#: ../../oem.rst:31
+msgid ""
+"When the new owner of the computer boots the computer the following screen "
+"appears:"
+msgstr ""
+"Kompyuterning yangi egasi kompyuterni ishga tushirganda quyidagi ekran paydo "
+"bo‘ladi:"
+
+#: ../../oem.rst:37
+msgid ""
+"The new owner selects his or her username, password, keyboard layout, "
+"language, timezone and all the details relevant to create his or her user "
+"account."
+msgstr ""
+"Yangi egasi o‘zining foydalanuvchi nomini, parolini, klaviatura tartibini, "
+"tilini, vaqt mintaqasini va foydalanuvchi hisobini yaratish uchun tegishli "
+"barcha ma'lumotlarni tanlaydi."
+
+#: ../../partitioning.rst:2
+msgid "Partitioning"
+msgstr "Bo‘limga ajratish"
+
+#: ../../partitioning.rst:5
+msgid "Disks and partitions under Linux"
+msgstr "Linuxda disklar va bo‘limlar"
+
+#: ../../partitioning.rst:7
+msgid ""
+"If you are not familiar with the Linux naming scheme for devices and "
+"partitions, or the concept of filesystems and mount points, read:"
+msgstr ""
+"Agar siz qurilmalar va bo‘limlar uchun Linux nomlash sxemasi yoki fayl "
+"tizimlari va ulash nuqtalari tushunchasi bilan tanish bo‘lmasangiz, o‘qing:"
+
+#: ../../partitioning.rst:9
+msgid ""
+"`A beginner’s guide to disks and disk partitions in Linux "
+"<http://linuxbsdos.com/2014/11/08/a-beginners-guide-to-disks-and-disk-"
+"partitions-in-linux/>`_"
+msgstr ""
+"`Linux-da disklar va disk bo‘limlari bo‘yicha boshlanuvchilar uchun "
+"qo‘llanma <http://linuxbsdos.com/2014/11/08/a-beginners-guide-to-disks-and-"
+"disk-partitions-in-linux/>`_"
+
+#: ../../partitioning.rst:10
+msgid ""
+"`Device Names in Linux "
+"<https://www.debian.org/releases/wheezy/amd64/apcs04.html.en>`_"
+msgstr ""
+"`Linuxdagi qurilma nomlari "
+"<https://www.debian.org/releases/wheezy/amd64/apcs04.html.en>`_"
+
+#: ../../partitioning.rst:11
+msgid ""
+"`Understanding the Linux File System "
+"<http://etutorials.org/Linux+systems/red+hat+linux+9+professional+secrets/Par"
+"t+II+Exploring+Red+Hat+Linux/Chapter+7+Red+Hat+Linux+Basics/Understanding+the"
+"+Linux+File+System/>`_"
+msgstr ""
+"`Linux fayl tizimini tushunish "
+"<http://etutorials.org/Linux+systems/red+hat+linux+9+professional+secrets/Par"
+"t+II+Exploring+Red+Hat+Linux/Chapter+7+Red+Hat "
+"+Linux+asoslari/Linux+fayl+tizimini+tushunish/>`_"
+
+#: ../../partitioning.rst:14
+msgid "Dedicated /home partition"
+msgstr "Ajratilgan/home bo‘limi"
+
+#: ../../partitioning.rst:16
+msgid ""
+"In Linux, the ``/home`` directory is used to store user data and preferences."
+msgstr ""
+"Linuxda ``/home`` katalogi foydalanuvchi ma`lumotlari va parametrlarini "
+"saqlash uchun ishlatiladi."
+
+#: ../../partitioning.rst:18
+msgid ""
+"This directory contains one subdirectoy for each user account. Say your "
+"username is ``john``, your home directory is ``/home/john``, your downloads "
+"are in ``/home/john/Downloads``, your documents in ``/home/john/Documents``, "
+"your Firefox bookmarks somewhere in ``/home/john/.mozilla`` and so on..."
+msgstr ""
+"Ushbu katalogda har bir foydalanuvchi hisobi uchun bitta pastki katalog "
+"mavjud. Ayting-chi, foydalanuvchi nomingiz ``john``, sizning uy katalogingiz "
+"``/home/john``, yuklab olishlaringiz ``/home/john/Downloads``, "
+"hujjatlaringiz ``/home/john/Documents` da `, Firefox xatcho‘plaringiz "
+"``/home/john/.mozilla`` va hokazo..."
+
+#: ../../partitioning.rst:20
+msgid ""
+"By giving ``/home`` its own dedicated partition, you separate the user data "
+"from the rest of the operating system."
+msgstr ""
+"``/home`` o‘zining ajratilgan bo‘limini berish orqali siz foydalanuvchi "
+"ma`lumotlarini operatsion tizimning qolgan qismidan ajratasiz."
+
+#: ../../partitioning.rst:22
+msgid ""
+"The advantage is that you can wipe the operating system and replace it "
+"without affecting the user data."
+msgstr ""
+"Afzallik shundaki, siz operatsion tizimni o‘chirib tashlashingiz va "
+"foydalanuvchi ma'lumotlariga ta'sir qilmasdan almashtirishingiz mumkin."
+
+#: ../../partitioning.rst:24
+msgid "When installing Linux Mint:"
+msgstr "Linux Mintni o‘rnatishda:"
+
+#: ../../partitioning.rst:26
+msgid ""
+"Assign the ``/`` mount point to the partition dedicated to the operating "
+"system, and tell the installer to format it."
+msgstr ""
+"Operatsion tizim uchun ajratilgan bo‘limga ``/`` ulash nuqtasini belgilang "
+"va o‘rnatuvchiga uni formatlashni ayting."
+
+#: ../../partitioning.rst:28
+msgid ""
+"Assign the ``/home`` mount point to the partition dedicated to the user "
+"data, and if it contains user data already, make sure to tell the installer "
+"**not to format it**."
+msgstr ""
+"``/home`` ulash nuqtasini foydalanuvchi ma`lumotlariga bag`ishlangan "
+"bo‘limga belgilang va agar u allaqachon foydalanuvchi ma`lumotlarini o‘z "
+"ichiga olgan bo‘lsa, o‘rnatuvchiga **uni formatlamasligini** aytishni "
+"unutmang."
+
+#: ../../partitioning.rst:31
+msgid ""
+"This is not recommended for novice users. A misstep during the installation "
+"could wipe all your data. Always make backups, make sure to select the right "
+"partitions and to carefully review formatting options."
+msgstr ""
+"Bu yangi boshlanuvchilar uchun tavsiya etilmaydi. o‘rnatish paytida xatolik "
+"barcha ma'lumotlarni o‘chirib tashlashi mumkin. Har doim zaxira nusxalarini "
+"yarating, to‘g‘ri bo‘limlarni tanlaganingizga ishonch hosil qiling va "
+"formatlash parametrlarini diqqat bilan ko‘rib chiqing."
+
+#: ../../partitioning.rst:34
+msgid ""
+"A Linux Mint operating system takes about 15GB and grows as you install "
+"additional software. If you can spare the size, give it 100GB. Keep most of "
+"your free space for the home partition. User data (downloads, videos, "
+"pictures) takes a lot more space."
+msgstr ""
+"Linux Mint operatsion tizimi taxminan 15 Gb ni oladi va qo‘shimcha dasturiy "
+"ta'minotni o‘rnatishingiz bilan o‘sib boradi. Agar siz o‘lchamni tejashingiz "
+"mumkin bo‘lsa, unga 100 GB bering. Uy bo‘limi uchun bo‘sh joyingizning katta "
+"qismini saqlang. Foydalanuvchi ma'lumotlari (yuklashlar, videolar, rasmlar) "
+"ko‘proq joy egallaydi."
+
+#: ../../timeshift.rst:2
+msgid "System snapshots"
+msgstr "Tizim snapshotlari"
+
+#: ../../timeshift.rst:4
+msgid ""
+"Before you start using your operating system, set up system snapshots. Then "
+"if anything goes wrong, you can restore your system from an earlier backup."
+msgstr ""
+"Operatsion tizimingizdan foydalanishni boshlashdan oldin tizim "
+"snapshotlarini sozlang. Agar biror narsa noto‘g‘ri bo‘lsa, tizimingizni "
+"oldingi zaxiradan tiklashingiz mumkin."
+
+#: ../../timeshift.rst:6
+msgid "Launch :menuselection:`Menu --> Administration --> Timeshift`."
+msgstr "Ishga tushirish :menuselection:`Menyu --> Boshqaruv --> Timeshift`."
+
+#: ../../timeshift.rst:8
+msgid "Select ``RSYNC`` and click :guilabel:`Next`."
+msgstr "``RSYNC``ni tanlang va :guilabel:`Keyingi` tugmasini bosing."
+
+#: ../../timeshift.rst:13
+msgid ""
+"Select the device where you want system snapshots to be saved and click "
+":guilabel:`Next`."
+msgstr ""
+"Tizim suratlari saqlanishi kerak boʻlgan qurilmani tanlang va "
+":guilabel:`Keyingi`ni bosing."
+
+#: ../../timeshift.rst:19
+msgid ""
+"The selected device is not formatted and no data is lost. System snapshots "
+"are saved into a newly created ``timeshift`` directory on the root of the "
+"selected device."
+msgstr ""
+"Tanlangan qurilma formatlanmagan va hech qanday ma'lumot yo‘qolmaydi. Tizim "
+"suratlari tanlangan qurilmaning ildizida yangi yaratilgan ``timeshift`` "
+"katalogiga saqlanadi."
+
+#: ../../timeshift.rst:21
+msgid "Select when system snapshots are saved."
+msgstr "Tizim oniy tasvirlari qachon saqlanganini tanlang."
+
+#: ../../timeshift.rst:27
+msgid ""
+"System snapshots are incremental so although the first snapshot takes a "
+"significant amount of spaces, new snapshots only take additional space for "
+"files which have changed."
+msgstr ""
+"Tizim tasvirlari bosqichma-bosqich boʻladi, shuning uchun birinchi surat "
+"katta hajmdagi boʻsh joy egallasa-da, yangi tasvirlar faqat oʻzgartirilgan "
+"fayllar uchun qoʻshimcha joy egallaydi."
+
+#: ../../timeshift.rst:30
+msgid ""
+"``Boot`` snapshots are performed in the background and do not impact the "
+"speed of the boot sequence."
+msgstr ""
+"``Yuklash`` tasvirlari fonda bajariladi va yuklash ketma-ketligi tezligiga "
+"ta`sir qilmaydi."
+
+#: ../../timeshift.rst:32
+msgid "Click :guilabel:`Finish`."
+msgstr ":guilabel:`Finish` tugmasini bosing."
+
+#: ../../verify.rst:2
+msgid "Verify your ISO image"
+msgstr "ISO tasviringizni tasdiqlang"
+
+#: ../../verify.rst:4
+msgid ""
+"It is important to verify the integrity and authenticity of your ISO image."
+msgstr "ISO tasviringizning yaxlitligi va haqiqiyligini tekshirish muhimdir."
+
+#: ../../verify.rst:6
+msgid ""
+"The integrity check confirms that your ISO image was properly downloaded and "
+"that your local file is an exact copy of the file present on the download "
+"servers. An error during the download could result in a corrupted file and "
+"trigger random issues during the installation."
+msgstr ""
+"Butunlikni tekshirish sizning ISO tasviringiz to‘g‘ri yuklab olinganligini "
+"va mahalliy faylingiz yuklab olish serverlarida mavjud faylning aniq nusxasi "
+"ekanligini tasdiqlaydi. Yuklab olish paytidagi xato faylning buzilishiga "
+"olib kelishi va o‘rnatish vaqtida tasodifiy muammolarni keltirib chiqarishi "
+"mumkin."
+
+#: ../../verify.rst:8
+msgid ""
+"The authenticity check confirms that the ISO image you downloaded was signed "
+"by Linux Mint, and thus that it isn't a modified or malicious copy made by "
+"somebody else."
+msgstr ""
+"Haqiqiylik tekshiruvi siz yuklab olgan ISO tasviri Linux Mint tomonidan "
+"imzolanganligini va shuning uchun u boshqa birov tomonidan yaratilgan "
+"oʻzgartirilgan yoki zararli nusxa emasligini tasdiqlaydi."
+
+#: ../../verify.rst:11
+msgid "Download the SHA256 sums provided by Linux Mint"
+msgstr "Linux Mint tomonidan taqdim etilgan SHA256 summasini yuklab oling"
+
+#: ../../verify.rst:13
+msgid ""
+"All `download mirrors <https://www.linuxmint.com/mirrors.php>`_ provide the "
+"ISO images, a ``sha256sum.txt`` file and a ``sha256sum.txt.gpg`` file. You "
+"should be able to find these files in the same place you downloaded the ISO "
+"image from."
+msgstr ""
+"Barcha `yuklab olish oynalari <https://www.linuxmint.com/mirrors.php>`_ ISO "
+"tasvirlari, ``sha256sum.txt`` fayli va ``sha256sum.txt.gpg`` faylini taqdim "
+"etadi. Siz ushbu fayllarni ISO tasvirini yuklab olgan joydan topishingiz "
+"kerak."
+
+#: ../../verify.rst:15
+msgid ""
+"If you can't find them, browse the `Heanet download mirror "
+"<https://ftp.heanet.ie/mirrors/linuxmint.com/stable/>`_ and click the "
+"version of the Linux Mint release you downloaded."
+msgstr ""
+"Agar ularni topa olmasangiz, `Heanet yuklab olish oynasini "
+"<https://ftp.heanet.ie/mirrors/linuxmint.com/stable/>`_ ko‘rib chiqing va "
+"yuklab olingan Linux Mint versiyasini bosing."
+
+#: ../../verify.rst:17
+msgid "Download both ``sha256sum.txt`` and ``sha256sum.txt.gpg``."
+msgstr "``sha256sum.txt`` va ``sha256sum.txt.gpg`` yuklab oling."
+
+#: ../../verify.rst:19
+msgid ""
+"Do not copy their content, use \"right-click->Save Link As...\" to download "
+"the files themselves and do not modify them in any way."
+msgstr ""
+"Ularning mazmunidan nusxa ko‘chirmang, fayllarni o‘zi yuklab olish uchun "
+"\"sichqonchaning o‘ng tugmasi->Havolani boshqa saqlash...\" tugmasidan "
+"foydalaning va ularni hech qanday tarzda o‘zgartirmang."
+
+#: ../../verify.rst:22
+msgid "Integrity check"
+msgstr "Butunlikni tekshirish"
+
+#: ../../verify.rst:24
+msgid ""
+"To check the integrity of your local ISO file, generate its SHA256 sum and "
+"compare it with the sum present in ``sha256sum.txt``."
+msgstr ""
+"Mahalliy ISO faylingizning yaxlitligini tekshirish uchun uning SHA256 "
+"summasini yarating va uni ``sha256sum.txt`` da mavjud bo‘lgan summa bilan "
+"solishtiring."
+
+#: ../../verify.rst:31
+msgid ""
+"If you are using Windows follow the tutorial `How to verify the ISO image on "
+"Windows <https://forums.linuxmint.com/viewtopic.php?f=42&t=291093>`_."
+msgstr ""
+"Agar siz Windows-dan foydalanayotgan bo‘lsangiz, “Windows-da ISO tasvirini "
+"qanday tekshirish mumkin "
+"<https://forums.linuxmint.com/viewtopic.php?f=42&t=291093>`_ qo‘llanmasiga "
+"amal qiling."
+
+#: ../../verify.rst:33
+msgid ""
+"If the sums match, your ISO image was successfully downloaded. If they "
+"don't, download it again."
+msgstr ""
+"Agar summalar mos kelsa, sizning ISO tasviringiz muvaffaqiyatli yuklab "
+"olingan. Agar ular bo‘lmasa, uni qayta yuklab oling."
+
+#: ../../verify.rst:38
+msgid "Authenticity check"
+msgstr "Haqiqiylikni tekshirish"
+
+#: ../../verify.rst:40
+msgid ""
+"To verify the authenticity of ``sha256sum.txt``, check the signature of "
+"``sha256sum.txt.gpg`` by following the steps below."
+msgstr ""
+"``sha256sum.txt`` haqiqiyligini tekshirish uchun quyidagi amallarni bajarish "
+"orqali ``sha256sum.txt.gpg` imzosini tekshiring."
+
+#: ../../verify.rst:43
+msgid "Import the Linux Mint signing key:"
+msgstr "Linux Mint imzo kalitini import qiling:"
+
+#: ../../verify.rst:49
+msgid ""
+"If gpg complains about the key ID, try the following commands instead:"
+msgstr ""
+"Agar gpg kalit identifikatoridan shikoyat qilsa, uning o‘rniga quyidagi "
+"buyruqlarni sinab ko‘ring:"
+
+#: ../../verify.rst:56
+msgid ""
+"Check the output of the last command, to make sure the fingerprint is ``27DE "
+"B156 44C6 B3CF 3BD7 D291 300F 846B A25B AE09`` (with or without spaces)."
+msgstr ""
+"Barmoq izi ``27DE B156 44C6 B3CF 3BD7 D291 300F 846B A25B AE09`` (boʻsh yoki "
+"boʻsh joysiz) ekanligiga ishonch hosil qilish uchun oxirgi buyruqning "
+"chiqishini tekshiring."
+
+#: ../../verify.rst:59
+msgid "Verify the authenticity of sha256sum.txt:"
+msgstr "sha256sum.txt haqiqiyligini tekshiring:"
+
+#: ../../verify.rst:64
+msgid ""
+"The output of the last command should tell you that the file signature is "
+"``good`` and that it was signed with the ``A25BAE09`` key."
+msgstr ""
+"Oxirgi buyruqning chiqishi sizga fayl imzosi ``yaxshi`` ekanligini va u "
+"``A25BAE09`` tugmasi bilan imzolanganligini bildirishi kerak."
+
+#: ../../verify.rst:67
+msgid ""
+"GPG might warn you that the Linux Mint signature is not trusted by your "
+"computer. This is expected and perfectly normal."
+msgstr ""
+"GPG sizni Linux Mint imzosi kompyuteringiz tomonidan ishonchli emasligi "
+"haqida ogohlantirishi mumkin. Bu kutilgan va mutlaqo normal holat."
+
+#: ../../verify.rst:70
+msgid ""
+"For more information on ISO verification, or to verify BETA, LMDE or old "
+"releases, read `How to Verify ISO images "
+"<https://linuxmint.com/verify.php>`_."
+msgstr ""
+"ISO tekshiruvi haqida qoʻshimcha maʼlumot olish yoki BETA, LMDE yoki eski "
+"versiyalarni tekshirish uchun “ISO tasvirlarini qanday tekshirish mumkin "
+"<https://linuxmint.com/verify.php>`_ boʻlimini oʻqing."

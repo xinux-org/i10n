@@ -1,0 +1,377 @@
+# Kazakh translation for linuxmint
+# Copyright (c) 2010 Rosetta Contributors and Canonical Ltd 2010
+# This file is distributed under the same license as the linuxmint package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2010.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: linuxmint\n"
+"Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
+"POT-Creation-Date: 2018-05-07 12:31+0100\n"
+"PO-Revision-Date: 2018-07-16 17:05+0000\n"
+"Last-Translator: Murat Käribay <d2vsd1@mail.ru>\n"
+"Language-Team: Kazakh <kk@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Launchpad-Export-Date: 2022-10-10 13:01+0000\n"
+"X-Generator: Launchpad (build 762fb15a975e8b23af6a1f86e44e46bfd0451459)\n"
+
+#: usr/lib/linuxmint/mintupload/mintupload.py:28
+#: usr/lib/linuxmint/mintupload/upload-manager.py:28
+#: usr/lib/linuxmint/mintupload/upload-manager.py:82
+#: usr/lib/linuxmint/mintupload/upload-manager.py:117 generate_desktop_files:27
+#: generate_desktop_files:41
+msgid "Upload Manager"
+msgstr "Құю менеджері"
+
+#: usr/lib/linuxmint/mintupload/mintupload.py:43
+#: usr/lib/linuxmint/mintupload/mintupload.py:138
+#, python-format
+msgid "%(percentage)s of %(number)d files - Uploading to %(service)s"
+msgstr ""
+"%(service)s қызметіне құйылатын %(number)d файлдың %(percentage)s құйылды"
+
+#: usr/lib/linuxmint/mintupload/mintupload.py:45
+#: usr/lib/linuxmint/mintupload/mintupload.py:141
+#, python-format
+msgid "%(percentage)s of 1 file - Uploading to %(service)s"
+msgstr "%(service)s қызметіне құйылатын файлдың %(percentage)s құйылды"
+
+#: usr/lib/linuxmint/mintupload/mintupload.py:81
+#, python-format
+msgid "The upload to '%(service)s' was cancelled"
+msgstr "Загрузка на '%(service)s' отменена"
+
+#: usr/lib/linuxmint/mintupload/mintupload.py:93
+#, python-format
+msgid "Upload to '%s' failed: "
+msgstr "\"%s\" қызметіне құйылу сәтсіз аяқталды: "
+
+#: usr/lib/linuxmint/mintupload/mintupload.py:99
+#, python-format
+msgid "Successfully uploaded %(number)d files to '%(service)s'"
+msgstr "\"%(service)s\" қызметіне %(number)d файл сәтті құйылды"
+
+#: usr/lib/linuxmint/mintupload/mintupload.py:101
+#, python-format
+msgid "Successfully uploaded 1 file to '%(service)s'"
+msgstr "\"%(service)s\" қызметіне файл сәтті құйылды"
+
+#: usr/lib/linuxmint/mintupload/mintupload.py:112
+msgid "Do you want to cancel this upload?"
+msgstr "Құюды тоқтату қажет пе?"
+
+#: usr/lib/linuxmint/mintupload/mintupload.py:113
+msgid "Cancel"
+msgstr "Бас тарту"
+
+#: usr/lib/linuxmint/mintupload/mintupload.py:114
+msgid "Run in the background"
+msgstr "Жасырын түрде орындау"
+
+#: usr/lib/linuxmint/mintupload/mintupload.py:117
+msgid "Cancel upload?"
+msgstr "Құюды тоқтату қажет пе?"
+
+#: usr/lib/linuxmint/mintupload/mintupload.py:137
+#, python-format
+msgid "Uploading %(number)d files to %(service)s"
+msgstr "%(service)s қызметіне %(number)d файл құйылуда"
+
+#: usr/lib/linuxmint/mintupload/mintupload.py:140
+#, python-format
+msgid "Uploading 1 file to %(service)s"
+msgstr "%(service)s қызметіне файл құйылуда"
+
+#: usr/lib/linuxmint/mintupload/mintupload.py:159
+#, python-format
+msgid ""
+"%(size_so_far)s of %(total_size)s - %(time_remaining)s left (%(speed)s/sec)"
+msgstr ""
+"%(size_so_far)s, барлығы %(total_size)s - %(time_remaining)s қалды "
+"(%(speed)s/sec)"
+
+#: usr/lib/linuxmint/mintupload/mintupload.py:161
+#, python-format
+msgid "%(size_so_far)s of %(total_size)s"
+msgstr "%(size_so_far)s, барлығы %(total_size)s"
+
+#: usr/lib/linuxmint/mintupload/mintupload.py:188
+#: usr/lib/linuxmint/mintupload/mintupload_core.py:93
+#: usr/lib/linuxmint/mintupload/mintupload_core.py:95
+msgid "B"
+msgstr "б"
+
+#: usr/lib/linuxmint/mintupload/mintupload.py:190
+#: usr/lib/linuxmint/mintupload/mintupload_core.py:95
+msgid "KB"
+msgstr "Кб"
+
+#: usr/lib/linuxmint/mintupload/mintupload.py:192
+#: usr/lib/linuxmint/mintupload/mintupload_core.py:95
+msgid "MB"
+msgstr "Мб"
+
+#: usr/lib/linuxmint/mintupload/mintupload.py:194
+#: usr/lib/linuxmint/mintupload/mintupload_core.py:95
+msgid "GB"
+msgstr "Гб"
+
+#: usr/lib/linuxmint/mintupload/mintupload.py:201
+#, python-format
+msgid "%d hour"
+msgid_plural "%d hours"
+msgstr[0] "%d сағат"
+msgstr[1] "%d сағат"
+
+#: usr/lib/linuxmint/mintupload/mintupload.py:202
+#: usr/lib/linuxmint/mintupload/mintupload.py:204
+#, python-format
+msgid "%d minute"
+msgid_plural "%d minutes"
+msgstr[0] "%d минут"
+msgstr[1] "%d минут"
+
+#: usr/lib/linuxmint/mintupload/mintupload.py:205
+#: usr/lib/linuxmint/mintupload/mintupload.py:207
+#, python-format
+msgid "%d second"
+msgid_plural "%d seconds"
+msgstr[0] "%d секунд"
+msgstr[1] "%d секунд"
+
+#: usr/lib/linuxmint/mintupload/mintupload.py:236
+#, python-format
+msgid "Unknown service: %s"
+msgstr "Белгісіз қызмет: %s"
+
+#: usr/lib/linuxmint/mintupload/mintupload_core.py:93
+msgid "KiB"
+msgstr "КиБ"
+
+#: usr/lib/linuxmint/mintupload/mintupload_core.py:93
+msgid "MiB"
+msgstr "МиБ"
+
+#: usr/lib/linuxmint/mintupload/mintupload_core.py:93
+msgid "GiB"
+msgstr "ГиБ"
+
+#: usr/lib/linuxmint/mintupload/mintupload_core.py:135
+msgid "File larger than service's maximum"
+msgstr "Файлдың көлемі қызметтің рұқсат берілген шегінен асып тұр"
+
+#: usr/lib/linuxmint/mintupload/mintupload_core.py:145
+msgid "Could not get available space"
+msgstr "Жетімді дискілік орынды алу мүмкін емес"
+
+#: usr/lib/linuxmint/mintupload/mintupload_core.py:148
+msgid "File larger than service's available space"
+msgstr ""
+"Файлдың көлемі ағымдағы қызметіне рұқсат берілген жетімді дискілік орыннан "
+"асып тұр"
+
+#: usr/lib/linuxmint/mintupload/mintupload_core.py:173
+#: usr/lib/linuxmint/mintupload/mintupload_core.py:315
+msgid "File uploaded successfully."
+msgstr "Файл сәтті құйылды."
+
+#: usr/lib/linuxmint/mintupload/mintupload_core.py:191
+#: usr/lib/linuxmint/mintupload/mintupload_core.py:267
+msgid "connection successfully established"
+msgstr "қосылыс сәтті орнатылды"
+
+#: usr/lib/linuxmint/mintupload/mintupload_core.py:202
+#: usr/lib/linuxmint/mintupload/mintupload_core.py:233
+msgid "Uploading the file..."
+msgstr "Файл құйылуда..."
+
+#: usr/lib/linuxmint/mintupload/mintupload_core.py:275
+msgid "This service requires a password."
+msgstr "Осы қызметке құпия сөз енгізу қажет."
+
+#: usr/lib/linuxmint/mintupload/mintupload_core.py:308
+msgid "URL:"
+msgstr "URL сілтемесі:"
+
+#: usr/lib/linuxmint/mintupload/mintupload_core.py:348
+#: usr/lib/linuxmint/mintupload/mintupload_core.py:352
+#, python-format
+msgid "%(1)s is not set in the config file found under %(2)s or %(3)s"
+msgstr ""
+"%(2)s немесе %(3)s ішіндегі баптаулар файлдардың арасынан %(1)s табылмады"
+
+#: usr/lib/linuxmint/mintupload/file-uploader.py:27
+#: usr/lib/linuxmint/mintupload/file-uploader.py:30
+#: usr/lib/linuxmint/mintupload/upload-manager.py:35
+msgid "Upload services"
+msgstr "Файлдар құю қызметі"
+
+#: usr/lib/linuxmint/mintupload/file-uploader.py:50
+msgid "Services:"
+msgstr "Қызметтер:"
+
+#: usr/lib/linuxmint/mintupload/file-uploader.py:64
+msgid "Upload manager..."
+msgstr "Құю менеджері..."
+
+#: usr/lib/linuxmint/mintupload/file-uploader.py:73
+msgid "Quit"
+msgstr "Шығу"
+
+#: usr/lib/linuxmint/mintupload/file-uploader.py:126
+#, python-format
+msgid "Drag &amp; Drop here to upload to %s"
+msgstr ""
+"%s қызметіне файлдарды құю үшін, осы жерге файлдарды тышқанмен тартып "
+"әкеліңіз"
+
+#: usr/lib/linuxmint/mintupload/upload-manager.py:53
+msgid "_File"
+msgstr "_Файл"
+
+#: usr/lib/linuxmint/mintupload/upload-manager.py:58
+msgid "Close"
+msgstr "Жабу"
+
+#: usr/lib/linuxmint/mintupload/upload-manager.py:62
+msgid "_Help"
+msgstr "_Көмек"
+
+#: usr/lib/linuxmint/mintupload/upload-manager.py:67
+#: usr/lib/linuxmint/mintupload/upload-manager.py:78
+msgid "About"
+msgstr "Бағдарлама туралы"
+
+#: usr/lib/linuxmint/mintupload/upload-manager.py:120
+msgid "<b>Please enter a name for the new upload service:</b>"
+msgstr "<b>Құю қызметіне жаңа атты меншіктеңіз:</b>"
+
+#: usr/lib/linuxmint/mintupload/upload-manager.py:124
+msgid "Service name:"
+msgstr "Қызметтің аты:"
+
+#: usr/lib/linuxmint/mintupload/upload-manager.py:127
+msgid "<i>Try to avoid spaces and special characters...</i>"
+msgstr "<i>Олқылықтардан және қалыпты емес белгілерге жол бермеңіз...</i>"
+
+#: usr/lib/linuxmint/mintupload/upload-manager.py:204
+#, python-format
+msgid "%s Properties"
+msgstr "%s баптаулары"
+
+#: usr/lib/linuxmint/mintupload/upload-manager.py:207
+msgid "Check connection"
+msgstr "Қосылыс тексеру"
+
+#: usr/lib/linuxmint/mintupload/upload-manager.py:212
+msgid "Type:"
+msgstr "Түрі:"
+
+#: usr/lib/linuxmint/mintupload/upload-manager.py:213
+msgid "Host:"
+msgstr "Хост аты:"
+
+#: usr/lib/linuxmint/mintupload/upload-manager.py:214
+msgid "Port:"
+msgstr "Порт:"
+
+#: usr/lib/linuxmint/mintupload/upload-manager.py:215
+msgid "User:"
+msgstr "Пайдаланушы:"
+
+#: usr/lib/linuxmint/mintupload/upload-manager.py:216
+msgid "Password:"
+msgstr "Құпия сөз:"
+
+#: usr/lib/linuxmint/mintupload/upload-manager.py:217
+msgid "Timestamp:"
+msgstr "Уақыт:"
+
+#: usr/lib/linuxmint/mintupload/upload-manager.py:218
+msgid "Path:"
+msgstr "Орналасу жері:"
+
+#: usr/lib/linuxmint/mintupload/upload-manager.py:220
+#: usr/lib/linuxmint/mintupload/upload-manager.py:221
+msgid "Hostname or IP address, default: "
+msgstr "Қалыпты хост аты немесе IP адрес: "
+
+#: usr/lib/linuxmint/mintupload/upload-manager.py:224
+#: usr/lib/linuxmint/mintupload/upload-manager.py:225
+msgid "Remote port, default is 21 for FTP, 22 for SFTP and SCP"
+msgstr "Қашықтаған порт, FTP үшін қалыптысы 21, SFTP және SCP үшін 22"
+
+#: usr/lib/linuxmint/mintupload/upload-manager.py:228
+#: usr/lib/linuxmint/mintupload/upload-manager.py:229
+msgid "Username, defaults to your local username"
+msgstr ""
+"Пайдаланушы аты (логин), қалыптысы қолданылған жүйеңіздің пайдаланушы аты "
+"қолданылады"
+
+#: usr/lib/linuxmint/mintupload/upload-manager.py:232
+#: usr/lib/linuxmint/mintupload/upload-manager.py:233
+msgid ""
+"Password, by default: password-less SCP connection, null-string FTP "
+"connection, ~/.ssh keys used for SFTP connections"
+msgstr ""
+"Құпия сөз, қалыптысы: SFTP қосылыстарында ~/.ssh бумасындағы кілттер "
+"қолданылады, SCP және FTP қосылыстарында жоқ"
+
+#: usr/lib/linuxmint/mintupload/upload-manager.py:236
+#: usr/lib/linuxmint/mintupload/upload-manager.py:237
+msgid "Timestamp format (strftime). By default:"
+msgstr "Уақыт белгісінің форматы (strftime-дағыдай). Қалыптысы:"
+
+#: usr/lib/linuxmint/mintupload/upload-manager.py:240
+#: usr/lib/linuxmint/mintupload/upload-manager.py:241
+msgid ""
+"Directory to upload to. <TIMESTAMP> is replaced with the current timestamp, "
+"following the timestamp format given. By default: ."
+msgstr ""
+"Қашықтаған файлдар құю бумасы. <TIMESTAMP> сөзі сіз белгілеген форматындағы "
+"қазіргі уақыт мәнімен алмастырылады. Қалыптысы:"
+
+#: usr/lib/linuxmint/mintupload/upload-manager.py:314
+msgid "Could not save configuration change"
+msgstr "Баптаулардағы өзгертулерді сақтау мүмкін емес"
+
+#: generate_desktop_files:27 generate_desktop_files:41
+msgid "Define upload services"
+msgstr "Файл құю қызметтерін белгілеу"
+
+#~ msgid "Upload files on the Internet"
+#~ msgstr "Файлдарды интернетке құю"
+
+#~ msgid "Hostname:"
+#~ msgstr "Хост аты:"
+
+#~ msgid "Username:"
+#~ msgstr "Пайдаланушы аты:"
+
+#~ msgid "This service requires a password or private key."
+#~ msgstr "Ағымдағы қызметіне құпия сөз немесе жабық кілт қажет болып жатыр."
+
+#, python-format
+#~ msgid "Upload to %s failed: "
+#~ msgstr "%s қызметіне құйылу сәтсіз аяқталды: "
+
+#, python-format
+#~ msgid "Uploading %(file)s to %(service)s"
+#~ msgstr "%(file)s файлы %(service)s қызметіне құйылуда"
+
+#, python-format
+#~ msgid "Upload to %s successful"
+#~ msgstr "%s қызметіне құйылу сәтті аяқталды"
+
+#, python-format
+#~ msgid "Uploading to %s"
+#~ msgstr "%s файлы құйылуда"
+
+#~ msgid "File Uploader"
+#~ msgstr "Файл құю бағдарламасы"
+
+#~ msgid "<i>Try to avoid spaces and funny characters...</i>"
+#~ msgstr "<i>Бос орындар мен ерекше белгілерді қолданудан қашықтаңыз...</i>"

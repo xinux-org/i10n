@@ -1,0 +1,1475 @@
+# translation of xviewer.HEAD.po to Lithuanian
+# Lithuanian translation of xviewer
+# Copyright (C) 2000-2010 Free Software Foundation, Inc.
+#
+# Gediminas Paulauskas <menesis@chatsubo.lt>, 2000-2003.
+# Žygimantas Beručka <zygis@gnome.org>, 2003-2007, 2010.
+# Justina Klingaitė <justina.klingaite@gmail.com>, 2005.
+# Gintautas Miliauskas <gintas@akl.lt>, 2007, 2008, 2010.
+# Algimantas Margevičius <gymka@mail.ru>, 2011.
+# Aurimas Černius <aurisc4@gmail.com>, 2010, 2013, 2014.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: xviewer.HEAD\n"
+"Report-Msgid-Bugs-To: "
+"http://bugzilla.gnome.org/enter_bug.cgi?product=xviewer&keywords=I18N+L10N&co"
+"mponent=general\n"
+"POT-Creation-Date: 2021-11-29 10:03+0000\n"
+"PO-Revision-Date: 2020-05-16 10:42+0000\n"
+"Last-Translator: Moo <hazap@hotmail.com>\n"
+"Language-Team: Lietuvių <gnome-lt@lists.akl.lt>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
+"(n%100<10 || n%100>=20) ? 1 : 2;\n"
+"X-Launchpad-Export-Date: 2022-10-10 13:09+0000\n"
+"X-Generator: Launchpad (build 762fb15a975e8b23af6a1f86e44e46bfd0451459)\n"
+"Language: lt\n"
+
+#. Translaters: This string is for a toggle to display a toolbar.
+#. * The name of the toolbar is automatically computed from the widgets
+#. * on the toolbar, and is placed at the %s. Note the _ before the %s
+#. * which is used to add mnemonics. We know that this is likely to
+#. * produce duplicates, but don't worry about it. If your language
+#. * normally has a mnemonic at the start, please use the _. If not,
+#. * please remove.
+#: ../cut-n-paste/toolbar-editor/egg-editable-toolbar.c:992
+#, c-format
+msgid "Show “_%s”"
+msgstr "Rodyti „_%s“"
+
+#: ../cut-n-paste/toolbar-editor/egg-editable-toolbar.c:1485
+msgid "_Move on Toolbar"
+msgstr "_Perkelti į įrankių juostą"
+
+#: ../cut-n-paste/toolbar-editor/egg-editable-toolbar.c:1486
+msgid "Move the selected item on the toolbar"
+msgstr "Perkelti pasirinktą elementą į įrankių juostą"
+
+#: ../cut-n-paste/toolbar-editor/egg-editable-toolbar.c:1487
+msgid "_Remove from Toolbar"
+msgstr "Š_alinti iš įrankių juostos"
+
+#: ../cut-n-paste/toolbar-editor/egg-editable-toolbar.c:1488
+msgid "Remove the selected item from the toolbar"
+msgstr "Šalinti pasirinktą elementą iš įrankių juostos"
+
+#: ../cut-n-paste/toolbar-editor/egg-editable-toolbar.c:1489
+msgid "_Delete Toolbar"
+msgstr "Iš_trinti įrankių juostą"
+
+#: ../cut-n-paste/toolbar-editor/egg-editable-toolbar.c:1490
+msgid "Remove the selected toolbar"
+msgstr "Šalinti pasirinktą įrankių juostą"
+
+#: ../cut-n-paste/toolbar-editor/egg-toolbar-editor.c:489
+msgid "Separator"
+msgstr "Skirtukas"
+
+#: ../data/xviewer-app-menu.xml.h:1 ../src/xviewer-window.c:4234
+msgid "_View"
+msgstr "_Rodinys"
+
+#: ../data/xviewer-app-menu.xml.h:2 ../src/xviewer-window.c:4259
+msgid "_Toolbar"
+msgstr "_Įrankių juosta"
+
+#: ../data/xviewer-app-menu.xml.h:3 ../src/xviewer-window.c:4262
+msgid "_Statusbar"
+msgstr "_Būsenos juosta"
+
+#: ../data/xviewer-app-menu.xml.h:4 ../src/xviewer-window.c:4265
+msgid "_Image Gallery"
+msgstr "_Paveikslų galerija"
+
+#: ../data/xviewer-app-menu.xml.h:5 ../src/xviewer-window.c:4268
+msgid "Side _Pane"
+msgstr "Šoninis p_olangis"
+
+#: ../data/xviewer-app-menu.xml.h:6 ../src/xviewer-window.c:4247
+msgid "Prefere_nces"
+msgstr "_Nuostatos"
+
+#: ../data/xviewer-app-menu.xml.h:7 ../data/xviewer-preferences-dialog.ui.h:2
+#: ../src/xviewer-window.c:4237
+msgid "_Help"
+msgstr "_Pagalba"
+
+#: ../data/xviewer-app-menu.xml.h:8 ../src/xviewer-window.c:4253
+msgid "_About"
+msgstr "_Apie"
+
+#: ../data/xviewer-app-menu.xml.h:9
+msgid "_Quit"
+msgstr "_Išeiti"
+
+#: ../data/xviewer.appdata.xml.in.h:1
+msgid ""
+"Xviewer is an image viewer which supports many formats. It can be used to "
+"view single images or images in a collection."
+msgstr ""
+"Xviewer yra paveikslų žiūryklė, kuri palaiko daugelį formatų. Ji gali būti "
+"naudojama atskirų paveikslų arba paveikslų galerijos peržiūrai."
+
+#: ../data/xviewer.appdata.xml.in.h:2
+msgid ""
+"Xviewer also allows to view the images in a fullscreen slideshow mode or set "
+"an image as the desktop wallpaper. It reads the camera tags to automatically "
+"rotate your images in the correct portrait or landscape orientation."
+msgstr ""
+"Xviewer taip pat leidžia rodyti paveikslus viso ekrano skaidrių rodymo "
+"veiksenoje bei nustatyti paveikslą kaip darbalaukio foną. Programa "
+"automatiškai skaito fotoaparato žymas ir pasuka paveikslus į teisingą padėtį."
+
+#: ../data/xviewer.desktop.in.in.h:1 ../src/xviewer-application.c:293
+msgid "Image Viewer"
+msgstr "Paveikslų žiūryklė"
+
+#: ../data/xviewer.desktop.in.in.h:2
+msgid "Browse and rotate images"
+msgstr "Naršyti ir pasukti paveikslus"
+
+#. Extra keywords that can be used to search for xviewer in GNOME Shell and Unity
+#: ../data/xviewer.desktop.in.in.h:4
+msgid "Picture;Slideshow;Graphics;"
+msgstr "Paveikslas;Skaidrių rodymas;Grafika;"
+
+#: ../data/xviewer-image-properties-dialog.ui.h:1 ../src/xviewer-window.c:5375
+msgid "Image Properties"
+msgstr "Paveikslo savybės"
+
+#: ../data/xviewer-image-properties-dialog.ui.h:2
+msgid "_Previous"
+msgstr "_Ankstesnis"
+
+#: ../data/xviewer-image-properties-dialog.ui.h:3
+msgid "_Next"
+msgstr "_Kitas"
+
+#: ../data/xviewer-image-properties-dialog.ui.h:4
+#: ../data/xviewer-preferences-dialog.ui.h:3 ../src/xviewer-window.c:4244
+msgid "_Close"
+msgstr "_Užverti"
+
+#: ../data/xviewer-image-properties-dialog.ui.h:5
+#: ../src/xviewer-metadata-sidebar.c:497
+msgid "Name:"
+msgstr "Pavadinimas:"
+
+#: ../data/xviewer-image-properties-dialog.ui.h:6
+#: ../src/xviewer-metadata-sidebar.c:499
+msgid "Width:"
+msgstr "Plotis:"
+
+#: ../data/xviewer-image-properties-dialog.ui.h:7
+#: ../src/xviewer-metadata-sidebar.c:501
+msgid "Height:"
+msgstr "Aukštis:"
+
+#: ../data/xviewer-image-properties-dialog.ui.h:8
+#: ../src/xviewer-metadata-sidebar.c:503
+msgid "Type:"
+msgstr "Tipas:"
+
+#: ../data/xviewer-image-properties-dialog.ui.h:9
+msgid "Bytes:"
+msgstr "Baitai:"
+
+#: ../data/xviewer-image-properties-dialog.ui.h:10
+#: ../src/xviewer-metadata-sidebar.c:507
+msgid "Folder:"
+msgstr "Aplankas:"
+
+#: ../data/xviewer-image-properties-dialog.ui.h:11
+#: ../src/xviewer-metadata-sidebar.c:495
+msgid "General"
+msgstr "Bendrosios"
+
+#: ../data/xviewer-image-properties-dialog.ui.h:12
+#: ../src/xviewer-metadata-sidebar.c:532
+msgid "Aperture Value:"
+msgstr "Diafragmos reikšmė:"
+
+#: ../data/xviewer-image-properties-dialog.ui.h:13
+#: ../src/xviewer-metadata-sidebar.c:535
+msgid "Exposure Time:"
+msgstr "Išlaikymo trukmė:"
+
+#: ../data/xviewer-image-properties-dialog.ui.h:14
+#: ../src/xviewer-metadata-sidebar.c:538
+msgid "Focal Length:"
+msgstr "Židinio nuotolis:"
+
+#: ../data/xviewer-image-properties-dialog.ui.h:15
+#: ../src/xviewer-metadata-sidebar.c:540
+msgid "Flash:"
+msgstr "Blykstė:"
+
+#: ../data/xviewer-image-properties-dialog.ui.h:16
+#: ../src/xviewer-metadata-sidebar.c:544
+msgid "ISO Speed Rating:"
+msgstr "ISO greičio dydis:"
+
+#: ../data/xviewer-image-properties-dialog.ui.h:17
+#: ../src/xviewer-metadata-sidebar.c:547
+msgid "Metering Mode:"
+msgstr "Matavimo veiksena:"
+
+#: ../data/xviewer-image-properties-dialog.ui.h:18
+#: ../src/xviewer-metadata-sidebar.c:550
+msgid "Camera Model:"
+msgstr "Fotoaparato modelis:"
+
+#: ../data/xviewer-image-properties-dialog.ui.h:19
+#: ../src/xviewer-metadata-sidebar.c:552
+msgid "Date/Time:"
+msgstr "Data/laikas:"
+
+#: ../data/xviewer-image-properties-dialog.ui.h:20
+#: ../src/xviewer-metadata-sidebar.c:557
+msgid "Description:"
+msgstr "Aprašymas:"
+
+#: ../data/xviewer-image-properties-dialog.ui.h:21
+#: ../src/xviewer-metadata-sidebar.c:560
+msgid "Location:"
+msgstr "Vieta:"
+
+#: ../data/xviewer-image-properties-dialog.ui.h:22
+#: ../src/xviewer-metadata-sidebar.c:563
+msgid "Keywords:"
+msgstr "Raktažodžiai:"
+
+#: ../data/xviewer-image-properties-dialog.ui.h:23
+#: ../src/xviewer-metadata-sidebar.c:565
+msgid "Author:"
+msgstr "Autorius:"
+
+#: ../data/xviewer-image-properties-dialog.ui.h:24
+#: ../src/xviewer-metadata-sidebar.c:568
+msgid "Copyright:"
+msgstr "Autorių teisės:"
+
+#: ../data/xviewer-image-properties-dialog.ui.h:25
+#: ../src/xviewer-metadata-sidebar.c:571
+msgid "Details"
+msgstr "Išsamiau"
+
+#: ../data/xviewer-image-properties-dialog.ui.h:26
+#: ../src/xviewer-metadata-sidebar.c:528
+msgid "Metadata"
+msgstr "Metaduomenys"
+
+#: ../data/xviewer-multiple-save-as-dialog.ui.h:1
+msgid "Save As"
+msgstr "Įrašyti kaip"
+
+#: ../data/xviewer-multiple-save-as-dialog.ui.h:2
+#: ../src/xviewer-close-confirmation-dialog.c:172
+#: ../src/xviewer-error-message-area.c:119 ../src/xviewer-file-chooser.c:456
+#: ../src/xviewer-file-chooser.c:464 ../src/xviewer-file-chooser.c:472
+#: ../src/xviewer-window.c:3464 ../src/xviewer-window.c:3468
+#: ../src/xviewer-window.c:3735
+msgid "_Cancel"
+msgstr "_Atsisakyti"
+
+#: ../data/xviewer-multiple-save-as-dialog.ui.h:3
+#: ../src/xviewer-close-confirmation-dialog.c:184
+msgid "Save _As"
+msgstr "Įrašyti _kaip"
+
+#: ../data/xviewer-multiple-save-as-dialog.ui.h:5
+#, no-c-format
+msgid "<b>%f:</b> original filename"
+msgstr "<b>%f:</b> pradinis failo vardas"
+
+#: ../data/xviewer-multiple-save-as-dialog.ui.h:7
+#, no-c-format
+msgid "<b>%n:</b> counter"
+msgstr "<b>%n:</b> skaitiklis"
+
+#: ../data/xviewer-multiple-save-as-dialog.ui.h:8
+msgid "_Filename format:"
+msgstr "_Failo pavadinimo formatas:"
+
+#: ../data/xviewer-multiple-save-as-dialog.ui.h:9
+#| msgid "Destination folder:"
+msgid "_Destination folder:"
+msgstr "_Paskirties aplankas:"
+
+#: ../data/xviewer-multiple-save-as-dialog.ui.h:10
+msgid "Choose a folder"
+msgstr "Pasirinkite aplanką"
+
+#: ../data/xviewer-multiple-save-as-dialog.ui.h:11
+msgid "File Path Specifications"
+msgstr "Failų kelio specifikacijos"
+
+#: ../data/xviewer-multiple-save-as-dialog.ui.h:12
+#| msgid "Start counter at:"
+msgid "_Start counter at:"
+msgstr "Paleisti _skaitliuką nuo:"
+
+#: ../data/xviewer-multiple-save-as-dialog.ui.h:13
+msgid "_Replace spaces with underscores"
+msgstr "_Pakeisti tarpus pabraukimais"
+
+#: ../data/xviewer-multiple-save-as-dialog.ui.h:14
+msgid "Options"
+msgstr "Parinktys"
+
+#: ../data/xviewer-multiple-save-as-dialog.ui.h:15
+msgid "Rename from:"
+msgstr "Pervadinti iš:"
+
+#: ../data/xviewer-multiple-save-as-dialog.ui.h:16
+msgid "To:"
+msgstr "Į:"
+
+#: ../data/xviewer-multiple-save-as-dialog.ui.h:17
+msgid "File Name Preview"
+msgstr "Failų pavadinimų peržiūra"
+
+#: ../data/xviewer-preferences-dialog.ui.h:1
+msgid "Preferences"
+msgstr "Nuostatos"
+
+#: ../data/xviewer-preferences-dialog.ui.h:4
+msgid "Image Enhancements"
+msgstr "Paveikslo pagerinimai"
+
+#: ../data/xviewer-preferences-dialog.ui.h:5
+msgid "Smooth images when zoomed _out"
+msgstr "_Mažinant glotninti paveikslą"
+
+#: ../data/xviewer-preferences-dialog.ui.h:6
+msgid "Smooth images when zoomed _in"
+msgstr "_Didinant glotninti paveikslą"
+
+#: ../data/xviewer-preferences-dialog.ui.h:7
+msgid "_Automatic orientation"
+msgstr "_Automatinis pasukimas"
+
+#: ../data/xviewer-preferences-dialog.ui.h:8
+msgid "Background"
+msgstr "Fonas"
+
+#: ../data/xviewer-preferences-dialog.ui.h:9
+msgid "As custom color:"
+msgstr "Kaip pasirinktinė spalva:"
+
+#: ../data/xviewer-preferences-dialog.ui.h:10
+msgid "Background Color"
+msgstr "Fono spalva"
+
+#: ../data/xviewer-preferences-dialog.ui.h:11
+msgid "Transparent Parts"
+msgstr "Skaidrios dalys"
+
+#: ../data/xviewer-preferences-dialog.ui.h:12
+msgid "As check _pattern"
+msgstr "Kaip lan_guotas raštas"
+
+#: ../data/xviewer-preferences-dialog.ui.h:13
+msgid "As custom c_olor:"
+msgstr "Kaip pasirinktinė s_palva:"
+
+#: ../data/xviewer-preferences-dialog.ui.h:14
+msgid "Color for Transparent Areas"
+msgstr "Skaidrių vietų spalva"
+
+#: ../data/xviewer-preferences-dialog.ui.h:15
+msgid "As _background"
+msgstr "Kaip _fonas"
+
+#: ../data/xviewer-preferences-dialog.ui.h:16
+msgid "Image View"
+msgstr "Paveikslo rodinys"
+
+#: ../data/xviewer-preferences-dialog.ui.h:17
+msgid "Image Zoom"
+msgstr "Paveikslo mastelis"
+
+#: ../data/xviewer-preferences-dialog.ui.h:18
+msgid "E_xpand images to fit screen"
+msgstr "Ište_mpti paveikslus, kad užpildytų ekraną"
+
+#: ../data/xviewer-preferences-dialog.ui.h:19
+msgid "Sequence"
+msgstr "Seka"
+
+#. I18N: This sentence will be displayed above a horizonzal scale to select a number of seconds in xviewer
+#: ../data/xviewer-preferences-dialog.ui.h:21
+msgid "_Time between images:"
+msgstr "Laikas _tarp paveikslų:"
+
+#: ../data/xviewer-preferences-dialog.ui.h:22
+msgid "_Loop sequence"
+msgstr "_Ciklinė seka"
+
+#: ../data/xviewer-preferences-dialog.ui.h:23
+msgid "Control"
+msgstr ""
+
+#: ../data/xviewer-preferences-dialog.ui.h:24
+msgid "Pause and resume with the spacebar"
+msgstr ""
+
+#: ../data/xviewer-preferences-dialog.ui.h:25
+msgid "Slideshow"
+msgstr "Skaidrių rodymas"
+
+#: ../data/xviewer-preferences-dialog.ui.h:26
+msgid "Scroll Wheel"
+msgstr ""
+
+#: ../data/xviewer-preferences-dialog.ui.h:27
+msgid "Wheel"
+msgstr ""
+
+#: ../data/xviewer-preferences-dialog.ui.h:28
+msgid "Zoom"
+msgstr ""
+
+#: ../data/xviewer-preferences-dialog.ui.h:29
+msgid "Vertical Scrolling"
+msgstr ""
+
+#: ../data/xviewer-preferences-dialog.ui.h:30
+msgid "Horizontal Scrolling"
+msgstr ""
+
+#: ../data/xviewer-preferences-dialog.ui.h:31
+msgid "Previous/Next Image"
+msgstr ""
+
+#: ../data/xviewer-preferences-dialog.ui.h:32
+msgid "Rotate 90 degrees"
+msgstr ""
+
+#: ../data/xviewer-preferences-dialog.ui.h:33
+msgid "No Action"
+msgstr ""
+
+#: ../data/xviewer-preferences-dialog.ui.h:34
+msgid "Shift + Wheel"
+msgstr ""
+
+#: ../data/xviewer-preferences-dialog.ui.h:35
+msgid "Control + Wheel"
+msgstr ""
+
+#: ../data/xviewer-preferences-dialog.ui.h:36
+msgid "Shift + Control + Wheel"
+msgstr ""
+
+#: ../data/xviewer-preferences-dialog.ui.h:37
+msgid "Tilt Wheel"
+msgstr ""
+
+#: ../data/xviewer-preferences-dialog.ui.h:38
+msgid "Mouse"
+msgstr ""
+
+#: ../data/xviewer-preferences-dialog.ui.h:39
+msgid "Plugins"
+msgstr "Įskiepiai"
+
+#: ../src/xviewer-close-confirmation-dialog.c:166
+msgid "Close _without Saving"
+msgstr "Užverti _neįrašant"
+
+#: ../src/xviewer-close-confirmation-dialog.c:178
+#: ../src/xviewer-file-chooser.c:465 ../src/xviewer-window.c:4274
+msgid "_Save"
+msgstr "Į_rašyti"
+
+#: ../src/xviewer-close-confirmation-dialog.c:212
+msgid "Question"
+msgstr "Klausimas"
+
+#: ../src/xviewer-close-confirmation-dialog.c:391
+msgid "If you don't save, your changes will be lost."
+msgstr "Jei neįrašysite, jūsų atlikti pakeitimai bus prarasti."
+
+#: ../src/xviewer-close-confirmation-dialog.c:437
+#, c-format
+msgid "Save changes to image \"%s\" before closing?"
+msgstr "Ar prieš užveriant, įrašyti paveikslo „%s“ pakeitimus?"
+
+#: ../src/xviewer-close-confirmation-dialog.c:652
+#, c-format
+msgid "There is %d image with unsaved changes. Save changes before closing?"
+msgid_plural ""
+"There are %d images with unsaved changes. Save changes before closing?"
+msgstr[0] ""
+"Yra %d paveikslas, turintis neįrašytų pakeitimų. Įrašyti pakeitimus prieš "
+"užveriant?"
+msgstr[1] ""
+"Yra %d paveikslai, turintys neįrašytų pakeitimų. Įrašyti pakeitimus prieš "
+"užveriant?"
+msgstr[2] ""
+"Yra %d paveikslų, turinčių neįrašytų pakeitimų. Įrašyti pakeitimus prieš "
+"užveriant?"
+
+#: ../src/xviewer-close-confirmation-dialog.c:669
+msgid "S_elect the images you want to save:"
+msgstr "_Pasirinkite paveikslus, kuriuos norite įrašyti:"
+
+#. Secondary label
+#: ../src/xviewer-close-confirmation-dialog.c:688
+msgid "If you don't save, all your changes will be lost."
+msgstr "Jei neįrašysite, visi jūsų atlikti pakeitimai bus prarasti."
+
+#: ../src/xviewer-error-message-area.c:124 ../src/xviewer-window.c:882
+#: ../src/xviewer-window.c:4334
+msgid "_Reload"
+msgstr "Įkelti iš _naujo"
+
+#: ../src/xviewer-error-message-area.c:129 ../src/xviewer-window.c:4280
+msgid "Save _As…"
+msgstr "Įrašyti k_aip…"
+
+#: ../src/xviewer-error-message-area.c:171
+#, c-format
+msgid "Could not load image '%s'."
+msgstr "Nepavyko įkelti paveikslo „%s“."
+
+#: ../src/xviewer-error-message-area.c:213
+#, c-format
+msgid "Could not save image '%s'."
+msgstr "Nepavyko įrašyti paveikslo „%s“."
+
+#: ../src/xviewer-error-message-area.c:256
+#, c-format
+msgid "No images found in '%s'."
+msgstr "„%s“ paveikslų nerasta."
+
+#: ../src/xviewer-error-message-area.c:263
+msgid "The given locations contain no images."
+msgstr "Nurodytose vietose paveikslų nėra."
+
+#: ../src/xviewer-metadata-details.c:65
+msgid "Camera"
+msgstr "Kamera"
+
+#: ../src/xviewer-metadata-details.c:66
+msgid "Image Data"
+msgstr "Paveikslo duomenys"
+
+#: ../src/xviewer-metadata-details.c:67
+msgid "Image Taking Conditions"
+msgstr "Paveikslų darymo sąlygos"
+
+#: ../src/xviewer-metadata-details.c:68
+msgid "GPS Data"
+msgstr "GPS duomenys"
+
+#: ../src/xviewer-metadata-details.c:69
+msgid "Maker Note"
+msgstr "Kūrėjo pastabos"
+
+#: ../src/xviewer-metadata-details.c:70
+msgid "Other"
+msgstr "Kita"
+
+#: ../src/xviewer-metadata-details.c:72
+msgid "XMP Exif"
+msgstr "XMP Exif"
+
+#: ../src/xviewer-metadata-details.c:73
+msgid "XMP IPTC"
+msgstr "XMP IPTC"
+
+#: ../src/xviewer-metadata-details.c:74
+msgid "XMP Rights Management"
+msgstr "XMP teisių valdymas"
+
+#: ../src/xviewer-metadata-details.c:75
+msgid "XMP Other"
+msgstr "XMP kita"
+
+#: ../src/xviewer-metadata-details.c:251
+msgid "Tag"
+msgstr "Žyma"
+
+#: ../src/xviewer-metadata-details.c:258
+msgid "Value"
+msgstr "Reikšmė"
+
+#: ../src/xviewer-metadata-details.c:436
+msgid "North"
+msgstr "Šiaurė"
+
+#: ../src/xviewer-metadata-details.c:439
+msgid "East"
+msgstr "Rytai"
+
+#: ../src/xviewer-metadata-details.c:442
+msgid "West"
+msgstr "Vakarai"
+
+#: ../src/xviewer-metadata-details.c:445
+msgid "South"
+msgstr "Pietūs"
+
+#. A strftime-formatted string, to display the date the image was taken.
+#: ../src/xviewer-exif-util.c:120 ../src/xviewer-exif-util.c:160
+msgid "%a, %d %B %Y  %X"
+msgstr "%Y %B %d (%a) %X"
+
+#. A strftime-formatted string, to display the date the image was taken, for the case we don't have the time.
+#: ../src/xviewer-exif-util.c:154
+msgid "%a, %d %B %Y"
+msgstr "%Y %B %d (%a)"
+
+#. TRANSLATORS: This is the actual focal length used when
+#. the image was taken.
+#: ../src/xviewer-exif-util.c:251
+#, c-format
+msgid "%.1f (lens)"
+msgstr "%.1f (lęšis)"
+
+#. Print as float to get a similar look as above.
+#. TRANSLATORS: This is the equivalent focal length assuming
+#. a 35mm film camera.
+#: ../src/xviewer-exif-util.c:262
+#, c-format
+msgid "%.1f (35mm film)"
+msgstr "%.1f (35mm juostelė)"
+
+#: ../src/xviewer-file-chooser.c:119
+msgid "File format is unknown or unsupported"
+msgstr "Failo formatas nežinomas arba nepalaikomas"
+
+#: ../src/xviewer-file-chooser.c:124
+msgid ""
+"Image Viewer could not determine a supported writable file format based on "
+"the filename."
+msgstr ""
+"Paveikslų žiūryklei nepavyko pagal failo vardą nustatyti palaikomo įrašomo "
+"failo formato."
+
+#: ../src/xviewer-file-chooser.c:125
+msgid "Please try a different file extension like .png or .jpg."
+msgstr "Bandykite kitą failo plėtinį, pvz., .png arba .jpg."
+
+#. Filter name: First description then file extension, eg. "The PNG-Format (*.png)".
+#: ../src/xviewer-file-chooser.c:160
+#, c-format
+msgid "%s (*.%s)"
+msgstr "%s (*.%s)"
+
+#: ../src/xviewer-file-chooser.c:212
+msgid "All files"
+msgstr "Visi failai"
+
+#: ../src/xviewer-file-chooser.c:217
+msgid "Supported image files"
+msgstr "Palaikomi paveikslų failai"
+
+#. Pixel size of image: width x height in pixel
+#: ../src/xviewer-file-chooser.c:289 ../src/xviewer-metadata-sidebar.c:234
+#: ../src/xviewer-metadata-sidebar.c:238 ../src/xviewer-properties-dialog.c:139
+#: ../src/xviewer-properties-dialog.c:141 ../src/xviewer-thumb-view.c:516
+msgid "pixel"
+msgid_plural "pixels"
+msgstr[0] "pikselis"
+msgstr[1] "pikseliai"
+msgstr[2] "pikselių"
+
+#: ../src/xviewer-file-chooser.c:457 ../src/xviewer-file-chooser.c:473
+#| msgid "_Open…"
+msgid "_Open"
+msgstr "_Atverti"
+
+#: ../src/xviewer-file-chooser.c:459
+msgid "Open Image"
+msgstr "Atverti paveikslą"
+
+#: ../src/xviewer-file-chooser.c:467
+msgid "Save Image"
+msgstr "Įrašyti paveikslą"
+
+#: ../src/xviewer-file-chooser.c:475
+msgid "Open Folder"
+msgstr "Atverti aplanką"
+
+#: ../src/xviewer-image.c:613
+#, c-format
+msgid "Transformation on unloaded image."
+msgstr "Neįkelto paveikslo transformacija."
+
+#: ../src/xviewer-image.c:641
+#, c-format
+msgid "Transformation failed."
+msgstr "Transformuoti nepavyko."
+
+#: ../src/xviewer-image.c:1261
+#, c-format
+msgid "EXIF not supported for this file format."
+msgstr "Šiam failo formatui EXIF nepalaikomas."
+
+#: ../src/xviewer-image.c:1410
+#, c-format
+msgid "Image loading failed."
+msgstr "Nepavyko įkelti paveikslo."
+
+#: ../src/xviewer-image.c:1991 ../src/xviewer-image.c:2111
+#, c-format
+msgid "No image loaded."
+msgstr "Neįkeltas joks paveikslas."
+
+#: ../src/xviewer-image.c:1999 ../src/xviewer-image.c:2120
+#, c-format
+msgid "You do not have the permissions necessary to save the file."
+msgstr "Jūs neturite reikiamų teisių failo įrašymui."
+
+#: ../src/xviewer-image.c:2009 ../src/xviewer-image.c:2131
+#, c-format
+msgid "Temporary file creation failed."
+msgstr "Laikino failo sukūrimas nepavyko."
+
+#: ../src/xviewer-image-jpeg.c:374
+#, c-format
+msgid "Couldn't create temporary file for saving: %s"
+msgstr "Nepavyko sukurti laikino failo saugojimui: %s"
+
+#: ../src/xviewer-image-jpeg.c:393
+#, c-format
+msgid "Couldn't allocate memory for loading JPEG file"
+msgstr "Nepavyko išskirti atminties JPEG failo įkėlimui"
+
+#: ../src/xviewer-metadata-sidebar.c:247 ../src/xviewer-properties-dialog.c:156
+msgid "Unknown"
+msgstr "Nežinoma"
+
+#: ../src/xviewer-metadata-sidebar.c:505
+msgid "File size:"
+msgstr "Failo dydis:"
+
+#: ../src/xviewer-metadata-sidebar.c:521 ../src/xviewer-properties-dialog.c:737
+#: ../src/xviewer-window.c:4284
+msgid "Show the folder which contains this file in the file manager"
+msgstr "Rodyti failų tvarkytuvėje aplanką, kuriame yra šis failas"
+
+#: ../src/xviewer-preferences-dialog.c:134
+#, c-format
+msgid "%lu second"
+msgid_plural "%lu seconds"
+msgstr[0] "%lu sekundė"
+msgstr[1] "%lu sekundės"
+msgstr[2] "%lu sekundžių"
+
+#: ../src/xviewer-print.c:371
+msgid "Image Settings"
+msgstr "Paveikslo nustatymai"
+
+#: ../src/xviewer-print-image-setup.c:897
+msgid "Image"
+msgstr "Paveikslas"
+
+#: ../src/xviewer-print-image-setup.c:898
+msgid "The image whose printing properties will be set up"
+msgstr "Paveikslas, kurio spausdinimo savybės bus keičiamos"
+
+#: ../src/xviewer-print-image-setup.c:904
+msgid "Page Setup"
+msgstr "Puslapio sąranka"
+
+#: ../src/xviewer-print-image-setup.c:905
+msgid "The information for the page where the image will be printed"
+msgstr "Informacija apie puslapį, kuriame bus spausdinamas paveikslas"
+
+#: ../src/xviewer-print-image-setup.c:931
+msgid "Position"
+msgstr "Pozicija"
+
+#: ../src/xviewer-print-image-setup.c:935
+msgid "_Left:"
+msgstr "_Kairė:"
+
+#: ../src/xviewer-print-image-setup.c:937
+msgid "_Right:"
+msgstr "_Dešinė:"
+
+#: ../src/xviewer-print-image-setup.c:938
+msgid "_Top:"
+msgstr "_Viršus:"
+
+#: ../src/xviewer-print-image-setup.c:939
+msgid "_Bottom:"
+msgstr "_Apačia:"
+
+#: ../src/xviewer-print-image-setup.c:942
+msgid "C_enter:"
+msgstr "C_entras:"
+
+#: ../src/xviewer-print-image-setup.c:947
+msgid "None"
+msgstr "Niekaip"
+
+#: ../src/xviewer-print-image-setup.c:949
+msgid "Horizontal"
+msgstr "Horizontaliai"
+
+#: ../src/xviewer-print-image-setup.c:951
+msgid "Vertical"
+msgstr "Vertikaliai"
+
+#: ../src/xviewer-print-image-setup.c:953
+msgid "Both"
+msgstr "Abu"
+
+#: ../src/xviewer-print-image-setup.c:969
+msgid "Size"
+msgstr "Dydis"
+
+#: ../src/xviewer-print-image-setup.c:972
+msgid "_Width:"
+msgstr "_Plotis:"
+
+#: ../src/xviewer-print-image-setup.c:974
+msgid "_Height:"
+msgstr "_Aukštis:"
+
+#: ../src/xviewer-print-image-setup.c:977
+msgid "_Scaling:"
+msgstr "_Didinimas:"
+
+#: ../src/xviewer-print-image-setup.c:988
+msgid "_Unit:"
+msgstr "_Vienetai:"
+
+#: ../src/xviewer-print-image-setup.c:993
+msgid "Millimeters"
+msgstr "Milimetrai"
+
+#: ../src/xviewer-print-image-setup.c:995
+msgid "Inches"
+msgstr "Coliai"
+
+#: ../src/xviewer-print-image-setup.c:1024
+msgid "Preview"
+msgstr "Peržiūra"
+
+#: ../src/xviewer-save-as-dialog-helper.c:162
+msgid "as is"
+msgstr "kaip yra"
+
+#. Translators: This string is displayed in the statusbar.
+#. * The first token is the image number, the second is total image
+#. * count.
+#. *
+#. * Translate to "%Id" if you want to use localized digits, or
+#. * translate to "%d" otherwise.
+#. *
+#. * Note that translating this doesn't guarantee that you get localized
+#. * digits. That needs support from your system and locale definition
+#. * too.
+#: ../src/xviewer-statusbar.c:126
+#, c-format
+msgid "%d / %d"
+msgstr "%d / %d"
+
+#: ../src/xviewer-thumb-view.c:544
+msgid "Taken on"
+msgstr "Fotografuota"
+
+#: ../src/xviewer-uri-converter.c:982
+#, c-format
+msgid "At least two file names are equal."
+msgstr "Mažiausiai du failų pavadinimai yra vienodi."
+
+#: ../src/xviewer-util.c:68
+msgid "Could not display help for Image Viewer"
+msgstr "Nepavyko parodyti paveikslų žiūryklės žinyno"
+
+#: ../src/xviewer-util.c:116
+msgid " (invalid Unicode)"
+msgstr " (netaisyklingas unikodas)"
+
+#. Translators: This is the string displayed in the statusbar
+#. * The tokens are from left to right:
+#. * - image width
+#. * - image height
+#. * - image size in bytes
+#. * - zoom in percent
+#: ../src/xviewer-window.c:547
+#, c-format
+msgid "%i × %i pixel  %s    %i%%"
+msgid_plural "%i × %i pixels  %s    %i%%"
+msgstr[0] "%i × %i pikselio  %s    %i%%"
+msgstr[1] "%i × %i pikselių  %s    %i%%"
+msgstr[2] "%i × %i pikselių  %s    %i%%"
+
+#: ../src/xviewer-window.c:884 ../src/xviewer-window.c:2880
+msgctxt "MessageArea"
+msgid "Hi_de"
+msgstr "_Slėpti"
+
+#. The newline character is currently necessary due to a problem
+#. * with the automatic line break.
+#: ../src/xviewer-window.c:894
+#, c-format
+msgid ""
+"The image \"%s\" has been modified by an external application.\n"
+"Would you like to reload it?"
+msgstr ""
+"Paveikslas „%s“ buvo pakeistas išorinės programos.\n"
+"Ar norite jį įkelti iš naujo?"
+
+#: ../src/xviewer-window.c:1071
+#, c-format
+msgid "Use \"%s\" to open the selected image"
+msgstr "Atverti pasirinktą paveikslą naudojant „%s“"
+
+#. Translators: This string is displayed in the statusbar
+#. * while saving images. The tokens are from left to right:
+#. * - the original filename
+#. * - the current image's position in the queue
+#. * - the total number of images queued for saving
+#: ../src/xviewer-window.c:1227
+#, c-format
+msgid "Saving image \"%s\" (%u/%u)"
+msgstr "Įrašomas paveikslas „%s“ (%u/%u)"
+
+#: ../src/xviewer-window.c:1622
+#, c-format
+msgid "Opening image \"%s\""
+msgstr "Atveriamas paveikslas „%s“"
+
+#. L10N: This the reason why the screensaver is inhibited.
+#: ../src/xviewer-window.c:2208
+msgid "Viewing a slideshow"
+msgstr "Rodomos skaidrės"
+
+#: ../src/xviewer-window.c:2455
+#, c-format
+msgid ""
+"Error printing file:\n"
+"%s"
+msgstr ""
+"Klaida spausdintant failą:\n"
+"%s"
+
+#: ../src/xviewer-window.c:2808 ../src/xviewer-window.c:2823
+msgid "Error launching System Settings: "
+msgstr "Klaida atveriant sistemos nustatymus: "
+
+#. I18N: When setting mnemonics for these strings, watch out to not
+#. clash with mnemonics from xviewer's menubar
+#: ../src/xviewer-window.c:2878
+msgid "_Open Background Preferences"
+msgstr "_Atverti fono nuostatas"
+
+#. The newline character is currently necessary due to a problem
+#. * with the automatic line break.
+#: ../src/xviewer-window.c:2894
+#, c-format
+msgid ""
+"The image \"%s\" has been set as Desktop Background.\n"
+"Would you like to modify its appearance?"
+msgstr ""
+"Paveikslas „%s“ nustatytas kaip darbalaukio fonas.\n"
+"Ar norite pakeisti jo išvaizdą?"
+
+#: ../src/xviewer-window.c:3361
+msgid "Saving image locally…"
+msgstr "Paveikslas įrašomas vietiniame diske…"
+
+#: ../src/xviewer-window.c:3440
+#, c-format
+msgid ""
+"Are you sure you want to remove\n"
+"\"%s\" permanently?"
+msgstr ""
+"Ar tikrai norite visam laikui\n"
+"pašalinti „%s“?"
+
+#: ../src/xviewer-window.c:3443
+#, c-format
+msgid ""
+"Are you sure you want to remove\n"
+"the selected image permanently?"
+msgid_plural ""
+"Are you sure you want to remove\n"
+"the %d selected images permanently?"
+msgstr[0] ""
+"Ar tikrai norite visam laikui\n"
+"pašalinti %d pasirinktą paveikslą?"
+msgstr[1] ""
+"Ar tikrai norite visam laikui\n"
+"pašalinti %d pasirinktus paveikslus?"
+msgstr[2] ""
+"Ar tikrai norite visam laikui\n"
+"pašalinti %d pasirinktų paveikslų?"
+
+#: ../src/xviewer-window.c:3465 ../src/xviewer-window.c:3746
+msgid "_Delete"
+msgstr "Iš_trinti"
+
+#: ../src/xviewer-window.c:3469 ../src/xviewer-window.c:3748
+msgid "_Yes"
+msgstr "_Taip"
+
+#. add 'dont ask again' button
+#: ../src/xviewer-window.c:3474 ../src/xviewer-window.c:3740
+msgid "Do _not ask again during this session"
+msgstr "Daugiau _neklausti šio seanso metu"
+
+#: ../src/xviewer-window.c:3519
+#, c-format
+msgid "Couldn't retrieve image file"
+msgstr "Nepavyko gauti paveikslo failo"
+
+#: ../src/xviewer-window.c:3535
+#, c-format
+msgid "Couldn't retrieve image file information"
+msgstr "Nepavyko gauti paveikslo failo informacijos"
+
+#: ../src/xviewer-window.c:3551 ../src/xviewer-window.c:3807
+#, c-format
+msgid "Couldn't delete file"
+msgstr "Nepavyko ištrinti failo"
+
+#. set dialog error message
+#: ../src/xviewer-window.c:3601 ../src/xviewer-window.c:3903
+#, c-format
+msgid "Error on deleting image %s"
+msgstr "Ištrinant paveikslą %s įvyko klaida"
+
+#: ../src/xviewer-window.c:3708
+#, c-format
+msgid ""
+"Are you sure you want to move\n"
+"\"%s\" to the trash?"
+msgstr ""
+"Ar tikrai norite perkelti\n"
+"„%s“ į šiukšlinę?"
+
+#: ../src/xviewer-window.c:3711
+#, c-format
+msgid ""
+"A trash for \"%s\" couldn't be found. Do you want to remove this image "
+"permanently?"
+msgstr "„%s“ šiukšlinė nerasta. Ar norite šį paveikslą ištrinti negrįžtamai?"
+
+#: ../src/xviewer-window.c:3716
+#, c-format
+msgid ""
+"Are you sure you want to move\n"
+"the selected image to the trash?"
+msgid_plural ""
+"Are you sure you want to move\n"
+"the %d selected images to the trash?"
+msgstr[0] ""
+"Ar tikrai norite perkelti %d pasirinktą\n"
+"paveikslą į šiukšlinę?"
+msgstr[1] ""
+"Ar tikrai norite perkelti %d pasirinktus\n"
+"paveikslus į šiukšlinę?"
+msgstr[2] ""
+"Ar tikrai norite perkelti %d pasirinktų\n"
+"paveikslų į šiukšlinę?"
+
+#: ../src/xviewer-window.c:3721
+msgid ""
+"Some of the selected images can't be moved to the trash and will be removed "
+"permanently. Are you sure you want to proceed?"
+msgstr ""
+"Kai kurių pasirinktų paveikslų negalima perkelti į šiukšlinę, tad jie bus "
+"ištrinti negrįžtamai. Ar tikrai norite tęsti?"
+
+#: ../src/xviewer-window.c:3738 ../src/xviewer-window.c:4310
+#: ../src/xviewer-window.c:4349
+msgid "Move to _Trash"
+msgstr "Perkelti į ši_ukšlinę"
+
+#: ../src/xviewer-window.c:3785 ../src/xviewer-window.c:3799
+#, c-format
+msgid "Couldn't access trash."
+msgstr "Nepavyko gauti prieigos prie šiukšlinės."
+
+#: ../src/xviewer-window.c:4232
+msgid "_File"
+msgstr "_Failas"
+
+#: ../src/xviewer-window.c:4233
+msgid "_Edit"
+msgstr "_Taisa"
+
+#: ../src/xviewer-window.c:4235
+msgid "_Go"
+msgstr "_Eiti"
+
+#: ../src/xviewer-window.c:4236
+msgid "_Tools"
+msgstr "Įran_kiai"
+
+#: ../src/xviewer-window.c:4238
+msgid "_Favorites"
+msgstr ""
+
+#: ../src/xviewer-window.c:4239
+msgid "_Recents"
+msgstr ""
+
+#: ../src/xviewer-window.c:4241
+msgid "_Open…"
+msgstr "_Atverti…"
+
+#: ../src/xviewer-window.c:4242
+msgid "Open a file"
+msgstr "Atverti failą"
+
+#: ../src/xviewer-window.c:4245
+msgid "Close window"
+msgstr "Užverti langą"
+
+#: ../src/xviewer-window.c:4248
+msgid "Preferences for Image Viewer"
+msgstr "Paveikslų žiūryklės nuostatos"
+
+#: ../src/xviewer-window.c:4250
+msgid "_Contents"
+msgstr "_Turinys"
+
+#: ../src/xviewer-window.c:4251
+msgid "Help on this application"
+msgstr "Šios programos žinynas"
+
+#: ../src/xviewer-window.c:4254
+msgid "About this application"
+msgstr "Apie šią programą"
+
+#: ../src/xviewer-window.c:4260
+msgid "Changes the visibility of the toolbar in the current window"
+msgstr "Keičia įrankinės esamame lange matomumą"
+
+#: ../src/xviewer-window.c:4263
+msgid "Changes the visibility of the statusbar in the current window"
+msgstr "Keičia būsenos juostos esamame lange matomumą"
+
+#: ../src/xviewer-window.c:4266
+msgid ""
+"Changes the visibility of the image gallery pane in the current window"
+msgstr "Keičia esamo lango paveikslų kolekcijos skydelio matomumą"
+
+#: ../src/xviewer-window.c:4269
+msgid "Changes the visibility of the side pane in the current window"
+msgstr "Keičia esamo lango šoninio polangio matomumą"
+
+#: ../src/xviewer-window.c:4275
+msgid "Save changes in currently selected images"
+msgstr "Įrašyti pažymėtų paveikslų pakeitimus"
+
+#: ../src/xviewer-window.c:4277
+msgid "Open _with"
+msgstr "Atverti _su"
+
+#: ../src/xviewer-window.c:4278
+msgid "Open the selected image with a different application"
+msgstr "Atverti pažymėtą paveikslą su kita programa"
+
+#: ../src/xviewer-window.c:4281
+msgid "Save the selected images with a different name"
+msgstr "Įrašyti pažymėtus paveikslus kitu vardu"
+
+#: ../src/xviewer-window.c:4283
+msgid "Show Containing _Folder"
+msgstr "Rodyti _aplanką"
+
+#: ../src/xviewer-window.c:4286
+msgid "_Print…"
+msgstr "S_pausdinti…"
+
+#: ../src/xviewer-window.c:4287
+msgid "Print the selected image"
+msgstr "Spausdinti pažymėtą paveikslą"
+
+#: ../src/xviewer-window.c:4289
+msgid "Prope_rties"
+msgstr "Sa_vybės"
+
+#: ../src/xviewer-window.c:4290
+msgid "Show the properties and metadata of the selected image"
+msgstr "Rodyti pasirinkto paveikslo savybes ir metaduomenis"
+
+#: ../src/xviewer-window.c:4292
+msgid "_Undo"
+msgstr "_Atšaukti"
+
+#: ../src/xviewer-window.c:4293
+msgid "Undo the last change in the image"
+msgstr "Atšaukti paskutinį paveikslo pakeitimą"
+
+#: ../src/xviewer-window.c:4295
+msgid "Flip _Horizontal"
+msgstr "Apversti _horizontaliai"
+
+#: ../src/xviewer-window.c:4296
+msgid "Mirror the image horizontally"
+msgstr "Atspindėti paveikslą horizontaliai"
+
+#: ../src/xviewer-window.c:4298
+msgid "Flip _Vertical"
+msgstr "Apversti _vertikaliai"
+
+#: ../src/xviewer-window.c:4299
+msgid "Mirror the image vertically"
+msgstr "Atspindėti paveikslą vertikaliai"
+
+#: ../src/xviewer-window.c:4301
+msgid "_Rotate Clockwise"
+msgstr "Pasukti pagal laik_rodžio rodyklę"
+
+#: ../src/xviewer-window.c:4302
+msgid "Rotate the image 90 degrees to the right"
+msgstr "Pasukti paveikslą 90 laipsnių į dešinę"
+
+#: ../src/xviewer-window.c:4304
+msgid "Rotate Counterc_lockwise"
+msgstr "Pasukti prieš _laikrodžio rodyklę"
+
+#: ../src/xviewer-window.c:4305
+msgid "Rotate the image 90 degrees to the left"
+msgstr "Pasukti paveikslą 90 laipsnių į kairę"
+
+#: ../src/xviewer-window.c:4307
+msgid "Set as Wa_llpaper"
+msgstr "Nustatyti kaip _foną"
+
+#: ../src/xviewer-window.c:4308
+msgid "Set the selected image as the wallpaper"
+msgstr "Nustatyti pasirinktą paveikslą kaip darbalaukio foną"
+
+#: ../src/xviewer-window.c:4311
+msgid "Move the selected image to the trash folder"
+msgstr "Perkelti pasirinktą paveikslą į šiukšlinę"
+
+#: ../src/xviewer-window.c:4313
+msgid "_Delete Image"
+msgstr "Iš_trinti paveikslą"
+
+#: ../src/xviewer-window.c:4314
+msgid "Delete the selected image"
+msgstr "Ištrinti pasirinktą paveikslą"
+
+#: ../src/xviewer-window.c:4316
+msgid "_Copy"
+msgstr "_Kopijuoti:"
+
+#: ../src/xviewer-window.c:4317
+msgid "Copy the selected image to the clipboard"
+msgstr "Kopijuoti pasirinktą paveikslą į iškarpinę"
+
+#: ../src/xviewer-window.c:4319 ../src/xviewer-window.c:4337
+#: ../src/xviewer-window.c:4340
+msgid "_Zoom In"
+msgstr "_Didinti"
+
+#: ../src/xviewer-window.c:4320 ../src/xviewer-window.c:4338
+msgid "Enlarge the image"
+msgstr "Padidinti paveikslą"
+
+#: ../src/xviewer-window.c:4322 ../src/xviewer-window.c:4343
+msgid "Zoom _Out"
+msgstr "_Mažinti"
+
+#: ../src/xviewer-window.c:4323 ../src/xviewer-window.c:4341
+#: ../src/xviewer-window.c:4344
+msgid "Shrink the image"
+msgstr "Sumažinti paveikslą"
+
+#: ../src/xviewer-window.c:4325 ../src/xviewer-window.c:4346
+msgid "_Normal Size"
+msgstr "_Normalus dydis"
+
+#: ../src/xviewer-window.c:4326 ../src/xviewer-window.c:4347
+msgid "Show the image at its normal size"
+msgstr "Rodyti paveikslą normaliu dydžiu"
+
+#: ../src/xviewer-window.c:4328
+msgid "Fit to _Height"
+msgstr ""
+
+#: ../src/xviewer-window.c:4329
+msgid "Fit to height"
+msgstr ""
+
+#: ../src/xviewer-window.c:4331
+msgid "Fit to _Width"
+msgstr ""
+
+#: ../src/xviewer-window.c:4332
+msgid "Fit to width"
+msgstr ""
+
+#: ../src/xviewer-window.c:4335
+msgid "Reload the image"
+msgstr "Įkelti paveikslą iš naujo"
+
+#: ../src/xviewer-window.c:4355
+msgid "_Fullscreen"
+msgstr "_Visame ekrane"
+
+#: ../src/xviewer-window.c:4356
+msgid "Show the current image in fullscreen mode"
+msgstr "Rodyti pasirinktą paveikslą viso ekrano veiksenoje"
+
+#: ../src/xviewer-window.c:4358
+msgid "Pause Slideshow"
+msgstr "Stabdyti skaidrių rodymas"
+
+#: ../src/xviewer-window.c:4359
+msgid "Pause or resume the slideshow"
+msgstr "Stabdyti arba pratęsti skaidrių rodymą"
+
+#: ../src/xviewer-window.c:4361
+msgid "_Best Fit"
+msgstr "Geriausiai _tinkantis"
+
+#: ../src/xviewer-window.c:4362
+msgid "Fit the image to the window"
+msgstr "Pritaikyti paveikslo dydį langui"
+
+#: ../src/xviewer-window.c:4367 ../src/xviewer-window.c:4382
+msgid "_Previous Image"
+msgstr "_Ankstesnis paveikslas"
+
+#: ../src/xviewer-window.c:4368
+msgid "Go to the previous image of the gallery"
+msgstr "Rodyti ankstesnį rinkinio paveikslą"
+
+#: ../src/xviewer-window.c:4370
+msgid "_Next Image"
+msgstr "_Kitas paveikslas"
+
+#: ../src/xviewer-window.c:4371
+msgid "Go to the next image of the gallery"
+msgstr "Rodyti kitą rinkinio paveikslą"
+
+#: ../src/xviewer-window.c:4373 ../src/xviewer-window.c:4385
+msgid "_First Image"
+msgstr "_Pirmas paveikslas"
+
+#: ../src/xviewer-window.c:4374
+msgid "Go to the first image of the gallery"
+msgstr "Rodyti pirmąjį rinkinio paveikslą"
+
+#: ../src/xviewer-window.c:4376 ../src/xviewer-window.c:4388
+msgid "_Last Image"
+msgstr "Pas_kutinis paveikslas"
+
+#: ../src/xviewer-window.c:4377
+msgid "Go to the last image of the gallery"
+msgstr "Rodyti paskutinį rinkinio paveikslą"
+
+#: ../src/xviewer-window.c:4379
+msgid "_Random Image"
+msgstr "_Atsitiktinis paveikslas"
+
+#: ../src/xviewer-window.c:4380
+msgid "Go to a random image of the gallery"
+msgstr "Rodyti atsitiktinį rinkinio paveikslą"
+
+#: ../src/xviewer-window.c:4538
+msgid "S_lideshow"
+msgstr "Skaidrių _rodymas"
+
+#: ../src/xviewer-window.c:4539
+msgid "Start a slideshow view of the images"
+msgstr "Rodyti paveikslus kaip skaidrių rodymą"
+
+#: ../src/xviewer-window.c:4611
+msgid "Previous"
+msgstr "Ankstesnis"
+
+#: ../src/xviewer-window.c:4616
+msgid "Next"
+msgstr "Kitas"
+
+#: ../src/xviewer-window.c:4623
+msgid "Right"
+msgstr "Dešinėn"
+
+#: ../src/xviewer-window.c:4626
+msgid "Left"
+msgstr "Kairėn"
+
+#: ../src/xviewer-window.c:4629
+msgid "Show Folder"
+msgstr "Rodyti aplanką"
+
+#: ../src/xviewer-window.c:4632
+msgid "Out"
+msgstr "Mažinti"
+
+#: ../src/xviewer-window.c:4635
+msgid "In"
+msgstr "Didinti"
+
+#: ../src/xviewer-window.c:4638
+msgid "Normal"
+msgstr "Normalus"
+
+#: ../src/xviewer-window.c:4641
+msgid "Height"
+msgstr ""
+
+#: ../src/xviewer-window.c:4644
+msgid "Width"
+msgstr ""
+
+#: ../src/xviewer-window.c:4647
+msgid "Fit"
+msgstr "Taikyti"
+
+#: ../src/xviewer-window.c:4650
+msgid "Gallery"
+msgstr "Galerija"
+
+#: ../src/xviewer-window.c:4667
+msgctxt "action (to trash)"
+msgid "Trash"
+msgstr "Perkelti į šiukšlinę"
+
+#: ../src/main.c:63
+msgid "Open in fullscreen mode"
+msgstr "Atverti viso ekrano veiksenoje"
+
+#: ../src/main.c:64
+msgid "Disable image gallery"
+msgstr "Išjungti paveikslų kolekciją"
+
+#: ../src/main.c:65
+msgid "Open in slideshow mode"
+msgstr "Atverti skaidrių rodymo veiksenoje"
+
+#: ../src/main.c:66
+msgid "Start a new instance instead of reusing an existing one"
+msgstr "Paleisti naują egzempliorių užuot naudojus jau paleistą"
+
+#: ../src/main.c:67
+msgid ""
+"Open in a single window, if multiple windows are open the first one is used"
+msgstr ""
+"Atidaryti viename lange, jei atidaryti keli langai, naudojamas pirmasis"
+
+#: ../src/main.c:69
+msgid "Show the application's version"
+msgstr "Rodyti programos versiją"
+
+#: ../src/main.c:99
+msgid "[FILE…]"
+msgstr "[FAILAS…]"
+
+#. I18N: The '%s' is replaced with xviewer's command name.
+#: ../src/main.c:112
+#, c-format
+msgid "Run '%s --help' to see a full list of available command line options."
+msgstr ""
+"Norėdami pamatyti komandų eilutės parametrų sąrašą, paleiskite „%s --help“."

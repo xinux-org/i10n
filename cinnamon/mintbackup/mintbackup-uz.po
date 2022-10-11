@@ -1,0 +1,408 @@
+# Uzbek translation for linuxmint
+# Copyright (c) 2017 Rosetta Contributors and Canonical Ltd 2017
+# This file is distributed under the same license as the linuxmint package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2017.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: linuxmint\n"
+"Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
+"POT-Creation-Date: 2019-02-27 13:57+0000\n"
+"PO-Revision-Date: 2022-05-04 06:56+0000\n"
+"Last-Translator: Umidjon Almasov <umidjon@almasov.uz>\n"
+"Language-Team: Uzbek <uz@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Launchpad-Export-Date: 2022-10-10 13:02+0000\n"
+"X-Generator: Launchpad (build 762fb15a975e8b23af6a1f86e44e46bfd0451459)\n"
+"Language: uz\n"
+
+#: usr/lib/linuxmint/mintbackup/mintbackup.py:41
+msgid "Backups"
+msgstr "Zaxira nusxalari"
+
+#: usr/lib/linuxmint/mintbackup/mintbackup.py:169
+#: usr/lib/linuxmint/mintbackup/mintbackup.py:209
+#: usr/lib/linuxmint/mintbackup/mintbackup.py:216 generate_desktop_files:24
+#: generate_desktop_files:39
+msgid "Backup Tool"
+msgstr "Zahira vositasi"
+
+#: usr/lib/linuxmint/mintbackup/mintbackup.py:232
+#, python-format
+msgid "%s is not located in your home directory."
+msgstr "%s uy katalogingizda joylashgan emas."
+
+#: usr/lib/linuxmint/mintbackup/mintbackup.py:272
+msgid "Please choose a directory."
+msgstr "Katalogni tanlang."
+
+#: usr/lib/linuxmint/mintbackup/mintbackup.py:275
+msgid "You do not have the permission to write in the selected directory."
+msgstr "Sizda tanlangan katalogga yozishga ruxsatingiz yo‘q."
+
+#: usr/lib/linuxmint/mintbackup/mintbackup.py:335
+msgid "Please choose a backup file."
+msgstr "Zaxira faylni tanlang."
+
+#: usr/lib/linuxmint/mintbackup/mintbackup.py:343
+msgid ""
+"This backup file is either too old or it was created with a different tool. "
+"Please extract it manually."
+msgstr ""
+"Bu zahira fayli juda eski yoki u boshqa vosita bilan yaratilgan. Uni qo‘lda "
+"chiqarib oling."
+
+#: usr/lib/linuxmint/mintbackup/mintbackup.py:352
+#, python-format
+msgid "An error occurred while opening the backup file: %s."
+msgstr "Zaxira faylini ochishda xatolik yuz berdi: %s."
+
+#: usr/lib/linuxmint/mintbackup/mintbackup.py:366
+msgid "No packages need to be installed."
+msgstr "Hech qanday paketlarni o‘rnatish shart emas."
+
+#: usr/lib/linuxmint/mintbackup/mintbackup.py:373
+msgid "Please select packages to install."
+msgstr "O‘rnatish uchun paketlarni tanlang."
+
+#: usr/lib/linuxmint/mintbackup/mintbackup.py:427
+#, python-format
+msgid "Skipping %s because named pipes are not supported."
+msgstr ""
+"%s oʻtkazib yuborilmoqda, chunki nomli quvurlar qoʻllab-quvvatlanmaydi."
+
+#: usr/lib/linuxmint/mintbackup/mintbackup.py:452
+msgid "Backing up:"
+msgstr "Zaxira nusxalanmoqda:"
+
+#: usr/lib/linuxmint/mintbackup/mintbackup.py:460
+msgid "Calculating..."
+msgstr "Hisoblanmoqda…"
+
+#: usr/lib/linuxmint/mintbackup/mintbackup.py:464
+#: usr/lib/linuxmint/mintbackup/mintbackup.py:568
+msgid "The following errors occurred:"
+msgstr "Quyidagi xatolar yuz berdi:"
+
+#: usr/lib/linuxmint/mintbackup/mintbackup.py:470
+msgid "The backup was aborted."
+msgstr "Zaxira bekor qilindi."
+
+#: usr/lib/linuxmint/mintbackup/mintbackup.py:474
+#, python-format
+msgid "Your files were successfully saved in %s."
+msgstr "Fayllaringiz %s ichida muvaffaqiyatli saqlandi."
+
+#: usr/lib/linuxmint/mintbackup/mintbackup.py:515
+msgid ""
+"Warning: The meta file could not be saved. This backup will not be accepted "
+"for restoration."
+msgstr ""
+"Ogohlantirish: Meta faylni saqlab bo‘lmadi. Ushbu zaxira qayta tiklash uchun "
+"qabul qilinmaydi."
+
+#: usr/lib/linuxmint/mintbackup/mintbackup.py:542
+#, python-format
+msgid ""
+"Warning: Some files were not saved. Only %(archived)d files were backed up "
+"out of %(total)d."
+msgstr ""
+"Ogohlantirish: Ba'zi fayllar saqlanmadi. %(total)d fayldan faqat "
+"%(archived)d ta fayl zaxiralangan."
+
+#: usr/lib/linuxmint/mintbackup/mintbackup.py:557
+msgid "Restoring:"
+msgstr "Tiklanmoqda:"
+
+#: usr/lib/linuxmint/mintbackup/mintbackup.py:574
+msgid "The restoration was aborted."
+msgstr "Tiklash to‘xtatildi."
+
+#: usr/lib/linuxmint/mintbackup/mintbackup.py:578
+msgid "Your files were successfully restored."
+msgstr "Fayllaringiz muvaffaqiyatli tiklandi."
+
+#: usr/lib/linuxmint/mintbackup/mintbackup.py:666
+#, python-format
+msgid "Warning: Only %(number)d files were restored out of %(total)d."
+msgstr "Ogohlantirish: %(total)d fayldan faqat %(number)d ta fayl tiklandi."
+
+#: usr/lib/linuxmint/mintbackup/mintbackup.py:691
+msgid "The list below shows the applications you installed."
+msgstr "Quyidagi ro‘yxat siz o‘rnatgan ilovalarni ko‘rsatadi."
+
+#: usr/lib/linuxmint/mintbackup/mintbackup.py:735
+#, python-format
+msgid "Your software selection was saved in %s"
+msgstr "Siz tanlagan dasturiy taʼminot %s ichida saqlandi"
+
+#: usr/lib/linuxmint/mintbackup/mintbackup.py:751
+msgid "The selected file is not a valid software selection."
+msgstr "Tanlangan fayl yaroqli dastur tanlovi emas."
+
+#: usr/lib/linuxmint/mintbackup/mintbackup.py:756
+#: usr/lib/linuxmint/mintbackup/mintbackup.py:794
+msgid "An error occurred while reading the file."
+msgstr "Faylni o‘qishda xatolik yuz berdi."
+
+#: usr/lib/linuxmint/mintbackup/mintbackup.py:779
+msgid "Could not locate the package."
+msgstr "Paketni topib bo‘lmadi."
+
+#: generate_desktop_files:24 generate_desktop_files:39
+msgid "Make a backup of your home directory"
+msgstr "Uy katalogingizning zaxira nusxasini yarating"
+
+#: usr/share/linuxmint/mintbackup/mintbackup.ui.h:1
+msgid "Personal data"
+msgstr "Shaxsiy ma'lumot"
+
+#: usr/share/linuxmint/mintbackup/mintbackup.ui.h:2
+msgid "Your files, settings and the content of your home directory"
+msgstr "Sizning fayllaringiz, sozlamalaringiz va uy katalogingiz tarkibi"
+
+#: usr/share/linuxmint/mintbackup/mintbackup.ui.h:3
+msgid "Restore..."
+msgstr "Tiklash..."
+
+#: usr/share/linuxmint/mintbackup/mintbackup.ui.h:4
+msgid "Back Up Now..."
+msgstr "Hozir zaxiralash..."
+
+#: usr/share/linuxmint/mintbackup/mintbackup.ui.h:5
+msgid "Software selection"
+msgstr "Dasturiy ta'minot tanlash"
+
+#: usr/share/linuxmint/mintbackup/mintbackup.ui.h:6
+msgid "The list of applications installed on your computer"
+msgstr "Kompyuteringizda o‘rnatilgan ilovalar ro‘yxati"
+
+#: usr/share/linuxmint/mintbackup/mintbackup.ui.h:7
+msgid "Please select where you want to save the backup file:"
+msgstr "Zaxira faylni qayerda saqlamoqchi bo‘lganingizni tanlang:"
+
+#: usr/share/linuxmint/mintbackup/mintbackup.ui.h:8
+msgid ""
+"Please add files or directories to the list below to exclude them from the "
+"backup."
+msgstr ""
+"Ularni zaxiradan chiqarib tashlash uchun quyidagi ro‘yxatga fayllar yoki "
+"kataloglarni qo‘shing."
+
+#: usr/share/linuxmint/mintbackup/mintbackup.ui.h:9
+msgid "Exclude files"
+msgstr "Fayllarni chiqarib tashlash"
+
+#: usr/share/linuxmint/mintbackup/mintbackup.ui.h:10
+msgid "Exclude directories"
+msgstr "Kataloglarni chiqarib tashlash"
+
+#: usr/share/linuxmint/mintbackup/mintbackup.ui.h:11
+msgid "Remove"
+msgstr "Olib tashlash"
+
+#: usr/share/linuxmint/mintbackup/mintbackup.ui.h:12
+msgid ""
+"Hidden files and hidden folders located at the root of your home directory "
+"are not included by default."
+msgstr ""
+"Uy katalogingizning ildizida joylashgan yashirin fayllar va yashirin jildlar "
+"standart bo‘yicha kiritilmagan."
+
+#: usr/share/linuxmint/mintbackup/mintbackup.ui.h:13
+msgid ""
+"If you want to include some of them in the backup, please add them to the "
+"list below."
+msgstr ""
+"Agar ulardan ba'zilarini zaxiraga qo‘shmoqchi bo‘lsangiz, ularni quyidagi "
+"ro‘yxatga qo‘shing."
+
+#: usr/share/linuxmint/mintbackup/mintbackup.ui.h:14
+msgid "Include files"
+msgstr "Fayllarni kiritish"
+
+#: usr/share/linuxmint/mintbackup/mintbackup.ui.h:15
+msgid "Include directories"
+msgstr "Kataloglarni kiritish"
+
+#: usr/share/linuxmint/mintbackup/mintbackup.ui.h:16
+msgid ""
+"These files and folders usually contain temporary data or preferences for "
+"your applications."
+msgstr ""
+"Ushbu fayl va jildlar odatda vaqtinchalik ma'lumotlar yoki ilovalaringiz "
+"uchun parametrlarni o‘z ichiga oladi."
+
+#: usr/share/linuxmint/mintbackup/mintbackup.ui.h:17
+msgid "Please wait while your files are being backed up."
+msgstr "Fayllaringizning zaxira nusxasi yaratilguncha kuting."
+
+#: usr/share/linuxmint/mintbackup/mintbackup.ui.h:18
+msgid "Please select the backup to restore:"
+msgstr "Tiklash uchun zaxira nusxasini tanlang:"
+
+#: usr/share/linuxmint/mintbackup/mintbackup.ui.h:19
+msgid "Overwrite existing files?"
+msgstr "Mavjud fayllarning ustiga yozilsinmi?"
+
+#: usr/share/linuxmint/mintbackup/mintbackup.ui.h:20
+msgid ""
+"No, only restore missing files.\n"
+"<small>This option is safe and does not affect your existing files.</small>"
+msgstr ""
+"Yo‘q, faqat yetishmayotgan fayllarni tiklash.\n"
+"<small>Ushbu parametr xavfsiz va mavjud fayllaringizga ta'sir "
+"qilmaydi.</small>"
+
+#: usr/share/linuxmint/mintbackup/mintbackup.ui.h:22
+msgid ""
+"Yes, overwrite changes and restore the content of any existing files.\n"
+"<small>Use this option with caution. The changes you made to the files since "
+"the backup will be lost.</small>"
+msgstr ""
+"Ha, o‘zgarishlarni qayta yozish va mavjud fayllar tarkibini tiklash.\n"
+"<small>Ushbu parametrdan ehtiyotkorlik bilan foydalaning. Zaxiradan keyin "
+"fayllarga kiritilgan oʻzgarishlar yoʻqoladi.</small>"
+
+#: usr/share/linuxmint/mintbackup/mintbackup.ui.h:24
+msgid "Please wait while your files are being restored."
+msgstr "Fayllaringiz tiklanguncha kuting."
+
+#: usr/share/linuxmint/mintbackup/mintbackup.ui.h:25
+msgid ""
+"The list below shows the applications you installed with the Software "
+"Manager."
+msgstr ""
+"Quyidagi ro‘yxatda dasturiy ta'minot menejeri bilan o‘rnatilgan ilovalar "
+"ko‘rsatilgan."
+
+#: usr/share/linuxmint/mintbackup/mintbackup.ui.h:26
+msgid "Please select the applications you want to save."
+msgstr "Saqlamoqchi bo‘lgan ilovalarni tanlang."
+
+#: usr/share/linuxmint/mintbackup/mintbackup.ui.h:27
+msgid "Select all"
+msgstr "Hammasini tanlash"
+
+#: usr/share/linuxmint/mintbackup/mintbackup.ui.h:28
+msgid "Deselect all"
+msgstr "Hammasini bekor qilish"
+
+#: usr/share/linuxmint/mintbackup/mintbackup.ui.h:29
+msgid ""
+"Note: If you want to save the complete list of all installed packages on the "
+"system, please use the command 'dpkg --get-selections > mylist.list' in a "
+"terminal."
+msgstr ""
+"Eslatma: Agar siz tizimdagi barcha oʻrnatilgan paketlarning toʻliq "
+"roʻyxatini saqlamoqchi boʻlsangiz, terminalda “dpkg --get-selections > "
+"mylist.list” buyrugʻidan foydalaning."
+
+#: usr/share/linuxmint/mintbackup/mintbackup.ui.h:30
+msgid "Please select a saved software selection (.list file):"
+msgstr "Saqlangan dastur tanlovini tanlang (.list fayli):"
+
+#: usr/share/linuxmint/mintbackup/mintbackup.ui.h:31
+msgid "Select the packages you want to install."
+msgstr "O‘rnatmoqchi bo‘lgan paketlarni tanlang."
+
+#: usr/share/linuxmint/mintbackup/mintbackup.ui.h:32
+msgid "Refresh"
+msgstr "Yangilash"
+
+#: usr/share/linuxmint/mintbackup/mintbackup.ui.h:33
+msgid "All the packages in your software selection are installed."
+msgstr "Dasturiy ta'minot tanlovingizdagi barcha paketlar o‘rnatilgan."
+
+#~ msgid "Archiving your home directory..."
+#~ msgstr "SHaxsiy direktoriyangizni arxivlash"
+
+#~ msgid "Your home directory was successfully backed-up into"
+#~ msgstr ""
+#~ "SHaxsiy direktoriyangizni rezerv saqlash muvofaqiyatli amalga oshdi, uning "
+#~ "manzili:"
+
+#~ msgid "Backup successful"
+#~ msgstr "Rezerv saqlash muvofaqiyatli amalga oshdi"
+
+#~ msgid "Backup failed"
+#~ msgstr "Rezerv saqlash amali bajarilmadi"
+
+#~ msgid "Extracting the content of the backup into your home directory..."
+#~ msgstr "Rezerv saqlangan ma'lumotni shaxsiy direktoriyangizga chiqarish..."
+
+#~ msgid "Restoration successful"
+#~ msgstr "Qayta tiklash muvofaqiyatli amalga oshdi"
+
+#~ msgid "Cleaning up..."
+#~ msgstr "Tozalanmoqda..."
+
+#~ msgid "Your backup was successfully restored"
+#~ msgstr "Rezerv saqlangan ma'lumotni qayta tiklash muvofaqiyatli amalga oshdi"
+
+#~ msgid "Restoration failed"
+#~ msgstr "Qayta tiklash amalga oshmadi"
+
+#~ msgid "Excluded Files and Directories"
+#~ msgstr "CHiqarib olingan Fayllar va Jildlar"
+
+#~ msgid "Backup"
+#~ msgstr "Rezerv saqlash"
+
+#~ msgid "Exclude folders"
+#~ msgstr "Jildlarni chiqarib olish"
+
+#~ msgid "Opening the backup archive..."
+#~ msgstr "Rezerv arxiv ochilyapti..."
+
+#~ msgid "Restore your personal data from this backup"
+#~ msgstr ""
+#~ "Ushbu rezerv saqlangan fayl ichidan shaxsiy  ma'lumotlaringizni qayta tiklash"
+
+#~ msgid "<big><b>Load data into your home directory</b></big>"
+#~ msgstr "<big><b>Ma'lumotni shaxsi jildingizga yuklash</b></big>"
+
+#~ msgid "Restore"
+#~ msgstr "Qayta tiklash"
+
+#~ msgid "Overwrite existing files"
+#~ msgstr "Mavjud fayllar ustidan yozish"
+
+#~ msgid "Excluded paths"
+#~ msgstr "CHiqarib tashlangan yo‘llar"
+
+#~ msgid "Invalid path"
+#~ msgstr "Noto‘g‘ri yo‘l"
+
+#~ msgid "An error occurred during the backup:"
+#~ msgstr "Zahiraga saqlash jarayoni paytida xato sodir bo‘ldi"
+
+#~ msgid "Copying the backup file into your home directory..."
+#~ msgstr ""
+#~ "Rezerv saqlangan fayl nushasini shaxsiy direktoriyangizga ko‘chirish..."
+
+#~ msgid "Included hidden directories"
+#~ msgstr "Qo‘shilgan yashirin jildlar"
+
+#~ msgid "An error occurred while restoring the backup archive:"
+#~ msgstr "Rezerv arxivni qayta tiklash paytida xato sodir bo‘ldi"
+
+#~ msgid "Read error"
+#~ msgstr "o‘qish paytida xato sodir bo‘ldi"
+
+#~ msgid "An error occurred while opening the backup:"
+#~ msgstr "Rezerv saqlangan ma'lumotni ochish paytida xato sodir bo‘ldi:"
+
+#~ msgid "Hidden paths"
+#~ msgstr "YAshirin yo‘llar"
+
+#~ msgid "Included"
+#~ msgstr "Qo‘shilgan"
+
+#~ msgid "is not located within your home directory. Not added."
+#~ msgstr "sizning shaxsiy jildingizda joylashmagan. Qo‘shilmadi."
+
+#~ msgid "View content"
+#~ msgstr "Ichini ko‘rish"

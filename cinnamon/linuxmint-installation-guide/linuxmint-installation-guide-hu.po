@@ -1,0 +1,1819 @@
+# Hungarian translation for linuxmint
+# Copyright (c) 2018 Rosetta Contributors and Canonical Ltd 2018
+# This file is distributed under the same license as the linuxmint package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2018.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: linuxmint\n"
+"Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
+"POT-Creation-Date: 2019-03-29 10:21+0000\n"
+"PO-Revision-Date: 2021-11-24 11:14+0000\n"
+"Last-Translator: KAMI <kami911@gmail.com>\n"
+"Language-Team: Hungarian <hu@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Launchpad-Export-Date: 2022-10-10 13:12+0000\n"
+"X-Generator: Launchpad (build 762fb15a975e8b23af6a1f86e44e46bfd0451459)\n"
+
+#: ../../boot_options.rst:2
+msgid "Boot options"
+msgstr "Rendszerindítási lehetőségek"
+
+#: ../../boot_options.rst:4
+msgid ""
+"Some graphics cards and motherboards don't work well with the open-source "
+"drivers present in Linux Mint by default."
+msgstr ""
+"Egyes grafikus kártyák és alaplapok nem működnek megfelelően a Linux Mint "
+"rendszerben jelen lévő nyílt forráskódú illesztőprogramokkal."
+
+#: ../../boot_options.rst:7
+msgid "Compatibility mode"
+msgstr "Kompatibilitási üzemmód"
+
+#: ../../boot_options.rst:9
+msgid ""
+"The easiest option is to select ``compatibility mode`` from the USB stick "
+"(or DVD) boot menu."
+msgstr ""
+"A Kompatibilitási üzemmód ``compatibility mode`` kiválasztásának "
+"legegyszerűbb lehetősége az USB adathordozó (vagy DVD lemez) rendszerindító "
+"menüjéből."
+
+#: ../../boot_options.rst:15
+msgid "Grub menu (EFI mode)"
+msgstr "Grub menü (EFI üzemmód)"
+
+#: ../../boot_options.rst:21
+msgid "Isolinux menu (BIOS mode)"
+msgstr "Isolinux menü (BIOS üzemmód)"
+
+#: ../../boot_options.rst:23
+msgid "If that doesn't work, you can try the ``nomodeset`` boot option."
+msgstr ""
+"Ha ez nem működne, próbálkozzon a ``nomodeset`` rendszerindítási "
+"lehetőséggel."
+
+#: ../../boot_options.rst:26
+msgid "Nomodeset boot option"
+msgstr "Nomodeset rendszerindítási lehetőség"
+
+#: ../../boot_options.rst:28
+msgid ""
+"In EFI mode, highlight the ``Start Linux Mint`` option and press :kbd:`e` to "
+"modify the boot options."
+msgstr ""
+"EFI üzemmódban válassza ki a ``Start Linux Mint`` lehetőséget, és nyomja meg "
+"az kbd:`e` billentyűt a rendszerindítás módosításához."
+
+#: ../../boot_options.rst:34
+msgid ""
+"Replace ``quiet splash`` with ``nomodeset`` and press :kbd:`F10` to boot."
+msgstr ""
+"Cserélje ki a ``quiet splash`` parancsokat a ``nomodeset`` parancsra, és "
+"nyomja meg: kbd:`F10` billentyűt a rendszerindításhoz."
+
+#: ../../boot_options.rst:36
+msgid ""
+"In BIOS mode, highlight ``Start Linux Mint`` and press :kbd:`Tab` to modify "
+"the boot options."
+msgstr ""
+"BIOS üzemmódban válassza ki a ``Start Linux Mint`` menüelemet, és nyomja meg "
+"a :kbd:`Tab` billentyűt a rendszerindítási beállítások módosításához."
+
+#: ../../boot_options.rst:42
+msgid ""
+"Replace ``quiet splash`` with ``nomodeset`` and press :kbd:`Enter` to boot."
+msgstr ""
+"Cserélje ki a ``quiet splash`` parancsokat a ``nomodeset`` parancsra, és "
+"nyomja meg: kbd:`Enter` billentyűt a rendszerindításhoz."
+
+#: ../../boot_options.rst:45
+msgid ""
+"Repeat this operation post-install in your grub boot menu and read "
+":doc:`drivers` to install additional drivers."
+msgstr ""
+"Ismételje ezt a műveletet a telepítés után a grub rendszerindító menüjében, "
+"és olvassa el: :doc:`drivers` a további illesztőprogramok telepítéséhez."
+
+#: ../../boot_options.rst:48
+msgid "Other boot options"
+msgstr "Egyéb rendszerindítási lehetőségek"
+
+#: ../../boot_options.rst:50
+msgid "If you still cannot boot try one of the following solutions:"
+msgstr ""
+"Ha még mindig nem sikerült a rendszerindítás, próbálja ki a következő "
+"hibaelhárítási lehetőségeket:"
+
+#: ../../boot_options.rst:52
+msgid "Try ``nouveau.noaccel=1`` instead of ``nomodeset``."
+msgstr ""
+"Próbálja ki a ``nouveau.noaccel=1`` parancsot a ``nomodeset`` parancs "
+"helyett."
+
+#: ../../boot_options.rst:53
+msgid ""
+"After the installation, use :menuselection:`Advanced Options --> Recovery "
+"mode` from the boot menu and choose ``resume``."
+msgstr ""
+"A telepítés után válassza ki az  :menuselection:`Advanced Options --> "
+"Recovery mode` menüelemet a rendszerindító menüből és válassza a ``resume`` "
+"parancsot."
+
+#: ../../boot_options.rst:56
+msgid "Install an older release"
+msgstr "Telepítsen egy korábbi kiadást"
+
+#: ../../boot_options.rst:58
+msgid ""
+"If your computer has compatibility issues with the latest Linux Mint "
+"release, install a previous release from the same Linux Mint series."
+msgstr ""
+"Ha a számítógéppel kompatibilitási problémákat tapasztal a Linux Mint "
+"legfrissebb kiadásával, telepítsen egy korábbi verziót a Linux Mint "
+"ugyanazon változatból."
+
+#: ../../boot_options.rst:60
+msgid ""
+"For instance, if you can't install Linux Mint 18.3 (which comes with a 4.10 "
+"kernel), install Linux Mint 18 (which comes with a 4.4 kernel) and upgrade "
+"to 18.3."
+msgstr ""
+"Például: Ha nem sikerül telepítenie a Linux Mint 18.3-as verzióját (ami a "
+"4.10 verziójú kernelt használja), akkor telepítse a Linux Mint 18-as "
+"verzióra (ami a 4.4 verziójú kernelt használja) és frissítsen a 18.3-as "
+"verzióra."
+
+#: ../../boot_options.rst:63
+msgid ""
+"The first release in each series uses an LTS (Long Term Support) kernel. "
+"Upgrading from this release to the latest one in the series does not change "
+"your kernel."
+msgstr ""
+"Minden sorozat első kiadása LTS (Long Term Support – Hosszú Távú Támogatás) "
+"kernel-t használ. Erről a verzióról a legújabb verzióra történő frissítés "
+"nem változtatja meg a kernel-t verzióját."
+
+#: ../../boot.rst:2
+msgid "Boot Linux Mint"
+msgstr "A Linux Mint betöltése"
+
+#: ../../boot.rst:4
+msgid ""
+"Now that you have Linux Mint on a USB stick (or DVD) boot the computer from "
+"it."
+msgstr ""
+"Most, hogy van egy Linux Mint telepítő egy USB adathordozón (vagy DVD-"
+"lemezen), indítsa el a számítógépet a telepítővel."
+
+#: ../../boot.rst:6
+msgid "Insert your USB stick (or DVD) into the computer."
+msgstr "Helyezze be az USB adathordozót (vagy DVD-lemezt) a számítógépbe."
+
+#: ../../boot.rst:8 ../../drivers.rst:23 ../../efi.rst:61 ../../oem.rst:21
+msgid "Restart the computer."
+msgstr "Indítsa újra a számítógépet."
+
+#: ../../boot.rst:10
+msgid ""
+"Before your computer boots your current operating system (Windows, Mac, "
+"Linux) you should see your `BIOS <https://en.wikipedia.org/wiki/BIOS>`_ "
+"loading screen. Check the screen or your computer's documentation to know "
+"which key to press and instruct your computer to boot on USB (or DVD)."
+msgstr ""
+"Mielőtt a számítógépe betöltené a már telepített operációs rendszert "
+"(Windows, Mac, Linux), megjelenik a  `BIOS "
+"<https://hu.wikipedia.org/wiki/BIOS>`_ betöltő képernyő. Ellenőrizze a "
+"képernyőn vagy a számítógép dokumentációját, hogy megtudja, melyik "
+"billentyűt kell megnyomni ahhoz, hogy utasítsa a számítógépet az USB "
+"pendrive eszközről (vagy DVD lemezről) történő rendszerindításra."
+
+#: ../../boot.rst:13
+msgid ""
+"Most BIOS have a special key you can press to select the boot device and all "
+"of them have a special key to enter the BIOS configuration screen (from "
+"which you can define the boot order). Depending on the BIOS, these special "
+"keys can be :kbd:`Escape`, :kbd:`F1`, :kbd:`F2`, :kbd:`F8`, :kbd:`F10`, "
+":kbd:`F11`, :kbd:`F12`, or :kbd:`Delete`. That information is usually "
+"briefly written on the screen during the boot sequence."
+msgstr ""
+"A legtöbb BIOS-nál van egy speciális billentyű, amelyet megnyomva eljuthat a "
+"rendszerindító eszköz kiválasztásához. Valamint mindegyiknek BIOS-nál van "
+"egy speciális billentyű, amely a BIOS konfigurációs menüjét jeleníti meg "
+"(ahonnan meghatározhatja a rendszerindítási meghajtók sorrendet). A BIOS-tól "
+"függően ezek a speciális billentyűk lehetnek:\r\n"
+":kbd:`Escape`, :kbd:`F1`, :kbd:`F2`, :kbd:`F8`, :kbd:`F10`, :kbd:`F11`, "
+":kbd:`F12`, :kbd:`Del` vagy :kbd:`Delete`.\r\n"
+"Ezek az információk rendszerint röviden időre megjelennek a kijelzőn a "
+"rendszerindítás során."
+
+#: ../../boot.rst:16
+msgid ""
+"On Macs, keep your finger pressed on the :kbd:`Alt` or :kbd:`Option` key "
+"after hearing the boot sound."
+msgstr ""
+"A Mac számítógépeken tartsa lenyomva az :kbd:`Alt` vagy az "
+":kbd:`Option`billentyűk valamelyikét, miután meghallotta a rendszerindítási "
+"hangot."
+
+#: ../../boot.rst:18
+msgid ""
+"The Linux Mint ISO can be booted both in EFI or BIOS mode. In EFI mode it "
+"shows a grub menu. In BIOS mode it shows an isolinux menu."
+msgstr ""
+"A Linux Mint ISO-lemezképről a rendszer elindítható mind EFI, mind BIOS "
+"üzemmódban. Az EFI üzemmódban a Grub menü jelenik meg. A BIOS üzemmódban az "
+"isolinux menü jelenik meg."
+
+#: ../../boot.rst:24
+msgid "The isolinux menu in BIOS mode"
+msgstr "Az isolinux menü BIOS üzemmódban"
+
+#: ../../boot.rst:30
+msgid "The grub menu in EFI mode"
+msgstr "A grub menü EFI üzemmódban"
+
+#: ../../boot.rst:32
+msgid ""
+"From one of these menu, press :kbd:`Enter` to start Linux Mint from your USB "
+"stick (or DVD)."
+msgstr ""
+"A menük egyikében nyomja meg: kbd: `Enter` billentyűt, így elindítja a Linux "
+"Mint telepítőt az USB pendrive eszközről (vagy DVD lemezről)."
+
+#: ../../burn.rst:2
+msgid "Create the bootable media"
+msgstr "Rendszerindító média készítése"
+
+#: ../../burn.rst:4
+msgid "The easiest way to install Linux Mint is with a USB stick."
+msgstr ""
+"A Linux Mint telepítésének legegyszerűbb módja egy USB pendrive eszközről "
+"történhet."
+
+#: ../../burn.rst:6
+msgid "If you cannot boot from USB, you can use a blank DVD."
+msgstr ""
+"Ha nem tud az USB pendive eszközről rendszert indítani, használjon egy üres "
+"DVD lemezt."
+
+#: ../../burn.rst:9
+msgid "How to make a bootable USB stick"
+msgstr "Hogyan készítsünk rendszerindító USB adathordozót"
+
+#: ../../burn.rst:12
+msgid "In Linux Mint"
+msgstr "A Linux Mint esetén"
+
+#: ../../burn.rst:14
+msgid ""
+"Right-click the ISO file and select :menuselection:`Make Bootable USB "
+"Stick`, or launch :menuselection:`Menu --> Accessories --> USB Image Writer`."
+msgstr ""
+"Kattintson a jobb gombbal az ISO-lemezképfájlra, és válassza ki a "
+":menuselection:`Indítható pendrive készítése` menüelemet a helyi menüből, "
+"vagy indítsa el a :menuselection:`Menü -->  Kellékek --> Pendrive lemezkép-"
+"író` programot."
+
+#: ../../burn.rst:20
+msgid "Select your USB device and click :guilabel:`Write`."
+msgstr ""
+"Válassza ki az USB adathordozót, és kattintson: guilabel:`Írás` gombra."
+
+#: ../../burn.rst:23
+msgid "In Windows, Mac OS, or other Linux distributions"
+msgstr "A Windows, a Mac OS vagy más Linux disztribúciók esetén"
+
+#: ../../burn.rst:25
+msgid ""
+"Download `Etcher <https://www.balena.io/etcher/>`_, install it and run it."
+msgstr ""
+"Töltse le az `Etcher <https://www.balena.io/etcher/>`_ alkalmazást, "
+"telepítse, majd indítsa el."
+
+#: ../../burn.rst:31
+msgid "Using Etcher"
+msgstr "Az Etcher használata"
+
+#: ../../burn.rst:33
+msgid "Click :guilabel:`Select image` and select your ISO file."
+msgstr ""
+"Kattintson a :guilabel:`Válasszon egy lemezképet` gombra és válassza ki a "
+"megfelelő ISO-lemezképfájlt."
+
+#: ../../burn.rst:35
+msgid "Click :guilabel:`Select drive` and select your USB stick."
+msgstr ""
+"Kattintson: guilabel: `Válassza ki a meghajtót 'és válassza ki az USB-"
+"kulcsot."
+
+#: ../../burn.rst:37
+msgid "Click :guilabel:`Flash!`."
+msgstr "Kattintson :guilabel:`Írás` gombra."
+
+#: ../../burn.rst:41
+msgid "How to make a bootable DVD"
+msgstr "Hogyan készítsen rendszerindító DVD-lemezt"
+
+#: ../../burn.rst:43
+msgid "Optical discs are slow and burning to disc is prone to errors."
+msgstr ""
+"Az optikai lemezek lassan írhatóak, és az írás során hibák léphetnek fel."
+
+#: ../../burn.rst:46
+msgid "To prevent issues, burn at the lowest possible speed."
+msgstr ""
+"A problémák elkerülése érdekében, a lehető legalacsonyabb sebességgel írja "
+"meg a lemezt."
+
+#: ../../burn.rst:49
+msgid ""
+"Burn the content of the ISO onto the DVD, not the ISO file itself. When "
+"finished, your DVD should contain directories such as ``boot`` and "
+"``casper``, it shouldn't be an empty DVD containing an .iso file."
+msgstr ""
+"Írja ki az ISO-lemezképfájl tartalmát a DVD-lemezre, ne pedig az ISO-"
+"lemezképfájlt írja a lemezre. Ha befejezte a DVD lemez írását, a DVD "
+"lemeznek olyan mappákat kell tartalmaznia, mint a  ``boot`` és a ``casper``, "
+"és ez nem lehet üres DVD, amely mindössze egy .iso kiterjesztésű fájlt "
+"tartalmaz."
+
+#: ../../burn.rst:52
+msgid "In Linux"
+msgstr "Linux használata esetén"
+
+#: ../../burn.rst:53
+msgid "Install and use ``xfburn``."
+msgstr "Telepítse és futtassa a ``xfburn`` programot."
+
+#: ../../burn.rst:56
+msgid "In Windows"
+msgstr "Windows használata esetén"
+
+#: ../../burn.rst:57
+msgid "Right-click the ISO file and select :menuselection:`Burn disk image`."
+msgstr ""
+"Kattintson a jobb gombbal az ISO-lemezképfájlra, és válassza ki a "
+":menuselection:`Lemezkép írása` lehetőséget a helyi menüből."
+
+#: ../../burn.rst:59
+msgid ""
+"To make sure the ISO was burned without any errors, select "
+":menuselection:`Verify disc after burning`."
+msgstr ""
+"Az ISO-lemezképfájl kiírásának hibamentességének ellenőrzésére, válassza ki "
+":menuselection:`Lemezellenőrzés az írási művelet végén`."
+
+#: ../../burn.rst:62
+msgid "In Mac OS"
+msgstr "Mac OS használata esetén"
+
+#: ../../burn.rst:63
+msgid ""
+"Right-click the ISO file and select :menuselection:`Burn Disk Image to Disc`."
+msgstr ""
+"Kattintson a jobb gombbal az ISO-lemezképfájlra, és válassza ki a "
+":menuselection:`Lemezkép kiírása lemezre`."
+
+#: ../../choose.rst:2
+msgid "Choose the right edition"
+msgstr "Válassza ki a megfelelő változatot"
+
+#: ../../choose.rst:4
+msgid ""
+"You can download Linux Mint from the `Linux Mint website "
+"<https://linuxmint.com/download.php>`_."
+msgstr ""
+"A Linux Mint operációs rendszert letöltheti a `Linux Mint weboldaláról: "
+"<https://linuxmint.com/download.php>`_."
+
+#: ../../choose.rst:6
+msgid ""
+"Read below to choose which edition and architecture are right for you."
+msgstr ""
+"A kiválasztáshoz olvassa el lejjebb, melyik kiadás és architektúra megfelelő "
+"az Ön számára."
+
+#: ../../choose.rst:9
+msgid "Cinnamon, MATE or Xfce?"
+msgstr "Cinnamon, MATE vagy Xfce?"
+
+#: ../../choose.rst:11
+msgid ""
+"Linux Mint comes in 3 different flavours, each featuring a different desktop "
+"environment."
+msgstr ""
+"A Linux Mint 3 különböző kiadásban jelenik meg, amelyek mindegyike különböző "
+"asztali környezetet tartalmaz."
+
+#: ../../choose.rst:14 ../../choose.rst:26
+msgid "Cinnamon"
+msgstr "Cinnamon"
+
+#: ../../choose.rst:14
+msgid "The most modern, innovative and full-featured desktop"
+msgstr ""
+"A legmodernebb, innovatív és teljes funkcionalitású asztali környezet"
+
+#: ../../choose.rst:15 ../../choose.rst:35
+msgid "MATE"
+msgstr "MATE"
+
+#: ../../choose.rst:15
+msgid "A more traditional, and faster desktop"
+msgstr "Hagyományosabb és gyorsabb asztali környezet"
+
+#: ../../choose.rst:16 ../../choose.rst:44
+msgid "Xfce"
+msgstr "Xfce"
+
+#: ../../choose.rst:16
+msgid "The most lightweight desktop"
+msgstr "A legkönnyebb asztali környezet"
+
+#: ../../choose.rst:19
+msgid ""
+"The most popular version of Linux Mint is the Cinnamon edition. Cinnamon is "
+"primarily developed for and by Linux Mint. It is slick, beautiful, and full "
+"of new features."
+msgstr ""
+"A Linux Mint legnépszerűbb változata a Cinnamon kiadás. A Cinnamon "
+"elsősorban a Linux Mint számára készült. Fantasztikus, gyönyörű és tele van "
+"új funkciókkal."
+
+#: ../../choose.rst:28
+msgid ""
+"Linux Mint is also involved in the development of MATE, a classic desktop "
+"environment which is the continuation of GNOME 2, Linux Mint's default "
+"desktop between 2006 and 2011. Although it misses a few features and its "
+"development is slower than Cinnamon's, MATE uses less resources and can run "
+"faster on older computers."
+msgstr ""
+"A Linux Mint csapat részt vesz a MATE fejlesztésében is. A MATE egy "
+"klasszikus asztali környezet, amely a GNOME 2 folytatása, Ez volt a Linux "
+"Mint alapértelmezett asztali környezete 2006 és 2011 között. A Cinnamon "
+"asztali környezethez képest kevesebb funkciót biztosít és a fejlesztése "
+"lassabban zajlik. A MATE kevesebb erőforrás igényel, így gyorsabban fut "
+"régebbi számítógépeken."
+
+#: ../../choose.rst:37
+msgid ""
+"Xfce is a lightweight desktop environment. It doesn't support as many "
+"features as Cinnamon or MATE, but it's extremely stable and very light on "
+"resource usage."
+msgstr ""
+"Az Xfce egy pehelykönnyű asztali környezet. Nem támogat olyan sok funkciót, "
+"mint a Cinnamon, vagy a MATE, de rendkívül stabil és csak minimális "
+"erőforrást használ."
+
+#: ../../choose.rst:46
+msgid ""
+"Of course, all three desktops are great and Linux Mint is extremely proud of "
+"each edition. Although there are more features and better support in some "
+"editions than others, and some do run faster and use less resources than "
+"others, they're all great alternatives and choosing the right edition is "
+"largely a matter of taste."
+msgstr ""
+"Természetesen, mindhárom asztali környezet nagyszerű és a Linux Mint "
+"rendkívül büszke minden kiadásra. Bár néhány kiadásban több funkció és jobb "
+"támogatás van, mint a többiben. Míg mások gyorsabban is futnak és kevesebb "
+"erőforrást használnak. Ezek mind nagyszerű alternatívák, és a megfelelő "
+"kiadás megtalálása főként ízlés kérdése."
+
+#: ../../choose.rst:48
+msgid ""
+"Other than their features and performance, Cinnamon, MATE and Xfce also "
+"represent three different desktop environments, with different menus, "
+"different panels and configuration tools. The right one for you is the one "
+"where you feel at home."
+msgstr ""
+"A Cinnamon, a MATE és az Xfce a funkciók és a teljesítményükön kívül három "
+"különböző asztali környezetet is képvisel, különböző menükkel, különböző "
+"panelekkel és konfigurációs eszközökkel. Az lesz a megfelelő az Ön számára, "
+"amelyikkel otthonosan érzi majd magát."
+
+#: ../../choose.rst:50
+msgid ""
+"If you are unsure which desktop to choose start with the Cinnamon edition. "
+"Try them all eventually when you have the time. All three of them have their "
+"own audience within the Linux Mint community and they're all very popular."
+msgstr ""
+"Ha nem  biztos benne, hogy melyik asztali kiadást válassza,  kezdje a "
+"Cinnamon asztali környezettel. Ha ideje engedi, próbálja ki mindhárom "
+"kiadást. Mind a háromnak saját célközönsége van a Linux Mint közösségben, és "
+"mindegyik nagyon népszerű."
+
+#: ../../choose.rst:54
+msgid "32-bit or 64-bit?"
+msgstr "32 bit vagy 64 bit?"
+
+#: ../../choose.rst:56
+msgid "From version 20 onward, only 64-bit is available."
+msgstr ""
+"A 20-as verziótól kezdődően kizárólag 64 bites változatban érhető el."
+
+#: ../../choose.rst:58
+msgid ""
+"The 32-bit ISO images on prior versions are provided for compatibility with "
+"older computers. 32-bit processors are extremely rare nowadays and most "
+"computers are able to run in 64-bit. If your computer was manufactured after "
+"2007, you probably have a 64-bit processor."
+msgstr ""
+"Az előző verziók 32 bites ISO-lemezképfájljai a régebbi számítógépekkel való "
+"kompatibilitást biztosította. A kizárólag 32 bites utasításokat támogató "
+"processzorok nagyon ritkák manapság, és a legtöbb számítógép képes 64 bites "
+"programkódokat futtatni. Amennyiben a számítógépet 2007 után gyártották, jó "
+"eséllyel 64 bites processzort tartalmaz."
+
+#: ../../choose.rst:60
+msgid ""
+"If you have an old computer and you are unsure whether or not it can run in "
+"64-bit, read `X86 Chronology "
+"<https://en.wikipedia.org/wiki/X86#Chronology>`_."
+msgstr ""
+"Ha régi számítógéppel rendelkezik, és nem biztos benne, hogy 64 bites verzió "
+"futtatható-e vagy sem, akkor olvassa el az \"X86-kronológia "
+"<https://hu.wikipedia.org/wiki/X86#Id%C5%91rend> _ bekezdést."
+
+#: ../../choose.rst:63
+msgid ""
+"You can try to boot Linux Mint 64-bit on your computer. If it isn't "
+"compatible, nothing bad will happen. You will just get an error message."
+msgstr ""
+"Megpróbálhatja a Linux Mint 64 bites rendszer futtatását a számítógépén. Ha  "
+"nem kompatibilis, semmi  nem fog történni. Csak hibaüzenetet fog kapni."
+
+#: ../../choose.rst:66
+msgid ""
+"If you cannot boot or install Linux Mint because your hardware is too recent "
+"and is not properly detected see the `Edge ISO Images <https://linuxmint-"
+"user-guide.readthedocs.io/en/latest/edge.html>`_ chapter in the Linux Mint "
+"User Guide for an alternative ISO."
+msgstr ""
+"Amennyiben nem tud rendszerindítást végezni a számítógépen és telepíteni a "
+"Linux Mint rendszert, mert túl új a számítógép és nem érzékeli a számítógép "
+"összetevőit, amire telepítené, akkor tekintse meg a `Edge ISO-"
+"lemezkép<https://linuxmint-user-guide.readthedocs.io/en/latest/edge.html>`_ "
+"fejezetet a Linux Mint Felhasználói Kézikönyvet az alternatív ISO-lemezkép "
+"fájlokról."
+
+#: ../../codecs.rst:2
+msgid "Multimedia codecs"
+msgstr "Multimédiás kodekek"
+
+#: ../../codecs.rst:4
+msgid "Some multimedia content requires additional codecs to be installed."
+msgstr "Egyes multimédiás tartalmakhoz további kodekeket kell telepíteni."
+
+#: ../../codecs.rst:7
+msgid ""
+"If you were online when installing Linux Mint and you ticked the option to "
+"install these codecs, they are already installed."
+msgstr ""
+"Ha online volt a Linux Mint program telepítésekor, és bejelölte a kodekek "
+"telepítésének lehetőségét, akkor már telepítve lettek."
+
+#: ../../codecs.rst:9
+msgid ""
+"Launch :menuselection:`Menu --> Sound & Video --> Install Multimedia Codecs`."
+msgstr ""
+"Indítsa el a :menuselection:`Menü --> Hang és videó --> Multimédia kodekek "
+"telepítése` programot."
+
+#: ../../codecs.rst:14
+msgid "Click :guilabel:`Install`."
+msgstr "Kattintson a :guilabel: `Telepítés` gombra."
+
+#: ../../codecs.rst:16
+msgid ""
+"Enter your password and wait for the codecs to be installed on your computer."
+msgstr ""
+"Adja meg a jelszavát, és várja meg amíg a kodekek telepítve lesznek a "
+"számítógépen."
+
+#: ../../drivers.rst:2
+msgid "Hardware drivers"
+msgstr "Hardver illesztőprogramok"
+
+#: ../../drivers.rst:4
+msgid ""
+"One of the first things to do after installing Linux Mint is to check for "
+"available hardware drivers."
+msgstr ""
+"A Linux Mint telepítése után az egyik legfontosabb dolog, hogy ellenőrizze a "
+"rendelkezésre álló hardver illesztőprogramokat."
+
+#: ../../drivers.rst:6
+msgid "Launch :menuselection:`Menu --> Administration --> Driver Manager`."
+msgstr ""
+"Indítsa el a :menuselection:`Menü --> Adminisztráció --> Illesztőprogram-"
+"kezelő` programot."
+
+#: ../../drivers.rst:13
+msgid ""
+"If you are offline, the Driver Manager will complain that it cannot connect "
+"to the Internet."
+msgstr ""
+"Ha offline állapotban van, az Illesztőprogram-kezelő jelezni fogja, hogy nem "
+"tud csatlakozni az internethez."
+
+#: ../../drivers.rst:19
+msgid ""
+"Insert your bootable Linux Mint USB stick (or DVD), wait for it to be "
+"mounted, and click :guilabel:`OK`."
+msgstr ""
+"Helyezze be a rendszerindító Linux Mint USB eszközt (vagy DVD lemezt), várja "
+"meg amíg fel lesz csatolva, majd kattintson az :guilabel:`OK` gombra."
+
+#: ../../drivers.rst:21
+msgid ""
+"Tick the appropriate checkboxes to select the available drivers and click "
+":guilabel:`Apply Changes`."
+msgstr ""
+"Jelölje be a megfelelő jelölőnégyzeteket a rendelkezésre álló "
+"illesztőprogramok kiválasztásához, és kattintson a :guilabel: `Változtatások "
+"alkalmazása` gombra."
+
+#: ../../efi.rst:2
+msgid "EFI"
+msgstr "EFI"
+
+#: ../../efi.rst:5
+msgid "SecureBoot"
+msgstr "SecureBoot"
+
+#: ../../efi.rst:7
+msgid ""
+"If after installing Linux Mint in EFI mode, you are unable to boot due to a "
+"``Secure Boot Violation``, you can try one of the following solutions:"
+msgstr ""
+"Ha a Linux Mint rendszer EFI módban való telepítése után a ``Secure Boot "
+"Violation`` hiba miatt nem tudja elindítani a rendszert, próbálkozhat az "
+"alábbi megoldások egyikével:"
+
+#: ../../efi.rst:15
+msgid "Restart the installation:"
+msgstr "A telepítés újraindítása:"
+
+#: ../../efi.rst:14
+msgid "Connect to the Internet before the installation"
+msgstr "Csatlakozzon az internethez a telepítés előtt"
+
+#: ../../efi.rst:15
+msgid ""
+"**Do not** select ``Install third-party software for graphics and Wi-Fi "
+"hardware, Flash, MP3 and other media``."
+msgstr ""
+"** Ne válassza ki a ``Harmadik féltől származó szoftverek feltelepítése a "
+"videokártyához, a Wi-Fi-hez, a Flash-hez, az MP3-hoz és egyéb médiákhoz.`` "
+"lehetőséget."
+
+#: ../../efi.rst:17
+msgid "Disable ``SecureBoot`` in the ``BIOS`` settings of your computer."
+msgstr ""
+"Tiltsa le a ``SecureBoot`` szolgáltatást a számítógép ``BIOS`` "
+"beállításaiban."
+
+#: ../../efi.rst:20
+msgid ""
+"For examples of how to disable secure boot on various computers, read "
+"`Managing EFI Boot Loaders for Linux: Dealing with Secure Boot "
+"<http://www.rodsbooks.com/efi-bootloaders/secureboot.html>`_."
+msgstr ""
+"Ha példákat keres arra, hogyan lehet letiltani a biztonságos indítást "
+"különböző számítógépeken, olvassa el a következő témakört: `Az EFI "
+"rendszerindító eszközök kezelése Linux alatt: Biztonságos rendszerindítás "
+"<http://www.rodsbooks.com/efi-bootloaders/secureboot.html>`_."
+
+#: ../../efi.rst:23
+msgid "EFI boot order"
+msgstr "EFI rendszerindítási sorrend"
+
+#: ../../efi.rst:25
+msgid ""
+"If after installing Linux Mint in EFI mode, your computer skips the boot "
+"menu and boots straight into Windows (or another operating system), you "
+"probably have an issue with the boot order."
+msgstr ""
+"Ha a Linux Mint az EFI módban történő telepítése után a számítógép a "
+"rendszerindító menüjét átugorja és a rendszerindítást közvetlenül a Windows "
+"rendszerbe (vagy egy másik operációs rendszerbe) vezeti, akkor valószínűleg "
+"valami probléma lehet a rendszerindítási sorrendben."
+
+#: ../../efi.rst:27
+msgid "To modify the boot order:"
+msgstr "A rendszerindítási sorrend módosítása:"
+
+#: ../../efi.rst:29 ../../multiboot.rst:18
+msgid "Boot Linux Mint in ``live`` mode (with your USB stick or DVD)."
+msgstr ""
+"Linux Mint rendszerindítás ``live`` üzemmódban (USB pendrive eszköz vagy DVD "
+"lemez segítségével)."
+
+#: ../../efi.rst:31 ../../multiboot.rst:20
+msgid "Open a terminal."
+msgstr "Nyisson meg egy terminált."
+
+#: ../../efi.rst:33
+msgid "Type ``sudo efibootmgr`` and press :kbd:`Enter`."
+msgstr ""
+"Írja be ``sudo efibootmgr`` parancsot, majd nyomja le az :kbd:`Enter` "
+"billentyűt."
+
+#: ../../efi.rst:35
+msgid "This command lists the available boot options and the boot order."
+msgstr ""
+"Ez a parancs felsorolja a rendelkezésre álló rendszerindítási lehetőségeket "
+"és a rendszerindítási sorrendet."
+
+#: ../../efi.rst:41
+msgid "In the screenshot above, there are three boot options:"
+msgstr "A fenti képernyőn három rendszerindítási lehetőség van:"
+
+#: ../../efi.rst:43
+msgid "``ubuntu`` at ``0000``"
+msgstr "``ubuntu`` → ``0000``"
+
+#: ../../efi.rst:44
+msgid "``linuxmint`` at ``0001``"
+msgstr "``linuxmint`` → ``0001``"
+
+#: ../../efi.rst:45
+msgid "``Mac OS X`` at ``0081``"
+msgstr "``Mac OS X`` → ``0081``"
+
+#: ../../efi.rst:47
+msgid ""
+"The boot order is ``0081``. This indicates that the computer only tries to "
+"boot Mac OS and not Linux Mint."
+msgstr ""
+"A rendszerindítási sorrend `` 0081``. Ez azt jelzi, hogy a számítógép Mac OS "
+"operációs rendszert próbál indítani, és nem Linux Mint-et."
+
+#: ../../efi.rst:50
+msgid ""
+"For technical reasons Linux Mint uses ``ubuntu`` as its EFI boot name."
+msgstr ""
+"A Linux Mint technikai okokból az ``ubuntu`` szót használja az EFI "
+"rendszerindítási neveként."
+
+#: ../../efi.rst:53
+msgid ""
+"To fix the boot order, type ``sudo efibootmgr --bootorder XXXX,YYYY`` (where "
+"``XXXX`` and ``YYYY`` are the operating system boot options you want to "
+"boot)."
+msgstr ""
+"A rendszerindítási sorrend javításához írja be a ``sudo efibootmgr --"
+"bootorder XXXX, YYYY`` parancsot (ahol ``XXXX`` és ``YYYY`` az indítható "
+"operációs rendszerindítási azonosítója)."
+
+#: ../../efi.rst:59
+msgid ""
+"In the screenshot above, ``sudo efibootmgr --bootorder 0000,0081`` instructs "
+"the computer to first try to boot Linux Mint (``ubuntu`` being the EFI boot "
+"name for Linux Mint), and then Mac OS."
+msgstr ""
+"A fenti képen a ``sudo efibootmgr --bootorder 0000,0081`` utasítja a "
+"számítógépet, hogy először próbálja meg indítani a Linux Mint-et (az "
+"``ubuntu`` a Linux Mint EFI rendszerindítási neve), majd pedig a Mac OS-t."
+
+#: ../../efi.rst:64
+msgid ""
+"In the screenshot above ``0000`` is the first boot option so the computer "
+"boots on the Linux Mint grub menu. If grub fails (or if it is dismissed with "
+"the ``exit`` command), the computer follows the boot order and then tries to "
+"boot ``0081``, which corresponds to Mac OS."
+msgstr ""
+"A fenti ``0000`` képernyőképen az első indítási lehetőség, így a számítógép "
+"a Linux Mint grub menüjével indul. Ha a grub elindítása nem sikerül (vagy ha "
+"a ``exit`` paranccsal elutasítja), akkor a számítógép követi a "
+"rendszerindítási sorrendet, majd megpróbálja elindítani a ``0081`` "
+"azonosítójú operációs rendszert, ami megfelel a Mac OS-nek."
+
+#: ../../help.rst:2
+msgid "Where to find help"
+msgstr "Ahol segítséget találhat"
+
+#: ../../help.rst:4
+msgid ""
+"Many users will be glad to help you and guide you through your first steps "
+"with Linux if you are nice and patient with them and if you give them the "
+"information they require to understand the issues you are facing."
+msgstr ""
+"Sok felhasználó örömmel segít Önnek a Linux használatával kapcsolatos első "
+"lépések megtételében, ha kedves és türelmes velük, és megadja nekik azokat "
+"az információkat, amelyekre szükségük van ahhoz, hogy megértsék a "
+"problémákat."
+
+#: ../../help.rst:7
+msgid "The forums"
+msgstr "A fórumok"
+
+#: ../../help.rst:9
+msgid ""
+"The best place to find help is on the `Linux Mint Forums "
+"<https://forums.linuxmint.com>`_."
+msgstr ""
+"A legjobb hely a segítségkéréshez a `Linux Mint Fórum "
+"<https://forums.linuxmint.com>`_. A magyar nyelvű fórum pedig itt található: "
+"`Linux Mint Magyar Közösség Fórum <https://linuxmint.hu/forum>`_."
+
+#: ../../help.rst:12
+msgid ""
+"Search the forums before asking, in case someone else already asked the same "
+"question."
+msgstr ""
+"Keressen a fórumokon, mielőtt kérdezne, mert lehet, hogy valaki más már "
+"feltette  ugyanezt a kérdést."
+
+#: ../../help.rst:15
+msgid "The chat room"
+msgstr "A csevegőszoba"
+
+#: ../../help.rst:17
+msgid "Another great place to find help is in the IRC chat room."
+msgstr "Egy másik remek hely, ahol segítséget találhat az IRC csevegőszoba."
+
+#: ../../help.rst:19
+msgid ""
+"To reach the chat room from within Linux Mint, launch :menuselection:`Menu --"
+"> Internet --> HexChat`."
+msgstr ""
+"Ahhoz, hogy eljusson a csevegőszobába a Linux Mint rendszerből, indítsa el a "
+":menuselection:`Menü --> Internet --> HexChat` programot."
+
+#: ../../help.rst:21
+msgid ""
+"If you are using another operating system, you can use `Kiwiirc "
+"<https://kiwiirc.com/client/irc.spotchat.org/?i#linuxmint-help>`_ to connect "
+"to the chat room."
+msgstr ""
+"Ha másik operációs rendszert használ, használhatja a `Kiwiirc "
+"<https://kiwiirc.com/client/irc.spotchat.org/?i#linuxmint-help>`_, hogy "
+"belépjen a csevegőszobába. A magyar nyelvű csevegőszobát itt találja: "
+"`Freenode <https://webchat.freenode.net/?channels=linuxmint-hu>`_."
+
+#: ../../help.rst:24
+msgid ""
+"Many people are connected to the chat room but only look at it now and then. "
+"Be patient after asking a question. Don't repeat it and stay connected until "
+"you get an answer. It can sometimes take a few hours for somebody to see "
+"your question and reply to you. Don't quit after a few minutes. It is "
+"frustrating to you, but also to others who later see your question and are "
+"unable to reply because you already left."
+msgstr ""
+"Sokan csatlakoznak a csevegőszobához, de csak néha néznek rá. Legyen "
+"türelmes, miután feltett egy kérdést. Ne ismételje meg, és maradjon "
+"kapcsolatban, amíg nem kap választ. Néha, néhány órát vesz igénybe, hogy "
+"valaki láthassa a kérdéseit, és válaszoljon is rá. Ne lépjen ki néhány perc "
+"múlva. Bosszantó lehet Önnek illetve olyanoknak is, akik később látják a "
+"kérdést, és nem tudnak válaszolni, mert már kilépett."
+
+#: ../../help.rst:27
+msgid ""
+"If you are using Hexchat, you can minimize it to tray by clicking its status "
+"icon. People will often mention your nickname when replying to you. When "
+"they do, your Hexchat status icon will blink to catch your attention."
+msgstr ""
+"Ha a Hexchat-ot használja, akkor az állapota ikonjára kattintva "
+"minimalizálhatja a tálcát. Az emberek gyakran említik a becenevet, amikor "
+"válaszolnak. Ha igen, akkor a Hexchat állapot ikon villogni fog, hogy "
+"felkeltse a figyelmét."
+
+#: ../../help.rst:30
+msgid "Community resources"
+msgstr "Közösségi források"
+
+#: ../../help.rst:32
+msgid ""
+"The `tutorials section <https://community.linuxmint.com/tutorial/search>`_ "
+"is useful to find tutorials about Linux Mint."
+msgstr ""
+"Az `oktatói fejezetben <https://community.linuxmint.com/tutorial/search>`_ "
+"hasznos segítséget találhat a Linux Mint-hez. Magyar nyelven hasznos "
+"segítséget a `Súgó<https://linuxmint.hu/sugo>`_ban találhat."
+
+#: ../../help.rst:34
+msgid ""
+"The `hardware database <https://community.linuxmint.com/hardware/search>`_ "
+"is useful to find compatible hardware."
+msgstr ""
+"A `hardver adatbázis <https://community.linuxmint.com/hardware/search>`_ "
+"hasznos a kompatibilis hardverek kereséséhez."
+
+#: ../../help.rst:37
+msgid "Local communities"
+msgstr "Helyi közösségek"
+
+#: ../../help.rst:39
+msgid ""
+"To find help in your language, use the `Local Communities "
+"<https://www.linuxmint.com/links.php>`_."
+msgstr ""
+"Ha saját anyanyelvén van szüksége segítségre, használja a `Helyi közösségek "
+"<https://www.linuxmint.com/links.php>`_ címet."
+
+#: ../../index.rst:2
+msgid "Linux Mint Installation Guide"
+msgstr "Linux Mint telepítési útmutató"
+
+#: ../../index.rst:8
+msgid ""
+"Linux Mint comes in the form of an ISO image (an .iso file) which can be "
+"used to make a bootable DVD or a bootable USB stick."
+msgstr ""
+"A Linux Mint egy ISO-lemezképfájl (.iso fájl) formájában érhető el, amely "
+"használható rendszerindító DVD lemez vagy rendszerindító USB pendrive eszköz "
+"létrehozására."
+
+#: ../../index.rst:10
+msgid ""
+"This guide will help you download the right ISO image, create your bootable "
+"media and install Linux Mint on your computer."
+msgstr ""
+"Ez az útmutató segít a megfelelő ISO-lemezképfájl letöltésben, a "
+"rendszerindító média létrehozásában és a Linux Mint szoftver telepítésében a "
+"számítógépre."
+
+#: ../../index.rst:12 ../../sections.rst:5
+msgid "Download"
+msgstr "Letöltés"
+
+#: ../../index.rst:19 ../../sections.rst:7
+msgid "Live Boot"
+msgstr "Élő rendszerindítás"
+
+#: ../../index.rst:26 ../../sections.rst:9
+msgid "Installation"
+msgstr "Telepítés"
+
+#: ../../index.rst:32 ../../sections.rst:11
+msgid "Post-installation"
+msgstr "Telepítés utáni"
+
+#: ../../index.rst:41 ../../sections.rst:13
+msgid "Troubleshooting"
+msgstr "Hibaelhárítás"
+
+#: ../../index.rst:48 ../../sections.rst:15
+msgid "Frequently Asked Questions"
+msgstr "Gyakran ismételt kérdések"
+
+#: ../../install.rst:2
+msgid "Install Linux Mint"
+msgstr "Telepítse a Linux Mint-et"
+
+#: ../../install.rst:5
+msgid "The live session"
+msgstr "Az elő munkamenet"
+
+#: ../../install.rst:7
+msgid ""
+"When you boot the computer from the USB stick (or DVD), Linux Mint starts a "
+"``live session``. It logs you in automatically as a user called ``mint`` and "
+"shows you a desktop with the installer on it:"
+msgstr ""
+"Amikor a számítógépet az USB pendrive eszközről (vagy DVD lemezről) "
+"elindítja, a Linux Mint betölti az ``élő munkamenet``-et. Automatikusan "
+"bejelentkezik a ``mint`` nevű felhasználóval, és megmutatja a későbbi "
+"telepítendő asztali környeztet is."
+
+#: ../../install.rst:13
+msgid "The Linux Mint live session"
+msgstr "A Linux Mint élő munkamenete"
+
+#: ../../install.rst:15
+msgid ""
+"The ``live session`` is similar to a normal session (i.e. to Linux Mint once "
+"it is permanently installed on the computer), but with the following "
+"exceptions:"
+msgstr ""
+"Az ``élő munkamenet`` hasonló a normál munkamenethez (vagyis a Linux Mint-"
+"hez, miután véglegesen telepítve lesz a számítógépen), de a következő "
+"kivételekkel:"
+
+#: ../../install.rst:17
+msgid ""
+"The Live session is slower (it is loaded from a USB stick or DVD as opposed "
+"to a SSD or HDD)."
+msgstr ""
+"Az Élő munkamenet lassabb (USB pendrive eszközről vagy DVD lemezről van "
+"betöltve, szemben a gyorsabb SSD vagy HDD adattárolókkal)."
+
+#: ../../install.rst:18
+msgid ""
+"Changes you make in the live session are not permanent. They are not written "
+"to the USB stick (or DVD) and they do not impact the system installed by the "
+"installer."
+msgstr ""
+"Az élő munkamenetben végrehajtott változtatások nem állandóak. Nem íródnak "
+"az USB pendrive eszközre (vagy DVD lemezre), és nem befolyásolják a telepítő "
+"által telepített rendszert."
+
+#: ../../install.rst:19
+msgid ""
+"Some applications work differently (or not at all) in the live session "
+"(Timeshift, Flatpak, Update Manager, Welcome Screen..etc.)."
+msgstr ""
+"Egyes alkalmazások eltérően működnek (vagy egyáltalán nem) az élő "
+"munkamenetben (Timeshift, Flatpak, Frissítéskezelő, Üdvözlőképernyő, stb.)."
+
+#: ../../install.rst:22
+msgid ""
+"The username for the live session is ``mint``. If asked for a password press "
+":kbd:`Enter`."
+msgstr ""
+"Az élő munkamenet felhasználóneve ``mint``. Ha jelszót kér a rendszer, "
+"nyomja le az :kbd: `Enter` billentyűt."
+
+#: ../../install.rst:25
+msgid "Installing Linux Mint on the computer"
+msgstr "A Linux Mint telepítése a számítógépre"
+
+#: ../../install.rst:27
+msgid "To permanently install Linux Mint on your computer:"
+msgstr "A Linux Mint állandó telepítése a számítógépre:"
+
+#: ../../install.rst:29
+msgid "Double-click :guilabel:`Install Linux Mint`."
+msgstr "Kattintson duplán az :guilabel:`Install Linux Mint` ikonra."
+
+#: ../../install.rst:31
+msgid "Select your language."
+msgstr "Válassza ki a telepítés nyelvét."
+
+#: ../../install.rst:37
+msgid "Connect to the Internet."
+msgstr "Csatlakozzon az internetre."
+
+#: ../../install.rst:43
+msgid ""
+"If you are connected to the Internet, tick the box to install the multimedia "
+"codecs."
+msgstr ""
+"Ha a számítógép internethez csatlakozik, jelölje be a négyzetet a "
+"multimédiás kodekek telepítéséhez."
+
+#: ../../install.rst:49
+msgid "Choose an installation type."
+msgstr "Válassza ki a telepítés típusát."
+
+#: ../../install.rst:55
+msgid ""
+"If Linux Mint is the only operating system you want to run on this computer "
+"and all data can be lost on the hard drive, choose :guilabel:`Erase disk and "
+"install Linux Mint`."
+msgstr ""
+"Ha a Linux Mint az egyetlen olyan operációs rendszer, amelyet ezen a "
+"számítógépen kíván futtatni, a számítógép belső adattárolóján tárolt adatok "
+"elvesznek. A telepítéshez válassza a :guilabel:`Merevlemez törlése, és Linux "
+"Mint telepítése` lehetőséget."
+
+#: ../../install.rst:58
+msgid ""
+":guilabel:`Encrypt the new Linux Mint installation for security` refers to "
+"full disk encryption. At this stage of the installation your keyboard layout "
+"wasn't yet selected so it is set to en_US. If you decide to use this option, "
+"keep this in mind when entering a password. Note that there are issues with "
+"this option and some NVIDIA drivers. If you are new to Linux use home "
+"directory encryption instead (you can select it later during the "
+"installation)."
+msgstr ""
+":guilabel:`Az új Linux Mint telepítés titkosítása a biztonság érdekében` "
+"lehetőség a teljes lemeztitkosítást jelenti. A telepítés ezen szakaszában a "
+"billentyűzet elrendezését még nem választotta ki, ezért az „en_US” értékre "
+"van állítva. Ha úgy dönt, hogy ezt a lehetőséget használja, tartsa szem "
+"előtt, amikor jelszót ad meg. Ne feledje, hogy előfordulhatnak problémák "
+"ezzel az lehetőséggel, és néhány NVIDIA illesztőprogrammal is. Ha ezek az "
+"első lépései a Linux világában, akkor használja helyette a Saját mappa "
+"titkosítást (amelyet a telepítés későbbi fázisában adhat meg)."
+
+#: ../../install.rst:60
+msgid ""
+"If another operating system is present on the computer, the installer shows "
+"you an option to install Linux Mint alongside it. If you choose this option, "
+"the installer automatically resizes your existing operating system, makes "
+"room and installs Linux Mint beside it. A boot menu is set up to choose "
+"between the two operating systems each time you start your computer."
+msgstr ""
+"Ha egy másik operációs rendszer van a számítógépen, akkor a telepítő "
+"lehetőséget nyújt a Linux Mint telepítésére, a meglévő rendszer mellé. Ha "
+"ezt a lehetőséget választja, a telepítő automatikusan átméretezi a meglévő "
+"operációs rendszer által használt partíciót, helyet biztosítva a Linux Mint-"
+"nek és mellé elhelyezi azt. A számítógép indításakor egy boot menü jelenik "
+"majd meg, ahol a két operációs rendszer közül választhat."
+
+#: ../../install.rst:64
+msgid ""
+"If you want to manage the partitions or specify which partitions to use, "
+"select :guilabel:`Something else`."
+msgstr ""
+"Ha kezelni kívánja a partíciókat, vagy meghatározná, hogy melyik partíciókat "
+"kívánja használni, válassza ki a  :guilabel:`Valami más` lehetőséget."
+
+#: ../../install.rst:70
+msgid ""
+"Linux Mint requires one partition to be mounted on the root ``/`` directory."
+msgstr ""
+"A Linux Mint számára egy partíciót kell csatolni a root ``/ `` könyvtárba."
+
+#: ../../install.rst:72
+msgid ""
+"The Linux Mint operating system (without additional software or personal "
+"data) takes roughly 15GB, so give this partition a decent size (100GB or "
+"more)."
+msgstr ""
+"A Linux Mint operációs rendszer (további szoftverek és személyes adatok "
+"nélkül) nagyjából 15 GB tárhelyet igényel, ezért adjon megfelelő méretet "
+"hozzá (100 GB vagy több tárhely)."
+
+#: ../../install.rst:74
+msgid "``ext4`` is recommended. It is the most popular Linux filesystem."
+msgstr ""
+"Az ``ext4`` az ajánlott fájlrendszer. Ez a legnépszerűbb Linux fájlrendszer."
+
+#: ../../install.rst:79
+msgid ""
+"Also create a ``swap`` partition. This partition is used for hibernation and "
+"as a safety buffer in case your computer runs out of RAM. Give this "
+"partition a size equal to the amount of RAM in your computer."
+msgstr ""
+"Hozzon létre egy ``swap`` partíciót is. Ezt a partíciót a rendszer a "
+"hibernáláshoz, és abban az esetben használja, ha a számítógép kifogyna a "
+"szabad RAM memóriából. Ezt a partíciót a számítógép RAM memóriájával "
+"megegyező méretűre állítsa be."
+
+#: ../../install.rst:81
+msgid "Select your timezone"
+msgstr "Válassza ki az időzónát"
+
+#: ../../install.rst:87
+msgid "Select your keyboard layout"
+msgstr "Válassza ki a billentyűzetkiosztást"
+
+#: ../../install.rst:93
+msgid "Enter your user details"
+msgstr "Adja meg felhasználó adatait"
+
+#: ../../install.rst:99
+msgid ""
+"Your ``name`` can be your real name, but it doesn't have to be. It is only "
+"used locally, in the screensaver and on the login screen."
+msgstr ""
+"Az Ön ``neve`` lehet a valódi neve, de nem feltétlenül szükséges. A rendszer "
+"csak a helyi hitelesítéshez, a képernyővédőn, és a bejelentkezési képernyőn "
+"használja."
+
+#: ../../install.rst:101
+msgid ""
+"Your ``username`` is what you log in as, and your ``hostname`` is the name "
+"of your computer on the network."
+msgstr ""
+"A ``felhasználónév`` lesz a bejelentkezési neve, és a ``számítógépnév`` a "
+"számítógép neve lesz a hálózatban."
+
+#: ../../install.rst:103
+msgid ""
+"To prevent bugs only use lowercase characters, with no punctuation or "
+"accentuation."
+msgstr ""
+"A hibák elkerülése érdekében kisbetűs karaktereket használjon, és ne "
+"legyenek benne írásjelek vagy ékezetes karakterek."
+
+#: ../../install.rst:105
+msgid ""
+"To protect your personal data against local attacks (people around you, or "
+"in case your computer gets stolen), tick :guilabel:`Encrypt my home folder`."
+msgstr ""
+"A személyes adatainak a helyi támadásokkal szembeni védelme érdekében (az Ön "
+"körüli emberek, vagy ha ellopják számítógépét) jelölje be: guilabel:`Saját "
+"mappa titkosítása` lehetőséget."
+
+#: ../../install.rst:107
+msgid "Choose a strong password."
+msgstr "Válasszon egy erős jelszót."
+
+#: ../../install.rst:109
+msgid "Enjoy the slideshow while Linux Mint is installed on your computer."
+msgstr ""
+"Élvezze a diavetítést, miközben a Linux Mint telepítve lesz a számítógépre."
+
+#: ../../install.rst:115
+msgid "When the installation is finished, click :guilabel:`Restart Now`."
+msgstr ""
+"A telepítés befejezése után kattintson az :guilabel:`Újraindítás azonnal` "
+"gombra."
+
+#: ../../install.rst:121
+msgid ""
+"The computer will then start to shut down and ask you to remove the USB disk "
+"(or DVD). Upon reboot, your computer should show you a boot menu or start "
+"your newly installed Linux Mint operating system."
+msgstr ""
+"A számítógép ezután leáll, és kéri, hogy távolítsa el az USB pendrive "
+"eszközt (vagy DVD lemezt). Újraindítás után a számítógépnek meg fog "
+"jeleníteni egy indítómenüt, vagy el fogja indítania az újonnan telepített "
+"Linux Mint operációs rendszert."
+
+#: ../../locales.rst:2
+msgid "Language support"
+msgstr "Nyelvi támogatás"
+
+#: ../../locales.rst:4
+msgid ""
+"Language support includes translations but also packages related to spell-"
+"checking, synonyms, hyphenation and dictionaries which enhance your "
+"experience in software applications such as LibreOffice."
+msgstr ""
+"A nyelvi támogatás a felhasználói felület fordításait is tartalmazza, de "
+"emellett olyan csomagokat is tartalmaz, amelyek a helyesírás-ellenőrzés, "
+"szinonima szótár, elválasztási szótár és nyelvi szótár szolgáltatásokat "
+"biztosítva javítva a felhasználói élményt az olyan alkalmazások számára, "
+"mint a LibreOffice irodai programcsomag."
+
+#: ../../locales.rst:6
+msgid "Launch :menuselection:`Menu --> Preferences --> Languages`."
+msgstr ""
+"Indítsa el a :menuselection:`Menü --> Beállítások --> Nyelvek` programot."
+
+#: ../../locales.rst:12
+msgid "Click :guilabel:`Install / Remove Language`."
+msgstr ""
+"Kattintson a :guilabel:`Nyelvek telepítése vagy eltávolítása…` gombra."
+
+#: ../../locales.rst:18
+msgid ""
+"If beside your locale, you see a label saying ``Some language packs are "
+"missing``, select your locale and click :guilabel:`Install language packs`."
+msgstr ""
+"Ha a területi beállítások mellett megjelenik egy címke, amely szerint "
+"``Néhány nyelvi csomag hiányzik``, válassza ki a használandó nyelvet, és "
+"kattintson a :guilabel:`Nyelvi csomagok telepítése` gombra."
+
+#: ../../multiboot.rst:2
+msgid "Multi-boot"
+msgstr "Több rendszer indítása"
+
+#: ../../multiboot.rst:5
+msgid "Always install Windows first"
+msgstr "Mindig a Windows operációs rendszert telepítse elsőként"
+
+#: ../../multiboot.rst:7
+msgid ""
+"Windows does not detect other operating systems and does not feature a boot "
+"menu. When you install it, it overwrites your boot sequence and your "
+"computer then boots straight into Windows."
+msgstr ""
+"A Windows nem észlel más operációs rendszereket, és nem rendelkezik boot "
+"menüvel. A telepítéskor felülírja a rendszerindítási sorrendet, és a "
+"számítógépét egyenesen a Windows rendszerbe irányítja."
+
+#: ../../multiboot.rst:9
+msgid ""
+"Linux Mint (and most Linux distributions) detects other operating systems "
+"and builds a menu from which you can choose which system to boot."
+msgstr ""
+"A Linux Mint (és mint a legtöbb Linux disztribúció) más operációs "
+"rendszereket észlel, és létrehoz egy menüt, amelyből kiválaszthatja, hogy "
+"melyik rendszert indítsa el."
+
+#: ../../multiboot.rst:11
+msgid ""
+"For this reason, if you want to dual-boot or multi-boot with Windows, it is "
+"easier and recommended to install Windows first, before you install Linux "
+"Mint."
+msgstr ""
+"Ezért ha kettős rendszerindítást, vagy többszörös rendszerindítást szeretne "
+"használni a Windows rendszerrel, akkor könnyebb és ajánlott először "
+"telepíteni a Windows operációs rendszert, mielőtt telepítené a Linux Mint "
+"operációs rendszert."
+
+#: ../../multiboot.rst:14
+msgid "Fix the boot sequence"
+msgstr "Javítsa ki az rendszerindítási sorrendet"
+
+#: ../../multiboot.rst:16
+msgid "If Windows overwrites your boot sequence:"
+msgstr "Ha a Windows felülírja a rendszerindítási sorrendet:"
+
+#: ../../multiboot.rst:22
+msgid "To list your partitions, type ``lsblk -f`` and press :kbd:`Enter`."
+msgstr ""
+"A partíciók kilistázásához írja be az: ``lsblk -f`` parancsot, majd nyomja "
+"le az :kbd:`Enter` billentyűt."
+
+#: ../../multiboot.rst:28
+msgid ""
+"Find the partition where Linux Mint is installed. On most systems this "
+"should be the only ``ext4`` partition."
+msgstr ""
+"Keresse meg azt a partíciót, ahol a Linux Mint telepítve van. A legtöbb "
+"rendszeren ez lesz az egyetlen ``ext4`` fájlrendszerű partíció."
+
+#: ../../multiboot.rst:30
+msgid "In the screenshot above:"
+msgstr "A fenti képernyőképen:"
+
+#: ../../multiboot.rst:32
+msgid ""
+"``sdb`` is the USB stick (recognizable by its ``iso9660`` type which "
+"corresponds to an ISO image)."
+msgstr ""
+"Az ``sdb`` az USB pendrive eszköz (amely az ``ISO9660`` típusával "
+"megfeleltethető egy ISO-lemezképnek)."
+
+#: ../../multiboot.rst:33
+msgid "``sda`` is the hard drive."
+msgstr "Az ``sda`` a merevlemez."
+
+#: ../../multiboot.rst:34
+msgid ""
+"``sda4`` is the partition on the ``sda`` hard drive, where Linux Mint is "
+"installed."
+msgstr ""
+"Az ``sda4`` egy partíció az ``sda`` merevlemezen, ahol a Linux Mint "
+"telepítve van."
+
+#: ../../multiboot.rst:36
+msgid "To list partition sizes, type ``lsblk``:"
+msgstr "A partícióméretek felsorolásához írja be a ``lsblk`` parancsot:"
+
+#: ../../multiboot.rst:42
+msgid "To list partition labels, type ``blkid``:"
+msgstr "A partíciós címkék felsorolásához írja be a ``blkid`` parancsot:"
+
+#: ../../multiboot.rst:48
+msgid ""
+"Mount the Linux Mint partition and reinstall the grub menu with the "
+"following commands:"
+msgstr ""
+"Csatolja fel a Linux Mint partíciót, és telepítse újra a grub menüt a "
+"következő parancsokkal:"
+
+#: ../../multiboot.rst:56
+msgid ""
+"In the commands above, replace /dev/sda4 and /dev/sda with the appropriate "
+"names for your Linux Mint partition and your hard drive device."
+msgstr ""
+"A fenti parancsoknál cserélje ki a „/dev/sda4” és „/dev/sda” elérési utakat, "
+"a Linux Mint partíció megfelelő nevével és a merevlemez meghajtóval."
+
+#: ../../oem.rst:2
+msgid "Pre-installing Linux Mint (OEM Installation)"
+msgstr "A Linux Mint (OEM telepítés) előtelepítése"
+
+#: ../../oem.rst:4
+msgid ""
+"In the ISO boot menu, ``OEM install`` is used to preinstall Linux Mint."
+msgstr ""
+"Az ISO rendszerindító menüben a ``OEM install`` a Linux Mint előtelepítésére "
+"használható."
+
+#: ../../oem.rst:6
+msgid "This option is useful to:"
+msgstr "Ez a lehetőség hasznos:"
+
+#: ../../oem.rst:8
+msgid ""
+"Manufacturers and resellers who want to install Linux Mint on computers they "
+"sell to their customers."
+msgstr ""
+"Azok a gyártók és viszonteladók, akik a Linux Mint telepítését szeretnék "
+"telepíteni az ügyfeleik számára értékesített számítógépekre."
+
+#: ../../oem.rst:9
+msgid "People who want to sell or give their computer to somebody else."
+msgstr "Azok, akik valaki másnak szeretnék eladni vagy adni a számítógépet."
+
+#: ../../oem.rst:11
+msgid ""
+"When you install Linux Mint in ``OEM`` mode, the operating system is "
+"installed with a temporary user account and prepared for the computer's "
+"future owner."
+msgstr ""
+"Amikor a Linux Mint operációs rendszert ``OEM`` üzemmódban telepíti, az "
+"operációs rendszer ideiglenes felhasználói fiókkal lesz telepítve és "
+"felkészül a számítógép jövőbeli tulajdonosára."
+
+#: ../../oem.rst:13
+msgid "The user account is set up by the new owner."
+msgstr "A felhasználói fiókot az új tulajdonos hozza létre."
+
+#: ../../oem.rst:15
+msgid "To perform an OEM installation follow the steps below:"
+msgstr "Az OEM telepítés végrehajtásához kövesse az alábbi lépéseket:"
+
+#: ../../oem.rst:17
+msgid "Select ``OEM Install`` from the USB stick (or DVD) menu."
+msgstr ""
+"Válassza az ``OEM Install`` lehetőséget az USB pendrive eszköz (vagy DVD "
+"lemez) rendszerindító menüből."
+
+#: ../../oem.rst:19
+msgid "Launch the installer and follow the installation instructions."
+msgstr "Indítsa el a telepítőt, és kövesse a telepítési utasításokat."
+
+#: ../../oem.rst:23
+msgid ""
+"Change any system settings or install additional software if you want."
+msgstr ""
+"Módosítsa a rendszer beállításokat, vagy telepítsen további szoftvereket."
+
+#: ../../oem.rst:25
+msgid ""
+"When ready, click :guilabel:`Prepare for shipping to end user`, enter the "
+"password you chose during the installation, click :guilabel:`OK` and shut "
+"down the computer."
+msgstr ""
+"Ha készen van, kattintson a :guilabel:`Készüljön fel a végfelhasználásra` "
+"lehetőségre, majd írja be a telepítés során kiválasztott jelszavát, "
+"kattintson :guilabel:`OK`gombra és állítsa le a számítógépet."
+
+#: ../../oem.rst:31
+msgid ""
+"When the new owner of the computer boots the computer the following screen "
+"appears:"
+msgstr ""
+"Amikor a számítógép új tulajdonosa elindítja a számítógépet, a következő "
+"képernyő jelenik meg:"
+
+#: ../../oem.rst:37
+msgid ""
+"The new owner selects his or her username, password, keyboard layout, "
+"language, timezone and all the details relevant to create his or her user "
+"account."
+msgstr ""
+"Az új tulajdonos kiválasztja a felhasználónevét, a jelszavát, a "
+"billentyűzetkiosztását, a rendszer nyelvét, az időzónáját és minden olyan "
+"adatot, amely nélkülözhetetlen a felhasználói fiók létrehozásához."
+
+#: ../../partitioning.rst:2
+msgid "Partitioning"
+msgstr "Particionálás"
+
+#: ../../partitioning.rst:5
+msgid "Disks and partitions under Linux"
+msgstr "Lemezek és partíciók Linux alatt"
+
+#: ../../partitioning.rst:7
+msgid ""
+"If you are not familiar with the Linux naming scheme for devices and "
+"partitions, or the concept of filesystems and mount points, read:"
+msgstr ""
+"Ha nem ismeri az eszközöket és partíciókat, illetve a fájlrendszerek és a "
+"csatolási pontok fogalmát, olvassa el a következőket:"
+
+#: ../../partitioning.rst:9
+msgid ""
+"`A beginner’s guide to disks and disk partitions in Linux "
+"<http://linuxbsdos.com/2014/11/08/a-beginners-guide-to-disks-and-disk-"
+"partitions-in-linux/>`_"
+msgstr ""
+"A `Lemezek és lemezpartíciók kezelése Linux alatt útmutatója kezdő számára "
+"<http://linuxbsdos.com/2014/11/08/a-beginners-guide-to-disks-and-disk-"
+"partitions-in-linux/>`_"
+
+#: ../../partitioning.rst:10
+msgid ""
+"`Device Names in Linux "
+"<https://www.debian.org/releases/wheezy/amd64/apcs04.html.en>`_"
+msgstr ""
+"`Eszköznevek Linux alatt "
+"<https://www.debian.org/releases/wheezy/amd64/apcs04.html.en>` _"
+
+#: ../../partitioning.rst:11
+msgid ""
+"`Understanding the Linux File System "
+"<http://etutorials.org/Linux+systems/red+hat+linux+9+professional+secrets/Par"
+"t+II+Exploring+Red+Hat+Linux/Chapter+7+Red+Hat+Linux+Basics/Understanding+the"
+"+Linux+File+System/>`_"
+msgstr ""
+"`A Linux fájlrendszerek "
+"bemutatása<http://etutorials.org/Linux+systems/red+hat+linux+9+professional+s"
+"ecrets/Part+II+Exploring+Red+Hat+Linux/Chapter+7+Red+Hat+Linux+Basics/Underst"
+"anding+the+Linux+File+System/>`_"
+
+#: ../../partitioning.rst:14
+msgid "Dedicated /home partition"
+msgstr "Dedikált /home partíció"
+
+#: ../../partitioning.rst:16
+msgid ""
+"In Linux, the ``/home`` directory is used to store user data and preferences."
+msgstr ""
+"A Linuxban a ``/home`` mappa a felhasználói adatok és beállítások tárolására "
+"szolgál."
+
+#: ../../partitioning.rst:18
+msgid ""
+"This directory contains one subdirectoy for each user account. Say your "
+"username is ``john``, your home directory is ``/home/john``, your downloads "
+"are in ``/home/john/Downloads``, your documents in ``/home/john/Documents``, "
+"your Firefox bookmarks somewhere in ``/home/john/.mozilla`` and so on..."
+msgstr ""
+"Ez a mappa egy almappát tartalmaz minden felhasználói fiókhoz. Tegyük fel, "
+"hogy a felhasználóneve ``john``. Ebben az esetben a saját könyvtára a "
+"``/home/john`` mappa lesz, a letöltések a ``/home/john/Letöltések`` mappába "
+"kerülnek, a dokumentumok a ``/home/john/Dokumentumok`` mappába kerülnek,  a "
+"Firefox könyvjelzői valahol ``/home/john/.mozilla`` mappába kerülnek és így "
+"tovább…"
+
+#: ../../partitioning.rst:20
+msgid ""
+"By giving ``/home`` its own dedicated partition, you separate the user data "
+"from the rest of the operating system."
+msgstr ""
+"Azáltal, hogy a ``/home`` mappát egy saját, dedikált partícióra helyezi, a "
+"felhasználói adatokat az operációs rendszer többi részétől elválaszthatja."
+
+#: ../../partitioning.rst:22
+msgid ""
+"The advantage is that you can wipe the operating system and replace it "
+"without affecting the user data."
+msgstr ""
+"Ennek az az előnye, hogy az operációs rendszert törölheti és lecserélheti "
+"anélkül, hogy befolyásolná a felhasználói adatokat."
+
+#: ../../partitioning.rst:24
+msgid "When installing Linux Mint:"
+msgstr "A  Linux Mint rendszer telepítésekor:"
+
+#: ../../partitioning.rst:26
+msgid ""
+"Assign the ``/`` mount point to the partition dedicated to the operating "
+"system, and tell the installer to format it."
+msgstr ""
+"Adja hozzá a ``/`` csatolási pontot az operációs rendszerhez rendelt "
+"partícióhoz, és állítsa be a telepítőt hogy formázza meg."
+
+#: ../../partitioning.rst:28
+msgid ""
+"Assign the ``/home`` mount point to the partition dedicated to the user "
+"data, and if it contains user data already, make sure to tell the installer "
+"**not to format it**."
+msgstr ""
+"Adja hozzá a ``/home`` csatolási pontot a felhasználói adatokhoz rendelt "
+"partícióhoz, és ha már felhasználói adatokat tartalmaz, győződjön meg arról, "
+"hogy a telepítő ** nem formázza ** azt."
+
+#: ../../partitioning.rst:31
+msgid ""
+"This is not recommended for novice users. A misstep during the installation "
+"could wipe all your data. Always make backups, make sure to select the right "
+"partitions and to carefully review formatting options."
+msgstr ""
+"Ez nem ajánlott új felhasználóknak. A telepítés során egy hibás lépés "
+"törölheti az összes adatát. Mindig készítsen biztonsági mentéseket, "
+"győződjön meg róla, hogy a megfelelő partíciókat választotta ki, és alaposan "
+"átnézte a lemezformázási beállításokat."
+
+#: ../../partitioning.rst:34
+msgid ""
+"A Linux Mint operating system takes about 15GB and grows as you install "
+"additional software. If you can spare the size, give it 100GB. Keep most of "
+"your free space for the home partition. User data (downloads, videos, "
+"pictures) takes a lot more space."
+msgstr ""
+"A Linux Mint operációs rendszer nagyjából 15 GB-ot lemezterületet foglal el. "
+"Ez növekszik, amikor további szoftvereket telepít. A kényelmes használat "
+"érdekében adjon 100GB lemezterületet a Linux Mint számára.  A legtöbb szabad "
+"területet a „/home” partícióhoz adja. A felhasználói adatok (letöltések, "
+"videók, képek) sokkal több helyet foglalnak el."
+
+#: ../../timeshift.rst:2
+msgid "System snapshots"
+msgstr "Rendszer pillanatfelvételek"
+
+#: ../../timeshift.rst:4
+msgid ""
+"Before you start using your operating system, set up system snapshots. Then "
+"if anything goes wrong, you can restore your system from an earlier backup."
+msgstr ""
+"Mielőtt elkezdené használni az operációs rendszert, állítsa be a rendszer "
+"pillanatfelvételeit. Ha valami rosszul sikerül, visszaállíthatja a rendszert "
+"egy korábbi biztonsági mentésből."
+
+#: ../../timeshift.rst:6
+msgid "Launch :menuselection:`Menu --> Administration --> Timeshift`."
+msgstr ""
+"Indítsa el a :menuselection:`Menü --> Adminisztráció --> Timeshift` "
+"programot."
+
+#: ../../timeshift.rst:8
+msgid "Select ``RSYNC`` and click :guilabel:`Next`."
+msgstr ""
+"Válassza a ``RSYNC`` lehetőséget, és kattintson a :guilabel:`Következő` "
+"gombra."
+
+#: ../../timeshift.rst:13
+msgid ""
+"Select the device where you want system snapshots to be saved and click "
+":guilabel:`Next`."
+msgstr ""
+"Jelölje ki azt az eszközt, ahová a rendszer pillanatfelvételeit menteni "
+"kívánja, és kattintson a  :guilabel:`Következő` gombra."
+
+#: ../../timeshift.rst:19
+msgid ""
+"The selected device is not formatted and no data is lost. System snapshots "
+"are saved into a newly created ``timeshift`` directory on the root of the "
+"selected device."
+msgstr ""
+"A kijelölt eszköz nincs formázva, és semmilyen adat nem veszett el. A "
+"rendszer pillanatfelvételei az újonnan létrehozott ``timeshift`` mappába "
+"vannak mentve a kiválasztott eszköz gyökérmappájában."
+
+#: ../../timeshift.rst:21
+msgid "Select when system snapshots are saved."
+msgstr "Válassza ki, amikor a rendszer pillanatfelvételei készültek."
+
+#: ../../timeshift.rst:27
+msgid ""
+"System snapshots are incremental so although the first snapshot takes a "
+"significant amount of spaces, new snapshots only take additional space for "
+"files which have changed."
+msgstr ""
+"A rendszer pillanatképei növekményesek, így bár az első pillanatfelvétel "
+"jelentős mennyiségű tárterületet foglalhat el, az új pillanatfelvételek csak "
+"megváltozott fájlok számára foglal el további tárterületet."
+
+#: ../../timeshift.rst:30
+msgid ""
+"``Boot`` snapshots are performed in the background and do not impact the "
+"speed of the boot sequence."
+msgstr ""
+"A ``Boot`` pillanatfelvételek készítése a háttérben kerülnek végrehajtásra, "
+"és nem befolyásolják a rendszerindítási sorrend sebességét."
+
+#: ../../timeshift.rst:32
+msgid "Click :guilabel:`Finish`."
+msgstr "Kattintson a :guilabel:`Finish` gombra."
+
+#: ../../verify.rst:2
+msgid "Verify your ISO image"
+msgstr "Ellenőrizze ISO-lemezképfájlt"
+
+#: ../../verify.rst:4
+msgid ""
+"It is important to verify the integrity and authenticity of your ISO image."
+msgstr ""
+"Fontos, hogy ellenőrizze az ISO-lemezképfájl integritását és hitelességét."
+
+#: ../../verify.rst:6
+msgid ""
+"The integrity check confirms that your ISO image was properly downloaded and "
+"that your local file is an exact copy of the file present on the download "
+"servers. An error during the download could result in a corrupted file and "
+"trigger random issues during the installation."
+msgstr ""
+"Az integritás ellenőrzése megerősíti, hogy az ISO-lemezképfájlt megfelelően "
+"töltötte le, és hogy a helyi fájl a letöltési kiszolgálókon található fájl "
+"pontos másolata. A letöltés során okozott hiba megsérült fájlt eredményezhet "
+"és véletlenszerű problémákat okozhat a telepítés során."
+
+#: ../../verify.rst:8
+msgid ""
+"The authenticity check confirms that the ISO image you downloaded was signed "
+"by Linux Mint, and thus that it isn't a modified or malicious copy made by "
+"somebody else."
+msgstr ""
+"Az eredetiség-ellenőrzés megerősíti, hogy a letöltött ISO-lemezképfájl a "
+"Linux Mint által lett aláírva, így nem módosított, vagy mások által "
+"módosított rosszindulatú másolat."
+
+#: ../../verify.rst:11
+msgid "Download the SHA256 sums provided by Linux Mint"
+msgstr "Töltse le a SHA256 összegeket, amelyeket a Linux Mint biztosít"
+
+#: ../../verify.rst:13
+msgid ""
+"All `download mirrors <https://www.linuxmint.com/mirrors.php>`_ provide the "
+"ISO images, a ``sha256sum.txt`` file and a ``sha256sum.txt.gpg`` file. You "
+"should be able to find these files in the same place you downloaded the ISO "
+"image from."
+msgstr ""
+"Az `összes letöltési tükör <https://www.linuxmint.com/mirrors.php>`_ "
+"biztosítja az ISO lemezkép fájlokat, valamint a ``sha256sum.txt`` fájlt és a "
+"``sha256sum.txt.gpg`` fájlt. Ott kell lennie ezeknek a fájloknak ugyanazon a "
+"helyen, ahonnan letöltötte az ISO-lemezképfájlokat."
+
+#: ../../verify.rst:15
+msgid ""
+"If you can't find them, browse the `Heanet download mirror "
+"<https://ftp.heanet.ie/mirrors/linuxmint.com/stable/>`_ and click the "
+"version of the Linux Mint release you downloaded."
+msgstr ""
+"Ha nem találja meg őket, keresse meg a `Heanet letöltési tükör "
+"<https://ftp.heanet.ie/mirrors/linuxmint.com/stable/>`_ kiszolgálón, és "
+"kattintson a letöltött Linux Mint kiadás verziójára."
+
+#: ../../verify.rst:17
+msgid "Download both ``sha256sum.txt`` and ``sha256sum.txt.gpg``."
+msgstr "Töltse le a ``sha256sum.txt`` és a ``sha256sum.txt.gpg`` fájlokat."
+
+#: ../../verify.rst:19
+msgid ""
+"Do not copy their content, use \"right-click->Save Link As...\" to download "
+"the files themselves and do not modify them in any way."
+msgstr ""
+"Ne másolja a tartalmát, hanem a linkre jobb gombra kattintva válassza a "
+"„Hivatkozás mentése más néven” lehetőséget a fájl letöltéséhez."
+
+#: ../../verify.rst:22
+msgid "Integrity check"
+msgstr "Integritásellenőrzés"
+
+#: ../../verify.rst:24
+msgid ""
+"To check the integrity of your local ISO file, generate its SHA256 sum and "
+"compare it with the sum present in ``sha256sum.txt``."
+msgstr ""
+"A letöltött ISO-lemezképfájl integritásának ellenőrzéséhez számolja ki a "
+"fájl SHA256 összegét, és hasonlítsa össze a ``sha256sum.txt`` fájlban "
+"megadott összeggel."
+
+#: ../../verify.rst:31
+msgid ""
+"If you are using Windows follow the tutorial `How to verify the ISO image on "
+"Windows <https://forums.linuxmint.com/viewtopic.php?f=42&t=291093>`_."
+msgstr ""
+"Amennyiben Windows operációs rendszert használ, kövesse a `How to verify the "
+"ISO image on Windows "
+"<https://forums.linuxmint.com/viewtopic.php?f=42&t=291093>`_ dokumentumban "
+"leírtakat. Magyar nyelvű leírást itt talál:  `Letöltött ISO lemezkép-fájl "
+"ellenőrzése <https://linuxmint.hu/ellenorzes>`_."
+
+#: ../../verify.rst:33
+msgid ""
+"If the sums match, your ISO image was successfully downloaded. If they "
+"don't, download it again."
+msgstr ""
+"Ha az összegek megegyeznek, akkor az ISO-lemezképfájlt sikeresen letöltötte. "
+"Ha nem egyeznek meg, akkor töltse le újra az ISO-lemezképfájlt."
+
+#: ../../verify.rst:38
+msgid "Authenticity check"
+msgstr "Hitelesség ellenőrzés"
+
+#: ../../verify.rst:40
+msgid ""
+"To verify the authenticity of ``sha256sum.txt``, check the signature of "
+"``sha256sum.txt.gpg`` by following the steps below."
+msgstr ""
+"Az `sha256sum.txt`` hitelességének ellenőrzéséhez ellenőrizze a "
+"``sha256sum.txt.gpg`` aláírást az alábbi lépések végrehajtásával."
+
+#: ../../verify.rst:43
+msgid "Import the Linux Mint signing key:"
+msgstr "Importálja a Linux Mint aláíró kulcsot:"
+
+#: ../../verify.rst:49
+msgid ""
+"If gpg complains about the key ID, try the following commands instead:"
+msgstr ""
+"Ha a gpg panaszkodik a kulcsazonosító miatt, próbálja ki a következő "
+"parancsokat:"
+
+#: ../../verify.rst:56
+msgid ""
+"Check the output of the last command, to make sure the fingerprint is ``27DE "
+"B156 44C6 B3CF 3BD7 D291 300F 846B A25B AE09`` (with or without spaces)."
+msgstr ""
+"Ellenőrizze az előző parancs kimenetét. Az ujjlenyomatnak a következőnek "
+"kell lennie: „27DE B156 44C6 B3CF 3BD7 D291 300F 846B A25B AE09” "
+"(szóközökkel vagy szóközök nélkül megadva)."
+
+#: ../../verify.rst:59
+msgid "Verify the authenticity of sha256sum.txt:"
+msgstr "Ellenőrizze a sha256sum.txt fájl hitelességét:"
+
+#: ../../verify.rst:64
+msgid ""
+"The output of the last command should tell you that the file signature is "
+"``good`` and that it was signed with the ``A25BAE09`` key."
+msgstr ""
+"Az előző parancs kimenetének azt kell mutatnia, hogy a fájl aláírása ``jó`` "
+"és az ``A25BAE09`` azonosítójú kulccsal lett aláírva."
+
+#: ../../verify.rst:67
+msgid ""
+"GPG might warn you that the Linux Mint signature is not trusted by your "
+"computer. This is expected and perfectly normal."
+msgstr ""
+"A GPG figyelmeztetheti önt, hogy a Linux Mint aláírása az Ön számítógépe "
+"által nem megbízhatónak minősített . Ez várható és teljesen normális."
+
+#: ../../verify.rst:70
+msgid ""
+"For more information on ISO verification, or to verify BETA, LMDE or old "
+"releases, read `How to Verify ISO images "
+"<https://linuxmint.com/verify.php>`_."
+msgstr ""
+"Az ISO-lemezképfájl ellenőrzésről, illetve a BETA, az LMDE vagy a korábbi "
+"kiadások ellenőrzéséről az `ISO-lemezképfájlok ellenőrzése "
+"<https://linuxmint.com/verify.php>`_ című részben olvasható. Magyar nyelvű "
+"leírást az 'ISO-lemezképfájl ellenőrzésről itt talál "
+"<https://linuxmint.hu/ellenorzes>`_."
