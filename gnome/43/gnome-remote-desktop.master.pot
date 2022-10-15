@@ -11,21 +11,21 @@ msgstr ""
 "issues\n"
 "POT-Creation-Date: 2022-09-20 05:09+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
-"Language: \n"
+"Last-Translator: Otabek Ismoilov <ismoiovdev@gmail.com>\n"
+"Language-Team: Uzbek\n"
+"Language: uz\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=CHARSET\n"
 "Content-Transfer-Encoding: 8bit\n"
 
 #: src/grd-daemon.c:503
 msgid "GNOME Remote Desktop"
-msgstr ""
+msgstr "GNOME masofaviy ish stoli"
 
 #: src/grd-prompt.c:124
 #, c-format
 msgid "Do you want to share your desktop?"
-msgstr ""
+msgstr "Ish stolingizni baham ko'rmoqchimisiz?"
 
 #: src/grd-prompt.c:125
 #, c-format
@@ -33,23 +33,25 @@ msgid ""
 "A user on the computer '%s' is trying to remotely view or control your "
 "desktop."
 msgstr ""
+"“%s” kompyuteridagi foydalanuvchi sizning maʼlumotlaringizni masofadan turib koʻrish yoki boshqarishga harakat qilmoqda"
+"ish stoli".
 
 #: src/grd-prompt.c:131
 msgid "Refuse"
-msgstr ""
+msgstr "Rad etish"
 
 #: src/grd-prompt.c:136
 msgid "Accept"
-msgstr ""
+msgstr "Qabul qiling"
 
 #: src/grd-ctl.c:53
 #, c-format
 msgid "Usage: %s [OPTIONS...] COMMAND [SUBCOMMAND]...\n"
-msgstr ""
+msgstr "Foydalanish: %s [OPTIONS...] BUYRUQ [SUBCOMMAND]...\n"
 
 #: src/grd-ctl.c:461
 msgid "Commands:\n"
-msgstr ""
+msgstr "Buyruqlar:\n"
 
 #: src/grd-ctl.c:466
 msgid ""
@@ -70,6 +72,22 @@ msgid ""
 "                                               devices\n"
 "\n"
 msgstr ""
+" rdp                                          - RDP quyi buyruqlari:\n"
+"    yoqish                                    - RDP orqa tomonini yoqish\n"
+"    o'chirish                                 - RDP serverini o'chirish\n"
+"    set-tls-cert <path-to-cert>               - TLS sertifikatiga yo'l o'rnating\n"
+"    set-tls-key <path-to-key>                 - TLS kalitiga yo'l o'rnating\n"
+"    set-credentials <username> <parol>        - Foydalanuvchi nomi va parolni o'rnating\n"
+"                                                hisobga olish ma'lumotlari\n"
+"    clear-credentials                         - Foydalanuvchi nomi va parolni tozalash\n"
+"                                                hisobga olish ma'lumotlari\n"
+"    enable-view-only                          - masofadan boshqarishni o'chirish"
+"input\n"
+"                                                qurilmalar\n"
+"    disable-view-only                         - masofadan boshqarishni yoqish"
+"input\n"
+"                                                qurilmalar\n"
+"\n"
 
 #: src/grd-ctl.c:485
 msgid ""
@@ -87,6 +105,19 @@ msgid ""
 "                                               devices\n"
 "\n"
 msgstr ""
+" vnc                                           - VNC quyi buyruqlari:\n"
+"    yoqish                                     - VNC orqa tomonini yoqish\n"
+"    o'chirish                                  - VNC serverini o'chirish\n"
+"    set-password <password>                    - VNC parolini o'rnating\n"
+"    parolni o'chirish                          - VNC parolini o'chirish\n"
+"    set-auth-method password|so'rov            - Avtorizatsiya usulini o'rnating\n"
+"    enable-view-only                           - Masofadan boshqarishni o'chirib qo'ying "
+"input\n"
+"                                                qurilmalar\n"
+"    disable-view-only                          - Masofadan boshqarishni yoqish "
+"input\n"
+"                                                qurilmalar\n"
+"\n"
 
 #: src/grd-ctl.c:500
 msgid ""
