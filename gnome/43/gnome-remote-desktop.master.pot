@@ -20,7 +20,7 @@ msgstr ""
 
 #: src/grd-daemon.c:503
 msgid "GNOME Remote Desktop"
-msgstr "GNOME masofaviy ish stoli"
+msgstr "GNOME Remote Desktop"
 
 #: src/grd-prompt.c:124
 #, c-format
@@ -47,7 +47,7 @@ msgstr "Qabul qiling"
 #: src/grd-ctl.c:53
 #, c-format
 msgid "Usage: %s [OPTIONS...] COMMAND [SUBCOMMAND]...\n"
-msgstr "Foydalanish: %s [OPTIONS...] BUYRUQ [SUBCOMMAND]...\n"
+msgstr "Foydalanish: %s [OPTIONS...] COMMAND [SUBCOMMAND]...\n"
 
 #: src/grd-ctl.c:461
 msgid "Commands:\n"
@@ -73,13 +73,13 @@ msgid ""
 "\n"
 msgstr ""
 " rdp                                          - RDP quyi buyruqlari:\n"
-"    yoqish                                    - RDP orqa tomonini yoqish\n"
-"    o'chirish                                 - RDP serverini o'chirish\n"
+"    enable                                    - RDP backend yoqish\n"
+"    disable                                   - RDP serverini o'chirish\n"
 "    set-tls-cert <path-to-cert>               - TLS sertifikatiga yo'l o'rnating\n"
 "    set-tls-key <path-to-key>                 - TLS kalitiga yo'l o'rnating\n"
 "    set-credentials <username> <parol>        - Foydalanuvchi nomi va parolni o'rnating\n"
 "                                                hisobga olish ma'lumotlari\n"
-"    clear-credentials                         - Foydalanuvchi nomi va parolni tozalash\n"
+"    clear-credentials                         - Foydalanuvchi nomi va parolni o'chirish\n"
 "                                                hisobga olish ma'lumotlari\n"
 "    enable-view-only                          - masofadan boshqarishni o'chirish"
 "input\n"
@@ -106,10 +106,10 @@ msgid ""
 "\n"
 msgstr ""
 " vnc                                           - VNC quyi buyruqlari:\n"
-"    yoqish                                     - VNC orqa tomonini yoqish\n"
-"    o'chirish                                  - VNC serverini o'chirish\n"
+"    enable                                     - VNC backend yoqish\n"
+"    disable                                    - VNC serverini o'chirish\n"
 "    set-password <password>                    - VNC parolini o'rnating\n"
-"    parolni o'chirish                          - VNC parolini o'chirish\n"
+"    clear-password                             - VNC parolini o'chirish\n"
 "    set-auth-method password|so'rov            - Avtorizatsiya usulini o'rnating\n"
 "    enable-view-only                           - Masofadan boshqarishni o'chirib qo'ying "
 "input\n"
@@ -128,18 +128,24 @@ msgid ""
 "storage\n"
 "  --help                                     - Print this help text\n"
 msgstr ""
+" status [--show-credentials]                 - Joriy holatni ko‘rsatish\n"
+"\n"
+"Options:\n"
+"  --headless                                 - Use headless credentials "
+"storage\n"
+"  --help                                     - Ushbu yordam matnini chop eting\n"
 
 #: src/org.gnome.desktop.remote-desktop.gschema.xml.in:7
 msgid "Whether the RDP backend is enabled or not"
-msgstr ""
+msgstr "RDP backend yoqilganmi yoki yo'qmi"
 
 #: src/org.gnome.desktop.remote-desktop.gschema.xml.in:8
 msgid "If set to 'true' the RDP backend will be initialized."
-msgstr ""
+msgstr "Agar 'true' qiymati o'rnatilgan bo'lsa, RDP backend ishga tushiriladi."
 
 #: src/org.gnome.desktop.remote-desktop.gschema.xml.in:14
 msgid "Screenshare mode of RDP connections"
-msgstr ""
+msgstr "RDP ulanishlarining ekran almashish rejimi"
 
 #: src/org.gnome.desktop.remote-desktop.gschema.xml.in:15
 msgid ""
@@ -156,10 +162,22 @@ msgid ""
 "resolution of this virtual monitor is derived from the monitor "
 "configuration, submitted by the remote desktop client."
 msgstr ""
+"Ekran almashish rejimi RDP backend asosiyni aks ettiradimi yoki yo'qligini aniqlaydi"
+"ekran yoki virtual monitor yaratilganmi. Dastlabki ruxsat uchun "
+"virtual monitorning RDP backend  mijozning asosiy ma'lumotlaridan foydalanadi"
+"([MS-RDPBCGR] 2.2.1.3.2) yoki mijoz monitor ma'lumotlari ([MS-RDPBCGR]"
+"2.2.1.3.6), mavjud bo'lgan narsaga qarab. Masofaviy ish stolidan foydalanganda "
+"Virtual monitor bilan seans, mijozlar o'lchamlarini o'zgartirishi mumkin"
+"Display Update Virtual Channel bilan seans paytida virtual monitor"
+"Kengaytma ([MS-RDPEDISP]). Ruxsat berilgan ekran almashish rejimlariga quyidagilar kiradi: * oyna-"
+"asosiy - joriy foydalanuvchi seansining asosiy monitorini yozib oling. * kengaytirish - "
+"Yangi virtual monitor yarating va undan masofaviy ish stoli seansi uchun foydalaning. "
+"Ushbu virtual monitorning ruxsati monitordan olingan"
+"uzoq ish stoli mijozi tomonidan taqdim etilgan konfiguratsiya."
 
 #: src/org.gnome.desktop.remote-desktop.gschema.xml.in:41
 msgid "Path to the certificate file"
-msgstr ""
+msgstr "Sertifikat fayliga yo'l"
 
 #: src/org.gnome.desktop.remote-desktop.gschema.xml.in:42
 #: src/org.gnome.desktop.remote-desktop.gschema.xml.in:50
@@ -167,39 +185,45 @@ msgid ""
 "In order to be able to use RDP with TLS Security, both the private key file "
 "and the certificate file need to be provided to the RDP server."
 msgstr ""
+"TLS Security bilan RDP dan foydalanish uchun ikkala shaxsiy kalit fayli"
+"va sertifikat fayli RDP serveriga taqdim etilishi kerak."
 
 #: src/org.gnome.desktop.remote-desktop.gschema.xml.in:49
 msgid "Path to the private key file"
-msgstr ""
+msgstr "Shaxsiy kalit fayliga yo'l"
 
 #: src/org.gnome.desktop.remote-desktop.gschema.xml.in:57
 #: src/org.gnome.desktop.remote-desktop.gschema.xml.in:74
 msgid "Only allow remote connections to view the screen content"
-msgstr ""
+msgstr "Faqat masofaviy ulanishlarga ekran mazmunini ko'rishga ruxsat bering"
 
 #: src/org.gnome.desktop.remote-desktop.gschema.xml.in:58
 msgid ""
 "When view-only is true, remote RDP connections cannot manipulate input "
 "devices (e.g. mouse and keyboard)."
 msgstr ""
+"Faqat ko'rish uchun rost bo'lsa, masofaviy RDP ulanishlari kirishni boshqara olmaydi"
+"qurilmalar (masalan, sichqoncha va klaviatura)."
 
 #: src/org.gnome.desktop.remote-desktop.gschema.xml.in:67
 msgid "Whether the VNC backend is enabled or not"
-msgstr ""
+msgstr "VNC backend yoqilganmi yoki yo'qmi"
 
 #: src/org.gnome.desktop.remote-desktop.gschema.xml.in:68
 msgid "If set to 'true' the VNC backend will be initialized."
-msgstr ""
+msgstr "Agar "true" qiymati o'rnatilsa, VNC backend ishga tushiriladi."
 
 #: src/org.gnome.desktop.remote-desktop.gschema.xml.in:75
 msgid ""
 "When view-only is true, remote VNC connections cannot manipulate input "
 "devices (e.g. mouse and keyboard)."
 msgstr ""
+"Faqat ko'rish uchun rost bo'lsa, masofaviy VNC ulanishlari kirishni boshqara olmaydi"
+"qurilmalar (masalan, sichqoncha va klaviatura)."
 
 #: src/org.gnome.desktop.remote-desktop.gschema.xml.in:82
 msgid "Method used to authenticate VNC connections"
-msgstr ""
+msgstr "VNC ulanishlarini autentifikatsiya qilish uchun ishlatiladigan usul"
 
 #: src/org.gnome.desktop.remote-desktop.gschema.xml.in:83
 msgid ""
@@ -209,10 +233,15 @@ msgid ""
 "access to the workstation to explicitly approve the new connection. * "
 "password - by requiring the remote client to provide a known password"
 msgstr ""
+"VNC autentifikatsiya usuli masofaviy ulanish qanday ekanligini tasvirlaydi"
+"autentifikatsiya qilingan. Hozirda u ikki xil usulda amalga oshirilishi mumkin: * prompt - by "
+"foydalanuvchini har bir yangi ulanishga taklif qilish, jismoniy shaxsni talab qilish"
+"yangi ulanishni aniq tasdiqlash uchun ish stantsiyasiga kirish. *"
+"parol - masofaviy mijozdan ma'lum parolni taqdim etishni talab qilish orqali"
 
 #: src/org.gnome.desktop.remote-desktop.gschema.xml.in:95
 msgid "Screenshare mode of VNC connections"
-msgstr ""
+msgstr "VNC ulanishlarining ekran almashish rejimi"
 
 #: src/org.gnome.desktop.remote-desktop.gschema.xml.in:96
 msgid ""
@@ -228,3 +257,14 @@ msgid ""
 "Clients can override the initial resolution with subsequent monitor "
 "configuration updates."
 msgstr ""
+"Ekran almashish rejimi VNC backend asosiyni aks ettiradimi yoki yo'qligini aniqlaydi"
+"ekran yoki virtual monitor yaratilganmi. Dastlabki ruxsat uchun "
+"virtual monitorning VNC backend standart o'lchami 1920x1080"
+"piksel. Virtual monitor bilan masofaviy ish stoli seansidan foydalanganda mijozlar "
+"bilan seans paytida virtual monitorning o'lchamini o'zgartirishi mumkin"
+"setDesktopSize PDU. Ruxsat berilgan ekran almashish rejimlariga quyidagilar kiradi: * birlamchi oyna - "
+"Joriy foydalanuvchi sessiyasining asosiy monitorini yozib oling. * kengaytirish - yaratish "
+"yangi virtual monitor va undan masofaviy ish stoli seansi uchun foydalaning. Dastlabki "
+"Ushbu virtual monitorning monitor o'lchamlari 1920x1080 pikselga o'rnatilgan."
+"Mijozlar keyingi monitor yordamida dastlabki ruxsatni bekor qilishi mumkin"
+"konfiguratsiya yangilanishlari."
