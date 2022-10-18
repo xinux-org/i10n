@@ -10,9 +10,9 @@ msgstr ""
 "Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/tracker/issues\n"
 "POT-Creation-Date: 2022-09-20 08:27+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
-"Language: \n"
+"Last-Translator: Otabek Ismoilov <ismoiovdev@gmail.com>\n"
+"Language-Team: Uzbek <cctld@uzinfocom.uz>\n"
+"Language: uz\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -25,51 +25,51 @@ msgstr ""
 #.
 #: src/libtracker-sparql/core/tracker-collation.c:333
 msgid "the|a|an"
-msgstr ""
+msgstr "the|a|an"
 
 #: src/portal/tracker-main.c:53
 msgid "Version"
-msgstr ""
+msgstr "Versiya"
 
 #: src/portal/tracker-main.c:109 src/tracker/tracker-endpoint.c:387
 #: src/tracker/tracker-export.c:509 src/tracker/tracker-import.c:196
 #: src/tracker/tracker-sparql.c:1566 src/tracker/tracker-sql.c:239
 msgid "Unrecognized options"
-msgstr ""
+msgstr "Noma'lum variantlar"
 
 #: src/tracker/tracker-endpoint.c:50 src/tracker/tracker-export.c:48
 #: src/tracker/tracker-import.c:46 src/tracker/tracker-sparql.c:110
 #: src/tracker/tracker-sql.c:44
 msgid "Location of the database"
-msgstr ""
+msgstr "Ma'lumotlar bazasining joylashuvi"
 
 #: src/tracker/tracker-endpoint.c:51 src/tracker/tracker-endpoint.c:63
 msgid "DIR"
-msgstr ""
+msgstr "DIR"
 
 #: src/tracker/tracker-endpoint.c:54
 msgid "Specify the DBus name of this endpoint"
-msgstr ""
+msgstr "Ushbu oxirgi nuqtaning DBus nomini belgilang"
 
 #: src/tracker/tracker-endpoint.c:55 src/tracker/tracker-endpoint.c:59
 msgid "NAME"
-msgstr ""
+msgstr "NOMI"
 
 #: src/tracker/tracker-endpoint.c:58
 msgid "Specify the ontology name used in this endpoint"
-msgstr ""
+msgstr "Ushbu oxirgi nuqtada ishlatiladigan ontologiya nomini belgilang"
 
 #: src/tracker/tracker-endpoint.c:62
 msgid "Specify a path to an ontology to be used in this endpoint"
-msgstr ""
+msgstr "Ushbu oxirgi nuqtada ishlatiladigan ontologiyaga yo'lni belgilang"
 
 #: src/tracker/tracker-endpoint.c:66
 msgid "HTTP port"
-msgstr ""
+msgstr "HTTP port"
 
 #: src/tracker/tracker-endpoint.c:70
 msgid "Whether to only allow HTTP connections in the loopback device"
-msgstr ""
+msgstr "Orqaga aylanish qurilmasida faqat HTTP ulanishlariga ruxsat beriladimi"
 
 #: src/tracker/tracker-endpoint.c:74
 msgid "Use session bus"
@@ -81,164 +81,167 @@ msgstr ""
 
 #: src/tracker/tracker-endpoint.c:82
 msgid "List SPARQL endpoints available in DBus"
-msgstr ""
+msgstr "DBus-da mavjud bo'lgan SPARQL so'nggi nuqtalarini ro'yxatlang"
 
 #. TRANSLATORS: these are commandline arguments
 #: src/tracker/tracker-endpoint.c:103
 msgid "--list can only be used with --session or --system"
-msgstr ""
+msgstr "--list faqat --session yoki --system bilan ishlatilishi mumkin"
 
 #. TRANSLATORS: those are commandline arguments
 #: src/tracker/tracker-endpoint.c:109
 msgid "One “ontology” or “ontology-path” option should be provided"
-msgstr ""
+msgstr "Bitta ”ontologiya” yoki ”ontologiya-yo'l” variantini taqdim etish kerak"
 
 #. TRANSLATORS: those are commandline arguments
 #: src/tracker/tracker-endpoint.c:115
 msgid "--http-port cannot be used with --dbus-service"
-msgstr ""
+msgstr "--http-portni --dbus-service bilan ishlatib bo'lmaydi"
 
 #: src/tracker/tracker-endpoint.c:186
 #, c-format
 msgid "Creating HTTP endpoint at %s…"
-msgstr ""
+msgstr "%s da HTTP so‘nggi nuqtasi yaratilmoqda…"
 
 #: src/tracker/tracker-endpoint.c:206 src/tracker/tracker-endpoint.c:269
 msgid "Listening to SPARQL commands. Press Ctrl-C to stop."
-msgstr ""
+msgstr "SPARQL buyruqlarini tinglash. To'xtatish uchun Ctrl-C tugmalarini bosing."
 
 #. Carriage return, so we paper over the ^C
 #: src/tracker/tracker-endpoint.c:214 src/tracker/tracker-endpoint.c:284
 msgid "Closing connection…"
-msgstr ""
+msgstr "Ulanish yopilyapti…"
 
 #: src/tracker/tracker-endpoint.c:229
 #, c-format
 msgid "Creating endpoint at %s…"
-msgstr ""
+msgstr "%s da oxirgi nuqta yaratilmoqda…"
 
 #: src/tracker/tracker-endpoint.c:265
 msgid "Could not own DBus name"
-msgstr ""
+msgstr "DBus nomiga ega boʻlmadi"
 
 #: src/tracker/tracker-endpoint.c:279
 msgid "DBus name lost"
-msgstr ""
+msgstr "DBus nomi yo'qolgan"
 
 #: src/tracker/tracker-endpoint.c:421
 #, c-format
 msgid "Opening database at %s…"
-msgstr ""
+msgstr "Maʼlumotlar bazasi ochilmoqda: %s…"
 
 #: src/tracker/tracker-endpoint.c:424
 msgid "Creating in-memory database"
-msgstr ""
+msgstr "Xotirada ma'lumotlar bazasini yaratish"
 
 #: src/tracker/tracker-endpoint.c:451
 msgid ""
 "New database created. Use the “--dbus-service” option to share this database "
 "on a message bus."
 msgstr ""
+"Yangi ma'lumotlar bazasi yaratildi. Ushbu ma'lumotlar bazasini almashish uchun "--dbus-service" opsiyasidan foydalaning "
+"on a message bus."
 
 #: src/tracker/tracker-export.c:49 src/tracker/tracker-import.c:47
 #: src/tracker/tracker-import.c:62 src/tracker/tracker-import.c:63
 #: src/tracker/tracker-sparql.c:111 src/tracker/tracker-sparql.c:123
 #: src/tracker/tracker-sql.c:45 src/tracker/tracker-sql.c:49
 msgid "FILE"
-msgstr ""
+msgstr "FAYL"
 
 #: src/tracker/tracker-export.c:52 src/tracker/tracker-import.c:50
 #: src/tracker/tracker-sparql.c:114
 msgid "Connects to a DBus service"
-msgstr ""
+msgstr "DBus xizmatiga ulanadi"
 
 #: src/tracker/tracker-export.c:53 src/tracker/tracker-import.c:51
 #: src/tracker/tracker-sparql.c:115
 msgid "DBus service name"
-msgstr ""
+msgstr "DBus xizmati nomi"
 
 #: src/tracker/tracker-export.c:56 src/tracker/tracker-import.c:54
 #: src/tracker/tracker-sparql.c:118
 msgid "Connects to a remote service"
-msgstr ""
+msgstr "Masofaviy xizmatga ulanadi"
 
 #: src/tracker/tracker-export.c:57 src/tracker/tracker-import.c:55
 #: src/tracker/tracker-sparql.c:119
 msgid "Remote service URI"
-msgstr ""
+msgstr "Masofaviy xizmat URI"
 
 #: src/tracker/tracker-export.c:60
 msgid "Output TriG format which includes named graph information"
-msgstr ""
+msgstr "Nomlangan grafik ma'lumotlarini o'z ichiga olgan TriG formatini chiqaring"
 
 #: src/tracker/tracker-export.c:72 src/tracker/tracker-export.c:73
 msgid "IRI"
-msgstr ""
+msgstr "IRI"
 
 #. TRANSLATORS: Those are commandline arguments
 #: src/tracker/tracker-export.c:98 src/tracker/tracker-import.c:88
 #: src/tracker/tracker-sparql.c:199
 msgid "Specify one “--database”, “--dbus-service” or “--remote-service” option"
-msgstr ""
+msgstr "Bitta “--ma’lumotlar bazasi”, “--dbus-service” yoki “--remote-service” variantini belgilang"
 
 #: src/tracker/tracker-export.c:305 src/tracker/tracker-export.c:325
 #: src/tracker/tracker-import.c:125 src/tracker/tracker-sparql.c:1124
 msgid "No error given"
-msgstr ""
+msgstr "Xato berilmagan"
 
 #: src/tracker/tracker-export.c:324 src/tracker/tracker-import.c:124
 #: src/tracker/tracker-sparql.c:1123
 msgid "Could not establish a connection to Tracker"
-msgstr ""
+msgstr "Tracker bilan aloqa o‘rnatib bo‘lmadi"
 
 #: src/tracker/tracker-export.c:391 src/tracker/tracker-export.c:404
 #: src/tracker/tracker-export.c:414 src/tracker/tracker-sparql.c:1502
 #: src/tracker/tracker-sql.c:137 src/tracker/tracker-sql.c:170
 msgid "Could not run query"
-msgstr ""
+msgstr "So‘rovni bajarib bo‘lmadi"
 
 #: src/tracker/tracker-help.c:60 src/tracker/tracker-help.c:72
 #, c-format
 msgid "failed to exec “%s”: %s"
-msgstr ""
+msgstr "“%s”ni bajarib bo‘lmadi: %s"
 
 #: src/tracker/tracker-import.c:58
 msgid "Read TriG format which includes named graph information"
-msgstr ""
+msgstr "Grafik ma'lumotlarini o'z ichiga olgan TriG formatini o'qing"
 
 #: src/tracker/tracker-import.c:103 src/tracker/tracker-import.c:141
 msgid "Could not run import"
-msgstr ""
+msgstr "Importni amalga oshirib bo‘lmadi"
 
 #: src/tracker/tracker-main.c:89
 msgid "Get help on how to use Tracker and any of these commands"
-msgstr ""
+msgstr "Tracker va ushbu buyruqlardan qanday foydalanish haqida yordam oling"
 
 #: src/tracker/tracker-main.c:90
 msgid "Create a SPARQL endpoint"
-msgstr ""
+msgstr "SPARQL so'nggi nuqtasini yarating"
 
 #: src/tracker/tracker-main.c:91
 msgid "Export data from a Tracker database"
-msgstr ""
+msgstr "Tracker ma'lumotlar bazasidan ma'lumotlarni eksport qiling"
 
 #: src/tracker/tracker-main.c:92
 msgid "Import data into a Tracker database"
-msgstr ""
+msgstr "Tracker ma'lumotlar bazasiga ma'lumotlarni import qiling"
 
 #: src/tracker/tracker-main.c:93
 msgid ""
 "Query and update the index using SPARQL or search, list and tree the ontology"
 msgstr ""
+"SPARQL yordamida indeksni so'rang va yangilang yoki ontologiyani qidiring, ro'yxatlang"
 
 #: src/tracker/tracker-main.c:94
 msgid "Query the database at the lowest level using SQL"
-msgstr ""
+msgstr "SQL yordamida ma'lumotlar bazasini eng past darajada so'rang"
 
 #: src/tracker/tracker-main.c:134
 #, c-format
 msgid "“%s” is not a tracker3 command. See “tracker3 --help”"
-msgstr ""
+msgstr "“%s” bu tracker3 buyrug‘i emas. “Tracker3 --help” ga qarang"
 
 #: src/tracker/tracker-main.c:169
 msgid "Available tracker3 commands are:"
