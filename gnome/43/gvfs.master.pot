@@ -221,62 +221,62 @@ msgstr "Mount demonini ishga tushirishda xato"
 
 #: daemon/gvfsafpconnection.c:787
 msgid "The connection is not opened"
-msgstr ""
+msgstr "Ulanish ochilmagan"
 
 #: daemon/gvfsafpconnection.c:794
 msgid "The connection is closed"
-msgstr ""
+msgstr "Ulanish yopiq"
 
 #: daemon/gvfsafpconnection.c:897
 msgid "Got EOS"
-msgstr ""
+msgstr "Got EOS"
 
 #: daemon/gvfsafpconnection.c:1060 daemon/gvfsafpconnection.c:1102
 #: daemon/gvfsftptask.c:397
 msgid "Host closed connection"
-msgstr ""
+msgstr "Xost yopiq ulanish"
 
 #: daemon/gvfsafpconnection.c:1521
 msgid "Connection unexpectedly went down"
-msgstr ""
+msgstr "Ulanish kutilmaganda uzilib qoldi"
 
 #: daemon/gvfsafpconnection.c:1548
 msgid "Got unexpected end of stream"
-msgstr ""
+msgstr "Oqim kutilmaganda tugadi"
 
 #. Translators: %d is a constant, currently hardcoded to 256
 #: daemon/gvfsafpserver.c:195 daemon/gvfsafpserver.c:477
 #, c-format
 msgid "The server doesn’t support passwords longer than %d character."
 msgid_plural "The server doesn’t support passwords longer than %d characters."
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "Server %d belgidan uzunroq parollarni qo‘llab-quvvatlamaydi."
+msgstr[1] "Server %d ta belgidan ortiq parollarni qo‘llab-quvvatlamaydi."
 
 #: daemon/gvfsafpserver.c:221 daemon/gvfsafpserver.c:530
 msgid "An invalid username was provided."
-msgstr ""
+msgstr "Yaroqsiz foydalanuvchi nomi berilgan."
 
 #: daemon/gvfsafpserver.c:390
 #, c-format
 msgid "Unable to login to the server “%s” with the given password."
-msgstr ""
+msgstr "Berilgan parol bilan “%s” serveriga kirib bo‘lmadi."
 
 #: daemon/gvfsafpserver.c:425 daemon/gvfsafpserver.c:647
 #: daemon/gvfsafpserver.c:823 daemon/gvfsafpserver.c:871
 #: daemon/gvfsafpserver.c:987 daemon/gvfsafpserver.c:1659
 #, c-format
 msgid "Unable to connect to the server “%s”. A communication problem occurred."
-msgstr ""
+msgstr "“%s” serveriga ulanib bo‘lmadi. Aloqa muammosi yuz berdi."
 
 #: daemon/gvfsafpserver.c:620
 #, c-format
 msgid "Unable to connect to the server “%s” with the given password."
-msgstr ""
+msgstr "Berilgan parol bilan “%s” serveriga ulanib bo‘lmadi."
 
 #: daemon/gvfsafpserver.c:673 daemon/gvfsafpserver.c:698
 #, c-format
 msgid "The server “%s” doesn’t support anonymous access."
-msgstr ""
+msgstr "“%s” serveri anonim kirishni qo‘llab-quvvatlamaydi."
 
 #: daemon/gvfsafpserver.c:726
 #, c-format
@@ -284,6 +284,8 @@ msgid ""
 "Unable to connect to the server “%s”. No suitable authentication mechanism "
 "was found."
 msgstr ""
+"“%s” serveriga ulanib bo‘lmadi. Tegishli autentifikatsiya mexanizmi yo‘q "
+"topildi."
 
 #: daemon/gvfsafpserver.c:801
 #, c-format
@@ -291,26 +293,28 @@ msgid ""
 "Unable to connect to the server “%s”. The server doesn’t support AFP version "
 "3.0 or later."
 msgstr ""
+"“%s” serveriga ulanib bo‘lmadi. Server AFP versiyasini qo‘llab-quvvatlamaydi "
+"3.0 yoki undan keyingi."
 
 #: daemon/gvfsafpserver.c:912
 #, c-format
 msgid "Permission denied."
-msgstr ""
+msgstr "Ruxsat berilmadi."
 
 #: daemon/gvfsafpserver.c:917
 #, c-format
 msgid "The command is not supported by the server."
-msgstr ""
+msgstr "Buyruq server tomonidan qo'llab-quvvatlanmaydi."
 
 #: daemon/gvfsafpserver.c:921
 #, c-format
 msgid "Your password has expired."
-msgstr ""
+msgstr "Parolingiz muddati tugagan."
 
 #: daemon/gvfsafpserver.c:925
 #, c-format
 msgid "Your password needs to be changed."
-msgstr ""
+msgstr "Parolingiz o'zgartirilishi kerak."
 
 #. Translators: the first %s is the username, the second the host name
 #: daemon/gvfsafpserver.c:1063 daemon/gvfsbackendftp.c:530
@@ -320,6 +324,8 @@ msgid ""
 "Authentication Required\n"
 "Enter password for “%s” on “%s”:"
 msgstr ""
+"Autentifikatsiya zarur\n"
+"“%s” uchun “%s” parolini kiriting:"
 
 #. Translators: %s here is the hostname
 #. Translators: %s is the hostname
@@ -331,42 +337,44 @@ msgid ""
 "Authentication Required\n"
 "Enter user and password for “%s”:"
 msgstr ""
+"Autentifikatsiya zarur\n"
+"“%s” uchun foydalanuvchi va parolni kiriting:"
 
 #: daemon/gvfsafpserver.c:1098
 msgid "The password prompt was cancelled."
-msgstr ""
+msgstr "Parol so'rovi bekor qilindi."
 
 #: daemon/gvfsafpserver.c:1216
 msgid "Unable to disconnect from the server."
-msgstr ""
+msgstr "Serverdan uzib bo'lmadi."
 
 #: daemon/gvfsafpserver.c:1357 daemon/gvfsafpserver.c:1733
 msgid "Unable to connect to the server. A communication problem occurred."
-msgstr ""
+msgstr "Serverga ulanish imkonsiz. Aloqa muammosi yuz berdi."
 
 #: daemon/gvfsafpserver.c:1692
 msgid "Identification not found."
-msgstr ""
+msgstr "Identifikatsiya topilmadi."
 
 #: daemon/gvfsafputils.c:124
 #, c-format
 msgid "Got error “%s” from server"
-msgstr ""
+msgstr "Serverdan “%s” xatosi oldi"
 
 #: daemon/gvfsafputils.c:127
 #, c-format
 msgid "Got unknown error code %d from server"
-msgstr ""
+msgstr "Serverdan %d nomaʼlum xato kodi oldi"
 
 #: daemon/gvfsafpvolume.c:136
 msgid "Volume doesn’t exist"
-msgstr ""
+msgstr "Hajmi mavjud emas"
 
 #. Translators: first %s is volumename and second servername
 #: daemon/gvfsafpvolume.c:158
 #, c-format
 msgid "Couldn’t load %s on %s"
-msgstr ""
+msgstr "%s ni %sga yuklab bo‘lmadi"
 
 #: daemon/gvfsafpvolume.c:398 daemon/gvfsafpvolume.c:1652
 #: daemon/gvfsafpvolume.c:2406 daemon/gvfsbackendafc.c:150
@@ -385,7 +393,7 @@ msgstr ""
 #: daemon/gvfsbackendsmbbrowse.c:1374 daemon/gvfsbackendsmbbrowse.c:1447
 #, c-format
 msgid "File doesn’t exist"
-msgstr ""
+msgstr "Fayl mavjud emas"
 
 #: daemon/gvfsafpvolume.c:402 daemon/gvfsafpvolume.c:2410
 #: daemon/gvfsbackendafp.c:289 daemon/gvfsbackendafp.c:492
@@ -396,43 +404,43 @@ msgstr ""
 #: daemon/gvfsbackendsftp.c:3948 daemon/gvfsbackendsftp.c:5020
 #: daemon/gvfsbackendsftp.c:6105
 msgid "File is directory"
-msgstr ""
+msgstr "Fayl - bu katalog"
 
 #: daemon/gvfsafpvolume.c:406
 msgid "Too many files open"
-msgstr ""
+msgstr "Juda koʻp fayllar ochiq"
 
 #: daemon/gvfsafpvolume.c:659 daemon/gvfsafpvolume.c:807
 msgid "Target file is open"
-msgstr ""
+msgstr "Maqsadli fayl ochiq"
 
 #: daemon/gvfsafpvolume.c:663 daemon/gvfsbackendafc.c:154
 #: daemon/gvfsbackendburn.c:421 daemon/gvfsbackenddav.c:3305
 #: daemon/gvfsbackendgoogle.c:2497 daemon/gvfsbackendsftp.c:2209
 msgid "Directory not empty"
-msgstr ""
+msgstr "Jild bo'sh emas"
 
 #: daemon/gvfsafpvolume.c:667
 msgid "Target object is marked as not deletable (DeleteInhibit)"
-msgstr ""
+msgstr "Maqsadli obyekt o'chirilmaydi deb belgilangan (DeleteInhibit)"
 
 #: daemon/gvfsafpvolume.c:671 daemon/gvfsafpvolume.c:1180
 #: daemon/gvfsafpvolume.c:2038 daemon/gvfsbackendgoogle.c:262
 #, c-format
 msgid "Target object doesn’t exist"
-msgstr ""
+msgstr "Maqsadli obyekt mavjud emas"
 
 #: daemon/gvfsafpvolume.c:675 daemon/gvfsafpvolume.c:819
 #: daemon/gvfsafpvolume.c:1002 daemon/gvfsafpvolume.c:1184
 #: daemon/gvfsafpvolume.c:2042
 msgid "Volume is read-only"
-msgstr ""
+msgstr "Jild faqat o'qish uchun"
 
 #: daemon/gvfsafpvolume.c:803 daemon/gvfsafpvolume.c:984
 #: daemon/gvfsafpvolume.c:1503 daemon/gvfsafpvolume.c:1917
 #: daemon/gvfsafpvolume.c:2534
 msgid "Not enough space on volume"
-msgstr ""
+msgstr "Hajmi yetarli emas bo'sh joy"
 
 #: daemon/gvfsafpvolume.c:811 daemon/gvfsafpvolume.c:1355
 #: daemon/gvfsafpvolume.c:1507 daemon/gvfsbackendafp.c:296
@@ -449,61 +457,61 @@ msgstr ""
 #: daemon/gvfsbackendmtp.c:1693 daemon/gvfsbackendnfs.c:2490
 #: daemon/gvfsbackendsftp.c:5029 daemon/gvfsbackendsmb.c:2097
 msgid "Target file already exists"
-msgstr ""
+msgstr "Maqsadli fayl allaqachon mavjud"
 
 #: daemon/gvfsafpvolume.c:815 daemon/gvfsafpvolume.c:994
 msgid "Ancestor directory doesn’t exist"
-msgstr ""
+msgstr "Ajdodlar katalogi mavjud emas"
 
 #. Translators: flat means volume doesn't support directories
 #. (all files are in the volume root)
 #: daemon/gvfsafpvolume.c:990
 msgid "Volume is flat and doesn’t support directories"
-msgstr ""
+msgstr "Hajmi tekis va kataloglarni qo'llab-quvvatlamaydi"
 
 #: daemon/gvfsafpvolume.c:998
 msgid "Target directory already exists"
-msgstr ""
+msgstr "Maqsadli katalog allaqachon mavjud"
 
 #: daemon/gvfsafpvolume.c:1168 daemon/gvfsbackendafp.c:604
 msgid "Can’t rename volume"
-msgstr ""
+msgstr "Disk qismini nomini o'zgartirib bo'lmaydi"
 
 #: daemon/gvfsafpvolume.c:1172
 msgid "Object with that name already exists"
-msgstr ""
+msgstr "Bunday nomdagi obyekt allaqachon mavjud"
 
 #: daemon/gvfsafpvolume.c:1176
 msgid "Target object is marked as not renameable (RenameInhibit)"
-msgstr ""
+msgstr "Maqsadli ob'ekt nomini o'zgartirib bo'lmaydigan deb belgilangan (RenameInhibit)"
 
 #: daemon/gvfsafpvolume.c:1343
 msgid "Can’t move directory into one of its descendants"
-msgstr ""
+msgstr "Katalogni uning avlodlaridan biriga ko'chirib bo'lmaydi"
 
 #: daemon/gvfsafpvolume.c:1347
 msgid "Can’t move sharepoint into a shared directory"
-msgstr ""
+msgstr "Shartnoma nuqtasini umumiy katalogga koʻchirib boʻlmadi"
 
 #: daemon/gvfsafpvolume.c:1351
 msgid "Can’t move a shared directory into the Trash"
-msgstr ""
+msgstr "Umumiy katalogni axlat qutisiga koʻchirib boʻlmaydi"
 
 #: daemon/gvfsafpvolume.c:1359
 msgid "Object being moved is marked as not renameable (RenameInhibit)"
-msgstr ""
+msgstr "Ko'chirilayotgan obyekt nomini o'zgartirib bo'lmaydi deb belgilangan (RenameInhibit)"
 
 #: daemon/gvfsafpvolume.c:1363
 msgid "Object being moved doesn’t exist"
-msgstr ""
+msgstr "Ko‘chirilayotgan obyekt mavjud emas"
 
 #: daemon/gvfsafpvolume.c:1495
 msgid "Server doesn’t support the FPCopyFile operation"
-msgstr ""
+msgstr "Server FPCopyFile operatsiyasini qo'llab-quvvatlamaydi"
 
 #: daemon/gvfsafpvolume.c:1499
 msgid "Unable to open source file for reading"
-msgstr ""
+msgstr "Oʻqish uchun manba faylini ochib boʻlmadi"
 
 #: daemon/gvfsafpvolume.c:1511
 msgid "Source file and/or destination directory doesn’t exist"
