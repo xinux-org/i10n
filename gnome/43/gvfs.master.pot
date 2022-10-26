@@ -515,40 +515,40 @@ msgstr "Oʻqish uchun manba faylini ochib boʻlmadi"
 
 #: daemon/gvfsafpvolume.c:1511
 msgid "Source file and/or destination directory doesn’t exist"
-msgstr ""
+msgstr "Manba fayli va/yoki maqsadli katalog mavjud emas"
 
 #: daemon/gvfsafpvolume.c:1515
 msgid "Source file is a directory"
-msgstr ""
+msgstr "Manba fayli katalogdir"
 
 #. Translators: range conflict means
 #. requested data are locked by another user
 #: daemon/gvfsafpvolume.c:1923
 msgid "Range lock conflict exists"
-msgstr ""
+msgstr "Diapazonni qulflashda ziddiyat mavjud"
 
 #: daemon/gvfsafpvolume.c:2193 daemon/gvfsbackendmtp.c:1473
 #: daemon/gvfsbackendmtp.c:1498 daemon/gvfsbackendmtp.c:1701
 #: daemon/gvfsbackendmtp.c:2077 daemon/gvfsbackendmtp.c:2594
 #: daemon/gvfsbackendmtp.c:2989 daemon/gvfsbackendmtp.c:3125
 msgid "Directory doesn’t exist"
-msgstr ""
+msgstr "Katalog mavjud emas"
 
 #: daemon/gvfsafpvolume.c:2197
 msgid "Target object is not a directory"
-msgstr ""
+msgstr "Maqsadli obyekt katalog emas"
 
 #: daemon/gvfsafpvolume.c:2530
 msgid "File is not open for write access"
-msgstr ""
+msgstr "Fayl yozish uchun ochiq emas"
 
 #: daemon/gvfsafpvolume.c:2538
 msgid "File is locked by another user"
-msgstr ""
+msgstr "Fayl boshqa foydalanuvchi tomonidan bloklangan"
 
 #: daemon/gvfsafpvolume.c:2670
 msgid "File is not open for read access"
-msgstr ""
+msgstr "Fayl o'qish uchun ochiq emas"
 
 #. Return G_IO_ERROR_NOT_SUPPORTED instead of
 #. * G_IO_ERROR_CANT_CREATE_BACKUP to proceed with the GIO
@@ -609,111 +609,113 @@ msgstr ""
 #: daemon/gvfsjobtruncate.c:113 daemon/gvfsjobunmountmountable.c:157
 #: daemon/gvfsjobunmountmountable.c:172 daemon/gvfsjobwrite.c:123
 msgid "Operation not supported"
-msgstr ""
+msgstr "Operatsiya qo'llab-quvvatlanmaydi"
 
 #: daemon/gvfsbackendadmin.c:999 daemon/gvfsbackendarchive.c:639
 #: daemon/gvfsbackendarchive.c:668 daemon/gvfsbackenddav.c:2354
 #: daemon/gvfsbackendgoogle.c:2943 daemon/gvfsbackendhttp.c:303
 #: daemon/gvfsbackendsmb.c:582
 msgid "Invalid mount spec"
-msgstr ""
+msgstr "Noto'g'ri o'rnatish spetsifikatsiyasi"
 
 #: daemon/gvfsbackendafc.c:146
 msgid "Internal Apple File Control error"
-msgstr ""
+msgstr "Ichki Apple File Control xatosi"
 
 #: daemon/gvfsbackendafc.c:158
 msgid "The device did not respond"
-msgstr ""
+msgstr "Qurilma javob bermadi"
 
 #: daemon/gvfsbackendafc.c:162
 msgid "The connection was interrupted"
-msgstr ""
+msgstr "Aloqa uzildi"
 
 #: daemon/gvfsbackendafc.c:170
 msgid "Invalid Apple File Control data received"
-msgstr ""
+msgstr "Yaroqsiz Apple File Control maʼlumotlari qabul qilindi"
 
 #: daemon/gvfsbackendafc.c:174
 #, c-format
 msgid "Unhandled Apple File Control error (%d)"
-msgstr ""
+msgstr "Ishlov berilmagan Apple File Control xatosi (%d)"
 
 #: daemon/gvfsbackendafc.c:190
 msgid "Listing applications installed on device failed"
-msgstr ""
+msgstr "Qurilmaga oʻrnatilgan ilovalarni roʻyxatga kiritib boʻlmadi"
 
 #: daemon/gvfsbackendafc.c:206
 msgid "Accessing application icons on device failed"
-msgstr ""
+msgstr "Qurilmadagi ilova iconlariga kirish amalga oshmadi"
 
 #: daemon/gvfsbackendafc.c:228
 msgid "Lockdown Error: Invalid Argument"
-msgstr ""
+msgstr "Bloklash xatosi: noto'g'ri argument"
 
 #: daemon/gvfsbackendafc.c:232
 msgid "The device is password protected"
-msgstr ""
+msgstr "Qurilma parol bilan himoyalangan"
 
 #: daemon/gvfsbackendafc.c:236
 msgid "Unable to connect"
-msgstr ""
+msgstr "Ulanib bo‘lmadi"
 
 #: daemon/gvfsbackendafc.c:240
 msgid "User refused to trust this computer"
-msgstr ""
+msgstr "Foydalanuvchi ushbu kompyuterga ishonishdan bosh tortdi"
 
 #: daemon/gvfsbackendafc.c:244
 msgid "The user has not trusted this computer"
-msgstr ""
+msgstr "Foydalanuvchi bu kompyuterga ishonmagan"
 
 #: daemon/gvfsbackendafc.c:248
 #, c-format
 msgid "Unhandled Lockdown error (%d)"
-msgstr ""
+msgstr "Ishlov berilmagan blokirovka xatosi (%d)"
 
 #: daemon/gvfsbackendafc.c:265
 msgid "libimobiledevice Error: Invalid Argument"
-msgstr ""
+msgstr "libimobiledevice xatosi: noto'g'ri argument"
 
 #: daemon/gvfsbackendafc.c:269
 msgid ""
 "libimobiledevice Error: No device found. Make sure usbmuxd is set up "
 "correctly."
 msgstr ""
+"libimobiledevice xatosi: hech qanday qurilma topilmadi. usbmuxd sozlanganligiga ishonch hosil qiling "
+"to'g'ri."
 
 #: daemon/gvfsbackendafc.c:273
 #, c-format
 msgid "Unhandled libimobiledevice error (%d)"
-msgstr ""
+msgstr "Ishlov berilmagan libimobiledevice xatosi (%d)"
 
 #: daemon/gvfsbackendafc.c:394
 msgid "Try again"
-msgstr ""
+msgstr "Qayta urinib ko'ring"
 
 #: daemon/gvfsbackendafc.c:394 daemon/gvfsbackend.c:1025
 #: monitor/udisks2/gvfsudisks2mount.c:750
 msgid "Cancel"
-msgstr ""
+msgstr "Bekor qilish"
 
 #: daemon/gvfsbackendafc.c:411 daemon/gvfsbackendafc.c:442
 msgid "Invalid AFC location: must be in the form of afc://uuid:port-number"
-msgstr ""
+msgstr "AFC joylashuvi noto‘g‘ri: afc://uuid:port-number shaklida bo‘lishi kerak"
 
 #: daemon/gvfsbackendafc.c:428
 #, c-format
 msgid "Apple Mobile Device"
-msgstr ""
+msgstr "Apple mobil qurilmasi"
 
 #: daemon/gvfsbackendafc.c:433
 #, c-format
 msgid "Apple Mobile Device, Jailbroken"
-msgstr ""
+msgstr "Apple mobil qurilmasi, Jailbroken"
 
 #: daemon/gvfsbackendafc.c:438
 #, c-format
 msgid "Documents on Apple Mobile Device"
-msgstr ""
+msgstr "Apple mobil qurilmasidagi hujjatlar"
 
 #. translators:
 #. * This is the device name, with the service being browsed in brackets, eg.:
@@ -721,7 +723,7 @@ msgstr ""
 #: daemon/gvfsbackendafc.c:496
 #, c-format
 msgid "%s (jailbreak)"
-msgstr ""
+msgstr "%s (jailbreak)"
 
 #. translators:
 #. * This is "Documents on foo" where foo is the device name, eg.:
@@ -729,7 +731,7 @@ msgstr ""
 #: daemon/gvfsbackendafc.c:503 monitor/afc/afcvolume.c:176
 #, c-format
 msgid "Documents on %s"
-msgstr ""
+msgstr "Hujjatlar %s"
 
 #. translators:
 #. * %s is the device name. 'Try again' is the caption of the button
@@ -742,6 +744,10 @@ msgid ""
 "\n"
 "Enter the passcode on the device and click “Try again”."
 msgstr ""
+"Qurilma qulflangan\n"
+"“%s” qurilmasi qulflangan.\n"
+"\n"
+"Qurilmadagi parolni kiriting va ”Qayta urinib ko'ring” tugmasini bosing."
 
 #. translators:
 #. * %s is the device name. 'Try again' is the caption of the button
@@ -755,6 +761,10 @@ msgid ""
 "\n"
 "Select “Trust” on the device and click “Try again”."
 msgstr ""
+"Ishonchsiz qurilma\n"
+"“%s” qurilmasi hali ishonchli emas.\n"
+"\n"
+"Qurilmada ”Ishonch”  ni tanlang va ”Qayta urinish” tugmasini bosing."
 
 #: daemon/gvfsbackendafc.c:1053 daemon/gvfsbackendarchive.c:746
 #: daemon/gvfsbackendcomputer.c:657 daemon/gvfsbackendgoogle.c:3577
@@ -762,19 +772,19 @@ msgstr ""
 #: daemon/gvfsbackendnfs.c:356 daemon/gvfsbackendrecent.c:126
 #: daemon/gvfsbackendsmb.c:672 daemon/gvfsbackendtrash.c:234
 msgid "Can’t open directory"
-msgstr ""
+msgstr "Katalogni ochib bo'lmadi"
 
 #: daemon/gvfsbackendafc.c:1273 daemon/gvfsbackendafc.c:2528
 #: daemon/gvfsbackendafp.c:1270 daemon/gvfsbackendafp.c:1359
 #: daemon/gvfsbackenddav.c:3659 daemon/gvfsbackendftp.c:1461
 #: daemon/gvfsbackendsftp.c:3722 daemon/gvfsbackendsftp.c:4009
 msgid "Backups not supported"
-msgstr ""
+msgstr "Zaxira nusxalari qo'llab-quvvatlanmaydi"
 
 #: daemon/gvfsbackendafc.c:1435 daemon/gvfsbackendsmb.c:725
 #: daemon/gvfsbackendsmb.c:1204
 msgid "Unsupported seek type"
-msgstr ""
+msgstr "Qo'llab-quvvatlanmaydigan qidiruv turi"
 
 #: daemon/gvfsbackendafpbrowse.c:208 daemon/gvfsbackendcomputer.c:958
 #: daemon/gvfsbackendcomputer.c:1053 daemon/gvfsbackendcomputer.c:1159
@@ -782,7 +792,7 @@ msgstr ""
 #: daemon/gvfsbackendcomputer.c:1391 daemon/gvfsbackendsmbbrowse.c:1120
 #: daemon/gvfsbackendsmbbrowse.c:1166
 msgid "Not a mountable file"
-msgstr ""
+msgstr "Oʻrnatish mumkin boʻlmagan fayl"
 
 #. Translators: first %s is username and second serververname
 #. Translators: first %s is volumename and second servername
@@ -801,30 +811,30 @@ msgstr ""
 #: daemon/gvfsbackendsmb.c:1376
 #, c-format
 msgid "%s on %s"
-msgstr ""
+msgstr "%s on %s"
 
 #. Translators: %s is the servername
 #: daemon/gvfsbackendafpbrowse.c:450
 #, c-format
 msgid "%s"
-msgstr ""
+msgstr "%s"
 
 #: daemon/gvfsbackendafpbrowse.c:483 daemon/gvfsbackendafp.c:2140
 #: daemon/gvfsbackendarchive.c:628 daemon/gvfsbackendftp.c:723
 #: daemon/gvfsbackendnfs.c:197 daemon/gvfsbackendsftp.c:2122
 msgid "No hostname specified"
-msgstr ""
+msgstr "Xost nomi belgilanmagan"
 
 #: daemon/gvfsbackendafpbrowse.c:568 daemon/gvfsbackendafp.c:2235
 msgid "Apple Filing Protocol Service"
-msgstr ""
+msgstr "Apple Filing Protocoli xizmati"
 
 #: daemon/gvfsbackendafp.c:286 daemon/gvfsbackendburn.c:877
 #: daemon/gvfsbackenddav.c:3747 daemon/gvfsbackendftp.c:1568
 #: daemon/gvfsbackendgoogle.c:1752 daemon/gvfsbackendgoogle.c:2095
 #: daemon/gvfsbackendgoogle.c:3141
 msgid "Can’t copy directory over directory"
-msgstr ""
+msgstr "Katalogdan katalogdan nusxa olib bo‘lmaydi"
 
 #: daemon/gvfsbackendafp.c:305 daemon/gvfsbackendburn.c:893
 #: daemon/gvfsbackenddav.c:3782 daemon/gvfsbackendftp.c:1591
@@ -832,46 +842,46 @@ msgstr ""
 #: daemon/gvfsbackendgoogle.c:3216 daemon/gvfsbackendmtp.c:1641
 #: daemon/gvfsbackendmtp.c:1656
 msgid "Can’t recursively copy directory"
-msgstr ""
+msgstr "Katalogdan rekursiv nusxa ko'chirish mumkin emas"
 
 #: daemon/gvfsbackendafp.c:489 daemon/gvfsbackenddav.c:3560
 #: daemon/gvfsbackendgoogle.c:2209 daemon/gvfsbackendnfs.c:2474
 #: daemon/gvfsbackendsftp.c:5015 daemon/gvfsbackendsmb.c:2086
 msgid "Can’t move directory over directory"
-msgstr ""
+msgstr "Katalogni katalog ustiga ko‘chirib bo‘lmaydi"
 
 #: daemon/gvfsbackendafp.c:1284
 #, c-format
 msgid "Unable to create temporary file (%s)"
-msgstr ""
+msgstr "Vaqtinchalik fayl yaratib boʻlmadi (%s)"
 
 #: daemon/gvfsbackendafp.c:1348 daemon/gvfsbackenddav.c:2975
 #: daemon/gvfsbackendnfs.c:1177 daemon/gvfsbackendsftp.c:3963
 #: daemon/gvfsbackendsmb.c:1077
 msgid "The file was externally modified"
-msgstr ""
+msgstr "Fayl tashqaridan o'zgartirildi"
 
 #: daemon/gvfsbackendafp.c:1765 daemon/gvfsbackendftp.c:1250
 #: daemon/gvfsbackendsftp.c:5479
 msgid "Invalid attribute type (uint32 expected)"
-msgstr ""
+msgstr "Atribut turi yaroqsiz (uint32 kutilmoqda)"
 
 #. Translators: first %s is volumename, second username and third servername
 #: daemon/gvfsbackendafp.c:2100
 #, c-format
 msgid "%s for %s on %s"
-msgstr ""
+msgstr "%s uchun %s uchun %s"
 
 #: daemon/gvfsbackendafp.c:2149
 msgid "No volume specified"
-msgstr ""
+msgstr "Hajmi belgilanmagan"
 
 #. Translators: This is the name of the root in a mounted archive file,
 #. e.g. "/ in archive.tar.gz" for a file with the name "archive.tar.gz"
 #: daemon/gvfsbackendarchive.c:350
 #, c-format
 msgid "/ in %s"
-msgstr ""
+msgstr "/ %s ichida"
 
 #: daemon/gvfsbackendarchive.c:883 daemon/gvfsbackendburn.c:681
 #: daemon/gvfsbackendcomputer.c:729 daemon/gvfsbackenddnssd.c:474
@@ -881,16 +891,16 @@ msgstr ""
 #: daemon/gvfsftpdircache.c:157
 #, c-format
 msgid "The file is not a directory"
-msgstr ""
+msgstr "Fayl katalog emas"
 
 #. Translators: This is the name of the backend
 #: daemon/gvfsbackendburn.c:346
 msgid "Burn"
-msgstr ""
+msgstr "Kuyish"
 
 #: daemon/gvfsbackendburn.c:372
 msgid "Unable to create temporary directory"
-msgstr ""
+msgstr "Vaqtinchalik katalog yaratib bo‘lmadi"
 
 #: daemon/gvfsbackendburn.c:401 daemon/gvfsbackendburn.c:412
 #: daemon/gvfsbackendburn.c:447 daemon/gvfsbackendburn.c:673
@@ -905,89 +915,91 @@ msgstr ""
 #: daemon/gvfsbackendsftp.c:3410 daemon/gvfsbackendtrash.c:218
 #, c-format
 msgid "No such file or directory"
-msgstr ""
+msgstr "Bunday Fayl yoki katalog mavjud emas"
 
 #: daemon/gvfsbackendburn.c:455 daemon/gvfsbackendburn.c:905
 #: daemon/gvfsbackendgoogle.c:1760 daemon/gvfsbackendgoogle.c:2103
 #: daemon/gvfsbackendgoogle.c:3149
 msgid "Can’t copy file over directory"
-msgstr ""
+msgstr "Faylni katalogga nusxalash mumkin emas"
 
 #. Translators: this is the display name of the backend
 #: daemon/gvfsbackendburn.c:652
 msgid "CD/DVD Creator"
-msgstr ""
+msgstr "CD/DVD yaratuvchisi"
 
 #: daemon/gvfsbackendburn.c:754 daemon/gvfsbackendburn.c:790
 #: daemon/gvfsbackendburn.c:925 daemon/gvfsbackendburn.c:987
 #: daemon/gvfsbackendburn.c:991 daemon/gvfsbackendburn.c:1001
 #: daemon/gvfsbackendgphoto2.c:2662
 msgid "File exists"
-msgstr ""
+msgstr "Fayl mavjud"
 
 #: daemon/gvfsbackendburn.c:886 daemon/gvfsbackenddav.c:3599
 #: daemon/gvfsbackendsftp.c:2211 daemon/gvfsbackendsftp.c:5195
 msgid "Target file exists"
-msgstr ""
+msgstr "Maqsadli fayl mavjud"
 
 #: daemon/gvfsbackend.c:890 daemon/gvfsjobunmount.c:197
 #: daemon/gvfsjobunmount.c:264
 msgid "File system is busy"
-msgstr ""
+msgstr "Fayl tizimi band"
 
 #: daemon/gvfsbackend.c:1024 monitor/udisks2/gvfsudisks2mount.c:748
 msgid "Unmount Anyway"
-msgstr ""
+msgstr "Baribir oʻchirish"
 
 #: daemon/gvfsbackend.c:1027 monitor/udisks2/gvfsudisks2mount.c:751
 msgid ""
 "Volume is busy\n"
 "One or more applications are keeping the volume busy."
 msgstr ""
+"Hajmi band\n"
+"Bir yoki bir nechta dastur hajmini band qilmoqda."
 
 #: daemon/gvfsbackendcdda.c:290 daemon/gvfsbackendgphoto2.c:1289
 #: daemon/gvfsbackendmtp.c:912
 msgid "Cannot create gudev client"
-msgstr ""
+msgstr "gudev mijozini yaratib bo'lmadi"
 
 #: daemon/gvfsbackendcdda.c:304 daemon/gvfsbackendcdda.c:385
 msgid "No drive specified"
-msgstr ""
+msgstr "Hech qanday drive belgilanmagan"
 
 #: daemon/gvfsbackendcdda.c:323
 #, c-format
 msgid "Cannot find drive %s"
-msgstr ""
+msgstr "%s diskini topib bo‘lmadi"
 
 #: daemon/gvfsbackendcdda.c:336
 #, c-format
 msgid "Drive %s does not contain audio files"
-msgstr ""
+msgstr "%s diskida audio fayllar mavjud emas"
 
 #. Translator: %s is the device the disc is inserted into. 'cdda' is the name
 #. name of the backend and shouldn't be translated.
 #: daemon/gvfsbackendcdda.c:346
 #, c-format
 msgid "cdda mount on %s"
-msgstr ""
+msgstr "%s da cdda oʻrnatish"
 
 #: daemon/gvfsbackendcdda.c:347 daemon/gvfsbackendcdda.c:872
 #: monitor/udisks2/gvfsudisks2volume.c:392
 #, c-format
 msgid "Audio Disc"
-msgstr ""
+msgstr "Audio disk"
 
 #: daemon/gvfsbackendcdda.c:411
 #, c-format
 msgid "File system is busy: %d open file"
 msgid_plural "File system is busy: %d open files"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "Fayl tizimi band: %d fayl ochiq"
+msgstr[1] "Fayl tizimi band: %d fayllar ochiq"
 
 #: daemon/gvfsbackendcdda.c:607
 #, c-format
 msgid "No such file %s on drive %s"
-msgstr ""
+msgstr "%s diskida bunday %s fayli yo‘q"
 
 #. Translators: paranoia is the name of the cd audio reading library
 #: daemon/gvfsbackendcdda.c:716
