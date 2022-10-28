@@ -260,85 +260,64 @@ msgstr "Xavfsizlik"
 
 #: ../properties/nm-libreswan-dialog.ui.h:24
 msgid "Phase1 Algorithms"
-msgstr ""
+msgstr "Birinchi bosqich algoritmlari"
 
 #: ../properties/nm-libreswan-dialog.ui.h:25
-msgid ""
-"IKE encryption/authentication algorithm to be used for the connection (phase "
-"1 aka ISAKMP SA). The format is “cipher-hash;modpgroup, cipher-hash;"
-"modpgroup, …”.\n"
-"config: ike <proposals>"
-msgstr ""
+msgid "IKE encryption/authentication algorithm to be used for the connection (phase 1 aka ISAKMP SA). The format is “cipher-hash;modpgroup, cipher-hash; modpgroup, …”.\n config: ike <proposals>"
+msgstr "Ulanish uchun ishlatiladigan IKE shifrlash/autentifikatsiya algoritmi (Birinchi bosqich ISAKMP SA). Formati “cipher-hash; modpgroup, cipher-hash; modpgroup, …”.\n konfiguratsiya: ike <takliflar>"
 
 #: ../properties/nm-libreswan-dialog.ui.h:27
 msgid "Phase2 Algorithms"
-msgstr ""
+msgstr "Ikkinchi bosqich algoritmlari"
 
 #: ../properties/nm-libreswan-dialog.ui.h:28
-msgid ""
-"Specifies the algorithms that will be offered/accepted for a phase2 "
-"negotiation. The format is “cipher-hash;modpgroup, cipher-hash;modpgroup, "
-"…”.\n"
-"config: esp <proposals>"
-msgstr ""
+msgid "Specifies the algorithms that will be offered/accepted for a phase2 negotiation. The format is “cipher-hash;modpgroup, cipher-hash;modpgroup, …”.\n config: esp <proposals>"
+msgstr "Ikkinchi bosqich muhokamalari uchun taklif qilinadigan/qabul qilinadigan algoritmlarni belgilaydi. Format: “cipher-hash;modpgroup, cipher-hash;modpgroup,…”.\n konfiguratsiya: esp <takliflar>"
 
 #: ../properties/nm-libreswan-dialog.ui.h:30
 msgid "Phase1 Lifetime"
-msgstr ""
+msgstr "Birinchi bosqich davomiyligi"
 
 #: ../properties/nm-libreswan-dialog.ui.h:31
-msgid ""
-"How long the keying channel of a connection should last before being "
-"renegotiated. The value is expressed by a number followed by an optional "
-"“s”(econds), “m”(inutes), “h”(ours) or “d”(ays).\n"
-"config: ikelifetime <lifetime>"
-msgstr ""
+msgid "How long the keying channel of a connection should last before being renegotiated. The value is expressed by a number followed by an optional “s”(econds), “m”(inutes), “h”(ours) or “d”(ays).\n config: ikelifetime <lifetime>"
+msgstr "Qayta muhokamadan oldin ulanishning kalit kanali qancha davom etishi kerak. Qiymat raqamdan keyin ixtiyoriy “s”(soniya), “m”(inutes), “h”(bizniki) yoki “d”(ays) bilan ifodalanadi.\n konfiguratsiya: ikelifetime <lifetime>"
 
 #: ../properties/nm-libreswan-dialog.ui.h:33
 msgid "Phase2 Lifetime"
-msgstr ""
+msgstr "Ikkinchi bosqich davomiyligi"
+
 
 #: ../properties/nm-libreswan-dialog.ui.h:34
-msgid ""
-"How long a particular instance of a connection (a set of encryption/"
-"authentication keys for user packets) should last, from successful "
-"negotiation to expiry. The value is expressed by a number followed by an "
-"optional “s”(econds), “m”(inutes), “h”(ours) or “d”(ays).\n"
-"config: salifetime <lifetime>"
-msgstr ""
+msgid "How long a particular instance of a connection (a set of encryption/authentication keys for user packets) should last, from successful negotiation to expiry. The value is expressed by a number followed by an optional “s”(econds), “m”(inutes), “h”(ours) or “d”(ays).\n config: salifetime <lifetime>"
+msgstr "Muvaffaqiyatli muhokamalardan tortib to amal qilish muddati tugagunga qadar ulanishning muayyan namunasi (foydalanuvchi paketlari uchun shifrlash/autentifikatsiya kalitlari to'plami) qancha davom etishi kerak. Qiymat raqamdan keyin ixtiyoriy “s”(sekundlar), “m”(inutes), “h”(bizniki) yoki “d”(ays) bilan ifodalanadi.\n konfiguratsiya: salifetime <lifetime>"
 
 #: ../properties/nm-libreswan-dialog.ui.h:36
 msgid "Disable rekeying"
-msgstr ""
+msgstr "Qayta ishlashni o'rgating"
 
 #: ../properties/nm-libreswan-dialog.ui.h:37
-msgid ""
-"Whether a connection should not be renegotiated when it is about to expire.\n"
-"config: rekey <no/yes>"
-msgstr ""
+msgid "Whether a connection should not be renegotiated when it is about to expire.\n config: rekey <no/yes>"
+msgstr "Ulanish muddati tugashi arafasida uni qayta muhokama qilmaslik kerakmi.\n Konfiguratsiya: <yo'q/ha> tugmasini qaytadan kiriting."
 
 #: ../properties/nm-libreswan-dialog.ui.h:39
 msgid "Disable PFS"
-msgstr ""
+msgstr "PFS'ni o'chirib qo'ying!"
 
 #: ../properties/nm-libreswan-dialog.ui.h:40
-msgid ""
-"Disable perfect forward security. Enable this option only if the server "
-"doesn’t support PFS.\n"
-"config: pfs <no/yes>"
-msgstr ""
+msgid "Disable perfect forward security. Enable this option only if the server doesn’t support PFS.\n config: pfs <no/yes>"
+msgstr "Mukammal oldinga siljish xavfsizligini(Perfect Forward Security) o'chiring. Agar server PFS-ni qo‘llab-quvvatlamasagina ushbu parametrni yoqing.\n konfiguratsiya: pfs <yo'q/ha>"
 
 #: ../properties/nm-libreswan-dialog.ui.h:42
 msgid "Connectivity"
-msgstr ""
+msgstr "Ulanish"
 
 #: ../properties/nm-libreswan-dialog.ui.h:43
 msgid "Remote Network"
-msgstr ""
+msgstr "Masofaviy tarmoq"
 
 #: ../properties/nm-libreswan-dialog.ui.h:44
 msgid "Private subnet behind the remote participant, expressed as network/netmask.\n config: rightsubnet <net>"
-msgstr ""
+msgstr "Masofaviy ishtirokchi ortidagi xususiy quyi tarmoq, tarmoq/tarmoq niqobi sifatida ifodalangan.\n konfiguratsiya: rightubnet <net>"
 
 #: ../properties/nm-libreswan-dialog.ui.h:46
 msgid "Enable fragmentation"
