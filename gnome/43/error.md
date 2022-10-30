@@ -5,6 +5,6 @@ Xatolik qayerdan kelgani va kim tomonidan topilgani xaqida xam yozib qoldirilsin
 
 Trajima qilinmagan so'zlar va birikmalar
 
-Help viewer for GNOME  kutilmoqda javobi yelp.master.uz.po
+`Help viewer for GNOME`    javobi  kutilmoqda  `yelp.master.uz.po`  `Ismoilovdev`
 
 
