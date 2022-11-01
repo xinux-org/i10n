@@ -1443,79 +1443,87 @@ msgstr ""
 
 #: schemas/org.gnome.desktop.lockdown.gschema.xml.in:39
 msgid "Disable user switching"
-msgstr ""
+msgstr "Foydalanuvchi almashinuvini o'chirib qo'ying"
 
 #: schemas/org.gnome.desktop.lockdown.gschema.xml.in:40
 msgid ""
 "Prevent the user from switching to another account while his session is "
 "active."
 msgstr ""
+"Foydalanuvchining seans ishlayotgan vaqtda boshqa hisobga o'tishini oldini olish"
+"faol".
 
 #: schemas/org.gnome.desktop.lockdown.gschema.xml.in:47
 msgid "Disable lock screen"
-msgstr ""
+msgstr "Bloklash ekranini o'chiring"
 
 #: schemas/org.gnome.desktop.lockdown.gschema.xml.in:48
 msgid "Prevent the user to lock his screen."
-msgstr ""
+msgstr "Foydalanuvchining ekranini qulflashiga yo'l qo'ymaslik."
 
 #: schemas/org.gnome.desktop.lockdown.gschema.xml.in:54
 msgid "Disable URL and MIME type handlers"
-msgstr ""
+msgstr "URL va MIME tipidagi ishlov beruvchilarni o'chirib qo'ying"
 
 #: schemas/org.gnome.desktop.lockdown.gschema.xml.in:55
 msgid "Prevent running any URL or MIME type handler applications."
-msgstr ""
+msgstr "Har qanday URL yoki MIME tipidagi ishlov beruvchi ilovalarini ishga tushirishni oldini oling."
 
 #: schemas/org.gnome.desktop.lockdown.gschema.xml.in:61
 msgid "Disable log out"
-msgstr ""
+msgstr "Chiqishni o'chirish"
 
 #: schemas/org.gnome.desktop.lockdown.gschema.xml.in:62
 msgid "Prevent the user from logging out."
-msgstr ""
+msgstr "Foydalanuvchining tizimdan chiqishini oldini olish."
 
 #: schemas/org.gnome.desktop.lockdown.gschema.xml.in:68
 msgid "Disable user administration"
-msgstr ""
+msgstr "Foydalanuvchi boshqaruvini o'chirib qo'ying"
 
 #: schemas/org.gnome.desktop.lockdown.gschema.xml.in:69
 msgid ""
 "Stop the user from modifying user accounts. By default, we allow adding and "
 "removing users, as well as changing other users settings."
 msgstr ""
+"Foydalanuvchining foydalanuvchi hisoblarini o'zgartirishini to'xtating. Odatiy bo'lib, biz qo'shishga ruxsat beramiz va "
+"foydalanuvchilarni olib tashlash, shuningdek, boshqa foydalanuvchilar sozlamalarini o'zgartirish."
 
 #: schemas/org.gnome.desktop.lockdown.gschema.xml.in:76
 msgid "Mount removable storage devices as read-only"
-msgstr ""
+msgstr "Olinadigan xotira qurilmalarini faqat o'qish uchun o'rnating"
 
 #: schemas/org.gnome.desktop.lockdown.gschema.xml.in:77
 msgid ""
 "Prevent users from writing or modifying files on removable storage devices "
 "(i.e. flash disks, mobile phones, cameras)."
 msgstr ""
+"Foydalanuvchilarni olinadigan xotira qurilmalarida fayllarni yozish yoki o'zgartirishni oldini olish"
+"(masalan, flesh-disklar, mobil telefonlar, kameralar)."
 
 #: schemas/org.gnome.desktop.lockdown.gschema.xml.in:84
 msgid "Disable password showing"
-msgstr ""
+msgstr "Parolni ko'rsatishni o'chiring"
 
 #: schemas/org.gnome.desktop.lockdown.gschema.xml.in:85
 msgid "Disable the \"Show Password\" menu item in password entries."
-msgstr ""
+msgstr "Parol yozuvlarida \"Parolni ko'rsatish\" menyu bandini o'chirib qo'ying."
 
 #: schemas/org.gnome.desktop.media-handling.gschema.xml.in:6
 msgid "Whether to automatically mount media"
-msgstr ""
+msgstr "Media avtomatik ravishda o'rnatiladimi"
 
 #: schemas/org.gnome.desktop.media-handling.gschema.xml.in:7
 msgid ""
 "If set to true, then Nautilus will automatically mount media such as user-"
 "visible hard disks and removable media on start-up and media insertion."
 msgstr ""
+"Agar “true“ qiymati o'rnatilsa, Nautilus avtomatik ravishda foydalanuvchi kabi mediani o'rnatadi."
+"ko'rinadigan qattiq disklar va olinadigan muhitlar ishga tushirilganda va media qo'shiladi."
 
 #: schemas/org.gnome.desktop.media-handling.gschema.xml.in:11
 msgid "Whether to automatically open a folder for automounted media"
-msgstr ""
+msgstr "Avtomatik o'rnatilgan media uchun jildni avtomatik ravishda ochish kerakmi"
 
 #: schemas/org.gnome.desktop.media-handling.gschema.xml.in:12
 msgid ""
@@ -1524,21 +1532,28 @@ msgid ""
 "detected; for media where a known x-content type is detected, the user "
 "configurable action will be taken instead."
 msgstr ""
+"Agar “true“ ga o'rnatilgan bo'lsa, media yoqilganda Nautilus avtomatik ravishda jildni ochadi"
+"avtomatik o'rnatilgan. Bu faqat x-kontent/* turi ma'lum bo'lmagan media uchun amal qiladi"
+"aniqlandi; ma'lum x-kontent turi aniqlangan media uchun foydalanuvchi "
+"o'rniga sozlanishi mumkin bo'lgan harakat amalga oshiriladi."
 
 #: schemas/org.gnome.desktop.media-handling.gschema.xml.in:16
 msgid "Never prompt or autorun/autostart programs when media are inserted"
-msgstr ""
+msgstr "Media qo'yilganda hech qachon dasturlarni so'ramang yoki avtomatik ishga tushirmang/avtomatik ishga tushirmang"
 
 #: schemas/org.gnome.desktop.media-handling.gschema.xml.in:17
 msgid ""
 "If set to true, then Nautilus will never prompt nor autorun/autostart "
 "programs when a medium is inserted."
 msgstr ""
+"Agar “true“ ga o'rnatilgan bo'lsa, Nautilus hech qachon so'ramaydi va avtomatik ishga tushirmaydi/avtomatik ishga tushirmaydi"
+"O'rta vosita kiritilganda dasturlar."
 
 #: schemas/org.gnome.desktop.media-handling.gschema.xml.in:21
 msgid ""
 "List of x-content/* types where the preferred application will be launched"
 msgstr ""
+"Afzal ilova ishga tushiriladigan x-content/* turlari ro'yxati"
 
 #: schemas/org.gnome.desktop.media-handling.gschema.xml.in:22
 msgid ""
@@ -1546,10 +1561,13 @@ msgid ""
 "application in the preference capplet. The preferred application for the "
 "given type will be started on insertion on media matching these types."
 msgstr ""
+"Foydalanuvchi boshlash uchun tanlagan x-content/* turlari ro'yxati"
+"afzal kappletdagi ilova. uchun afzal qilingan ilova."
+"Belgilangan tur ushbu turlarga mos keladigan mediaga o'rnatilganda boshlanadi."
 
 #: schemas/org.gnome.desktop.media-handling.gschema.xml.in:26
 msgid "List of x-content/* types set to “Do Nothing”"
-msgstr ""
+msgstr "X-content/* turlari roʻyxati “Hech narsa qilmaslik”ga oʻrnatilgan"
 
 #: schemas/org.gnome.desktop.media-handling.gschema.xml.in:27
 msgid ""
@@ -1557,10 +1575,13 @@ msgid ""
 "preference capplet. No prompt will be shown nor will any matching "
 "application be started on insertion of media matching these types."
 msgstr ""
+"Foydalanuvchi ”Hech narsa qilmaslik” ni tanlagan x-content/* turlari ro'yxati"
+"afzal capplet. Hech qanday so'rov ko'rsatilmaydi va mos kelmaydigan "
+"Ushbu turlarga mos keladigan ommaviy axborot vositalarini kiritish bo'yicha dastur boshlanadi."
 
 #: schemas/org.gnome.desktop.media-handling.gschema.xml.in:31
 msgid "List of x-content/* types set to “Open Folder”"
-msgstr ""
+msgstr "X-content/* turlari roʻyxati “Ochiq jild"
 
 #: schemas/org.gnome.desktop.media-handling.gschema.xml.in:32
 msgid ""
@@ -1568,6 +1589,9 @@ msgid ""
 "the preferences capplet. A folder window will be opened on insertion of "
 "media matching these types."
 msgstr ""
+"Foydalanuvchi “Jildni ochish“ ni tanlagan x-content/* turlari ro'yxati"
+"Sozlamalar kappleti. Qo'shilganda papka oynasi ochiladi "
+"ushbu turlarga mos keladigan ommaviy axborot vositalari."
 
 #: schemas/org.gnome.desktop.notifications.gschema.xml.in:6
 #: schemas/org.gnome.desktop.notifications.gschema.xml.in:55
