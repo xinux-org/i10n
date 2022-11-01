@@ -5,5 +5,5 @@ Xatolik qayerdan kelgani va kim tomonidan topilgani xaqida xam yozib qoldirilsin
 
 Trajima qilinmagan so'zlar va birikmalar
 
-`Help viewer for GNOME`    javobi  kutilmoqda  `yelp.master.uz.po`  `Ismoilovdev`
-`Whether menus should have a tearoff.` javobi  kutilmoqda `gsettings-desktop-schemas.master.pot` 983 qtor `Ismoilovdev`
+`Help viewer for GNOME`    javobi  kutilmoqda  `yelp.master.uz.po`  `Ismoilovdev` <br>
+`Whether menus should have a tearoff.` javobi  kutilmoqda `gsettings-desktop-schemas.master.pot` 983 qator `Ismoilovdev`
