@@ -9,3 +9,5 @@ Trajima qilinmagan so'zlar va birikmalar
 `Whether menus should have a tearoff.` javobi  kutilmoqda `gsettings-desktop-schemas.master.pot` 983 -qator `Ismoilovdev`<br>
 `Enable hot corners` javobi  kutilmoqda `gsettings-desktop-schemas.master.pot` 1269 - qator `Ismoilovdev` <br>
 `Highlights the current location of the pointer.` javobi  kutilmoqda `gsettings-desktop-schemas.master.pot` 1317-qator `Ismoilovdev`<br>
+
+`Whether notification banners for this application are shown or not. Does not affect clicking on message tray buttons.`  javobi  kutilmoqda `gsettings-desktop-schemas.master.pot` 1639-qator `Ismoilovdev`<br>
