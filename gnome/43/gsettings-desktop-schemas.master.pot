@@ -1795,6 +1795,11 @@ msgid ""
 msgstr ""
 "Ulangan sensorli panellar uchun akselerator profili ishlatiladi. Akselerator profili"
 "standart bo'yicha (”standart”) o'rnatilishi mumkin, bu standart akseleratordan foydalanadi"
+"har bir qurilma uchun profil, yassi (”tekis”), qurilma tomonidan akseleratsiya qilinadi "
+"sozlangan ko'rsatkich tezligidan olingan o'ziga xos doimiy omil yoki"
+"moslashuvchan (moslashuvchi) sichqonchaga qarab tezlashuvni moslashtiradi"
+"harakat. Agar sensorli panel sozlangan profilni qo'llab-quvvatlamasa, ”standart” "
+"ishlatiladi."
 
 #: schemas/org.gnome.desktop.peripherals.gschema.xml.in:65
 #: schemas/org.gnome.desktop.peripherals.gschema.xml.in:120
@@ -1859,55 +1864,59 @@ msgstr "Klaviatura takrorini yoqish uchun buni TRUE qilib belgilang."
 
 #: schemas/org.gnome.desktop.peripherals.gschema.xml.in:93
 msgid "Key Repeat Interval"
-msgstr ""
+msgstr "Tugmani takrorlash oralig'i"
 
 #: schemas/org.gnome.desktop.peripherals.gschema.xml.in:94
 msgid "Delay between repeats in milliseconds."
-msgstr ""
+msgstr "Takrorlashlar orasidagi kechikish millisekundlarda."
 
 #: schemas/org.gnome.desktop.peripherals.gschema.xml.in:98
 msgid "Initial Key Repeat Delay"
-msgstr ""
+msgstr "Boshlang'ich tugmani takrorlash kechikishi"
 
 #: schemas/org.gnome.desktop.peripherals.gschema.xml.in:99
 msgid "Initial key repeat delay in milliseconds."
-msgstr ""
+msgstr "Boshlang'ich tugmachani millisekundlarda takrorlash kechikishi."
 
 #: schemas/org.gnome.desktop.peripherals.gschema.xml.in:103
 msgid "Remember NumLock state"
-msgstr ""
+msgstr "NumLock holatini eslab qolish"
 
 #: schemas/org.gnome.desktop.peripherals.gschema.xml.in:104
 msgid ""
 "When set to true, GNOME will remember the state of the NumLock LED between "
 "sessions."
 msgstr ""
+"Rost ga o'rnatilganda, GNOME NumLock LED holatini eslab qoladi."
+"sessiyalar".
 
 #: schemas/org.gnome.desktop.peripherals.gschema.xml.in:108
 msgid "NumLock state"
-msgstr ""
+msgstr "NumLock holati"
 
 #: schemas/org.gnome.desktop.peripherals.gschema.xml.in:109
 msgid "The remembered state of the NumLock LED."
-msgstr ""
+msgstr "NumLock LED ning eslab qolgan holati."
 
 #: schemas/org.gnome.desktop.peripherals.gschema.xml.in:115
 msgid "Mouse button orientation"
-msgstr ""
+msgstr "Sichqoncha tugmasi yo'nalishi"
 
 #: schemas/org.gnome.desktop.peripherals.gschema.xml.in:116
 msgid "Swap left and right mouse buttons for left-handed mice."
-msgstr ""
+msgstr "Sichqonchaning chap va o'ng tugmalarini chap qo'l sichqonchalari bilan almashtiring."
 
 #: schemas/org.gnome.desktop.peripherals.gschema.xml.in:121
 msgid ""
 "Pointer speed for mice. Accepted values are in the [-1..1] range (from "
 "“unaccelerated” to “fast”). A value of 0 is the system default."
 msgstr ""
+"Sichqonlar uchun ko'rsatkich tezligi. Qabul qilingan qiymatlar [-1..1] oralig'ida (dan "
+"”Tezlashtirilmagan” dan ”tez”  ga). 0 qiymati tizimning standart bo'yicha hisoblanadi."
 
 #: schemas/org.gnome.desktop.peripherals.gschema.xml.in:127
 msgid "Set this to TRUE to enable natural (reverse) scrolling for mice."
-msgstr ""
+msgstr "Sichqoncha uchun tabiiy (teskari) aylantirishni yoqish uchun buni TRUE qilib belgilang."
 
 #: schemas/org.gnome.desktop.peripherals.gschema.xml.in:132
 msgid ""
@@ -1919,26 +1928,27 @@ msgid ""
 "movement. If a mouse doesn’t support the configured profile, “default” will "
 "be used."
 msgstr ""
+"Ulangan sichqonlar uchun akselerator profili ishlatiladi. Akselerator profili"
 
 #: schemas/org.gnome.desktop.peripherals.gschema.xml.in:141
 msgid "Double click time"
-msgstr ""
+msgstr "Ikki marta bosish vaqti"
 
 #: schemas/org.gnome.desktop.peripherals.gschema.xml.in:142
 msgid "Length of a double click in milliseconds."
-msgstr ""
+msgstr "Ikki marta bosish uzunligi millisekundlarda."
 
 #: schemas/org.gnome.desktop.peripherals.gschema.xml.in:146
 msgid "Drag threshold"
-msgstr ""
+msgstr "Chegarani belgilang"
 
 #: schemas/org.gnome.desktop.peripherals.gschema.xml.in:147
 msgid "Distance before a drag is started."
-msgstr ""
+msgstr "Surish boshlanishidan oldingi masofa."
 
 #: schemas/org.gnome.desktop.peripherals.gschema.xml.in:153
 msgid "Drawing tablet mapping"
-msgstr ""
+msgstr "Planshet xaritasini chizish"
 
 #: schemas/org.gnome.desktop.peripherals.gschema.xml.in:154
 msgid ""
@@ -1946,69 +1956,79 @@ msgid ""
 "format [vendor, product, serial]. [\"\",\"\",\"\"] relies on automatic "
 "mapping."
 msgstr ""
+"Planshet ko'rsatilgan chiqishning EDID ma'lumoti. "
+"format [vendor, mahsulot, seriya]. [\"\",\"\",\"\"] avtomatik ga asoslangan."
+"xaritalash".
 
 #: schemas/org.gnome.desktop.peripherals.gschema.xml.in:158
 msgid "Tablet mapping"
-msgstr ""
+msgstr "Planshet xaritalash"
 
 #: schemas/org.gnome.desktop.peripherals.gschema.xml.in:159
 msgid "How input affects the pointer on the screen"
-msgstr ""
+msgstr "Kirish ekrandagi ko'rsatgichga qanday ta'sir qiladi"
 
 #: schemas/org.gnome.desktop.peripherals.gschema.xml.in:163
 msgid "Tablet area"
-msgstr ""
+msgstr "Planshet maydoni"
 
 #: schemas/org.gnome.desktop.peripherals.gschema.xml.in:164
 msgid ""
 "Dead area padding around the active area, in percentages. Respectively "
 "applied to left,right,top and bottom sides."
 msgstr ""
+"Faol hudud atrofida ishlatilmaydigan maydon to'plami, foizlarda. Mos ravishda "
+"chap, o'ng, yuqori va pastki tomonlarga qo'llaniladi."
 
 #: schemas/org.gnome.desktop.peripherals.gschema.xml.in:168
 msgid "Tablet aspect ratio"
-msgstr ""
+msgstr "Planshet tomonlar nisbati"
 
 #: schemas/org.gnome.desktop.peripherals.gschema.xml.in:169
 msgid ""
 "Enable this to restrict the tablet area to match the aspect ratio of the "
 "output."
 msgstr ""
+"Planshet maydonini tomonlar nisbatiga mos keladigan tarzda cheklash uchun buni yoqing"
+"chiqish."
 
 #: schemas/org.gnome.desktop.peripherals.gschema.xml.in:173
 msgid "Tablet left-handed mode"
-msgstr ""
+msgstr "Planshetning chap qo'l rejimi"
 
 #: schemas/org.gnome.desktop.peripherals.gschema.xml.in:174
 msgid ""
 "Enable this to allow physically rotating the tablet for left-handed setups"
 msgstr ""
+"Chap qo'lda sozlash uchun planshetni jismoniy aylantirishga ruxsat berish uchun buni yoqing"
 
 #: schemas/org.gnome.desktop.peripherals.gschema.xml.in:180
 msgid "Stylus pressure curve"
-msgstr ""
+msgstr "Stylus bosimi egri chizig'i"
 
 #: schemas/org.gnome.desktop.peripherals.gschema.xml.in:181
 msgid ""
 "Set this to x1, y1 and x2, y2 of the pressure curve applied to the stylus."
 msgstr ""
+"Buni stilusga qo'llaniladigan bosim egri chizig'ining x1, y1 va x2, y2 ga o'rnating."
 
 #: schemas/org.gnome.desktop.peripherals.gschema.xml.in:185
 msgid "Eraser pressure curve"
-msgstr ""
+msgstr "O'chirg'ich bosimi egri chizig'i"
 
 #: schemas/org.gnome.desktop.peripherals.gschema.xml.in:186
 msgid ""
 "Set this to x1, y1 and x2, y2 of the pressure curve applied to the eraser."
 msgstr ""
+"Buni o'chirg'ichga qo'llaniladigan bosim egri chizig'ining x1, y1 va x2, y2 ga o'rnating."
 
 #: schemas/org.gnome.desktop.peripherals.gschema.xml.in:190
 msgid "Button action"
-msgstr ""
+msgstr "Button action"
 
 #: schemas/org.gnome.desktop.peripherals.gschema.xml.in:191
 msgid "Stylus button action, this button is located along the pen handle."
-msgstr ""
+msgstr "Stylus tugmasi harakati, bu tugma qalam tutqichi bo'ylab joylashgan."
 
 #: schemas/org.gnome.desktop.peripherals.gschema.xml.in:195
 msgid "Secondary button action"
