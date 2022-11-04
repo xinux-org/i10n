@@ -2433,7 +2433,7 @@ msgid ""
 msgstr ""
 "Chiqishdan oldin ekran pardasi faollashtirilgandan keyingi soniyalar soni"
 "opsiya qulfni ochish dialog oynasida paydo bo'ladi. Bu kalit faqat "
-"“logout_enable” tugmasi ROST ga oʻrnatildi. YETKAZILGAN: Bu kalit eskirgan va "
+"“logout_enable” tugmasi ROST ga oʻrnatildi. QO'SHILGAN: Bu kalit eskirgan va "
 "e'tiborsiz"
 
 #: schemas/org.gnome.desktop.screensaver.gschema.xml.in:67
@@ -2466,17 +2466,19 @@ msgstr ""
 
 #: schemas/org.gnome.desktop.screensaver.gschema.xml.in:81
 msgid "Allow the session status message to be displayed"
-msgstr ""
+msgstr "Seans holati haqidagi xabarni ko'rsatishga ruxsat bering"
 
 #: schemas/org.gnome.desktop.screensaver.gschema.xml.in:82
 msgid ""
 "Allow the session status message to be displayed when the screen is locked. "
 "DEPRECATED: This key is deprecated and ignored."
 msgstr ""
+"Ekran qulflanganda seans holati xabarini ko'rsatishga ruxsat bering."
+"QO'SHILGAN: Bu kalit eskirgan va e'tiborga olinmagan."
 
 #: schemas/org.gnome.desktop.search-providers.gschema.xml.in:7
 msgid "Disable all external search providers"
-msgstr ""
+msgstr "Barcha tashqi qidiruv provayderlarini o'chirib qo'ying"
 
 #: schemas/org.gnome.desktop.search-providers.gschema.xml.in:8
 msgid ""
@@ -2484,34 +2486,45 @@ msgid ""
 "they are independently disabled or enabled. External search providers are "
 "installed by applications in $XDG_DATA_DIR/gnome-shell/search-providers."
 msgstr ""
+"Barcha tashqi qidiruv provayder dasturlarini o'chirish uchun rost qiymatini o'rnating."
+"Ular mustaqil ravishda o'chirilgan yoki yoqilgan. Tashqi qidiruv provayderlari "
+"$XDG_DATA_DIR/gnome-shell/search-provayderlardagi ilovalar tomonidan o'rnatilgan."
 
 #: schemas/org.gnome.desktop.search-providers.gschema.xml.in:18
 msgid ""
 "List of desktop file IDs for which the associated default-enabled search "
 "provider should be disabled"
 msgstr ""
+"Birgalikda qidiruv yoqilgan ish stoli fayl identifikatorlari ro'yxati"
+"provayder o'chirilgan bo'lishi kerak"
 
 #: schemas/org.gnome.desktop.search-providers.gschema.xml.in:22
 msgid ""
 "Results for applications contained in this list will not be displayed when "
 "searching."
 msgstr ""
+"Ushbu ro'yxatdagi ilovalar uchun natijalar qachon ko'rsatilmaydi"
+"qidirmoqda".
 
 #: schemas/org.gnome.desktop.search-providers.gschema.xml.in:30
 msgid ""
 "List of desktop file IDs for which the associated default-disabled search "
 "provider should be enabled"
 msgstr ""
+"Ish stoli fayli identifikatorlari ro'yxati, ular uchun standart bo'yicha o'chirilgan qidiruv"
+"provayder yoqilgan bo'lishi kerak"
 
 #: schemas/org.gnome.desktop.search-providers.gschema.xml.in:34
 msgid ""
 "Results for applications contained in this list will be displayed when "
 "searching."
 msgstr ""
+"Ushbu ro'yxatdagi ilovalar uchun natijalar qachon ko'rsatiladi"
+"qidirmoqda".
 
 #: schemas/org.gnome.desktop.search-providers.gschema.xml.in:42
 msgid "List of desktop file IDs for search providers sort order"
-msgstr ""
+msgstr "Qidiruv provayderlarining tartiblash tartibi uchun ish stoli fayl identifikatorlari ro'yxati"
 
 #: schemas/org.gnome.desktop.search-providers.gschema.xml.in:43
 msgid ""
@@ -2519,260 +2532,273 @@ msgid ""
 "specified order. Results for applications not specified in this list will be "
 "displayed last, sorted alphabetically."
 msgstr ""
+"Ushbu ro'yxatdagi ilovalar bo'yicha natijalar ko'rsatiladi."
+"belgilangan tartib. Ushbu ro'yxatda ko'rsatilmagan ilovalar uchun natijalar "
+"oxirgi ko'rsatilgan, alifbo tartibida tartiblangan."
 
 #: schemas/org.gnome.desktop.session.gschema.xml.in:6
 msgid "Time before session is considered idle"
-msgstr ""
+msgstr "Seansdan oldingi vaqt bo'sh hisoblanadi"
 
 #: schemas/org.gnome.desktop.session.gschema.xml.in:7
 msgid ""
 "The number of seconds of inactivity before the session is considered idle."
 msgstr ""
+"Seans oldidan harakatsizlik soniyalar soni bo'sh hisoblanadi."
 
 #: schemas/org.gnome.desktop.session.gschema.xml.in:11
 msgid "Session type"
-msgstr ""
+msgstr "Seans turi"
 
 #: schemas/org.gnome.desktop.session.gschema.xml.in:12
 msgid "The name of the session to use. Known value is “gnome”."
-msgstr ""
+msgstr "Foydalanish uchun sessiya nomi. Ma'lum qiymat “gnome”."
 
 #: schemas/org.gnome.desktop.sound.gschema.xml.in:6
 msgid "Sounds for events"
-msgstr ""
+msgstr "Voqealar uchun tovushlar"
 
 #: schemas/org.gnome.desktop.sound.gschema.xml.in:7
 msgid "Whether to play sounds on user events."
-msgstr ""
+msgstr "Foydalanuvchi hodisalarida tovushlarni o'ynatish kerakmi."
 
 #: schemas/org.gnome.desktop.sound.gschema.xml.in:11
 msgid "Sound theme name"
-msgstr ""
+msgstr "Sound theme name"
 
 #: schemas/org.gnome.desktop.sound.gschema.xml.in:12
 msgid "The XDG sound theme to use for event sounds."
-msgstr ""
+msgstr "Voqea tovushlari uchun foydalanish uchun XDG tovush mavzusi."
 
 #: schemas/org.gnome.desktop.sound.gschema.xml.in:16
 msgid "Input feedback sounds"
-msgstr ""
+msgstr "Kiritilgan fikr-mulohaza tovushlari"
 
 #: schemas/org.gnome.desktop.sound.gschema.xml.in:17
 msgid "Whether to play sounds on input events."
-msgstr ""
+msgstr "Kirish hodisalarida tovushlarni o'ynatish kerakmi."
 
 #: schemas/org.gnome.desktop.sound.gschema.xml.in:21
 msgid "Allow volume above 100%"
-msgstr ""
+msgstr "100% dan yuqori ovoz balandligiga ruxsat berish"
 
 #: schemas/org.gnome.desktop.sound.gschema.xml.in:22
 msgid "Whether volume can be set above 100%, using software amplification."
-msgstr ""
+msgstr "Dasturiy ta'minotni kuchaytirish yordamida ovoz balandligini 100% dan o'rnatish mumkinmi."
 
 #: schemas/org.gnome.desktop.thumbnail-cache.gschema.xml.in:6
 msgid ""
 "Maximum age for thumbnails in the cache, in days. Set to -1 to disable "
 "cleaning."
 msgstr ""
+"Keshdagi eskizlarning maksimal yoshi, kunlarda. O'chirish uchun -1 ga o'rnating "
+"tozalash."
 
 #: schemas/org.gnome.desktop.thumbnail-cache.gschema.xml.in:10
 msgid ""
 "Maximum size of the thumbnail cache, in megabytes. Set to -1 to disable "
 "cleaning."
 msgstr ""
+"Eskiz keshining maksimal hajmi, megabaytlarda. O'chirish uchun -1 ga o'rnating "
+"tozalash."
 
 #: schemas/org.gnome.desktop.thumbnailers.gschema.xml.in:6
 msgid "Disable all external thumbnailers"
-msgstr ""
+msgstr "Barcha tashqi eskizlarni o'chirib qo'ying"
 
 #: schemas/org.gnome.desktop.thumbnailers.gschema.xml.in:7
 msgid ""
 "Set to true to disable all external thumbnailer programs, independent on "
 "whether they are independently disabled/enabled."
 msgstr ""
+"Barcha tashqi eskiz dasturlarini oʻchirish uchun “rost” qiymatini oʻrnating."
+"Ular mustaqil ravishda o'chirilgan/yoqilgan."
 
 #: schemas/org.gnome.desktop.thumbnailers.gschema.xml.in:15
 msgid ""
 "List of mime-types for which external thumbnailer programs will be disabled"
 msgstr ""
+"Tashqi eskiz dasturlari o'chirib qo'yiladigan mim-turlar ro'yxati"
 
 #: schemas/org.gnome.desktop.thumbnailers.gschema.xml.in:19
 msgid ""
 "Thumbnails will not be created for files whose mime-type is contained in the "
 "list."
 msgstr ""
+"Mime-turi faylida mavjud bo'lgan fayllar uchun eskizlar yaratilmaydi."
+"ro'yxat."
 
 #: schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in:8
 msgid "Switch to workspace 1"
-msgstr ""
+msgstr "Ish maydoni 1 ga o'tish"
 
 #: schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in:12
 msgid "Switch to workspace 2"
-msgstr ""
+msgstr "Ish maydoni 2 ga o'tish"
 
 #: schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in:16
 msgid "Switch to workspace 3"
-msgstr ""
+msgstr "Ish maydoni 3 ga o'tish"
 
 #: schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in:20
 msgid "Switch to workspace 4"
-msgstr ""
+msgstr "Ish maydoni 4 ga o'tish"
 
 #: schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in:24
 msgid "Switch to workspace 5"
-msgstr ""
+msgstr "Ish maydoni 5 ga o'tish"
 
 #: schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in:28
 msgid "Switch to workspace 6"
-msgstr ""
+msgstr "Ish maydoni 6 ga o'tish"
 
 #: schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in:32
 msgid "Switch to workspace 7"
-msgstr ""
+msgstr "Ish maydoni 7 ga o'tish"
 
 #: schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in:36
 msgid "Switch to workspace 8"
-msgstr ""
+msgstr "Ish maydoni 8 ga o'tish"
 
 #: schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in:40
 msgid "Switch to workspace 9"
-msgstr ""
+msgstr "Ish maydoni 9 ga o'tish"
 
 #: schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in:44
 msgid "Switch to workspace 10"
-msgstr ""
+msgstr "Ish maydoni 10 ga o'tish"
 
 #: schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in:48
 msgid "Switch to workspace 11"
-msgstr ""
+msgstr "Ish maydoni 11 ga o'tish"
 
 #: schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in:52
 msgid "Switch to workspace 12"
-msgstr ""
+msgstr "Ish maydoni 12 ga o'tish"
 
 #: schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in:56
 msgid "Switch to workspace left"
-msgstr ""
+msgstr "Chapdagi ish maydoniga o'tish"
 
 #: schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in:60
 msgid "Switch to workspace right"
-msgstr ""
+msgstr "Ish maydoniga o'ng tomonga o'ting"
 
 #: schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in:64
 msgid "Switch to workspace above"
-msgstr ""
+msgstr "Yuqoridagi ish maydoniga o'ting"
 
 #: schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in:68
 msgid "Switch to workspace below"
-msgstr ""
+msgstr "Quyidagi ish maydoniga o'ting"
 
 #: schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in:72
 msgid "Switch to last workspace"
-msgstr ""
+msgstr "Oxirgi ish maydoniga o'tish"
 
 #: schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in:76
 msgid "Switch windows of an application"
-msgstr ""
+msgstr "Ilova oynalarini almashtirish"
 
 #: schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in:80
 msgid "Reverse switch windows of an application"
-msgstr ""
+msgstr "Ilova oynalarini teskari almashtirish"
 
 #: schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in:84
 msgid "Switch applications"
-msgstr ""
+msgstr "Ilovalarni almashtirish"
 
 #: schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in:88
 msgid "Reverse switch applications"
-msgstr ""
+msgstr "Teskari almashtirish ilovalari"
 
 #: schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in:92
 msgid "Switch windows"
-msgstr ""
+msgstr "Oynalarni almashtirish"
 
 #: schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in:96
 msgid "Reverse switch windows"
-msgstr ""
+msgstr "Teskari oynalarni almashtirish"
 
 #: schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in:100
 msgid "Switch system controls"
-msgstr ""
+msgstr "Tizim boshqaruvlarini almashtirish"
 
 #: schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in:104
 msgid "Reverse switch system controls"
-msgstr ""
+msgstr "Teskari o'tish tizimi boshqaruvlari"
 
 #: schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in:108
 msgid "Switch windows of an app directly"
-msgstr ""
+msgstr "Ilova oynalarini to'g'ridan-to'g'ri almashtiring"
 
 #: schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in:112
 msgid "Reverse switch windows of an app directly"
-msgstr ""
+msgstr "Ilova oynalarini to'g'ridan-to'g'ri teskari o'zgartirish"
 
 #: schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in:116
 msgid "Switch windows directly"
-msgstr ""
+msgstr "Oynalarni to'g'ridan-to'g'ri almashtiring"
 
 #: schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in:120
 msgid "Reverse switch windows directly"
-msgstr ""
+msgstr "To'g'ridan-to'g'ri oynalarni teskari o'zgartirish"
 
 #: schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in:124
 msgid "Switch system controls directly"
-msgstr ""
+msgstr "Tizim boshqaruvlarini to'g'ridan-to'g'ri almashtiring"
 
 #: schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in:128
 msgid "Reverse switch system controls directly"
-msgstr ""
+msgstr "Teskari o'tish tizimi to'g'ridan-to'g'ri boshqaradi"
 
 #: schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in:132
 msgid "Hide all normal windows"
-msgstr ""
+msgstr "Barcha oddiy oynalarni yashiring"
 
 #: schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in:136
 msgid "DEPRECATED: This key is deprecated and ignored."
-msgstr ""
+msgstr "QO'SHILGAN: Bu kalit eskirgan va e'tiborga olinmagan."
 
 #: schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in:140
 msgid "Show the run command prompt"
-msgstr ""
+msgstr "Ishga tushirish buyruq satrini ko'rsating"
 
 #: schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in:144
 msgid "Don’t use"
-msgstr ""
+msgstr "Foydalanmang"
 
 #: schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in:148
 msgid "Activate the window menu"
-msgstr ""
+msgstr "Activate the window menu"
 
 #: schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in:152
 msgid "Toggle fullscreen mode"
-msgstr ""
+msgstr "Toʻliq ekran rejimiga oʻtish"
 
 #: schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in:156
 msgid "Toggle maximization state"
-msgstr ""
+msgstr "Maksimallashtirish holatini almashtirish"
 
 #: schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in:160
 msgid "Toggle window always appearing on top"
-msgstr ""
+msgstr "O'chirish oynasi har doim tepada paydo bo'ladi"
 
 #: schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in:164
 msgid "Maximize window"
-msgstr ""
+msgstr "Oynani kattalashtirish"
 
 #: schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in:168
 msgid "Restore window"
-msgstr ""
+msgstr "Qayta tiklash oynasi"
 
 #: schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in:172
 msgid "Toggle shaded state"
-msgstr ""
+msgstr "Soyali holatni almashtirish"
 
 #: schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in:176
 msgid "Minimize window"
-msgstr ""
+msgstr "Oynani minimallashtirish"
 
 #: schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in:180
 msgid "Close window"
