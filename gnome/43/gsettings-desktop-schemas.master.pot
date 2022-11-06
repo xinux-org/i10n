@@ -3249,10 +3249,12 @@ msgid ""
 "Determines whether applications or the system can generate audible “beeps”; "
 "may be used in conjunction with “visual bell” to allow silent “beeps”."
 msgstr ""
+"Ilovalar yoki tizim ovozli ”signallar”ni ishlab chiqarishi mumkinligini aniqlaydi"
+"ovozsiz ”signallar”ga ruxsat berish uchun ”vizual ovoz” bilan birgalikda ishlatilishi mumkin"
 
 #: schemas/org.gnome.desktop.wm.preferences.gschema.xml.in:225
 msgid "Enable Visual Bell"
-msgstr ""
+msgstr "Vizual ovozni yoqing"
 
 #: schemas/org.gnome.desktop.wm.preferences.gschema.xml.in:226
 msgid ""
@@ -3260,10 +3262,13 @@ msgid ""
 "“bell” or “beep”; useful for the hard-of-hearing and for use in noisy "
 "environments."
 msgstr ""
+"Ilova yoki tizim ko'rsatuvini chiqarganda vizual ko'rsatkichni yoqadi"
+"”ovoz” yoki ”signallar”; eshitish qiyin bo'lganlar uchun va shovqinli joylarda foydalanish uchun foydali "
+"atrof-muhit".
 
 #: schemas/org.gnome.desktop.wm.preferences.gschema.xml.in:235
 msgid "Visual Bell Type"
-msgstr ""
+msgstr "Vizual ovoz turi"
 
 #: schemas/org.gnome.desktop.wm.preferences.gschema.xml.in:236
 msgid ""
@@ -3275,10 +3280,17 @@ msgid ""
 "unknown (as is usually the case for the default “system beep”), the "
 "currently focused window’s titlebar is flashed."
 msgstr ""
+"WMga tizim ovozi yoki ko'rgazmali ko'rsatkichni qanday amalga oshirish kerakligini aytadi."
+"Boshqa ilova ”ovoz” indikatori chalindi. Hozir ikkita "
+"to'liq qiymatlar, ”to'liq ekran chirog'i”, bu to'liq ekran oq-qora "
+"chiroq va ”ramka-chirog'i” ilovaning sarlavha panelini keltirib chiqaradi."
+"ovoz signalini miltillash uchun yubordi. Agar ovozni yuborgan dastur "
+"noma'lum (odatda standart ”tizim signali” uchun bo'lgani kabi), "
+"Hozirda yo'naltirilgan oynaning sarlavha paneli miltilladi."
 
 #: schemas/org.gnome.desktop.wm.preferences.gschema.xml.in:257
 msgid "Disable misfeatures that are required by old or broken applications"
-msgstr ""
+msgstr "Eski yoki buzilgan ilovalar tomonidan talab qilinadigan nosozliklarni o'chiring"
 
 #: schemas/org.gnome.desktop.wm.preferences.gschema.xml.in:260
 msgid ""
@@ -3287,10 +3299,14 @@ msgid ""
 "which gives a more consistent user interface, provided one does not need to "
 "run any misbehaving applications."
 msgstr ""
+"Ba'zi ilovalar spetsifikatsiyalarni e'tiborsiz qoldiradi, natijada oyna paydo bo'ladi"
+"menejerning noto'g'ri xususiyatlari. Bu parametr WMni qat'iy to'g'ri rejimga qo'yadi, "
+"bu foydalanuvchi interfeysini yanada barqaror qiladi, agar kerak bo'lmasa"
+"har qanday noto'g'ri ishlaydigan ilovalarni ishga tushiring."
 
 #: schemas/org.gnome.desktop.wm.preferences.gschema.xml.in:270
 msgid "The names of the workspaces"
-msgstr ""
+msgstr "Ish joylarining nomlari"
 
 #: schemas/org.gnome.desktop.wm.preferences.gschema.xml.in:271
 msgid ""
@@ -3299,28 +3315,34 @@ msgid ""
 "If the list is too short, or includes empty names, missing values will be "
 "replaced with the default (“Workspace N”)."
 msgstr ""
+"Ish joylariga tayinlanishi kerak bo'lgan nomlarni belgilaydi. Agar ro'yxat juda bo'lsa "
+"Joriy ish joylari soni uzoq davom etsa, ortiqcha nomlar e'tiborga olinmaydi."
+"Agar ro'yxat juda qisqa bo'lsa yoki bo'sh nomlarni o'z ichiga olsa, yetishmayotgan qiymatlar "
+"standart bilan almashtirildi (”Ish maydoni N”)."
 
 #: schemas/org.gnome.system.locale.gschema.xml.in:6
 msgid "The locale to use for dates / numbers formats"
-msgstr ""
+msgstr "Sana/raqam formatlari uchun foydalaniladigan til"
 
 #: schemas/org.gnome.system.locale.gschema.xml.in:7
 msgid ""
 "Specify the locale to be used for displaying dates, times and numbers "
 "formats."
 msgstr ""
+"Sana, vaqt va raqamlarni ko'rsatish uchun ishlatiladigan tilni belgilang"
+"formatlar".
 
 #: schemas/org.gnome.system.location.gschema.xml.in:7
 msgid "Geolocation services are enabled."
-msgstr ""
+msgstr "Geolokatsiya xizmatlari yoqilgan"
 
 #: schemas/org.gnome.system.location.gschema.xml.in:8
 msgid "If true, applications are allowed to access location information."
-msgstr ""
+msgstr "Agar rost boʻlsa, ilovalarga joylashuv maʼlumotlariga kirishga ruxsat beriladi."
 
 #: schemas/org.gnome.system.location.gschema.xml.in:14
 msgid "The maximum accuracy level of location."
-msgstr ""
+msgstr "Joylashuvning maksimal aniqlik darajasi."
 
 #: schemas/org.gnome.system.location.gschema.xml.in:15
 msgid ""
@@ -3331,10 +3353,16 @@ msgid ""
 "user’s location on their own using network resources (albeit with street-"
 "level accuracy at best)."
 msgstr ""
+"Ilovalarga ruxsat berilgan joylashuv aniqligining maksimal darajasini sozlaydi"
+"koʻrish uchun. Yaroqli variantlar: ”mamlakat”, ”shahar”, ”mahalla”, ”koʻcha” va "
+"”aniq” (odatda GPS qabul qiluvchisi talab qilinadi). Shuni yodda tutingki, bu "
+"faqat GeoClue ilovalarni ko'rishga ruxsat berishini nazorat qiladi va ular topishi mumkin"
+"tarmoq resurslaridan foydalangan holda foydalanuvchining joylashuvi (ko'chada bo'lsa ham-"
+"Eng yaxshi darajadagi aniqlik)."
 
 #: schemas/org.gnome.system.proxy.gschema.xml.in:10
 msgid "Proxy configuration mode"
-msgstr ""
+msgstr "Proksi-server konfiguratsiya rejimi"
 
 #: schemas/org.gnome.system.proxy.gschema.xml.in:11
 msgid ""
@@ -3349,20 +3377,32 @@ msgid ""
 "configured, it is used for all protocols, except that the http, https, and "
 "ftp proxy settings override it for those protocols only."
 msgstr ""
+"Proksi-serverni sozlash rejimini tanlang. Qo'llab-quvvatlanadigan qiymatlar ”yo'q”, ”qo'lda”, "
+"”avto”. Agar bu ”yo'q” bo'lsa, proksi-serverlar ishlatilmaydi. Agar ”avtomatik” bo'lsa, "
+"”autoconfig-url” tugmasi bilan tavsiflangan avtomatik sozlash URL manzili ishlatiladi. Agar shunday bo'lsa "
+"”qo'lda”, keyin ”/system/proxy/http”, ”/system/” tomonidan tavsiflangan proksi-serverlar"
+"”proksi/https”, ”/system/proxy/ftp” va ”/system/proxy/socks” ishlatiladi."
+"4 proksi-server turining har biri yoqilgan bo'lsa, uning ”host” kaliti bo'sh bo'lmasa va "
+"“port” kaliti 0 emas. Agar http proksi-server sozlangan bo'lsa, lekin https proksi-server "
+"yo'q, http proksi-server https uchun ham ishlatiladi. Agar SOCKS proksi-server "
+"konfiguratsiya qilingan, u barcha protokollar uchun ishlatiladi, bundan tashqari http, https va "
+"ftp proksi-server sozlamalari faqat ushbu protokollar uchun uni bekor qiladi."
 
 #: schemas/org.gnome.system.proxy.gschema.xml.in:36
 msgid "Automatic proxy configuration URL"
-msgstr ""
+msgstr "Avtomatik proksi-server konfiguratsiyasi URL"
 
 #: schemas/org.gnome.system.proxy.gschema.xml.in:37
 msgid ""
 "URL that provides proxy configuration values. When mode is “auto”, this URL "
 "is used to look up proxy information for all protocols."
 msgstr ""
+"Proksi-server konfiguratsiya qiymatlarini taqdim qiluvchi URL. Rejim “avtomatik“ bo'lsa, bu URL "
+"barcha protokollar uchun proksi-server ma'lumotlarini qidirish uchun ishlatiladi."
 
 #: schemas/org.gnome.system.proxy.gschema.xml.in:45
 msgid "Non-proxy hosts"
-msgstr ""
+msgstr "Proksi bo'lmagan xostlar"
 
 #: schemas/org.gnome.system.proxy.gschema.xml.in:46
 msgid ""
@@ -3371,46 +3411,54 @@ msgid ""
 "(using an initial wildcard like *.foo.com), IP host addresses (both IPv4 and "
 "IPv6) and network addresses with a netmask (something like 192.168.0.0/24)."
 msgstr ""
+"Ushbu kalit to'g'ridan-to'g'ri bog'langan hostlar ro'yxatini o'z ichiga oladi, aksincha"
+"proksi-server orqali ko'ra (agar u faol bo'lsa). Qiymatlar xost nomlari, domenlar bo'lishi mumkin "
+"(*.foo.com kabi boshlang'ich wilcard belgidan foydalangan holda), IP xost manzillari (IPv4 va "
+"IPv6) va tarmoq maskali tarmoq manzillari (masalan, 192.168.0.0/24)."
 
 #: schemas/org.gnome.system.proxy.gschema.xml.in:56
 msgid "Use HTTP proxy for all protocols"
-msgstr ""
+msgstr "Barcha protokollar uchun HTTP proksi-serveridan foydalaning"
 
 #: schemas/org.gnome.system.proxy.gschema.xml.in:57
 msgid "Whether to use the HTTP proxy for all protocols or not."
-msgstr ""
+msgstr "Barcha protokollar uchun HTTP proksi-serveridan foydalanish kerakmi yoki yo'qmi."
 
 #: schemas/org.gnome.system.proxy.gschema.xml.in:65
 msgid "Unused; ignore"
-msgstr ""
+msgstr "Foydalanilmagan; e'tibor bermaslik"
 
 #: schemas/org.gnome.system.proxy.gschema.xml.in:66
 msgid ""
 "This key is not used; HTTP proxying is enabled when the host key is non-"
 "empty and the port is non-0."
 msgstr ""
+"Ushbu kalit ishlatilmaydi; host kaliti bo'lmaganda HTTP proksi-server xizmati yoqiladi"
+"bo'sh va port 0 emas."
 
 #: schemas/org.gnome.system.proxy.gschema.xml.in:73
 msgid "HTTP proxy host name"
-msgstr ""
+msgstr "HTTP proksi-xost nomi"
 
 #: schemas/org.gnome.system.proxy.gschema.xml.in:74
 msgid "The machine name to proxy HTTP through."
-msgstr ""
+msgstr "HTTP orqali proksi-server uchun mashina nomi."
 
 #: schemas/org.gnome.system.proxy.gschema.xml.in:81
 msgid "HTTP proxy port"
-msgstr ""
+msgstr "HTTP proksi porti"
 
 #: schemas/org.gnome.system.proxy.gschema.xml.in:82
 msgid ""
 "The port on the machine defined by “/system/proxy/http/host” that you proxy "
 "through."
 msgstr ""
+"Mashinadagi port “/system/proxy/http/host“ tomonidan belgilangan proksi-server "
+"orqali."
 
 #: schemas/org.gnome.system.proxy.gschema.xml.in:89
 msgid "Authenticate proxy server connections"
-msgstr ""
+msgstr "Proksi-server ulanishlarini autentifikatsiya qilish"
 
 #: schemas/org.gnome.system.proxy.gschema.xml.in:90
 msgid ""
@@ -3420,73 +3468,84 @@ msgid ""
 "the http proxy; when using a separate https proxy, there is currently no way "
 "to specify that it should use authentication."
 msgstr ""
+"Agar rost bo'lsa, proksi-serverga ulanishlar autentifikatsiyani talab qiladi. "
+"foydalanuvchi nomi/parol kombinatsiyasi “/system/proxy/http/authentication-“ bilan belgilanadi."
+"foydalanuvchi va “/system/proxy/http/authentication-password“. Bu uchun amal qiladi."
+"http proksi-server; alohida https proksi-serveridan foydalanganda hozircha hech qanday yo'l yo'q"
+"u autentifikatsiyadan foydalanishi kerakligini ko'rsatish uchun."
 
 #: schemas/org.gnome.system.proxy.gschema.xml.in:103
 msgid "HTTP proxy username"
-msgstr ""
+msgstr "HTTP proksi foydalanuvchi nomi"
 
 #: schemas/org.gnome.system.proxy.gschema.xml.in:104
 msgid "User name to pass as authentication when doing HTTP proxying."
-msgstr ""
+msgstr "HTTP proksi-serverini amalga oshirishda autentifikatsiya sifatida o'tish uchun foydalanuvchi nomi."
 
 #: schemas/org.gnome.system.proxy.gschema.xml.in:110
 msgid "HTTP proxy password"
-msgstr ""
+msgstr "HTTP proksi paroli"
 
 #: schemas/org.gnome.system.proxy.gschema.xml.in:111
 msgid "Password to pass as authentication when doing HTTP proxying."
-msgstr ""
+msgstr "HTTP proksi-serverini amalga oshirishda autentifikatsiya sifatida o'tish uchun parol."
 
 #: schemas/org.gnome.system.proxy.gschema.xml.in:119
 msgid "Secure HTTP proxy host name"
-msgstr ""
+msgstr "Xavfsiz HTTP proksi-xost nomi"
 
 #: schemas/org.gnome.system.proxy.gschema.xml.in:120
 msgid "The machine name to proxy secure HTTP through."
-msgstr ""
+msgstr "HTTP orqali himoyalangan proksi-server uchun mashina nomi."
 
 #: schemas/org.gnome.system.proxy.gschema.xml.in:127
 msgid "Secure HTTP proxy port"
-msgstr ""
+msgstr "Xavfsiz HTTP proksi-porti"
 
 #: schemas/org.gnome.system.proxy.gschema.xml.in:128
 msgid ""
 "The port on the machine defined by “/system/proxy/https/host” that you proxy "
 "through."
 msgstr ""
+"Mashinadagi port “/system/proxy/https/host“ tomonidan belgilangan proksi-server "
+"orqali."
 
 #: schemas/org.gnome.system.proxy.gschema.xml.in:137
 msgid "FTP proxy host name"
-msgstr ""
+msgstr "FTP proksi-xost nomi"
 
 #: schemas/org.gnome.system.proxy.gschema.xml.in:138
 msgid "The machine name to proxy FTP through."
-msgstr ""
+msgstr "FTP orqali proksi-server uchun mashina nomi."
 
 #: schemas/org.gnome.system.proxy.gschema.xml.in:145
 msgid "FTP proxy port"
-msgstr ""
+msgstr "FTP proksi porti"
 
 #: schemas/org.gnome.system.proxy.gschema.xml.in:146
 msgid ""
 "The port on the machine defined by “/system/proxy/ftp/host” that you proxy "
 "through."
 msgstr ""
+"Mashinadagi port “/system/proxy/ftp/host“ tomonidan belgilangan proksi-server "
+"orqali."
 
 #: schemas/org.gnome.system.proxy.gschema.xml.in:155
 msgid "SOCKS proxy host name"
-msgstr ""
+msgstr "SOCKS proksi-xost nomi"
 
 #: schemas/org.gnome.system.proxy.gschema.xml.in:156
 msgid "The machine name to use as a SOCKS proxy."
-msgstr ""
+msgstr "SOCKS proksi sifatida foydalanish uchun mashina nomi."
 
 #: schemas/org.gnome.system.proxy.gschema.xml.in:163
 msgid "SOCKS proxy port"
-msgstr ""
+msgstr "SOCKS proksi-porti"
 
 #: schemas/org.gnome.system.proxy.gschema.xml.in:164
 msgid ""
 "The port on the machine defined by “/system/proxy/socks/host” that you proxy "
 "through."
 msgstr ""
+"Mashinadagi port “/system/proxy/socks/host“ tomonidan belgilangan proksi-server "
+"orqali."
