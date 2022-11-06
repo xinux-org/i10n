@@ -3103,7 +3103,7 @@ msgid ""
 msgstr ""
 "Ushbu parametr sarlavha satriga ikki marta bosish effektlarini aniqlaydi."
 "Hozirgi amaldagi variantlar ”o'zgaruvchan soya”, bu esa "
-"oyna, ”almashtirishni-maksimallashtirish”, bu oynani kattalashtiradi/kattalashtiradi, ”o'tish-"
+"oyna, ”almashtirishni-maksimallashtirish”, bu oynani kattalashtiradi/kattalashtirmaydi, ”o'tish-"
 "gorizontal ravishda maksimal darajaga ko'tarish” va ”vertikal o'zgartirish-maksimallashtirish” maksimal darajaga yetadi/"
 "Faqat shu yo'nalishdagi oynani kattalashtiring, ”kichraytiring” bu esa kichraytiradi "
 "oyna, oynani yuqoriga aylantiradigan ”soya”, ko'rsatiladigan ”menyu” "
@@ -3112,7 +3112,7 @@ msgstr ""
 
 #: schemas/org.gnome.desktop.wm.preferences.gschema.xml.in:108
 msgid "Action on title bar middle-click"
-msgstr ""
+msgstr "Sarlavha satrida harakat o'rta tugmachani bosing"
 
 #: schemas/org.gnome.desktop.wm.preferences.gschema.xml.in:109
 msgid ""
@@ -3125,10 +3125,18 @@ msgid ""
 "the window menu, “lower” which will put the window behind all the others, "
 "and “none” which will not do anything."
 msgstr ""
+"Ushbu parametr sarlavha satriga bosish effektlarini aniqlaydi."
+"Hozirgi amaldagi variantlar ”o'zgaruvchan soya”, bu esa "
+"oyna, ”almashtirishni-maksimallashtirish”, bu oynani kattalashtiradi/kattalashtirmaydi, ”gorizantal"
+"”kattalashtirishni almashtirish” va ”vertikal kattalashtirishni almashtirish” maksimal darajaga yetadi/"
+"Faqat shu yo'nalishdagi oynani kattalashtiring, ”kichraytirish” bu esa kichraytiradi "
+"oyna, oynani yuqoriga aylantiradigan ”soya”, ko'rsatiladigan ”menyu” "
+"oyna menyusi, ”pastki” bu oynani qolganlarning orqasida qo'yadi, "
+"va ”yo'q” hech narsa qilmaydi."
 
 #: schemas/org.gnome.desktop.wm.preferences.gschema.xml.in:134
 msgid "Action on title bar right-click"
-msgstr ""
+msgstr "Sarlavha satrida harakat o'ng tugmachani bosing"
 
 #: schemas/org.gnome.desktop.wm.preferences.gschema.xml.in:135
 msgid ""
@@ -3141,10 +3149,18 @@ msgid ""
 "the window menu, “lower” which will put the window behind all the others, "
 "and “none” which will not do anything."
 msgstr ""
+"Ushbu parametr sarlavha satrida sichqonchaning o'ng tugmachasini bosish effektlarini aniqlaydi."
+"Hozirgi amaldagi variantlar ”o'zgaruvchan soya”, bu esa "
+"oyna, ”almashtirishni-maksimallashtirish”, bu oynani kattalashtiradi/kattalashtirmaydi, ”gorizantal"
+"”kattalashtirishni almashtirish” va ”vertikal kattalashtirishni almashtirish” maksimal darajaga yetadi/"
+"Faqat shu yo'nalishdagi oynani kattalashtiring, ”kichraytirish” bu esa kichraytiradi "
+"oyna, oynani yuqoriga aylantiradigan ”soya”, ko'rsatiladigan ”menyu” "
+"oyna menyusi, ”pastki” bu oynani qolganlarning orqasida qo'yadi, "
+"va ”yo'q” hech narsa qilmaydi."
 
 #: schemas/org.gnome.desktop.wm.preferences.gschema.xml.in:159
 msgid "Automatically raises the focused window"
-msgstr ""
+msgstr "Yo'naltirilgan Oynani avtomatik ravishda ko'taradi"
 
 #: schemas/org.gnome.desktop.wm.preferences.gschema.xml.in:160
 msgid ""
@@ -3153,40 +3169,50 @@ msgid ""
 "auto-raise-delay key. This is not related to clicking on a window to raise "
 "it, nor to entering a window during drag-and-drop."
 msgstr ""
+"Agar rost ga o'rnatilgan bo'lsa va fokus rejimi ”beqaror” yoki ”sichqoncha” bo'lsa, "
+"fokuslangan oyna tomonidan belgilangan kechikishdan keyin avtomatik ravishda ko'tariladi."
+"avtomatik ko'tarish-kechikish kaliti. Bu ko'tarish uchun oynani bosish bilan bog'liq emas "
+"uni, sudrab olib tashlash paytida oynaga kirish uchun ham."
 
 #: schemas/org.gnome.desktop.wm.preferences.gschema.xml.in:170
 msgid "Delay in milliseconds for the auto raise option"
-msgstr ""
+msgstr "Avtomatik ko'tarish opsiyasi uchun millisekundlarda kechikish"
 
 #: schemas/org.gnome.desktop.wm.preferences.gschema.xml.in:171
 msgid ""
 "The time delay before raising a window if auto-raise is set to true. The "
 "delay is given in thousandths of a second."
 msgstr ""
+"Agar avtomatik ko'tarish rost bo'lsa, oynani ko'tarishdan oldin kechikish vaqti. "
+"kechikish soniyaning mingdan bir qismida beriladi."
 
 #: schemas/org.gnome.desktop.wm.preferences.gschema.xml.in:178
 msgid "Current theme"
-msgstr ""
+msgstr "Joriy mavzu"
 
 #: schemas/org.gnome.desktop.wm.preferences.gschema.xml.in:179
 msgid ""
 "The theme determines the appearance of window borders, titlebar, and so "
 "forth. DEPRECATED: This key is deprecated and ignored."
 msgstr ""
+"Mavzu oyna chegaralari, sarlavha paneli va boshqalarning ko'rinishini belgilaydi"
+"oldinga. QO'SHILGAN: Bu kalit eskirgan va e'tiborga olinmagan."
 
 #: schemas/org.gnome.desktop.wm.preferences.gschema.xml.in:188
 msgid "Use standard system font in window titles"
-msgstr ""
+msgstr "Oyna sarlavhalarida standart tizim shriftidan foydalanish"
 
 #: schemas/org.gnome.desktop.wm.preferences.gschema.xml.in:189
 msgid ""
 "If true, ignore the titlebar-font option, and use the standard application "
 "font for window titles."
 msgstr ""
+"Agar rost bo'lsa, sarlavha paneli-shrift parametriga e'tibor bermang va standart ilovadan foydalaning"
+"Oyna sarlavhalari uchun shrift."
 
 #: schemas/org.gnome.desktop.wm.preferences.gschema.xml.in:196
 msgid "Window title font"
-msgstr ""
+msgstr "Oyna sarlavhasi shrifti"
 
 #: schemas/org.gnome.desktop.wm.preferences.gschema.xml.in:197
 msgid ""
@@ -3195,10 +3221,14 @@ msgid ""
 "set to 0. Also, this option is disabled if the titlebar-uses-desktop-font "
 "option is set to true."
 msgstr ""
+"Oyna sarlavhalari uchun shriftni tavsiflovchi shrift tavsifi qatori. Hajmi "
+"tavsifdan faqat sarlavha satri-shrift o'lchami parametri bo'lsa ishlatiladi"
+"0 ga o'rnatildi. Shuningdek, agar sarlavha paneli-ish stoli-shriftdan foydalansa, bu parametr o'chiriladi"
+"variant rostga o'rnatildi."
 
 #: schemas/org.gnome.desktop.wm.preferences.gschema.xml.in:207
 msgid "Number of workspaces"
-msgstr ""
+msgstr "Ish joylari soni"
 
 #: schemas/org.gnome.desktop.wm.preferences.gschema.xml.in:208
 msgid ""
@@ -3206,10 +3236,13 @@ msgid ""
 "prevent making the desktop unusable by accidentally asking for too many "
 "workspaces."
 msgstr ""
+"Ish joylari soni. Noldan koʻp boʻlishi kerak va belgilangan maksimal "
+"tasodifan juda ko'p so'rash orqali ish stolini yaroqsiz holga keltirmaslik"
+"ish joylari".
 
 #: schemas/org.gnome.desktop.wm.preferences.gschema.xml.in:216
 msgid "System Bell is Audible"
-msgstr ""
+msgstr "Tizim ovozi eshitiladi"
 
 #: schemas/org.gnome.desktop.wm.preferences.gschema.xml.in:217
 msgid ""
