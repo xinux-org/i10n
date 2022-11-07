@@ -13,3 +13,4 @@ Trajima qilinmagan so'zlar va birikmalar
 `Whether notification banners for this application are shown or not. Does not affect clicking on message tray buttons.`  javobi  kutilmoqda `gsettings-desktop-schemas.master.pot` 1639-qator `Ismoilovdev`<br>
 `Wait until the child exits (TODO)` javobi  kutilmoqda `console.gnome-43.pot` 157-qator `ismoilovdev` <br>
 `Time Stamping` javobi kutilmoqda `gcr.master.pot` 227-qator `ismoilovdev`<br>
+`Failed to connect to session bus:` javobi kutilmoqda `gnome-color-manager.master.pot` 206-qator `ismoilovdev`
