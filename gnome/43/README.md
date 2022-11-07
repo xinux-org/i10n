@@ -14,3 +14,6 @@ Trajima qilinmagan so'zlar va birikmalar
 `Wait until the child exits (TODO)` javobi  kutilmoqda `console.gnome-43.pot` 157-qator `ismoilovdev` <br>
 `Time Stamping` javobi kutilmoqda `gcr.master.pot` 227-qator `ismoilovdev`<br>
 `Failed to connect to session bus:` javobi kutilmoqda `gnome-color-manager.master.pot` 206-qator `ismoilovdev`
+`Display checksum` javobi kutilmoqda `gnome-color-manager.master.pot` 482-qator `ismoilovdev`
+`Display vendor` javobi kutilmoqda `gnome-color-manager.master.pot` 500-qator `ismoilovdev`
+`File checksum` javobi kutilmoqda `gnome-color-manager.master.pot` 505-qator `ismoilovdev`
