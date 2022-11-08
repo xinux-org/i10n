@@ -13,7 +13,9 @@ Trajima qilinmagan so'zlar va birikmalar
 `Whether notification banners for this application are shown or not. Does not affect clicking on message tray buttons.`  javobi  kutilmoqda `gsettings-desktop-schemas.master.pot` 1639-qator `Ismoilovdev`<br>
 `Wait until the child exits (TODO)` javobi  kutilmoqda `console.gnome-43.pot` 157-qator `ismoilovdev` <br>
 `Time Stamping` javobi kutilmoqda `gcr.master.pot` 227-qator `ismoilovdev`<br>
-`Failed to connect to session bus:` javobi kutilmoqda `gnome-color-manager.master.pot` 206-qator `ismoilovdev`
-`Display checksum` javobi kutilmoqda `gnome-color-manager.master.pot` 482-qator `ismoilovdev`
-`Display vendor` javobi kutilmoqda `gnome-color-manager.master.pot` 500-qator `ismoilovdev`
-`File checksum` javobi kutilmoqda `gnome-color-manager.master.pot` 505-qator `ismoilovdev`
+`Failed to connect to session bus:` javobi kutilmoqda `gnome-color-manager.master.pot` 206-qator `ismoilovdev` <br>
+`Display checksum` javobi kutilmoqda `gnome-color-manager.master.pot` 482-qator `ismoilovdev` <br>
+`Display vendor` javobi kutilmoqda `gnome-color-manager.master.pot` 500-qator `ismoilovdev` <br>
+`File checksum` javobi kutilmoqda `gnome-color-manager.master.pot` 505-qator `ismoilovdev` <br>
+`A scum dot is present for media white`javobi kutilmoqda `gnome-color-manager.master.pot` 610-qator `ismoilovdev` <br>
+`The whitepoint temperature is unlikely` javobi kutilmoqda `gnome-color-manager.master.pot` 645-qator `ismoilovdev` <br>
