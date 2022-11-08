@@ -19,3 +19,4 @@ Trajima qilinmagan so'zlar va birikmalar
 `File checksum` javobi kutilmoqda `gnome-color-manager.master.pot` 505-qator `ismoilovdev` <br>
 `A scum dot is present for media white`javobi kutilmoqda `gnome-color-manager.master.pot` 610-qator `ismoilovdev` <br>
 `The whitepoint temperature is unlikely` javobi kutilmoqda `gnome-color-manager.master.pot` 645-qator `ismoilovdev` <br>
+`"A tone reproduction curve is the mapping of scene luminance to display luminance"` javobi kutilmoqda `gnome-color-manager.master.pot` 787-qator `ismoilovdev` <br>
