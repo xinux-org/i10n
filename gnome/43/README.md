@@ -20,3 +20,7 @@ Trajima qilinmagan so'zlar va birikmalar
 `A scum dot is present for media white`javobi kutilmoqda `gnome-color-manager.master.pot` 610-qator `ismoilovdev` <br>
 `The whitepoint temperature is unlikely` javobi kutilmoqda `gnome-color-manager.master.pot` 645-qator `ismoilovdev` <br>
 `"A tone reproduction curve is the mapping of scene luminance to display luminance"` javobi kutilmoqda `gnome-color-manager.master.pot` 787-qator `ismoilovdev` <br>
+
+`Cannot perform blocking operation during TLS handshake` javobi kutilmoqda `glib-networking.glib-2-74.pot` 39-qator `ismoilovdev` <br>
+
+`Receive flags are not supported` javobi kutilmoqda `glib-networking.glib-2-74.pot` 69-74-qator `ismoilovdev` <br>

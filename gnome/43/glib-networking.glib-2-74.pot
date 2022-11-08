@@ -10,9 +10,9 @@ msgstr ""
 "Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/glib-networking/issues\n"
 "POT-Creation-Date: 2022-09-19 20:15+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
-"Language: \n"
+"Last-Translator: Otabek Ismoilov <ismoilovdev@gmail.com>\n"
+"Language-Team: Uzbek <cctld@uzinfocom.uz>\n"
+"Language: uz\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=CHARSET\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -20,13 +20,13 @@ msgstr ""
 
 #: proxy/libproxy/glibproxyresolver.c:165
 msgid "Proxy resolver internal error."
-msgstr ""
+msgstr "Proksi-serverni hal qiluvchi ichki xato."
 
 #: tls/base/gtlsconnection-base.c:562 tls/base/gtlsinputstream.c:78
 #: tls/base/gtlsinputstream.c:141 tls/base/gtlsoutputstream.c:78
 #: tls/base/gtlsoutputstream.c:143
 msgid "Connection is closed"
-msgstr ""
+msgstr "Ulanish yopiq"
 
 #. Cannot perform a blocking operation during a handshake on the
 #. * same thread that triggered the handshake. The only way this can
@@ -37,32 +37,32 @@ msgstr ""
 #.
 #: tls/base/gtlsconnection-base.c:636
 msgid "Cannot perform blocking operation during TLS handshake"
-msgstr ""
+msgstr "TLS bilan handshake paytida blokirovka operatsiyasini bajarib boʻlmaydi"
 
 #: tls/base/gtlsconnection-base.c:701 tls/base/gtlsconnection-base.c:1249
 #: tls/openssl/gtlsconnection-openssl.c:358
 msgid "Socket I/O timed out"
-msgstr ""
+msgstr "Soket I/U vaqti tugadi"
 
 #: tls/base/gtlsconnection-base.c:875
 msgid "Server required TLS certificate"
-msgstr ""
+msgstr "Server talab qilingan TLS sertifikati"
 
 #: tls/base/gtlsconnection-base.c:1454
 #, c-format
 msgid "Handshake is not finished, no channel binding information yet"
-msgstr ""
+msgstr "Handshake tugallanmagan, kanalni bogʻlash haqida maʼlumot yoʻq"
 
 #: tls/base/gtlsconnection-base.c:1533
 msgid "Peer does not support safe renegotiation"
-msgstr ""
+msgstr "Peer xavfsiz qayta muzokaralarni qo'llab-quvvatlamaydi"
 
 #: tls/base/gtlsconnection-base.c:1681 tls/gnutls/gtlsconnection-gnutls.c:491
 #: tls/openssl/gtlsconnection-openssl.c:209
 #: tls/openssl/gtlsconnection-openssl.c:835
 #, c-format
 msgid "Unacceptable TLS certificate"
-msgstr ""
+msgstr "Qabul qilib bo'lmaydigan TLS sertifikati"
 
 #: tls/base/gtlsconnection-base.c:2153
 #, c-format
@@ -78,51 +78,51 @@ msgstr ""
 #: tls/openssl/gtlscertificate-openssl.c:309
 #, c-format
 msgid "Failed to import PKCS #12: %s"
-msgstr ""
+msgstr "12 PKCS import qilinmadi: %s"
 
 #: tls/gnutls/gtlscertificate-gnutls.c:520
 #: tls/openssl/gtlscertificate-openssl.c:519
 #, c-format
 msgid "Could not parse DER certificate: %s"
-msgstr ""
+msgstr "DER sertifikatini tahlil qilib bo‘lmadi: %s"
 
 #: tls/gnutls/gtlscertificate-gnutls.c:541
 #: tls/openssl/gtlscertificate-openssl.c:540
 #, c-format
 msgid "Could not parse PEM certificate: %s"
-msgstr ""
+msgstr "PEM sertifikatini tahlil qilib bo‘lmadi: %s"
 
 #: tls/gnutls/gtlscertificate-gnutls.c:564
 #: tls/openssl/gtlscertificate-openssl.c:561
 #, c-format
 msgid "Could not parse DER private key: %s"
-msgstr ""
+msgstr "DER shaxsiy kalitini tahlil qilib bo‘lmadi: %s""
 
 #: tls/gnutls/gtlscertificate-gnutls.c:587
 #: tls/openssl/gtlscertificate-openssl.c:582
 #, c-format
 msgid "Could not parse PEM private key: %s"
-msgstr ""
+msgstr "PEM shaxsiy kalitini tahlil qilib bo‘lmadi: %s"
 
 #: tls/gnutls/gtlscertificate-gnutls.c:613
 #, c-format
 msgid "Could not import PKCS #11 certificate URI: %s"
-msgstr ""
+msgstr "PKCS #11 sertifikat URI ni import qilib bo‘lmadi: %s"
 
 #: tls/gnutls/gtlscertificate-gnutls.c:657
 #: tls/openssl/gtlscertificate-openssl.c:620
 msgid "No certificate data provided"
-msgstr ""
+msgstr "Sertifikat maʼlumotlari taqdim etilmaydi"
 
 #: tls/gnutls/gtlscertificate-gnutls.c:981
 #: tls/gnutls/gtlsconnection-gnutls.c:1058
 #, c-format
 msgid "Cannot verify peer identity of unexpected type %s"
-msgstr ""
+msgstr "Kutilmagan turdagi %s tengdoshi identifikatorini tekshirib bo‘lmadi"
 
 #: tls/gnutls/gtlsconnection-gnutls.c:204
 msgid "Could not create TLS connection:"
-msgstr ""
+msgstr "TLS ulanishini yaratib bo'lmadi:"
 
 #: tls/gnutls/gtlsconnection-gnutls.c:214
 #: tls/gnutls/gtlsconnection-gnutls.c:234
@@ -130,7 +130,7 @@ msgstr ""
 #: tls/openssl/gtlsserverconnection-openssl.c:456
 #, c-format
 msgid "Could not create TLS connection: %s"
-msgstr ""
+msgstr "TLS ulanishini yaratib bo‘lmadi: %s"
 
 #: tls/gnutls/gtlsconnection-gnutls.c:435
 #: tls/gnutls/gtlsconnection-gnutls.c:446
@@ -142,12 +142,12 @@ msgstr ""
 
 #: tls/gnutls/gtlsconnection-gnutls.c:468
 msgid "TLS connection closed unexpectedly"
-msgstr ""
+msgstr "TLS ulanishi kutilmaganda yopildi"
 
 #: tls/gnutls/gtlsconnection-gnutls.c:483
 #: tls/openssl/gtlsconnection-openssl.c:201
 msgid "TLS connection peer did not send a certificate"
-msgstr ""
+msgstr "TLS ulanish peer sertifikat yubormadi"
 
 #: tls/gnutls/gtlsconnection-gnutls.c:499
 #, c-format
