@@ -152,22 +152,22 @@ msgstr "TLS ulanish peer sertifikat yubormadi"
 #: tls/gnutls/gtlsconnection-gnutls.c:499
 #, c-format
 msgid "Peer sent fatal TLS alert: %s"
-msgstr ""
+msgstr "Tengdosh halokatli TLS ogohlantirishini yubordi: %s"
 
 #: tls/gnutls/gtlsconnection-gnutls.c:509
 msgid "Protocol version downgrade attack detected"
-msgstr ""
+msgstr "Protokol versiyasini pasaytirish hujumi aniqlandi"
 
 #: tls/gnutls/gtlsconnection-gnutls.c:518
 #, c-format
 msgid "Message is too large for DTLS connection; maximum is %u byte"
 msgid_plural "Message is too large for DTLS connection; maximum is %u bytes"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "Xabar DTLS ulanishi uchun juda katta; maksimal %u bayt"
+msgstr[1] "Xabar DTLS ulanishi uchun juda katta; maksimal %u bayt"
 
 #: tls/gnutls/gtlsconnection-gnutls.c:527
 msgid "The operation timed out"
-msgstr ""
+msgstr "Operatsiya vaqti tugadi"
 
 #: tls/gnutls/gtlsconnection-gnutls.c:879
 #, c-format
@@ -184,55 +184,56 @@ msgstr ""
 msgid ""
 "Empty channel binding data indicates a bug in the TLS library implementation"
 msgstr ""
+"Bo'sh kanalni ulash ma'lumotlari TLS kutubxonasini amalga oshirishda xatolik borligini ko'rsatadi"
 
 #: tls/gnutls/gtlsconnection-gnutls.c:1175
 #, c-format
 msgid "Channel binding type is not implemented in the TLS library"
-msgstr ""
+msgstr "Kanalni ulash turi TLS kutubxonasida amalga oshirilmagan"
 
 #: tls/gnutls/gtlsconnection-gnutls.c:1179
 #, c-format
 msgid "Channel binding data is not yet available"
-msgstr ""
+msgstr "Kanalni bogʻlash maʼlumotlari hali mavjud emas"
 
 #: tls/gnutls/gtlsconnection-gnutls.c:1231
 #: tls/openssl/gtlsconnection-openssl.c:810
 #, c-format
 msgid "Requested channel binding type is not implemented"
-msgstr ""
+msgstr "So‘ralgan kanalni ulash turi amalga oshirilmagan"
 
 #: tls/gnutls/gtlsconnection-gnutls.c:1252
 #: tls/gnutls/gtlsconnection-gnutls.c:1312
 #: tls/openssl/gtlsconnection-openssl.c:828
 #: tls/openssl/gtlsconnection-openssl.c:924
 msgid "Error reading data from TLS socket"
-msgstr ""
+msgstr "TLS socketdan maʼlumotlarni oʻqishda xatolik yuz berdi"
 
 #. flags
 #: tls/gnutls/gtlsconnection-gnutls.c:1334
 #: tls/gnutls/gtlsconnection-gnutls.c:1397
 #: tls/openssl/gtlsconnection-openssl.c:1003
 msgid "Error writing data to TLS socket"
-msgstr ""
+msgstr "TLS socketga maʼlumotlarni yozishda xatolik yuz berdi"
 
 #: tls/gnutls/gtlsconnection-gnutls.c:1367
 #, c-format
 msgid "Message of size %lu byte is too large for DTLS connection"
 msgid_plural "Message of size %lu bytes is too large for DTLS connection"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%lu bayt hajmidagi xabar DTLS ulanishi uchun juda katta"
+msgstr[1] "%lu bayt hajmidagi xabar DTLS ulanishi uchun juda katta"
 
 #: tls/gnutls/gtlsconnection-gnutls.c:1369
 #, c-format
 msgid "(maximum is %u byte)"
 msgid_plural "(maximum is %u bytes)"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "(maksimal %u bayt)"
+msgstr[1] "(maksimal %u bayt)"
 
 #: tls/gnutls/gtlsconnection-gnutls.c:1416
 #, c-format
 msgid "Error performing TLS close: %s"
-msgstr ""
+msgstr "TLS yopilishida xatolik yuz berdi: %s"
 
 #: tls/gnutls/gtlsdatabase-gnutls.c:556
 msgid ""
@@ -249,68 +250,68 @@ msgstr ""
 #: tls/openssl/gtlsfiledatabase-openssl.c:456
 #, c-format
 msgid "Failed to populate trust list from %s: %s"
-msgstr ""
+msgstr "%s: %s ishonch roʻyxatini toʻldirib boʻlmadi"
 
 #: tls/gnutls/gtlsserverconnection-gnutls.c:124
 #: tls/openssl/gtlsserverconnection-openssl.c:172
 msgid "Certificate has no private key"
-msgstr ""
+msgstr "Sertifikatda shaxsiy kalit yo'q"
 
 #: tls/openssl/gtlsclientconnection-openssl.c:368
 #: tls/openssl/gtlsserverconnection-openssl.c:299
 #, c-format
 msgid "Could not set TLS cipher list: %s"
-msgstr ""
+msgstr "TLS shifrlar roʻyxatini oʻrnatib boʻlmadi: %s"
 
 #: tls/openssl/gtlsclientconnection-openssl.c:396
 #: tls/openssl/gtlsserverconnection-openssl.c:327
 #, c-format
 msgid "Could not set MAX protocol to %d: %s"
-msgstr ""
+msgstr "MAX protokolini %d ga o‘rnatib bo‘lmadi: %s"
 
 #: tls/openssl/gtlsclientconnection-openssl.c:459
 #: tls/openssl/gtlsserverconnection-openssl.c:390
 #, c-format
 msgid "Could not create TLS context: %s"
-msgstr ""
+msgstr "TLS kontekstini yaratib bo‘lmadi: %s"
 
 #: tls/openssl/gtlsconnection-openssl.c:217
 #, c-format
 msgid "Unacceptable TLS certificate authority"
-msgstr ""
+msgstr "Qabul qilib bo'lmaydigan TLS sertifikat organi"
 
 #: tls/openssl/gtlsconnection-openssl.c:225
 msgid "Digest too big for RSA key"
-msgstr ""
+msgstr "RSA kaliti uchun qayta ishlash juda katta"
 
 #: tls/openssl/gtlsconnection-openssl.c:234
 msgid "Secure renegotiation is disabled"
-msgstr ""
+msgstr "Xavfsiz qayta muzokara o'chirib qo'yilgan"
 
 #: tls/openssl/gtlsconnection-openssl.c:253
 #, c-format
 msgid "%s: The connection is broken"
-msgstr ""
+msgstr "%s: Ulanish uzilgan"
 
 #: tls/openssl/gtlsconnection-openssl.c:660
 #, c-format
 msgid "The request is invalid."
-msgstr ""
+msgstr "So‘rov noto‘g‘ri."
 
 #: tls/openssl/gtlsconnection-openssl.c:683
 #, c-format
 msgid "Channel binding data tls-unique is not available"
-msgstr ""
+msgstr "Kanalni ulash maʼlumotlari tls-unique mavjud emas"
 
 #: tls/openssl/gtlsconnection-openssl.c:706
 #, c-format
 msgid "X.509 Certificate is not available on the connection"
-msgstr ""
+msgstr "Ulanishda X.509 sertifikati mavjud emas"
 
 #: tls/openssl/gtlsconnection-openssl.c:714
 #, c-format
 msgid "Unable to obtain certificate signature algorithm"
-msgstr ""
+msgstr "Sertifikat imzosi algoritmini olish imkonsiz"
 
 #: tls/openssl/gtlsconnection-openssl.c:734
 #, c-format
