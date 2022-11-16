@@ -701,35 +701,35 @@ msgstr "%s Skaner"
 #: panels/color/cc-color-common.c:73
 #, c-format
 msgid "%s Camera"
-msgstr ""
+msgstr "%s Kamera"
 
 #. TRANSLATORS: a printer device, e.g. 'Epson Photosmart Printer'
 #: panels/color/cc-color-common.c:77
 #, fuzzy, c-format
 #| msgid "_Print"
 msgid "%s Printer"
-msgstr "_Bosib chiqarish"
+msgstr "%s Printer"
 
 #. TRANSLATORS: a webcam device, e.g. 'Philips HiDef Camera'
 #: panels/color/cc-color-common.c:81
 #, c-format
 msgid "%s Webcam"
-msgstr ""
+msgstr "%s Veb-kamera"
 
 #: panels/color/cc-color-device.c:87
 #, c-format
 msgid "Enable color management for %s"
-msgstr ""
+msgstr "%s uchun ranglar boshqaruvini yoqing"
 
 #: panels/color/cc-color-device.c:92
 #, c-format
 msgid "Show color profiles for %s"
-msgstr ""
+msgstr "%s uchun rang profillarini ko‘rsatish"
 
 #. not calibrated
 #: panels/color/cc-color-device.c:292
 msgid "Not calibrated"
-msgstr ""
+msgstr "Kalibrlanmagan"
 
 #. TRANSLATORS: this is a profile prefix to signify the
 #. * profile has been auto-generated for this hardware
@@ -737,7 +737,7 @@ msgstr ""
 #, fuzzy
 #| msgid "Default"
 msgid "Default: "
-msgstr "Andoza"
+msgstr "Standart: "
 
 #. TRANSLATORS: this is a profile prefix to signify the
 #. * profile his a standard space like AdobeRGB
@@ -745,20 +745,20 @@ msgstr "Andoza"
 #, fuzzy
 #| msgid "Colors"
 msgid "Colorspace: "
-msgstr "Ranglar"
+msgstr "Rang maydoni:"
 
 #. TRANSLATORS: this is a profile prefix to signify the
 #. * profile is a test profile
 #: panels/color/cc-color-panel.c:175
 msgid "Test profile: "
-msgstr ""
+msgstr "Sinov profili: "
 
 #. TRANSLATORS: an ICC profile is a file containing colorspace data
 #: panels/color/cc-color-panel.c:282
 #, fuzzy
 #| msgid "Select Sound File"
 msgid "Select ICC Profile File"
-msgstr "Tovush faylini tanlang"
+msgstr "ICC profil faylini tanlang"
 
 #: panels/color/cc-color-panel.c:285
 msgid "_Import"
@@ -767,13 +767,13 @@ msgstr "_Import"
 #. TRANSLATORS: filter name on the file->open dialog
 #: panels/color/cc-color-panel.c:296
 msgid "Supported ICC profiles"
-msgstr ""
+msgstr "Qo'llab-quvvatlanadigan ICC profillari"
 
 #. TRANSLATORS: filter name on the file->open dialog
 #: panels/color/cc-color-panel.c:303
 #: panels/network/wireless-security/eap-method-fast.c:357
 msgid "All files"
-msgstr "Hamma fayllar"
+msgstr "Barcha fayllar"
 
 #: panels/color/cc-color-panel.c:586
 #: panels/screen/gnome-screen-panel.desktop.in.in:3
@@ -785,7 +785,7 @@ msgstr "Ekran"
 #, fuzzy
 #| msgid "Save File"
 msgid "Save Profile"
-msgstr "Faylni saqlash"
+msgstr "Profilni saqlash"
 
 #: panels/color/cc-color-panel.c:845
 #: panels/network/connection-editor/vpn-helpers.c:342
@@ -796,7 +796,7 @@ msgstr "_Saqlash"
 #. TRANSLATORS: this is when the button is sensitive
 #: panels/color/cc-color-panel.c:1146
 msgid "Create a color profile for the selected device"
-msgstr ""
+msgstr "Tanlangan qurilma uchun rang profilini yaratish"
 
 #. TRANSLATORS: this is when the button is insensitive
 #: panels/color/cc-color-panel.c:1161 panels/color/cc-color-panel.c:1185
@@ -804,28 +804,30 @@ msgid ""
 "The measuring instrument is not detected. Please check it is turned on and "
 "correctly connected."
 msgstr ""
+"O'lchov asbobi aniqlanmadi. Iltimos, uning yoqilganligini tekshiring va"
+"to'g'ri ulanganligini."
 
 #. TRANSLATORS: this is when the button is insensitive
 #: panels/color/cc-color-panel.c:1195
 msgid "The measuring instrument does not support printer profiling."
-msgstr ""
+msgstr "O'lchov vositasi printer profilini qo'llab-quvvatlamaydi."
 
 #. TRANSLATORS: this is when the button is insensitive
 #: panels/color/cc-color-panel.c:1206
 #, fuzzy
 #| msgid "This theme is not in a supported format."
 msgid "The device type is not currently supported."
-msgstr "Mavzu qoʻllanilmaydigan formatda."
+msgstr "Qurilma turi hozirda qo'llab-quvvatlanmaydi."
 
 #: panels/color/cc-color-panel.ui:4 panels/wacom/calibrator/calibrator.ui:40
 #, fuzzy
 #| msgid "Screen Resolution"
 msgid "Screen Calibration"
-msgstr "Ekran oʻlchami"
+msgstr "Ekranni kalibrlash"
 
 #: panels/color/cc-color-panel.ui:12
 msgid "Calibration Quality"
-msgstr ""
+msgstr "Kalibrlash sifati"
 
 #: panels/color/cc-color-panel.ui:21
 msgid ""
@@ -833,43 +835,47 @@ msgid ""
 "screen. The longer you spend on calibration, the better the quality of the "
 "color profile."
 msgstr ""
+"Kalibrlash sizning rangingizni boshqarish uchun foydalanishingiz mumkin bo'lgan profilni yaratadi"
+"ekran. Kalibrlash uchun qancha vaqt sarflasangiz, sifati shunchalik yaxshi bo'ladi "
+"rangli profil."
 
 #: panels/color/cc-color-panel.ui:28
 msgid ""
 "You will not be able to use your computer while calibration takes place."
 msgstr ""
+"Kalibrlash paytida siz kompyuteringizdan foydalana olmaysiz."
 
 #. This is the approximate time it takes to calibrate the display.
 #: panels/color/cc-color-panel.ui:40
 msgid "Quality"
-msgstr ""
+msgstr "Sifat"
 
 #. This is the approximate time it takes to calibrate the display.
 #: panels/color/cc-color-panel.ui:51
 msgid "Approximate Time"
-msgstr ""
+msgstr "Taxminiy vaqt"
 
 #: panels/color/cc-color-panel.ui:82
 msgid "Calibration Device"
-msgstr ""
+msgstr "Kalibrlash qurilmasi"
 
 #: panels/color/cc-color-panel.ui:90
 msgid "Select the sensor device you want to use for calibration."
-msgstr ""
+msgstr "Kalibrlash uchun foydalanmoqchi bo'lgan sensor qurilmani tanlang."
 
 #: panels/color/cc-color-panel.ui:117
 msgid "Display Type"
-msgstr ""
+msgstr "Displey turi"
 
 #: panels/color/cc-color-panel.ui:125
 msgid "Select the type of display that is connected."
-msgstr ""
+msgstr "Ulangan displey turini tanlang."
 
 #: panels/color/cc-color-panel.ui:152
 #, fuzzy
 #| msgid "Large White Pointer"
 msgid "Profile Whitepoint"
-msgstr "Katta oq koʻrsatgich"
+msgstr ""
 
 #: panels/color/cc-color-panel.ui:160
 msgid ""
@@ -879,55 +885,61 @@ msgstr ""
 
 #: panels/color/cc-color-panel.ui:187
 msgid "Display Brightness"
-msgstr ""
+msgstr "Displey Yorqinligi"
 
 #: panels/color/cc-color-panel.ui:195
 msgid ""
 "Please set the display to a brightness that is typical for you. Color "
 "management will be most accurate at this brightness level."
 msgstr ""
+"Iltimos, displeyni sizga xos bo'lgan yorqinlikka sozlang. Rang "
+"Ushbu yorqinlik darajasida boshqaruv eng aniq bo'ladi."
 
 #: panels/color/cc-color-panel.ui:202
 msgid ""
 "Alternatively, you can use the brightness level used with one of the other "
 "profiles for this device."
 msgstr ""
+"Shu bilan bir qatorda, siz boshqasidan biri bilan ishlatiladigan yorqinlik darajasidan foydalanishingiz mumkin"
+"ushbu qurilma uchun profillar."
 
 #: panels/color/cc-color-panel.ui:214
 #, fuzzy
 #| msgid "filename"
 msgid "Profile Name"
-msgstr "fayl nomi"
+msgstr "Profil nomi"
 
 #: panels/color/cc-color-panel.ui:222
 msgid ""
 "You can use a color profile on different computers, or even create profiles "
 "for different lighting conditions."
 msgstr ""
+"Siz turli xil kompyuterlarda rangli profildan foydalanishingiz yoki hatto profil yaratishingiz mumkin"
+"turli xil yoritish sharoitlari uchun."
 
 #: panels/color/cc-color-panel.ui:229
 #, fuzzy
 #| msgid "filename"
 msgid "Profile Name:"
-msgstr "fayl nomi"
+msgstr "Profil nomi:"
 
 #: panels/color/cc-color-panel.ui:251
 msgid "Summary"
-msgstr ""
+msgstr "Xulosa"
 
 #: panels/color/cc-color-panel.ui:259
 msgid "Profile successfully created!"
-msgstr ""
+msgstr "Profil muvaffaqiyatli yaratildi!"
 
 #: panels/color/cc-color-panel.ui:290
 #, fuzzy
 #| msgid "Copying files"
 msgid "Copy profile"
-msgstr "Fayllardan nusxa olinmoqda"
+msgstr "Profilni nusxalash"
 
 #: panels/color/cc-color-panel.ui:296
 msgid "Requires writable media"
-msgstr ""
+msgstr "Yoziladigan media kerak"
 
 #: panels/color/cc-color-panel.ui:313
 msgid ""
@@ -935,12 +947,15 @@ msgid ""
 "\">GNU/Linux</a>, <a href=\"osx\">Apple OS X</a> and <a href=\"windows"
 "\">Microsoft Windows</a> systems useful."
 msgstr ""
+"Profildan qanday foydalanish bo'yicha ushbu ko'rsatmalarni <a href=\"linux da topishingiz mumkin."
+"\">GNU/Linux</a>, <a href=\"osx\">Apple OS X</a> va <a href=\"windows"
+"\">Microsoft Windows</a> tizimlari foydali."
 
 #: panels/color/cc-color-panel.ui:335
 #, fuzzy
 #| msgid "All files"
 msgid "Add Profile"
-msgstr "Hamma fayllar"
+msgstr "Profil qo'shish"
 
 #: panels/color/cc-color-panel.ui:373
 msgid ""
