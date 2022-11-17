@@ -1695,7 +1695,7 @@ msgstr "O'zgarishlarni qo'llash mumkin emas"
 
 #: panels/display/cc-display-panel.c:937
 msgid "This could be due to hardware limitations."
-msgstr "Buning sababi apparat cheklovlari bo'lishi mumkin."
+msgstr "Buning sababi qurilma cheklovlari bo'lishi mumkin."
 
 #: panels/display/cc-display-panel.ui:43
 #: panels/network/connection-editor/connection-editor.ui:21
@@ -1868,35 +1868,35 @@ msgstr ":"
 #, fuzzy
 #| msgid "minutes"
 msgid "Minute"
-msgstr "daqiqa"
+msgstr "Daqiqa"
 
 #. This is the short form for the time period in the morning
 #: panels/display/cc-night-light-page.ui:225
 #: panels/display/cc-night-light-page.ui:312
 msgid "AM"
-msgstr ""
+msgstr "AM"
 
 #. This is the short form for the time period in the afternoon
 #: panels/display/cc-night-light-page.ui:237
 #: panels/display/cc-night-light-page.ui:324
 msgid "PM"
-msgstr ""
+msgstr "PM"
 
 #: panels/display/cc-night-light-page.ui:254
 msgid "To"
-msgstr ""
+msgstr "Uchun"
 
 #: panels/display/cc-night-light-page.ui:360
 msgid "Color Temperature"
-msgstr ""
+msgstr "Rang harorati"
 
 #: panels/display/gnome-display-panel.desktop.in.in:3
 msgid "Displays"
-msgstr ""
+msgstr "Displeylar"
 
 #: panels/display/gnome-display-panel.desktop.in.in:4
 msgid "Choose how to use connected monitors and projectors"
-msgstr ""
+msgstr "Ulangan monitor va proyektorlardan qanday foydalanishni tanlang"
 
 #. Translators: Search terms to find the Displays panel. Do NOT translate or localize the semicolons! The list MUST also end with a semicolon!
 #: panels/display/gnome-display-panel.desktop.in.in:19
@@ -1904,12 +1904,14 @@ msgid ""
 "Panel;Projector;xrandr;Screen;Resolution;Refresh;Monitor;Night;Light;Blue;"
 "redshift;color;sunset;sunrise;"
 msgstr ""
+"Panel;Projector;xrandr;Screen;Resolution;Refresh;Monitor;Night;Light;Blue;"
+"redshift;color;sunset;sunrise;"
 
 #. TRANSLATORS: secure boot refers to the system firmware security mode
 #: panels/firmware-security/cc-firmware-security-boot-dialog.c:72
 #: panels/firmware-security/cc-firmware-security-panel.c:109
 msgid "Secure Boot is Active"
-msgstr ""
+msgstr "Xavfsiz yuklash faol"
 
 #. TRANSLATORS: this is the first section of the decription
 #: panels/firmware-security/cc-firmware-security-boot-dialog.c:77
@@ -1917,11 +1919,13 @@ msgid ""
 "Secure boot prevents malicious software from being loaded when the device "
 "starts. It is currently turned on and is functioning correctly."
 msgstr ""
+"Xavfsiz yuklash qurilmaga zararli dasturlarni yuklanishini oldini oladi"
+"boshlanadi. Hozirda u yoqilgan va to'g'ri ishlamoqda."
 
 #. TRANSLATORS: secure boot refers to the system firmware security mode
 #: panels/firmware-security/cc-firmware-security-boot-dialog.c:83
 msgid "Secure Boot Has Problems"
-msgstr ""
+msgstr "Xavfsiz yuklashda muammolar bor"
 
 #. TRANSLATORS: this is the first section of the decription.
 #: panels/firmware-security/cc-firmware-security-boot-dialog.c:87
@@ -1930,6 +1934,9 @@ msgid ""
 "starts. It is currently turned on, but will not work due to having an "
 "invalid key."
 msgstr ""
+"Xavfsiz yuklash qurilmaga zararli dasturlarni yuklanishini oldini oladi"
+"boshlanadi. Hozirda u yoqilgan, lekin yaroqsiz kalit borligi."
+"sababli ishlamaydi"
 
 #. TRANSLATORS: this is the second section of description.
 #: panels/firmware-security/cc-firmware-security-boot-dialog.c:90
@@ -1938,16 +1945,19 @@ msgid ""
 "firmware settings (BIOS) and your hardware manufacturer may provide "
 "information on how to do this."
 msgstr ""
+"Xavfsiz yuklash muammolarini ko'pincha kompyuteringizning UEFI orqali hal qilish mumkin"
+"Proshivka sozlamalari (BIOS) va qurilma ishlab chiqaruvchingiz taqdim etishi mumkin"
+"Buni qanday qilish haqida ma'lumot."
 
 #. TRANSLATORS: this is the third section of description.
 #: panels/firmware-security/cc-firmware-security-boot-dialog.c:93
 msgid "For help, contact your hardware manufacturer or IT support provider."
-msgstr ""
+msgstr "Yordam uchun qurilma ishlab chiqaruvchisi yoki IT-quvvatlash provayderiga murojaat qiling."
 
 #. TRANSLATORS: secure boot refers to the system firmware security mode
 #: panels/firmware-security/cc-firmware-security-boot-dialog.c:99
 msgid "Secure Boot is Turned Off"
-msgstr ""
+msgstr "Xavfsiz yuklash o'chirilgan"
 
 #. TRANSLATORS: this is the first section of the description.
 #: panels/firmware-security/cc-firmware-security-boot-dialog.c:103
@@ -1955,6 +1965,8 @@ msgid ""
 "Secure boot prevents malicious software from being loaded when the device "
 "starts. It is currently turned off."
 msgstr ""
+"Xavfsiz yuklash qurilmaga zararli dasturlarni yuklanishini oldini oladi"
+"boshlanadi. Hozirda u o'chirilgan."
 
 #. TRANSLATORS: this is the second section of the description.
 #: panels/firmware-security/cc-firmware-security-boot-dialog.c:106
@@ -1963,6 +1975,9 @@ msgid ""
 "settings (BIOS). For help, contact your hardware manufacturer or IT support "
 "provider."
 msgstr ""
+"Xavfsiz yuklash ko'pincha kompyuteringizning UEFI mikrodasturidan yoqilishi mumkin"
+"sozlamalar (BIOS). Yordam olish uchun qurilma ishlab chiqaruvchisi yoki IT yordamiga murojaat qiling "
+"provayder".
 
 #: panels/firmware-security/cc-firmware-security-boot-dialog.ui:53
 msgid ""
@@ -1971,6 +1986,10 @@ msgid ""
 "\n"
 "For more information, contact the hardware manufacturer or IT support."
 msgstr ""
+"Xavfsiz yuklash qurilmaga zararli dasturlarni yuklanishini oldini oladi"
+"boshlanadi.\n"
+"\n"
+"Qo'shimcha ma'lumot olish uchun qurilma ishlab chiqaruvchisi yoki IT-quvvatlash xizmatiga murojaat qiling."
 
 #: panels/firmware-security/cc-firmware-security-dialog.c:96
 #: panels/firmware-security/cc-firmware-security-dialog.c:98
@@ -1978,25 +1997,25 @@ msgstr ""
 #, fuzzy
 #| msgid "_Password:"
 msgid "Passed"
-msgstr "_Maxfiy soʻz:"
+msgstr "O'tdi"
 
 #: panels/firmware-security/cc-firmware-security-dialog.c:96
 #: panels/firmware-security/cc-firmware-security-dialog.c:98
 #: panels/firmware-security/cc-firmware-security-dialog.c:100
 msgid "Failed"
-msgstr ""
+msgstr "Muvaffaqiyatsiz"
 
 #. TRANSLATORS: HSI stands for Host Security ID and device refers to the computer as a whole
 #: panels/firmware-security/cc-firmware-security-dialog.c:137
 #, c-format
 msgid "Device conforms to HSI level %d"
-msgstr ""
+msgstr "Qurilma %d HSI darajasiga mos keladi"
 
 #. TRANSLATORS: in reference to firmware protection: 0/4 stars
 #: panels/firmware-security/cc-firmware-security-dialog.c:149
 #: panels/firmware-security/cc-firmware-security-panel.c:482
 msgid "Security Level 0"
-msgstr ""
+msgstr "Xavfsizlik darajasi 0"
 
 #: panels/firmware-security/cc-firmware-security-dialog.c:150
 msgid ""
