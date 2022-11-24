@@ -5123,7 +5123,7 @@ msgstr "noto'g'ri wep-kalit: uzunligi %zu bo'lgan kalit faqat olti burchakli raq
 msgid ""
 "invalid wep-key: key with a length of %zu must contain only ascii characters"
 msgstr ""
-"yaroqsiz wep-kalit: uzunligi %zu boʻlgan kalit faqat ascii belgilaridan iborat boʻlishi kerak"
+"yaroqsiz wep-kalit: uzunligi %zu boʻlgan kalit faqat ascii belgilaridan iborat boʻlishi kerak "
 
 #: panels/network/wireless-security/ws-wep-key.c:137
 #, c-format
@@ -5131,42 +5131,44 @@ msgid ""
 "invalid wep-key: wrong key length %zu. A key must be either of length 5/13 "
 "(ascii) or 10/26 (hex)"
 msgstr ""
+"wep-kalit noto'g'ri: noto'g'ri kalit uzunligi %zu. Kalit uzunligi 5/13 bo'lishi kerak"
+"(ascii) yoki 10/26 (hex)"
 
 #: panels/network/wireless-security/ws-wep-key.c:144
 msgid "invalid wep-key: passphrase must be non-empty"
-msgstr ""
+msgstr "yaroqsiz wep-kalit: parol bo'sh bo'lmasligi kerak"
 
 #: panels/network/wireless-security/ws-wep-key.c:146
 msgid "invalid wep-key: passphrase must be shorter than 64 characters"
-msgstr ""
+msgstr "yaroqsiz wep kaliti: parol 64 belgidan qisqa bo'lishi kerak"
 
 #: panels/network/wireless-security/ws-wep-key.ui:11
 #, fuzzy
 #| msgid "Default"
 msgid "1 (Default)"
-msgstr "Andoza"
+msgstr "1 (Standart)"
 
 #: panels/network/wireless-security/ws-wep-key.ui:31
 #, fuzzy
 #| msgid "File System"
 msgid "Open System"
-msgstr "Fayl tizimi"
+msgstr "Ochiq tizim"
 
 #: panels/network/wireless-security/ws-wep-key.ui:34
 msgid "Shared Key"
-msgstr ""
+msgstr "Umumiy kalit"
 
 #: panels/network/wireless-security/ws-wep-key.ui:44
 msgid "_Key"
-msgstr ""
+msgstr "_Kalit"
 
 #: panels/network/wireless-security/ws-wep-key.ui:75
 msgid "Sho_w key"
-msgstr ""
+msgstr "Kalitni ko'rsatish"
 
 #: panels/network/wireless-security/ws-wep-key.ui:115
 msgid "WEP inde_x"
-msgstr ""
+msgstr "WEP indeksi"
 
 #: panels/network/wireless-security/ws-wpa-psk.c:77
 #, c-format
@@ -5174,16 +5176,18 @@ msgid ""
 "invalid wpa-psk: invalid key-length %zu. Must be [8,63] bytes or 64 hex "
 "digits"
 msgstr ""
+"yaroqsiz wpa-psk: kalit uzunligi %zu noto'g'ri. [8,63] bayt yoki 64 hex raqam "
+"bo'lishi kerak"
 
 #: panels/network/wireless-security/ws-wpa-psk.c:86
 msgid "invalid wpa-psk: cannot interpret key with 64 bytes as hex"
-msgstr ""
+msgstr "noto'g'ri wpa-psk: 64 baytli kalitni hex sifatida talqin qila olmaydi"
 
 #. This is the per application switch for message tray usage.
 #: panels/notifications/cc-app-notifications-dialog.ui:15
 msgctxt "notifications"
 msgid "_Notifications"
-msgstr ""
+msgstr "_Bildirishnomalar"
 
 #. This is the setting to configure sounds associated with notifications.
 #: panels/notifications/cc-app-notifications-dialog.ui:29
@@ -5191,55 +5195,57 @@ msgstr ""
 #| msgid "Sounds"
 msgctxt "notifications"
 msgid "Sound _Alerts"
-msgstr "Tovushlar"
+msgstr "Ovozli _Ogohlantirishlar"
 
 #: panels/notifications/cc-app-notifications-dialog.ui:42
 msgctxt "notifications"
 msgid "Notification _Popups"
-msgstr ""
+msgstr "Bildirishnoma oynalari"
 
 #: panels/notifications/cc-app-notifications-dialog.ui:43
 msgid ""
 "Notifications will continue to appear in the notification list when popups "
 "are disabled."
 msgstr ""
+"Qalqib chiquvchi oynalar o'chirilganda bildirishnomalar bildirishnomalar ro'yxatida" 
+"paydo bo'lishda davom etadi."
 
 #. Popups here refers to message tray notifications in the middle of the screen.
 #: panels/notifications/cc-app-notifications-dialog.ui:56
 msgctxt "notifications"
 msgid "Show Message _Content in Popups"
-msgstr ""
+msgstr "Qalqib chiquvchi oynalarda _xabarlar tarkibini ko'rsatish"
 
 #: panels/notifications/cc-app-notifications-dialog.ui:69
 #, fuzzy
 #| msgid "Lock screen's shortcut."
 msgctxt "notifications"
 msgid "_Lock Screen Notifications"
-msgstr "Ekranni qulflash tugmalar birikmasi."
+msgstr "_Blok ekrani bildirishnomalari"
 
 #: panels/notifications/cc-app-notifications-dialog.ui:82
 msgctxt "notifications"
 msgid "Show Message C_ontent on Lock Screen"
-msgstr ""
+msgstr "Bloklangan ekranda xabar mazmunini ko'rsatish"
 
 #: panels/notifications/cc-notifications-panel.ui:10
 msgid "_Do Not Disturb"
-msgstr ""
+msgstr "Bezovta qilmang"
 
 #: panels/notifications/cc-notifications-panel.ui:17
 #, fuzzy
 #| msgid "Lock screen's shortcut."
 msgid "_Lock Screen Notifications"
-msgstr "Ekranni qulflash tugmalar birikmasi."
+msgstr "_Blok ekrani bildirishnomalari"
 
 #: panels/notifications/gnome-notifications-panel.desktop.in.in:4
 msgid "Control which notifications are displayed and what they show"
-msgstr ""
+msgstr "Qaysi bildirishnomalar ko'rsatilishini va ular nimani ko'rsatishini boshqarish"
 
 #. Translators: Search terms to find the Notifications panel. Do NOT translate or localize the semicolons! The list MUST also end with a semicolon!
 #: panels/notifications/gnome-notifications-panel.desktop.in.in:20
 msgid "Notifications;Banner;Message;Tray;Popup;"
-msgstr ""
+msgstr "Notifications;Banner;Message;Tray;Popup;"
 
 #: panels/online-accounts/cc-online-account-provider-row.c:95
 #, fuzzy
@@ -5254,23 +5260,23 @@ msgstr "Boshqa"
 #: panels/online-accounts/cc-online-accounts-panel.c:280
 #, c-format
 msgid "%s removed"
-msgstr ""
+msgstr "%s o'chirildi"
 
 #: panels/online-accounts/cc-online-accounts-panel.c:695
 msgid "Error removing account"
-msgstr ""
+msgstr "Hisobni o'chirishda xatolik yuz berdi"
 
 #. Translators: This is the button which allows undoing the removal of the printer.
 #: panels/online-accounts/cc-online-accounts-panel.ui:23
 #: panels/printers/printers.ui:47
 msgid "Undo"
-msgstr ""
+msgstr "Bekor qilish"
 
 #: panels/online-accounts/cc-online-accounts-panel.ui:31
 #, fuzzy
 #| msgid "<b>_Use authentication</b>"
 msgid "Close the notification"
-msgstr "<b>Tasdiqlashdan _foydalanish</b>"
+msgstr "Bildirishnomani yoping"
 
 #: panels/online-accounts/cc-online-accounts-panel.ui:58
 msgid "Connect to your data in the cloud"
