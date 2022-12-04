@@ -115,20 +115,24 @@ msgid ""
 "If enabled, GNOME Software automatically downloads software updates in the "
 "background, also installing ones that do not require a reboot."
 msgstr ""
+"Agar yoqilgan bo'lsa, GNOME Software dasturiy ta'minot yangilanishlarini fonda avtomatik"
+"ravishda yuklab oladi, shuningdek, qayta ishga tushirishni talab qilmaydiganlarini o'rnatadi."
 
 #: data/org.gnome.software.gschema.xml:20
 msgid "Notify the user about software updated in the background"
-msgstr ""
+msgstr "Orqa fonda yangilangan dasturiy ta'minot haqida foydalanuvchini xabardor qilish"
 
 #: data/org.gnome.software.gschema.xml:21
 msgid ""
 "If enabled, GNOME Software notifies the user about updates that happened "
 "whilst the user was idle."
 msgstr ""
+"Agar yoqilgan bo'lsa, GNOME dasturiy ta'minoti foydalanuvchi bo'sh turgan paytda"
+"sodir bo'lgan yangilanishlar haqida foydalanuvchini xabardor qiladi."
 
 #: data/org.gnome.software.gschema.xml:25
 msgid "Whether to automatically refresh when on a metered connection"
-msgstr ""
+msgstr "Hisoblangan ulanishda avtomatik yangilanish kerakmi"
 
 #: data/org.gnome.software.gschema.xml:26
 msgid ""
@@ -136,55 +140,61 @@ msgid ""
 "when using a metered connection (eventually downloading some metadata, "
 "checking for updates, etc., which may incur in costs for the user)."
 msgstr ""
+"Agar yoqilgan bo'lsa, GNOME dasturiy ta'minoti hisoblangan ulanishdan"
+"foydalanganda ham avtomatik ravishda fonda yangilanadi (oxir-oqibat ba'zi"
+"metama'lumotlarni yuklab olish, yangilanishlarni tekshirish va h.k., bu foydalanuvchi"
+"uchun xarajatlarga olib kelishi mumkin)."
 
 #: data/org.gnome.software.gschema.xml:30
 msgid "Whether it’s the very first run of GNOME Software"
-msgstr ""
+msgstr "Bu GNOME dasturiy ta'minotining birinchi versiyasi bo'ladimi"
 
 #: data/org.gnome.software.gschema.xml:34
 msgid "Show star ratings next to applications"
-msgstr ""
+msgstr "Ilovalar yonida yulduzcha baholarni ko'rsatish"
 
 #: data/org.gnome.software.gschema.xml:38
 msgid "Filter applications based on the default branch set for the remote"
-msgstr ""
+msgstr "Ilovalarni masofadan boshqarish pulti uchun o'rnatilgan standart tarmoq asosida filtrlang"
 
 #: data/org.gnome.software.gschema.xml:42
 msgid "Non-free applications show a warning dialog before install"
-msgstr ""
+msgstr "Bepul bo'lmagan ilovalar o'rnatishdan oldin ogohlantirish dialogini ko'rsatadi"
 
 #: data/org.gnome.software.gschema.xml:43
 msgid ""
 "When non-free applications are installed a warning dialog can be shown. This "
 "controls if that dialog is suppressed."
 msgstr ""
+"Bepul bo'lmagan ilovalar o'rnatilganda ogohlantirish dialogi ko'rsatilishi mumkin."
+"Bu dialog oynasi bosilganligini nazorat qiladi."
 
 #: data/org.gnome.software.gschema.xml:47
 msgid "The last update check timestamp"
-msgstr ""
+msgstr "Oxirgi yangilanishni tekshirish vaqt belgisi"
 
 #: data/org.gnome.software.gschema.xml:51
 msgid "The last upgrade notification timestamp"
-msgstr ""
+msgstr "Oxirgi yangilanish bildirishnomasi"
 
 #: data/org.gnome.software.gschema.xml:55
 msgid "The last update notification timestamp"
-msgstr ""
+msgstr "Oxirgi yangilanish bildirishnomasi vaqt belgisi"
 
 #: data/org.gnome.software.gschema.xml:59
 msgid "The timestamp of the first security update, cleared after update"
-msgstr ""
+msgstr "Birinchi xavfsizlik yangilanishining sana vaqti, yangilanishdan keyin tozalanadi"
 
 #: data/org.gnome.software.gschema.xml:63
 msgid "The last update timestamp"
-msgstr ""
+msgstr "Oxirgi yangilanish sana vaqti"
 
 #: data/org.gnome.software.gschema.xml:67
 msgid "The last timestamp when the system was online and got any updates"
-msgstr ""
+msgstr "Tizim onlayn bo'lgan va har qanday yangilanishlar olgan oxirgi sana vaqti"
 
 #: data/org.gnome.software.gschema.xml:71
-msgid "The age in seconds to verify the upstream screenshot is still valid"
+msgid "Yuqoridagi skrinshotni tekshirish uchun soniyalardagi vaqt hali ham amal qiladi"
 msgstr ""
 
 #: data/org.gnome.software.gschema.xml:72
@@ -193,51 +203,55 @@ msgid ""
 "updates to the screenshots may take longer to show to the user. A value of 0 "
 "means to never check the server if the image already exists in the cache."
 msgstr ""
+"Kattaroq qiymatni tanlash masofaviy serverga kamroq aylanishni anglatadi, ammo"
+"skrinshotlarga yangilanishlar foydalanuvchiga ko'proq vaqt olishi mumkin. 0 qiymati,"
+"agar tasvir keshda mavjud bo'lsa, serverni hech qachon tekshirmaslikni anglatadi."
 
 #: data/org.gnome.software.gschema.xml:81
 msgid "The server to use for application reviews"
-msgstr ""
+msgstr "Ilovalarni ko'rib chiqish uchun foydalaniladigan server"
 
 #: data/org.gnome.software.gschema.xml:85
 msgid "The minimum karma score for reviews"
-msgstr ""
+msgstr "Sharhlar uchun minimal ko'rsatish bali"
 
 #: data/org.gnome.software.gschema.xml:86
 msgid "Reviews with karma less than this number will not be shown."
-msgstr ""
+msgstr "Bu raqamdan kam bo'lgan sharhlar ko'rsatilmaydi."
 
 #: data/org.gnome.software.gschema.xml:90
 msgid "A list of official repositories that should not be considered 3rd party"
-msgstr ""
+msgstr "Uchinchi tomon hisoblanmasligi kerak bo'lgan rasmiy omborlar ro'yxati"
 
 #: data/org.gnome.software.gschema.xml:94
 msgid "A list of required repositories that cannot be disabled or removed"
-msgstr ""
+msgstr "O'chirib bo'lmaydigan yoki olib tashlanmaydigan kerakli omborlar ro'yxati"
 
 #: data/org.gnome.software.gschema.xml:98
 msgid "A list of official repositories that should be considered free software"
-msgstr ""
+msgstr "Bepul dasturiy ta'minot deb hisoblanishi kerak bo'lgan rasmiy omborlar ro'yxati"
 
 #: data/org.gnome.software.gschema.xml:102
 msgid ""
 "The licence URL to use when an application should be considered free software"
 msgstr ""
+"Ilova bepul dasturiy ta'minot sifatida ko'rib chiqilishi kerak bo'lganda foydalanish uchun litsenziya URL manzili"
 
 #: data/org.gnome.software.gschema.xml:106
 msgid "Install bundled applications for all users on the system where possible"
-msgstr ""
+msgstr "Iloji bo'lsa, tizimdagi barcha foydalanuvchilar uchun to'plangan ilovalarni o'rnating"
 
 #: data/org.gnome.software.gschema.xml:110
 msgid "Allow access to the Software Repositories dialog"
-msgstr ""
+msgstr "Dasturiy ta'minot omborlari muloqot oynasiga kirishga ruxsat bering"
 
 #: data/org.gnome.software.gschema.xml:114
 msgid "Offer upgrades for pre-releases"
-msgstr ""
+msgstr "Pre-relizlar uchun yangilanishlarni taklif qilish"
 
 #: data/org.gnome.software.gschema.xml:118
 msgid "Show some UI elements informing the user that an app is non-free"
-msgstr ""
+msgstr "Ilova bepul emasligi haqida foydalanuvchiga xabar beruvchi baʼzi UI elementlarini koʻrsatish"
 
 #: data/org.gnome.software.gschema.xml:122
 msgid "Show the installed size for apps in the list of installed applications"
