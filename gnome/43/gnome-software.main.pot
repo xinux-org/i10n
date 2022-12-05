@@ -255,22 +255,24 @@ msgstr "Ilova bepul emasligi haqida foydalanuvchiga xabar beruvchi baʼzi UI ele
 
 #: data/org.gnome.software.gschema.xml:122
 msgid "Show the installed size for apps in the list of installed applications"
-msgstr ""
+msgstr "O'rnatilgan ilovalar ro'yxatida ilovalar uchun o'rnatilgan hajmni ko'rsatish"
 
 #. Translators: Replace the link with a version in your language, e.g. 'https://de.wikipedia.org/wiki/Proprietäre_Software'. Remember to include ''.
 #: data/org.gnome.software.gschema.xml:126
 msgid "'https://en.wikipedia.org/wiki/Proprietary_software'"
-msgstr ""
+msgstr "'https://en.wikipedia.org/wiki/Proprietary_software'"
 
 #: data/org.gnome.software.gschema.xml:127
 msgid "The URI that explains nonfree and proprietary software"
-msgstr ""
+msgstr "Erkin bo'lmagan va xususiy dasturiy ta'minotni tushuntiruvchi URI"
 
 #: data/org.gnome.software.gschema.xml:131
 msgid ""
 "A list of URLs pointing to appstream files that will be downloaded into an "
 "swcatalog folder"
 msgstr ""
+"Svkatalog jildiga yuklab olinadigan ilovalar oqimi fayllariga ishora qiluvchi URL"
+"manzillar ro'yxati"
 
 #: data/org.gnome.software.gschema.xml:135
 msgid ""
@@ -278,6 +280,9 @@ msgid ""
 "false, files are installed in non-standard $XDG_DATA_HOME/swcatalog/xml "
 "directory"
 msgstr ""
+"AppStream fayllarini barcha foydalanuvchilar uchun tizim bo'ylab o'rnating."
+"Agar noto'g'ri bo'lsa, fayllar nostandart $XDG_DATA_HOME/swcatalog/xml"
+"katalogiga o'rnatiladi"
 
 #: data/org.gnome.software.gschema.xml:139
 msgid ""
@@ -286,130 +291,134 @@ msgid ""
 "assumed to be listed last. Example packaging formats are: deb, flatpak, rpm, "
 "snap."
 msgstr ""
+"Paketlar formatlarining ustuvor tartibi, birinchi navbatda muhimroq formatlar"
+"sanab o'tilgan. Bo'sh massiv standart tartibni bildiradi. O'tkazib yuborilgan formatlar"
+"oxirgi ro'yxatda bo'ladi deb taxmin qilinadi. Paketlar formatlariga misol:"
+"deb, flatpak, rpm, snap."
 
 #: data/org.gnome.software.gschema.xml:146
 msgid "A string storing the gnome-online-account id used to login"
-msgstr ""
+msgstr "Kirish uchun ishlatiladigan gnome-online-hisob identifikatorini saqlaydigan qator"
 
 #. TRANSLATORS: tool that is used when moving profiles system-wide
 #: gs-install-appstream/gs-install-appstream.c:143
 msgid "GNOME Software AppStream system-wide installer"
-msgstr ""
+msgstr "GNOME Software AppStream tizim bo'ylab o'rnatuvchisi"
 
 #: gs-install-appstream/gs-install-appstream.c:145
 msgid "Failed to parse command line arguments"
-msgstr ""
+msgstr "Buyruqlar qatori argumentlarini tahlil qilib bo‘lmadi"
 
 #. TRANSLATORS: user did not specify a valid filename
 #: gs-install-appstream/gs-install-appstream.c:152
 msgid "You need to specify exactly one filename"
-msgstr ""
+msgstr "Aynan bitta fayl nomini ko'rsatishingiz kerak"
 
 #. TRANSLATORS: only able to install files as root
 #: gs-install-appstream/gs-install-appstream.c:159
 msgid "This program can only be used by the root user"
-msgstr ""
+msgstr "Ushbu dastur faqat root foydalanuvchi tomonidan ishlatilishi mumkin"
 
 #. TRANSLATORS: error details
 #: gs-install-appstream/gs-install-appstream.c:167
 #, c-format
 msgid "Failed to validate content type: %s"
-msgstr ""
+msgstr "Kontent turini tekshirib bo‘lmadi: %s"
 
 #. TRANSLATORS: error details
 #: gs-install-appstream/gs-install-appstream.c:178
 #, c-format
 msgid "Failed to move: %s"
-msgstr ""
+msgstr "Ko‘chirib bo‘lmadi: %s"
 
 #: src/gnome-software-local-file-flatpak.desktop.in:3
 #: src/gnome-software-local-file-fwupd.desktop.in:3
 #: src/gnome-software-local-file-packagekit.desktop.in:3
 #: src/gnome-software-local-file-snap.desktop.in:3
 msgid "Software Install"
-msgstr ""
+msgstr "Dasturiy ta'minot o'rnatish"
 
 #: src/gnome-software-local-file-flatpak.desktop.in:4
 #: src/gnome-software-local-file-fwupd.desktop.in:4
 #: src/gnome-software-local-file-packagekit.desktop.in:4
 #: src/gnome-software-local-file-snap.desktop.in:4
 msgid "Install selected software on the system"
-msgstr ""
+msgstr "Tanlangan dasturiy ta'minotni tizimga o'rnating"
 
 #. TRANSLATORS: content rating title, see https://hughsie.github.io/oars/
 #: src/gs-age-rating-context-dialog.c:134
 msgid "Cartoon Violence"
-msgstr ""
+msgstr "Multfilm zo'ravonlik"
 
 #. TRANSLATORS: content rating description, see https://hughsie.github.io/oars/
 #: src/gs-age-rating-context-dialog.c:136
 msgid "No information regarding cartoon violence"
-msgstr ""
+msgstr "Multfilmdagi zo'ravonlik haqida ma'lumot yo'q"
 
 #. TRANSLATORS: content rating title, see https://hughsie.github.io/oars/
 #: src/gs-age-rating-context-dialog.c:144
 msgid "Fantasy Violence"
-msgstr ""
+msgstr "Fantaziya zo'ravonlik"
 
 #. TRANSLATORS: content rating description, see https://hughsie.github.io/oars/
 #: src/gs-age-rating-context-dialog.c:146
 msgid "No information regarding fantasy violence"
-msgstr ""
+msgstr "Fantaziya zo'ravonligi haqida ma'lumot yo'q"
 
 #. TRANSLATORS: content rating title, see https://hughsie.github.io/oars/
 #: src/gs-age-rating-context-dialog.c:154
 msgid "Realistic Violence"
-msgstr ""
+msgstr "Haqiqiy zo'ravonlik"
 
 #. TRANSLATORS: content rating description, see https://hughsie.github.io/oars/
 #: src/gs-age-rating-context-dialog.c:156
 msgid "No information regarding realistic violence"
-msgstr ""
+msgstr "Haqiqiy zo'ravonlik haqida ma'lumot yo'q"
 
 #. TRANSLATORS: content rating title, see https://hughsie.github.io/oars/
 #: src/gs-age-rating-context-dialog.c:164
 msgid "Violence Depicting Bloodshed"
-msgstr ""
+msgstr "Qon to'kilishini aks ettiruvchi zo'ravonlik"
 
 #. TRANSLATORS: content rating description, see https://hughsie.github.io/oars/
 #: src/gs-age-rating-context-dialog.c:166
 msgid "No information regarding bloodshed"
-msgstr ""
+msgstr "Qon to'kilishi haqida ma'lumot yo'q"
 
 #. TRANSLATORS: content rating title, see https://hughsie.github.io/oars/
 #: src/gs-age-rating-context-dialog.c:174
 msgid "Sexual Violence"
-msgstr ""
+msgstr "Jinsiy zo'ravonlik"
 
 #. TRANSLATORS: content rating description, see https://hughsie.github.io/oars/
 #: src/gs-age-rating-context-dialog.c:176
 msgid "No information regarding sexual violence"
-msgstr ""
+msgstr "Jinsiy zo'ravonlik haqida ma'lumot yo'q"
 
 #. TRANSLATORS: content rating title, see https://hughsie.github.io/oars/
 #: src/gs-age-rating-context-dialog.c:184
 msgid "Alcohol"
-msgstr ""
+msgstr "Spirtli ichimliklar"
 
 #. TRANSLATORS: content rating description, see https://hughsie.github.io/oars/
 #: src/gs-age-rating-context-dialog.c:186
 msgid "No information regarding references to alcohol"
-msgstr ""
+msgstr "Spirtli ichimliklar haqida ma'lumot yo'q"
 
 #. TRANSLATORS: content rating title, see https://hughsie.github.io/oars/
 #: src/gs-age-rating-context-dialog.c:194
 msgid "Narcotics"
-msgstr ""
+msgstr "Giyohvand moddalar"
 
 #. TRANSLATORS: content rating description, see https://hughsie.github.io/oars/
 #: src/gs-age-rating-context-dialog.c:196
 msgid "No information regarding references to illicit drugs"
-msgstr ""
+msgstr "Noqonuniy giyohvand moddalarga havolalar haqida ma'lumot yo'q"
 
 #. TRANSLATORS: content rating title, see https://hughsie.github.io/oars/
 #: src/gs-age-rating-context-dialog.c:204
 msgid "Tobacco"
-msgstr ""
+msgstr "Tamaki"
 
 #. TRANSLATORS: content rating description, see https://hughsie.github.io/oars/
 #: src/gs-age-rating-context-dialog.c:206
