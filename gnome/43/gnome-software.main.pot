@@ -860,27 +860,27 @@ msgstr "Fayl tizimi"
 #. The GS_APP_PERMISSIONS_FLAGS_FILESYSTEM_OTHER is used only as a flag, with actual files being part of the read/full lists
 #: src/gs-app-details-page.c:77 src/gs-app-details-page.c:78
 msgid "Downloads folder"
-msgstr ""
+msgstr "Yuklashlar jildi"
 
 #: src/gs-app-details-page.c:79
 msgid "Settings"
-msgstr ""
+msgstr "Sozlamalar"
 
 #: src/gs-app-details-page.c:79
 msgid "Can view and change any settings"
-msgstr ""
+msgstr "Har qanday sozlamalarni ko'rish va o'zgartirish mumkin"
 
 #: src/gs-app-details-page.c:80
 msgid "Legacy display system"
-msgstr ""
+msgstr "Eski displey tizimi"
 
 #: src/gs-app-details-page.c:80
 msgid "Uses an old, insecure display system"
-msgstr ""
+msgstr "Eski, xavfsiz bo'lmagan displey tizimidan foydalanadi"
 
 #: src/gs-app-details-page.c:81
 msgid "Sandbox escape"
-msgstr ""
+msgstr "Sandbox escape"
 
 #: src/gs-app-details-page.c:81
 msgid "Can escape the sandbox and circumvent any other restrictions"
@@ -890,126 +890,128 @@ msgstr ""
 #. set window title
 #: src/gs-app-details-page.c:166
 msgid "Update Details"
-msgstr ""
+msgstr "Tafsilotlarni yangilash"
 
 #. TRANSLATORS: this is where the packager did not write
 #. * a description for the update
 #: src/gs-app-details-page.c:174
 msgid "No update description available."
-msgstr ""
+msgstr "Yangilanish tavsifi mavjud emas."
 
 #: src/gs-app-details-page.ui:25 src/gs-os-update-page.ui:25
 #: src/gs-shell.ui:367 src/gs-shell.ui:458
 msgid "Go back"
-msgstr ""
+msgstr "Ortga qaytish"
 
 #: src/gs-app-details-page.ui:48 src/gs-app-row.c:516
 msgid "Requires additional permissions"
-msgstr ""
+msgstr "Qo'shimcha ruxsatlarni talab qiladi"
 
 #. Translators: Header of the section with other users' opinions about the app.
 #: src/gs-app-reviews-dialog.ui:6 src/gs-details-page.ui:855
 msgid "Reviews"
-msgstr ""
+msgstr "Sharhlar"
 
 #: src/gs-app-reviews-dialog.ui:25
 msgid "No reviews were found for this application."
-msgstr ""
+msgstr "Ushbu ilova uchun hech qanday sharh topilmadi."
 
 #: src/gs-app-reviews-dialog.ui:27
 msgid "No Reviews"
-msgstr ""
+msgstr "Sharhlar yo'q"
 
 #: src/gs-app-version-history-dialog.ui:6 src/gs-details-page.ui:533
 msgid "Version History"
-msgstr ""
+msgstr Versiya tarixi""
 
 #: src/gs-app-version-history-row.c:71
 #, c-format
 msgid "New in Version %s"
-msgstr ""
+msgstr "%s versiyada yangi"
 
 #: src/gs-app-version-history-row.c:78
 #, c-format
 msgid "Version %s"
-msgstr ""
+msgstr "Versiya %s"
 
 #: src/gs-app-version-history-row.c:80
 msgid "No details for this release"
-msgstr ""
+msgstr "Ushbu nashr uchun tafsilotlar yo'q"
 
 #. TRANSLATORS: This is the date string with: day number, month name, year.
 #. i.e. "25 May 2012"
 #: src/gs-app-version-history-row.c:94 src/gs-review-row.c:63
 msgid "%e %B %Y"
-msgstr ""
+msgstr "%e %B %Y"
 
 #. TRANSLATORS: this is a command line option
 #: src/gs-application.c:124
 msgid "Start up mode: either ‘updates’, ‘updated’, ‘installed’ or ‘overview’"
-msgstr ""
+msgstr "Ishga tushirish rejimi: ‘yangilanishlar‘, ‘yangilangan‘, ‘o'rnatilgan‘ yoki ‘umumiy ko'rish‘"
 
 #: src/gs-application.c:124
 msgid "MODE"
-msgstr ""
+msgstr "REJIM"
 
 #: src/gs-application.c:126
 msgid "Search for applications"
-msgstr ""
+msgstr "Ilovalarni qidirish"
 
 #: src/gs-application.c:126
 msgid "SEARCH"
-msgstr ""
+msgstr "QIDIRUV"
 
 #: src/gs-application.c:128
 msgid "Show application details (using application ID)"
-msgstr ""
+msgstr "Ilova tafsilotlarini ko'rsatish (ilova identifikatori yordamida)"
 
 #: src/gs-application.c:128 src/gs-application.c:132 src/gs-application.c:134
 msgid "ID"
-msgstr ""
+msgstr "ID"
 
 #: src/gs-application.c:130
 msgid "Show application details (using package name)"
-msgstr ""
+msgstr "Ilova tafsilotlarini ko'rsatish (paket nomidan foydalanib)"
 
 #: src/gs-application.c:130
 msgid "PKGNAME"
-msgstr ""
+msgstr "PAKETNOMI"
 
 #: src/gs-application.c:132
 msgid "Install the application (using application ID)"
-msgstr ""
+msgstr "Ilovani o'rnating (ilova identifikatori yordamida)"
 
 #: src/gs-application.c:134
 msgid "Uninstall the application (using application ID)"
-msgstr ""
+msgstr "Ilovani o'chirib tashlang (ilova identifikatori yordamida)"
 
 #: src/gs-application.c:136
 msgid "Open a local package file"
-msgstr ""
+msgstr "Mahalliy paket faylini ochish"
 
 #: src/gs-application.c:136 src/gs-application.c:141
 msgid "FILENAME"
-msgstr ""
+msgstr "FAYLNOMI"
 
 #: src/gs-application.c:138
 msgid ""
 "The kind of interaction expected for this action: either ‘none’, ‘notify’, "
 "or ‘full’"
 msgstr ""
+"Ushbu harakat uchun kutilayotgan xabar turi: ’yo'q’, ’xabar berish’"
+"yoki ’to'liq’"
 
 #: src/gs-application.c:141
 msgid "Show a local metainfo or appdata file"
-msgstr ""
+msgstr "Mahalliy metainfo yoki appdata faylini ko'rsatish"
 
 #: src/gs-application.c:143
 msgid "Show verbose debugging information"
-msgstr ""
+msgstr "Batafsil nosozliklarni tuzatish ma'lumotlarini ko'rsatish"
 
 #: src/gs-application.c:145
 msgid "Installs any pending updates in the background"
-msgstr ""
+msgstr "Har qanday kutilayotgan yangilanishlarni fonda o'rnatadi"
 
 #: src/gs-application.c:147
 msgid "Show update preferences"
