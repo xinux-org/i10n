@@ -1944,6 +1944,8 @@ msgid ""
 "%s is not <a href=\"https://en.wikipedia.org/wiki/Free_and_open-"
 "source_software\">free and open source software</a>, and is provided by “%s”."
 msgstr ""
+"%s <a href=\"https://en.wikipedia.org/wiki/Free_and_open-"
+"source_software\">bepul va ochiq kodli dasturiy ta'minot</a> va “%s” tomonidan taqdim etilgan.""
 
 #. TRANSLATORS: the replacements are as follows:
 #. * 1. Application name, e.g. "Firefox"
@@ -1951,121 +1953,121 @@ msgstr ""
 #: src/gs-common.c:250
 #, c-format
 msgid "%s is provided by “%s”."
-msgstr ""
+msgstr "%s “%s” tomonidan taqdim etiladi."
 
 #: src/gs-common.c:259
 msgid "This software repository must be enabled to continue installation."
-msgstr ""
+msgstr "O'rnatishni davom ettirish uchun ushbu dasturiy ta'minot ombori yoqilgan bo'lishi kerak."
 
 #. TRANSLATORS: Laws are geographical, urgh...
 #: src/gs-common.c:269
 #, c-format
 msgid "It may be illegal to install or use %s in some countries."
-msgstr ""
+msgstr "Baʼzi mamlakatlarda %s ni oʻrnatish yoki ishlatish noqonuniy boʻlishi mumkin."
 
 #. TRANSLATORS: Laws are geographical, urgh...
 #: src/gs-common.c:275
 msgid "It may be illegal to install or use this codec in some countries."
-msgstr ""
+msgstr "Ba'zi mamlakatlarda ushbu kodekni o'rnatish yoki ishlatish noqonuniy bo'lishi mumkin."
 
 #. TRANSLATORS: this is button text to not ask about non-free content again
 #: src/gs-common.c:282
 msgid "Don’t Warn Again"
-msgstr ""
+msgstr "Qayta Ogohlantirmang"
 
 #. TRANSLATORS: button text
 #: src/gs-common.c:291
 msgid "Enable and Install"
-msgstr ""
+msgstr "Yoqish va o'rnatish"
 
 #. TRANSLATORS: these are show_detailed_error messages from the
 #. * package manager no mortal is supposed to understand,
 #. * but google might know what they mean
 #: src/gs-common.c:493
 msgid "Detailed errors from the package manager follow:"
-msgstr ""
+msgstr "Paket menejerining batafsil xatolari quyidagilardan iborat:"
 
 #: src/gs-common.c:509 src/gs-safety-context-dialog.ui:72
 msgid "Details"
-msgstr ""
+msgstr "Tafsilotlar"
 
 #. Translators: an accept button label, in a Cancel/Accept dialog
 #: src/gs-common.c:600
 msgid "_Accept"
-msgstr ""
+msgstr "_Qabul qilaman"
 
 #. TRANSLATORS: we've just live-updated some apps
 #: src/gs-common.c:750
 msgid "An update has been installed"
 msgid_plural "Updates have been installed"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "Yangilanish o'rnatildi"
+msgstr[1] "Yangilanishlar o'rnatildi"
 
 #. TRANSLATORS: we've just removed some apps
 #: src/gs-common.c:760
 msgid "An application has been removed"
 msgid_plural "Applications have been removed"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "Ilova o'chirib tashlandi"
+msgstr[1] "Ilovalar o'chirib tashlandi"
 
 #. TRANSLATORS: the new apps will not be run until we restart
 #: src/gs-common.c:766
 msgid "A restart is required for it to take effect."
 msgid_plural "A restart is required for them to take effect."
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "Uning kuchga kirishi uchun qayta ishga tushirish kerak."
+msgstr[1] "Ular kuchga kirishi uchun qayta ishga tushirish talab qilinadi."
 
 #. TRANSLATORS: button text
 #: src/gs-common.c:773
 msgid "Not Now"
-msgstr ""
+msgstr "Hozir emas"
 
 #. TRANSLATORS: something happened less than 5 minutes ago
 #: src/gs-common.c:869
 msgid "Just now"
-msgstr ""
+msgstr "Hozirgina"
 
 #: src/gs-common.c:871
 #, c-format
 msgid "%d minute ago"
 msgid_plural "%d minutes ago"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%d daqiqa oldin"
+msgstr[1] "%d daqiqa oldin"
 
 #: src/gs-common.c:875
 #, c-format
 msgid "%d hour ago"
 msgid_plural "%d hours ago"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%d soat oldin"
+msgstr[1] "%d soat oldin"
 
 #: src/gs-common.c:879
 #, c-format
 msgid "%d day ago"
 msgid_plural "%d days ago"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%d kun oldin"
+msgstr[1] "%d kun oldin"
 
 #: src/gs-common.c:883
 #, c-format
 msgid "%d week ago"
 msgid_plural "%d weeks ago"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%d hafta oldin"
+msgstr[1] "%d hafta oldin"
 
 #: src/gs-common.c:887
 #, c-format
 msgid "%d month ago"
 msgid_plural "%d months ago"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%d oy oldin"
+msgstr[1] "%d oy oldin"
 
 #: src/gs-common.c:891
 #, c-format
 msgid "%d year ago"
 msgid_plural "%d years ago"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%d yil oldin"
+msgstr[1] "%d yil oldin"
 
 #. Translators: This is to construct a disk size string consisting of the value and its unit, while
 #. * the unit is drawn with a smaller font. If you need to flip the order, then you can use "%2$s %1$s".
@@ -2075,12 +2077,12 @@ msgstr[1] ""
 #, c-format
 msgctxt "format-size"
 msgid "%s %s"
-msgstr ""
+msgstr "%s %s"
 
 #. TRANSLATORS: this is a what we use in notifications if the app's name is unknown
 #: src/gs-dbus-helper.c:291
 msgid "An application"
-msgstr ""
+msgstr "Ilova"
 
 #. TRANSLATORS: this is a notification displayed when an app needs additional MIME types.
 #: src/gs-dbus-helper.c:297
