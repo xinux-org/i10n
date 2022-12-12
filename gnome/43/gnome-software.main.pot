@@ -3095,14 +3095,16 @@ msgid ""
 "Some of the currently installed software is not compatible with %s. If you "
 "continue, the following will be automatically removed during the upgrade:"
 msgstr ""
+"Hozirda oʻrnatilgan baʼzi dasturiy taʼminot %s bilan mos kelmaydi."
+"Agar davom etsangiz, yangilash vaqtida quyidagilar avtomatik ravishda oʻchiriladi:"
 
 #: src/gs-removal-dialog.ui:4
 msgid "Incompatible Software"
-msgstr ""
+msgstr "Mos kelmaydigan dasturiy ta'minot"
 
 #: src/gs-removal-dialog.ui:23
 msgid "_Continue"
-msgstr ""
+msgstr "_Davom etish"
 
 #. TRANSLATORS: The '%s' is replaced with a repository name, like "Fedora Modular - x86_64"
 #: src/gs-repos-dialog.c:239
@@ -3110,38 +3112,39 @@ msgstr ""
 msgid ""
 "Software that has been installed from “%s” will cease to receive updates."
 msgstr ""
+"“%s” dan oʻrnatilgan dasturiy taʼminot yangilanishlarni olishni toʻxtatadi."
 
 #: src/gs-repos-dialog.c:248
 msgid "Disable Repository?"
-msgstr ""
+msgstr "Repository o'chirilsinmi?"
 
 #: src/gs-repos-dialog.c:248
 msgid "Remove Repository?"
-msgstr ""
+msgstr "Repository olib tashlansinmi?"
 
 #. TRANSLATORS: this is button text to disable a repo
 #: src/gs-repos-dialog.c:254
 msgid "_Disable"
-msgstr ""
+msgstr "_O'chirish"
 
 #. TRANSLATORS: this is button text to remove a repo
 #: src/gs-repos-dialog.c:257
 msgid "_Remove"
-msgstr ""
+msgstr "_O'chirish"
 
 #: src/gs-repos-dialog.c:508
 msgid "Enable New Repositories"
-msgstr ""
+msgstr "Yangi Repositorylarni yoqish"
 
 #: src/gs-repos-dialog.c:509
 msgid "Turn on new repositories when they are added."
-msgstr ""
+msgstr "Yangi Repositorylar qo'shilganda ularni yoqish."
 
 #. TRANSLATORS: this is the clickable
 #. * link on the third party repositories info bar
 #: src/gs-repos-dialog.c:518
 msgid "more information"
-msgstr ""
+msgstr "qo'shimcha ma'lumot"
 
 #. TRANSLATORS: this is the third party repositories info bar. The '%s' is replaced
 #. with a link consisting a text "more information", which constructs a sentence:
@@ -3149,33 +3152,33 @@ msgstr ""
 #: src/gs-repos-dialog.c:523
 #, c-format
 msgid "Additional repositories from selected third parties — %s."
-msgstr ""
+msgstr "Tanlangan uchinchi tomonlarning qoʻshimcha omborlari — %s."
 
 #: src/gs-repos-dialog.c:528
 msgid "Fedora Third Party Repositories"
-msgstr ""
+msgstr "Fedora uchinchi tomon omborlari"
 
 #. TRANSLATORS: this is the fallback text we use if we can't
 #. figure out the name of the operating system
 #: src/gs-repos-dialog.c:670
 msgid "the operating system"
-msgstr ""
+msgstr "operatsion tizim"
 
 #. TRANSLATORS: This is the description text displayed in the Software Repositories dialog.
 #. %s gets replaced by the name of the actual distro, e.g. Fedora.
 #: src/gs-repos-dialog.c:728
 #, c-format
 msgid "These repositories supplement the default software provided by %s."
-msgstr ""
+msgstr "Ushbu omborlar %s tomonidan taqdim etilgan standart dasturiy ta'minotni to'ldiradi."
 
 #. button in the info bar
 #: src/gs-repos-dialog.ui:8 src/gs-shell.ui:88
 msgid "Software Repositories"
-msgstr ""
+msgstr "Dasturiy ta'minot omborlari"
 
 #: src/gs-repos-dialog.ui:53
 msgid "No Repositories"
-msgstr ""
+msgstr "Omborlar Yo'q"
 
 #. TRANSLATORS: This string is used to construct the 'X applications
 #. installed' sentence, describing a software repository.
@@ -3183,8 +3186,8 @@ msgstr ""
 #, c-format
 msgid "%u application installed"
 msgid_plural "%u applications installed"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%u ilova oʻrnatildi"
+msgstr[1] "%u ilova oʻrnatilgan"
 
 #. TRANSLATORS: This string is used to construct the 'X add-ons
 #. installed' sentence, describing a software repository.
@@ -3192,8 +3195,8 @@ msgstr[1] ""
 #, c-format
 msgid "%u add-on installed"
 msgid_plural "%u add-ons installed"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%u qoʻshimcha oʻrnatildi"
+msgstr[1] "%u qoʻshimchalar oʻrnatilgan"
 
 #. TRANSLATORS: This string is used to construct the 'X applications
 #. and y add-ons installed' sentence, describing a software repository.
@@ -3202,8 +3205,8 @@ msgstr[1] ""
 #, c-format
 msgid "%u application"
 msgid_plural "%u applications"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%u ilova"
+msgstr[1] "%u applications"
 
 #. TRANSLATORS: This string is used to construct the 'X applications
 #. and y add-ons installed' sentence, describing a software repository.
@@ -3212,8 +3215,8 @@ msgstr[1] ""
 #, c-format
 msgid "%u add-on"
 msgid_plural "%u add-ons"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%u qo‘shimchasi"
+msgstr[1] "%u qoʻshimchalar"
 
 #. TRANSLATORS: This string is used to construct the 'X applications
 #. and y add-ons installed' sentence, describing a software repository.
@@ -3223,8 +3226,8 @@ msgstr[1] ""
 #, c-format
 msgid "%s and %s installed"
 msgid_plural "%s and %s installed"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%s va %s oʻrnatilgan"
+msgstr[1] "%s va %s oʻrnatilgan"
 
 #. Translators: The first '%s' is replaced with a text like '10 applications installed',
 #. the second '%s' is replaced with installation kind, like in case of Flatpak 'User Installation'.
@@ -3232,37 +3235,37 @@ msgstr[1] ""
 #, c-format
 msgctxt "repo-row"
 msgid "%s • %s"
-msgstr ""
+msgstr "%s • %s"
 
 #. TRANSLATORS: lighthearted star rating description;
 #. *		A really bad application
 #: src/gs-review-dialog.c:78
 msgid "Hate it"
-msgstr ""
+msgstr "Yomon ko'raman"
 
 #. TRANSLATORS: lighthearted star rating description;
 #. *		Not a great application
 #: src/gs-review-dialog.c:82
 msgid "Don’t like it"
-msgstr ""
+msgstr "Bu yoqmaydi"
 
 #. TRANSLATORS: lighthearted star rating description;
 #. *		A fairly-good application
 #: src/gs-review-dialog.c:86
 msgid "It’s OK"
-msgstr ""
+msgstr "Hammasi joyida"
 
 #. TRANSLATORS: lighthearted star rating description;
 #. *		A good application
 #: src/gs-review-dialog.c:90
 msgid "Like it"
-msgstr ""
+msgstr "Yaxshi"
 
 #. TRANSLATORS: lighthearted star rating description;
 #. *		A really awesome application
 #: src/gs-review-dialog.c:94
 msgid "Love it"
-msgstr ""
+msgstr "Yoqdi"
 
 #. TRANSLATORS: the review can't just be copied and pasted
 #: src/gs-review-dialog.c:118
