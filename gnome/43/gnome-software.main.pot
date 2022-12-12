@@ -4424,55 +4424,55 @@ msgstr "%s va %s yangilandi."
 #, c-format
 msgid "%u application requires a restart."
 msgid_plural "%u applications require a restart."
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%u ilova qayta ishga tushirishni talab qiladi."
+msgstr[1] "%u ilovalar qayta ishga tushirishni talab qiladi."
 
 #. TRANSLATORS: %1, %2 and %3 are all application names, e.g. Firefox
 #: src/gs-update-monitor.c:401
 #, c-format
 msgid "Includes %s, %s and %s."
-msgstr ""
+msgstr "%s, %s va %s oʻz ichiga oladi."
 
 #. TRANSLATORS: this is when the current operating system version goes end-of-life
 #: src/gs-update-monitor.c:671 src/gs-updates-page.ui:20
 msgid "Operating System Updates Unavailable"
-msgstr ""
+msgstr "Operatsion tizim yangilanishlari mavjud emas"
 
 #. TRANSLATORS: this is the message dialog for the distro EOL notice
 #: src/gs-update-monitor.c:673
 msgid "Upgrade to continue receiving security updates."
-msgstr ""
+msgstr "Xavfsizlik yangilanishlarini olishni davom ettirish uchun yangilang."
 
 #. TRANSLATORS: this is a distro upgrade, the replacement would be the
 #. * distro name, e.g. 'Fedora'
 #: src/gs-update-monitor.c:728
 #, c-format
 msgid "A new version of %s is available to install"
-msgstr ""
+msgstr "%s yangi versiyasini oʻrnatish mumkin"
 
 #. TRANSLATORS: this is a distro upgrade
 #: src/gs-update-monitor.c:732
 msgid "Software Upgrade Available"
-msgstr ""
+msgstr "Dasturiy ta'minotni yangilash mavjud"
 
 #. TRANSLATORS: title when we offline updates have failed
 #: src/gs-update-monitor.c:1137
 msgid "Software Updates Failed"
-msgstr ""
+msgstr "Dasturiy ta'minot yangilanmadi"
 
 #. TRANSLATORS: message when we offline updates have failed
 #: src/gs-update-monitor.c:1139
 msgid "An important operating system update failed to be installed."
-msgstr ""
+msgstr "Muhim operatsion tizim yangilanishini o'rnatib bo'lmadi."
 
 #: src/gs-update-monitor.c:1140
 msgid "Show Details"
-msgstr ""
+msgstr "Tafsilotlarni ko'rsatish"
 
 #. TRANSLATORS: Notification title when we've done a distro upgrade
 #: src/gs-update-monitor.c:1162
 msgid "System Upgrade Complete"
-msgstr ""
+msgstr "Tizimni yangilash tugallandi"
 
 #. TRANSLATORS: This is the notification body when we've done a
 #. * distro upgrade. First %s is the distro name and the 2nd %s
@@ -4480,21 +4480,21 @@ msgstr ""
 #: src/gs-update-monitor.c:1167
 #, c-format
 msgid "Welcome to %s %s!"
-msgstr ""
+msgstr "%s %s ga xush kelibsiz!"
 
 #. TRANSLATORS: title when we've done offline updates
 #: src/gs-update-monitor.c:1173
 msgid "Software Update Installed"
 msgid_plural "Software Updates Installed"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "Dasturiy ta'minot yangilanishi o'rnatildi"
+msgstr[1] "Dasturiy ta'minot yangilanishlari o'rnatildi"
 
 #. TRANSLATORS: message when we've done offline updates
 #: src/gs-update-monitor.c:1177
 msgid "An important operating system update has been installed."
 msgid_plural "Important operating system updates have been installed."
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "Muhim operatsion tizim yangilanishi o'rnatildi."
+msgstr[1] "Muhim operatsion tizim yangilanishlari o'rnatildi."
 
 #. TRANSLATORS: Button to look at the updates that were installed.
 #. * Note that it has nothing to do with the application reviews, the
@@ -4504,23 +4504,23 @@ msgstr[1] ""
 #: src/gs-update-monitor.c:1188
 msgctxt "updates"
 msgid "Review"
-msgstr ""
+msgstr "Ko‘rib chiqish"
 
 #. TRANSLATORS: this is when the offline update failed
 #: src/gs-update-monitor.c:1237
 msgid "Failed To Update"
-msgstr ""
+msgstr "Yangilash amalga oshmadi"
 
 #. TRANSLATORS: the user must have updated manually after
 #. * the updates were prepared
 #: src/gs-update-monitor.c:1242
 msgid "The system was already up to date."
-msgstr ""
+msgstr "Tizim allaqachon yangilangan edi."
 
 #. TRANSLATORS: the user aborted the update manually
 #: src/gs-update-monitor.c:1247
 msgid "The update was cancelled."
-msgstr ""
+msgstr "Yangilash bekor qilindi."
 
 #. TRANSLATORS: the package manager needed to download
 #. * something with no network available
@@ -4529,6 +4529,8 @@ msgid ""
 "Internet access was required but wasn’t available. Please make sure that you "
 "have internet access and try again."
 msgstr ""
+"Internetga kirish kerak edi, lekin mavjud emas edi. Iltimos, internetga kirish"
+"imkoningiz borligiga ishonch hosil qiling va qayta urinib koʻring."
 
 #. TRANSLATORS: if the package is not signed correctly
 #: src/gs-update-monitor.c:1257
@@ -4536,12 +4538,15 @@ msgid ""
 "There were security issues with the update. Please consult your software "
 "provider for more details."
 msgstr ""
+"Yangilanishda xavfsizlik bilan bog'liq muammolar yuzaga keldi. Batafsil"
+"ma'lumot uchun dasturiy ta'minot provayderingiz bilan maslahatlashing."
 
 #. TRANSLATORS: we ran out of disk space
 #: src/gs-update-monitor.c:1262
 msgid ""
 "There wasn’t enough disk space. Please free up some space and try again."
 msgstr ""
+"Diskda yetarli joy yoʻq edi. Iltimos, biroz joy boʻshatib, qaytadan urinib koʻring."
 
 #. TRANSLATORS: We didn't handle the error type
 #: src/gs-update-monitor.c:1266
@@ -4549,28 +4554,30 @@ msgid ""
 "We’re sorry: the update failed to install. Please wait for another update "
 "and try again. If the problem persists, contact your software provider."
 msgstr ""
+"Kechirasiz: yangilanishni oʻrnatib boʻlmadi. Boshqa yangilanishni kuting va"
+"qaytadan urinib koʻring. Muammo davom etsa, dasturiy taʼminot provayderingizga murojaat qiling."
 
 #. TRANSLATORS: This is the time when we last checked for updates
 #: src/gs-updates-page.c:247
 #, c-format
 msgid "Last checked: %s"
-msgstr ""
+msgstr "Oxirgi tekshirilgan: %s"
 
 #. TRANSLATORS:  the first %s is the distro name, e.g. 'Fedora'
 #. * and the second %s is the distro version, e.g. '25'
 #: src/gs-updates-page.c:559
 #, c-format
 msgid "%s %s is no longer supported."
-msgstr ""
+msgstr "%s %s endi qo‘llab-quvvatlanmaydi."
 
 #: src/gs-updates-page.c:563
 msgid "Your operating system is no longer supported."
-msgstr ""
+msgstr "Sizning operatsion tizimingiz endi qo'llab-quvvatlanmaydi."
 
 #. TRANSLATORS: EOL distros do not get important updates
 #: src/gs-updates-page.c:568
 msgid "This means that it does not receive security updates."
-msgstr ""
+msgstr "Bu xavfsizlik yangilanishlarini olmasligini anglatadi."
 
 #. TRANSLATORS: upgrade refers to a major update, e.g. Fedora 25 to 26
 #: src/gs-updates-page.c:572
