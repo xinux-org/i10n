@@ -10,9 +10,9 @@ birga ishlash osonlashtiradi.
 
 ## Qatnashish uchun
 
-Ushbu repozitoriyada tarjima ishlari boshlashdan avval, telegramdagi asosiy guruhimizad
-qaysi qismlarni qilish kerakligi haqida ko'proq ma'lumot so'rab oling va kelishing! Agar muammolar
-yuz beradigan bo'lsa yoki savollar, [ismoilovdev](https://t.me/ismoilovdev) ga murojaat qiling.
+Ushbu repozitoriyada tarjima ishlari boshlashdan avval, telegramdagi asosiy guruhimizda
+qaysi qismlarni tarjima qilish kerakligi haqida ko'proq ma'lumot so'rab oling va kelishing! Agar muammolar
+yuz beradigan bo'lsa yoki savollar bo'lsa, [ismoilovdev](https://t.me/ismoilovdev) ga murojaat qiling.
 
 ## O'z ichiga oladigan DE va WM lar:
 
