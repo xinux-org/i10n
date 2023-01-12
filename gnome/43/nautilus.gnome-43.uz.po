@@ -120,7 +120,7 @@ msgid ""
 "If set to true, then Nautilus browser windows will always use a textual "
 "input entry for the location toolbar, instead of the pathbar."
 msgstr ""
-"Agar ”true” qiymati o'rnatilgan bo'lsa, Nautilus brauzer oynalari har doim yo'l"
+"Agar rost bo'lsa, Nautilus brauzer oynalari har doim yo'l"
 "paneli o'rniga joylashuv asboblar paneli uchun matn kiritish yozuvidan foydalanadi."
 
 #: data/org.gnome.nautilus.gschema.xml:81
@@ -135,15 +135,15 @@ msgstr ""
 
 #: data/org.gnome.nautilus.gschema.xml:86
 msgid "Filter the search dates using either last used or last modified"
-msgstr ""
+msgstr "Qidiruv sanalarini oxirgi ishlatilgan yoki oxirgi oʻzgartirilganidan foydalanib filtrlang"
 
 #: data/org.gnome.nautilus.gschema.xml:87
 msgid "Filter the search dates using either last used or last modified."
-msgstr ""
+msgstr "Qidiruv sanalarini oxirgi ishlatilgan yoki oxirgi oʻzgartirilganidan foydalanib filtrlang."
 
 #: data/org.gnome.nautilus.gschema.xml:91
 msgid "Whether to show a context menu item to delete permanently"
-msgstr ""
+msgstr "Doimiy o'chirish uchun kontekst menyusi elementini ko'rsatish kerakmi"
 
 #: data/org.gnome.nautilus.gschema.xml:92
 #, fuzzy
@@ -154,14 +154,16 @@ msgid ""
 "If set to true, then Nautilus will show a delete permanently context menu "
 "item to bypass the Trash."
 msgstr ""
-"Agar belgilangan boʻlsa, Nautilus faylni olib tashlashda yoki chiqindilar "
-"qutisini tozalashda tasdiqlashni soʻraydi."
+"Agar rost bo'lsa, Nautilus chiqindi qutisini chetlab o'tish uchun"
+"doimiy ravishda o'chirish kontekst menyusini ko'rsatadi."
 
 #: data/org.gnome.nautilus.gschema.xml:96
 msgid ""
 "Whether to show context menu items to create links from copied or selected "
 "files"
 msgstr ""
+"Ko'chirilgan yoki tanlangan fayllardan havolalar yaratish uchun kontekst menyusi"
+"elementlarini ko'rsatish kerakmi"
 
 #: data/org.gnome.nautilus.gschema.xml:97
 #, fuzzy
@@ -172,12 +174,12 @@ msgid ""
 "If set to true, then Nautilus will show context menu items to create links "
 "from the copied or selected files."
 msgstr ""
-"Agar belgilangan boʻlsa, Nautilus faylni olib tashlashda yoki chiqindilar "
-"qutisini tozalashda tasdiqlashni soʻraydi."
+"Agar rost bo'lsa, Nautilus nusxalangan yoki tanlangan fayllardan havolalar yaratish"
+"uchun kontekst menyusi bandlarini ko'rsatadi."
 
 #: data/org.gnome.nautilus.gschema.xml:102
 msgid "When to show number of items in a folder"
-msgstr "Jilddagi elementlar sonini koʻrsatilishi"
+msgstr "Jilddagi elementlar sonini qachon ko'rsatish kerak"
 
 #: data/org.gnome.nautilus.gschema.xml:103
 msgid ""
@@ -186,10 +188,15 @@ msgid ""
 "server. If set to “local-only” then only show counts for local file systems. "
 "If set to “never” then never bother to compute item counts."
 msgstr ""
+"Jilddagi elementlar sonini qachon koʻrsatishni tezlashtirish. Agar “har doim” deb"
+"sozlangan boʻlsa, jild masofaviy serverda boʻlsa ham, har doim obyektlar sonini"
+"koʻrsatadi. Agar “faqat mahalliy“ ga o'rnatilgan bo'lsa, faqat mahalliy fayl tizimlari"
+"uchun hisoblarni ko'rsatadi. Agar “hech qachon” ga sozlangan boʻlsa, hech qachon elementlar"
+"sonini hisoblash bilan bezovta qilmaydi."
 
 #: data/org.gnome.nautilus.gschema.xml:107
 msgid "Type of click used to launch/open files"
-msgstr "Fayllarni ishga tushirish/ochishda qoʻllaniladigan chertish turi"
+msgstr "Fayllarni ishga tushirish/ochish uchun ishlatiladigan bosish turi"
 
 #: data/org.gnome.nautilus.gschema.xml:108
 #, fuzzy
@@ -200,34 +207,38 @@ msgid ""
 "Possible values are “single” to launch files on a single click, or “double” "
 "to launch them on a double click."
 msgstr ""
-"Mavjud qiymatlar: fayllarni bir marta chertib ochish uchun \"single\", ikki "
-"marta chertib ochish uchun \"double\"."
+"Mumkin bo'lgan qiymatlar fayllarni bir marta bosish bilan ishga tushirish uchun ”bitta”"
+"yoki ularni ikki marta bosish bilan ishga tushirish uchun ”ikki marta” bosish."
 
 #: data/org.gnome.nautilus.gschema.xml:112
 msgid "Show the package installer for unknown MIME types"
-msgstr ""
+msgstr "Noma'lum MIME turlari uchun paket o'rnatuvchisini ko'rsatish"
 
 #: data/org.gnome.nautilus.gschema.xml:113
 msgid ""
 "Whether to show the user a package installer dialog in case an unknown MIME "
 "type is opened, in order to search for an application to handle it."
 msgstr ""
+"Noma'lum MIME turi ochilganda, uni boshqarish uchun ilovani qidirish uchun"
+"foydalanuvchiga paketni o'rnatish dialogini ko'rsatish kerakmi".
 
 #: data/org.gnome.nautilus.gschema.xml:117
 #, fuzzy
 #| msgid "Whether to enable tabs in Nautilus browser windows"
 msgid "Use extra mouse button events in Nautilus’ browser window"
-msgstr "Nautilus brauzerida tablardan foydalanish"
+msgstr "Nautilus brauzer oynasida qo'shimcha sichqoncha tugmalaridan foydalaning""
 
 #: data/org.gnome.nautilus.gschema.xml:118
 msgid ""
 "For users with mice that have “Forward” and “Back” buttons, this key will "
 "determine if any action is taken inside of Nautilus when either is pressed."
 msgstr ""
+"“Oldinga“ va “Orqaga“ tugmalari bo'lgan sichqonchalarga ega foydalanuvchilar"
+"uchun bu tugma bosilganda Nautilus ichida biron bir harakat bajarilganligini aniqlaydi."
 
 #: data/org.gnome.nautilus.gschema.xml:122
 msgid "Mouse button to activate the “Forward” command in browser window"
-msgstr ""
+msgstr "Brauzer oynasida “O'tkazish“ buyrug'ini faollashtirish uchun sichqoncha tugmasi"
 
 #: data/org.gnome.nautilus.gschema.xml:123
 msgid ""
@@ -235,10 +246,13 @@ msgid ""
 "will set which button activates the “Forward” command in a browser window. "
 "Possible values range between 6 and 14."
 msgstr ""
+"“Oldinga” va “Orqaga” tugmalari boʻlgan sichqonchali foydalanuvchilar uchun bu"
+"tugma qaysi tugma brauzer oynasida “Oʻtkazish” buyrugʻini faollashtirishini belgilaydi."
+"Mumkin qiymatlar 6 dan 14 gacha."
 
 #: data/org.gnome.nautilus.gschema.xml:127
 msgid "Mouse button to activate the “Back” command in browser window"
-msgstr ""
+msgstr "Brauzer oynasida ”Orqaga” buyrug'ini faollashtirish uchun sichqoncha tugmasi"
 
 #: data/org.gnome.nautilus.gschema.xml:128
 msgid ""
