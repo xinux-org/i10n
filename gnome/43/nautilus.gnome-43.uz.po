@@ -778,7 +778,7 @@ msgstr "Rasm maʼlumotlarini yuklab boʻlmadi"
 #, fuzzy
 #| msgid "Properties"
 msgid "Image Properties"
-msgstr "Xossalari"
+msgstr "Rasm xususiyatlari"
 
 #: src/nautilus-application.c:187
 #, fuzzy, c-format
@@ -790,8 +790,9 @@ msgid ""
 "set permissions such that it can be created:\n"
 "%s"
 msgstr ""
-"Nautilus ishga tushishidan avval quyidagi jildlarni yarating yoki Nautilus "
-"oʻzi yaratishi uchun kerakli huquqlarni oʻrnating."
+"Kerakli jildni yaratib bo‘lmadi. Iltimos, quyidagi jildni yarating yoki"
+"uni yaratish uchun ruxsatlarni o‘rnating:\n"
+"%s"
 
 #: src/nautilus-application.c:194
 #, fuzzy, c-format
@@ -803,24 +804,25 @@ msgid ""
 "set permissions such that they can be created:\n"
 "%s"
 msgstr ""
-"Nautilus ishga tushishidan avval quyidagi jildlarni yarating yoki Nautilus "
-"oʻzi yaratishi uchun kerakli huquqlarni oʻrnating."
+"Kerakli jildlarni yaratib bo‘lmadi. Iltimos, quyidagi jildlarni yarating yoki"
+"ularni yaratish uchun ruxsatlarni o‘rnating:\n"
+"%s"
 
 #: src/nautilus-application.c:611
 #, fuzzy
 #| msgid "nautilus: --check cannot be used with other options.\n"
 msgid "--check cannot be used with other options."
-msgstr "nautilus: --check boshqa parametrlar bilan birga qoʻllanilmaydi.\n"
+msgstr "--check-ni boshqa variantlar bilan ishlatib bo'lmaydi."
 
 #: src/nautilus-application.c:619
 #, fuzzy
 #| msgid "nautilus: %s cannot be used with URIs.\n"
 msgid "--quit cannot be used with URIs."
-msgstr "nautilus: %s URI'lar bilan birga qoʻllanilmaydi.\n"
+msgstr "--quit ni URI bilan ishlatib bo'lmaydi."
 
 #: src/nautilus-application.c:628
 msgid "--select must be used with at least an URI."
-msgstr ""
+msgstr "--select kamida URI bilan ishlatilishi kerak."
 
 #: src/nautilus-application.c:779
 #, c-format
@@ -828,13 +830,13 @@ msgid ""
 "There was an error displaying help: \n"
 "%s"
 msgstr ""
-"Yordam koʻrsatilayotganda xatolik roʻy berdi: \n"
+"Yordamni ko'rsatishda xatolik yuz berdi: \n"
 "%s"
 
 #: src/nautilus-application.c:781 src/nautilus-autorun-software.c:157
 #: src/nautilus-mime-actions.c:1192 src/nautilus-ui-utilities.c:331
 msgid "_OK"
-msgstr ""
+msgstr "_OK"
 
 #: src/nautilus-application.c:909
 #, c-format
@@ -842,63 +844,64 @@ msgid ""
 "“%s” is an internal protocol. Opening this location directly is not "
 "supported."
 msgstr ""
+"“%s” - bu ichki protokol. Bu joylashuvni bevosita ochish qo‘llab-quvvatlanmaydi."
 
 #: src/nautilus-application.c:1009
 msgid "Perform a quick set of self-check tests."
-msgstr "Tezda oʻz-oʻzini tekshirishni amalga oshirish."
+msgstr "O'z-o'zini tekshirish testlarining tezkor to'plamini bajarish"
 
 #: src/nautilus-application.c:1012
 msgid "Show the version of the program."
-msgstr "Dastur versiyasini koʻrsatish."
+msgstr "Dasturning versiyasini ko'rsatish"
 
 #: src/nautilus-application.c:1014
 msgid "Always open a new window for browsing specified URIs"
-msgstr ""
+msgstr "Belgilangan URI-larni ko'rish uchun har doim yangi oynani ochish"
 
 #: src/nautilus-application.c:1016
 msgid "Quit Nautilus."
-msgstr "Nautilus'dan chiqish."
+msgstr "Nautilus dan chiqish."
 
 #: src/nautilus-application.c:1018
 #, fuzzy
 #| msgid "Select the columns visible in this folder"
 msgid "Select specified URI in parent folder."
-msgstr "Ushbu jild uchun koʻrsatiladigan ustunlarni tanlang"
+msgstr "Asosiy jildda belgilangan URI ni tanlang."
 
 #: src/nautilus-application.c:1019
 #, fuzzy
 #| msgid "[URI]"
 msgid "[URI…]"
-msgstr "[URI]"
+msgstr "[URI…]"
 
 #: src/nautilus-app-chooser.c:77
 #, fuzzy, c-format
 #| msgid "Could not set as default application"
 msgid "Error while setting “%s” as default application: %s"
-msgstr "Andoza dastur sifatida oʻrnatib boʻlmadi"
+msgstr "“%s”ni standart ilova sifatida belgilashda xatolik yuz berdi: %s"
 
 #: src/nautilus-app-chooser.c:80
 #, fuzzy
 #| msgid "Could not set as default application"
 msgid "Could not set as default"
-msgstr "Andoza dastur sifatida oʻrnatib boʻlmadi"
+msgstr "Standart qilib o‘rnatib bo‘lmadi"
 
 #: src/nautilus-app-chooser.c:82
 msgid "OK"
-msgstr ""
+msgstr "OK"
 
 #. Translators: %s is the filename.  i.e. "Choose an application to open test.jpg"
 #: src/nautilus-app-chooser.c:198
 #, fuzzy, c-format
 #| msgid "Choose what application to launch."
 msgid "Choose an application to open <b>%s</b>."
-msgstr "Qaysi dasturni ishga tushirishni tanlang."
+msgstr "<b>%s</b>ni ochish uchun ilovani tanlang."
 
 #: src/nautilus-app-chooser.c:204
 #, fuzzy
 #| msgid "Open %s"
 msgid "Open Items"
-msgstr "%s'ni ochish"
+msgstr "Elementlarni ochish"
 
 #: src/nautilus-app-chooser.c:208
 msgid "Open Folder"
@@ -908,7 +911,7 @@ msgstr "Jildni ochish"
 #, fuzzy
 #| msgid "Open Folder"
 msgid "Open File"
-msgstr "Jildni ochish"
+msgstr "Faylni ochish"
 
 #: src/nautilus-autorun-software.c:142 src/nautilus-autorun-software.c:145
 #, fuzzy, c-format
@@ -916,21 +919,23 @@ msgstr "Jildni ochish"
 msgid ""
 "Unable to start the program:\n"
 "%s"
-msgstr "Dasturni avto ishga tushirishda xatolik roʻy berdi: %s"
+msgstr ""
+"Dasturni ishga tushirib boʻlmadi:\n"
+"%s"
 
 #: src/nautilus-autorun-software.c:148
 #, fuzzy, c-format
 #| msgid "Unable to mount the location."
 msgid "Unable to locate the program"
-msgstr "Manzilni ulab boʻlmadi."
+msgstr "Dasturni topib bo'lmadi"
 
 #: src/nautilus-autorun-software.c:155
 msgid "Oops! There was a problem running this software."
-msgstr ""
+msgstr "Voy! Ushbu dasturni ishga tushirishda muammo yuz berdi."
 
 #: src/nautilus-autorun-software.c:185
 msgid "If you don’t trust this location or aren’t sure, press Cancel."
-msgstr ""
+msgstr "Agar bu joylashuvga ishonmasangiz yoki ishonchingiz komil bo'lmasa, Bekor qilish tugmasini bosing."
 
 #: src/nautilus-autorun-software.c:187
 #, c-format
@@ -938,52 +943,54 @@ msgid ""
 "“%s” contains software intended to be automatically started. Would you like "
 "to run it?"
 msgstr ""
+"“%s” avtomatik ishga tushirish uchun mo'ljallangan dasturiy ta'minotni o'z ichiga oladi."
+"Uni ishga tushirishni xohlaysizmi?"
 
 #: src/nautilus-autorun-software.c:220
 msgid "_Run"
-msgstr "_Bajarish"
+msgstr "_Ishga tushirish"
 
 #: src/nautilus-batch-rename-dialog.c:729
 #, c-format
 msgid "“%s” would not be a unique new name."
-msgstr ""
+msgstr "“%s” noyob yangi nom bo‘lmaydi."
 
 #: src/nautilus-batch-rename-dialog.c:735
 #, c-format
 msgid "“%s” would conflict with an existing file."
-msgstr ""
+msgstr "“%s” mavjud faylga zid keladi."
 
 #: src/nautilus-batch-rename-dialog.c:1226
 #, fuzzy
 #| msgid "The emblem cannot be added."
 msgid "Name cannot be empty."
-msgstr "Emblemani qoʻshib boʻlmadi."
+msgstr "Ism bo'sh bo'lishi mumkin emas."
 
 #: src/nautilus-batch-rename-dialog.c:1232
 msgid "Name cannot contain “/”."
-msgstr ""
+msgstr "Nomda “/” bo‘lishi mumkin emas."
 
 #: src/nautilus-batch-rename-dialog.c:1238
 msgid "“.” is not a valid name."
-msgstr ""
+msgstr "“.” yaroqli nom emas."
 
 #: src/nautilus-batch-rename-dialog.c:1244
 msgid "“..” is not a valid name."
-msgstr ""
+msgstr "“..” yaroqli nom emas."
 
 #: src/nautilus-batch-rename-dialog.c:1902
 #, fuzzy, c-format
 #| msgid "Open Folder"
 msgid "Rename %d Folder"
 msgid_plural "Rename %d Folders"
-msgstr[0] "Jildni ochish"
+msgstr[0] "%d ta jild nomini o‘zgartirish"
 
 #: src/nautilus-batch-rename-dialog.c:1910
 #, fuzzy, c-format
 #| msgid "Rename Emblem"
 msgid "Rename %d File"
 msgid_plural "Rename %d Files"
-msgstr[0] "Emblema nomini oʻzgartirish"
+msgstr[0] "%d ta fayl nomini oʻzgartirish"
 
 #. To translators: %d is the total number of files and folders.
 #. * Singular case of the string is never used
@@ -991,35 +998,35 @@ msgstr[0] "Emblema nomini oʻzgartirish"
 #, c-format
 msgid "Rename %d File and Folder"
 msgid_plural "Rename %d Files and Folders"
-msgstr[0] ""
+msgstr[0] "%d fayl va jild nomini oʻzgartirish"
 
 #: src/nautilus-batch-rename-dialog.h:87
 #: src/resources/ui/nautilus-batch-rename-dialog.ui:73
 msgid "Original Name (Ascending)"
-msgstr ""
+msgstr "Asl nom (o'sish)"
 
 #: src/nautilus-batch-rename-dialog.h:92
 #: src/resources/ui/nautilus-batch-rename-dialog.ui:78
 msgid "Original Name (Descending)"
-msgstr ""
+msgstr "Asl nom (kamayish)"
 
 #: src/nautilus-batch-rename-dialog.h:97
 #: src/resources/ui/nautilus-batch-rename-dialog.ui:83
 #, fuzzy
 #| msgid "Date Modified"
 msgid "First Modified"
-msgstr "Oʻzgartirilgan sanasi"
+msgstr "Birinchi tahrirlangan"
 
 #: src/nautilus-batch-rename-dialog.h:102
 #: src/resources/ui/nautilus-batch-rename-dialog.ui:88
 #, fuzzy
 #| msgid "Date Modified"
 msgid "Last Modified"
-msgstr "Oʻzgartirilgan sanasi"
+msgstr "Oxirgi tahrirlangan"
 
 #: src/nautilus-batch-rename-dialog.h:107
 msgid "First Created"
-msgstr ""
+msgstr "Birinchi Yaratilgan"
 
 #: src/nautilus-batch-rename-dialog.h:112
 #, fuzzy
@@ -1031,17 +1038,17 @@ msgstr "Oxirgi oʻzgartirish:"
 #, fuzzy
 #| msgid "Camera Model"
 msgid "Camera model"
-msgstr "Kamera rusumi"
+msgstr "Kamera modeli"
 
 #: src/nautilus-batch-rename-dialog.h:128
 #, fuzzy
 #| msgid "Creator"
 msgid "Creation date"
-msgstr "Tuzuvchi"
+msgstr "Yaratilgan sana"
 
 #: src/nautilus-batch-rename-dialog.h:135
 msgid "Season number"
-msgstr ""
+msgstr "Mavsum raqami"
 
 #: src/nautilus-batch-rename-dialog.h:142
 msgid "Episode number"
