@@ -1512,18 +1512,18 @@ msgstr "Yulduzli"
 #. Translators: Time in 24h format
 #: src/nautilus-file.c:5366
 msgid "%H:%M"
-msgstr ""
+msgstr "%H:%M"
 
 #. Translators: Time in 12h format
 #: src/nautilus-file.c:5371
 msgid "%l:%M %p"
-msgstr ""
+msgstr "%l:%M %p"
 
 #: src/nautilus-file.c:5380
 #, fuzzy, no-c-format
 #| msgid "yesterday"
 msgid "Yesterday"
-msgstr "kecha"
+msgstr "Kecha"
 
 #. Translators: this is the word Yesterday followed by
 #. * a time in 24h format. i.e. "Yesterday 23:04"
@@ -1531,7 +1531,7 @@ msgstr "kecha"
 #, fuzzy, no-c-format
 #| msgid "yesterday, %-I:%M %p"
 msgid "Yesterday %H:%M"
-msgstr "kecha soat %-H:%M da"
+msgstr "Kecha %H:%M"
 
 #. Translators: this is the word Yesterday followed by
 #. * a time in 12h format. i.e. "Yesterday 9:04 PM"
@@ -1539,20 +1539,20 @@ msgstr "kecha soat %-H:%M da"
 #, fuzzy, no-c-format
 #| msgid "yesterday, %-I:%M %p"
 msgid "Yesterday %l:%M %p"
-msgstr "kecha soat %-H:%M da"
+msgstr "Kecha %l:%M %p"
 
 #: src/nautilus-file.c:5406
 #, fuzzy, no-c-format
 #| msgid "%"
 msgid "%a"
-msgstr "%"
+msgstr "%a"
 
 #. Translators: this is the name of the week day followed by
 #. * a time in 24h format. i.e. "Monday 23:04"
 #: src/nautilus-file.c:5415
 #, no-c-format
 msgid "%a %H:%M"
-msgstr ""
+msgstr "%a %H:%M"
 
 #. Translators: this is the week day name followed by
 #. * a time in 12h format. i.e. "Monday 9:04 PM"
@@ -1560,14 +1560,14 @@ msgstr ""
 #, fuzzy, no-c-format
 #| msgid "today, %-I:%M %p"
 msgid "%a %l:%M %p"
-msgstr "bugun soat %-H:%M da"
+msgstr "%a %l:%M %p"
 
 #. Translators: this is the day of the month followed
 #. * by the abbreviated month name i.e. "3 Feb"
 #: src/nautilus-file.c:5433
 #, no-c-format
 msgid "%-e %b"
-msgstr ""
+msgstr "%-e %b"
 
 #. Translators: this is the day of the month followed
 #. * by the abbreviated month name followed by a time in
@@ -1575,7 +1575,7 @@ msgstr ""
 #: src/nautilus-file.c:5443
 #, no-c-format
 msgid "%-e %b %H:%M"
-msgstr ""
+msgstr "%-e %b %H:%M"
 
 #. Translators: this is the day of the month followed
 #. * by the abbreviated month name followed by a time in
@@ -1583,14 +1583,14 @@ msgstr ""
 #: src/nautilus-file.c:5451
 #, no-c-format
 msgid "%-e %b %l:%M %p"
-msgstr ""
+msgstr "%-e %b %l:%M %p"
 
 #. Translators: this is the day of the month followed by the abbreviated
 #. * month name followed by the year i.e. "3 Feb 2015"
 #: src/nautilus-file.c:5462
 #, no-c-format
 msgid "%-e %b %Y"
-msgstr ""
+msgstr "%-e %b %Y"
 
 #. Translators: this is the day number followed
 #. * by the abbreviated month name followed by the year followed
@@ -1598,7 +1598,7 @@ msgstr ""
 #: src/nautilus-file.c:5472
 #, no-c-format
 msgid "%-e %b %Y %H:%M"
-msgstr ""
+msgstr "%-e %b %Y %H:%M"
 
 #. Translators: this is the day number followed
 #. * by the abbreviated month name followed by the year followed
@@ -1606,72 +1606,72 @@ msgstr ""
 #: src/nautilus-file.c:5480
 #, no-c-format
 msgid "%-e %b %Y %l:%M %p"
-msgstr ""
+msgstr "%-e %b %Y %l:%M %p"
 
 #: src/nautilus-file.c:5492
 #, fuzzy, no-c-format
 #| msgid "%"
 msgid "%c"
-msgstr "%"
+msgstr "%c"
 
 #: src/nautilus-file.c:5918
 #, c-format
 msgid "Not allowed to set permissions"
-msgstr "Huquq oʻrnatishga ruxsat yoʻq"
+msgstr "Ruxsatlarni o'rnatishga ruxsat berilmagan"
 
 #: src/nautilus-file.c:6256
 #, c-format
 msgid "Not allowed to set owner"
-msgstr "Egasini tayinlashga ruxsat yoʻq"
+msgstr "Egasini belgilashga ruxsat berilmagan"
 
 #: src/nautilus-file.c:6275
 #, fuzzy, c-format
 #| msgid "Specified group '%s' doesn't exist"
 msgid "Specified owner “%s” doesn’t exist"
-msgstr "Koʻrsatilgan '%s' guruhi mavjud emas"
+msgstr "Belgilangan “%s” egasi mavjud emas"
 
 #: src/nautilus-file.c:6575
 #, c-format
 msgid "Not allowed to set group"
-msgstr "Guruh oʻrnatishga ruxsat yoʻq"
+msgstr "Guruh belgilashga ruxsat berilmagan"
 
 #: src/nautilus-file.c:6594
 #, fuzzy, c-format
 #| msgid "Specified group '%s' doesn't exist"
 msgid "Specified group “%s” doesn’t exist"
-msgstr "Koʻrsatilgan '%s' guruhi mavjud emas"
+msgstr "Belgilangan “%s” guruhi mavjud emas"
 
 #. Translators: This is a username followed by "(You)" to indicate the file is owned by the current user
 #: src/nautilus-file.c:6736
 #, fuzzy, c-format
 #| msgid "%s (%s)"
 msgid "%s (You)"
-msgstr "%s (%s)"
+msgstr "%s (siz)"
 
 #: src/nautilus-file.c:6768
 #, c-format
 msgid "%'u item"
 msgid_plural "%'u items"
-msgstr[0] ""
+msgstr[0] "%'u elementlar"
 
 #: src/nautilus-file.c:6769
 #, c-format
 msgid "%'u folder"
 msgid_plural "%'u folders"
-msgstr[0] ""
+msgstr[0] "%'u jildlar"
 
 #: src/nautilus-file.c:6770
 #, c-format
 msgid "%'u file"
 msgid_plural "%'u files"
-msgstr[0] ""
+msgstr[0] "%'u fayllar"
 
 #: src/nautilus-file.c:6854
 #, fuzzy, c-format
 #| msgid "? bytes"
 msgid "%s byte"
 msgid_plural "%s bytes"
-msgstr[0] "? bayt"
+msgstr[0] "%s bayt"
 
 #. This means no contents at all were readable
 #: src/nautilus-file.c:7264
@@ -1688,26 +1688,26 @@ msgstr "? elementlar"
 #, fuzzy
 #| msgid "unknown type"
 msgid "Unknown type"
-msgstr "nomaʼlum tur"
+msgstr "Noma'lum tur"
 
 #. Fallback, use for both unknown attributes and attributes
 #. * for which we have no more appropriate default.
 #.
 #: src/nautilus-file.c:7316
 msgid "Unknown"
-msgstr "Nomaʼlum"
+msgstr "Noma'lum"
 
 #: src/nautilus-file.c:7354 src/nautilus-file.c:7362 src/nautilus-file.c:7421
 msgid "Program"
-msgstr ""
+msgstr "Dastur"
 
 #: src/nautilus-file.c:7355
 msgid "Audio"
-msgstr ""
+msgstr "Audio"
 
 #: src/nautilus-file.c:7356
 msgid "Font"
-msgstr ""
+msgstr "Shrift"
 
 #: src/nautilus-file.c:7357
 msgid "Image"
@@ -1715,11 +1715,11 @@ msgstr "Rasm"
 
 #: src/nautilus-file.c:7358
 msgid "Archive"
-msgstr ""
+msgstr "Arxiv"
 
 #: src/nautilus-file.c:7359
 msgid "Markup"
-msgstr ""
+msgstr "Belgilash"
 
 #: src/nautilus-file.c:7360 src/nautilus-file.c:7361
 msgid "Text"
@@ -1733,21 +1733,21 @@ msgstr "Video"
 #, fuzzy
 #| msgid "Contents:"
 msgid "Contacts"
-msgstr "Tarkibi:"
+msgstr "Kontaktlar"
 
 #: src/nautilus-file.c:7365
 msgid "Calendar"
-msgstr ""
+msgstr "Kalendar"
 
 #: src/nautilus-file.c:7366
 #, fuzzy
 #| msgid "Documents"
 msgid "Document"
-msgstr "Hujjatlar"
+msgstr "Hujjat"
 
 #: src/nautilus-file.c:7367 src/nautilus-mime-actions.c:189
 msgid "Presentation"
-msgstr "Namoyish"
+msgstr "Taqdimot"
 
 #: src/nautilus-file.c:7368 src/nautilus-mime-actions.c:197
 msgid "Spreadsheet"
@@ -1758,21 +1758,21 @@ msgstr "Elektron jadval"
 #, fuzzy
 #| msgid "Others"
 msgid "Other"
-msgstr "Boshqalar"
+msgstr "Boshqa"
 
 #: src/nautilus-file.c:7423
 msgid "Binary"
-msgstr ""
+msgstr "Binary"
 
 #: src/nautilus-file.c:7428
 #, fuzzy
 #| msgid "_Folder:"
 msgid "Folder"
-msgstr "_Jild:"
+msgstr "Jild"
 
 #: src/nautilus-file.c:7467
 msgid "Link"
-msgstr ""
+msgstr "Havola"
 
 #. Note to localizers: convert file type string for file
 #. * (e.g. "folder", "plain text") to file type for symbolic link
@@ -1782,43 +1782,43 @@ msgstr ""
 #: src/nautilus-file.c:7473 src/nautilus-file-operations.c:491
 #, c-format
 msgid "Link to %s"
-msgstr ""
+msgstr "%s ga havola"
 
 #: src/nautilus-file.c:7491 src/nautilus-file.c:7507 src/nautilus-file.c:7523
 #, fuzzy
 #| msgid "link (broken)"
 msgid "Link (broken)"
-msgstr "bogʻlama (buzuq)"
+msgstr "Havola (buzilgan)"
 
 #. Translators: This refers to available space in a folder; e.g.: 100 MB Free
 #: src/nautilus-file.c:7763
 #, c-format
 msgid "%s Free"
-msgstr ""
+msgstr "%s bepul"
 
 #: src/nautilus-file-name-widget-controller.c:143
 #: src/nautilus-rename-file-popover-controller.c:110
 msgid "File names cannot contain “/”."
-msgstr ""
+msgstr "Fayl nomlarida “/” boʻlishi mumkin emas."
 
 #: src/nautilus-file-name-widget-controller.c:148
 #: src/nautilus-rename-file-popover-controller.c:122
 #, fuzzy
 #| msgid "The emblem cannot be installed."
 msgid "A file cannot be called “.”."
-msgstr "Emblemani oʻrnatib boʻlmadi."
+msgstr "Faylni “.” deb atash mumkin emas."
 
 #: src/nautilus-file-name-widget-controller.c:153
 #: src/nautilus-rename-file-popover-controller.c:134
 #, fuzzy
 #| msgid "The emblem cannot be installed."
 msgid "A file cannot be called “..”."
-msgstr "Emblemani oʻrnatib boʻlmadi."
+msgstr "Faylni “..” deb atash mumkin emas."
 
 #: src/nautilus-file-name-widget-controller.c:158
 #: src/nautilus-rename-file-popover-controller.c:146
 msgid "File name is too long."
-msgstr ""
+msgstr "Fayl nomi juda uzun."
 
 #. We must warn about the side effect
 #: src/nautilus-file-name-widget-controller.c:164
