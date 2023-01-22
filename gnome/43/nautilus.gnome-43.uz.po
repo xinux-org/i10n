@@ -4636,7 +4636,7 @@ msgstr "So‘ralgan joyga kirish imkoni yo‘q."
 
 #: src/nautilus-window-slot.c:1660
 msgid "Don’t have permission to access the requested location."
-msgstr ""
+msgstr "Soʻralgan joylashuvga kirishga ruxsatingiz yoʻq."
 
 #. This case can be hit for user-typed strings like "foo" due to
 #. * the code that guesses web addresses when there's no initial "/".
@@ -4648,6 +4648,7 @@ msgid ""
 "Unable to find the requested location. Please check the spelling or the "
 "network settings."
 msgstr ""
+"Soʻralgan joyni topib boʻlmadi. Imlo yoki tarmoq sozlamalarini tekshiring."
 
 #. This case can be hit when server application is not installed
 #. * or is inactive in the system user is trying to connect to.
@@ -4657,47 +4658,49 @@ msgid ""
 "The server has refused the connection. Typically this means that the "
 "firewall is blocking access or that the remote service is not running."
 msgstr ""
+"Server ulanishni rad etdi. Odatda bu firewall kirishni bloklayotganini"
+"yoki masofaviy xizmat ishlamayotganligini bildiradi."
 
 #: src/nautilus-window-slot.c:1699
 #, c-format
 msgid "Unhandled error message: %s"
-msgstr ""
+msgstr "Ishlov berilmagan xato xabari: %s"
 
 #: src/nautilus-window-slot.c:1867
 #, fuzzy, c-format
 #| msgid "Unable to mount location"
 msgid "Unable to load location"
-msgstr "Manzilni ulab boʻlmadi."
+msgstr "Joylashuvni yuklab bo'lmadi""
 
 #: src/nautilus-x-content-bar.c:141
 #, fuzzy
 #| msgid "Open With"
 msgid "Open with:"
-msgstr "Boshqa dastur bilan ochish"
+msgstr "Quyidagi bilan ochish:"
 
 #: src/resources/gtk/help-overlay.ui:13
 msgctxt "shortcut window"
 msgid "General"
-msgstr ""
+msgstr "Umumiy"
 
 #: src/resources/gtk/help-overlay.ui:17
 #, fuzzy
 #| msgid "New _Window"
 msgctxt "shortcut window"
 msgid "New window"
-msgstr "Yangi _oyna"
+msgstr "Yangi oyna"
 
 #: src/resources/gtk/help-overlay.ui:24
 #, fuzzy
 #| msgid "Close tab"
 msgctxt "shortcut window"
 msgid "Close window or tab"
-msgstr "Tabni yopish"
+msgstr "Oyna yoki tabni yopish"
 
 #: src/resources/gtk/help-overlay.ui:31
 msgctxt "shortcut window"
 msgid "Quit"
-msgstr ""
+msgstr "Chiqish"
 
 #: src/resources/gtk/help-overlay.ui:38
 #, fuzzy
@@ -4711,14 +4714,14 @@ msgstr "Qidirish"
 #| msgid "Reload the current location"
 msgctxt "shortcut window"
 msgid "Bookmark current location"
-msgstr "Joriy manzilni qayta yuklash"
+msgstr "Bookmark joriy joylashuvi"
 
 #: src/resources/gtk/help-overlay.ui:52
 #, fuzzy
 #| msgid "Show Tree"
 msgctxt "shortcut window"
 msgid "Show help"
-msgstr "Daraxtni koʻrsatish"
+msgstr "Yordam ko'rsatish"
 
 #: src/resources/gtk/help-overlay.ui:59
 msgctxt "shortcut window"
@@ -4730,47 +4733,47 @@ msgstr ""
 #| msgid "_Undo"
 msgctxt "shortcut window"
 msgid "Undo"
-msgstr "_Bekor qilish"
+msgstr "Bekor qilish"
 
 #: src/resources/gtk/help-overlay.ui:73
 #, fuzzy
 #| msgid "Redo Edit"
 msgctxt "shortcut window"
 msgid "Redo"
-msgstr "Oxirgi oʻzgarishni qaytarish"
+msgstr "Qaytarish"
 
 #: src/resources/gtk/help-overlay.ui:82
 #, fuzzy
 #| msgid "Opening \"%s\"."
 msgctxt "shortcut window"
 msgid "Opening"
-msgstr "\"%s\" ochilmoqda."
+msgstr "Ochilmoqda"
 
 #: src/resources/gtk/help-overlay.ui:86
 #, fuzzy
 #| msgid "_Open"
 msgctxt "shortcut window"
 msgid "Open"
-msgstr "_Ochish"
+msgstr "Ochish"
 
 #: src/resources/gtk/help-overlay.ui:93
 #, fuzzy
 #| msgid "Open in New _Tab"
 msgctxt "shortcut window"
 msgid "Open in new tab"
-msgstr "Yangi _tabda ochish"
+msgstr "Yangi tabda ochish"
 
 #: src/resources/gtk/help-overlay.ui:100
 #, fuzzy
 #| msgid "Open in New _Window"
 msgctxt "shortcut window"
 msgid "Open in new window"
-msgstr "Yangi _oynada ochish"
+msgstr "Yangi oynada ochish"
 
 #: src/resources/gtk/help-overlay.ui:107
 msgctxt "shortcut window"
 msgid "Open item location (search and recent only)"
-msgstr ""
+msgstr "Element joylashuvini ochish (qidiruv va faqat oxirgi)"
 
 #: src/resources/gtk/help-overlay.ui:114
 #, fuzzy
@@ -4784,123 +4787,123 @@ msgstr "Faylni ochish va oynani yopish"
 #| msgid "Open with other Application..."
 msgctxt "shortcut window"
 msgid "Open with default application"
-msgstr "Boshqa dastur bilan ochish..."
+msgstr "Standart ilova bilan ochish"
 
 #: src/resources/gtk/help-overlay.ui:130
 #, fuzzy
 #| msgid "_Tabs"
 msgctxt "shortcut window"
 msgid "Tabs"
-msgstr "_Tablar"
+msgstr "Tablar"
 
 #: src/resources/gtk/help-overlay.ui:134
 #, fuzzy
 #| msgid "New _Tab"
 msgctxt "shortcut window"
 msgid "New tab"
-msgstr "Yangi _tab"
+msgstr "Yangi tab"
 
 #: src/resources/gtk/help-overlay.ui:141
 #, fuzzy
 #| msgid "Activate previous tab"
 msgctxt "shortcut window"
 msgid "Go to previous tab"
-msgstr "Oldingi tabni aktivlashtirish"
+msgstr "Oldingi tabga o'tish"
 
 #: src/resources/gtk/help-overlay.ui:148
 #, fuzzy
 #| msgid "Activate next tab"
 msgctxt "shortcut window"
 msgid "Go to next tab"
-msgstr "Keyingi tabni aktivlashtirish"
+msgstr "Keyingi tabga o'tish"
 
 #: src/resources/gtk/help-overlay.ui:155
 #, fuzzy
 #| msgid "Open With"
 msgctxt "shortcut window"
 msgid "Open tab"
-msgstr "Boshqa dastur bilan ochish"
+msgstr "Tabni ochish"
 
 #: src/resources/gtk/help-overlay.ui:162
 #, fuzzy
 #| msgid "Move Tab _Left"
 msgctxt "shortcut window"
 msgid "Move tab left"
-msgstr "Tabni _chapga koʻchirish"
+msgstr "Tabni chapga ko'chirish"
 
 #: src/resources/gtk/help-overlay.ui:169
 #, fuzzy
 #| msgid "Move Tab _Right"
 msgctxt "shortcut window"
 msgid "Move tab right"
-msgstr "Tabni _oʻngga koʻchirish"
+msgstr "Tabni o'ngga ko'chirish"
 
 #: src/resources/gtk/help-overlay.ui:176
 #, fuzzy
 #| msgid "_Restore"
 msgctxt "shortcut window"
 msgid "Restore tab"
-msgstr "_Tiklash"
+msgstr "Tabni qayta tiklash"
 
 #: src/resources/gtk/help-overlay.ui:185
 #, fuzzy
 #| msgid "Apparition"
 msgctxt "shortcut window"
 msgid "Navigation"
-msgstr "Ruh"
+msgstr "Navigatsiya"
 
 #: src/resources/gtk/help-overlay.ui:189
 msgctxt "shortcut window"
 msgid "Go back"
-msgstr ""
+msgstr "Ortga qaytish"
 
 #: src/resources/gtk/help-overlay.ui:196
 #, fuzzy
 #| msgid "_Forward"
 msgctxt "shortcut window"
 msgid "Go forward"
-msgstr "_Oldinga"
+msgstr "Oldinga yurish"
 
 #: src/resources/gtk/help-overlay.ui:203
 msgctxt "shortcut window"
 msgid "Go up"
-msgstr ""
+msgstr "Yuqoriga chiqish"
 
 #: src/resources/gtk/help-overlay.ui:210
 msgctxt "shortcut window"
 msgid "Go down"
-msgstr ""
+msgstr "Pastga tushish"
 
 #: src/resources/gtk/help-overlay.ui:217
 #, fuzzy
 #| msgid "Close this folder"
 msgctxt "shortcut window"
 msgid "Go to home folder"
-msgstr "Ushbu jildni yopish"
+msgstr "Uy jildga o'tish"
 
 #: src/resources/gtk/help-overlay.ui:224
 #, fuzzy
 #| msgid "Open Location"
 msgctxt "shortcut window"
 msgid "Enter location"
-msgstr "Manzilni ochish"
+msgstr "Joylashuvni kiriting"
 
 #: src/resources/gtk/help-overlay.ui:231
 msgctxt "shortcut window"
 msgid "Location bar with root location"
-msgstr ""
+msgstr "root joylashgan joylashuv paneli"
 
 #: src/resources/gtk/help-overlay.ui:238
 msgctxt "shortcut window"
 msgid "Location bar with home location"
-msgstr ""
+msgstr "Uy jildi manzili bilan joylashuv paneli"
 
 #: src/resources/gtk/help-overlay.ui:247
 #, fuzzy
 #| msgid "Views"
 msgctxt "shortcut window"
 msgid "View"
-msgstr "Koʻrinishlar"
+msgstr "Ko'rinish"
 
 #: src/resources/gtk/help-overlay.ui:251
 #, fuzzy
@@ -4914,69 +4917,69 @@ msgstr "Kattalashtirish"
 #| msgid "Zoom Out"
 msgctxt "shortcut window"
 msgid "Zoom out"
-msgstr "Kichiklashtirish"
+msgstr "Kichraytirish"
 
 #: src/resources/gtk/help-overlay.ui:265
 msgctxt "shortcut window"
 msgid "Reset zoom"
-msgstr ""
+msgstr "Masshtabni tiklash"
 
 #: src/resources/gtk/help-overlay.ui:272
 msgctxt "shortcut window"
 msgid "Refresh view"
-msgstr ""
+msgstr "Ko'rinishni yangilash"
 
 #: src/resources/gtk/help-overlay.ui:279
 #, fuzzy
 #| msgid "Show _Hidden Files"
 msgctxt "shortcut window"
 msgid "Show/hide hidden files"
-msgstr "_Yashirilgan fayllarni koʻrsatish"
+msgstr "Yashirin fayllarni ko'rsatish"
 
 #: src/resources/gtk/help-overlay.ui:286
 msgctxt "shortcut window"
 msgid "Show/hide sidebar"
-msgstr ""
+msgstr "Yon panelni ko'rsatish/yashirish"
 
 #: src/resources/gtk/help-overlay.ui:293
 msgctxt "shortcut window"
 msgid "Show/hide action menu"
-msgstr ""
+msgstr "Harakatlar menyusini ko'rsatish/yashirish"
 
 #: src/resources/gtk/help-overlay.ui:300
 #, fuzzy
 #| msgid "List View"
 msgctxt "shortcut window"
 msgid "List view"
-msgstr "Roʻyxat koʻrinishi"
+msgstr "Ro'yxat ko'rinishi"
 
 #: src/resources/gtk/help-overlay.ui:307
 #, fuzzy
 #| msgid "Side pane view"
 msgctxt "shortcut window"
 msgid "Grid view"
-msgstr "Yon panel koʻrinishi"
+msgstr "To'r ko'rinishi"
 
 #: src/resources/gtk/help-overlay.ui:314
 #, fuzzy
 #| msgid "Open Folder"
 msgctxt "shortcut window"
 msgid "Expand folder"
-msgstr "Jildni ochish"
+msgstr "Jildni kengaytirish"
 
 #: src/resources/gtk/help-overlay.ui:321
 #, fuzzy
 #| msgid "Close this folder"
 msgctxt "shortcut window"
 msgid "Collapse folder"
-msgstr "Ushbu jildni yopish"
+msgstr "Jildni yig'ish"
 
 #: src/resources/gtk/help-overlay.ui:330
 #, fuzzy
 #| msgid "Edit"
 msgctxt "shortcut window"
 msgid "Editing"
-msgstr "Oʻzgartirish"
+msgstr "Tahrirlash"
 
 #: src/resources/gtk/help-overlay.ui:334
 #, fuzzy
