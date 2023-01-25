@@ -188,51 +188,61 @@ msgid ""
 "“always” (the previous state of the application is always restored) and "
 "“crashed” (the session is only restored if the application crashes)."
 msgstr ""
+"Ishga tushirish vaqtida sessiya qanday tiklanishini belgilaydi. Ruxsat berilgan"
+"qiymatlar ”har doim” (ilovaning oldingi holati har doim tiklanadi) va ”halokatga uchragan”"
+"(seans faqat dastur ishlamay qolsa tiklanadi)."
 
 #: data/org.gnome.epiphany.gschema.xml:90
 msgid ""
 "Whether to delay loading of tabs that are not immediately visible on session "
 "restore"
 msgstr ""
+"Seansni tiklashda darhol ko'rinmaydigan yorliqlarni yuklashni kechiktirish kerakmi"
 
 #: data/org.gnome.epiphany.gschema.xml:91
 msgid ""
 "When this option is set to true, tabs will not start loading until the user "
 "switches to them, upon session restore."
 msgstr ""
+"Ushbu parametr yoqilgan bo'lsa, seans qayta tiklangandan so'ng foydalanuvchi"
+"ularga o'tmaguncha yorliqlar yuklanmaydi."
 
 #: data/org.gnome.epiphany.gschema.xml:95
 msgid "List of adblock filters"
-msgstr ""
+msgstr "Adblock filtrlari ro'yxati"
 
 #: data/org.gnome.epiphany.gschema.xml:96
 msgid ""
 "List of URLs with content filtering rules in JSON format to be used by the "
 "ad blocker."
 msgstr ""
+"Reklamani bloklovchi tomonidan foydalaniladigan JSON formatidagi kontentni"
+"filtrlash qoidalariga ega URL manzillar ro'yxati."
 
 #: data/org.gnome.epiphany.gschema.xml:100
 msgid "Whether to ask for setting browser as default"
-msgstr ""
+msgstr "Brauzerni standart sifatida sozlashni so'rash kerakmi"
 
 #: data/org.gnome.epiphany.gschema.xml:101
 msgid ""
 "When this option is set to true, browser will ask for being default if it is "
 "not already set."
 msgstr ""
+"Ushbu parametr yoqilgan bo'lsa, brauzer hali o'rnatilmagan bo'lsa, standart bo'lishini so'raydi."
 
 #: data/org.gnome.epiphany.gschema.xml:105
 msgid "Start in incognito mode"
-msgstr ""
+msgstr "Inkognito rejimida boshlash"
 
 #: data/org.gnome.epiphany.gschema.xml:106
 msgid ""
 "When this option is set to true, browser will always start in incognito mode"
 msgstr ""
+"Ushbu parametr parametr yoqilgan bo'lsa brauzer har doim inkognito rejimida ishga tushadi"
 
 #: data/org.gnome.epiphany.gschema.xml:110
 msgid "Active clear data items."
-msgstr ""
+msgstr "Faol toza ma'lumotlar elementlari."
 
 #: data/org.gnome.epiphany.gschema.xml:111
 msgid ""
@@ -242,20 +252,27 @@ msgid ""
 "Plugins data, 128 = HSTS policies cache, 256 = Intelligent Tracking "
 "Prevention data."
 msgstr ""
+"Ma'lumotlar elementlarini tozalash standart bo'yicha faol bo'lishi kerak"
+"bo'lgan tanlov (bitmask). 1 = Cookie fayllari, 2 = HTTP disk keshi, 4 = Mahalliy saqlash ma'lumotlari,"
+"8 = Oflayn veb-ilova keshi, 16 = IndexDB ma'lumotlar bazalari, 32 = WebSQL ma'lumotlar bazalari,"
+"64 = Plaginlar ma'lumotlari, 128 = HSTS siyosatlari keshi, 256 = Intelligent Tracking Prevention"
+"ma'lumotlari."
 
 #: data/org.gnome.epiphany.gschema.xml:117
 msgid "Expand tabs size to fill the available space on the tabs bar."
-msgstr ""
+msgstr "Yorliqlar panelidagi bo'sh joyni to'ldirish uchun yorliqlar hajmini kengaytirish"
 
 #: data/org.gnome.epiphany.gschema.xml:118
 msgid ""
 "If enabled the tabs will expand to use the entire available space in the "
 "tabs bar. This setting is ignored in Pantheon desktop."
 msgstr ""
+"Agar yoqilgan bo'lsa, tablar tabbar panelidagi to'liq bo'sh joydan foydalanish"
+"uchun kengayadi. Pantheon ish stolida bu sozlama e'tiborga olinmaydi."
 
 #: data/org.gnome.epiphany.gschema.xml:122
 msgid "The visibility policy for the tabs bar."
-msgstr ""
+msgstr "Yorliqlar paneli uchun ko'rinish siyosati."
 
 #: data/org.gnome.epiphany.gschema.xml:123
 msgid ""
@@ -264,28 +281,35 @@ msgid ""
 "two or more tabs) and “never” (the tabs bar is never shown). This setting is "
 "ignored in Pantheon desktop, and “always” value is used."
 msgstr ""
+"Tablar paneli ko'rsatilganda boshqaradi. Mumkin qiymatlar ”har doim” (tablar"
+"paneli doimo ko'rsatiladi), ”birdan ortiq” (tablar paneli faqat ikkita yoki undan"
+"ortiq tablar mavjud bo'lganda ko'rsatiladi) va ”hech qachon” (tablar paneli hech"
+"qachon ko'rsatilmaydi). Bu sozlama Pantheon ish stolida e'tiborga olinmaydi va ”har doim”"
+"qiymati ishlatiladi."
 
 #: data/org.gnome.epiphany.gschema.xml:127
 msgid "Keep window open when closing last tab"
-msgstr ""
+msgstr "Oxirgi tabni yopayotganda oynani ochiq tutish"
 
 #: data/org.gnome.epiphany.gschema.xml:128
 msgid "If enabled application window is kept open when closing the last tab."
-msgstr ""
+msgstr "Agar yoqilgan bo'lsa, oxirgi tab yopilganda dastur oynasi ochiq qoladi."
 
 #: data/org.gnome.epiphany.gschema.xml:134
 msgid "Reader mode article font style."
-msgstr ""
+msgstr "O'quvchi rejimi maqola shrift uslubi."
 
 #: data/org.gnome.epiphany.gschema.xml:135
 msgid ""
 "Chooses the style of the main body text for articles in reader mode. "
 "Possible values are “sans” and “serif”."
 msgstr ""
+"O'quvchi rejimida maqolalar uchun asosiy matn uslubini tanlaydi. Mumkin"
+"qiymatlar ”sans” va ”serif”."
 
 #: data/org.gnome.epiphany.gschema.xml:139
 msgid "Reader mode color scheme."
-msgstr ""
+msgstr "O'quvchi rejimining rang sxemasi."
 
 #: data/org.gnome.epiphany.gschema.xml:140
 msgid ""
