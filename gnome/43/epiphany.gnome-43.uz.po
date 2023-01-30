@@ -1656,17 +1656,17 @@ msgstr "%s sahifasi veb-kamerangizdan foydalanmoqchi."
 #: embed/ephy-web-view.c:1141
 #, c-format
 msgid "The page at %s wants to use your webcam and microphone."
-msgstr ""
+msgstr "%s sahifasi veb-kamerangiz va mikrofoningizdan foydalanmoqchi."
 
 #: embed/ephy-web-view.c:1236
 #, c-format
 msgid "Do you want to allow “%s” to use cookies while browsing “%s”?"
-msgstr ""
+msgstr "“%s” ga “%s”ni ko‘rib chiqishda cookie-fayllardan foydalanishga ruxsat bermoqchimisiz?"
 
 #: embed/ephy-web-view.c:1245
 #, c-format
 msgid "This will allow “%s” to track your activity."
-msgstr ""
+msgstr "Bu “%s”ga faoliyatingizni kuzatish imkonini beradi."
 
 #. translators: %s here is the address of the web page
 #: embed/ephy-web-view.c:1423
@@ -1676,13 +1676,14 @@ msgstr "“%s” yuklanmoqda…"
 
 #: embed/ephy-web-view.c:1425 embed/ephy-web-view.c:1431
 msgid "Loading…"
-msgstr "Yuklanmoqda..."
+msgstr "Yuklanmoqda…"
 
 #. Possible error message when a site presents a bad certificate.
 #: embed/ephy-web-view.c:1764
 msgid ""
 "This website presented identification that belongs to a different website."
 msgstr ""
+"Ushbu veb-sayt boshqa veb-saytga tegishli identifikatsiyani taqdim etdi."
 
 #. Possible error message when a site presents a bad certificate.
 #: embed/ephy-web-view.c:1769
@@ -1690,17 +1691,20 @@ msgid ""
 "This website’s identification is too old to trust. Check the date on your "
 "computer’s calendar."
 msgstr ""
+"Ushbu veb-sayt identifikatoriga ishonish uchun juda eski. Kompyuteringiz"
+"kalendaridagi sanani tekshiring."
 
 #. Possible error message when a site presents a bad certificate.
 #: embed/ephy-web-view.c:1774
 msgid "This website’s identification was not issued by a trusted organization."
-msgstr ""
+msgstr "Ushbu veb-sayt identifikatori ishonchli tashkilot tomonidan berilmagan."
 
 #. Possible error message when a site presents a bad certificate.
 #: embed/ephy-web-view.c:1779
 msgid ""
 "This website’s identification could not be processed. It may be corrupted."
 msgstr ""
+"Ushbu veb-sayt identifikatorini qayta ishlab bo'lmadi. U buzilgan bo'lishi mumkin."
 
 #. Possible error message when a site presents a bad certificate.
 #: embed/ephy-web-view.c:1784
@@ -1708,6 +1712,7 @@ msgid ""
 "This website’s identification has been revoked by the trusted organization "
 "that issued it."
 msgstr ""
+"Ushbu veb-saytning identifikatsiyasi uni chiqargan ishonchli tashkilot tomonidan bekor qilingan."
 
 #. Possible error message when a site presents a bad certificate.
 #: embed/ephy-web-view.c:1789
@@ -1715,6 +1720,7 @@ msgid ""
 "This website’s identification cannot be trusted because it uses very weak "
 "encryption."
 msgstr ""
+"Ushbu veb-sayt identifikatsiyasiga ishonib bo'lmaydi, chunki u juda zaif shifrlashdan foydalanadi."
 
 #. Possible error message when a site presents a bad certificate.
 #: embed/ephy-web-view.c:1794
@@ -1722,24 +1728,26 @@ msgid ""
 "This website’s identification is only valid for future dates. Check the date "
 "on your computer’s calendar."
 msgstr ""
+"Ushbu veb-sayt identifikatori faqat kelajakdagi sanalar uchun amal qiladi."
+"Kompyuteringiz taqvimidagi sanani tekshiring."
 
 #. Page title when a site cannot be loaded due to a network error.
 #. Page title when a site cannot be loaded due to a page crash error.
 #: embed/ephy-web-view.c:1859 embed/ephy-web-view.c:1915
 #, c-format
 msgid "Problem Loading Page"
-msgstr ""
+msgstr "Sahifani yuklashda muammo"
 
 #. Message title when a site cannot be loaded due to a network error.
 #: embed/ephy-web-view.c:1862
 msgid "Unable to display this website"
-msgstr ""
+msgstr "Bu veb-saytni ko‘rsatib bo‘lmadi"
 
 #. Error details when a site cannot be loaded due to a network error.
 #: embed/ephy-web-view.c:1867
 #, c-format
 msgid "The site at %s seems to be unavailable."
-msgstr ""
+msgstr "%s manzilidagi sayt mavjud emas."
 
 #. Further error details when a site cannot be loaded due to a network error.
 #: embed/ephy-web-view.c:1871
@@ -1747,12 +1755,14 @@ msgid ""
 "It may be temporarily inaccessible or moved to a new address. You may wish "
 "to verify that your internet connection is working correctly."
 msgstr ""
+"Unga vaqtinchalik kirish imkoni bo'lmagan yoki yangi manzilga ko'chirilgan"
+"bo'lishi mumkin. Internetga ulanishingiz to'g'ri ishlayotganini tekshirishingiz mumkin."
 
 #. Technical details when a site cannot be loaded due to a network error.
 #: embed/ephy-web-view.c:1881
 #, c-format
 msgid "The precise error was: %s"
-msgstr ""
+msgstr "Aniq xato: %s"
 
 #. The button on the network error page. DO NOT ADD MNEMONICS HERE.
 #. The button on the page crash error page. DO NOT ADD MNEMONICS HERE.
@@ -1764,42 +1774,42 @@ msgstr ""
 #, fuzzy
 #| msgid "_Reload"
 msgid "Reload"
-msgstr "_Qaytadan yuklash"
+msgstr "Qayta yuklash"
 
 #. Mnemonic for the Reload button on browser error pages.
 #: embed/ephy-web-view.c:1890 embed/ephy-web-view.c:1943
 #: embed/ephy-web-view.c:1979 embed/ephy-web-view.c:2015
 msgctxt "reload-access-key"
 msgid "R"
-msgstr ""
+msgstr "R"
 
 #. Message title when a site cannot be loaded due to a page crash error.
 #: embed/ephy-web-view.c:1918
 msgid "Oops! There may be a problem"
-msgstr ""
+msgstr "Voy! Muammo bo'lishi mumkin"
 
 #. Error details when a site cannot be loaded due to a page crash error.
 #: embed/ephy-web-view.c:1923
 #, c-format
 msgid "The page %s may have caused Web to close unexpectedly."
-msgstr ""
+msgstr "%s sahifasi Internetning kutilmaganda yopilishiga olib kelgan bo‘lishi mumkin."
 
 #. Further error details when a site cannot be loaded due to a page crash error.
 #: embed/ephy-web-view.c:1930
 #, c-format
 msgid "If this happens again, please report the problem to the %s developers."
-msgstr ""
+msgstr "Agar bu yana takrorlansa, muammo haqida %s dasturchiga xabar bering."
 
 #. Page title when a site cannot be loaded due to a process crash error.
 #: embed/ephy-web-view.c:1964
 #, c-format
 msgid "Problem Displaying Page"
-msgstr ""
+msgstr "Sahifani ko'rsatishda muammo"
 
 #. Message title when a site cannot be loaded due to a process crash error.
 #: embed/ephy-web-view.c:1967
 msgid "Oops!"
-msgstr ""
+msgstr "Voy!"
 
 #. Error details when a site cannot be loaded due to a process crash error.
 #: embed/ephy-web-view.c:1970
@@ -1807,6 +1817,8 @@ msgid ""
 "Something went wrong while displaying this page. Please reload or visit a "
 "different page to continue."
 msgstr ""
+"Ushbu sahifani ko‘rsatishda nimadir xato ketdi. Davom etish uchun qayta"
+"yuklang yoki boshqa sahifaga tashrif buyuring."
 
 #. Page title when web content has become unresponsive.
 #: embed/ephy-web-view.c:2000
