@@ -1824,12 +1824,12 @@ msgstr ""
 #: embed/ephy-web-view.c:2000
 #, c-format
 msgid "Unresponsive Page"
-msgstr ""
+msgstr "Javob bermaydigan sahifa"
 
 #. Message title when web content has become unresponsive.
 #: embed/ephy-web-view.c:2003
 msgid "Uh-oh!"
-msgstr ""
+msgstr "Uh-oh!"
 
 #. Error details when web content has become unresponsive.
 #: embed/ephy-web-view.c:2006
@@ -1837,17 +1837,19 @@ msgid ""
 "This page has been unresponsive for too long. Please reload or visit a "
 "different page to continue."
 msgstr ""
+"Ushbu sahifa juda uzoq vaqtdan beri javob bermayapti. Davom etish uchun qayta"
+"yuklang yoki boshqa sahifaga tashrif buyuring."
 
 #. Page title when a site is not loaded due to an invalid TLS certificate.
 #: embed/ephy-web-view.c:2042
 #, c-format
 msgid "Security Violation"
-msgstr ""
+msgstr "Xavfsizlik buzilishi"
 
 #. Message title when a site is not loaded due to an invalid TLS certificate.
 #: embed/ephy-web-view.c:2045
 msgid "This Connection is Not Secure"
-msgstr ""
+msgstr "Bu ulanish xavfsiz emas"
 
 #. Error details when a site is not loaded due to an invalid TLS certificate.
 #: embed/ephy-web-view.c:2050
@@ -1856,6 +1858,8 @@ msgid ""
 "This does not look like the real %s. Attackers might be trying to steal or "
 "alter information going to or from this site."
 msgstr ""
+"Bu haqiqiy %s ga oʻxshamaydi. Hujumchilar ushbu saytga yoki saytga kiradigan"
+"maʼlumotlarni oʻgʻirlash yoki oʻzgartirishga urinayotgan boʻlishi mumkin."
 
 #. The button on the invalid TLS certificate error page. DO NOT ADD MNEMONICS HERE.
 #. The button on unsafe browsing error page. DO NOT ADD MNEMONICS HERE.
@@ -1865,7 +1869,7 @@ msgstr ""
 #, fuzzy
 #| msgid "_Back"
 msgid "Go Back"
-msgstr "_Orqaga"
+msgstr "Orqaga"
 
 #. Mnemonic for the Go Back button on the invalid TLS certificate error page.
 #. Mnemonic for the Go Back button on the unsafe browsing error page.
@@ -1876,31 +1880,31 @@ msgstr "_Orqaga"
 #| msgid "MB"
 msgctxt "back-access-key"
 msgid "B"
-msgstr "Mb"
+msgstr "B"
 
 #. The hidden button on the invalid TLS certificate error page. Do not add mnemonics here.
 #. The hidden button on the unsafe browsing error page. Do not add mnemonics here.
 #: embed/ephy-web-view.c:2066 embed/ephy-web-view.c:2154
 msgid "Accept Risk and Proceed"
-msgstr ""
+msgstr "Xavfni qabul qiling va davom eting"
 
 #. Mnemonic for the Accept Risk and Proceed button on the invalid TLS certificate error page.
 #. Mnemonic for the Accept Risk and Proceed button on the unsafe browsing error page.
 #: embed/ephy-web-view.c:2070 embed/ephy-web-view.c:2158
 msgctxt "proceed-anyway-access-key"
 msgid "P"
-msgstr ""
+msgstr "p"
 
 #. Page title when a site is flagged by Google Safe Browsing verification.
 #: embed/ephy-web-view.c:2098
 #, c-format
 msgid "Security Warning"
-msgstr ""
+msgstr "Xavfsizlik bo'yicha ogohlantirish"
 
 #. Message title on the unsafe browsing error page.
 #: embed/ephy-web-view.c:2101
 msgid "Unsafe website detected!"
-msgstr ""
+msgstr "Xavfli veb-sayt aniqlandi!"
 
 #: embed/ephy-web-view.c:2109
 #, c-format
@@ -1908,6 +1912,8 @@ msgid ""
 "Visiting %s may harm your computer. This page appears to contain malicious "
 "code that could be downloaded to your computer without your consent."
 msgstr ""
+"%s saytiga tashrif buyurish kompyuteringizga zarar etkazishi mumkin."
+"Bu sahifada sizning roziligingizsiz kompyuteringizga yuklab olinadigan zararli kod mavjud."
 
 #: embed/ephy-web-view.c:2113
 #, c-format
@@ -1915,6 +1921,8 @@ msgid ""
 "You can learn more about harmful web content including viruses and other "
 "malicious code and how to protect your computer at %s."
 msgstr ""
+"Siz zararli veb-kontent, jumladan viruslar va boshqa zararli kodlar va"
+"kompyuteringizni qanday himoya qilish haqida ko'proq ma'lumot olishingiz mumkin: %s."
 
 #: embed/ephy-web-view.c:2120
 #, c-format
@@ -1923,12 +1931,16 @@ msgid ""
 "software or revealing your personal information (for example, passwords, "
 "phone numbers, or credit cards)."
 msgstr ""
+"%s ga tajovuzkorlar sizni aldab, dasturiy ta'minotni o'rnatish yoki shaxsiy"
+"ma'lumotlaringizni (masalan, parollar, telefon raqamlari yoki kredit kartalari)"
+"ochish kabi xavfli ishlarni amalga oshirishi mumkin."
 
 #: embed/ephy-web-view.c:2125
 #, c-format
 msgid ""
 "You can find out more about social engineering (phishing) at %s or from %s."
 msgstr ""
+"Ijtimoiy muhandislik (fishing) haqida ko'proq ma'lumotni %s sahifasida yoki %s dan topishingiz mumkin."
 
 #: embed/ephy-web-view.c:2134
 #, c-format
@@ -1937,11 +1949,15 @@ msgid ""
 "installing programs that harm your browsing experience (for example, by "
 "changing your homepage or showing extra ads on sites you visit)."
 msgstr ""
+"%s zararli dasturlarni o'z ichiga olishi mumkin. Buzg'unchilar sizni"
+"aldashga urinib, brauzerni ko'rish tajribangizga zarar etkazadigan dasturlarni"
+"o'rnatishi mumkin (masalan, bosh sahifangizni o'zgartirish yoki tashrif buyurgan"
+"saytlarda qo'shimcha reklamalarni ko'rsatish orqali)."
 
 #: embed/ephy-web-view.c:2139
 #, c-format
 msgid "You can learn more about unwanted software at %s."
-msgstr ""
+msgstr "Keraksiz dasturlar haqida koʻproq maʼlumotni %s sahifasida olishingiz mumkin."
 
 #. Page title on no such file error page
 #. Message title on the no such file error page.
@@ -1949,12 +1965,12 @@ msgstr ""
 #, fuzzy, c-format
 #| msgid "Not found"
 msgid "File not found"
-msgstr "Topilmadi"
+msgstr "Fayl topilmadi"
 
 #: embed/ephy-web-view.c:2189
 #, c-format
 msgid "%s could not be found."
-msgstr ""
+msgstr "%s topilmadi"
 
 #: embed/ephy-web-view.c:2191
 #, c-format
@@ -1962,6 +1978,8 @@ msgid ""
 "Please check the file name for capitalization or other typing errors. Also "
 "check if it has been moved, renamed, or deleted."
 msgstr ""
+"Iltimos, fayl nomini katta harflar yoki boshqa yozish xatolari uchun tekshiring."
+"Shuningdek, u koʻchirilgan, nomi oʻzgartirilgan yoki oʻchirilganligini tekshiring."
 
 #: embed/ephy-web-view.c:2254
 msgid "None specified"
@@ -1969,52 +1987,52 @@ msgstr ""
 
 #: embed/ephy-web-view.c:2385
 msgid "Technical information"
-msgstr ""
+msgstr "Texnik ma'lumotlar"
 
 #: embed/ephy-web-view.c:3580
 msgid "_OK"
-msgstr ""
+msgstr "_OK"
 
 #: lib/contrib/gnome-languages.c:719
 msgid "Unspecified"
-msgstr ""
+msgstr "Aniqlanmagan"
 
 #. If we don't have XDG user dirs info, return an educated guess.
 #: lib/ephy-file-helpers.c:120 lib/ephy-file-helpers.c:196
 #: src/resources/gtk/prefs-general-page.ui:185
 msgid "Downloads"
-msgstr "Yozib olish"
+msgstr "Yuklanishlar"
 
 #. If we don't have XDG user dirs info, return an educated guess.
 #: lib/ephy-file-helpers.c:177 lib/ephy-file-helpers.c:193
 msgid "Desktop"
-msgstr ""
+msgstr "Desktop"
 
 #: lib/ephy-file-helpers.c:190
 #, fuzzy
 #| msgid "_Home"
 msgid "Home"
-msgstr "_Uy"
+msgstr "Uy"
 
 #: lib/ephy-file-helpers.c:427
 #, c-format
 msgid "Could not create a temporary directory in “%s”."
-msgstr "“%s” ichida vaqtinchalik direktoriya yaratib boʻlmadi."
+msgstr "“%s”da vaqtinchalik jild yaratib bo‘lmadi."
 
 #: lib/ephy-file-helpers.c:547
 #, c-format
 msgid "The file “%s” exists. Please move it out of the way."
-msgstr "“%s” fayli mavjud. Iltimos uni boshqa joyga koʻchiring."
+msgstr "“%s” fayli mavjud. Iltimos, uni yo'ldan chetga surib qo'ying."
 
 #: lib/ephy-file-helpers.c:566
 #, c-format
 msgid "Failed to create directory “%s”."
-msgstr "“%s” direktoriyasini yaratib boʻlmadi."
+msgstr "“%s” jildini yaratib bo‘lmadi."
 
 #: lib/ephy-gui.c:73
 #, c-format
 msgid "Could not display help: %s"
-msgstr "Yordamni koʻrsatib boʻlmadi: %s"
+msgstr "Yordamni ko‘rsatib bo‘lmadi: %s"
 
 #. TRANSLATORS: Please modify the main address of duckduckgo in order to match
 #. * the version used in your country. For example for the french version :
@@ -2023,7 +2041,7 @@ msgstr "Yordamni koʻrsatib boʻlmadi: %s"
 #: lib/ephy-search-engine-manager.h:35
 #, c-format
 msgid "https://duckduckgo.com/?q=%s&amp;t=epiphany"
-msgstr ""
+msgstr "https://duckduckgo.com/?q=%s&amp;t=epiphany"
 
 #. Translators: First %s is the name of the user currently logged in on the
 #. * machine. The second %s is the machine's name. You can use the variables
@@ -2032,31 +2050,31 @@ msgstr ""
 #, fuzzy, c-format
 #| msgid "GNOME Web Browser"
 msgid "%s’s GNOME Web on %s"
-msgstr "GNOME veb brauzeri"
+msgstr "%s ning GNOME Web %s"
 
 #. Translators: "friendly time" string for the current day, strftime format. like "Today 12∶34 am"
 #: lib/ephy-time-helpers.c:236
 msgid "Today %I∶%M %p"
-msgstr ""
+msgstr "Bugun %I∶%M %p"
 
 #. Translators: "friendly time" string for the current day, strftime format. like "Today 15∶34"
 #: lib/ephy-time-helpers.c:239
 msgid "Today %H∶%M"
-msgstr ""
+msgstr "Bugun %H∶%M"
 
 #. Translators: "friendly time" string for the previous day,
 #. * strftime format. e.g. "Yesterday 12∶34 am"
 #.
 #: lib/ephy-time-helpers.c:254
 msgid "Yesterday %I∶%M %p"
-msgstr ""
+msgstr "Kecha %I∶%M %p"
 
 #. Translators: "friendly time" string for the previous day,
 #. * strftime format. e.g. "Yesterday 15∶34"
 #.
 #: lib/ephy-time-helpers.c:259
 msgid "Yesterday %H∶%M"
-msgstr ""
+msgstr "Kecha %H∶%M"
 
 #. Translators: "friendly time" string for a day in the current week,
 #. * strftime format. e.g. "Wed 12∶34 am"
