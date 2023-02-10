@@ -2,7 +2,7 @@
 <h2 align="center">Xinux | Lokalizatsiya</h2>
 <p align="center"><b><a href="https://github.com/ismoilovdevml" target="_blank">@ismoilovdev</a> boshchiligida <a href="https://xinux.uz" target="_blank">Xinux Jamiyati</a> tomonidan qilingan tarjimalar.</b></p>
 
-## Ushu loyiha
+## Ushbu loyiha
 
 Tarjima qilinmagan DE yoki WM dasturlari uchun o'zbek tilida tarjimalar yetkazish uchun xizmat qiladi.
 Asosan hamma protsessni sentrallashtirish uchun yaratilgan repozitoriya hisoblanadi va kuzatib borish, hamda
