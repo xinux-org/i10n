@@ -9,8 +9,8 @@ msgstr ""
 "Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/yelp/issues\n"
 "POT-Creation-Date: 2022-07-17 18:01+0000\n"
 "PO-Revision-Date: 2009-01-03 20:41+0500\n"
-"Last-Translator: Nurali Abdurahmonov <mavnur@gmail.com>\n"
-"Language-Team: Uzbek\n"
+"Last-Translator: Otabek Ismoilov <ismoilovdev@gmail.com>\n"
+"Language-Team: Uzbek <cctld@uzinfocom.uz>\n"
 "Language: uz\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -29,7 +29,7 @@ msgstr ""
 #.
 #: data/domains/yelp.xml.in:36
 msgid "Install <string/>"
-msgstr ""
+msgstr "<string/> ni o'rnating"
 
 #: data/yelp.appdata.xml.in:25 src/yelp-application.c:269
 #: src/yelp-window.c:1192 yelp.desktop.in:3
@@ -38,29 +38,34 @@ msgstr "Yordam"
 
 #: data/yelp.appdata.xml.in:26
 msgid "Help viewer for GNOME"
-msgstr ""
+msgstr "GNOME uchun viewerga yordam bering"
 
 #: data/yelp.appdata.xml.in:28
 msgid ""
 "Yelp is the GNOME help viewer. It is the default Mallard viewer, but it can "
 "also display DocBook, info, man, and HTML documentation."
 msgstr ""
+"Yelp - bu GNOME yordam viewer dasturi. Bu standart Mallard ko'ruvchisidir,"
+"lekin u DocBook, info, man va HTML hujjatlarini ham ko'rsatishi mumkin."
 
 #: data/yelp.appdata.xml.in:32
 msgid ""
 "It makes it easy to find the documentation you need, with interactive search "
 "and bookmarks."
 msgstr ""
+"Bu interaktiv qidiruv va bookmarklar yordamida kerakli hujjatlarni topishni osonlashtiradi."
 
 #: data/yelp.appdata.xml.in:36
 msgid ""
 "It also has an editor mode, which shows editorial comments and revision "
 "statuses when editing Mallard documents."
 msgstr ""
+"Shuningdek, tahrirlovchi rejimi mavjud bo'lib, u Mallard hujjatlarini tahrirlashda"
+"tahririyat sharhlari va qayta ko'rib chiqish holatini ko'rsatadi."
 
 #: data/yelp.appdata.xml.in:51
 msgid "The GNOME Project"
-msgstr ""
+msgstr "GNOME loyihasi"
 
 #: libyelp/yelp-bz2-decompressor.c:143 libyelp/yelp-lzma-decompressor.c:152
 msgid "Invalid compressed data"
@@ -70,7 +75,7 @@ msgstr ""
 #, fuzzy
 #| msgid "Out of memory"
 msgid "Not enough memory"
-msgstr "Xotira yetishmayapti"
+msgstr "Xotira yetarli emas"
 
 #: libyelp/yelp-docbook-document.c:298 libyelp/yelp-info-document.c:220
 #: libyelp/yelp-mallard-document.c:312 libyelp/yelp-mallard-document.c:477
@@ -78,20 +83,20 @@ msgstr "Xotira yetishmayapti"
 #, fuzzy, c-format
 #| msgid "The page %s was not found in the document %s."
 msgid "The page ‘%s’ was not found in the document ‘%s’."
-msgstr "%s sahifasi %s qoʻllanmasida topilmadi."
+msgstr "“%s” sahifasi “%s” hujjatida topilmadi."
 
 #: libyelp/yelp-docbook-document.c:337 libyelp/yelp-info-document.c:357
 #: libyelp/yelp-man-document.c:335
 #, fuzzy
 #| msgid "The file ‘%s’ does not exist."
 msgid "The file does not exist."
-msgstr "'%s' fayli mavjud emas."
+msgstr "Fayl mavjud emas."
 
 #: libyelp/yelp-docbook-document.c:347 libyelp/yelp-info-document.c:367
 #: libyelp/yelp-man-document.c:345
 #, c-format
 msgid "The file ‘%s’ does not exist."
-msgstr "'%s' fayli mavjud emas."
+msgstr "“%s” fayli mavjud emas"
 
 #: libyelp/yelp-docbook-document.c:365
 #, c-format
@@ -99,6 +104,7 @@ msgid ""
 "The file ‘%s’ could not be parsed because it is not a well-formed XML "
 "document."
 msgstr ""
+"“%s” faylini tahlil qilib boʻlmadi, chunki u yaxshi tuzilgan XML hujjati emas."
 
 #: libyelp/yelp-docbook-document.c:378
 #, c-format
@@ -106,17 +112,18 @@ msgid ""
 "The file ‘%s’ could not be parsed because one or more of its included files "
 "is not a well-formed XML document."
 msgstr ""
+"“%s” faylini tahlil qilib boʻlmadi, chunki undagi bir yoki bir nechta fayl yaxshi shakllangan XML hujjati emas."
 
 #: libyelp/yelp-docbook-document.c:813
 msgid "Unknown"
-msgstr "Nomaʼlum"
+msgstr "Noma'lum"
 
 #: libyelp/yelp-docbook-document.c:911 libyelp/yelp-info-document.c:300
 #: libyelp/yelp-man-document.c:278
 #, fuzzy, c-format
 #| msgid "The requested page was not found in the document %s."
 msgid "The requested page was not found in the document ‘%s’."
-msgstr "Qidirilgan sahifa %s hujjatida topilmadi."
+msgstr "So‘ralgan sahifa “%s” hujjatida topilmadi."
 
 #: libyelp/yelp-document.c:888
 #, fuzzy, c-format
