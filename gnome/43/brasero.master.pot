@@ -241,10 +241,12 @@ msgid ""
 "Should brasero filter broken symbolic links. Set to true, brasero will "
 "filter broken symbolic links."
 msgstr ""
+"Agar brasero buzilgan ramziy havolalarni filtrlashi kerak. rostga o'rnatilgan bo'lsa,"
+"brasero buzilgan ramziy havolalarni filtrlaydi."
 
 #: ../data/org.gnome.brasero.gschema.xml.h:30
 msgid "The priority value for the plugin"
-msgstr ""
+msgstr "Plagin uchun ustuvor qiymat"
 
 #: ../data/org.gnome.brasero.gschema.xml.h:31
 msgid ""
@@ -253,6 +255,10 @@ msgid ""
 "priority is used. A positive value overrides the plugin's native priority. A "
 "negative value disables the plugin."
 msgstr ""
+"Bir xil vazifa uchun bir nechta plaginlar mavjud bo'lsa, bu qiymat qaysi"
+"plaginga ustuvorlik berilishi kerakligini aniqlash uchun ishlatiladi. 0 plaginning"
+"mahalliy ustuvorligi ishlatilganligini anglatadi. Ijobiy qiymat plaginning mahalliy"
+"ustuvorligini bekor qiladi. Salbiy qiymat plaginni o'chirib qo'yadi."
 
 #: ../data/org.gnome.brasero.gschema.xml.h:32
 msgid "Burning flags to be used"
@@ -266,56 +272,57 @@ msgstr ""
 
 #: ../data/org.gnome.brasero.gschema.xml.h:34
 msgid "The speed to be used"
-msgstr ""
+msgstr "Foydalanish tezligi"
 
 #: ../data/org.gnome.brasero.gschema.xml.h:35
 msgid ""
 "This value represents the speed that was used in such a context the last "
 "time."
 msgstr ""
+"Bu qiymat oxirgi marta bunday kontekstda ishlatilgan tezlikni ifodalaydi."
 
 #: ../libbrasero-burn/brasero-blank-dialog.c:222
 msgid "Error while blanking."
-msgstr ""
+msgstr "Oʻchirishda xatolik yuz berdi."
 
 #: ../libbrasero-burn/brasero-blank-dialog.c:227
 #: ../libbrasero-burn/brasero-blank-dialog.c:272
 msgid "Blank _Again"
-msgstr ""
+msgstr "Yana bo'sh"
 
 #: ../libbrasero-burn/brasero-blank-dialog.c:244
 msgid "Unknown error."
-msgstr ""
+msgstr "Noma'lum xato."
 
 #: ../libbrasero-burn/brasero-blank-dialog.c:264
 #: ../libbrasero-burn/brasero-blank-dialog.c:288
 msgid "The disc was successfully blanked."
-msgstr ""
+msgstr "Disk muvaffaqiyatli o'chirildi."
 
 #: ../libbrasero-burn/brasero-blank-dialog.c:270
 msgid "The disc is ready for use."
-msgstr ""
+msgstr "Disk foydalanishga tayyor."
 
 #. Translators: This is a verb, an action
 #: ../libbrasero-burn/brasero-blank-dialog.c:371
 msgid "_Blank"
-msgstr ""
+msgstr "_Bo'sh"
 
 #: ../libbrasero-burn/brasero-blank-dialog.c:402
 msgid "_Fast blanking"
-msgstr ""
+msgstr "_Tez o'chirish"
 
 #: ../libbrasero-burn/brasero-blank-dialog.c:403
 msgid "Activate fast blanking, as opposed to a longer, thorough blanking"
-msgstr ""
+msgstr "Uzunroq, toʻliq oʻchirishdan farqli oʻlaroq, tez oʻchirishni faollashtiring"
 
 #: ../libbrasero-burn/brasero-blank-dialog.c:433
 msgid "Disc Blanking"
-msgstr ""
+msgstr "Diskni o'chirish"
 
 #: ../libbrasero-burn/brasero-burn.c:162
 msgid "Burning CD/DVD"
-msgstr ""
+msgstr "CD/DVD yozish"
 
 #: ../libbrasero-burn/brasero-burn.c:331
 #: ../libbrasero-burn/brasero-data-session.c:123
@@ -330,18 +337,18 @@ msgstr ""
 #: ../plugins/libburnia/burn-libburn-common.c:186
 #, c-format
 msgid "The drive is busy"
-msgstr ""
+msgstr "Drayver band"
 
 #: ../libbrasero-burn/brasero-burn.c:332
 #: ../libbrasero-burn/brasero-burn-dialog.c:651
 #: ../libbrasero-burn/brasero-tool-dialog.c:90
 msgid "Make sure another application is not using it"
-msgstr ""
+msgstr "Boshqa dastur uni ishlatmayotganiga ishonch hosil qiling"
 
 #: ../libbrasero-burn/brasero-burn.c:409
 #, c-format
 msgid "\"%s\" cannot be unlocked"
-msgstr ""
+msgstr "\"%s\" qulfini ochib bo‘lmaydi"
 
 #: ../libbrasero-burn/brasero-burn.c:546 ../libbrasero-burn/brasero-burn.c:678
 #: ../libbrasero-burn/brasero-burn.c:761
@@ -350,25 +357,25 @@ msgstr ""
 
 #: ../libbrasero-burn/brasero-burn.c:586
 msgid "No source drive specified"
-msgstr ""
+msgstr "Manba drayveri belgilanmagan"
 
 #: ../libbrasero-burn/brasero-burn.c:632
 msgid "Ongoing copying process"
-msgstr ""
+msgstr "Davom etayotgan nusxa ko'chirish jarayoni"
 
 #: ../libbrasero-burn/brasero-burn.c:636 ../libbrasero-burn/brasero-burn.c:735
 #: ../libbrasero-burn/brasero-burn.c:872 ../libbrasero-burn/brasero-burn.c:987
 #, c-format
 msgid "The drive cannot be locked (%s)"
-msgstr ""
+msgstr "Diskni bloklab bo‘lmaydi (%s)"
 
 #: ../libbrasero-burn/brasero-burn.c:695
 msgid "The drive has no rewriting capabilities"
-msgstr ""
+msgstr "Drayver qayta yozish imkoniyatiga ega emas"
 
 #: ../libbrasero-burn/brasero-burn.c:731
 msgid "Ongoing blanking process"
-msgstr ""
+msgstr "Davom etayotgan o'chirish jarayoni"
 
 #: ../libbrasero-burn/brasero-burn.c:770
 msgid "The drive cannot burn"
@@ -386,7 +393,7 @@ msgstr ""
 #: ../libbrasero-burn/brasero-burn.c:1623
 #: ../libbrasero-burn/brasero-burn.c:1817
 msgid "Merging data is impossible with this disc"
-msgstr ""
+msgstr "Ushbu disk bilan ma'lumotlarni birlashtirish mumkin emas"
 
 #: ../libbrasero-burn/brasero-burn.c:1624
 #: ../libbrasero-burn/brasero-burn-dialog.c:2186
@@ -396,28 +403,28 @@ msgstr ""
 #: ../plugins/growisofs/burn-growisofs.c:198
 #, c-format
 msgid "Not enough space available on the disc"
-msgstr ""
+msgstr "Diskda joy yetarli emas"
 
 #. Translators: %s is the name of a missing application
 #: ../libbrasero-burn/brasero-burn.c:1708
 #: ../libbrasero-burn/brasero-burn-options.c:1187 ../src/brasero-project.c:1385
 #, c-format
 msgid "%s (application)"
-msgstr ""
+msgstr "%s (ilova)"
 
 #. Translators: %s is the name of a missing library
 #: ../libbrasero-burn/brasero-burn.c:1714
 #: ../libbrasero-burn/brasero-burn-options.c:1193 ../src/brasero-project.c:1391
 #, c-format
 msgid "%s (library)"
-msgstr ""
+msgstr "%s (kutubxona)"
 
 #. Translators: %s is the name of a missing GStreamer plugin
 #: ../libbrasero-burn/brasero-burn.c:1719
 #: ../libbrasero-burn/brasero-burn-options.c:1198 ../src/brasero-project.c:1396
 #, c-format
 msgid "%s (GStreamer plugin)"
-msgstr ""
+msgstr "%s (GStreamer plagini)"
 
 #: ../libbrasero-burn/brasero-burn.c:1752
 msgid "There is no track to burn"
@@ -428,16 +435,18 @@ msgid ""
 "Please install the following required applications and libraries manually "
 "and try again:"
 msgstr ""
+"Iltimos, quyidagi kerakli ilovalar va kutubxonalarni qoʻlda oʻrnating va qaytadan"
+"urinib koʻring:"
 
 #: ../libbrasero-burn/brasero-burn.c:2576
 #: ../libbrasero-burn/brasero-caps-burn.c:868
 #, c-format
 msgid "Only one track at a time can be checked"
-msgstr ""
+msgstr "Bir vaqtning o'zida faqat bitta trekni tekshirish mumkin"
 
 #: ../libbrasero-burn/brasero-burn.c:2635
 msgid "No format for the temporary image could be found"
-msgstr ""
+msgstr "Vaqtinchalik tasvir uchun format topilmadi"
 
 #. Translators: Error message saying no graft point
 #. * is specified. A graft point is the path (on the
@@ -457,17 +466,17 @@ msgstr ""
 #: ../plugins/cdrtools/burn-readcd.c:380 ../src/brasero-app.c:786
 #, c-format
 msgid "An internal error occurred"
-msgstr ""
+msgstr "Ichki xatolik yuz berdi"
 
 #: ../libbrasero-burn/brasero-burn-dialog.c:155
 msgid "Brasero notification"
-msgstr ""
+msgstr "Brasero bildishnomasi"
 
 #. Translators: This string is used in the title bar %s is the action currently performed
 #: ../libbrasero-burn/brasero-burn-dialog.c:219
 #, c-format
 msgid "%s (%i%% Done)"
-msgstr ""
+msgstr "%s (%i%% Bajarildi)"
 
 #: ../libbrasero-burn/brasero-burn-dialog.c:241
 #: ../libbrasero-burn/brasero-burn-dialog.c:1161
