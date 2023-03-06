@@ -1240,6 +1240,7 @@ msgid ""
 "Do you want to create a disc from the contents of the image or with the "
 "image file inside?"
 msgstr ""
+"Tasvir mazmunidan yoki ichidagi tasvir fayli bilan disk yaratmoqchimisiz?"
 
 #. Translators: %s is the name of the image
 #: ../libbrasero-burn/brasero-burn-options.c:804
@@ -1248,10 +1249,12 @@ msgid ""
 "There is only one selected file (\"%s\"). It is the image of a disc and its "
 "contents can be burned."
 msgstr ""
+"Faqat bitta tanlangan fayl bor (\"%s\"). Bu diskning tasviri va uning"
+"mazmunini yozish mumkin."
 
 #: ../libbrasero-burn/brasero-burn-options.c:809
 msgid "Burn as _File"
-msgstr ""
+msgstr "_Fayl sifatida yozish"
 
 #: ../libbrasero-burn/brasero-burn-options.c:811
 msgid "Burn _Contents…"
@@ -1259,24 +1262,24 @@ msgstr ""
 
 #: ../libbrasero-burn/brasero-burn-options.c:893
 msgid "Image Burning Setup"
-msgstr ""
+msgstr "Tasvir yozishni sozlash"
 
 #. pack everything
 #: ../libbrasero-burn/brasero-burn-options.c:901
 msgid "Select a disc image to write"
-msgstr ""
+msgstr "Yozish uchun disk tasvirini tanlang"
 
 #: ../libbrasero-burn/brasero-burn-options.c:921
 msgid "Copy CD/DVD"
-msgstr ""
+msgstr "CD/DVDdan nusxa olish"
 
 #: ../libbrasero-burn/brasero-burn-options.c:927
 msgid "Select disc to copy"
-msgstr ""
+msgstr "Nusxa olish uchun diskni tanlang"
 
 #: ../libbrasero-burn/brasero-burn-options.c:1229 ../src/brasero-project.c:1439
 msgid "Please install the following manually and try again:"
-msgstr ""
+msgstr "Quyidagilarni qoʻlda oʻrnating va qaytadan urinib koʻring:"
 
 #: ../libbrasero-burn/brasero-cover.c:119
 msgid "Unknown song"
@@ -1296,34 +1299,34 @@ msgstr ""
 #: ../src/brasero-song-control.c:270
 #, c-format
 msgid "by %s"
-msgstr ""
+msgstr "%s tomonidan"
 
 #: ../libbrasero-burn/brasero-data-vfs.c:218
 #, c-format
 msgid "\"%s\" cannot be read"
-msgstr ""
+msgstr "\"%s\" o'qilmaydi"
 
 #: ../libbrasero-burn/brasero-dest-selection.c:605
 #: ../libbrasero-burn/brasero-image-type-chooser.c:133
 msgid "SVCD image"
-msgstr ""
+msgstr "SVCD tasvir"
 
 #: ../libbrasero-burn/brasero-dest-selection.c:607
 #: ../libbrasero-burn/brasero-image-type-chooser.c:127
 msgid "VCD image"
-msgstr ""
+msgstr "VCD tasvir"
 
 #: ../libbrasero-burn/brasero-dest-selection.c:611
 #: ../libbrasero-burn/brasero-image-type-chooser.c:106
 msgid "Video DVD image"
-msgstr ""
+msgstr "Video DVD tasvir"
 
 #. NOTE for translators: the first %s is medium_name ("File
 #. * Image") and the second the path for the image file
 #: ../libbrasero-burn/brasero-dest-selection.c:623
 #, c-format
 msgid "%s: \"%s\""
-msgstr ""
+msgstr "%s: \"%s\""
 
 #. Translators: this string is only used when the user
 #. * wants to copy a disc using the same destination and
@@ -1334,33 +1337,33 @@ msgstr ""
 #: ../libbrasero-burn/brasero-dest-selection.c:655
 #, c-format
 msgid "New disc in the burner holding the source disc"
-msgstr ""
+msgstr "Resurs diskini ushlab turgan yozgichdagi yangi disk"
 
 #. NOTE for translators, the first %s is the medium name
 #: ../libbrasero-burn/brasero-dest-selection.c:696
 #, c-format
 msgid "%s: not enough free space"
-msgstr ""
+msgstr "%s: boʻsh joy yetarli emas"
 
 #. NOTE for translators: the first %s is the medium name, the second %s
 #. * is its available free space. "Free" here is the free space available.
 #: ../libbrasero-burn/brasero-dest-selection.c:727
 #, c-format
 msgid "%s: %s of free space"
-msgstr ""
+msgstr "%s: %s bo‘sh joy"
 
 #. Translators: the first %s is the path of the directory where brasero
 #. * will store its temporary files; the second one is the size available
 #: ../libbrasero-burn/brasero-drive-properties.c:192
 #, c-format
 msgid "%s: %s free"
-msgstr ""
+msgstr "%s: %s bo'sh"
 
 #: ../libbrasero-burn/brasero-drive-properties.c:233
 #: ../libbrasero-burn/brasero-drive-properties.c:272
 #: ../libbrasero-burn/brasero-drive-properties.c:324
 msgid "Do you really want to choose this location?"
-msgstr ""
+msgstr "Haqiqatan ham bu joyni tanlashni xohlaysizmi?"
 
 #: ../libbrasero-burn/brasero-drive-properties.c:277
 #: ../libbrasero-burn/brasero-session.c:1287
@@ -1370,7 +1373,7 @@ msgstr ""
 #: ../plugins/libburnia/burn-libisofs.c:246
 #, c-format
 msgid "You do not have the required permission to write at this location"
-msgstr ""
+msgstr "Sizda bu joyda yozish uchun zarur ruxsat yoʻq"
 
 #: ../libbrasero-burn/brasero-drive-properties.c:330
 msgid ""
@@ -1378,61 +1381,65 @@ msgid ""
 "GiB).\n"
 "This can be a problem when writing DVDs or large images."
 msgstr ""
+"Ushbu jilddagi fayl tizimi katta fayllarni qo'llab-quvvatlamaydi (hajmi 2 GiB dan katta).\n"
+"Bu DVD yoki katta hajmdagi tasvirlarni yozishda muammo bo'lishi mumkin."
 
 #. Translators %s.1f is the speed used to burn
 #: ../libbrasero-burn/brasero-drive-properties.c:524
 #, c-format
 msgid "%.1f× (DVD)"
-msgstr ""
+msgstr "%.1f× (DVD)"
 
 #. Translators %s.1f is the speed used to burn
 #: ../libbrasero-burn/brasero-drive-properties.c:528
 #, c-format
 msgid "%.1f× (CD)"
-msgstr ""
+msgstr "%.1f× (CD)"
 
 #. Translators %s.1f is the speed used to burn. BD = Blu Ray
 #: ../libbrasero-burn/brasero-drive-properties.c:532
 #, c-format
 msgid "%.1f× (BD)"
-msgstr ""
+msgstr "%.1f× (BD)"
 
 #. Translators %s.1f is the speed used to burn for every medium
 #. * type. BD = Blu Ray
 #: ../libbrasero-burn/brasero-drive-properties.c:537
 #, c-format
 msgid "%.1f× (BD) %.1f× (DVD) %.1f× (CD)"
-msgstr ""
+msgstr "%.1f× (BD) %.1f× (DVD) %.1f× (CD)"
 
 #: ../libbrasero-burn/brasero-drive-properties.c:575
 msgid "Impossible to retrieve speeds"
-msgstr ""
+msgstr "Tezlikni olish mumkin emas"
 
 #: ../libbrasero-burn/brasero-drive-properties.c:584
 msgid "Maximum speed"
-msgstr ""
+msgstr "Maksimal tezlik"
 
 #: ../libbrasero-burn/brasero-drive-properties.c:710
 msgid "Burning speed"
-msgstr ""
+msgstr "Yozish tezligi"
 
 #: ../libbrasero-burn/brasero-drive-properties.c:723
 msgid "_Simulate before burning"
-msgstr ""
+msgstr "_Yozishdan oldin simulyatsiya qiling"
 
 #: ../libbrasero-burn/brasero-drive-properties.c:724
 msgid ""
 "Brasero will simulate the burning and, if it is successful, go on with "
 "actual burning after 10 seconds"
 msgstr ""
+"Brasero yozishni taqlid qiladi va agar u muvaffaqiyatli bo'lsa,"
+"10 soniyadan keyin haqiqiy yozishni davom ettiradi"
 
 #: ../libbrasero-burn/brasero-drive-properties.c:726
 msgid "Use burn_proof (decrease the risk of failures)"
-msgstr ""
+msgstr "burn_proof dan foydalaning (muvaffaqiyatsizliklar xavfini kamaytirish)"
 
 #: ../libbrasero-burn/brasero-drive-properties.c:728
 msgid "Burn the image directly _without saving it to disc"
-msgstr ""
+msgstr "Tasvirni diskda saqlamasdan to'g'ridan-to'g'ri yozish"
 
 #: ../libbrasero-burn/brasero-drive-properties.c:730
 msgid "Leave the disc _open to add other files later"
