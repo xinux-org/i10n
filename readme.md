@@ -27,7 +27,7 @@ yuz beradigan bo'lsa yoki savollar bo'lsa, [ismoilovdev](https://t.me/ismoilovde
 
 ## Sponsorlik
 
-Agar ushbu loyihada ancha ter to'kgan bo'lsangiz va o'zingizni sponsoringiz bo'lishiga loyiq deb topsangiz, [@uwussimo](https://t.me/uwussimo) ga
+Agar ushbu loyihada ancha ter to'kgan bo'lsangiz va o'zingizni sponsoringiz bo'lishiga loyiq deb topsangiz, [@Yuri](https://t.me/yurionblog) ga
 sponsorlik uchun murojaat qiling. Murojaat qilishdan avval [Payme](https://payme.uz) da o'z shaxsiy hisobingiz va shu bilan birgalikda ochiq URL shaklida
 pul o'tkazish uchun qulay sahifangiz yaratishingizni iltimos qilib qolamiz! Hissa qo'shayotganlar haqidagi statistikalarni [Insight](https://github.com/uzinfocom-org/i10n/pulse) da ko'rsangiz bo'ladi.
 
