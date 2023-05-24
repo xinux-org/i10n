@@ -3,7 +3,7 @@ Diqqat hamma e'tibor bersin! <br>
 i10n tarjima bo'yicha kimda tarjima qilolmagan so'zlar va gaplar bo'lsa shu yerda yozib qo'yinglar buni Commmunity bilan birga ko'rib chiqamiz <br>
 Xatolik qayerdan kelgani va kim tomonidan topilgani xaqida xam yozib qoldirilsin <br>
 
-Trajima qilinmagan so'zlar va birikmalar
+Tarjima qilinmagan so'zlar va birikmalar
 
 Help viewer for GNOME    javobi  kutilmoqda  `yelp.master.uz.po`  Ismoilovdev <br>
 Whether menus should have a tearoff. javobi  kutilmoqda `gsettings-desktop-schemas.master.pot` 983 -qator Ismoilovdev<br>
@@ -24,3 +24,6 @@ The whitepoint temperature is unlikely javobi kutilmoqda `gnome-color-manager.ma
 Cannot perform blocking operation during TLS handshake javobi kutilmoqda `glib-networking.glib-2-74.pot` 39-qator ismoilovdev <br>
 
 Receive flags are not supported javobi kutilmoqda `glib-networking.glib-2-74.pot` 69-74-qator ismoilovdev <br>
+
+Enable stemmer javobi kutilmoqda `tracker-miners.master.pot` 55-qator i-akbarshoh <br>
+Enable unaccent javobi kutilmoqda `tracker-miners.master.pot` 67-qator i-akbarshoh <br>
