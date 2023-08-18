@@ -24,3 +24,15 @@ The whitepoint temperature is unlikely javobi kutilmoqda `gnome-color-manager.ma
 Cannot perform blocking operation during TLS handshake javobi kutilmoqda `glib-networking.glib-2-74.pot` 39-qator ismoilovdev <br>
 
 Receive flags are not supported javobi kutilmoqda `glib-networking.glib-2-74.pot` 69-74-qator ismoilovdev <br>
+
+"Photo burst mode", "Burst" javobi kutilmoqda `cheese.master.pot` 37-43-qator samiddastanbayev <br>
+
+"Shutter" javobi kutilmoqda `cheese.master.pot` 118-120-qator samiddastanbayev <br>
+
+"Burst mode" javobi kutilmoqda `cheese.master.pot` 130-132-qator samiddastanbayev <br>
+
+"Capture" javobi kutilmoqda `cheese.master.pot` 142-144-qator samiddastanbayev <br>
+
+"Take multiple photos in quick succession with burst mode. Use the countdown to give yourself time to strike a pose, and wait for the flash!" javobi kutilmoqda `cheese.master.pot` 204-206-qator samiddastanbayev <br>
+
+"Webcam Booth" javobi kutilmoqda `cheese.master.pot` 218-220-qator samiddastanbayev <br>
