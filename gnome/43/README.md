@@ -36,3 +36,11 @@ Receive flags are not supported javobi kutilmoqda `glib-networking.glib-2-74.pot
 "Take multiple photos in quick succession with burst mode. Use the countdown to give yourself time to strike a pose, and wait for the flash!" javobi kutilmoqda `cheese.master.pot` 204-206-qator samiddastanbayev <br>
 
 "Webcam Booth" javobi kutilmoqda `cheese.master.pot` 218-220-qator samiddastanbayev <br>
+
+"Fire flash before taking a photo", "Set to true to fire a flash before taking a photo" javobi kutilmoqda `cheese.master.pot` 243-249-qator samiddastanbayev <br>
+
+"The path to the device node which points to the camera, for example /dev/video0" javobi kutilmoqda `cheese.master.pot` 257-259-qator samiddastanbayev <br>
+
+"Time between photos in burst mode", "The length of time, in milliseconds, to delay between taking each photo in a burst sequence of photos. If the burst delay is less than the countdown duration, the countdown duration will be used instead.", "Number of photos in burst mode", "The number of photos to take in a single burst." javobi kutilmoqda `cheese.master.pot` 355-372-qator samiddastanbayev <br>
+
+"Shutter sound" javobi kutilmoqda `cheese.master.pot` 423-425-qator samiddastanbayev <br>
