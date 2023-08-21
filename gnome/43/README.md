@@ -44,3 +44,9 @@ Receive flags are not supported javobi kutilmoqda `glib-networking.glib-2-74.pot
 "Time between photos in burst mode", "The length of time, in milliseconds, to delay between taking each photo in a burst sequence of photos. If the burst delay is less than the countdown duration, the countdown duration will be used instead.", "Number of photos in burst mode", "The number of photos to take in a single burst." javobi kutilmoqda `cheese.master.pot` 355-372-qator samiddastanbayev <br>
 
 "Shutter sound" javobi kutilmoqda `cheese.master.pot` 423-425-qator samiddastanbayev <br>
+
+"Cancellable initialization not supported" javobi kutilmoqda `cheese.master.pot` 459-461-qator samiddastanbayev <br>
+
+"Start in wide mode" javobi kutilmoqda `cheese.master.pot` 463-465-qator samiddastanbayev <br>
+
+"translator-credits" javobi kutilmoqda `cheese.master.pot` 487-489-qator samiddastanbayev <br>
