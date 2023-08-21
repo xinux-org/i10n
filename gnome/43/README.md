@@ -45,6 +45,8 @@ Receive flags are not supported javobi kutilmoqda `glib-networking.glib-2-74.pot
 
 "Shutter sound" javobi kutilmoqda `cheese.master.pot` 423-425-qator samiddastanbayev <br>
 
+"Cancellable initialization not supported" javobi kutilmoqda `cheese.master.pot` 459-461-qator samiddastanbayev <br>
+
 "Start in wide mode" javobi kutilmoqda `cheese.master.pot` 463-465-qator samiddastanbayev <br>
 
 "translator-credits" javobi kutilmoqda `cheese.master.pot` 487-489-qator samiddastanbayev <br>
