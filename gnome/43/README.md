@@ -50,3 +50,7 @@ Receive flags are not supported javobi kutilmoqda `glib-networking.glib-2-74.pot
 "Start in wide mode" javobi kutilmoqda `cheese.master.pot` 463-465-qator samiddastanbayev <br>
 
 "translator-credits" javobi kutilmoqda `cheese.master.pot` 487-489-qator samiddastanbayev <br>
+
+"The number of characters that must be typed before Evolution will attempt to autocomplete." javobi kutilmoqda `evolution.gnome-43.pot` 37-40-qator samiddastanbayev <br>
+
+"Whether force showing the mail address with the name of the autocompleted contact in the entry." javobi kutilmoqda `evolution.gnome-43.pot` 47-50-qator samiddastanbayev <br>
