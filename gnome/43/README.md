@@ -54,3 +54,5 @@ Receive flags are not supported javobi kutilmoqda `glib-networking.glib-2-74.pot
 "The number of characters that must be typed before Evolution will attempt to autocomplete." javobi kutilmoqda `evolution.gnome-43.pot` 37-40-qator samiddastanbayev <br>
 
 "Whether force showing the mail address with the name of the autocompleted contact in the entry." javobi kutilmoqda `evolution.gnome-43.pot` 47-50-qator samiddastanbayev <br>
+
+"Whether to show mailing addresses Work in the editor", "Show mailing Other addresses", "Whether to show mailing addresses Other in the editor" javobi kutilmoqda `evolution.gnome-43.pot` 157-167-qator samiddastanbayev <br>
