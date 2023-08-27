@@ -56,7 +56,6 @@ Receive flags are not supported javobi kutilmoqda `glib-networking.glib-2-74.pot
 "Whether force showing the mail address with the name of the autocompleted contact in the entry." javobi kutilmoqda `evolution.gnome-43.pot` 47-50-qator samiddastanbayev <br>
 
 "Whether to show mailing addresses Work in the editor", "Show mailing Other addresses", "Whether to show mailing addresses Other in the editor" javobi kutilmoqda `evolution.gnome-43.pot` 157-167-qator samiddastanbayev <br>
-"Whether force showing the mail address with the name of the autocompleted contact in the entry." javobi kutilmoqda `evolution.gnome-43.pot` 47-50-qator samiddastanbayev <br>
 
 "Toggle to bookmark this location" javobi kutilmoqda `dconf-editor.master.pot` 130-132-qator samiddastanbayev <br>
 
