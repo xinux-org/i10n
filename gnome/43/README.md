@@ -56,3 +56,11 @@ Receive flags are not supported javobi kutilmoqda `glib-networking.glib-2-74.pot
 "Whether force showing the mail address with the name of the autocompleted contact in the entry." javobi kutilmoqda `evolution.gnome-43.pot` 47-50-qator samiddastanbayev <br>
 
 "Whether to show mailing addresses Work in the editor", "Show mailing Other addresses", "Whether to show mailing addresses Other in the editor" javobi kutilmoqda `evolution.gnome-43.pot` 157-167-qator samiddastanbayev <br>
+
+"Toggle to bookmark this location" javobi kutilmoqda `dconf-editor.master.pot` 130-132-qator samiddastanbayev <br>
+
+"If the “restore-view” key is set to “true”, and if the path requested at startup is a parent path of this one, Dconf Editor tries to restore the pathbar state at this path." javobi kutilmoqda `dconf-editor.master.pot` 306-310-qator samiddastanbayev <br>
+
+"Change the behaviour of a key value change request" javobi kutilmoqda `dconf-editor.master.pot` 352-353-qator samiddastanbayev <br>
+
+"The “unsafe” value is discouraged: ..." javobi kutilmoqda `dconf-editor.master.pot` 357-366-qator samiddastanbayev <br>
