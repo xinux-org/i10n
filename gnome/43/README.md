@@ -64,3 +64,7 @@ Receive flags are not supported javobi kutilmoqda `glib-networking.glib-2-74.pot
 "Change the behaviour of a key value change request" javobi kutilmoqda `dconf-editor.master.pot` 352-353-qator samiddastanbayev <br>
 
 "The “unsafe” value is discouraged: ..." javobi kutilmoqda `dconf-editor.master.pot` 357-366-qator samiddastanbayev <br>
+
+"A bytestring, type ‘ay’", "The bytestring type is commonly used ...", "A bytestring array, type ‘aay’", "This is the type of an array of ..." javobi kutilmoqda `dconf-editor.master.pot` 560-580-qator samiddastanbayev <br>
+
+"An object path is used to ..." javobi kutilmoqda `dconf-editor.master.pot` 609-611-qator samiddastanbayev <br>
